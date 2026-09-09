@@ -21,6 +21,8 @@ namespace RUML
         public string DownloadUrl = "";
         public string Description = "";
         public string TargetFolder = "";
+        public string ModFolder = "";
+        public string AuthorFolder = "";
         public bool IsInstalled = false;
         public bool IsTargetModActive = false;
     }
@@ -119,7 +121,7 @@ namespace RUML
             for (int i = 0; i < Items.Count; i++)
             {
                 CloudTranslationItem item = Items[i];
-                string targetDir = Path.Combine(extDir, item.TargetFolder);
+                string targetDir = Path.Combine(Path.Combine(extDir, item.ModFolder), item.AuthorFolder);
                 item.IsInstalled = Directory.Exists(targetDir);
 
                 item.IsTargetModActive = false;
@@ -194,7 +196,8 @@ namespace RUML
 
             ThreadPool.QueueUserWorkItem(delegate(object state)
             {
-                string tempZip = Path.Combine(Path.GetTempPath(), "RUML_" + item.TargetFolder + "_" + Guid.NewGuid().ToString("N") + ".zip");
+                string safeName = (item.ModFolder + "_" + item.AuthorFolder).Replace("/", "_").Replace("\\", "_");
+                string tempZip = Path.Combine(Path.GetTempPath(), "RUML_" + safeName + "_" + Guid.NewGuid().ToString("N") + ".zip");
                 try
                 {
                     ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072 | (SecurityProtocolType)768 | SecurityProtocolType.Tls;
@@ -208,7 +211,8 @@ namespace RUML
                     }
 
                     StatusMessage = "Распаковка перевода в AppData...";
-                    string targetDir = Path.Combine(RUMLFolderManager.GetExternalTranslationsDir(), item.TargetFolder);
+                    string extDir = RUMLFolderManager.GetExternalTranslationsDir();
+                    string targetDir = Path.Combine(Path.Combine(extDir, item.ModFolder), item.AuthorFolder);
 
                     if (Directory.Exists(targetDir))
                     {
@@ -251,15 +255,16 @@ namespace RUML
                     }
                     catch { }
 
-                    // Ensure mod folder is enabled in settings
-                    settings.SetModEnabled(item.TargetFolder, true);
+                    // Ensure mod folder is enabled in settings and this author is selected
+                    settings.SetModEnabled(item.ModFolder, true);
+                    settings.SetSelectedAuthor(item.ModFolder, item.AuthorFolder);
 
                     // Re-apply folder filter and hot-reload language
                     RUMLFolderManager.ApplyFilter(content, settings);
                     RUMLFolderManager.ReloadLanguage();
 
                     item.IsInstalled = true;
-                    StatusMessage = "Перевод " + item.ModName + " успешно сохранён в AppData и активирован!";
+                    StatusMessage = "Перевод " + item.ModName + " от " + item.Author + " успешно сохранён в AppData и активирован!";
                 }
                 catch (Exception ex)
                 {
@@ -288,9 +293,9 @@ namespace RUML
         public static void Uninstall(CloudTranslationItem item, ModContentPack content, RUMLSettings settings)
         {
             if (item == null || content == null) return;
-            RUMLFolderManager.DeleteTranslationFolder(item.TargetFolder, content, settings);
+            RUMLFolderManager.DeleteAuthorTranslation(item.ModFolder, item.AuthorFolder, content, settings);
             item.IsInstalled = false;
-            StatusMessage = "Перевод " + item.ModName + " удалён из AppData.";
+            StatusMessage = "Перевод " + item.ModName + " (" + item.Author + ") удалён из AppData.";
             RefreshLocalState(content);
         }
 
@@ -312,9 +317,11 @@ namespace RUML
             sb.AppendLine("    \"packageId\": \"author.modpackageid\",");
             sb.AppendLine("    \"author\": \"Ваш Nickname\",");
             sb.AppendLine("    \"version\": \"1.0.0\",");
-            sb.AppendLine("    \"downloadUrl\": \"https://raw.githubusercontent.com/USER/REPO/main/packs/ModName.zip\",");
+            sb.AppendLine("    \"downloadUrl\": \"https://raw.githubusercontent.com/USER/REPO/main/packs/ModName/Author/ModName.zip\",");
             sb.AppendLine("    \"description\": \"Описание перевода, версия мода и примечания\",");
-            sb.AppendLine("    \"targetFolder\": \"ModFolderName\"");
+            sb.AppendLine("    \"modFolder\": \"ModFolder\",");
+            sb.AppendLine("    \"authorFolder\": \"AuthorFolder\",");
+            sb.AppendLine("    \"targetFolder\": \"ModFolder/AuthorFolder\"");
             sb.AppendLine("  }");
             sb.AppendLine("]");
 
@@ -345,10 +352,18 @@ namespace RUML
                 item.DownloadUrl = ExtractJsonField(block, "downloadUrl");
                 item.Description = ExtractJsonField(block, "description");
                 item.TargetFolder = ExtractJsonField(block, "targetFolder");
+                item.ModFolder = ExtractJsonField(block, "modFolder");
+                item.AuthorFolder = ExtractJsonField(block, "authorFolder");
+
+                if (string.IsNullOrEmpty(item.ModFolder)) item.ModFolder = item.ModName;
+                if (string.IsNullOrEmpty(item.AuthorFolder)) item.AuthorFolder = item.Author;
+                if (string.IsNullOrEmpty(item.TargetFolder))
+                {
+                    item.TargetFolder = item.ModFolder + "/" + item.AuthorFolder;
+                }
 
                 if (!string.IsNullOrEmpty(item.ModName) && !string.IsNullOrEmpty(item.DownloadUrl))
                 {
-                    if (string.IsNullOrEmpty(item.TargetFolder)) item.TargetFolder = item.Id;
                     list.Add(item);
                 }
 

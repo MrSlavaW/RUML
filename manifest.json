@@ -6,9 +6,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaAnimals_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaAnimals/MrSlavaV/AlphaAnimals.zip",
     "description": "Русская локализация для мода AlphaAnimals.",
-    "targetFolder": "AlphaAnimals_Russian_MrSlavaV"
+    "modFolder": "AlphaAnimals",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "AlphaAnimals/MrSlavaV"
   },
   {
     "id": "alphaarmoury_russian_mrslavav",
@@ -17,9 +19,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaArmoury_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaArmoury/MrSlavaV/AlphaArmoury.zip",
     "description": "Русская локализация для мода AlphaArmoury.",
-    "targetFolder": "AlphaArmoury_Russian_MrSlavaV"
+    "modFolder": "AlphaArmoury",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "AlphaArmoury/MrSlavaV"
   },
   {
     "id": "alphabiomes_russian_mrslavav",
@@ -28,9 +32,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaBiomes_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaBiomes/MrSlavaV/AlphaBiomes.zip",
     "description": "Русская локализация для мода AlphaBiomes.",
-    "targetFolder": "AlphaBiomes_Russian_MrSlavaV"
+    "modFolder": "AlphaBiomes",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "AlphaBiomes/MrSlavaV"
   },
   {
     "id": "alphagenes_russian_mrslavav",
@@ -39,9 +45,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaGenes_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaGenes/MrSlavaV/AlphaGenes.zip",
     "description": "Русская локализация для мода AlphaGenes.",
-    "targetFolder": "AlphaGenes_Russian_MrSlavaV"
+    "modFolder": "AlphaGenes",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "AlphaGenes/MrSlavaV"
   },
   {
     "id": "alphagenesintegrated_russian_mrslavav",
@@ -50,9 +58,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaGenesIntegrated_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaGenesIntegrated/MrSlavaV/AlphaGenesIntegrated.zip",
     "description": "Русская локализация для мода AlphaGenesIntegrated.",
-    "targetFolder": "AlphaGenesIntegrated_Russian_MrSlavaV"
+    "modFolder": "AlphaGenesIntegrated",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "AlphaGenesIntegrated/MrSlavaV"
   },
   {
     "id": "alphamechs_russian_mrslavav",
@@ -61,9 +71,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaMechs_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaMechs/MrSlavaV/AlphaMechs.zip",
     "description": "Русская локализация для мода AlphaMechs.",
-    "targetFolder": "AlphaMechs_Russian_MrSlavaV"
+    "modFolder": "AlphaMechs",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "AlphaMechs/MrSlavaV"
   },
   {
     "id": "alphamemes_russian_mrslavav",
@@ -72,9 +84,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaMemes_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaMemes/MrSlavaV/AlphaMemes.zip",
     "description": "Русская локализация для мода AlphaMemes.",
-    "targetFolder": "AlphaMemes_Russian_MrSlavaV"
+    "modFolder": "AlphaMemes",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "AlphaMemes/MrSlavaV"
   },
   {
     "id": "alpharandom_russian_mrslavav",
@@ -83,9 +97,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaRandom_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaRandom/MrSlavaV/AlphaRandom.zip",
     "description": "Русская локализация для мода AlphaRandom.",
-    "targetFolder": "AlphaRandom_Russian_MrSlavaV"
+    "modFolder": "AlphaRandom",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "AlphaRandom/MrSlavaV"
   },
   {
     "id": "archotechexpanded_russian_mrslavav",
@@ -94,9 +110,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/ArchotechExpanded_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/ArchotechExpanded/MrSlavaV/ArchotechExpanded.zip",
     "description": "Русская локализация для мода ArchotechExpanded.",
-    "targetFolder": "ArchotechExpanded_Russian_MrSlavaV"
+    "modFolder": "ArchotechExpanded",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "ArchotechExpanded/MrSlavaV"
   },
   {
     "id": "catsbootsandgloves_russian_mrslavav",
@@ -105,9 +123,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/CatsBootsAndGloves_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/CatsBootsAndGloves/MrSlavaV/CatsBootsAndGloves.zip",
     "description": "Русская локализация для мода CatsBootsAndGloves.",
-    "targetFolder": "CatsBootsAndGloves_Russian_MrSlavaV"
+    "modFolder": "CatsBootsAndGloves",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "CatsBootsAndGloves/MrSlavaV"
   },
   {
     "id": "epoe_modularcompat_russian_mrslavav",
@@ -116,9 +136,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/EPOE_ModularCompat_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/EPOE_ModularCompat/MrSlavaV/EPOE_ModularCompat.zip",
     "description": "Русская локализация для мода EPOE_ModularCompat.",
-    "targetFolder": "EPOE_ModularCompat_Russian_MrSlavaV"
+    "modFolder": "EPOE_ModularCompat",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "EPOE_ModularCompat/MrSlavaV"
   },
   {
     "id": "epoe_royalty_russian_mrslavav",
@@ -127,9 +149,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/EPOE_Royalty_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/EPOE_Royalty/MrSlavaV/EPOE_Royalty.zip",
     "description": "Русская локализация для мода EPOE_Royalty.",
-    "targetFolder": "EPOE_Royalty_Russian_MrSlavaV"
+    "modFolder": "EPOE_Royalty",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "EPOE_Royalty/MrSlavaV"
   },
   {
     "id": "geneextractortiers_russian_mrslavav",
@@ -138,9 +162,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/GeneExtractorTiers_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/GeneExtractorTiers/MrSlavaV/GeneExtractorTiers.zip",
     "description": "Русская локализация для мода GeneExtractorTiers.",
-    "targetFolder": "GeneExtractorTiers_Russian_MrSlavaV"
+    "modFolder": "GeneExtractorTiers",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "GeneExtractorTiers/MrSlavaV"
   },
   {
     "id": "infocardplus_russian_mrslavav",
@@ -149,9 +175,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/InfoCardPlus_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/InfoCardPlus/MrSlavaV/InfoCardPlus.zip",
     "description": "Русская локализация для мода InfoCardPlus.",
-    "targetFolder": "InfoCardPlus_Russian_MrSlavaV"
+    "modFolder": "InfoCardPlus",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "InfoCardPlus/MrSlavaV"
   },
   {
     "id": "kabouterxenotype_russian_mrslavav",
@@ -160,9 +188,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/KabouterXenotype_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/KabouterXenotype/MrSlavaV/KabouterXenotype.zip",
     "description": "Русская локализация для мода KabouterXenotype.",
-    "targetFolder": "KabouterXenotype_Russian_MrSlavaV"
+    "modFolder": "KabouterXenotype",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "KabouterXenotype/MrSlavaV"
   },
   {
     "id": "moregroupedbuildings_russian_mrslavav",
@@ -171,9 +201,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/MoreGroupedBuildings_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/MoreGroupedBuildings/MrSlavaV/MoreGroupedBuildings.zip",
     "description": "Русская локализация для мода MoreGroupedBuildings.",
-    "targetFolder": "MoreGroupedBuildings_Russian_MrSlavaV"
+    "modFolder": "MoreGroupedBuildings",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "MoreGroupedBuildings/MrSlavaV"
   },
   {
     "id": "plasmashieldimplant_russian_mrslavav",
@@ -182,9 +214,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/PlasmaShieldImplant_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/PlasmaShieldImplant/MrSlavaV/PlasmaShieldImplant.zip",
     "description": "Русская локализация для мода PlasmaShieldImplant.",
-    "targetFolder": "PlasmaShieldImplant_Russian_MrSlavaV"
+    "modFolder": "PlasmaShieldImplant",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "PlasmaShieldImplant/MrSlavaV"
   },
   {
     "id": "psycasts2_russian_mrslavav",
@@ -193,9 +227,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/Psycasts2_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/Psycasts2/MrSlavaV/Psycasts2.zip",
     "description": "Русская локализация для мода Psycasts2.",
-    "targetFolder": "Psycasts2_Russian_MrSlavaV"
+    "modFolder": "Psycasts2",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "Psycasts2/MrSlavaV"
   },
   {
     "id": "rebuilddoorscorners_russian_mrslavav",
@@ -204,9 +240,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/RebuildDoorsCorners_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/RebuildDoorsCorners/MrSlavaV/RebuildDoorsCorners.zip",
     "description": "Русская локализация для мода RebuildDoorsCorners.",
-    "targetFolder": "RebuildDoorsCorners_Russian_MrSlavaV"
+    "modFolder": "RebuildDoorsCorners",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "RebuildDoorsCorners/MrSlavaV"
   },
   {
     "id": "reelsstorage_russian_mrslavav",
@@ -215,9 +253,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/ReelsStorage_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/ReelsStorage/MrSlavaV/ReelsStorage.zip",
     "description": "Русская локализация для мода ReelsStorage.",
-    "targetFolder": "ReelsStorage_Russian_MrSlavaV"
+    "modFolder": "ReelsStorage",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "ReelsStorage/MrSlavaV"
   },
   {
     "id": "regrowthaspen_russian_mrslavav",
@@ -226,9 +266,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/RegrowthAspen_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/RegrowthAspen/MrSlavaV/RegrowthAspen.zip",
     "description": "Русская локализация для мода RegrowthAspen.",
-    "targetFolder": "RegrowthAspen_Russian_MrSlavaV"
+    "modFolder": "RegrowthAspen",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "RegrowthAspen/MrSlavaV"
   },
   {
     "id": "resplicecore_russian_mrslavav",
@@ -237,9 +279,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/RespliceCore_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/RespliceCore/MrSlavaV/RespliceCore.zip",
     "description": "Русская локализация для мода RespliceCore.",
-    "targetFolder": "RespliceCore_Russian_MrSlavaV"
+    "modFolder": "RespliceCore",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "RespliceCore/MrSlavaV"
   },
   {
     "id": "sbzfridge_russian_mrslavav",
@@ -248,9 +292,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/SbzFridge_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/SbzFridge/MrSlavaV/SbzFridge.zip",
     "description": "Русская локализация для мода SbzFridge.",
-    "targetFolder": "SbzFridge_Russian_MrSlavaV"
+    "modFolder": "SbzFridge",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "SbzFridge/MrSlavaV"
   },
   {
     "id": "sbzgravshipstorage_russian_mrslavav",
@@ -259,9 +305,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/SbzGravshipStorage_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/SbzGravshipStorage/MrSlavaV/SbzGravshipStorage.zip",
     "description": "Русская локализация для мода SbzGravshipStorage.",
-    "targetFolder": "SbzGravshipStorage_Russian_MrSlavaV"
+    "modFolder": "SbzGravshipStorage",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "SbzGravshipStorage/MrSlavaV"
   },
   {
     "id": "simplesidearms_russian_mrslavav",
@@ -270,9 +318,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/SimpleSidearms_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/SimpleSidearms/MrSlavaV/SimpleSidearms.zip",
     "description": "Русская локализация для мода SimpleSidearms.",
-    "targetFolder": "SimpleSidearms_Russian_MrSlavaV"
+    "modFolder": "SimpleSidearms",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "SimpleSidearms/MrSlavaV"
   },
   {
     "id": "toomanymods_russian_mrslavav",
@@ -281,9 +331,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/TooManyMods_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/TooManyMods/MrSlavaV/TooManyMods.zip",
     "description": "Русская локализация для мода TooManyMods.",
-    "targetFolder": "TooManyMods_Russian_MrSlavaV"
+    "modFolder": "TooManyMods",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "TooManyMods/MrSlavaV"
   },
   {
     "id": "vanometricgenerator_russian_mrslavav",
@@ -292,9 +344,11 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/VanometricGenerator_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/VanometricGenerator/MrSlavaV/VanometricGenerator.zip",
     "description": "Русская локализация для мода VanometricGenerator.",
-    "targetFolder": "VanometricGenerator_Russian_MrSlavaV"
+    "modFolder": "VanometricGenerator",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "VanometricGenerator/MrSlavaV"
   },
   {
     "id": "voe_factory_russian_mrslavav",
@@ -303,8 +357,10 @@
     "author": "MrSlavaV",
     "language": "Russian",
     "version": "1.0.0",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/VOE_Factory_Russian_MrSlavaV.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/VOE_Factory/MrSlavaV/VOE_Factory.zip",
     "description": "Русская локализация для мода VOE_Factory.",
-    "targetFolder": "VOE_Factory_Russian_MrSlavaV"
+    "modFolder": "VOE_Factory",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "VOE_Factory/MrSlavaV"
   }
 ]

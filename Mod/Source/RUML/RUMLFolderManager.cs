@@ -7,6 +7,12 @@ using Verse;
 
 namespace RUML
 {
+    public class InstalledModItem
+    {
+        public string ModFolder;
+        public List<string> Authors = new List<string>();
+    }
+
     public static class RUMLFolderManager
     {
         private static List<string> originalFolders = null;
@@ -58,90 +64,174 @@ namespace RUML
             ApplyFilter(content, settings);
         }
 
+        public static List<InstalledModItem> GetAllInstalledMods()
+        {
+            List<InstalledModItem> list = new List<InstalledModItem>();
+            try
+            {
+                string extDir = GetExternalTranslationsDir();
+                if (!Directory.Exists(extDir)) return list;
+
+                string[] modDirs = Directory.GetDirectories(extDir);
+                for (int i = 0; i < modDirs.Length; i++)
+                {
+                    string modPath = modDirs[i];
+                    string modName = Path.GetFileName(modPath);
+
+                    // Auto-migration: if old flat structure (modPath/Languages exists)
+                    string oldLang = Path.Combine(modPath, "Languages");
+                    if (Directory.Exists(oldLang))
+                    {
+                        string author = "MrSlavaV";
+                        string infoFile = Path.Combine(modPath, "info.json");
+                        if (File.Exists(infoFile))
+                        {
+                            try
+                            {
+                                string text = File.ReadAllText(infoFile);
+                                int aIdx = text.IndexOf("\"author\"", StringComparison.OrdinalIgnoreCase);
+                                if (aIdx >= 0)
+                                {
+                                    int colon = text.IndexOf(':', aIdx);
+                                    int q1 = text.IndexOf('"', colon + 1);
+                                    int q2 = text.IndexOf('"', q1 + 1);
+                                    if (q1 >= 0 && q2 > q1)
+                                    {
+                                        author = text.Substring(q1 + 1, q2 - q1 - 1).Trim();
+                                    }
+                                }
+                            }
+                            catch { }
+                        }
+                        try
+                        {
+                            string targetAuthorDir = Path.Combine(modPath, author);
+                            Directory.CreateDirectory(targetAuthorDir);
+                            string newLang = Path.Combine(targetAuthorDir, "Languages");
+                            if (Directory.Exists(newLang)) Directory.Delete(newLang, true);
+                            Directory.Move(oldLang, newLang);
+                            if (File.Exists(infoFile))
+                            {
+                                string newInfo = Path.Combine(targetAuthorDir, "info.json");
+                                if (File.Exists(newInfo)) File.Delete(newInfo);
+                                File.Move(infoFile, newInfo);
+                            }
+                        }
+                        catch (Exception mex)
+                        {
+                            Log.Warning("[RUML] Failed to auto-migrate flat folder " + modName + ": " + mex);
+                        }
+                    }
+
+                    // Scan author directories inside modPath
+                    InstalledModItem item = new InstalledModItem();
+                    item.ModFolder = modName;
+                    string[] authorDirs = Directory.GetDirectories(modPath);
+                    for (int a = 0; a < authorDirs.Length; a++)
+                    {
+                        string aDir = authorDirs[a];
+                        string aName = Path.GetFileName(aDir);
+                        if (Directory.Exists(Path.Combine(aDir, "Languages")))
+                        {
+                            item.Authors.Add(aName);
+                        }
+                    }
+
+                    if (item.Authors.Count > 0)
+                    {
+                        item.Authors.Sort(StringComparer.OrdinalIgnoreCase);
+                        list.Add(item);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Error("[RUML] Failed to scan installed translations: " + ex);
+            }
+
+            list.Sort(delegate(InstalledModItem a, InstalledModItem b)
+            {
+                return string.Compare(a.ModFolder, b.ModFolder, StringComparison.OrdinalIgnoreCase);
+            });
+            return list;
+        }
+
+        public static List<string> GetAllDiscoveredModFolders(ModContentPack content)
+        {
+            List<InstalledModItem> installed = GetAllInstalledMods();
+            List<string> result = new List<string>();
+            for (int i = 0; i < installed.Count; i++)
+            {
+                result.Add(installed[i].ModFolder);
+            }
+            return result;
+        }
+
         public static void ApplyFilter(ModContentPack content, RUMLSettings settings)
         {
-            if (content == null || originalFolders == null) return;
+            if (content == null) return;
 
             FieldInfo field = typeof(ModContentPack).GetField("foldersToLoadDescendingOrder", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
             if (field == null) return;
 
-            // 1. Discover built-in translation folders in Mods/
-            try
-            {
-                string modsDir = Path.Combine(content.RootDir, "Mods");
-                if (Directory.Exists(modsDir))
-                {
-                    string[] subDirs = Directory.GetDirectories(modsDir);
-                    for (int i = 0; i < subDirs.Length; i++)
-                    {
-                        string dir = subDirs[i];
-                        bool exists = false;
-                        for (int j = 0; j < originalFolders.Count; j++)
-                        {
-                            if (string.Equals(originalFolders[j], dir, StringComparison.OrdinalIgnoreCase))
-                            {
-                                exists = true;
-                                break;
-                            }
-                        }
-                        if (!exists)
-                        {
-                            originalFolders.Add(dir);
-                        }
-                    }
-                }
-            }
-            catch { }
+            List<string> currentFolders = field.GetValue(content) as List<string>;
+            if (currentFolders == null) return;
 
-            // 2. Discover external translation folders in AppData RUML_Translations/
-            try
+            if (originalFolders == null)
             {
-                string extDir = GetExternalTranslationsDir();
-                if (Directory.Exists(extDir))
-                {
-                    string[] extSubDirs = Directory.GetDirectories(extDir);
-                    for (int i = 0; i < extSubDirs.Length; i++)
-                    {
-                        string dir = extSubDirs[i];
-                        bool exists = false;
-                        for (int j = 0; j < originalFolders.Count; j++)
-                        {
-                            if (string.Equals(originalFolders[j], dir, StringComparison.OrdinalIgnoreCase))
-                            {
-                                exists = true;
-                                break;
-                            }
-                        }
-                        if (!exists)
-                        {
-                            originalFolders.Add(dir);
-                        }
-                    }
-                }
+                originalFolders = new List<string>(currentFolders);
             }
-            catch { }
 
+            // Always keep core mod root folder
             List<string> filtered = new List<string>();
             foreach (string folder in originalFolders)
             {
                 string norm = folder.Replace('\\', '/');
-                string sub = GetSubfolderName(norm);
-
-                if (string.IsNullOrEmpty(sub) || settings.IsModEnabled(sub))
+                if (norm.IndexOf("/RUML_Translations/", StringComparison.OrdinalIgnoreCase) < 0 &&
+                    norm.IndexOf("/Mods/", StringComparison.OrdinalIgnoreCase) < 0)
                 {
                     filtered.Add(folder);
                 }
             }
 
+            // Add active author folder for each enabled mod
+            List<InstalledModItem> installed = GetAllInstalledMods();
+            string extDir = GetExternalTranslationsDir();
+            for (int i = 0; i < installed.Count; i++)
+            {
+                InstalledModItem item = installed[i];
+                if (settings.IsModEnabled(item.ModFolder))
+                {
+                    string author = settings.GetSelectedAuthor(item.ModFolder);
+                    if (string.IsNullOrEmpty(author) || !item.Authors.Contains(author))
+                    {
+                        if (item.Authors.Count > 0)
+                        {
+                            author = item.Authors[0];
+                            settings.SetSelectedAuthor(item.ModFolder, author);
+                        }
+                    }
+
+                    if (!string.IsNullOrEmpty(author))
+                    {
+                        string targetPath = Path.Combine(Path.Combine(extDir, item.ModFolder), author);
+                        if (Directory.Exists(targetPath))
+                        {
+                            filtered.Add(targetPath);
+                        }
+                    }
+                }
+            }
+
             field.SetValue(content, filtered);
-            Log.Message("[RUML] Applied active translation filter: " + filtered.Count + " / " + originalFolders.Count + " folders active.");
+            Log.Message("[RUML] Applied active translation filter: " + filtered.Count + " folders active.");
         }
 
         public static string GetSubfolderName(string path)
         {
             string norm = path.Replace('\\', '/');
 
-            // Check external AppData path first
+            // Check external AppData path: /RUML_Translations/<ModFolder>/<Author>
             int extIdx = norm.LastIndexOf("/RUML_Translations/", StringComparison.OrdinalIgnoreCase);
             if (extIdx >= 0)
             {
@@ -167,53 +257,47 @@ namespace RUML
             return null;
         }
 
-        public static List<string> GetAllDiscoveredModFolders(ModContentPack content)
+        public static bool DeleteAuthorTranslation(string modFolder, string author, ModContentPack content, RUMLSettings settings)
         {
-            List<string> result = new List<string>();
-
-            // Built-in folders
-            if (content != null)
-            {
-                try
-                {
-                    string modsDir = Path.Combine(content.RootDir, "Mods");
-                    if (Directory.Exists(modsDir))
-                    {
-                        string[] subDirs = Directory.GetDirectories(modsDir);
-                        for (int i = 0; i < subDirs.Length; i++)
-                        {
-                            string subName = Path.GetFileName(subDirs[i]);
-                            if (!string.IsNullOrEmpty(subName) && !result.Contains(subName))
-                            {
-                                result.Add(subName);
-                            }
-                        }
-                    }
-                }
-                catch { }
-            }
-
-            // External AppData folders
+            if (string.IsNullOrEmpty(modFolder) || string.IsNullOrEmpty(author)) return false;
+            bool deleted = false;
             try
             {
                 string extDir = GetExternalTranslationsDir();
-                if (Directory.Exists(extDir))
+                string authorDir = Path.Combine(Path.Combine(extDir, modFolder), author);
+                if (Directory.Exists(authorDir))
                 {
-                    string[] extSubDirs = Directory.GetDirectories(extDir);
-                    for (int i = 0; i < extSubDirs.Length; i++)
+                    Directory.Delete(authorDir, true);
+                    deleted = true;
+                }
+
+                // Check remaining authors in modFolder
+                string modDir = Path.Combine(extDir, modFolder);
+                if (Directory.Exists(modDir))
+                {
+                    string[] remaining = Directory.GetDirectories(modDir);
+                    if (remaining.Length > 0)
                     {
-                        string subName = Path.GetFileName(extSubDirs[i]);
-                        if (!string.IsNullOrEmpty(subName) && !result.Contains(subName))
-                        {
-                            result.Add(subName);
-                        }
+                        string nextAuthor = Path.GetFileName(remaining[0]);
+                        settings.SetSelectedAuthor(modFolder, nextAuthor);
+                    }
+                    else
+                    {
+                        try { Directory.Delete(modDir, true); } catch { }
+                        settings.SetModEnabled(modFolder, false);
                     }
                 }
-            }
-            catch { }
 
-            result.Sort(StringComparer.OrdinalIgnoreCase);
-            return result;
+                ApplyFilter(content, settings);
+                ReloadLanguage();
+                Messages.Message("RUML: Перевод для " + modFolder + " (" + author + ") успешно удалён!", MessageTypeDefOf.PositiveEvent, false);
+            }
+            catch (Exception ex)
+            {
+                Log.Error("[RUML] Failed to delete author translation: " + ex);
+                Messages.Message("RUML: Ошибка удаления: " + ex.Message, MessageTypeDefOf.RejectInput, false);
+            }
+            return deleted;
         }
 
         public static bool DeleteTranslationFolder(string modFolder, ModContentPack content, RUMLSettings settings)
@@ -222,7 +306,6 @@ namespace RUML
             bool deleted = false;
             try
             {
-                // Check external AppData directory
                 string extDir = Path.Combine(GetExternalTranslationsDir(), modFolder);
                 if (Directory.Exists(extDir))
                 {
@@ -230,19 +313,10 @@ namespace RUML
                     deleted = true;
                 }
 
-                // If in originalFolders, clean it up
-                if (originalFolders != null)
-                {
-                    originalFolders.RemoveAll(delegate(string p)
-                    {
-                        return string.Equals(GetSubfolderName(p), modFolder, StringComparison.OrdinalIgnoreCase);
-                    });
-                }
-
                 settings.SetModEnabled(modFolder, false);
                 ApplyFilter(content, settings);
                 ReloadLanguage();
-                Messages.Message("RUML: Перевод для " + modFolder + " успешно удалён!", MessageTypeDefOf.PositiveEvent, false);
+                Messages.Message("RUML: Все переводы для " + modFolder + " успешно удалены!", MessageTypeDefOf.PositiveEvent, false);
             }
             catch (Exception ex)
             {

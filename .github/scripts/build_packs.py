@@ -80,24 +80,32 @@ def build():
                 
                 # Unique identifier and archive filename
                 entry_id = f"{clean_id(mod_name)}_{clean_id(lang_name)}_{clean_id(author_name)}"
-                archive_name = f"{mod_name}_{lang_name}_{author_name}.zip".replace(" ", "_")
-                archive_path = PACKS_DIR / archive_name
+                
+                # Hierarchical archive path: packs/<ModName>/<Author>/<ModName>.zip
+                mod_author_pack_dir = PACKS_DIR / mod_name / author_name
+                mod_author_pack_dir.mkdir(parents=True, exist_ok=True)
+                archive_filename = f"{mod_name}.zip".replace(" ", "_")
+                archive_path = mod_author_pack_dir / archive_filename
 
-                # Target folder in RimWorld RUML_Translations
-                target_folder = f"{mod_name}_{lang_name}_{author_name}".replace(" ", "_")
+                # Target folder in RimWorld RUML_Translations: <ModName>/<Author>
+                target_folder = f"{mod_name}/{author_name}"
 
-                print(f"Packing [{mod_name}] -> {lang_name} by {author_name} into {archive_name}...")
+                print(f"Packing [{mod_name}] -> {lang_name} by {author_name} into {mod_name}/{author_name}/{archive_filename}...")
 
-                # Pack into zip ensuring valid RimWorld Languages structure
+                # Pack into zip ensuring valid RimWorld Languages structure + info.json
                 has_languages_dir = (author_dir / "Languages").exists()
                 
                 with zipfile.ZipFile(archive_path, "w", zipfile.ZIP_DEFLATED) as zf:
                     for root, dirs, files in os.walk(author_dir):
                         for f in files:
-                            if f == "info.json" or f.startswith("."):
+                            if f.startswith("."):
                                 continue
                             file_path = Path(root) / f
                             rel_path = file_path.relative_to(author_dir)
+
+                            if f == "info.json":
+                                zf.write(file_path, "info.json")
+                                continue
 
                             if has_languages_dir:
                                 # Archive as-is
@@ -109,7 +117,8 @@ def build():
                             zf.write(file_path, arc_name)
 
                 # Add to manifest
-                download_url = f"{base_url}/packs/{archive_name}"
+                rel_url = f"packs/{mod_name}/{author_name}/{archive_filename}".replace(" ", "%20")
+                download_url = f"{base_url}/{rel_url}"
                 manifest.append({
                     "id": entry_id,
                     "modName": mod_name,
@@ -119,6 +128,8 @@ def build():
                     "version": version,
                     "downloadUrl": download_url,
                     "description": description,
+                    "modFolder": mod_name,
+                    "authorFolder": author_name,
                     "targetFolder": target_folder
                 })
 

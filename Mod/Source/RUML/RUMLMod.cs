@@ -174,8 +174,8 @@ namespace RUML
         // =========================================================================
         private void DrawModsTab(Rect inRect)
         {
-            List<string> allFolders = RUMLFolderManager.GetAllDiscoveredModFolders(Content);
-            if (allFolders.Count == 0)
+            List<InstalledModItem> allMods = RUMLFolderManager.GetAllInstalledMods();
+            if (allMods.Count == 0)
             {
                 Rect infoRect = new Rect(inRect.x + 10f, inRect.y + 20f, inRect.width - 20f, 65f);
                 Widgets.Label(infoRect, "Локализации ещё не установлены в RUML.\nRUML работает как автономное ядро. Вы можете скачать нужные переводы во вкладке «Сторонние переводы (GitHub)».");
@@ -204,11 +204,15 @@ namespace RUML
 
             if (Widgets.ButtonText(new Rect(searchRect.xMax + 10f, topRect.y, btnW, 30f), "Включить все"))
             {
-                foreach (string m in allFolders) Settings.SetModEnabled(m, true);
+                foreach (InstalledModItem m in allMods) Settings.SetModEnabled(m.ModFolder, true);
+                RUMLFolderManager.ApplyFilter(Content, Settings);
+                RUMLFolderManager.ReloadLanguage();
             }
             if (Widgets.ButtonText(new Rect(searchRect.xMax + btnW + 20f, topRect.y, btnW, 30f), "Отключить все"))
             {
-                foreach (string m in allFolders) Settings.SetModEnabled(m, false);
+                foreach (InstalledModItem m in allMods) Settings.SetModEnabled(m.ModFolder, false);
+                RUMLFolderManager.ApplyFilter(Content, Settings);
+                RUMLFolderManager.ReloadLanguage();
             }
 
             // Row 2: Open AppData folder button
@@ -219,54 +223,89 @@ namespace RUML
             }
             TooltipHandler.TipRegion(openDirRect, RUMLFolderManager.GetExternalTranslationsDir());
 
-            // Scrollable Checkbox List
-            Rect listRect = new Rect(inRect.x, inRect.y + 66f, inRect.width, inRect.height - 116f);
-            List<string> filtered = new List<string>();
-            foreach (string folder in allFolders)
+            // Scrollable List
+            Rect listRect = new Rect(inRect.x, inRect.y + 72f, inRect.width, inRect.height - 120f);
+            List<InstalledModItem> filtered = new List<InstalledModItem>();
+            foreach (InstalledModItem m in allMods)
             {
-                if (string.IsNullOrEmpty(modsSearchFilter) || folder.IndexOf(modsSearchFilter, StringComparison.OrdinalIgnoreCase) >= 0)
+                if (string.IsNullOrEmpty(modsSearchFilter) || m.ModFolder.IndexOf(modsSearchFilter, StringComparison.OrdinalIgnoreCase) >= 0)
                 {
-                    filtered.Add(folder);
+                    filtered.Add(m);
                 }
             }
 
-            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, filtered.Count * 36f);
+            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, filtered.Count * 40f);
             Widgets.BeginScrollView(listRect, ref modsScrollPos, viewRect);
 
             float curY = 0f;
-            foreach (string modFolder in filtered)
+            foreach (InstalledModItem item in filtered)
             {
+                string modFolder = item.ModFolder;
                 bool isEnabled = Settings.IsModEnabled(modFolder);
-                bool isExternal = RUMLFolderManager.IsExternalModFolder(modFolder);
 
-                Rect rowRect = new Rect(0f, curY, viewRect.width, 32f);
+                string activeAuthor = Settings.GetSelectedAuthor(modFolder);
+                if (string.IsNullOrEmpty(activeAuthor) || !item.Authors.Contains(activeAuthor))
+                {
+                    activeAuthor = item.Authors.Count > 0 ? item.Authors[0] : "";
+                    Settings.SetSelectedAuthor(modFolder, activeAuthor);
+                }
+
+                Rect rowRect = new Rect(0f, curY, viewRect.width, 36f);
                 Widgets.DrawHighlightIfMouseover(rowRect);
 
-                float labelW = isExternal ? (viewRect.width - 100f) : viewRect.width;
-                Rect checkRect = new Rect(0f, curY, labelW, 32f);
-
-                string tag = isExternal ? " <color=#FFA030>[AppData]</color>" : "";
+                // Left: Checkbox + ModName
+                float checkW = Math.Max(260f, viewRect.width - 320f);
+                Rect checkRect = new Rect(0f, curY + 2f, checkW, 32f);
                 bool newCheck = isEnabled;
-                Widgets.CheckboxLabeled(checkRect, "  " + modFolder + tag, ref newCheck);
+                Widgets.CheckboxLabeled(checkRect, "  " + modFolder, ref newCheck);
                 if (newCheck != isEnabled)
                 {
                     Settings.SetModEnabled(modFolder, newCheck);
+                    RUMLFolderManager.ApplyFilter(Content, Settings);
+                    RUMLFolderManager.ReloadLanguage();
                 }
 
-                // Delete button for external translations in AppData
-                if (isExternal)
+                // Middle: Author Selector Button or Single Author Badge
+                Rect authorRect = new Rect(checkRect.xMax + 10f, curY + 4f, 190f, 28f);
+                if (item.Authors.Count > 1)
                 {
-                    Rect delBtnRect = new Rect(viewRect.width - 95f, curY + 2f, 90f, 28f);
-                    Color prevCol = GUI.color;
-                    GUI.color = new Color(1f, 0.4f, 0.4f, 1f);
-                    if (Widgets.ButtonText(delBtnRect, "Удалить"))
+                    string authBtnLabel = activeAuthor + " (" + item.Authors.Count + " авт.) ▼";
+                    if (Widgets.ButtonText(authorRect, authBtnLabel))
                     {
-                        RUMLFolderManager.DeleteTranslationFolder(modFolder, Content, Settings);
+                        List<FloatMenuOption> authOpts = new List<FloatMenuOption>();
+                        for (int a = 0; a < item.Authors.Count; a++)
+                        {
+                            string aName = item.Authors[a];
+                            string optLabel = aName + (string.Equals(aName, activeAuthor, StringComparison.OrdinalIgnoreCase) ? " [Активен]" : "");
+                            authOpts.Add(new FloatMenuOption(optLabel, delegate()
+                            {
+                                Settings.SetSelectedAuthor(modFolder, aName);
+                                RUMLFolderManager.ApplyFilter(Content, Settings);
+                                RUMLFolderManager.ReloadLanguage();
+                            }));
+                        }
+                        Find.WindowStack.Add(new FloatMenu(authOpts));
                     }
-                    GUI.color = prevCol;
+                    TooltipHandler.TipRegion(authorRect, "Нажмите для переключения активного автора перевода на лету");
+                }
+                else if (item.Authors.Count == 1)
+                {
+                    string authorLabel = "<color=#40E0D0>Автор: " + item.Authors[0] + "</color>";
+                    Widgets.Label(new Rect(authorRect.x, authorRect.y + 4f, authorRect.width, 24f), authorLabel);
                 }
 
-                curY += 36f;
+                // Right: Delete button
+                Rect delBtnRect = new Rect(viewRect.width - 95f, curY + 4f, 90f, 28f);
+                Color prevCol = GUI.color;
+                GUI.color = new Color(1f, 0.4f, 0.4f, 1f);
+                if (Widgets.ButtonText(delBtnRect, "Удалить"))
+                {
+                    RUMLFolderManager.DeleteAuthorTranslation(modFolder, activeAuthor, Content, Settings);
+                }
+                GUI.color = prevCol;
+                TooltipHandler.TipRegion(delBtnRect, "Удалить установленный перевод от автора " + activeAuthor);
+
+                curY += 40f;
             }
 
             Widgets.EndScrollView();

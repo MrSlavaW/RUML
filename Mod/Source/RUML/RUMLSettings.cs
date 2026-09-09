@@ -9,12 +9,38 @@ namespace RUML
         // Translation folder toggles (for built-in RUML mods)
         public Dictionary<string, bool> modStates = new Dictionary<string, bool>();
 
+        // Selected active author for each mod: modFolder -> authorName
+        public Dictionary<string, string> selectedAuthors = new Dictionary<string, string>();
+
         // Selected packageIds for translation audit
         public HashSet<string> auditSelectedPackageIds = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         public bool auditInitialized = false;
 
         // GitHub Cloud Translations configuration
         public string cloudManifestUrl = "https://raw.githubusercontent.com/MrSlavaW/RUML/main/manifest.json";
+
+        public string GetSelectedAuthor(string modFolder)
+        {
+            if (selectedAuthors == null)
+            {
+                selectedAuthors = new Dictionary<string, string>();
+            }
+            string author;
+            if (selectedAuthors.TryGetValue(modFolder, out author))
+            {
+                return author;
+            }
+            return null;
+        }
+
+        public void SetSelectedAuthor(string modFolder, string author)
+        {
+            if (selectedAuthors == null)
+            {
+                selectedAuthors = new Dictionary<string, string>();
+            }
+            selectedAuthors[modFolder] = author;
+        }
 
         public bool IsModEnabled(string modFolder)
         {
@@ -108,6 +134,12 @@ namespace RUML
             if (modStates == null)
             {
                 modStates = new Dictionary<string, bool>();
+            }
+
+            Scribe_Collections.Look(ref selectedAuthors, "selectedAuthors", LookMode.Value, LookMode.Value);
+            if (selectedAuthors == null)
+            {
+                selectedAuthors = new Dictionary<string, string>();
             }
 
             Scribe_Collections.Look(ref auditSelectedPackageIds, "auditSelectedPackageIds", LookMode.Value);
