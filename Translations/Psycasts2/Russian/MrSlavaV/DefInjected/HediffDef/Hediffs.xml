@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <!-- Numerical stage keys for backward compatibility -->
   <PS_ArchotechAscendant.stages.0.label>конвергенция</PS_ArchotechAscendant.stages.0.label>
   <PS_ArchotechAscendant.stages.1.label>логический движок</PS_ArchotechAscendant.stages.1.label>
   <PS_ArchotechAscendant.stages.2.label>данные</PS_ArchotechAscendant.stages.2.label>
@@ -18,4 +19,24 @@
   <PS_UmbralSovereign.stages.1.label>тень</PS_UmbralSovereign.stages.1.label>
   <PS_UmbralSovereign.stages.2.label>сумерки</PS_UmbralSovereign.stages.2.label>
   <PS_UmbralSovereign.stages.3.label>затмение</PS_UmbralSovereign.stages.3.label>
+
+  <!-- RimWorld engine named stage keys (resolves untranslated audit flags) -->
+  <PS_ArchotechAscendant.stages.convergence.label>конвергенция</PS_ArchotechAscendant.stages.convergence.label>
+  <PS_ArchotechAscendant.stages.logic_engine.label>логический движок</PS_ArchotechAscendant.stages.logic_engine.label>
+  <PS_ArchotechAscendant.stages.datum.label>данные</PS_ArchotechAscendant.stages.datum.label>
+  <PS_Chronos.stages.hourglass.label>песочные часы</PS_Chronos.stages.hourglass.label>
+  <PS_Chronos.stages.dilation.label>дилатация</PS_Chronos.stages.dilation.label>
+  <PS_Consonance.stages.resonate.label>резонанс</PS_Consonance.stages.resonate.label>
+  <PS_Consonance.stages.chord.label>аккорд</PS_Consonance.stages.chord.label>
+  <PS_Empyrean.stages.stargazer.label>звездочёт</PS_Empyrean.stages.stargazer.label>
+  <PS_Empyrean.stages.farsight.label>дальновидение</PS_Empyrean.stages.farsight.label>
+  <PS_Pandemonium.stages.spark.label>искра</PS_Pandemonium.stages.spark.label>
+  <PS_Pandemonium.stages.frenzy.label>бешенство</PS_Pandemonium.stages.frenzy.label>
+  <PS_PsychicResonance.stages.attuned.label>настроенный</PS_PsychicResonance.stages.attuned.label>
+  <PS_TranquilMind.stages.stillness.label>покой</PS_TranquilMind.stages.stillness.label>
+  <PS_TranquilMind.stages.serenity.label>безмятежность</PS_TranquilMind.stages.serenity.label>
+  <PS_UmbralSovereign.stages.umbral_veil.label>сумрачный покров</PS_UmbralSovereign.stages.umbral_veil.label>
+  <PS_UmbralSovereign.stages.shade.label>тень</PS_UmbralSovereign.stages.shade.label>
+  <PS_UmbralSovereign.stages.gloaming.label>сумерки</PS_UmbralSovereign.stages.gloaming.label>
+  <PS_UmbralSovereign.stages.eclipse.label>затмение</PS_UmbralSovereign.stages.eclipse.label>
 </LanguageData>
