@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <AB_AnimaDesertFlora.description>This region contains a desert with sparse anima cacti, quietly resonating with psychic energy. The air feels attentive, as if the land itself is listening.</AB_AnimaDesertFlora.description>
-  <AB_AnimaFaunaDesert.description>The placid environment of the anima desert attracts some anima-touched animals.</AB_AnimaFaunaDesert.description>
-  <AB_AnimaSoilsDesert.description>This area contains soil infused with latent anima energy, subtly influencing plants, animals, and minds.</AB_AnimaSoilsDesert.description>
+  <AB_AnimaDesertFlora.description>В этом регионе расположена пустыня с редкими анима-кактусами, тихо резонирующими с пси-энергией. Воздух кажется внимательным, словно сама земля прислушивается.</AB_AnimaDesertFlora.description>
+  <AB_AnimaFaunaDesert.description>Спокойная атмосфера анима-пустыни привлекает некоторых животных, затронутых силой древа анима.</AB_AnimaFaunaDesert.description>
+  <AB_AnimaSoilsDesert.description>Эта область содержит почву, насыщенную скрытой анима-энергией, которая тонко воздействует на растения, животных и разум.</AB_AnimaSoilsDesert.description>
   <AB_CalcifiedSoil.description>Твёрдая, обогащённая солями кальция земля.</AB_CalcifiedSoil.description>
   <AB_CalcifiedSoil.label>кальцинированная почва</AB_CalcifiedSoil.label>
   <AB_CerebrospinalFluid.description>Озёра и лужицы биологического ликвора.</AB_CerebrospinalFluid.description>
@@ -14,12 +14,12 @@
   <AB_DryClimate.description>Крайне сухой воздух, ускоряющий жажду.</AB_DryClimate.description>
   <AB_DryClimate.label>засушливый климат</AB_DryClimate.label>
   <AB_DryMeadows.description>Засушливые луговые почвы с характерной растительностью.</AB_DryMeadows.description>
-  <AB_DryMeadowsFlora.description>This region contains flora adapted to the drier conditions of the terrain.</AB_DryMeadowsFlora.description>
+  <AB_DryMeadowsFlora.description>Этот регион населен флорой, приспособившейся к сухим условиям местности.</AB_DryMeadowsFlora.description>
   <AB_FleshTerrain.description>Участок биома, покрытый шевелящейся биомассой.</AB_FleshTerrain.description>
   <AB_FleshTerrain.label>живая плоть</AB_FleshTerrain.label>
   <AB_GauranlenFlora.description>Земля, насыщенная симбиотическими спорами древа Гауранлен.</AB_GauranlenFlora.description>
   <AB_GauranlenFlora.label>гауранленовая флора</AB_GauranlenFlora.label>
-  <AB_JadeiteChunksDesert.description>This desertic area contains small deposits of jadeite.</AB_JadeiteChunksDesert.description>
+  <AB_JadeiteChunksDesert.description>Эта пустынная местность содержит небольшие залежи жадеита.</AB_JadeiteChunksDesert.description>
   <AB_MauvebloomFlora.description>Заросли светящихся лиловых цветов и деревьев.</AB_MauvebloomFlora.description>
   <AB_MauvebloomFlora.label>лиловоцветный лес</AB_MauvebloomFlora.label>
   <AB_MobileCacti.description>Местные кактусы обладают слабой подвижностью.</AB_MobileCacti.description>
@@ -27,8 +27,8 @@
   <AB_MutagenicSprings.description>Водные ключи, стимулирующие клеточные мутации.</AB_MutagenicSprings.description>
   <AB_ObsidianSpires.description>Острые природные пики из вулканического стекла.</AB_ObsidianSpires.description>
   <AB_ObsidianSpires.label>обсидиановые шпили</AB_ObsidianSpires.label>
-  <AB_OcularDesertFlora.description>This region contains a desert with sparse ocular cacti.</AB_OcularDesertFlora.description>
-  <AB_OcularDesertSoil.description>This desertic area contains soil twisted by a strange extradimensional influence.</AB_OcularDesertSoil.description>
+  <AB_OcularDesertFlora.description>В этом регионе расположена пустыня с редкими окулярными кактусами.</AB_OcularDesertFlora.description>
+  <AB_OcularDesertSoil.description>Эта пустынная область содержит почву, искаженную странным потусторонним влиянием.</AB_OcularDesertSoil.description>
   <AB_OversaturatedSoil.description>Влажная болотистая земля, богатая органикой.</AB_OversaturatedSoil.description>
   <AB_OversaturatedSoil.label>переувлажнённая почва</AB_OversaturatedSoil.label>
   <AB_PollinationFrenzy.description>Воздух насыщен пыльцой и стимулирующими феромонами.</AB_PollinationFrenzy.description>
@@ -56,4 +56,11 @@
   <AB_UnshackledCompanionDryads.label>вольные дриады-спутники</AB_UnshackledCompanionDryads.label>
   <AB_UnshackledDryads.description>Освободившиеся от связи дриады бродят по округе.</AB_UnshackledDryads.description>
   <AB_UnshackledDryads.label>дикие дриады</AB_UnshackledDryads.label>
+  <AB_AnimaDesertFlora.label>флора анима-пустыни</AB_AnimaDesertFlora.label>
+  <AB_AnimaFaunaDesert.label>фауна анима-пустыни</AB_AnimaFaunaDesert.label>
+  <AB_AnimaSoilsDesert.label>почвы анима-пустыни</AB_AnimaSoilsDesert.label>
+  <AB_DryMeadowsFlora.label>флора засушливых лугов</AB_DryMeadowsFlora.label>
+  <AB_JadeiteChunksDesert.label>залежи жадеита анима-пустыни</AB_JadeiteChunksDesert.label>
+  <AB_OcularDesertFlora.label>флора окулярной пустыни</AB_OcularDesertFlora.label>
+  <AB_OcularDesertSoil.label>почвы окулярной пустыни</AB_OcularDesertSoil.label>
 </LanguageData>

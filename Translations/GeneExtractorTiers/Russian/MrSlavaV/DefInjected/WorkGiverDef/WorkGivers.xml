@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GET_HaulToGeneExtractionVat_II.label>нести в камеру извлечения генов</GET_HaulToGeneExtractionVat_II.label>
+  <GET_HaulToGeneExtractionVat_II.gerund>заполнение</GET_HaulToGeneExtractionVat_II.gerund>
+  <GET_HaulToGeneExtractionVat_II.verb>заполнить</GET_HaulToGeneExtractionVat_II.verb>
+  <GET_CarryToGeneExtractionVat_II.label>нести к экстрактору генов</GET_CarryToGeneExtractionVat_II.label>
+  <GET_CarryToGeneExtractionVat_II.gerund>извлечение генов из</GET_CarryToGeneExtractionVat_II.gerund>
+  <GET_CarryToGeneExtractionVat_II.verb>извлечь гены</GET_CarryToGeneExtractionVat_II.verb>
+  <GET_HaulToGeneExtractionVat_III.label>нести в камеру извлечения генов</GET_HaulToGeneExtractionVat_III.label>
+  <GET_HaulToGeneExtractionVat_III.gerund>заполнение</GET_HaulToGeneExtractionVat_III.gerund>
+  <GET_HaulToGeneExtractionVat_III.verb>заполнить</GET_HaulToGeneExtractionVat_III.verb>
+  <GET_CarryToGeneExtractionVat_III.label>нести к экстрактору генов</GET_CarryToGeneExtractionVat_III.label>
+  <GET_CarryToGeneExtractionVat_III.gerund>извлечение генов из</GET_CarryToGeneExtractionVat_III.gerund>
+  <GET_CarryToGeneExtractionVat_III.verb>извлечь гены</GET_CarryToGeneExtractionVat_III.verb>
+  <GET_HaulToGeneExtractionVat_IV.label>нести в камеру извлечения генов</GET_HaulToGeneExtractionVat_IV.label>
+  <GET_HaulToGeneExtractionVat_IV.gerund>заполнение</GET_HaulToGeneExtractionVat_IV.gerund>
+  <GET_HaulToGeneExtractionVat_IV.verb>заполнить</GET_HaulToGeneExtractionVat_IV.verb>
+  <GET_CarryToGeneExtractionVat_IV.label>нести к экстрактору генов</GET_CarryToGeneExtractionVat_IV.label>
+  <GET_CarryToGeneExtractionVat_IV.gerund>извлечение генов из</GET_CarryToGeneExtractionVat_IV.gerund>
+  <GET_CarryToGeneExtractionVat_IV.verb>извлечь гены</GET_CarryToGeneExtractionVat_IV.verb>
+</LanguageData>

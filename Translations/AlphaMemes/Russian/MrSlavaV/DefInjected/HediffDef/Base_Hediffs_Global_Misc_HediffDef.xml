@@ -1,60 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<!-- 1.6\Defs\HediffDefs\Hediffs_Global_Misc.xml -->
-	<!--                  EN: cathartic adrenaline -->
-	<AM_CatharsisHediff.label>адреналин после срыва</AM_CatharsisHediff.label>
-	<!--                        EN: The exhilaration caused after a mental break is causing this person to have increased pain tolerance and strength. This will last for about a day. -->
-	<AM_CatharsisHediff.description>Возбуждение, возникшее после психического срыва, приводит к тому, что у этого человека повышается переносимость боли и сила. Это продлится около суток.</AM_CatharsisHediff.description>
-	
-	<!--                     EN: utility dryad supremacy boost -->
-	<AM_UtilityDryadHediff.label>усиление от превосходства Полезных дриад</AM_UtilityDryadHediff.label>
-	<!--                           EN: This dryad is being strengthened due to the existing improved psychic link between the Gauranlen trees and your colonists. -->
-	<AM_UtilityDryadHediff.description>Эта дриада усиливается благодаря существующей улучшенной психической связи между деревьями Гауранлен и вашими поселенцами.</AM_UtilityDryadHediff.description>
-	
-	<!--                    EN: combat dryad supremacy boost -->
-	<AM_CombatDryadHediff.label>усиление от превосходства Боевых дриад</AM_CombatDryadHediff.label>
-	<!--                          EN: This dryad is being strengthened due to the existing improved psychic link between the Gauranlen trees and your colonists. -->
-	<AM_CombatDryadHediff.description>Эта дриада усиливается благодаря существующей улучшенной психической связи между деревьями Гауранлен и вашими поселенцами.</AM_CombatDryadHediff.description>
-	
-	<!--                     EN: generic dryad supremacy boost -->
-	<AM_GenericDryadHediff.label>усиление от превосходства общих дриад</AM_GenericDryadHediff.label>
-	<!--                           EN: This dryad is being strengthened due to the existing improved psychic link between the Gauranlen trees and your colonists. -->
-	<AM_GenericDryadHediff.description>Эта дриада усиливается благодаря существующей улучшенной психической связи между деревьями Гауранлен и вашими поселенцами.</AM_GenericDryadHediff.description>
-	
-	<!--                   EN: feeling righteous -->
-	<AM_IconoclastHediff.label>чувство праведности</AM_IconoclastHediff.label>
-	<!--                         EN: The destruction of an ancient relic is filling this person with increased confidence and righteousness. -->
-	<AM_IconoclastHediff.description>Уничтожение древней реликвии наполняет этого человека повышенной уверенностью и праведностью.</AM_IconoclastHediff.description>
-	
-	<!--           EN: eyepatch -->
-	<AM_Eyepatch.label>глазная повязка</AM_Eyepatch.label>
-	<!--                 EN: An eyepatch is blocking this person's vision. -->
-	<AM_Eyepatch.description>Глазная повязка закрывает зрение этого человека.</AM_Eyepatch.description>
-	
-	<!--                     EN: Toxins in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.
-\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.
-\nContrary to base game toxic buildup, creatures who die with this toxic damage can be eaten. -->
-	<AM_ToxicBuildup.description>Токсины в кровотоке. Они могут поступать из различных источников, включая токсины окружающей среды, укусы ядовитых существ или отравленное оружие.\nВ больших дозах накопление токсинов смертельно. Даже в малых дозах он может привести к раковым заболеваниям.\nВ отличие от токсического накопления в базовой игре, существа, умершие от токсического повреждения, могут быть съедены.</AM_ToxicBuildup.description>
-	<!--               EN: toxic buildup -->
-	<AM_ToxicBuildup.label>скопление токсинов</AM_ToxicBuildup.label>
-	<!--                        EN: initial -->
-	<AM_ToxicBuildup.stages.0.label>первоначальное</AM_ToxicBuildup.stages.0.label>
-	<!--                        EN: initial -->
-	<AM_ToxicBuildup.stages.1.label>первоначальное</AM_ToxicBuildup.stages.1.label>
-	<!--                        EN: minor -->
-	<AM_ToxicBuildup.stages.2.label>незначительное</AM_ToxicBuildup.stages.2.label>
-	<!--                        EN: moderate -->
-	<AM_ToxicBuildup.stages.3.label>умеренное</AM_ToxicBuildup.stages.3.label>
-	<!--                        EN: serious -->
-	<AM_ToxicBuildup.stages.4.label>серьезное</AM_ToxicBuildup.stages.4.label>
-	<!--                        EN: extreme -->
-	<AM_ToxicBuildup.stages.5.label>экстремальное</AM_ToxicBuildup.stages.5.label>
-	
-	<!--           EN: sudden detonation -->
-	<AM_Kamikaze.label>внезапная детонация</AM_Kamikaze.label>
-	<!--                 EN: Boom. -->
-	<AM_Kamikaze.description>Бум.</AM_Kamikaze.description>
-	<!--                    EN: initial-hidden -->
-	<AM_Kamikaze.stages.0.label>изначально скрытый</AM_Kamikaze.stages.0.label>
-	<!--                    EN: critical -->
-	<AM_Kamikaze.stages.1.label>критический</AM_Kamikaze.stages.1.label>
+  <AM_CatharsisHediff.label>адреналин после срыва</AM_CatharsisHediff.label>
+  <AM_CatharsisHediff.description>Возбуждение, возникшее после психического срыва, приводит к тому, что у этого человека повышается переносимость боли и сила. Это продлится около суток.</AM_CatharsisHediff.description>
+  <AM_UtilityDryadHediff.label>усиление от превосходства Полезных дриад</AM_UtilityDryadHediff.label>
+  <AM_UtilityDryadHediff.description>Эта дриада усиливается благодаря существующей улучшенной психической связи между деревьями Гауранлен и вашими поселенцами.</AM_UtilityDryadHediff.description>
+  <AM_CombatDryadHediff.label>усиление от превосходства Боевых дриад</AM_CombatDryadHediff.label>
+  <AM_CombatDryadHediff.description>Эта дриада усиливается благодаря существующей улучшенной психической связи между деревьями Гауранлен и вашими поселенцами.</AM_CombatDryadHediff.description>
+  <AM_GenericDryadHediff.label>усиление от превосходства общих дриад</AM_GenericDryadHediff.label>
+  <AM_GenericDryadHediff.description>Эта дриада усиливается благодаря существующей улучшенной психической связи между деревьями Гауранлен и вашими поселенцами.</AM_GenericDryadHediff.description>
+  <AM_IconoclastHediff.label>чувство праведности</AM_IconoclastHediff.label>
+  <AM_IconoclastHediff.description>Уничтожение древней реликвии наполняет этого человека повышенной уверенностью и праведностью.</AM_IconoclastHediff.description>
+  <AM_Eyepatch.label>глазная повязка</AM_Eyepatch.label>
+  <AM_Eyepatch.description>Глазная повязка закрывает зрение этого человека.</AM_Eyepatch.description>
+  <AM_ToxicBuildup.description>Токсины в кровотоке. Они могут поступать из различных источников, включая токсины окружающей среды, укусы ядовитых существ или отравленное оружие.\nВ больших дозах накопление токсинов смертельно. Даже в малых дозах он может привести к раковым заболеваниям.\nВ отличие от токсического накопления в базовой игре, существа, умершие от токсического повреждения, могут быть съедены.</AM_ToxicBuildup.description>
+  <AM_ToxicBuildup.label>скопление токсинов</AM_ToxicBuildup.label>
+  <AM_ToxicBuildup.stages.0.label>первоначальное</AM_ToxicBuildup.stages.0.label>
+  <AM_ToxicBuildup.stages.1.label>первоначальное</AM_ToxicBuildup.stages.1.label>
+  <AM_ToxicBuildup.stages.2.label>незначительное</AM_ToxicBuildup.stages.2.label>
+  <AM_ToxicBuildup.stages.3.label>умеренное</AM_ToxicBuildup.stages.3.label>
+  <AM_ToxicBuildup.stages.4.label>серьезное</AM_ToxicBuildup.stages.4.label>
+  <AM_ToxicBuildup.stages.5.label>экстремальное</AM_ToxicBuildup.stages.5.label>
+  <AM_Kamikaze.label>внезапная детонация</AM_Kamikaze.label>
+  <AM_Kamikaze.description>Бум.</AM_Kamikaze.description>
+  <AM_Kamikaze.stages.0.label>изначально скрытый</AM_Kamikaze.stages.0.label>
+  <AM_Kamikaze.stages.1.label>критический</AM_Kamikaze.stages.1.label>
+  <AM_ToxicBuildup.stages.initial.label>первоначальное</AM_ToxicBuildup.stages.initial.label>
+  <AM_ToxicBuildup.stages.minor.label>незначительное</AM_ToxicBuildup.stages.minor.label>
+  <AM_ToxicBuildup.stages.moderate.label>умеренное</AM_ToxicBuildup.stages.moderate.label>
+  <AM_ToxicBuildup.stages.serious.label>серьезное</AM_ToxicBuildup.stages.serious.label>
+  <AM_ToxicBuildup.stages.extreme.label>экстремальное</AM_ToxicBuildup.stages.extreme.label>
+  <AM_Kamikaze.stages.initial_hidden.label>изначально скрытый</AM_Kamikaze.stages.initial_hidden.label>
+  <AM_Kamikaze.stages.critical.label>критический</AM_Kamikaze.stages.critical.label>
 </LanguageData>

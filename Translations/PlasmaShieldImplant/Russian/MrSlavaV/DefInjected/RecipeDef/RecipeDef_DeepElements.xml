@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <InstallAdvancedPlasmaShieldBattery.jobString>Устанавливает advanced plasma shield battery.</InstallAdvancedPlasmaShieldBattery.jobString>
-  <InstallHardenedPlasmaShield.jobString>Устанавливает hardened plasma shields.</InstallHardenedPlasmaShield.jobString>
-  <InstallPlasmaShieldBattery.jobString>Устанавливает plasma shield battery.</InstallPlasmaShieldBattery.jobString>
-  <InstallPlasmaShieldImplant.jobString>Устанавливает plasma shield implant.</InstallPlasmaShieldImplant.jobString>
-  <InstallPsiShieldBooster.jobString>Устанавливает psi-shield booster.</InstallPsiShieldBooster.jobString>
-  <ToggleAdaptiveShields.jobString>Toggling Adaptive Shields.</ToggleAdaptiveShields.jobString>
-  <ToggleDampeningShields.jobString>Toggling Dampening Shields.</ToggleDampeningShields.jobString>
-  <ToggleHardenedShields.jobString>Toggling Hardened Shields.</ToggleHardenedShields.jobString>
-  <ToggleResistantShields.jobString>Toggling Resistant Shields.</ToggleResistantShields.jobString>
+  <InstallAdvancedPlasmaShieldBattery.jobString>Устанавливает улучшенную батарею плазменного щита.</InstallAdvancedPlasmaShieldBattery.jobString>
+  <InstallHardenedPlasmaShield.jobString>Устанавливает усиленный плазменный щит.</InstallHardenedPlasmaShield.jobString>
+  <InstallPlasmaShieldBattery.jobString>Устанавливает батарею плазменного щита.</InstallPlasmaShieldBattery.jobString>
+  <InstallPlasmaShieldImplant.jobString>Устанавливает имплант плазменного щита.</InstallPlasmaShieldImplant.jobString>
+  <InstallPsiShieldBooster.jobString>Устанавливает усилитель пси-щита.</InstallPsiShieldBooster.jobString>
+  <ToggleAdaptiveShields.jobString>Переключает на адаптивный щит.</ToggleAdaptiveShields.jobString>
+  <ToggleDampeningShields.jobString>Переключает на демпфирующий щит.</ToggleDampeningShields.jobString>
+  <ToggleHardenedShields.jobString>Переключает на усиленный щит.</ToggleHardenedShields.jobString>
+  <ToggleResistantShields.jobString>Переключает на устойчивый щит.</ToggleResistantShields.jobString>
 </LanguageData>

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<RS_InsertGenepack.label>загрузить генпак в центрифугу</RS_InsertGenepack.label>
-	<RS_InsertGenepack.description>Загрузить выбранный генпак в центрифугу для разделения.</RS_InsertGenepack.description>
-	<RS_InsertXenogerm.label>загрузить ксеногерм в дубликатор</RS_InsertXenogerm.label>
-	<RS_InsertXenogerm.description>Загрузить готовый ксеногерм в камеру репликации.</RS_InsertXenogerm.description>
+  <RS_InsertGenepack.label>загрузить генпак в центрифугу</RS_InsertGenepack.label>
+  <RS_InsertGenepack.description>Загрузить выбранный генпак в центрифугу для разделения.</RS_InsertGenepack.description>
+  <RS_InsertXenogerm.label>загрузить ксеногерм в дубликатор</RS_InsertXenogerm.label>
+  <RS_InsertXenogerm.description>Загрузить готовый ксеногерм в камеру репликации.</RS_InsertXenogerm.description>
+  <RS_InsertGenepack.gerund>помещение в центрифугу генов</RS_InsertGenepack.gerund>
+  <RS_InsertGenepack.verb>поместить в центрифугу генов</RS_InsertGenepack.verb>
+  <RS_InsertXenogerm.gerund>помещение в дубликатор ксеногермов</RS_InsertXenogerm.gerund>
+  <RS_InsertXenogerm.verb>поместить в дубликатор ксеногермов</RS_InsertXenogerm.verb>
 </LanguageData>

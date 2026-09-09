@@ -35,4 +35,35 @@
   <VFEI2_BlackEmpressSpawn.stages.1.label>личинка</VFEI2_BlackEmpressSpawn.stages.1.label>
   <VFEI2_BlackEmpressSpawn.stages.2.label>куколка</VFEI2_BlackEmpressSpawn.stages.2.label>
   <VFEI2_BlackEmpressSpawn.stages.3.label>молодая особь</VFEI2_BlackEmpressSpawn.stages.3.label>
+  <AA_Paralysis.stages.initial.label>начальное</AA_Paralysis.stages.initial.label>
+  <AA_Paralysis.stages.stunned.label>оглушён</AA_Paralysis.stages.stunned.label>
+  <AA_Paralysis.stages.very_stunned.label>сильно оглушён</AA_Paralysis.stages.very_stunned.label>
+  <AA_Paralysis.stages.paralysed.label>парализован</AA_Paralysis.stages.paralysed.label>
+  <AA_Electric.stages.initial.label>начальное</AA_Electric.stages.initial.label>
+  <AA_Electric.stages.shocked.label>шокирован</AA_Electric.stages.shocked.label>
+  <AA_Electric.stages.very_shocked.label>сильное поражение током</AA_Electric.stages.very_shocked.label>
+  <AA_Electric.stages.paralysed.label>парализован</AA_Electric.stages.paralysed.label>
+  <AA_ToxicBuildup.stages.initial.label>начальное</AA_ToxicBuildup.stages.initial.label>
+  <AA_ToxicBuildup.stages.minor.label>лёгкое</AA_ToxicBuildup.stages.minor.label>
+  <AA_ToxicBuildup.stages.moderate.label>умеренно</AA_ToxicBuildup.stages.moderate.label>
+  <AA_ToxicBuildup.stages.serious.label>серьезно</AA_ToxicBuildup.stages.serious.label>
+  <AA_ToxicBuildup.stages.extreme.label>критическое</AA_ToxicBuildup.stages.extreme.label>
+  <AA_SwarmlingImplantation.stages.minor.label>лёгкое</AA_SwarmlingImplantation.stages.minor.label>
+  <AA_SwarmlingImplantation.stages.major.label>сильное</AA_SwarmlingImplantation.stages.major.label>
+  <AA_SwarmlingImplantation.stages.extreme.label>критическое</AA_SwarmlingImplantation.stages.extreme.label>
+  <AA_VirulentFungalInfection.stages.minor.label>лёгкое</AA_VirulentFungalInfection.stages.minor.label>
+  <AA_VirulentFungalInfection.stages.major.label>сильное</AA_VirulentFungalInfection.stages.major.label>
+  <AA_VirulentFungalInfection.stages.extreme.label>критическое</AA_VirulentFungalInfection.stages.extreme.label>
+  <AA_Kamikaze.stages.initial_hidden.label>скрытая</AA_Kamikaze.stages.initial_hidden.label>
+  <AA_Kamikaze.stages.critical.label>критическое</AA_Kamikaze.stages.critical.label>
+  <AA_AcidBuildup_AgainstMechs.stages.minor__receiving_burns.label>слабое, получает ожоги</AA_AcidBuildup_AgainstMechs.stages.minor__receiving_burns.label>
+  <AA_AcidBuildup_AgainstMechs.stages.moderate__receiving_burns.label>умеренное, получает ожоги</AA_AcidBuildup_AgainstMechs.stages.moderate__receiving_burns.label>
+  <AA_AcidBuildup_AgainstMechs.stages.serious__receiving_burns.label>серьезное, получает ожоги</AA_AcidBuildup_AgainstMechs.stages.serious__receiving_burns.label>
+  <AA_MalevolentEye.stages.minor.label>лёгкое</AA_MalevolentEye.stages.minor.label>
+  <AA_MalevolentEye.stages.major.label>сильное</AA_MalevolentEye.stages.major.label>
+  <AA_MalevolentEye.stages.extreme.label>критическое</AA_MalevolentEye.stages.extreme.label>
+  <VFEI2_BlackEmpressSpawn.stages.egg.label>яйцо</VFEI2_BlackEmpressSpawn.stages.egg.label>
+  <VFEI2_BlackEmpressSpawn.stages.larva.label>личинка</VFEI2_BlackEmpressSpawn.stages.larva.label>
+  <VFEI2_BlackEmpressSpawn.stages.pupa.label>куколка</VFEI2_BlackEmpressSpawn.stages.pupa.label>
+  <VFEI2_BlackEmpressSpawn.stages.juvenile.label>молодая особь</VFEI2_BlackEmpressSpawn.stages.juvenile.label>
 </LanguageData>

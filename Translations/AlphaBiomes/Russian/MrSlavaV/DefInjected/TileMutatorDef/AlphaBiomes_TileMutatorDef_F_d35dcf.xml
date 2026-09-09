@@ -2,23 +2,23 @@
 <LanguageData>
   <AB_SugarChunks.label>сахарные глыбы</AB_SugarChunks.label>
   <AB_SugarChunks.description>Кристаллизовавшиеся глыбы органических сахаров.</AB_SugarChunks.description>
-  <AB_AnimaDesertFlora.label>анима-пустыня flora</AB_AnimaDesertFlora.label>
-  <AB_AnimaDesertFlora.description>This region contains a desert with sparse anima cacti, quietly resonating with psychic energy. The air feels attentive, as if the land itself is listening.</AB_AnimaDesertFlora.description>
-  <AB_AnimaSoilsDesert.label>анима-пустыня soils</AB_AnimaSoilsDesert.label>
-  <AB_AnimaSoilsDesert.description>This area contains soil infused with latent anima energy, subtly influencing plants, animals, and minds.</AB_AnimaSoilsDesert.description>
-  <AB_JadeiteChunksDesert.label>анима-пустыня jadeite chunks</AB_JadeiteChunksDesert.label>
-  <AB_JadeiteChunksDesert.description>This desertic area contains small deposits of jadeite.</AB_JadeiteChunksDesert.description>
-  <AB_AnimaFaunaDesert.label>анима-пустыня fauna</AB_AnimaFaunaDesert.label>
-  <AB_AnimaFaunaDesert.description>The placid environment of the anima desert attracts some anima-touched animals.</AB_AnimaFaunaDesert.description>
-  <AB_OcularDesertSoil.label>окулярная пустыня soils</AB_OcularDesertSoil.label>
-  <AB_OcularDesertSoil.description>This desertic area contains soil twisted by a strange extradimensional influence.</AB_OcularDesertSoil.description>
-  <AB_OcularDesertFlora.label>окулярная пустыня flora</AB_OcularDesertFlora.label>
-  <AB_OcularDesertFlora.description>This region contains a desert with sparse ocular cacti.</AB_OcularDesertFlora.description>
+  <AB_AnimaDesertFlora.label>флора анима-пустыни</AB_AnimaDesertFlora.label>
+  <AB_AnimaDesertFlora.description>В этом регионе расположена пустыня с редкими анима-кактусами, тихо резонирующими с пси-энергией. Воздух кажется внимательным, словно сама земля прислушивается.</AB_AnimaDesertFlora.description>
+  <AB_AnimaSoilsDesert.label>почвы анима-пустыни</AB_AnimaSoilsDesert.label>
+  <AB_AnimaSoilsDesert.description>Эта область содержит почву, насыщенную скрытой анима-энергией, которая тонко воздействует на растения, животных и разум.</AB_AnimaSoilsDesert.description>
+  <AB_JadeiteChunksDesert.label>залежи жадеита анима-пустыни</AB_JadeiteChunksDesert.label>
+  <AB_JadeiteChunksDesert.description>Эта пустынная местность содержит небольшие залежи жадеита.</AB_JadeiteChunksDesert.description>
+  <AB_AnimaFaunaDesert.label>фауна анима-пустыни</AB_AnimaFaunaDesert.label>
+  <AB_AnimaFaunaDesert.description>Спокойная атмосфера анима-пустыни привлекает некоторых животных, затронутых силой древа анима.</AB_AnimaFaunaDesert.description>
+  <AB_OcularDesertSoil.label>почвы окулярной пустыни</AB_OcularDesertSoil.label>
+  <AB_OcularDesertSoil.description>Эта пустынная область содержит почву, искаженную странным потусторонним влиянием.</AB_OcularDesertSoil.description>
+  <AB_OcularDesertFlora.label>флора окулярной пустыни</AB_OcularDesertFlora.label>
+  <AB_OcularDesertFlora.description>В этом регионе расположена пустыня с редкими окулярными кактусами.</AB_OcularDesertFlora.description>
   <AB_MobileCacti.label>блуждающие кактусы</AB_MobileCacti.label>
   <AB_MobileCacti.description>Местные кактусы обладают слабой подвижностью.</AB_MobileCacti.description>
   <AB_DryMeadows.description>Засушливые луговые почвы с характерной растительностью.</AB_DryMeadows.description>
-  <AB_DryMeadowsFlora.label>засушливые луга flora</AB_DryMeadowsFlora.label>
-  <AB_DryMeadowsFlora.description>This region contains flora adapted to the drier conditions of the terrain.</AB_DryMeadowsFlora.description>
+  <AB_DryMeadowsFlora.label>флора засушливых лугов</AB_DryMeadowsFlora.label>
+  <AB_DryMeadowsFlora.description>Этот регион населен флорой, приспособившейся к сухим условиям местности.</AB_DryMeadowsFlora.description>
   <AB_ToxicMeadows.label>токсичные луга</AB_ToxicMeadows.label>
   <AB_ToxicMeadows.description>Равнина с ядовитыми испарениями и токсичной растительностью.</AB_ToxicMeadows.description>
   <AB_ToxicMeadowsFlora.label>флора токсичных лугов</AB_ToxicMeadowsFlora.label>

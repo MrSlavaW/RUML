@@ -16,19 +16,19 @@
   <TMM_GetHotGene.label>получить горячий ген</TMM_GetHotGene.label>
   <TMM_GetPerfectBody.description>{0} стремится довести свое тело до абсолютного генетического идеала.</TMM_GetPerfectBody.description>
   <TMM_GetPerfectBody.label>обрести совершенное тело</TMM_GetPerfectBody.label>
-  <TMM_GolemMaster.description>{0} wants to controll golems.</TMM_GolemMaster.description>
+  <TMM_GolemMaster.description>{0} мечтает повелевать големами.</TMM_GolemMaster.description>
   <TMM_GolemMaster.label>стать повелителем големов</TMM_GolemMaster.label>
-  <TMM_HearAlluringVoice.description>{0} wants to feel at ease hearing an alluring voice.</TMM_HearAlluringVoice.description>
+  <TMM_HearAlluringVoice.description>{0} хочет обрести душевный покой, слушая пленительный голос.</TMM_HearAlluringVoice.description>
   <TMM_HearAlluringVoice.label>услышать чарующий голос</TMM_HearAlluringVoice.label>
-  <TMM_InstallCyberlink.description>{0} wants to establish a connection with cyberspace.</TMM_InstallCyberlink.description>
+  <TMM_InstallCyberlink.description>{0} стремится установить постоянную связь с киберпространством.</TMM_InstallCyberlink.description>
   <TMM_InstallCyberlink.label>вознестись в киберпространство</TMM_InstallCyberlink.label>
-  <TMM_InstallGoldenTeethReplacement.description>{0} wants to receive a golden teeth replacement.</TMM_InstallGoldenTeethReplacement.description>
+  <TMM_InstallGoldenTeethReplacement.description>{0} мечтает о роскошных золотых зубах.</TMM_InstallGoldenTeethReplacement.description>
   <TMM_InstallGoldenTeethReplacement.label>вставить золотые зубы</TMM_InstallGoldenTeethReplacement.label>
   <TMM_InstallNeuralStack.description>{0} хочет сохранить свой разум в нейростек кортикального типа.</TMM_InstallNeuralStack.description>
   <TMM_InstallNeuralStack.label>сохранить сознание в стек</TMM_InstallNeuralStack.label>
   <TMM_MakeGunkanmaki.description>орудие</TMM_MakeGunkanmaki.description>
   <TMM_MakeGunkanmaki.label>приготовить гункан-маки</TMM_MakeGunkanmaki.label>
-  <TMM_SavorHauteMeal.description>{0} wants to savor the taste of haute meal.</TMM_SavorHauteMeal.description>
+  <TMM_SavorHauteMeal.description>{0} желает насладиться изысканным блюдом высокой кухни.</TMM_SavorHauteMeal.description>
   <TMM_SavorHauteMeal.label>отведать блюдо высокой кухни</TMM_SavorHauteMeal.label>
   <TMM_WriteAnimalsBook.description>{0} хочет увековечить свои знания о фауне в книге.</TMM_WriteAnimalsBook.description>
   <TMM_WriteAnimalsBook.label>написать трактат о животных</TMM_WriteAnimalsBook.label>
@@ -36,7 +36,7 @@
   <TMM_WriteConstructionBook.label>написать трактат о строительстве</TMM_WriteConstructionBook.label>
   <TMM_WriteCookingBook.description>{0} хочет составить сборник лучших рецептов Пограничья.</TMM_WriteCookingBook.description>
   <TMM_WriteCookingBook.label>написать кулинарную книгу</TMM_WriteCookingBook.label>
-  <TMM_WriteGrowingBook.description>{0} wants to write a book about growing plants.</TMM_WriteGrowingBook.description>
+  <TMM_WriteGrowingBook.description>{0} мечтает написать учебник по растениеводству.</TMM_WriteGrowingBook.description>
   <TMM_WriteGrowingBook.label>написать книгу по растениеводству</TMM_WriteGrowingBook.label>
   <TMM_WriteIntellectualBook.description>{0} стремится написать фундаментальную научную работу.</TMM_WriteIntellectualBook.description>
   <TMM_WriteIntellectualBook.label>написать научный труд</TMM_WriteIntellectualBook.label>
@@ -44,9 +44,9 @@
   <TMM_WriteMedicalBook.label>написать медицинский атлас</TMM_WriteMedicalBook.label>
   <TMM_WriteMeleeBook.description>{0} мечтает составить наставление по фехтованию и рукопашной.</TMM_WriteMeleeBook.description>
   <TMM_WriteMeleeBook.label>написать трактат о ближнем бое</TMM_WriteMeleeBook.label>
-  <TMM_WriteMiningBook.description>{0} wants to write a book about mining.</TMM_WriteMiningBook.description>
+  <TMM_WriteMiningBook.description>{0} мечтает написать руководство по горному делу.</TMM_WriteMiningBook.description>
   <TMM_WriteMiningBook.label>написать книгу по горному делу</TMM_WriteMiningBook.label>
-  <TMM_WriteShootingBook.description>{0} wants to write a book about shooting.</TMM_WriteShootingBook.description>
+  <TMM_WriteShootingBook.description>{0} мечтает составить наставление по стрельбе.</TMM_WriteShootingBook.description>
   <TMM_WriteShootingBook.label>написать книгу по стрельбе</TMM_WriteShootingBook.label>
   <TMM_WriteSocialBook.description>{0} хочет написать руководство по дипломатии и психологии.</TMM_WriteSocialBook.description>
   <TMM_WriteSocialBook.label>написать книгу по социологии</TMM_WriteSocialBook.label>

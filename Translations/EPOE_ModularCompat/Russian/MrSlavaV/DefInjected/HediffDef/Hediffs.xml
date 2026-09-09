@@ -34,4 +34,28 @@
   <LTS_EPOE_RightExtraAdvancedHandTalon.stages.2.label>привычное</LTS_EPOE_RightExtraAdvancedHandTalon.stages.2.label>
   <LTS_EPOE_RightExtraAdvancedHandTalon.stages.3.label>освоенное</LTS_EPOE_RightExtraAdvancedHandTalon.stages.3.label>
   <LTS_EPOE_RightExtraAdvancedHandTalon.tools.0.label>коготь</LTS_EPOE_RightExtraAdvancedHandTalon.tools.0.label>
+  <LTS_EPOE_LeftExtraAdvancedElbowBlade.stages.unwieldy.label>громоздкое</LTS_EPOE_LeftExtraAdvancedElbowBlade.stages.unwieldy.label>
+  <LTS_EPOE_LeftExtraAdvancedElbowBlade.stages.inconvenient.label>неудобное</LTS_EPOE_LeftExtraAdvancedElbowBlade.stages.inconvenient.label>
+  <LTS_EPOE_LeftExtraAdvancedElbowBlade.stages.acclimatised.label>привычное</LTS_EPOE_LeftExtraAdvancedElbowBlade.stages.acclimatised.label>
+  <LTS_EPOE_LeftExtraAdvancedElbowBlade.stages.mastered.label>освоенное</LTS_EPOE_LeftExtraAdvancedElbowBlade.stages.mastered.label>
+  <LTS_EPOE_RightExtraAdvancedElbowBlade.stages.unwieldy.label>громоздкое</LTS_EPOE_RightExtraAdvancedElbowBlade.stages.unwieldy.label>
+  <LTS_EPOE_RightExtraAdvancedElbowBlade.stages.inconvenient.label>неудобное</LTS_EPOE_RightExtraAdvancedElbowBlade.stages.inconvenient.label>
+  <LTS_EPOE_RightExtraAdvancedElbowBlade.stages.acclimatised.label>привычное</LTS_EPOE_RightExtraAdvancedElbowBlade.stages.acclimatised.label>
+  <LTS_EPOE_RightExtraAdvancedElbowBlade.stages.mastered.label>освоенное</LTS_EPOE_RightExtraAdvancedElbowBlade.stages.mastered.label>
+  <LTS_EPOE_LeftExtraAdvancedHandTalon.stages.unwieldy.label>громоздкое</LTS_EPOE_LeftExtraAdvancedHandTalon.stages.unwieldy.label>
+  <LTS_EPOE_LeftExtraAdvancedHandTalon.stages.inconvenient.label>неудобное</LTS_EPOE_LeftExtraAdvancedHandTalon.stages.inconvenient.label>
+  <LTS_EPOE_LeftExtraAdvancedHandTalon.stages.acclimatised.label>привычное</LTS_EPOE_LeftExtraAdvancedHandTalon.stages.acclimatised.label>
+  <LTS_EPOE_LeftExtraAdvancedHandTalon.stages.mastered.label>освоенное</LTS_EPOE_LeftExtraAdvancedHandTalon.stages.mastered.label>
+  <LTS_EPOE_RightExtraAdvancedHandTalon.stages.unwieldy.label>громоздкое</LTS_EPOE_RightExtraAdvancedHandTalon.stages.unwieldy.label>
+  <LTS_EPOE_RightExtraAdvancedHandTalon.stages.inconvenient.label>неудобное</LTS_EPOE_RightExtraAdvancedHandTalon.stages.inconvenient.label>
+  <LTS_EPOE_RightExtraAdvancedHandTalon.stages.acclimatised.label>привычное</LTS_EPOE_RightExtraAdvancedHandTalon.stages.acclimatised.label>
+  <LTS_EPOE_RightExtraAdvancedHandTalon.stages.mastered.label>освоенное</LTS_EPOE_RightExtraAdvancedHandTalon.stages.mastered.label>
+  <LTS_EPOE_LeftExtraAdvancedBionicHand.stages.unwieldy.label>громоздкое</LTS_EPOE_LeftExtraAdvancedBionicHand.stages.unwieldy.label>
+  <LTS_EPOE_LeftExtraAdvancedBionicHand.stages.inconvenient.label>неудобное</LTS_EPOE_LeftExtraAdvancedBionicHand.stages.inconvenient.label>
+  <LTS_EPOE_LeftExtraAdvancedBionicHand.stages.acclimatised.label>привычное</LTS_EPOE_LeftExtraAdvancedBionicHand.stages.acclimatised.label>
+  <LTS_EPOE_LeftExtraAdvancedBionicHand.stages.mastered.label>освоенное</LTS_EPOE_LeftExtraAdvancedBionicHand.stages.mastered.label>
+  <LTS_EPOE_RightExtraAdvancedBionicHand.stages.unwieldy.label>громоздкое</LTS_EPOE_RightExtraAdvancedBionicHand.stages.unwieldy.label>
+  <LTS_EPOE_RightExtraAdvancedBionicHand.stages.inconvenient.label>неудобное</LTS_EPOE_RightExtraAdvancedBionicHand.stages.inconvenient.label>
+  <LTS_EPOE_RightExtraAdvancedBionicHand.stages.acclimatised.label>привычное</LTS_EPOE_RightExtraAdvancedBionicHand.stages.acclimatised.label>
+  <LTS_EPOE_RightExtraAdvancedBionicHand.stages.mastered.label>освоенное</LTS_EPOE_RightExtraAdvancedBionicHand.stages.mastered.label>
 </LanguageData>

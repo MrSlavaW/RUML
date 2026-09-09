@@ -1,25 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<!-- 1.6\Mods\Royalty\Defs\HediffDefs\Hediffs_Royalty.xml -->
-	<!--               EN: psychic invisibility -->
-	<AG_Invisibility.label>Пси невидимость</AG_Invisibility.label>
-	<!--                     EN: This person has psychically shift their skin tones to camouflage in almost any surroundings. -->
-	<AG_Invisibility.description>Психологически меняйте оттенки кожи, чтобы маскироваться практически в любой обстановке.</AG_Invisibility.description>
-	<!--               EN: psychic sight -->
-	<AG_PsychicSight.label>Пси зрение</AG_PsychicSight.label>
-	<!--                     EN: This person is completely blind... until they gain psychic powers. They can direct their inner psychic sight and gain even better insight the more power they acquire. -->
-	<AG_PsychicSight.description>Носители этого гена почти полностью слепы... пока не обретут экстрасенсорные способности. Они могут направлять свое внутреннее психическое зрение и получать еще лучшее понимание окружения.</AG_PsychicSight.description>
-	<!--                  EN: psychic insanity -->
-	<AG_PsychicInsanity.label>Психическое безумие</AG_PsychicInsanity.label>
-	<!--                        EN: This person has psychic powers that depend on their mood. With low moods, and thus higher break risk, they'll have psychic bonuses. With a Catharsis, these bonuses will be even higher (even if the mood is increased during Catharsis). -->
-	<AG_PsychicInsanity.description>Носители этого гена обладают психическими способностями, которые зависят от их настроения. При плохом настроении и, следовательно, более высоком риске срыва у них будут психические бонусы. При катарсисе эти бонусы будут еще выше (даже если настроение улучшится во время Катарсиса).</AG_PsychicInsanity.description>
-	<!--                           EN: no effect -->
-	<AG_PsychicInsanity.stages.0.label>Нет эффекта</AG_PsychicInsanity.stages.0.label>
-	<!--                           EN: cathartic -->
-	<AG_PsychicInsanity.stages.1.label>Нервный срыв</AG_PsychicInsanity.stages.1.label>
-	<!--                           EN: extreme -->
-	<AG_PsychicInsanity.stages.2.label>Сильный</AG_PsychicInsanity.stages.2.label>
-	<!--                           EN: major -->
-	<AG_PsychicInsanity.stages.3.label>Средий</AG_PsychicInsanity.stages.3.label>
-	<!--                           EN: minor -->
-	<AG_PsychicInsanity.stages.4.label>Слабый</AG_PsychicInsanity.stages.4.label>
+  <AG_Invisibility.label>Пси невидимость</AG_Invisibility.label>
+  <AG_Invisibility.description>Психологически меняйте оттенки кожи, чтобы маскироваться практически в любой обстановке.</AG_Invisibility.description>
+  <AG_PsychicSight.label>Пси зрение</AG_PsychicSight.label>
+  <AG_PsychicSight.description>Носители этого гена почти полностью слепы... пока не обретут экстрасенсорные способности. Они могут направлять свое внутреннее психическое зрение и получать еще лучшее понимание окружения.</AG_PsychicSight.description>
+  <AG_PsychicInsanity.label>Психическое безумие</AG_PsychicInsanity.label>
+  <AG_PsychicInsanity.description>Носители этого гена обладают психическими способностями, которые зависят от их настроения. При плохом настроении и, следовательно, более высоком риске срыва у них будут психические бонусы. При катарсисе эти бонусы будут еще выше (даже если настроение улучшится во время Катарсиса).</AG_PsychicInsanity.description>
+  <AG_PsychicInsanity.stages.0.label>Нет эффекта</AG_PsychicInsanity.stages.0.label>
+  <AG_PsychicInsanity.stages.1.label>Нервный срыв</AG_PsychicInsanity.stages.1.label>
+  <AG_PsychicInsanity.stages.2.label>Сильный</AG_PsychicInsanity.stages.2.label>
+  <AG_PsychicInsanity.stages.3.label>Средий</AG_PsychicInsanity.stages.3.label>
+  <AG_PsychicInsanity.stages.4.label>Слабый</AG_PsychicInsanity.stages.4.label>
+  <AG_PsychicInsanity.stages.no_effect.label>Нет эффекта</AG_PsychicInsanity.stages.no_effect.label>
+  <AG_PsychicInsanity.stages.cathartic.label>Нервный срыв</AG_PsychicInsanity.stages.cathartic.label>
+  <AG_PsychicInsanity.stages.extreme.label>Сильный</AG_PsychicInsanity.stages.extreme.label>
+  <AG_PsychicInsanity.stages.major.label>Средий</AG_PsychicInsanity.stages.major.label>
+  <AG_PsychicInsanity.stages.minor.label>Слабый</AG_PsychicInsanity.stages.minor.label>
 </LanguageData>

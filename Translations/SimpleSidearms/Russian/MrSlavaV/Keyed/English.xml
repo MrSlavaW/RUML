@@ -76,7 +76,7 @@ Right click to remove unarmed combat as preferred melee option.</DrawSidearm_giz
   <LimitModeAmount_desc>Какие ограничения действуют на всё второстепенное оружие.</LimitModeAmount_desc>
   <LimitModeAmount_option_AbsoluteWeight>Mass
 absolute</LimitModeAmount_option_AbsoluteWeight>
-  <LimitModeAmount_option_MaximumCarryWeightOnly>No limit</LimitModeAmount_option_MaximumCarryWeightOnly>
+  <LimitModeAmount_option_MaximumCarryWeightOnly>Только макс. переносимый вес</LimitModeAmount_option_MaximumCarryWeightOnly>
   <LimitModeAmount_option_None>Без ограничений</LimitModeAmount_option_None>
   <LimitModeAmount_option_RelativeWeight>Mass
 fraction</LimitModeAmount_option_RelativeWeight>
@@ -180,7 +180,7 @@ weapons</LimitModeSingle_option_Selection>
   <SidearmPickupFail_NotAToolForPacifist>Not a tool. {0} is incapable of violence.</SidearmPickupFail_NotAToolForPacifist>
   <SidearmPickupFail_NotYetBladelinkBonded>Ещё не связано узами</SidearmPickupFail_NotYetBladelinkBonded>
   <SidearmPickupFail_RangedSlotsFull>Ranged slots full</SidearmPickupFail_RangedSlotsFull>
-  <SidearmPickupFail_SidearmsTooHeavy>Too heavy for a sidearm</SidearmPickupFail_SidearmsTooHeavy>
+  <SidearmPickupFail_SidearmsTooHeavy>Слишком тяжело для дополнительного оружия</SidearmPickupFail_SidearmsTooHeavy>
   <SidearmPickupFail_SidearmsTooHeavyInTotal>Too heavy for a sidearm</SidearmPickupFail_SidearmsTooHeavyInTotal>
   <SidearmPickupFail_SidearmsTooHeavyMelee>Too heavy for a melee sidearm</SidearmPickupFail_SidearmsTooHeavyMelee>
   <SidearmPickupFail_SidearmsTooHeavyRanged>Too heavy for a ranged sidearm</SidearmPickupFail_SidearmsTooHeavyRanged>

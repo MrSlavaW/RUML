@@ -3,4 +3,10 @@
   <AB_DoBillsMakeWeapons.label>изготавливать оружие</AB_DoBillsMakeWeapons.label>
   <AB_DoBillsMachiningTable.label>работать за станком</AB_DoBillsMachiningTable.label>
   <AB_DoBillsSmelter.label>плавить в экзотической плавильне</AB_DoBillsSmelter.label>
+  <AB_DoBillsMakeWeapons.gerund>ковка на</AB_DoBillsMakeWeapons.gerund>
+  <AB_DoBillsMakeWeapons.verb>ковать на</AB_DoBillsMakeWeapons.verb>
+  <AB_DoBillsMachiningTable.gerund>работа на</AB_DoBillsMachiningTable.gerund>
+  <AB_DoBillsMachiningTable.verb>работать на</AB_DoBillsMachiningTable.verb>
+  <AB_DoBillsSmelter.gerund>переплавка на</AB_DoBillsSmelter.gerund>
+  <AB_DoBillsSmelter.verb>переплавлять на</AB_DoBillsSmelter.verb>
 </LanguageData>

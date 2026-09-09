@@ -21,4 +21,10 @@
   <AB_SporesAllergy_Heightened.stages.2.label>критическая</AB_SporesAllergy_Heightened.stages.2.label>
   <AB_StrawberryInEyes.battleStateLabel>ослеплен</AB_StrawberryInEyes.battleStateLabel>
   <AB_StrawberryInEyes.labelNoun>клубника</AB_StrawberryInEyes.labelNoun>
+  <AB_SporesAllergy_Heightened.stages.minor.label>лёгкая</AB_SporesAllergy_Heightened.stages.minor.label>
+  <AB_SporesAllergy_Heightened.stages.major.label>тяжёлая</AB_SporesAllergy_Heightened.stages.major.label>
+  <AB_SporesAllergy_Heightened.stages.extreme.label>критическая</AB_SporesAllergy_Heightened.stages.extreme.label>
+  <AB_MalevolentEye.stages.minor.label>слабый</AB_MalevolentEye.stages.minor.label>
+  <AB_MalevolentEye.stages.major.label>тяжёлый</AB_MalevolentEye.stages.major.label>
+  <AB_MalevolentEye.stages.extreme.label>критический</AB_MalevolentEye.stages.extreme.label>
 </LanguageData>

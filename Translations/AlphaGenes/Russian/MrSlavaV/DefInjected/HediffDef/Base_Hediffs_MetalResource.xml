@@ -1,39 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<!-- 1.6\Defs\HediffDefs\Hediffs_MetalResource.xml -->
-	<!--                 EN: mineral craving -->
-	<AG_MineralCraving.label>Тяга к минералам</AG_MineralCraving.label>
-	<!--                       EN: Due to a lack of minerals, this person's body can no longer sustain their metabolism. Their hunger is insatiable -->
-	<AG_MineralCraving.description>Из-за недостатка минералов организм этого человека больше не способен поддерживать обмен веществ. Возникший голод невозможно утолить.</AG_MineralCraving.description>
-	<!--                          EN: minor -->
-	<AG_MineralCraving.stages.0.label>Слабая</AG_MineralCraving.stages.0.label>
-	<!--                          EN: moderate -->
-	<AG_MineralCraving.stages.1.label>Средняя</AG_MineralCraving.stages.1.label>
-	<!--                          EN: major -->
-	<AG_MineralCraving.stages.2.label>Сильная</AG_MineralCraving.stages.2.label>
-	<!--                EN: mineral fueled -->
-	<AG_MineralFueled.label>Минеральное топливо</AG_MineralFueled.label>
-	<!--                      EN: Hidden: mineral fueled -->
-	<AG_MineralFueled.description>Скрытый: минеральное топливо</AG_MineralFueled.description>
-	<!--                         EN: off -->
-	<AG_MineralFueled.stages.0.label>выключен</AG_MineralFueled.stages.0.label>
-	<!--                         EN: on -->
-	<AG_MineralFueled.stages.1.label>включен</AG_MineralFueled.stages.1.label>
-	<!--                       EN: reactive armour -->
-	<AG_ReactiveArmourHediff.label>Минеральная броня</AG_ReactiveArmourHediff.label>
-	<!--                             EN: Their minerals are hardening their skin against attacks by how strong their mineral reserves are. -->
-	<AG_ReactiveArmourHediff.description>Их минералы защищают кожу от атак благодаря тому, насколько велики их минеральные запасы.</AG_ReactiveArmourHediff.description>
-	<!--                                EN: minimal armour -->
-	<AG_ReactiveArmourHediff.stages.0.label>минимальная броня</AG_ReactiveArmourHediff.stages.0.label>
-	<!--                                EN: wavering armour -->
-	<AG_ReactiveArmourHediff.stages.1.label>колеблющаяся броня</AG_ReactiveArmourHediff.stages.1.label>
-	<!--                                EN: hardened armour -->
-	<AG_ReactiveArmourHediff.stages.2.label>закалённая броня</AG_ReactiveArmourHediff.stages.2.label>
-	<!--                                EN: impenetrable armour -->
-	<AG_ReactiveArmourHediff.stages.3.label>Непробиваемая броня</AG_ReactiveArmourHediff.stages.3.label>
-	<!--                         EN: mineral overdrive -->
-	<AG_MineralOverdriveHediff.label>Минеральный овердрайв</AG_MineralOverdriveHediff.label>
-	<!--                               EN: Their mineral reserves are being rapidly consumed to work at break neck pace! -->
-	<AG_MineralOverdriveHediff.description>Их минеральные запасы быстро расходуются для работы в бешеном темпе.!</AG_MineralOverdriveHediff.description>
-	<!--                                  EN: overdrive -->
-	<AG_MineralOverdriveHediff.stages.0.label>перегрузка</AG_MineralOverdriveHediff.stages.0.label>
+  <AG_MineralCraving.label>Тяга к минералам</AG_MineralCraving.label>
+  <AG_MineralCraving.description>Из-за недостатка минералов организм этого человека больше не способен поддерживать обмен веществ. Возникший голод невозможно утолить.</AG_MineralCraving.description>
+  <AG_MineralCraving.stages.0.label>Слабая</AG_MineralCraving.stages.0.label>
+  <AG_MineralCraving.stages.1.label>Средняя</AG_MineralCraving.stages.1.label>
+  <AG_MineralCraving.stages.2.label>Сильная</AG_MineralCraving.stages.2.label>
+  <AG_MineralFueled.label>Минеральное топливо</AG_MineralFueled.label>
+  <AG_MineralFueled.description>Скрытый: минеральное топливо</AG_MineralFueled.description>
+  <AG_MineralFueled.stages.0.label>выключен</AG_MineralFueled.stages.0.label>
+  <AG_MineralFueled.stages.1.label>включен</AG_MineralFueled.stages.1.label>
+  <AG_ReactiveArmourHediff.label>Минеральная броня</AG_ReactiveArmourHediff.label>
+  <AG_ReactiveArmourHediff.description>Их минералы защищают кожу от атак благодаря тому, насколько велики их минеральные запасы.</AG_ReactiveArmourHediff.description>
+  <AG_ReactiveArmourHediff.stages.0.label>минимальная броня</AG_ReactiveArmourHediff.stages.0.label>
+  <AG_ReactiveArmourHediff.stages.1.label>колеблющаяся броня</AG_ReactiveArmourHediff.stages.1.label>
+  <AG_ReactiveArmourHediff.stages.2.label>закалённая броня</AG_ReactiveArmourHediff.stages.2.label>
+  <AG_ReactiveArmourHediff.stages.3.label>Непробиваемая броня</AG_ReactiveArmourHediff.stages.3.label>
+  <AG_MineralOverdriveHediff.label>Минеральный овердрайв</AG_MineralOverdriveHediff.label>
+  <AG_MineralOverdriveHediff.description>Их минеральные запасы быстро расходуются для работы в бешеном темпе.!</AG_MineralOverdriveHediff.description>
+  <AG_MineralOverdriveHediff.stages.0.label>перегрузка</AG_MineralOverdriveHediff.stages.0.label>
+  <AG_MineralCraving.stages.minor.label>Слабая</AG_MineralCraving.stages.minor.label>
+  <AG_MineralCraving.stages.moderate.label>Средняя</AG_MineralCraving.stages.moderate.label>
+  <AG_MineralCraving.stages.major.label>Сильная</AG_MineralCraving.stages.major.label>
+  <AG_MineralFueled.stages.off.label>выключен</AG_MineralFueled.stages.off.label>
+  <AG_MineralFueled.stages.on.label>включен</AG_MineralFueled.stages.on.label>
+  <AG_ReactiveArmourHediff.stages.minimal_armour.label>минимальная броня</AG_ReactiveArmourHediff.stages.minimal_armour.label>
+  <AG_ReactiveArmourHediff.stages.wavering_armour.label>колеблющаяся броня</AG_ReactiveArmourHediff.stages.wavering_armour.label>
+  <AG_ReactiveArmourHediff.stages.hardened_armour.label>закалённая броня</AG_ReactiveArmourHediff.stages.hardened_armour.label>
+  <AG_ReactiveArmourHediff.stages.impenetrable_armour.label>Непробиваемая броня</AG_ReactiveArmourHediff.stages.impenetrable_armour.label>
+  <AG_MineralOverdriveHediff.stages.overdrive.label>перегрузка</AG_MineralOverdriveHediff.stages.overdrive.label>
 </LanguageData>

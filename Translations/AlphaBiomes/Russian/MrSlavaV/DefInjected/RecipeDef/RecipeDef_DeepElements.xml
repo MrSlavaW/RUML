@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <AB_CrystalWoodToMatrix.jobString>refining crystal wood into matrix.</AB_CrystalWoodToMatrix.jobString>
-  <AB_PropaneToChemfuel.jobString>Refining chemfuel from wax.</AB_PropaneToChemfuel.jobString>
-  <AB_RedQuartzToAlcyonite.jobString>extracting alcyonite from rose quartz.</AB_RedQuartzToAlcyonite.jobString>
-  <AB_ResinToProcessed.jobString>refining cordax resin into processed resin.</AB_ResinToProcessed.jobString>
+  <AB_CrystalWoodToMatrix.jobString>Перерабатывает кристаллическую древесину в матрицу.</AB_CrystalWoodToMatrix.jobString>
+  <AB_PropaneToChemfuel.jobString>Производит химтопливо из парафинового воска.</AB_PropaneToChemfuel.jobString>
+  <AB_RedQuartzToAlcyonite.jobString>Извлекает альционит из розового кварца.</AB_RedQuartzToAlcyonite.jobString>
+  <AB_ResinToProcessed.jobString>Перерабатывает смолу кордакса в очищенную смолу.</AB_ResinToProcessed.jobString>
 </LanguageData>

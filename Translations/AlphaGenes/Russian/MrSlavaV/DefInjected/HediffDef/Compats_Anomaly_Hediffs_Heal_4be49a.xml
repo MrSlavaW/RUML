@@ -1,33 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<!-- 1.6\Mods\Anomaly\Defs\HediffDefs\Hediffs_Health_Anomaly.xml -->
-	<!--                 EN: pseudo deadlife -->
-	<AG_PseudoDeadlife.label>псевдо-мёртвая жизнь</AG_PseudoDeadlife.label>
-	<!--                       EN: This person has a cloud of microscopic archites that induce a state of pseudo deadlife, granting great resilience without outright killing them. -->
-	<AG_PseudoDeadlife.description>Это существо окружено облаком микроскопических архитов, погружающих его в состояние псевдо-мёртвой жизни, что значительно повышает сопротивляемость, но не приводит к смерти.</AG_PseudoDeadlife.description>
-	<!--               EN: shambler plague -->
-	<AG_PlaguedClaws.label>чумные когти</AG_PlaguedClaws.label>
-	<!--                   EN: a shambler plague -->
-	<AG_PlaguedClaws.labelNoun>чума шамблеров</AG_PlaguedClaws.labelNoun>
-	<!--                     EN: A virulent disease that causes severe debilitation. If a victim dies and it is more than 80% advanced when they die, they will rise as a shambler, spreading the infection further. -->
-	<AG_PlaguedClaws.description>Опасная болезнь, вызывающая сильное истощение. Если заражённый умирает, и болезнь прогрессировала более чем на 80%, он восстаёт в виде шамблера и продолжает распространять инфекцию.</AG_PlaguedClaws.description>
-	<!--                        EN: minor -->
-	<AG_PlaguedClaws.stages.0.label>лёгкая</AG_PlaguedClaws.stages.0.label>
-	<!--                        EN: major -->
-	<AG_PlaguedClaws.stages.1.label>средняя</AG_PlaguedClaws.stages.1.label>
-	<!--                        EN: extreme -->
-	<AG_PlaguedClaws.stages.2.label>тяжёлая</AG_PlaguedClaws.stages.2.label>
-	<!--                        EN: extreme -->
-	<AG_PlaguedClaws.stages.3.label>смертельная</AG_PlaguedClaws.stages.3.label>
-	<!--                        EN: sunlight regeneration -->
-	<AG_Regeneration_InTheSun.label>солнечная регенерация</AG_Regeneration_InTheSun.label>
-	<!--                              EN: This shambler gets healed by sunlight. -->
-	<AG_Regeneration_InTheSun.description>Под солнечным светом этот шамблер постепенно восстанавливается.</AG_Regeneration_InTheSun.description>
-	<!--            EN: meat burst -->
-	<AG_MeatBurst.label>мясной взрыв</AG_MeatBurst.label>
-	<!--                  EN: This person will explode on death, liberating a small amount of fleshbeasts. -->
-	<AG_MeatBurst.description>Это существо взрывается после смерти, порождая небольшое количество зверей из плоти.</AG_MeatBurst.description>
-	<!--             EN: flesh catharsis -->
-	<AG_FleshPower.label>катарсис плоти</AG_FleshPower.label>
-	<!--                   EN: The exhilaration caused after absorbing a fleshbeast is causing this person to have increased pain tolerance and strength. This will last for about a day. -->
-	<AG_FleshPower.description>Эйфория после поглощения зверя из плоти повышает болевой порог и силу этого существа. Эффект длится около суток.</AG_FleshPower.description>
+  <AG_PseudoDeadlife.label>псевдо-мёртвая жизнь</AG_PseudoDeadlife.label>
+  <AG_PseudoDeadlife.description>Это существо окружено облаком микроскопических архитов, погружающих его в состояние псевдо-мёртвой жизни, что значительно повышает сопротивляемость, но не приводит к смерти.</AG_PseudoDeadlife.description>
+  <AG_PlaguedClaws.label>чумные когти</AG_PlaguedClaws.label>
+  <AG_PlaguedClaws.labelNoun>чума шамблеров</AG_PlaguedClaws.labelNoun>
+  <AG_PlaguedClaws.description>Опасная болезнь, вызывающая сильное истощение. Если заражённый умирает, и болезнь прогрессировала более чем на 80%, он восстаёт в виде шамблера и продолжает распространять инфекцию.</AG_PlaguedClaws.description>
+  <AG_PlaguedClaws.stages.0.label>лёгкая</AG_PlaguedClaws.stages.0.label>
+  <AG_PlaguedClaws.stages.1.label>средняя</AG_PlaguedClaws.stages.1.label>
+  <AG_PlaguedClaws.stages.2.label>тяжёлая</AG_PlaguedClaws.stages.2.label>
+  <AG_PlaguedClaws.stages.3.label>смертельная</AG_PlaguedClaws.stages.3.label>
+  <AG_Regeneration_InTheSun.label>солнечная регенерация</AG_Regeneration_InTheSun.label>
+  <AG_Regeneration_InTheSun.description>Под солнечным светом этот шамблер постепенно восстанавливается.</AG_Regeneration_InTheSun.description>
+  <AG_MeatBurst.label>мясной взрыв</AG_MeatBurst.label>
+  <AG_MeatBurst.description>Это существо взрывается после смерти, порождая небольшое количество зверей из плоти.</AG_MeatBurst.description>
+  <AG_FleshPower.label>катарсис плоти</AG_FleshPower.label>
+  <AG_FleshPower.description>Эйфория после поглощения зверя из плоти повышает болевой порог и силу этого существа. Эффект длится около суток.</AG_FleshPower.description>
+  <AG_PlaguedClaws.stages.minor.label>лёгкая</AG_PlaguedClaws.stages.minor.label>
+  <AG_PlaguedClaws.stages.major.label>средняя</AG_PlaguedClaws.stages.major.label>
+  <AG_PlaguedClaws.stages.extreme.label>смертельная</AG_PlaguedClaws.stages.extreme.label>
 </LanguageData>

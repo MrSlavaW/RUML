@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <EPIA_InstallCircadianRefresher.jobString>Устанавливает circadian refresher.</EPIA_InstallCircadianRefresher.jobString>
-  <EPIA_RemoveCircadianRefresher.jobString>Removing circadian refresher.</EPIA_RemoveCircadianRefresher.jobString>
-  <EPIA_RemoveDetoxifierEnhancer.jobString>Removing detoxifier enhancer.</EPIA_RemoveDetoxifierEnhancer.jobString>
-  <EPIA_UpgradeAdvancedDrillArm.jobString>Upgrading drill arm.</EPIA_UpgradeAdvancedDrillArm.jobString>
-  <EPIA_UpgradeAdvancedElbowBlade.jobString>Upgrading bionic elbow blade.</EPIA_UpgradeAdvancedElbowBlade.jobString>
-  <EPIA_UpgradeAdvancedFieldHand.jobString>Upgrading field hand.</EPIA_UpgradeAdvancedFieldHand.jobString>
-  <EPIA_UpgradeAdvancedHandTalon.jobString>Upgrading bionic hand talon.</EPIA_UpgradeAdvancedHandTalon.jobString>
-  <EPIA_UpgradeAdvancedKneeSpike.jobString>Upgrading bionic knee spike.</EPIA_UpgradeAdvancedKneeSpike.jobString>
-  <EPIA_UpgradeBionicElbowBlade.jobString>Upgrading elbow blade.</EPIA_UpgradeBionicElbowBlade.jobString>
-  <EPIA_UpgradeBionicHandTalon.jobString>Upgrading hand talon.</EPIA_UpgradeBionicHandTalon.jobString>
-  <EPIA_UpgradeBionicKneeSpike.jobString>Upgrading knee spike.</EPIA_UpgradeBionicKneeSpike.jobString>
-  <EPIA_UpgradeDetoxifierSyntheticLiver.jobString>Upgrading synthetic liver.</EPIA_UpgradeDetoxifierSyntheticLiver.jobString>
-  <EPIA_UpgradeImmunoenhancerSyntheticKidney.jobString>Upgrading synthetic kidney.</EPIA_UpgradeImmunoenhancerSyntheticKidney.jobString>
-  <InstallEPOE_AdvancedDrillArm.jobString>Устанавливает advanced drill arm.</InstallEPOE_AdvancedDrillArm.jobString>
-  <InstallEPOE_AdvancedElbowBlade.jobString>Устанавливает advanced bionic elbow blade.</InstallEPOE_AdvancedElbowBlade.jobString>
-  <InstallEPOE_AdvancedFieldHand.jobString>Устанавливает advanced field hand.</InstallEPOE_AdvancedFieldHand.jobString>
-  <InstallEPOE_AdvancedHandTalon.jobString>Устанавливает advanced bionic hand talon.</InstallEPOE_AdvancedHandTalon.jobString>
-  <InstallEPOE_AdvancedKneeSpike.jobString>Устанавливает advanced bionic knee spike.</InstallEPOE_AdvancedKneeSpike.jobString>
-  <InstallEPOE_DetoxifierEnhancer.jobString>Устанавливает detoxifier enhancer.</InstallEPOE_DetoxifierEnhancer.jobString>
-  <InstallEPOE_DetoxifierSyntheticLiver.jobString>Устанавливает synthetic detoxifier liver.</InstallEPOE_DetoxifierSyntheticLiver.jobString>
-  <InstallEPOE_ImmunoenhancerSyntheticKidney.jobString>Устанавливает synthetic immunoenhanced kidney.</InstallEPOE_ImmunoenhancerSyntheticKidney.jobString>
-  <InstallEPOE_ScytherElbowBlade.jobString>Устанавливает bionic elbow blade.</InstallEPOE_ScytherElbowBlade.jobString>
-  <InstallEPOE_ScytherHandTalon.jobString>Устанавливает bionic hand talon.</InstallEPOE_ScytherHandTalon.jobString>
-  <InstallEPOE_ScytherKneeSpike.jobString>Устанавливает bionic knee spike.</InstallEPOE_ScytherKneeSpike.jobString>
+  <EPIA_InstallCircadianRefresher.jobString>Устанавливает циркадный освежитель.</EPIA_InstallCircadianRefresher.jobString>
+  <EPIA_RemoveCircadianRefresher.jobString>Удаляет циркадный освежитель.</EPIA_RemoveCircadianRefresher.jobString>
+  <EPIA_RemoveDetoxifierEnhancer.jobString>Удаляет детоксикационный усилитель.</EPIA_RemoveDetoxifierEnhancer.jobString>
+  <EPIA_UpgradeAdvancedDrillArm.jobString>Модернизирует улучшенную буроруку.</EPIA_UpgradeAdvancedDrillArm.jobString>
+  <EPIA_UpgradeAdvancedElbowBlade.jobString>Модернизирует улучшенное бионическое лезвие в локте.</EPIA_UpgradeAdvancedElbowBlade.jobString>
+  <EPIA_UpgradeAdvancedFieldHand.jobString>Модернизирует улучшенную полевую руку.</EPIA_UpgradeAdvancedFieldHand.jobString>
+  <EPIA_UpgradeAdvancedHandTalon.jobString>Модернизирует улучшенный бионический наручный коготь.</EPIA_UpgradeAdvancedHandTalon.jobString>
+  <EPIA_UpgradeAdvancedKneeSpike.jobString>Модернизирует улучшенный бионический шип в колене.</EPIA_UpgradeAdvancedKneeSpike.jobString>
+  <EPIA_UpgradeBionicElbowBlade.jobString>Модернизирует бионическое лезвие в локте.</EPIA_UpgradeBionicElbowBlade.jobString>
+  <EPIA_UpgradeBionicHandTalon.jobString>Модернизирует бионический наручный коготь.</EPIA_UpgradeBionicHandTalon.jobString>
+  <EPIA_UpgradeBionicKneeSpike.jobString>Модернизирует бионический шип в колене.</EPIA_UpgradeBionicKneeSpike.jobString>
+  <EPIA_UpgradeDetoxifierSyntheticLiver.jobString>Модернизирует синтетическую печень-детоксикатор.</EPIA_UpgradeDetoxifierSyntheticLiver.jobString>
+  <EPIA_UpgradeImmunoenhancerSyntheticKidney.jobString>Модернизирует синтетическую почку-иммуноусилитель.</EPIA_UpgradeImmunoenhancerSyntheticKidney.jobString>
+  <InstallEPOE_AdvancedDrillArm.jobString>Устанавливает улучшенную буроруку.</InstallEPOE_AdvancedDrillArm.jobString>
+  <InstallEPOE_AdvancedElbowBlade.jobString>Устанавливает улучшенное бионическое лезвие в локте.</InstallEPOE_AdvancedElbowBlade.jobString>
+  <InstallEPOE_AdvancedFieldHand.jobString>Устанавливает улучшенную полевую руку.</InstallEPOE_AdvancedFieldHand.jobString>
+  <InstallEPOE_AdvancedHandTalon.jobString>Устанавливает улучшенный бионический наручный коготь.</InstallEPOE_AdvancedHandTalon.jobString>
+  <InstallEPOE_AdvancedKneeSpike.jobString>Устанавливает улучшенный бионический шип в колене.</InstallEPOE_AdvancedKneeSpike.jobString>
+  <InstallEPOE_DetoxifierEnhancer.jobString>Устанавливает детоксикационный усилитель.</InstallEPOE_DetoxifierEnhancer.jobString>
+  <InstallEPOE_DetoxifierSyntheticLiver.jobString>Устанавливает синтетическую печень-детоксикатор.</InstallEPOE_DetoxifierSyntheticLiver.jobString>
+  <InstallEPOE_ImmunoenhancerSyntheticKidney.jobString>Устанавливает синтетическую почку-иммуноусилитель.</InstallEPOE_ImmunoenhancerSyntheticKidney.jobString>
+  <InstallEPOE_ScytherElbowBlade.jobString>Устанавливает бионическое лезвие в локте.</InstallEPOE_ScytherElbowBlade.jobString>
+  <InstallEPOE_ScytherHandTalon.jobString>Устанавливает бионический наручный коготь.</InstallEPOE_ScytherHandTalon.jobString>
+  <InstallEPOE_ScytherKneeSpike.jobString>Устанавливает бионический шип в колене.</InstallEPOE_ScytherKneeSpike.jobString>
 </LanguageData>

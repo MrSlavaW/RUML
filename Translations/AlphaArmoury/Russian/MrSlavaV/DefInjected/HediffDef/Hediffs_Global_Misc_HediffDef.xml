@@ -1,105 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<!-- 1.6\Defs\HediffDefs\Hediffs_Global_Misc.xml -->
-
-	<!--                     EN: psychic invisibility -->
-	<AArmoury_Invisibility.label>психическая невидимость</AArmoury_Invisibility.label>
-	<!--                           EN: This person has psychically shifted their skin tones to camouflage in almost any surroundings. -->
-	<AArmoury_Invisibility.description>Этот персонаж психически изменил оттенок кожи, маскируясь практически в любой обстановке.</AArmoury_Invisibility.description>
-	
-	<!--                    EN: adrenal rush -->
-	<AArmoury_AdrenalRush.label>адреналиновый всплеск</AArmoury_AdrenalRush.label>
-	<!--                          EN: This person is moving faster and avoiding both melee and ranged attacks due to an adrenaline rush. -->
-	<AArmoury_AdrenalRush.description>Этот персонаж движется быстрее и лучше уклоняется как от атак в ближнем бою, так и от дальних атак из-за выброса адреналина.</AArmoury_AdrenalRush.description>
-	
-	<!--                      EN: reduced hunger -->
-	<AArmoury_ReducedHunger.label>сниженный голод</AArmoury_ReducedHunger.label>
-	<!--                            EN: A wielded weapon is psychically suppressing this person's appetite. -->
-	<AArmoury_ReducedHunger.description>Оружие в руках этого персонажа психически подавляет его аппетит.</AArmoury_ReducedHunger.description>
-	
-	<!--                           EN: sharpshooter's focus -->
-	<AArmoury_SharpshootersFocus.label>фокус снайпера</AArmoury_SharpshootersFocus.label>
-	<!--                                 EN: This weapon is so easy to handle and wield that it will increase the wielders shooting skill just by having it equipped. -->
-	<AArmoury_SharpshootersFocus.description>Это оружие настолько удобно в обращении, что повышает навык стрельбы персонажа просто при экипировке.</AArmoury_SharpshootersFocus.description>
-	
-	<!--                       EN: A dangerous electric shock. It might damage the heart, and higher intensities increase the possibility of a heart attack. -->
-	<AArmoury_Electric.description>Опасный электрический разряд. Может повредить сердце, а высокая интенсивность увеличивает риск сердечного приступа.</AArmoury_Electric.description>
-	<!--                 EN: electric shock -->
-	<AArmoury_Electric.label>электрический разряд</AArmoury_Electric.label>
-	<!--                          EN: initial -->
-	<AArmoury_Electric.stages.0.label>начальная</AArmoury_Electric.stages.0.label>
-	<!--                          EN: shocked -->
-	<AArmoury_Electric.stages.1.label>поражение током</AArmoury_Electric.stages.1.label>
-	<!--                          EN: very shocked -->
-	<AArmoury_Electric.stages.2.label>сильное поражение током</AArmoury_Electric.stages.2.label>
-	<!--                          EN: paralysed -->
-	<AArmoury_Electric.stages.3.label>парализован</AArmoury_Electric.stages.3.label>
-	
-	<!--                        EN: The victim has been caught in a net, making movement very hard. This condition is reversible and will naturally dissipate after a few minutes. -->
-	<AArmoury_NetHediff.description>Жертва оказалась в сети, что сильно затрудняет передвижение. Это состояние обратимо и исчезнет само через несколько минут.</AArmoury_NetHediff.description>
-	<!--                  EN: net -->
-	<AArmoury_NetHediff.label>сеть</AArmoury_NetHediff.label>
-	<!--                           EN: snared -->
-	<AArmoury_NetHediff.stages.0.label>пойман</AArmoury_NetHediff.stages.0.label>
-	<!--                           EN: entangled -->
-	<AArmoury_NetHediff.stages.1.label>запутан</AArmoury_NetHediff.stages.1.label>
-	<!--                           EN: enmeshed -->
-	<AArmoury_NetHediff.stages.2.label>опутан</AArmoury_NetHediff.stages.2.label>
-	<!--                           EN: immobilized -->
-	<AArmoury_NetHediff.stages.3.label>обездвижен</AArmoury_NetHediff.stages.3.label>
-	
-	<!--                        EN: A fast acting toxin is coursing through this creature's veins, paralyzing their muscles. It will wear off after a while. -->
-	<AArmoury_Paralysis.description>Быстродействующий токсин циркулирует по венам существа, парализуя мышцы. Со временем эффект ослабнет.</AArmoury_Paralysis.description>
-	<!--                  EN: paralysis -->
-	<AArmoury_Paralysis.label>паралич</AArmoury_Paralysis.label>
-	<!--                           EN: initial -->
-	<AArmoury_Paralysis.stages.0.label>начальная</AArmoury_Paralysis.stages.0.label>
-	<!--                           EN: stunned -->
-	<AArmoury_Paralysis.stages.1.label>оглушён</AArmoury_Paralysis.stages.1.label>
-	<!--                           EN: very stunned -->
-	<AArmoury_Paralysis.stages.2.label>сильно оглушён</AArmoury_Paralysis.stages.2.label>
-	<!--                           EN: paralysed -->
-	<AArmoury_Paralysis.stages.3.label>парализован</AArmoury_Paralysis.stages.3.label>
-	
-	<!--                    EN: chembursting -->
-	<AArmoury_Chemburster.label>химический взрыв</AArmoury_Chemburster.label>
-	<!--                          EN: Chemfuel in the body. This person or animal will violently explode on death. -->
-	<AArmoury_Chemburster.description>Химтопливо находится в теле. Этот человек или животное взорвётся при смерти.</AArmoury_Chemburster.description>
-	
-	<!--             EN: flux-charged -->
-	<AArmoury_Flux.label>биозаряд</AArmoury_Flux.label>
-	<!--                   EN: Flux damage has destabilized this person or animal's bioelectric field, causing a short-range energy discharge that harms nearby creatures. -->
-	<AArmoury_Flux.description>Биозаряд дестабилизировал биоэлектрическое поле этого человека или животного, вызывая кратковременный энергетический разряд, поражающий ближайших существ.</AArmoury_Flux.description>
-	
-	<!--                      EN: marked by a target locator -->
-	<AArmoury_TargetLocator.label>отмечен целеуказателем</AArmoury_TargetLocator.label>
-	<!--                            EN: This person or animal has been marked with a target locator and will receive increased damage. -->
-	<AArmoury_TargetLocator.description>Этот человек или животное отмечены целеуказателем и будут получать повышенный урон.</AArmoury_TargetLocator.description>
-	<!--                               EN: taking increased damage -->
-	<AArmoury_TargetLocator.stages.0.label>получает повышенный урон</AArmoury_TargetLocator.stages.0.label>
-	
-	<!--                    EN: euphoric energy -->
-	<AArmoury_Orgasmatron.label>эйфорическая энергия</AArmoury_Orgasmatron.label>
-	<!--                          EN: This person or animal has been targeted by an orgasmatron core, leaving them dazed, flushed, and oddly satisfied. -->
-	<AArmoury_Orgasmatron.description>Этот человек или животное подверглись воздействию ядра оргазматрона, из-за чего они ошеломлены, раскрасневшиеся и странно удовлетворённые.</AArmoury_Orgasmatron.description>
-	<!--                             EN: woozy -->
-	<AArmoury_Orgasmatron.stages.0.label>одурманен</AArmoury_Orgasmatron.stages.0.label>
-	
-	<!--                      EN: psychic damage -->
-	<AArmoury_PsychicDamage.label>психический урон</AArmoury_PsychicDamage.label>
-	<!--                            EN: Psychic damage caused by neural heat transfer. -->
-	<AArmoury_PsychicDamage.description>Психический урон, вызванный передачей нейронного жара.</AArmoury_PsychicDamage.description>
-	<!--                                        EN: bandaged -->
-	<AArmoury_PsychicDamage.comps.0.labelTendedWell>перевязано</AArmoury_PsychicDamage.comps.0.labelTendedWell>
-	<!--                                             EN: sutured -->
-	<AArmoury_PsychicDamage.comps.0.labelTendedWellInner>зашито</AArmoury_PsychicDamage.comps.0.labelTendedWellInner>
-	<!--                                             EN: set -->
-	<AArmoury_PsychicDamage.comps.0.labelSolidTendedWell>зафиксировано</AArmoury_PsychicDamage.comps.0.labelSolidTendedWell>
-	<!--                                       EN: old psychic damage -->
-	<AArmoury_PsychicDamage.comps.2.permanentLabel>старый психический урон</AArmoury_PsychicDamage.comps.2.permanentLabel>
-	<!--                                                EN: permanent psychic damage -->
-	<AArmoury_PsychicDamage.comps.2.instantlyPermanentLabel>постоянный психический урон</AArmoury_PsychicDamage.comps.2.instantlyPermanentLabel>
-	<!--                                           EN: Irreparable nerve damage -->
-	<AArmoury_PsychicDamage.injuryProps.destroyedLabel>необратимое повреждение нервов</AArmoury_PsychicDamage.injuryProps.destroyedLabel>
-	<!--                                              EN: Irreparable nerve damage -->
-	<AArmoury_PsychicDamage.injuryProps.destroyedOutLabel>необратимое повреждение нервов</AArmoury_PsychicDamage.injuryProps.destroyedOutLabel>
+  <AArmoury_Invisibility.label>психическая невидимость</AArmoury_Invisibility.label>
+  <AArmoury_Invisibility.description>Этот персонаж психически изменил оттенок кожи, маскируясь практически в любой обстановке.</AArmoury_Invisibility.description>
+  <AArmoury_AdrenalRush.label>адреналиновый всплеск</AArmoury_AdrenalRush.label>
+  <AArmoury_AdrenalRush.description>Этот персонаж движется быстрее и лучше уклоняется как от атак в ближнем бою, так и от дальних атак из-за выброса адреналина.</AArmoury_AdrenalRush.description>
+  <AArmoury_ReducedHunger.label>сниженный голод</AArmoury_ReducedHunger.label>
+  <AArmoury_ReducedHunger.description>Оружие в руках этого персонажа психически подавляет его аппетит.</AArmoury_ReducedHunger.description>
+  <AArmoury_SharpshootersFocus.label>фокус снайпера</AArmoury_SharpshootersFocus.label>
+  <AArmoury_SharpshootersFocus.description>Это оружие настолько удобно в обращении, что повышает навык стрельбы персонажа просто при экипировке.</AArmoury_SharpshootersFocus.description>
+  <AArmoury_Electric.description>Опасный электрический разряд. Может повредить сердце, а высокая интенсивность увеличивает риск сердечного приступа.</AArmoury_Electric.description>
+  <AArmoury_Electric.label>электрический разряд</AArmoury_Electric.label>
+  <AArmoury_Electric.stages.0.label>начальная</AArmoury_Electric.stages.0.label>
+  <AArmoury_Electric.stages.1.label>поражение током</AArmoury_Electric.stages.1.label>
+  <AArmoury_Electric.stages.2.label>сильное поражение током</AArmoury_Electric.stages.2.label>
+  <AArmoury_Electric.stages.3.label>парализован</AArmoury_Electric.stages.3.label>
+  <AArmoury_NetHediff.description>Жертва оказалась в сети, что сильно затрудняет передвижение. Это состояние обратимо и исчезнет само через несколько минут.</AArmoury_NetHediff.description>
+  <AArmoury_NetHediff.label>сеть</AArmoury_NetHediff.label>
+  <AArmoury_NetHediff.stages.0.label>пойман</AArmoury_NetHediff.stages.0.label>
+  <AArmoury_NetHediff.stages.1.label>запутан</AArmoury_NetHediff.stages.1.label>
+  <AArmoury_NetHediff.stages.2.label>опутан</AArmoury_NetHediff.stages.2.label>
+  <AArmoury_NetHediff.stages.3.label>обездвижен</AArmoury_NetHediff.stages.3.label>
+  <AArmoury_Paralysis.description>Быстродействующий токсин циркулирует по венам существа, парализуя мышцы. Со временем эффект ослабнет.</AArmoury_Paralysis.description>
+  <AArmoury_Paralysis.label>паралич</AArmoury_Paralysis.label>
+  <AArmoury_Paralysis.stages.0.label>начальная</AArmoury_Paralysis.stages.0.label>
+  <AArmoury_Paralysis.stages.1.label>оглушён</AArmoury_Paralysis.stages.1.label>
+  <AArmoury_Paralysis.stages.2.label>сильно оглушён</AArmoury_Paralysis.stages.2.label>
+  <AArmoury_Paralysis.stages.3.label>парализован</AArmoury_Paralysis.stages.3.label>
+  <AArmoury_Chemburster.label>химический взрыв</AArmoury_Chemburster.label>
+  <AArmoury_Chemburster.description>Химтопливо находится в теле. Этот человек или животное взорвётся при смерти.</AArmoury_Chemburster.description>
+  <AArmoury_Flux.label>биозаряд</AArmoury_Flux.label>
+  <AArmoury_Flux.description>Биозаряд дестабилизировал биоэлектрическое поле этого человека или животного, вызывая кратковременный энергетический разряд, поражающий ближайших существ.</AArmoury_Flux.description>
+  <AArmoury_TargetLocator.label>отмечен целеуказателем</AArmoury_TargetLocator.label>
+  <AArmoury_TargetLocator.description>Этот человек или животное отмечены целеуказателем и будут получать повышенный урон.</AArmoury_TargetLocator.description>
+  <AArmoury_TargetLocator.stages.0.label>получает повышенный урон</AArmoury_TargetLocator.stages.0.label>
+  <AArmoury_Orgasmatron.label>эйфорическая энергия</AArmoury_Orgasmatron.label>
+  <AArmoury_Orgasmatron.description>Этот человек или животное подверглись воздействию ядра оргазматрона, из-за чего они ошеломлены, раскрасневшиеся и странно удовлетворённые.</AArmoury_Orgasmatron.description>
+  <AArmoury_Orgasmatron.stages.0.label>одурманен</AArmoury_Orgasmatron.stages.0.label>
+  <AArmoury_PsychicDamage.label>психический урон</AArmoury_PsychicDamage.label>
+  <AArmoury_PsychicDamage.description>Психический урон, вызванный передачей нейронного жара.</AArmoury_PsychicDamage.description>
+  <AArmoury_PsychicDamage.comps.0.labelTendedWell>перевязано</AArmoury_PsychicDamage.comps.0.labelTendedWell>
+  <AArmoury_PsychicDamage.comps.0.labelTendedWellInner>зашито</AArmoury_PsychicDamage.comps.0.labelTendedWellInner>
+  <AArmoury_PsychicDamage.comps.0.labelSolidTendedWell>зафиксировано</AArmoury_PsychicDamage.comps.0.labelSolidTendedWell>
+  <AArmoury_PsychicDamage.comps.2.permanentLabel>старый психический урон</AArmoury_PsychicDamage.comps.2.permanentLabel>
+  <AArmoury_PsychicDamage.comps.2.instantlyPermanentLabel>постоянный психический урон</AArmoury_PsychicDamage.comps.2.instantlyPermanentLabel>
+  <AArmoury_PsychicDamage.injuryProps.destroyedLabel>необратимое повреждение нервов</AArmoury_PsychicDamage.injuryProps.destroyedLabel>
+  <AArmoury_PsychicDamage.injuryProps.destroyedOutLabel>необратимое повреждение нервов</AArmoury_PsychicDamage.injuryProps.destroyedOutLabel>
+  <AArmoury_Electric.stages.initial.label>начальная</AArmoury_Electric.stages.initial.label>
+  <AArmoury_Electric.stages.shocked.label>поражение током</AArmoury_Electric.stages.shocked.label>
+  <AArmoury_Electric.stages.very_shocked.label>сильное поражение током</AArmoury_Electric.stages.very_shocked.label>
+  <AArmoury_Electric.stages.paralysed.label>парализован</AArmoury_Electric.stages.paralysed.label>
+  <AArmoury_NetHediff.stages.snared.label>пойман</AArmoury_NetHediff.stages.snared.label>
+  <AArmoury_NetHediff.stages.entangled.label>запутан</AArmoury_NetHediff.stages.entangled.label>
+  <AArmoury_NetHediff.stages.enmeshed.label>опутан</AArmoury_NetHediff.stages.enmeshed.label>
+  <AArmoury_NetHediff.stages.immobilized.label>обездвижен</AArmoury_NetHediff.stages.immobilized.label>
+  <AArmoury_Paralysis.stages.initial.label>начальная</AArmoury_Paralysis.stages.initial.label>
+  <AArmoury_Paralysis.stages.stunned.label>оглушён</AArmoury_Paralysis.stages.stunned.label>
+  <AArmoury_Paralysis.stages.very_stunned.label>сильно оглушён</AArmoury_Paralysis.stages.very_stunned.label>
+  <AArmoury_Paralysis.stages.paralysed.label>парализован</AArmoury_Paralysis.stages.paralysed.label>
+  <AArmoury_TargetLocator.stages.taking_increased_damage.label>получает повышенный урон</AArmoury_TargetLocator.stages.taking_increased_damage.label>
+  <AArmoury_Orgasmatron.stages.woozy.label>одурманен</AArmoury_Orgasmatron.stages.woozy.label>
 </LanguageData>

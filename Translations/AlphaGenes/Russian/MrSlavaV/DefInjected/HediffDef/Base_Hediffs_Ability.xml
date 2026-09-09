@@ -1,85 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<!-- 1.6\Defs\HediffDefs\Hediffs_Ability.xml -->
-	<!--           EN: chemfuel nodules -->
-	<AG_Exploder.label>хемтопливные узлы</AG_Exploder.label>
-	<!--                 EN: Genetically grown nodules of chemfuel will cause this person to blow up when killed. -->
-	<AG_Exploder.description>Генетически выращенные хемтопливные узлы в теле этого человека вызывают взрыв при смерти.</AG_Exploder.description>
-	<!--                 EN: acidic blood -->
-	<AG_AcidicExploder.label>Кислотная кровь</AG_AcidicExploder.label>
-	<!--                       EN: An unstable, acidic blood will cause this person to blow up in a cloud of caustic acid when killed. -->
-	<AG_AcidicExploder.description>Нестабильная, кислотная кровь приводит к тому, что при убийстве этот человек взрывается облаком едкой кислоты.</AG_AcidicExploder.description>
-	<!--                        EN: lung rot strength -->
-	<AG_LungRotStrengthHediff.label>усиление от лёгочной гнили</AG_LungRotStrengthHediff.label>
-	<!--                              EN: Special structures in this person's lungs strengthen their bodies when they are affected by lung rot, making piles of corpses... a pleasant prospect.. -->
-	<AG_LungRotStrengthHediff.description>Особые структуры в лёгких этого человека укрепляют его организм, когда он страдает от лёгочной гнили. Груды трупов становятся... заманчивой перспективой.</AG_LungRotStrengthHediff.description>
-	<!--              EN: electrified -->
-	<AG_Electrified.label>наэлектризован</AG_Electrified.label>
-	<!--                    EN: This colonist had its blood genetically modified to accumulate electrical energy, allowing them to recharge electrical batteries merely by being close to them. This change is permanent, and quite traumatic. -->
-	<AG_Electrified.description>Кровь этого поселенца была генетически изменена так, чтобы накапливать электрическую энергию и заряжать батареи одним лишь присутствием рядом. Это изменение постоянно и довольно травматично.</AG_Electrified.description>
-	<!--                 EN: A dangerous electric shock. It might have damaged the heart, and the higher the intensity the higher the possibility of a heart attack. -->
-	<AG_Electric.description>Опасный удар электрическим током. Это могло повредить сердце, и чем выше интенсивность, тем выше вероятность сердечного приступа.</AG_Electric.description>
-	<!--           EN: electric shock -->
-	<AG_Electric.label>Поражение электрическим током</AG_Electric.label>
-	<!--                    EN: initial -->
-	<AG_Electric.stages.0.label>начальный</AG_Electric.stages.0.label>
-	<!--                    EN: shocked -->
-	<AG_Electric.stages.1.label>поражён током</AG_Electric.stages.1.label>
-	<!--                    EN: very shocked -->
-	<AG_Electric.stages.2.label>тяжёлое поражение током</AG_Electric.stages.2.label>
-	<!--                    EN: paralysed -->
-	<AG_Electric.stages.3.label>Парализован</AG_Electric.stages.3.label>
-	<!--                      EN: The victim's skin is hardening and turning into brittle stone. This condition is reversible and will naturally dissipate after a few hours, but if it reaches a severity of 1 it will kill its victim. -->
-	<AG_Petrification.description>Кожа жертвы твердеет и превращается в хрупкий камень. Это состояние обратимо и естественным образом пройдет через несколько часов, но если оно достигнет степени тяжести 1(превратился в камень), то убьет свою жертву.</AG_Petrification.description>
-	<!--                EN: petrification -->
-	<AG_Petrification.label>Окаменение</AG_Petrification.label>
-	<!--                         EN: initial -->
-	<AG_Petrification.stages.0.label>начальный</AG_Petrification.stages.0.label>
-	<!--                         EN: stiff joints -->
-	<AG_Petrification.stages.1.label>жесткие суставы</AG_Petrification.stages.1.label>
-	<!--                         EN: rocky skin -->
-	<AG_Petrification.stages.2.label>скалистая кожа</AG_Petrification.stages.2.label>
-	<!--                         EN: brittle bones -->
-	<AG_Petrification.stages.3.label>Окаменелые кости</AG_Petrification.stages.3.label>
-	<!--                         EN: turned to stone -->
-	<AG_Petrification.stages.4.label>превратился в камень</AG_Petrification.stages.4.label>
-	<!--              EN: insect rally -->
-	<AG_InsectRally.label>Тактика стаи</AG_InsectRally.label>
-	<!--                    EN: This person is secreting a cloud of pheromonal compounds that are irresistible to all insects. They'll feel re-invigorated and strengthened when close to the carrier. -->
-	<AG_InsectRally.description>Выделяет облако феромонов, перед которыми не могут устоять все насекомые. Рядом с носителем они чувствуют прилив сил и бодрости.</AG_InsectRally.description>
-	<!--                   EN: insect rally -->
-	<AG_InsectRally_Buff.label>Воодушевление насекомых</AG_InsectRally_Buff.label>
-	<!--                         EN: This insect feels strengthened by being immersed in a pheromonal cloud. -->
-	<AG_InsectRally_Buff.description>Это насекомое чувствует себя сильнее, будучи погруженным в феромональное облако.</AG_InsectRally_Buff.description>
-	<!--                  EN: summoned -->
-	<AG_TemporarySummon.label>Призванный</AG_TemporarySummon.label>
-	<!--                        EN: This creature has been summoned via innate psychic means, and will vanish after a period of 4 hours. -->
-	<AG_TemporarySummon.description>Это существо было призвано врожденными психическими навыками, и исчезнет через 4 часа.</AG_TemporarySummon.description>
-	<!--                      EN: summoned -->
-	<AG_TemporarySummonMech.label>призван</AG_TemporarySummonMech.label>
-	<!--                            EN: This mech has been summoned via innate psychic means, and will vanish after a period of 1 day. -->
-	<AG_TemporarySummonMech.description>Этот мех был вызван с помощью врожденных психических способностей и исчезнет через 1 день.</AG_TemporarySummonMech.description>
-	<!--               EN: scrambled IFF -->
-	<AG_ScrambledIFF.label>сбой системы «свой-чужой»</AG_ScrambledIFF.label>
-	<!--                     EN: This mechanoid's IFF sensors have been scrambled, making it unable to properly identify its foes. It will fight on the side of the colony for a day, and after that it will revert to its former allegiance. -->
-	<AG_ScrambledIFF.description>Система опознавания «свой-чужой» этого механоида нарушена, из-за чего он не может правильно определять врагов. В течение дня он будет сражаться на стороне колонии, а затем вернётся к прежней лояльности.</AG_ScrambledIFF.description>
-	<!--                 EN: temporary bandwidth -->
-	<AG_TempNodeEffect.label>временная пропускная способность</AG_TempNodeEffect.label>
-	<!--                       EN: This person is receiving a boost to their bandwidth due to the presence of a temporary band node. -->
-	<AG_TempNodeEffect.description>Этот человек получает прибавку к пропускной способности благодаря временному канальному узлу.</AG_TempNodeEffect.description>
-	<!--                    EN: affected by sterilizing breath -->
-	<AG_SterilizingBreath.label>Очищающее дыхание</AG_SterilizingBreath.label>
-	<!--                          EN: This person has been affected by a sterilizing breath, increasing it's immunity gain rate while at the same time adversely affecting their fertility. Effects will go away after 12 hours. -->
-	<AG_SterilizingBreath.description>Этот человек попал под воздействие очищающего дыхания: иммунитет растёт быстрее, но плодовитость временно снижена. Эффект исчезнет через 12 часов.</AG_SterilizingBreath.description>
-	<!--                EN: affected by banshee scream -->
-	<AG_BansheeScream.label>крик банши</AG_BansheeScream.label>
-	<!--                      EN: This person has been affected by a banshee scream, reducing its hearing, ranged accuracy and melee dodge. Effects will go away after 12 hours. -->
-	<AG_BansheeScream.description>Этот человек попал под воздействие крика банши: слух, точность стрельбы и уклонение в ближнем бою снижены. Эффект исчезнет через 12 часов.</AG_BansheeScream.description>
-	<!--                 EN: affected by freezing breath -->
-	<AG_FreezingBreath.label>леденящее дыхание</AG_FreezingBreath.label>
-	<!--                       EN: This person has been affected by freezing breath, reducing their movement speed. Effects will go away after 12 hours. -->
-	<AG_FreezingBreath.description>Этот человек попал под воздействие ледяного дыхания, из-за чего двигается медленнее. Эффект исчезнет через 12 часов.</AG_FreezingBreath.description>
-	<!--                EN: affected by noxious breath -->
-	<AG_NoxiousBreath.label>зловонное дыхание</AG_NoxiousBreath.label>
-	<!--                      EN: This person has been affected by noxious breath. The foul stench forces affected targets to vomit uncontrollably. Effects will go away after 12 hours. -->
-	<AG_NoxiousBreath.description>Этот человек попал под воздействие зловонного дыхания. Отвратительная вонь вызывает у поражённых целей неконтролируемую рвоту. Эффект исчезнет через 12 часов.</AG_NoxiousBreath.description>
+  <AG_Exploder.label>хемтопливные узлы</AG_Exploder.label>
+  <AG_Exploder.description>Генетически выращенные хемтопливные узлы в теле этого человека вызывают взрыв при смерти.</AG_Exploder.description>
+  <AG_AcidicExploder.label>Кислотная кровь</AG_AcidicExploder.label>
+  <AG_AcidicExploder.description>Нестабильная, кислотная кровь приводит к тому, что при убийстве этот человек взрывается облаком едкой кислоты.</AG_AcidicExploder.description>
+  <AG_LungRotStrengthHediff.label>усиление от лёгочной гнили</AG_LungRotStrengthHediff.label>
+  <AG_LungRotStrengthHediff.description>Особые структуры в лёгких этого человека укрепляют его организм, когда он страдает от лёгочной гнили. Груды трупов становятся... заманчивой перспективой.</AG_LungRotStrengthHediff.description>
+  <AG_Electrified.label>наэлектризован</AG_Electrified.label>
+  <AG_Electrified.description>Кровь этого поселенца была генетически изменена так, чтобы накапливать электрическую энергию и заряжать батареи одним лишь присутствием рядом. Это изменение постоянно и довольно травматично.</AG_Electrified.description>
+  <AG_Electric.description>Опасный удар электрическим током. Это могло повредить сердце, и чем выше интенсивность, тем выше вероятность сердечного приступа.</AG_Electric.description>
+  <AG_Electric.label>Поражение электрическим током</AG_Electric.label>
+  <AG_Electric.stages.0.label>начальный</AG_Electric.stages.0.label>
+  <AG_Electric.stages.1.label>поражён током</AG_Electric.stages.1.label>
+  <AG_Electric.stages.2.label>тяжёлое поражение током</AG_Electric.stages.2.label>
+  <AG_Electric.stages.3.label>Парализован</AG_Electric.stages.3.label>
+  <AG_Petrification.description>Кожа жертвы твердеет и превращается в хрупкий камень. Это состояние обратимо и естественным образом пройдет через несколько часов, но если оно достигнет степени тяжести 1(превратился в камень), то убьет свою жертву.</AG_Petrification.description>
+  <AG_Petrification.label>Окаменение</AG_Petrification.label>
+  <AG_Petrification.stages.0.label>начальный</AG_Petrification.stages.0.label>
+  <AG_Petrification.stages.1.label>жесткие суставы</AG_Petrification.stages.1.label>
+  <AG_Petrification.stages.2.label>скалистая кожа</AG_Petrification.stages.2.label>
+  <AG_Petrification.stages.3.label>Окаменелые кости</AG_Petrification.stages.3.label>
+  <AG_Petrification.stages.4.label>превратился в камень</AG_Petrification.stages.4.label>
+  <AG_InsectRally.label>Тактика стаи</AG_InsectRally.label>
+  <AG_InsectRally.description>Выделяет облако феромонов, перед которыми не могут устоять все насекомые. Рядом с носителем они чувствуют прилив сил и бодрости.</AG_InsectRally.description>
+  <AG_InsectRally_Buff.label>Воодушевление насекомых</AG_InsectRally_Buff.label>
+  <AG_InsectRally_Buff.description>Это насекомое чувствует себя сильнее, будучи погруженным в феромональное облако.</AG_InsectRally_Buff.description>
+  <AG_TemporarySummon.label>Призванный</AG_TemporarySummon.label>
+  <AG_TemporarySummon.description>Это существо было призвано врожденными психическими навыками, и исчезнет через 4 часа.</AG_TemporarySummon.description>
+  <AG_TemporarySummonMech.label>призван</AG_TemporarySummonMech.label>
+  <AG_TemporarySummonMech.description>Этот мех был вызван с помощью врожденных психических способностей и исчезнет через 1 день.</AG_TemporarySummonMech.description>
+  <AG_ScrambledIFF.label>сбой системы «свой-чужой»</AG_ScrambledIFF.label>
+  <AG_ScrambledIFF.description>Система опознавания «свой-чужой» этого механоида нарушена, из-за чего он не может правильно определять врагов. В течение дня он будет сражаться на стороне колонии, а затем вернётся к прежней лояльности.</AG_ScrambledIFF.description>
+  <AG_TempNodeEffect.label>временная пропускная способность</AG_TempNodeEffect.label>
+  <AG_TempNodeEffect.description>Этот человек получает прибавку к пропускной способности благодаря временному канальному узлу.</AG_TempNodeEffect.description>
+  <AG_SterilizingBreath.label>Очищающее дыхание</AG_SterilizingBreath.label>
+  <AG_SterilizingBreath.description>Этот человек попал под воздействие очищающего дыхания: иммунитет растёт быстрее, но плодовитость временно снижена. Эффект исчезнет через 12 часов.</AG_SterilizingBreath.description>
+  <AG_BansheeScream.label>крик банши</AG_BansheeScream.label>
+  <AG_BansheeScream.description>Этот человек попал под воздействие крика банши: слух, точность стрельбы и уклонение в ближнем бою снижены. Эффект исчезнет через 12 часов.</AG_BansheeScream.description>
+  <AG_FreezingBreath.label>леденящее дыхание</AG_FreezingBreath.label>
+  <AG_FreezingBreath.description>Этот человек попал под воздействие ледяного дыхания, из-за чего двигается медленнее. Эффект исчезнет через 12 часов.</AG_FreezingBreath.description>
+  <AG_NoxiousBreath.label>зловонное дыхание</AG_NoxiousBreath.label>
+  <AG_NoxiousBreath.description>Этот человек попал под воздействие зловонного дыхания. Отвратительная вонь вызывает у поражённых целей неконтролируемую рвоту. Эффект исчезнет через 12 часов.</AG_NoxiousBreath.description>
+  <AG_Electric.stages.initial.label>начальный</AG_Electric.stages.initial.label>
+  <AG_Electric.stages.shocked.label>поражён током</AG_Electric.stages.shocked.label>
+  <AG_Electric.stages.very_shocked.label>тяжёлое поражение током</AG_Electric.stages.very_shocked.label>
+  <AG_Electric.stages.paralysed.label>Парализован</AG_Electric.stages.paralysed.label>
+  <AG_Petrification.stages.initial.label>начальный</AG_Petrification.stages.initial.label>
+  <AG_Petrification.stages.stiff_joints.label>жесткие суставы</AG_Petrification.stages.stiff_joints.label>
+  <AG_Petrification.stages.rocky_skin.label>скалистая кожа</AG_Petrification.stages.rocky_skin.label>
+  <AG_Petrification.stages.brittle_bones.label>Окаменелые кости</AG_Petrification.stages.brittle_bones.label>
+  <AG_Petrification.stages.turned_to_stone.label>превратился в камень</AG_Petrification.stages.turned_to_stone.label>
 </LanguageData>

@@ -1,25 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<!-- 1.6\Defs\HediffDefs\Hediffs_Global_Misc.xml -->
-	<!--                  EN: Caused by the apoptosis turret, a terrifying weapon designed to drain the souls of its targets. Equipped with soul-draining technology, it is capable of siphoning the life force of organic beings, leaving them weakened and vulnerable. Will eventually disappear. -->
-	<AM_SoulDrain.description>Вызывается турелью апоптоза, ужасающим оружием, предназначенным для истощения душ своих целей. Оснащенный технологией высасывания душ, он способен выкачивать жизненную силу органических существ, делая их ослабленными и уязвимыми. В конце концов исчезнет.</AM_SoulDrain.description>
-	<!--            EN: soul drain -->
-	<AM_SoulDrain.label>утечка души</AM_SoulDrain.label>
-	<!--                     EN: initial -->
-	<AM_SoulDrain.stages.0.label>начальное</AM_SoulDrain.stages.0.label>
-	<!--                     EN: faint headed -->
-	<AM_SoulDrain.stages.1.label>слабая голова</AM_SoulDrain.stages.1.label>
-	<!--                     EN: throbbing headache -->
-	<AM_SoulDrain.stages.2.label>пульсирующая головная боль</AM_SoulDrain.stages.2.label>
-	<!--                     EN: blacking out -->
-	<AM_SoulDrain.stages.3.label>отключаюсь</AM_SoulDrain.stages.3.label>
-	<!--                     EN: cellular death -->
-	<AM_SoulDrain.stages.4.label>клеточная смерть</AM_SoulDrain.stages.4.label>
-	<!--               EN: scrambled IFF -->
-	<AM_ScrambledIFF.label>сбой системы «свой-чужой»</AM_ScrambledIFF.label>
-	<!--                     EN: This mechanoid's IFF sensors have been scrambled, making it unable to properly identify its foes. It will fight on the side of the colony for a day, and after that it will revert to its former allegiance. -->
-	<AM_ScrambledIFF.description>Система опознавания «свой-чужой» этого механоида нарушена, поэтому он больше не может правильно различать врагов. В течение суток он будет сражаться на стороне колонии, а затем вернётся к прежней принадлежности.</AM_ScrambledIFF.description>
-	<!--                EN: affected by freezing burst -->
-	<AM_FreezingBurst.label>под воздействием ледяного всплеска</AM_FreezingBurst.label>
-	<!--                      EN: This person has been affected by a freezing burst, reducing their movement speed. Effects will go away after 12 hours. -->
-	<AM_FreezingBurst.description>Этот человек подвергся воздействию ледяного порыва, снизившего скорость его передвижения. Эффекты исчезнут через 12 часов.</AM_FreezingBurst.description>
+  <AM_SoulDrain.description>Вызывается турелью апоптоза, ужасающим оружием, предназначенным для истощения душ своих целей. Оснащенный технологией высасывания душ, он способен выкачивать жизненную силу органических существ, делая их ослабленными и уязвимыми. В конце концов исчезнет.</AM_SoulDrain.description>
+  <AM_SoulDrain.label>утечка души</AM_SoulDrain.label>
+  <AM_SoulDrain.stages.0.label>начальное</AM_SoulDrain.stages.0.label>
+  <AM_SoulDrain.stages.1.label>слабая голова</AM_SoulDrain.stages.1.label>
+  <AM_SoulDrain.stages.2.label>пульсирующая головная боль</AM_SoulDrain.stages.2.label>
+  <AM_SoulDrain.stages.3.label>отключаюсь</AM_SoulDrain.stages.3.label>
+  <AM_SoulDrain.stages.4.label>клеточная смерть</AM_SoulDrain.stages.4.label>
+  <AM_ScrambledIFF.label>сбой системы «свой-чужой»</AM_ScrambledIFF.label>
+  <AM_ScrambledIFF.description>Система опознавания «свой-чужой» этого механоида нарушена, поэтому он больше не может правильно различать врагов. В течение суток он будет сражаться на стороне колонии, а затем вернётся к прежней принадлежности.</AM_ScrambledIFF.description>
+  <AM_FreezingBurst.label>под воздействием ледяного всплеска</AM_FreezingBurst.label>
+  <AM_FreezingBurst.description>Этот человек подвергся воздействию ледяного порыва, снизившего скорость его передвижения. Эффекты исчезнут через 12 часов.</AM_FreezingBurst.description>
+  <AM_SoulDrain.stages.initial.label>начальное</AM_SoulDrain.stages.initial.label>
+  <AM_SoulDrain.stages.faint_headed.label>слабая голова</AM_SoulDrain.stages.faint_headed.label>
+  <AM_SoulDrain.stages.throbbing_headache.label>пульсирующая головная боль</AM_SoulDrain.stages.throbbing_headache.label>
+  <AM_SoulDrain.stages.blacking_out.label>отключаюсь</AM_SoulDrain.stages.blacking_out.label>
+  <AM_SoulDrain.stages.cellular_death.label>клеточная смерть</AM_SoulDrain.stages.cellular_death.label>
 </LanguageData>
