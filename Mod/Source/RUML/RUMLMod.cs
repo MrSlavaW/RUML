@@ -7,6 +7,79 @@ using RimWorld;
 
 namespace RUML
 {
+    public static class RUMLUI
+    {
+        public static readonly Color ColorAccentGreen = new Color(0.2f, 0.95f, 0.45f, 1f);
+        public static readonly Color ColorButtonGreen = new Color(0.2f, 0.9f, 0.5f, 1f);
+        public static readonly Color ColorAccentGold = new Color(1f, 0.85f, 0.2f, 1f);
+        public static readonly Color ColorDestructiveRed = new Color(1f, 0.4f, 0.4f, 1f);
+        public static readonly Color ColorActiveTab = new Color(0.3f, 0.8f, 1f, 1f);
+        public static readonly Color ColorCardBg = new Color(0.12f, 0.12f, 0.12f, 0.45f);
+        public static readonly Color ColorCardBgAlt = new Color(0.15f, 0.15f, 0.15f, 0.45f);
+
+        public static void DrawSearchBar(Rect rect, ref string query)
+        {
+            bool hasText = !string.IsNullOrEmpty(query);
+            float clearBtnW = 28f;
+            Rect textRect = hasText ? new Rect(rect.x, rect.y, rect.width - clearBtnW - 4f, rect.height) : rect;
+            query = Widgets.TextField(textRect, query);
+
+            if (hasText)
+            {
+                Rect clearRect = new Rect(rect.xMax - clearBtnW, rect.y, clearBtnW, rect.height);
+                Color prevCol = GUI.color;
+                GUI.color = new Color(0.85f, 0.85f, 0.85f, 1f);
+                if (Widgets.ButtonText(clearRect, "✕"))
+                {
+                    query = "";
+                }
+                GUI.color = prevCol;
+                TooltipHandler.TipRegion(clearRect, "Очистить строку поиска");
+            }
+        }
+
+        public static void DrawStatusRibbon(Rect rect)
+        {
+            string sText;
+            if (RUMLCloudManager.IsBusy)
+            {
+                sText = "<color=yellow>Загрузка: " + RUMLCloudManager.StatusMessage + " (" + RUMLCloudManager.DownloadPercent.ToString("F0") + "%)</color>";
+            }
+            else if (RUMLFolderManager.hasPendingChanges)
+            {
+                sText = "<color=#FFD700>• Есть неприменённые изменения! Нажмите «Применить настройки» внизу окна.</color>";
+            }
+            else
+            {
+                sText = "<color=#80D0FF>" + RUMLCloudManager.StatusMessage + "</color>";
+            }
+            Widgets.Label(rect, sText);
+        }
+
+        public static void DrawBottomApplyBar(Rect inRect, ModContentPack content, RUMLSettings settings)
+        {
+            Rect modeRect = new Rect(inRect.x, inRect.yMax - 68f, inRect.width, 26f);
+            Widgets.CheckboxLabeled(modeRect, "Режим «Применить по кнопке» (мгновенные действия без задержек и зависаний)", ref settings.manualApplyMode);
+            TooltipHandler.TipRegion(modeRect, "В этом режиме скачивание, включение, отключение и удаление переводов выполняются мгновенно без повторной перезагрузки всей базы данных игры. Чтобы применить изменения в игре, нажмите зелёную кнопку ниже.");
+
+            Rect bottomRect = new Rect(inRect.x, inRect.yMax - 38f, inRect.width, 36f);
+            Color prevApplyCol = GUI.color;
+            if (RUMLFolderManager.hasPendingChanges)
+            {
+                GUI.color = ColorAccentGreen;
+            }
+            string btnText = RUMLFolderManager.hasPendingChanges
+                ? "★ Применить настройки и перезагрузить переводы в памяти игры (есть изменения!)"
+                : "Применить настройки и перезагрузить переводы в памяти игры";
+            if (Widgets.ButtonText(bottomRect, btnText))
+            {
+                RUMLFolderManager.ApplyFilter(content, settings);
+                RUMLFolderManager.ReloadLanguage();
+            }
+            GUI.color = prevApplyCol;
+        }
+    }
+
     public class RUMLMod : Mod
     {
         public static RUMLSettings Settings;
@@ -152,18 +225,25 @@ namespace RUML
             }
 
             // Main Navigation Header (3 Tabs)
+            int installedCount = RUMLFolderManager.GetAllInstalledMods().Count;
+            int cloudCount = RUMLCloudManager.Items != null ? RUMLCloudManager.Items.Count : 0;
+
+            string tab0Title = "1. Установленные (" + installedCount + ")";
+            string tab1Title = "2. Аудитор модов";
+            string tab2Title = cloudCount > 0 ? ("3. Каталог переводов (" + cloudCount + ")") : "3. Каталог переводов";
+
             Rect tabRect = new Rect(inRect.x, inRect.y, inRect.width, 32f);
             float tabWidth = (inRect.width - 20f) / 3f;
 
-            if (DrawTabButton(new Rect(tabRect.x, tabRect.y, tabWidth, 32f), "Установленные переводы", currentMainTab == 0))
+            if (DrawTabButton(new Rect(tabRect.x, tabRect.y, tabWidth, 32f), tab0Title, currentMainTab == 0))
             {
                 currentMainTab = 0;
             }
-            if (DrawTabButton(new Rect(tabRect.x + tabWidth + 10f, tabRect.y, tabWidth, 32f), "Аудитор любых модов", currentMainTab == 1))
+            if (DrawTabButton(new Rect(tabRect.x + tabWidth + 10f, tabRect.y, tabWidth, 32f), tab1Title, currentMainTab == 1))
             {
                 currentMainTab = 1;
             }
-            if (DrawTabButton(new Rect(tabRect.x + (tabWidth + 10f) * 2, tabRect.y, tabWidth, 32f), "Сторонние переводы (GitHub)", currentMainTab == 2))
+            if (DrawTabButton(new Rect(tabRect.x + (tabWidth + 10f) * 2, tabRect.y, tabWidth, 32f), tab2Title, currentMainTab == 2))
             {
                 currentMainTab = 2;
             }
@@ -189,7 +269,7 @@ namespace RUML
             Color oldColor = GUI.color;
             if (active)
             {
-                GUI.color = new Color(0.3f, 0.8f, 1f, 1f);
+                GUI.color = RUMLUI.ColorActiveTab;
             }
             bool clicked = Widgets.ButtonText(r, label);
             GUI.color = oldColor;
@@ -224,10 +304,10 @@ namespace RUML
 
             // Top Controls: Row 1 - Search & Batch Toggle
             Rect topRect = new Rect(inRect.x, inRect.y, inRect.width, 30f);
-            float btnW = 110f;
+            float btnW = 115f;
 
             Rect searchRect = new Rect(topRect.x, topRect.y, inRect.width - (btnW * 2 + 20f), 30f);
-            modsSearchFilter = Widgets.TextField(searchRect, modsSearchFilter);
+            RUMLUI.DrawSearchBar(searchRect, ref modsSearchFilter);
 
             if (Widgets.ButtonText(new Rect(searchRect.xMax + 10f, topRect.y, btnW, 30f), "Включить все"))
             {
@@ -268,7 +348,7 @@ namespace RUML
             }
 
             Color prevBtnCol = GUI.color;
-            GUI.color = new Color(0.2f, 0.9f, 0.5f, 1f);
+            GUI.color = RUMLUI.ColorButtonGreen;
             if (Widgets.ButtonText(new Rect(actRow.x + actW1 + 10f, actRow.y, actW2, 30f), "Обновить все активные"))
             {
                 RUMLCloudManager.UpdateAllActiveAsync(Content, Settings);
@@ -284,12 +364,7 @@ namespace RUML
 
             // Row 3: Status / Progress message
             Rect statusR = new Rect(inRect.x, inRect.y + 70f, inRect.width, 22f);
-            string sText = RUMLCloudManager.IsBusy
-                ? "<color=yellow>Загрузка: " + RUMLCloudManager.StatusMessage + " (" + RUMLCloudManager.DownloadPercent.ToString("F0") + "%)</color>"
-                : (RUMLFolderManager.hasPendingChanges
-                    ? "<color=#FFD700>• Есть неприменённые изменения! Нажмите 'Применить настройки' внизу.</color>"
-                    : "<color=#80D0FF>" + RUMLCloudManager.StatusMessage + "</color>");
-            Widgets.Label(statusR, sText);
+            RUMLUI.DrawStatusRibbon(statusR);
 
             // Scrollable List
             Rect listRect = new Rect(inRect.x, inRect.y + 96f, inRect.width, inRect.height - 172f);
@@ -302,7 +377,7 @@ namespace RUML
                 }
             }
 
-            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, filtered.Count * 40f);
+            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, filtered.Count * 44f);
             Widgets.BeginScrollView(listRect, ref modsScrollPos, viewRect);
 
             float curY = 0f;
@@ -332,13 +407,14 @@ namespace RUML
                 }
                 bool hasUpdate = cloudItem != null && cloudItem.HasUpdate;
 
-                Rect rowRect = new Rect(0f, curY, viewRect.width, 36f);
-                Widgets.DrawHighlightIfMouseover(rowRect);
+                Rect cardRect = new Rect(0f, curY, viewRect.width, 38f);
+                Widgets.DrawBoxSolid(cardRect, RUMLUI.ColorCardBg);
+                Widgets.DrawHighlightIfMouseover(cardRect);
 
                 // Left: Checkbox + ModName + Update badge
                 string updateBadge = hasUpdate ? " <color=#FFE040>[Обновление!]</color>" : "";
-                float checkW = Math.Max(240f, viewRect.width - (hasUpdate ? 390f : 300f));
-                Rect checkRect = new Rect(0f, curY + 2f, checkW, 32f);
+                float checkW = Math.Max(240f, viewRect.width - (hasUpdate ? 395f : 305f));
+                Rect checkRect = new Rect(cardRect.x + 8f, curY + 4f, checkW, 30f);
                 bool newCheck = isEnabled;
                 Widgets.CheckboxLabeled(checkRect, "  " + modFolder + updateBadge, ref newCheck);
                 if (newCheck != isEnabled)
@@ -356,10 +432,10 @@ namespace RUML
                 }
 
                 // Middle: Author Selector Button or Single Author Badge
-                Rect authorRect = new Rect(checkRect.xMax + 10f, curY + 4f, 180f, 28f);
+                Rect authorRect = new Rect(checkRect.xMax + 10f, curY + 5f, 180f, 28f);
                 if (item.Authors.Count > 1)
                 {
-                    string authBtnLabel = activeAuthor + " (" + item.Authors.Count + " авт.) ▼";
+                    string authBtnLabel = "<color=#40E0D0>" + activeAuthor + "</color> (" + item.Authors.Count + " авт.) ▼";
                     if (Widgets.ButtonText(authorRect, authBtnLabel))
                     {
                         List<FloatMenuOption> authOpts = new List<FloatMenuOption>();
@@ -394,9 +470,9 @@ namespace RUML
                 // Right buttons: Update (if available) + Delete
                 if (hasUpdate)
                 {
-                    Rect updBtnRect = new Rect(viewRect.width - 185f, curY + 4f, 85f, 28f);
+                    Rect updBtnRect = new Rect(viewRect.width - 185f, curY + 5f, 85f, 28f);
                     Color prevUCol = GUI.color;
-                    GUI.color = new Color(1f, 0.85f, 0.2f, 1f);
+                    GUI.color = RUMLUI.ColorAccentGold;
                     if (Widgets.ButtonText(updBtnRect, "Обновить"))
                     {
                         RUMLCloudManager.DownloadAndInstallAsync(cloudItem, Content, Settings);
@@ -405,9 +481,9 @@ namespace RUML
                     TooltipHandler.TipRegion(updBtnRect, "Обновить перевод от автора " + activeAuthor + " (v" + (cloudItem.LocalVersion ?? "1.0") + " -> v" + cloudItem.Version + ")");
                 }
 
-                Rect delBtnRect = new Rect(viewRect.width - 95f, curY + 4f, 90f, 28f);
+                Rect delBtnRect = new Rect(viewRect.width - 95f, curY + 5f, 90f, 28f);
                 Color prevCol = GUI.color;
-                GUI.color = new Color(1f, 0.4f, 0.4f, 1f);
+                GUI.color = RUMLUI.ColorDestructiveRed;
                 if (Widgets.ButtonText(delBtnRect, "Удалить"))
                 {
                     RUMLFolderManager.DeleteAuthorTranslation(modFolder, activeAuthor, Content, Settings);
@@ -415,31 +491,13 @@ namespace RUML
                 GUI.color = prevCol;
                 TooltipHandler.TipRegion(delBtnRect, "Удалить установленный перевод от автора " + activeAuthor);
 
-                curY += 40f;
+                curY += 44f;
             }
 
             Widgets.EndScrollView();
 
-            // Bottom Controls: Mode Toggle + Apply Button
-            Rect modeRect = new Rect(inRect.x, inRect.yMax - 68f, inRect.width, 26f);
-            Widgets.CheckboxLabeled(modeRect, "Режим «Применить по кнопке» (мгновенные действия без задержек и зависаний)", ref Settings.manualApplyMode);
-            TooltipHandler.TipRegion(modeRect, "В этом режиме скачивание, включение, отключение и удаление переводов выполняются мгновенно без повторной перезагрузки всей базы данных игры. Чтобы применить изменения в игре, нажмите зеленую кнопку ниже.");
-
-            Rect bottomRect = new Rect(inRect.x, inRect.yMax - 38f, inRect.width, 36f);
-            Color prevApplyCol = GUI.color;
-            if (RUMLFolderManager.hasPendingChanges)
-            {
-                GUI.color = new Color(0.2f, 0.95f, 0.45f, 1f);
-            }
-            string btnText = RUMLFolderManager.hasPendingChanges
-                ? "★ Применить настройки и перезагрузить переводы в памяти игры (есть изменения!)"
-                : "Применить настройки и перезагрузить переводы в памяти игры";
-            if (Widgets.ButtonText(bottomRect, btnText))
-            {
-                RUMLFolderManager.ApplyFilter(Content, Settings);
-                RUMLFolderManager.ReloadLanguage();
-            }
-            GUI.color = prevApplyCol;
+            // Bottom Controls: Unified Apply Bar
+            RUMLUI.DrawBottomApplyBar(inRect, Content, Settings);
         }
 
         // =========================================================================
@@ -483,12 +541,8 @@ namespace RUML
             var running = LoadedModManager.RunningMods.ToList();
 
             // Row 1: Search and Clear
-            Rect searchRect = new Rect(inRect.x, inRect.y, inRect.width - 110f, 28f);
-            auditSearchFilter = Widgets.TextField(searchRect, auditSearchFilter);
-            if (Widgets.ButtonText(new Rect(searchRect.xMax + 10f, inRect.y, 100f, 28f), "Очистить"))
-            {
-                auditSearchFilter = "";
-            }
+            Rect searchRect = new Rect(inRect.x, inRect.y, inRect.width, 28f);
+            RUMLUI.DrawSearchBar(searchRect, ref auditSearchFilter);
 
             // Row 2: Batch Selection Buttons
             Rect btnRowRect = new Rect(inRect.x, inRect.y + 34f, inRect.width, 28f);
@@ -548,7 +602,7 @@ namespace RUML
                 }
             }
 
-            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, filteredMods.Count * 34f);
+            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, filteredMods.Count * 36f);
             Widgets.BeginScrollView(listRect, ref auditModsScrollPos, viewRect);
 
             float curY = 0f;
@@ -556,7 +610,8 @@ namespace RUML
             {
                 string pid = mod.PackageIdPlayerFacing;
                 bool isSelected = Settings.IsAuditModSelected(pid);
-                Rect rowRect = new Rect(0f, curY, viewRect.width, 30f);
+                Rect rowRect = new Rect(0f, curY, viewRect.width, 32f);
+                Widgets.DrawBoxSolid(rowRect, RUMLUI.ColorCardBg);
                 Widgets.DrawHighlightIfMouseover(rowRect);
 
                 bool isRuml = FolderToPackageId.Values.Any(p => string.Equals(p, pid, StringComparison.OrdinalIgnoreCase));
@@ -577,13 +632,14 @@ namespace RUML
                 string labelText = "  " + GetModDisplayName(mod) + tag + " <color=grey>(" + pid + ")</color>";
 
                 bool newCheck = isSelected;
-                Widgets.CheckboxLabeled(rowRect, labelText, ref newCheck);
+                Rect checkR = new Rect(rowRect.x + 4f, curY + 1f, rowRect.width - 8f, 30f);
+                Widgets.CheckboxLabeled(checkR, labelText, ref newCheck);
                 if (newCheck != isSelected)
                 {
                     Settings.SetAuditModSelected(pid, newCheck);
                 }
 
-                curY += 34f;
+                curY += 36f;
             }
 
             Widgets.EndScrollView();
@@ -591,7 +647,7 @@ namespace RUML
             // Bottom Action Button: Run Audit on Selected
             Rect bottomRect = new Rect(inRect.x, inRect.yMax - 44f, inRect.width, 40f);
             Color oldCol = GUI.color;
-            GUI.color = new Color(0.2f, 0.9f, 0.4f, 1f);
+            GUI.color = RUMLUI.ColorAccentGreen;
             string btnText = "Запустить аудит выбранных модов (" + selectedCount + ")";
             if (Widgets.ButtonText(bottomRect, btnText))
             {
@@ -662,7 +718,7 @@ namespace RUML
             Rect filterRow = new Rect(inRect.x, inRect.y + 64f, inRect.width, 28f);
             float fBtnW = 120f;
             Rect srchR = new Rect(filterRow.x, filterRow.y, inRect.width - (fBtnW * 3 + 20f), 28f);
-            auditResultSearchFilter = Widgets.TextField(srchR, auditResultSearchFilter);
+            RUMLUI.DrawSearchBar(srchR, ref auditResultSearchFilter);
 
             if (DrawTabButton(new Rect(srchR.xMax + 10f, filterRow.y, fBtnW, 28f), "Все (" + totalMods + ")", auditResultMode == 0))
             {
@@ -724,7 +780,7 @@ namespace RUML
                 float cardH = isExpanded ? (56f + 30f + Math.Min(targetMissing.Count, 15) * 22f + 30f) : 52f;
 
                 Rect row = new Rect(0f, y, viewRect.width, cardH);
-                Widgets.DrawBoxSolid(row, new Color(0.15f, 0.15f, 0.15f, 0.4f));
+                Widgets.DrawBoxSolid(row, RUMLUI.ColorCardBgAlt);
                 Widgets.DrawHighlightIfMouseover(row);
 
                 // Top Line: Mod Name, PackageId, Tag
@@ -857,7 +913,7 @@ namespace RUML
 
             Rect b4 = new Rect(b1.xMax + 10f, urlRow.y, btnW4, 28f);
             Color prevAllCol = GUI.color;
-            GUI.color = new Color(0.2f, 0.9f, 0.5f, 1f);
+            GUI.color = RUMLUI.ColorButtonGreen;
             if (Widgets.ButtonText(b4, "Обновить все"))
             {
                 RUMLCloudManager.UpdateAllActiveAsync(Content, Settings);
@@ -881,16 +937,11 @@ namespace RUML
 
             // Row 2: Status Message & Progress
             Rect statusR = new Rect(inRect.x, inRect.y + 34f, inRect.width, 24f);
-            string sText = RUMLCloudManager.IsBusy
-                ? "<color=yellow>Загрузка: " + RUMLCloudManager.StatusMessage + " (" + RUMLCloudManager.DownloadPercent.ToString("F0") + "%)</color>"
-                : (RUMLFolderManager.hasPendingChanges
-                    ? "<color=#FFD700>• Есть неприменённые изменения! Нажмите 'Применить настройки' внизу.</color>"
-                    : "<color=#80D0FF>" + RUMLCloudManager.StatusMessage + "</color>");
-            Widgets.Label(statusR, sText);
+            RUMLUI.DrawStatusRibbon(statusR);
 
             // Row 3: Search filter & Author dropdown
             Rect searchR = new Rect(inRect.x, inRect.y + 62f, inRect.width - 210f, 28f);
-            cloudSearchFilter = Widgets.TextField(searchR, cloudSearchFilter);
+            RUMLUI.DrawSearchBar(searchR, ref cloudSearchFilter);
 
             Rect authorBtnR = new Rect(searchR.xMax + 10f, inRect.y + 62f, 200f, 28f);
             string authBtnLabel = string.IsNullOrEmpty(cloudAuthorFilter) ? "Все авторы ▼" : ("Автор: " + cloudAuthorFilter + " ▼");
@@ -941,7 +992,7 @@ namespace RUML
                 CloudTranslationItem item = grp.Versions[selIdx];
 
                 Rect card = new Rect(0f, curY, viewRect.width, 78f);
-                Widgets.DrawBoxSolid(card, new Color(0.12f, 0.12f, 0.12f, 0.5f));
+                Widgets.DrawBoxSolid(card, RUMLUI.ColorCardBg);
                 Widgets.DrawHighlightIfMouseover(card);
 
                 // Line 1: Mod Name, Version, and Author Selector
@@ -994,7 +1045,7 @@ namespace RUML
                 {
                     Rect uninstR = new Rect(card.width - 210f, card.y + 22f, 95f, 34f);
                     Color prevCol = GUI.color;
-                    GUI.color = new Color(1f, 0.4f, 0.4f, 1f);
+                    GUI.color = RUMLUI.ColorDestructiveRed;
                     if (Widgets.ButtonText(uninstR, "Удалить"))
                     {
                         RUMLCloudManager.Uninstall(item, Content, Settings);
@@ -1005,7 +1056,7 @@ namespace RUML
                     Color prevUpCol = GUI.color;
                     if (item.HasUpdate)
                     {
-                        GUI.color = new Color(1f, 0.85f, 0.2f, 1f);
+                        GUI.color = RUMLUI.ColorAccentGold;
                     }
                     string upLabel = item.HasUpdate ? "Обновить!" : "Обновить";
                     if (Widgets.ButtonText(updateR, upLabel))
@@ -1018,7 +1069,7 @@ namespace RUML
                 {
                     Rect dlR = new Rect(card.width - 210f, card.y + 22f, 205f, 34f);
                     Color prevC = GUI.color;
-                    GUI.color = new Color(0.2f, 0.9f, 0.4f, 1f);
+                    GUI.color = RUMLUI.ColorButtonGreen;
                     string dlLabel = Settings.manualApplyMode ? "Скачать" : "Скачать и применить";
                     if (Widgets.ButtonText(dlR, dlLabel))
                     {
@@ -1032,26 +1083,8 @@ namespace RUML
 
             Widgets.EndScrollView();
 
-            // Bottom Controls: Mode Toggle + Apply Button
-            Rect modeRect = new Rect(inRect.x, inRect.yMax - 68f, inRect.width, 26f);
-            Widgets.CheckboxLabeled(modeRect, "Режим «Применить по кнопке» (мгновенные действия без задержек и зависаний)", ref Settings.manualApplyMode);
-            TooltipHandler.TipRegion(modeRect, "В этом режиме скачивание, включение, отключение и удаление переводов выполняются мгновенно без повторной перезагрузки всей базы данных игры. Чтобы применить изменения в игре, нажмите зеленую кнопку ниже.");
-
-            Rect bottomRect = new Rect(inRect.x, inRect.yMax - 38f, inRect.width, 36f);
-            Color prevApplyCol = GUI.color;
-            if (RUMLFolderManager.hasPendingChanges)
-            {
-                GUI.color = new Color(0.2f, 0.95f, 0.45f, 1f);
-            }
-            string btnText = RUMLFolderManager.hasPendingChanges
-                ? "★ Применить настройки и перезагрузить переводы в памяти игры (есть изменения!)"
-                : "Применить настройки и перезагрузить переводы в памяти игры";
-            if (Widgets.ButtonText(bottomRect, btnText))
-            {
-                RUMLFolderManager.ApplyFilter(Content, Settings);
-                RUMLFolderManager.ReloadLanguage();
-            }
-            GUI.color = prevApplyCol;
+            // Bottom Controls: Unified Apply Bar
+            RUMLUI.DrawBottomApplyBar(inRect, Content, Settings);
         }
     }
 }
