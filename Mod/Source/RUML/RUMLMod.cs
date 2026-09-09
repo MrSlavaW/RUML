@@ -29,6 +29,7 @@ namespace RUML
         private int auditSubTab = 0;    // 0: Select Active Mods, 1: Audit Results
         private int auditResultMode = 0; // 0: All, 1: With Missing, 2: 100% Translated
         private string expandedAuditMod = "";
+        private int expandedAuditCategoryFilter = 0; // 0: All, 1: Defs, 2: Keyed / Settings
 
         public static readonly List<string> KnownMods = new List<string>
         {
@@ -485,20 +486,24 @@ namespace RUML
             int totalMods = lastAuditReports.Count;
             int withMissing = 0;
             int fullTranslated = 0;
+            int sumTotalItems = 0;
+            int sumMissingItems = 0;
             int sumTotalDefs = 0;
-            int sumMissingDefs = 0;
+            int sumTotalKeyed = 0;
 
             foreach (var r in lastAuditReports)
             {
+                sumTotalItems += r.TotalItems;
+                sumMissingItems += r.MissingItems;
                 sumTotalDefs += r.TotalDefs;
-                sumMissingDefs += r.MissingDefs;
-                if (r.MissingDefs > 0) withMissing++;
+                sumTotalKeyed += r.TotalKeyed;
+                if (r.MissingItems > 0) withMissing++;
                 else fullTranslated++;
             }
-            float avgPercent = sumTotalDefs > 0 ? ((float)(sumTotalDefs - sumMissingDefs) / sumTotalDefs * 100f) : 100f;
+            float avgPercent = sumTotalItems > 0 ? ((float)(sumTotalItems - sumMissingItems) / sumTotalItems * 100f) : 100f;
 
             Rect sumRect = new Rect(inRect.x, inRect.y, inRect.width, 24f);
-            string sumText = "Проверено: <b>" + totalMods + "</b> модов | Дефов: <b>" + sumTotalDefs + "</b> | Не переведено: <color=#FF6B6B><b>" + sumMissingDefs + "</b></color> | Покрытие: <b>" + avgPercent.ToString("F1") + "%</b>";
+            string sumText = "Проверено: <b>" + totalMods + "</b> модов | Элементов: <b>" + sumTotalItems + "</b> (Дефов: " + sumTotalDefs + ", Keyed: " + sumTotalKeyed + ") | Не переведено: <color=#FF6B6B><b>" + sumMissingItems + "</b></color> | Покрытие: <b>" + avgPercent.ToString("F1") + "%</b>";
             Widgets.Label(sumRect, sumText);
 
             // Action Buttons Row
@@ -542,8 +547,8 @@ namespace RUML
             List<ModAuditReport> filtered = new List<ModAuditReport>();
             foreach (var rep in lastAuditReports)
             {
-                if (auditResultMode == 1 && rep.MissingDefs == 0) continue;
-                if (auditResultMode == 2 && rep.MissingDefs > 0) continue;
+                if (auditResultMode == 1 && rep.MissingItems == 0) continue;
+                if (auditResultMode == 2 && rep.MissingItems > 0) continue;
 
                 if (!string.IsNullOrEmpty(auditResultSearchFilter))
                 {
@@ -562,7 +567,16 @@ namespace RUML
             float totalContentH = 0f;
             foreach (var rep in filtered)
             {
-                totalContentH += (expandedAuditMod == rep.PackageId) ? (50f + Math.Min(rep.MissingList.Count, 15) * 22f + 30f) : 52f;
+                bool isExpanded = (expandedAuditMod == rep.PackageId);
+                if (isExpanded)
+                {
+                    List<string> tList = GetFilteredMissingList(rep, expandedAuditCategoryFilter);
+                    totalContentH += 56f + 30f + Math.Min(tList.Count, 15) * 22f + 30f;
+                }
+                else
+                {
+                    totalContentH += 56f;
+                }
             }
 
             Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, Math.Max(totalContentH, listRect.height));
@@ -572,7 +586,8 @@ namespace RUML
             foreach (var rep in filtered)
             {
                 bool isExpanded = (expandedAuditMod == rep.PackageId);
-                float cardH = isExpanded ? (50f + Math.Min(rep.MissingList.Count, 15) * 22f + 30f) : 50f;
+                List<string> targetMissing = isExpanded ? GetFilteredMissingList(rep, expandedAuditCategoryFilter) : null;
+                float cardH = isExpanded ? (56f + 30f + Math.Min(targetMissing.Count, 15) * 22f + 30f) : 52f;
 
                 Rect row = new Rect(0f, y, viewRect.width, cardH);
                 Widgets.DrawBoxSolid(row, new Color(0.15f, 0.15f, 0.15f, 0.4f));
@@ -589,39 +604,64 @@ namespace RUML
                 Widgets.Label(new Rect(row.width - 140f, row.y + 4f, 130f, 22f), pText);
 
                 // Bottom Line: Counts and Status
-                string sub = "Переведено: " + rep.TranslatedDefs + " / " + rep.TotalDefs + "  |  " +
-                             (rep.MissingDefs > 0
-                                 ? "<color=#FF7070>Не переведено: " + rep.MissingDefs + " элементов</color>"
+                string sub = "Переведено: " + rep.TranslatedItems + " / " + rep.TotalItems +
+                             " (Дефы: " + rep.TranslatedDefs + "/" + rep.TotalDefs + ", Keyed: " + rep.TranslatedKeyed + "/" + rep.TotalKeyed + ")  |  " +
+                             (rep.MissingItems > 0
+                                 ? "<color=#FF7070>Не переведено: " + rep.MissingItems + " элементов</color>"
                                  : "<color=#50E050>100% Переведено (полное покрытие)</color>");
                 Widgets.Label(new Rect(row.x + 8f, row.y + 26f, row.width - 160f, 20f), sub);
 
                 // Expand Missing Details Button
-                if (rep.MissingDefs > 0)
+                if (rep.MissingItems > 0)
                 {
                     Rect expBtnRect = new Rect(row.width - 150f, row.y + 24f, 140f, 22f);
-                    string expBtnLabel = isExpanded ? "Скрыть детали ▲" : ("Пропуски (" + rep.MissingList.Count + ") ▼");
+                    string expBtnLabel = isExpanded ? "Скрыть детали ▲" : ("Пропуски (" + rep.MissingItems + ") ▼");
                     if (Widgets.ButtonText(expBtnRect, expBtnLabel))
                     {
                         expandedAuditMod = isExpanded ? "" : rep.PackageId;
+                        expandedAuditCategoryFilter = 0;
                     }
                 }
 
-                // Expanded missing lines preview
+                // Expanded missing lines preview & category filter
                 if (isExpanded)
                 {
+                    Rect catRow = new Rect(row.x + 12f, row.y + 50f, row.width - 24f, 24f);
+                    float catBtnW = 120f;
+                    int defMissing = rep.MissingDefs;
+                    int keyedMissing = rep.MissingKeyed;
+
+                    if (DrawTabButton(new Rect(catRow.x, catRow.y, catBtnW, 24f), "Все (" + rep.MissingItems + ")", expandedAuditCategoryFilter == 0))
+                    {
+                        expandedAuditCategoryFilter = 0;
+                    }
+                    if (DrawTabButton(new Rect(catRow.x + catBtnW + 8f, catRow.y, catBtnW, 24f), "Дефы (" + defMissing + ")", expandedAuditCategoryFilter == 1))
+                    {
+                        expandedAuditCategoryFilter = 1;
+                    }
+                    if (DrawTabButton(new Rect(catRow.x + (catBtnW + 8f) * 2, catRow.y, catBtnW + 35f, 24f), "Keyed / Настройки (" + keyedMissing + ")", expandedAuditCategoryFilter == 2))
+                    {
+                        expandedAuditCategoryFilter = 2;
+                    }
+
                     Text.Font = GameFont.Tiny;
-                    float lineY = row.y + 50f;
-                    int showCount = Math.Min(rep.MissingList.Count, 15);
+                    float lineY = catRow.y + 28f;
+                    int showCount = Math.Min(targetMissing.Count, 15);
                     for (int i = 0; i < showCount; i++)
                     {
                         Rect lineR = new Rect(row.x + 16f, lineY, row.width - 32f, 20f);
-                        Widgets.Label(lineR, "<color=#FFB0B0>• " + rep.MissingList[i] + "</color>");
+                        Widgets.Label(lineR, "<color=#FFB0B0>• " + targetMissing[i] + "</color>");
                         lineY += 22f;
                     }
-                    if (rep.MissingList.Count > showCount)
+                    if (targetMissing.Count > showCount)
                     {
                         Rect moreR = new Rect(row.x + 16f, lineY, row.width - 32f, 20f);
-                        Widgets.Label(moreR, "<color=grey>... и ещё " + (rep.MissingList.Count - showCount) + " непереведённых строк (полный список доступен в экспорте на Рабочий стол).</color>");
+                        Widgets.Label(moreR, "<color=grey>... и ещё " + (targetMissing.Count - showCount) + " непереведённых строк (полный список доступен в экспорте на Рабочий стол).</color>");
+                    }
+                    else if (targetMissing.Count == 0)
+                    {
+                        Rect emptyR = new Rect(row.x + 16f, lineY, row.width - 32f, 20f);
+                        Widgets.Label(emptyR, "<color=#50E050>В данной категории все строки переведены.</color>");
                     }
                     Text.Font = GameFont.Small;
                 }
@@ -630,6 +670,24 @@ namespace RUML
             }
 
             Widgets.EndScrollView();
+        }
+
+        private List<string> GetFilteredMissingList(ModAuditReport rep, int categoryFilter)
+        {
+            if (rep == null) return new List<string>();
+            if (categoryFilter == 1)
+            {
+                List<string> defs = new List<string>();
+                defs.AddRange(rep.MissingDefLabels);
+                defs.AddRange(rep.MissingDefDescriptions);
+                defs.AddRange(rep.MissingDefOther);
+                return defs;
+            }
+            if (categoryFilter == 2)
+            {
+                return rep.MissingKeyedList;
+            }
+            return rep.MissingList;
         }
 
         // =========================================================================
