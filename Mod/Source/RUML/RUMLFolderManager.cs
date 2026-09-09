@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
@@ -182,15 +183,19 @@ namespace RUML
                 originalFolders = new List<string>(currentFolders);
             }
 
-            // Always keep core mod root folder
+            // Always keep core mod root folder (e.g. RUML and version subfolders 1.5, 1.6)
             List<string> filtered = new List<string>();
+            string rootNorm = (content.RootDir ?? "").Replace('\\', '/').TrimEnd('/');
             foreach (string folder in originalFolders)
             {
-                string norm = folder.Replace('\\', '/');
-                if (norm.IndexOf("/RUML_Translations/", StringComparison.OrdinalIgnoreCase) < 0 &&
-                    norm.IndexOf("/Mods/", StringComparison.OrdinalIgnoreCase) < 0)
+                string norm = folder.Replace('\\', '/').TrimEnd('/');
+                if (norm.Equals(rootNorm, StringComparison.OrdinalIgnoreCase) ||
+                    norm.StartsWith(rootNorm + "/", StringComparison.OrdinalIgnoreCase))
                 {
-                    filtered.Add(folder);
+                    if (norm.IndexOf(rootNorm + "/Mods/", StringComparison.OrdinalIgnoreCase) < 0)
+                    {
+                        filtered.Add(folder);
+                    }
                 }
             }
 
@@ -333,20 +338,55 @@ namespace RUML
                 LoadedLanguage lang = LanguageDatabase.activeLanguage;
                 if (lang != null)
                 {
-                    // 1. Reload translation strings and def-injections from all active mod folders
+                    // 1. Reset LoadedLanguage internal state so LoadData actually re-scans active folders
+                    FieldInfo dataLoadedField = typeof(LoadedLanguage).GetField("dataIsLoaded", BindingFlags.Instance | BindingFlags.NonPublic);
+                    if (dataLoadedField != null)
+                    {
+                        dataLoadedField.SetValue(lang, false);
+                    }
+
+                    FieldInfo keyedField = typeof(LoadedLanguage).GetField("keyedReplacements", BindingFlags.Instance | BindingFlags.NonPublic);
+                    if (keyedField != null)
+                    {
+                        IDictionary keyed = keyedField.GetValue(lang) as IDictionary;
+                        if (keyed != null) keyed.Clear();
+                    }
+
+                    FieldInfo defInjField = typeof(LoadedLanguage).GetField("defInjections", BindingFlags.Instance | BindingFlags.NonPublic);
+                    if (defInjField != null)
+                    {
+                        IList defInj = defInjField.GetValue(lang) as IList;
+                        if (defInj != null) defInj.Clear();
+                    }
+
+                    FieldInfo strFilesField = typeof(LoadedLanguage).GetField("stringFiles", BindingFlags.Instance | BindingFlags.NonPublic);
+                    if (strFilesField != null)
+                    {
+                        IDictionary strFiles = strFilesField.GetValue(lang) as IDictionary;
+                        if (strFiles != null) strFiles.Clear();
+                    }
+
+                    FieldInfo tmpFilesField = typeof(LoadedLanguage).GetField("tmpAlreadyLoadedFiles", BindingFlags.Instance | BindingFlags.NonPublic);
+                    if (tmpFilesField != null)
+                    {
+                        IDictionary tmpFiles = tmpFilesField.GetValue(lang) as IDictionary;
+                        if (tmpFiles != null) tmpFiles.Clear();
+                    }
+
+                    // 2. Reload translation strings and def-injections from all active mod folders
                     lang.LoadData();
 
-                    // 2. Inject updated translations into all Def instances in DefDatabase
+                    // 3. Inject updated translations into all Def instances in DefDatabase
                     lang.InjectIntoData_AfterImpliedDefs();
 
-                    // 3. Update legacy backstories if present
+                    // 4. Update legacy backstories if present
                     try
                     {
                         BackstoryTranslationUtility.LoadAndInjectBackstoryData(lang.AllDirectories, new List<string>());
                     }
                     catch { }
 
-                    // 4. Clear label cache for UI elements, items, and pawns
+                    // 5. Clear label cache for UI elements, items, and pawns
                     GenLabel.ClearCache();
 
                     Messages.Message("RUML: Переводы успешно применены на лету!", MessageTypeDefOf.PositiveEvent, false);

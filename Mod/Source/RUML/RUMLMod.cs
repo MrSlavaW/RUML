@@ -562,7 +562,7 @@ namespace RUML
             float totalContentH = 0f;
             foreach (var rep in filtered)
             {
-                totalContentH += (expandedAuditMod == rep.PackageId) ? (50f + Math.Min(rep.MissingList.Count, 15) * 20f + 25f) : 52f;
+                totalContentH += (expandedAuditMod == rep.PackageId) ? (50f + Math.Min(rep.MissingList.Count, 15) * 22f + 30f) : 52f;
             }
 
             Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, Math.Max(totalContentH, listRect.height));
@@ -572,7 +572,7 @@ namespace RUML
             foreach (var rep in filtered)
             {
                 bool isExpanded = (expandedAuditMod == rep.PackageId);
-                float cardH = isExpanded ? (50f + Math.Min(rep.MissingList.Count, 15) * 20f + 25f) : 50f;
+                float cardH = isExpanded ? (50f + Math.Min(rep.MissingList.Count, 15) * 22f + 30f) : 50f;
 
                 Rect row = new Rect(0f, y, viewRect.width, cardH);
                 Widgets.DrawBoxSolid(row, new Color(0.15f, 0.15f, 0.15f, 0.4f));
@@ -609,19 +609,21 @@ namespace RUML
                 // Expanded missing lines preview
                 if (isExpanded)
                 {
+                    Text.Font = GameFont.Tiny;
                     float lineY = row.y + 50f;
                     int showCount = Math.Min(rep.MissingList.Count, 15);
                     for (int i = 0; i < showCount; i++)
                     {
-                        Rect lineR = new Rect(row.x + 16f, lineY, row.width - 32f, 18f);
+                        Rect lineR = new Rect(row.x + 16f, lineY, row.width - 32f, 20f);
                         Widgets.Label(lineR, "<color=#FFB0B0>• " + rep.MissingList[i] + "</color>");
-                        lineY += 20f;
+                        lineY += 22f;
                     }
                     if (rep.MissingList.Count > showCount)
                     {
-                        Rect moreR = new Rect(row.x + 16f, lineY, row.width - 32f, 18f);
+                        Rect moreR = new Rect(row.x + 16f, lineY, row.width - 32f, 20f);
                         Widgets.Label(moreR, "<color=grey>... и ещё " + (rep.MissingList.Count - showCount) + " непереведённых строк (полный список доступен в экспорте на Рабочий стол).</color>");
                     }
+                    Text.Font = GameFont.Small;
                 }
 
                 y += cardH + 4f;
