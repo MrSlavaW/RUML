@@ -3,6 +3,9 @@ name: Build Translation Packs and Manifest
 on:
   push:
     branches: [ main ]
+    paths:
+      - 'Translations/**'
+      - '.github/scripts/build_packs.py'
   workflow_dispatch:
 
 jobs:

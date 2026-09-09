@@ -133,7 +133,7 @@ def build():
                                 raise ValueError(f"Security Violation: Path traversal in entry '{arc_name}'")
 
                             zinfo = zipfile.ZipInfo(arc_name, date_time=FIXED_ZIP_TIME)
-                            zinfo.compress_type = zipfile.ZIP_DEFLATED
+                            zinfo.compress_type = zipfile.ZIP_STORED
                             zinfo.external_attr = 0o644 << 16
 
                             # Deterministic line endings for text files across Windows (CRLF) and Linux (LF)
