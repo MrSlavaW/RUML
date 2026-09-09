@@ -21,6 +21,8 @@ namespace RUML
         private string auditSearchFilter = "";
         private string auditResultSearchFilter = "";
         private string cloudSearchFilter = "";
+        private string cloudAuthorFilter = "";
+        private Dictionary<string, int> selectedAuthorIndexByMod = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
 
         private List<ModAuditReport> lastAuditReports = null;
         private int currentMainTab = 0; // 0: Built-in Mods, 1: Auditor, 2: GitHub Cloud
@@ -634,41 +636,101 @@ namespace RUML
                 : "<color=#80D0FF>" + RUMLCloudManager.StatusMessage + "</color>";
             Widgets.Label(statusR, sText);
 
-            // Row 3: Search filter
-            Rect searchR = new Rect(inRect.x, inRect.y + 62f, inRect.width, 28f);
+            // Row 3: Search filter & Author dropdown
+            Rect searchR = new Rect(inRect.x, inRect.y + 62f, inRect.width - 210f, 28f);
             cloudSearchFilter = Widgets.TextField(searchR, cloudSearchFilter);
 
-            // List of Cloud Translations
-            Rect listRect = new Rect(inRect.x, inRect.y + 96f, inRect.width, inRect.height - 96f);
-            List<CloudTranslationItem> filtered = new List<CloudTranslationItem>();
-            foreach (var item in RUMLCloudManager.Items)
+            Rect authorBtnR = new Rect(searchR.xMax + 10f, inRect.y + 62f, 200f, 28f);
+            string authBtnLabel = string.IsNullOrEmpty(cloudAuthorFilter) ? "Все авторы ▼" : ("Автор: " + cloudAuthorFilter + " ▼");
+            if (Widgets.ButtonText(authorBtnR, authBtnLabel))
             {
-                if (string.IsNullOrEmpty(cloudSearchFilter) ||
-                    item.ModName.IndexOf(cloudSearchFilter, StringComparison.OrdinalIgnoreCase) >= 0 ||
-                    item.Author.IndexOf(cloudSearchFilter, StringComparison.OrdinalIgnoreCase) >= 0 ||
-                    item.PackageId.IndexOf(cloudSearchFilter, StringComparison.OrdinalIgnoreCase) >= 0)
+                List<FloatMenuOption> opts = new List<FloatMenuOption>();
+                opts.Add(new FloatMenuOption("Все авторы (" + RUMLCloudManager.Items.Count + ")", delegate()
                 {
-                    filtered.Add(item);
+                    cloudAuthorFilter = "";
+                }));
+                foreach (KeyValuePair<string, int> kv in RUMLCloudManager.GetAuthorCounts())
+                {
+                    string aName = kv.Key;
+                    int aCount = kv.Value;
+                    opts.Add(new FloatMenuOption(aName + " (" + aCount + ")", delegate()
+                    {
+                        cloudAuthorFilter = aName;
+                    }));
                 }
+                Find.WindowStack.Add(new FloatMenu(opts));
             }
 
-            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, Math.Max(filtered.Count * 84f, listRect.height));
+            // List of Grouped Cloud Translations
+            Rect listRect = new Rect(inRect.x, inRect.y + 96f, inRect.width, inRect.height - 96f);
+            List<CloudModGroup> groups = RUMLCloudManager.GetGroupedItems(cloudAuthorFilter, cloudSearchFilter);
+
+            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, Math.Max(groups.Count * 84f, listRect.height));
             Widgets.BeginScrollView(listRect, ref cloudScrollPos, viewRect);
 
             float curY = 0f;
-            foreach (var item in filtered)
+            foreach (var grp in groups)
             {
+                string modKey = string.IsNullOrEmpty(grp.PackageId) ? grp.ModName : grp.PackageId;
+                int selIdx = 0;
+                if (!selectedAuthorIndexByMod.TryGetValue(modKey, out selIdx))
+                {
+                    selIdx = 0;
+                    for (int v = 0; v < grp.Versions.Count; v++)
+                    {
+                        if (grp.Versions[v].IsInstalled)
+                        {
+                            selIdx = v;
+                            break;
+                        }
+                    }
+                }
+                if (selIdx < 0 || selIdx >= grp.Versions.Count) selIdx = 0;
+                CloudTranslationItem item = grp.Versions[selIdx];
+
                 Rect card = new Rect(0f, curY, viewRect.width, 78f);
                 Widgets.DrawBoxSolid(card, new Color(0.12f, 0.12f, 0.12f, 0.5f));
                 Widgets.DrawHighlightIfMouseover(card);
 
-                // Mod info (Left)
-                string title = "<b>" + item.ModName + "</b>  <color=grey>(v" + item.Version + ")</color>  Автор: <color=#40E0D0>" + item.Author + "</color>";
-                Widgets.Label(new Rect(card.x + 8f, card.y + 5f, card.width - 230f, 22f), title);
+                // Line 1: Mod Name, Version, and Author Selector
+                string titlePrefix = "<b>" + item.ModName + "</b>  <color=grey>(v" + item.Version + ")</color>  Автор: ";
+                float prefixW = Text.CalcSize(titlePrefix).x;
+                Rect prefixR = new Rect(card.x + 8f, card.y + 5f, prefixW, 22f);
+                Widgets.Label(prefixR, titlePrefix);
 
+                if (grp.Versions.Count > 1)
+                {
+                    string selAuthText = "<color=#40E0D0>" + item.Author + "</color> (" + grp.Versions.Count + " авт.) ▼";
+                    float authBtnW = Math.Max(Text.CalcSize(selAuthText).x + 16f, 130f);
+                    Rect authBtnR = new Rect(prefixR.xMax + 2f, card.y + 3f, authBtnW, 24f);
+                    if (Widgets.ButtonText(authBtnR, selAuthText))
+                    {
+                        List<FloatMenuOption> authOpts = new List<FloatMenuOption>();
+                        for (int v = 0; v < grp.Versions.Count; v++)
+                        {
+                            int vIdx = v;
+                            CloudTranslationItem vItem = grp.Versions[v];
+                            string optLabel = vItem.Author + " (v" + vItem.Version + ")" + (vItem.IsInstalled ? " [Установлен]" : "");
+                            authOpts.Add(new FloatMenuOption(optLabel, delegate()
+                            {
+                                selectedAuthorIndexByMod[modKey] = vIdx;
+                            }));
+                        }
+                        Find.WindowStack.Add(new FloatMenu(authOpts));
+                    }
+                }
+                else
+                {
+                    string authorLabel = "<color=#40E0D0>" + item.Author + "</color>";
+                    Rect authorLabelR = new Rect(prefixR.xMax + 2f, card.y + 5f, card.width - (prefixR.width + 230f), 22f);
+                    Widgets.Label(authorLabelR, authorLabel);
+                }
+
+                // Line 2: Description
                 string desc = "<color=#C0C0C0>" + item.Description + "</color>";
                 Widgets.Label(new Rect(card.x + 8f, card.y + 28f, card.width - 230f, 22f), desc);
 
+                // Line 3: Mod active status
                 string modStatus = item.IsTargetModActive
                     ? "<color=#50E050>• Целевой мод активен в игре (" + item.PackageId + ")</color>"
                     : "<color=#FFA040>• Мод не обнаружен в списке активных модов (" + item.PackageId + ")</color>";

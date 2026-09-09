@@ -25,6 +25,13 @@ namespace RUML
         public bool IsTargetModActive = false;
     }
 
+    public class CloudModGroup
+    {
+        public string ModName = "";
+        public string PackageId = "";
+        public List<CloudTranslationItem> Versions = new List<CloudTranslationItem>();
+    }
+
     public static class RUMLCloudManager
     {
         public static List<CloudTranslationItem> Items = new List<CloudTranslationItem>();
@@ -32,6 +39,62 @@ namespace RUML
         public static string StatusMessage = "Готов к синхронизации";
         public static float DownloadPercent = 0f;
         public static string CurrentActionItem = "";
+
+        public static Dictionary<string, int> GetAuthorCounts()
+        {
+            Dictionary<string, int> counts = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
+            for (int i = 0; i < Items.Count; i++)
+            {
+                string a = Items[i].Author;
+                if (string.IsNullOrEmpty(a)) a = "Неизвестный";
+                if (!counts.ContainsKey(a))
+                {
+                    counts[a] = 0;
+                }
+                counts[a]++;
+            }
+            return counts;
+        }
+
+        public static List<CloudModGroup> GetGroupedItems(string authorFilter = "", string searchFilter = "")
+        {
+            Dictionary<string, CloudModGroup> map = new Dictionary<string, CloudModGroup>(StringComparer.OrdinalIgnoreCase);
+            List<CloudModGroup> result = new List<CloudModGroup>();
+
+            for (int i = 0; i < Items.Count; i++)
+            {
+                CloudTranslationItem item = Items[i];
+
+                if (!string.IsNullOrEmpty(authorFilter) && !string.Equals(item.Author, authorFilter, StringComparison.OrdinalIgnoreCase))
+                {
+                    continue;
+                }
+
+                if (!string.IsNullOrEmpty(searchFilter))
+                {
+                    bool match = (item.ModName != null && item.ModName.IndexOf(searchFilter, StringComparison.OrdinalIgnoreCase) >= 0) ||
+                                 (item.Author != null && item.Author.IndexOf(searchFilter, StringComparison.OrdinalIgnoreCase) >= 0) ||
+                                 (item.PackageId != null && item.PackageId.IndexOf(searchFilter, StringComparison.OrdinalIgnoreCase) >= 0);
+                    if (!match) continue;
+                }
+
+                string key = string.IsNullOrEmpty(item.PackageId) ? item.ModName : item.PackageId;
+                if (string.IsNullOrEmpty(key)) key = item.Id;
+
+                CloudModGroup grp;
+                if (!map.TryGetValue(key, out grp))
+                {
+                    grp = new CloudModGroup();
+                    grp.ModName = item.ModName;
+                    grp.PackageId = item.PackageId;
+                    map[key] = grp;
+                    result.Add(grp);
+                }
+                grp.Versions.Add(item);
+            }
+
+            return result;
+        }
 
         public static void OpenTranslationsFolderInExplorer()
         {
