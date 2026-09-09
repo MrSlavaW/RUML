@@ -28,7 +28,7 @@ def get_base_url():
         return f"https://raw.githubusercontent.com/{github_repo}/{github_ref}"
 
     # 3. Default fallback placeholder
-    return "https://raw.githubusercontent.com/SlavaV-RU/RUML-Translations/main"
+    return "https://raw.githubusercontent.com/MrSlavaV/RUML/main"
 
 def clean_id(s: str) -> str:
     return re.sub(r"[^a-zA-Z0-9_]", "_", s).strip("_").lower()
