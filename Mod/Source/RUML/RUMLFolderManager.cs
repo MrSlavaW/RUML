@@ -411,6 +411,13 @@ namespace RUML
                     // 2. Reload translation strings and def-injections from all active mod folders
                     lang.LoadData();
 
+                    // 2.1. Sanitize Hediff stages and alias numeric indices to canonical named keys
+                    try
+                    {
+                        RUMLLanguageSanitizer.SanitizeAndAlias(lang);
+                    }
+                    catch { }
+
                     // 3. Inject updated translations into all Def instances in DefDatabase
                     lang.InjectIntoData_AfterImpliedDefs();
 

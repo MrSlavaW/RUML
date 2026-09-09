@@ -48,6 +48,24 @@ namespace RUML
 
         // Unified list for backward-compatibility and export
         public List<string> MissingList = new List<string>();
+
+        // Structured missing items for XML template export
+        public List<MissingDefItem> DetailedMissingDefs = new List<MissingDefItem>();
+        public List<MissingKeyedItem> DetailedMissingKeyed = new List<MissingKeyedItem>();
+    }
+
+    public class MissingDefItem
+    {
+        public string DefType;
+        public string SuggestedPath;
+        public string EnglishValue;
+    }
+
+    public class MissingKeyedItem
+    {
+        public string Key;
+        public string EnglishValue;
+        public string FileSource;
     }
 
     public static class RUMLAuditor
@@ -183,6 +201,7 @@ namespace RUML
                                         string entry = "[Def.Label] " + defType.Name + "." + currentDef.defName + ": \"" + cleanVal + "\"";
                                         rep.MissingDefLabels.Add(entry);
                                         rep.MissingList.Add(entry);
+                                        rep.DetailedMissingDefs.Add(new MissingDefItem { DefType = defType.Name, SuggestedPath = currentDef.defName + ".label", EnglishValue = cleanVal });
                                     }
                                 }
                                 else if (fieldInfo != null && fieldInfo.Name == "description")
@@ -194,6 +213,7 @@ namespace RUML
                                         string entry = "[Def.Desc] " + defType.Name + "." + currentDef.defName + ": \"" + cleanVal + "\"";
                                         rep.MissingDefDescriptions.Add(entry);
                                         rep.MissingList.Add(entry);
+                                        rep.DetailedMissingDefs.Add(new MissingDefItem { DefType = defType.Name, SuggestedPath = currentDef.defName + ".description", EnglishValue = cleanVal });
                                     }
                                 }
                                 else
@@ -205,6 +225,7 @@ namespace RUML
                                         string entry = "[Def.Field] " + defType.Name + "." + suggestedPath + ": \"" + cleanVal + "\"";
                                         rep.MissingDefOther.Add(entry);
                                         rep.MissingList.Add(entry);
+                                        rep.DetailedMissingDefs.Add(new MissingDefItem { DefType = defType.Name, SuggestedPath = suggestedPath, EnglishValue = cleanVal });
                                     }
                                 }
                             }
@@ -225,6 +246,7 @@ namespace RUML
                                         string entry = "[Def.List] " + defType.Name + "." + suggestedPath + ": \"" + cleanItem + "\"";
                                         rep.MissingDefOther.Add(entry);
                                         rep.MissingList.Add(entry);
+                                        rep.DetailedMissingDefs.Add(new MissingDefItem { DefType = defType.Name, SuggestedPath = suggestedPath, EnglishValue = cleanItem });
                                     }
                                 }
                             }
@@ -296,6 +318,7 @@ namespace RUML
                             string entry = "[Keyed] " + fName + " -> " + kr.key + ": \"" + engVal + "\"";
                             rep.MissingKeyedList.Add(entry);
                             rep.MissingList.Add(entry);
+                            rep.DetailedMissingKeyed.Add(new MissingKeyedItem { Key = kr.key, EnglishValue = engVal, FileSource = fName });
                         }
                     }
                 }
@@ -416,6 +439,113 @@ namespace RUML
 
             File.WriteAllText(file, sb.ToString(), Encoding.UTF8);
             return file;
+        }
+
+        public static string ExportMissingTemplates(List<ModAuditReport> reports)
+        {
+            if (reports == null || reports.Count == 0) return null;
+
+            string desk = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
+            string baseDir = Path.Combine(desk, "RUML_Translation_Templates");
+            if (!Directory.Exists(baseDir))
+            {
+                Directory.CreateDirectory(baseDir);
+            }
+
+            int exportedModsCount = 0;
+
+            for (int rIdx = 0; rIdx < reports.Count; rIdx++)
+            {
+                ModAuditReport r = reports[rIdx];
+                if (r == null || r.MissingItems == 0) continue;
+
+                string safeModName = System.Text.RegularExpressions.Regex.Replace(r.ModName ?? "UnknownMod", @"[^a-zA-Z0-9_\-]", "_");
+                string modFolder = Path.Combine(baseDir, safeModName);
+
+                // 1. Export DefInjected templates
+                if (r.DetailedMissingDefs != null && r.DetailedMissingDefs.Count > 0)
+                {
+                    Dictionary<string, List<MissingDefItem>> byType = new Dictionary<string, List<MissingDefItem>>();
+                    for (int i = 0; i < r.DetailedMissingDefs.Count; i++)
+                    {
+                        var item = r.DetailedMissingDefs[i];
+                        if (item == null || string.IsNullOrEmpty(item.DefType)) continue;
+
+                        List<MissingDefItem> list;
+                        if (!byType.TryGetValue(item.DefType, out list))
+                        {
+                            list = new List<MissingDefItem>();
+                            byType[item.DefType] = list;
+                        }
+                        list.Add(item);
+                    }
+
+                    foreach (var kv in byType)
+                    {
+                        string defTypeDir = Path.Combine(modFolder, Path.Combine("DefInjected", kv.Key));
+                        if (!Directory.Exists(defTypeDir))
+                        {
+                            Directory.CreateDirectory(defTypeDir);
+                        }
+
+                        string xmlFile = Path.Combine(defTypeDir, kv.Key + "_Missing.xml");
+                        StringBuilder sb = new StringBuilder();
+                        sb.AppendLine("<?xml version=\"1.0\" encoding=\"utf-8\"?>");
+                        sb.AppendLine("<LanguageData>");
+
+                        HashSet<string> writtenKeys = new HashSet<string>();
+                        for (int j = 0; j < kv.Value.Count; j++)
+                        {
+                            var item = kv.Value[j];
+                            if (string.IsNullOrEmpty(item.SuggestedPath) || writtenKeys.Contains(item.SuggestedPath)) continue;
+                            writtenKeys.Add(item.SuggestedPath);
+
+                            string escEng = (item.EnglishValue ?? "").Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\r", "").Replace("\n", " ");
+                            sb.AppendLine("  <!-- EN: " + escEng + " -->");
+                            sb.AppendLine("  <" + item.SuggestedPath + ">TODO</" + item.SuggestedPath + ">");
+                            sb.AppendLine();
+                        }
+
+                        sb.AppendLine("</LanguageData>");
+                        File.WriteAllText(xmlFile, sb.ToString(), Encoding.UTF8);
+                    }
+                }
+
+                // 2. Export Keyed templates
+                if (r.DetailedMissingKeyed != null && r.DetailedMissingKeyed.Count > 0)
+                {
+                    string keyedDir = Path.Combine(modFolder, "Keyed");
+                    if (!Directory.Exists(keyedDir))
+                    {
+                        Directory.CreateDirectory(keyedDir);
+                    }
+
+                    string xmlFile = Path.Combine(keyedDir, safeModName + "_Keyed_Missing.xml");
+                    StringBuilder sb = new StringBuilder();
+                    sb.AppendLine("<?xml version=\"1.0\" encoding=\"utf-8\"?>");
+                    sb.AppendLine("<LanguageData>");
+
+                    HashSet<string> writtenKeyed = new HashSet<string>();
+                    for (int j = 0; j < r.DetailedMissingKeyed.Count; j++)
+                    {
+                        var item = r.DetailedMissingKeyed[j];
+                        if (string.IsNullOrEmpty(item.Key) || writtenKeyed.Contains(item.Key)) continue;
+                        writtenKeyed.Add(item.Key);
+
+                        string escEng = (item.EnglishValue ?? "").Replace("&", "&amp;").Replace("<", "&lt;").Replace(">", "&gt;").Replace("\r", "").Replace("\n", " ");
+                        sb.AppendLine("  <!-- Source: " + (item.FileSource ?? "Keyed") + " | EN: " + escEng + " -->");
+                        sb.AppendLine("  <" + item.Key + ">TODO</" + item.Key + ">");
+                        sb.AppendLine();
+                    }
+
+                    sb.AppendLine("</LanguageData>");
+                    File.WriteAllText(xmlFile, sb.ToString(), Encoding.UTF8);
+                }
+
+                exportedModsCount++;
+            }
+
+            return baseDir;
         }
     }
 }

@@ -752,18 +752,26 @@ namespace RUML
 
             // Action Buttons Row
             Rect actRow = new Rect(inRect.x, inRect.y + 28f, inRect.width, 30f);
-            float actW = (inRect.width - 20f) / 3f;
+            float actW = (inRect.width - 30f) / 4f;
 
-            if (Widgets.ButtonText(new Rect(actRow.x, actRow.y, actW, 30f), "Экспорт на Рабочий стол"))
+            if (Widgets.ButtonText(new Rect(actRow.x, actRow.y, actW, 30f), "Экспорт отчёта"))
             {
                 string f = RUMLAuditor.ExportReportToFile(lastAuditReports);
                 Messages.Message("RUML: Отчёт успешно сохранён на Рабочий стол: " + f, MessageTypeDefOf.PositiveEvent, false);
             }
-            if (Widgets.ButtonText(new Rect(actRow.x + actW + 10f, actRow.y, actW, 30f), "Повторить аудит"))
+            if (Widgets.ButtonText(new Rect(actRow.x + actW + 10f, actRow.y, actW, 30f), "Экспорт XML-шаблонов"))
+            {
+                string dir = RUMLAuditor.ExportMissingTemplates(lastAuditReports);
+                if (!string.IsNullOrEmpty(dir))
+                {
+                    Messages.Message("RUML: Шаблоны XML сохранены: " + dir, MessageTypeDefOf.PositiveEvent, false);
+                }
+            }
+            if (Widgets.ButtonText(new Rect(actRow.x + (actW + 10f) * 2, actRow.y, actW, 30f), "Повторить аудит"))
             {
                 lastAuditReports = RUMLAuditor.RunAudit(Settings.auditSelectedPackageIds, FolderToPackageId);
             }
-            if (Widgets.ButtonText(new Rect(actRow.x + (actW + 10f) * 2, actRow.y, actW, 30f), "Изменить выбор модов"))
+            if (Widgets.ButtonText(new Rect(actRow.x + (actW + 10f) * 3, actRow.y, actW, 30f), "Выбор модов"))
             {
                 auditSubTab = 0;
             }

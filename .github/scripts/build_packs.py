@@ -44,6 +44,12 @@ def build():
         TRANSLATIONS_DIR.mkdir(parents=True, exist_ok=True)
         print(f"Created empty {TRANSLATIONS_DIR}")
 
+    # 0. Pre-build Translation Quality & Integrity Validation
+    from validate_translations import validate
+    if not validate():
+        print("\n[ERROR] Build aborted due to critical translation validation errors!")
+        sys.exit(1)
+
     PACKS_DIR.mkdir(parents=True, exist_ok=True)
     base_url = get_base_url()
     print(f"Base download URL: {base_url}")

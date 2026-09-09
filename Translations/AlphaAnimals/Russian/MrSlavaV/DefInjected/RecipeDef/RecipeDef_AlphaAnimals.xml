@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AA_BlueGel_To_Hexagel.label>Спрессовать синий гель в гексагель.</AA_BlueGel_To_Hexagel.label>
-  <AA_BlueGel_To_Hexagel.description>Make a crystallized cube of hexagel by compressing blue gel under high pressure.</AA_BlueGel_To_Hexagel.description>
   <AA_ExtractUranium.label>переработать кристаллы урана</AA_ExtractUranium.label>
-  <AA_ExtractUranium.description>Extract uranium from .</AA_ExtractUranium.description>
   <AA_InstallAcidicSpitterImplant.label>установить кислотный плеватель</AA_InstallAcidicSpitterImplant.label>
   <AA_InstallAcidicSpitterImplant.description>имплант</AA_InstallAcidicSpitterImplant.description>
   <AA_InstallBarbedQuillThrowerImplant.label>установить шипомётный имплант</AA_InstallBarbedQuillThrowerImplant.label>
