@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\HediffDefs\Hediffs_StatHandling.xml -->
+
+	<!--                      EN: melee cooldown -->
+	<AArmoury_MeleeCooldown.label>перезарядка ближнего боя</AArmoury_MeleeCooldown.label>
+
+	<!--                            EN: The weapon held by this person has a much faster melee attack than usual. -->
+	<AArmoury_MeleeCooldown.description>Оружие в руках этого персонажа наносит удары в ближнем бою значительно быстрее обычного.</AArmoury_MeleeCooldown.description>
+</LanguageData>

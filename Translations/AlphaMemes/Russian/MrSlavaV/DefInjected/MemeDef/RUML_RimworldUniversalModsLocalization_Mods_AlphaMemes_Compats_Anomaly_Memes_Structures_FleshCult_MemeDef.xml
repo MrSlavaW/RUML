@@ -1,0 +1,39 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\MemeDefs\Memes_Structures_FleshCult.xml -->
+	<!--                      EN: flesh cult -->
+	<AM_Structure_FleshCult.label>культ плоти</AM_Structure_FleshCult.label>
+	<!--                            EN: We worship the pulsating flesh and the twisted abominations it births. Our devotees revel in the putrid embrace of decaying sinew and the writhing tendrils of fleshbeasts. Let the screams of the damned be our hymns, and the stench of decay our incense, as we embrace the primordial chaos of the flesh. -->
+	<AM_Structure_FleshCult.description>Мы поклоняемся пульсирующей плоти и порождаемым ею извращенным мерзостям. Наши почитатели упиваются гнилостными объятиями разлагающихся сухожилий и извивающимися усиками плотских чудовищ. Пусть крики проклятых станут нашими гимнами, а смрад разложения - нашим благовонием, когда мы приобщимся к первобытному хаосу плоти.</AM_Structure_FleshCult.description>
+	<!--                                 EN: flesh chamber -->
+	<AM_Structure_FleshCult.worshipRoomLabel>камера плоти</AM_Structure_FleshCult.worshipRoomLabel>
+	<!-- EN: 
+		<li>memeAdjective->bloodsoaked</li>
+		<li>memeAdjective->visceral</li>
+		<li>memeAdjective->fleshy</li>
+		<li>memeAdjective->tumorous</li>
+		<li>memeLeaderNoun->fleshprophet</li>
+		<li>memeLeaderNoun->sanguimancer</li>
+		<li>memeMoralist->gorepriest</li>
+		<li>memeMoralist->tendrilith</li>
+		<li>memeMoralist->fleshbinder</li>
+		<li>memeMoralist->rotseer</li>
+	 -->
+	<AM_Structure_FleshCult.generalRules.rulesStrings>
+		<li>memeAdjective-&gt;пропитанный кровью</li>
+		<li>memeAdjective-&gt;висцеральный</li>
+		<li>memeAdjective-&gt;мясистый</li>
+		<li>memeAdjective-&gt;опухолевидный</li>
+		<li>memeLeaderNoun-&gt;Плотский пророк</li>
+		<li>memeLeaderNoun-&gt;сангимансер</li>
+		<li>memeMoralist-&gt;жрец крови</li>
+		<li>memeMoralist-&gt;тендрилит</li>
+		<li>memeMoralist-&gt;переплетчик плоти</li>
+		<li>memeMoralist-&gt;гнилой провидец</li>
+	</AM_Structure_FleshCult.generalRules.rulesStrings>
+	<!--                                    EN: flesh cult -->
+	<AM_Structure_FleshCult.symbolPacks.0.theme>культ плоти</AM_Structure_FleshCult.symbolPacks.0.theme>
+	<!--                                        EN: fleshy -->
+	<AM_Structure_FleshCult.symbolPacks.0.adjective>мясистый</AM_Structure_FleshCult.symbolPacks.0.adjective>
+	<!--                                     EN: flesh devotee -->
+	<AM_Structure_FleshCult.symbolPacks.0.member>приверженец плоти</AM_Structure_FleshCult.symbolPacks.0.member>
+</LanguageData>

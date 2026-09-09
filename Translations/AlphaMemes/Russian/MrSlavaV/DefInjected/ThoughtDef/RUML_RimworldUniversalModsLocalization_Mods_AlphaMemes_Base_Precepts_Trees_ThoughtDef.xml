@@ -1,0 +1,100 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Trees.xml -->
+	<!--                          EN: repulsive forests -->
+	<AM_Trees_Despised.stages.0.label>отвратительный лес</AM_Trees_Despised.stages.0.label>
+	<!--                                EN: I am surrounded by several massive, ugly trees. The sight of these overgrown eyesores repulses me! -->
+	<AM_Trees_Despised.stages.0.description>Я окружен несколькими огромными, уродливыми деревьями. Вид этих заросших уродств вызывает у меня отвращение!</AM_Trees_Despised.stages.0.description>
+	<!--                          EN: abominable trees -->
+	<AM_Trees_Despised.stages.1.label>мерзкие деревья</AM_Trees_Despised.stages.1.label>
+	<!--                                EN: I very recently encountered a massive, ugly tree – a blight on the land! -->
+	<AM_Trees_Despised.stages.1.description>Недавно я столкнулся с огромным, уродливым деревом — это настоящее бедствие для земли!</AM_Trees_Despised.stages.1.description>
+	<!--                          EN: disgraceful forests -->
+	<AM_Trees_Despised.stages.2.label>мерзкий лес</AM_Trees_Despised.stages.2.label>
+	<!--                                EN: I am surrounded by a vile, overgrown forest. -->
+	<AM_Trees_Despised.stages.2.description>Я окружен мерзким, заросшим лесом.</AM_Trees_Despised.stages.2.description>
+	<!--                          EN: blighted trees -->
+	<AM_Trees_Despised.stages.3.label>пораженные деревья</AM_Trees_Despised.stages.3.label>
+	<!--                                EN: I recently encountered a massive, ugly tree. -->
+	<AM_Trees_Despised.stages.3.description>Недавно я столкнулся с огромным, уродливым деревом.</AM_Trees_Despised.stages.3.description>
+	<!--                          EN: corrupted forest -->
+	<AM_Trees_Despised.stages.4.label>испорченный лес</AM_Trees_Despised.stages.4.label>
+	<!--                                EN: I was recently surrounded by an overgrown, repulsive forest. -->
+	<AM_Trees_Despised.stages.4.description>Недавно я был окружен заросшим, отвратительным лесом.</AM_Trees_Despised.stages.4.description>
+	<!--                          EN: suffocating trees -->
+	<AM_Trees_Despised.stages.5.label>удушающие деревья</AM_Trees_Despised.stages.5.label>
+	<!--                                EN: I recently walked among many dense, suffocating trees. -->
+	<AM_Trees_Despised.stages.5.description>Недавно я гулял среди множества густых, удушающих деревьев.</AM_Trees_Despised.stages.5.description>
+	<!--                          EN: chaotic woods -->
+	<AM_Trees_Despised.stages.6.label>хаотичные леса</AM_Trees_Despised.stages.6.label>
+	<!--                                EN: I recently walked among a haphazard variety of twisted trees. -->
+	<AM_Trees_Despised.stages.6.description>Недавно я гулял среди хаотичного разнообразия искривленных деревьев.</AM_Trees_Despised.stages.6.description>
+	<!--                          EN: distorted trees -->
+	<AM_Trees_Despised.stages.7.label>искаженные деревья</AM_Trees_Despised.stages.7.label>
+	<!--                                EN: I recently encountered a twisted, disfigured tree. -->
+	<AM_Trees_Despised.stages.7.description>Недавно я столкнулся с искривленным, уродливым деревом.</AM_Trees_Despised.stages.7.description>
+	<!--                          EN: pitiful trees -->
+	<AM_Trees_Despised.stages.8.label>жалкие деревья</AM_Trees_Despised.stages.8.label>
+	<!--                                EN: I was recently surrounded by a few pathetic miniature trees. -->
+	<AM_Trees_Despised.stages.8.description>Недавно я был окружен несколькими жалкими миниатюрными деревьями.</AM_Trees_Despised.stages.8.description>
+	<!--                          EN: stunted trees -->
+	<AM_Trees_Despised.stages.9.label>карликовые деревья</AM_Trees_Despised.stages.9.label>
+	<!--                                EN: I recently encountered a stunted, unattractive miniature tree. -->
+	<AM_Trees_Despised.stages.9.description>Недавно я столкнулся с карликовым, непривлекательным миниатюрным деревом.</AM_Trees_Despised.stages.9.description>
+	<!--                           EN: tree-free -->
+	<AM_Trees_Despised.stages.10.label>без деревьев</AM_Trees_Despised.stages.10.label>
+	<!--                                 EN: I haven't been around any trees in a while. It's a relief! -->
+	<AM_Trees_Despised.stages.10.description>Я давно не был рядом с деревьями. Это облегчение!</AM_Trees_Despised.stages.10.description>
+	<!--                           EN: tree-less -->
+	<AM_Trees_Despised.stages.11.label>безлесный</AM_Trees_Despised.stages.11.label>
+	<!--                                 EN: I'm thankful for not having many trees around me. -->
+	<AM_Trees_Despised.stages.11.description>Я рад, что вокруг меня нет множества деревьев.</AM_Trees_Despised.stages.11.description>
+	<!--                           EN: tree absence -->
+	<AM_Trees_Despised.stages.12.label>отсутствие деревьев</AM_Trees_Despised.stages.12.label>
+	<!--                                 EN: It has been a while since I’ve been near a tree – and I’m grateful for it. -->
+	<AM_Trees_Despised.stages.12.description>Прошло некоторое время с тех пор, как я был рядом с деревом, и я благодарен за это.</AM_Trees_Despised.stages.12.description>
+	<!--                           EN: tree-free zone -->
+	<AM_Trees_Despised.stages.13.label>зона без деревьев</AM_Trees_Despised.stages.13.label>
+	<!--                                 EN: It has been too long since I’ve been near a tree, and I don’t miss them at all. -->
+	<AM_Trees_Despised.stages.13.description>Прошло слишком много времени с тех пор, как я был рядом с деревом, и я совсем не скучаю по ним.</AM_Trees_Despised.stages.13.description>
+	<!--                           EN: blessed tree absence -->
+	<AM_Trees_Despised.stages.14.label>благословенное отсутствие деревьев</AM_Trees_Despised.stages.14.label>
+	<!--                                 EN: It has been way too long since I’ve been near a tree, and I’m thankful for the distance! -->
+	<AM_Trees_Despised.stages.14.description>Прошло слишком много времени с тех пор, как я был рядом с деревом, и я благодарен за это расстояние!</AM_Trees_Despised.stages.14.description>
+	
+	<!--                              EN: trees untouched -->
+	<AM_TreeDensityReduced.stages.0.label>деревья уничтожены</AM_TreeDensityReduced.stages.0.label>
+	<!--                                    EN: In the past quadrum, we didn’t destroy many trees at all. It’s disappointing to see so little improvement. -->
+	<AM_TreeDensityReduced.stages.0.description>В прошлом квадруме мы уничтожили удовлетворительно большое количество деревьев. Каждый поваленный ствол приближает нас к лучшему миру.</AM_TreeDensityReduced.stages.0.description>
+	<!--                              EN: trees disturbed -->
+	<AM_TreeDensityReduced.stages.1.label>деревья расчищены</AM_TreeDensityReduced.stages.1.label>
+	<!--                                    EN: In the past quadrum, we destroyed a few trees. It’s progress, but hardly worth celebrating. -->
+	<AM_TreeDensityReduced.stages.1.description>В прошлом квадруме мы уничтожили внушительное количество деревьев. Земля уже выглядит лучше!</AM_TreeDensityReduced.stages.1.description>
+	<!--                              EN: trees thinned -->
+	<AM_TreeDensityReduced.stages.2.label>деревья удалены</AM_TreeDensityReduced.stages.2.label>
+	<!--                                    EN: In the past quadrum, we destroyed some trees. It’s a step in the right direction, but there’s still more work to do. -->
+	<AM_TreeDensityReduced.stages.2.description>В прошлом квадруме мы избавились от удовлетворительного количества деревьев. Это был необходимый прогресс.</AM_TreeDensityReduced.stages.2.description>
+	<!--                              EN: trees dealt with -->
+	<AM_TreeDensityReduced.stages.3.label>деревья срублены</AM_TreeDensityReduced.stages.3.label>
+	<!--                                    EN: In the past quadrum, we destroyed a reasonable number of trees. It had to be done, and it feels good to have it behind us. -->
+	<AM_TreeDensityReduced.stages.3.description>В прошлом квадруме мы уничтожили похвальное количество деревьев. Теперь пространство кажется более открытым и свободным.</AM_TreeDensityReduced.stages.3.description>
+	<!--                              EN: trees cut down -->
+	<AM_TreeDensityReduced.stages.4.label>деревья устранены</AM_TreeDensityReduced.stages.4.label>
+	<!--                                    EN: In the past quadrum, we destroyed a commendable number of trees. The space feels more open and free now. -->
+	<AM_TreeDensityReduced.stages.4.description>В прошлом квадруме мы уничтожили разумное количество деревьев. Это нужно было сделать, и хорошо, что это позади.</AM_TreeDensityReduced.stages.4.description>
+	<!--                              EN: trees removed -->
+	<AM_TreeDensityReduced.stages.5.label>деревья прорежены</AM_TreeDensityReduced.stages.5.label>
+	<!--                                    EN: In the past quadrum, we got rid of a satisfying number of trees. This was necessary progress. -->
+	<AM_TreeDensityReduced.stages.5.description>В прошлом квадруме мы уничтожили несколько деревьев. Это шаг в правильном направлении, но еще предстоит много работы.</AM_TreeDensityReduced.stages.5.description>
+	<!--                              EN: trees cleared -->
+	<AM_TreeDensityReduced.stages.6.label>деревья потревожены</AM_TreeDensityReduced.stages.6.label>
+	<!--                                    EN: In the past quadrum, we destroyed an impressive number of trees. The land looks better already! -->
+	<AM_TreeDensityReduced.stages.6.description>В прошлом квадруме мы уничтожили несколько деревьев. Это прогресс, но он едва ли стоит радости.</AM_TreeDensityReduced.stages.6.description>
+	<!--                              EN: trees purged -->
+	<AM_TreeDensityReduced.stages.7.label>деревья нетронуты</AM_TreeDensityReduced.stages.7.label>
+	<!--                                    EN: In the past quadrum, we destroyed a gratifyingly large number of trees. Each fallen trunk brings us closer to a better world. -->
+	<AM_TreeDensityReduced.stages.7.description>В прошлом квадруме мы почти не уничтожили деревьев. Разочаровывает видеть такие незначительные улучшения.</AM_TreeDensityReduced.stages.7.description>
+<!--                              EN: low destruction, low density -->
+    <AM_TreeDensityReduced.stages.8.label>слабая вырубка, низкая плотность</AM_TreeDensityReduced.stages.8.label>
+    <!--                                    EN: We didn't get rid of many trees just because there aren't many laying around. -->
+    <AM_TreeDensityReduced.stages.8.description>Мы не вырубили много деревьев просто потому, что вокруг их было немного.</AM_TreeDensityReduced.stages.8.description>
+</LanguageData>

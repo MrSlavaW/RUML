@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_Dominion.xml -->
+	<!--                      EN: dominion -->
+	<VFE_Mech_Advanced_Aura.label>доминион</VFE_Mech_Advanced_Aura.label>
+	<!--                            EN: An improved and strengthened version of the Aura, a Dominion is an angel-shaped mechanoid surrounded by a whirling cloud of six levitating metallic blades. They favour close combat, approaching their victims and engulfing them in an eviscerating whirlwind of slashing death. They also have the ability to regenerate their wounds with VERY fast acting mechanites. Unlike their more ancient and less advanced relatives this particular unit is much more intelligent and will seek cover and prove to be a much more challenging opponent in melee combat.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Dominion don't have much health, but they will regenerate damage quite fast.\n\nRegeneration is 0.1 damage to a random wound every 5 ticks, 1/12th of a second.\n\nIf toggled to not spawn via mod options, they will get replaced by an Advanced Scyther. -->
+	<VFE_Mech_Advanced_Aura.description>Усовершенствованная и усиленная версия Ауры, Доминион представляет собой механоид в форме ангела, окруженный кружащимся облаком из шести парящих металлических лезвий. Они предпочитают ближний бой, приближаясь к своим жертвам и охватывая их потрошительным вихрем режущей смерти. У них также есть способность регенерировать свои раны с помощью ОЧЕНЬ быстродействующих механитов. В отличие от своих более древних и менее продвинутых родственников, этот конкретный отряд гораздо умнее, будет искать укрытие и окажется гораздо более сильным противником в рукопашном бою.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; У Доминиона не так много здоровья, но он довольно быстро восстанавливает урон.\n\nРегенерация — это 0,1 урона случайной ране каждые 5 тактов, 1/12 секунды.\n\nЕсли появление этого меха отключено в настройках мода, его заменит улучшенный косарь.</VFE_Mech_Advanced_Aura.description>
+	<!--                              EN: wing blade -->
+	<VFE_Mech_Advanced_Aura.tools.0.label>крыльевой клинок</VFE_Mech_Advanced_Aura.tools.0.label>
+	<!--                              EN: голова -->
+	<VFE_Mech_Advanced_Aura.tools.1.label>голова</VFE_Mech_Advanced_Aura.tools.1.label>
+</LanguageData>

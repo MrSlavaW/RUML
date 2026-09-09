@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AGI_OpportunitySite_AbandonedBiotechLab_Giver.questNameRules.rulesStrings>
+    <li>questName->[complexAdj] [complex] — [finalWord]</li>
+    <li>questName->[complexAdj] [complex]</li>
+    <li>questName->[complex] — [finalWord]</li>
+    <li>complexAdj->заброшенная</li>
+    <li>complexAdj->потерянная</li>
+    <li>complexAdj->древняя</li>
+    <li>complexAdj->старая</li>
+    <li>complexAdj->скрытая</li>
+    <li>complex->биотех-лаборатория</li>
+    <li>complex->генетическая лаборатория</li>
+    <li>complex->лаборатория ксеногенетики</li>
+    <li>finalWord->сокровища</li>
+    <li>finalWord->схрон</li>
+    <li>finalWord->тайник</li>
+    <li>finalWord->добыча</li>
+    <li>finalWord->запасы</li>
+  </AGI_OpportunitySite_AbandonedBiotechLab_Giver.questNameRules.rulesStrings>
+  <AGI_OpportunitySite_AbandonedBiotechLab_Giver.questDescriptionRules.rulesStrings>
+    <li>questDescription->[discoveryMethod] древнюю биотех-лабораторию неподалеку от [map_definite]. На этом объекте могут оставаться уцелевшие генетические технологии, включая редкие генные инструменты, поэтому имеет смысл ее исследовать.\n\nНам следует хорошо подготовиться, так как активность в лаборатории может привлечь нежелательное внимание.</li>
+  </AGI_OpportunitySite_AbandonedBiotechLab_Giver.questDescriptionRules.rulesStrings>
+  <AGI_OpportunitySite_AbandonedBiotechLab_Giver.questSubjectRules.rulesStrings>
+    <li>subject->заброшенные лаборатории</li>
+    <li>subject->древняя генетика</li>
+    <li>subject->лаборатории ксеногенетики</li>
+    <li>questMapFeature->чертеж древней лаборатории</li>
+    <li>questMapFeature->набросок научного оборудования</li>
+    <li>questMapText->некая лаборатория</li>
+    <li>questMapText->древнее биоинженерное оборудование</li>
+    <li>questMapText->генетические исследования</li>
+  </AGI_OpportunitySite_AbandonedBiotechLab_Giver.questSubjectRules.rulesStrings>
+  <AGI_OpportunitySite_AbandonedBiotechLab_Giver.LetterTextQuestExpired.slateRef>Перехваченные радиопереговоры указывают на то, что заброшенная биотех-лаборатория уже разграблена другими. Задание «{0}» истекло.</AGI_OpportunitySite_AbandonedBiotechLab_Giver.LetterTextQuestExpired.slateRef>
+</LanguageData>

@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Nudity.xml -->
+<!--                           EN: Men must be entirely nude at all times. No exceptions. -->
+    <AM_Nudity_Male_Strict.description>Мужчины должны всегда быть полностью нагими. Никаких исключений.</AM_Nudity_Male_Strict.description>
+    <!--                     EN: strict -->
+    <AM_Nudity_Male_Strict.label>строго</AM_Nudity_Male_Strict.label>
+    
+    <!--                       EN: strict -->
+    <AM_Nudity_Female_Strict.label>строго</AM_Nudity_Female_Strict.label>
+    <!--                             EN: Women must be entirely nude at all times. No exceptions. -->
+    <AM_Nudity_Female_Strict.description>Женщины должны всегда быть полностью нагими. Никаких исключений.</AM_Nudity_Female_Strict.description>
+</LanguageData>

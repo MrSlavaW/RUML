@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingStyleDefs\Vanilla\ThingStyleDefs_Totemic.xml -->
+	<!--                        EN: tomahawk -->
+	<AM_Totemic_Sword.overrideLabel>томагавк</AM_Totemic_Sword.overrideLabel>
+	<!--                       EN: gunstock mace -->
+	<AM_Totemic_Mace.overrideLabel>приклад булавы</AM_Totemic_Mace.overrideLabel>
+</LanguageData>

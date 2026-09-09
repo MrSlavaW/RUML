@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AAVPE_BlackQueen.tools.0.label>заражающие жвалы</AAVPE_BlackQueen.tools.0.label>
+  <AAVPE_BlackQueen.tools.1.label>голова</AAVPE_BlackQueen.tools.1.label>
+  <AA_AcanthamoebaGiganteaHuge.tools.0.label>ложноножки</AA_AcanthamoebaGiganteaHuge.tools.0.label>
+  <AA_AcanthamoebaGiganteaLarge.tools.0.label>ложноножки</AA_AcanthamoebaGiganteaLarge.tools.0.label>
+  <AA_AcanthamoebaGiganteaSmall.tools.0.label>ложноножки</AA_AcanthamoebaGiganteaSmall.tools.0.label>
+  <AA_Aerofleet.tools.1.label>щупальца</AA_Aerofleet.tools.1.label>
+  <AA_Agaripawn.tools.0.label>левая лапа</AA_Agaripawn.tools.0.label>
+  <AA_Agaripawn.tools.1.label>правая лапа</AA_Agaripawn.tools.1.label>
+  <AA_Agaripawn.tools.3.label>голова</AA_Agaripawn.tools.3.label>
+  <AA_Agaripod.tools.0.label>левая лапа</AA_Agaripod.tools.0.label>
+  <AA_Agaripod.tools.1.label>правая лапа</AA_Agaripod.tools.1.label>
+  <AA_Agaripod.tools.3.label>голова</AA_Agaripod.tools.3.label>
+  <AA_AngelMothLarva.tools.0.label>голова</AA_AngelMothLarva.tools.0.label>
+  <AA_AnimaColossus.tools.1.label>голова</AA_AnimaColossus.tools.1.label>
+  <AA_Animalisk.tools.0.label>лапка</AA_Animalisk.tools.0.label>
+  <AA_Animalisk.tools.1.label>лапка</AA_Animalisk.tools.1.label>
+  <AA_Animalisk.tools.3.label>голова</AA_Animalisk.tools.3.label>
+  <AA_AnimusVox.tools.0.label>левый коготь</AA_AnimusVox.tools.0.label>
+  <AA_AnimusVox.tools.1.label>правый коготь</AA_AnimusVox.tools.1.label>
+  <AA_AnimusVox.tools.3.label>голова</AA_AnimusVox.tools.3.label>
+  <AA_ArcticLion.tools.0.label>левый коготь</AA_ArcticLion.tools.0.label>
+  <AA_ArcticLion.tools.1.label>правый коготь</AA_ArcticLion.tools.1.label>
+  <AA_ArcticLion.tools.3.label>голова</AA_ArcticLion.tools.3.label>
+  <AA_Atispec.tools.0.label>левый коготь</AA_Atispec.tools.0.label>
+  <AA_Atispec.tools.1.label>правый коготь</AA_Atispec.tools.1.label>
+  <AA_Barbslinger.tools.0.label>левая клешня</AA_Barbslinger.tools.0.label>
+  <AA_Barbslinger.tools.1.label>правая клешня</AA_Barbslinger.tools.1.label>
+  <AA_Barbslinger.tools.3.label>голова</AA_Barbslinger.tools.3.label>
+  <AA_BedBug.tools.0.label>жвалы</AA_BedBug.tools.0.label>
+  <AA_BedBug.tools.1.label>голова</AA_BedBug.tools.1.label>
+  <AA_Behemoth.tools.0.label>коготь</AA_Behemoth.tools.0.label>
+  <AA_Behemoth.tools.1.label>коготь</AA_Behemoth.tools.1.label>
+  <AA_Behemoth.tools.2.label>бритвенные клыки</AA_Behemoth.tools.2.label>
+  <AA_Behemoth.tools.3.label>пожирание</AA_Behemoth.tools.3.label>
+  <AA_BlackLarvae.tools.0.label>коготь</AA_BlackLarvae.tools.0.label>
+  <AA_BlackScarab.tools.0.label>жвалы</AA_BlackScarab.tools.0.label>
+  <AA_BlackScarab.tools.1.label>голова</AA_BlackScarab.tools.1.label>
+  <AA_BlackScarab_Temporary.tools.0.label>жвалы</AA_BlackScarab_Temporary.tools.0.label>
+  <AA_BlackScarab_Temporary.tools.1.label>голова</AA_BlackScarab_Temporary.tools.1.label>
+  <AA_BlackSpelopede.tools.0.label>коготь</AA_BlackSpelopede.tools.0.label>
+  <AA_BlackSpelopede.tools.1.label>голова</AA_BlackSpelopede.tools.1.label>
+  <AA_BlackSpelopede_Temporary.tools.0.label>коготь</AA_BlackSpelopede_Temporary.tools.0.label>
+  <AA_BlackSpelopede_Temporary.tools.1.label>голова</AA_BlackSpelopede_Temporary.tools.1.label>
+  <AA_BlackSpider.tools.0.label>коготь</AA_BlackSpider.tools.0.label>
+  <AA_BlackSpider.tools.1.label>голова</AA_BlackSpider.tools.1.label>
+  <AA_BlackSpider_Temporary.tools.0.label>коготь</AA_BlackSpider_Temporary.tools.0.label>
+  <AA_BlackSpider_Temporary.tools.1.label>голова</AA_BlackSpider_Temporary.tools.1.label>
+  <AA_Blizzarisk.tools.0.label>лапка</AA_Blizzarisk.tools.0.label>
+  <AA_Blizzarisk.tools.1.label>лапка</AA_Blizzarisk.tools.1.label>
+  <AA_Blizzarisk.tools.3.label>голова</AA_Blizzarisk.tools.3.label>
+  <AA_BlizzariskClutchMother.tools.0.label>лапка</AA_BlizzariskClutchMother.tools.0.label>
+  <AA_BlizzariskClutchMother.tools.1.label>лапка</AA_BlizzariskClutchMother.tools.1.label>
+  <AA_BlizzariskClutchMother.tools.3.label>голова</AA_BlizzariskClutchMother.tools.3.label>
+  <AA_BloodShrimp.tools.0.label>голова</AA_BloodShrimp.tools.0.label>
+  <AA_BloodShrimp.tools.2.label>левое лезвие</AA_BloodShrimp.tools.2.label>
+  <AA_BloodShrimp.tools.3.label>правое лезвие</AA_BloodShrimp.tools.3.label>
+  <AA_Bobeene.tools.1.label>голова</AA_Bobeene.tools.1.label>
+  <AA_Bobeene.tools.2.label>левое копыто</AA_Bobeene.tools.2.label>
+  <AA_Bobeene.tools.3.label>правое копыто</AA_Bobeene.tools.3.label>
+  <AA_BoulderMit.tools.1.label>голова</AA_BoulderMit.tools.1.label>
+  <AA_Bumbledrone.tools.1.label>когти</AA_Bumbledrone.tools.1.label>
+  <AA_BumbledroneHierophant.tools.1.label>когти</AA_BumbledroneHierophant.tools.1.label>
+  <AA_BumbledroneQueen.tools.1.label>когти</AA_BumbledroneQueen.tools.1.label>
+  <AA_Cactipine.tools.0.label>левый коготь</AA_Cactipine.tools.0.label>
+  <AA_Cactipine.tools.1.label>правый коготь</AA_Cactipine.tools.1.label>
+  <AA_ChameleonYak.tools.0.label>голова</AA_ChameleonYak.tools.0.label>
+  <AA_ChameleonYak.tools.1.label>левое копыто</AA_ChameleonYak.tools.1.label>
+  <AA_ChameleonYak.tools.2.label>правое копыто</AA_ChameleonYak.tools.2.label>
+  <AA_ChemfuelMyrmidon.tools.0.label>коготь</AA_ChemfuelMyrmidon.tools.0.label>
+  <AA_ChemfuelMyrmidon.tools.1.label>голова</AA_ChemfuelMyrmidon.tools.1.label>
+  <AA_Cinderlisk.tools.0.label>лапка</AA_Cinderlisk.tools.0.label>
+  <AA_Cinderlisk.tools.1.label>лапка</AA_Cinderlisk.tools.1.label>
+  <AA_Cinderlisk.tools.3.label>голова</AA_Cinderlisk.tools.3.label>
+  <AA_ColossalAerofleet.tools.1.label>щупальца</AA_ColossalAerofleet.tools.1.label>
+  <AA_CrepuscularBeetle.tools.0.label>коготь</AA_CrepuscularBeetle.tools.0.label>
+  <AA_CrepuscularBeetle.tools.1.label>голова</AA_CrepuscularBeetle.tools.1.label>
+  <AA_CrescendoAnole.tools.0.label>левый коготь</AA_CrescendoAnole.tools.0.label>
+  <AA_CrescendoAnole.tools.1.label>правый коготь</AA_CrescendoAnole.tools.1.label>
+  <AA_CrescendoAnole.tools.3.label>голова</AA_CrescendoAnole.tools.3.label>
+  <AA_CrystalMit.tools.1.label>голова</AA_CrystalMit.tools.1.label>
+  <AA_CrystallineCaracal.tools.0.label>левый коготь</AA_CrystallineCaracal.tools.0.label>
+  <AA_CrystallineCaracal.tools.1.label>правый коготь</AA_CrystallineCaracal.tools.1.label>
+  <AA_CrystallineCaracal.tools.3.label>голова</AA_CrystallineCaracal.tools.3.label>
+  <AA_DarkVandal.tools.0.label>бивень</AA_DarkVandal.tools.0.label>
+  <AA_DarkVandal.tools.2.label>голова</AA_DarkVandal.tools.2.label>
+  <AA_Darkbeast.tools.0.label>рог</AA_Darkbeast.tools.0.label>
+  <AA_Darkbeast.tools.2.label>голова</AA_Darkbeast.tools.2.label>
+  <AA_DecayDrake.tools.0.label>левый коготь</AA_DecayDrake.tools.0.label>
+  <AA_DecayDrake.tools.1.label>правый коготь</AA_DecayDrake.tools.1.label>
+  <AA_DecayDrake.tools.2.label>бритвенные клыки</AA_DecayDrake.tools.2.label>
+  <AA_DecayDrake.tools.3.label>голова</AA_DecayDrake.tools.3.label>
+  <AA_DesertAve.tools.0.label>когти</AA_DesertAve.tools.0.label>
+  <AA_DesertAve.tools.2.label>голова</AA_DesertAve.tools.2.label>
+  <AA_DevilSheep.tools.0.label>левое копыто</AA_DevilSheep.tools.0.label>
+  <AA_DevilSheep.tools.1.label>правое копыто</AA_DevilSheep.tools.1.label>
+  <AA_DevilSheep.tools.3.label>голова</AA_DevilSheep.tools.3.label>
+  <AA_DrainerLarva.tools.0.label>голова</AA_DrainerLarva.tools.0.label>
+  <AA_Dunealisk.tools.0.label>лапка</AA_Dunealisk.tools.0.label>
+  <AA_Dunealisk.tools.1.label>лапка</AA_Dunealisk.tools.1.label>
+  <AA_Dunealisk.tools.3.label>голова</AA_Dunealisk.tools.3.label>
+  <AA_DunealiskClutchMother.tools.0.label>лапка</AA_DunealiskClutchMother.tools.0.label>
+  <AA_DunealiskClutchMother.tools.1.label>лапка</AA_DunealiskClutchMother.tools.1.label>
+  <AA_DunealiskClutchMother.tools.3.label>голова</AA_DunealiskClutchMother.tools.3.label>
+  <AA_DuskProwler.tools.0.label>девятихвост</AA_DuskProwler.tools.0.label>
+  <AA_DuskProwler.tools.1.label>левый коготь</AA_DuskProwler.tools.1.label>
+  <AA_DuskProwler.tools.2.label>правый коготь</AA_DuskProwler.tools.2.label>
+  <AA_DuskProwler.tools.4.label>голова</AA_DuskProwler.tools.4.label>
+  <AA_DuskRat.tools.0.label>левый коготь</AA_DuskRat.tools.0.label>
+  <AA_DuskRat.tools.1.label>правый коготь</AA_DuskRat.tools.1.label>
+  <AA_DuskRat.tools.3.label>голова</AA_DuskRat.tools.3.label>
+  <AA_EmpressButterflyLarva.tools.0.label>голова</AA_EmpressButterflyLarva.tools.0.label>
+  <AA_EngorgedTentacularAberration.tools.1.label>щупальца</AA_EngorgedTentacularAberration.tools.1.label>
+  <AA_Erin.tools.0.label>левый коготь</AA_Erin.tools.0.label>
+  <AA_Erin.tools.1.label>правый коготь</AA_Erin.tools.1.label>
+  <AA_Erin.tools.2.label>клыки</AA_Erin.tools.2.label>
+  <AA_Erin.tools.3.label>голова</AA_Erin.tools.3.label>
+  <AA_Eyeling.tools.0.label>глаз</AA_Eyeling.tools.0.label>
+  <AA_Fangsquid.tools.1.label>щупальце</AA_Fangsquid.tools.1.label>
+  <AA_Feralisk.tools.0.label>лапка</AA_Feralisk.tools.0.label>
+  <AA_Feralisk.tools.1.label>лапка</AA_Feralisk.tools.1.label>
+  <AA_Feralisk.tools.3.label>голова</AA_Feralisk.tools.3.label>
+  <AA_FeraliskClutchMother.tools.0.label>лапка</AA_FeraliskClutchMother.tools.0.label>
+  <AA_FeraliskClutchMother.tools.1.label>лапка</AA_FeraliskClutchMother.tools.1.label>
+  <AA_FeraliskClutchMother.tools.3.label>голова</AA_FeraliskClutchMother.tools.3.label>
+  <AA_FireWasp.tools.1.label>когти</AA_FireWasp.tools.1.label>
+  <AA_FissionMouse.tools.0.label>левый коготь</AA_FissionMouse.tools.0.label>
+  <AA_FissionMouse.tools.1.label>правый коготь</AA_FissionMouse.tools.1.label>
+  <AA_FissionMouse.tools.3.label>голова</AA_FissionMouse.tools.3.label>
+  <AA_FissionMouseSecond.tools.0.label>левый коготь</AA_FissionMouseSecond.tools.0.label>
+  <AA_FissionMouseSecond.tools.1.label>правый коготь</AA_FissionMouseSecond.tools.1.label>
+  <AA_FissionMouseSecond.tools.3.label>голова</AA_FissionMouseSecond.tools.3.label>
+  <AA_FissionMouseThird.tools.0.label>левый коготь</AA_FissionMouseThird.tools.0.label>
+  <AA_FissionMouseThird.tools.1.label>правый коготь</AA_FissionMouseThird.tools.1.label>
+  <AA_FissionMouseThird.tools.3.label>голова</AA_FissionMouseThird.tools.3.label>
+  <AA_FlamingoPhoenix.tools.0.label>когти</AA_FlamingoPhoenix.tools.0.label>
+  <AA_FlamingoPhoenix.tools.1.label>клюв</AA_FlamingoPhoenix.tools.1.label>
+  <AA_FlamingoPhoenix.tools.2.label>голова</AA_FlamingoPhoenix.tools.2.label>
+  <AA_FrostAve.tools.0.label>когти</AA_FrostAve.tools.0.label>
+  <AA_FrostAve.tools.2.label>голова</AA_FrostAve.tools.2.label>
+  <AA_FrostLynx.tools.0.label>левый коготь</AA_FrostLynx.tools.0.label>
+  <AA_FrostLynx.tools.1.label>правый коготь</AA_FrostLynx.tools.1.label>
+  <AA_FrostLynx.tools.3.label>голова</AA_FrostLynx.tools.3.label>
+  <AA_FrostboundBehemoth.tools.0.label>тело</AA_FrostboundBehemoth.tools.0.label>
+  <AA_Frostling.tools.0.label>левый коготь</AA_Frostling.tools.0.label>
+  <AA_Frostling.tools.1.label>правый коготь</AA_Frostling.tools.1.label>
+  <AA_Frostling.tools.3.label>голова</AA_Frostling.tools.3.label>
+  <AA_Frostmite.tools.0.label>коготь</AA_Frostmite.tools.0.label>
+  <AA_Frostmite.tools.2.label>голова</AA_Frostmite.tools.2.label>
+  <AA_FungalHusk.tools.0.label>левый кулак</AA_FungalHusk.tools.0.label>
+  <AA_FungalHusk.tools.1.label>правый кулак</AA_FungalHusk.tools.1.label>
+  <AA_FungalHusk.tools.2.label>зубы</AA_FungalHusk.tools.2.label>
+  <AA_FungalHusk.tools.3.label>голова</AA_FungalHusk.tools.3.label>
+  <AA_Gallatross.tools.0.label>рог</AA_Gallatross.tools.0.label>
+  <AA_Gallatross.tools.1.label>рог</AA_Gallatross.tools.1.label>
+  <AA_Gallatross.tools.3.label>голова</AA_Gallatross.tools.3.label>
+  <AA_GallatrossHorn.tools.0.label>остриё</AA_GallatrossHorn.tools.0.label>
+  <AA_GallatrossHorn.tools.1.label>база</AA_GallatrossHorn.tools.1.label>
+  <AA_GallatrossMoribund.tools.0.label>рог</AA_GallatrossMoribund.tools.0.label>
+  <AA_GallatrossMoribund.tools.1.label>рог</AA_GallatrossMoribund.tools.1.label>
+  <AA_GallatrossMoribund.tools.3.label>голова</AA_GallatrossMoribund.tools.3.label>
+  <AA_Genix.tools.0.label>левый коготь</AA_Genix.tools.0.label>
+  <AA_Genix.tools.1.label>правый коготь</AA_Genix.tools.1.label>
+  <AA_Genix.tools.3.label>голова</AA_Genix.tools.3.label>
+  <AA_GiantCrownedSilkie.tools.0.label>когти</AA_GiantCrownedSilkie.tools.0.label>
+  <AA_GiantCrownedSilkie.tools.2.label>голова</AA_GiantCrownedSilkie.tools.2.label>
+  <AA_Gigantelope.tools.0.label>голова</AA_Gigantelope.tools.0.label>
+  <AA_Gigantelope.tools.1.label>левое копыто</AA_Gigantelope.tools.1.label>
+  <AA_Gigantelope.tools.2.label>правое копыто</AA_Gigantelope.tools.2.label>
+  <AA_GreatDevourer.tools.1.label>голова</AA_GreatDevourer.tools.1.label>
+  <AA_GreenGoo.tools.0.label>щупальца</AA_GreenGoo.tools.0.label>
+  <AA_GreyCoatedMouflon.tools.0.label>левое копыто</AA_GreyCoatedMouflon.tools.0.label>
+  <AA_GreyCoatedMouflon.tools.1.label>правое копыто</AA_GreyCoatedMouflon.tools.1.label>
+  <AA_GreyCoatedMouflon.tools.3.label>рога</AA_GreyCoatedMouflon.tools.3.label>
+  <AA_Groundrunner.tools.0.label>левый коготь</AA_Groundrunner.tools.0.label>
+  <AA_Groundrunner.tools.1.label>правый коготь</AA_Groundrunner.tools.1.label>
+  <AA_Groundrunner.tools.3.label>голова</AA_Groundrunner.tools.3.label>
+  <AA_Helixien.tools.0.label>тело</AA_Helixien.tools.0.label>
+  <AA_InfectedAerofleet.tools.1.label>щупальца</AA_InfectedAerofleet.tools.1.label>
+  <AA_IronhuskBeetle.tools.1.label>голова</AA_IronhuskBeetle.tools.1.label>
+  <AA_Junglelisk.tools.0.label>лапка</AA_Junglelisk.tools.0.label>
+  <AA_Junglelisk.tools.1.label>лапка</AA_Junglelisk.tools.1.label>
+  <AA_Junglelisk.tools.3.label>голова</AA_Junglelisk.tools.3.label>
+  <AA_LarvalAtispec.tools.0.label>голова</AA_LarvalAtispec.tools.0.label>
+  <AA_Lockjaw.tools.1.label>голова</AA_Lockjaw.tools.1.label>
+  <AA_Locusts.tools.0.label>жвалы</AA_Locusts.tools.0.label>
+  <AA_LuciferBug.tools.0.label>жвалы</AA_LuciferBug.tools.0.label>
+  <AA_LuciferBug.tools.1.label>голова</AA_LuciferBug.tools.1.label>
+  <AA_MammothWorm.tools.0.label>тело</AA_MammothWorm.tools.0.label>
+  <AA_MammothWorm.tools.1.label>бивни</AA_MammothWorm.tools.1.label>
+  <AA_MammothWorm_Temporary.tools.0.label>тело</AA_MammothWorm_Temporary.tools.0.label>
+  <AA_Mantrap.tools.0.label>острые шипы</AA_Mantrap.tools.0.label>
+  <AA_Mantrap.tools.2.label>голова</AA_Mantrap.tools.2.label>
+  <AA_MatureFleshbeast.tools.1.label>голова</AA_MatureFleshbeast.tools.1.label>
+  <AA_MeadowAve.tools.0.label>когти</AA_MeadowAve.tools.0.label>
+  <AA_MeadowAve.tools.2.label>голова</AA_MeadowAve.tools.2.label>
+  <AA_MegaLouse.tools.0.label>бивни</AA_MegaLouse.tools.0.label>
+  <AA_MegaLouse.tools.1.label>голова</AA_MegaLouse.tools.1.label>
+  <AA_Metallovore.tools.0.label>щупальце</AA_Metallovore.tools.0.label>
+  <AA_Metallovore.tools.1.label>тело</AA_Metallovore.tools.1.label>
+  <AA_Mime.tools.0.label>левый кулак</AA_Mime.tools.0.label>
+  <AA_Mime.tools.1.label>правый кулак</AA_Mime.tools.1.label>
+  <AA_Mime.tools.2.label>зубы</AA_Mime.tools.2.label>
+  <AA_Mime.tools.3.label>голова</AA_Mime.tools.3.label>
+  <AA_Murkling.tools.0.label>левый коготь</AA_Murkling.tools.0.label>
+  <AA_Murkling.tools.1.label>правый коготь</AA_Murkling.tools.1.label>
+  <AA_Murkling.tools.2.label>переносчик чумы</AA_Murkling.tools.2.label>
+  <AA_Murkling.tools.3.label>ядовитый укус</AA_Murkling.tools.3.label>
+  <AA_Murkling.tools.4.label>голова</AA_Murkling.tools.4.label>
+  <AA_MycoidColossus.tools.1.label>голова</AA_MycoidColossus.tools.1.label>
+  <AA_Needlepost.tools.0.label>жалит</AA_Needlepost.tools.0.label>
+  <AA_Needlepost.tools.2.label>голова</AA_Needlepost.tools.2.label>
+  <AA_Needleroll.tools.0.label>жалит</AA_Needleroll.tools.0.label>
+  <AA_Needleroll.tools.2.label>голова</AA_Needleroll.tools.2.label>
+  <AA_NightAve.tools.0.label>когти</AA_NightAve.tools.0.label>
+  <AA_NightAve.tools.2.label>голова</AA_NightAve.tools.2.label>
+  <AA_NightMule.tools.0.label>рога</AA_NightMule.tools.0.label>
+  <AA_NightMule.tools.1.label>голова</AA_NightMule.tools.1.label>
+  <AA_NightMule.tools.2.label>левое копыто</AA_NightMule.tools.2.label>
+  <AA_NightMule.tools.3.label>правое копыто</AA_NightMule.tools.3.label>
+  <AA_NightRam.tools.0.label>рог</AA_NightRam.tools.0.label>
+  <AA_NightRam.tools.1.label>левое копыто</AA_NightRam.tools.1.label>
+  <AA_NightRam.tools.2.label>правое копыто</AA_NightRam.tools.2.label>
+  <AA_NightRam.tools.4.label>голова</AA_NightRam.tools.4.label>
+  <AA_Nightling.tools.0.label>левый коготь</AA_Nightling.tools.0.label>
+  <AA_Nightling.tools.1.label>правый коготь</AA_Nightling.tools.1.label>
+  <AA_Nightling.tools.3.label>голова</AA_Nightling.tools.3.label>
+  <AA_OcularCactus.tools.0.label>жалит</AA_OcularCactus.tools.0.label>
+  <AA_OcularCactus.tools.2.label>голова</AA_OcularCactus.tools.2.label>
+  <AA_OcularJelly.tools.1.label>щупальца</AA_OcularJelly.tools.1.label>
+  <AA_OcularNightling.tools.0.label>левый коготь</AA_OcularNightling.tools.0.label>
+  <AA_OcularNightling.tools.1.label>правый коготь</AA_OcularNightling.tools.1.label>
+  <AA_OcularNightling.tools.3.label>голова</AA_OcularNightling.tools.3.label>
+  <AA_OcularOriginator.tools.0.label>щупальца</AA_OcularOriginator.tools.0.label>
+  <AA_OvergrownColossus.tools.1.label>голова</AA_OvergrownColossus.tools.1.label>
+  <AA_PebbleMit.tools.1.label>голова</AA_PebbleMit.tools.1.label>
+  <AA_PedigreedRaptor.tools.0.label>когти</AA_PedigreedRaptor.tools.0.label>
+  <AA_PedigreedRaptor.tools.2.label>голова</AA_PedigreedRaptor.tools.2.label>
+  <AA_PhoenixOwlcat.tools.0.label>левый коготь</AA_PhoenixOwlcat.tools.0.label>
+  <AA_PhoenixOwlcat.tools.1.label>правый коготь</AA_PhoenixOwlcat.tools.1.label>
+  <AA_PhoenixOwlcat.tools.3.label>голова</AA_PhoenixOwlcat.tools.3.label>
+  <AA_Plasmorph.tools.0.label>глазной стебелёк</AA_Plasmorph.tools.0.label>
+  <AA_Radyak.tools.0.label>голова</AA_Radyak.tools.0.label>
+  <AA_Radyak.tools.1.label>левое копыто</AA_Radyak.tools.1.label>
+  <AA_Radyak.tools.2.label>правое копыто</AA_Radyak.tools.2.label>
+  <AA_RaptorShrimp.tools.0.label>голова</AA_RaptorShrimp.tools.0.label>
+  <AA_RaptorShrimp.tools.2.label>левое лезвие</AA_RaptorShrimp.tools.2.label>
+  <AA_RaptorShrimp.tools.3.label>правое лезвие</AA_RaptorShrimp.tools.3.label>
+  <AA_Ravager.tools.0.label>тройная пасть</AA_Ravager.tools.0.label>
+  <AA_Ravager.tools.1.label>голова</AA_Ravager.tools.1.label>
+  <AA_RayHound.tools.0.label>левое щупальце</AA_RayHound.tools.0.label>
+  <AA_RayHound.tools.1.label>правое щупальце</AA_RayHound.tools.1.label>
+  <AA_RayHound.tools.3.label>голова</AA_RayHound.tools.3.label>
+  <AA_Razorjack.tools.0.label>левый коготь</AA_Razorjack.tools.0.label>
+  <AA_Razorjack.tools.1.label>правый коготь</AA_Razorjack.tools.1.label>
+  <AA_Razorjack.tools.2.label>бритвенные клыки</AA_Razorjack.tools.2.label>
+  <AA_Razorjack.tools.3.label>голова</AA_Razorjack.tools.3.label>
+  <AA_RedGoo.tools.0.label>щупальца</AA_RedGoo.tools.0.label>
+  <AA_RedSpore.tools.0.label>щупальца</AA_RedSpore.tools.0.label>
+  <AA_RipperHound.tools.0.label>левый коготь</AA_RipperHound.tools.0.label>
+  <AA_RipperHound.tools.1.label>правый коготь</AA_RipperHound.tools.1.label>
+  <AA_RipperHound.tools.3.label>голова</AA_RipperHound.tools.3.label>
+  <AA_RoughPlatedMonitor.tools.0.label>левый коготь</AA_RoughPlatedMonitor.tools.0.label>
+  <AA_RoughPlatedMonitor.tools.1.label>правый коготь</AA_RoughPlatedMonitor.tools.1.label>
+  <AA_RoughPlatedMonitor.tools.2.label>клыки</AA_RoughPlatedMonitor.tools.2.label>
+  <AA_RoughPlatedMonitor.tools.3.label>голова</AA_RoughPlatedMonitor.tools.3.label>
+  <AA_RoyalAve.tools.0.label>когти</AA_RoyalAve.tools.0.label>
+  <AA_RoyalAve.tools.2.label>голова</AA_RoyalAve.tools.2.label>
+  <AA_SandLion.tools.0.label>левый коготь</AA_SandLion.tools.0.label>
+  <AA_SandLion.tools.1.label>правый коготь</AA_SandLion.tools.1.label>
+  <AA_SandLion.tools.3.label>голова</AA_SandLion.tools.3.label>
+  <AA_SandProwler.tools.0.label>левый коготь</AA_SandProwler.tools.0.label>
+  <AA_SandProwler.tools.1.label>правый коготь</AA_SandProwler.tools.1.label>
+  <AA_SandProwler.tools.3.label>голова</AA_SandProwler.tools.3.label>
+  <AA_SandSquid.tools.1.label>щупальце</AA_SandSquid.tools.1.label>
+  <AA_ShadowCharger.tools.0.label>рог</AA_ShadowCharger.tools.0.label>
+  <AA_ShadowCharger.tools.1.label>левое копыто</AA_ShadowCharger.tools.1.label>
+  <AA_ShadowCharger.tools.2.label>правое копыто</AA_ShadowCharger.tools.2.label>
+  <AA_ShadowCharger.tools.4.label>голова</AA_ShadowCharger.tools.4.label>
+  <AA_ShockGoat.tools.0.label>левое копыто</AA_ShockGoat.tools.0.label>
+  <AA_ShockGoat.tools.1.label>правое копыто</AA_ShockGoat.tools.1.label>
+  <AA_ShockGoat.tools.3.label>рога</AA_ShockGoat.tools.3.label>
+  <AA_Skiphound.tools.0.label>левый коготь</AA_Skiphound.tools.0.label>
+  <AA_Skiphound.tools.1.label>правый коготь</AA_Skiphound.tools.1.label>
+  <AA_Skiphound.tools.3.label>голова</AA_Skiphound.tools.3.label>
+  <AA_Skyeel.tools.1.label>голова</AA_Skyeel.tools.1.label>
+  <AA_Slurrypede.tools.0.label>голова</AA_Slurrypede.tools.0.label>
+  <AA_SmallButterfly.tools.0.label>жвалы</AA_SmallButterfly.tools.0.label>
+  <AA_SpinedGow.tools.0.label>голова</AA_SpinedGow.tools.0.label>
+  <AA_SpinedGow.tools.1.label>левое копыто</AA_SpinedGow.tools.1.label>
+  <AA_SpinedGow.tools.2.label>правое копыто</AA_SpinedGow.tools.2.label>
+  <AA_SummitCrab.tools.1.label>голова</AA_SummitCrab.tools.1.label>
+  <AA_Summoned_Eyeling.tools.0.label>глаз</AA_Summoned_Eyeling.tools.0.label>
+  <AA_Swarmling.tools.0.label>левый коготь</AA_Swarmling.tools.0.label>
+  <AA_Swarmling.tools.1.label>правый коготь</AA_Swarmling.tools.1.label>
+  <AA_Swarmling.tools.3.label>голова</AA_Swarmling.tools.3.label>
+  <AA_TarGuzzler.tools.0.label>левый коготь</AA_TarGuzzler.tools.0.label>
+  <AA_TarGuzzler.tools.1.label>правый коготь</AA_TarGuzzler.tools.1.label>
+  <AA_TarGuzzler.tools.2.label>разинутая пасть</AA_TarGuzzler.tools.2.label>
+  <AA_TarGuzzler.tools.3.label>голова</AA_TarGuzzler.tools.3.label>
+  <AA_TeratogenicOriginator.tools.0.label>щупальца</AA_TeratogenicOriginator.tools.0.label>
+  <AA_Terramorph.tools.0.label>клыки</AA_Terramorph.tools.0.label>
+  <AA_Terramorph.tools.1.label>голова</AA_Terramorph.tools.1.label>
+  <AA_TetraSlug.tools.0.label>тело</AA_TetraSlug.tools.0.label>
+  <AA_Thermadon.tools.0.label>коготь</AA_Thermadon.tools.0.label>
+  <AA_Thermadon.tools.1.label>голова</AA_Thermadon.tools.1.label>
+  <AA_Thunderbeast.tools.0.label>рог</AA_Thunderbeast.tools.0.label>
+  <AA_Thunderbeast.tools.2.label>голова</AA_Thunderbeast.tools.2.label>
+  <AA_Thunderox.tools.0.label>боевой таран</AA_Thunderox.tools.0.label>
+  <AA_Thunderox.tools.1.label>рог</AA_Thunderox.tools.1.label>
+  <AA_Thunderox.tools.2.label>левое копыто</AA_Thunderox.tools.2.label>
+  <AA_Thunderox.tools.3.label>правое копыто</AA_Thunderox.tools.3.label>
+  <AA_Wildpawn.tools.0.label>левая лапа</AA_Wildpawn.tools.0.label>
+  <AA_Wildpawn.tools.1.label>правая лапа</AA_Wildpawn.tools.1.label>
+  <AA_Wildpawn.tools.3.label>голова</AA_Wildpawn.tools.3.label>
+  <AA_Wildpod.tools.0.label>левая лапа</AA_Wildpod.tools.0.label>
+  <AA_Wildpod.tools.1.label>правая лапа</AA_Wildpod.tools.1.label>
+  <AA_Wildpod.tools.3.label>голова</AA_Wildpod.tools.3.label>
+  <AA_WindBeast.tools.0.label>рог</AA_WindBeast.tools.0.label>
+  <AA_WindBeast.tools.2.label>голова</AA_WindBeast.tools.2.label>
+  <GU_RedWood.tools.0.label>бревно красного дерева</GU_RedWood.tools.0.label>
+  <VFEI2_BlackEmpress.tools.0.label>коготь</VFEI2_BlackEmpress.tools.0.label>
+  <VFEI2_BlackEmpress.tools.1.label>коготь</VFEI2_BlackEmpress.tools.1.label>
+  <VFEI2_BlackEmpress.tools.2.label>голова</VFEI2_BlackEmpress.tools.2.label>
+  <VFEI2_BlackQueen.tools.0.label>коготь</VFEI2_BlackQueen.tools.0.label>
+  <VFEI2_BlackQueen.tools.1.label>голова</VFEI2_BlackQueen.tools.1.label>
+  <VFEI2_BlackSwarmling.tools.0.label>пасть</VFEI2_BlackSwarmling.tools.0.label>
+</LanguageData>

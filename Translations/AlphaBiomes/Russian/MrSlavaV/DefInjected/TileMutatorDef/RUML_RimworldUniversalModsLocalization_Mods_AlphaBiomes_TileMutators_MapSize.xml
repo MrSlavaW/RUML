@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<AB_WideRegion.label>широкий регион</AB_WideRegion.label>
+<AB_WideRegion.description>Границы этого региона делают его форму нестандартной. Размер карты будет установлен на 400x100 клеток.</AB_WideRegion.description>
+
+<AB_NarrowRegion.label>узкий регион</AB_NarrowRegion.label>
+<AB_NarrowRegion.description>Границы этого региона делают его форму нестандартной. Размер карты будет установлен на 100x400 клеток.</AB_NarrowRegion.description>
+
+<AB_DiminutiveRegion.label>миниатюрный регион</AB_DiminutiveRegion.label>
+<AB_DiminutiveRegion.description>Границы этого региона крайне ограничены. Размер карты будет установлен на 100x100 клеток.</AB_DiminutiveRegion.description>
+
+</LanguageData>
+
+
+
+
+

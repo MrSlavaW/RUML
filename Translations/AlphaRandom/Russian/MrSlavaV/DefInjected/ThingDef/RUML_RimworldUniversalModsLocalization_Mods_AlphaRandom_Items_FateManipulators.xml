@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ARandom_FateManipulator.label>инертный архотек-манипулятор судьбы</ARandom_FateManipulator.label>
+	<ARandom_FateManipulator.description>Спящая реликвия архотеков, вибрирующая скрытым потенциалом. Пролежав в покое от 1 до 10 дней, устройство самопроизвольно перестраивается в один из трех манипуляторов судьбы, словно самостоятельно избирая свой путь.</ARandom_FateManipulator.description>
+	<ARandom_FateManipulator_Benign.label>благотворный архотек-манипулятор судьбы</ARandom_FateManipulator_Benign.label>
+	<ARandom_FateManipulator_Benign.description>Устройство архотеков, настроенное на созидание. При активации тонко искривляет вероятности в пользу колонии: вызывает вдохновения, ценные дары и удачные стечения обстоятельств (хотя малая доля риска всегда сохраняется).</ARandom_FateManipulator_Benign.description>
+	<ARandom_FateManipulator_Dark.label>темный архотек-манипулятор судьбы</ARandom_FateManipulator_Dark.label>
+	<ARandom_FateManipulator_Dark.description>Зловещий конструкт, притягивающий несчастья. Активация гарантированно влечет угрозы, аварии и дурные предзнаменования.\n\n&lt;color=#E5E54C&gt;Эффект:&lt;/color&gt; Зачем его использовать? С шансом 15% вместо беды устройство дарует уникальное благословение архотеков, которое невозможно получить иным путем.</ARandom_FateManipulator_Dark.description>
+	<ARandom_FateManipulator_Chaotic.label>хаотический архотек-манипулятор судьбы</ARandom_FateManipulator_Chaotic.label>
+	<ARandom_FateManipulator_Chaotic.description>Нестабильная аномалия с пульсирующими узорами. При активации обрушивает на колонию три совершенно случайных события подряд — хороших, катастрофических или абсурдных.</ARandom_FateManipulator_Chaotic.description>
+</LanguageData>

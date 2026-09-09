@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Dryads.xml -->
+	<!--                  EN: enhanced -->
+	<AM_Dryads_Enhanced.label>усилены</AM_Dryads_Enhanced.label>
+	<!--                        EN: Dryads are sacred creatures, and they can help us defend the colony and protect ourselves from those who try to do us harm.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All dryads in the colony will get a huge boost, making them extremely useful in combat. -->
+	<AM_Dryads_Enhanced.description>Дриады — священные существа, и они могут помочь нам защитить поселение и защитить себя от тех, кто пытается причинить нам вред.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n — Все дриады в поселении получат огромный бонус, что сделает их чрезвычайно полезными в бою.</AM_Dryads_Enhanced.description>
+</LanguageData>

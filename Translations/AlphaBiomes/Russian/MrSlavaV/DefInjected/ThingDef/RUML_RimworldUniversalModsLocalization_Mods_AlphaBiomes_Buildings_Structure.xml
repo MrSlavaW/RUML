@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+<AB_ExoticDoor.label>экзотическая дверь</AB_ExoticDoor.label>
+<AB_ExoticDoor.description>Разделяет комнаты. Простая дверь, которую нужно открывать и закрывать вручную. Время открывания и закрывания зависит от материала изготовления. Эта дверь сделана из экзотических материалов.</AB_ExoticDoor.description>
+<AB_ExoticAutoDoor.label>экзотическая автодверь</AB_ExoticAutoDoor.label>
+<AB_ExoticAutoDoor.description>Разделяет комнаты. Автоматическая дверь позволяет входить и выходить без задержки. Эта дверь сделана из экзотических материалов.</AB_ExoticAutoDoor.description>
+<AB_ExoticWall.label>экзотическая стена</AB_ExoticWall.label>
+<AB_ExoticWall.description>Непроходимая стена. Достаточно крепка, чтобы поддерживать крышу. Эта стена сделана из экзотических материалов.</AB_ExoticWall.description>
+<AB_ExoticColumn.label>экзотическая колонна</AB_ExoticColumn.label>
+<AB_ExoticColumn.description>Колонна, способная поддерживать крышу. Не мешает обзору и движению, и выглядит довольно красиво. Эта колонна сделана из экзотических материалов.</AB_ExoticColumn.description>
+<AB_BoneWall.label>гигантские кости</AB_BoneWall.label>
+<AB_BoneWall.description>Непроходимый блок из окаменевшей, затвердевшей кости. Существо, которому она принадлежала, давно исчезло.</AB_BoneWall.description>
+
+<AB_RustedWall.label>ржавая стена</AB_RustedWall.label>
+<AB_RustedWall.description>Непроходимая стена. Достаточно крепка, чтобы поддерживать крышу.</AB_RustedWall.description>
+
+</LanguageData>
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Mood.xml -->
+	
+	<!--                EN: volatile -->
+	<AM_Mood_Volatile.label>изменчиво</AM_Mood_Volatile.label>
+	<!--                      EN: We won't let our fragile egos dictate our lives. We refuse to be shackled by the thin veil of reality. We will peer beyond.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonist mood will fluctuate every day at random between -15 and +15. -->
+	<AM_Mood_Volatile.description>Мы не позволим нашему хрупкому эго управлять нашей жизнью. Мы отказываемся быть скованными тонкой завесой реальности. Мы заглянем дальше.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Настроение поселенцев будет колебаться каждый день случайным образом между -15 и +15.</AM_Mood_Volatile.description>
+	<!--                                             EN: Spiders in my face -->
+	<AM_Mood_Volatile.comps.0.thoughtStageDescriptions.0>Пауки на моем лице</AM_Mood_Volatile.comps.0.thoughtStageDescriptions.0>
+	<!--                                             EN: Clown in the sky looking at me -->
+	<AM_Mood_Volatile.comps.0.thoughtStageDescriptions.1>Клоун в небе смотрит на меня</AM_Mood_Volatile.comps.0.thoughtStageDescriptions.1>
+	<!--                                             EN: Liquorice tastes like betrayal -->
+	<AM_Mood_Volatile.comps.0.thoughtStageDescriptions.2>Лакрица на вкус как предательство</AM_Mood_Volatile.comps.0.thoughtStageDescriptions.2>
+	<!--                                             EN: The voices won't stop -->
+	<AM_Mood_Volatile.comps.0.thoughtStageDescriptions.3>Голоса не остановятся</AM_Mood_Volatile.comps.0.thoughtStageDescriptions.3>
+	<!--                                             EN: I feel like turpentine -->
+	<AM_Mood_Volatile.comps.0.thoughtStageDescriptions.4>Я чувствую себя скипидаром</AM_Mood_Volatile.comps.0.thoughtStageDescriptions.4>
+	<!--                                             EN: All cheese is obnoxious -->
+	<AM_Mood_Volatile.comps.0.thoughtStageDescriptions.5>Весь сыр противный</AM_Mood_Volatile.comps.0.thoughtStageDescriptions.5>
+	<!--                                             EN: Have you ever seen tomorrow? -->
+	<AM_Mood_Volatile.comps.0.thoughtStageDescriptions.6>Вы когда-нибудь видели завтра?</AM_Mood_Volatile.comps.0.thoughtStageDescriptions.6>
+	<!--                                             EN: I can feel the inside of my skin -->
+	<AM_Mood_Volatile.comps.0.thoughtStageDescriptions.7>Я чувствую внутреннюю часть своей кожи</AM_Mood_Volatile.comps.0.thoughtStageDescriptions.7>
+	<!--                                             EN: My flesh vessel is itchy -->
+	<AM_Mood_Volatile.comps.0.thoughtStageDescriptions.8>Мой сосуд плоти зудит</AM_Mood_Volatile.comps.0.thoughtStageDescriptions.8>
+</LanguageData>

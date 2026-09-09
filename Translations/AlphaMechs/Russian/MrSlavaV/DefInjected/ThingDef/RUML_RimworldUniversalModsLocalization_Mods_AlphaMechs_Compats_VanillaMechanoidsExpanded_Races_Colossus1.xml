@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_Colossus.xml -->
+	<!--                         EN: colossus -->
+	<VFE_Mech_Advanced_Goliath.label>колосс</VFE_Mech_Advanced_Goliath.label>
+	<!--                               EN: The Colossus is an advanced version of the Goliath, a heavy combat mechanoid with a humanoid body plan. They are faster than centipedes, and are usually armed with heavy mechanoid weapons or needle guns. Unlike their more ancient and less advanced relatives this particular unit is much more intelligent and will seek cover and prove to be a much more challenging opponent in melee combat.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; If toggled to not spawn via mod options, they will get replaced by an Advanced Centipede. -->
+	<VFE_Mech_Advanced_Goliath.description>Колосс — усовершенствованная версия Голиафа, тяжелого боевого механоида с гуманоидным телом. Они быстрее многоножек и обычно вооружены тяжелым механоидным оружием или игольчатыми пистолетами. В отличие от своих более древних и менее продвинутых родственников, этот конкретный отряд гораздо умнее, будет искать укрытие и окажется гораздо более сильным противником в рукопашном бою.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Если с помощью опций мода отключить их появление, они будут заменены продвинутой многоножкой.</VFE_Mech_Advanced_Goliath.description>
+	<!--                                 EN: голова -->
+	<VFE_Mech_Advanced_Goliath.tools.0.label>голова</VFE_Mech_Advanced_Goliath.tools.0.label>
+</LanguageData>

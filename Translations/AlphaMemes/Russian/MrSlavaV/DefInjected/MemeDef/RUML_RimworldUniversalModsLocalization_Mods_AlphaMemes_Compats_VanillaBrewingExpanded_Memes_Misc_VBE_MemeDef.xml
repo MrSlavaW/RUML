@@ -1,0 +1,268 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\MemeDefs\Memes_Misc_VBE.xml -->
+	<!--             EN: tea primacy -->
+	<AM_TeaPrimacy.label>первенство чая</AM_TeaPrimacy.label>
+	<!--                   EN: Tea is everything to us—comfort, culture, and ritual. We start our day with it, solve problems over it, and celebrate through it. Those who don’t drink tea just don’t understand what they’re missing. -->
+	<AM_TeaPrimacy.description>Чай для нас — это всё: уют, культура и ритуал. Мы начинаем с него свой день, решаем проблемы за чашкой чая и празднуем с ним. Те, кто не пьет чай, просто не понимают, что они упускают.</AM_TeaPrimacy.description>
+	<!-- EN: 
+		<li>memeCreed->brew</li>
+		<li>memeCreed->steep</li>
+		<li>memeCreed->sip</li>
+		<li>memeCreed->infuse</li>
+		<li>memeCreed->ceremony</li>
+		<li>memeConcept->tranquility</li>
+		<li>memeConcept->aroma</li>
+		<li>memeAdjective->soothing</li>
+		<li>memeAdjective->refined</li>
+		<li>memeAdjective->calming</li>
+		<li>memeHyphenPrefix->tea</li>
+		<li>memeHyphenPrefix->brew</li>
+		<li>memeHyphenPrefix->leaf</li>
+		<li>memeLeaderNoun->tea-master</li>
+		<li>memeLeaderNoun->brewmaster</li>
+		<li>memeLeaderNoun->infuser</li>
+		<li>memeLeaderAdjective->serene</li>
+		<li>memeLeaderAdjective->aromatic</li>
+		<li>memeLeaderAdjective->mindful</li>
+		<li>memeMoralist->tea-sage</li>
+	 -->
+	<AM_TeaPrimacy.generalRules.rulesStrings>
+	<li>memeCreed-&gt;заваривать</li>
+	<li>memeCreed-&gt;насыщать</li>
+	<li>memeCreed-&gt;пригубить</li>
+	<li>memeCreed-&gt;настаивать</li>
+	<li>memeCreed-&gt;церемония</li>
+	<li>memeConcept-&gt;спокойствие</li>
+	<li>memeConcept-&gt;аромат</li>
+	<li>memeAdjective-&gt;успокаивающий</li>
+	<li>memeAdjective-&gt;утонченный</li>
+	<li>memeAdjective-&gt;умиротворяющий</li>
+	<li>memeHyphenPrefix-&gt;чай</li>
+	<li>memeHyphenPrefix-&gt;заваривать</li>
+	<li>memeHyphenPrefix-&gt;лист</li>
+	<li>memeLeaderNoun-&gt;мастер чая</li>
+	<li>memeLeaderNoun-&gt;мастер заваривания</li>
+	<li>memeLeaderNoun-&gt;настойщик</li>
+	<li>memeLeaderAdjective-&gt;безмятежный</li>
+	<li>memeLeaderAdjective-&gt;ароматный</li>
+	<li>memeLeaderAdjective-&gt;осознанный</li>
+	<li>memeMoralist-&gt;мудрец чая</li>
+</AM_TeaPrimacy.generalRules.rulesStrings>
+
+	<!-- EN: 
+		<li>creation(tag=meme_TeaPrimacy)        ->[deity0_name] gifted humanity the first tea leaves, teaching us that tranquility and focus are the true paths to enlightenment. This is [deity0_name]'s gift to the tea-drinkers.</li>
+		<li>episode(uses=1,tag=meme_TeaPrimacy)  ->[deity0_name] brewed the first sacred pot, sharing its warmth and wisdom with [deity0_possessive] people, and thus began the tradition of tea.</li>
+		<li>intro(tag=meme_TeaPrimacy)           ->When the first tea-drinkers gathered in the [place_summary] [place_name], they shared a pot of freshly brewed tea, offering thanks to the [deity0_type] [deity0_name] for its calming embrace.</li>
+		<li>conflict(tag=meme_TeaPrimacy)        ->A rival [foeLeader] tried to outlaw tea, but the [memberNamePlural] resisted with peaceful gatherings, converting their oppressors through the power of a perfect brew.</li>
+		<li>founderJoin(tag=meme_TeaPrimacy)     ->The wise [founderName] brewed the first ceremonial tea in [place_name], inspiring a movement rooted in serenity and mindfulness.</li>
+		<li>victory(tag=meme_TeaPrimacy)         ->[founderName] outmaneuvered [foeLeader] at the [place_powerCenter], offering a cup of tea so soothing that it ended all hostilities.</li>
+		<li>setup(tag=meme_TeaPrimacy)           ->In a world of chaos, [founderName] envisioned a society grounded in the calming ritual of tea.</li>
+		<li>story(uses=1,tag=meme_TeaPrimacy)    ->[founderName] gathered the weary and the restless, showing them the path to peace through the shared ritual of brewing and drinking tea.</li>
+		<li>lessonIntro(tag=meme_TeaPrimacy)         ->You might not realize this, but as I took a sip of tea, I understood this truth: through every cup,</li>
+		<li>lesson(tag=meme_TeaPrimacy)              ->we find peace in simplicity and strength in mindfulness</li>
+		<li>lessonReinforcement(tag=meme_TeaPrimacy) ->Never forget this truth, for each cup of tea is a moment of clarity in an otherwise chaotic world.</li>
+		<li>archistBasis(tag=meme_TeaPrimacy)    ->The archotechs value focus and precision, and nothing clears the mind like a perfectly brewed cup of tea.</li>
+		<li>archistFact(tag=meme_TeaPrimacy)     ->The archotechs engineered the finest tea plants, ensuring humanity could always find serenity in the leaf.</li>
+		<li>archistFact(tag=meme_TeaPrimacy)     ->To the archotechs, tea rituals are a vital component of human harmony and efficiency.</li>
+		<li>archistProphecy(tag=meme_TeaPrimacy) ->[inTheEnd], the archotechs will brew a tea so perfect that it unites all minds in a single moment of enlightenment.</li>
+		<li>animistFact(tag=meme_TeaPrimacy)     ->Every tea leaf holds a spirit of its own, and each brew honors the essence of the earth.</li>
+		<li>animistFact(tag=meme_TeaPrimacy)     ->The spirits of water and leaf dance together in harmony, creating a brew that soothes the soul.</li>
+		<li>animistFact(tag=meme_TeaPrimacy)     ->Tea is a gift from the spirits, teaching us patience, tranquility, and gratitude with every cup.</li>
+		<li>serketistProphecy(tag=meme_TeaPrimacy)->[itIsSaid] that sacred insects pollinate the finest tea plants, their labor infusing the leaves with unparalleled wisdom.</li>
+		<li>chthonianProphecy(tag=meme_TeaPrimacy)->The ancient gods of the earth delight in the ritual of tea, their whispers carried in the steam of every brew.</li>
+		<li>esotericismProphecy(tag=meme_TeaPrimacy)->The secrets of the universe lie in the swirling patterns of tea leaves, where every brew reveals a hidden truth.</li>
+		<li>eschatologismFact(tag=meme_TeaPrimacy)->At the end of days, kettles will boil endlessly, and all will drink together in an eternal state of calm.</li>
+		<li>introMemo(tag=meme_TeaPrimacy)->To: All Employees. Subject: Tea Time Culture at Work. It has come to our attention that productivity is being significantly impacted by excessive tea breaks. While we understand the importance of mindfulness, please remember that the quarterly budget cannot be steeped like a fine oolong. Consider this your invitation to a balanced tea culture—savor, but also work.</li>
+		<li>alienistProphecy(tag=meme_TeaPrimacy)->The harmony of the galaxy begins with a shared pot of tea, bridging the gaps between species with its soothing warmth.</li>
+	 -->
+	<AM_TeaPrimacy.descriptionMaker.rules.rulesStrings>
+	<li>creation(tag=meme_TeaPrimacy)        -&gt;[deity0_name] подарил человечеству первые чайные листья, научив нас, что спокойствие и сосредоточенность — это истинные пути к просветлению. Это дар [deity0_name] любителям чая.</li>
+	<li>episode(uses=1,tag=meme_TeaPrimacy)  -&gt;[deity0_name] заварил первый священный чайник, делясь его теплом и мудростью с [deity0_possessive] людьми, и так началась традиция чая.</li>
+	<li>intro(tag=meme_TeaPrimacy)           -&gt;Когда первые любители чая собрались в [place_summary] [place_name], они разделили чашку свежезаваренного чая, выражая благодарность [deity0_type] [deity0_name] за его умиротворяющее тепло.</li>
+	<li>conflict(tag=meme_TeaPrimacy)        -&gt;Соперник [foeLeader] пытался запретить чай, но [memberNamePlural] сопротивлялись мирными собраниями, обращая своих угнетателей силой идеального чая.</li>
+	<li>founderJoin(tag=meme_TeaPrimacy)     -&gt;Мудрый [founderName] заварил первый церемониальный чай в [place_name], вдохновив движение, основанное на спокойствии и осознанности.</li>
+	<li>victory(tag=meme_TeaPrimacy)         -&gt;[founderName] переиграл [foeLeader] в [place_powerCenter], предложив чашку чая, настолько умиротворяющую, что она положила конец всем враждебностям.</li>
+	<li>setup(tag=meme_TeaPrimacy)           -&gt;В мире хаоса [founderName] представил общество, основанное на умиротворяющем ритуале чая.</li>
+	<li>story(uses=1,tag=meme_TeaPrimacy)    -&gt;[founderName] собрал уставших и беспокойных, показав им путь к миру через общий ритуал заваривания и питья чая.</li>
+	<li>lessonIntro(tag=meme_TeaPrimacy)         -&gt;Вы, возможно, не осознаете этого, но когда я сделал глоток чая, я понял эту истину: через каждую чашку,</li>
+	<li>lesson(tag=meme_TeaPrimacy)              -&gt;мы находим покой в простоте и силу в осознанности.</li>
+	<li>lessonReinforcement(tag=meme_TeaPrimacy) -&gt;Никогда не забывайте эту истину, ведь каждая чашка чая — это момент ясности в иначе хаотичном мире.</li>
+	<li>archistBasis(tag=meme_TeaPrimacy)    -&gt;Архотехи ценят сосредоточенность и точность, и ничто так не проясняет ум, как идеально заваренная чашка чая.</li>
+	<li>archistFact(tag=meme_TeaPrimacy)     -&gt;Архотехи вырастили лучшие чайные растения, обеспечив человечеству возможность всегда находить спокойствие в чайном листе.</li>
+	<li>archistFact(tag=meme_TeaPrimacy)     -&gt;Для архотехов чайные ритуалы — это важная составляющая человеческой гармонии и эффективности.</li>
+	<li>archistProphecy(tag=meme_TeaPrimacy) -&gt;[inTheEnd], архотехи заварят чай настолько совершенный, что он объединит все умы в единый момент просветления.</li>
+	<li>animistFact(tag=meme_TeaPrimacy)     -&gt;Каждый чайный лист хранит свой дух, и каждый настой чтит сущность земли.</li>
+	<li>animistFact(tag=meme_TeaPrimacy)     -&gt;Духи воды и листьев танцуют вместе в гармонии, создавая настой, успокаивающий душу.</li>
+	<li>animistFact(tag=meme_TeaPrimacy)     -&gt;Чай — это дар духов, учащий нас терпению, спокойствию и благодарности с каждой чашкой.</li>
+	<li>serketistProphecy(tag=meme_TeaPrimacy)-&gt;[itIsSaid], что священные насекомые опыляют лучшие чайные растения, их труд наполняет листья непревзойденной мудростью.</li>
+	<li>chthonianProphecy(tag=meme_TeaPrimacy)-&gt;Древние боги земли наслаждаются ритуалом чая, их шепот несется в пару каждого настоя.</li>
+	<li>esotericismProphecy(tag=meme_TeaPrimacy)-&gt;Секреты вселенной скрыты в кружении чайных листьев, где каждый настой раскрывает скрытую истину.</li>
+	<li>eschatologismFact(tag=meme_TeaPrimacy)-&gt;В конце дней чайники будут кипеть бесконечно, и все будут пить вместе в вечном состоянии спокойствия.</li>
+	<li>introMemo(tag=meme_TeaPrimacy)-&gt;Кому: Всем сотрудникам. Тема: Культура чаепития на работе. Обратите внимание, что продуктивность значительно снижается из-за чрезмерных перерывов на чай. Хотя мы понимаем важность осознанности, пожалуйста, помните, что квартальный бюджет нельзя настаивать как хороший улун. Это ваше приглашение к сбалансированной культуре чая — наслаждайтесь, но и работайте.</li>
+	<li>alienistProphecy(tag=meme_TeaPrimacy)-&gt;Гармония галактики начинается с общего чайника, объединяющего разные виды своим успокаивающим теплом.</li>
+</AM_TeaPrimacy.descriptionMaker.rules.rulesStrings>
+<!--                              EN: Steepkeepers -->
+	<AM_TeaPrimacy.symbolPacks.0.ideoName>Хранители настоя</AM_TeaPrimacy.symbolPacks.0.ideoName>
+	<!--                           EN: tea -->
+	<AM_TeaPrimacy.symbolPacks.0.theme>чай</AM_TeaPrimacy.symbolPacks.0.theme>
+	<!--                               EN: steeped -->
+	<AM_TeaPrimacy.symbolPacks.0.adjective>насыщенный</AM_TeaPrimacy.symbolPacks.0.adjective>
+	<!--                            EN: tea taster -->
+	<AM_TeaPrimacy.symbolPacks.0.member>дегустатор чая</AM_TeaPrimacy.symbolPacks.0.member>
+	<!--                              EN: Brewguardians -->
+	<AM_TeaPrimacy.symbolPacks.1.ideoName>Хранители заваривания</AM_TeaPrimacy.symbolPacks.1.ideoName>
+	<!--                           EN: brew -->
+	<AM_TeaPrimacy.symbolPacks.1.theme>заваривание</AM_TeaPrimacy.symbolPacks.1.theme>
+	<!--                               EN: brewed -->
+	<AM_TeaPrimacy.symbolPacks.1.adjective>заваренный</AM_TeaPrimacy.symbolPacks.1.adjective>
+	<!--                            EN: tea brewer -->
+	<AM_TeaPrimacy.symbolPacks.1.member>завариватель чая</AM_TeaPrimacy.symbolPacks.1.member>
+	<!--                              EN: Leafbinders -->
+	<AM_TeaPrimacy.symbolPacks.2.ideoName>Связующие листья</AM_TeaPrimacy.symbolPacks.2.ideoName>
+	<!--                           EN: leaf -->
+	<AM_TeaPrimacy.symbolPacks.2.theme>лист</AM_TeaPrimacy.symbolPacks.2.theme>
+	<!--                               EN: leaf-bound -->
+	<AM_TeaPrimacy.symbolPacks.2.adjective>связанный листьями</AM_TeaPrimacy.symbolPacks.2.adjective>
+	<!--                            EN: infuser -->
+	<AM_TeaPrimacy.symbolPacks.2.member>настойщик</AM_TeaPrimacy.symbolPacks.2.member>
+	<!--                              EN: Infusivists -->
+	<AM_TeaPrimacy.symbolPacks.3.ideoName>настойщики</AM_TeaPrimacy.symbolPacks.3.ideoName>
+	<!--                           EN: infusion -->
+	<AM_TeaPrimacy.symbolPacks.3.theme>настой</AM_TeaPrimacy.symbolPacks.3.theme>
+	<!--                               EN: infused -->
+	<AM_TeaPrimacy.symbolPacks.3.adjective>настоянный</AM_TeaPrimacy.symbolPacks.3.adjective>
+	<!--                            EN: tea drinker -->
+	<AM_TeaPrimacy.symbolPacks.3.member>любитель чая</AM_TeaPrimacy.symbolPacks.3.member>
+	<!--                EN: coffee primacy -->
+    <AM_CoffeePrimacy.label>превосходство кофе</AM_CoffeePrimacy.label>
+    <!--                      EN: Coffee is the fuel that drives our lives. Its rich aroma awakens the body, its bitter taste sharpens the mind, and its daily rituals bring us together. A life without coffee is a life lived without purpose. -->
+    <AM_CoffeePrimacy.description>Кофе — это топливо, которое движет нашу жизнь. Его богатый аромат пробуждает тело, горький вкус обостряет ум, а ежедневные ритуалы объединяют нас. Жизнь без кофе — это жизнь без цели.</AM_CoffeePrimacy.description>
+    <!-- EN: 
+        <li>memeCreed->brew</li>
+        <li>memeCreed->roast</li>
+        <li>memeCreed->grind</li>
+        <li>memeCreed->sip</li>
+        <li>memeCreed->pour</li>
+        <li>memeConcept->energy</li>
+        <li>memeConcept->aroma</li>
+        <li>memeAdjective->energizing</li>
+        <li>memeAdjective->bold</li>
+        <li>memeAdjective->invigorating</li>
+        <li>memeHyphenPrefix->coffee</li>
+        <li>memeHyphenPrefix->brew</li>
+        <li>memeHyphenPrefix->bean</li>
+        <li>memeLeaderNoun->coffee-master</li>
+        <li>memeLeaderNoun->barista</li>
+        <li>memeLeaderNoun->brewmaster</li>
+        <li>memeLeaderAdjective->energetic</li>
+        <li>memeLeaderAdjective->alert</li>
+        <li>memeLeaderAdjective->vigorous</li>
+        <li>memeMoralist->coffee-sage</li>
+     -->
+    <AM_CoffeePrimacy.generalRules.rulesStrings>
+        <li>memeCreed-&gt;варка</li>
+        <li>memeCreed-&gt;обжарка</li>
+        <li>memeCreed-&gt;помол</li>
+        <li>memeCreed-&gt;глоток</li>
+        <li>memeCreed-&gt;разлив</li>
+        <li>memeConcept-&gt;энергия</li>
+        <li>memeConcept-&gt;аромат</li>
+        <li>memeAdjective-&gt;бодрящий</li>
+        <li>memeAdjective-&gt;насыщенный</li>
+        <li>memeAdjective-&gt;тонизирующий</li>
+        <li>memeHyphenPrefix-&gt;кофе</li>
+        <li>memeHyphenPrefix-&gt;вар</li>
+        <li>memeHyphenPrefix-&gt;боб</li>
+        <li>memeLeaderNoun-&gt;кофейный мастер</li>
+        <li>memeLeaderNoun-&gt;бариста</li>
+        <li>memeLeaderNoun-&gt;мастер варки</li>
+        <li>memeLeaderAdjective-&gt;энергичный</li>
+        <li>memeLeaderAdjective-&gt;бдительный</li>
+        <li>memeLeaderAdjective-&gt;бодрый</li>
+        <li>memeMoralist-&gt;кофейный мудрец</li>
+    </AM_CoffeePrimacy.generalRules.rulesStrings>
+    <!-- EN: 
+        <li>creation(tag=meme_CoffeePrimacy)        ->[deity0_name] gifted humanity the first coffee beans, teaching us that alertness and determination are the true paths to enlightenment. This is [deity0_name]'s gift to the coffee-drinkers.</li>
+        <li>episode(uses=1,tag=meme_CoffeePrimacy)  ->[deity0_name] roasted the first sacred beans, sharing their warmth and vigor with [deity0_possessive] people, and thus began the tradition of coffee.</li>
+        <li>intro(tag=meme_CoffeePrimacy)           ->When the first coffee-drinkers gathered in the [place_summary] [place_name], they shared a pot of freshly brewed coffee, offering thanks to the [deity0_type] [deity0_name] for its invigorating embrace.</li>
+        <li>conflict(tag=meme_CoffeePrimacy)        ->A rival [foeLeader] tried to outlaw coffee, but the [memberNamePlural] resisted with determined gatherings, converting their oppressors through the power of a perfect brew.</li>
+        <li>founderJoin(tag=meme_CoffeePrimacy)     ->The wise [founderName] brewed the first ceremonial coffee in [place_name], inspiring a movement rooted in energy and determination.</li>
+        <li>victory(tag=meme_CoffeePrimacy)         ->[founderName] outmaneuvered [foeLeader] at the [place_powerCenter], offering a cup of coffee so invigorating that it ended all hostilities.</li>
+        <li>setup(tag=meme_CoffeePrimacy)           ->In a world of exhaustion, [founderName] envisioned a society grounded in the energizing ritual of coffee.</li>
+        <li>story(uses=1,tag=meme_CoffeePrimacy)    ->[founderName] gathered the weary and the sluggish, showing them the path to purpose through the shared ritual of roasting, brewing, and drinking coffee.</li>
+        <li>lessonIntro(tag=meme_CoffeePrimacy)         ->You might not realize this, but as I took a sip of coffee, I understood this truth: through every cup,</li>
+        <li>lesson(tag=meme_CoffeePrimacy)              ->we find strength in energy and clarity in the boldness of coffee</li>
+        <li>lessonReinforcement(tag=meme_CoffeePrimacy) ->Never forget this truth, for each cup of coffee is a spark of clarity in an otherwise sluggish world.</li>
+        <li>archistBasis(tag=meme_CoffeePrimacy)    ->The archotechs value focus and precision, and nothing sharpens the mind like a perfectly brewed cup of coffee.</li>
+        <li>archistFact(tag=meme_CoffeePrimacy)     ->The archotechs engineered the finest coffee plants, ensuring humanity could always find vigor in the bean.</li>
+        <li>archistFact(tag=meme_CoffeePrimacy)     ->To the archotechs, coffee rituals are a vital component of human productivity and efficiency.</li>
+        <li>archistProphecy(tag=meme_CoffeePrimacy) ->[inTheEnd], the archotechs will brew a coffee so potent that it unites all minds in a single moment of perfect clarity.</li>
+        <li>animistFact(tag=meme_CoffeePrimacy)     ->Every coffee bean holds a spirit of its own, and each brew honors the essence of the earth.</li>
+        <li>animistFact(tag=meme_CoffeePrimacy)     ->The spirits of soil, rain, and bean dance together in harmony, creating a brew that awakens the soul.</li>
+        <li>animistFact(tag=meme_CoffeePrimacy)     ->Coffee is a gift from the spirits, teaching us resilience, vigor, and gratitude with every cup.</li>
+        <li>serketistProphecy(tag=meme_CoffeePrimacy)->[itIsSaid] that sacred insects pollinate the finest coffee plants, their labor infusing the beans with unparalleled vitality.</li>
+        <li>chthonianProphecy(tag=meme_CoffeePrimacy)->The ancient gods of the yawning abyss delight in the ritual of coffee, their whispers carried in the steam of every brew.</li>
+        <li>esotericismProphecy(tag=meme_CoffeePrimacy)->The secrets of the universe lie in the swirling patterns of coffee, where every brew reveals a hidden truth to those alert enough to perceive it.</li>
+        <li>eschatologismFact(tag=meme_CoffeePrimacy)->At the end of days, roasters will burn endlessly, and all will drink together in an eternal state of wakefulness.</li>
+        <li>introMemo(tag=meme_CoffeePrimacy)->To: All Employees. Subject: Coffee Culture at Work. It has come to our attention that productivity is being significantly impacted by excessive coffee breaks. While we understand the importance of staying alert, please remember that the quarterly budget cannot be brewed like a fine espresso. Consider this your invitation to a balanced coffee culture—savor, but also work.</li>
+        <li>alienistProphecy(tag=meme_CoffeePrimacy)->The harmony of the galaxy begins with a shared pot of coffee, bridging the gaps between species with its invigorating warmth.</li>
+     -->
+    <AM_CoffeePrimacy.descriptionMaker.rules.rulesStrings>
+        <li>creation(tag=meme_CoffeePrimacy)        -&gt;[deity0_name] подарил человечеству первые кофейные бобы, научив нас тому, что бдительность и решительность — истинные пути к просветлению. Это дар [deity0_name] для тех, кто пьёт кофе.</li>
+        <li>episode(uses=1,tag=meme_CoffeePrimacy)  -&gt;[deity0_name] обжарил первые священные бобы, разделив их тепло и бодрость со [deity0_possessive] народом, и так началась традиция кофе.</li>
+        <li>intro(tag=meme_CoffeePrimacy)           -&gt;Когда первые любители кофе собрались в [place_summary] [place_name], они разделили между собой кувшин свежесваренного кофе, вознося благодарность [deity0_type] [deity0_name] за его бодрящие объятия.</li>
+        <li>conflict(tag=meme_CoffeePrimacy)        -&gt;Соперничающий [foeLeader] попытался запретить кофе, но [memberNamePlural] сопротивлялись решительными собраниями, обращая своих угнетателей силой идеального напитка.</li>
+        <li>founderJoin(tag=meme_CoffeePrimacy)     -&gt;Мудрый [founderName] сварил первый церемониальный кофе в [place_name], вдохновив движение, укоренённое в энергии и решимости.</li>
+        <li>victory(tag=meme_CoffeePrimacy)         -&gt;[founderName] перехитрил [foeLeader] в [place_powerCenter], предложив чашку настолько бодрящего кофе, что это положило конец всем враждебным действиям.</li>
+        <li>setup(tag=meme_CoffeePrimacy)           -&gt;В мире истощения [founderName] представлял общество, основанное на бодрящем ритуале кофе.</li>
+        <li>story(uses=1,tag=meme_CoffeePrimacy)    -&gt;[founderName] собрал уставших и вялых, показав им путь к цели через совместный ритуал обжарки, варки и распития кофе.</li>
+        <li>lessonIntro(tag=meme_CoffeePrimacy)         -&gt;Вы могли этого не осознавать, но сделав глоток кофе, я понял эту истину: с каждой чашкой,</li>
+        <li>lesson(tag=meme_CoffeePrimacy)              -&gt;мы обретаем силу в энергии и ясность в насыщенности кофе</li>
+        <li>lessonReinforcement(tag=meme_CoffeePrimacy) -&gt;Никогда не забывай эту истину, ведь каждая чашка кофе — это искра ясности в ином вялом мире.</li>
+        <li>archistBasis(tag=meme_CoffeePrimacy)    -&gt;Архотеки ценят концентрацию и точность, и ничто не обостряет разум так, как идеально сваренная чашка кофе.</li>
+        <li>archistFact(tag=meme_CoffeePrimacy)     -&gt;Архотеки вывели лучшие кофейные растения, гарантируя, что человечество всегда сможет найти бодрость в бобах.</li>
+        <li>archistFact(tag=meme_CoffeePrimacy)     -&gt;Для архотеков кофейные ритуалы — жизненно важный компонент человеческой продуктивности и эффективности.</li>
+        <li>archistProphecy(tag=meme_CoffeePrimacy) -&gt;[inTheEnd] архотеки сварят такой крепкий кофе, что он объединит все умы в единый миг абсолютной ясности.</li>
+        <li>animistFact(tag=meme_CoffeePrimacy)     -&gt;В каждом кофейном бобе обитает свой дух, и каждая сваренная чашка чтит сущность земли.</li>
+        <li>animistFact(tag=meme_CoffeePrimacy)     -&gt;Духи почвы, дождя и боба танцуют в гармонии, создавая напиток, пробуждающий душу.</li>
+        <li>animistFact(tag=meme_CoffeePrimacy)     -&gt;Кофе — это дар от духов, обучающий нас стойкости, бодрости и благодарности с каждой чашкой.</li>
+        <li>serketistProphecy(tag=meme_CoffeePrimacy)-&gt;[itIsSaid], что священные насекомые опыляют лучшие кофейные растения, и их труд наполняет бобы несравненной жизненной силой.</li>
+        <li>chthonianProphecy(tag=meme_CoffeePrimacy)-&gt;Древние боги зияющей бездны наслаждаются ритуалом кофе, и их шёпот разносится в пару каждого напитка.</li>
+        <li>esotericismProphecy(tag=meme_CoffeePrimacy)-&gt;Тайны вселенной кроются в кружащихся узорах кофе, где каждый сваренный напиток раскрывает скрытую истину тем, кто достаточно бдителен, чтобы её осознать.</li>
+        <li>eschatologismFact(tag=meme_CoffeePrimacy)-&gt;На исходе дней жаровни будут гореть бесконечно, и все будут пить вместе, пребывая в вечном состоянии бодрствования.</li>
+        <li>introMemo(tag=meme_CoffeePrimacy)-&gt;Кому: Всем сотрудникам. Тема: Кофейная культура на рабочем месте. Нам стало известно, что продуктивность значительно страдает из-за чрезмерных перерывов на кофе. Хотя мы понимаем важность бодрствования, пожалуйста, помните, что квартальный бюджет нельзя сварить как хороший эспрессо. Считайте это приглашением к сбалансированной кофейной культуре — наслаждайтесь, но и работайте.</li>
+        <li>alienistProphecy(tag=meme_CoffeePrimacy)-&gt;Гармония галактики начинается с общего кофейника, перекрывающего разрыв между видами своим бодрящим теплом.</li>
+    </AM_CoffeePrimacy.descriptionMaker.rules.rulesStrings>
+    <!--                                 EN: Roastkeepers -->
+    <AM_CoffeePrimacy.symbolPacks.0.ideoName>Хранители обжарки</AM_CoffeePrimacy.symbolPacks.0.ideoName>
+    <!--                              EN: roast -->
+    <AM_CoffeePrimacy.symbolPacks.0.theme>обжарка</AM_CoffeePrimacy.symbolPacks.0.theme>
+    <!--                                  EN: roasted -->
+    <AM_CoffeePrimacy.symbolPacks.0.adjective>обжаренный</AM_CoffeePrimacy.symbolPacks.0.adjective>
+    <!--                               EN: coffee taster -->
+    <AM_CoffeePrimacy.symbolPacks.0.member>дегустатор кофе</AM_CoffeePrimacy.symbolPacks.0.member>
+    <!--                                 EN: Brewguardians -->
+    <AM_CoffeePrimacy.symbolPacks.1.ideoName>Стражи варки</AM_CoffeePrimacy.symbolPacks.1.ideoName>
+    <!--                              EN: brew -->
+    <AM_CoffeePrimacy.symbolPacks.1.theme>варка</AM_CoffeePrimacy.symbolPacks.1.theme>
+    <!--                                  EN: brewed -->
+    <AM_CoffeePrimacy.symbolPacks.1.adjective>сваренный</AM_CoffeePrimacy.symbolPacks.1.adjective>
+    <!--                               EN: coffee brewer -->
+    <AM_CoffeePrimacy.symbolPacks.1.member>кофевар</AM_CoffeePrimacy.symbolPacks.1.member>
+    <!--                                 EN: Beanbinders -->
+    <AM_CoffeePrimacy.symbolPacks.2.ideoName>Бобосвязыватели</AM_CoffeePrimacy.symbolPacks.2.ideoName>
+    <!--                              EN: bean -->
+    <AM_CoffeePrimacy.symbolPacks.2.theme>боб</AM_CoffeePrimacy.symbolPacks.2.theme>
+    <!--                                  EN: bean-bound -->
+    <AM_CoffeePrimacy.symbolPacks.2.adjective>связанный с бобом</AM_CoffeePrimacy.symbolPacks.2.adjective>
+    <!--                               EN: coffee grinder -->
+    <AM_CoffeePrimacy.symbolPacks.2.member>кофемол</AM_CoffeePrimacy.symbolPacks.2.member>
+    <!--                                 EN: Roastivists -->
+    <AM_CoffeePrimacy.symbolPacks.3.ideoName>Жарактивисты</AM_CoffeePrimacy.symbolPacks.3.ideoName>
+    <!--                              EN: roasting -->
+    <AM_CoffeePrimacy.symbolPacks.3.theme>обжаривание</AM_CoffeePrimacy.symbolPacks.3.theme>
+    <!--                                  EN: roasted -->
+    <AM_CoffeePrimacy.symbolPacks.3.adjective>обжаренный</AM_CoffeePrimacy.symbolPacks.3.adjective>
+    <!--                               EN: coffee drinker -->
+    <AM_CoffeePrimacy.symbolPacks.3.member>кофепийца</AM_CoffeePrimacy.symbolPacks.3.member>
+</LanguageData>

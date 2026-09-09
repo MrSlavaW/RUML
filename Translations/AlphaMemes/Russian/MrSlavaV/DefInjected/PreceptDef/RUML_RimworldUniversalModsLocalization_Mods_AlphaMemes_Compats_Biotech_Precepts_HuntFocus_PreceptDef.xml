@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\PreceptDefs\Precepts_HuntFocus.xml -->
+	<!--                        EN: sanguophage -->
+	<AM_HuntFocus_Sanguophage.label>гемофаги</AM_HuntFocus_Sanguophage.label>
+	<!--                              EN: Our purpose is clear: to seek out the cursed sanguophages wherever they may hide.\n\nNormal Sanguophages will be the focus of this precept.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All attacks against a Sanguophage will cause extra 10 burn damage.\n - You'll get extra hunt focus precepts with VE Races - Sanguophage and Alpha Genes. -->
+	<AM_HuntFocus_Sanguophage.description>Наша цель ясна: найти проклятых гемофагов, где бы они ни прятались.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Все атаки против гемофагов наносят дополнительные 10 единиц урона от ожогов.\n - Вы получите дополнительные навыки сосредоточения на охоте с VE Races - Sanguophage and Alpha Genes.</AM_HuntFocus_Sanguophage.description>
+</LanguageData>

@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\TraitDefs\Traits_Spectrum.xml -->
+	<!--                       EN: angelic beauty -->
+	<AG_Beauty.degreeDatas.0.label>Ангельская красота</AG_Beauty.degreeDatas.0.label>
+	<!--                             EN: [PAWN_nameDef] possesses an unnatural, almost pristine beauty that makes [PAWN_objective] stand out among others of [PAWN_possessive] kind. -->
+	<AG_Beauty.degreeDatas.0.description>[PAWN_nameDef] обладает неестественной, почти первозданной красотой, которая выделяет [PAWN_objective] среди других существ типа [PAWN_possessive].</AG_Beauty.degreeDatas.0.description>
+	<!--                             EN: angelic beauty -->
+	<AG_Beauty.degreeDatas.0.labelFemale>ангельская красота</AG_Beauty.degreeDatas.0.labelFemale>
+	<!--                       EN: repulsive -->
+	<AG_Beauty.degreeDatas.1.label>Омерзительный</AG_Beauty.degreeDatas.1.label>
+	<!--                             EN: [PAWN_nameDef] is so unfathomably ugly and grotesque that merely looking at [PAWN_objective] is enough to make other people nauseous. -->
+	<AG_Beauty.degreeDatas.1.description>[PAWN_nameDef] настолько непостижимо уродлив и гротескен, что простого взгляда на [PAWN_objective] достаточно, чтобы других людей стошнило.</AG_Beauty.degreeDatas.1.description>
+	<!--                             EN: repulsive -->
+	<AG_Beauty.degreeDatas.1.labelFemale>отталкивающая</AG_Beauty.degreeDatas.1.labelFemale>
+</LanguageData>

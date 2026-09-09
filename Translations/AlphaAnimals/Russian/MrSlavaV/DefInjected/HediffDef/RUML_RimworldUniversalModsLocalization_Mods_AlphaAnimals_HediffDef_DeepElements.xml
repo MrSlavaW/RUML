@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AA_AcidBuildup_AgainstMechs.stages.0.label>слабое, получает ожоги</AA_AcidBuildup_AgainstMechs.stages.0.label>
+  <AA_AcidBuildup_AgainstMechs.stages.1.label>умеренное, получает ожоги</AA_AcidBuildup_AgainstMechs.stages.1.label>
+  <AA_AcidBuildup_AgainstMechs.stages.2.label>серьезное, получает ожоги</AA_AcidBuildup_AgainstMechs.stages.2.label>
+  <AA_Electric.stages.0.label>начальное</AA_Electric.stages.0.label>
+  <AA_Electric.stages.1.label>шокирован</AA_Electric.stages.1.label>
+  <AA_Electric.stages.2.label>сильное поражение током</AA_Electric.stages.2.label>
+  <AA_Electric.stages.3.label>парализован</AA_Electric.stages.3.label>
+  <AA_Kamikaze.stages.0.label>скрытая</AA_Kamikaze.stages.0.label>
+  <AA_Kamikaze.stages.1.label>критическое</AA_Kamikaze.stages.1.label>
+  <AA_MalevolentEye.stages.0.label>лёгкое</AA_MalevolentEye.stages.0.label>
+  <AA_MalevolentEye.stages.1.label>сильное</AA_MalevolentEye.stages.1.label>
+  <AA_MalevolentEye.stages.2.label>критическое</AA_MalevolentEye.stages.2.label>
+  <AA_MalevolentEye.stages.3.label>критическое</AA_MalevolentEye.stages.3.label>
+  <AA_Paralysis.stages.0.label>начальное</AA_Paralysis.stages.0.label>
+  <AA_Paralysis.stages.1.label>оглушён</AA_Paralysis.stages.1.label>
+  <AA_Paralysis.stages.2.label>сильно оглушён</AA_Paralysis.stages.2.label>
+  <AA_Paralysis.stages.3.label>парализован</AA_Paralysis.stages.3.label>
+  <AA_SwarmlingImplantation.stages.0.label>лёгкое</AA_SwarmlingImplantation.stages.0.label>
+  <AA_SwarmlingImplantation.stages.1.label>сильное</AA_SwarmlingImplantation.stages.1.label>
+  <AA_SwarmlingImplantation.stages.2.label>критическое</AA_SwarmlingImplantation.stages.2.label>
+  <AA_SwarmlingImplantation.stages.3.label>критическое</AA_SwarmlingImplantation.stages.3.label>
+  <AA_ToxicBuildup.stages.0.label>начальное</AA_ToxicBuildup.stages.0.label>
+  <AA_ToxicBuildup.stages.1.label>начальное</AA_ToxicBuildup.stages.1.label>
+  <AA_ToxicBuildup.stages.2.label>лёгкое</AA_ToxicBuildup.stages.2.label>
+  <AA_ToxicBuildup.stages.3.label>умеренно</AA_ToxicBuildup.stages.3.label>
+  <AA_ToxicBuildup.stages.4.label>серьезно</AA_ToxicBuildup.stages.4.label>
+  <AA_ToxicBuildup.stages.5.label>критическое</AA_ToxicBuildup.stages.5.label>
+  <AA_VirulentFungalInfection.stages.0.label>лёгкое</AA_VirulentFungalInfection.stages.0.label>
+  <AA_VirulentFungalInfection.stages.1.label>сильное</AA_VirulentFungalInfection.stages.1.label>
+  <AA_VirulentFungalInfection.stages.2.label>критическое</AA_VirulentFungalInfection.stages.2.label>
+  <AA_VirulentFungalInfection.stages.3.label>критическое</AA_VirulentFungalInfection.stages.3.label>
+  <VFEI2_BlackEmpressSpawn.stages.0.label>яйцо</VFEI2_BlackEmpressSpawn.stages.0.label>
+  <VFEI2_BlackEmpressSpawn.stages.1.label>личинка</VFEI2_BlackEmpressSpawn.stages.1.label>
+  <VFEI2_BlackEmpressSpawn.stages.2.label>куколка</VFEI2_BlackEmpressSpawn.stages.2.label>
+  <VFEI2_BlackEmpressSpawn.stages.3.label>молодая особь</VFEI2_BlackEmpressSpawn.stages.3.label>
+</LanguageData>

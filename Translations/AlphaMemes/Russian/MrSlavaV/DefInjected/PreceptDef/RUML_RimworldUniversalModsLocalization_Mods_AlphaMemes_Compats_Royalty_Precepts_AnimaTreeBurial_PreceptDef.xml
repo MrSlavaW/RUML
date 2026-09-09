@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\Royalty\Defs\PreceptDefs\Precepts_AnimaTreeBurial.xml -->
+	<!--              EN: anima tree burial -->
+	<AM_AnimaBurial.label>захоронение дерева анимы</AM_AnimaBurial.label>
+	<!--                    EN: A gathering to witness our friend's spirit be returned to nature -->
+	<AM_AnimaBurial.description>Собрание, чтобы засвидетельствовать возвращение духа нашего друга к природе</AM_AnimaBurial.description>
+	<!--                                 EN: {PAWN_nameDef} should be returned to nature. So {PAWN_possessive} friends and family can be confident their spirit can be put to rest. -->
+	<AM_AnimaBurial.extraTextPawnDeathLetter>{PAWN_nameDef} следует вернуть природе. Так друзья и семья {PAWN_possessive} могут быть уверены, что их дух может быть упокоен.</AM_AnimaBurial.extraTextPawnDeathLetter>
+</LanguageData>

@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_InsectMeat.xml -->
+<!--                            EN: required -->
+    <AM_InsectMeatEating_Required.label>обязательно</AM_InsectMeatEating_Required.label>
+    <!--                                  EN: Insect flesh is sacred sustenance. We must never turn our backs on the bounty of the creatures that dwell beneath the earth.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Eating anything different than insect meat (or fungus) will make the colonist vomit immediately. -->
+    <AM_InsectMeatEating_Required.description>Плоть насекомых — это священная пища. Мы никогда не должны отворачиваться от даров существ, обитающих под землёй.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Поедание чего-либо, кроме мяса насекомых (или грибов), вызовет у поселенца немедленную рвоту.</AM_InsectMeatEating_Required.description>
+</LanguageData>

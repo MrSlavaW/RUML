@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<PS_Spec_kindling>Затравка</PS_Spec_kindling>
+	<PS_SpecDesc_kindling>Открывает путь. +3% к основной характеристике каждой пси-способности.</PS_SpecDesc_kindling>
+	<PS_Spec_surge>Всплеск</PS_Spec_surge>
+	<PS_SpecDesc_surge>+15% ко всему урону и силе масштабирования способностей.</PS_SpecDesc_surge>
+	<PS_Spec_resonance>Резонанс</PS_Spec_resonance>
+	<PS_SpecDesc_resonance>+15% к радиусу действия всех пси-способностей.</PS_SpecDesc_resonance>
+	<PS_Spec_lingering>Затяжной эффект</PS_Spec_lingering>
+	<PS_SpecDesc_lingering>+15% к длительности всех временных эффектов.</PS_SpecDesc_lingering>
+	<PS_Spec_potency>Мощь</PS_Spec_potency>
+	<PS_SpecDesc_potency>+15% к силе баффов и благословений.</PS_SpecDesc_potency>
+	<PS_Spec_onslaught>Натиск</PS_Spec_onslaught>
+	<PS_SpecDesc_onslaught>Атакующие способности получают +20% к силе; синергии от атакующих способностей удваиваются.</PS_SpecDesc_onslaught>
+	<PS_Spec_dominion>Владычество</PS_Spec_dominion>
+	<PS_SpecDesc_dominion>Способности контроля получают +20% к радиусу и длительности.</PS_SpecDesc_dominion>
+	<PS_Spec_bulwark>Оплот</PS_Spec_bulwark>
+	<PS_SpecDesc_bulwark>Благословения и щиты получают +20% к силе и длительности.</PS_SpecDesc_bulwark>
+	<PS_Spec_flow>Поток</PS_Spec_flow>
+	<PS_SpecDesc_flow>Вдвое снижает штраф к затратам перегрева и пси-фокуса за уровень навыка.</PS_SpecDesc_flow>
+	<PS_Spec_fervor>Рвение</PS_Spec_fervor>
+	<PS_SpecDesc_fervor>Сила атакующих способностей растет вместе с текущим нейроперегревом (до +25% на максимуме).</PS_SpecDesc_fervor>
+	<PS_Spec_abandon>Неистовство</PS_Spec_abandon>
+	<PS_SpecDesc_abandon>Безрассудство: +40% к силе атаки, но +40% к затратам пси-фокуса и перегрева.</PS_SpecDesc_abandon>
+	<PS_Spec_echo>Эхо</PS_Spec_echo>
+	<PS_SpecDesc_echo>20% шанс, что способность мгновенно сбросит свое время перезарядки.</PS_SpecDesc_echo>
+	<PS_Spec_wellspring>Родник</PS_Spec_wellspring>
+	<PS_SpecDesc_wellspring>Медленная пассивная регенерация пси-фокуса со временем.</PS_SpecDesc_wellspring>
+	<PS_Spec_confluence>Слияние</PS_Spec_confluence>
+	<PS_SpecDesc_confluence>Все получаемые бонусы синергии удваиваются.</PS_SpecDesc_confluence>
+	<PS_Spec_tempest>Буря</PS_Spec_tempest>
+	<PS_SpecDesc_tempest>При убийстве пси-способностью возвращает половину затраченного перегрева и пси-фокуса.</PS_SpecDesc_tempest>
+	<PS_Spec_maelstrom>Водоворот</PS_Spec_maelstrom>
+	<PS_SpecDesc_maelstrom>Площадные заклинания вырываются наружу: +50% к радиусу и +25% к длительности.</PS_SpecDesc_maelstrom>
+	<PS_Spec_sanctuary>Святилище</PS_Spec_sanctuary>
+	<PS_SpecDesc_sanctuary>Бастион воли: благословения получают +50% к силе и длительности.</PS_SpecDesc_sanctuary>
+	<PS_Spec_conduit>Проводник</PS_Spec_conduit>
+	<PS_SpecDesc_conduit>Получаемые бонусы синергии увеличиваются на 50%.</PS_SpecDesc_conduit>
+	<PS_Spec_convergence>Конвергенция</PS_Spec_convergence>
+	<PS_SpecDesc_convergence>Полное единение. +15% ко ВСЕМ характеристикам и синергиям, и +5 к лимиту уровней способностей. Открывает семь парящих созвездий Апофеоза.</PS_SpecDesc_convergence>
+	<PS_Spec_mastery>Мастерство</PS_Spec_mastery>
+	<PS_SpecDesc_mastery>Выберите одну изученную способность — она получает +100% к основной характеристике и игнорирует масштабирование стоимости.
+
+Взаимоисключение: можно выбрать только одно из (Переполнение / Мастерство / Дисциплина / Настройка).</PS_SpecDesc_mastery>
+	<PS_Spec_discipline>Дисциплина</PS_Spec_discipline>
+	<PS_SpecDesc_discipline>Выберите путь — его навыки получают +50% к масштабированию за уровень и стартуют сразу со 2-го эффективного уровня.
+
+Взаимоисключение: можно выбрать только одно из (Переполнение / Мастерство / Дисциплина / Настройка).</PS_SpecDesc_discipline>
+	<PS_Spec_attunement>Настройка</PS_Spec_attunement>
+	<PS_SpecDesc_attunement>Выберите стихию — способности этого типа урона получают +25% к силе и радиусу.
+
+Взаимоисключение: можно выбрать только одно из (Переполнение / Мастерство / Дисциплина / Настройка).</PS_SpecDesc_attunement>
+	<PS_Spec_overflow>Переполнение</PS_Spec_overflow>
+	<PS_SpecDesc_overflow>+8% ко ВСЕМ характеристикам навыка (не только к основной).
+
+Взаимоисключение: можно выбрать только одно из (Переполнение / Мастерство / Дисциплина / Настройка).</PS_SpecDesc_overflow>
+	<PS_Spec_catalyst>Катализатор</PS_Spec_catalyst>
+	<PS_SpecDesc_catalyst>Способности применяются на 25% быстрее.</PS_SpecDesc_catalyst>
+	<PS_Spec_siphon>Откачка</PS_Spec_siphon>
+	<PS_SpecDesc_siphon>Убийства пси-способностями восстанавливают 25% от затрат пси-фокуса этого применения.</PS_SpecDesc_siphon>
+	<PS_Spec_tm_gate>Покой</PS_Spec_tm_gate>
+	<PS_SpecDesc_tm_gate>Начало пути Безмятежности.
+
+Нейроперегрев накапливается на 20% медленнее и рассеивается на 25% быстрее.</PS_SpecDesc_tm_gate>
+	<PS_Spec_tm_mid>Умиротворение</PS_Spec_tm_mid>
+	<PS_SpecDesc_tm_mid>Нейроперегрев накапливается на 35% медленнее и рассеивается на 50% быстрее.</PS_SpecDesc_tm_mid>
+	<PS_Spec_tm_cap>Безмятежность</PS_Spec_tm_cap>
+	<PS_SpecDesc_tm_cap>Абсолютное спокойствие.
+
+• Нейроперегрев накапливается на 55% медленнее, рассеивается на 90% быстрее.
+• Иммунитет ко ВСЕМ нервным срывам.</PS_SpecDesc_tm_cap>
+	<PS_Spec_ar_gate>Горизонт событий</PS_Spec_ar_gate>
+	<PS_SpecDesc_ar_gate>Начало пути Сингулярности.
+
+−5% к затратам пси-фокуса, +10% к психической чувствительности.</PS_SpecDesc_ar_gate>
+	<PS_Spec_ar_l>Движитель логики</PS_Spec_ar_l>
+	<PS_SpecDesc_ar_l>−10% к затратам пси-фокуса, +18% к психической чувствительности.</PS_SpecDesc_ar_l>
+	<PS_Spec_ar_r>Данные</PS_Spec_ar_r>
+	<PS_SpecDesc_ar_r>−15% к затратам пси-фокуса, +25% к психической чувствительности, медленная пассивная регенерация пси-фокуса.</PS_SpecDesc_ar_r>
+	<PS_Spec_ar_cap>Сингулярность</PS_Spec_ar_cap>
+	<PS_SpecDesc_ar_cap>На грани архотека.
+
+• −20% к затратам пси-фокуса.
+• +35% к психической чувствительности.
+• Стабильная пассивная регенерация пси-фокуса.</PS_SpecDesc_ar_cap>
+	<PS_Spec_um_gate>Теневая вуаль</PS_Spec_um_gate>
+	<PS_SpecDesc_um_gate>Начало пути Полутени.
+
+Психическая тень закаляет разум. +8% к психической чувствительности.</PS_SpecDesc_um_gate>
+	<PS_Spec_um_a>Тень</PS_Spec_um_a>
+	<PS_SpecDesc_um_a>Тень сгущается. +14% к психической чувствительности.</PS_SpecDesc_um_a>
+	<PS_Spec_um_b>Сумрак</PS_Spec_um_b>
+	<PS_SpecDesc_um_b>Тень расползается. +20% к психической чувствительности.</PS_SpecDesc_um_b>
+	<PS_Spec_um_c>Затмение</PS_Spec_um_c>
+	<PS_SpecDesc_um_c>Тень поглощает. +27% к психической чувствительности.</PS_SpecDesc_um_c>
+	<PS_Spec_um_cap>Полутень</PS_Spec_um_cap>
+	<PS_SpecDesc_um_cap>Владыка теней.
+
+• +34% к психической чувствительности.
+• Иммунитет к нервным срывам, берсерку и контролю разума.
+• Аура: враждебные псионики в радиусе 9 клеток теряют 50% психической чувствительности.</PS_SpecDesc_um_cap>
+	<PS_Spec_em_gate>Звездочет</PS_Spec_em_gate>
+	<PS_SpecDesc_em_gate>Начало пути Эмпирея.
+
+Разум устремляется в пустоту между звездами. +10% к психической чувствительности; невосприимчивость к пси-гулу.</PS_SpecDesc_em_gate>
+	<PS_Spec_em_a>Дальновидение</PS_Spec_em_a>
+	<PS_SpecDesc_em_a>Око разума открывается к далеким горизонтам. +18% к психической чувствительности.</PS_SpecDesc_em_a>
+	<PS_Spec_em_b>Созвездие</PS_Spec_em_b>
+	<PS_SpecDesc_em_b>Мысли выстраиваются подобно далеким звездам. +24% к психической чувствительности.</PS_SpecDesc_em_b>
+	<PS_Spec_em_c>Звездный свет</PS_Spec_em_c>
+	<PS_SpecDesc_em_c>Озарен изнутри светом далеких солнц. +30% к психической чувствительности.</PS_SpecDesc_em_c>
+	<PS_Spec_em_cap>Эмпирей</PS_Spec_em_cap>
+	<PS_SpecDesc_em_cap>Разум соединяется со звездами.
+
+• +30% к психической чувствительности.
+• Аура звездного света: каждый союзник поблизости купается в звездном свете, обостряя свое психическое восприятие.</PS_SpecDesc_em_cap>
+	<PS_Spec_cr_gate>Песочные часы</PS_Spec_cr_gate>
+	<PS_SpecDesc_cr_gate>Начало пути Хроноса.
+
++10% к силе фокуса медитации; медленная пассивная регенерация пси-фокуса.</PS_SpecDesc_cr_gate>
+	<PS_Spec_cr_waist>Растяжение</PS_Spec_cr_waist>
+	<PS_SpecDesc_cr_waist>+20% к силе фокуса медитации; усиленная регенерация пси-фокуса.</PS_SpecDesc_cr_waist>
+	<PS_Spec_cr_a>Водоворот времени</PS_Spec_cr_a>
+	<PS_SpecDesc_cr_a>+8% к психической чувствительности.</PS_SpecDesc_cr_a>
+	<PS_Spec_cr_b>Перемотка</PS_Spec_cr_b>
+	<PS_SpecDesc_cr_b>+14% к психической чувствительности.</PS_SpecDesc_cr_b>
+	<PS_Spec_cr_cap>Хронос</PS_Spec_cr_cap>
+	<PS_SpecDesc_cr_cap>Повелитель мгновений.
+
+• +30% к силе фокуса медитации.
+• Мощная постоянная пассивная регенерация пси-фокуса.</PS_SpecDesc_cr_cap>
+	<PS_Spec_pn_gate>Искра</PS_Spec_pn_gate>
+	<PS_SpecDesc_pn_gate>Начало пути Пандемониума.
+
+Разум погружается в неистовство. +8% к психической чувствительности.</PS_SpecDesc_pn_gate>
+	<PS_Spec_pn_a>Разлом</PS_Spec_pn_a>
+	<PS_SpecDesc_pn_a>+15% к психической чувствительности.</PS_SpecDesc_pn_a>
+	<PS_Spec_pn_b>Безумие</PS_Spec_pn_b>
+	<PS_SpecDesc_pn_b>+15% к психической чувствительности.</PS_SpecDesc_pn_b>
+	<PS_Spec_pn_c>Бунт</PS_Spec_pn_c>
+	<PS_SpecDesc_pn_c>+21% к психической чувствительности.</PS_SpecDesc_pn_c>
+	<PS_Spec_pn_cap>Пандемониум</PS_Spec_pn_cap>
+	<PS_SpecDesc_pn_cap>Необузданный хаос.
+
+• +26% к психической чувствительности.
+• Иммунитет к контролю разума — штормом невозможно повелевать.</PS_SpecDesc_pn_cap>
+	<PS_Spec_cn_gate>Резонирование</PS_Spec_cn_gate>
+	<PS_SpecDesc_cn_gate>Начало пути Созвучия.
+
+Ваш разум входит в резонанс со всеми окружающими пси-полями. +8% к психической чувствительности.</PS_SpecDesc_cn_gate>
+	<PS_Spec_cn_a>Согласование</PS_Spec_cn_a>
+	<PS_SpecDesc_cn_a>Разум настраивается на союзников поблизости. +14% к психической чувствительности.</PS_SpecDesc_cn_a>
+	<PS_Spec_cn_b>Аккорд</PS_Spec_cn_b>
+	<PS_SpecDesc_cn_b>Множество разумов звучат в унисон. +20% к психической чувствительности.</PS_SpecDesc_cn_b>
+	<PS_Spec_cn_d>Согласие</PS_Spec_cn_d>
+	<PS_SpecDesc_cn_d>Воли сливаются воедино. +14% к психической чувствительности.</PS_SpecDesc_cn_d>
+	<PS_Spec_cn_c>Гармония</PS_Spec_cn_c>
+	<PS_SpecDesc_cn_c>Хор крепнет. +20% к психической чувствительности.</PS_SpecDesc_cn_c>
+	<PS_Spec_cn_cap>Созвучие</PS_Spec_cn_cap>
+	<PS_SpecDesc_cn_cap>Один голос во множестве.
+
+• +24% к психической чувствительности.
+• Резонансный аккорд: союзные псионики поблизости гармонизируют с вами, усиливая свою психическую чувствительность.</PS_SpecDesc_cn_cap>
+</LanguageData>

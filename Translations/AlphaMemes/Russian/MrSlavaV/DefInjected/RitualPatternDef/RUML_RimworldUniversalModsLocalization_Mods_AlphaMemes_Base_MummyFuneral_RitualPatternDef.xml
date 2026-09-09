@@ -1,0 +1,5 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\MummyFuneral.xml -->
+	<!--                                    EN: Once a {IDEO} member dies, other {MEMBERS} witness {RITUAL_labelDef} return to dust. -->
+	<AM_MummificationPattern.ritualExpectedDesc>Как только член {IDEO} умирает, другие {MEMBERS} свидетели {RITUAL_labelDef} возвращения в прах.</AM_MummificationPattern.ritualExpectedDesc>
+</LanguageData>

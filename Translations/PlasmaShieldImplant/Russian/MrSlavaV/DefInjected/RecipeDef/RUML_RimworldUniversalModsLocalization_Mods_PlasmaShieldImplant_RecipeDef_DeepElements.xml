@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <InstallAdvancedPlasmaShieldBattery.jobString>Устанавливает advanced plasma shield battery.</InstallAdvancedPlasmaShieldBattery.jobString>
+  <InstallHardenedPlasmaShield.jobString>Устанавливает hardened plasma shields.</InstallHardenedPlasmaShield.jobString>
+  <InstallPlasmaShieldBattery.jobString>Устанавливает plasma shield battery.</InstallPlasmaShieldBattery.jobString>
+  <InstallPlasmaShieldImplant.jobString>Устанавливает plasma shield implant.</InstallPlasmaShieldImplant.jobString>
+  <InstallPsiShieldBooster.jobString>Устанавливает psi-shield booster.</InstallPsiShieldBooster.jobString>
+  <ToggleAdaptiveShields.jobString>Toggling Adaptive Shields.</ToggleAdaptiveShields.jobString>
+  <ToggleDampeningShields.jobString>Toggling Dampening Shields.</ToggleDampeningShields.jobString>
+  <ToggleHardenedShields.jobString>Toggling Hardened Shields.</ToggleHardenedShields.jobString>
+  <ToggleResistantShields.jobString>Toggling Resistant Shields.</ToggleResistantShields.jobString>
+</LanguageData>

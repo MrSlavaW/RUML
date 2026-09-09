@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AA_BehemothPasses.label>проход бегемота</AA_BehemothPasses.label>
+  <AA_CactipineDropPod.label>странная капсула</AA_CactipineDropPod.label>
+  <AA_Eclipse.label>механитовое затмение</AA_Eclipse.label>
+  <AA_IncidentAnimaliskEnters.label>замечен анималиск</AA_IncidentAnimaliskEnters.label>
+  <AA_IncidentBlizzariskClutchMother.label>мать выводка близарисков</AA_IncidentBlizzariskClutchMother.label>
+  <AA_IncidentDunealiskClutchMother.label>мать выводка дюналисков</AA_IncidentDunealiskClutchMother.label>
+  <AA_IncidentFeraliskClutchMother.label>мать выводка фералисков</AA_IncidentFeraliskClutchMother.label>
+  <AA_IncidentFungalHusk.label>грибные оболочки</AA_IncidentFungalHusk.label>
+  <AA_IncidentStalkingArcticLion.label>крадущийся арктический лев</AA_IncidentStalkingArcticLion.label>
+  <AA_IncidentSummitCrab.label>краб вершин</AA_IncidentSummitCrab.label>
+  <AA_Incident_Aerofleets.label>колоссальный аэрофлот</AA_Incident_Aerofleets.label>
+  <AA_Incident_BlackHive.label>нападение Чёрного Улья</AA_Incident_BlackHive.label>
+  <AA_Incident_Bumbledrones.label>миграция шмеледронов</AA_Incident_Bumbledrones.label>
+  <AA_Incident_Gallatross.label>появление галлатросса</AA_Incident_Gallatross.label>
+  <AA_Incident_SkyMeteorite.label>небесный метеорит</AA_Incident_SkyMeteorite.label>
+  <AA_MimeWandererJoinQuest.label>присоединение скитальца</AA_MimeWandererJoinQuest.label>
+  <AA_ResourcePodCrash.label>падение капсулы с ресурсами</AA_ResourcePodCrash.label>
+</LanguageData>

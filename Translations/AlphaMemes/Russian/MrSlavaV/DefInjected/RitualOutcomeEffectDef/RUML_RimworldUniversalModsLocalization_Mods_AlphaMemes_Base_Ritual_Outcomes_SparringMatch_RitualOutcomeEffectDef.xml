@@ -1,0 +1,35 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\SparringMatch\Ritual_Outcomes_SparringMatch.xml -->
+	<!--                             EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+	<AM_SparringMatchOutcome.description>В зависимости от качества ритуала, участники получат от {MINMOOD} до {MAXMOOD} настроения на {MOODDAYS} дней.</AM_SparringMatchOutcome.description>
+	<!--                                                     EN: Duelists and viewers will gain melee combat experience. -->
+	<AM_SparringMatchOutcome.extraPredictedOutcomeDescriptions.0>Дуэлянты и зрители получат опыт рукопашного боя.</AM_SparringMatchOutcome.extraPredictedOutcomeDescriptions.0>
+	<!--                                                     EN: Spectators will gain a mood boost and fill their recreation bars. -->
+	<AM_SparringMatchOutcome.extraPredictedOutcomeDescriptions.1>Зрители получат прирост настроения и заполнят свои шкалы отдыха.</AM_SparringMatchOutcome.extraPredictedOutcomeDescriptions.1>
+	<!--                               EN: participant count -->
+	<AM_SparringMatchOutcome.comps.0.label>количество участников</AM_SparringMatchOutcome.comps.0.label>
+	<!--                               EN: leader present -->
+	<AM_SparringMatchOutcome.comps.1.label>присутствие лидера</AM_SparringMatchOutcome.comps.1.label>
+	<!--                               EN: room impressiveness -->
+	<AM_SparringMatchOutcome.comps.2.label>впечатляемость комнаты</AM_SparringMatchOutcome.comps.2.label>
+	<!--                               EN: {PAWN_labelShort}'s social impact -->
+	<AM_SparringMatchOutcome.comps.3.label>социальное влияние {PAWN_labelShort}</AM_SparringMatchOutcome.comps.3.label>
+	<!--                                       EN: speaker's social impact -->
+	<AM_SparringMatchOutcome.comps.3.labelAbstract>социальное влияние оратора</AM_SparringMatchOutcome.comps.3.labelAbstract>
+	<!--                                        EN: Embarrassing -->
+	<AM_SparringMatchOutcome.outcomeChances.0.label>Постыдный</AM_SparringMatchOutcome.outcomeChances.0.label>
+	<!--                                              EN: The {0} was embarrassing. The match lacked skill, discipline, and respect. It was a shameful display that will not be easily forgotten. -->
+	<AM_SparringMatchOutcome.outcomeChances.0.description>{0} был постыдным. Поединок недоставало мастерства, дисциплины и уважения. Это было позорное зрелище, которое не скоро забудется.</AM_SparringMatchOutcome.outcomeChances.0.description>
+	<!--                                        EN: Uneventful -->
+	<AM_SparringMatchOutcome.outcomeChances.1.label>Невыразительный</AM_SparringMatchOutcome.outcomeChances.1.label>
+	<!--                                              EN: The {0} was uneventful. The match lacked energy and intensity, leaving everyone feeling unimpressed. -->
+	<AM_SparringMatchOutcome.outcomeChances.1.description>{0} был невыразительным. Поединок недоставало энергии и интенсивности, все остались не впечатлены.</AM_SparringMatchOutcome.outcomeChances.1.description>
+	<!--                                        EN: Invigorating -->
+	<AM_SparringMatchOutcome.outcomeChances.2.label>Бодрящий</AM_SparringMatchOutcome.outcomeChances.2.label>
+	<!--                                              EN: The {0} was invigorating. A lively match that showcased skill and spirit, leaving everyone feeling energized. -->
+	<AM_SparringMatchOutcome.outcomeChances.2.description>{0} был бодрящим. Оживленный поединок, демонстрирующий мастерство и дух, оставил всех энергичными.</AM_SparringMatchOutcome.outcomeChances.2.description>
+	<!--                                        EN: Exhilarating -->
+	<AM_SparringMatchOutcome.outcomeChances.3.label>Восхитительный</AM_SparringMatchOutcome.outcomeChances.3.label>
+	<!--                                              EN: The {0} was exhilarating! A breathtaking display of mastery and determination, leaving a lasting impression on everyone present. -->
+	<AM_SparringMatchOutcome.outcomeChances.3.description>{0} был восхитительным! Захватывающее зрелище мастерства и решимости, оставившее неизгладимое впечатление на всех присутствующих.</AM_SparringMatchOutcome.outcomeChances.3.description>
+</LanguageData>

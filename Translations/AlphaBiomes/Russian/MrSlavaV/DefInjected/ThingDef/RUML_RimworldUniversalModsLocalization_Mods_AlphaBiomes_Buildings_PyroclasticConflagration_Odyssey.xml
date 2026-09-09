@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+<AB_MagmaVent.label>магмовая трещина</AB_MagmaVent.label>
+<AB_MagmaVent.description>Огненная трещина в земле, периодически извергающая струи расплавленной породы и обжигающего газа.</AB_MagmaVent.description>
+<AB_MagmaThermalPlant.label>магма-термальный генератор</AB_MagmaThermalPlant.label>
+<AB_MagmaThermalPlant.description>Производит электричество из перегретого геотермального пара в зоне, богатой магмой. Должен быть установлен на паровом гейзере.</AB_MagmaThermalPlant.description>
+
+</LanguageData>
+
+

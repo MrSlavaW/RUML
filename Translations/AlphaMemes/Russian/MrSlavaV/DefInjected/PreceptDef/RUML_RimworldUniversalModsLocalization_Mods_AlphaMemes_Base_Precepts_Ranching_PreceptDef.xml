@@ -1,0 +1,25 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Ranching.xml -->
+	<!--                          EN: cattle centered -->
+	<AM_Ranching_CattleCentered.label>скот</AM_Ranching_CattleCentered.label>
+	<!--                                EN: The heart of a ranch beats in time with the herd. Cattle are more than livestock; they are the lifeblood of the community.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - "Cattle" is defined as any animal that is milkable, plus muffalo and bison. Yes, this includes modded animals. Yes, you can have a Frostbound Behemoth ranch. -->
+	<AM_Ranching_CattleCentered.description>Сердце ранчо бьется в такт со стадом. Скот — это больше, чем просто домашние животные; они — жизненная сила сообщества.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - "Скот" определяется как любое животное, которое можно доить, а также муффало и бизоны. Да, это включает модифицированных животных. Да, у вас может быть ранчо Ледяных Бегемотов.</AM_Ranching_CattleCentered.description>
+	<!--                                                       EN: No cattle -->
+	<AM_Ranching_CattleCentered.comps.0.thoughtStageDescriptions.0>Нет скота</AM_Ranching_CattleCentered.comps.0.thoughtStageDescriptions.0>
+	<!--                                                       EN: Scarce cattle {STAGE1} -->
+	<AM_Ranching_CattleCentered.comps.0.thoughtStageDescriptions.1>Мало скота {STAGE1}</AM_Ranching_CattleCentered.comps.0.thoughtStageDescriptions.1>
+	<!--                                                       EN: Few cattle {STAGE2} -->
+	<AM_Ranching_CattleCentered.comps.0.thoughtStageDescriptions.2>Немного скота {STAGE2}</AM_Ranching_CattleCentered.comps.0.thoughtStageDescriptions.2>
+	<!--                                                       EN: Some cattle {STAGE4} -->
+	<AM_Ranching_CattleCentered.comps.0.thoughtStageDescriptions.3>Некоторое количество скота {STAGE4}</AM_Ranching_CattleCentered.comps.0.thoughtStageDescriptions.3>
+	<!--                                                       EN: Lots of cattle {STAGE5} -->
+	<AM_Ranching_CattleCentered.comps.0.thoughtStageDescriptions.4>Много скота {STAGE5}</AM_Ranching_CattleCentered.comps.0.thoughtStageDescriptions.4>
+	<!--                                                       EN: Tons of cattle -->
+	<AM_Ranching_CattleCentered.comps.0.thoughtStageDescriptions.5>Множество скота</AM_Ranching_CattleCentered.comps.0.thoughtStageDescriptions.5>
+	<!--                                                       EN: No enclosed pen markers around -->
+	<AM_Ranching_CattleCentered.comps.1.thoughtStageDescriptions.0>Нет огороженных загонов рядом</AM_Ranching_CattleCentered.comps.1.thoughtStageDescriptions.0>
+	<!--                                                       EN: Enclosed pen marker around -->
+	<AM_Ranching_CattleCentered.comps.1.thoughtStageDescriptions.1>Огороженный загон рядом</AM_Ranching_CattleCentered.comps.1.thoughtStageDescriptions.1>
+	<!--                                                       EN: Enclosed pen markers around (2 or more) -->
+	<AM_Ranching_CattleCentered.comps.1.thoughtStageDescriptions.2>Огороженные загоны рядом (2 или более)</AM_Ranching_CattleCentered.comps.1.thoughtStageDescriptions.2>
+</LanguageData>

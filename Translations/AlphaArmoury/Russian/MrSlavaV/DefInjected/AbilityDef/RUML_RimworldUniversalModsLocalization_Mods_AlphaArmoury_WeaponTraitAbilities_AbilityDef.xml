@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+	<!-- 1.6\Defs\AbilityDefs\WeaponTraitAbilities.xml -->
+
+	<!-- EN: launch flare -->
+	<AArmoury_LaunchFlare.label>запуск вспышки</AArmoury_LaunchFlare.label>
+	<!-- EN: Launch a disruptor flare. Can be reloaded using bioferrite. -->
+	<AArmoury_LaunchFlare.description>Запускает дезорганизующую вспышку. Можно перезарядить с помощью биоферрита.</AArmoury_LaunchFlare.description>
+	
+	<!-- EN: launch "holy hand" grenade -->
+	<AArmoury_HolyLauncher.label>запуск гранаты «святая длань»</AArmoury_HolyLauncher.label>
+	<!-- EN: Launch a "holy hand" grenades, filled with nanite inhibitors that will destabilize reanimated shamblers. Can be reloaded using bioferrite. -->
+	<AArmoury_HolyLauncher.description>Запускает гранату «святая длань», наполненную ингибиторами нанитов, дестабилизирующими реанимированных шамблеров. Можно перезарядить с помощью биоферрита.</AArmoury_HolyLauncher.description>
+	
+	<!-- EN: launch deadlife canister -->
+	<AArmoury_DeadlifeLauncher.label>запуск контейнера мёртвой жизни</AArmoury_DeadlifeLauncher.label>
+	<!-- EN: Launch a deadlife canister. Can be reloaded using a deadlife shell. -->
+	<AArmoury_DeadlifeLauncher.description>Запускает контейнер мёртвой жизни. Можно перезарядить с помощью снаряда мёртвой жизни.</AArmoury_DeadlifeLauncher.description>
+	
+	<!-- EN: fleshmelter flare -->
+	<AArmoury_FleshMelter.label>вспышка плотеплавителя</AArmoury_FleshMelter.label>
+	<!-- EN: Launch a fleshmelter bolt. Can be reloaded using a shard. -->
+	<AArmoury_FleshMelter.description>Запускает снаряд плотеплавителя. Можно перезарядить с помощью осколка.</AArmoury_FleshMelter.description>
+	
+	<!-- EN: launch tox grenade -->
+	<AArmoury_ToxLauncher.label>запуск токс-гранаты</AArmoury_ToxLauncher.label>
+	<!-- EN: Launch a tox grenade. Can be reloaded using steel. -->
+	<AArmoury_ToxLauncher.description>Запускает токс-гранату. Можно перезарядить с помощью стали.</AArmoury_ToxLauncher.description>
+	
+	<!-- EN: launch anti-tox grenade -->
+	<AArmoury_AntiToxLauncher.label>запуск анти-токс гранаты</AArmoury_AntiToxLauncher.label>
+	<!-- EN: Launch an anti-tox grenade. Can be reloaded using steel. Grenades reduce toxic buildup by 20%. -->
+	<AArmoury_AntiToxLauncher.description>Запускает анти-токс гранату. Можно перезарядить с помощью стали. Гранаты снижают токсическое накопление на 20%.</AArmoury_AntiToxLauncher.description>
+	
+	<!-- EN: hellsphere shot -->
+	<AArmoury_HellsphereLauncher.label>выстрел адской сферы</AArmoury_HellsphereLauncher.label>
+	<!-- EN: Launch a hellsphere shot. Can be reloaded using advanced components. -->
+	<AArmoury_HellsphereLauncher.description>Производит выстрел адской сферой. Можно перезарядить с помощью продвинутых компонентов.</AArmoury_HellsphereLauncher.description>
+	
+	<!-- EN: launch rotstink grenade -->
+	<AArmoury_RotstinkLauncher.label>запуск гниловонной гранаты</AArmoury_RotstinkLauncher.label>
+	<!-- EN: Launch a rotstink grenade. Can be reloaded using steel. -->
+	<AArmoury_RotstinkLauncher.description>Запускает гниловонную гранату. Можно перезарядить с помощью стали.</AArmoury_RotstinkLauncher.description>
+	
+	<!-- EN: launch magma grenade -->
+	<AArmoury_MagmaLauncher.label>запуск магмовой гранаты</AArmoury_MagmaLauncher.label>
+	<!-- EN: Launch a magma grenade. Can be reloaded using quite a lot of steel. -->
+	<AArmoury_MagmaLauncher.description>Запускает магмовую гранату. Для перезарядки требуется довольно много стали.</AArmoury_MagmaLauncher.description>
+	
+	<!-- EN: archotegg grenade -->
+	<AArmoury_ArchoteggLauncher.label>архояйцо-граната</AArmoury_ArchoteggLauncher.label>
+	<!-- EN: (glitch text) -->
+	<AArmoury_ArchoteggLauncher.description>Это оружие ███куд-куд ███▌▌яйцо 0101▌▌коллапс перьев ▌▌[ВРЕМЯ] неисчерпаемое гнездование [УДАЛЕНО] ГРАВИТАЦИЯ ▌▌нет ███фракталы скорлупы███нет███[ОШИБКА].
+
+███космический ЖЕЛТОК ███разлом █куд▌▌КАСКАД ПЕРЬЕВ ███ИНИЦИАЛИЗАЦИЯ █▌▌▌ЗОЛОТОЙ КЛЮВ██▌▌ПУСТОТА ██СУДЬБА ████ОШИБКА.
+
+Можно перезарядить с помощью компонентов.</AArmoury_ArchoteggLauncher.description>
+	
+	<!-- EN: acid grenade -->
+	<AArmoury_AcidLauncher.label>кислотная граната</AArmoury_AcidLauncher.label>
+	<!-- EN: Launch an acid grenade. Can be reloaded using components. -->
+	<AArmoury_AcidLauncher.description>Запускает кислотную гранату. Можно перезарядить с помощью компонентов.</AArmoury_AcidLauncher.description>
+	
+	<!-- EN: shrapnel grenade -->
+	<AArmoury_ShrapnelLauncher.label>осколочная граната</AArmoury_ShrapnelLauncher.label>
+	<!-- EN: Launch a shrapnel grenade that produces a cloud of projectiles. Very hard to aim. Can be reloaded using steel. -->
+	<AArmoury_ShrapnelLauncher.description>Запускает осколочную гранату, создающую облако поражающих элементов. Очень трудно прицелиться. Можно перезарядить с помощью стали.</AArmoury_ShrapnelLauncher.description>
+	
+	<!-- EN: rocket swarm -->
+	<AArmoury_SwarmLauncher.label>ракетный рой</AArmoury_SwarmLauncher.label>
+	<!-- EN: Launch a swarm of small rockets. Can be reloaded using advanced components. -->
+	<AArmoury_SwarmLauncher.description>Запускает рой малых ракет. Можно перезарядить с помощью продвинутых компонентов.</AArmoury_SwarmLauncher.description>
+	
+	<!-- EN: firefoam launcher -->
+	<AArmoury_FirefoamLauncher.label>пускатель пенотушителя</AArmoury_FirefoamLauncher.label>
+	<!-- EN: Launch a firefoam grenade. Can be reloaded using chemfuel. -->
+	<AArmoury_FirefoamLauncher.description>Запускает гранату с пенотушителем. Можно перезарядить с помощью химтоплива.</AArmoury_FirefoamLauncher.description>
+	
+	<!-- EN: skip -->
+	<AArmoury_SkipField.label>скачок</AArmoury_SkipField.label>
+	<!-- EN: Teleport a target to a desired position not too far from the starting point. -->
+	<AArmoury_SkipField.description>Телепортирует цель в выбранную точку недалеко от исходного положения.</AArmoury_SkipField.description>
+	
+	<!-- EN: self skip -->
+	<AArmoury_SelfSkipField.label>самоскачок</AArmoury_SelfSkipField.label>
+	<!-- EN: Teleport to a desired position not too far from the starting point. -->
+	<AArmoury_SelfSkipField.description>Телепортирует владельца в выбранную точку недалеко от исходного положения.</AArmoury_SelfSkipField.description>
+	
+	<!-- EN: invisibility field -->
+	<AArmoury_InvisibilityField.label>поле невидимости</AArmoury_InvisibilityField.label>
+	<!-- EN: Generate a field of psychic invisibility that will conceal its caster for a time. -->
+	<AArmoury_InvisibilityField.description>Создаёт поле психической невидимости, временно скрывающее владельца.</AArmoury_InvisibilityField.description>
+	
+	<!-- EN: mine deployer -->
+	<AArmoury_MineDeployer.label>установщик мин</AArmoury_MineDeployer.label>
+	<!-- EN: Deploys a mine that will explode in contact. Can be reloaded using steel. -->
+	<AArmoury_MineDeployer.description>Устанавливает мину, взрывающуюся при контакте. Можно перезарядить с помощью стали.</AArmoury_MineDeployer.description>
+	
+	<!-- EN: sludge spewer -->
+	<AArmoury_Sludge.label>разбрызгиватель шлама</AArmoury_Sludge.label>
+	<!-- EN: Spew a spray of acidic slug. -->
+	<AArmoury_Sludge.description>Выбрасывает поток кислотного шлама. Шлам прилипает к целям, обжигая их, и превращает поверхность в насекомый шлам. Можно перезарядить с помощью химтоплива.</AArmoury_Sludge.description>
+	
+	<!-- EN: caltrop launcher -->
+	<AArmoury_Caltrops.label>пускатель калтропов</AArmoury_Caltrops.label>
+	<!-- EN: This weapon has an attached caltrop launcher. -->
+	<AArmoury_Caltrops.description>Это оружие оснащено пускателем калтропов. После использования его можно перезарядить с помощью стали.</AArmoury_Caltrops.description>
+	
+	<!-- EN: barricade deployer -->
+	<AArmoury_BarricadeDeployer.label>развёртыватель баррикад</AArmoury_BarricadeDeployer.label>
+	<!-- EN: This weapon has an attached barricade deployer. -->
+	<AArmoury_BarricadeDeployer.description>Это оружие оснащено развёртывателем баррикад. После использования его можно перезарядить с помощью стали.</AArmoury_BarricadeDeployer.description>
+	
+	<!-- EN: pesticide canisters -->
+	<AArmoury_PesticideCanisters.label>контейнеры с пестицидами</AArmoury_PesticideCanisters.label>
+	<!-- EN: Destroy blighted plants -->
+	<AArmoury_PesticideCanisters.description>Это оружие оснащено модулем для запуска контейнеров с пестицидами. Они уничтожают все заражённые растения в большой области. Можно перезарядить с помощью химтоплива.</AArmoury_PesticideCanisters.description>
+	
+	<!-- EN: detonation -->
+	<AArmoury_Detonation.label>детонация</AArmoury_Detonation.label>
+	<!-- EN: Vents the heated gasses -->
+	<AArmoury_Detonation.description>Стравливает нагретые газы, производимые этим оружием, создавая волну перегретого воздуха, воздействующую на окружающие клетки. На владельца не действует.</AArmoury_Detonation.description>
+	
+	<!-- EN: dehydrator grenade -->
+	<AArmoury_DehydratorGrenades.label>осушающая граната</AArmoury_DehydratorGrenades.label>
+	<!-- EN: Dry terrain -->
+	<AArmoury_DehydratorGrenades.description>Это оружие оснащено модулем для запуска осушающих гранат. Они высушивают местность, аналогично влагососу. Перезаряжается с использованием 10 компонентов. Очень дорого, но лучше, чем долго ждать работу влагососа!</AArmoury_DehydratorGrenades.description>
+	
+	<!-- EN: mimic core -->
+	<AArmoury_MimicCore.label>ядро мимика</AArmoury_MimicCore.label>
+	<!-- EN: Acquire traits -->
+	<AArmoury_MimicCore.description>Это оружие может перенять оружейные особенности другого уникального оружия, уничтожая его в процессе. Учитываются только совместимые особенности (никаких луков с ракетами).</AArmoury_MimicCore.description>
+	
+	<!-- EN: broadshield launcher -->
+	<AArmoury_ShieldLauncher.label>пускатель широкого щита</AArmoury_ShieldLauncher.label>
+	<!-- EN: Reload using advanced components -->
+	<AArmoury_ShieldLauncher.description>Это оружие оснащено пускателем широкого щита. После использования требуется перезарядка с помощью продвинутых компонентов.</AArmoury_ShieldLauncher.description>
+	
+	<!-- EN: grapple gun -->
+	<AArmoury_GrappleGun.label>гарпуномёт</AArmoury_GrappleGun.label>
+	<!-- EN: Pull or propel -->
+	<AArmoury_GrappleGun.description>Это оружие оснащено гарпунным пускателем. Его можно выстрелить во врага, притягивая его к владельцу, либо в пустую клетку, перемещая владельца к цели. После использования требуется перезарядка с помощью стали.</AArmoury_GrappleGun.description>
+</LanguageData>

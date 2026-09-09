@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaCookingExpanded\Defs\HediffDefs\Hediffs_Global_Misc_VCE.xml -->
+	<!--                 EN: feasting frenzy -->
+	<AM_FeastingFrenzy.label>пиршественное безумие</AM_FeastingFrenzy.label>
+	<!--                       EN: The joyous atmosphere of the banquet has left everyone energized and eager to devour their meals with unmatched swiftness. Plates are cleared in record time! This will last for two days. -->
+	<AM_FeastingFrenzy.description>Радостная атмосфера пиршества зарядила всех энергией, и теперь они с невероятной быстротой поглощают свои блюда. Тарелки опустошаются в рекордное время! Это продлится два дня.</AM_FeastingFrenzy.description>
+</LanguageData>

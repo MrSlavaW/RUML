@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PlasmaShieldHardenedTip>Эта пешка защищена усиленным плазменным щитом, поглощающим входящий урон.</PlasmaShieldHardenedTip>
+  <PlasmaShieldResistantTip>Эта пешка защищена резистентным плазменным щитом с высокой устойчивостью к бронепробитию.</PlasmaShieldResistantTip>
+  <PlasmaShieldAdaptiveTip>Эта пешка защищена адаптивным плазменным щитом, подстраивающимся под тип урона.</PlasmaShieldAdaptiveTip>
+  <PlasmaShieldDampeningTip>Эта пешка защищена демпфирующим плазменным щитом, снижающим взрывной урон.</PlasmaShieldDampeningTip>
+</LanguageData>

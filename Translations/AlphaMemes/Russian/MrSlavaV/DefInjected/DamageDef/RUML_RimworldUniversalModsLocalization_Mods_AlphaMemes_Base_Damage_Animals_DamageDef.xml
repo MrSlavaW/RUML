@@ -1,0 +1,17 @@
+<LanguageData>
+	<!-- 1.6\Defs\DamageDefs\Damage_Animals.xml -->
+	<!--            EN: toxic sting -->
+	<AM_ToxicBolt.label>токсичное жало</AM_ToxicBolt.label>
+	<!--                   EN: {0} has been stung to death. -->
+	<AM_ToxicBolt.deathMessage>{0} был ужален до смерти.</AM_ToxicBolt.deathMessage>
+	
+	<!--           EN: acid spit -->
+	<AM_AcidSpit.label>кислотная слюна</AM_AcidSpit.label>
+	<!--                  EN: {0} has been corroded to death. -->
+	<AM_AcidSpit.deathMessage>{0} подвергся коррозии до смерти.</AM_AcidSpit.deathMessage>
+	
+	<!--             EN: toxic sting -->
+	<AM_ToxicSting.label>токсичное жало</AM_ToxicSting.label>
+	<!--                    EN: {0} has been stung to death. -->
+	<AM_ToxicSting.deathMessage>{0} был ужален до смерти.</AM_ToxicSting.deathMessage>
+</LanguageData>

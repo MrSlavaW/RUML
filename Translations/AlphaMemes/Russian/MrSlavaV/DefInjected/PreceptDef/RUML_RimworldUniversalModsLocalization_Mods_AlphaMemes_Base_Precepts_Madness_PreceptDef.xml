@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Madness.xml -->
+	<!--                  EN: exalted -->
+	<AM_Madness_Exalted.label>возвышено</AM_Madness_Exalted.label>
+	<!--                        EN: A twisted mind is a sign of holiness. Distrust those who call themselves "sane", for they are just fools.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - The catharsis status will have an increased effect of +60 mood.\n - Upon recovering from a mental break colonists will receive a huge stat bonus to most categories that lasts for a whole day. -->
+	<AM_Madness_Exalted.description>Искаженный ум — признак святости. Не доверяйте тем, кто называет себя "нормальными", ибо они просто дураки.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Статус катарсиса будет иметь повышенный эффект +60 к настроению.\n - При восстановлении после умственного срыва поселенцы получат огромный бонус к характеристикам большинства категорий, который действует в течение целого дня.</AM_Madness_Exalted.description>
+</LanguageData>

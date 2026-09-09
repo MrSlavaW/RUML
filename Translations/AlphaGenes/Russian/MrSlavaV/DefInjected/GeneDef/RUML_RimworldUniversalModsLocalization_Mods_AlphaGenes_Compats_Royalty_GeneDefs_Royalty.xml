@@ -1,0 +1,29 @@
+<LanguageData>
+	<!-- 1.6\Mods\Royalty\Defs\GeneDefs\GeneDefs_Royalty.xml -->
+	<!--               EN: psychic camouflage -->
+	<AG_Invisibility.label>Пси невидимость</AG_Invisibility.label>
+	<!--                     EN: Carriers of this gene can psychically shift their skin tones to camouflage in almost any surroundings. -->
+	<AG_Invisibility.description>Носители этого гена могут психически изменять оттенок кожи, маскируясь почти в любой обстановке.</AG_Invisibility.description>
+	<!--                EN: innate psylink -->
+	<AG_InnatePsylink.label>врождённая пси-связь</AG_InnatePsylink.label>
+	<!--                      EN: Carriers of this gene have an innate ability to use psychic powers. -->
+	<AG_InnatePsylink.description>Носители этого гена от рождения способны пользоваться пси-силами.</AG_InnatePsylink.description>
+	<!--                                     EN: Losing this gene will make the colonist lose ALL psylink levels, though they will not forget the psycasts they have already learned. -->
+	<AG_InnatePsylink.customEffectDescriptions.0>Потеря этого гена лишит поселенца ВСЕХ уровней пси-связи, но уже изученные пси-способности сохранятся.</AG_InnatePsylink.customEffectDescriptions.0>
+	<!--               EN: psychic sight -->
+	<AG_PsychicSight.label>Пси зрение</AG_PsychicSight.label>
+	<!--                     EN: Carriers of this gene are almost completely blind... until they gain psychic powers. They can direct their inner psychic sight and gain even better insight the more power they acquire. -->
+	<AG_PsychicSight.description>Носители этого гена почти полностью слепы... пока не обретут экстрасенсорные способности. Они могут направлять свое внутреннее психическое зрение и получать еще лучшее понимание окружения.</AG_PsychicSight.description>
+	<!--                                    EN: Sight will depend on the psylink level of the carrier. -->
+	<AG_PsychicSight.customEffectDescriptions.0>Вид будет зависеть от уровня пси связи владельца.</AG_PsychicSight.customEffectDescriptions.0>
+	<!--                                    EN: If you have Vanilla Psycasts Expanded, this will probably be very wacky. -->
+	<AG_PsychicSight.customEffectDescriptions.1>Если у вас есть Vanilla Psycasts Expanded, это, вероятно, будет очень дурацким.</AG_PsychicSight.customEffectDescriptions.1>
+	<!--                  EN: psychic insanity -->
+	<AG_PsychicInsanity.label>Психическое безумие</AG_PsychicInsanity.label>
+	<!--                        EN: Carriers of this gene have psychic powers that depend on their mood. With low moods, and thus higher break risk, they'll have psychic bonuses. With a Catharsis, these bonuses will be even higher (even if the mood is increased during Catharsis). -->
+	<AG_PsychicInsanity.description>Носители этого гена обладают психическими способностями, которые зависят от их настроения. При плохом настроении и, следовательно, более высоком риске срыва у них будут психические бонусы. При катарсисе эти бонусы будут еще выше (даже если настроение улучшится во время Катарсиса).</AG_PsychicInsanity.description>
+	<!--           EN: self skip -->
+	<AG_SelfSkip.label>Блинк</AG_SelfSkip.label>
+	<!--                 EN: Carriers can skip their own body across short distances. -->
+	<AG_SelfSkip.description>скачек в нужную позицию</AG_SelfSkip.description>
+</LanguageData>

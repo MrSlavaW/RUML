@@ -1,0 +1,68 @@
+<LanguageData>
+	<!-- 1.6\Defs\WeaponTraitDefs\WeaponTraitDefs_Passives.xml -->
+
+	<!-- EN: psychic resilience -->
+	<AArmoury_PsychicResilience.label>психическая устойчивость</AArmoury_PsychicResilience.label>
+	<!-- EN: This weapon's wielder will not crack under pressure. -->
+	<AArmoury_PsychicResilience.description>Владелец этого оружия не ломается под давлением. Пока он призван, риск психического срыва отсутствует.</AArmoury_PsychicResilience.description>
+	
+	<!-- EN: satiating -->
+	<AArmoury_Satiating.label>насыщающий</AArmoury_Satiating.label>
+	<!-- EN: This weapon psychically suppresses the wielder's appetite. -->
+	<AArmoury_Satiating.description>Это оружие психически подавляет аппетит владельца.</AArmoury_Satiating.description>
+	
+	<!-- EN: sharpshooter’s focus -->
+	<AArmoury_SharpshootersFocus.label>фокус снайпера</AArmoury_SharpshootersFocus.label>
+	<!-- EN: Shooting skill +4 -->
+	<AArmoury_SharpshootersFocus.description>Это оружие настолько удобно в обращении, что повышает навык стрельбы просто при экипировке.
+
+- Навык стрельбы +4.</AArmoury_SharpshootersFocus.description>
+	
+	<!-- EN: adrenal rush -->
+	<AArmoury_AdrenalRush.label>адреналиновый всплеск</AArmoury_AdrenalRush.label>
+	<!-- EN: Combat stimulants after a kill -->
+	<AArmoury_AdrenalRush.description>Это оружие при убийстве насыщает владельца боевыми стимуляторами, временно усиливая рефлексы и скорость передвижения.
+
+- Скорость передвижения x1.25 на 4 часа после убийства.
+
+- Шанс уклонения в ближнем бою x1.25 на 4 часа после убийства.
+
+- Шанс уклонения от дальних атак +25% на 4 часа после убийства.</AArmoury_AdrenalRush.description>
+	
+	<!-- EN: radiant core -->
+	<AArmoury_RadiantCore.label>лучистое ядро</AArmoury_RadiantCore.label>
+	<!-- EN: Dirty radiation -->
+	<AArmoury_RadiantCore.description>Это оружие питается неисправным ванометрическим источником энергии, который периодически испускает всплески грязной радиации, вызывая токсическое накопление у владельца.
+
+- Токсическое накопление +10% тяжести после убийства.</AArmoury_RadiantCore.description>
+	
+	<!-- EN: orgasmatron core -->
+	<AArmoury_Orgasmatron.label>ядро оргазматрона</AArmoury_Orgasmatron.label>
+	<!-- EN: Blissful bio-feedback -->
+	<AArmoury_Orgasmatron.description>Это оружие насыщает снаряды блаженной биологической обратной связью, оставляя цели ошеломлёнными, раскрасневшимися и странно удовлетворёнными, но вялыми.</AArmoury_Orgasmatron.description>
+	
+	<!-- EN: sunburst core -->
+	<AArmoury_SunburstCore.label>солнечное ядро</AArmoury_SunburstCore.label>
+	<!-- EN: Damage sunlight -->
+	<AArmoury_SunburstCore.description>Это оружие пылает ярче под солнечным светом, нанося увеличенный урон. В тени или темноте его мощь ослабевает.
+
+- Урон на солнечном свету +20%.
+
+- Урон вне солнечного света -20%.</AArmoury_SunburstCore.description>
+	
+	<!-- EN: vacuum sealed -->
+	<AArmoury_VacuumSealed.label>вакуумная герметизация</AArmoury_VacuumSealed.label>
+	<!-- EN: Space damage -->
+	<AArmoury_VacuumSealed.description>Это оружие оптимизировано для вакуума и наносит повышенный урон в космосе или безвоздушной среде.
+
+- Урон в космосе +20%.
+
+- Урон на планете -20%.</AArmoury_VacuumSealed.description>
+	
+	<!-- EN: toxin-tuned -->
+	<AArmoury_ToxinTuned.label>настроенный на токсины</AArmoury_ToxinTuned.label>
+	<!-- EN: Pollution damage -->
+	<AArmoury_ToxinTuned.description>Это оружие подпитывается загрязнением, нанося больший урон на загрязнённой местности.
+
+- Урон на загрязнённой поверхности +20%.</AArmoury_ToxinTuned.description>
+</LanguageData>

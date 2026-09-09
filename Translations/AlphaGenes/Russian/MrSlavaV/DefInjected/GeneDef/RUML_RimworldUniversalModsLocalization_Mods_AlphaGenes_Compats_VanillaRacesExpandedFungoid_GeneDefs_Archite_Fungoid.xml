@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaRacesExpandedFungoid\Defs\GeneDefs\GeneDefs_Archite_Fungoid.xml -->
+	<!--                         EN: fungal strength -->
+	<AlphaGenes_FungalStrength.label>грибная сила</AlphaGenes_FungalStrength.label>
+	<!--                               EN: Carriers of this gene have strengthened fungal structures that confer unbelievable stregth and they are incredibly dangerous on close quarters combat. -->
+	<AlphaGenes_FungalStrength.description>Носители этого гена обладают усиленными грибковыми структурами, которые придают невероятную силу.</AlphaGenes_FungalStrength.description>
+	<!--                                              EN: This gene is only available on the xenotype editor or on Mycomorphs. It won't appear on any genepacks. -->
+	<AlphaGenes_FungalStrength.customEffectDescriptions.0>Этот ген доступен только в редакторе ксенотипов. Он не будет отображаться ни в каких генных пакетах.</AlphaGenes_FungalStrength.customEffectDescriptions.0>
+	<!--                      EN: fungal speed -->
+	<AlphaGenes_FungalSpeed.label>грибная скорость</AlphaGenes_FungalSpeed.label>
+	<!--                            EN: Carriers of this gene move at an increased speed as their infection progresses. The effects increase in severity with time. -->
+	<AlphaGenes_FungalSpeed.description>Носители этого гена двигаются с возрастающей скоростью по мере прогрессирования инфекции.</AlphaGenes_FungalSpeed.description>
+	<!--                                           EN: This gene is only available on the xenotype editor or on Mycomorphs. It won't appear on any genepacks. -->
+	<AlphaGenes_FungalSpeed.customEffectDescriptions.0>Этот ген доступен только в редакторе ксенотипов. Он не будет отображаться ни в каких генных пакетах.</AlphaGenes_FungalSpeed.customEffectDescriptions.0>
+</LanguageData>

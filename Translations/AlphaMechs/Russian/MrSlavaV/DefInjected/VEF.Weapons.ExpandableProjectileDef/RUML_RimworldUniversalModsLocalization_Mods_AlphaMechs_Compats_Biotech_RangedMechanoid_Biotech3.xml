@@ -1,0 +1,9 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_Misc\Weapons\RangedMechanoid_Biotech.xml -->
+	<!--                           EN: coil lance shard -->
+	<AM_Gun_CoilLance_Projectile.label>осколок электромагнитного копья</AM_Gun_CoilLance_Projectile.label>
+	<!--                    EN: acid -->
+	<AM_Bullet_AcidSpewer.label>кислота</AM_Bullet_AcidSpewer.label>
+	<!--                     EN: fire -->
+	<AM_Bullet_Firethrower.label>огонь</AM_Bullet_Firethrower.label>
+</LanguageData>

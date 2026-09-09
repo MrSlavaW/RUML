@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<PlasmaShieldLabel>Плазменный щит</PlasmaShieldLabel>
+	<PlasmaShieldTip>Текущий заряд плазменного щита</PlasmaShieldTip>
+	<PlasmaShieldModuleDisabled>Модуль щита отключен</PlasmaShieldModuleDisabled>
+	<PlasmaShieldTerminalCantReach>Терминал недосягаем</PlasmaShieldTerminalCantReach>
+	<PlasmaShieldTerminalNoPower>Терминал обесточен</PlasmaShieldTerminalNoPower>
+</LanguageData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<GET_SleepRegular.label>обычный сон</GET_SleepRegular.label>
+	<GET_SleepRegular.description>Носитель имеет стандартную продолжительность сна.</GET_SleepRegular.description>
+	<GET_ViolenceNormal.label>обычная агрессия</GET_ViolenceNormal.label>
+	<GET_ViolenceNormal.description>Носитель обладает стандартным уровнем агрессии и готовности к насилию.</GET_ViolenceNormal.description>
+	<GET_Learning_Normal.label>обычная обучаемость</GET_Learning_Normal.label>
+	<GET_Learning_Normal.description>Носитель обучается со стандартной человеческой скоростью.</GET_Learning_Normal.description>
+	<GET_HumanLegs.label>человеческие ноги</GET_HumanLegs.label>
+	<GET_HumanLegs.description>Стандартное человеческое строение нижних конечностей.</GET_HumanLegs.description>
+	<GET_AverageApperance.label>обычная внешность</GET_AverageApperance.label>
+	<GET_AverageApperance.description>Ничем не примечательная человеческая внешность.</GET_AverageApperance.description>
+</LanguageData>

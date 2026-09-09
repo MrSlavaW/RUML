@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Trees.xml -->
+	<!--                 EN: despised -->
+	<AM_Trees_Despised.label>ненавистны</AM_Trees_Despised.label>
+	<!--                       EN: Trees are obstacles, standing in the way of our true potential. Their roots choke the earth, their branches block the sky. We must rid the land of these leafy oppressors, for only then will we be free to shape the world as we see fit. -->
+	<AM_Trees_Despised.description>Деревья — это препятствия, стоящие на пути нашего истинного потенциала. Их корни душат землю, ветви загораживают небо. Мы должны избавиться от этих лиственных угнетателей, только тогда мы будем свободны формировать мир по своему усмотрению.</AM_Trees_Despised.description>
+	<!--                                              EN: +9 to -9 mood depending on number of trees watched by the colonist -->
+	<AM_Trees_Despised.comps.0.thoughtStageDescriptions.0>от +9 до -9 настроение в зависимости от количества деревьев, видимых поселенцем</AM_Trees_Despised.comps.0.thoughtStageDescriptions.0>
+	<!--                                              EN: +10 to -15 mood depending on number of trees destroyed on each quadrum -->
+	<AM_Trees_Despised.comps.1.thoughtStageDescriptions.0>от +10 до -15 настроение в зависимости от количества уничтоженных деревьев за каждый квадрум</AM_Trees_Despised.comps.1.thoughtStageDescriptions.0>
+</LanguageData>

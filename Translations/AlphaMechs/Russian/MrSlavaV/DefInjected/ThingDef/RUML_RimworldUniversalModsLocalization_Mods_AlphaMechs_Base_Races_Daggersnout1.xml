@@ -1,0 +1,11 @@
+﻿<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_RacesMechanoids\Races_Daggersnout.xml -->
+	<!--              EN: daggersnout -->
+	<AM_Daggersnout.label>кинжалорыл</AM_Daggersnout.label>
+	<!--                    EN: The daggersnout is a fast, insectlike combat mechanoid armed with a vicious sharp blade on its head. It isn't as dangerous as other close-ranged mechanoids, such as scythers, but they usually appear in greater numbers.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; If toggled to not spawn via mod options, they will get replaced by a Scyther. -->
+	<AM_Daggersnout.description>Кинжалорыл — быстрый насекомоподобный боевой механоид, вооруженный ужасным острым лезвием на голове. Он не так опасен, как другие механоиды ближнего боя, такие как косы, но обычно появляются в большем количестве.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Если с помощью опций мода отключено появление, они будут заменены косой.</AM_Daggersnout.description>
+	<!--                      EN: snout blade -->
+	<AM_Daggersnout.tools.0.label>рыловой клинок</AM_Daggersnout.tools.0.label>
+	<!--                      EN: голова -->
+	<AM_Daggersnout.tools.1.label>голова</AM_Daggersnout.tools.1.label>
+</LanguageData>

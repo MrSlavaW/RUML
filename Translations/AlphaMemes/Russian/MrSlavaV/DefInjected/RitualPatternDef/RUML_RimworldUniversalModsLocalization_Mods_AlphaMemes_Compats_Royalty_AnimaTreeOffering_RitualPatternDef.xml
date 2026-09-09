@@ -1,0 +1,5 @@
+<LanguageData>
+	<!-- 1.6\Mods\Royalty\Defs\RitualDefs\AnimaTreeOffering.xml -->
+	<!--                                  EN: Once a {IDEO} member dies, other {MEMBERS} witnesss their friend return to the earth. -->
+	<AM_AnimaBurialPattern.ritualExpectedDesc>Как только член {IDEO} умирает, другие {MEMBERS} становятся свидетелями того, как их друг возвращается в землю.</AM_AnimaBurialPattern.ritualExpectedDesc>
+</LanguageData>

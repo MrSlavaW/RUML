@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\PreceptDefs\Precepts_Mummy.xml -->
+	<!--                EN: mummification funeral -->
+	<AM_Mummification.label>мумификация</AM_Mummification.label>
+	<!--                      EN: A gathering to witness the mummification of our friend -->
+	<AM_Mummification.description>Собрание, чтобы засвидетельствовать мумификацию нашего друга</AM_Mummification.description>
+	<!--                                   EN: {PAWN_nameDef} should be mummmified so {PAWN_possessive} friends and family can visit them whenever they want. -->
+	<AM_Mummification.extraTextPawnDeathLetter>{PAWN_nameDef} следует мумифицировать, чтобы {PAWN_possessive} друзья и родственники могли навещать их, когда захотят.</AM_Mummification.extraTextPawnDeathLetter>
+</LanguageData>

@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\PreceptDefs\Precepts_Pasted.xml -->
+	<!--                EN: nutrient paste funeral -->
+	<AM_PastedFuneral.label>похороны питательной пасты</AM_PastedFuneral.label>
+	<!--                      EN: A gathering to ensure nothing goes to waste -->
+	<AM_PastedFuneral.description>Собрание, чтобы убедиться, что ничего не пропало даром</AM_PastedFuneral.description>
+	<!--                                   EN: {PAWN_nameDef} should be turned into paste. It's what they'd want. -->
+	<AM_PastedFuneral.extraTextPawnDeathLetter>{PAWN_nameDef} следует превратить в пасту. Это то, чего они хотят.</AM_PastedFuneral.extraTextPawnDeathLetter>
+</LanguageData>

@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaGeneticsExpanded\Defs\PreceptDefs\Precepts_Extractor.xml -->
+	<!--                   EN: extraction funeral -->
+	<GR_ExtractorFuneral.label>экстракционные похороны</GR_ExtractorFuneral.label>
+	<!--                         EN: A gathering to witness the extraction of our friends' genomes so they can remain with us. -->
+	<GR_ExtractorFuneral.description>Собрание, чтобы стать свидетелями извлечения геномов наших друзей, чтобы они могли остаться с нами.</GR_ExtractorFuneral.description>
+	<!--                                      EN: {PAWN_nameDef} should be extracted and turned into a glorious creation so {PAWN_possessive} friends and family need not say farewell. -->
+	<GR_ExtractorFuneral.extraTextPawnDeathLetter>{PAWN_nameDef} следует извлечь и превратить в великолепное творение, чтобы друзьям и семье {PAWN_possessive} не пришлось прощаться.</GR_ExtractorFuneral.extraTextPawnDeathLetter>
+</LanguageData>

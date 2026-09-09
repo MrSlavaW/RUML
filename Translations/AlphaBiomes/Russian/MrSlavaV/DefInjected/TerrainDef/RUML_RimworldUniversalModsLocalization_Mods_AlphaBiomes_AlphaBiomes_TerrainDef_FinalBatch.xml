@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AB_ChocolateSoil.label>шоколадная почва</AB_ChocolateSoil.label>
+  <AB_ChocolateSoilRich.label>плодородная шоколадная почва</AB_ChocolateSoilRich.label>
+  <AB_Strawberry.label>клубничный крем</AB_Strawberry.label>
+  <AB_Cream.label>взбитые сливки</AB_Cream.label>
+  <AB_CandySand.label>сахарный песок</AB_CandySand.label>
+  <AB_HardenedChocolate.label>застывший шоколад</AB_HardenedChocolate.label>
+  <AB_DryFlowerySoil.label>засушливая цветочная почва</AB_DryFlowerySoil.label>
+  <AB_ToxicFlowerySoil.label>токсичная цветочная почва</AB_ToxicFlowerySoil.label>
+  <AB_ToxicFertileGrassyFlowerySoil.label>токсичная плодородная почва</AB_ToxicFertileGrassyFlowerySoil.label>
+  <AB_CeruleanSoil.label>лазурная почва</AB_CeruleanSoil.label>
+  <AB_CeruleanSoilRich.label>плодородная лазурная почва</AB_CeruleanSoilRich.label>
+  <AB_GauranlenSoil.label>почва Гауранлен</AB_GauranlenSoil.label>
+  <AB_GauranlenSoilRich.label>плодородная почва Гауранлен</AB_GauranlenSoilRich.label>
+  <AB_Calcified.label>обызвествленная почва</AB_Calcified.label>
+  <AB_Crystallized.label>кристаллизованная почва</AB_Crystallized.label>
+  <AB_OdysseyFlesh.label>живая плоть</AB_OdysseyFlesh.label>
+  <AB_OdysseyFlesh.description>Биомасса из переплетенных мышечных волокон, пульсирующая под ногами.</AB_OdysseyFlesh.description>
+  <AB_CorruptedIntrusion.label>оскверненный прорыв</AB_CorruptedIntrusion.label>
+  <AB_LiquidCream_Deep.label>глубокие жидкие сливки</AB_LiquidCream_Deep.label>
+  <AB_LiquidCream_MovingChestDeep.label>бурные глубокие сливки</AB_LiquidCream_MovingChestDeep.label>
+  <AB_LiquidCream_Shallow.label>мелкие жидкие сливки</AB_LiquidCream_Shallow.label>
+  <AB_LiquidCream_MovingShallow.label>текучие мелкие сливки</AB_LiquidCream_MovingShallow.label>
+  <AB_LiquidCreamFlood.label>разлив сливок</AB_LiquidCreamFlood.label>
+  <AB_LightRedWaterShallow.label>красноватая мелкая вода</AB_LightRedWaterShallow.label>
+  <AB_LightRedWaterDeep.label>красноватая глубокая вода</AB_LightRedWaterDeep.label>
+  <AB_LightRedFlood.label>красноватый паводок</AB_LightRedFlood.label>
+  <AB_LightRedWaterMovingChestDeep.label>бурная глубокая красная вода</AB_LightRedWaterMovingChestDeep.label>
+  <AB_LightRedWaterMovingShallow.label>бурная мелкая красная вода</AB_LightRedWaterMovingShallow.label>
+  <AB_LightRedWaterOceanShallow.label>мелководный красный океан</AB_LightRedWaterOceanShallow.label>
+  <AB_LightRedWaterOceanDeep.label>глубокий красный океан</AB_LightRedWaterOceanDeep.label>
+  <AB_CerebrospinalFluid_Deep.label>глубокая спинномозговая жидкость</AB_CerebrospinalFluid_Deep.label>
+  <AB_CerebrospinalFluid_MovingChestDeep.label>бурная глубокая спинномозговая жидкость</AB_CerebrospinalFluid_MovingChestDeep.label>
+  <AB_CerebrospinalFluid_Shallow.label>мелкая спинномозговая жидкость</AB_CerebrospinalFluid_Shallow.label>
+  <AB_CerebrospinalFluid_MovingShallow.label>текучая мелкая спинномозговая жидкость</AB_CerebrospinalFluid_MovingShallow.label>
+  <AB_CerebrospinalFluidFlood.label>разлив спинномозговой жидкости</AB_CerebrospinalFluidFlood.label>
+  <AB_AsphaltFloor.label>асфальтированная дорога</AB_AsphaltFloor.label>
+  <AB_AsphaltFloor.description>Гладкое асфальтовое покрытие древних цивилизаций.</AB_AsphaltFloor.description>
+  <AB_DarkGravel.label>темный каменистый грунт</AB_DarkGravel.label>
+  <AB_CompactedSand.description>Плотный слежавшийся песок.</AB_CompactedSand.description>
+  <AB_FertileGrassyFlowerySoil_Oversaturated.label>перенасыщенная цветочная почва</AB_FertileGrassyFlowerySoil_Oversaturated.label>
+  <GU_RedWaterDeep.label>глубокая красная вода</GU_RedWaterDeep.label>
+  <GU_RedWaterMovingChestDeep.label>бурная глубокая красная вода</GU_RedWaterMovingChestDeep.label>
+  <GU_RedWaterMovingShallow.label>бурная мелкая красная вода</GU_RedWaterMovingShallow.label>
+  <GU_RedWaterOceanShallow.label>красный океан (мелководье)</GU_RedWaterOceanShallow.label>
+  <GU_RedWaterOceanDeep.label>глубокий красный океан</GU_RedWaterOceanDeep.label>
+  <GU_AlienSoftSand.label>мягкий красный песок</GU_AlienSoftSand.label>
+  <AB_VolcanicGravel.label>вулканический гравий</AB_VolcanicGravel.label>
+  <AB_CrystalWoodFloors_RedWood.label>настил из кристаллической древесины</AB_CrystalWoodFloors_RedWood.label>
+</LanguageData>

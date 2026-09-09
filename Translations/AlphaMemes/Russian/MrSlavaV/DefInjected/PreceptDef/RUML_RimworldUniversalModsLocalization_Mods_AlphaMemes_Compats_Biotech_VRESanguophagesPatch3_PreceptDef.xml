@@ -1,0 +1,17 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\Ludeon_RimWorld_Biotech\VRESanguophagesPatch3.xml -->
+	<!--                    EN: strigoi -->
+	<AM_HuntFocus_Strigoi.label>стригой</AM_HuntFocus_Strigoi.label>
+	<!--                          EN: Our purpose is clear: to seek out the cursed sanguophages wherever they may hide.\n\nStrigoi will be the focus of this precept.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All attacks against a Strigoi will cause extra 10 burn damage. -->
+	<AM_HuntFocus_Strigoi.description>Наша цель ясна: найти проклятых кровопийц, где бы они ни прятались.\n\nСтригои станут объектом этого принципа.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Все атаки против стригоя будут наносить дополнительные 10 ожоговых урона.</AM_HuntFocus_Strigoi.description>
+	
+	<!--                     EN: ekkimian -->
+	<AM_HuntFocus_Ekkimian.label>эккимиан</AM_HuntFocus_Ekkimian.label>
+	<!--                           EN: Our purpose is clear: to seek out the cursed sanguophages wherever they may hide.\n\nEkkimian will be the focus of this precept.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All attacks against an Ekkimian will cause extra 10 burn damage. -->
+	<AM_HuntFocus_Ekkimian.description>Наша цель ясна: найти проклятых кровопийц, где бы они ни прятались.\n\nЭккимиане станут объектом этого принципа.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Все атаки против эккимиана будут наносить дополнительные 10 ожоговых урона.</AM_HuntFocus_Ekkimian.description>
+	
+	<!--                  EN: bruxa -->
+	<AM_HuntFocus_Bruxa.label>брукса</AM_HuntFocus_Bruxa.label>
+	<!--                        EN: Our purpose is clear: to seek out the cursed sanguophages wherever they may hide.\n\nBruxa will be the focus of this precept.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All attacks against a Bruxa will cause extra 10 burn damage. -->
+	<AM_HuntFocus_Bruxa.description>Наша цель ясна: найти проклятых кровопийц, где бы они ни прятались.\n\nБруксы станут объектом этого принципа.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Все атаки против бруксы будут наносить дополнительные 10 ожоговых урона.</AM_HuntFocus_Bruxa.description>
+</LanguageData>

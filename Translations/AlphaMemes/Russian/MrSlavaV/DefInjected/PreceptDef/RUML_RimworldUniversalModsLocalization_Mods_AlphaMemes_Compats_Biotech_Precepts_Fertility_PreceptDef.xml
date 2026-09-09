@@ -1,0 +1,20 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\PreceptDefs\Precepts_Fertility.xml -->
+	
+	<!--                           EN: increased -->
+	<AM_FertilityIssue_Increased.label>увеличенная</AM_FertilityIssue_Increased.label>
+	<!--                                 EN: We believe in the boundless potential of life. Our efforts to enhance fertility will ensure that the future is abundant with new beginnings. -->
+	<AM_FertilityIssue_Increased.description>Мы верим в безграничный потенциал жизни. Наши усилия по улучшению плодовитости обеспечат, что будущее будет изобиловать новыми началами.</AM_FertilityIssue_Increased.description>
+	<!--                                        EN: a child was born -->
+	<AM_FertilityIssue_Increased.comps.0.eventLabel>родился ребенок</AM_FertilityIssue_Increased.comps.0.eventLabel>
+	
+	<!--                        EN: normal -->
+	<AM_FertilityIssue_Normal.label>нормальная</AM_FertilityIssue_Normal.label>
+	<!--                              EN: We respect the natural rhythms of life. -->
+	<AM_FertilityIssue_Normal.description>Мы уважаем естественные ритмы жизни.</AM_FertilityIssue_Normal.description>
+	
+	<!--                           EN: decreased -->
+	<AM_FertilityIssue_Decreased.label>уменьшенная</AM_FertilityIssue_Decreased.label>
+	<!--                                 EN: While the drive for reproduction is natural, we must temper our urges. The unchecked spread of life can overwhelm our resources and disrupt the balance. -->
+	<AM_FertilityIssue_Decreased.description>Хотя стремление к размножению естественно, мы должны сдерживать свои порывы. Неконтролируемое распространение жизни может истощить наши ресурсы и нарушить баланс.</AM_FertilityIssue_Decreased.description>
+</LanguageData>

@@ -1,0 +1,57 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_Item\Items_Resource_Manufactured.xml -->
+	<!--                   EN: hyper-linkage chip (tier 4) -->
+	<AM_HyperLinkageChip.label>чип гиперсвязи (уровень 4)</AM_HyperLinkageChip.label>
+	<!--                         EN: A beamcasting-band synchronization micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. Dropped by the Infernus. -->
+	<AM_HyperLinkageChip.description>Механоидный микроорган синхронизации лучевой связи. Необходимо производить определенные современные виды механоидов и оборудования.\n\nМеханитор может изучить этот чип, чтобы разблокировать более высокие уровни исследований в области мехтехнологий. Выпадает с Инфернуса.</AM_HyperLinkageChip.description>
+	<!--                                          EN: Hyper-linkage chip studied: {RESEARCH} unlocked -->
+	<AM_HyperLinkageChip.comps.0.completedLetterLabel>Изучен чип гиперсвязи: {RESEARCH} разблокирован.</AM_HyperLinkageChip.comps.0.completedLetterLabel>
+	<!--                                     EN: By studying the hyper-linkage chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+	<AM_HyperLinkageChip.comps.0.completedLetter>Изучая чип гиперсвязи, {PAWN_labelShort} приобрел понимание, необходимое для исследовательского проекта(ов) {RESEARCH}.\n\nТеперь ваши исследователи могут использовать исследовательские стенды, чтобы начать исследование того, как на самом деле использовать эту технологию.</AM_HyperLinkageChip.comps.0.completedLetter>
+	<!--                                         EN: Analyze... -->
+	<AM_HyperLinkageChip.comps.0.activateLabelString>Анализировать...</AM_HyperLinkageChip.comps.0.activateLabelString>
+	<!--                                        EN: Analyze the hyper-linkage chip. -->
+	<AM_HyperLinkageChip.comps.0.activateDescString>Проанализируйте чип гиперсвязи.</AM_HyperLinkageChip.comps.0.activateDescString>
+	<!--                               EN: Analyze hyper-linkage chip -->
+	<AM_HyperLinkageChip.comps.0.jobString>Анализ чипа гиперсвязи</AM_HyperLinkageChip.comps.0.jobString>
+	<!--                                    EN: Choose who should analyze this -->
+	<AM_HyperLinkageChip.comps.0.guiLabelString>Выберите, кто должен провести анализ</AM_HyperLinkageChip.comps.0.guiLabelString>
+	<!--                                   EN: Can be analyzed by a colonist. -->
+	<AM_HyperLinkageChip.comps.0.inspectString>Поселенцы могут провести анализ.</AM_HyperLinkageChip.comps.0.inspectString>
+	<!--                        EN: stellar processing chip (tier 5) -->
+	<AM_StellarProcessingChip.label>чип звёздной обработки (уровень 5)</AM_StellarProcessingChip.label>
+	<!--                              EN: A voidlink-focusing mechanoid micro-organ. It is necessary to produce certain advanced types of mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. Dropped by the War Empress. -->
+	<AM_StellarProcessingChip.description>Механоидный микроорган, фокусирующий каналы пустотной связи. Необходимо производить определенные современные виды механоидов и оборудования.\n\nМеханитор может изучить этот чип, чтобы разблокировать более высокие уровни исследований в области мехтехнологий. Выпадает из Военной Императрицы.</AM_StellarProcessingChip.description>
+	<!--                                               EN: Stellar processing chip studied: {RESEARCH} unlocked -->
+	<AM_StellarProcessingChip.comps.0.completedLetterLabel>Изучен чип звёздной обработки: {RESEARCH} разблокирован</AM_StellarProcessingChip.comps.0.completedLetterLabel>
+	<!--                                          EN: By studying the stellar processing chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+	<AM_StellarProcessingChip.comps.0.completedLetter>Изучая чип звёздной обработки, {PAWN_labelShort} приобрел понимание, необходимое для исследовательского проекта(ов) {RESEARCH}.\n\nТеперь ваши исследователи могут использовать исследовательские стенды, чтобы начать исследование того, как на самом деле использовать эту технологию.</AM_StellarProcessingChip.comps.0.completedLetter>
+	<!--                                              EN: Analyze... -->
+	<AM_StellarProcessingChip.comps.0.activateLabelString>Анализировать...</AM_StellarProcessingChip.comps.0.activateLabelString>
+	<!--                                             EN: Analyze the stellar processing chip. -->
+	<AM_StellarProcessingChip.comps.0.activateDescString>Проанализируйте чип звёздной обработки.</AM_StellarProcessingChip.comps.0.activateDescString>
+	<!--                                    EN: Analyze stellar processing chip -->
+	<AM_StellarProcessingChip.comps.0.jobString>Анализ чипа звёздной обработки</AM_StellarProcessingChip.comps.0.jobString>
+	<!--                                         EN: Choose who should analyze this -->
+	<AM_StellarProcessingChip.comps.0.guiLabelString>Выберите, кто должен провести анализ</AM_StellarProcessingChip.comps.0.guiLabelString>
+	<!--                                        EN: Can be analyzed by a colonist. -->
+	<AM_StellarProcessingChip.comps.0.inspectString>Поселенцы могут провести анализ.</AM_StellarProcessingChip.comps.0.inspectString>
+	<!--                    EN: quantum matrix chip (tier 6) -->
+	<AM_QuantumMatrixChip.label>квантовый матричный чип (уровень 6)</AM_QuantumMatrixChip.label>
+	<!--                          EN: A quantum-restructing mechanoid micro-organ. It is necessary to produce certain advanced mechanoids and equipment.\n\nA mechanitor can study this chip to help unlock higher tiers of mechtech research. Dropped by the Apoptosis. -->
+	<AM_QuantumMatrixChip.description>Механоидный микроорган квантовой перестройки. Необходимо производить определенные продвинутые механоиды и оборудование.\n\nМеханитор может изучить этот чип, чтобы разблокировать более высокие уровни исследований в области мехтехнологий. Выпадает с Апоптоза.</AM_QuantumMatrixChip.description>
+	<!--                                           EN: Quantum matrix chip studied: {RESEARCH} unlocked -->
+	<AM_QuantumMatrixChip.comps.0.completedLetterLabel>Изучен квантовый матричный чип: {RESEARCH} разблокирован</AM_QuantumMatrixChip.comps.0.completedLetterLabel>
+	<!--                                      EN: By studying the quantum matrix chip, {PAWN_labelShort} has acquired the insight needed for the research project(s) {RESEARCH}.\n\nYour researchers can now use research benches to begin researching how to actually use the technology. -->
+	<AM_QuantumMatrixChip.comps.0.completedLetter>Изучая чип квантовой матрицы, {PAWN_labelShort} приобрел понимание, необходимое для исследовательского проекта(ов) {RESEARCH}.\n\nТеперь ваши исследователи могут использовать исследовательские стенды, чтобы начать исследование того, как на самом деле использовать эту технологию.</AM_QuantumMatrixChip.comps.0.completedLetter>
+	<!--                                          EN: Analyze... -->
+	<AM_QuantumMatrixChip.comps.0.activateLabelString>Анализировать...</AM_QuantumMatrixChip.comps.0.activateLabelString>
+	<!--                                         EN: Analyze the quantum matrix chip. -->
+	<AM_QuantumMatrixChip.comps.0.activateDescString>Проанализируйте чип квантовой матрицы.</AM_QuantumMatrixChip.comps.0.activateDescString>
+	<!--                                EN: Analyze quantum matrix chip -->
+	<AM_QuantumMatrixChip.comps.0.jobString>Анализ квантового матричного чипа</AM_QuantumMatrixChip.comps.0.jobString>
+	<!--                                     EN: Choose who should analyze this -->
+	<AM_QuantumMatrixChip.comps.0.guiLabelString>Выберите, кто должен провести анализ</AM_QuantumMatrixChip.comps.0.guiLabelString>
+	<!--                                    EN: Can be analyzed by a colonist. -->
+	<AM_QuantumMatrixChip.comps.0.inspectString>Поселенцы могут провести анализ.</AM_QuantumMatrixChip.comps.0.inspectString>
+</LanguageData>

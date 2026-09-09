@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_MasterChef.xml -->
+	<!--                  EN: culinarius -->
+	<AM_Mech_MasterChef.label>кулинар</AM_Mech_MasterChef.label>
+	<!--                                     EN: Plural culinarius -->
+	<AM_Mech_MasterChef.lifeStages.1.labelPlural>Кулинариусы</AM_Mech_MasterChef.lifeStages.1.labelPlural>
+<AM_Mech_MasterChef.lifeStages.0.labelPlural>Кулинариусы</AM_Mech_MasterChef.lifeStages.0.labelPlural></LanguageData>

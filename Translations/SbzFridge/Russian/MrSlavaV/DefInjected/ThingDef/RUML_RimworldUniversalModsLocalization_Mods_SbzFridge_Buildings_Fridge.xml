@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<sbz_Fridge.label>холодильник</sbz_Fridge.label>
+	<sbz_Fridge.description>Компактный холодильник, вмещающий до 2 стаков предметов. Предотвращает порчу продуктов. Не работает при температуре выше 100°C.</sbz_Fridge.description>
+	<sbz_LargeFridge.label>большой холодильник</sbz_LargeFridge.label>
+	<sbz_LargeFridge.description>Вместительный холодильник, способный замораживать до 10 стаков предметов. Не работает при температуре выше 100°C.</sbz_LargeFridge.description>
+	<sbz_SingleChestFridge.label>одинарный сундук-холодильник</sbz_SingleChestFridge.label>
+	<sbz_SingleChestFridge.description>Сундук-холодильник для хранения до 3 стаков скоропортящихся продуктов. Не работает при температуре выше 100°C.</sbz_SingleChestFridge.description>
+	<sbz_DoubleChestFridge.label>двойной сундук-холодильник</sbz_DoubleChestFridge.label>
+	<sbz_DoubleChestFridge.description>Большой сундук-холодильник, вмещающий до 6 стаков предметов. Не работает при температуре выше 100°C.</sbz_DoubleChestFridge.description>
+	<sbz_SingleWallFridge.label>одинарный настенный холодильник</sbz_SingleWallFridge.label>
+	<sbz_SingleWallFridge.description>Встраиваемый в стену холодильник на 3 стака предметов. Не работает при температуре выше 100°C. Не поддерживает крышу.</sbz_SingleWallFridge.description>
+	<sbz_DoubleWallFridge.label>двойной настенный холодильник</sbz_DoubleWallFridge.label>
+	<sbz_DoubleWallFridge.description>Встраиваемый в стену холодильник на 6 стаков предметов. Не работает при температуре выше 100°C. Не поддерживает крышу.</sbz_DoubleWallFridge.description>
+	<sbz_CorpseFridge.label>холодильник для трупов</sbz_CorpseFridge.label>
+	<sbz_CorpseFridge.description>Специализированная холодильная камера, вмещающая до 20 тел. Предотвращает разложение. Не работает при температуре выше 100°C.</sbz_CorpseFridge.description>
+</LanguageData>

@@ -1,0 +1,35 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingStyleDefs\Alpha\ThingStyleDefs_Kemetic.xml -->
+	<!--                              EN: barbed spear -->
+	<AM_Kemetic_BarbedSpear.overrideLabel>зазубренное копье</AM_Kemetic_BarbedSpear.overrideLabel>
+	<!--                          EN: javelin -->
+	<AM_Kemetic_Javelin.overrideLabel>джавелин</AM_Kemetic_Javelin.overrideLabel>
+	<!--                             EN: short sword -->
+	<AM_Kemetic_ShortSword.overrideLabel>короткий меч</AM_Kemetic_ShortSword.overrideLabel>
+	<!--                            EN: battle axe -->
+	<AM_Kemetic_BattleAxe.overrideLabel>боевой топор</AM_Kemetic_BattleAxe.overrideLabel>
+	<!--                       EN: discoidal mace -->
+	<AM_Kemetic_Mace.overrideLabel>дискообразная булава</AM_Kemetic_Mace.overrideLabel>
+	<!--                          EN: khopesh -->
+	<AM_Kemetic_Khopesh.overrideLabel>хопеш</AM_Kemetic_Khopesh.overrideLabel>
+	<!--                        EN: laser staff -->
+	<AM_Kemetic_Staff.overrideLabel>лазерный посох</AM_Kemetic_Staff.overrideLabel>
+	<!--                          EN: palm axe -->
+	<AM_Kemetic_PalmAxe.overrideLabel>пальмовый топор</AM_Kemetic_PalmAxe.overrideLabel>
+	<!--                         EN: helwan 951 pistol -->
+	<AM_Kemetic_Pistol.overrideLabel>пистолет Хелуан 951</AM_Kemetic_Pistol.overrideLabel>
+	<!--                        EN: misr assault rifle -->
+	<AM_Kemetic_Rifle.overrideLabel>штурмовая винтовка миср</AM_Kemetic_Rifle.overrideLabel>
+	<!--                             EN: port said machinegun -->
+	<AM_Kemetic_MachineGun.overrideLabel>порт-саидский пулемет</AM_Kemetic_MachineGun.overrideLabel>
+	<!--                          EN: rasheed carbine -->
+	<AM_Kemetic_Carbine.overrideLabel>карабин Рашида</AM_Kemetic_Carbine.overrideLabel>
+	<!--                            EN: crude bronze axe -->
+	<AM_Kemetic_TribalAxe.overrideLabel>грубый бронзовый топор</AM_Kemetic_TribalAxe.overrideLabel>
+	<!--                            EN: senet board -->
+	<AM_KemeticChessTable.overrideLabel>senet board</AM_KemeticChessTable.overrideLabel>
+	<!--                        EN: short kilt -->
+	<AM_Kemetic_Pants.overrideLabel>short kilt</AM_Kemetic_Pants.overrideLabel>
+	<!--                            EN: flak short kilt -->
+	<AM_Kemetic_FlakPants.overrideLabel>flak short kilt</AM_Kemetic_FlakPants.overrideLabel>
+</LanguageData>

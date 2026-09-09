@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+	<!-- EN: {0} has reproduced asexually. -->
+	<AG_AsexualHatched>У {0} произошло бесполое размножение.</AG_AsexualHatched>
+	<!-- EN: Death in {0} -->
+	<AG_DeathIn>Смерть через {0}</AG_DeathIn>
+	<!-- EN: Unstable mutation gained by {0}: {1} -->
+	<AG_RandomGenesGained>Нестабильная мутация у {0}: {1}.</AG_RandomGenesGained>
+	<!-- EN: Slow gestation gene: -25% gestation speed -->
+	<AG_PregnancySlower>Ген медленной беременности: -25% скорости беременности</AG_PregnancySlower>
+	<!-- EN: Fast gestation gene: +25% gestation speed -->
+	<AG_PregnancyFaster>Ген быстрой беременности: +25% к скорости беременности</AG_PregnancyFaster>
+	<!-- EN: Enable armour -->
+	<AG_ReativeArmourOn>Включить броню</AG_ReativeArmourOn>
+	<!-- EN: Disable armour -->
+	<AG_ReativeArmourOff>Отключить броню</AG_ReativeArmourOff>
+	<!-- EN: Enable overdrive -->
+	<AG_OverdriveOn>Включить перегрузку</AG_OverdriveOn>
+	<!-- EN: Disable overdrive -->
+	<AG_OverdriveOff>Отключить перегрузку</AG_OverdriveOff>
+	<!-- EN: Mineral cost -->
+	<AG_AbilityMineralCost>Расход минералов</AG_AbilityMineralCost>
+	<!-- EN: {0_labelShort} is not a mineral absorber. -->
+	<AG_AbilityDisabledNoMineralGene>{0_labelShort} не способен поглощать минералы.</AG_AbilityDisabledNoMineralGene>
+	<!-- EN: {0_labelShort} does not have enough minerals. -->
+	<AG_AbilityDisabledNoMineral>В {0_labelShort} недостаточно минералов.</AG_AbilityDisabledNoMineral>
+	<!-- EN: This genepack already has the maximum possible amount of genes -->
+	<AG_AlreadyFourGenes>Этот генный пакет уже содержит максимально возможное количество генов</AG_AlreadyFourGenes>
+	<!-- EN: The disruptor won't work if the genepack only has one remaining gene -->
+	<AG_NeedsMoreThanTwoGenes>Разрушитель не сработает, если в генном пакете останется только один ген</AG_NeedsMoreThanTwoGenes>
+	<!-- EN: This ability cannot be used as a one-shot weapon on a hostile pawn -->
+	<AG_CannotBeUsedAsWeapon>Эту способность нельзя использовать как одноразовое оружие против враждебной пешки.</AG_CannotBeUsedAsWeapon>
+	<!-- EN: Chestburst! -->
+	<AG_ParasitesHatchedLabel>Взрыв грудной клетки!</AG_ParasitesHatchedLabel>
+	<!-- EN: A newborn, {0}, has hatched from a host, killing it in the process -->
+	<AG_ParasitesHatched>Новорождённый {0} вырвался из тела носителя, убив его.</AG_ParasitesHatched>
+	<!-- EN: Unsummoned in {0} -->
+	<AG_UnsummonedIn>Исчезнет через {0}</AG_UnsummonedIn>
+	<!-- EN: Target resisted the insanity blast! -->
+	<AG_ResistedInsanityBlast>Цель выдержала воздействие безумия!</AG_ResistedInsanityBlast>
+	<!-- EN: Mechanoids are not affected by insanity blast! -->
+	<AG_MechsImmuneToInsanityBlast>Механоиды не подвержены воздействию взрыва безумия!</AG_MechsImmuneToInsanityBlast>
+	<!-- EN: Target must be downed or lying down in bed for this ability to work -->
+	<AG_DownedOrLyingInBed>Чтобы эта способность сработала, цель должна быть без сознания или лежать в кровати.</AG_DownedOrLyingInBed>
+	<!-- EN: Target lacks a brain. This is sadly pretty common in the world -->
+	<AG_PawnWithoutBrain>У цели нет мозга. К сожалению, это довольно часто встречается в мире.</AG_PawnWithoutBrain>
+	<!-- EN: Deathless people are immune to parasitic implantations -->
+	<AG_CannotBeUsedOnDeathless>Носители гена «Бессмертие» невосприимчивы к паразитической имплантации.</AG_CannotBeUsedOnDeathless>
+	<!-- EN: Only one ocular slinger can exist per colonist with the ocular affinity gene -->
+	<VRE_OneScorpionPerColonist>У каждого поселенца с геном «Окулярная близость» может быть только один окулярный метатель.</VRE_OneScorpionPerColonist>
+	<!-- EN: Unlocked via Ocular Affinity gene -->
+	<VRE_UnlockedByGeneOcular>Разблокируется геном «Окулярная близость».</VRE_UnlockedByGeneOcular>
+	<!-- EN: This ability will only work on mechanoids -->
+	<AM_CantUseOnNonMechs>Эта способность действует только на механоидов.</AM_CantUseOnNonMechs>
+	<!-- EN: Only a mechanitor can use this ability -->
+	<AM_OnlyMechanitorCanUse>Только механитор может использовать эту способность.</AM_OnlyMechanitorCanUse>
+	<!-- EN: "Boss" mechanoids have a reinforced IFF system that can't be hacked -->
+	<AM_CantUseOnBossMechs>Механоиды-боссы оснащены усиленной системой IFF, которую невозможно взломать.</AM_CantUseOnBossMechs>
+	<!-- EN: Mechanitor doesn't have enough bandwidth to use this ability on a {0} -->
+	<AM_NotEnoughBandwidth>У механитора недостаточно пропускной способности, чтобы применить эту способность к {0}.</AM_NotEnoughBandwidth>
+	<!-- EN: This mechanoid is being remotely controlled by a human pilot, and it can't be hacked -->
+	<AM_CantUseVEMechs>Этот механоид управляется дистанционно пилотом-человеком, и его нельзя взломать</AM_CantUseVEMechs>
+	<!-- EN: Can't create temporary node there -->
+	<AG_CantSpawnThere>Здесь нельзя создать временный узел.</AG_CantSpawnThere>
+	<!-- EN: {0} is not a colony mech, this will only work on player owned mechs -->
+	<AG_OnlyOnFriendlyMechs>{0} не является механоидом колонии. Эта способность работает только на механоидов игрока.</AG_OnlyOnFriendlyMechs>
+	<!-- EN: This ability doesn't work on androids -->
+	<AG_NotOnAndroids>Эта способность не работает на андроидах</AG_NotOnAndroids>
+	<!-- EN: {0} is too big for a grapple (max body size {1}) -->
+	<AG_TargetTooBig>{0} слишком велик для захвата (максимальный размер тела {1})</AG_TargetTooBig>
+	<!-- EN: Hybrid -->
+	<AG_Hybrid>Гибрид</AG_Hybrid>
+	<!-- EN: {0} doesn't have any negative memories that can be absorbed -->
+	<AG_PsychicAbsorptionNoMoods>У {0} нет негативных воспоминаний, которые можно поглотить.</AG_PsychicAbsorptionNoMoods>
+	<!-- EN: This ability needs to target its caster -->
+	<AG_NeedToTargetCaster>Эта способность должна быть нацелена на заклинателя.</AG_NeedToTargetCaster>
+	<!-- EN: Pocket plane is not open at the moment -->
+	<AG_PocketPlaneMapNotActive>Карманное измерение сейчас не открыто.</AG_PocketPlaneMapNotActive>
+	<!-- EN: {0} can't collapse a pocket plane while being inside it! -->
+	<AG_PawnCantCollapsePocket>{0} не может свернуть карманное измерение, находясь внутри него!</AG_PawnCantCollapsePocket>
+	<!-- EN: Items cannot be transferred out of a pocket plane. -->
+	<AG_CantTeleportItemsOutOfPocketPlane>Предметы нельзя вынести из карманного измерения.</AG_CantTeleportItemsOutOfPocketPlane>
+	<!-- EN: {0} is not a fleshbeast! -->
+	<AG_OnlyOnFleshbeasts>{0} — не зверь из плоти!</AG_OnlyOnFleshbeasts>
+	<!-- EN: {0} is too big to be affected by this ability! -->
+	<AG_FleshbeastTooBig>{0} слишком велик, чтобы на него могла повлиять эта способность!</AG_FleshbeastTooBig>
+	<!-- EN: The original location is no longer available! {0} is trapped forever in this pocket plane! -->
+	<AG_TrappedForever>Исходная локация больше недоступна! {0} навсегда застрял в этом карманном измерении!</AG_TrappedForever>
+	<!-- EN: This ability is only usable in a colony map -->
+	<AG_OnlyPlayerHome>Эту способность можно использовать только на карте колонии.</AG_OnlyPlayerHome>
+	<!-- EN: Can only be built by someone with the Forsaken Knowledge gene -->
+	<AG_NeedsForsakenKnowledge>Построить это может только носитель гена «Отрекшиеся знания».</AG_NeedsForsakenKnowledge>
+	<!-- EN: Can only be used by someone with the Forsaken Knowledge gene -->
+	<AG_NeedsForsakenKnowledgeToWield>Использовать это может только носитель гена «Отрекшиеся знания».</AG_NeedsForsakenKnowledgeToWield>
+	<!-- EN: Choose gene to remove -->
+	<AG_ChooseGeneToRemove>Выберите ген для удаления</AG_ChooseGeneToRemove>
+	<!-- EN: Choose endogene to turn into xenogene -->
+	<AG_ChooseEndogeneToConvert>Выберите наследуемый ген, который нужно превратить в ксеноген</AG_ChooseEndogeneToConvert>
+	<!-- EN: Choose xenogene to turn into endogene -->
+	<AG_ChooseXenogeneToConvert>Выберите ксеноген, который нужно превратить в наследуемый ген</AG_ChooseXenogeneToConvert>
+	<!-- EN: Target lacks endogenes -->
+	<AG_NoEndogenes>У цели нет наследуемых генов</AG_NoEndogenes>
+	<!-- EN: Target lacks xenogenes -->
+	<AG_NoXenogenes>У цели нет ксеногенов</AG_NoXenogenes>
+	<!-- EN: Target lacks any genes -->
+	<AG_NoGenesAtAll>У цели отсутствуют гены</AG_NoGenesAtAll>
+	<!-- EN: This ability only works on Nightlings -->
+	<AM_OnlyNightlings>Эта способность действует только на найтлингов.</AM_OnlyNightlings>
+	<!-- EN: This Nightling is not a wild animal -->
+	<AM_OnlyWildNightlings>Этот найтлинг не является диким животным.</AM_OnlyWildNightlings>
+	<!-- EN: He's dead, Jim -->
+	<AM_NightlingDead>Он мертв, Джим</AM_NightlingDead>
+	<!-- Settings -->
+	<!-- EN: Disable unstable mutations message -->
+	<AG_DisableMutationsMessage>Отключить сообщения о нестабильных мутациях</AG_DisableMutationsMessage>
+	<!-- EN: By default, the three "unstable mutations" genes will display a pop up message telling you which genes have been acquired by each colonist. This is fine if you have one colonist, not so fine if you have 20... With this options toggle you can remove those messages. -->
+	<AG_DisableMutationsMessage_Description>По умолчанию три гена нестабильных мутаций показывают всплывающее сообщение о том, какие гены получил каждый поселенец. Если поселенец один, это удобно; если их уже 20, такие сообщения быстро начинают мешать. Эта настройка отключает их.</AG_DisableMutationsMessage_Description>
+	<!-- EN: Disable thalassophobia message -->
+	<AG_DisableThalassophobiaMessage>Отключить сообщения о талассофобии</AG_DisableThalassophobiaMessage>
+	<!-- EN: By default, every time a pawn with the thalassophobia gene flees from water the game will generate a letter informing the player. This may be a bit too much if you have many pawns fleeing often, so you can disable it with this toggle. Bear in mind the pawns will still flee, you'll just NOT get informed. -->
+	<AG_DisableThalassophobiaMessage_Description>По умолчанию игра отправляет письмо каждый раз, когда поселенец с геном гидрофобии пугается воды и убегает. Если таких поселенцев много, поток уведомлений может стать слишком навязчивым. Эта настройка отключает письма, но не само поведение: поселенцы всё равно будут убегать.</AG_DisableThalassophobiaMessage_Description>
+	<!-- EN: Genetic tools cause gene removal coma -->
+	<AG_GeneRemovalComa>Кома удаления генов</AG_GeneRemovalComa>
+	<!-- EN: Using any genetic tool causes a gene removal coma that lasts for 3 days, knocking the colonist out, and no other tool can be used in that period. This is ON by default for balance. -->
+	<AG_GeneRemovalComa_Description>Использование любого генетического инструмента вызывает генетическую кому на 3 дня, выводя колониста из строя. В это время нельзя применять другие инструменты. Для баланса эта опция включена по умолчанию.</AG_GeneRemovalComa_Description>
+	<!-- EN: Disable Abandoned Biotech Lab quests -->
+	<AG_DisableQuests>Отключить задания заброшенной биотехнологической лаборатории</AG_DisableQuests>
+	<!-- EN: Disables Abandoned Biotech Lab quests from triggering. Bear in mind these quests are independent of any other quests or storyteller events (raids, manhunters, etc). WARNING: disabling this will make most alpha genes and genetic tools unobtainable during normal gameplay. -->
+	<AG_DisableQuests_Description>Отключает появление заданий о заброшенной биотехнологической лаборатории. Эти квесты не заменяют обычные задания и события рассказчика, а работают отдельно. Важно: если отключить их, большую часть альфа-генов и генетических инструментов нельзя будет получить в обычной игре.</AG_DisableQuests_Description>
+	<!-- EN: Abandoned Biotech Labs multiplier (lower means getting the event more often) -->
+	<AG_QuestRate>Множитель частоты квеста о заброшенной биотехнологической лаборатории</AG_QuestRate>
+	<!-- EN: The frequency of the Abandoned Biotech Lab quest being offered is multiplied by this number (with a multiplier of 1, it is offered every between 15 and 30 days at random). Numbers below 1 decrease the time, while numbers above it increase it. Note that this event doesn't "replace" normal quests, it works independently. -->
+	<AG_QuestRateTooltip>Частота появления квеста «Заброшенная биотехнологическая лаборатория» умножается на это значение. При множителе 1 квест появляется случайным образом примерно раз в 15-30 дней. Значения ниже 1 сокращают интервал, а выше него — увеличивают. Этот квест не заменяет обычные задания и работает независимо от них.</AG_QuestRateTooltip>
+	<!-- EN: Reset -->
+	<AG_Reset>Сброс</AG_Reset>
+	<!-- EN: Show ALL animal summon genes (requires game reload) -->
+	<AG_ShowAllAnimalSummonGenes>Показать ВСЕ гены призыва животных (требуется перезагрузка игры)</AG_ShowAllAnimalSummonGenes>
+	<!-- EN: If selected, ALL animal summon genes will be shown on the xenotype creator screen. Bear in mind these genes will draw from all animals, vanilla or modded, so this can get out of control fast! By default, they are hidden, and three genes are shown that choose one of them at random. -->
+	<AG_ShowAllAnimalSummonGenes_Description>Если включить эту опцию, на экране создания ксенотипа будут показаны ВСЕ гены призыва животных. Имейте в виду, что они будут тянуться из полного списка животных, включая ванильных и модовых, поэтому количество вариантов быстро выйдет из-под контроля. По умолчанию эти гены скрыты, а вместо них показываются три случайных варианта.</AG_ShowAllAnimalSummonGenes_Description>
+	<!-- EN: Give random shambler-only genes to shamblers -->
+	<AG_RandomGenesToShamblers>Выдавать шамблерам случайные гены, предназначенные только для них</AG_RandomGenesToShamblers>
+	<!-- EN: If active, any shambler appearing on the map will get a bunch (1-3) of random shambler-only genes. -->
+	<AG_RandomGenesToShamblers_Description>Если опция включена, каждый появившийся на карте шамблер получит набор из 1-3 случайных генов, предназначенных только для шамблеров.</AG_RandomGenesToShamblers_Description>
+	<!-- EN: {0} has syphoned the {1} gene! -->
+	<AG_GeneSyphoned>{0} похищает ген «{1}»!</AG_GeneSyphoned>
+</LanguageData>

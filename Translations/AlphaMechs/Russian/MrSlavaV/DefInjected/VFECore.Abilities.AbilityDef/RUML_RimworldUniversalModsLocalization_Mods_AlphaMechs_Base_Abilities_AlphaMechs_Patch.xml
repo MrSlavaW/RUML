@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AMVPE_EMPBlast.label>ЭМИ-взрыв</AMVPE_EMPBlast.label>
+  <AMVPE_EMPBlast.description>Вызывает мощный электромагнитный импульс, способный временно вывести из строя механоидов.</AMVPE_EMPBlast.description>
+  <AMVPE_MechSkip.label>призыв механоида</AMVPE_MechSkip.label>
+  <AMVPE_MechSkip.description>Псионически перемещает черного скарабея для помощи в обороне поселения. Черный скарабей остается в течение дня, после чего исчезает, и враждебен к любым внешним угрозам.</AMVPE_MechSkip.description>
+</LanguageData>

@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMemesExpanded\Defs\PreceptDefs\Precepts_Recreation.xml -->
+	<!--                       EN: abhorrent -->
+	<AM_Recreation_Abhorrent.label>отвратителен</AM_Recreation_Abhorrent.label>
+	<!--                             EN: Recreation is a complete waste of time. We have much more important things to do than indulging in meaningless recreational activities.\n\n&lt;color=#E5E54C&gt;Stats:&lt;/color&gt;\n - Colonists get -15 mood for half a day after doing a recreation job. -->
+	<AM_Recreation_Abhorrent.description>Отдых – это пустая трата времени. У нас есть гораздо более важные дела, чем бессмысленные развлечения.\n\n&lt;color=#E5E54C&gt;Статистика:&lt;/color&gt;\n - Поселенцы получают -15 настроения на полдня после выполнения развлекательной работы.</AM_Recreation_Abhorrent.description>
+</LanguageData>

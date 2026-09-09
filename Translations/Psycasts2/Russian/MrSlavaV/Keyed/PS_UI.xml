@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<PS_Confirm>Подтвердить</PS_Confirm>
+	<PS_Cancel>Отмена</PS_Cancel>
+	<PS_Invest>Вложить очко</PS_Invest>
+	<PS_InvestTitle>Вложить очко навыка</PS_InvestTitle>
+	<PS_InvestBodyMulti>Повысить {0} с уровня {1} до {2}?
+На это будет потрачено очков псионики: {3}.</PS_InvestBodyMulti>
+	<PS_InvestBodyOne>Повысить {0} до уровня {1}?
+На это будет потрачено 1 очко псионики.</PS_InvestBodyOne>
+	<PS_InvestBonus>Бонус способности: +{0} → +{1}.
+Зажмите Shift при клике, чтобы пропустить подтверждение.</PS_InvestBonus>
+	<PS_PilgrimUnbound>Любой</PS_PilgrimUnbound>
+	<PS_PilgrimTrialAltar>Боевой</PS_PilgrimTrialAltar>
+	<PS_PilgrimWayAnima>Мирный</PS_PilgrimWayAnima>
+	<PS_PilgrimPathBtn>Путь странствия: {0}  ▾</PS_PilgrimPathBtn>
+	<PS_PilgrimPathTip>Дорога, по которой псионик отправится к следующей ступени просветления:
+
+• Испытание у Алтаря (боевой): священное место, которое нужно удерживать против волн Древнего Ордена Псиоников.
+• Путь древа Анимы (мирный): продолжительное паломничество среди древ Анимы без кровопролития.
+• Любой: позволить судьбе (рассказчику) выбрать путь.</PS_PilgrimPathTip>
+	<PS_MsgNoViolencePilgrim>{0} не способен к насилию, поэтому всегда выбирает мирное паломничество к древу Анимы.</PS_MsgNoViolencePilgrim>
+	<PS_DefaultFocusBtn>Основной фокус: {0}  ▾</PS_DefaultFocusBtn>
+	<PS_DefaultFocusTip>Личное предпочтение типа медитации. Используется, когда колонист медитирует у объекта без заданной настройки.
+
+Приоритет: настройка объекта → выбор колониста → родной фокус объекта → без фокуса.</PS_DefaultFocusTip>
+	<PS_FocusAny>любой</PS_FocusAny>
+	<PS_FocusAnyDefer>Любой (по объекту / чертам)</PS_FocusAnyDefer>
+	<PS_FocusAnyTrait>Любой (с весом черт)</PS_FocusAnyTrait>
+	<PS_ResetSkills>Сбросить навыки</PS_ResetSkills>
+	<PS_ResetSkillsN>Сбросить способности ({0})</PS_ResetSkillsN>
+	<PS_ResetSkillsBody>Забыть все пси-способности и вернуть очки, потраченные на их изучение и прокачку? Открытые пути сохраняются. (Бесплатно.)</PS_ResetSkillsBody>
+	<PS_ResetPath>Сбросить путь</PS_ResetPath>
+	<PS_ResetPathTitle>Сбросить путь — понизить ступень</PS_ResetPathTitle>
+	<PS_ResetPathBody>Отказаться от наивысшей ступени просветления? Этот путь и все изученные в нем способности будут удалены, и вам придется заново заслужить эту ступень, чтобы сделать иной выбор.</PS_ResetPathBody>
+	<PS_MsgNoPsycastsToReset>Нет изученных способностей для сброса.</PS_MsgNoPsycastsToReset>
+	<PS_MsgNoTierToSurrender>Нет ступени просветления для сброса.</PS_MsgNoTierToSurrender>
+	<PS_MsgSkillsReset>{0} сбрасывает свои пси-способности — возвращено очков: {1}.</PS_MsgSkillsReset>
+	<PS_MsgSkillMastered>{0} достигает абсолютного мастерства в {1} (уровень {2}).</PS_MsgSkillMastered>
+	<PS_MsgPsylinkFaded>Пси-связь у {0} угасает — больше не псионик. Требуется повторное пробуждение через медитацию.</PS_MsgPsylinkFaded>
+	<PS_MsgTierSurrendered>{0} отказывается от высшей ступени{1} — заслужите ее заново, чтобы выбрать другой путь.</PS_MsgTierSurrendered>
+	<PS_TierSurrenderedPath> (путь: {0})</PS_TierSurrenderedPath>
+	<PS_FocusTypeLabel>Тип фокуса: {0}</PS_FocusTypeLabel>
+	<PS_FocusTypeDesc>Настроить этот объект медитации на конкретный тип психофокуса.
+
+Обычный колонист, медитирующий здесь, будет направлен к школам псионики этого типа при получении Просветления. Оставьте «любой», чтобы выбор определялся его чертами характера.</PS_FocusTypeDesc>
+	<PS_FocusStrengthFor>Сила медитации для {0}: {1} / день</PS_FocusStrengthFor>
+	<PS_FocusStrength>Сила медитации: {0} / день</PS_FocusStrength>
+	<PS_StopMeditating>Прекратить медитацию</PS_StopMeditating>
+	<PS_StopMeditatingDesc>Этот колонист непрерывно медитирует. Нажмите, чтобы остановить его и вернуть к обычному расписанию.</PS_StopMeditatingDesc>
+	<PS_AuraLabel>Психическая аура</PS_AuraLabel>
+	<PS_AuraDesc>Переключить отображение косметической ауры Апофеоза вокруг колониста. Чисто визуальный эффект — не влияет на характеристики.</PS_AuraDesc>
+	<PS_ChargesTip>Заряды свободного применения: {0} / {1}
+Бесплатно, пока остается &gt;1. Последний заряд (1→0) расходует полную стоимость и запускает перезарядку.</PS_ChargesTip>
+	<PS_AutoStatsNote>Характеристики растут автоматически с каждым уровнем</PS_AutoStatsNote>
+	<PS_SpecPointsHeader>★ Очки специализации: {0}</PS_SpecPointsHeader>
+	<PS_SpecPanHint>Перетаскивание для панорамы • Колесико для масштаба</PS_SpecPanHint>
+	<PS_SpecBonuses>Бонусы и перки</PS_SpecBonuses>
+	<PS_SpecAvailable>Доступно очков: {0}</PS_SpecAvailable>
+	<PS_SpecPending>Выбрано перков: {0}, очков: {1}  →  останется: {2}</PS_SpecPending>
+	<PS_SpecAllStats>Все характеристики:  +{0}%</PS_SpecAllStats>
+	<PS_SpecSynRecv>Получаемая синергия:  ×{0}</PS_SpecSynRecv>
+	<PS_SpecCapBonus>Лимит уровня навыка:  +{0}</PS_SpecCapBonus>
+	<PS_SpecNone>Специализаций пока нет.</PS_SpecNone>
+	<PS_SpecPerksN>Перки ({0}):</PS_SpecPerksN>
+	<PS_SpecResetRefund>Сбросить все — вернуть {0} ★</PS_SpecResetRefund>
+	<PS_SpecResetAll>Сбросить все</PS_SpecResetAll>
+	<PS_SpecApplyN>Применить {0} ({1} очк.)</PS_SpecApplyN>
+	<PS_SpecApply>Применить</PS_SpecApply>
+	<PS_SpecClear>Очистить</PS_SpecClear>
+	<PS_SpecBranchCost>{0}  •  {1} очк.</PS_SpecBranchCost>
+	<PS_SpecRequires>Требуется: {0}</PS_SpecRequires>
+	<PS_SpecRequiresAny>Требуется любой из: {0}</PS_SpecRequiresAny>
+	<PS_SpecOwned>✓ Изучено</PS_SpecOwned>
+	<PS_SpecStaged>◆ Выбрано — нажмите для отмены</PS_SpecStaged>
+	<PS_SpecLockedApo>Заблокировано — вы уже выбрали другой путь Апофеоза</PS_SpecLockedApo>
+	<PS_SpecLockedExcl>Заблокировано — вы уже выбрали перк из этой взаимоисключающей группы</PS_SpecLockedExcl>
+	<PS_SpecLockedPrereq>Заблокировано — предварительные условия не выполнены</PS_SpecLockedPrereq>
+	<PS_NoUnlockedPaths>Нет открытых путей. Новые пути открываются через карты пробуждения.</PS_NoUnlockedPaths>
+	<PS_Undiscovered>Не открыто</PS_Undiscovered>
+	<PS_RosterTitle>Псионики</PS_RosterTitle>
+	<PS_RosterBlurb>{0} псиоников, {1} на пути к пробуждению, {2} не развиваются</PS_RosterBlurb>
+	<PS_RosterOptCaptives>Включая пленников и рабов</PS_RosterOptCaptives>
+	<PS_RosterOptHide>Скрывать тех, кто не может пробудиться</PS_RosterOptHide>
+	<PS_RosterSelected>Выбрано: {0}</PS_RosterSelected>
+	<PS_RosterSelectPrompt>Выберите псионика</PS_RosterSelectPrompt>
+	<PS_RosterFooter>Медитация колонии сегодня {0} ч, окно пробуждения {1} ч, гарантия паломничества {2} ч, база трансцендентности {3} ч</PS_RosterFooter>
+	<PS_ColPawn>Колонист</PS_ColPawn>
+	<PS_ColTier>Ступень</PS_ColTier>
+	<PS_ColLevel>Уровень</PS_ColLevel>
+	<PS_ColPaths>Пути</PS_ColPaths>
+	<PS_ColMeditation>Медитация</PS_ColMeditation>
+	<PS_ColMilestone>След. веха</PS_ColMilestone>
+	<PS_ColExpected>Ожидается</PS_ColExpected>
+	<PS_GrpPsycasters>Псионики</PS_GrpPsycasters>
+	<PS_GrpOnThePath>На пути к пробуждению</PS_GrpOnThePath>
+	<PS_GrpNotProgressing>Не развиваются</PS_GrpNotProgressing>
+	<PS_GrpNotProgressingWhy>медитация не назначена или маршрут отключен</PS_GrpNotProgressingWhy>
+	<PS_RosterDormant>Спит</PS_RosterDormant>
+	<PS_RosterTierRoman>Ступень {0}</PS_RosterTierRoman>
+	<PS_RosterPrisoner>Пленник</PS_RosterPrisoner>
+	<PS_RosterSlave>Раб</PS_RosterSlave>
+	<PS_RosterNoPath>Нет пути</PS_RosterNoPath>
+	<PS_RosterNoFocus>Фокус не выбран</PS_RosterNoFocus>
+	<PS_RosterFocus>Фокус: {0}</PS_RosterFocus>
+	<PS_RosterFlagPick>Ожидает выбор пути</PS_RosterFlagPick>
+	<PS_RosterFlagPoints>Не распределено очков: {0}</PS_RosterFlagPoints>
+	<PS_RosterFlagComa>Психическая кома, осталось {0}</PS_RosterFlagComa>
+	<PS_RosterCaptiveTip>Пленники и рабы не накапливают прогресс медитации. Ранее накопленное сохраняется, прогресс возобновится, если они вступят в колонию.</PS_RosterCaptiveTip>
+	<PS_MedNow>Медитирует</PS_MedNow>
+	<PS_MedIdle>По расписанию</PS_MedIdle>
+	<PS_MedNotScheduled>Не назначено</PS_MedNotScheduled>
+	<PS_MedComa>В коме</PS_MedComa>
+	<PS_MedPilgrimage>В паломничестве</PS_MedPilgrimage>
+	<PS_MedCannot>Не может медитировать</PS_MedCannot>
+	<PS_MedPerDay>{0} ч/день</PS_MedPerDay>
+	<PS_MedToday>{0} ч сегодня</PS_MedToday>
+	<PS_MsAwakening>Пробуждение</PS_MsAwakening>
+	<PS_MsPilgrimage>Паломничество, {0}</PS_MsPilgrimage>
+	<PS_MsUnderway>Паломничество начато</PS_MsUnderway>
+	<PS_MsTranscendence>Трансцендентность</PS_MsTranscendence>
+	<PS_MsChanceOnly>Только шанс</PS_MsChanceOnly>
+	<PS_MsOtherRoute>Другой маршрут</PS_MsOtherRoute>
+	<PS_MsDisabled>Отключено</PS_MsDisabled>
+	<PS_MsNone>Нет вехи</PS_MsNone>
+	<PS_EtaDays>{0} дн.</PS_EtaDays>
+	<PS_EtaHours>{0} ч</PS_EtaHours>
+	<PS_EtaImminent>В любой момент</PS_EtaImminent>
+	<PS_EtaNone>Нет оценки</PS_EtaNone>
+	<PS_EtaChanceOnly>Только шанс</PS_EtaChanceOnly>
+	<PS_EtaStoryteller>Только рассказчик</PS_EtaStoryteller>
+	<PS_EtaOtherRoute>Другой маршрут</PS_EtaOtherRoute>
+	<PS_EtaNotAccruing>Не накапливается</PS_EtaNotAccruing>
+	<PS_EtaUnderway>В процессе</PS_EtaUnderway>
+	<PS_EtaSiteFades>до исчезновения места</PS_EtaSiteFades>
+	<PS_EtaBasisRate>при {0} ч/день</PS_EtaBasisRate>
+	<PS_EtaBasisToday>сегодня на данный момент</PS_EtaBasisToday>
+	<PS_EtaTip>При текущем темпе медитации колонист достигнет цели около {0}. Оценка основана на скользящем среднем часов медитации в день.</PS_EtaTip>
+	<PS_BtnOpenTab>Открыть вкладку псионики</PS_BtnOpenTab>
+	<PS_BtnConstellation>Созвездие</PS_BtnConstellation>
+	<PS_BtnFocus>Задать фокус по умолчанию</PS_BtnFocus>
+	<PS_BtnJump>Перейти к колонисту</PS_BtnJump>
+	<PS_BarComa>Риск комы</PS_BarComa>
+	<PS_BarComaTip>Медитация сегодня: {0} ч из {1} ч безопасного окна. Сверх этого окна каждый час медитации создает риск психической комы (текущий риск: {2} в час, серия {3} ч). Длительные непрерывные серии и откладывание карт повышают риск. Медитация в месте паломничества всегда безопасна.</PS_BarComaTip>
+	<PS_BarLevel>След. уровень</PS_BarLevel>
+	<PS_BarLevelTip>Опыт псионика до следующего уровня. Медитация дает плавный приток опыта, применение заклинаний — больше, а поток древних знаний дарует крупную вспышку опыта.</PS_BarLevelTip>
+	<PS_BarMax>Макс.</PS_BarMax>
+	<PS_BarPilgrim>Паломничество</PS_BarPilgrim>
+	<PS_BarPilgrimTip>Накопленная медитация для гарантированного предложения паломничества. Рассказчик может предложить его раньше самостоятельно. Прогресс сохраняется при провале. Подъем к III ступени требует в полтора раза больше времени.</PS_BarPilgrimTip>
+	<PS_BarPilgrimUnderway>В процессе</PS_BarPilgrimUnderway>
+	<PS_BarPilgrimUnderwayTip>Паломничество для этой ступени уже предложено или выполняется. Отправьте паломника в указанное место для медитации.</PS_BarPilgrimUnderwayTip>
+	<PS_BarPilgrimStoryteller>Только рассказчик</PS_BarPilgrimStoryteller>
+	<PS_BarPilgrimStorytellerTip>Гарантированное паломничество отключено в настройках. Паломничества возникают только по воле рассказчика.</PS_BarPilgrimStorytellerTip>
+	<PS_BarTranscend>Трансцендентность</PS_BarTranscend>
+	<PS_BarTranscendTip>Медитация для перехода на следующую ступень Трансцендентности. Каждая последующая ступень требует больше усилий.</PS_BarTranscendTip>
+	<PS_BarHoursFmt>{0} / {1} ч</PS_BarHoursFmt>
+	<PS_BarXpFmt>{0} / {1} XP</PS_BarXpFmt>
+	<PS_SpecNeedPoints>Нужно больше очков</PS_SpecNeedPoints>
+	<PS_SpecClickStage>Нажмите узел для выбора</PS_SpecClickStage>
+	<PS_MsgOneApo>Можно выбрать только один путь Апофеоза (Спокойный Разум, Трансцендентность или Теневой Владыка).</PS_MsgOneApo>
+	<PS_MsgOneMeta>Можно выбрать только один перк из: Переполнение, Мастерство, Дисциплина или Настройка.</PS_MsgOneMeta>
+	<PS_MsgPrereqs>Предварительные условия не выполнены.</PS_MsgPrereqs>
+	<PS_MsgNoSpecPoints>Недостаточно очков специализации.</PS_MsgNoSpecPoints>
+	<PS_SpecResetTitle>Сбросить специализации</PS_SpecResetTitle>
+	<PS_SpecResetBody>Вернуть все специализации? Все потраченные очки вернутся в запас, все выбранные узлы сбросятся, а путь Апофеоза будет отменен. (Бесплатно.)</PS_SpecResetBody>
+	<PS_MsgNoChoices>Доступных вариантов пока нет (сначала изучите больше способностей).</PS_MsgNoChoices>
+	<PS_SpecTabTip>Специализации — {0} очк.</PS_SpecTabTip>
+	<PS_TierBadgeTip>Просветление: {0} ({1} ступень)</PS_TierBadgeTip>
+	<PS_Branch_Root>Исток</PS_Branch_Root>
+	<PS_Branch_Offense>Атака</PS_Branch_Offense>
+	<PS_Branch_Control>Контроль</PS_Branch_Control>
+	<PS_Branch_Ward>Защита</PS_Branch_Ward>
+	<PS_Branch_Flow>Поток</PS_Branch_Flow>
+	<PS_Branch_Apex>Апекс</PS_Branch_Apex>
+	<PS_Branch_Mod>Модификация</PS_Branch_Mod>
+	<PS_Branch_Halcyon>Безмятежность</PS_Branch_Halcyon>
+	<PS_Branch_Singularity>Сингулярность</PS_Branch_Singularity>
+	<PS_Branch_Penumbra>Полутень</PS_Branch_Penumbra>
+	<PS_Branch_Empyrean>Эмпирей</PS_Branch_Empyrean>
+	<PS_Branch_Pandemonium>Пандемониум</PS_Branch_Pandemonium>
+	<PS_Branch_Chronos>Хронос</PS_Branch_Chronos>
+	<PS_Branch_Consonance>Созвучие</PS_Branch_Consonance>
+	<PS_TipRecvSuffix> получает усиление от:</PS_TipRecvSuffix>
+	<PS_Stat_Power>Урон</PS_Stat_Power>
+	<PS_Stat_Radius>Область</PS_Stat_Radius>
+	<PS_Stat_Duration>Длительность</PS_Stat_Duration>
+	<PS_Stat_Strength>Сила эффекта</PS_Stat_Strength>
+	<PS_Stat_Range>Дистанция</PS_Stat_Range>
+	<PS_Stat_Cooldown>Перезарядка</PS_Stat_Cooldown>
+	<PS_Stat_Targets>Цели</PS_Stat_Targets>
+	<PS_Stat_Charges>Заряды</PS_Stat_Charges>
+	<PS_Stat_Efficiency>Затраты</PS_Stat_Efficiency>
+	<PS_Stat_Haste>Скорость применения</PS_Stat_Haste>
+	<PS_Stat_Yield>Возврат пси-фокуса</PS_Stat_Yield>
+	<PS_Stat_Insight>Опыт псионики</PS_Stat_Insight>
+	<PS_Stat_ProjectileCount>Снаряды</PS_Stat_ProjectileCount>
+	<PS_Stat_SummonCount>Призывы</PS_Stat_SummonCount>
+	<PS_PerLevel>{0} за уровень</PS_PerLevel>
+	<PS_ChargesPerLevel>+{0} зарядов за уровень</PS_ChargesPerLevel>
+	<PS_NowParen>  (сейчас {0})</PS_NowParen>
+	<PS_LvCharges>Ур.{0} → +{1} зарядов</PS_LvCharges>
+	<PS_Lv0Charges>Ур.0 → +{0}/ур. зарядов</PS_Lv0Charges>
+	<PS_LvValue>Ур.{0} → {1}</PS_LvValue>
+	<PS_AndMore>и еще {0}</PS_AndMore>
+	<PS_AlsoEmpowers>{0} также усиливает:  {1}</PS_AlsoEmpowers>
+	<PS_EachLevelPrimary>Каждый уровень: {0} (осн.)</PS_EachLevelPrimary>
+	<PS_TipSkillLevel>Уровень навыка</PS_TipSkillLevel>
+	<PS_TipCurrentEffects>Текущие эффекты:</PS_TipCurrentEffects>
+	<PS_TipNoMates>Нет способностей этой ветки для синергии.</PS_TipNoMates>
+	<PS_TipMoreRows>+{0} еще…</PS_TipMoreRows>
+	<PS_TipHoldShift>⇧  Удерживайте Shift для подробностей и синергий</PS_TipHoldShift>
+	<PS_TipPsyfocus>пси-фокуса</PS_TipPsyfocus>
+	<PS_TipHeat>перегрева</PS_TipHeat>
+	<PS_TipCastCost>Затраты на применение</PS_TipCastCost>
+	<PS_TipCostPerLevel>Затраты / уровень</PS_TipCostPerLevel>
+	<PS_TipCostPerLevelVal>+{0} пси-фокуса и перегрева</PS_TipCostPerLevelVal>
+	<PS_TipMaxLevel>Достигнут максимальный уровень ({0})</PS_TipMaxLevel>
+	<PS_TipReqLevel>Требуемый уровень: {0}</PS_TipReqLevel>
+	<PS_TipNotLearned>Не изучено — откройте в древе, чтобы начать прокачку</PS_TipNotLearned>
+	<PS_TipClickInvest>ЛКМ для вложения  •  Shift+ЛКМ без подтверждения</PS_TipClickInvest>
+	<PS_TipLockedLevel>Заблокировано — повысьте уровень псионика</PS_TipLockedLevel>
+	<PS_TipMaxReached>Достигнут максимальный уровень</PS_TipMaxReached>
+	<PS_FxBlastRadius>Радиус взрыва</PS_FxBlastRadius>
+	<PS_FxBlastDamage>Урон от взрыва</PS_FxBlastDamage>
+	<PS_FxRadius>Радиус</PS_FxRadius>
+	<PS_FxTiles>{0} кл.</PS_FxTiles>
+	<PS_FxFreeCharges>Заряды свободного применения</PS_FxFreeCharges>
+	<PS_FxPerCast>{0} за применение (выбор при прицеливании)</PS_FxPerCast>
+	<PS_FxTimeReduction>-{0} времени</PS_FxTimeReduction>
+	<PS_FxBonusXp>Бонусный опыт псионики</PS_FxBonusXp>
+	<PS_FxProjectileDamage>Урон снаряда</PS_FxProjectileDamage>
+	<PS_FxUnscaled>{0} (без масштабирования)</PS_FxUnscaled>
+	<PS_FxTargetSuffers>Эффект на цель</PS_FxTargetSuffers>
+	<PS_FxCasterGains>Заклинатель получает</PS_FxCasterGains>
+	<PS_FxTargetGains>Цель получает</PS_FxTargetGains>
+</LanguageData>

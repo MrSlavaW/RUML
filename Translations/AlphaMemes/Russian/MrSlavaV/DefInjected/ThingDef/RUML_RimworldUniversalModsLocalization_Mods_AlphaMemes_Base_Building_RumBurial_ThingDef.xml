@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\ThingDefs\Building_RumBurial.xml -->
+	<!--                EN: corpse rum vat -->
+	<AM_RumBurialSpot.label>чан для трупного рома</AM_RumBurialSpot.label>
+	<!--                      EN: Pirates have to use everything to get rum, this invention turns corpses into delicious rum! -->
+	<AM_RumBurialSpot.description>Пиратам приходится использовать все, чтобы добыть ром, а это изобретение превращает трупы во вкуснейший ром!</AM_RumBurialSpot.description>
+</LanguageData>

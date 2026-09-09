@@ -1,0 +1,19 @@
+<LanguageData>
+	<!-- 1.6\Defs\HediffDefs\Hediffs_Armour.xml -->
+	<!--             EN: fungal skin -->
+	<AG_FungalSkin.label>Грибковая кожа</AG_FungalSkin.label>
+	<!--                   EN: Several fungal clumps are sprouting from this person's skin. These fungi cause them no pain and provide a considerable amount of natural armor, at the cost of making them VERY vulnerable to fire. -->
+	<AG_FungalSkin.description>У носителей этого гена на коже растут небольшие грибковые наросты. Они не причиняют боли и обеспечивают заметную естественную броню, но из-за этого носители становятся очень уязвимыми к огню.</AG_FungalSkin.description>
+	<!--              EN: bark skin -->
+	<AG_ArmourMinor.label>Кожа коры</AG_ArmourMinor.label>
+	<!--                    EN: Hard, bark-like skin. This confers a small amount of natural armour. -->
+	<AG_ArmourMinor.description>Носители этого гена обладают твёрдой, похожей на кору кожей. Она даёт небольшой объём природной брони.</AG_ArmourMinor.description>
+	<!--               EN: ferrous skin -->
+	<AG_ArmourMedium.label>Железная кожа</AG_ArmourMedium.label>
+	<!--                     EN: Skin strengthened by a nano-lattice of metallic compounds. This confers a medium amount of natural armour. -->
+	<AG_ArmourMedium.description>Кожа носителей этого гена укреплена наноструктурой металлических соединений.</AG_ArmourMedium.description>
+	<!--              EN: plasteel skin -->
+	<AG_ArmourMajor.label>Пласталевая кожа</AG_ArmourMajor.label>
+	<!--                    EN: Skin strengthened by a plasteel nano-lattice. This confers a great amount of natural armour. -->
+	<AG_ArmourMajor.description>Кожа носителей этого гена усилена пласталевой нанорешёткой. Это даёт значительный объём природной брони.</AG_ArmourMajor.description>
+</LanguageData>

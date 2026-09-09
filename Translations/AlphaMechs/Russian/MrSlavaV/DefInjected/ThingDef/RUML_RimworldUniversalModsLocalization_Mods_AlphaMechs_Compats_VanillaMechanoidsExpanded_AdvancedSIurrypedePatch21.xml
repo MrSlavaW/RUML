@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\OskarPotocki_VFE_Mechanoid\AdvancedSIurrypedePatch18.xml -->
+	<!--                                                    EN: pristine slurrymaster -->
+	<AM_Mech_Advanced_PristineSlurrypede_PlayerControlled.label>безупречный слирримастер</AM_Mech_Advanced_PristineSlurrypede_PlayerControlled.label>
+	<!--                                                          EN: The Slurrymaster is an advanced version of the Slurrypede. This extremely rare bio-mechanical creature is the result of a batch of mechanoids receiving a hardware upgrade. The Slurrymaster is a modified bio-mechanoid capable of extracting energy from standard mech rechargers and use it to process inorganic matter into a homogeneous organic slurry. This slurry is virtually indistinguishable from nutrient paste produced in a nutrient paste dispenser. -->
+	<AM_Mech_Advanced_PristineSlurrypede_PlayerControlled.description>Слирримастер — усовершенствованная версия слиррипеда. Это чрезвычайно редкое биомеханическое существо появляется, когда группа механоидов получает редкое аппаратное улучшение. Слирримастер способен извлекать энергию из обычных зарядных устройств для механоидов и перерабатывать неорганическое вещество в однородную органическую массу, почти неотличимую от питательной пасты из дозатора.</AM_Mech_Advanced_PristineSlurrypede_PlayerControlled.description>
+	<!--                                                            EN: голова -->
+	<AM_Mech_Advanced_PristineSlurrypede_PlayerControlled.tools.0.label>голова</AM_Mech_Advanced_PristineSlurrypede_PlayerControlled.tools.0.label>
+</LanguageData>

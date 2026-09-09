@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_RacesMechanoids\Races_Aura.xml -->
+	<!--       EN: aura -->
+	<AM_Aura.label>аура</AM_Aura.label>
+	<!--                          EN: Plural aura -->
+	<AM_Aura.lifeStages.1.labelPlural>Ауры</AM_Aura.lifeStages.1.labelPlural>
+<AM_Aura.lifeStages.0.labelPlural>Ауры</AM_Aura.lifeStages.0.labelPlural></LanguageData>

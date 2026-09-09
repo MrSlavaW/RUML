@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AG_CoralColumn.description>Колонна из выращенного коралла.</AG_CoralColumn.description>
+  <AG_CoralColumn.label>коралловая колонна</AG_CoralColumn.label>
+  <AG_DecorativeClam.description>Декоративная раковина исполинского моллюска.</AG_DecorativeClam.description>
+  <AG_DecorativeClam.label>гигантский моллюск</AG_DecorativeClam.label>
+  <AG_GreenGas.description>Едкий кислотный туман, разъедающий ткани.</AG_GreenGas.description>
+  <AG_GreenGas.label>кислотный туман</AG_GreenGas.label>
+  <AG_LargeCoralColumn.description>Крупная монолитная коралловая колонна.</AG_LargeCoralColumn.description>
+  <AG_LargeCoralColumn.label>большая коралловая колонна</AG_LargeCoralColumn.label>
+  <AG_LargeLuminescentColumn.description>Массивная биолюминесцентная колонна.</AG_LargeLuminescentColumn.description>
+  <AG_LargeLuminescentColumn.label>большая люминесцентная колонна</AG_LargeLuminescentColumn.label>
+  <AG_LuminescentColumn.description>Светящаяся биолюминесцентная колонна.</AG_LuminescentColumn.description>
+  <AG_LuminescentColumn.label>люминесцентная колонна</AG_LuminescentColumn.label>
+  <AG_TemporaryBandNode.description>Временный генератор пропускной способности механоидов.</AG_TemporaryBandNode.description>
+  <AG_TemporaryBandNode.label>временный связной узел</AG_TemporaryBandNode.label>
+</LanguageData>

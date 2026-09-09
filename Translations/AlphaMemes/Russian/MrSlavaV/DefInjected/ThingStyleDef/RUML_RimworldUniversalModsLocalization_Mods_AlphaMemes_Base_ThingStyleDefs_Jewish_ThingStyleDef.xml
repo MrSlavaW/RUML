@@ -1,0 +1,17 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingStyleDefs\Alpha\ThingStyleDefs_Jewish.xml -->
+	<!--                             EN: duckbill axe -->
+	<AM_Jewish_DuckBillAxe.overrideLabel>утконосый топор</AM_Jewish_DuckBillAxe.overrideLabel>
+	<!--                            EN: leaf short sword -->
+	<AM_Jewish_ShortSword.overrideLabel>листовой короткий меч</AM_Jewish_ShortSword.overrideLabel>
+	<!--                         EN: javelin -->
+	<AM_Jewish_Javelin.overrideLabel>джавелин</AM_Jewish_Javelin.overrideLabel>
+	<!--                         EN: chanith -->
+	<AM_Jewish_Chanith.overrideLabel>ханит</AM_Jewish_Chanith.overrideLabel>
+	<!--                       EN: kidhohn -->
+	<AM_Jewish_Spear.overrideLabel>кидхон</AM_Jewish_Spear.overrideLabel>
+	<!--                       EN: leaf dagger -->
+	<AM_Jewish_Knife.overrideLabel>листовой кинжал</AM_Jewish_Knife.overrideLabel>
+	<!--                       EN: leaf sword -->
+	<AM_Jewish_Sword.overrideLabel>листовой меч</AM_Jewish_Sword.overrideLabel>
+</LanguageData>

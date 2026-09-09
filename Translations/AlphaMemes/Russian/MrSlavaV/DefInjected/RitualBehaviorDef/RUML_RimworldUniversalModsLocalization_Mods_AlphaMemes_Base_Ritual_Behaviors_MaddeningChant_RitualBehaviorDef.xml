@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\MaddeningChant\Ritual_Behaviors_MaddeningChant.xml -->
+	<!--                                 EN: speaker -->
+	<AM_MaddeningChantBehavior.roles.0.label>оратор</AM_MaddeningChantBehavior.roles.0.label>
+	<!--                                   EN: Participants -->
+	<AM_MaddeningChantBehavior.spectatorsLabel>Участники</AM_MaddeningChantBehavior.spectatorsLabel>
+	<!--                                   EN: participate -->
+	<AM_MaddeningChantBehavior.spectatorGerund>Участники</AM_MaddeningChantBehavior.spectatorGerund>
+</LanguageData>

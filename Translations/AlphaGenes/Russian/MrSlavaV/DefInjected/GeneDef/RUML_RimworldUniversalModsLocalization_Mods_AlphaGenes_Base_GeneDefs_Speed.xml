@@ -1,0 +1,29 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Speed.xml -->
+	<!--                EN: armoured speed -->
+	<AG_ArmouredSpeed.label>ТАНК</AG_ArmouredSpeed.label>
+	<!--                      EN: Carriers of this gene move faster while wearing heavy armor. -->
+	<AG_ArmouredSpeed.description>Носители этого гена двигаются быстрее, когда носят тяжелую броню.</AG_ArmouredSpeed.description>
+	<!--                     EN: thermal speed -->
+	<AG_SpeedByTemperature.label>Тепловая скорость</AG_SpeedByTemperature.label>
+	<!--                           EN: Carriers of this gene move fast at high temperatures, at the cost of getting much more tired. Low temperatures will reduce their metabolism, making them slower, but also making them spend less energy staying awake. -->
+	<AG_SpeedByTemperature.description>Носители этого гена быстрее двигаются при высоких температурах, из-за чего сильнее устают. Низкие температуры замедляют их метаболизм, делая их менее подвижными, но и заставляя тратить меньше энергии на бодрствование.</AG_SpeedByTemperature.description>
+	<!--                EN: water striding -->
+	<AG_WaterStriding.label>Дельфин</AG_WaterStriding.label>
+	<!--                      EN: Carriers of this gene move without movement penalties through water. They will ignore terrain movement costs when moving through watery terrains. -->
+	<AG_WaterStriding.description>Носители этого гена передвигаются по воде без штрафов.</AG_WaterStriding.description>
+	<!--                EN: light striding -->
+	<AG_LightStriding.label>Шаги света</AG_LightStriding.label>
+	<!--                      EN: Carriers of this gene move much faster when exposed to the light (50% lit or above), and slower in the dark. -->
+	<AG_LightStriding.description>Носители этого гена движутся намного быстрее при воздействии света (50% освещения или выше) и медленнее в темноте.</AG_LightStriding.description>
+	<!--                EN: night striding -->
+	<AG_NightStriding.label>Шаги тьмы</AG_NightStriding.label>
+	<!--                      EN: Carriers of this gene move much faster when under darkness (below 50% lit), and slower in the light. -->
+	<AG_NightStriding.description>Носители этого гена движутся намного быстрее в темноте (освещенность ниже 50%) и медленнее на свету.</AG_NightStriding.description>
+	<!--                    EN: pollution striding -->
+	<AG_PollutionStriding.label>Шаги загрязнения</AG_PollutionStriding.label>
+	<!--                          EN: Carriers of this gene move much faster when traversing polluted terrain. -->
+	<AG_PollutionStriding.description>Носители этого гена передвигаются намного быстрее при пересечении загрязненной местности.
+
+							 (если есть идеи как переименовать жду в коменты)</AG_PollutionStriding.description>
+</LanguageData>

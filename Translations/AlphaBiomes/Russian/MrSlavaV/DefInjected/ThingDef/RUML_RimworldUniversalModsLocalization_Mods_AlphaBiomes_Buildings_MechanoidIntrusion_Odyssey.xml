@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+<AB_MechanoidReceiver.label>резонансный приёмник механоидов</AB_MechanoidReceiver.label>
+<AB_MechanoidReceiver.description>Широкополосный приёмник, предназначенный для перехвата остаточных сигналов механоидов из окружающей среды. Он декодирует остаточный гул от разгона в низкочастотный звуковой резонанс: едва уловимый, но странно успокаивающий.</AB_MechanoidReceiver.description>
+
+</LanguageData>
+
+

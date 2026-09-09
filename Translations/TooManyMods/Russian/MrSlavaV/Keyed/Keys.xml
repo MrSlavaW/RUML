@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<VPER_PsychicChargeIndicator>Пси-заряд:</VPER_PsychicChargeIndicator>
+	<VPER_MustTargetRuneCircle>Целью должен быть рунный круг.</VPER_MustTargetRuneCircle>
+	<VPER_RuneCircleNotCharged>Этот рунный круг не заряжен.</VPER_RuneCircleNotCharged>
+</LanguageData>

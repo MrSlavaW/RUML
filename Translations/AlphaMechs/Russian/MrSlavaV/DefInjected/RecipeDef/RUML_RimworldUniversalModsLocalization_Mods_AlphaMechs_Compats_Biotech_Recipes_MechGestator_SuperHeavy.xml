@@ -1,0 +1,31 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\RecipeDefs\Recipes_MechGestator_SuperHeavy.xml -->
+	<!--                     EN: gestate siegebreaker -->
+	<AM_SiegebreakerRecipe.label>Собрать механоида «Осадный Разрушитель»</AM_SiegebreakerRecipe.label>
+	<!--                           EN: Gestate a siegebreaker mechanoid. -->
+	<AM_SiegebreakerRecipe.description>Собрать механоида «Осадный Разрушитель».</AM_SiegebreakerRecipe.description>
+	<!--                    EN: gestate siegemelter -->
+	<AM_SiegemelterRecipe.label>Собрать механоида «Осадный Плавитель»</AM_SiegemelterRecipe.label>
+	<!--                          EN: Gestate a siegemelter mechanoid. -->
+	<AM_SiegemelterRecipe.description>Собрать механоида «Осадный Плавитель».</AM_SiegemelterRecipe.description>
+	<!--                 EN: gestate starfire -->
+	<AM_StarfireRecipe.label>Собрать механоида «Старфайр»</AM_StarfireRecipe.label>
+	<!--                       EN: Gestate a starfire mechanoid. -->
+	<AM_StarfireRecipe.description>Собрать механоида «Старфайр».</AM_StarfireRecipe.description>
+	<!--                    EN: gestate legate -->
+	<AM_Mech_LegateRecipe.label>Собрать механоида «Легат»</AM_Mech_LegateRecipe.label>
+	<!--                          EN: Gestate a legate mechanoid. -->
+	<AM_Mech_LegateRecipe.description>Собрать механоида «Легат».</AM_Mech_LegateRecipe.description>
+	<!--                 EN: gestate infernus -->
+	<AM_InfernusRecipe.label>Собрать механоида «Инфернус»</AM_InfernusRecipe.label>
+	<!--                       EN: Gestate an infernus mechanoid. -->
+	<AM_InfernusRecipe.description>Собрать механоида «Инфернус».</AM_InfernusRecipe.description>
+	<!--                   EN: gestate war empress -->
+	<AM_WarEmpressRecipe.label>Собрать механоида «Военная Императрица»</AM_WarEmpressRecipe.label>
+	<!--                         EN: Gestate a war empress mechanoid. -->
+	<AM_WarEmpressRecipe.description>Собрать механоида «Военная Императрица».</AM_WarEmpressRecipe.description>
+	<!--                  EN: gestate apoptosis -->
+	<AM_ApoptosisRecipe.label>Собрать механоида «Апоптоз»</AM_ApoptosisRecipe.label>
+	<!--                        EN: Gestate an apoptosis mechanoid. -->
+	<AM_ApoptosisRecipe.description>Собрать механоида «Апоптоз».</AM_ApoptosisRecipe.description>
+</LanguageData>

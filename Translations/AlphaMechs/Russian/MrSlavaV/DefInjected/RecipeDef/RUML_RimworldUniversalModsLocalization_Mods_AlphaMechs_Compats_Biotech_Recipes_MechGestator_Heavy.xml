@@ -1,0 +1,19 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\RecipeDefs\Recipes_MechGestator_Heavy.xml -->
+	<!--                   EN: gestate demolisher -->
+	<AM_DemolisherRecipe.label>Собрать механоида «Разрушитель»</AM_DemolisherRecipe.label>
+	<!--                         EN: Gestate a demolisher mechanoid. -->
+	<AM_DemolisherRecipe.description>Собрать механоида «Разрушитель».</AM_DemolisherRecipe.description>
+	<!--                EN: gestate goliath -->
+	<AM_GoliathRecipe.label>Собрать механоида «Голиаф»</AM_GoliathRecipe.label>
+	<!--                      EN: Gestate a goliath mechanoid. -->
+	<AM_GoliathRecipe.description>Собрать механоида «Голиаф».</AM_GoliathRecipe.description>
+	<!--                 EN: gestate fireworm -->
+	<AM_FirewormRecipe.label>Собрать механоида «Огнечервь»</AM_FirewormRecipe.label>
+	<!--                       EN: Gestate a fireworm mechanoid. -->
+	<AM_FirewormRecipe.description>Собрать механоида «Огнечервь».</AM_FirewormRecipe.description>
+	<!--                EN: gestate phalanx -->
+	<AM_PhalanxRecipe.label>Собрать механоида «Фаланга»</AM_PhalanxRecipe.label>
+	<!--                      EN: Gestate a phalanx mechanoid. -->
+	<AM_PhalanxRecipe.description>Собрать механоида «Фаланга».</AM_PhalanxRecipe.description>
+</LanguageData>

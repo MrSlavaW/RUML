@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\OptionalFeatures\OptionalFeatures.xml -->
+
+	<!-- EN: Alpha Armoury -->
+	<AArmoury_OptionalFeatures.label>Альфа Арсенал</AArmoury_OptionalFeatures.label>
+
+	<!-- EN: VE Framework optional features for Alpha Armoury -->
+	<AArmoury_OptionalFeatures.description>Дополнительные функции VE Framework для Альфа Арсенала</AArmoury_OptionalFeatures.description>
+</LanguageData>

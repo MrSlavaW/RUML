@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Buildings\Buildings_Misc.xml -->
+
+	<!--                     EN: egg -->
+	<AArmoury_Egg_Releaser.label>яйцо</AArmoury_Egg_Releaser.label>
+
+	<!--                           EN: Just an innocent egg. -->
+	<AArmoury_Egg_Releaser.description>Просто невинное яйцо. Наверное.</AArmoury_Egg_Releaser.description>
+</LanguageData>

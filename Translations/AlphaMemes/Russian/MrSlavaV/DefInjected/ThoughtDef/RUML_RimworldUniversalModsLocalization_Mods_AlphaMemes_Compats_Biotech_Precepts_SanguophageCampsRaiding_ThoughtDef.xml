@@ -1,0 +1,16 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\PreceptDefs\Precepts_SanguophageCampsRaiding.xml -->
+	
+	<!--                                                EN: raided a sanguophage camp together -->
+	<AM_SanguophageCamps_RaidingDesired_Know.stages.0.label>вместе напали на лагерь гемофагов</AM_SanguophageCamps_RaidingDesired_Know.stages.0.label>
+	
+	<!--                                           EN: raided a sanguophage camp -->
+	<AM_SanguophageCamps_RaidingDesired.stages.0.label>напали на лагерь гемофагов</AM_SanguophageCamps_RaidingDesired.stages.0.label>
+	<!--                                                 EN: I raided a camp full of disgusting Sanguophages! -->
+	<AM_SanguophageCamps_RaidingDesired.stages.0.description>Я напал на лагерь, полный отвратительных гемофагов!</AM_SanguophageCamps_RaidingDesired.stages.0.description>
+	
+	<!--                                                   EN: too long without killing a sanguophage -->
+	<AM_SanguophageCamps_BloodfeederDied_Desire.stages.0.label>слишком долго без убийства гемофага</AM_SanguophageCamps_BloodfeederDied_Desire.stages.0.label>
+	<!--                                                         EN: It's been more than three quadrums since our colony has killed a Sanguophage... What kind of hunters are we? -->
+	<AM_SanguophageCamps_BloodfeederDied_Desire.stages.0.description>Прошло больше трех квадрумов с тех пор, как наше поселение убила гемофага... Какие же мы охотники?</AM_SanguophageCamps_BloodfeederDied_Desire.stages.0.description>
+</LanguageData>

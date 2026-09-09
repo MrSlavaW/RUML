@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_GauranlenConnection.xml -->
+	
+	<!--                                         EN: connected to a gauranlen tree -->
+	<AM_GauranlenConnection_Forbidden.stages.0.label>связан с деревом Гауранлен</AM_GauranlenConnection_Forbidden.stages.0.label>
+	<!--                                               EN: I'm connected to a parasitic alien tree. It's disgusting. I refuse to tend to it and its disgusting progeny. -->
+	<AM_GauranlenConnection_Forbidden.stages.0.description>Я связан с паразитическим инопланетным деревом. Это отвратительно. Я отказываюсь ухаживать за ним и его отвратительным потомством.</AM_GauranlenConnection_Forbidden.stages.0.description>
+	
+	<!--                                                          EN: cut Gauranlen tree -->
+	<AM_GauranlenConnection_Forbidden_CutGauranlenTree.stages.0.label>срублено дерево Гауранлен</AM_GauranlenConnection_Forbidden_CutGauranlenTree.stages.0.label>
+	<!--                                                                EN: Our colony has gotten rid of another of those parasitic alien trees. Good riddance! -->
+	<AM_GauranlenConnection_Forbidden_CutGauranlenTree.stages.0.description>Наше поселение избавилась от еще одного из этих паразитических инопланетных деревьев. Хорошо, что от него избавились!</AM_GauranlenConnection_Forbidden_CutGauranlenTree.stages.0.description>
+</LanguageData>

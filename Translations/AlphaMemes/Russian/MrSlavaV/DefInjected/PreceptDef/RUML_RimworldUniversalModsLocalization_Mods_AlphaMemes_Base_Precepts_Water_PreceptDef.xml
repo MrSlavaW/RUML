@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Water.xml -->
+	
+	<!--                EN: desired -->
+	<AM_Water_Desired.label>желанна</AM_Water_Desired.label>
+	<!--                      EN: Water is life, sacred and pure. We must seek it, cherish it, and ensure its abundance in our lives.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Nullifies "Soaking wet" thought. -->
+	<AM_Water_Desired.description>Вода — это жизнь, священная и чистая. Мы должны искать её, бережно хранить и обеспечивать её изобилие в нашей жизни.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Устраняет мысль "Промок до нитки".</AM_Water_Desired.description>
+	<!--                                             EN: In a watery biome (more than 100 water tiles in the current map) -->
+	<AM_Water_Desired.comps.0.thoughtStageDescriptions.0>В водном биоме (более 100 клеток воды на текущей карте)</AM_Water_Desired.comps.0.thoughtStageDescriptions.0>
+	<!--                                             EN: In a non-watery biome (less than 100 water tiles in the current map) -->
+	<AM_Water_Desired.comps.0.thoughtStageDescriptions.1>В неводном биоме (менее 100 клеток воды на текущей карте)</AM_Water_Desired.comps.0.thoughtStageDescriptions.1>
+</LanguageData>

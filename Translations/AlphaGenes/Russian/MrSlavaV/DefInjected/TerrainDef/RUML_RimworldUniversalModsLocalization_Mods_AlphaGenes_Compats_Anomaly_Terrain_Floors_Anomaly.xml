@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\TerrainDefs\Terrain_Floors_Anomaly.xml -->
+	<!--              EN: gray surface -->
+	<AG_GraySurface.label>серый пол</AG_GraySurface.label>
+	<!--                    EN: An unnatural gray floor. It is featureless and smooth. It is not concrete, metal, or any other recognizable building material. -->
+	<AG_GraySurface.description>Неестественный серый пол. Он безликий и гладкий. Это не бетон, металл или любой другой узнаваемый строительный материал.</AG_GraySurface.description>
+	<!--                        EN: burned bioferrite plate -->
+	<AG_BurnedBioferritePlate.label>обожженная биоферритовая пластина</AG_BurnedBioferritePlate.label>
+	<!--                              EN: Burned-out bioferrite plating. -->
+	<AG_BurnedBioferritePlate.description>Сгоревшее биоферритовое покрытие.</AG_BurnedBioferritePlate.description>
+</LanguageData>

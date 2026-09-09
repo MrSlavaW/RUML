@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_Hoplite.xml -->
+	<!--                         EN: hoplite -->
+	<VFE_Mech_Advanced_Phalanx.label>гоплит</VFE_Mech_Advanced_Phalanx.label>
+	<!--                                            EN: Plural hoplite -->
+	<VFE_Mech_Advanced_Phalanx.lifeStages.0.labelPlural>Гоплиты</VFE_Mech_Advanced_Phalanx.lifeStages.0.labelPlural>
+</LanguageData>

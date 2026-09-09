@@ -1,0 +1,27 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\InsectoidBurial.xml -->
+	
+	<!--                                EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+	<AM_InsectoidFuneralOutcome.description>В зависимости от качества ритуала у участников изменится настроение от {MINMOOD} до {MAXMOOD} на {MOODDAYS} дней.</AM_InsectoidFuneralOutcome.description>
+	<!--                                           EN: Terrible -->
+	<AM_InsectoidFuneralOutcome.outcomeChances.0.label>Ужасный</AM_InsectoidFuneralOutcome.outcomeChances.0.label>
+	<!--                                                 EN: The {0} was terrible! The insects didn't seem to enjoy them at all. -->
+	<AM_InsectoidFuneralOutcome.outcomeChances.0.description>{0} было ужасно! Насекомым оно, похоже, совсем не понравились.</AM_InsectoidFuneralOutcome.outcomeChances.0.description>
+	<!--                                           EN: Lackluster -->
+	<AM_InsectoidFuneralOutcome.outcomeChances.1.label>Тусклый</AM_InsectoidFuneralOutcome.outcomeChances.1.label>
+	<!--                                                 EN: The {0} was lackluster. The speech was long-winded, but at least it looks the insects got something out of it. -->
+	<AM_InsectoidFuneralOutcome.outcomeChances.1.description>{0} был тусклым. Речь была многословной, но, по крайней мере, похоже, что насекомые что-то из нее получили.</AM_InsectoidFuneralOutcome.outcomeChances.1.description>
+	<!--                                           EN: Good -->
+	<AM_InsectoidFuneralOutcome.outcomeChances.2.label>Хороший</AM_InsectoidFuneralOutcome.outcomeChances.2.label>
+	<!--                                                 EN: The {0} was good. The insects enjoyed their meal and blessed us with a new holy creature. -->
+	<AM_InsectoidFuneralOutcome.outcomeChances.2.description>{0} было хорошо. Насекомые насладились едой и благословили нас новым святым существом.</AM_InsectoidFuneralOutcome.outcomeChances.2.description>
+	<!--                                           EN: Amazing -->
+	<AM_InsectoidFuneralOutcome.outcomeChances.3.label>Удивительно</AM_InsectoidFuneralOutcome.outcomeChances.3.label>
+	<!--                                                 EN: The {0} was heartwarming. The insects appear to have taken full advantage of their nutrients. What a wonderful creature that will become. -->
+	<AM_InsectoidFuneralOutcome.outcomeChances.3.description>{0} было трогательным. Насекомые, похоже, в полной мере воспользовались своими питательными веществами. Каким чудесным существом оно станет.</AM_InsectoidFuneralOutcome.outcomeChances.3.description>
+	<!--                                  EN: Insectoid Herder -->
+	<AM_InsectoidFuneralOutcome.comps.0.label>Инсектоид пастух</AM_InsectoidFuneralOutcome.comps.0.label>
+	<!--                                  EN: participant count -->
+	<AM_InsectoidFuneralOutcome.comps.1.label>{0} был довольно эффективным. Они производили гораздо больше питательных веществ, чем можно было бы ожидать.
+количество участников</AM_InsectoidFuneralOutcome.comps.1.label>
+</LanguageData>

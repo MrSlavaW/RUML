@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_CleanGoliath.xml -->
+	<!--                EN: goliath -->
+	<VFE_Mech_Goliath.label>голиаф</VFE_Mech_Goliath.label>
+	<!--                                   EN: Plural goliath -->
+	<VFE_Mech_Goliath.lifeStages.0.labelPlural>Голиафы</VFE_Mech_Goliath.lifeStages.0.labelPlural>
+</LanguageData>

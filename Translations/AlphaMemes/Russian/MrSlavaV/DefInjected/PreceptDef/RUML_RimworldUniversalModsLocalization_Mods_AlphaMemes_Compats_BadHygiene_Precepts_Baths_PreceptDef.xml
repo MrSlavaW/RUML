@@ -1,0 +1,16 @@
+<LanguageData>
+	<!-- 1.6\Mods\BadHygiene\Defs\PreceptDefs\Precepts_Baths.xml -->
+	
+	<!--                EN: desired -->
+	<AM_Baths_Desired.label>желаемы</AM_Baths_Desired.label>
+	<!--                      EN: Water is not just a necessity; it is a sacred medium for renewal and purity. The presence of bathtubs and showers reflects our devotion to cleanliness, both physical and spiritual. To neglect such facilities is to fall into disgrace, while their abundance brings harmony and joy. -->
+	<AM_Baths_Desired.description>Вода - это не просто предмет первой необходимости, это священное средство обновления и чистоты. Наличие ванн и душевых отражает нашу приверженность к чистоте, как физической, так и духовной. Пренебрегать такими удобствами - значит впасть в немилость, в то время как их изобилие приносит гармонию и радость.</AM_Baths_Desired.description>
+	<!--                                             EN: No bathtubs or showers -->
+	<AM_Baths_Desired.comps.0.thoughtStageDescriptions.0>Нет ванн и душевых</AM_Baths_Desired.comps.0.thoughtStageDescriptions.0>
+	<!--                                             EN: Very few bathtubs and showers (less than 1 per colonist) -->
+	<AM_Baths_Desired.comps.0.thoughtStageDescriptions.1>Очень мало ванн и душевых (менее 1 на поселенца)</AM_Baths_Desired.comps.0.thoughtStageDescriptions.1>
+	<!--                                             EN: Enough bathtubs and showers (less than 1.25 per colonist) -->
+	<AM_Baths_Desired.comps.0.thoughtStageDescriptions.2>Достаточное количество ванн и душевых (менее 1,25 на поселенца)</AM_Baths_Desired.comps.0.thoughtStageDescriptions.2>
+	<!--                                             EN: Lots of bathtubs and showers (1.25 per colonist or more) -->
+	<AM_Baths_Desired.comps.0.thoughtStageDescriptions.3>Много ванн и душевых (1,25 на поселенца или больше)</AM_Baths_Desired.comps.0.thoughtStageDescriptions.3>
+</LanguageData>

@@ -1,0 +1,23 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\ThoughtDefs\Thoughts_Situation_Needs_Coffee.xml -->
+<!--                      EN: craving coffee -->
+    <AM_CoffeeNeed.stages.0.label>жажда кофе</AM_CoffeeNeed.stages.0.label>
+    <!--                            EN: I need coffee, badly... My head feels foggy, my energy is gone... I'd chew roasted dirt if it smelled remotely like coffee right now. -->
+    <AM_CoffeeNeed.stages.0.description>Мне необходим кофе, и срочно... В голове туман, силы совсем кончились... Я бы сейчас жевал обжаренную землю, если бы от неё хоть немного пахло кофе.</AM_CoffeeNeed.stages.0.description>
+    <!--                      EN: desiring coffee -->
+    <AM_CoffeeNeed.stages.1.label>хочется кофе</AM_CoffeeNeed.stages.1.label>
+    <!--                            EN: It's been too long since I had a proper cup of coffee. The day just doesn't feel right without it. -->
+    <AM_CoffeeNeed.stages.1.description>Прошло слишком много времени с тех пор, как я выпил хорошую чашку кофе. Без неё день просто не задаётся.</AM_CoffeeNeed.stages.1.description>
+    <!--                      EN: wanting coffee -->
+    <AM_CoffeeNeed.stages.2.label>хочу кофе</AM_CoffeeNeed.stages.2.label>
+    <!--                            EN: A cup of coffee would be nice. Just something hot and invigorating to get me going. -->
+    <AM_CoffeeNeed.stages.2.description>Чашечка кофе была бы кстати. Что-нибудь горячее и бодрящее, чтобы прийти в себя.</AM_CoffeeNeed.stages.2.description>
+    <!--                      EN: content -->
+    <AM_CoffeeNeed.stages.3.label>удовлетворён</AM_CoffeeNeed.stages.3.label>
+    <!--                            EN: Ahh, I've had my coffee. I feel awake and ready to take on the day. -->
+    <AM_CoffeeNeed.stages.3.description>Ааа, я выпил свой кофе. Чувствую себя бодрым и готовым ко всему.</AM_CoffeeNeed.stages.3.description>
+    <!--                      EN: perfectly brewed -->
+    <AM_CoffeeNeed.stages.4.label>идеально сварен</AM_CoffeeNeed.stages.4.label>
+    <!--                            EN: This was divine. Perfectly brewed coffee, warming my body and sharpening my mind. -->
+    <AM_CoffeeNeed.stages.4.description>Это было божественно. Идеально сваренный кофе, согревающий тело и обостряющий разум.</AM_CoffeeNeed.stages.4.description>
+</LanguageData>

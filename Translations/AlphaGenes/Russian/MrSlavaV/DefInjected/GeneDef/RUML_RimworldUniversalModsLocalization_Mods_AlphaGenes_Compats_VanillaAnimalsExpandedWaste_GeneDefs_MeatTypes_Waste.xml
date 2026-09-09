@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaAnimalsExpandedWaste\Defs\GeneDefs\GeneDefs_MeatTypes_Waste.xml -->
+	<!--             EN: waste flesh -->
+	<AG_WasteFlesh.label>токсичная плоть</AG_WasteFlesh.label>
+	<!--                   EN: Carriers of this gene have corrupted, polluted flesh. Consuming toxic meat by them is classed as cannibalism. -->
+	<AG_WasteFlesh.description>Носители этого гена имеют испорченную, загрязненную плоть.</AG_WasteFlesh.description>
+</LanguageData>

@@ -1,0 +1,8 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Reliquaries.xml -->
+	
+	<!--                        EN: forbidden -->
+	<AM_Reliquaries_Forbidden.label>запрещенны</AM_Reliquaries_Forbidden.label>
+	<!--                              EN: Relic worship and idolatry are obscene. We refuse to have a reliquary on our colony, as the only acceptable reason to have a relic is to destroy it as soon as possible. -->
+	<AM_Reliquaries_Forbidden.description>Поклонение реликвиям и идолопоклонство непристойны. Мы отказываемся иметь реликварий в нашем поселении, так как единственная приемлемая причина взять реликвию в руки - чтобы уничтожить ее как можно скорее.</AM_Reliquaries_Forbidden.description>
+</LanguageData>

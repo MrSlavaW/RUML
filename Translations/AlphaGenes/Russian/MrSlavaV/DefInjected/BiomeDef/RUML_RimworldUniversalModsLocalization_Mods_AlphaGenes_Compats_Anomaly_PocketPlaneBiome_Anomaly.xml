@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\BiomeDefs\PocketPlaneBiome_Anomaly.xml -->
+	<!--              EN: pocket plane -->
+	<AG_PocketPlane.label>карманное измерение</AG_PocketPlane.label>
+	<!--                    EN: An empty extradimensional space -->
+	<AG_PocketPlane.description>Пустое внепространственное пространство.</AG_PocketPlane.description>
+</LanguageData>

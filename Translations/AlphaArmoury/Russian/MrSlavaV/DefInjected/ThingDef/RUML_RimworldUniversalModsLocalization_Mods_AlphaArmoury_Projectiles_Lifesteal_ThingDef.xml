@@ -1,0 +1,42 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Projectiles\Projectiles_Lifesteal.xml -->
+
+	<!-- EN: lifesteal feedback -->
+	<AArmoury_LifestealFeedback.label>вампирическая обратная связь</AArmoury_LifestealFeedback.label>
+
+	<!-- EN: lifesteal revolver bullet -->
+	<AArmoury_Lifesteal_Revolver.label>вампирическая пуля револьвера</AArmoury_Lifesteal_Revolver.label>
+
+	<!-- EN: lifesteal bolt-action rifle bullet -->
+	<AArmoury_Lifesteal_Bolt.label>вампирическая пуля болтовой винтовки</AArmoury_Lifesteal_Bolt.label>
+
+	<!-- EN: lifesteal shotgun blast -->
+	<AArmoury_Lifesteal_Shotgun.label>вампирический дробный выстрел</AArmoury_Lifesteal_Shotgun.label>
+
+	<!-- EN: lifesteal heavy SMG bullet -->
+	<AArmoury_Lifesteal_HeavySMG.label>вампирическая пуля тяжёлого ПП</AArmoury_Lifesteal_HeavySMG.label>
+
+	<!-- EN: lifesteal LMG bullet -->
+	<AArmoury_Lifesteal_LMG.label>вампирическая пуля ручного пулемёта</AArmoury_Lifesteal_LMG.label>
+
+	<!-- EN: lifesteal assault rifle bullet -->
+	<AArmoury_Lifesteal_Assault.label>вампирическая пуля штурмовой винтовки</AArmoury_Lifesteal_Assault.label>
+
+	<!-- EN: lifesteal minigun bullet -->
+	<AArmoury_Lifesteal_Minigun.label>вампирическая пуля минигана</AArmoury_Lifesteal_Minigun.label>
+
+	<!-- EN: lifesteal sniper rifle bullet -->
+	<AArmoury_Lifesteal_Sniper.label>вампирическая пуля снайперской винтовки</AArmoury_Lifesteal_Sniper.label>
+
+	<!-- EN: lifesteal arrow -->
+	<AArmoury_Lifesteal_Arrow.label>вампирическая стрела</AArmoury_Lifesteal_Arrow.label>
+
+	<!-- EN: lifesteal charge shot -->
+	<AArmoury_Lifesteal_Charge.label>вампирический зарядный выстрел</AArmoury_Lifesteal_Charge.label>
+
+	<!-- EN: lifesteal charge lance shot -->
+	<AArmoury_Lifesteal_Lance.label>вампирический выстрел зарядного копья</AArmoury_Lifesteal_Lance.label>
+
+	<!-- EN: lifesteal hellcat rifle bullet -->
+	<AArmoury_Lifesteal_Hellcat.label>вампирическая пуля винтовки «Хеллкэт»</AArmoury_Lifesteal_Hellcat.label>
+</LanguageData>

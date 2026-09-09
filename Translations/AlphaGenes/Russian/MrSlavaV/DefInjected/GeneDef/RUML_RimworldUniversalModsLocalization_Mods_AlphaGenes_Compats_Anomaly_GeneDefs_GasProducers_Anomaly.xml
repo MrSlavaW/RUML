@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\GeneDefs\GeneDefs_GasProducers_Anomaly.xml -->
+	<!--                   EN: deadlife dust producer -->
+	<AG_DeadlifeProducer.label>дыхание мертвой пыли</AG_DeadlifeProducer.label>
+	<!--                         EN: The carrier of this gene will periodically exhale clouds of deadlife dust that will raise nearby corpses as shamblers. -->
+	<AG_DeadlifeProducer.description>Носитель этого гена будет периодически выдыхать облака мертвой пыли, которая будет поднимать близлежащие трупы в виде шаркающих.</AG_DeadlifeProducer.description>
+</LanguageData>

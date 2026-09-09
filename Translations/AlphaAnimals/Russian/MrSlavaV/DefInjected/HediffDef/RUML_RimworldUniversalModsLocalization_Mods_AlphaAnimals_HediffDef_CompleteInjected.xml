@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AAVPE_Electrified.description>This colonist or animal had its blood charged with reverse entropy potential, allowing them to recharge electrical batteries merely by being close to them. This change is permanent, and quite traumatic.</AAVPE_Electrified.description>
+  <AAVPE_Electrified.label>наэлектризован</AAVPE_Electrified.label>
+  <AAVPE_Exploder.description>имплант</AAVPE_Exploder.description>
+  <AAVPE_Exploder.label>химтопливные наросты</AAVPE_Exploder.label>
+  <AAVPE_FungalSkin.description>Укрепление покровов мицелием.</AAVPE_FungalSkin.description>
+  <AAVPE_FungalSkin.label>грибная кожа</AAVPE_FungalSkin.label>
+  <AAVPE_Hover.description>Limited psychic flight that allows this colonist or animal to hop and glide small distances over terrain. They will ignore terrain movement costs for the duration of the ability.</AAVPE_Hover.description>
+  <AAVPE_Hover.label>парение</AAVPE_Hover.label>
+  <AAVPE_KO.description>This person was struck by such psychic energy that they are unable to move.</AAVPE_KO.description>
+  <AAVPE_KO.label>без сознания</AAVPE_KO.label>
+  <AAVPE_LightSustenance.description>This colonist or animal has had part of its skin replaced with plant material, eliminating almost entirely their need to eat, but requiring them to be constantly exposed to light for sustenance. This change is permanent, and quite traumatic.</AAVPE_LightSustenance.description>
+  <AAVPE_LightSustenance.label>пониженный аппетит</AAVPE_LightSustenance.label>
+  <AAVPE_Regeneration.description>This colonist or animal has a psychically active field of regeneration, allowing them to heal their wounds much faster than usual.</AAVPE_Regeneration.description>
+  <AAVPE_Regeneration.label>регенерация</AAVPE_Regeneration.label>
+  <AAVPE_StrengthenBlackHive.description>улей</AAVPE_StrengthenBlackHive.description>
+  <AAVPE_StrengthenBlackHive.label>усиленный инсектоид</AAVPE_StrengthenBlackHive.label>
+  <AA_AcidBuildup_AgainstMechs.description>атака</AA_AcidBuildup_AgainstMechs.description>
+  <AA_AcidBuildup_AgainstMechs.label>кислотный ожог</AA_AcidBuildup_AgainstMechs.label>
+  <AA_AcidicSpitterImplant.description>имплант</AA_AcidicSpitterImplant.description>
+  <AA_AcidicSpitterImplant.label>кислотный плеватель</AA_AcidicSpitterImplant.label>
+  <AA_AnoleGrown.description>рост</AA_AnoleGrown.description>
+  <AA_AnoleGrown.label>взрывной рост</AA_AnoleGrown.label>
+  <AA_AnoleGrownExhausted.description>рост</AA_AnoleGrownExhausted.description>
+  <AA_AnoleGrownExhausted.label>рост</AA_AnoleGrownExhausted.label>
+  <AA_AteBlackTruffleIngredient.description>гриб</AA_AteBlackTruffleIngredient.description>
+  <AA_AteBlackTruffleIngredient.label>съел чёрный трюфель (в блюде)</AA_AteBlackTruffleIngredient.label>
+  <AA_AteFinestClothes.description>лапка</AA_AteFinestClothes.description>
+  <AA_AteFinestClothes.label>лапка</AA_AteFinestClothes.label>
+  <AA_BarbedQuillThrowerImplant.description>имплант</AA_BarbedQuillThrowerImplant.description>
+  <AA_BarbedQuillThrowerImplant.label>шипомётный имплант</AA_BarbedQuillThrowerImplant.label>
+  <AA_BioelectricOrganImplant.description>имплант</AA_BioelectricOrganImplant.description>
+  <AA_BioelectricOrganImplant.label>биоэлектрический имплант</AA_BioelectricOrganImplant.label>
+  <AA_BionicBeak.description>A bionic beak.</AA_BionicBeak.description>
+  <AA_BionicBeak.label>бионический клюв</AA_BionicBeak.label>
+  <AA_BionicBuoyancyMechanism.description>Improved bionic buoyancy mechanism for animals. Should be able to replace hydrogen sacs and other exotic organs keeping hovering creatures in the air.</AA_BionicBuoyancyMechanism.description>
+  <AA_BionicBuoyancyMechanism.label>бионический механизм плавучести</AA_BionicBuoyancyMechanism.label>
+  <AA_BionicMotionDetector.description>Improved bionic motion detector for animals. This motion detector replaces echolocation organs and vibration sensors.</AA_BionicMotionDetector.description>
+  <AA_BionicMotionDetector.label>бионический детектор движения</AA_BionicMotionDetector.label>
+  <AA_BionicShell.description>Improved bionic shell for animals. Should be able to replace carapaces and shells.</AA_BionicShell.description>
+  <AA_BionicShell.label>бионический панцирь</AA_BionicShell.label>
+  <AA_BionicTentacle.description>A bionic tentacle.</AA_BionicTentacle.description>
+  <AA_BionicTentacle.label>бионическое щупальце</AA_BionicTentacle.label>
+  <AA_BionicWing.description>Improved bionic wing for animals. Should be able to replace any type of wing.</AA_BionicWing.description>
+  <AA_BionicWing.label>бионическое крыло</AA_BionicWing.label>
+  <AA_BurrowingUnderSand.description>This Sand Prowler is burrowing under the sand, making it very resistant to damage. I hate sand. Its course, and ruff, and irritating. And it gets everywhere.</AA_BurrowingUnderSand.description>
+  <AA_BurrowingUnderSand.label>зарывание в песок</AA_BurrowingUnderSand.label>
+  <AA_CarryWeight1.description>This creature can carry extra weight both while hauling and on caravans.</AA_CarryWeight1.description>
+  <AA_CarryWeight1.label>дополнительный вес (ужасный)</AA_CarryWeight1.label>
+  <AA_CarryWeight2.description>This creature can carry extra weight both while hauling and on caravans.</AA_CarryWeight2.description>
+  <AA_CarryWeight2.label>дополнительный вес (плохой)</AA_CarryWeight2.label>
+  <AA_CarryWeight3.description>This creature can carry extra weight both while hauling and on caravans.</AA_CarryWeight3.description>
+  <AA_CarryWeight3.label>дополнительный вес (нормальный)</AA_CarryWeight3.label>
+  <AA_CarryWeight4.description>This creature can carry extra weight both while hauling and on caravans.</AA_CarryWeight4.description>
+  <AA_CarryWeight4.label>дополнительный вес (хороший)</AA_CarryWeight4.label>
+  <AA_CarryWeight5.description>This creature can carry extra weight both while hauling and on caravans.</AA_CarryWeight5.description>
+  <AA_CarryWeight5.label>дополнительный вес (отличный)</AA_CarryWeight5.label>
+  <AA_CarryWeight6.description>This creature can carry extra weight both while hauling and on caravans.</AA_CarryWeight6.description>
+  <AA_CarryWeight6.label>дополнительный вес (шедевр)</AA_CarryWeight6.label>
+  <AA_CarryWeight7.description>This creature can carry extra weight both while hauling and on caravans.</AA_CarryWeight7.description>
+  <AA_CarryWeight7.label>лапка</AA_CarryWeight7.label>
+  <AA_CorpseFeast.description>This Helixien slug has recently fed on human corpses. The tastiest meat.</AA_CorpseFeast.description>
+  <AA_CorpseFeast.label>пировал человеческими телами</AA_CorpseFeast.label>
+  <AA_CrushingEverything.description>If I were you, I wouldn't get in the path of a rampaging Summit Crab...</AA_CrushingEverything.description>
+  <AA_CrushingEverything.label>сокрушает всё на пути</AA_CrushingEverything.label>
+  <AA_DesertPelt.description>This animal is sporting a nice desert pelt, giving it great resistance against the heat.</AA_DesertPelt.description>
+  <AA_DesertPelt.label>пустынная шкура</AA_DesertPelt.label>
+  <AA_EatenACorpse.description>Erins love a good, tasty corpse. Eating a fresh corpse will provide the Erin with a considerable boost to its health for almost half a day.</AA_EatenACorpse.description>
+  <AA_EatenACorpse.label>съел труп</AA_EatenACorpse.label>
+  <AA_EcholocativeFeedbackLoop.description>This person relies on echolocation instead of regular sight but environmental factors such as loud explosions can cause a debilitating feedback loop, causing sensory overload and confusion and driving them into a catatonic state.</AA_EcholocativeFeedbackLoop.description>
+  <AA_EcholocativeFeedbackLoop.label>эхолокационная петля</AA_EcholocativeFeedbackLoop.label>
+  <AA_Electric.description>Оглушающий электрический разряд высокой мощности.</AA_Electric.description>
+  <AA_FertilizedTerrain.description>This Sand Squid has recently fertilized some sandy terrain.</AA_FertilizedTerrain.description>
+  <AA_FertilizedTerrain.label>удобренная почва</AA_FertilizedTerrain.label>
+  <AA_GatheredResource.description>This colonist has recently gathered an animal resource.</AA_GatheredResource.description>
+  <AA_GatheredResource.label>собран ресурс с животного</AA_GatheredResource.label>
+  <AA_GooAcidifier.description>A goo acidifier increases the acidity of a goo's internal organs, making it explode as soon as it is downed. Basically transforms goos into biological suicide bombers.</AA_GooAcidifier.description>
+  <AA_GooAcidifier.label>кислотный преобразователь слизи</AA_GooAcidifier.label>
+  <AA_HorrifyingDread.description>A primal sense of fear and terror caused by the presence of a grotesque fangsquid nearby.</AA_HorrifyingDread.description>
+  <AA_HorrifyingDread.label>ужасающий трепет</AA_HorrifyingDread.label>
+  <AA_HyperAcidicStomachImplant.description>имплант</AA_HyperAcidicStomachImplant.description>
+  <AA_HyperAcidicStomachImplant.label>имплант</AA_HyperAcidicStomachImplant.label>
+  <AA_InvisibleArcticLion.description>This arctic lion is stalking its prey and... Hey, how are you reading this, you cheater??</AA_InvisibleArcticLion.description>
+  <AA_InvisibleArcticLion.label>выслеживание</AA_InvisibleArcticLion.label>
+  <AA_JunglePelt.description>This animal is sporting a nice jungle pelt, giving it slight resistance against the heat.</AA_JunglePelt.description>
+  <AA_JunglePelt.label>шкура джунглей</AA_JunglePelt.label>
+  <AA_Kamikaze.description>Boom.</AA_Kamikaze.description>
+  <AA_Kamikaze.label>внезапная детонация</AA_Kamikaze.label>
+  <AA_LightFocusingLensImplant.description>имплант</AA_LightFocusingLensImplant.description>
+  <AA_LightFocusingLensImplant.label>имплант</AA_LightFocusingLensImplant.label>
+  <AA_LockJawDisease.description>A painful and uncomfortable disease that inflames the jaw, making it very hard to eat or talk. The disease will go away after it has been successfully treated a set number of times.</AA_LockJawDisease.description>
+  <AA_LockJawDisease.label>тризм челюстей</AA_LockJawDisease.label>
+  <AA_LowRest.description>This creature has very little need for sleep, and can stay awake for a long time.</AA_LowRest.description>
+  <AA_LowRest.label>нуждается в минимуме сна</AA_LowRest.label>
+  <AA_LowRest_HighRank.description>This creature has very little need for sleep, and can stay awake for a long time.</AA_LowRest_HighRank.description>
+  <AA_LowRest_HighRank.label>нуждается в минимуме сна</AA_LowRest_HighRank.label>
+  <AA_LowRest_HighestRank.description>This creature has almost no need for sleep, and can stay awake for an incredibly long time.</AA_LowRest_HighestRank.description>
+  <AA_LowRest_HighestRank.label>почти не нуждается во сне</AA_LowRest_HighestRank.label>
+  <AA_LowRest_LowRank.description>This creature has less need for sleep than other animals, and can stay awake for a bit longer.</AA_LowRest_LowRank.description>
+  <AA_LowRest_LowRank.label>нуждается в меньшем сне</AA_LowRest_LowRank.label>
+  <AA_LowRest_LowestRank.description>Due to their poor genetics, this creature has the same need to sleep as any other animal.</AA_LowRest_LowestRank.description>
+  <AA_LowRest_LowestRank.label>обычная потребность во сне</AA_LowRest_LowestRank.label>
+  <AA_MalevolentEye.description>выстрел</AA_MalevolentEye.description>
+  <AA_MalevolentEye.label>зловещее око</AA_MalevolentEye.label>
+  <AA_MechDisruption.description>This mechanoid's targeting, speed and agility are being dirupted by a nearby bio mechanoid disruptor building.</AA_MechDisruption.description>
+  <AA_MechDisruption.label>сбой механоидов</AA_MechDisruption.label>
+  <AA_MechanoidRendingClaws.description>коготь</AA_MechanoidRendingClaws.description>
+  <AA_MechanoidRendingClaws.label>коготь</AA_MechanoidRendingClaws.label>
+  <AA_MimeHediff.description>This colonist may not be a real person after all...</AA_MimeHediff.description>
+  <AA_MimeHediff.label>маскировка на виду</AA_MimeHediff.label>
+  <AA_MutantArm.description>This arm twitches and bends in strange unnatural ways, as if it had a mind of its own. Something seems... off about it, as if it wasn't a completely natural creation.</AA_MutantArm.description>
+  <AA_MutantArm.label>мутантная рука</AA_MutantArm.label>
+  <AA_MutantEye.description>This eye constantly blinks on its own, like a nervous tic, and a second set of vertical eyelids seems to be present behind the normal, human ones. Something seems... off about it, as if it wasn't a completely natural creation.</AA_MutantEye.description>
+  <AA_MutantEye.label>мутантный глаз</AA_MutantEye.label>
+  <AA_MutantLeg.description>лапка</AA_MutantLeg.description>
+  <AA_MutantLeg.label>лапка</AA_MutantLeg.label>
+  <AA_NoPain.description>This creature has a reduced pain sensitivity, and it takes longer to be downed due to pain.</AA_NoPain.description>
+  <AA_NoPain.label>нечувствительность к боли</AA_NoPain.label>
+  <AA_Nocturnal.description>Deprecated nocturnal animal Hediff. This shouldn't ever appear in-game.</AA_Nocturnal.description>
+  <AA_Nocturnal.label>ночное животное</AA_Nocturnal.label>
+  <AA_Paralysis.description>A fast acting toxin is coursing through this creature's veins, paralyzing his muscles. It will wear off after a while.</AA_Paralysis.description>
+  <AA_Paralysis.label>паралич</AA_Paralysis.label>
+  <AA_PermanentBurn.description>Тяжёлый ожог, оставляющий неизгладимый шрам.</AA_PermanentBurn.description>
+  <AA_PermanentBurn.label>перманентный ожог</AA_PermanentBurn.label>
+  <AA_ProstheticBeak.description>A simple prosthetic beak.</AA_ProstheticBeak.description>
+  <AA_ProstheticBeak.label>простой протез клюва</AA_ProstheticBeak.label>
+  <AA_ProstheticBuoyancyMechanism.description>Simple prosthetic buoyancy mechanism. Should be able to replace hydrogen sacs and other exotic organs keeping hovering creatures in the air.</AA_ProstheticBuoyancyMechanism.description>
+  <AA_ProstheticBuoyancyMechanism.label>простой протез плавучести</AA_ProstheticBuoyancyMechanism.label>
+  <AA_ProstheticShell.description>Simple prosthetic shell. Should be able to replace carapaces and shells.</AA_ProstheticShell.description>
+  <AA_ProstheticShell.label>простой протез панциря</AA_ProstheticShell.label>
+  <AA_ProstheticTentacle.description>A simple prosthetic tentacle.</AA_ProstheticTentacle.description>
+  <AA_ProstheticTentacle.label>простой протез щупальца</AA_ProstheticTentacle.label>
+  <AA_ProstheticWing.description>Simple prosthetic wing. Should be able to replace any type of wing.</AA_ProstheticWing.description>
+  <AA_ProstheticWing.label>простой протез крыла</AA_ProstheticWing.label>
+  <AA_PsionicallyNuzzled.description>Blessed by an Animus Vox.</AA_PsionicallyNuzzled.description>
+  <AA_PsionicallyNuzzled.label>псионическая ласка</AA_PsionicallyNuzzled.label>
+  <AA_QuadTeslaCannonImplant.description>имплант</AA_QuadTeslaCannonImplant.description>
+  <AA_QuadTeslaCannonImplant.label>имплант</AA_QuadTeslaCannonImplant.label>
+  <AA_RangedSpinneretImplant.description>имплант</AA_RangedSpinneretImplant.description>
+  <AA_RangedSpinneretImplant.label>имплант</AA_RangedSpinneretImplant.label>
+  <AA_RechargingBatteries.description>This creature has recently recharged a nearby battery.</AA_RechargingBatteries.description>
+  <AA_RechargingBatteries.label>перезарядка батарей</AA_RechargingBatteries.label>
+  <AA_Resurrection.description>This animal can survive up to 9 fatal wounds, coming back from the dead.</AA_Resurrection.description>
+  <AA_Resurrection.label>восстань из могилы!</AA_Resurrection.label>
+  <AA_SwarmlingImplantation.description>имплант</AA_SwarmlingImplantation.description>
+  <AA_SwarmlingImplantation.label>имплант</AA_SwarmlingImplantation.label>
+  <AA_TheHeuristicEye.description>This eye analyzes its surroundings with carefully planned discipline, missing no details.</AA_TheHeuristicEye.description>
+  <AA_TheHeuristicEye.label>эвристический глаз</AA_TheHeuristicEye.label>
+  <AA_TheMeretriciousEye.description>This gaudy looking eye seems to have a life of its own, trying to catch the attention of other people with carefully directed winks and furtive, sultry glances that beckon with a false allure. It allows its host to recover quicker from psychic exhaustion.</AA_TheMeretriciousEye.description>
+  <AA_TheMeretriciousEye.label>соблазнительный глаз</AA_TheMeretriciousEye.label>
+  <AA_TheNumbingEye.description>This strange mutant eye is covered by dense plates of bone instead of a normal fleshy eyelid, and seems to be almost impervious to pain.</AA_TheNumbingEye.description>
+  <AA_TheNumbingEye.label>ошеломляющий глаз</AA_TheNumbingEye.label>
+  <AA_TheOmniscientEye.description>выстрел</AA_TheOmniscientEye.description>
+  <AA_TheOmniscientEye.label>всевидящий глаз</AA_TheOmniscientEye.label>
+  <AA_TheQuiescentEye.description>An eye that never blinks, keeping itself moist by unknown means. It pervades its host with a sense of preternatural calmness.</AA_TheQuiescentEye.description>
+  <AA_TheQuiescentEye.label>умиротворяющий глаз</AA_TheQuiescentEye.label>
+  <AA_TheRecalcitrantEye.description>атака</AA_TheRecalcitrantEye.description>
+  <AA_TheRecalcitrantEye.label>строптивый глаз</AA_TheRecalcitrantEye.label>
+  <AA_TheSpasmodicEye.description>An eye that can't stop blinking uncontrollably. While extremely distracting and disconcerting, it allows its host to cast more psychic powers before exhaustion.</AA_TheSpasmodicEye.description>
+  <AA_TheSpasmodicEye.label>судорожный глаз</AA_TheSpasmodicEye.label>
+  <AA_ToxicBuildup.description>Toxins in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.
+\nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.
+\nContrary to base game toxic buildup, creatures who die with this toxic damage can be eaten.</AA_ToxicBuildup.description>
+  <AA_ToxicBuildup.label>токсичное отравление</AA_ToxicBuildup.label>
+  <AA_VenomousSpitterImplant.description>имплант</AA_VenomousSpitterImplant.description>
+  <AA_VenomousSpitterImplant.label>имплант</AA_VenomousSpitterImplant.label>
+  <AA_VirulentFungalInfection.description>Fungal infection in a wound. Without treatment, the infection will advance at an astonishing rate, killing the afflicted in a few hours. Luckily, it is very easy to treat, and it will be kept contained and disappear as long as a medic treats it fast and with a decent treatment quality.</AA_VirulentFungalInfection.description>
+  <AA_VirulentFungalInfection.label>опасная грибковая инфекция</AA_VirulentFungalInfection.label>
+  <AA_WinterPelt.description>This animal is sporting a nice winter pelt, giving it good resistance against the cold.</AA_WinterPelt.description>
+  <AA_WinterPelt.label>зимняя шкура</AA_WinterPelt.label>
+  <AB_BionicClaw.description>коготь</AB_BionicClaw.description>
+  <AB_BionicClaw.label>коготь</AB_BionicClaw.label>
+  <AB_SimpleProstheticClaw.description>коготь</AB_SimpleProstheticClaw.description>
+  <AB_SimpleProstheticClaw.label>коготь</AB_SimpleProstheticClaw.label>
+  <VFEI2_BlackEmpressSpawn.description>лапа</VFEI2_BlackEmpressSpawn.description>
+  <VFEI2_BlackEmpressSpawn.label>лапа</VFEI2_BlackEmpressSpawn.label>
+</LanguageData>

@@ -1,0 +1,33 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingStyleDefs\Alpha\ThingStyleDefs_Mesoamerican.xml -->
+<!--                           EN: tlaximaltepoztli -->
+    <AM_Mesoamerican_Axe.overrideLabel>тлашимальтепоцтли</AM_Mesoamerican_Axe.overrideLabel>
+    <!--                           EN: tlahhuītōlli -->
+    <AM_Mesoamerican_Bow.overrideLabel>тлауитолли</AM_Mesoamerican_Bow.overrideLabel>
+    <!--                            EN: quauholōlli -->
+    <AM_Mesoamerican_Club.overrideLabel>кауололли</AM_Mesoamerican_Club.overrideLabel>
+    <!--                                EN: great tlahhuītōlli -->
+    <AM_Mesoamerican_GreatBow.overrideLabel>большой тлауитолли</AM_Mesoamerican_GreatBow.overrideLabel>
+    <!--                              EN: cuauhololli -->
+    <AM_Mesoamerican_Hammer.overrideLabel>кауололли</AM_Mesoamerican_Hammer.overrideLabel>
+    <!--                             EN: macuahuitzōctli -->
+    <AM_Mesoamerican_Knife.overrideLabel>макуауицтли</AM_Mesoamerican_Knife.overrideLabel>
+    <!--                            EN: macuahuitl -->
+    <AM_Mesoamerican_Mace.overrideLabel>макуауитль</AM_Mesoamerican_Mace.overrideLabel>
+    <!--                                  EN: recurve tlahhuītōlli -->
+    <AM_Mesoamerican_RecurveBow.overrideLabel>рекурсивный тлауитолли</AM_Mesoamerican_RecurveBow.overrideLabel>
+    <!--                             EN: huitzauhqui -->
+    <AM_Mesoamerican_Sword.overrideLabel>уицауики</AM_Mesoamerican_Sword.overrideLabel>
+    <!--                             EN: tepoztopilli -->
+    <AM_Mesoamerican_Spear.overrideLabel>тепоцтопилли</AM_Mesoamerican_Spear.overrideLabel>
+    <!--                               EN: curved huitzauhqui -->
+    <AM_Mesoamerican_Gladius.overrideLabel>изогнутый уицауики</AM_Mesoamerican_Gladius.overrideLabel>
+    <!--                                   EN: compound tlahhuītōlli -->
+    <AM_Mesoamerican_CompoundBow.overrideLabel>блочный тлауитолли</AM_Mesoamerican_CompoundBow.overrideLabel>
+    <!--                               EN: long tlahhuītōlli -->
+    <AM_Mesoamerican_LongBow.overrideLabel>длинный тлауитолли</AM_Mesoamerican_LongBow.overrideLabel>
+    <!--                                 EN: sharpened stick -->
+    <AM_Mesoamerican_LightClub.overrideLabel>заточенная палка</AM_Mesoamerican_LightClub.overrideLabel>
+    <!--                                 EN: crude stone ax -->
+    <AM_Mesoamerican_TribalAxe.overrideLabel>грубый каменный топор</AM_Mesoamerican_TribalAxe.overrideLabel>
+</LanguageData>

@@ -1,0 +1,24 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\ColonyTantrum\TantrumRitual.xml -->
+	
+	<!--                             EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+	<AM_TantrumRitualOutcome.description>В зависимости от качества ритуала у участников изменится настроение от {MINMOOD} до {MAXMOOD} на {MOODDAYS} дней.</AM_TantrumRitualOutcome.description>
+	<!--                                        EN: Terrible -->
+	<AM_TantrumRitualOutcome.outcomeChances.0.label>Ужасный</AM_TantrumRitualOutcome.outcomeChances.0.label>
+	<!--                                              EN: The {0} was terrible. We hardly destroyed anything, sore fists for nothing -->
+	<AM_TantrumRitualOutcome.outcomeChances.0.description>{0} был ужасен. Мы почти ничего не разрушили, разбитые кулаки ни за что</AM_TantrumRitualOutcome.outcomeChances.0.description>
+	<!--                                        EN: LackLuster -->
+	<AM_TantrumRitualOutcome.outcomeChances.1.label>Тусклый</AM_TantrumRitualOutcome.outcomeChances.1.label>
+	<!--                                              EN: The {0} was mediocre. Wasn't as fun as one could've hoped to destroy all that -->
+	<AM_TantrumRitualOutcome.outcomeChances.1.description>{0} был посредственным. Было не так весело, как можно было бы надеяться уничтожая все это</AM_TantrumRitualOutcome.outcomeChances.1.description>
+	<!--                                        EN: Good -->
+	<AM_TantrumRitualOutcome.outcomeChances.2.label>Хороший</AM_TantrumRitualOutcome.outcomeChances.2.label>
+	<!--                                              EN: The {0} was good. We've left a decent pile of rubble behind and the stress has been released -->
+	<AM_TantrumRitualOutcome.outcomeChances.2.description>{0} было хорошо. Мы оставили после себя приличную кучу щебня, и стресс был снят</AM_TantrumRitualOutcome.outcomeChances.2.description>
+	<!--                                        EN: Amazing -->
+	<AM_TantrumRitualOutcome.outcomeChances.3.label>Удивительно</AM_TantrumRitualOutcome.outcomeChances.3.label>
+	<!--                                              EN: The {0} was invigorating. We've destroyed a great deal of what made this place horrible. A real fresh start! -->
+	<AM_TantrumRitualOutcome.outcomeChances.3.description>{0} был впечатляющим. Мы уничтожили многое из того, что делало это место ужасным. Настоящее новое начало!</AM_TantrumRitualOutcome.outcomeChances.3.description>
+	<!--                               EN: wealth destroyed -->
+	<AM_TantrumRitualOutcome.comps.0.label>богатства уничтожено</AM_TantrumRitualOutcome.comps.0.label>
+</LanguageData>

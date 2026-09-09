@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThoughtDefs\Thoughts_Situation_Special.xml -->
+	<!--                             EN: apoptosis hatred (intense) -->
+	<AM_ApoptosisHateAura.stages.0.label>апоптозная ненависть (интенсивная)</AM_ApoptosisHateAura.stages.0.label>
+	<!--                                   EN: I can't stand such a deep hatred. It's gnawing at my bones! I'm going to be sick. -->
+	<AM_ApoptosisHateAura.stages.0.description>Я не могу вынести такой глубокой ненависти. Оно гложет мои кости! Мне будет плохо.</AM_ApoptosisHateAura.stages.0.description>
+	<!--                             EN: apoptosis hatred (strong) -->
+	<AM_ApoptosisHateAura.stages.1.label>апоптозная ненависть (сильная)</AM_ApoptosisHateAura.stages.1.label>
+	<!--                                   EN: I hear its hatred in my mind, speaking directly to me. Like a crazed whisper. -->
+	<AM_ApoptosisHateAura.stages.1.description>Я слышу его ненависть в своей голове, говорящую прямо со мной. Как безумный шепот.</AM_ApoptosisHateAura.stages.1.description>
+	<!--                             EN: apoptosis hatred (distant) -->
+	<AM_ApoptosisHateAura.stages.2.label>апоптозная ненависть (отдаленная)</AM_ApoptosisHateAura.stages.2.label>
+	<!--                                   EN: I feel it out there somewhere, it despises our humanity. -->
+	<AM_ApoptosisHateAura.stages.2.description>Я ощущаю где-то рядом нечто, презирающее нашу человечность.</AM_ApoptosisHateAura.stages.2.description>
+</LanguageData>

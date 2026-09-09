@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\Ludeon_RimWorld_Biotech\AlphaAnimalsPatch20.xml -->
+	<!--                             EN: ate incredibly awful meal -->
+	<AM_AteSuperAwfulMeal.stages.0.label>съел невероятно ужасную еду</AM_AteSuperAwfulMeal.stages.0.label>
+	<!--                                   EN: I had to eat something that was processed in the guts of a biomechanical abomination. I haven't eaten a more disgusting meal in my whole life. -->
+	<AM_AteSuperAwfulMeal.stages.0.description>Мне пришлось съесть что-то, что было обработано в кишках биомеханической мерзости. Более отвратительной еды я в жизни не ел.</AM_AteSuperAwfulMeal.stages.0.description>
+</LanguageData>

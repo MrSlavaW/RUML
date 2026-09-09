@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\InsectoidBurial.xml -->
+	
+	<!--                                                 EN: Spectators must be alive. -->
+	<AM_InsectoidFuneralBehavior.spectatorFilter.description>Зрители должны быть живы.</AM_InsectoidFuneralBehavior.spectatorFilter.description>
+	<!--                                   EN: insectoid herder -->
+	<AM_InsectoidFuneralBehavior.roles.0.label>инсектоид пастух</AM_InsectoidFuneralBehavior.roles.0.label>
+	<!--                                   EN: Corpse -->
+	<AM_InsectoidFuneralBehavior.roles.1.label>Труп</AM_InsectoidFuneralBehavior.roles.1.label>
+	<!--                                              EN: {0}: The speech is over, the insects are taking the corpse -->
+	<AM_InsectoidFuneralBehavior.stages.1.postAction.text>{0}: Речь окончена, насекомые забирают труп</AM_InsectoidFuneralBehavior.stages.1.postAction.text>
+</LanguageData>

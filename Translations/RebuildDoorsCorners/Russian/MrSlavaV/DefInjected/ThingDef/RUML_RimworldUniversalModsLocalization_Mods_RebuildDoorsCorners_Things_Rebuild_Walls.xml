@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RB_ClerestoryWall.description>Стена с верхним рядом окон, пропускающая дневной свет вглубь помещения.</RB_ClerestoryWall.description>
+  <RB_CurvedWall.description>Изогнутая гладкая стена для создания скруглённых архитектурных форм.</RB_CurvedWall.description>
+  <RB_EmbrasureWall.description>Оборонительная стена с бойницами для стрельбы из укрытия.</RB_EmbrasureWall.description>
+  <RB_GlassWall.description>Прочная стена из прозрачного стекла, позволяющая видеть сквозь неё.</RB_GlassWall.description>
+  <RB_HalfWall.description>Низкая стена-перегородка, служащая лёгким укрытием.</RB_HalfWall.description>
+  <RB_LatticeWall.description>Решётчатая декоративная стена, пропускающая воздух и свет.</RB_LatticeWall.description>
+  <RB_OrnateWall.description>Изящно украшенная стена с декоративными орнаментами, радующая взор поселенцев.</RB_OrnateWall.description>
+  <RB_ReinforcedClerestoryWall.description>Усиленная бронированная стена с верхними световыми проёмами.</RB_ReinforcedClerestoryWall.description>
+  <RB_ReinforcedGlassWall.description>Бронированная прозрачная стена повышенной стойкости к огнестрельному урону.</RB_ReinforcedGlassWall.description>
+  <RB_ReinforcedWall.description>Толстая бронированная стена, способная выдержать мощные взрывы.</RB_ReinforcedWall.description>
+  <RB_SlattedWall.description>Ребристая реечная стена для вентиляции и защиты от солнца.</RB_SlattedWall.description>
+</LanguageData>

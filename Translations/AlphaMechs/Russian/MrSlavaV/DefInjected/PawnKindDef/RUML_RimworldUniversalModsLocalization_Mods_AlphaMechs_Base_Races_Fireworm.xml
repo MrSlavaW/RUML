@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_RacesMechanoids\Races_Fireworm.xml -->
+	<!--           EN: fireworm -->
+	<AM_Fireworm.label>огнечервь</AM_Fireworm.label>
+	<!--                              EN: Plural fireworm -->
+	<AM_Fireworm.lifeStages.1.labelPlural>Огнечерви</AM_Fireworm.lifeStages.1.labelPlural>
+<AM_Fireworm.lifeStages.0.labelPlural>Огнечерви</AM_Fireworm.lifeStages.0.labelPlural></LanguageData>

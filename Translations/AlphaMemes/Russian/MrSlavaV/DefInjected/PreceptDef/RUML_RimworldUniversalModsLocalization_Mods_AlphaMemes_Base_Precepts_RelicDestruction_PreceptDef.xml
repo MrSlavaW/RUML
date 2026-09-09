@@ -1,0 +1,16 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_RelicDestruction.xml -->
+	
+	<!--                           EN: desired -->
+	<AM_RelicDestruction_Desired.label>желамо</AM_RelicDestruction_Desired.label>
+	<!--                                 EN: We will get rid of any obscene idols. They are disgusting and need to be destroyed. -->
+	<AM_RelicDestruction_Desired.description>Мы избавимся от любых непристойных идолов. Они отвратительны и должны быть уничтожены.</AM_RelicDestruction_Desired.description>
+	<!--                                                        EN: Destroyed a relic -->
+	<AM_RelicDestruction_Desired.comps.0.thoughtStageDescriptions.0>Уничтожил реликвию</AM_RelicDestruction_Desired.comps.0.thoughtStageDescriptions.0>
+	<!--                                                        EN: Destroyed two relics -->
+	<AM_RelicDestruction_Desired.comps.0.thoughtStageDescriptions.1>Уничтожил две реликвии</AM_RelicDestruction_Desired.comps.0.thoughtStageDescriptions.1>
+	<!--                                                        EN: Destroyed three or more relics -->
+	<AM_RelicDestruction_Desired.comps.0.thoughtStageDescriptions.2>Уничтожено три или более реликвий</AM_RelicDestruction_Desired.comps.0.thoughtStageDescriptions.2>
+	<!--                                        EN: destroyed a relic -->
+	<AM_RelicDestruction_Desired.comps.1.eventLabel>Уничтожена реликвия</AM_RelicDestruction_Desired.comps.1.eventLabel>
+</LanguageData>

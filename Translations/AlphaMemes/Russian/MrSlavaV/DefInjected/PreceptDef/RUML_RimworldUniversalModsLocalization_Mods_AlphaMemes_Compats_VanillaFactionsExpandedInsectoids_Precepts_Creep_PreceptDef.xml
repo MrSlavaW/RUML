@@ -1,0 +1,18 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaFactionsExpandedInsectoids\Defs\PreceptDefs\Precepts_Creep.xml -->
+	
+	<!--                 EN: disliked -->
+	<AM_Creep_Disliked.label>неприятна</AM_Creep_Disliked.label>
+	<!--                       EN: Creep is disgusting. We have to tolerate it if we want to create our own insectoid hive, but the less we have to experience its stench, the better. -->
+	<AM_Creep_Disliked.description>Слизь отвратительна. Мы должны терпеть её, если хотим создать собственный насекомовидный улей, но чем меньше мы будем ощущать её вонь, тем лучше.</AM_Creep_Disliked.description>
+	
+	<!--                 EN: don't care -->
+	<AM_Creep_DontCare.label>всё равно</AM_Creep_DontCare.label>
+	<!--                       EN: Creep is disgusting, but we have to tolerate it if we want to create our own insectoid hive.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Insectoid creep will now have a beauty of 0. -->
+	<AM_Creep_DontCare.description>Слизь отвратительна, но мы должны терпеть её, если хотим создать собственный насекомовидный улей.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Насекомовидная слизь теперь будет иметь красоту 0.</AM_Creep_DontCare.description>
+	
+	<!--                EN: sublime -->
+	<AM_Creep_Sublime.label>восхитительна</AM_Creep_Sublime.label>
+	<!--                      EN: We will fully embrace our insectoid brethren and bathe in the magnificence of their excretions.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Insectoid creep will now have a beauty of 3. -->
+	<AM_Creep_Sublime.description>Мы полностью примем наших насекомовидных собратьев и будем купаться в великолепии их выделений.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Насекомовидная слизь теперь будет иметь красоту 3.</AM_Creep_Sublime.description>
+</LanguageData>

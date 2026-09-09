@@ -1,0 +1,94 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThoughtDefs\Thoughts_Memory_Barracks.xml -->
+	<!--                                   EN: awful barrack -->
+	<AM_SleptInBarracksMonastic.stages.0.label>ужасный барак</AM_SleptInBarracksMonastic.stages.0.label>
+	<!--                                         EN: We appreciate the monastic, austere lifestyle, but this place is a PIT. -->
+	<AM_SleptInBarracksMonastic.stages.0.description>Мы ценим монашеский, аскетичный образ жизни, но это место - выгребная яма.</AM_SleptInBarracksMonastic.stages.0.description>
+	<!--                                   EN: dull barrack -->
+	<AM_SleptInBarracksMonastic.stages.1.label>унылый барак</AM_SleptInBarracksMonastic.stages.1.label>
+	<!--                                         EN: We appreciate the monastic, austere lifestyle, but this place could use a little bit of cleaning and organization. -->
+	<AM_SleptInBarracksMonastic.stages.1.description>Мы ценим монашеский строгий образ жизни, но этому месту не помешала бы небольшая уборка и организация.</AM_SleptInBarracksMonastic.stages.1.description>
+	<!--                                   EN: austere barrack -->
+	<AM_SleptInBarracksMonastic.stages.2.label>строгий барак</AM_SleptInBarracksMonastic.stages.2.label>
+	<!--                                         EN: I slept in a barrack with my brothers and sisters. This pleases me. -->
+	<AM_SleptInBarracksMonastic.stages.2.description>Я {PAWN_gender ? спал : спала} в бараке с моими братьями и сестрами. Это радует меня.</AM_SleptInBarracksMonastic.stages.2.description>
+	<!--                                   EN: well organized barrack -->
+	<AM_SleptInBarracksMonastic.stages.3.label>хорошо организованный барак</AM_SleptInBarracksMonastic.stages.3.label>
+	<!--                                         EN: I slept in a decent, well organized barrack. This is really perfect: the correct way to share a communal living space. I love it. -->
+	<AM_SleptInBarracksMonastic.stages.3.description>Я {PAWN_gender ? спал : спала} в приличном, хорошо организованном бараке. Это действительно идеально: правильный способ разделить общее жизненное пространство. Я люблю это.</AM_SleptInBarracksMonastic.stages.3.description>
+	<!--                                   EN: contemplative barrack -->
+	<AM_SleptInBarracksMonastic.stages.4.label>созерцательный барак</AM_SleptInBarracksMonastic.stages.4.label>
+	<!--                                         EN: I got to sleep in a pretty nice barrack. A nice place to meditate and contemplate the reality of human condition, but I'd prefer it if it was simpler. -->
+	<AM_SleptInBarracksMonastic.stages.4.description>Я {PAWN_gender ? должен : должна} {PAWN_gender ? был : была} спать в довольно хорошем бараке. Хорошее место для медитации и созерцания реальности человеческого существования, но я бы {PAWN_gender ? предпочел : предпочла}, чтобы оно было проще.</AM_SleptInBarracksMonastic.stages.4.description>
+	<!--                                   EN: impressive barrack -->
+	<AM_SleptInBarracksMonastic.stages.5.label>впечатляющий барак</AM_SleptInBarracksMonastic.stages.5.label>
+	<!--                                         EN: I got to sleep in an impressive barrack. I honestly think it is too much. I would prefer simpler accommodations. -->
+	<AM_SleptInBarracksMonastic.stages.5.description>Я {PAWN_gender ? заснул : заснула} во впечатляющем бараке. Я искренне считаю, что это слишком. Я бы {PAWN_gender ? предпочел : предпочла} более простые помещения.</AM_SleptInBarracksMonastic.stages.5.description>
+	<!--                                   EN: too luxurious barrack -->
+	<AM_SleptInBarracksMonastic.stages.6.label>слишком роскошный барак</AM_SleptInBarracksMonastic.stages.6.label>
+	<!--                                         EN: I slept in a quite luxurious barrack. I honestly think it is too much. I would prefer simpler accommodations. -->
+	<AM_SleptInBarracksMonastic.stages.6.description>Я {PAWN_gender ? спал : спала} в довольно роскошном бараке. Я искренне считаю, что это слишком. Я бы {PAWN_gender ? предпочел : предпочла} более простые помещения.</AM_SleptInBarracksMonastic.stages.6.description>
+	<!--                                   EN: extremely impressive barrack -->
+	<AM_SleptInBarracksMonastic.stages.7.label>очень впечатляющая казарма</AM_SleptInBarracksMonastic.stages.7.label>
+	<!--                                         EN: I slept in an extremely impressive barrack. I honestly think this is way too much. We need to tone down the obscene display of wealth. -->
+	<AM_SleptInBarracksMonastic.stages.7.description>Я {PAWN_gender ? спал : спала} в очень впечатляющем бараке. Я искренне считаю, что это слишком. Нам нужно смягчить непристойную демонстрацию богатства.</AM_SleptInBarracksMonastic.stages.7.description>
+	<!--                                   EN: unbelievably impressive barrack -->
+	<AM_SleptInBarracksMonastic.stages.8.label>невероятно впечатляющая казарма</AM_SleptInBarracksMonastic.stages.8.label>
+	<!--                                         EN: The barrack I slept in was too impressive. We are not princes and living in such a palace is obscene. -->
+	<AM_SleptInBarracksMonastic.stages.8.description>Барак, в котором я {PAWN_gender ? спал : спала}, был слишком впечатляющим. Мы не принцы и жить в таком дворце неприлично.</AM_SleptInBarracksMonastic.stages.8.description>
+	<!--                                   EN: wondrously impressive barrack -->
+	<AM_SleptInBarracksMonastic.stages.9.label>удивительно впечатляющая казарма</AM_SleptInBarracksMonastic.stages.9.label>
+	<!--                                         EN: Disgusting. An obscene display of wealth and vice. -->
+	<AM_SleptInBarracksMonastic.stages.9.description>Отвратительно. Непристойное проявление богатства и порока.</AM_SleptInBarracksMonastic.stages.9.description>
+	
+	<!--                                      EN: private room -->
+	<AM_SleptInPrivateRoomMonastic.stages.0.label>приватная комната</AM_SleptInPrivateRoomMonastic.stages.0.label>
+	<!--                                            EN: A private room seems like an unnecessary luxury on the Rim. I'd rather sleep in a barracks with my brothers and sisters. -->
+	<AM_SleptInPrivateRoomMonastic.stages.0.description>Отдельная комната кажется ненужной роскошью в Окраинных мирах. Я лучше буду спать в бараке с моими братьями и сестрами.</AM_SleptInPrivateRoomMonastic.stages.0.description>
+	
+	<!--                                    EN: awful barrack -->
+	<AM_SleptInBarracksPreferred.stages.0.label>ужасный барак</AM_SleptInBarracksPreferred.stages.0.label>
+	<!--                                          EN: I had to sleep in a terrible, terrible room, crowded like animals. -->
+	<AM_SleptInBarracksPreferred.stages.0.description>Мне пришлось спать в ужасной, ужасной комнате, тесной, как звери.</AM_SleptInBarracksPreferred.stages.0.description>
+	<!--                                    EN: dull barrack -->
+	<AM_SleptInBarracksPreferred.stages.1.label>унылый барак</AM_SleptInBarracksPreferred.stages.1.label>
+	<!--                                          EN: We appreciate the shared barracks, but this place could use a little bit of cleaning and organization. -->
+	<AM_SleptInBarracksPreferred.stages.1.description>Мы ценим общие казармы, но этому месту не помешала бы небольшая уборка и организация.</AM_SleptInBarracksPreferred.stages.1.description>
+	<!--                                    EN: austere barrack -->
+	<AM_SleptInBarracksPreferred.stages.2.label>строгий барак</AM_SleptInBarracksPreferred.stages.2.label>
+	<!--                                          EN: We slept in a shared barrack. This pleases me. -->
+	<AM_SleptInBarracksPreferred.stages.2.description>Мы спали в общем бараке. Это радует меня.</AM_SleptInBarracksPreferred.stages.2.description>
+	<!--                                    EN: well organized barrack -->
+	<AM_SleptInBarracksPreferred.stages.3.label>хорошо организованный барак</AM_SleptInBarracksPreferred.stages.3.label>
+	<!--                                          EN: I slept in a decent, well organized barrack. This is really perfect. I love it. -->
+	<AM_SleptInBarracksPreferred.stages.3.description>Я {PAWN_gender ? спал : спала} в приличном, хорошо организованном бараке. Это действительно идеально. Я люблю это.</AM_SleptInBarracksPreferred.stages.3.description>
+	<!--                                    EN: decent barrack -->
+	<AM_SleptInBarracksPreferred.stages.4.label>приличный барак</AM_SleptInBarracksPreferred.stages.4.label>
+	<!--                                          EN: We got to sleep in a pretty nice barrack. -->
+	<AM_SleptInBarracksPreferred.stages.4.description>Мы должны были спать в довольно хорошем бараке.</AM_SleptInBarracksPreferred.stages.4.description>
+	<!--                                    EN: impressive barrack -->
+	<AM_SleptInBarracksPreferred.stages.5.label>впечатляющий барак</AM_SleptInBarracksPreferred.stages.5.label>
+	<!--                                          EN: We got to sleep in an impressive barrack. It is great. -->
+	<AM_SleptInBarracksPreferred.stages.5.description>Мы спим во внушительном бараке. Это великолепно.</AM_SleptInBarracksPreferred.stages.5.description>
+	<!--                                    EN: very impressive barrack -->
+	<AM_SleptInBarracksPreferred.stages.6.label>очень впечатляющая казарма</AM_SleptInBarracksPreferred.stages.6.label>
+	<!--                                          EN: I slept in a quite luxurious barrack. I love it. -->
+	<AM_SleptInBarracksPreferred.stages.6.description>Я {PAWN_gender ? спал : спала} в довольно роскошном бараке. Я люблю это.</AM_SleptInBarracksPreferred.stages.6.description>
+	<!--                                    EN: extremely impressive barrack -->
+	<AM_SleptInBarracksPreferred.stages.7.label>очень впечатляющая казарма</AM_SleptInBarracksPreferred.stages.7.label>
+	<!--                                          EN: I slept in an extremely impressive barrack. It was marvelous. -->
+	<AM_SleptInBarracksPreferred.stages.7.description>Я {PAWN_gender ? спал : спала} в очень впечатляющем бараке. Это было чудесно.</AM_SleptInBarracksPreferred.stages.7.description>
+	<!--                                    EN: unbelievably impressive barrack -->
+	<AM_SleptInBarracksPreferred.stages.8.label>невероятно впечатляющая казарма</AM_SleptInBarracksPreferred.stages.8.label>
+	<!--                                          EN: The barrack I slept in was unbelievably impressive. It was truly astounding. -->
+	<AM_SleptInBarracksPreferred.stages.8.description>Барак, в котором я {PAWN_gender ? спал : спала}, был невероятно впечатляющим. Это было действительно поразительно.</AM_SleptInBarracksPreferred.stages.8.description>
+	<!--                                    EN: wondrously impressive barrack -->
+	<AM_SleptInBarracksPreferred.stages.9.label>удивительно впечатляющая казарма</AM_SleptInBarracksPreferred.stages.9.label>
+	<!--                                          EN: I slept in a heavenly barrack. It was wondrous. -->
+	<AM_SleptInBarracksPreferred.stages.9.description>Я {PAWN_gender ? спал : спала} в небесной казарме. Это было чудесно.</AM_SleptInBarracksPreferred.stages.9.description>
+	
+	<!--                                       EN: private room -->
+	<AM_SleptInPrivateRoomPreferred.stages.0.label>приватная комната</AM_SleptInPrivateRoomPreferred.stages.0.label>
+	<!--                                             EN: A private room seems like a dangerous prospect on the Rim. I'd rather sleep in a barracks with other people. -->
+	<AM_SleptInPrivateRoomPreferred.stages.0.description>Отдельная спальня не безопасна в Окраинных мирах. Я лучше буду спать в казарме с другими людьми.</AM_SleptInPrivateRoomPreferred.stages.0.description>
+</LanguageData>

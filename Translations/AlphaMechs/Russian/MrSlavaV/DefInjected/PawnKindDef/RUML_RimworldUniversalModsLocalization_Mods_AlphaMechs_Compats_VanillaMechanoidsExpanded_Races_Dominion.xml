@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_Dominion.xml -->
+	<!--                      EN: dominion -->
+	<VFE_Mech_Advanced_Aura.label>доминион</VFE_Mech_Advanced_Aura.label>
+	<!--                                         EN: Plural dominion -->
+	<VFE_Mech_Advanced_Aura.lifeStages.0.labelPlural>Доминионы</VFE_Mech_Advanced_Aura.lifeStages.0.labelPlural>
+</LanguageData>

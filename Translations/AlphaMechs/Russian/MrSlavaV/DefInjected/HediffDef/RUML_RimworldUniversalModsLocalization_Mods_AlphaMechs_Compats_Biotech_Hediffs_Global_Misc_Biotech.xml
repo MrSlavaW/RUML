@@ -1,0 +1,35 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\HediffDefs\Hediffs_Global_Misc_Biotech.xml -->
+	<!--                    EN: apoptosis hate aura -->
+	<AM_ApoptosisHateAura.label>апоптозная аура ненависти</AM_ApoptosisHateAura.label>
+	<!--                          EN: Such a deep hatred, I can feel it in my bones. I'm gonna be sick. -->
+	<AM_ApoptosisHateAura.description>Такая глубокая ненависть, я чувствую ее всеми своими костями. Мне будет плохо.</AM_ApoptosisHateAura.description>
+	<!--                      EN: beamcaster band node (tuned) -->
+	<AM_BeamncasterBandNode.label>узел лучевой связи (настроен)</AM_BeamncasterBandNode.label>
+	<!--                            EN: This mechanitor's bandwidth is being increased by 2 per node thanks to the influence of a beamcaster band node structure. -->
+	<AM_BeamncasterBandNode.description>Пропускная способность этого механитора увеличивается на 2 за каждый узел благодаря структуре лучевой связи.</AM_BeamncasterBandNode.description>
+	<!--                   EN: voidlink band node (tuned) -->
+	<AM_VoidlinkBandNode.label>узел пустотной связи (настроенный)</AM_VoidlinkBandNode.label>
+	<!--                         EN: This mechanitor's bandwidth is being increased by 5 per node thanks to the influence of a voidlink band node structure. -->
+	<AM_VoidlinkBandNode.description>Пропускная способность этого механитора увеличивается на 5 за каждый узел благодаря влиянию структуры пустотной связи.</AM_VoidlinkBandNode.description>
+	<!--                   EN: enhanced boost -->
+	<AM_GreaterMechBoost.label>улучшенный импульс</AM_GreaterMechBoost.label>
+	<!--                         EN: This mechanoid's capacities have been boosted by a nearby persistent mech booster building. This condition will stay on the mechanoid for two hours after leaving the range of the mech booster building, but it will be overwritten if the mech enters the range of a standard mech booster. -->
+	<AM_GreaterMechBoost.description>Возможности этого механоида были увеличены за счет расположенного поблизости здания постоянного усилителя меха. Это состояние будет сохраняться на механоиде в течение двух часов после выхода из зоны действия здания усилителя меха, но оно будет перезаписано, если мех войдет в зону действия стандартного усилителя меха.</AM_GreaterMechBoost.description>
+	<!--                      EN: efficiency boost -->
+	<AM_EfficiencyMechBoost.label>повышение эффективности</AM_EfficiencyMechBoost.label>
+	<!--                            EN: This mechanoid's energy efficiency has been improved by a nearby mechanoid efficiency booster building. -->
+	<AM_EfficiencyMechBoost.description>Энергоэффективность этого механоида была улучшена за счет расположенного поблизости здания повышения эффективности механоида.</AM_EfficiencyMechBoost.description>
+	<!--                 EN: armor boost -->
+	<AM_ArmorMechBoost.label>усиление брони</AM_ArmorMechBoost.label>
+	<!--                       EN: This mechanoid's armor has been reinforced by a nearby mechanoid protection booster building. -->
+	<AM_ArmorMechBoost.description>Броня этого механоида была усилена близлежащим зданием усилителя защиты механоидов.</AM_ArmorMechBoost.description>
+	<!--                      EN: targeting boost -->
+	<AM_TargettingMechBoost.label>усиление наведения</AM_TargettingMechBoost.label>
+	<!--                            EN: This mechanoid's targeting has been enhanced by a nearby mechanoid targeting booster building. -->
+	<AM_TargettingMechBoost.description>Системы наведения этого механоида усилены соседним зданием наведения механоидов.</AM_TargettingMechBoost.description>
+	<!--                 EN: mech disruption -->
+	<AM_MechDisruption.label>сбой мехсистем</AM_MechDisruption.label>
+	<!--                       EN: This mechanoid's targeting, speed and agility are being dirupted by a nearby mechanoid disruptor building. -->
+	<AM_MechDisruption.description>Близлежащее здание-подавитель мешает прицеливанию, скорости и ловкости этого механоида.</AM_MechDisruption.description>
+</LanguageData>

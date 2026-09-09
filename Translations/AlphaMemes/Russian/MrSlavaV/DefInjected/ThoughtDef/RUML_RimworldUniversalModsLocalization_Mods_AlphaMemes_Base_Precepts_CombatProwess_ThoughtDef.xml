@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_CombatProwess.xml -->
+	<!--                                             EN: used a non-ranged attack -->
+	<AM_CombatProwess_Increased_UsedMelee.stages.0.label>использована не дальняя атака</AM_CombatProwess_Increased_UsedMelee.stages.0.label>
+	<!--                                                   EN: I had to defend myself using a melee weapon, like some kind of savage caveman. Disgusting. -->
+	<AM_CombatProwess_Increased_UsedMelee.stages.0.description>Приходилось защищаться с помощью оружия ближнего боя, как какой-то дикарь-пещерный человек. Отвратительно.</AM_CombatProwess_Increased_UsedMelee.stages.0.description>
+	<!--                                          EN: used a ranged attack -->
+	<AM_CombatProwess_Melee_UsedRanged.stages.0.label>использована дальняя атака</AM_CombatProwess_Melee_UsedRanged.stages.0.label>
+	<!--                                                EN: I had to defend myself using a ranged weapon, like some kind of coward. Disgusting. -->
+	<AM_CombatProwess_Melee_UsedRanged.stages.0.description>Приходилось защищаться, используя оружие дальнего боя, как какой-то трус. Отвратительно.</AM_CombatProwess_Melee_UsedRanged.stages.0.description>
+</LanguageData>

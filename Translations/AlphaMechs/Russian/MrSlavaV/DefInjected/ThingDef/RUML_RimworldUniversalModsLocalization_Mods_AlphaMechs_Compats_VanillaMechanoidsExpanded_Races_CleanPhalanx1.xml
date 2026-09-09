@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_CleanPhalanx.xml -->
+	<!--                EN: phalanx -->
+	<VFE_Mech_Phalanx.label>фаланга</VFE_Mech_Phalanx.label>
+	<!--                      EN: A hulking mechanoid based on a rhinoceros beetle body plan. The phalanx's plasteel carapace hides a very powerful cryogenic engine capable of constantly producing compacted pellets of supercooled gas. These are fired from an aperture at the mechanoid's head.\n\nThis cryo-weapon has a very low range, but it can be very dangerous for beings susceptible to frostbite. This particular unit appears to be freshly manufactured and will operate more robustly.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Will explode on death with 10 Frostbite damage on a 2.9 tile radius.\n\nIf toggled to not spawn via mod options, they will get replaced by a Pikeman. -->
+	<VFE_Mech_Phalanx.description>Огромный механоид, основанный на строении тела жука-носорога. За пласталевым панцирем «Фаланги» скрывается очень мощный криогенный двигатель, способный постоянно производить уплотненные гранулы переохлажденного газа. Они стреляют из отверстия в голове механоида.\n\nЭто криооружие имеет очень малую дальность действия, но оно может быть очень опасным для существ, подверженных обморожению. Этот конкретный блок выглядит только что изготовленным и будет работать более надежно.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Взорвется в случае смерти, нанеся 10 ед. урона от обморожения в радиусе 2,9 плитки.\n\nЕсли с помощью опций мода отключить спавн, они будут заменены пикинерами.</VFE_Mech_Phalanx.description>
+	<!--                        EN: голова -->
+	<VFE_Mech_Phalanx.tools.0.label>голова</VFE_Mech_Phalanx.tools.0.label>
+</LanguageData>

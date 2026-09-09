@@ -1,0 +1,27 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaCookingExpanded\Defs\Rituals\Banquet\Ritual_Outcomes_Banquet.xml -->
+	<!--                       EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. If the banquet is exquisite, all participants will receive a bonus to their eating speed for 2 days. -->
+	<AM_BanquetOutcome.description>В зависимости от качества ритуала, участники получат от {MINMOOD} до {MAXMOOD} настроения на {MOODDAYS} дней. Если пир был изысканным, все участники получат бонус к скорости еды на 2 дня.</AM_BanquetOutcome.description>
+	<!--                         EN: leader present -->
+	<AM_BanquetOutcome.comps.0.label>лидер присутствует</AM_BanquetOutcome.comps.0.label>
+	<!--                         EN: participant count -->
+	<AM_BanquetOutcome.comps.1.label>количество участников</AM_BanquetOutcome.comps.1.label>
+	<!--                         EN: room impressiveness -->
+	<AM_BanquetOutcome.comps.2.label>впечатляющее помещение</AM_BanquetOutcome.comps.2.label>
+	<!--                                  EN: Disastrous -->
+	<AM_BanquetOutcome.outcomeChances.0.label>Катастрофа</AM_BanquetOutcome.outcomeChances.0.label>
+	<!--                                        EN: The {0} was disastrous. The food was revolting, and arguments spoiled the entire occasion. -->
+	<AM_BanquetOutcome.outcomeChances.0.description>Пир был катастрофой. Еда была отвратительной, а споры испортили все мероприятие.</AM_BanquetOutcome.outcomeChances.0.description>
+	<!--                                  EN: Dull -->
+	<AM_BanquetOutcome.outcomeChances.1.label>Скучный</AM_BanquetOutcome.outcomeChances.1.label>
+	<!--                                        EN: The {0} was dull. The food was uninspired, and the atmosphere felt lifeless and routine. -->
+	<AM_BanquetOutcome.outcomeChances.1.description>Пир был скучным. Еда была невдохновляющей, а атмосфера казалась безжизненной и рутинной.</AM_BanquetOutcome.outcomeChances.1.description>
+	<!--                                  EN: Enjoyable -->
+	<AM_BanquetOutcome.outcomeChances.2.label>Приятный</AM_BanquetOutcome.outcomeChances.2.label>
+	<!--                                        EN: The {0} was enjoyable. Sharing delicious food and laughter together made the event truly worthwhile. -->
+	<AM_BanquetOutcome.outcomeChances.2.description>Пир был приятным. Разделение вкусной еды и смеха сделало мероприятие по-настоящему стоящим.</AM_BanquetOutcome.outcomeChances.2.description>
+	<!--                                  EN: Exquisite -->
+	<AM_BanquetOutcome.outcomeChances.3.label>Изысканный</AM_BanquetOutcome.outcomeChances.3.label>
+	<!--                                        EN: The {0} was exquisite! The atmosphere was perfect, the company heartwarming, and the food beyond compare. -->
+	<AM_BanquetOutcome.outcomeChances.3.description>Пир был изысканным! Атмосфера была идеальной, компания — тёплой, а еда — несравненной.</AM_BanquetOutcome.outcomeChances.3.description>
+</LanguageData>

@@ -1,0 +1,8 @@
+<LanguageData>
+	<!-- 1.6\Mods\AlphaPrefabs\Defs\PreceptDefs\Precepts_AlphaPrefabs.xml -->
+	<!--               EN: prefab buying -->
+	<AM_PrefabBuying.label>покупка Префаба</AM_PrefabBuying.label>
+	
+	<!--                    EN: prefab acquisition -->
+	<AM_PrefabAcquisition.label>Посылки с Префабами</AM_PrefabAcquisition.label>
+</LanguageData>

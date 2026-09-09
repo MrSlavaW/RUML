@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RE.MustPlaceHeaterWithFreeSpaces>Горячая сторона камина должна быть открытой.</RE.MustPlaceHeaterWithFreeSpaces>
+  <RE.SetTerrainEdgesLabel>Настроить границы покрытия</RE.SetTerrainEdgesLabel>
+  <RE.SetTerrainEdgesDesc>Покрытие в этой зоне будет иметь настраиваемые сглаженные границы.</RE.SetTerrainEdgesDesc>
+</LanguageData>

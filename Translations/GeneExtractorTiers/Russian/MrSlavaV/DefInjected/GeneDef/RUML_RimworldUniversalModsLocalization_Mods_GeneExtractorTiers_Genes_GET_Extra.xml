@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Body_Size.label>размер тела</Body_Size.label>
+  <GET_CarryToGeneExtractionVat_II.label>поместить в чан экстракции II</GET_CarryToGeneExtractionVat_II.label>
+  <GET_CarryToGeneExtractionVat_III.label>поместить в чан экстракции III</GET_CarryToGeneExtractionVat_III.label>
+  <GET_CarryToGeneExtractionVat_IV.label>поместить в чан экстракции IV</GET_CarryToGeneExtractionVat_IV.label>
+  <GET_GN_BasicBody.label>Генный узел — Тело</GET_GN_BasicBody.label>
+  <GET_GN_Culture.label>Генный узел — Культура</GET_GN_Culture.label>
+  <GET_GN_Experimental.label>Генный узел — Экспериментальный</GET_GN_Experimental.label>
+  <GET_GN_Intern.label>Генный узел — Стажёр</GET_GN_Intern.label>
+  <GET_GN_ViperSpecial.label>Генный узел — Гадюка</GET_GN_ViperSpecial.label>
+  <GET_GN_Warrior.label>Генный узел — Воин</GET_GN_Warrior.label>
+  <GET_GN_WeaknessOfBody.label>Генный узел — Слабость тела</GET_GN_WeaknessOfBody.label>
+  <GET_GN_WeaknessOfMind.label>Генный узел — Слабость разума</GET_GN_WeaknessOfMind.label>
+  <GET_GeneNode.label>Генный узел</GET_GeneNode.label>
+  <GET_GeneNodeArchite.label>Генный узел II</GET_GeneNodeArchite.label>
+  <GET_HaulToGeneExtractionVat_II.label>отнести в чан экстракции II</GET_HaulToGeneExtractionVat_II.label>
+  <GET_HaulToGeneExtractionVat_III.label>отнести в чан экстракции III</GET_HaulToGeneExtractionVat_III.label>
+  <GET_HaulToGeneExtractionVat_IV.label>отнести в чан экстракции IV</GET_HaulToGeneExtractionVat_IV.label>
+  <GET_RegularAddiction.description>Носители обладают стандартной вероятностью развития зависимости от {0}.</GET_RegularAddiction.description>
+  <GET_RegularAddiction.label>обычная толерантность к {0}</GET_RegularAddiction.label>
+  <GET_RegularBodyShape.description>Носители этого гена имеют обычное человеческое телосложение.</GET_RegularBodyShape.description>
+  <GET_RegularBodyShape.label>стандартное телосложение</GET_RegularBodyShape.label>
+  <GET_RegularHair.description>Носители этого гена обладают обычными человеческими волосами.</GET_RegularHair.description>
+  <GET_RegularHair.label>обычные волосы</GET_RegularHair.label>
+</LanguageData>

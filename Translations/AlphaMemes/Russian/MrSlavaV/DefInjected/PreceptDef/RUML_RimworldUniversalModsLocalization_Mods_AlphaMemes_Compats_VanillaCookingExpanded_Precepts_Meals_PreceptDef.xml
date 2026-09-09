@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaCookingExpanded\Defs\PreceptDefs\Precepts_Meals.xml -->
+	<!--                       EN: desired -->
+	<AM_Meals_QualityDesired.label>желаемы</AM_Meals_QualityDesired.label>
+	<!--                             EN: Why would we settle for anything less than the finest? Food is more than fuel—it's an experience, a celebration of life itself. -->
+	<AM_Meals_QualityDesired.description>Зачем нам довольствоваться чем-то меньшим, чем самое лучшее? Еда — это больше, чем просто топливо, это опыт, празднование самой жизни.</AM_Meals_QualityDesired.description>
+</LanguageData>

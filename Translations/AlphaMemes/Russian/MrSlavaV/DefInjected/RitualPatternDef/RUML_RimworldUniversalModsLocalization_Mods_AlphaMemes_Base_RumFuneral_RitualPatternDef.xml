@@ -1,0 +1,5 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\RumFuneral.xml -->
+	<!--                                EN: Once a {IDEO} member dies, other {MEMBERS} witnesss {RITUAL_labelDef} to liquorize their friend -->
+	<AM_RumBurialPattern.ritualExpectedDesc>Как только член {IDEO} умирает, другие {MEMBERS} становятся свидетелями {RITUAL_labelDef} для того, чтобы ромировать своего друга.</AM_RumBurialPattern.ritualExpectedDesc>
+</LanguageData>

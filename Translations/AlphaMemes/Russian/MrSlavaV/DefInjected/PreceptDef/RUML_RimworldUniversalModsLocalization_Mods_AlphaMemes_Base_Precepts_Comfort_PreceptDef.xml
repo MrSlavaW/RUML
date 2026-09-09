@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Comfort.xml -->
+<!--                              EN: discomfort preferred -->
+    <AM_Comfort_DiscomfortPreferred.label>предпочтителен дискомфорт</AM_Comfort_DiscomfortPreferred.label>
+    <!--                                    EN: Comfort is a weakness. We prefer hardship and discomfort, as they remind us that we are strong enough to endure them. -->
+    <AM_Comfort_DiscomfortPreferred.description>Комфорт — это слабость. Мы предпочитаем тяготы и дискомфорт, поскольку они напоминают нам, что мы достаточно сильны, чтобы их вынести.</AM_Comfort_DiscomfortPreferred.description>
+</LanguageData>

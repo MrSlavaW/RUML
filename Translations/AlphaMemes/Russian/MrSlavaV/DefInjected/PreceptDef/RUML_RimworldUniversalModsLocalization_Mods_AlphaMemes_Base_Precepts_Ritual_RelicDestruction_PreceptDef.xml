@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Ritual_RelicDestruction.xml -->
+	<!--                          EN: relic destruction -->
+	<AM_RelicDestructionPrecept.label>уничтожение реликвий</AM_RelicDestructionPrecept.label>
+	<!--                                EN: A ceremony of relic destruction. Colonists will receive a permanent bonus for each relic that gets destroyed. -->
+	<AM_RelicDestructionPrecept.description>Церемония уничтожения реликвий. Поселенцы получат постоянный бонус за каждую уничтоженную реликвию.</AM_RelicDestructionPrecept.description>
+</LanguageData>

@@ -1,0 +1,8 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\PreceptDefs\Precepts_DeathrestCaskets.xml -->
+	
+	<!--                             EN: abhorrent -->
+	<AM_DeathrestCaskets_Abhorrent.label>отвратительны</AM_DeathrestCaskets_Abhorrent.label>
+	<!--                                   EN: To lie in a coffin, ensnared in a deathlike slumber, is to mock the sanctity of life itself. -->
+	<AM_DeathrestCaskets_Abhorrent.description>Лежать в гробу, погруженный в смертельный сон, - значит насмехаться над святостью самой жизни.</AM_DeathrestCaskets_Abhorrent.description>
+</LanguageData>

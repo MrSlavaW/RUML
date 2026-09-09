@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\Rituals\TeaCeremony\Ritual_Behaviors_TeaCeremony.xml -->
+	<!--                              EN: speaker -->
+	<AM_TeaCeremonyBehavior.roles.0.label>оратор</AM_TeaCeremonyBehavior.roles.0.label>
+	<!--                                EN: Participants -->
+	<AM_TeaCeremonyBehavior.spectatorsLabel>Участники</AM_TeaCeremonyBehavior.spectatorsLabel>
+	<!--                                EN: participate -->
+	<AM_TeaCeremonyBehavior.spectatorGerund>участник</AM_TeaCeremonyBehavior.spectatorGerund>
+</LanguageData>

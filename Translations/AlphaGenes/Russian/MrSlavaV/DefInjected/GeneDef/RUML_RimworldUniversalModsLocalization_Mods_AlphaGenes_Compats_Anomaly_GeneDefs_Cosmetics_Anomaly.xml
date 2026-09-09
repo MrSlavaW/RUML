@@ -1,0 +1,35 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\GeneDefs\GeneDefs_Cosmetics_Anomaly.xml -->
+	<!--                       EN: twitching toughspikes -->
+	<AG_TwitchingToughspikes.label>судорожные шипокогти</AG_TwitchingToughspikes.label>
+	<!--                             EN: Carriers of this gene have two non-functional toughspike claws growing from their shoulders. Unnerving! -->
+	<AG_TwitchingToughspikes.description>У носителей этого гена из плеч растут два нефункциональных шипокогтя. Выглядит жутковато.</AG_TwitchingToughspikes.description>
+	<!--                                                    EN: Fresh, Rotting -->
+	<AG_TwitchingToughspikes.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_TwitchingToughspikes.renderNodeProperties.0.rotDrawMode>
+	<!--                                                    EN: Fresh, Rotting -->
+	<AG_TwitchingToughspikes.renderNodeProperties.1.rotDrawMode>Fresh, Rotting</AG_TwitchingToughspikes.renderNodeProperties.1.rotDrawMode>
+	<!--                     EN: twitching trispikes -->
+	<AG_TwitchingTrispikes.label>судорожные трёхкогти</AG_TwitchingTrispikes.label>
+	<!--                           EN: Carriers of this gene have three non-functional flesh claws growing from their shoulders. Unnerving! -->
+	<AG_TwitchingTrispikes.description>У носителей этого гена из плеч растут три нефункциональных мясистых когтя. Выглядит жутковато.</AG_TwitchingTrispikes.description>
+	<!--                                                  EN: Fresh, Rotting -->
+	<AG_TwitchingTrispikes.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_TwitchingTrispikes.renderNodeProperties.0.rotDrawMode>
+	<!--                                                  EN: Fresh, Rotting -->
+	<AG_TwitchingTrispikes.renderNodeProperties.1.rotDrawMode>Fresh, Rotting</AG_TwitchingTrispikes.renderNodeProperties.1.rotDrawMode>
+	<!--                                                  EN: Fresh, Rotting -->
+	<AG_TwitchingTrispikes.renderNodeProperties.2.rotDrawMode>Fresh, Rotting</AG_TwitchingTrispikes.renderNodeProperties.2.rotDrawMode>
+	<!--                       EN: twitching fingerspike -->
+	<AG_TwitchingFingerspike.label>судорожный пальцешип</AG_TwitchingFingerspike.label>
+	<!--                             EN: Carriers of this gene have a non-functional fingerspike growing from their shoulders. Unnerving! -->
+	<AG_TwitchingFingerspike.description>У носителей этого гена из плеч растёт нефункциональный пальцешип. Выглядит жутковато.</AG_TwitchingFingerspike.description>
+	<!--                                                    EN: Fresh, Rotting -->
+	<AG_TwitchingFingerspike.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_TwitchingFingerspike.renderNodeProperties.0.rotDrawMode>
+	<!--                EN: tentacles and horns -->
+	<AG_TentacleHorns.label>рога со щупальцами</AG_TentacleHorns.label>
+	<!--                      EN: Carriers of this gene grow two large  horns protruding from the forehead, which are not purely cosmetic, as they can be used for offensive purposes, as well as four fleshy tentacles. -->
+	<AG_TentacleHorns.description>У носителей этого гена вырастают два больших рога, торчащие изо лба, которые не являются чисто косметическими, поскольку их можно использовать в наступательных целях, а также четыре мясистых щупальца.</AG_TentacleHorns.description>
+	<!--                                     EN: Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack -->
+	<AG_TentacleHorns.customEffectDescriptions.0>Увеличивает урон носителя за счет добавления 16 колющего урона и 2-секундной перезарядки рукопашной атаки.</AG_TentacleHorns.customEffectDescriptions.0>
+	<!--                                             EN: Fresh, Rotting -->
+	<AG_TentacleHorns.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_TentacleHorns.renderNodeProperties.0.rotDrawMode>
+</LanguageData>

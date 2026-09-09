@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\Baptism\Ritual_Behaviors_Baptism.xml -->
+	<!--                          EN: speaker -->
+	<AM_BaptismBehavior.roles.0.label>оратор</AM_BaptismBehavior.roles.0.label>
+	<!--                          EN: baptized -->
+	<AM_BaptismBehavior.roles.1.label>крещеный</AM_BaptismBehavior.roles.1.label>
+	<!--                            EN: Participants -->
+	<AM_BaptismBehavior.spectatorsLabel>Участники</AM_BaptismBehavior.spectatorsLabel>
+	<!--                            EN: participate -->
+	<AM_BaptismBehavior.spectatorGerund>участвовать</AM_BaptismBehavior.spectatorGerund>
+</LanguageData>

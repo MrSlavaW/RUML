@@ -1,0 +1,23 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Comfort.xml -->
+<!--                                       EN: uncomfortable -->
+    <AM_Comfort_DiscomfortPreferred.stages.0.label>дискомфорт</AM_Comfort_DiscomfortPreferred.stages.0.label>
+    <!--                                             EN: I've been pleasantly uncomfortable recently. This hardship reminds me that I am strong enough to endure it. -->
+    <AM_Comfort_DiscomfortPreferred.stages.0.description>В последнее время мне было приятно неуютно. Эти тяготы напоминают мне, что я достаточно силён, чтобы их вынести.</AM_Comfort_DiscomfortPreferred.stages.0.description>
+    <!--                                       EN: comfortable -->
+    <AM_Comfort_DiscomfortPreferred.stages.1.label>комфорт</AM_Comfort_DiscomfortPreferred.stages.1.label>
+    <!--                                             EN: I've been too comfortable recently. I need some hardship in my life. -->
+    <AM_Comfort_DiscomfortPreferred.stages.1.description>В последнее время мне было слишком комфортно. Мне нужны жизненные трудности.</AM_Comfort_DiscomfortPreferred.stages.1.description>
+    <!--                                       EN: quite comfortable -->
+    <AM_Comfort_DiscomfortPreferred.stages.2.label>заметный комфорт</AM_Comfort_DiscomfortPreferred.stages.2.label>
+    <!--                                             EN: I've been far too comfortable recently. All this luxury is making me soft. -->
+    <AM_Comfort_DiscomfortPreferred.stages.2.description>В последнее время мне было далеко слишком комфортно. Вся эта роскошь делает меня изнеженным.</AM_Comfort_DiscomfortPreferred.stages.2.description>
+    <!--                                       EN: extremely comfortable -->
+    <AM_Comfort_DiscomfortPreferred.stages.3.label>крайний комфорт</AM_Comfort_DiscomfortPreferred.stages.3.label>
+    <!--                                             EN: I've been living in disgusting luxury. I need to experience some real discomfort. -->
+    <AM_Comfort_DiscomfortPreferred.stages.3.description>Я живу в отвратительной роскоши. Мне нужно испытать настоящий дискомфорт.</AM_Comfort_DiscomfortPreferred.stages.3.description>
+    <!--                                       EN: luxuriantly comfortable -->
+    <AM_Comfort_DiscomfortPreferred.stages.4.label>роскошный комфорт</AM_Comfort_DiscomfortPreferred.stages.4.label>
+    <!--                                             EN: This is unbearable. I am surrounded by softness and comfort, and I can feel myself becoming weak. -->
+    <AM_Comfort_DiscomfortPreferred.stages.4.description>Это невыносимо. Я окружён мягкостью и уютом, и чувствую, как становлюсь слабым.</AM_Comfort_DiscomfortPreferred.stages.4.description>
+</LanguageData>

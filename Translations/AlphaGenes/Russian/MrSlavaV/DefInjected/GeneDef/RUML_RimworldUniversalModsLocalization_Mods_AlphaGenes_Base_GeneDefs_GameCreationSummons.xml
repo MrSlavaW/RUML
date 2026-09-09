@@ -1,0 +1,27 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_GameCreationSummons.xml -->
+	<!--              EN: rodent affinity -->
+	<AG_RatAffinity.label>Крысиный король</AG_RatAffinity.label>
+	<!--                    EN: Carriers of this gene attract rats, and a tame horde of these critters is constantly surrounding them. -->
+	<AG_RatAffinity.description>Носители этого гена привлекают крыс, и их постоянно окружает ручная орда этих тварей.</AG_RatAffinity.description>
+	<!--                                   EN: Begins play with a small horde of 3 tamed rats. -->
+	<AG_RatAffinity.customEffectDescriptions.0>Начинает игру с шайкой из 3 крыс.</AG_RatAffinity.customEffectDescriptions.0>
+	<!--                                   EN: This gene can only be chosen (and only has effects) at character creation. It won't appear during gameplay. -->
+	<AG_RatAffinity.customEffectDescriptions.1>Этот ген может быть выбран (и действовать) только при создании персонажа. Он не появится во время игры.</AG_RatAffinity.customEffectDescriptions.1>
+	<!--               EN: lupine affinity -->
+	<AG_WolfAffinity.label>Альфа</AG_WolfAffinity.label>
+	<!--                     EN: Carriers of this gene have a mystical psychic bond with a wolf. -->
+	<AG_WolfAffinity.description>Носители этого гена имеют мистическую психическую связь с лесным волком.</AG_WolfAffinity.description>
+	<!--                                    EN: Begins play with a tamed timber wolf. -->
+	<AG_WolfAffinity.customEffectDescriptions.0>Начните игру с прирученным лесным волком.</AG_WolfAffinity.customEffectDescriptions.0>
+	<!--                                    EN: This gene can only be chosen (and only has effects) at character creation. It won't appear during gameplay. -->
+	<AG_WolfAffinity.customEffectDescriptions.1>Этот ген может быть выбран только при создании персонажа в игре НЕ встречается!</AG_WolfAffinity.customEffectDescriptions.1>
+	<!--                EN: joris affinity -->
+	<AG_JorisAffinity.label>Укротитель медведей</AG_JorisAffinity.label>
+	<!--                      EN: Carriers of this gene have a very strange interest in the politics of Old Earth, and polar bears. You'd think the overlap of those two things would be zero, but here we are. -->
+	<AG_JorisAffinity.description>Носители этого гена имеют мистическую психическую связь с медведем.</AG_JorisAffinity.description>
+	<!--                                     EN: Begins play with a tamed polar bear. -->
+	<AG_JorisAffinity.customEffectDescriptions.0>Начинает игру прирученным белым медведем.</AG_JorisAffinity.customEffectDescriptions.0>
+	<!--                                     EN: This gene can only be chosen (and only has effects) at character creation. It won't appear during gameplay. -->
+	<AG_JorisAffinity.customEffectDescriptions.1>Этот ген может быть выбран только при создании персонажа в игре НЕ встречается!.</AG_JorisAffinity.customEffectDescriptions.1>
+</LanguageData>

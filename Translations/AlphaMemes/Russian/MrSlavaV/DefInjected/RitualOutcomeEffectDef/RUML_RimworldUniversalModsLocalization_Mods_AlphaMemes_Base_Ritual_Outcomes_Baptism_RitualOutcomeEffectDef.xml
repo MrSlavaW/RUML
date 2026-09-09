@@ -1,0 +1,35 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\Baptism\Ritual_Outcomes_Baptism.xml -->
+	<!--                       EN: If the baptism ritual goes well (positive outcome), the baptized colonist will be instantly converted. A negative outcome will cause a mood penalty and strengthen their original beliefs.\n\nBaptism will be more effective if started near large bodies of water (20 water tiles in a 10 tile radius). -->
+	<AM_BaptismOutcome.description>Если ритуал крещения пройдет успешно (положительный исход), крещеный поселенец будет мгновенно обращен. Негативный исход вызовет штраф к настроению и укрепит их первоначальные убеждения.\n\nКрещение будет более эффективным, если оно начнется рядом с крупными водоемами (20 клеток воды в радиусе 10 клеток).</AM_BaptismOutcome.description>
+	<!--                         EN: outdoors -->
+	<AM_BaptismOutcome.comps.0.label>впечатляемость комнаты</AM_BaptismOutcome.comps.0.label>
+	<!--                               EN: not outdoors -->
+	<AM_BaptismOutcome.comps.0.labelNotMet>not outdoors</AM_BaptismOutcome.comps.0.labelNotMet>
+	<!--                         EN: participant count -->
+	<AM_BaptismOutcome.comps.1.label>количество участников</AM_BaptismOutcome.comps.1.label>
+	<!--                         EN: {PAWN_labelShort}'s social impact -->
+	<AM_BaptismOutcome.comps.2.label>социальное влияние {PAWN_labelShort}</AM_BaptismOutcome.comps.2.label>
+	<!--                                 EN: speaker's social impact -->
+	<AM_BaptismOutcome.comps.2.labelAbstract>социальное влияние оратора</AM_BaptismOutcome.comps.2.labelAbstract>
+	<!--                         EN: 20 tiles of water nearby -->
+	<AM_BaptismOutcome.comps.3.label>20 клеток воды поблизости</AM_BaptismOutcome.comps.3.label>
+	<!--                               EN: no 20 tiles of water nearby -->
+	<AM_BaptismOutcome.comps.3.labelNotMet>нет 20 клеток воды поблизости</AM_BaptismOutcome.comps.3.labelNotMet>
+	<!--                                  EN: Blasphemous -->
+	<AM_BaptismOutcome.outcomeChances.0.label>Кощунственный</AM_BaptismOutcome.outcomeChances.0.label>
+	<!--                                        EN: The {0} was blasphemous. The ritual was an affront to the holiness of water. This desecration will linger in our thoughts. -->
+	<AM_BaptismOutcome.outcomeChances.0.description>Ритуал {0} был кощунственным. Это было оскорбление святости воды. Это осквернение будет преследовать наши мысли.</AM_BaptismOutcome.outcomeChances.0.description>
+	<!--                                  EN: Underwhelming -->
+	<AM_BaptismOutcome.outcomeChances.1.label>Разочаровывающий</AM_BaptismOutcome.outcomeChances.1.label>
+	<!--                                        EN: The {0} was underwhelming. The ceremony lacked the spirit and grace it deserved. It felt hollow and uninspired. -->
+	<AM_BaptismOutcome.outcomeChances.1.description>Ритуал {0} был разочаровывающим. Церемония недоставала духа и грации, которой она заслуживала. Она казалась пустой и невдохновляющей.</AM_BaptismOutcome.outcomeChances.1.description>
+	<!--                                  EN: Refreshing -->
+	<AM_BaptismOutcome.outcomeChances.2.label>Освежающий</AM_BaptismOutcome.outcomeChances.2.label>
+	<!--                                        EN: The {0} was refreshing. That was a delightful moment of connection with the holy water. It left us feeling renewed. -->
+	<AM_BaptismOutcome.outcomeChances.2.description>Ритуал {0} был освежающим. Это был приятный момент единения со святой водой. Он оставил нас чувствующими себя обновленными.</AM_BaptismOutcome.outcomeChances.2.description>
+	<!--                                  EN: Transcendent -->
+	<AM_BaptismOutcome.outcomeChances.3.label>Восхитительный</AM_BaptismOutcome.outcomeChances.3.label>
+	<!--                                        EN: The {0} was transcendent! This ritual was a profound experience, an unforgettable communion with the sacred flow of life. -->
+	<AM_BaptismOutcome.outcomeChances.3.description>Ритуал {0} был восхитительным! Это был глубокий опыт, незабываемое общение с священным потоком жизни.</AM_BaptismOutcome.outcomeChances.3.description>
+</LanguageData>

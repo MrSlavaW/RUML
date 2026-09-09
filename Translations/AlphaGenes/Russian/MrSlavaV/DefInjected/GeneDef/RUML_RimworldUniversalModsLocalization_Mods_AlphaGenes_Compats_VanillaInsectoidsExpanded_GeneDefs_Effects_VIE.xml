@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaInsectoidsExpanded\Defs\GeneDefs\GeneDefs_Effects_VIE.xml -->
+	<!--                       EN: royal jelly production -->
+	<AG_RoyalJellyProduction.label>производство маточного молочка</AG_RoyalJellyProduction.label>
+	<!--                             EN: The carrier of this gene constantly exudes and produces globs of royal jelly, which provides some extra food for the colony. -->
+	<AG_RoyalJellyProduction.description>Носитель этого гена постоянно выделяет и производит капли маточного молочка, что обеспечивает дополнительную пищу для колонии.</AG_RoyalJellyProduction.description>
+	<!--                                            EN: Produces 5 units of royal jelly every 5 days -->
+	<AG_RoyalJellyProduction.customEffectDescriptions.0>Производит 5 единиц маточного молочка каждые 5 дней.</AG_RoyalJellyProduction.customEffectDescriptions.0>
+</LanguageData>

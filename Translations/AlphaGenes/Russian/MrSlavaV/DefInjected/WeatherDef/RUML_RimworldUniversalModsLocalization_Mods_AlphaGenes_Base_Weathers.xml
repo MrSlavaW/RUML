@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\WeatherDefs\Weathers.xml -->
+	<!--              EN: underground -->
+	<AG_Underground.label>тест</AG_Underground.label>
+	<!--                    EN: There is no weather underground. -->
+	<AG_Underground.description>тест.</AG_Underground.description>
+</LanguageData>

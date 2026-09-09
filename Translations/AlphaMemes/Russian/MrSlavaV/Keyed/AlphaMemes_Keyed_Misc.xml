@@ -1,0 +1,281 @@
+<LanguageData>
+		<!-- Ideoligions -->
+	<!-- EN: Art production speed: increased precept -->
+	<AM_ArtTableExtraSpeed>Скорость создания произведений искусства: увеличена заповедь</AM_ArtTableExtraSpeed>
+	<!-- EN: Armour: blunt precept -->
+	<AM_ExtraBluntArmorFactor>Защита от тупого урона</AM_ExtraBluntArmorFactor>
+	<!-- EN: Armour: sharp precept -->
+	<AM_ExtraSharpArmorFactor>Защита от проникающего урона</AM_ExtraSharpArmorFactor>
+	<!-- EN: Armour: heat precept -->
+	<AM_ExtraHeatArmorFactor>Защита от теплового урона</AM_ExtraHeatArmorFactor>
+	<!-- EN: Psyfocus gain: dampened precept -->
+	<AM_MeditationFocusStrengthFactor>Усиление псифокусировки: ослабленная заповедь</AM_MeditationFocusStrengthFactor>
+	<!-- EN: Despised Animals -->
+	<AM_DespisedAnimals>Презираемое животное</AM_DespisedAnimals>
+	<!-- EN: Despised Animal -->
+	<AM_AddDespisedAnimals>Презираемое животное</AM_AddDespisedAnimals>
+	<!-- EN: Despised Xenotypes -->
+	<AM_DespisedXenotypes>Презираемые Ксенотипы</AM_DespisedXenotypes>
+	<!-- EN: Despised Xenotype -->
+	<AM_AddDespisedXenotypes>Презираемые Ксенотипы</AM_AddDespisedXenotypes>
+	<!-- EN: This ability must target a downed sapient humanoid -->
+	<AM_AbilityNeedsADownedPawn>Эта способность должна быть нацелена на сбитого разумного гуманоида</AM_AbilityNeedsADownedPawn>
+	<!-- EN: This ability must target a living, non-dryad animal -->
+	<AM_AbilityNeedsAValidAnimal>Эта способность должна быть нацелена на живое, не являющееся дриадой животное</AM_AbilityNeedsAValidAnimal>
+	<!-- EN: This ability needs to target a building frame that is under construction -->
+	<AM_AbilityNeedsABlueprint>Эта способность должна быть нацелена на каркас здания, который находится в стадии строительства</AM_AbilityNeedsABlueprint>
+	<!-- EN: All resources must have been delivered to the building frame -->
+	<AM_AbilityNeedsResourcesDelivered>Все ресурсы должны быть доставлены в каркас здания</AM_AbilityNeedsResourcesDelivered>
+	<!-- EN: You'll need to build an animal database before this ability can be used -->
+	<AM_NoDataBaseFound>Вам нужно будет создать базу данных животных, прежде чем можно будет использовать эту способность</AM_NoDataBaseFound>
+	<!-- EN: Not scanned -->
+	<AM_NotAnalyzed>Не сканировано</AM_NotAnalyzed>
+	<!-- EN: Genome analyzed -->
+	<AM_Analyzed>Геном анализирован</AM_Analyzed>
+	<!-- EN: Only tagged animals -->
+	<AM_OnlyTaggedAnimals>Только отмеченные животные</AM_OnlyTaggedAnimals>
+	<!-- EN: Animal analyzed -->
+	<AM_StatsReport_Analyzed>Животное проанализировано</AM_StatsReport_Analyzed>
+	<!-- EN: Since this animal has been analyzed, it will have from now on -2 to Minimum handling skill, -25% Filth rate and +25% Caravan riding speed. -->
+	<AM_AnalyzedAnimalBonuses>Теперь, когда это животное проанализировано, оно будет иметь -2 к минимальному навыку обращения, -25% скорости загрязнения и +25% скорости передвижения в караване.</AM_AnalyzedAnimalBonuses>
+	<!-- EN: Show genome analysis -->
+	<AM_ShowAnimalAnalysis>Показать анализ генома</AM_ShowAnimalAnalysis>
+	<!-- EN: This will show you a list of possible animals that need to be scanned. -->
+	<AM_ShowAnimalAnalysisDesc>Это покажет вам список возможных животных, которые необходимо отсканировать.</AM_ShowAnimalAnalysisDesc>
+	<!-- EN: Only one database can be built -->
+	<AM_OnlyOneDatabase>Может быть создана только одна база данных</AM_OnlyOneDatabase>
+	<!-- EN: This animal has already been scanned for the database -->
+	<AM_AnimalAlreadyScanned>Это животное уже было отсканировано для базы данных</AM_AnimalAlreadyScanned>
+	<!-- EN: {0} has been scanned into the animal database -->
+	<AM_AnimalScanned>{0} был отсканирован в базу данных животных</AM_AnimalScanned>
+	<!-- EN: Database completion rate at {0} -->
+	<AM_CompletionDescription>Скорость заполнения базы данных {0}</AM_CompletionDescription>
+	<!-- EN: Install in relic smashing altar -->
+	<AM_InstallInReliquary>Установить в алтаре для уничтожения реликвий</AM_InstallInReliquary>
+	<!-- EN: no empty accessible relic smashing altar -->
+	<AM_NoEmptyReliquary>нет пустого доступного алтаря для уничтожения реликвий</AM_NoEmptyReliquary>
+	<!-- EN: Relic smashing altar needs to have a relic installed to start the ritual -->
+	<AM_NeedsFullAltar>Алтарь для уничтожения реликвий должен быть установлен, чтобы начать ритуал</AM_NeedsFullAltar>
+	<!-- EN: This ability can't be used if the colonist's ideo doesn't have the necessary meme -->
+	<AM_AbilityNeedsMeme>Эта способность не может быть использована, если у идеология поселенца нет необходимой черты</AM_AbilityNeedsMeme>
+	<!-- EN: Make the "Change Style" ability use styles not possessed by the player's main ideoligion -->
+	<AM_MakeChangeStyleAbilityUseAllStyles>Заставьте способность "Изменить стиль" использовать стили, которыми не обладает основная идеология игрока.</AM_MakeChangeStyleAbilityUseAllStyles>
+	<!-- EN: Make the "Change Style" ability use styles not possessed by the player's main ideoligion. By default this leader role ability will swap an item's style through the styles present in the colony's main ideo. By activating this toggle you will make it use ALL styles currently present in the game (vanilla or modded) -->
+	<AM_MakeChangeStyleAbilityUseAllStyles_Tooltip>Сделайте так, чтобы способность "Изменить стиль" использовала стили, которыми не обладает основная идеология игрока. По умолчанию эта способность роли лидера меняет стиль элемента на стили, присутствующие в основной идеологии поселения. Активировав этот переключатель, вы заставите его использовать ВСЕ стили, присутствующие в данный момент в игре (ванильный или модифицированный)</AM_MakeChangeStyleAbilityUseAllStyles_Tooltip>
+	<!-- EN: This project is too ambitious for the Master Architect (haha, nice try) -->
+	<AM_AbilityNiceTry>Этот проект слишком амбициозен для Главного архитектора (ха-ха, хорошая попытка)</AM_AbilityNiceTry>
+	<!-- EN: Prefab delivered -->
+	<AM_LetterLabelPrefabDelivered>Префаб доставлен</AM_LetterLabelPrefabDelivered>
+	<!-- EN: One of our contacts in orbit has delivered a brand new prefab, free of cost!\n\nIf you have any caravan hitching spots it will be airdropped nearby. If not, it will be dropped wherever. YOLO. -->
+	<AM_LetterPrefabDelivered>Один из наших контактов на орбите бесплатно доставил совершенно новый префаб!\n\n Если у вас есть места для стоянки караванов, его доставят по воздуху поблизости. Если нет, его доставят куда угодно. YOLO.</AM_LetterPrefabDelivered>
+	<!-- EN: You will need either Alpha Animals or Alpha Biomes to use this ability -->
+	<AM_OtherAlphaModsNeeded>Чтобы использовать эту способность, вам понадобятся Альфа-животные или Альфа-биомы.</AM_OtherAlphaModsNeeded>
+	<!-- EN: Detonate -->
+	<AM_Detonate>Взорвать</AM_Detonate>
+	<!-- EN: Force this animal to detonate. This will kill the animal and cause an explosion. -->
+	<AM_DetonateDesc>Заставьте это животное взорваться. Это убьет животное и вызовет взрыв.</AM_DetonateDesc>
+	<!-- EN: Your colony needs to have an ocular dryad from a corrupted Gauranlen tree to start this ritual. -->
+	<AM_MessageRitualRoleNeedsDryad>Чтобы начать этот ритуал, в вашем поселении должна быть глазная дриада из испорченного дерева Гауранлен.</AM_MessageRitualRoleNeedsDryad>
+	<!-- EN: The rodeo needs a colony cattle. -->
+	<AM_MessageRitualRoleNeedsCattle>Для родео нужно поселение со скотом.</AM_MessageRitualRoleNeedsCattle>
+	<!-- EN: The ocular dryad needs to be linked to a Gauranlen tree. -->
+	<AM_DryadUnlinked>Глазная дриада должна быть связана с деревом Гауранлен.</AM_DryadUnlinked>
+	<!-- EN: Current total cattle bodysize per colonist -->
+	<AM_CurrentTotalCattleBodySizePerColonist>Текущий общий размер тела скота на поселенца</AM_CurrentTotalCattleBodySizePerColonist>
+	<!-- EN: Horses: desired precept -->
+	<AM_StatsReport_HorseDesired>Лошади: желаемая установка</AM_StatsReport_HorseDesired>
+	<!-- EN: Cattle: improved precept -->
+	<AM_StatsReport_CattleImproved>Скот: улучшенная установка</AM_StatsReport_CattleImproved>
+	<!-- EN: Not enough space for cowboy and cattle. There must be a clear circle of radius {MINRADIUS}. At least {1} standable spots in that radius required. -->
+	<AM_CantStartNotEnoughSpaceRodeo>Недостаточно места для ковбоя и скота. Должен быть свободный круг радиусом {MINRADIUS}. Требуется хотя бы {1} место для стояния в этом радиусе.</AM_CantStartNotEnoughSpaceRodeo>
+	<!-- EN: extreme -->
+    <AM_IdeoMemeImpactLabel_4>экстремальный</AM_IdeoMemeImpactLabel_4>
+    <!-- EN: super extreme -->
+    <AM_IdeoImpactLabel_10>суперэкстремальный</AM_IdeoImpactLabel_10>
+    <!-- EN: insane -->
+    <AM_IdeoImpactLabel_11>безумный</AM_IdeoImpactLabel_11>
+    <!-- EN: unplayable -->
+    <AM_IdeoImpactLabel_12>неиграбельный</AM_IdeoImpactLabel_12>
+    <!-- EN: Can't wear ANY apparel due to ideo -->
+    <AM_NakedTruthCantWearArmor>Не может носить НИКАКУЮ одежду из-за идеологии</AM_NakedTruthCantWearArmor>
+
+		<!--Funeral Stings-->
+
+	<!-- EN: {0} is not powered -->
+	<Funeral_NeedsPower>{0} не включен</Funeral_NeedsPower>
+	<!-- EN: Needs {0} for last rites. Which must be powered or fueled -->
+	<Funeral_ThingInfoPower>Требуется {0} для последних обрядов. Который должен быть приведен в действие или заправлен топливом</Funeral_ThingInfoPower>
+	<!-- EN: {RITUAL} was a disaster! -->
+	<Funeral_WorstResult>{RITUAL} был катастрофой!</Funeral_WorstResult>
+	<!-- EN: {RITUAL} was spectacular! -->
+	<Funeral_BestResult>{RITUAL} был впечатляющим!</Funeral_BestResult>
+	<!-- EN: {0} Requires the pawn to be dead -->
+	<Funeral_RoleNotDead>{0} Требует, чтобы пешка была мертва</Funeral_RoleNotDead>
+	<!-- EN:  (Conflicts with Precepts: {CONFLICTS}) -->
+	<Funeral_ConflictingPrecepts>(Конфликты с Предписаниями: {CONFLICTS})</Funeral_ConflictingPrecepts>
+	<!-- EN:  (Conflicts with Memes: {CONFLICTS}) -->
+	<Funeral_ConflictingMemes> (Конфликты с мемами: {CONFLICTS})</Funeral_ConflictingMemes>
+	<!-- EN:  (Requires Research: {RESARCH}) -->
+	<Funeral_MissingResearch> (Требует Исследования: {RESARCH})</Funeral_MissingResearch>
+	<!-- EN: No accessible dead colonists, recover their body if possible -->
+	<Funeral_DisabledCorpseInaccessible>Мертвые поселенцы недоступны, по возможности верните их тела.</Funeral_DisabledCorpseInaccessible>
+	<!-- EN: Select Stuff To Use -->
+	<AM_SelectStuffToUse>Выберите Материал Для Использования</AM_SelectStuffToUse>
+	<!-- EN: {0} of type: -->
+	<Funeral_XOf>{0} типа:</Funeral_XOf>
+	<!-- EN: Requires: -->
+	<Funeral_XOfThing>Требует:</Funeral_XOfThing>
+	<!-- EN: Not enough stuff: need {COUNT} of {STUFF}: -->
+	<Funeral_NotEnoughStuff>Требуется {COUNT} {STUFF}:</Funeral_NotEnoughStuff>
+	<!-- EN: {LABEL} with {SKILL} -->
+	<AM_RitualCrafterOutcome>{LABEL} с {SKILL}</AM_RitualCrafterOutcome>
+	<!-- EN: Psyker level -->
+	<AM_RitualRolePsyker>Уровень псайкера</AM_RitualRolePsyker>
+	<!-- EN: Deceased's Psychic sensitivity -->
+	<AM_PsychicSensitivty>Психическая чувствительность умершего</AM_PsychicSensitivty>
+	<!-- EN: Unable to launch due to roof above pod -->
+	<Funeral_LaunchableRoofed>Невозможно запустить из-за крыши над капсулой</Funeral_LaunchableRoofed>
+	<!-- EN: Unable to launch due to no fuel for pod -->
+	<Funeral_LaunchableNoFuel>Невозможно запустить из-за отсутствия топлива для капсулы</Funeral_LaunchableNoFuel>
+	<!-- EN: A fueled and unroofed: {0} -->
+	<Funeral_ThingLaunchable>заправленный топливом и не под крышей: {0}</Funeral_ThingLaunchable>
+	<!-- EN: No reachable hopper around the nutrient paste dispenser -->
+	<Funeral_NoHopper>Нет доступного лотка вокруг дозатора питательной пасты</Funeral_NoHopper>
+	<!-- EN: A nutrient paste dispenser, powered and with hoppers -->
+	<Funeral_NutrientPaste>Дозатор питательной пасты с питанием и воронками</Funeral_NutrientPaste>
+	<!-- EN: Not enough materials, Missing: {Missing} -->
+	<Funeral_NotEnoughThings>Недостаточно материалов, Отсутствует:: {Missing}</Funeral_NotEnoughThings>
+	<!-- EN: {CORPSE} could not handle the integration to the warcasket. They have been lost forever -->
+	<Funeral_DreadnoughtFailure>{CORPSE} не удалось выполнить интеграцию с броней. Они были потеряны навсегда</Funeral_DreadnoughtFailure>
+	<!-- EN: The Corpse retains their brain, and has not rotted beyond all recognition -->
+	<Funeral_DreadnoughtViable>Труп сохранил свой мозг и не сгнил до неузнаваемости</Funeral_DreadnoughtViable>
+	<!-- EN: {CORPSE} is too far gone to even attempt -->
+	<Funeral_DreadnoughtDessicated>{CORPSE} слишком далеко, чтобы даже пытаться</Funeral_DreadnoughtDessicated>
+	<!-- EN: {CORPSE}'s brain has been destroyed, there's nothing to be done -->
+	<Funeral_DreadnoughtBrainGone>Мозг {CORPSE} разрушен, ничего не поделаешь.</Funeral_DreadnoughtBrainGone>
+	<!-- EN: {PAWN}'s brain has been destroyed! We can't hold a {RITUAL} for them! -->
+	<Funeral_DreadnoughtBrainGoneMessage>Мозг {PAWN} был уничтожен! Мы не можем провести {RITUAL} для них!</Funeral_DreadnoughtBrainGoneMessage>
+	<!-- EN: {PAWN} tragically didn't make it to an age where they could fill; We can't hold a {RITUAL} for them! -->
+	<Funeral_DreadnoughtToYoung>{PAWN} трагически не дожили до необходимого возраста; Мы не можем провести {RITUAL}!</Funeral_DreadnoughtToYoung>
+	<!-- EN: We do not yet possess the knowledge ({0}) to complete this -->
+	<Funeral_ResearchNotCompleted>Мы еще не обладаем знаниями ({0}), чтобы завершить это</Funeral_ResearchNotCompleted>
+	<!-- EN: Funerals for {PAWN} -->
+	<Funeral_OpportunitiesFor>Похороны для {PAWN}</Funeral_OpportunitiesFor>
+	<!-- EN: {0} Available Funeral Obligations -->
+	<Funeral_OptionsCount>{0} Доступные обязательства по похоронам</Funeral_OptionsCount>
+	<!-- EN: {0} is not empty -->
+	<Funeral_ThingNotEmpty>{0} не пуст</Funeral_ThingNotEmpty>
+	<!-- EN: {0} is full -->
+	<Funeral_CorpseContainerFull>{0} полон</Funeral_CorpseContainerFull>
+	<!-- EN: A Gauranlen Tree -->
+	<Funeral_Gauralen>Дерево Гауранлен</Funeral_Gauralen>
+	<!-- EN: This is not reversible! Once the body is out they can not be put back in -->
+	<AM_CorpseContainerOpen>Это необратимо! После того, как тело извлечено, оно не может быть помещено обратно</AM_CorpseContainerOpen>
+	<!-- EN: Unable to remove corpse; try moving thing if possible -->
+	<AM_CorpseContainerFailedToEject>Невозможно убрать труп; попробуйте переместить предмет, если это возможно</AM_CorpseContainerFailedToEject>
+	<!-- EN: Corpse can't be rotted -->
+	<Funeral_FreshCorpse>Труп не может сгнить</Funeral_FreshCorpse>
+	<!-- EN: {CORPSE} is no longer fresh, they can't be used -->
+	<Funeral_CorpseNotFresh>{ТРУП} уже не свежий, его нельзя использовать</Funeral_CorpseNotFresh>
+	<!-- EN: The insects have made quick work of {CORPSE}'s nutrients! {INSECT} has hatched -->
+	<AM_InsectBurialInsectBorn>Насекомые быстро расправились с питательными веществами {CORPSE}! {INSECT} вылупилось</AM_InsectBurialInsectBorn>
+	<!-- EN: Artificial buildings -->
+	<AM_ArtificialBuildings>Искусственные сооружения</AM_ArtificialBuildings>
+	<!-- EN: Buildings affecting quality in {0} radius -->
+	<AM_UnnaturalThingsAffecting>Здания, влияющие на качество в радиусе {0}</AM_UnnaturalThingsAffecting>
+	<!-- EN: {NAME} died on {DATE} -->
+	<AM_CorpseContainerMultiDiedOn>{NAME} умер {DATE}</AM_CorpseContainerMultiDiedOn>
+	<!-- EN: The success of the sky burial has led new animals to the area -->
+	<Funeral_SkyburialAnimalsWanderIn>Успех небесного погребения привел в этот район новых животных</Funeral_SkyburialAnimalsWanderIn>
+	<!-- EN: All told we have destroyed {1} worth of buildings \n\n We destroyed: {0} -->
+	<AM_TantrumDestoryed>В целом, мы разрушили зданий богатством {1} \n\n Мы разрушили: {0}</AM_TantrumDestoryed>
+	<!-- EN: Wealth Destroyed -->
+	<AM_TantrumOutcomeComp>Богатство Уничтожено</AM_TantrumOutcomeComp>
+	<!-- EN: Has to be started in your home colony -->
+	<AM_TantrumMustBePlayerHome>Должно быть начато в вашей родном поселении</AM_TantrumMustBePlayerHome>
+	<!-- EN: A valuable, high-tech piece of technology that we can haul -->
+	<AM_ScrapperHighTechThing>Ценная, высокотехнологичная технология, которую мы можем перенести</AM_ScrapperHighTechThing>
+	<!-- EN: We have salvaged {0} {1} {2}. -->
+	<AM_ScrapperRitualOutcome>Мы сохранили {0} {1} {2}.</AM_ScrapperRitualOutcome>
+	<!-- EN: resulting in {0} components -->
+	<AM_ScrapperComponentCount>в результате получается {0} компонентов</AM_ScrapperComponentCount>
+	<!-- EN: and {0} advanced components -->
+	<AM_ScrapperAdvComponentCount>и {0} продвинутых компонентов</AM_ScrapperAdvComponentCount>
+	<!-- EN: The rum is not ready, the corpse could still be salvaged, but any rum will be lost. -->
+	<AM_RumVatInteruptFerment>Ром еще не готов, труп еще можно спасти, но любой ром будет потерян.</AM_RumVatInteruptFerment>
+	<!-- EN: The rum is ready to be extracted -->
+	<AM_RumComplete>Ром готов к извлечению</AM_RumComplete>
+	<!-- EN: {0} rum -->
+	<AM_RumOutput>{0} Рома будет произведено, если его извлечь сейчас</AM_RumOutput>
+
+		<!-- Style changing ability -->
+	<!-- EN: Default style -->
+	<AM_DefaultStyle>Стиль по умолчанию</AM_DefaultStyle>
+	<!-- EN: Choose style for this object -->
+	<AM_ChooseStyle>Выберите стиль для этого объекта</AM_ChooseStyle>
+	<!-- EN: Choose style for these objects, if available -->
+	<AM_ChooseStyle_Multiple>Выберите стиль для этих объектов, если доступно</AM_ChooseStyle_Multiple>
+	<!-- EN: Choose style A, the style that will be affected by the ability -->
+	<AM_ChooseStyle_Swap_First>Выберите стиль A - стиль, на который будет влиять способность</AM_ChooseStyle_Swap_First>
+	<!-- EN: Choose style B, the style that will be applied to the items -->
+	<AM_ChooseStyle_Swap_Second>Выберите стиль B - стиль, который будет применяться к элементам</AM_ChooseStyle_Swap_Second>
+	<!-- EN: No valid styles available for this object -->
+	<AM_NoStyles>Для этого объекта нет допустимых стилей</AM_NoStyles>
+
+		<!-- Animal Stats -->
+	<!-- EN: Primary Role -->
+	<AM_PrimaryRole>Основная роль</AM_PrimaryRole>
+	<!-- EN: Uses Ranged Attacks -->
+	<AM_RangedAttacks>Использует дальние атаки</AM_RangedAttacks>
+	<!-- EN: No -->
+	<AM_No>Нет</AM_No>
+	<!-- EN: This animal doesn't have ranged attacks. To order it to attack, it needs to be trained in Guard and Attack, then it needs to be assigned to follow a master when drafted and/or working. The "release" button on the master's commands bar will make the animal attack in melee. -->
+	<AM_NoRanged>У этого животного нет дальнобойных атак. Чтобы приказать животному атаковать, его нужно обучить "Охране" и "Нападению", а затем приказать ему следовать за хозяином во время призыва и/или работы. Кнопка "выпустить" на панели команд мастера заставит животное атаковать в ближнем бою.</AM_NoRanged>
+
+		<!-- Roles -->
+	<!-- EN: Pet -->
+	<AM_Pet>Питомец</AM_Pet>
+
+		<!-- Roles Descriptions -->
+	<!-- EN: This animal is a pet. Isn't he cute? -->
+	<AM_PetDesc>Это животное - питомец. Разве он не милый?</AM_PetDesc>
+
+		<!-- Mod options -->
+
+	<!-- EN: Reset -->
+	<VME_Reset>Сброс</VME_Reset>
+	<!-- EN: max memes -->
+	<VME_Meme>макс. мемы</VME_Meme>
+	<!-- EN: max rituals -->
+	<VME_Ritual>макс. ритуалы</VME_Ritual>
+	<!-- EN: max styles -->
+	<VME_Styles>макс. стили</VME_Styles>
+	<!-- EN: max relics -->
+	<VME_Relics>макс. реликвии</VME_Relics>
+	<!-- EN: max buildings -->
+	<VME_Buildings>макс. здания</VME_Buildings>
+	<!-- EN: Max number of memes allowed (default is 4) -->
+	<VME_MemeAmount>Макс. количество мемов (по умолчанию 4)</VME_MemeAmount>
+	<!-- EN: Max number of memes allowed. Note that this only applies to player ideoligions. -->
+	<VME_MemeAmountTooltip>Макс. количество мемов. Обратите внимание, что это применяется только к идеологиям игрока.</VME_MemeAmountTooltip>
+	<!-- EN: Max number non-meme specific rituals allowed (default is 6) -->
+	<VME_RitualAmount>Макс. количество ритуалов, не связанных с мемами (по умолчанию 6) (требуется перезагрузка игры)</VME_RitualAmount>
+	<!-- EN: Max number non-meme specific rituals allowed. Rituals that are forced by a meme USUALLY don't count towards this limit, though there can be exceptions. -->
+	<VME_RitualAmountTooltip>Макс. количество ритуалов, не связанных с мемами. Ритуалы, навязанные мемом, ОБЫЧНО не учитываются в этом лимите, хотя могут быть исключения (требуется перезагрузка игры).</VME_RitualAmountTooltip>
+	<!-- EN: Max number of ideo visual styles allowed (default is 3) -->
+	<VME_StylesAmount>Макс. количество визуальных стилей идеологии (по умолчанию 3) (требуется перезагрузка игры)</VME_StylesAmount>
+	<!-- EN: Max number of ideo visual styles allowed. Note that we set this to start in the mod as 5 by default, up from base game's 3, because we add quite a lot of them. -->
+	<VME_StylesAmountTooltip>Макс. количество визуальных стилей идеологии. Обратите внимание, что в моде по умолчанию установлено 5, что больше, чем 3 в базовой игре, так как мы добавляем много стилей (требуется перезагрузка игры).</VME_StylesAmountTooltip>
+	<!-- EN: Max number of ideo relics allowed (default is 3) -->
+	<VME_RelicsAmount>Макс. количество реликвий идеологии (по умолчанию 3)</VME_RelicsAmount>
+	<!-- EN: Max number of ideo relics allowed -->
+	<VME_RelicsAmountTooltip>Макс. количество реликвий идеологии</VME_RelicsAmountTooltip>
+	<!-- EN: Max number of ideo buildings allowed (default is 2) -->
+	<VME_BuildingsAmount>Макс. количество зданий идеологии (по умолчанию 2)</VME_BuildingsAmount>
+	<!-- EN: Max number of ideo buildings allowed. This includes altars, pictograms and such, but not buildings added through memes. -->
+	<VME_BuildingsAmountTooltip>Макс. количество зданий идеологии. Включает алтари, пиктограммы и т.д., но не здания, добавленные через мемы.</VME_BuildingsAmountTooltip>
+	<!-- EN: Allow high impact memes for fluid ideos -->
+	<AM_AllowHighImpactMemesForFluidIdeos>Разрешить мемы с высоким влиянием для гибких идеологий</AM_AllowHighImpactMemesForFluidIdeos>
+	<!-- EN: By default, fluid ideos only let you choose one meme with impact 1 or 2, blocking impact 3 memes from being chosen. With this option toggle you can make it so impact 3 memes are available too. -->
+	<AM_AllowHighImpactMemesForFluidIdeos_Tooltip>По умолчанию гибкие идеологии позволяют выбрать только один мем с влиянием 1 или 2, блокируя мемы с влиянием 3. С помощью этой опции можно сделать мемы с влиянием 3 доступными.</AM_AllowHighImpactMemesForFluidIdeos_Tooltip>
+</LanguageData>

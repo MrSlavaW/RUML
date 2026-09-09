@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<GET_DeactivateOverdrive>Отключить форсаж</GET_DeactivateOverdrive>
+	<GET_DeactivateOverdriveDesc>Отключить режим форсированного извлечения генов для предотвращения перегрева.</GET_DeactivateOverdriveDesc>
+	<GET_ActivateOverdrive>Включить форсаж</GET_ActivateOverdrive>
+	<GET_ActivateOverdriveDesc>Включить форсированный режим работы экстрактора ценой повышенного энергопотребления.</GET_ActivateOverdriveDesc>
+	<GET_TargetGene>Целевой ген</GET_TargetGene>
+	<GET_GeneExtractorTiers>Тиры экстракторов генов</GET_GeneExtractorTiers>
+</LanguageData>

@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_ArtProductionSpeed.xml -->
+	<!--                               EN: increased -->
+	<AM_ArtProductionSpeed_Increased.label>ускорено</AM_ArtProductionSpeed_Increased.label>
+	<!--                                     EN: All art must come from a place of hard work. Inspiration exists, but it has to find you working.\n\n&lt;color=#E5E54C&gt;Stats:&lt;/color&gt;\n - Art bench work table speed: +25%. -->
+	<AM_ArtProductionSpeed_Increased.description>Все искусство должно исходить из места напряженной работы. Вдохновение существует, но оно должно найти вас за работой.\n\n&lt;color=#E5E54C&gt;Статистика:&lt;/color&gt;\n - Скорость работы в мастерской художника: +25%.</AM_ArtProductionSpeed_Increased.description>
+</LanguageData>

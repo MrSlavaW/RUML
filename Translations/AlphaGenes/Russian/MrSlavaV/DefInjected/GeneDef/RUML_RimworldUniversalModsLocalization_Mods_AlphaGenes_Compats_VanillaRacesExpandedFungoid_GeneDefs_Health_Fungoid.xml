@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaRacesExpandedFungoid\Defs\GeneDefs\GeneDefs_Health_Fungoid.xml -->
+	<!--                        EN: gene infection immunity -->
+	<AG_GeneInfectionImmunity.label>иммунитет к генной инфекции</AG_GeneInfectionImmunity.label>
+	<!--                              EN: Carriers of this gene are immune to gene infections. -->
+	<AG_GeneInfectionImmunity.description>Носители этого гена невосприимчивы к генным инфекциям.</AG_GeneInfectionImmunity.description>
+</LanguageData>

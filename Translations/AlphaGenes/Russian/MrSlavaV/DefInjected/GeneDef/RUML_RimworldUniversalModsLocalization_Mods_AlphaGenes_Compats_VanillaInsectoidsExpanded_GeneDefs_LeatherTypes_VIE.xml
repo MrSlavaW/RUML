@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaInsectoidsExpanded\Defs\GeneDefs\GeneDefs_LeatherTypes_VIE.xml -->
+	<!--                         EN: insectoid chitin leather -->
+	<AG_InsectoidChitinLeather.label>хитиновая кожа</AG_InsectoidChitinLeather.label>
+	<!--                               EN: Carriers of this gene will yield insectoid chitin when butchered. Wearing insectoid chitin apparel by them is classed as wearing human leather apparel. -->
+	<AG_InsectoidChitinLeather.description>Носители этого гена при разделке дадут хитин.</AG_InsectoidChitinLeather.description>
+</LanguageData>

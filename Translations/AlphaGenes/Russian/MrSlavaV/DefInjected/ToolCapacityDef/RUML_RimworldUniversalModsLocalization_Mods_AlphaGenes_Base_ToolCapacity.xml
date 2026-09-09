@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\ToolCapacityDefs\ToolCapacity.xml -->
+	<!--       EN: acid spit -->
+	<AG_Acid.label>кислотная слюна</AG_Acid.label>
+	<!--                 EN: spit acid on pawn -->
+	<AG_SpittingOnPawn.label>плюнуть кислотой</AG_SpittingOnPawn.label>
+</LanguageData>

@@ -1,0 +1,44 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_AnimalAnalysis.xml -->
+	
+	<!--                                   EN: no scans -->
+	<AM_AnimalAnalysis_Expected.stages.0.label>не отсканировано</AM_AnimalAnalysis_Expected.stages.0.label>
+	<!--                                         EN: We haven't yet scanned a single animal. We are neglecting our tasks. -->
+	<AM_AnimalAnalysis_Expected.stages.0.description>Мы еще не отсканировали ни одного животного. Мы пренебрегаем нашими задачами.</AM_AnimalAnalysis_Expected.stages.0.description>
+	<!--                                   EN: very few scans -->
+	<AM_AnimalAnalysis_Expected.stages.1.label>очень мало отсканировано</AM_AnimalAnalysis_Expected.stages.1.label>
+	<!--                                         EN: We have scanned very, very few animals. We need to focus on our tasks. -->
+	<AM_AnimalAnalysis_Expected.stages.1.description>Мы просканировали очень, очень мало животных. Нам нужно сосредоточиться на наших задачах.</AM_AnimalAnalysis_Expected.stages.1.description>
+	<!--                                   EN: few scans -->
+	<AM_AnimalAnalysis_Expected.stages.2.label>несколько отсканировано&lt;с</AM_AnimalAnalysis_Expected.stages.2.label>
+	<!--                                         EN: We have scanned few animals. We need to focus on our tasks. -->
+	<AM_AnimalAnalysis_Expected.stages.2.description>Мы просканировали несколько животных. Нам нужно сосредоточиться на наших задачах.</AM_AnimalAnalysis_Expected.stages.2.description>
+	<!--                                   EN: some scans -->
+	<AM_AnimalAnalysis_Expected.stages.3.label>мало отсканировано</AM_AnimalAnalysis_Expected.stages.3.label>
+	<!--                                         EN: We are starting to fill the database with creature data. -->
+	<AM_AnimalAnalysis_Expected.stages.3.description>Мы начинаем заполнять базу данными о существах.</AM_AnimalAnalysis_Expected.stages.3.description>
+	<!--                                   EN: many scans -->
+	<AM_AnimalAnalysis_Expected.stages.4.label>много отсканировано</AM_AnimalAnalysis_Expected.stages.4.label>
+	<!--                                         EN: We have almost a quarter of the database filled! -->
+	<AM_AnimalAnalysis_Expected.stages.4.description>У нас заполнена почти четверть базы данных!</AM_AnimalAnalysis_Expected.stages.4.description>
+	<!--                                   EN: a lot of scans -->
+	<AM_AnimalAnalysis_Expected.stages.5.label>очень много отсканировано</AM_AnimalAnalysis_Expected.stages.5.label>
+	<!--                                         EN: We have a lot of scanned creatures in the database, it's amazing! -->
+	<AM_AnimalAnalysis_Expected.stages.5.description>У нас в базе много отсканированных существ, это потрясающе!</AM_AnimalAnalysis_Expected.stages.5.description>
+	<!--                                   EN: database almost half full -->
+	<AM_AnimalAnalysis_Expected.stages.6.label>база почти наполовину заполнена</AM_AnimalAnalysis_Expected.stages.6.label>
+	<!--                                         EN: Almost halfway there! -->
+	<AM_AnimalAnalysis_Expected.stages.6.description>Почти на полпути!</AM_AnimalAnalysis_Expected.stages.6.description>
+	<!--                                   EN: a huge lot of scans -->
+	<AM_AnimalAnalysis_Expected.stages.7.label>огромное количество отсканировано</AM_AnimalAnalysis_Expected.stages.7.label>
+	<!--                                         EN: The database is full of amazing creature details, I love it! -->
+	<AM_AnimalAnalysis_Expected.stages.7.description>База данных полна удивительных подробностей о существах, мне это нравится!</AM_AnimalAnalysis_Expected.stages.7.description>
+	<!--                                   EN: database almost filled -->
+	<AM_AnimalAnalysis_Expected.stages.8.label>база данных почти заполнена</AM_AnimalAnalysis_Expected.stages.8.label>
+	<!--                                         EN: We are getting there! I love perusing the wondrous animal data we have collected. -->
+	<AM_AnimalAnalysis_Expected.stages.8.description>Мы приближаемся к завершению! Мне нравится просматривать чудесные данные о животных, которые мы собрали.</AM_AnimalAnalysis_Expected.stages.8.description>
+	<!--                                   EN: database filled -->
+	<AM_AnimalAnalysis_Expected.stages.9.label>база данных заполнена</AM_AnimalAnalysis_Expected.stages.9.label>
+	<!--                                         EN: The database is above 75% filled. Perhaps this world has provided as much data as it can! -->
+	<AM_AnimalAnalysis_Expected.stages.9.description>База заполнена более чем на 75%. Возможно, этот мир предоставил столько данных, сколько может!</AM_AnimalAnalysis_Expected.stages.9.description>
+</LanguageData>

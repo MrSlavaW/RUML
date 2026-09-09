@@ -1,0 +1,16 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\CremateFuneral.xml -->
+	
+	<!--                                               EN: Spectators must be alive. -->
+	<AM_CremateFuneralBehavior.spectatorFilter.description>Зрители должны быть живы.</AM_CremateFuneralBehavior.spectatorFilter.description>
+	<!--                                 EN: speaker -->
+	<AM_CremateFuneralBehavior.roles.0.label>оратор</AM_CremateFuneralBehavior.roles.0.label>
+	<!--                                 EN: Corpse -->
+	<AM_CremateFuneralBehavior.roles.1.label>Труп</AM_CremateFuneralBehavior.roles.1.label>
+	<!--                                 EN: crafter -->
+	<AM_CremateFuneralBehavior.roles.2.label>ремесленник</AM_CremateFuneralBehavior.roles.2.label>
+	<!--                                                EN: Selected stuff is not reachable -->
+	<AM_CremateFuneralBehavior.stages.0.failTriggers.0.desc>Выбранный материал недоступен</AM_CremateFuneralBehavior.stages.0.failTriggers.0.desc>
+	<!--                                            EN: {0}: The speech is over, and the cremation is beginning. -->
+	<AM_CremateFuneralBehavior.stages.1.postAction.text>{0}: Речь окончена, и начинается кремация.</AM_CremateFuneralBehavior.stages.1.postAction.text>
+</LanguageData>

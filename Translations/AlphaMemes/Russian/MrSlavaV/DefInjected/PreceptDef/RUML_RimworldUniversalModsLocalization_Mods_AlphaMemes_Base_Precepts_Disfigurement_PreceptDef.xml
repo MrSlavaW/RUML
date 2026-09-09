@@ -1,0 +1,18 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Disfigurement.xml -->
+	
+	<!--                         EN: disliked -->
+	<AM_Disfigurement_Disliked.label>не нравится</AM_Disfigurement_Disliked.label>
+	<!--                               EN: Disfigurement is unsettling. -->
+	<AM_Disfigurement_Disliked.description>Увечья вызывают беспокойство.</AM_Disfigurement_Disliked.description>
+	
+	<!--                         EN: don't care -->
+	<AM_Disfigurement_DontCare.label>безразличие</AM_Disfigurement_DontCare.label>
+	<!--                               EN: Who cares if a person is disfigured? We shouldn't judge others based on such trivial matters. -->
+	<AM_Disfigurement_DontCare.description>Какое дело, если человек увечен? Мы не должны судить других по таким мелочам.</AM_Disfigurement_DontCare.description>
+	
+<!--                          EN: preferred -->
+    <AM_Disfigurement_Preferred.label>предпочтительно</AM_Disfigurement_Preferred.label>
+    <!--                                EN: Disfigurement is beautiful. To alter the body is to improve it, and the more thoroughly a person is reshaped, the more worthy they become.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Missing eyes, ears, nose, jaw or tongue count as disfigurement. -->
+    <AM_Disfigurement_Preferred.description>Обезображивание прекрасно. Изменить тело — значит улучшить его, и чем основательнее преображается человек, тем более достойным он становится.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Отсутствие глаз, ушей, носа, челюсти или языка считается обезображиванием.</AM_Disfigurement_Preferred.description>
+</LanguageData>

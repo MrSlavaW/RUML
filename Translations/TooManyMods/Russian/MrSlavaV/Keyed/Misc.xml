@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<CWTL_ChooseSpotAndLand>Выбрать место и совершить посадку</CWTL_ChooseSpotAndLand>
+	<CWTL_AttackSettlement>Атаковать {0} (выбрать точку высадки)</CWTL_AttackSettlement>
+	<VFEC.Scorpion.PickUp>Собрать скорпион</VFEC.Scorpion.PickUp>
+	<VFEC.Scorpion.SetUp>Развернуть скорпион</VFEC.Scorpion.SetUp>
+	<VFEC.LightTheBeacon>Зажечь сигнальный огонь</VFEC.LightTheBeacon>
+</LanguageData>

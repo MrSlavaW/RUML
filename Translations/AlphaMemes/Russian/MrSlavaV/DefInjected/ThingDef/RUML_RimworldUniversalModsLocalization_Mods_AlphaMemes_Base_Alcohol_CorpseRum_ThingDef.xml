@@ -1,0 +1,20 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\ThingDefs_Items\Alcohol_CorpseRum.xml -->
+	<!--                                          EN: Drink {0} -->
+	<AM_CorpseRumBasic.ingestible.ingestCommandString>Выпить {0}</AM_CorpseRumBasic.ingestible.ingestCommandString>
+	<!--                                         EN: Drinking {0}. -->
+	<AM_CorpseRumBasic.ingestible.ingestReportString>Пьет {0}.</AM_CorpseRumBasic.ingestible.ingestReportString>
+	<!--                 EN: suspicious rum -->
+	<AM_CorpseRumBasic.label>подозрительный ром</AM_CorpseRumBasic.label>
+	<!--                       EN: The drink of choice of pirates everywhere. The quality and source of this rum is very dubious, but it scratches the itch. Excessive consumption can lead to alcohol blackouts and, over time, addiction. -->
+	<AM_CorpseRumBasic.description>Любимый напиток пиратов во всем мире. Качество и источник этого рома весьма сомнительны, но он снимает зуд. Чрезмерное употребление может привести к алкогольной отключке, а со временем и к зависимости.</AM_CorpseRumBasic.description>
+	
+	<!--                                         EN: Drink {0} -->
+	<AM_CorpseRumFine.ingestible.ingestCommandString>Выпить {0}</AM_CorpseRumFine.ingestible.ingestCommandString>
+	<!--                                        EN: Drinking {0}. -->
+	<AM_CorpseRumFine.ingestible.ingestReportString>Пьет {0}.</AM_CorpseRumFine.ingestible.ingestReportString>
+	<!--                EN: fine rum -->
+	<AM_CorpseRumFine.label>прекрасный ром</AM_CorpseRumFine.label>
+	<!--                      EN: Fine aged rum, with a unique divine flavour. Excessive consumption can lead to alcohol blackouts and, over time, addiction. -->
+	<AM_CorpseRumFine.description>Выдержанный ром с уникальным божественным вкусом. Чрезмерное употребление может привести к потере сознания, а со временем и к зависимости.</AM_CorpseRumFine.description>
+</LanguageData>

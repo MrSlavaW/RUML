@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AB_AmbientRadiation.description>Повышенный уровень естественного ионизирующего излучения.</AB_AmbientRadiation.description>
+  <AB_AmbientRadiation.label>фоновая радиация</AB_AmbientRadiation.label>
+  <AB_DryMeadows.description>Суглинистая почва полузасушливых травянистых лугов.</AB_DryMeadows.description>
+  <AB_DryMeadows.label>почвы сухих лугов</AB_DryMeadows.label>
+  <AB_ExtremeTemperatureFluctuations.description>Нестабильный климат с резкими суточными колебаниями температуры.</AB_ExtremeTemperatureFluctuations.description>
+  <AB_ExtremeTemperatureFluctuations.label>резкие перепады температур</AB_ExtremeTemperatureFluctuations.label>
+  <AB_GelatinousMemoryEcho.description>Аномальные студенистые скопления псионических воспоминаний.</AB_GelatinousMemoryEcho.description>
+  <AB_GelatinousMemoryEcho.label>желеобразное эхо памяти</AB_GelatinousMemoryEcho.label>
+  <AB_HealingSprings.description>Целебные геотермальные ключи, богатые минералами.</AB_HealingSprings.description>
+  <AB_HealingSprings.label>исцеляющие источники</AB_HealingSprings.label>
+  <AB_LivingAlcyonite.description>Биолюминесцентные колонии коралловых образований.</AB_LivingAlcyonite.description>
+  <AB_LivingAlcyonite.label>живой альционит</AB_LivingAlcyonite.label>
+  <AB_MoldyEnvironment.description>Территория с чрезвычайно высокой концентрацией грибковых спор.</AB_MoldyEnvironment.description>
+  <AB_MoldyEnvironment.label>заплесневелая среда</AB_MoldyEnvironment.label>
+  <AB_MutagenicSprings.description>Ключи, насыщенные окулярным мутагеном.</AB_MutagenicSprings.description>
+  <AB_MutagenicSprings.label>мутагенные окулярные источники</AB_MutagenicSprings.label>
+  <AB_PetalStorms.description>Периодические цветочные бури, разносящие пыльцу и лепестки.</AB_PetalStorms.description>
+  <AB_PetalStorms.label>лепестковые бури</AB_PetalStorms.label>
+  <AB_QuicksandPits.description>Опасные участки зыбучих песков, поглощающие неосторожных путников.</AB_QuicksandPits.description>
+  <AB_QuicksandPits.label>зыбучие пески</AB_QuicksandPits.label>
+  <AB_RedFog.description>Область карты, плотно окутанная красным туманом.</AB_RedFog.description>
+  <AB_RedFog.label>красный туман</AB_RedFog.label>
+</LanguageData>

@@ -1,0 +1,23 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\ThoughtDefs\Thoughts_Situation_Needs_Tea.xml -->
+	<!--                   EN: craving tea -->
+	<AM_TeaNeed.stages.0.label>жажда чая</AM_TeaNeed.stages.0.label>
+	<!--                         EN: I need tea, badly... My head feels foggy, my nerves are frayed... I’d brew shoe leather if it smelled remotely like tea right now. -->
+	<AM_TeaNeed.stages.0.description>Мне очень нужен чай... Голова как в тумане, нервы на пределе... Я бы заварил даже подошву, если бы она хоть немного пахла чаем.</AM_TeaNeed.stages.0.description>
+	<!--                   EN: desiring tea -->
+	<AM_TeaNeed.stages.1.label>желание чая</AM_TeaNeed.stages.1.label>
+	<!--                         EN: It's been too long since I had a proper cup of tea. The day just doesn't feel right without it. -->
+	<AM_TeaNeed.stages.1.description>Прошло слишком много времени с тех пор, как я пил нормальную чашку чая. День кажется неправильным без него.</AM_TeaNeed.stages.1.description>
+	<!--                   EN: wanting tea -->
+	<AM_TeaNeed.stages.2.label>хочу чая</AM_TeaNeed.stages.2.label>
+	<!--                         EN: A cup of tea would be nice. Just something warm to hold and sip for a moment of peace. -->
+	<AM_TeaNeed.stages.2.description>Чашка чая была бы кстати. Просто что-то теплое, чтобы подержать и отпить для момента покоя.</AM_TeaNeed.stages.2.description>
+	<!--                   EN: content -->
+	<AM_TeaNeed.stages.3.label>доволен</AM_TeaNeed.stages.3.label>
+	<!--                         EN: Ahh, I’ve had my tea. The world seems a little brighter now. -->
+	<AM_TeaNeed.stages.3.description>Ах, я выпил свой чай. Мир кажется немного ярче теперь.</AM_TeaNeed.stages.3.description>
+	<!--                   EN: perfectly steeped -->
+	<AM_TeaNeed.stages.4.label>идеально заварен</AM_TeaNeed.stages.4.label>
+	<!--                         EN: This was divine. Perfectly brewed tea, warming my soul and calming my mind. -->
+	<AM_TeaNeed.stages.4.description>Это было божественно. Идеально заваренный чай, согревающий душу и успокаивающий ум.</AM_TeaNeed.stages.4.description>
+</LanguageData>

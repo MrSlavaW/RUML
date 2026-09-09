@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AAVPE_AcidSpit.label>плевок кислотой</AAVPE_AcidSpit.label>
+  <AAVPE_Charge.label>стремительный рывок</AAVPE_Charge.label>
+  <AAVPE_ChargeAndSkewer.label>рывок с насаживанием</AAVPE_ChargeAndSkewer.label>
+  <AAVPE_ChemfuelNodules.label>химтопливные наросты</AAVPE_ChemfuelNodules.label>
+  <AAVPE_ClawFrenzy.label>исступление когтей</AAVPE_ClawFrenzy.label>
+  <AAVPE_DisablingStrike.label>выводящий удар</AAVPE_DisablingStrike.label>
+  <AAVPE_Electrify.label>наэлектризовать</AAVPE_Electrify.label>
+  <AAVPE_EmpBlow.label>ЭМИ-удар</AAVPE_EmpBlow.label>
+  <AAVPE_EyeEruption.label>окулярное извержение</AAVPE_EyeEruption.label>
+  <AAVPE_FatalBlow.label>смертельный удар</AAVPE_FatalBlow.label>
+  <AAVPE_FungalSkin.label>грибная кожа</AAVPE_FungalSkin.label>
+  <AAVPE_GreaterOcularSprout.label>великий окулярный росток</AAVPE_GreaterOcularSprout.label>
+  <AAVPE_Hover.label>парение</AAVPE_Hover.label>
+  <AAVPE_KO.label>без сознания</AAVPE_KO.label>
+  <AAVPE_Laser.label>сфокусированный свет</AAVPE_Laser.label>
+  <AAVPE_LegSkip.label>пространственный скачок ноги</AAVPE_LegSkip.label>
+  <AAVPE_LightSustenance.label>легкое насыщение</AAVPE_LightSustenance.label>
+  <AAVPE_OcularSprout.label>окулярный росток</AAVPE_OcularSprout.label>
+  <AAVPE_Regeneration.label>регенерация</AAVPE_Regeneration.label>
+  <AAVPE_Skewer.label>насаживание</AAVPE_Skewer.label>
+  <AAVPE_Slice.label>дикий пси-разрез</AAVPE_Slice.label>
+  <AAVPE_SpinCut.label>круговой разрез</AAVPE_SpinCut.label>
+  <AAVPE_StrengthenInsect.label>усиление насекомого</AAVPE_StrengthenInsect.label>
+  <AAVPE_StrikeEyes.label>ослепляющий удар</AAVPE_StrikeEyes.label>
+  <AAVPE_SummonBlackQueen.label>призыв чёрной королевы</AAVPE_SummonBlackQueen.label>
+  <AAVPE_SummonBlackScarab.label>призыв чёрного скарабея</AAVPE_SummonBlackScarab.label>
+  <AAVPE_SummonBlackSpelopede.label>призыв чёрного мегаскарабея</AAVPE_SummonBlackSpelopede.label>
+  <AAVPE_SummonBlackSpider.label>призыв чёрного паука</AAVPE_SummonBlackSpider.label>
+  <AAVPE_SummonEyeling.label>призыв окулярика</AAVPE_SummonEyeling.label>
+  <AAVPE_SummonEyelingHorde.label>призыв орды окуляриков</AAVPE_SummonEyelingHorde.label>
+  <AAVPE_SummonHive.label>призыв входа в улей</AAVPE_SummonHive.label>
+  <AAVPE_SummonMammothWorm.label>призыв червя-мамонта</AAVPE_SummonMammothWorm.label>
+  <AAVPE_SummonOcularOriginator.label>призыв прародителя окуляров</AAVPE_SummonOcularOriginator.label>
+  <AAVPE_VenomSpit.label>плевок ядом</AAVPE_VenomSpit.label>
+  <AAVPE_WebSlinging.label>выстрел паутиной</AAVPE_WebSlinging.label>
+</LanguageData>

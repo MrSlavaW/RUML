@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\MentalStateDefs\MentalStates_Special.xml -->
+
+	<!--                  EN: rage -->
+	<AArmoury_Manhunter.label>ярость</AArmoury_Manhunter.label>
+
+	<!--                        EN: {0} is raging! -->
+	<AArmoury_Manhunter.beginLetter>{0} в ярости!</AArmoury_Manhunter.beginLetter>
+
+	<!--                            EN: {0}'s rage has come to an end. -->
+	<AArmoury_Manhunter.recoveryMessage>Ярость {0} прошла.</AArmoury_Manhunter.recoveryMessage>
+
+	<!--                            EN: Raging -->
+	<AArmoury_Manhunter.baseInspectLine>В ярости</AArmoury_Manhunter.baseInspectLine>
+</LanguageData>

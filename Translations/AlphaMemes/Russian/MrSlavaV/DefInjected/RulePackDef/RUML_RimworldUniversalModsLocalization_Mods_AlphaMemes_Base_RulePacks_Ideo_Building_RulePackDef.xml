@@ -1,0 +1,44 @@
+<LanguageData>
+	<!-- 1.6\Defs\RulePackDefs\RulePacks_Ideo_Building.xml -->
+	<!-- EN: 
+		<li>buildingName->[descriptor] [category]</li>
+		<li>buildingName->[category] of [specialDetail]</li>
+		<li>descriptor->Opulent</li>
+		<li>descriptor->Lavish</li>
+		<li>descriptor->Extravagant</li>
+		<li>descriptor->Ceremonial</li>
+		<li>descriptor->Majestic</li>
+		<li>category->Banquet Hall</li>
+		<li>category->Dining Pavilion</li>
+		<li>category->Feasting Chamber</li>
+		<li>category->Celebration Hall</li>
+		<li>category->Revelry Table</li>
+		<li>specialDetail->Boundless Plenty</li>
+		<li>specialDetail->Eternal Celebration</li>
+		<li>specialDetail->Glorious Unity</li>
+		<li>specialDetail->the Harvest’s Bounty</li>
+		<li>specialDetail->Unending Prosperity</li>
+		<li>specialDetail->the Feast of Ages</li>
+	 -->
+	<AM_BanquetNamer.rulePack.rulesStrings>
+		<li>buildingName-&gt;[descriptor] [category]</li>
+		<li>buildingName-&gt;[category] [specialDetail]</li>
+		<li>descriptor-&gt;Роскошный</li>
+		<li>descriptor-&gt;Пышный</li>
+		<li>descriptor-&gt;Экстравагантный</li>
+		<li>descriptor-&gt;Церемониальный</li>
+		<li>descriptor-&gt;Величественный</li>
+		<li>category-&gt;Банкетный зал</li>
+		<li>category-&gt;Пиршественный павильон</li>
+		<li>category-&gt;Пиршественная палата</li>
+		<li>category-&gt;Зал торжеств</li>
+		<li>category-&gt;Стол веселья</li>
+		<li>specialDetail-&gt;Безграничное изобилие</li>
+		<li>specialDetail-&gt;Вечное торжество</li>
+		<li>specialDetail-&gt;Славное единение</li>
+		<li>specialDetail-&gt;Щедрость урожая</li>
+		<li>specialDetail-&gt;Бесконечное процветание</li>
+		<li>specialDetail-&gt;Пир веков</li>
+	</AM_BanquetNamer.rulePack.rulesStrings>
+
+</LanguageData>

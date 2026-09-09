@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\PreceptDefs\Precepts_SanguophageCampsRaiding.xml -->
+	
+	<!--                        EN: raiding a sanguophage camp together -->
+	<AM_SanguophageCampRaided.label>налет на лагерь гемофагов</AM_SanguophageCampRaided.label>
+	
+	<!--                                  EN: raiding a sanguophage camp -->
+	<AM_SanguophageCampRaided_DevPoints.label>нападение на лагерь сангвофагов</AM_SanguophageCampRaided_DevPoints.label>
+</LanguageData>

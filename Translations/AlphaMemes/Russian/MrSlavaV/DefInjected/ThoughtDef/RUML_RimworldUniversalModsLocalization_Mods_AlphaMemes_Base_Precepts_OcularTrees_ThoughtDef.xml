@@ -1,0 +1,24 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_OcularTrees.xml -->
+	
+	<!--                                    EN: no ocular trees -->
+	<AM_OcularTrees_TreesDesired.stages.0.label>нет глазных деревьев</AM_OcularTrees_TreesDesired.stages.0.label>
+	<!--                                          EN: There are no ocular trees around, and I feel nervous being outside of their soothing gaze. -->
+	<AM_OcularTrees_TreesDesired.stages.0.description>Вокруг нет глазных деревьев, и я нервничаю, находясь вне их успокаивающего взгляда.</AM_OcularTrees_TreesDesired.stages.0.description>
+	<!--                                    EN: scarce ocular trees -->
+	<AM_OcularTrees_TreesDesired.stages.1.label>скудные глазные деревья</AM_OcularTrees_TreesDesired.stages.1.label>
+	<!--                                          EN: There are very few ocular trees around. -->
+	<AM_OcularTrees_TreesDesired.stages.1.description>Вокруг очень мало глазных деревьев.</AM_OcularTrees_TreesDesired.stages.1.description>
+	<!--                                    EN: adequate ocular trees -->
+	<AM_OcularTrees_TreesDesired.stages.2.label>глазные деревья</AM_OcularTrees_TreesDesired.stages.2.label>
+	<!--                                          EN: I recently saw a wide variety of ocular trees. -->
+	<AM_OcularTrees_TreesDesired.stages.2.description>Недавно я увидел большое разнообразие глазных деревьев.</AM_OcularTrees_TreesDesired.stages.2.description>
+	<!--                                    EN: amazing ocular trees -->
+	<AM_OcularTrees_TreesDesired.stages.3.label>удивительные глазные деревья</AM_OcularTrees_TreesDesired.stages.3.label>
+	<!--                                          EN: I am surrounded by several beautiful, massive ocular trees. Their unblinking gaze is glorious! -->
+	<AM_OcularTrees_TreesDesired.stages.3.description>Меня окружают несколько красивых, массивных глазных деревьев. Их немигающий взгляд просто великолепен!</AM_OcularTrees_TreesDesired.stages.3.description>
+	<!--                                    EN: sublime ocular forest -->
+	<AM_OcularTrees_TreesDesired.stages.4.label>возвышенный глазной лес</AM_OcularTrees_TreesDesired.stages.4.label>
+	<!--                                          EN: The whole region is covered in the sublime gaze of the ocular trees - a physical seat of morality! -->
+	<AM_OcularTrees_TreesDesired.stages.4.description>Весь регион охвачен возвышенным взглядом глазных деревьев - физический очаг нравственности!</AM_OcularTrees_TreesDesired.stages.4.description>
+</LanguageData>

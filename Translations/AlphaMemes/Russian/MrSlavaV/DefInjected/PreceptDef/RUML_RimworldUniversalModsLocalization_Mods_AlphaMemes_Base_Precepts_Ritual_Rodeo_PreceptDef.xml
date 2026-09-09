@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Ritual_Rodeo.xml -->
+	<!--                     EN: A celebration of skill, courage, and tradition. Riders spar with wild beasts, ropes fly, and the crowd cheers as the colony comes together to honor our bond with livestock. -->
+	<AM_RodeoPrecept.description>Праздник мастерства, мужества и традиций. Всадники соревнуются с дикими зверями, веревки развеваются в воздухе, а толпа ликует, когда поселение собирается вместе, чтобы почтить нашу связь с домашним скотом.</AM_RodeoPrecept.description>
+	<!--               EN: rodeo -->
+	<AM_RodeoPrecept.label>родео</AM_RodeoPrecept.label>
+</LanguageData>

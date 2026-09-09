@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\sarg_rimbees\Races_ApiaristMech3.xml -->
+	<!--                EN: apiarist -->
+	<AM_Mech_Apiarist.label>пчеловод</AM_Mech_Apiarist.label>
+	<!--                                   EN: Plural apiarist -->
+	<AM_Mech_Apiarist.lifeStages.1.labelPlural>Апиаристы</AM_Mech_Apiarist.lifeStages.1.labelPlural>
+<AM_Mech_Apiarist.lifeStages.0.labelPlural>Апиаристы</AM_Mech_Apiarist.lifeStages.0.labelPlural></LanguageData>

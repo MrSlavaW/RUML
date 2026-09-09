@@ -1,0 +1,43 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingStyleDefs\Alpha\ThingStyleDefs_Neolithic.xml -->
+	<!--                              EN: stone protected fire -->
+	<AM_Neolithic_TorchLamp.overrideLabel>костер обложенный камнем</AM_Neolithic_TorchLamp.overrideLabel>
+	<!--                         EN: tribal toga -->
+	<AM_Neolithic_Toga.overrideLabel>племенная тога</AM_Neolithic_Toga.overrideLabel>
+	<!--                          EN: tribal shirt -->
+	<AM_Neolithic_Shirt.overrideLabel>племенная рубашка</AM_Neolithic_Shirt.overrideLabel>
+	<!--                           EN: tribal garments -->
+	<AM_Neolithic_Jacket.overrideLabel>племенная одежда</AM_Neolithic_Jacket.overrideLabel>
+	<!--                        EN: tribal hat -->
+	<AM_Neolithic_Hat.overrideLabel>племенная шляпа</AM_Neolithic_Hat.overrideLabel>
+	<!--                            EN: jagged sword -->
+	<AM_Neolithic_Gladius.overrideLabel>зазубренный меч</AM_Neolithic_Gladius.overrideLabel>
+	<!--                        EN: stone ax -->
+	<AM_Neolithic_Axe.overrideLabel>каменный топор</AM_Neolithic_Axe.overrideLabel>
+	<!--                            EN: breach antlers -->
+	<AM_Neolithic_Pickaxe.overrideLabel>сломанные рога</AM_Neolithic_Pickaxe.overrideLabel>
+	<!--                          EN: stone spear -->
+	<AM_Neolithic_Spear.overrideLabel>каменное копье</AM_Neolithic_Spear.overrideLabel>
+	<!--                          EN: stone dagger -->
+	<AM_Neolithic_Knife.overrideLabel>каменный кинжал</AM_Neolithic_Knife.overrideLabel>
+	<!--                              EN: sharpened stick -->
+	<AM_Neolithic_LightClub.overrideLabel>заостренная палка</AM_Neolithic_LightClub.overrideLabel>
+	<!--                              EN: crude stone ax -->
+	<AM_Neolithic_TribalAxe.overrideLabel>грубый каменный топор</AM_Neolithic_TribalAxe.overrideLabel>
+	<!--                         EN: crude stone shiv -->
+	<AM_Neolithic_Shiv.overrideLabel>грубая каменная заточка</AM_Neolithic_Shiv.overrideLabel>
+	<!--                              EN: slingshot -->
+	<AM_Neolithic_Slingshot.overrideLabel>рогатка</AM_Neolithic_Slingshot.overrideLabel>
+	<!--                         EN: stone throwing spear -->
+	<AM_Neolithic_Pila.overrideLabel>каменное копье для метания</AM_Neolithic_Pila.overrideLabel>
+	<!--                        EN: atlatl -->
+	<AM_Neolithic_Bow.overrideLabel>атлатль</AM_Neolithic_Bow.overrideLabel>
+	<!--                               EN: ceremonial atlatl -->
+	<AM_Neolithic_RecurveBow.overrideLabel>церемониальный атлатль</AM_Neolithic_RecurveBow.overrideLabel>
+	<!--                             EN: reinforced atlatl -->
+	<AM_Neolithic_GreatBow.overrideLabel>укрепленный атлатль</AM_Neolithic_GreatBow.overrideLabel>
+	<!--                                EN: modern atlatl -->
+	<AM_Neolithic_CompoundBow.overrideLabel>современный атлатль</AM_Neolithic_CompoundBow.overrideLabel>
+	<!--                            EN: ornate atlatl -->
+	<AM_Neolithic_LongBow.overrideLabel>богато украшенный атлатль</AM_Neolithic_LongBow.overrideLabel>
+</LanguageData>

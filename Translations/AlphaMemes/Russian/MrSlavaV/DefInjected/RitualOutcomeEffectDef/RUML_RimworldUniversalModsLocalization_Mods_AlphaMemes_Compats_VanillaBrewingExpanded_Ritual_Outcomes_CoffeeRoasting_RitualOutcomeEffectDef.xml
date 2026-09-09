@@ -1,0 +1,29 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\Rituals\CoffeeRoasting\Ritual_Outcomes_CoffeeRoasting.xml -->
+<!--                              EN: If the coffee roasting doesn't go terribly bad, the moralist will brew some coffee for the colony without needing harvested coffee beans. Better outcomes will produce more coffee. A spectacular coffee roasting might produce some specialty coffee if VE Brewing - Coffees and Teas is installed. -->
+    <AM_CoffeeRoastingOutcome.description>Если обжарка кофе не пройдёт из рук вон плохо, моралист сварит немного кофе для поселения без необходимости использовать собранные кофейные бобы. При лучших исходах будет произведено больше кофе. Великолепная обжарка кофе может дать немного особого кофе, если установлен мод VE Brewing - Coffees and Teas.</AM_CoffeeRoastingOutcome.description>
+    <!--                                EN: room impressiveness -->
+    <AM_CoffeeRoastingOutcome.comps.0.label>впечатление от помещения</AM_CoffeeRoastingOutcome.comps.0.label>
+    <!--                                EN: participant count -->
+    <AM_CoffeeRoastingOutcome.comps.1.label>количество участников</AM_CoffeeRoastingOutcome.comps.1.label>
+    <!--                                EN: {PAWN_labelShort}'s social impact -->
+    <AM_CoffeeRoastingOutcome.comps.2.label>социальное влияние {PAWN_labelShort}</AM_CoffeeRoastingOutcome.comps.2.label>
+    <!--                                        EN: speaker's social impact -->
+    <AM_CoffeeRoastingOutcome.comps.2.labelAbstract>социальное влияние оратора</AM_CoffeeRoastingOutcome.comps.2.labelAbstract>
+    <!--                                         EN: Burnt -->
+    <AM_CoffeeRoastingOutcome.outcomeChances.0.label>Сгоревший</AM_CoffeeRoastingOutcome.outcomeChances.0.label>
+    <!--                                               EN: The {0} was burnt. The beans were ruined, and the ceremony was an insult to the sacred art of coffee roasting. -->
+    <AM_CoffeeRoastingOutcome.outcomeChances.0.description>Ритуал {0} сгорел. Бобы были испорчены, а церемония стала оскорблением священного искусства обжарки кофе.</AM_CoffeeRoastingOutcome.outcomeChances.0.description>
+    <!--                                         EN: Underwhelming -->
+    <AM_CoffeeRoastingOutcome.outcomeChances.1.label>Разочарование</AM_CoffeeRoastingOutcome.outcomeChances.1.label>
+    <!--                                               EN: The {0} was underwhelming. The roasting lacked the care and skill it deserved, leaving the coffee dull and uninspired. -->
+    <AM_CoffeeRoastingOutcome.outcomeChances.1.description>Ритуал {0} прошёл разочаровывающе. Обжарке не хватало заботы и мастерства, которых она заслуживала, из-за чего кофе получился пресным и невыразительным.</AM_CoffeeRoastingOutcome.outcomeChances.1.description>
+    <!--                                         EN: Rich -->
+    <AM_CoffeeRoastingOutcome.outcomeChances.2.label>Насыщенный</AM_CoffeeRoastingOutcome.outcomeChances.2.label>
+    <!--                                               EN: The {0} was delightful. The beans were roasted beautifully, filling the air with a rich aroma and leaving us feeling renewed. -->
+    <AM_CoffeeRoastingOutcome.outcomeChances.2.description>Ритуал {0} прошёл восхитительно. Бобы были прекрасно обжарены, наполнив воздух насыщенным ароматом и заставив нас почувствовать себя обновлёнными.</AM_CoffeeRoastingOutcome.outcomeChances.2.description>
+    <!--                                         EN: Masterful -->
+    <AM_CoffeeRoastingOutcome.outcomeChances.3.label>Мастерский</AM_CoffeeRoastingOutcome.outcomeChances.3.label>
+    <!--                                               EN: The {0} was masterful! The beans were roasted to perfection, creating an unforgettable communion with the sacred art of coffee. -->
+    <AM_CoffeeRoastingOutcome.outcomeChances.3.description>Ритуал {0} прошёл мастерски! Бобы были обжарены до совершенства, создав незабываемое единение со священным искусством кофе.</AM_CoffeeRoastingOutcome.outcomeChances.3.description>
+</LanguageData>

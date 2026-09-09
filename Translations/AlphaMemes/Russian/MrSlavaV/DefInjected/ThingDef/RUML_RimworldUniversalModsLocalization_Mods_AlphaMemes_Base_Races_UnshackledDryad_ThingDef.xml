@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Races\Races_UnshackledDryad.xml -->
+	<!--                  EN: unshackled dryad -->
+	<AM_UnshackledDryad.label>непокоренная дриада</AM_UnshackledDryad.label>
+	<!--                        EN: Dryads are small mammalian creatures that have a symbiotic relationship with the Gauranlen tree.\n\nThis particular dryad seems to be unshackled, and it will not leave the region if no Gauranlen trees are around. -->
+	<AM_UnshackledDryad.description>Дриады — это мелкие млекопитающие, у которых симбиотические отношения с деревом гауранлен.\n\nЭта конкретная дриада кажется свободной и не покинет регион, если поблизости нет деревьев гауранлен. Кажется, это связано с поселенцами.</AM_UnshackledDryad.description>
+	<!--                          EN: левый коготь -->
+	<AM_UnshackledDryad.tools.0.label>левый коготь</AM_UnshackledDryad.tools.0.label>
+	<!--                          EN: правый коготь -->
+	<AM_UnshackledDryad.tools.1.label>правый коготь</AM_UnshackledDryad.tools.1.label>
+	<!--                          EN: голова -->
+	<AM_UnshackledDryad.tools.3.label>голова</AM_UnshackledDryad.tools.3.label>
+</LanguageData>

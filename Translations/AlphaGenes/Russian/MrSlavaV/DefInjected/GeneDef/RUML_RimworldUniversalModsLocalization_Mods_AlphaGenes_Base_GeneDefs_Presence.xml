@@ -1,0 +1,27 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Presence.xml -->
+	<!--                 EN: no raid presence -->
+	<AG_NoRaidPresence.label>Безобидный</AG_NoRaidPresence.label>
+	<!--                       EN: Carriers of this gene are completely ignored when it comes to raids. Raiders will not consider them a significant threat when preparing to raid the colony, sending less raiders to attack. -->
+	<AG_NoRaidPresence.description>Носители этого гена полностью игнорируются, когда дело доходит до рейдов. Рейдеры не будут считать их серьезной угрозой при подготовке к набегу на колонию, отправляя в атаку меньше рейдеров.</AG_NoRaidPresence.description>
+	<!--                                      EN: The market value of this pawn will not count in total colony wealth when calculating it for raid points. -->
+	<AG_NoRaidPresence.customEffectDescriptions.0>Рыночная стоимость этой пешки не будет учитываться в общем богатстве колонии при расчете ее очков рейда.</AG_NoRaidPresence.customEffectDescriptions.0>
+	<!--                      EN: reduced raid presence -->
+	<AG_ReducedRaidPresence.label>Слабый внешне</AG_ReducedRaidPresence.label>
+	<!--                            EN: Carriers of this gene are considered less powerful when it comes to raids. Raiders will not consider them a huge threat when preparing to raid the colony, sending less raiders to attack. -->
+	<AG_ReducedRaidPresence.description>Носители этого гена считаются менее сильными, когда дело доходит до рейдов. Рейдеры не будут считать их огромной угрозой при подготовке к набегу на колонию, отправляя в атаку меньше рейдеров.</AG_ReducedRaidPresence.description>
+	<!--                                           EN: Only 50% of the market value of this pawn will count in total colony wealth when calculating it for raid points. -->
+	<AG_ReducedRaidPresence.customEffectDescriptions.0>Только 50% рыночной стоимости этой пешки будет учитываться в общем богатстве колонии при расчете его для очков рейда.</AG_ReducedRaidPresence.customEffectDescriptions.0>
+	<!--                        EN: dangerous raid presence -->
+	<AG_DangerousRaidPresence.label>Пугающий вид</AG_DangerousRaidPresence.label>
+	<!--                              EN: Carriers of this gene are considered very powerful when it comes to raids. Raiders will consider them a huge threat when preparing to raid the colony, sending more raiders to attack. -->
+	<AG_DangerousRaidPresence.description>Носители этого гена считаются очень сильными, когда дело доходит до рейдов. Рейдеры будут считать их огромной угрозой при подготовке к набегу на колонию, отправляя в атаку еще больше рейдеров.</AG_DangerousRaidPresence.description>
+	<!--                                             EN: The market value of this pawn will be multiplied by 1,5x when counting total colony wealth for raid points calculations. -->
+	<AG_DangerousRaidPresence.customEffectDescriptions.0>Рыночная стоимость этой пешки будет умножена в 1,5 раза при подсчете общего богатства колонии для расчета очков рейда.</AG_DangerousRaidPresence.customEffectDescriptions.0>
+	<!--                     EN: deadly raid presence -->
+	<AG_DeadlyRaidPresence.label>Взгляд смерти</AG_DeadlyRaidPresence.label>
+	<!--                           EN: Carriers of this gene are considered extremely powerful when it comes to raids. Raiders will consider them an insane threat when preparing to raid the colony, sending A LOT more raiders to attack. -->
+	<AG_DeadlyRaidPresence.description>Носители этого гена считаются чрезвычайно могущественными, когда дело доходит до рейдов. Рейдеры сочтут их безумной угрозой при подготовке к набегу на колонию, отправив в атаку НАМНОГО больше рейдеров.</AG_DeadlyRaidPresence.description>
+	<!--                                          EN: The market value of this pawn will be multiplied by 4x when counting total colony wealth for raid points calculations. -->
+	<AG_DeadlyRaidPresence.customEffectDescriptions.0>Рыночная стоимость этой пешки будет умножена в 4 раза при подсчете общего богатства колонии для расчета очков рейда.</AG_DeadlyRaidPresence.customEffectDescriptions.0>
+</LanguageData>

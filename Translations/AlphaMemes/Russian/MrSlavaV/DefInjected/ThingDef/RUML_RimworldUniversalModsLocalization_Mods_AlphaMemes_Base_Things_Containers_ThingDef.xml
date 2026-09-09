@@ -1,0 +1,29 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\ThingDefs\Things_Containers.xml -->
+	<!--      EN: urn -->
+	<AM_Urn.label>урна</AM_Urn.label>
+	<!--            EN: A decorative container. -->
+	<AM_Urn.description>Декоративный контейнер.</AM_Urn.description>
+	<!--                       EN: {CORPSE}'s {LABEL} -->
+	<AM_Urn.comps.0.transformLabel>{LABEL} {CORPSE}</AM_Urn.comps.0.transformLabel>
+	<!--                      EN: Contains the last remains of {CORPSE} -->
+	<AM_Urn.comps.0.inspectString>Содержит последние останки {CORPSE}</AM_Urn.comps.0.inspectString>
+	
+	<!--            EN: Mummified -->
+	<AM_MummyMale.label>Мумифицированный</AM_MummyMale.label>
+	<!--                  EN: An embalmed and mummified corpse -->
+	<AM_MummyMale.description>Забальзамированный и мумифицированный труп</AM_MummyMale.description>
+	<!--                             EN: Mummified {CORPSE} ({QUALITY}) -->
+	<AM_MummyMale.comps.2.transformLabel>Мумифицированный {CORPSE} ({QUALITY})</AM_MummyMale.comps.2.transformLabel>
+	<!--                            EN: Is the last remains of {CORPSE} -->
+	<AM_MummyMale.comps.2.inspectString>Последние останки {CORPSE}</AM_MummyMale.comps.2.inspectString>
+	
+	<!--              EN: Mummified -->
+	<AM_MummyFemale.label>Мумифицированный</AM_MummyFemale.label>
+	<!--                    EN: An embalmed and mummified corpse -->
+	<AM_MummyFemale.description>Забальзамированный и мумифицированный труп</AM_MummyFemale.description>
+	<!--                               EN: Mummified {CORPSE} ({QUALITY}) -->
+	<AM_MummyFemale.comps.2.transformLabel>Мумифицированный {CORPSE} ({QUALITY})</AM_MummyFemale.comps.2.transformLabel>
+	<!--                              EN: Is the last remains of {CORPSE} -->
+	<AM_MummyFemale.comps.2.inspectString>Последние останки {CORPSE}</AM_MummyFemale.comps.2.inspectString>
+</LanguageData>

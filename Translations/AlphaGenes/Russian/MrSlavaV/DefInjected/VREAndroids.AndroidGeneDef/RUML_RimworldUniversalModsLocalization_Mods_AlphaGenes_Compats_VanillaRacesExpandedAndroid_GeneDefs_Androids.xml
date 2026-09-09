@@ -1,0 +1,49 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaRacesExpandedAndroid\Defs\GeneDefs\GeneDefs_Androids.xml -->
+	<!--                  EN: worker droid head -->
+	<AG_WorkerDroidHead.label>Андроид рабочий</AG_WorkerDroidHead.label>
+	<!--                        EN: Androids with this hardware have a completely inhuman, robotic face. -->
+	<AG_WorkerDroidHead.description>У Андроида с этим оборудованием совершенно нечеловеческое, роботизированное лицо.</AG_WorkerDroidHead.description>
+	<!--                                       EN: Using this with other cosmetic genes may look weird. -->
+	<AG_WorkerDroidHead.customEffectDescriptions.0>Использование этого с другими косметическими генами может выглядеть странно.</AG_WorkerDroidHead.customEffectDescriptions.0>
+	<!--                   EN: servant droid head -->
+	<AG_ServantDroidHead.label>Андроид слуга</AG_ServantDroidHead.label>
+	<!--                         EN: Androids with this hardware have a completely inhuman, robotic face. -->
+	<AG_ServantDroidHead.description>У Андроида с этим оборудованием совершенно нечеловеческое, роботизированное лицо.</AG_ServantDroidHead.description>
+	<!--                                        EN: Using this with other cosmetic genes may look weird. -->
+	<AG_ServantDroidHead.customEffectDescriptions.0>Использование этого с другими косметическими генами может выглядеть странно.</AG_ServantDroidHead.customEffectDescriptions.0>
+	<!--                  EN: killer droid head -->
+	<AG_KillerDroidHead.label>Андроид убийца</AG_KillerDroidHead.label>
+	<!--                        EN: Androids with this hardware have a completely inhuman, robotic face. -->
+	<AG_KillerDroidHead.description>У Андроида с этим оборудованием совершенно нечеловеческое, роботизированное лицо.</AG_KillerDroidHead.description>
+	<!--                                       EN: Using this with other cosmetic genes may look weird. -->
+	<AG_KillerDroidHead.customEffectDescriptions.0>Использование этого с другими косметическими генами может выглядеть странно.</AG_KillerDroidHead.customEffectDescriptions.0>
+	<!--                    EN: half synthetic head -->
+	<AG_HalfSyntheticHead.label>синтетическое лицо</AG_HalfSyntheticHead.label>
+	<!--                          EN: Androids with this hardware have a synthetic face with remarkably normal looking human eyes. -->
+	<AG_HalfSyntheticHead.description>У Андроида с этим оборудованием синтетическое лицо с удивительно нормальными человеческими глазами.</AG_HalfSyntheticHead.description>
+	<!--                     EN: plastic body -->
+	<AG_RoboticBodyPlastic.label>пластиковый корпус</AG_RoboticBodyPlastic.label>
+	<!--                           EN: Androids with this hardware have a plastic looking body. -->
+	<AG_RoboticBodyPlastic.description>Андроид с этим оборудованием имеют пластиковый корпус.</AG_RoboticBodyPlastic.description>
+	<!--                                                  EN: Fresh, Rotting -->
+	<AG_RoboticBodyPlastic.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_RoboticBodyPlastic.renderNodeProperties.0.rotDrawMode>
+	<!--                      EN: robotic body -->
+	<AG_RoboticBodySkeletal.label>тело андроида</AG_RoboticBodySkeletal.label>
+	<!--                            EN: Androids with this hardware have a purely robotic looking body. -->
+	<AG_RoboticBodySkeletal.description>Андроида с этим аппаратным обеспечением имеет чисто роботизированное тело.</AG_RoboticBodySkeletal.description>
+	<!--                                                   EN: Fresh, Rotting -->
+	<AG_RoboticBodySkeletal.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_RoboticBodySkeletal.renderNodeProperties.0.rotDrawMode>
+	<!--           EN: LED light, blue -->
+	<AG_LightLED.label>Синий диод</AG_LightLED.label>
+	<!--                 EN: Androids with this hardware have a blue LED in the side of their heads, betraying their synthetic nature. -->
+	<AG_LightLED.description>У Андроида с этим оборудованием есть синий диод сбоку головы, что выдает их синтетическую природу.</AG_LightLED.description>
+	<!--              EN: LED light, red -->
+	<AG_LightLEDRed.label>красный диод</AG_LightLEDRed.label>
+	<!--                    EN: Androids with this hardware have a red LED in the side of their heads, betraying their synthetic nature. -->
+	<AG_LightLEDRed.description>У Андроида с этим оборудованием есть красный диод сбоку головы, что выдает их синтетическую природу.</AG_LightLEDRed.description>
+	<!--              EN: mech antenna -->
+	<AG_MechAntenna.label>мех антенна</AG_MechAntenna.label>
+	<!--                    EN: Androids with this hardware have a mech antenna on their heads. -->
+	<AG_MechAntenna.description>У Андроида с этим оборудованием на голове есть мех антенна.</AG_MechAntenna.description>
+</LanguageData>

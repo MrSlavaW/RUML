@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Mods\Royalty\Defs\RitualDefs\AnimaTreeOffering.xml -->
+	
+	<!--                                            EN: Spectators must be alive. -->
+	<AM_AnimaBurialBehavior.spectatorFilter.description>Зрители должны быть живы.</AM_AnimaBurialBehavior.spectatorFilter.description>
+	<!--                              EN: Shaman -->
+	<AM_AnimaBurialBehavior.roles.0.label>Шаман</AM_AnimaBurialBehavior.roles.0.label>
+	<!--                              EN: Corpse -->
+	<AM_AnimaBurialBehavior.roles.1.label>Труп</AM_AnimaBurialBehavior.roles.1.label>
+	<!--                                         EN: {0}: The speech is over, the burial is happening. -->
+	<AM_AnimaBurialBehavior.stages.1.postAction.text>{0}: Речь окончена, идут похороны.</AM_AnimaBurialBehavior.stages.1.postAction.text>
+</LanguageData>

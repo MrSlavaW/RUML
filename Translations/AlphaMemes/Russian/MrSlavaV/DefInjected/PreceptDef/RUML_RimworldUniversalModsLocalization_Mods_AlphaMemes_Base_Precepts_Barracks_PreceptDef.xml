@@ -1,0 +1,19 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Barracks.xml -->
+	
+	<!--                     EN: monastic -->
+	<AM_Barracks_Preferred.label>монашество</AM_Barracks_Preferred.label>
+	<!--                           EN: A communal living space allows us to meditate and contemplate the meaning of this life together. Private rooms are an unnecessary frivolity.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonists receive positive mood by sleeping in barracks, but the room should be above Awful and below Extremely impressive.\n - Colonists receive negative mood by sleeping in a private room. -->
+	<AM_Barracks_Preferred.description>Коммунальное жилое пространство позволяет нам вместе медитировать и размышлять о смысле этой жизни. Частные комнаты — ненужная фривольность.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n — Поселенцы получают позитивное настроение, поспав в казармах, но комната должна быть выше Ужасно и ниже Чрезвычайно впечатляюще.\n - Поселенцы получают негативное настроение, спя в отдельной комнате.</AM_Barracks_Preferred.description>
+	
+	<!--                         EN: preferred -->
+	<AM_Barracks_PreferredTrue.label>предпочтительны</AM_Barracks_PreferredTrue.label>
+	<!--                               EN: Sharing a bedroom brings a certain sensation of security in the Rim. Who would want to sleep alone in such a terrible world?\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonists receive small positive mood boosts by sleeping in barracks.\n - Colonists receive negative mood by sleeping in a private room. -->
+	<AM_Barracks_PreferredTrue.description>Совместная спальня приносит в Окраинных мирах определенное ощущение безопасности. Кому захочется спать в одиночестве в таком ужасном мире?\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Поселенцы получают небольшие позитивные улучшения настроения, поспав в казармах.\n - Поселенцы получают негативное настроение спать в отдельной комнате.</AM_Barracks_PreferredTrue.description>
+	
+
+    <!--                      EN: acceptable -->
+    <AM_Barracks_Acceptable.label>допустимо</AM_Barracks_Acceptable.label>
+    <!--                            EN: Sharing a bedroom is just an unavoidable part of living in the Rim. It's not a big deal.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonists won't receive penalties from sleeping in barracks.\n - They will still prefer a private room and they will still get "disturbed sleep" moods. -->
+    <AM_Barracks_Acceptable.description>Совместное проживание в спальне — это просто неизбежная часть жизни на Пустоши. В этом нет ничего страшного.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Поселенцы не будут получать штрафы за сон в казармах.\n - Они всё равно будут предпочитать отдельную комнату и всё равно будут получать штраф к настроению за «прерванный сон».</AM_Barracks_Acceptable.description>
+</LanguageData>

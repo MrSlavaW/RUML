@@ -1,0 +1,35 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ResearchProjectDefs\ResearchProjects_Mechanitor.xml -->
+	<!--                         EN: light alpha mechs -->
+	<AM_WorkerStandardMechtech.label>лёгкие альфа-мехи</AM_WorkerStandardMechtech.label>
+	<!--                               EN: Light specialized worker mechs that can do work types from other mods, as well as light attack mechanoids. -->
+	<AM_WorkerStandardMechtech.description>Легкие специализированные рабочие роботы, которые могут выполнять виды работ из других модов, а также легкие атакующие механоиды.</AM_WorkerStandardMechtech.description>
+	<!--                   EN: standard alpha mechs -->
+	<AM_StandardMechtech.label>стандартные альфа-мехи</AM_StandardMechtech.label>
+	<!--                         EN: The technology needed for your mechanitor to create and control standard-tier alpha mechanoids. -->
+	<AM_StandardMechtech.description>Технология, необходимая вашему механитору для создания и управления альфа-механоидами стандартного уровня.</AM_StandardMechtech.description>
+	<!--                EN: heavy alpha mechs -->
+	<AM_HeavyMechtech.label>тяжёлые альфа-мехи</AM_HeavyMechtech.label>
+	<!--                      EN: The technology needed for your mechanitor to create and control high-tier alpha mechanoids. -->
+	<AM_HeavyMechtech.description>Технология, необходимая вашему механитору для создания и управления альфа-механоидами высокого уровня.</AM_HeavyMechtech.description>
+	<!--                     EN: ultra-heavy alpha mechs -->
+	<AM_UltraHeavyMechtech.label>сверхтяжёлые альфа-мехи</AM_UltraHeavyMechtech.label>
+	<!--                           EN: The advanced technology needed for your mechanitor to create and control ultra-tier alpha mechanoids. -->
+	<AM_UltraHeavyMechtech.description>Передовая технология, необходимая вашему механитору для создания альфа-механоидов ультра-уровня и управления ими.</AM_UltraHeavyMechtech.description>
+	<!--                       EN: mechanoid beamcasting -->
+	<AM_MechanoidBeamcasting.label>лучевая связь механоидов</AM_MechanoidBeamcasting.label>
+	<!--                             EN: Research technology that harnesses advanced energy manipulation techniques to create focused and directed energy beams that can be transmitted across vast distances, and enable the summoning of the formidable Infernus mechanoid. -->
+	<AM_MechanoidBeamcasting.description>Исследовательская технология, использующая передовые методы манипулирования энергией для создания сфокусированных и направленных энергетических лучей, которые могут передаваться на огромные расстояния и позволяют вызывать грозного механоида Инфернус.</AM_MechanoidBeamcasting.description>
+	<!--                       EN: voidlink connectivity -->
+	<AM_VoidLinkConnectivity.label>подключение к пустотной связи</AM_VoidLinkConnectivity.label>
+	<!--                             EN: A communication method that operates on a framework of relay stations positioned across the system. These relay stations, known as "voidlinks," use subspace communication technology to transmit messages at near-light speed, allowing for rapid communication across sub-stellar distances. Enables the summoning of the War Empress mechanoid. -->
+	<AM_VoidLinkConnectivity.description>Метод связи, который работает на основе ретрансляционных станций, расположенных по всей системе. Эти ретрансляционные станции, известные как «пустотные связи», используют технологию подпространственной связи для передачи сообщений со скоростью, близкой к световой, что позволяет осуществлять быструю связь на субзвездных расстояниях. Позволяет вызвать механоида Военной императрицы.</AM_VoidLinkConnectivity.description>
+	<!--                        EN: quantum pulse messaging -->
+	<AM_QuantumPulseMessaging.label>квантовая импульсная связь</AM_QuantumPulseMessaging.label>
+	<!--                              EN: A cutting-edge communication system that leverages the principles of quantum mechanics to transmit information using more than just binary states of 0s and 1s. The use of these qubits allows for the transmission of complex data, instructions, or commands in a highly efficient and secure manner. Enables the summoning of the Apoptosis mechanoid. -->
+	<AM_QuantumPulseMessaging.description>Передовая система связи, которая использует принципы квантовой механики для передачи информации, используя не только двоичные состояния 0 и 1. Использование этих кубитов позволяет передавать сложные данные, инструкции или команды высокоэффективным и безопасным способом. Позволяет вызывать механоида Апоптоза.</AM_QuantumPulseMessaging.description>
+	<!--                      EN: crypto-harmonization -->
+	<AM_Cryptoharmonization.label>криптосинхронизация</AM_Cryptoharmonization.label>
+	<!--                            EN: A technology that involves the use of advanced cryptographic algorithms to achieve perfect synchronization and coordination between multiple mechanoid units or systems. It allows for seamless communication, information exchange, and coordination. -->
+	<AM_Cryptoharmonization.description>Технология, которая предполагает использование передовых криптографических алгоритмов для достижения идеальной синхронизации и координации между несколькими механоидными единицами или системами. Это обеспечивает беспрепятственное общение, обмен информацией и координацию.</AM_Cryptoharmonization.description>
+</LanguageData>

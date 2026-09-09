@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+<AB_DerelictSwimmingPool.label>заброшенный бассейн</AB_DerelictSwimmingPool.label>
+<AB_DerelictSwimmingPool.description>Когда-то это был расслабляющий бассейн, а теперь — зловонное, стоячее болото.</AB_DerelictSwimmingPool.description>
+<AB_DerelictRecliner.label>заброшенный шезлонг</AB_DerelictRecliner.label>
+<AB_DerelictRecliner.description>Шезлонг для отдыха. Настолько сгнил и загрязнён, что стал бесполезным.</AB_DerelictRecliner.description>
+<AB_DerelictBeachUmbrella.label>заброшенный пляжный зонт</AB_DerelictBeachUmbrella.label>
+<AB_DerelictBeachUmbrella.description>Пляжный зонт, настолько разрушенный, что даже не защищает от солнца.</AB_DerelictBeachUmbrella.description>
+<AB_DirtyBeachBall.label>грязный пляжный мяч</AB_DirtyBeachBall.label>
+<AB_DirtyBeachBall.description>Наполовину сдувшийся пляжный мяч, видавший лучшие времена.</AB_DirtyBeachBall.description>
+<AB_DerelictPoolLadder.label>старая лестница в бассейн</AB_DerelictPoolLadder.label>
+<AB_DerelictPoolLadder.description>Эта лестница в бассейн явно уже не в форме.</AB_DerelictPoolLadder.description>
+<AB_DirtyPoolFloat.label>грязный надувной матрас</AB_DirtyPoolFloat.label>
+<AB_DirtyPoolFloat.description>Сдувшийся и грязный надувной матрас для бассейна.</AB_DirtyPoolFloat.description>
+
+</LanguageData>
+
+

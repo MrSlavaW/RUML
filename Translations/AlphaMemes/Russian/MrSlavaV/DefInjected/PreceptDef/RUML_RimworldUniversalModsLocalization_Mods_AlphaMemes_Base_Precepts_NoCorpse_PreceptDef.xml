@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\PreceptDefs\Precepts_NoCorpse.xml -->
+	<!--                  EN: funeral (no corpse) -->
+	<AM_FuneralNoCorpse.label>похороны (без трупа)</AM_FuneralNoCorpse.label>
+	<!--                        EN: A gathering to witness the cremation of our friend. -->
+	<AM_FuneralNoCorpse.description>Собрание, чтобы засвидетельствовать кремацию нашего друга.</AM_FuneralNoCorpse.description>
+</LanguageData>

@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\PreceptDefs\Precepts_TeaCultivation.xml -->
+	<!--                          EN: improved -->
+	<AM_TeaCultivation_Improved.label>улучшенная</AM_TeaCultivation_Improved.label>
+	<!--                                EN: We’ve honed our methods to ensure our tea plants thrive like never before. Through careful tending and reverence for the craft, our tea fields grow lush and bountiful.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Tea plants will receive a +20% growth rate bonus. -->
+	<AM_TeaCultivation_Improved.description>Мы усовершенствовали наши методы, чтобы обеспечить беспрецедентное процветание наших чайных растений. Благодаря тщательному уходу и почтению к ремеслу, наши чайные поля растут пышно и обильно.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Чайные растения получат бонус к скорости роста +20%.</AM_TeaCultivation_Improved.description>
+</LanguageData>

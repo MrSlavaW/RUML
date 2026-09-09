@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\ThingDefs\Building_SkyBurial.xml -->
+	<!--                EN: sky burial spot -->
+	<AM_SkyBurialSpot.label>место захоронения в небе</AM_SkyBurialSpot.label>
+	<!--                      EN: A place to leave the last remains of a colonist for them to be consumed by nature -->
+	<AM_SkyBurialSpot.description>Место, где можно оставить последние останки поселенца, чтобы их поглотила природа.</AM_SkyBurialSpot.description>
+</LanguageData>

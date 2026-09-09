@@ -1,0 +1,16 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_RoomSizes.xml -->
+	
+<!--                          EN: confined interior -->
+    <AM_RoomSize_Small.stages.0.label>тесное помещение</AM_RoomSize_Small.stages.0.label>
+    <!--                                EN: This space is wonderfully tiny. I feel safe and comfortable surrounded by solid walls. -->
+    <AM_RoomSize_Small.stages.0.description>Это пространство прекрасно своей теснотой. Окружённый крепкими стенами, я чувствую себя в безопасности и комфорте.</AM_RoomSize_Small.stages.0.description>
+    <!--                          EN: cramped interior -->
+    <AM_RoomSize_Small.stages.1.label>стеснённое помещение</AM_RoomSize_Small.stages.1.label>
+    <!--                                EN: This room is perfectly snug. There's no need for all that wasted space. -->
+    <AM_RoomSize_Small.stages.1.description>В этой комнате идеально уютно. К чему столько лишнего пустого места?</AM_RoomSize_Small.stages.1.description>
+    <!--                          EN: spacious interior -->
+    <AM_RoomSize_Small.stages.2.label>просторное помещение</AM_RoomSize_Small.stages.2.label>
+    <!--                                EN: This room is far too expansive. All this empty space makes me feel exposed. -->
+    <AM_RoomSize_Small.stages.2.description>Эта комната слишком просторная. Всё это пустое пространство заставляет меня чувствовать себя уязвимым.</AM_RoomSize_Small.stages.2.description>
+</LanguageData>

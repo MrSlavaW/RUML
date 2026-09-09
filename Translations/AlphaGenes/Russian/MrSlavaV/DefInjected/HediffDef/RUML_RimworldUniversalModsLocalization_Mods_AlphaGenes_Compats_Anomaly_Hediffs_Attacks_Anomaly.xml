@@ -1,0 +1,29 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\HediffDefs\Hediffs_Attacks_Anomaly.xml -->
+	<!--                     EN: plagued claw -->
+	<AG_PlaguedClaws_Hands.label>заражённый коготь</AG_PlaguedClaws_Hands.label>
+	<!--                           EN: A plagued claw that will transmit the shambler plague. -->
+	<AG_PlaguedClaws_Hands.description>Коготь, заражающий цель чумой шамблеров.</AG_PlaguedClaws_Hands.description>
+	<!--                                     EN: plagued claw -->
+	<AG_PlaguedClaws_Hands.comps.0.tools.0.label>заражённый коготь</AG_PlaguedClaws_Hands.comps.0.tools.0.label>
+	<!--                     EN: greater toughspikes -->
+	<AG_GreaterToughspikes.label>спинные шипокогти</AG_GreaterToughspikes.label>
+	<!--                           EN: Four functional toughspike claws growing from the back that can be used in melee attacks. -->
+	<AG_GreaterToughspikes.description>Четыре функциональных шипокогтя, растущих из спины и пригодных для ближнего боя.</AG_GreaterToughspikes.description>
+	<!--                                     EN: greater toughspikes -->
+	<AG_GreaterToughspikes.comps.0.tools.0.label>шипокоготь</AG_GreaterToughspikes.comps.0.tools.0.label>
+	<!--                   EN: greater flesh whip -->
+	<AG_GreaterFleshWhip.label>клинковые щупальца</AG_GreaterFleshWhip.label>
+	<!--                         EN: Two fleshy, muscled tentacles with blades at the end. These flesh whips make for excellent melee weapons. -->
+	<AG_GreaterFleshWhip.description>Два мясистых щупальца с лезвиями на концах, отлично подходящие для ближнего боя.</AG_GreaterFleshWhip.description>
+	<!--                                   EN: greater flesh whip -->
+	<AG_GreaterFleshWhip.comps.0.tools.0.label>клинковое щупальце</AG_GreaterFleshWhip.comps.0.tools.0.label>
+	<!--               EN: flesh spitter -->
+	<AG_FleshSpitter.label>плотеплюй</AG_FleshSpitter.label>
+	<!--                     EN: A grotesque, cancerous growth on the shoulder than can spit acid on its own volition. -->
+	<AG_FleshSpitter.description>Уродливый раковый нарост на плече, который может самопроизвольно плеваться кислотой.</AG_FleshSpitter.description>
+	<!--                               EN: acid spit -->
+	<AG_FleshSpitter.comps.0.verbs.0.label>кислотный плевок</AG_FleshSpitter.comps.0.verbs.0.label>
+	<!--                                   EN: acid spit -->
+	<AG_FleshSpitter.comps.0.verbProps.0.label>кислотный плевок</AG_FleshSpitter.comps.0.verbProps.0.label>
+</LanguageData>

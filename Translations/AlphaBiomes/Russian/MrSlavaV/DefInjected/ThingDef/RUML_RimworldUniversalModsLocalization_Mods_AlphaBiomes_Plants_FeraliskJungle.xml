@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+<AB_RedBugloss.label>красный воловик</AB_RedBugloss.label>
+<AB_RedBugloss.description>Одно из самых странных растений Земли, генетически модифицированное, чтобы процветать в теплом и влажном климате.</AB_RedBugloss.description>
+<AB_Gomphoeria.label>гомферия</AB_Gomphoeria.label>
+<AB_Gomphoeria.description>Необычно высокое растение c яркими розовыми наростами. Эти наросты слегка ядовиты для человека и источают странный запах гнилых фруктов, поэтому оно считается совершенно несъедобным.</AB_Gomphoeria.description>
+<AB_Aaklac.label>ааклак</AB_Aaklac.label>
+<AB_Aaklac.description>Редкий огромный цветок, который может быть найден в самых глубоких джунглях. Его поразительный цвет и приятный запах делает его популярным в садоводстве, если, конечно, его удастся достать из глубоких джунглей.</AB_Aaklac.description>
+<AB_JungleTree.label>дерево глубоких джунглей</AB_JungleTree.label>
+<AB_JungleTree.description>Это дерево неземного происхождения, оно родом из глубочайших расщелин инопланетных джунглей.</AB_JungleTree.description>
+<AB_JungleTree_Polluted.label>полукс глубоких джунглей</AB_JungleTree_Polluted.label>
+<AB_JungleTree_Polluted.description>Это дерево джунглей так идеально адаптировалось к загрязнённой почве и токсинам в воздухе, что ему даже не нужно удалять загрязнения из окружающей среды. \n\nОсобенности растения: полукс глубоких джунглей - дикое растение, которому требуется плодородность почвы минимум 0.05. Ему не требуется свет. Может расти только в загрязнённой местности. Может быть срублено для получения небольшого количества красного дерева. Любителей деревьев (Ideology) не особо волнует вырубка этих странных деревьев.\n\nОсновано на арте Corndoggy и Motones, https://www.deviantart.com/motones/art/Xeno-Plants-503932885</AB_JungleTree_Polluted.description>
+<AB_WeepingToxberry.label>плачущие токсиягоды</AB_WeepingToxberry.label>
+<AB_WeepingToxberry.description>Небольшой, адаптировавшийся к токсинам, куст с ягодами, настолько невероятно токсичными, что ни одно животное никогда не осмелится их съесть.\n\nОсобенности растения: этот куст замедляет любого проходящего через него. Может расти только в загрязнённой местности.\n\nОсновано на арте Rob Smyth, https://robsmythart.com/projects</AB_WeepingToxberry.description>
+
+</LanguageData>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

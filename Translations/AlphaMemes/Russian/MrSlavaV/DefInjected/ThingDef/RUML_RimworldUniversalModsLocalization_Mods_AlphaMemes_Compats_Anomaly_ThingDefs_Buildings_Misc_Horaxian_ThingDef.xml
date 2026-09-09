@@ -1,0 +1,17 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\ThingDefs_Building\ThingDefs_Buildings_Misc_Horaxian.xml -->
+	<!--              EN: horaxian bed -->
+	<AM_HoraxianBed.label>гораксианская кровать</AM_HoraxianBed.label>
+	<!--                    EN: A spiky bed that puts spikecore style to shame. -->
+	<AM_HoraxianBed.description>Кровать с шипами.</AM_HoraxianBed.description>
+	
+	<!--                    EN: double horaxian bed -->
+	<AM_DoubleHoraxianBed.label>двуспальная гораксианская кровать</AM_DoubleHoraxianBed.label>
+	<!--                          EN: A spiky bed that puts spikecore style to shame. -->
+	<AM_DoubleHoraxianBed.description>Кровать с шипами.</AM_DoubleHoraxianBed.description>
+	
+	<!--                       EN: decorative gray statue -->
+	<AM_GrayStatueDecorative.label>Декоративная серая статуэтка</AM_GrayStatueDecorative.label>
+	<!--                             EN: A strange, twisted sculpture shaped into a disturbing form. It hums gently with some strange internal energy. Merely decorative. -->
+	<AM_GrayStatueDecorative.description>Странная, витая скульптура, имеющая тревожную форму. Она мягко гудит от какой-то странной внутренней энергии. Просто декоративное украшение.</AM_GrayStatueDecorative.description>
+</LanguageData>

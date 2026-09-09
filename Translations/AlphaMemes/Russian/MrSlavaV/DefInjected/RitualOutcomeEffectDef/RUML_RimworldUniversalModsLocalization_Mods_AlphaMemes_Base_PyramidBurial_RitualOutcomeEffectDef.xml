@@ -1,0 +1,31 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\PyramidBurial.xml -->
+	
+	<!--                             EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+	<AM_PyramidBurialOutcome.description>В зависимости от качества ритуала у участников изменится настроение от {MINMOOD} до {MAXMOOD} на {MOODDAYS} дней.</AM_PyramidBurialOutcome.description>
+	<!--                                        EN: Terrible -->
+	<AM_PyramidBurialOutcome.outcomeChances.0.label>Ужасный</AM_PyramidBurialOutcome.outcomeChances.0.label>
+	<!--                                              EN: The {0} was terrible! The speech was boring and the entombing was very sloppy. This horrible experience will forever affect our opinion of this pyramid. -->
+	<AM_PyramidBurialOutcome.outcomeChances.0.description>{0} было ужасно! Речь была скучной, а захоронение очень небрежным. Этот ужасный опыт навсегда повлияет на наше мнение об этой пирамиде.</AM_PyramidBurialOutcome.outcomeChances.0.description>
+	<!--                                        EN: Lackluster -->
+	<AM_PyramidBurialOutcome.outcomeChances.1.label>Тусклый</AM_PyramidBurialOutcome.outcomeChances.1.label>
+	<!--                                              EN: The {0} was lackluster. The speech was long-winded and did not honour them. -->
+	<AM_PyramidBurialOutcome.outcomeChances.1.description>{0} был тусклым. Речь была многословной и не удостоила их чести.</AM_PyramidBurialOutcome.outcomeChances.1.description>
+	<!--                                        EN: Good -->
+	<AM_PyramidBurialOutcome.outcomeChances.2.label>Хороший</AM_PyramidBurialOutcome.outcomeChances.2.label>
+	<!--                                              EN: The {0} was good. The speaker's final words provided a path for everyone to move on. -->
+	<AM_PyramidBurialOutcome.outcomeChances.2.description>{0} было хорошо. Последние слова оратора дали всем возможность двигаться дальше.</AM_PyramidBurialOutcome.outcomeChances.2.description>
+	<!--                                        EN: Amazing -->
+	<AM_PyramidBurialOutcome.outcomeChances.3.label>Удивительно</AM_PyramidBurialOutcome.outcomeChances.3.label>
+	<!--                                              EN: The {0} was heartwarming. The speech was captivating and heartfelt, and everyone came away focused on good memories. This pyramid will forever be part of our people's history. -->
+	<AM_PyramidBurialOutcome.outcomeChances.3.description>{0} было трогательным. Выступление было увлекательным и проникновенным, и все ушли с хорошими воспоминаниями. Эта пирамида навсегда останется частью истории нашего народа.</AM_PyramidBurialOutcome.outcomeChances.3.description>
+	<!--                               EN: moral guide present -->
+	<AM_PyramidBurialOutcome.comps.0.label>присутствует духовный лидер</AM_PyramidBurialOutcome.comps.0.label>
+	<!--                               EN: participant count -->
+	<AM_PyramidBurialOutcome.comps.1.label>{0} был довольно эффективным. Они производили гораздо больше питательных веществ, чем можно было бы ожидать.
+количество участников</AM_PyramidBurialOutcome.comps.1.label>
+	<!--                                                  EN: The {RITUAL} was a disaster! The entombing of {CORPSE} was sloppy, and the pyramid will forever be tainted by this botched ritual. It's apparent quality has decreased. -->
+	<AM_PyramidBurialOutcome.modExtensions.0.worstOutcomeDesc>{RITUAL} был катастрофой! Погребение {CORPSE} было небрежным, и пирамида навсегда останется испорченной этим неудачным ритуалом. Качество явно снизилось.</AM_PyramidBurialOutcome.modExtensions.0.worstOutcomeDesc>
+	<!--                                                 EN: The {RITUAL} was spectacular! The pyramid of {CORPSE} will forever stand the test of time. It's apparent quality has increased. -->
+	<AM_PyramidBurialOutcome.modExtensions.0.bestOutcomeDesc>{RITUAL} был впечатляющим! Пирамида {CORPSE} навсегда выдержит испытание временем. Качество явно увеличилось.</AM_PyramidBurialOutcome.modExtensions.0.bestOutcomeDesc>
+</LanguageData>

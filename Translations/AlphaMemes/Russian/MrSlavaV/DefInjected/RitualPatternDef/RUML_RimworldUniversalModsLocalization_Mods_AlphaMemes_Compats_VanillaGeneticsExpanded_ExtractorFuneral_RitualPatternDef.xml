@@ -1,0 +1,5 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaGeneticsExpanded\Defs\RitualDefs\ExtractorFuneral.xml -->
+	<!--                                       EN: Once a {IDEO} member dies, other {MEMBERS} witnesss {RITUAL_labelDef} to ensure they live on. -->
+	<GR_ExtractorFuneralPattern.ritualExpectedDesc>Когда член {IDEO} умирает, другие {MEMBERS} наблюдают за {RITUAL_labelDef}, чтобы гарантировать, что они будут жить.</GR_ExtractorFuneralPattern.ritualExpectedDesc>
+</LanguageData>

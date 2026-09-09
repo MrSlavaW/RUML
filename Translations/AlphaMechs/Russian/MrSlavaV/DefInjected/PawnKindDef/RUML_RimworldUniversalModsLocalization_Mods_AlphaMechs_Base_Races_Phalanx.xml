@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_RacesMechanoids\Races_Phalanx.xml -->
+	<!--          EN: phalanx -->
+	<AM_Phalanx.label>фаланга</AM_Phalanx.label>
+	<!--                             EN: Plural phalanx -->
+	<AM_Phalanx.lifeStages.1.labelPlural>Фаланги</AM_Phalanx.lifeStages.1.labelPlural>
+<AM_Phalanx.lifeStages.0.labelPlural>Фаланги</AM_Phalanx.lifeStages.0.labelPlural></LanguageData>

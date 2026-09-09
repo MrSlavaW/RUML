@@ -1,0 +1,43 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\QuestScriptDefs\Script_SanguophageCamp.xml -->
+	<!-- EN: 
+		<li>questName(priority=1)->[camp] [discovered]</li>
+		<li>camp->Sanguophage camp</li>
+		<li>camp->Sanguophage den</li>
+		<li>camp->Sanguophage lair</li>
+		<li>camp->Sanguophage mausoleum</li>
+		<li>discovered->discovered</li>
+		<li>discovered->found</li>
+		<li>discovered->located</li>
+		<li>discovered->brought to light</li>
+		<li>discovered->tracked down</li>
+		<li>discovered->unearthed</li>
+	 -->
+	<AM_OpportunitySite_SanguophageCamp.questNameRules.rulesStrings>
+	<li>questName(priority=1)-&gt;[camp] [discovered]</li>
+	<li>camp-&gt;Лагерь гемофагов</li>
+	<li>camp-&gt;Логово гемофагов</li>
+	<li>camp-&gt;Лежбище гемофагов</li>
+	<li>camp-&gt;Мавзолей гемофагов</li>
+	<li>discovered-&gt;обнаружен</li>
+	<li>discovered-&gt;найден</li>
+	<li>discovered-&gt;локализован</li>
+	<li>discovered-&gt;выявлен</li>
+	<li>discovered-&gt;отслежен</li>
+	<li>discovered-&gt;раскопан</li>
+</AM_OpportunitySite_SanguophageCamp.questNameRules.rulesStrings>
+<!-- EN: 
+		<li>questDescription(askerIsNull==true)->Our trackers have discovered footprints that seem to lead to a Sanguophage camp nestled near [map_definite]. The area shows signs of recent activity, and it seems the camp may be built around an old crypt. These creatures are a danger to all, and their lair might hold valuable relics or technology worth recovering. Be prepared for resistance, as the Sanguophages will not give up their stronghold without a fight.</li>
+	 -->
+	<AM_OpportunitySite_SanguophageCamp.questDescriptionRules.rulesStrings>
+	<li>questDescription(askerIsNull==true)-&gt;Наши следопыты обнаружили следы, которые, похоже, ведут к лагерю гемофагов, расположенному недалеко от [map_definite]. В этом районе видны признаки недавней активности, и кажется, что лагерь может быть построен вокруг старого склепа. Эти существа представляют опасность для всех, и их логово может содержать ценные реликвии или технологии, которые стоит вернуть. Будьте готовы к сопротивлению, так как гемофаги не отдадут свою крепость без боя.</li>
+</AM_OpportunitySite_SanguophageCamp.questDescriptionRules.rulesStrings>
+<!--                                                                                           EN: Quest expired: [resolvedQuestName] -->
+    <AM_OpportunitySite_SanguophageCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Задание просрочено: [resolvedQuestName]</AM_OpportunitySite_SanguophageCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+    <!--                                                                                                 EN: Quest expired: [resolvedQuestName] -->
+    <AM_OpportunitySite_SanguophageCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.value.slateRef>Задание просрочено: [resolvedQuestName]</AM_OpportunitySite_SanguophageCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.value.slateRef>
+    <!--                                                                                          EN: Intercepted communications indicate the sanguophage camp has seemingly vanished without a trace. The quest [resolvedQuestName] has expired. -->
+    <AM_OpportunitySite_SanguophageCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Перехваченные сообщения указывают на то, что лагерь гемофагов, казалось бы, бесследно исчез. Задание [resolvedQuestName] просрочено.</AM_OpportunitySite_SanguophageCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+    <!--                                                                                                EN: Intercepted communications indicate the sanguophage camp has seemingly vanished without a trace. The quest [resolvedQuestName] has expired. -->
+    <AM_OpportunitySite_SanguophageCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.value.slateRef>Перехваченные сообщения указывают на то, что лагерь гемофагов, казалось бы, бесследно исчез. Задание [resolvedQuestName] просрочено.</AM_OpportunitySite_SanguophageCamp.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.value.slateRef>
+</LanguageData>

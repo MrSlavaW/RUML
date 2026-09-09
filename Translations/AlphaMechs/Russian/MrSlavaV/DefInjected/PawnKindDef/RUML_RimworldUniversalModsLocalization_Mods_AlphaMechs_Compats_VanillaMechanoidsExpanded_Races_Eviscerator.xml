@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_Eviscerator.xml -->
+	<!--                             EN: eviscerator -->
+	<VFE_Mech_Advanced_Daggersnout.label>потрошитель</VFE_Mech_Advanced_Daggersnout.label>
+	<!--                                                EN: Plural eviscerator -->
+	<VFE_Mech_Advanced_Daggersnout.lifeStages.0.labelPlural>Потрошители</VFE_Mech_Advanced_Daggersnout.lifeStages.0.labelPlural>
+</LanguageData>

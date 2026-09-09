@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\OskarPotocki_VFE_Mechanoid\AdvancedPhalanxPatch16.xml -->
+	<!--                                          EN: hoplite -->
+	<VFE_Mech_Advanced_Phalanx_PlayerControlled.label>гоплит</VFE_Mech_Advanced_Phalanx_PlayerControlled.label>
+	<!--                                                EN: The Hoplite is an advanced version of the Phalanx, a bulking mechanoid based on a rhinoceros beetle body plan. The hoplite's plasteel carapace hides a very powerful cryogenic engine capable of constantly producing compacted pellets of supercooled gas. These are fired from an aperture at the mechanoid's head.\n\nThis cryo-weapon has a very low range, but it can be very dangerous for beings susceptible to frostbite. -->
+	<VFE_Mech_Advanced_Phalanx_PlayerControlled.description>Гоплит — это усовершенствованная версия Фаланги, массивного механоида, основанного на строении тела жука-носорога. За пласталевым панцирем гоплита скрывается очень мощный криогенный двигатель, способный постоянно производить уплотненные шарики переохлажденного газа. Они стреляют из отверстия в голове механоида.\n\nЭто криооружие имеет очень малую дальность действия, но оно может быть очень опасным для существ, подверженных обморожению.</VFE_Mech_Advanced_Phalanx_PlayerControlled.description>
+	<!--                                                  EN: голова -->
+	<VFE_Mech_Advanced_Phalanx_PlayerControlled.tools.0.label>голова</VFE_Mech_Advanced_Phalanx_PlayerControlled.tools.0.label>
+</LanguageData>

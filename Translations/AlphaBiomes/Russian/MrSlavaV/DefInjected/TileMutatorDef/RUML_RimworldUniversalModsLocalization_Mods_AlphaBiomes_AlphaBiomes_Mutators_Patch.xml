@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AB_HealingSprings.description>Этот регион богат природными минеральными источниками с целебными свойствами.</AB_HealingSprings.description>
+  <AB_SweetForest.label>шоколадная местность</AB_SweetForest.label>
+  <AB_SweetForest.description>Следствие генетических и пищевых экспериментов прошлого: ландшафт состоит из кондитерских субстанций.</AB_SweetForest.description>
+  <AB_SweetFlora.label>сладкая флора</AB_SweetFlora.label>
+  <AB_SweetFlora.description>Растительность этого региона генетически модифицирована для производства сахара и шоколада.</AB_SweetFlora.description>
+  <AB_SweetRocks.label>шоколадные горы</AB_SweetRocks.label>
+  <AB_SweetRocks.description>Скальные массивы здесь состоят из твердых блоков шоколада и карамели.</AB_SweetRocks.description>
+</LanguageData>

@@ -1,0 +1,17 @@
+<LanguageData>
+	<!-- 1.6\Defs\MentalStateDefs\MentalStates_Special.xml -->
+	<!--                 EN: panic-fleeing water -->
+	<AG_Thalassophobia.label>Гидрофобия</AG_Thalassophobia.label>
+	<!--                            EN: fleeing water -->
+	<AG_Thalassophobia.beginLetterLabel>бежит от воды</AG_Thalassophobia.beginLetterLabel>
+	<!--                       EN: {0} is fleeing water. -->
+	<AG_Thalassophobia.beginLetter>{0} бежит из воды.</AG_Thalassophobia.beginLetter>
+	<!--                           EN: {0} is no longer fleeing water. -->
+	<AG_Thalassophobia.recoveryMessage>{0} больше не спасается от воды.</AG_Thalassophobia.recoveryMessage>
+	<!--                           EN: Mental state: Fleeing water -->
+	<AG_Thalassophobia.baseInspectLine>Психическое состояние: Бегство от воды</AG_Thalassophobia.baseInspectLine>
+	<!--                     EN: rage -->
+	<AG_SelectiveManhunter.label>Ярость</AG_SelectiveManhunter.label>
+	<!--                               EN: Raging -->
+	<AG_SelectiveManhunter.baseInspectLine>Яростный</AG_SelectiveManhunter.baseInspectLine>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\OskarPotocki_VFE_Mechanoid\AdvancedDaggersnoutPatch13.xml -->
+	<!--                                              EN: eviscerator -->
+	<VFE_Mech_Advanced_Daggersnout_PlayerControlled.label>потрошитель</VFE_Mech_Advanced_Daggersnout_PlayerControlled.label>
+	<!--                                                    EN: The eviscerator is a more advanced version of the daggersnout, an insectlike combat mechanoid armed with a vicious sharp blade on its head. It isn't as dangerous as other close-ranged mechanoids, such as scythers, but they usually appear in greater numbers. -->
+	<VFE_Mech_Advanced_Daggersnout_PlayerControlled.description>Потрошитель — это более совершенная версия кинжалорыла, насекомоподобного боевого механоида, вооруженного жестоким острым лезвием на голове. Он не так опасен, как другие механоиды ближнего боя, такие как косы, но обычно появляются в большем количестве.</VFE_Mech_Advanced_Daggersnout_PlayerControlled.description>
+	<!--                                                      EN: snout blade -->
+	<VFE_Mech_Advanced_Daggersnout_PlayerControlled.tools.0.label>рыловой клинок</VFE_Mech_Advanced_Daggersnout_PlayerControlled.tools.0.label>
+	<!--                                                      EN: голова -->
+	<VFE_Mech_Advanced_Daggersnout_PlayerControlled.tools.1.label>голова</VFE_Mech_Advanced_Daggersnout_PlayerControlled.tools.1.label>
+</LanguageData>

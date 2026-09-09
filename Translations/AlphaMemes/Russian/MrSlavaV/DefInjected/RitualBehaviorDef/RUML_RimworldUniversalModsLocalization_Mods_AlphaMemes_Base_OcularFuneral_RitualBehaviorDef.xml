@@ -1,0 +1,10 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\OcularFuneral.xml -->
+	
+	<!--                                              EN: Spectators must be alive. -->
+	<AM_OcularFuneralBehavior.spectatorFilter.description>Зрители должны быть живыми.</AM_OcularFuneralBehavior.spectatorFilter.description>
+	<!--                                EN: occultist -->
+	<AM_OcularFuneralBehavior.roles.0.label>оккультист</AM_OcularFuneralBehavior.roles.0.label>
+	<!--                                EN: Corpse -->
+	<AM_OcularFuneralBehavior.roles.1.label>Труп</AM_OcularFuneralBehavior.roles.1.label>
+</LanguageData>

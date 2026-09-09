@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RB_Fireplace.description>Традиционный камин для обогрева помещений и создания уюта.</RB_Fireplace.description>
+  <RB_Fireplace.label>камин</RB_Fireplace.label>
+  <RB_FloorLamp.description>Защищённый светильник для равномерного освещения пола.</RB_FloorLamp.description>
+  <RB_FloorLamp.label>напольный светильник в решётке</RB_FloorLamp.label>
+  <RB_OverwallArmor.description>Дополнительные бронепластины для укрепления стен.</RB_OverwallArmor.description>
+  <RB_OverwallArmor.label>настенная броня</RB_OverwallArmor.label>
+  <RB_OverwallFireplace.description>Камин, встраиваемый непосредственно в стену для экономии пространства.</RB_OverwallFireplace.description>
+  <RB_OverwallFireplace.label>настенный камин</RB_OverwallFireplace.label>
+</LanguageData>

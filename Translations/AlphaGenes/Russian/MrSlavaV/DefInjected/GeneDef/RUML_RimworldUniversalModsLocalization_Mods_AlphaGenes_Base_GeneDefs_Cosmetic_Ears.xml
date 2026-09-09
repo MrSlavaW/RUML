@@ -1,0 +1,45 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Cosmetic_Ears.xml -->
+	<!--             EN: radyak ears -->
+	<AG_RadYakEars.label>Уши радяка</AG_RadYakEars.label>
+	<!--                   EN: Carriers of this gene will grow pointed radyak ears. -->
+	<AG_RadYakEars.description>У носителей этого гена вырастут заостренные уши радяка.</AG_RadYakEars.description>
+	<!--                                          EN: Fresh, Rotting -->
+	<AG_RadYakEars.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_RadYakEars.renderNodeProperties.0.rotDrawMode>
+	<!--             EN: animus ears -->
+	<AG_AnimusEars.label>Уши анимуса</AG_AnimusEars.label>
+	<!--                   EN: Carriers of this gene will grow animus vox ears. -->
+	<AG_AnimusEars.description>У носителей этого гена вырастут уши анимуса.</AG_AnimusEars.description>
+	<!--                                          EN: Fresh, Rotting -->
+	<AG_AnimusEars.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_AnimusEars.renderNodeProperties.0.rotDrawMode>
+	<!--            EN: single ear -->
+	<AG_SingleEar.label>Одно ухо</AG_SingleEar.label>
+	<!--                  EN: Carriers of this gene will grow a single malformed, drooping ear. -->
+	<AG_SingleEar.description>У носителей этого гена вырастет единственное деформированное, свисающее ухо.</AG_SingleEar.description>
+	<!--                                         EN: Fresh, Rotting -->
+	<AG_SingleEar.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_SingleEar.renderNodeProperties.0.rotDrawMode>
+	<!--           EN: long ears -->
+	<AG_LongEars.label>Длинные уши</AG_LongEars.label>
+	<!--                 EN: Carriers of this gene will grow long ears. -->
+	<AG_LongEars.description>У носителей этого гена вырастут длинные уши.</AG_LongEars.description>
+	<!--                                        EN: Fresh, Rotting -->
+	<AG_LongEars.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_LongEars.renderNodeProperties.0.rotDrawMode>
+	<!--            EN: demon ears -->
+	<AG_DemonEars.label>Уши демона</AG_DemonEars.label>
+	<!--                  EN: Carriers of this gene will grow long demon ears. -->
+	<AG_DemonEars.description>У носителей этого гена вырастают длинные демонические уши.</AG_DemonEars.description>
+	<!--                                         EN: Fresh, Rotting -->
+	<AG_DemonEars.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_DemonEars.renderNodeProperties.0.rotDrawMode>
+	<!--           EN: ear wings -->
+	<AG_EarWings.label>Ухокрылый</AG_EarWings.label>
+	<!--                 EN: Carriers of this gene will grow large bat wing ears. These are purely cosmetic, not allowing for any sort of flight. -->
+	<AG_EarWings.description>У носителей этого гена вырастут большие уши, как крылья летучей мыши. Они носят чисто косметический характер и не допускают какого-либо полета.</AG_EarWings.description>
+	<!--                                        EN: Fresh, Rotting -->
+	<AG_EarWings.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_EarWings.renderNodeProperties.0.rotDrawMode>
+	<!--             EN: nereid fins -->
+	<AG_NereidFins.label>плавники нереиды</AG_NereidFins.label>
+	<!--                   EN: Carriers of this gene will grow ears that are elongated and fin-like, tapering to a point. They extend outward from the sides of the head, much like the pectoral fins of a fish. -->
+	<AG_NereidFins.description>У носителей этого гена уши будут удлиненными, похожими на плавники и сужающимися к концу. Они простираются наружу по бокам головы, подобно грудным плавникам рыбы.</AG_NereidFins.description>
+	<!--                                          EN: Fresh, Rotting -->
+	<AG_NereidFins.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_NereidFins.renderNodeProperties.0.rotDrawMode>
+</LanguageData>

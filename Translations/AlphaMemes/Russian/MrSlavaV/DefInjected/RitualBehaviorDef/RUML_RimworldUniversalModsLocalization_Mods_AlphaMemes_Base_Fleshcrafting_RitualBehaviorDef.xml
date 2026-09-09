@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\Fleshcrafting.xml -->
+	
+	<!--                                                     EN: Spectators must be alive. -->
+	<AM_FleshCraftingFuneralBehavior.spectatorFilter.description>Зрители должны быть живы.</AM_FleshCraftingFuneralBehavior.spectatorFilter.description>
+	<!--                                       EN: speaker -->
+	<AM_FleshCraftingFuneralBehavior.roles.0.label>оратор</AM_FleshCraftingFuneralBehavior.roles.0.label>
+	<!--                                       EN: Corpse -->
+	<AM_FleshCraftingFuneralBehavior.roles.1.label>Труп</AM_FleshCraftingFuneralBehavior.roles.1.label>
+	<!--                                                  EN: {0}: The speech is over, and the corpse is being prepared to be butchered. -->
+	<AM_FleshCraftingFuneralBehavior.stages.1.postAction.text>{0}: Речь окончена, труп готовят к разделке.</AM_FleshCraftingFuneralBehavior.stages.1.postAction.text>
+</LanguageData>

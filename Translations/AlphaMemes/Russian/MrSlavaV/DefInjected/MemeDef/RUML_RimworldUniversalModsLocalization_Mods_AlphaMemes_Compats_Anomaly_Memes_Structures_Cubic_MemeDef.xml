@@ -1,0 +1,45 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\MemeDefs\Memes_Structures_Cubic.xml -->
+	<!--                     EN: cubicism -->
+	<AM_Structure_Cubicism.label>кубизм</AM_Structure_Cubicism.label>
+	<!--                           EN: Driven by an insatiable thirst for knowledge and spiritual enlightenment, the Cubicists dedicate their lives to unraveling the mysteries of the Cube. They believe that by understanding its enigmatic nature, they can transcend the limitations of the material world and ascend to higher planes of consciousness. -->
+	<AM_Structure_Cubicism.description>Движимые неутолимой жаждой знаний и духовного просвещения, Кубикисты посвящают свою жизнь разгадке тайн Куба. Они верят, что, поняв его загадочную природу, смогут преодолеть ограничения материального мира и подняться на более высокие уровни сознания.</AM_Structure_Cubicism.description>
+	<!--                                EN: cubic sanctum -->
+	<AM_Structure_Cubicism.worshipRoomLabel>кубическое святилище</AM_Structure_Cubicism.worshipRoomLabel>
+	<!-- EN: 
+		<li>memeAdjective->cubic</li>
+		<li>memeAdjective->hypercubic</li>
+		<li>memeAdjective->cubiform</li>
+		<li>memeAdjective->cuboid</li>
+		<li>memeLeaderNoun->square one</li>
+		<li>memeLeaderNoun->cubic one</li>
+		<li>memeLeaderAdjective->solid</li>
+		<li>memeLeaderAdjective->gilded</li>
+		<li>memeLeaderAdjective->golden</li>
+		<li>memeMoralist->cubic oracle</li>
+		<li>memeMoralist->tetrasage</li>
+		<li>memeMoralist->auric hierophant</li>
+		<li>memeMoralist->luminary custodian</li>
+	 -->
+	<AM_Structure_Cubicism.generalRules.rulesStrings>
+		<li>memeAdjective-&gt;кубический</li>
+		<li>memeAdjective-&gt;гиперкубический</li>
+		<li>memeAdjective-&gt;кубовидный</li>
+		<li>memeAdjective-&gt;кубоидный</li>
+		<li>memeLeaderNoun-&gt;квадрат</li>
+		<li>memeLeaderNoun-&gt;куб</li>
+		<li>memeLeaderAdjective-&gt;твердый</li>
+		<li>memeLeaderAdjective-&gt;позолоченный</li>
+		<li>memeLeaderAdjective-&gt;золотой</li>
+		<li>memeMoralist-&gt;кубический оракул</li>
+		<li>memeMoralist-&gt;тетрасаг</li>
+		<li>memeMoralist-&gt;аурический иерофант</li>
+		<li>memeMoralist-&gt;хранитель светильников</li>
+	</AM_Structure_Cubicism.generalRules.rulesStrings>
+	<!--                                   EN: cubicism -->
+	<AM_Structure_Cubicism.symbolPacks.0.theme>кубизм</AM_Structure_Cubicism.symbolPacks.0.theme>
+	<!--                                       EN: cubic -->
+	<AM_Structure_Cubicism.symbolPacks.0.adjective>кубический</AM_Structure_Cubicism.symbolPacks.0.adjective>
+	<!--                                    EN: cube disciple -->
+	<AM_Structure_Cubicism.symbolPacks.0.member>ученик куба</AM_Structure_Cubicism.symbolPacks.0.member>
+</LanguageData>

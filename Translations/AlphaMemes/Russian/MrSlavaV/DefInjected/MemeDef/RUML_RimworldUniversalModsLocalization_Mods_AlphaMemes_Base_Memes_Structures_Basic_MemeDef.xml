@@ -1,0 +1,576 @@
+<LanguageData>
+	<!-- 1.6\Defs\MemeDefs\Memes_Structures_Basic.xml -->
+	<!--                    EN: atheism -->
+	<AM_Structure_Atheist.label>атеизм</AM_Structure_Atheist.label>
+	<!--                          EN: There are no gods, no supernatural beings guiding our path or watching over us. Unfalsifiable concepts cannot be used as a basis for a rational society. -->
+	<AM_Structure_Atheist.description>Нет ни богов, ни сверхъестественных существ, направляющих наш путь или наблюдающих за нами. Нефальсифицируемые концепции не могут быть использованы в качестве основы для рационального общества.</AM_Structure_Atheist.description>
+	<!--                               EN: forum -->
+	<AM_Structure_Atheist.worshipRoomLabel>Форум</AM_Structure_Atheist.worshipRoomLabel>
+	<!-- EN: 
+		<li>memeAdjective->atheist</li>
+		<li>memeAdjective->godless</li>
+		<li>memeAdjective->irreligious</li>
+		<li>memeAdjective->nonreligious</li>
+		<li>memeAdjective->unbelieving</li>
+		<li>memeAdjective->secular</li>
+		<li>memeLeaderNoun->overseer</li>
+		<li>memeLeaderNoun->theorizer</li>
+		<li>memeLeaderAdjective->secular</li>
+		<li>memeLeaderAdjective->laic</li>
+		<li>memeMoralist->theoretician</li>
+		<li>memeMoralist->thinker</li>
+		<li>memeMoralist->moralist</li>
+		<li>memeMoralist->speculator</li>
+		<li>memeMoralist->theorist</li>
+		<li>memeMoralist->academic</li>
+		<li>memeMoralist->dialectician</li>
+	 -->
+	<AM_Structure_Atheist.generalRules.rulesStrings>
+		<li>memeAdjective-&gt;атеист</li>
+		<li>memeAdjective-&gt;безбожный</li>
+		<li>memeAdjective-&gt;иррелигиозный</li>
+		<li>memeAdjective-&gt;не религиозный</li>
+		<li>memeAdjective-&gt;неверующий</li>
+		<li>memeAdjective-&gt;светский</li>
+		<li>memeLeaderNoun-&gt;смотритель</li>
+		<li>memeLeaderNoun-&gt;теоретик</li>
+		<li>memeLeaderAdjective-&gt;светский</li>
+		<li>memeLeaderAdjective-&gt;светский</li>
+		<li>memeMoralist-&gt;теоретик</li>
+		<li>memeMoralist-&gt;мыслитель</li>
+		<li>memeMoralist-&gt;моралист</li>
+		<li>memeMoralist-&gt;спекулянт</li>
+		<li>memeMoralist-&gt;теоретик</li>
+		<li>memeMoralist-&gt;академический</li>
+		<li>memeMoralist-&gt;диалектик</li>
+</AM_Structure_Atheist.generalRules.rulesStrings>
+<!--                                  EN: atheism -->
+	<AM_Structure_Atheist.symbolPacks.0.theme>атеизм</AM_Structure_Atheist.symbolPacks.0.theme>
+	<!--                                      EN: atheist -->
+	<AM_Structure_Atheist.symbolPacks.0.adjective>атеист</AM_Structure_Atheist.symbolPacks.0.adjective>
+	<!--                                   EN: atheist -->
+	<AM_Structure_Atheist.symbolPacks.0.member>атеист</AM_Structure_Atheist.symbolPacks.0.member>
+	
+	<!--                   EN: jewish origin -->
+	<AM_Structure_Jewish.label>еврейское происхождение</AM_Structure_Jewish.label>
+	<!--                         EN: This ideoligion is a descendant of ancient Judaism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+	<AM_Structure_Jewish.description>Эта идеология является потомком древнего иудаизма. У нее могут быть совсем другие заповеди, чем те, что были тысячи лет назад, но ее символы схожи.</AM_Structure_Jewish.description>
+	<!--                              EN: synagogue -->
+	<AM_Structure_Jewish.worshipRoomLabel>синагога</AM_Structure_Jewish.worshipRoomLabel>
+	<!-- EN: 
+		<li>memeAdjective->traditional</li>
+		<li>memeAdjective->orthodox</li>
+		<li>memeAdjective->rabbinical</li>
+		<li>memeAdjective->spiritual</li>
+		<li>memeLeaderNoun->rabbi</li>
+		<li>memeLeaderNoun->rebbe</li>
+		<li>memeLeaderAdjective->wise</li>
+		<li>memeLeaderAdjective->sagely</li>
+		<li>memeLeaderAdjective->respected</li>
+		<li>memeMoralist->kohen</li>
+		<li>memeMoralist->chazzan</li>
+		<li>memeMoralist->kohein</li>
+		<li>memeMoralist->gabbai</li>
+	 -->
+	<AM_Structure_Jewish.generalRules.rulesStrings>
+		<li>memeAdjective-&gt;традиционный</li>
+		<li>memeAdjective-&gt;ортодоксальный</li>
+		<li>memeAdjective-&gt;раввинский</li>
+		<li>memeAdjective-&gt;духовный</li>
+		<li>memeLeaderNoun-&gt;раввин</li>
+		<li>memeLeaderNoun-&gt;ребе</li>
+		<li>memeLeaderAdjective-&gt;мудрый</li>
+		<li>memeLeaderAdjective-&gt;мудро</li>
+		<li>memeLeaderAdjective-&gt;уважаемый</li>
+		<li>memeMoralist-&gt;коэн</li>
+		<li>memeMoralist-&gt;чаззан</li>
+		<li>memeMoralist-&gt;кохейн</li>
+		<li>memeMoralist-&gt;габбай</li>
+</AM_Structure_Jewish.generalRules.rulesStrings>
+<!--                                 EN: judaism -->
+	<AM_Structure_Jewish.symbolPacks.0.theme>иудаизм</AM_Structure_Jewish.symbolPacks.0.theme>
+	<!--                                     EN: jewish -->
+	<AM_Structure_Jewish.symbolPacks.0.adjective>иудейский</AM_Structure_Jewish.symbolPacks.0.adjective>
+	<!--                                  EN: jew -->
+	<AM_Structure_Jewish.symbolPacks.0.member>иудей</AM_Structure_Jewish.symbolPacks.0.member>
+	
+	<!--                    EN: jain origin -->
+	<AM_Structure_Jainism.label>джайнское происхождение</AM_Structure_Jainism.label>
+	<!--                          EN: This ideoligion is a descendant of ancient Jainism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+	<AM_Structure_Jainism.description>Эта идеология является потомком древнего джайнизма. У нее могут быть совсем другие заповеди, чем те, что были тысячи лет назад, но ее символы похожи.</AM_Structure_Jainism.description>
+	<!--                               EN: derasar -->
+	<AM_Structure_Jainism.worshipRoomLabel>дерасар</AM_Structure_Jainism.worshipRoomLabel>
+	<!-- EN: 
+		<li>memeAdjective->pacifist</li>
+		<li>memeAdjective->nonviolent</li>
+		<li>memeAdjective->mendicant</li>
+		<li>memeLeaderNoun->acharya</li>
+		<li>memeLeaderNoun->tirthankara</li>
+		<li>memeLeaderNoun->jina</li>
+		<li>memeLeaderAdjective->learned</li>
+		<li>memeLeaderAdjective->ascetic</li>
+		<li>memeLeaderAdjective->venerable</li>
+		<li>memeMoralist->upadhyay</li>
+		<li>memeMoralist->sthavira</li>
+		<li>memeMoralist->pravartaka</li>
+		<li>memeMoralist->panyasa</li>
+	 -->
+	<AM_Structure_Jainism.generalRules.rulesStrings>
+		<li>memeAdjective-&gt;пацифист</li>
+		<li>memeAdjective-&gt;ненасильственный</li>
+		<li>memeAdjective-&gt;нищий</li>
+		<li>memeLeaderNoun-&gt;ачарья</li>
+		<li>memeLeaderNoun-&gt;тиртханкара</li>
+		<li>memeLeaderNoun-&gt;джина</li>
+		<li>memeLeaderAdjective-&gt;научился</li>
+		<li>memeLeaderAdjective-&gt;аскет</li>
+		<li>memeLeaderAdjective-&gt;почтенный</li>
+		<li>memeMoralist-&gt;упадхьяй</li>
+		<li>memeMoralist-&gt;стхавира</li>
+		<li>memeMoralist-&gt;правартака</li>
+		<li>memeMoralist-&gt;паньяса</li>
+</AM_Structure_Jainism.generalRules.rulesStrings>
+<!--                                  EN: jainism -->
+	<AM_Structure_Jainism.symbolPacks.0.theme>джайнизм</AM_Structure_Jainism.symbolPacks.0.theme>
+	<!--                                      EN: jain -->
+	<AM_Structure_Jainism.symbolPacks.0.adjective>джайн</AM_Structure_Jainism.symbolPacks.0.adjective>
+	<!--                                   EN: jain -->
+	<AM_Structure_Jainism.symbolPacks.0.member>джайн</AM_Structure_Jainism.symbolPacks.0.member>
+	
+	<!--                    EN: Sikh origin -->
+	<AM_Structure_Sikhism.label>сикхское происхождение</AM_Structure_Sikhism.label>
+	<!--                          EN: This ideoligion is a descendant of ancient Sikhism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+	<AM_Structure_Sikhism.description>Эта идеология является потомком древнего сикхизма. У нее могут быть совсем другие заповеди, чем те, что были тысячи лет назад, но ее символы похожи.</AM_Structure_Sikhism.description>
+	<!--                               EN: gurdwara -->
+	<AM_Structure_Sikhism.worshipRoomLabel>гурдвара</AM_Structure_Sikhism.worshipRoomLabel>
+	<!-- EN: 
+		<li>memeAdjective->true</li>
+		<li>memeAdjective->righteous</li>
+		<li>memeAdjective->spiritual</li>
+		<li>memeLeaderNoun->granthi</li>
+		<li>memeMoralist->Guru Granth Sahib scholar</li>
+	 -->
+	<AM_Structure_Sikhism.generalRules.rulesStrings>
+		<li>memeAdjective-&gt;истинный</li>
+		<li>memeAdjective-&gt;праведный</li>
+		<li>memeAdjective-&gt;духовный</li>
+		<li>memeLeaderNoun-&gt;гранти</li>
+		<li>memeMoralist-&gt;Ученый Гуру Грант Сахиб</li>
+</AM_Structure_Sikhism.generalRules.rulesStrings>
+<!--                                  EN: sikhism -->
+	<AM_Structure_Sikhism.symbolPacks.0.theme>сикхизм</AM_Structure_Sikhism.symbolPacks.0.theme>
+	<!--                                      EN: sikh -->
+	<AM_Structure_Sikhism.symbolPacks.0.adjective>сикх</AM_Structure_Sikhism.symbolPacks.0.adjective>
+	<!--                                   EN: sikh -->
+	<AM_Structure_Sikhism.symbolPacks.0.member>сикх</AM_Structure_Sikhism.symbolPacks.0.member>
+	
+	<!--                     EN: Kemetic origin -->
+	<AM_Structure_Kemetism.label>Кеметское происхождение</AM_Structure_Kemetism.label>
+	<!--                           EN: This ideoligion is a descendant of Egyptian Neopaganism, also known as Kemetism. It may have very different precepts than those of thousands of years ago, but its symbols are similar. -->
+	<AM_Structure_Kemetism.description>Эта идеология является потомком египетского неоязычества, также известного как кеметизм. У нее могут быть совсем другие заповеди, чем те, что были тысячи лет назад, но ее символы похожи.</AM_Structure_Kemetism.description>
+	<!--                                EN: temple -->
+	<AM_Structure_Kemetism.worshipRoomLabel>храм</AM_Structure_Kemetism.worshipRoomLabel>
+	<!-- EN: 
+		<li>memeAdjective->reconstructed</li>
+		<li>memeAdjective->revised</li>
+		<li>memeHyphenPrefix->neo</li>
+		<li>memeLeaderNoun->pharaoh</li>
+		<li>memeLeaderAdjective->solemn</li>
+		<li>memeLeaderAdjective->absolute</li>
+		<li>memeLeaderAdjective->divine</li>
+		<li>memeMoralist->lector priest</li>
+		<li>memeMoralist->hem-netjer</li>
+		<li>memeMoralist->wab priest</li>
+		<li>memeMoralist->sem priest</li>
+		<li>memeMoralist->ka-priest</li>
+		<li>memeMoralist->swnw</li>
+	 -->
+	<AM_Structure_Kemetism.generalRules.rulesStrings>
+		<li>memeAdjective-&gt;реконструированный</li>
+		<li>memeAdjective-&gt;пересмотренный</li>
+		<li>memeHyphenPrefix-&gt;нео</li>
+		<li>memeLeaderNoun-&gt;фараон</li>
+		<li>memeLeaderAdjective-&gt;торжественный</li>
+		<li>memeLeaderAdjective-&gt;абсолютный</li>
+		<li>memeLeaderAdjective-&gt;божественный</li>
+		<li>memeMoralist-&gt;лектор священник</li>
+		<li>memeMoralist-&gt;хем-нетъер</li>
+		<li>memeMoralist-&gt;ваб священник</li>
+		<li>memeMoralist-&gt;сем священник</li>
+		<li>memeMoralist-&gt;ка-священник</li>
+		<li>memeMoralist-&gt;су-ну</li>
+</AM_Structure_Kemetism.generalRules.rulesStrings>
+<!--                                   EN: kemetism -->
+	<AM_Structure_Kemetism.symbolPacks.0.theme>кеметизм</AM_Structure_Kemetism.symbolPacks.0.theme>
+	<!--                                       EN: kemetic -->
+	<AM_Structure_Kemetism.symbolPacks.0.adjective>кемет</AM_Structure_Kemetism.symbolPacks.0.adjective>
+	<!--                                    EN: kemetic -->
+	<AM_Structure_Kemetism.symbolPacks.0.member>кемет</AM_Structure_Kemetism.symbolPacks.0.member>
+	<!--                                          EN: Amun -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.0.name>Амон</AM_Structure_Kemetism.fixedDeityNameTypes.0.name>
+	<!--                                          EN: The Creator God -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.0.type>Бог-Творец</AM_Structure_Kemetism.fixedDeityNameTypes.0.type>
+	<!--                                          EN: Ra -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.1.name>Ра</AM_Structure_Kemetism.fixedDeityNameTypes.1.name>
+	<!--                                          EN: God of the Sun -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.1.type>Бог Солнца</AM_Structure_Kemetism.fixedDeityNameTypes.1.type>
+	<!--                                          EN: Nut -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.2.name>Нут</AM_Structure_Kemetism.fixedDeityNameTypes.2.name>
+	<!--                                          EN: Goddess of Earth -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.2.type>Богиня Земли</AM_Structure_Kemetism.fixedDeityNameTypes.2.type>
+	<!--                                          EN: Shu -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.3.name>Шу</AM_Structure_Kemetism.fixedDeityNameTypes.3.name>
+	<!--                                          EN: God of Air -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.3.type>Бог воздуха</AM_Structure_Kemetism.fixedDeityNameTypes.3.type>
+	<!--                                          EN: Tefnut -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.4.name>Тефнут</AM_Structure_Kemetism.fixedDeityNameTypes.4.name>
+	<!--                                          EN: Goddess of Moisture -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.4.type>Богиня влаги</AM_Structure_Kemetism.fixedDeityNameTypes.4.type>
+	<!--                                          EN: Osiris -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.5.name>Осирис</AM_Structure_Kemetism.fixedDeityNameTypes.5.name>
+	<!--                                          EN: God of Justice -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.5.type>Бог справедливости</AM_Structure_Kemetism.fixedDeityNameTypes.5.type>
+	<!--                                          EN: Isis -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.6.name>Исида</AM_Structure_Kemetism.fixedDeityNameTypes.6.name>
+	<!--                                          EN: Goddess of Motherhood -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.6.type>Богиня материнства</AM_Structure_Kemetism.fixedDeityNameTypes.6.type>
+	<!--                                          EN: Horus -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.7.name>Гор</AM_Structure_Kemetism.fixedDeityNameTypes.7.name>
+	<!--                                          EN: God of the Sky -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.7.type>Бог неба</AM_Structure_Kemetism.fixedDeityNameTypes.7.type>
+	<!--                                          EN: Set -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.8.name>Сет</AM_Structure_Kemetism.fixedDeityNameTypes.8.name>
+	<!--                                          EN: God of Deception -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.8.type>Бог обмана</AM_Structure_Kemetism.fixedDeityNameTypes.8.type>
+	<!--                                          EN: Ma -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.9.name>Ма</AM_Structure_Kemetism.fixedDeityNameTypes.9.name>
+	<!--                                          EN: Goddess of Balance -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.9.type>Богиня баланса</AM_Structure_Kemetism.fixedDeityNameTypes.9.type>
+	<!--                                           EN: Anubis -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.10.name>Анубис</AM_Structure_Kemetism.fixedDeityNameTypes.10.name>
+	<!--                                           EN: God of Death -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.10.type>Бог смерти</AM_Structure_Kemetism.fixedDeityNameTypes.10.type>
+	<!--                                           EN: Nephthys -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.11.name>Нефтис</AM_Structure_Kemetism.fixedDeityNameTypes.11.name>
+	<!--                                           EN: Goddess of Funerals -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.11.type>Богиня Похорон</AM_Structure_Kemetism.fixedDeityNameTypes.11.type>
+	<!--                                           EN: Hathor -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.12.name>Хатор</AM_Structure_Kemetism.fixedDeityNameTypes.12.name>
+	<!--                                           EN: Goddess of Drunkenness -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.12.type>Богиня Пьянства</AM_Structure_Kemetism.fixedDeityNameTypes.12.type>
+	<!--                                           EN: Bastet -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.13.name>Бастет</AM_Structure_Kemetism.fixedDeityNameTypes.13.name>
+	<!--                                           EN: Goddess of Beauty -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.13.type>Богиня Красоты</AM_Structure_Kemetism.fixedDeityNameTypes.13.type>
+	<!--                                           EN: Thoth -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.14.name>Тот</AM_Structure_Kemetism.fixedDeityNameTypes.14.name>
+	<!--                                           EN: God of Intellect -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.14.type>Бог Интеллекта</AM_Structure_Kemetism.fixedDeityNameTypes.14.type>
+	<!--                                           EN: Ptah -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.15.name>Птах</AM_Structure_Kemetism.fixedDeityNameTypes.15.name>
+	<!--                                           EN: God of Memphis -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.15.type>Бог Мемфиса</AM_Structure_Kemetism.fixedDeityNameTypes.15.type>
+	<!--                                           EN: Khonsu -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.16.name>Хонсу</AM_Structure_Kemetism.fixedDeityNameTypes.16.name>
+	<!--                                           EN: God of the Moon -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.16.type>Бог Луны</AM_Structure_Kemetism.fixedDeityNameTypes.16.type>
+	<!--                                           EN: Khnum -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.17.name>Хнум</AM_Structure_Kemetism.fixedDeityNameTypes.17.name>
+	<!--                                           EN: God of Potters -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.17.type>Бог Гончаров</AM_Structure_Kemetism.fixedDeityNameTypes.17.type>
+	<!--                                           EN: Hapi -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.18.name>Хапи</AM_Structure_Kemetism.fixedDeityNameTypes.18.name>
+	<!--                                           EN: God of Fertility -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.18.type>Бог Плодородия</AM_Structure_Kemetism.fixedDeityNameTypes.18.type>
+	<!--                                           EN: Sobek -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.19.name>Собек</AM_Structure_Kemetism.fixedDeityNameTypes.19.name>
+	<!--                                           EN: God of the Nile -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.19.type>Бог Нила</AM_Structure_Kemetism.fixedDeityNameTypes.19.type>
+	<!--                                           EN: Bes -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.20.name>Бес</AM_Structure_Kemetism.fixedDeityNameTypes.20.name>
+	<!--                                           EN: God of Entertainment -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.20.type>Бог Зрелищ</AM_Structure_Kemetism.fixedDeityNameTypes.20.type>
+	<!--                                           EN: Tawaret -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.21.name>Таварет</AM_Structure_Kemetism.fixedDeityNameTypes.21.name>
+	<!--                                           EN: Goddess of Childbirth -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.21.type>Богиня Родов</AM_Structure_Kemetism.fixedDeityNameTypes.21.type>
+	<!--                                           EN: Neith -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.22.name>Нейт</AM_Structure_Kemetism.fixedDeityNameTypes.22.name>
+	<!--                                           EN: Goddess of Arrows -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.22.type>Богиня Стрел</AM_Structure_Kemetism.fixedDeityNameTypes.22.type>
+	<!--                                           EN: Nekhbet -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.23.name>Нехбет</AM_Structure_Kemetism.fixedDeityNameTypes.23.name>
+	<!--                                           EN: Goddess of Vultures -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.23.type>Богиня Стервятников</AM_Structure_Kemetism.fixedDeityNameTypes.23.type>
+	<!--                                           EN: Wadjet -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.24.name>Уаджет</AM_Structure_Kemetism.fixedDeityNameTypes.24.name>
+	<!--                                           EN: Goddess of Kingship -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.24.type>Богиня Царствования</AM_Structure_Kemetism.fixedDeityNameTypes.24.type>
+	<!--                                           EN: Kherty -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.25.name>Херти</AM_Structure_Kemetism.fixedDeityNameTypes.25.name>
+	<!--                                           EN: God of the Underworld -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.25.type>Бог Подземного Мира</AM_Structure_Kemetism.fixedDeityNameTypes.25.type>
+	<!--                                           EN: Nefertum -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.26.name>Нефертум</AM_Structure_Kemetism.fixedDeityNameTypes.26.name>
+	<!--                                           EN: God of Perfume -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.26.type>Бог Благовоний</AM_Structure_Kemetism.fixedDeityNameTypes.26.type>
+	<!--                                           EN: Renenutet -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.27.name>Рененутет</AM_Structure_Kemetism.fixedDeityNameTypes.27.name>
+	<!--                                           EN: Goddess of Nursing -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.27.type>Богиня Ухода за Больными</AM_Structure_Kemetism.fixedDeityNameTypes.27.type>
+	<!--                                           EN: Heka -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.28.name>Хека</AM_Structure_Kemetism.fixedDeityNameTypes.28.name>
+	<!--                                           EN: God of Magic -->
+	<AM_Structure_Kemetism.fixedDeityNameTypes.28.type>Бог Магии</AM_Structure_Kemetism.fixedDeityNameTypes.28.type>
+	
+	<!--                             EN: steampunk revival -->
+	<AM_Structure_SteampunkRevival.label>возрождение стимпанка</AM_Structure_SteampunkRevival.label>
+	<!--                                   EN: With the advent of zero-emissions steam engines powered by flameless ceramic heat cells in the 22nd century, steam powered technology experienced a sudden revival. This ideoligion has kept the overall style and sentiment of that era. -->
+	<AM_Structure_SteampunkRevival.description>С появлением в 22 веке паровых двигателей с нулевым уровнем выбросов, работающих на беспламенных керамических тепловых элементах, паровые технологии пережили внезапное возрождение. Эта идеология сохранила общий стиль и настроение той эпохи.</AM_Structure_SteampunkRevival.description>
+	<!--                                        EN: parlor -->
+	<AM_Structure_SteampunkRevival.worshipRoomLabel>гостиная</AM_Structure_SteampunkRevival.worshipRoomLabel>
+	<!-- EN: 
+		<li>memeAdjective->steampunk</li>
+		<li>memeAdjective->analytical</li>
+		<li>memeAdjective->retrofuturistic</li>
+		<li>memeAdjective->aetheric</li>
+		<li>memeAdjective->neo-victorian</li>
+		<li>memeLeaderNoun->overseer</li>
+		<li>memeLeaderNoun->cogmaster</li>
+		<li>memeMoralist->tinkerer</li>
+	 -->
+	<AM_Structure_SteampunkRevival.generalRules.rulesStrings>
+		<li>memeAdjective-&gt;стимпанк</li>
+		<li>memeAdjective-&gt;аналитический</li>
+		<li>memeAdjective-&gt;ретрофутуристический</li>
+		<li>memeAdjective-&gt;эфирный</li>
+		<li>memeAdjective-&gt;неовикторианская</li>
+		<li>memeLeaderNoun-&gt;смотритель</li>
+		<li>memeLeaderNoun-&gt;мастер шестерней</li>
+		<li>memeMoralist-&gt;ремесленник</li>
+</AM_Structure_SteampunkRevival.generalRules.rulesStrings>
+<!--                                           EN: steampunk -->
+	<AM_Structure_SteampunkRevival.symbolPacks.0.theme>стимпанк</AM_Structure_SteampunkRevival.symbolPacks.0.theme>
+	<!--                                               EN: steampunk -->
+	<AM_Structure_SteampunkRevival.symbolPacks.0.adjective>стимпанк</AM_Structure_SteampunkRevival.symbolPacks.0.adjective>
+	<!--                                            EN: worker -->
+	<AM_Structure_SteampunkRevival.symbolPacks.0.member>рабочий</AM_Structure_SteampunkRevival.symbolPacks.0.member>
+	
+	<!--                    EN: corsair -->
+	<AM_Structure_Corsair.label>корсар</AM_Structure_Corsair.label>
+	<!--                          EN: The misguided romanticization of ages long past has been a constant through all human history. Even though the modern pirates on the Rim have nothing to do with ancient seafaring pirates the corsair aesthetics have perdured well into the space age. -->
+	<AM_Structure_Corsair.description>Ошибочная романтизация давно минувших веков была постоянной на протяжении всей истории человечества. Несмотря на то, что современные пираты в Окраинных мирах не имеют ничего общего с древними пиратами-мореплавателями, корсарская эстетика сохранилась и в космической эре.</AM_Structure_Corsair.description>
+	<!--                               EN: forecastle -->
+	<AM_Structure_Corsair.worshipRoomLabel>полубак</AM_Structure_Corsair.worshipRoomLabel>
+	<!-- EN: 
+		<li>memeAdjective->corsair</li>
+		<li>memeAdjective->marauding</li>
+		<li>memeAdjective->sea dog</li>
+		<li>memeAdjective->freebooting</li>
+		<li>memeAdjective->roving</li>
+		<li>memeLeaderNoun->shipmaster</li>
+		<li>memeLeaderNoun->commodore</li>
+		<li>memeLeaderAdjective->gallant</li>
+		<li>memeLeaderAdjective->draconian</li>
+		<li>memeLeaderAdjective->callous</li>
+		<li>memeLeaderAdjective->brave</li>
+		<li>memeLeaderAdjective->ruthless</li>
+		<li>memeLeaderAdjective->daring</li>
+		<li>memeMoralist->lieutenant</li>
+		<li>memeMoralist->sargeant</li>
+		<li>memeMoralist->subaltern</li>
+	 -->
+	<AM_Structure_Corsair.generalRules.rulesStrings>
+		<li>memeAdjective-&gt;корсар</li>
+		<li>memeAdjective-&gt;мародерство</li>
+		<li>memeAdjective-&gt;морской пес</li>
+		<li>memeAdjective-&gt;пиратство</li>
+		<li>memeAdjective-&gt;бродячий</li>
+		<li>memeLeaderNoun-&gt;капитан корабля</li>
+		<li>memeLeaderNoun-&gt;коммодор</li>
+		<li>memeLeaderAdjective-&gt;галантный</li>
+		<li>memeLeaderAdjective-&gt;драконовский</li>
+		<li>memeLeaderAdjective-&gt;черствый</li>
+		<li>memeLeaderAdjective-&gt;храбрый</li>
+		<li>memeLeaderAdjective-&gt;жестокий</li>
+		<li>memeLeaderAdjective-&gt;смелый</li>
+		<li>memeMoralist-&gt;лейтенант</li>
+		<li>memeMoralist-&gt;сержант</li>
+		<li>memeMoralist-&gt;младший офицер</li>
+</AM_Structure_Corsair.generalRules.rulesStrings>
+<!--                                  EN: corsairs -->
+	<AM_Structure_Corsair.symbolPacks.0.theme>корсары</AM_Structure_Corsair.symbolPacks.0.theme>
+	<!--                                      EN: corsair -->
+	<AM_Structure_Corsair.symbolPacks.0.adjective>корсар</AM_Structure_Corsair.symbolPacks.0.adjective>
+	<!--                                   EN: corsair -->
+	<AM_Structure_Corsair.symbolPacks.0.member>корсар</AM_Structure_Corsair.symbolPacks.0.member>
+	
+	<!--                      EN: neolithic -->
+	<AM_Structure_Neolithic.label>неолит</AM_Structure_Neolithic.label>
+	<!--                            EN: The vast gulfs of space and time between the stars leave individual worlds vulnerable to regression. This culture has fallen from grace entirely, and reverted to stone-age, prehistoric levels of technological advancement and refinement.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Bear in mind that this structure is NOT a technology locker in ANY way. This culture has kept the style of their stone age origins, but they can make weapons, build a spaceship, etc. Use a different mod to lock research to certain tech levels.\n- Also bear in mind that this structure disables normal tables and beds. -->
+	<AM_Structure_Neolithic.description>Огромные пропасти пространства и времени между звездами делают отдельные миры уязвимыми для регрессии. Эта культура полностью потеряла благодать и вернулась к каменному веку, доисторическим уровням технического прогресса.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n — Имейте в виду, что НИ В КОЕМ СЛУЧАЕ НЕ добавляет ограничение на технологический уровень построек. Эта культура сохранила стиль своего происхождения из каменного века, но они могут делать оружие, строить космический корабль и т. д. Используйте другой мод, чтобы привязать исследования к определенным технологическим уровням.</AM_Structure_Neolithic.description>
+	<!--                                 EN: temple -->
+	<AM_Structure_Neolithic.worshipRoomLabel>храм</AM_Structure_Neolithic.worshipRoomLabel>
+	<!-- EN: 
+		<li>memeAdjective->ancient</li>
+		<li>memeAdjective->prehistoric</li>
+		<li>memeAdjective->primitive</li>
+		<li>memeAdjective->primeval</li>
+		<li>memeAdjective->primordial</li>
+		<li>memeLeaderNoun->chief</li>
+		<li>memeLeaderAdjective->antediluvian</li>
+		<li>memeLeaderAdjective->primal</li>
+		<li>memeLeaderAdjective->archaic</li>
+		<li>memeMoralist->shaman</li>
+		<li>memeMoralist->medicine man</li>
+		<li>memeMoralist->witch doctor</li>
+		<li>memeMoralist->seer</li>
+	 -->
+	<AM_Structure_Neolithic.generalRules.rulesStrings>
+		<li>memeAdjective-&gt;древний</li>
+		<li>memeAdjective-&gt;доисторический</li>
+		<li>memeAdjective-&gt;примитивный</li>
+		<li>memeAdjective-&gt;первобытный</li>
+		<li>memeAdjective-&gt;изначальный</li>
+		<li>memeLeaderNoun-&gt;глава</li>
+		<li>memeLeaderAdjective-&gt;допотопный</li>
+		<li>memeLeaderAdjective-&gt;первобытный</li>
+		<li>memeLeaderAdjective-&gt;архаичный</li>
+		<li>memeMoralist-&gt;шаман</li>
+		<li>memeMoralist-&gt;лекарь</li>
+		<li>memeMoralist-&gt;Знахарь</li>
+		<li>memeMoralist-&gt;провидец</li>
+</AM_Structure_Neolithic.generalRules.rulesStrings>
+<!--                                    EN: neolithic -->
+	<AM_Structure_Neolithic.symbolPacks.0.theme>неолит</AM_Structure_Neolithic.symbolPacks.0.theme>
+	<!--                                        EN: neolithic -->
+	<AM_Structure_Neolithic.symbolPacks.0.adjective>неолит</AM_Structure_Neolithic.symbolPacks.0.adjective>
+	<!--                                     EN: caveman -->
+	<AM_Structure_Neolithic.symbolPacks.0.member>пещерный человек</AM_Structure_Neolithic.symbolPacks.0.member>
+	<!--                                           EN: Aurath -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.0.name>Аурат</AM_Structure_Neolithic.fixedDeityNameTypes.0.name>
+	<!--                                           EN: The Burning Hunter -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.0.type>Пылающий охотник</AM_Structure_Neolithic.fixedDeityNameTypes.0.type>
+	<!--                                           EN: Vitali -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.1.name>Витали</AM_Structure_Neolithic.fixedDeityNameTypes.1.name>
+	<!--                                           EN: The Marching Father -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.1.type>Походный отец</AM_Structure_Neolithic.fixedDeityNameTypes.1.type>
+	<!--                                           EN: Saul -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.2.name>Саул</AM_Structure_Neolithic.fixedDeityNameTypes.2.name>
+	<!--                                           EN: The Searching Wraith -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.2.type>Ищущий призрак</AM_Structure_Neolithic.fixedDeityNameTypes.2.type>
+	<!--                                           EN: Curce -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.3.name>Курс</AM_Structure_Neolithic.fixedDeityNameTypes.3.name>
+	<!--                                           EN: The Raging Servant -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.3.type>Бешеный слуга</AM_Structure_Neolithic.fixedDeityNameTypes.3.type>
+	<!--                                           EN: Lyte -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.4.name>Лайт</AM_Structure_Neolithic.fixedDeityNameTypes.4.name>
+	<!--                                           EN: The Full Moon Blacksmith -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.4.type>Кузнец Полной Луны</AM_Structure_Neolithic.fixedDeityNameTypes.4.type>
+	<!--                                           EN: Vysio -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.5.name>Визио</AM_Structure_Neolithic.fixedDeityNameTypes.5.name>
+	<!--                                           EN: The Fiery Dancer -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.5.type>Огненный танцор</AM_Structure_Neolithic.fixedDeityNameTypes.5.type>
+	<!--                                           EN: Blisse -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.6.name>Блисс</AM_Structure_Neolithic.fixedDeityNameTypes.6.name>
+	<!--                                           EN: The Roaming Curator -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.6.type>Бродячий куратор</AM_Structure_Neolithic.fixedDeityNameTypes.6.type>
+	<!--                                           EN: Ethe -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.7.name>Эте</AM_Structure_Neolithic.fixedDeityNameTypes.7.name>
+	<!--                                           EN: The Waving Artist -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.7.type>Волнистый художник</AM_Structure_Neolithic.fixedDeityNameTypes.7.type>
+	<!--                                           EN: Devo -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.8.name>Дево</AM_Structure_Neolithic.fixedDeityNameTypes.8.name>
+	<!--                                           EN: The Tombstone Soldier -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.8.type>Солдат Надгробий</AM_Structure_Neolithic.fixedDeityNameTypes.8.type>
+	<!--                                           EN: Auriel -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.9.name>Ауриэль</AM_Structure_Neolithic.fixedDeityNameTypes.9.name>
+	<!--                                           EN: The Crypt Clown -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.9.type>Клоун Склепа</AM_Structure_Neolithic.fixedDeityNameTypes.9.type>
+	<!--                                            EN: Spiri -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.10.name>Спири</AM_Structure_Neolithic.fixedDeityNameTypes.10.name>
+	<!--                                            EN: The Cheerful Witch -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.10.type>Жизнерадостная ведьма</AM_Structure_Neolithic.fixedDeityNameTypes.10.type>
+	<!--                                            EN: Erie -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.11.name>Эри</AM_Structure_Neolithic.fixedDeityNameTypes.11.name>
+	<!--                                            EN: The Magnanimous Reaper -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.11.type>Великодушный жнец</AM_Structure_Neolithic.fixedDeityNameTypes.11.type>
+	<!--                                            EN: Aura -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.12.name>Аура</AM_Structure_Neolithic.fixedDeityNameTypes.12.name>
+	<!--                                            EN: The Playful Appearance -->
+	<AM_Structure_Neolithic.fixedDeityNameTypes.12.type>Игривый Образ</AM_Structure_Neolithic.fixedDeityNameTypes.12.type>
+	
+	<!--                      EN: scavenger -->
+	<AM_Structure_Scavenger.label>мусорщик</AM_Structure_Scavenger.label>
+	<!--                            EN: The refuse and discarded ancient technology of past civilizations can be easily recycled and repurposed. Why would we toil endlessly to create things from scratch, when we can make use of what is already there?\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - This structure (and associated style) make the Scrapper meme easier to use, allowing the player to just build things that count for the Scrapper meme. -->
+	<AM_Structure_Scavenger.description>Отходы и выброшенные древние технологии прошлых цивилизаций могут быть легко переработаны и перепрофилированы. Зачем бесконечно трудиться над созданием вещей с нуля, когда мы можем использовать то, что уже есть?\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n — Эта структура (и связанный с ней стиль) делает мем мусорщик проще в использовании, позволяя игроку просто создавать вещи, которые учитываются для мема мусорщик.</AM_Structure_Scavenger.description>
+	<!--                                 EN: scrap yard -->
+	<AM_Structure_Scavenger.worshipRoomLabel>свалка</AM_Structure_Scavenger.worshipRoomLabel>
+	<!-- EN: 
+		<li>memeAdjective->scrapping</li>
+		<li>memeAdjective->scavenging</li>
+		<li>memeAdjective->scrounging</li>
+		<li>memeHyphenPrefix->scrap</li>
+		<li>memeHyphenPrefix->junk</li>
+		<li>memeConcept->scrap</li>
+		<li>memeLeaderNoun->scavenger</li>
+		<li>memeLeaderNoun->scrapper</li>
+		<li>memeLeaderNoun->scrounger</li>
+		<li>memeMoralist->junk rat</li>
+	 -->
+	<AM_Structure_Scavenger.generalRules.rulesStrings>
+		<li>memeAdjective-&gt;слом</li>
+		<li>memeAdjective-&gt;сбор мусора</li>
+		<li>memeAdjective-&gt;вымогательство</li>
+		<li>memeHyphenPrefix-&gt;слом</li>
+		<li>memeHyphenPrefix-&gt;хлам</li>
+		<li>memeConcept-&gt;слом</li>
+		<li>memeLeaderNoun-&gt;мусорщик</li>
+		<li>memeLeaderNoun-&gt;утилизатор</li>
+		<li>memeLeaderNoun-&gt;мошенник</li>
+		<li>memeMoralist-&gt;мусорная крыса</li>
+</AM_Structure_Scavenger.generalRules.rulesStrings>
+<!--                                    EN: scavengers -->
+	<AM_Structure_Scavenger.symbolPacks.0.theme>падальщики</AM_Structure_Scavenger.symbolPacks.0.theme>
+	<!--                                        EN: scavenging -->
+	<AM_Structure_Scavenger.symbolPacks.0.adjective>сбор мусора</AM_Structure_Scavenger.symbolPacks.0.adjective>
+	<!--                                     EN: scavenger -->
+	<AM_Structure_Scavenger.symbolPacks.0.member>мусорщик</AM_Structure_Scavenger.symbolPacks.0.member>
+	
+	<!--                     EN: alienism -->
+	<AM_Structure_Alienism.label>чужеродность</AM_Structure_Alienism.label>
+	<!--                           EN: "True" alien life might not have been encountered by humanity, but we have warped life so much that the distinction is moot. Only by embracing this can we reach the truth. -->
+	<AM_Structure_Alienism.description>Возможно, "настоящая" инопланетная жизнь и не встречалась человечеству, но мы настолько исказили жизнь, что различие между ними стало спорным. Только приняв это, мы сможем достичь истины.</AM_Structure_Alienism.description>
+	<!--                                EN: ever-seeing chamber -->
+	<AM_Structure_Alienism.worshipRoomLabel>камера вечного зрения</AM_Structure_Alienism.worshipRoomLabel>
+	<!-- EN: 
+		<li>memeAdjective->alien</li>
+		<li>memeAdjective->extraterrestrial</li>
+		<li>memeAdjective->strange</li>
+		<li>memeAdjective->peculiar</li>
+		<li>memeAdjective->exotic</li>
+		<li>memeLeaderNoun->high alienist</li>
+		<li>memeLeaderAdjective->foreign</li>
+		<li>memeMoralist->aspirant</li>
+		<li>memeMoralist->inquirer</li>
+		<li>memeMoralist->zealot</li>
+	 -->
+	<AM_Structure_Alienism.generalRules.rulesStrings>
+		<li>memeAdjective-&gt;инопланетный</li>
+		<li>memeAdjective-&gt;внеземной</li>
+		<li>memeAdjective-&gt;странный</li>
+		<li>memeAdjective-&gt;особенный</li>
+		<li>memeAdjective-&gt;экзотический</li>
+		<li>memeLeaderNoun-&gt;высший алиенист</li>
+		<li>memeLeaderAdjective-&gt;иноземный</li>
+		<li>memeMoralist-&gt;аспирант</li>
+		<li>memeMoralist-&gt;дознаватель</li>
+		<li>memeMoralist-&gt;фанатик</li>
+	</AM_Structure_Alienism.generalRules.rulesStrings>
+	<!--                                   EN: alienism -->
+	<AM_Structure_Alienism.symbolPacks.0.theme>чужеродность</AM_Structure_Alienism.symbolPacks.0.theme>
+	<!--                                       EN: alienist -->
+	<AM_Structure_Alienism.symbolPacks.0.adjective>алиенист</AM_Structure_Alienism.symbolPacks.0.adjective>
+	<!--                                    EN: alienist -->
+	<AM_Structure_Alienism.symbolPacks.0.member>алиенист</AM_Structure_Alienism.symbolPacks.0.member>
+</LanguageData>

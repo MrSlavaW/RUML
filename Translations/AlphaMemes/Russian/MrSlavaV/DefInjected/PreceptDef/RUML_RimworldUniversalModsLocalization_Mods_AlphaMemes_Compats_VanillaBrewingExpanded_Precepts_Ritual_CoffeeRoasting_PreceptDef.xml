@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\PreceptDefs\Precepts_Ritual_CoffeeRoasting.xml -->
+<!--                        EN: coffee roasting -->
+    <AM_CoffeeRoastingPrecept.label>обжарка кофе</AM_CoffeeRoastingPrecept.label>
+    <!--                              EN: A moment of warmth and connection, where the roasting of coffee becomes a craft and a shared experience. -->
+    <AM_CoffeeRoastingPrecept.description>Момент тепла и единения, где обжарка кофе превращается в ремесло и общий опыт.</AM_CoffeeRoastingPrecept.description>
+</LanguageData>

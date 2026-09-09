@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Various_Stone.xml -->
+	<!--                                EN: Blocks of pristine limestone. -->
+	<AM_BlocksPristineLimestone.description>Блоки из нетронутого известняка.</AM_BlocksPristineLimestone.description>
+	<!--                                              EN: pristine limestone -->
+	<AM_BlocksPristineLimestone.stuffProps.stuffAdjective>нетронутый известняк</AM_BlocksPristineLimestone.stuffProps.stuffAdjective>
+	<!--                          EN: pristine limestone blocks -->
+	<AM_BlocksPristineLimestone.label>нетронутые блоки известняка</AM_BlocksPristineLimestone.label>
+</LanguageData>

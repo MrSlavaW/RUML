@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AA_BlackHive.label>чёрный улей</AA_BlackHive.label>
+  <AA_BlackHive.description>Все инсектоиды изначально создавались для борьбы с механоидами. Чёрный Улей был лучшим из лучших — улей инсектоидов настолько свирепых и внушающих первобытный ужас, что любые механоиды, обладающие хотя бы зачатками разума, немедленно обращались в бегство при встрече с ними. Однако те времена давно прошли. В наши дни разрозненные остатки Чёрного Улья скитаются по мирам Пограничья, представляя скрытую смертельную угрозу для любого, кто использует передовые технологии.</AA_BlackHive.description>
+  <AA_BlackHive.fixedName>Чёрный Улей</AA_BlackHive.fixedName>
+  <AA_BlackHive.pawnSingular>насекомое Чёрного Улья</AA_BlackHive.pawnSingular>
+  <AA_BlackHive.pawnsPlural>насекомые Чёрного Улья</AA_BlackHive.pawnsPlural>
+</LanguageData>

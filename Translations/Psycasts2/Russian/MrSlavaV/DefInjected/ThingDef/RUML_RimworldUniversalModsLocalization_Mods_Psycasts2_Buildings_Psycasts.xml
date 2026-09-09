@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<PS_PilgrimAltar.label>алтарь паломника</PS_PilgrimAltar.label>
+	<PS_PilgrimAltar.description>Древнее каменное святилище, резонирующее с псионическими вибрациями окружающего мира.</PS_PilgrimAltar.description>
+	<PS_PilgrimThrone.label>трон медитации</PS_PilgrimThrone.label>
+	<PS_PilgrimThrone.description>Удобный медитативный трон, помогающий псионику погрузиться в глубокий транс.</PS_PilgrimThrone.description>
+	<PS_PilgrimGrandThrone.label>великий трон медитации</PS_PilgrimGrandThrone.label>
+	<PS_PilgrimGrandThrone.description>Величественный трон из полированного камня и золота, концентрирующий пси-энергию вокруг восседающего мастера.</PS_PilgrimGrandThrone.description>
+</LanguageData>

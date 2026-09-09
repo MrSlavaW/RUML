@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Reputation.xml -->
+	<!--                     EN: lowered -->
+	<AM_Reputation_Lowered.label>пониженна</AM_Reputation_Lowered.label>
+	<!--                           EN: Our ruthlessness is not appreciated by other factions, who justly fear us for our power.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colony starts play receiving a one-time -50 opinion penalty with all other factions. -->
+	<AM_Reputation_Lowered.description>Наша безжалостность не ценится другими фракциями, которые справедливо опасаются нас за нашу силу.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Поселение начинает игру, получая одноразовый штраф -50 мнений со всеми остальными фракциями.</AM_Reputation_Lowered.description>
+</LanguageData>

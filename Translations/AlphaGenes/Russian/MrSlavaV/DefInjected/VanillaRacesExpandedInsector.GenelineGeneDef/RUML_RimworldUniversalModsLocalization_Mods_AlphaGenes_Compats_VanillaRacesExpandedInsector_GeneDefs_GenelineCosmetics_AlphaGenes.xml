@@ -1,0 +1,91 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaRacesExpandedInsector\Defs\GeneDefs\GeneDefs_GenelineCosmetics_AlphaGenes.xml -->
+	<!--                                EN: moth antennae, cosmetic -->
+	<AG_GenelineCosmetic_MothAntennae.label>антенны мотылька, косметические</AG_GenelineCosmetic_MothAntennae.label>
+	<!--                                      EN: Carriers of this gene grow two large antennae protruding from the nose. -->
+	<AG_GenelineCosmetic_MothAntennae.description>У носителей этого гена вырастают два больших усика, выступающих из носа.</AG_GenelineCosmetic_MothAntennae.description>
+	<!--                                     EN: insectoid antennae, cosmetic -->
+	<AG_GenelineCosmetic_InsectoidAntennae.label>инсектоидные усики, косметические</AG_GenelineCosmetic_InsectoidAntennae.label>
+	<!--                                           EN: Carriers of this gene have slender, mobile sensory organs that serve to compliment vision and locational awareness. -->
+	<AG_GenelineCosmetic_InsectoidAntennae.description>Носители этого гена имеют тонкие, подвижные сенсорные органы, которые служат для дополнения зрения и определения местоположения.</AG_GenelineCosmetic_InsectoidAntennae.description>
+	<!--                                                                  EN: Fresh, Rotting -->
+	<AG_GenelineCosmetic_InsectoidAntennae.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_GenelineCosmetic_InsectoidAntennae.renderNodeProperties.0.rotDrawMode>
+	<!--                               EN: bee antennae, cosmetic -->
+	<AG_GenelineCosmetic_BeeAntennae.label>Пчелиные антенны, косметические</AG_GenelineCosmetic_BeeAntennae.label>
+	<!--                                     EN: Carriers of this gene grow two large bee antennae protruding from the head. -->
+	<AG_GenelineCosmetic_BeeAntennae.description>У носителей этого гена вырастают два больших пчелиных усика, выступающих из головы.</AG_GenelineCosmetic_BeeAntennae.description>
+	<!--                                                            EN: Fresh, Rotting -->
+	<AG_GenelineCosmetic_BeeAntennae.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_GenelineCosmetic_BeeAntennae.renderNodeProperties.0.rotDrawMode>
+	<!--                                EN: wasp antennae, cosmetic -->
+	<AG_GenelineCosmetic_WaspAntennae.label>антенны осы, косметические</AG_GenelineCosmetic_WaspAntennae.label>
+	<!--                                      EN: Carriers of this gene grow two large wasp antennae protruding from the head. -->
+	<AG_GenelineCosmetic_WaspAntennae.description>У носителей этого гена вырастают два больших осиных усика, выступающих из головы.</AG_GenelineCosmetic_WaspAntennae.description>
+	<!--                                                             EN: Fresh, Rotting -->
+	<AG_GenelineCosmetic_WaspAntennae.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_GenelineCosmetic_WaspAntennae.renderNodeProperties.0.rotDrawMode>
+	<!--                                  EN: formic antennae, cosmetic -->
+	<AG_GenelineCosmetic_FormicAntennae.label>муравьиные антенны, косметические</AG_GenelineCosmetic_FormicAntennae.label>
+	<!--                                        EN: Carriers of this gene grow two large ant antennae protruding from the head. -->
+	<AG_GenelineCosmetic_FormicAntennae.description>У носителей этого гена вырастают два больших муравьиных усика, выступающих из головы.</AG_GenelineCosmetic_FormicAntennae.description>
+	<!--                                                               EN: Fresh, Rotting -->
+	<AG_GenelineCosmetic_FormicAntennae.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_GenelineCosmetic_FormicAntennae.renderNodeProperties.0.rotDrawMode>
+	<!--                                 EN: lower antennae, cosmetic -->
+	<AG_GenelineCosmetic_LowerAntennae.label>нижние антенны, косметические</AG_GenelineCosmetic_LowerAntennae.label>
+	<!--                                       EN: Carriers of this gene grow two large antennae protruding from their jaw. -->
+	<AG_GenelineCosmetic_LowerAntennae.description>У носителей этого гена вырастают два больших усика, выступающих из челюсти.</AG_GenelineCosmetic_LowerAntennae.description>
+	<!--                                                              EN: Fresh, Rotting -->
+	<AG_GenelineCosmetic_LowerAntennae.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_GenelineCosmetic_LowerAntennae.renderNodeProperties.0.rotDrawMode>
+	<!--                              EN: yellow eyes, cosmetic -->
+	<AG_GenelineCosmetic_YellowEyes.label>желтые глаза, косметические</AG_GenelineCosmetic_YellowEyes.label>
+	<!--                                    EN: Carriers of this gene have bright yellow eyes. -->
+	<AG_GenelineCosmetic_YellowEyes.description>У носителей этого гена ярко-желтые глаза.</AG_GenelineCosmetic_YellowEyes.description>
+	<!--                                                           EN: Fresh, Rotting -->
+	<AG_GenelineCosmetic_YellowEyes.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_GenelineCosmetic_YellowEyes.renderNodeProperties.0.rotDrawMode>
+	<!--                                                           EN: Fresh, Rotting -->
+	<AG_GenelineCosmetic_YellowEyes.renderNodeProperties.1.rotDrawMode>Fresh, Rotting</AG_GenelineCosmetic_YellowEyes.renderNodeProperties.1.rotDrawMode>
+	<!--                             EN: proboscis, cosmetic -->
+	<AG_GenelineCosmetic_Proboscis.label>хоботок, косметический</AG_GenelineCosmetic_Proboscis.label>
+	<!--                                   EN: Carriers of this gene grow a large proboscis protruding from their jaw. -->
+	<AG_GenelineCosmetic_Proboscis.description>У носителей этого гена вырастает большой хоботок, выступающий из челюсти.</AG_GenelineCosmetic_Proboscis.description>
+	<!--                                                          EN: Fresh, Rotting -->
+	<AG_GenelineCosmetic_Proboscis.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_GenelineCosmetic_Proboscis.renderNodeProperties.0.rotDrawMode>
+	<!--                                   EN: pincer mandibles, cosmetic -->
+	<AG_GenelineCosmetic_PincerMandibles.label>Клещевые мандибулы, косметические</AG_GenelineCosmetic_PincerMandibles.label>
+	<!--                                         EN: Carriers of this gene grow two large pincer mandibles protruding from their jaw. -->
+	<AG_GenelineCosmetic_PincerMandibles.description>У носителей этого гена вырастают две большие клешнеобразные мандибулы, выступающие из челюсти.</AG_GenelineCosmetic_PincerMandibles.description>
+	<!--                                   EN: beetle mandibles, cosmetic -->
+	<AG_GenelineCosmetic_BeetleMandibles.label>мандибулы жука, косметические</AG_GenelineCosmetic_BeetleMandibles.label>
+	<!--                                         EN: Carriers of this gene grow two large beetle mandibles protruding from their jaw. -->
+	<AG_GenelineCosmetic_BeetleMandibles.description>У носителей этого гена вырастают две большие жучиные мандибулы, выступающие из челюсти.</AG_GenelineCosmetic_BeetleMandibles.description>
+	<!--                                EN: bee mandibles, cosmetic -->
+	<AG_GenelineCosmetic_BeeMandibles.label>Пчелиные мандибулы, косметические</AG_GenelineCosmetic_BeeMandibles.label>
+	<!--                                      EN: Carriers of this gene grow two large bee mandibles protruding from their jaw. -->
+	<AG_GenelineCosmetic_BeeMandibles.description>У носителей этого гена вырастают две большие пчелиные мандибулы, выступающие из челюсти.</AG_GenelineCosmetic_BeeMandibles.description>
+	<!--                                   EN: insectoid mandibles, cosmetic -->
+	<AG_GenelineCosmetic_InsectMandibles.label>насекомоядные мандибулы, косметические</AG_GenelineCosmetic_InsectMandibles.label>
+	<!--                                         EN: Carriers of this gene sport a pair of appendages situated on the sides of the mouth. -->
+	<AG_GenelineCosmetic_InsectMandibles.description>У носителей этого гена есть пара придатков, расположенных по бокам рта.</AG_GenelineCosmetic_InsectMandibles.description>
+	<!--                                EN: compound eyes, cosmetic -->
+	<AG_GenelineCosmetic_CompoundEyes.label>сложные глаза, косметические</AG_GenelineCosmetic_CompoundEyes.label>
+	<!--                                      EN: Carriers of this gene have compound eyes, consisting of thousands of individual photoreceptor units. -->
+	<AG_GenelineCosmetic_CompoundEyes.description>У носителей этого гена сложные глаза, состоящие из тысяч отдельных фоторецепторов.</AG_GenelineCosmetic_CompoundEyes.description>
+	<!--                                                             EN: Fresh, Rotting -->
+	<AG_GenelineCosmetic_CompoundEyes.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_GenelineCosmetic_CompoundEyes.renderNodeProperties.0.rotDrawMode>
+	<!--                                                             EN: Fresh, Rotting -->
+	<AG_GenelineCosmetic_CompoundEyes.renderNodeProperties.1.rotDrawMode>Fresh, Rotting</AG_GenelineCosmetic_CompoundEyes.renderNodeProperties.1.rotDrawMode>
+	<!--                             EN: moth wings, cosmetic -->
+	<AG_GenelineCosmetic_MothWings.label>крылья мотылька, косметические</AG_GenelineCosmetic_MothWings.label>
+	<!--                                   EN: Carriers of this gene have a pair of lepidopteran giant wings sprouting from their back. -->
+	<AG_GenelineCosmetic_MothWings.description>У носителей этого гена на спине вырастает пара гигантских крыльев лепидоптерообразных.</AG_GenelineCosmetic_MothWings.description>
+	<!--                                    EN: bumbledrone wings, cosmetic -->
+	<AG_GenelineCosmetic_BumbledroneWings.label>крылья пчелы, косметические</AG_GenelineCosmetic_BumbledroneWings.label>
+	<!--                                          EN: Carriers of this gene have two pairs of bee wings sprouting from their back. -->
+	<AG_GenelineCosmetic_BumbledroneWings.description>У носителей этого гена на спине прорастают две пары пчелиных крыльев.</AG_GenelineCosmetic_BumbledroneWings.description>
+	<!--                             EN: wasp wings, cosmetic -->
+	<AG_GenelineCosmetic_WaspWings.label>крылья осы, косметические</AG_GenelineCosmetic_WaspWings.label>
+	<!--                                   EN: Carriers of this gene have two pairs of wasp wings sprouting from their back. -->
+	<AG_GenelineCosmetic_WaspWings.description>У носителей этого гена на спине прорастают две пары крыльев осы.</AG_GenelineCosmetic_WaspWings.description>
+	<!--                                EN: drainer wings, cosmetic -->
+	<AG_GenelineCosmetic_DrainerWings.label>крылья бабочки, косметические</AG_GenelineCosmetic_DrainerWings.label>
+	<!--                                      EN: Carriers of this gene have two pairs of drainer wings sprouting from their back. -->
+	<AG_GenelineCosmetic_DrainerWings.description>У носителей этого гена есть две пары крыльев бабочки, прорастающих из спины.</AG_GenelineCosmetic_DrainerWings.description>
+</LanguageData>

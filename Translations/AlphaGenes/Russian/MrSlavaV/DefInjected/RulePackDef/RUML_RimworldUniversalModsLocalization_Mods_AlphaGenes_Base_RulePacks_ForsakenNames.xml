@@ -1,0 +1,19 @@
+<LanguageData>
+	<!-- 1.6\Defs\RulePackDefs\RulePacks_ForsakenNames.xml -->
+	<!-- EN:
+		<li>r_name->[firstName] [lastName]</li>
+		<li>firstName->[Forsaken]</li>
+		<li>lastName->[Forsaken]</li>
+	 -->
+	<AG_NamerPersonForsaken.rulePack.rulesStrings>
+		<li>r_name->[firstName] [lastName]</li>
+		<li>firstName->[Forsaken]</li>
+		<li>lastName->[Forsaken]</li>
+	</AG_NamerPersonForsaken.rulePack.rulesStrings>
+	<!-- EN:
+		<li>Forsaken->Names/Names_Forsakens</li>
+	 -->
+	<AG_NamerPersonForsaken.rulePack.rulesFiles>
+		<li>Forsaken->Names/Names_Forsakens</li>
+	</AG_NamerPersonForsaken.rulePack.rulesFiles>
+</LanguageData>

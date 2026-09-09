@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+<GU_MakeStoneBlocksRoseQuartz.label>изготовить блоки розового кварца</GU_MakeStoneBlocksRoseQuartz.label> 
+<GU_MakeStoneBlocksRoseQuartz.description>Распилить обломки розового кварца на блоки, пригодные для строительства.</GU_MakeStoneBlocksRoseQuartz.description> 
+<GU_MakeStoneBlocksRoseQuartz.jobString>Изготавливает блоки розового кварца</GU_MakeStoneBlocksRoseQuartz.jobString>
+<AB_MakeStoneBlocksCragstone.label>изготовить блоки скального камня</AB_MakeStoneBlocksCragstone.label> 
+<AB_MakeStoneBlocksCragstone.description>Распилить обломки скального камня на блоки, пригодные для строительства.</AB_MakeStoneBlocksCragstone.description> 
+<AB_MakeStoneBlocksCragstone.jobString>Изготавливает блоки скального камня</AB_MakeStoneBlocksCragstone.jobString>
+<AB_MakeStoneBlocksObsidian.label>изготовить блоки оникс-стекла</AB_MakeStoneBlocksObsidian.label> 
+<AB_MakeStoneBlocksObsidian.description>Распилить обломки оникс-стекла на блоки, пригодные для строительства.</AB_MakeStoneBlocksObsidian.description> 
+<AB_MakeStoneBlocksObsidian.jobString>Изготавливает блоки оникс-стекла</AB_MakeStoneBlocksObsidian.jobString>
+<GU_MakeStoneBlocksMudstone.label>изготовить блоки аргиллита</GU_MakeStoneBlocksMudstone.label> 
+<GU_MakeStoneBlocksMudstone.description>Распилить обломки аргиллита на блоки, пригодные для строительства.</GU_MakeStoneBlocksMudstone.description> 
+<GU_MakeStoneBlocksMudstone.jobString>Изготавливает блоки аргиллита</GU_MakeStoneBlocksMudstone.jobString>
+<AB_MakeStoneBlocksSlimeStone.label>сделать из обломков слизнекамня "еду"</AB_MakeStoneBlocksSlimeStone.label> 
+<AB_MakeStoneBlocksSlimeStone.description>Распилить обломки слизнекамня на полусъедобную пищу.</AB_MakeStoneBlocksSlimeStone.description> 
+<AB_MakeStoneBlocksSlimeStone.jobString>делает из обломков слизнекамня "еду"</AB_MakeStoneBlocksSlimeStone.jobString>
+				
+ </LanguageData>

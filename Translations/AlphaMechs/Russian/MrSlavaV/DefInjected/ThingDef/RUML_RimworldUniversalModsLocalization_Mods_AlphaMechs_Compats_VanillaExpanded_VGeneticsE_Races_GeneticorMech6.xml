@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\VanillaExpanded_VGeneticsE\Races_GeneticorMech5.xml -->
+	<!--                 EN: geneticor -->
+	<AM_Mech_Geneticor.label>генетик</AM_Mech_Geneticor.label>
+	<!--                       EN: The Geneticor mechanoid is a humanoid robot designed for genetic engineering tasks. With advanced sensors and programming, it can analyze and manipulate DNA sequences with exceptional precision and speed. The Geneticor is equipped with a suite of specialized tools and equipment, including gene sequencers, CRISPR/Cas9 gene editing systems, and gene splicers, among others. Its programming includes an extensive database of genetic information and sequences, allowing it to adapt and customize its approach to any given task. -->
+	<AM_Mech_Geneticor.description>Механоид Генетикор — робот-гуманоид, предназначенный для задач генной инженерии. Благодаря передовым датчикам и программированию он может анализировать и манипулировать последовательностями ДНК с исключительной точностью и скоростью. Генетикор оснащен набором специализированных инструментов и оборудования, включая секвенаторы генов, системы редактирования генов CRISPR/Cas9, устройства для сплайсинга генов и многое другое. Его программа включает обширную базу данных генетической информации и последовательностей, что позволяет адаптировать и адаптировать свой подход к любой заданной задаче.</AM_Mech_Geneticor.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingStyleDefs\Vanilla\ThingStyleDefs_Rustic.xml -->
+	<!--                      EN: crude polearm -->
+	<AM_Rustic_Ikwa.overrideLabel>грубое древковое оружие</AM_Rustic_Ikwa.overrideLabel>
+	<!--                      EN: mallet -->
+	<AM_Rustic_Mace.overrideLabel>молоток</AM_Rustic_Mace.overrideLabel>
+	<!--                       EN: partisan -->
+	<AM_Rustic_Spear.overrideLabel>партизан</AM_Rustic_Spear.overrideLabel>
+</LanguageData>

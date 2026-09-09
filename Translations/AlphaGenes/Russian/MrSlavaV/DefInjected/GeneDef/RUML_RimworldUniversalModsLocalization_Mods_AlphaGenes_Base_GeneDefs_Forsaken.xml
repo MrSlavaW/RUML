@@ -1,0 +1,23 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Forsaken.xml -->
+	<!--                    EN: forsaken knowledge -->
+	<AG_ForsakenKnowledge.label>Знания Отреченных</AG_ForsakenKnowledge.label>
+	<!--                          EN: Carriers of this gene have genetic knowledge related to Forsaken techniques and equipment. They will be able to build Forsaken structures and wear Forsaken apparel and armors. -->
+	<AG_ForsakenKnowledge.description>Носители этого гена обладают генетическими знаниями, связанными с техникой и снаряжением Отреченных. Они смогут строить строения Отреченных и носить одежду и доспехи Отреченных.</AG_ForsakenKnowledge.description>
+	<!--                     EN: forsaken body emblem -->
+	<AG_ForsakenBodyEmblem.label>эмблема тела Отреченных</AG_ForsakenBodyEmblem.label>
+	<!--                           EN: Carriers of this gene have a yellow emblem associated with the forsaken on their midsection. This comes with multiple physical benefits. -->
+	<AG_ForsakenBodyEmblem.description>У носителей этого гена на середине тела есть желтая эмблема, ассоциирующаяся с Отреченными. Это дает множество физических преимуществ.</AG_ForsakenBodyEmblem.description>
+	<!--                                                  EN: Fresh, Rotting -->
+	<AG_ForsakenBodyEmblem.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_ForsakenBodyEmblem.renderNodeProperties.0.rotDrawMode>
+	<!--                     EN: forsaken head emblem -->
+	<AG_ForsakenHeadEmblem.label>Эмблема головы Отреченных</AG_ForsakenHeadEmblem.label>
+	<!--                           EN: Carriers of this gene have a yellow emblem associated with the forsaken on their forehead. This comes with multiple mental benefits. -->
+	<AG_ForsakenHeadEmblem.description>У носителей этого гена на лбу красуется желтая эмблема, ассоциирующаяся с Отреченными. Это дает множество преимуществ для психики.</AG_ForsakenHeadEmblem.description>
+	<!--                        EN: extraordinary lifespan -->
+	<AG_ExtraordinaryLifespan.label>экстраординарная продолжительность жизни</AG_ExtraordinaryLifespan.label>
+	<!--                              EN: Carriers of this gene will enjoy an extraordinary lifespan. Children will however take an incredibly long time to grow up. -->
+	<AG_ExtraordinaryLifespan.description>Носители этого гена будут обладать необычайной продолжительностью жизни. Однако детям потребуется невероятно много времени, чтобы вырасти.</AG_ExtraordinaryLifespan.description>
+	<!--                                             EN: Children will take 5 times longer to mature. -->
+	<AG_ExtraordinaryLifespan.customEffectDescriptions.0>Детям потребуется в 5 раз больше времени, чтобы повзрослеть.</AG_ExtraordinaryLifespan.customEffectDescriptions.0>
+</LanguageData>

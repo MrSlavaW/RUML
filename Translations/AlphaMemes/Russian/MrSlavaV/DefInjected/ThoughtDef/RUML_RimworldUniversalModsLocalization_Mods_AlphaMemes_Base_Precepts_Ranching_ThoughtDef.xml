@@ -1,0 +1,41 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Ranching.xml -->
+	
+	<!--                                                       EN: no cattle -->
+	<AM_Ranching_CattleCentered_CattleMassPerCapita.stages.0.label>нет скота</AM_Ranching_CattleCentered_CattleMassPerCapita.stages.0.label>
+	<!--                                                             EN: We have no cattle at all! What kind of cowboys are we? -->
+	<AM_Ranching_CattleCentered_CattleMassPerCapita.stages.0.description>У нас нет скота! Какие же мы ковбои?</AM_Ranching_CattleCentered_CattleMassPerCapita.stages.0.description>
+	<!--                                                       EN: scarce cattle -->
+	<AM_Ranching_CattleCentered_CattleMassPerCapita.stages.1.label>мало скота</AM_Ranching_CattleCentered_CattleMassPerCapita.stages.1.label>
+	<!--                                                             EN: Our herd is pitifully small. Without cattle, this doesn’t feel like a real ranch. -->
+	<AM_Ranching_CattleCentered_CattleMassPerCapita.stages.1.description>Наше стадо жалко мало. Без скота это не чувствуется как настоящее ранчо.</AM_Ranching_CattleCentered_CattleMassPerCapita.stages.1.description>
+	<!--                                                       EN: few cattle -->
+	<AM_Ranching_CattleCentered_CattleMassPerCapita.stages.2.label>немного скота</AM_Ranching_CattleCentered_CattleMassPerCapita.stages.2.label>
+	<!--                                                             EN: We have too few cattle to call this a proper ranch. It feels wrong. -->
+	<AM_Ranching_CattleCentered_CattleMassPerCapita.stages.2.description>У нас слишком мало скота, чтобы назвать это настоящим ранчо. Это чувствуется неправильно.</AM_Ranching_CattleCentered_CattleMassPerCapita.stages.2.description>
+	<!--                                                       EN: some cattle -->
+	<AM_Ranching_CattleCentered_CattleMassPerCapita.stages.3.label>некоторое количество скота</AM_Ranching_CattleCentered_CattleMassPerCapita.stages.3.label>
+	<!--                                                             EN: It’s good to have cattle here, but the herd is far from what it could be. -->
+	<AM_Ranching_CattleCentered_CattleMassPerCapita.stages.3.description>Хорошо, что у нас есть скот, но стадо далеко от того, чем могло бы быть.</AM_Ranching_CattleCentered_CattleMassPerCapita.stages.3.description>
+	<!--                                                       EN: lots of cattle -->
+	<AM_Ranching_CattleCentered_CattleMassPerCapita.stages.4.label>много скота</AM_Ranching_CattleCentered_CattleMassPerCapita.stages.4.label>
+	<!--                                                             EN: Our herd is growing strong. The ranch is shaping up nicely. -->
+	<AM_Ranching_CattleCentered_CattleMassPerCapita.stages.4.description>Наше стадо крепнет. Ранчо приобретает хорошую форму.</AM_Ranching_CattleCentered_CattleMassPerCapita.stages.4.description>
+	<!--                                                       EN: tons of cattle -->
+	<AM_Ranching_CattleCentered_CattleMassPerCapita.stages.5.label>множество скота</AM_Ranching_CattleCentered_CattleMassPerCapita.stages.5.label>
+	<!--                                                             EN: The herd is thriving, and the ranch feels alive. This is the way ranching is meant to be. -->
+	<AM_Ranching_CattleCentered_CattleMassPerCapita.stages.5.description>Стадо процветает, и ранчо оживает. Вот как должно быть ранчо.</AM_Ranching_CattleCentered_CattleMassPerCapita.stages.5.description>
+	
+	<!--                                        EN: no pen markers around -->
+	<AM_Ranching_CattleCentered_Pens.stages.0.label>нет загонов вокруг</AM_Ranching_CattleCentered_Pens.stages.0.label>
+	<!--                                              EN: There are no pens in our colony. It's peaceful, but something feels missing. -->
+	<AM_Ranching_CattleCentered_Pens.stages.0.description>В нашем поселении нет загонов. Здесь мирно, но чего-то не хватает.</AM_Ranching_CattleCentered_Pens.stages.0.description>
+	<!--                                        EN: pen marker around -->
+	<AM_Ranching_CattleCentered_Pens.stages.1.label>загон вокруг</AM_Ranching_CattleCentered_Pens.stages.1.label>
+	<!--                                              EN: We have a pen marker set up. It's a good start to raising and caring for cattle. -->
+	<AM_Ranching_CattleCentered_Pens.stages.1.description>У нас есть загон. Это хорошее начало для разведения и ухода за скотом.</AM_Ranching_CattleCentered_Pens.stages.1.description>
+	<!--                                        EN: pen markers around -->
+	<AM_Ranching_CattleCentered_Pens.stages.2.label>загоны вокруг</AM_Ranching_CattleCentered_Pens.stages.2.label>
+	<!--                                              EN: Our pens are ready, and the ranch feels complete with cattle being raised properly. -->
+	<AM_Ranching_CattleCentered_Pens.stages.2.description>Наши загоны готовы, и ранчо кажется завершенным, когда скот разводится правильно.</AM_Ranching_CattleCentered_Pens.stages.2.description>
+</LanguageData>

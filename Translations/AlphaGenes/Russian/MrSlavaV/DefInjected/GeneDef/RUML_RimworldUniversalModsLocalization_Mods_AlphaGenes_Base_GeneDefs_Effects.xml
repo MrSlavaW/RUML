@@ -1,0 +1,15 @@
+<LanguageData>
+	<AG_BoomNodules.label>Хим наросты</AG_BoomNodules.label>
+	<AG_BoomNodules.description>Огромные наросты, наполненные химическим топливом, делают этого человека довольно отвратительным на вид.</AG_BoomNodules.description>
+	<AG_BoomNodules.customEffectDescriptions.0>наросты взорвутся, если человек умрет.ВЗРЫВ всего на 2 клетки после смерти</AG_BoomNodules.customEffectDescriptions.0>
+	<AG_TetraCoils.label>Тетра катушки</AG_TetraCoils.label>
+	<AG_TetraCoils.description>Техноорганические катушки беспроводной энергии, встроенные в геном носителя, позволяют ему подзаряжать ближайшие аккумуляторы.</AG_TetraCoils.description>
+	<AG_TetraCoils.customEffectDescriptions.0>Поселенец заряжает батареи поблизости. Поддерживаются батареи большинства модов.</AG_TetraCoils.customEffectDescriptions.0>
+	<AG_InsectJellyProduction.label>Производство желе</AG_InsectJellyProduction.label>
+	<AG_InsectJellyProduction.description>Носитель этого гена постоянно выделяет и производит желе насекомых, которое обеспечивает колонию дополнительной пищей.</AG_InsectJellyProduction.description>
+	<AG_InsectJellyProduction.customEffectDescriptions.0>Производит 12 желе насекомых в день.</AG_InsectJellyProduction.customEffectDescriptions.0>
+	<AG_InsectJellyProduction.customEffectDescriptions.1>Этот ген сбалансирован</AG_InsectJellyProduction.customEffectDescriptions.1>
+	<AG_Polluter.label>Эрозив</AG_Polluter.label>
+	<AG_Polluter.description>Носитель этого гена периодически загрязняет окружающую местность, постепенно превращая её в безжизненную пустошь.</AG_Polluter.description>
+	<AG_Polluter.customEffectDescriptions.0>Это не делает носителя невосприимчивым к воздействию загрязнения!</AG_Polluter.customEffectDescriptions.0>
+</LanguageData>

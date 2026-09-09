@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Apoptosis.xml -->
+	<!--            EN: apoptosis -->
+	<AM_Apoptosis.label>апоптоз</AM_Apoptosis.label>
+	<!--                               EN: Plural apoptosis -->
+	<AM_Apoptosis.lifeStages.1.labelPlural>Апоптозы</AM_Apoptosis.lifeStages.1.labelPlural>
+<AM_Apoptosis.lifeStages.0.labelPlural>Апоптозы</AM_Apoptosis.lifeStages.0.labelPlural></LanguageData>

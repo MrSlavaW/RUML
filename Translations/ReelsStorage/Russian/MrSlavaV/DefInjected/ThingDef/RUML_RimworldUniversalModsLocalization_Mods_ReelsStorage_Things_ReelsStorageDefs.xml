@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ReelIndustrialShelf.description>Вместительный промышленный стеллаж для хранения продовольствия.</ReelIndustrialShelf.description>
+  <ReelIndustrialShelf.label>пищевой стеллаж</ReelIndustrialShelf.label>
+  <ReelStorageBarrel.description>Деревянная бочка для хранения сыпучих и жидких припасов.</ReelStorageBarrel.description>
+  <ReelStorageBarrel.label>бочка</ReelStorageBarrel.label>
+  <ReelStorageFridge.description>Охлаждаемый шкаф для безопасного хранения скоропортящихся продуктов питания.</ReelStorageFridge.description>
+  <ReelStorageFridge.label>холодильник</ReelStorageFridge.label>
+  <ReelStorageLargeWoodCrate.description>Большой штабель деревянных грузовых ящиков.</ReelStorageLargeWoodCrate.description>
+  <ReelStorageLargeWoodCrate.label>штабель ящиков</ReelStorageLargeWoodCrate.label>
+  <ReelStorageLocker.description>Индивидуальный металлический запирающийся шкафчик.</ReelStorageLocker.description>
+  <ReelStorageLocker.label>шкафчик</ReelStorageLocker.label>
+  <ReelStoragePallet.description>Грузовой поддон для штабелирования материалов.</ReelStoragePallet.description>
+  <ReelStoragePallet.label>поддон</ReelStoragePallet.label>
+  <ReelStorageWoodCrate.description>Прочный деревянный контейнер для сухих грузов.</ReelStorageWoodCrate.description>
+  <ReelStorageWoodCrate.label>ящик</ReelStorageWoodCrate.label>
+</LanguageData>

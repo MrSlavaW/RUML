@@ -1,0 +1,17 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_AteNutrientPaste.xml -->
+	<!--                                  EN: indifferent -->
+	<AM_NutrientPasteEating_Indifferent.label>безразлична</AM_NutrientPasteEating_Indifferent.label>
+	<!--                                        EN: Nutrient paste is a necessity on the Rim. It may not be tasty but it keeps you well fed for another day.\n\n&lt;color=#E5E54C&gt;Note:&lt;/color&gt;\n - This is just a version of the "Don't mind" rank of the precept that doesn't need Transhumanist or Inhuman (Anomaly DLC), so you can add it to other ideos if you want. -->
+	<AM_NutrientPasteEating_Indifferent.description>Питательная паста необходима в Окраинных мирах. Это может быть невкусно, но вы будете сыты на еще один день.\n\n&lt;color=#E5E54C&gt;Примечание:&lt;/color&gt;\n — это всего лишь версия ранга «Не возражаю» заповеди, которая не нуждается в трансгуманизме, так что вы можете добавить ее к другим идеологиям, если хотите.</AM_NutrientPasteEating_Indifferent.description>
+	
+	<!--                                EN: preferred -->
+	<AM_NutrientPasteEating_Preferred.label>предпочтительна</AM_NutrientPasteEating_Preferred.label>
+	<!--                                      EN: Nutrient paste is divine ambrosia. A formless glop made of reprocessed meats, vegetables and... "other things". Who could say no to that? -->
+	<AM_NutrientPasteEating_Preferred.description>Питательная паста – божественная амброзия. Бесформенная каша из переработанного мяса, овощей и... "других" составляющих. Кто может сказать «нет» этому?</AM_NutrientPasteEating_Preferred.description>
+	
+	<!--                                EN: forbidden -->
+	<AM_NutrientPasteEating_Forbidden.label>запрещена</AM_NutrientPasteEating_Forbidden.label>
+	<!--                                      EN: We will absolutely never eat nutrient paste. What a disgusting, revolting thing. We'd rather starve.\n\n&lt;color=#E5E54C&gt;Note:&lt;/color&gt;\n - Colonist will immediately vomit a nutrient paste meal if consumed. -->
+	<AM_NutrientPasteEating_Forbidden.description>Мы никогда не будем есть питательную пасту. Какая отвратительная, мерзкая вещь. Лучше умерем с голоду.\n\n&lt;color=#E5E54C&gt;Примечание:&lt;/color&gt;\n - Поселенца немедленно вырвет, если он съест питательную пасту.</AM_NutrientPasteEating_Forbidden.description>
+</LanguageData>

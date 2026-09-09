@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AspirationDef.description>{0} wants to become a demon.</AspirationDef.description>
+  
+  <Empire_Fighter_Cataphract_Hussar.label>гусар-катафракт</Empire_Fighter_Cataphract_Hussar.label>
+  
+  <TMM_ConditionalStunScaled.label>оглушение</TMM_ConditionalStunScaled.label>
+  <TMM_JapaneseBeverage.description>Традиционный японский напиток.</TMM_JapaneseBeverage.description>
+  <TMM_JapaneseBeverage.label>японский напиток</TMM_JapaneseBeverage.label>
+  <TMM_RandomBeverage.description>Случайный освежающий напиток.</TMM_RandomBeverage.description>
+  <TMM_RandomBeverage.label>случайный напиток</TMM_RandomBeverage.label>
+  <TMM_RandomBreakfast.description>Сытный питательный завтрак из доступных продуктов.</TMM_RandomBreakfast.description>
+  <TMM_RandomBreakfast.label>случайный завтрак</TMM_RandomBreakfast.label>
+  <TMM_RandomChillDrink.description>Освежающий напиток из местных ингредиентов.</TMM_RandomChillDrink.description>
+  <TMM_RandomChillDrink.label>случайный прохладительный напиток</TMM_RandomChillDrink.label>
+  <TMM_RandomMealFridge.description>Хранилище с подборкой готовых обедов.</TMM_RandomMealFridge.description>
+  <TMM_RandomMealFridge.label>холодильник со случайными блюдами</TMM_RandomMealFridge.label>
+  <TMM_RandomPotPlant.description>Декоративное комнатное растение.</TMM_RandomPotPlant.description>
+  <TMM_RandomPotPlant.label>растение в горшке</TMM_RandomPotPlant.label>
+  <TMM_RandomSoftDrink.description>Случайная банка газировки.</TMM_RandomSoftDrink.description>
+  <TMM_RandomSoftDrink.label>газированный напиток</TMM_RandomSoftDrink.label>
+  <TMM_RandomSushi.description>лапа</TMM_RandomSushi.description>
+  <TMM_RandomSushi.label>случайные суши</TMM_RandomSushi.label>
+  <TMM_RandomSushiFish.description>лапа</TMM_RandomSushiFish.description>
+  <TMM_RandomSushiFish.label>случайная рыба для суши</TMM_RandomSushiFish.label>
+  <TMM_RandomTribalCommon.description>Создаёт случайные племенные припасы.</TMM_RandomTribalCommon.description>
+  <TMM_RandomTribalCommon.label>обычная добыча племени</TMM_RandomTribalCommon.label>
+  <TMM_RandomTribalRare.description>Создаёт случайную редкую племенную добычу.</TMM_RandomTribalRare.description>
+  <TMM_RandomTribalRare.label>редкая добыча племени</TMM_RandomTribalRare.label>
+  <TMM_RandomTribalWeaponLegendary.description>Случайное легендарное оружие племён.</TMM_RandomTribalWeaponLegendary.description>
+  <TMM_RandomTribalWeaponLegendary.label>легендарное племенное оружие</TMM_RandomTribalWeaponLegendary.label>
+  <TMM_RandomWildFood.description>Случайные дикие съедобные растения.</TMM_RandomWildFood.description>
+  <TMM_RandomWildFood.label>дикорастущая пища</TMM_RandomWildFood.label>
+  <TMM_SurrogateAndon.description>Суррогатный источник мягкого освещения.</TMM_SurrogateAndon.description>
+  <TMM_SurrogateAndon.label>суррогатный светильник</TMM_SurrogateAndon.label>
+  <TMM_VFEC_Senator.description>[PAWN_nameDef] был избранным сенатором в Республике.</TMM_VFEC_Senator.description>
+  <TMM_VFEC_Senator.label>сенатор</TMM_VFEC_Senator.label>
+  <TMM_VF_PassengerShuttle_Blueprint.description>Челнок на химтопливе, предназначенный для дальних перелётов через всю планету.</TMM_VF_PassengerShuttle_Blueprint.description>
+  <TMM_VF_PassengerShuttle_Blueprint.label>пассажирский челнок</TMM_VF_PassengerShuttle_Blueprint.label>
+  <TMM_VPE_PsycastRebalances_RandomPathOnFirstPsylink.label>Случайный путь при получении первой псисвязи</TMM_VPE_PsycastRebalances_RandomPathOnFirstPsylink.label>
+  <VehicleBuildDef.description>A chemfuel-powered shuttle designed for long-distance travel. It is capable of reaching orbital locations.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x1, Passenger x3\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</VehicleBuildDef.description>
+  <VehicleBuildDef.label>пассажирский шаттл</VehicleBuildDef.label>
+</LanguageData>

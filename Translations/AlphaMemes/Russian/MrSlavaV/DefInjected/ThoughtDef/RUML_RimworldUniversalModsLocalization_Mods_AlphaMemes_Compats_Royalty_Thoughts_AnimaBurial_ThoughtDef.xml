@@ -1,0 +1,32 @@
+<LanguageData>
+	<!-- 1.6\Mods\Royalty\Defs\ThoughtDefs\Thoughts_AnimaBurial.xml -->
+	<!--                               EN: disgraceful burial -->
+	<AM_TerribleAnimaBurial.stages.0.label>позорное захоронение</AM_TerribleAnimaBurial.stages.0.label>
+	<!--                                     EN: That anima burial was devastating, I hope the tree spirit will forgive us some day. -->
+	<AM_TerribleAnimaBurial.stages.0.description>Захоронение анимы было ужасным, надеюсь, дух дерева когда-нибудь нас простит.</AM_TerribleAnimaBurial.stages.0.description>
+	
+	<!--                                 EN: lackluster burial -->
+	<AM_LacklusterAnimaBurial.stages.0.label>тусклое захоронение</AM_LacklusterAnimaBurial.stages.0.label>
+	<!--                                       EN: That anima burial was quite disappointing. The tree spirit seemed displeased. -->
+	<AM_LacklusterAnimaBurial.stages.0.description>То захоронение анимы было довольно разочаровывающим. Дух дерева казался недовольным.</AM_LacklusterAnimaBurial.stages.0.description>
+	
+	<!--                           EN: good burial -->
+	<AM_GoodAnimaBurial.stages.0.label>хорошее захоронение</AM_GoodAnimaBurial.stages.0.label>
+	<!--                                 EN: The burial went well, a good sendoff and I believe my friend is with the tree's spirit now. -->
+	<AM_GoodAnimaBurial.stages.0.description>Похороны прошли хорошо, хорошие проводы, и я верю, что мой друг сейчас с духом дерева.</AM_GoodAnimaBurial.stages.0.description>
+	
+	<!--                              EN: amazing burial -->
+	<AM_AmazingAnimaBurial.stages.0.label>удивительное захоронение</AM_AmazingAnimaBurial.stages.0.label>
+	<!--                                    EN: The burial was amazing. I could feel the tree spirit embracing our friend. -->
+	<AM_AmazingAnimaBurial.stages.0.description>Погребение было потрясающим. Я чувствовал, как дух дерева обнимает нашего друга.</AM_AmazingAnimaBurial.stages.0.description>
+	
+	<!--                                 EN: incredible burial -->
+	<AM_IncredibleAnimaBurial.stages.0.label>невероятное захоронение</AM_IncredibleAnimaBurial.stages.0.label>
+	<!--                                       EN: That burial was enlightening, the tree spirit graced us with some of its power. -->
+	<AM_IncredibleAnimaBurial.stages.0.description>Это захоронение было поучительным, дух дерева одарил нас частью своей силы.</AM_IncredibleAnimaBurial.stages.0.description>
+	
+	<!--                             EN: anima scream -->
+	<AM_AnimaScreamLesser.stages.0.label>крик анимы</AM_AnimaScreamLesser.stages.0.label>
+	<!--                                   EN: Such a pain in my head. We shouldn't have angered the tree. -->
+	<AM_AnimaScreamLesser.stages.0.description>Такая боль в голове. Мы не должны были злить дерево.</AM_AnimaScreamLesser.stages.0.description>
+</LanguageData>

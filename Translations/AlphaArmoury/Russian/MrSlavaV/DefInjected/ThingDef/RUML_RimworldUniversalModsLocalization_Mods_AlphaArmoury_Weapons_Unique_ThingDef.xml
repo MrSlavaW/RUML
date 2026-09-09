@@ -1,0 +1,25 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Items\Weapons_Unique.xml -->
+
+	<!-- EN: unique launcher -->
+	<AArmoury_Gun_Launcher_Unique.label>уникальный гранатомёт</AArmoury_Gun_Launcher_Unique.label>
+
+
+	<!-- EN: A customized wide-barreled shell launcher. By default configured to fire smoke shells. -->
+	<AArmoury_Gun_Launcher_Unique.description>Модифицированный широкоствольный гранатомёт. По умолчанию настроен на стрельбу дымовыми снарядами.</AArmoury_Gun_Launcher_Unique.description>
+
+	<!-- EN: выстрел -->
+	<AArmoury_Gun_Launcher_Unique.verbs.0.label>выстрел</AArmoury_Gun_Launcher_Unique.verbs.0.label>
+
+	<!-- EN: приклад -->
+	<AArmoury_Gun_Launcher_Unique.tools.0.label>приклад</AArmoury_Gun_Launcher_Unique.tools.0.label>
+
+	<!-- EN: ствол -->
+	<AArmoury_Gun_Launcher_Unique.tools.1.label>ствол</AArmoury_Gun_Launcher_Unique.tools.1.label>
+
+	<!-- EN: на перезарядке -->
+	<AArmoury_Gun_Launcher_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>на перезарядке</AArmoury_Gun_Launcher_Unique.comps.CompEquippableAbilityReloadable.cooldownGerund>
+
+	<!-- EN: заряд -->
+	<AArmoury_Gun_Launcher_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>заряд</AArmoury_Gun_Launcher_Unique.comps.CompEquippableAbilityReloadable.chargeNoun>
+</LanguageData>

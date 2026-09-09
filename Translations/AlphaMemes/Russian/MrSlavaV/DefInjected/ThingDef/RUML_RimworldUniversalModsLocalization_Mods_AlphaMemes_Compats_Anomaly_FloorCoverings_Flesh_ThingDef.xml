@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\ThingDefs_Misc\FloorCoverings_Flesh.xml -->
+	<!--                   EN: flesh slab (medium) -->
+	<AM_FleshSlab_Medium.label>Плита из плоти (средняя)</AM_FleshSlab_Medium.label>
+	<!--                         EN: A stone bas relief of flesh imagery for decorating a floor. -->
+	<AM_FleshSlab_Medium.description>Каменный барельеф с изображением плоти для украшения пола.</AM_FleshSlab_Medium.description>
+	
+	<!--                  EN: flesh slab (broad) -->
+	<AM_FleshSlab_Broad.label>Плита из плоти (широкая)</AM_FleshSlab_Broad.label>
+	<!--                        EN: A stone bas relief of flesh imagery for decorating a floor. -->
+	<AM_FleshSlab_Broad.description>Каменный барельеф с изображением плоти для украшения пола.</AM_FleshSlab_Broad.description>
+</LanguageData>

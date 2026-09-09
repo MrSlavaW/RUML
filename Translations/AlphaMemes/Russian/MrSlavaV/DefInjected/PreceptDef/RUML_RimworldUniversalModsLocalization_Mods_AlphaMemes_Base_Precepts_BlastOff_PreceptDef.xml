@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\PreceptDefs\Precepts_BlastOff.xml -->
+	<!--                  EN: blast off funeral -->
+	<AM_BlastOffFuneral.label>космические похороны</AM_BlastOffFuneral.label>
+	<!--                        EN: A gathering to witness our friend be sent off to the stars. -->
+	<AM_BlastOffFuneral.description>Собрание, чтобы увидеть отправление нашего друга отправляют к звездам.</AM_BlastOffFuneral.description>
+	<!--                                     EN: {PAWN_nameDef} should be loaded into a transport pod and blasted off, so {PAWN_possessive} friends and family can move on. -->
+	<AM_BlastOffFuneral.extraTextPawnDeathLetter>{PAWN_nameDef} следует загрузить в транспортную капсулу и отправить в путь, чтобы друзья и семья {PAWN_possessive} могли двигаться дальше.</AM_BlastOffFuneral.extraTextPawnDeathLetter>
+</LanguageData>

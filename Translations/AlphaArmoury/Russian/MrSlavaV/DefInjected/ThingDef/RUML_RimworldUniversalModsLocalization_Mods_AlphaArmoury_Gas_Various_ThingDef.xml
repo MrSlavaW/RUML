@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Gas_Various.xml -->
+
+	<!--                 EN: acid mist -->
+	<AArmoury_GreenGas.label>кислотный туман</AArmoury_GreenGas.label>
+
+	<!--             EN: decoherence nanites -->
+	<AArmoury_Holy.label>наниты декогеренции</AArmoury_Holy.label>
+</LanguageData>

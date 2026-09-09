@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_CleanAura.xml -->
+	<!--             EN: aura -->
+	<VFE_Mech_Aura.label>аура</VFE_Mech_Aura.label>
+	<!--                                EN: Plural aura -->
+	<VFE_Mech_Aura.lifeStages.0.labelPlural>Ауры</VFE_Mech_Aura.lifeStages.0.labelPlural>
+</LanguageData>

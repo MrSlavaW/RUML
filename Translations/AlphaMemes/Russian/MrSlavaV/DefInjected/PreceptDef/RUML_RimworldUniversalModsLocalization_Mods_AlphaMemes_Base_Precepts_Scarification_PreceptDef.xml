@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Scarification.xml -->
+<!--                       EN: insane -->
+    <AM_Scarification_Insane.label>безумный</AM_Scarification_Insane.label>
+    <!--                             EN: Every person ought to be covered in ritual scars. An unmarked body is an unfinished one.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Unlike other scarification precepts, pawns with this precept on their ideo won't spawn with scarifications before joining the colony. That's very much intended. Don't blame me for base game bullshit. You have to earn these. -->
+    <AM_Scarification_Insane.description>Каждый человек должен быть покрыт ритуальными шрамами. Тело без единого шрама — это незаконченное тело.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - В отличие от других принципов шрамирования, пешки с этим принципом в своей идеологии не будут появляться со шрамами до присоединения к колонии. Это абсолютно намеренно. Не вините меня за косяки базовой игры. Эти шрамы нужно заслужить.</AM_Scarification_Insane.description>
+    <!--                                                    EN: Scarification (8 scars required) -->
+    <AM_Scarification_Insane.comps.0.thoughtStageDescriptions.0>Шрамирование (требуется 8 шрамов)</AM_Scarification_Insane.comps.0.thoughtStageDescriptions.0>
+    <!--                                                    EN: Scarification (8 scars required) -->
+    <AM_Scarification_Insane.comps.1.thoughtStageDescriptions.0>Шрамирование (требуется 8 шрамов)</AM_Scarification_Insane.comps.1.thoughtStageDescriptions.0>
+</LanguageData>

@@ -1,0 +1,37 @@
+<LanguageData>
+	<!-- 1.6\Mods\Royalty\Defs\RitualDefs\AnimaTreeOffering.xml -->
+	
+	<!--                           EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+	<AM_AnimaBurialOutcome.description>В зависимости от качества ритуала у участников изменится настроение от {MINMOOD} до {MAXMOOD} на {MOODDAYS} дней.</AM_AnimaBurialOutcome.description>
+	<!--                                      EN: Terrible -->
+	<AM_AnimaBurialOutcome.outcomeChances.0.label>Ужасный</AM_AnimaBurialOutcome.outcomeChances.0.label>
+	<!--                                            EN: The {0} was terrible! We have angered the tree's spirit and it's punishing us. -->
+	<AM_AnimaBurialOutcome.outcomeChances.0.description>{0} было ужасно! Мы разозлили дух дерева, и он наказывает нас.</AM_AnimaBurialOutcome.outcomeChances.0.description>
+	<!--                                      EN: Lackluster -->
+	<AM_AnimaBurialOutcome.outcomeChances.1.label>Тусклый</AM_AnimaBurialOutcome.outcomeChances.1.label>
+	<!--                                            EN: The {0} was lackluster. We fear we may have offended the tree spirit -->
+	<AM_AnimaBurialOutcome.outcomeChances.1.description>{0} был тусклым. Мы боимся, что могли обидеть древесного духа.</AM_AnimaBurialOutcome.outcomeChances.1.description>
+	<!--                                      EN: Good -->
+	<AM_AnimaBurialOutcome.outcomeChances.2.label>Хороший</AM_AnimaBurialOutcome.outcomeChances.2.label>
+	<!--                                            EN: The {0} was good. Our friend belongs to the tree spirit now. -->
+	<AM_AnimaBurialOutcome.outcomeChances.2.description>{0} было хорошо. Наш друг теперь принадлежит духу дерева.</AM_AnimaBurialOutcome.outcomeChances.2.description>
+	<!--                                      EN: Amazing -->
+	<AM_AnimaBurialOutcome.outcomeChances.3.label>Удивительно</AM_AnimaBurialOutcome.outcomeChances.3.label>
+	<!--                                            EN: The {0} was great. The tree's spirit appears pleased, and grass has grown. -->
+	<AM_AnimaBurialOutcome.outcomeChances.3.description>{0} был великолепен. Дух дерева кажется довольным, и трава выросла.</AM_AnimaBurialOutcome.outcomeChances.3.description>
+	<!--                                      EN: Incredible -->
+	<AM_AnimaBurialOutcome.outcomeChances.4.label>Невероятный</AM_AnimaBurialOutcome.outcomeChances.4.label>
+	<!--                                            EN: The {0} was breathtaking. The tree's spirit has graced us with some of its power. -->
+	<AM_AnimaBurialOutcome.outcomeChances.4.description>{0} захватывало дух. Дух дерева подарил нам часть своей силы.</AM_AnimaBurialOutcome.outcomeChances.4.description>
+	<!--                             EN: shaman psyker level -->
+	<AM_AnimaBurialOutcome.comps.0.label>уровень шамана псайкера</AM_AnimaBurialOutcome.comps.0.label>
+	<!--                             EN: deceased psychic sensitivity -->
+	<AM_AnimaBurialOutcome.comps.1.label>умершая психическая чувствительность</AM_AnimaBurialOutcome.comps.1.label>
+	<!--                             EN: participant count -->
+	<AM_AnimaBurialOutcome.comps.2.label>{0} был довольно эффективным. Они производили гораздо больше питательных веществ, чем можно было бы ожидать.
+количество участников</AM_AnimaBurialOutcome.comps.2.label>
+	<!--                                                EN: The {RITUAL} was a disaster! {CORPSE}'s soul angered the tree! -->
+	<AM_AnimaBurialOutcome.modExtensions.0.worstOutcomeDesc>{RITUAL} был катастрофой! Душа {CORPSE} разозлила дерево!</AM_AnimaBurialOutcome.modExtensions.0.worstOutcomeDesc>
+	<!--                                               EN: The {RITUAL} was spectacular! {CORPSE} has been absorbed and the anima tree has empowered us. -->
+	<AM_AnimaBurialOutcome.modExtensions.0.bestOutcomeDesc>{RITUAL} был впечатляющим! {CORPSE} был поглощен, и дерево анимы наделило нас силой.</AM_AnimaBurialOutcome.modExtensions.0.bestOutcomeDesc>
+</LanguageData>

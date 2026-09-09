@@ -1,0 +1,52 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Buildings\Buildings_Art.xml -->
+	<!--                          EN: Contains the remains of: {CORPSES} -->
+	<AM_Pyramid.comps.4.inspectString>Содержит останки: {CORPSES}</AM_Pyramid.comps.4.inspectString>
+	<!--          EN: pyramid -->
+	<AM_Pyramid.label>пирамида</AM_Pyramid.label>
+	<!--                EN: A gigantic stone structure whose outer surfaces are triangular and converge to a single step at the top. -->
+	<AM_Pyramid.description>Гигантское каменное сооружение, внешние поверхности которого имеют треугольную форму и сходятся вверху к одной ступени.</AM_Pyramid.description>
+	
+	<!--            EN: grand gate -->
+	<AM_GrandGate.label>большие врата</AM_GrandGate.label>
+	<!--                  EN: A huge entrance for a kemetic city. -->
+	<AM_GrandGate.description>Огромный вход для кеметского города.</AM_GrandGate.description>
+	
+	<!--                    EN: futuristic obelisk -->
+	<AM_FuturisticObelisk.label>футуристический обелиск</AM_FuturisticObelisk.label>
+	<!--                          EN: A huge metallic obelisk. -->
+	<AM_FuturisticObelisk.description>Огромный металлический обелиск.</AM_FuturisticObelisk.description>
+	
+	<!--                  EN: futuristic stele -->
+	<AM_FuturisticStele.label>футуристическая стела</AM_FuturisticStele.label>
+	<!--                        EN: A huge metallic stele. -->
+	<AM_FuturisticStele.description>Огромная металлическая стела.</AM_FuturisticStele.description>
+	
+	<!--                    EN: futuristic great pyramid -->
+	<AM_FuturisticPyramid.label>футуристическая великая пирамида</AM_FuturisticPyramid.label>
+	<!--                          EN: A truly colossal metallic structure whose outer surfaces are triangular and converge to a single step at the top. -->
+	<AM_FuturisticPyramid.description>Поистине колоссальная металлическая конструкция, внешние поверхности которой имеют треугольную форму и сходятся вверху к единой ступени.</AM_FuturisticPyramid.description>
+	<!--                                     EN: {CORPSE}'s {LABEL} -->
+	<AM_FuturisticPyramid.comps.3.transformLabel>{LABEL} {CORPSE}</AM_FuturisticPyramid.comps.3.transformLabel>
+	<!--                                    EN: Contains the last remains of {CORPSE} -->
+	<AM_FuturisticPyramid.comps.3.inspectString>Содержит последние останки {CORPSE}</AM_FuturisticPyramid.comps.3.inspectString>
+	
+	<!--               EN: great pyramid -->
+	<AM_GreatPyramid.label>великая пирамида</AM_GreatPyramid.label>
+	<!--                     EN: A truly colossal stone structure whose outer surfaces are triangular and converge to a single step at the top. -->
+	<AM_GreatPyramid.description>Поистине колоссальное каменное сооружение, внешние поверхности которого имеют треугольную форму и сходятся вверху к единой ступени.</AM_GreatPyramid.description>
+	<!--                                EN: {CORPSE}'s {LABEL} -->
+	<AM_GreatPyramid.comps.3.transformLabel>{LABEL} {CORPSE}</AM_GreatPyramid.comps.3.transformLabel>
+	<!--                               EN: Contains the last remains of {CORPSE} -->
+	<AM_GreatPyramid.comps.3.inspectString>Содержит последние останки {CORPSE}</AM_GreatPyramid.comps.3.inspectString>
+	
+	<!--         EN: sphinx -->
+	<AM_Sphynx.label>сфинкс</AM_Sphynx.label>
+	<!--               EN: A truly colossal statue of a sphinx, a mythical creature with the head of a human, and the body of a lion. -->
+	<AM_Sphynx.description>Поистине колоссальная статуя сфинкса, мифического существа с головой человека и телом льва.</AM_Sphynx.description>
+	
+	<!--           EN: megalith -->
+	<AM_Megalith.label>мегалит</AM_Megalith.label>
+	<!--                 EN: A large stone used to construct a prehistoric structure or monument, either alone or together with other stones, often hewn in definite shapes for special purposes. -->
+	<AM_Megalith.description>Большой камень, используемый для строительства доисторического сооружения или памятника. Может использоваться как отдельно так и вместе с другими камнями. Часто обтесывается для придания определенной формы для особых целей.</AM_Megalith.description>
+</LanguageData>

@@ -1,0 +1,10 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\SkyBurial.xml -->
+	
+	<!--                                          EN: Spectators must be alive. -->
+	<AM_SkyBurialBehavior.spectatorFilter.description>Зрители должны быть живы.</AM_SkyBurialBehavior.spectatorFilter.description>
+	<!--                            EN: speaker -->
+	<AM_SkyBurialBehavior.roles.0.label>оратор</AM_SkyBurialBehavior.roles.0.label>
+	<!--                            EN: Corpse -->
+	<AM_SkyBurialBehavior.roles.1.label>Труп</AM_SkyBurialBehavior.roles.1.label>
+</LanguageData>

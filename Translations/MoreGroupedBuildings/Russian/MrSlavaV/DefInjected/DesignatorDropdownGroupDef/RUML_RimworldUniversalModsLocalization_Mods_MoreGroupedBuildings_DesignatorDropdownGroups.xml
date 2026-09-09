@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Grouped_ActivitySuppressor.label>Подавители сущностей</Grouped_ActivitySuppressor.label>
+  <Grouped_Altar.label>Алтари</Grouped_Altar.label>
+  <Grouped_AnimalFlap.label>Шторы для животных</Grouped_AnimalFlap.label>
+  <Grouped_ArmorRacks.label>Группа: Armor racks</Grouped_ArmorRacks.label>
+  <Grouped_ArtBench.label>Группа: Art benches</Grouped_ArtBench.label>
+  <Grouped_Autodoor.label>Автодвери</Grouped_Autodoor.label>
+  <Grouped_BandNode.label>Узлы связи</Grouped_BandNode.label>
+  <Grouped_Barricade.label>Баррикады</Grouped_Barricade.label>
+  <Grouped_Battery.label>Аккумуляторы</Grouped_Battery.label>
+  <Grouped_Bed.label>Односпальные кровати</Grouped_Bed.label>
+  <Grouped_Bed_animal.label>Спальные места животных</Grouped_Bed_animal.label>
+  <Grouped_BilliardsTable.label>Бильярдные столы</Grouped_BilliardsTable.label>
+  <Grouped_BioferriteGenerator.label>Биоферритовые генераторы</Grouped_BioferriteGenerator.label>
+  <Grouped_BioferriteHarvester.label>Сборщики биоферрита</Grouped_BioferriteHarvester.label>
+  <Grouped_BiofuelRefinery.label>Переработчики биотоплива</Grouped_BiofuelRefinery.label>
+  <Grouped_Brazier.label>Группа: Braziers</Grouped_Brazier.label>
+  <Grouped_Brazier_dark.label>Группа: Darklight Braziers</Grouped_Brazier_dark.label>
+  <Grouped_Bridge.label>Группа: Bridges</Grouped_Bridge.label>
+  <Grouped_BunkBeds.label>Группа: Bunk beds</Grouped_BunkBeds.label>
+  <Grouped_Burner.label>Горелки</Grouped_Burner.label>
+  <Grouped_ButcherSpot.label>Места разделки</Grouped_ButcherSpot.label>
+  <Grouped_Campfire.label>Костры</Grouped_Campfire.label>
+  <Grouped_CannibalPlatter.label>Каннибальские блюда</Grouped_CannibalPlatter.label>
+  <Grouped_ChessTable.label>Шахматные столы</Grouped_ChessTable.label>
+  <Grouped_Column.label>Колонны</Grouped_Column.label>
+  <Grouped_CommsConsole.label>Консоли связи</Grouped_CommsConsole.label>
+  <Grouped_Computers_VFE.label>Группа: Recreational Computers</Grouped_Computers_VFE.label>
+  <Grouped_Cooking_appliances.label>Группа: Cooking appliances</Grouped_Cooking_appliances.label>
+  <Grouped_Cooking_processors.label>Группа: Cooking extras</Grouped_Cooking_processors.label>
+  <Grouped_Cooler.label>Кондиционеры</Grouped_Cooler.label>
+  <Grouped_Cooler_passive.label>Группа: Passive Coolers</Grouped_Cooler_passive.label>
+  <Grouped_Crematorium.label>Крематории</Grouped_Crematorium.label>
+  <Grouped_CryptosleepCasket.label>Саркофаги криптосна</Grouped_CryptosleepCasket.label>
+  <Grouped_Darklamp.label>Тёмные лампы</Grouped_Darklamp.label>
+  <Grouped_DeathrestAccelerator.label>Ускорители смертосна</Grouped_DeathrestAccelerator.label>
+  <Grouped_DeathrestCasket.label>Гробы смертосна</Grouped_DeathrestCasket.label>
+  <Grouped_DeepDrill.label>Глубинные буры</Grouped_DeepDrill.label>
+  <Grouped_DisruptionFlare.label>Осветительные сигналы</Grouped_DisruptionFlare.label>
+  <Grouped_Distillery.label>Группа: Alcohol distilleries</Grouped_Distillery.label>
+  <Grouped_Door.label>Двери</Grouped_Door.label>
+  <Grouped_Door_Medieval_Gates.label>Группа: Gates</Grouped_Door_Medieval_Gates.label>
+  <Grouped_Door_Medieval_Large.label>Группа: Large doors</Grouped_Door_Medieval_Large.label>
+  <Grouped_Doormats.label>Группа: Door mats</Grouped_Doormats.label>
+  <Grouped_Doormats_large.label>Группа: Large door mats</Grouped_Doormats_large.label>
+  <Grouped_Dressers.label>Комоды</Grouped_Dressers.label>
+  <Grouped_Druglab.label>Нарколаборатории</Grouped_Druglab.label>
+  <Grouped_ElectricSmelter.label>Электроплавильни</Grouped_ElectricSmelter.label>
+  <Grouped_ElectricSmithy.label>Электрические кузницы</Grouped_ElectricSmithy.label>
+  <Grouped_ElectricStove.label>Электроплиты</Grouped_ElectricStove.label>
+  <Grouped_ElectricTailoringBench.label>Электрические ткацкие станки</Grouped_ElectricTailoringBench.label>
+  <Grouped_Endtables.label>Тумбочки</Grouped_Endtables.label>
+  <Grouped_Epochs_Incense.label>Группа: Epochs incense</Grouped_Epochs_Incense.label>
+  <Grouped_Epochs_Pottery.label>Группа: Pottery benches</Grouped_Epochs_Pottery.label>
+  <Grouped_Fence.label>Заборы</Grouped_Fence.label>
+  <Grouped_FenceGate.label>Калитки</Grouped_FenceGate.label>
+  <Grouped_Fences.label>Группа: Fences</Grouped_Fences.label>
+  <Grouped_FermentingBarrel.label>Бочки для брожения</Grouped_FermentingBarrel.label>
+  <Grouped_FirefoamPopper.label>Пеногенераторы</Grouped_FirefoamPopper.label>
+  <Grouped_Floor_Asphalt.label>Группа: Asphalt</Grouped_Floor_Asphalt.label>
+  <Grouped_Floor_Grass.label>Группа: Lawn grass</Grouped_Floor_Grass.label>
+  <Grouped_FueledSmithy.label>Кузницы на дровах</Grouped_FueledSmithy.label>
+  <Grouped_FueledStove.label>Дровяные плиты</Grouped_FueledStove.label>
+  <Grouped_GarbageBins.label>Группа: Garbage bins</Grouped_GarbageBins.label>
+  <Grouped_GeneAssembler.label>Генные ассемблеры</Grouped_GeneAssembler.label>
+  <Grouped_GeneBank.label>Генные банки</Grouped_GeneBank.label>
+  <Grouped_GeneExtender.label>Расширители генов</Grouped_GeneExtender.label>
+  <Grouped_GeneExtractor.label>Экстракторы генов</Grouped_GeneExtractor.label>
+  <Grouped_GeneProcessor.label>Генные процессоры</Grouped_GeneProcessor.label>
+  <Grouped_Gene_Banks.label>Группа: Gene storages</Grouped_Gene_Banks.label>
+  <Grouped_Gene_Extractor.label>Группа: Gene extractors</Grouped_Gene_Extractor.label>
+  <Grouped_Gene_Processors.label>Группа: Gene processors</Grouped_Gene_Processors.label>
+  <Grouped_GlucosoidPump.label>Глюкозоидные помпы</Grouped_GlucosoidPump.label>
+  <Grouped_Grave.label>Могилы</Grouped_Grave.label>
+  <Grouped_GroundPenetratingScanner.label>Сканеры недр</Grouped_GroundPenetratingScanner.label>
+  <Grouped_HandTailoringBench.label>Ручные ткацкие станки</Grouped_HandTailoringBench.label>
+  <Grouped_Heater.label>Обогреватели</Grouped_Heater.label>
+  <Grouped_HemogenAmplifier.label>Усилители гемогена</Grouped_HemogenAmplifier.label>
+  <Grouped_HiTechResearchBench.label>Высокотехнологичные исследовательские столы</Grouped_HiTechResearchBench.label>
+  <Grouped_HoopstoneRing.label>Кольца для метания камней</Grouped_HoopstoneRing.label>
+  <Grouped_Hopper.label>Воронки</Grouped_Hopper.label>
+  <Grouped_HorseshoesPin.label>Колышки для подков</Grouped_HorseshoesPin.label>
+  <Grouped_Hydro.label>Группа: Hydroponics</Grouped_Hydro.label>
+  <Grouped_Hydro_Ecosystem.label>Группа: Artificial Ecosystem</Grouped_Hydro_Ecosystem.label>
+  <Grouped_Hydro_Planter.label>Группа: Planter box</Grouped_Hydro_Planter.label>
+  <Grouped_HydroponicsBasin.label>Гидропонные ванны</Grouped_HydroponicsBasin.label>
+  <Grouped_IEDs.label>Ловушки и мины</Grouped_IEDs.label>
+  <Grouped_IEDs_VFEDeserters.label>Группа: Remote IEDs</Grouped_IEDs_VFEDeserters.label>
+  <Grouped_Ideogram.label>Идеограммы</Grouped_Ideogram.label>
+  <Grouped_IncenseShrine.label>Курильницы</Grouped_IncenseShrine.label>
+  <Grouped_LargeMechCharger.label>Большие зарядники мехов</Grouped_LargeMechCharger.label>
+  <Grouped_LargeMechGestator.label>Большие гестаторы мехов</Grouped_LargeMechGestator.label>
+  <Grouped_Lectern.label>Кафедры</Grouped_Lectern.label>
+  <Grouped_Light_lamp.label>Напольные лампы</Grouped_Light_lamp.label>
+  <Grouped_Light_lamp_flood.label>Прожекторы</Grouped_Light_lamp_flood.label>
+  <Grouped_Light_lamp_sun.label>Солнечные лампы</Grouped_Light_lamp_sun.label>
+  <Grouped_Light_lamp_wall.label>Настенные светильники</Grouped_Light_lamp_wall.label>
+  <Grouped_Light_torch.label>Факелы</Grouped_Light_torch.label>
+  <Grouped_Light_torch_dark.label>Группа: Dark torches</Grouped_Light_torch_dark.label>
+  <Grouped_Light_torch_wall.label>Настенные факелы</Grouped_Light_torch_wall.label>
+  <Grouped_Linkable_analyzer.label>Группа: Linkable MultiAnalyzers</Grouped_Linkable_analyzer.label>
+  <Grouped_Linkable_medical.label>Группа: Linkable medical</Grouped_Linkable_medical.label>
+  <Grouped_Linkable_workbench.label>Группа: Linkable workbench</Grouped_Linkable_workbench.label>
+  <Grouped_Linkables_VFEP.label>Группа: VFEP linkables</Grouped_Linkables_VFEP.label>
+  <Grouped_LongRangeMineralScanner.label>Сканеры дальнего действия</Grouped_LongRangeMineralScanner.label>
+  <Grouped_MachiningTable.label>Слесарные верстаки</Grouped_MachiningTable.label>
+  <Grouped_MechBooster.label>Усилители мехов</Grouped_MechBooster.label>
+  <Grouped_MechCharger.label>Зарядники мехов</Grouped_MechCharger.label>
+  <Grouped_MechGestator.label>Гестаторы мехов</Grouped_MechGestator.label>
+  <Grouped_Mech_BandNode.label>Группа: Mech bandnodes</Grouped_Mech_BandNode.label>
+  <Grouped_Mech_Boosters.label>Группа: Mech boosters</Grouped_Mech_Boosters.label>
+  <Grouped_Mech_Subcore.label>Группа: Subcore production</Grouped_Mech_Subcore.label>
+  <Grouped_Mech_Summon.label>Группа: Mechanoid summon devices</Grouped_Mech_Summon.label>
+  <Grouped_Mech_chargerBooster.label>Группа: Mech charger boosters</Grouped_Mech_chargerBooster.label>
+  <Grouped_Mech_spot.label>Группа: Mech spots</Grouped_Mech_spot.label>
+  <Grouped_Mech_spot_charge.label>Группа: Mech charging sockets</Grouped_Mech_spot_charge.label>
+  <Grouped_Mech_spot_socket.label>Группа: Mech sockets</Grouped_Mech_spot_socket.label>
+  <Grouped_Medieval_Banners.label>Группа: Medieval banners</Grouped_Medieval_Banners.label>
+  <Grouped_Medieval_DryingRack.label>Группа: Medieval drying racks</Grouped_Medieval_DryingRack.label>
+  <Grouped_Medieval_Furniture_Beds.label>Группа: Medieval beds</Grouped_Medieval_Furniture_Beds.label>
+  <Grouped_Medieval_Furniture_Bookshelves.label>Группа: Medieval bookshelves</Grouped_Medieval_Furniture_Bookshelves.label>
+  <Grouped_Medieval_Furniture_Chair.label>Группа: Medieval chairs</Grouped_Medieval_Furniture_Chair.label>
+  <Grouped_Medieval_Furniture_Chair_Bench.label>Группа: Medieval log benches</Grouped_Medieval_Furniture_Chair_Bench.label>
+  <Grouped_Medieval_Furniture_Chair_Royal.label>Группа: Medieval thrones</Grouped_Medieval_Furniture_Chair_Royal.label>
+  <Grouped_Medieval_Furniture_Chests.label>Группа: Medieval chests</Grouped_Medieval_Furniture_Chests.label>
+  <Grouped_Medieval_Furniture_Closets.label>Группа: Medieval closets</Grouped_Medieval_Furniture_Closets.label>
+  <Grouped_Medieval_Furniture_DoubleBeds.label>Группа: Medieval double beds</Grouped_Medieval_Furniture_DoubleBeds.label>
+  <Grouped_Medieval_Furniture_Endtables.label>Группа: Medieval endtables</Grouped_Medieval_Furniture_Endtables.label>
+  <Grouped_Medieval_Furniture_Table_Log.label>Группа: Medieval log tables</Grouped_Medieval_Furniture_Table_Log.label>
+  <Grouped_Medieval_Furniture_Table_Reinforced.label>Группа: Medieval Reinforced tables</Grouped_Medieval_Furniture_Table_Reinforced.label>
+  <Grouped_Medieval_Furniture_Table_Royal.label>Группа: Medieval Royal tables</Grouped_Medieval_Furniture_Table_Royal.label>
+  <Grouped_Medieval_Furniture_Table_Rustic.label>Группа: Medieval Rustic tables</Grouped_Medieval_Furniture_Table_Rustic.label>
+  <Grouped_Medieval_Mining.label>Группа: Medieval mining</Grouped_Medieval_Mining.label>
+  <Grouped_Medieval_Signs.label>Группа: Medieval signs</Grouped_Medieval_Signs.label>
+  <Grouped_Medieval_SoupPot.label>Группа: Medieval soup pots</Grouped_Medieval_SoupPot.label>
+  <Grouped_Medieval_Storage_Bricks.label>Группа: Medieval brick pile</Grouped_Medieval_Storage_Bricks.label>
+  <Grouped_Medieval_Storage_Wood.label>Группа: Medieval wood pile</Grouped_Medieval_Storage_Wood.label>
+  <Grouped_Medieval_Storage_barrels.label>Группа: Medieval barrels</Grouped_Medieval_Storage_barrels.label>
+  <Grouped_Medieval_Storage_barrels_large.label>Группа: Medieval large barrels</Grouped_Medieval_Storage_barrels_large.label>
+  <Grouped_Medieval_Storage_carts.label>Группа: Medieval carts</Grouped_Medieval_Storage_carts.label>
+  <Grouped_Medieval_Storage_crate.label>Группа: Medieval crates</Grouped_Medieval_Storage_crate.label>
+  <Grouped_Medieval_Storage_cupboards.label>Группа: Medieval cupboards</Grouped_Medieval_Storage_cupboards.label>
+  <Grouped_Medieval_Storage_racks.label>Группа: Medieval racks</Grouped_Medieval_Storage_racks.label>
+  <Grouped_Medieval_Storage_shelf_large.label>Группа: Medieval large shelves</Grouped_Medieval_Storage_shelf_large.label>
+  <Grouped_Medieval_Storage_shelves.label>Группа: Medieval shelves</Grouped_Medieval_Storage_shelves.label>
+  <Grouped_Medieval_Storage_stall.label>Группа: Medieval market stalls</Grouped_Medieval_Storage_stall.label>
+  <Grouped_Medieval_TentStalls.label>Группа: Medieval tentstalls</Grouped_Medieval_TentStalls.label>
+  <Grouped_Mortar.label>Миномёты</Grouped_Mortar.label>
+  <Grouped_MultiAnalyzer.label>Мультианализаторы</Grouped_MultiAnalyzer.label>
+  <Grouped_PassiveCooler.label>Испарительные охладители</Grouped_PassiveCooler.label>
+  <Grouped_PenMarker.label>Маркеры загонов</Grouped_PenMarker.label>
+  <Grouped_PennedAnimalFlap.label>Шторы для загонов</Grouped_PennedAnimalFlap.label>
+  <Grouped_Pew.label>Скамьи</Grouped_Pew.label>
+  <Grouped_PlantPot.label>Цветочные горшки</Grouped_PlantPot.label>
+  <Grouped_PokerTable.label>Покерные столы</Grouped_PokerTable.label>
+  <Grouped_PollutionPumps.label>Группа: Pollution pumps</Grouped_PollutionPumps.label>
+  <Grouped_Power_Battery.label>Группа: Battery</Grouped_Power_Battery.label>
+  <Grouped_Power_Battery_Adv.label>Группа: Advanced battery</Grouped_Power_Battery_Adv.label>
+  <Grouped_Power_Bio.label>Биотопливные генераторы</Grouped_Power_Bio.label>
+  <Grouped_Power_Chem.label>Группа: Chemfuel generator</Grouped_Power_Chem.label>
+  <Grouped_Power_Geo.label>Геотермальные электростанции</Grouped_Power_Geo.label>
+  <Grouped_Power_Mill.label>Группа: Water mills</Grouped_Power_Mill.label>
+  <Grouped_Power_Solar.label>Солнечные батареи</Grouped_Power_Solar.label>
+  <Grouped_Power_Wind.label>Группа: Wind turbines</Grouped_Power_Wind.label>
+  <Grouped_Power_Wood.label>Дровяные генераторы</Grouped_Power_Wood.label>
+  <Grouped_PsychofluidPump.label>Психофлюидные помпы</Grouped_PsychofluidPump.label>
+  <Grouped_Radios.label>Группа: Radios</Grouped_Radios.label>
+  <Grouped_RecyclingBenches.label>Группа: Recycling benches</Grouped_RecyclingBenches.label>
+  <Grouped_Reliquary.label>Реликварии</Grouped_Reliquary.label>
+  <Grouped_ResearchBench.label>Исследовательские столы</Grouped_ResearchBench.label>
+  <Grouped_Sandbags.label>Мешки с песком</Grouped_Sandbags.label>
+  <Grouped_Sarcophagus.label>Саркофаги</Grouped_Sarcophagus.label>
+  <Grouped_Sculpture_Grand.label>Грандиозные скульптуры</Grouped_Sculpture_Grand.label>
+  <Grouped_Sculpture_Large.label>Большие скульптуры</Grouped_Sculpture_Large.label>
+  <Grouped_Sculpture_Small.label>Малые скульптуры</Grouped_Sculpture_Small.label>
+  <Grouped_Steles.label>Стелы</Grouped_Steles.label>
+  <Grouped_Stonecutter.label>Камнетёсные столы</Grouped_Stonecutter.label>
+  <Grouped_Stools.label>Табуреты</Grouped_Stools.label>
+  <Grouped_SubcoreEncoder.label>Кодировщики субъядер</Grouped_SubcoreEncoder.label>
+  <Grouped_SubcoreRipscanner.label>Потрошители субъядер</Grouped_SubcoreRipscanner.label>
+  <Grouped_SubcoreSoftscanner.label>Мягкие сканеры субъядер</Grouped_SubcoreSoftscanner.label>
+  <Grouped_TableButcher.label>Разделочные столы</Grouped_TableButcher.label>
+  <Grouped_Table_Dining.label>Обеденные столы</Grouped_Table_Dining.label>
+  <Grouped_Table_Long.label>Длинные столы</Grouped_Table_Long.label>
+  <Grouped_Table_Short.label>Малые столы</Grouped_Table_Short.label>
+  <Grouped_Tables_Royal.label>Группа: Royal tables</Grouped_Tables_Royal.label>
+  <Grouped_Tables_interactive.label>Группа: Machining table</Grouped_Tables_interactive.label>
+  <Grouped_Televisions.label>Телевизоры</Grouped_Televisions.label>
+  <Grouped_Template.label>Группа: Template</Grouped_Template.label>
+  <Grouped_Trap_Spike.label>Ловушки с шипами</Grouped_Trap_Spike.label>
+  <Grouped_Turret_Autocannon.label>Автопушки</Grouped_Turret_Autocannon.label>
+  <Grouped_Turret_Kont.label>Группа: Kontarion</Grouped_Turret_Kont.label>
+  <Grouped_Turret_Mini.label>Охранные мини-турели</Grouped_Turret_Mini.label>
+  <Grouped_Turret_Onager.label>Группа: Onager</Grouped_Turret_Onager.label>
+  <Grouped_Turret_Palintone.label>Группа: Palintone</Grouped_Turret_Palintone.label>
+  <Grouped_Turret_Sniper.label>Снайперские турели</Grouped_Turret_Sniper.label>
+  <Grouped_Urn.label>Урны</Grouped_Urn.label>
+  <Grouped_Urn_Terror.label>Урны ужаса</Grouped_Urn_Terror.label>
+  <Grouped_VFEM_doors.label>Группа: VFEM Castle doors</Grouped_VFEM_doors.label>
+  <Grouped_VFEM_draught.label>Группа: Draught labs</Grouped_VFEM_draught.label>
+  <Grouped_VFEM_gates.label>Группа: VFEM Castle gates</Grouped_VFEM_gates.label>
+  <Grouped_VFEM_rugs.label>Группа: VFEM rugs</Grouped_VFEM_rugs.label>
+  <Grouped_Vent.label>Вентиляции</Grouped_Vent.label>
+  <Grouped_Wall.label>Стены</Grouped_Wall.label>
+  <Grouped_WastepackAtomizer.label>Атомизаторы токсичных отходов</Grouped_WastepackAtomizer.label>
+  <Grouped_WritingTables.label>Группа: Writing tables</Grouped_WritingTables.label>
+  <Grouped_armchairs.label>Кресла</Grouped_armchairs.label>
+  <Grouped_neat_cabinet.label>Группа: NS cabinets</Grouped_neat_cabinet.label>
+  <Grouped_neat_crates.label>Группа: NS crates</Grouped_neat_crates.label>
+  <Grouped_neat_display.label>Группа: NS displays</Grouped_neat_display.label>
+  <Grouped_neat_display_tall.label>Группа: NS tall displays</Grouped_neat_display_tall.label>
+  <Grouped_neat_hanger.label>Группа: NS hangers</Grouped_neat_hanger.label>
+  <Grouped_neat_weapon.label>Группа: NS weapons</Grouped_neat_weapon.label>
+  <SettingsMenuDef.label>Группа: Grouped buildings</SettingsMenuDef.label>
+</LanguageData>

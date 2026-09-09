@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RB_BallisticGlass.description>Упрочнённое многослойное прозрачное бронестекло, способное выдерживать попадания пуль и осколков.</RB_BallisticGlass.description>
+  <RB_BarriersWall.description>Стена-барьер из металлических прутьев, свободно пропускающая воду, но задерживающая людей.</RB_BarriersWall.description>
+  <RB_CellWall.description>Непреодолимая стена из прочных металлических решёток, используемая в тюремных блоках.</RB_CellWall.description>
+  <RB_Glass.description>Прозрачные, хрупкие листы силикатного материала, широко используемые в строительстве.</RB_Glass.description>
+  <RB_Ship_Beam_Glass.description>Внешний несущий элемент каркаса корабля с панорамным бронированным остеклением.</RB_Ship_Beam_Glass.description>
+  <RB_Ship_Beam_Viewport.description>Силовая балка обшивки космического корабля со встроенным смотровым иллюминатором.</RB_Ship_Beam_Viewport.description>
+</LanguageData>

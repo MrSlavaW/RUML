@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\PreceptDefs\Precepts_HarbingerTrees.xml -->
+	<!--                                                      EN: cut Harbinger tree -->
+	<AM_HarbingerTrees_Disgusting_CutHarbingerTree.stages.0.label>Срезано дерево-предвестник</AM_HarbingerTrees_Disgusting_CutHarbingerTree.stages.0.label>
+	<!--                                                            EN: Our colony has gotten rid of a weird carnivore tree. Who made that thing?? -->
+	<AM_HarbingerTrees_Disgusting_CutHarbingerTree.stages.0.description>Наше поселение избавилась от странного плотоядного дерева. Кто сделал эту штуку?</AM_HarbingerTrees_Disgusting_CutHarbingerTree.stages.0.description>
+</LanguageData>

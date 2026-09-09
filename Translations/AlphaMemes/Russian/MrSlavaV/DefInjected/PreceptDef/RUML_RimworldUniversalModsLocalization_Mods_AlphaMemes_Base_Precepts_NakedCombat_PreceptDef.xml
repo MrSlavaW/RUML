@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_NakedCombat.xml -->
+	<!--                        EN: preferred -->
+<AM_NakedCombat_Preferred.label>предпочтительно</AM_NakedCombat_Preferred.label>
+    <!--                              EN: Fighting naked allows us to move freely and evade attacks with greater ease. -->
+    <AM_NakedCombat_Preferred.description>Бой нагишом позволяет нам свободно двигаться и легче уклоняться от атак.</AM_NakedCombat_Preferred.description>
+</LanguageData>

@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\OskarPotocki_VFE_Mechanoid\AdvancedAuraPatch12.xml -->
+	<!--                                       EN: dominion -->
+	<VFE_Mech_Advanced_Aura_PlayerControlled.label>доминион</VFE_Mech_Advanced_Aura_PlayerControlled.label>
+	<!--                                             EN: An improved and strengthened version of the Aura, a Dominion is an angel-shaped mechanoid surrounded by a whirling cloud of six levitating metallic blades. They favour close combat, approaching their victims and engulfing them in an eviscerating whirlwind of slashing death. They also have the ability to regenerate their wounds with fast acting mechanites. -->
+	<VFE_Mech_Advanced_Aura_PlayerControlled.description>Усовершенствованная и усиленная версия Ауры, Доминион представляет собой механоид в форме ангела, окруженный кружащимся облаком из шести парящих металлических лезвий. Они предпочитают ближний бой, приближаясь к своим жертвам и охватывая их потрошительным вихрем режущей смерти. У них также есть способность регенерировать свои раны с помощью быстродействующих механитов.</VFE_Mech_Advanced_Aura_PlayerControlled.description>
+	<!--                                               EN: wing blade -->
+	<VFE_Mech_Advanced_Aura_PlayerControlled.tools.0.label>крыльевой клинок</VFE_Mech_Advanced_Aura_PlayerControlled.tools.0.label>
+	<!--                                               EN: голова -->
+	<VFE_Mech_Advanced_Aura_PlayerControlled.tools.1.label>голова</VFE_Mech_Advanced_Aura_PlayerControlled.tools.1.label>
+</LanguageData>

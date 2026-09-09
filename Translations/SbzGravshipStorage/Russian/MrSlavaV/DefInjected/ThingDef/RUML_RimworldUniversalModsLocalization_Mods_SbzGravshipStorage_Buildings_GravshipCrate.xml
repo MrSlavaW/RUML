@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<sbz_LargeGravshipCrate.label>большой ящик грав-корабля</sbz_LargeGravshipCrate.label>
+	<sbz_LargeGravshipCrate.description>Массивный усиленный грузовой контейнер для грав-кораблей, вмещающий до 72 различных предметов.</sbz_LargeGravshipCrate.description>
+	<sbz_GravshipCrate.label>ящик грав-корабля</sbz_GravshipCrate.label>
+	<sbz_GravshipCrate.description>Прочный судовой ящик для грав-кораблей, вмещающий до 32 различных предметов.</sbz_GravshipCrate.description>
+	<sbz_LongGravshipCrate.label>длинный ящик грав-корабля</sbz_LongGravshipCrate.label>
+	<sbz_LongGravshipCrate.description>Удлиненный грузовой контейнер для палуб грав-кораблей, вмещающий до 80 различных предметов.</sbz_LongGravshipCrate.description>
+</LanguageData>

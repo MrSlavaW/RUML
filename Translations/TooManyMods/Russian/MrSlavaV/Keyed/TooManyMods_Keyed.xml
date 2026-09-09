@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AC.ManageNeuralMatrix>Настроить нейроматрицу</AC.ManageNeuralMatrix>
+  <AC.NeuralMatrixManagement>Управление нейроматрицей</AC.NeuralMatrixManagement>
+  <Apparel_PackHunter_AntigrainWarhead.label>ранец с антиматериальной миной</Apparel_PackHunter_AntigrainWarhead.label>
+  <Apparel_PackHunter_EMP.label>ранец с ЭМИ-ловушкой</Apparel_PackHunter_EMP.label>
+  <Apparel_PackHunter_Incendiary.label>ранец с зажигательной ловушкой</Apparel_PackHunter_Incendiary.label>
+  <Apparel_PackHunter_Smoke.label>ранец с дымовой завесой</Apparel_PackHunter_Smoke.label>
+  <Apparel_PackHunter_Toxic.label>токсичный ранец</Apparel_PackHunter_Toxic.label>
+  <Grenade_HunterPackToxic.label>капсула ранца с дымовой завесой</Grenade_HunterPackToxic.label>
+  <TMM.VPE.FirstPsylinkPathUnlocked.Desc>{0} has gained a psylink.\n\nPath of {3} calls {0}, but {4} is unsure whether to answer that call.\n\n{1} can now allocate a point to either learn a new psycast, improve psycasting stats further or unlock a new meditation focus.\n\nPsycasting experience needed for next level is: {2}.</TMM.VPE.FirstPsylinkPathUnlocked.Desc>
+  <VFEC.Letters.Donation>Получена дань от {0}</VFEC.Letters.Donation>
+  <VFEC.Letters.Researched>Получена технология: {0}</VFEC.Letters.Researched>
+  <VFEC.Letters.SenatorJoins>Сенатор присоединяется: {0}</VFEC.Letters.SenatorJoins>
+  <VFEC.Letters.SenatorLost>Сенатор погиб: {0}</VFEC.Letters.SenatorLost>
+  <VFEC.LightTheBeacon>Light the beacon</VFEC.LightTheBeacon>
+  <VFEC.Scorpion.PickUp>Подобрать скорпиона</VFEC.Scorpion.PickUp>
+  <VFEC.Scorpion.SetUp>Установить скорпиона</VFEC.Scorpion.SetUp>
+  <VFEP.ActivateShieldDescNerfed>Click to activate the shield field. It has 5 seconds of active mode and then 90 seconds cooldown.</VFEP.ActivateShieldDescNerfed>
+  <VPE.PsylinkGained.Desc>{0} has gained a new level of psylink.\n\nUpon reaching that level, {1} raised psycasting-related stats slightly. {1} can now also allocate a point to either learn a new psycast, improve psycasting stats further or unlock a new meditation focus.\n\nPsycasting experience needed for next level is: {2}.</VPE.PsylinkGained.Desc>
+</LanguageData>

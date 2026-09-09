@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Aptitude.xml -->
+	<!--                   EN: high mining yield -->
+	<AG_MiningYield_High.label>Шахтер</AG_MiningYield_High.label>
+	<!--                           EN: miner -->
+	<AG_MiningYield_High.labelShortAdj>Шахтер</AG_MiningYield_High.labelShortAdj>
+	<!--                         EN: Carriers of this gene are adept at mining and can acquire larger amounts of minerals from stone. -->
+	<AG_MiningYield_High.description>Носители этого гена искусны в добыче полезных ископаемых и могут получать большее количество минералов из камня.</AG_MiningYield_High.description>
+	<!--                  EN: low mining yield -->
+	<AG_MiningYield_Low.label>Камнетес</AG_MiningYield_Low.label>
+	<!--                          EN: shoddy miner -->
+	<AG_MiningYield_Low.labelShortAdj>Плохой Шахтер</AG_MiningYield_Low.labelShortAdj>
+	<!--                        EN: Carriers of this gene are shoddy miners and can produce fewer amounts of minerals from stone. -->
+	<AG_MiningYield_Low.description>Носители этого гена являются некачественными шахтерами и могут добывать меньшее количество минералов из камня.</AG_MiningYield_Low.description>
+</LanguageData>

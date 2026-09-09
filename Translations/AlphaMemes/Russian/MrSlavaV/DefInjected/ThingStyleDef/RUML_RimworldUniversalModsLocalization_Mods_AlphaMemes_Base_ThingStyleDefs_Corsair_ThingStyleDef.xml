@@ -1,0 +1,37 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingStyleDefs\Alpha\ThingStyleDefs_Corsair.xml -->
+	<!--                          EN: tricorn -->
+	<AM_Corsair_Tricorn.overrideLabel>треуголка</AM_Corsair_Tricorn.overrideLabel>
+	<!--                          EN: cutlass -->
+	<AM_Corsair_Gladius.overrideLabel>кортик</AM_Corsair_Gladius.overrideLabel>
+	<!--                       EN: anchor -->
+	<AM_Corsair_Mace.overrideLabel>якорь</AM_Corsair_Mace.overrideLabel>
+	<!--                       EN: rapier -->
+	<AM_Corsair_Ikwa.overrideLabel>рапира</AM_Corsair_Ikwa.overrideLabel>
+	<!--                       EN: oar -->
+	<AM_Corsair_Club.overrideLabel>весло</AM_Corsair_Club.overrideLabel>
+	<!--                        EN: harpoon -->
+	<AM_Corsair_Spear.overrideLabel>гарпун</AM_Corsair_Spear.overrideLabel>
+	<!--                              EN: throwing harpoon -->
+	<AM_Corsair_SpearThrown.overrideLabel>метательный гарпун</AM_Corsair_SpearThrown.overrideLabel>
+	<!--                        EN: hook -->
+	<AM_Corsair_Knife.overrideLabel>крюк</AM_Corsair_Knife.overrideLabel>
+	<!--                        EN: saber -->
+	<AM_Corsair_Sword.overrideLabel>сабля</AM_Corsair_Sword.overrideLabel>
+	<!--                            EN: monosaber -->
+	<AM_Corsair_Monosword.overrideLabel>моносабля</AM_Corsair_Monosword.overrideLabel>
+	<!--                            EN: grog -->
+	<AM_MealNutrientPaste.overrideLabel>грог</AM_MealNutrientPaste.overrideLabel>
+	<!--                            EN: ship wheel table -->
+	<AM_Corsair_Table2x2c.overrideLabel>корабельный штурвал</AM_Corsair_Table2x2c.overrideLabel>
+	<!--                            EN: ship wheel table -->
+	<AM_Corsair_Table3x3c.overrideLabel>корабельный штурвал</AM_Corsair_Table3x3c.overrideLabel>
+	<!--                            EN: brown pirate hat -->
+	<AM_Corsair_BowlerHat.overrideLabel>коричневая пиратская шляпа</AM_Corsair_BowlerHat.overrideLabel>
+	<!--                        EN: pirate bandana -->
+	<AM_Corsair_Tuque.overrideLabel>пиратская бандана</AM_Corsair_Tuque.overrideLabel>
+	<!--                               EN: pirate hat -->
+	<AM_Corsair_SimpleHelmet.overrideLabel>пиратская шляпа</AM_Corsair_SimpleHelmet.overrideLabel>
+	<!--                                 EN: flak pirate hat -->
+	<AM_Corsair_AdvancedHelmet.overrideLabel>защитная пиратская шляпа</AM_Corsair_AdvancedHelmet.overrideLabel>
+</LanguageData>

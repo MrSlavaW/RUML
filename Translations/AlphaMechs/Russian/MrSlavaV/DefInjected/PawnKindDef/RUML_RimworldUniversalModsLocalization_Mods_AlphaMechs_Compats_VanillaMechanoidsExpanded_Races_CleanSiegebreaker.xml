@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_CleanSiegebreaker.xml -->
+	<!--                     EN: siegebreaker -->
+	<VFE_Mech_Siegebreaker.label>осадный разрушитель</VFE_Mech_Siegebreaker.label>
+	<!--                                        EN: Plural siegebreaker -->
+	<VFE_Mech_Siegebreaker.lifeStages.0.labelPlural>Осадные разрушители</VFE_Mech_Siegebreaker.lifeStages.0.labelPlural>
+</LanguageData>

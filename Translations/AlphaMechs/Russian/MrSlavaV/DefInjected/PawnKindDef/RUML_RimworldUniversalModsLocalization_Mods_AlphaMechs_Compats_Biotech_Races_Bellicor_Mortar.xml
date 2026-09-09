@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Bellicor_Mortar.xml -->
+	<!--                  EN: artilleron -->
+	<AM_Mech_Artilleron.label>артиллерон</AM_Mech_Artilleron.label>
+	<!--                                     EN: Plural artilleron -->
+	<AM_Mech_Artilleron.lifeStages.1.labelPlural>Артиллероны</AM_Mech_Artilleron.lifeStages.1.labelPlural>
+<AM_Mech_Artilleron.lifeStages.0.labelPlural>Артиллероны</AM_Mech_Artilleron.lifeStages.0.labelPlural></LanguageData>

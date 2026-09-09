@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Grouped_Smithy.label>кузницы</Grouped_Smithy.label>
+	<Grouped_Stove.label>кухонные плиты</Grouped_Stove.label>
+	<Grouped_Smelter.label>плавильни</Grouped_Smelter.label>
+	<Grouped_Tailor.label>швейные станки</Grouped_Tailor.label>
+	<Grouped_Research.label>исследовательские столы</Grouped_Research.label>
+	<Grouped_Machining.label>станки точной механики</Grouped_Machining.label>
+	<Grouped_Brewery.label>пивоварни</Grouped_Brewery.label>
+	<Grouped_Fermenting.label>бочки брожения</Grouped_Fermenting.label>
+	<Grouped_Sculpting.label>столы скульптора</Grouped_Sculpting.label>
+	<Grouped_Butcher.label>разделочные столы</Grouped_Butcher.label>
+	<Grouped_Hydroponics.label>гидропонные фермы</Grouped_Hydroponics.label>
+	<Grouped_Comms.label>консоли связи</Grouped_Comms.label>
+	<Grouped_Telescope.label>телескопы</Grouped_Telescope.label>
+	<Grouped_Battery.label>аккумуляторы</Grouped_Battery.label>
+	<Grouped_Solar.label>солнечные батареи</Grouped_Solar.label>
+	<Grouped_Wind.label>ветрогенераторы</Grouped_Wind.label>
+	<Grouped_Geothermal.label>геотермальные генераторы</Grouped_Geothermal.label>
+	<Grouped_Turrets.label>защитные турели</Grouped_Turrets.label>
+	<Grouped_Beds.label>кровати</Grouped_Beds.label>
+	<Grouped_Tables.label>столы</Grouped_Tables.label>
+	<Grouped_Chairs.label>кресла и стулья</Grouped_Chairs.label>
+	<Grouped_Lights.label>освещение</Grouped_Lights.label>
+	<Grouped_Vents.label>вентиляционные решетки</Grouped_Vents.label>
+	<Grouped_Coolers.label>кондиционеры</Grouped_Coolers.label>
+	<Grouped_Heaters.label>обогреватели</Grouped_Heaters.label>
+</LanguageData>

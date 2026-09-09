@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Guttersnipe.xml -->
+	<!--                   EN: guttersnipe -->
+	<AM_Mech_Guttersnipe.label>гаттерснайп</AM_Mech_Guttersnipe.label>
+	<!--                         EN: A small, deployable combat mechanoid usually manufactured inside an ultra-heavy war empress mech. Contrary to War urchins, the Guttersnipe is a melee fighter, using its wicked circular saws to lunge at their targets. They have a non-rechargeable power source. -->
+	<AM_Mech_Guttersnipe.description>Небольшой развёртываемый боевой механоид, обычно собираемый внутри сверхтяжёлой «Императрицы войны». В отличие от боевых ежей, гаттерснайп — боец ближнего боя, который бросается на цель с помощью смертоносных циркулярных пил. Источник питания у него одноразовый и не подлежит перезарядке.</AM_Mech_Guttersnipe.description>
+	<!--                           EN: голова -->
+	<AM_Mech_Guttersnipe.tools.0.label>голова</AM_Mech_Guttersnipe.tools.0.label>
+</LanguageData>

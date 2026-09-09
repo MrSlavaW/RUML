@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\GeneDefs\GeneDefs_Misc_Anomaly.xml -->
+	<!--                 EN: pseudo deadlife -->
+	<AG_PseudoDeadlife.label>псевдо-мёртвая жизнь</AG_PseudoDeadlife.label>
+	<!--                       EN: Carriers of this gene have a cloud of microscopic archites that induce a state of pseudo deadlife, granting great resilience to the person without outright killing them. -->
+	<AG_PseudoDeadlife.description>Носители этого гена окружены облаком микроскопических архитов, погружающих их в состояние псевдо-мёртвой жизни. Это значительно повышает устойчивость организма, не убивая носителя напрямую.</AG_PseudoDeadlife.description>
+	<!--            EN: meat burst -->
+	<AG_MeatBurst.label>мясной взрыв</AG_MeatBurst.label>
+	<!--                  EN: Carriers will explode on death, liberating a small amount of fleshbeasts. -->
+	<AG_MeatBurst.description>Носители этого гена взрываются после смерти, порождая небольшое количество зверей из плоти.</AG_MeatBurst.description>
+	<!--                  EN: grey pocket plane -->
+	<AG_GreyPocketPlane.label>серое карманное измерение</AG_GreyPocketPlane.label>
+	<!--                        EN: Carriers will be able to access their own extradimensional space, having a safe haven away from the chaos of the Rim. -->
+	<AG_GreyPocketPlane.description>Носители этого гена получают доступ к собственному карманному измерению, которое служит безопасным убежищем вдали от хаоса Окраины.</AG_GreyPocketPlane.description>
+</LanguageData>

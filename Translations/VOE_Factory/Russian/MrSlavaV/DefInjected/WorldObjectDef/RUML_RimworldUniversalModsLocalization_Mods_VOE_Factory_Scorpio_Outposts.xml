@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Scorpio_Outpost_Vault.label>сокровищница</Scorpio_Outpost_Vault.label>
+	<Scorpio_Outpost_Vault.description>Временный автономный лагерь, служащий защищенным хранилищем для ценностей колонии.</Scorpio_Outpost_Vault.description>
+	<Scorpio_Outpost_ChemLab.label>химическая лаборатория</Scorpio_Outpost_ChemLab.label>
+	<Scorpio_Outpost_ChemLab.description>Автономное предприятие, специализирующееся на производстве и очистке тяжелых психоактивных веществ. Готовая продукция регулярно доставляется на окраину вашей главной базы.</Scorpio_Outpost_ChemLab.description>
+	<Scorpio_Outpost_Ironworks.label>кузница</Scorpio_Outpost_Ironworks.label>
+	<Scorpio_Outpost_Ironworks.description>Автономный производственный аванпост, специализирующийся на ковке оружия ближнего боя. Партии оружия доставляются на окраину основной колонии.</Scorpio_Outpost_Ironworks.description>
+	<Scorpio_Outpost_MilitaryComplex.label>военный завод</Scorpio_Outpost_MilitaryComplex.label>
+	<Scorpio_Outpost_MilitaryComplex.description>Автономный промышленный комплекс по сборке огнестрельного оружия и боеприпасов с регулярной доставкой в поселение.</Scorpio_Outpost_MilitaryComplex.description>
+	<Scorpio_Outpost_TextileMill.label>ткацкая фабрика</Scorpio_Outpost_TextileMill.label>
+	<Scorpio_Outpost_TextileMill.description>Автономный аванпост для прядения и ткачества разнообразных тканей с регулярными поставками в колонию.</Scorpio_Outpost_TextileMill.description>
+	<Scorpio_Outpost_ProstheticLab.label>протезная лаборатория</Scorpio_Outpost_ProstheticLab.label>
+	<Scorpio_Outpost_ProstheticLab.description>Высокотехнологичный аванпост для изготовления медицинских протезов и бионических органов.</Scorpio_Outpost_ProstheticLab.description>
+	<Scorpio_Outpost_Recycling.label>центр переработки</Scorpio_Outpost_Recycling.label>
+	<Scorpio_Outpost_Recycling.description>Автономный перерабатывающий комплекс, утилизирующий отходы и токсичный мусор в полезные вторичные ресурсы.</Scorpio_Outpost_Recycling.description>
+</LanguageData>

@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Ritual_Baptism.xml -->
+	<!--                 EN: baptism -->
+	<AM_BaptismPrecept.label>крещение</AM_BaptismPrecept.label>
+	<!--                       EN: A ceremony of purification and renewal, marking devotion through the sanctity of water. -->
+	<AM_BaptismPrecept.description>Церемония очищения и обновления, символизирующая преданность через святость воды.</AM_BaptismPrecept.description>
+</LanguageData>

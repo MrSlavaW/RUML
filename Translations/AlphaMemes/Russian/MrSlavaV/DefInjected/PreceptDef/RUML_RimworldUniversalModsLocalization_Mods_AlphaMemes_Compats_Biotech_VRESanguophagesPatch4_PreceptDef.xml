@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\Ludeon_RimWorld_Biotech\VRESanguophagesPatch4.xml -->
+	<!--                     EN: malachai -->
+	<AM_HuntFocus_Malachai.label>малахай</AM_HuntFocus_Malachai.label>
+	<!--                           EN: Our purpose is clear: to seek out the cursed sanguophages wherever they may hide.\n\nMalachai will be the focus of this precept.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All attacks against a Malachai will cause extra 10 burn damage. -->
+	<AM_HuntFocus_Malachai.description>Наша цель ясна: найти проклятых кровопийц, где бы они ни прятались.\n\nМалахаи станут объектом этого принципа.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Все атаки против малахая будут наносить дополнительные 10 ожоговых урона.</AM_HuntFocus_Malachai.description>
+</LanguageData>

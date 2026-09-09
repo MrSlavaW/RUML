@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_CleanFireworm.xml -->
+	<!--                 EN: fireworm -->
+	<VFE_Mech_Fireworm.label>огнечервь</VFE_Mech_Fireworm.label>
+	<!--                                    EN: Plural fireworm -->
+	<VFE_Mech_Fireworm.lifeStages.0.labelPlural>Огнечерви</VFE_Mech_Fireworm.lifeStages.0.labelPlural>
+</LanguageData>

@@ -1,0 +1,23 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\GeneDefs\GeneDefs_Attacks_Anomaly.xml -->
+	<!--                     EN: greater toughspikes -->
+	<AG_GreaterToughspikes.label>спинные шипокогти</AG_GreaterToughspikes.label>
+	<!--                           EN: Carriers of this gene have four functional toughspike claws growing from their back that they can use in melee attacks. -->
+	<AG_GreaterToughspikes.description>У носителей этого гена из спины растут четыре функциональных шипокогтя, пригодных для ближнего боя.</AG_GreaterToughspikes.description>
+	<!--                                                  EN: Fresh, Rotting -->
+	<AG_GreaterToughspikes.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_GreaterToughspikes.renderNodeProperties.0.rotDrawMode>
+	<!--                                                  EN: Fresh, Rotting -->
+	<AG_GreaterToughspikes.renderNodeProperties.1.rotDrawMode>Fresh, Rotting</AG_GreaterToughspikes.renderNodeProperties.1.rotDrawMode>
+	<!--                                                  EN: Fresh, Rotting -->
+	<AG_GreaterToughspikes.renderNodeProperties.2.rotDrawMode>Fresh, Rotting</AG_GreaterToughspikes.renderNodeProperties.2.rotDrawMode>
+	<!--                                                  EN: Fresh, Rotting -->
+	<AG_GreaterToughspikes.renderNodeProperties.3.rotDrawMode>Fresh, Rotting</AG_GreaterToughspikes.renderNodeProperties.3.rotDrawMode>
+	<!--                   EN: greater flesh whip -->
+	<AG_GreaterFleshWhip.label>клинковые щупальца</AG_GreaterFleshWhip.label>
+	<!--                         EN: Carriers of this gene have two fleshy, muscled tentacles with blades at the end. These flesh whips make for excellent melee weapons. -->
+	<AG_GreaterFleshWhip.description>У носителей этого гена есть два мясистых щупальца с лезвиями на концах. Эти клинковые щупальца отлично подходят для ближнего боя.</AG_GreaterFleshWhip.description>
+	<!--                                                EN: Fresh, Rotting -->
+	<AG_GreaterFleshWhip.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_GreaterFleshWhip.renderNodeProperties.0.rotDrawMode>
+	<!--                                                EN: Fresh, Rotting -->
+	<AG_GreaterFleshWhip.renderNodeProperties.1.rotDrawMode>Fresh, Rotting</AG_GreaterFleshWhip.renderNodeProperties.1.rotDrawMode>
+</LanguageData>

@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Bellicor_Mortar.xml -->
+	<!--                  EN: artilleron -->
+	<AM_Mech_Artilleron.label>артиллерон</AM_Mech_Artilleron.label>
+	<!--                        EN: A variation of the militor and bellicor, the artilleron stands at a height of around 5 feet and it is armed with a powerful mortar that fires explosive canisters with great accuracy. With its reduced durability, the Artilleron can't withstand intense battles and is often deployed in the rear lines to eliminate high priority targets and secure strategic objectives from afar. It can also swap weapons between its mortar and a low damage, high accuracy micro needle gun to avoid causing friendly fire with its explosives. -->
+	<AM_Mech_Artilleron.description>Артиллерон — разновидность милитора и белликора ростом около пяти футов, вооружённая мощным миномётом, который с высокой точностью выпускает канистры со взрывчаткой. Из-за сниженной прочности артиллероны плохо переносят тяжёлые схватки, поэтому их обычно держат в тылу, где они поражают приоритетные цели и поддерживают бой с расстояния. Он также может переключаться между миномётом и микроигольчатым орудием с невысоким уроном, но высокой точностью, чтобы не задевать союзников собственной взрывчаткой.</AM_Mech_Artilleron.description>
+	<!--                          EN: голова -->
+	<AM_Mech_Artilleron.tools.0.label>голова</AM_Mech_Artilleron.tools.0.label>
+</LanguageData>

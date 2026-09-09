@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AC.NeuralMatrixManagement>Управление нейроматрицей</AC.NeuralMatrixManagement>
+  <AC.ManageNeuralMatrix>Настроить нейроматрицу</AC.ManageNeuralMatrix>
+  <VFEC.Letters.SenatorJoins>Сенатор присоединяется: {0}</VFEC.Letters.SenatorJoins>
+</LanguageData>

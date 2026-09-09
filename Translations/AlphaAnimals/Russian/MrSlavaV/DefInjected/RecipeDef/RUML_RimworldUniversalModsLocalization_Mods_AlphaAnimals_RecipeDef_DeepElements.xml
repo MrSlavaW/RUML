@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AA_BlueGel_To_Hexagel.jobString>Compressing blue gel.</AA_BlueGel_To_Hexagel.jobString>
+  <AA_ExtractUranium.jobString>Extracting useful materials from unrefined uranium crystals.</AA_ExtractUranium.jobString>
+  <AA_InstallAcidicSpitterImplant.jobString>Устанавливает acidic spitter implant.</AA_InstallAcidicSpitterImplant.jobString>
+  <AA_InstallBarbedQuillThrowerImplant.jobString>Устанавливает barbed quill thrower implant.</AA_InstallBarbedQuillThrowerImplant.jobString>
+  <AA_InstallBioelectricOrganImplant.jobString>Устанавливает bioelectric organ implant.</AA_InstallBioelectricOrganImplant.jobString>
+  <AA_InstallBionicBeak.jobString>Устанавливает bionic beak.</AA_InstallBionicBeak.jobString>
+  <AA_InstallBionicBuoyancy.jobString>Устанавливает bionic buoyancy mechanism.</AA_InstallBionicBuoyancy.jobString>
+  <AA_InstallBionicClaw.jobString>Устанавливает bionic claw.</AA_InstallBionicClaw.jobString>
+  <AA_InstallBionicMotionDetector.jobString>Устанавливает bionic motion detector.</AA_InstallBionicMotionDetector.jobString>
+  <AA_InstallBionicShell.jobString>Устанавливает bionic shell.</AA_InstallBionicShell.jobString>
+  <AA_InstallBionicWing.jobString>Устанавливает bionic wing.</AA_InstallBionicWing.jobString>
+  <AA_InstallGooAcidifier.jobString>Устанавливает goo acidifier.</AA_InstallGooAcidifier.jobString>
+  <AA_InstallHeuristicEye.jobString>Устанавливает heuristic eye.</AA_InstallHeuristicEye.jobString>
+  <AA_InstallHyperAcidicStomachImplant.jobString>Устанавливает hyper acidic stomach implant.</AA_InstallHyperAcidicStomachImplant.jobString>
+  <AA_InstallLightFocusingLensImplant.jobString>Устанавливает light focusing lens implant.</AA_InstallLightFocusingLensImplant.jobString>
+  <AA_InstallMeretriciousEye.jobString>Устанавливает meretricious eye.</AA_InstallMeretriciousEye.jobString>
+  <AA_InstallMutantArm.jobString>Устанавливает mutant arm.</AA_InstallMutantArm.jobString>
+  <AA_InstallMutantEye.jobString>Устанавливает mutant eye.</AA_InstallMutantEye.jobString>
+  <AA_InstallMutantLeg.jobString>Устанавливает mutant leg.</AA_InstallMutantLeg.jobString>
+  <AA_InstallNumbingEye.jobString>Устанавливает numbing eye.</AA_InstallNumbingEye.jobString>
+  <AA_InstallOmniscientEye.jobString>Устанавливает omniscient eye.</AA_InstallOmniscientEye.jobString>
+  <AA_InstallQuadTeslaCannonImplant.jobString>Устанавливает quad tesla cannon implant.</AA_InstallQuadTeslaCannonImplant.jobString>
+  <AA_InstallQuiescentEye.jobString>Устанавливает quiescent eye.</AA_InstallQuiescentEye.jobString>
+  <AA_InstallRangedSpinneretImplant.jobString>Устанавливает ranged spinneret implant.</AA_InstallRangedSpinneretImplant.jobString>
+  <AA_InstallRecalcitrantEye.jobString>Устанавливает recalcitrant eye.</AA_InstallRecalcitrantEye.jobString>
+  <AA_InstallSimpleBeak.jobString>Устанавливает simple prosthetic beak.</AA_InstallSimpleBeak.jobString>
+  <AA_InstallSpasmodicEye.jobString>Устанавливает spasmodic eye.</AA_InstallSpasmodicEye.jobString>
+  <AA_InstallVenomousSpitterImplant.jobString>Устанавливает venomous spitter implant.</AA_InstallVenomousSpitterImplant.jobString>
+  <AA_MakeAcidicSpitterImplant.jobString>Изготавливает acidic spitter implant.</AA_MakeAcidicSpitterImplant.jobString>
+  <AA_MakeBarbedQuillThrowerImplant.jobString>Изготавливает barbed quill thrower implant.</AA_MakeBarbedQuillThrowerImplant.jobString>
+  <AA_MakeBioelectricOrganImplant.jobString>Изготавливает bioelectric organ implant.</AA_MakeBioelectricOrganImplant.jobString>
+  <AA_MakeHyperAcidicStomachImplant.jobString>Изготавливает hyper acidic stomach implant.</AA_MakeHyperAcidicStomachImplant.jobString>
+  <AA_MakeLightFocusingLensImplant.jobString>Изготавливает light focusing lens implant.</AA_MakeLightFocusingLensImplant.jobString>
+  <AA_MakeQuadTeslaCannonImplant.jobString>Изготавливает quad tesla cannon implant.</AA_MakeQuadTeslaCannonImplant.jobString>
+  <AA_MakeRangedSpinneretImplant.jobString>Изготавливает ranged spinneret implant.</AA_MakeRangedSpinneretImplant.jobString>
+  <AA_MakeVenomousSpitterImplant.jobString>Изготавливает venomous spitter implant.</AA_MakeVenomousSpitterImplant.jobString>
+  <AA_Make_HexagelCore.jobString>Crafting hexagel cores.</AA_Make_HexagelCore.jobString>
+  <AA_RemoveAcidicSpitterImplant.jobString>имплант</AA_RemoveAcidicSpitterImplant.jobString>
+  <AA_RemoveBarbedQuillThrowerImplant.jobString>имплант</AA_RemoveBarbedQuillThrowerImplant.jobString>
+  <AA_RemoveBioelectricOrganImplant.jobString>имплант</AA_RemoveBioelectricOrganImplant.jobString>
+  <AA_RemoveHyperAcidicStomachImplant.jobString>имплант</AA_RemoveHyperAcidicStomachImplant.jobString>
+  <AA_RemoveLightFocusingLensImplant.jobString>имплант</AA_RemoveLightFocusingLensImplant.jobString>
+  <AA_RemoveQuadTeslaCannonImplant.jobString>имплант</AA_RemoveQuadTeslaCannonImplant.jobString>
+  <AA_RemoveRangedSpinneretImplant.jobString>имплант</AA_RemoveRangedSpinneretImplant.jobString>
+  <AA_RemoveVenomousSpitterImplant.jobString>имплант</AA_RemoveVenomousSpitterImplant.jobString>
+  <AA_ShutDownMechanoid.jobString>Shutting down mechanoid.</AA_ShutDownMechanoid.jobString>
+  <AB_InstallBionicTentacle.jobString>Устанавливает bionic tentacle.</AB_InstallBionicTentacle.jobString>
+  <AB_InstallSimpleBuoyancy.jobString>Устанавливает simple buoyancy mechanism.</AB_InstallSimpleBuoyancy.jobString>
+  <AB_InstallSimpleClaw.jobString>Устанавливает simple prosthetic claw.</AB_InstallSimpleClaw.jobString>
+  <AB_InstallSimpleShell.jobString>Устанавливает simple prosthetic shell.</AB_InstallSimpleShell.jobString>
+  <AB_InstallSimpleTentacle.jobString>Устанавливает simple prosthetic tentacle.</AB_InstallSimpleTentacle.jobString>
+  <AB_InstallSimpleWing.jobString>Устанавливает simple prosthetic wing.</AB_InstallSimpleWing.jobString>
+  <VFEI2_AdministerBlackPherocore.jobString>Administering Black pherocore to convert this person into a Black Empress.</VFEI2_AdministerBlackPherocore.jobString>
+</LanguageData>

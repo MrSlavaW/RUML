@@ -1,0 +1,5 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\MaddeningChant\Ritual_Patterns_MaddeningChant.xml -->
+	<!--                                    EN: Mental break and its intensity will be completely random. Affected colonists will benefit from the catharsis effect once recovered. -->
+	<AM_MaddeningChantPattern.ritualExplanation>Психические срывы и их интенсивность будут совершенно случайными. Затронутые поселенцы получат эффект катарсиса после выздоровления.</AM_MaddeningChantPattern.ritualExplanation>
+</LanguageData>

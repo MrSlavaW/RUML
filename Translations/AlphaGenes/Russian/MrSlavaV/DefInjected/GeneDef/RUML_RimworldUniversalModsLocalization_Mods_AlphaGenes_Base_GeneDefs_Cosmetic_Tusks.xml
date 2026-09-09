@@ -1,0 +1,29 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Cosmetic_Tusks.xml -->
+	<!--          EN: no tusks / mandibles -->
+	<AG_NoTusks.label>Нет жвал/бивней</AG_NoTusks.label>
+	<!--                EN: Carriers of this gene don't have tusks or mandibles. -->
+	<AG_NoTusks.description>Носители этого гена не имеют бивней или жвал.</AG_NoTusks.description>
+	<!--                               EN: With this gene you can create xenotypes in which a pawn can have tusks/mandibles or a lack of them at random -->
+	<AG_NoTusks.customEffectDescriptions.0>С помощью этого гена можно создавать ксенотипы, в которых поселенец может иметь защитные механизмы/мандибулы или быть случайным образом лишенным их.</AG_NoTusks.customEffectDescriptions.0>
+	<!--        EN: tusks -->
+	<AG_Tusks.label>Бивни</AG_Tusks.label>
+	<!--              EN: Carriers of this gene grow two large tusks protruding from the jaw. -->
+	<AG_Tusks.description>У носителей этого гена вырастают два больших бивня, выступающих из челюсти.</AG_Tusks.description>
+	<!--                  EN: pincer mandibles -->
+	<AG_PincerMandibles.label>Клешневидные жвалы</AG_PincerMandibles.label>
+	<!--                        EN: Carriers of this gene grow two large pincer mandibles protruding from their jaw. -->
+	<AG_PincerMandibles.description>У носителей этого гена вырастают две большие клешневидные жвалы, выступающие из их челюстей.</AG_PincerMandibles.description>
+	<!--                EN: face tentacles -->
+	<AG_FaceTentacles.label>Лицевые щупальца</AG_FaceTentacles.label>
+	<!--                      EN: Carriers of this gene grow a series of slimy tentacles protruding from their jaw. -->
+	<AG_FaceTentacles.description>У носителей этого гена вырастает ряд слизистых щупалец, выступающих из их челюсти.</AG_FaceTentacles.description>
+	<!--                  EN: beetle mandibles -->
+	<AG_BeetleMandibles.label>Жвалы жука</AG_BeetleMandibles.label>
+	<!--                        EN: Carriers of this gene grow two large beetle mandibles protruding from their jaw. -->
+	<AG_BeetleMandibles.description>У носителей этого гена вырастают две большие жвалы жука, выступающие из их челюсти</AG_BeetleMandibles.description>
+	<!--               EN: bee mandibles -->
+	<AG_BeeMandibles.label>Пчелиные жвалы</AG_BeeMandibles.label>
+	<!--                     EN: Carriers of this gene grow two large bee mandibles protruding from their jaw. -->
+	<AG_BeeMandibles.description>У носителей этого гена вырастают две большие пчелиные жвалы, выступающие из их челюсти.</AG_BeeMandibles.description>
+</LanguageData>

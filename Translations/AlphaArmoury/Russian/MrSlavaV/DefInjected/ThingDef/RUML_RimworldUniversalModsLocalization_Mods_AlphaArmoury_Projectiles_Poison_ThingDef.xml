@@ -1,0 +1,21 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Projectiles\Projectiles_Poison.xml -->
+
+	<AArmoury_Poison_Revolver.label>ядовитая пуля револьвера</AArmoury_Poison_Revolver.label>
+
+	<AArmoury_Poison_Bolt.label>ядовитая пуля болтовой винтовки</AArmoury_Poison_Bolt.label>
+
+	<AArmoury_Poison_Shotgun.label>ядовитая дробь</AArmoury_Poison_Shotgun.label>
+
+	<AArmoury_Poison_HeavySMG.label>ядовитая пуля тяжёлого ПП</AArmoury_Poison_HeavySMG.label>
+
+	<AArmoury_Poison_LMG.label>ядовитая пуля Ручного Пулемета</AArmoury_Poison_LMG.label>
+
+	<AArmoury_Poison_Assault.label>ядовитая пуля штурмовой винтовки</AArmoury_Poison_Assault.label>
+
+	<AArmoury_Poison_Minigun.label>ядовитая пуля минигана</AArmoury_Poison_Minigun.label>
+
+	<AArmoury_Poison_Sniper.label>ядовитая пуля снайперской винтовки</AArmoury_Poison_Sniper.label>
+
+	<AArmoury_Poison_Hellcat.label>ядовитая пуля винтовки «Хеллкэт»</AArmoury_Poison_Hellcat.label>
+</LanguageData>

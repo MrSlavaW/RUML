@@ -1,0 +1,39 @@
+<LanguageData>
+	<!-- 1.6\Defs\WorkGiverDefs\WorkGivers.xml -->
+	<!--                      EN: bank alphapack -->
+	<AG_HaulToAlphaGeneBank.label>поместить альфа-пакет в банк</AG_HaulToAlphaGeneBank.label>
+	<!--                     EN: bank -->
+	<AG_HaulToAlphaGeneBank.verb>помещать в банк</AG_HaulToAlphaGeneBank.verb>
+	<!--                       EN: banking -->
+	<AG_HaulToAlphaGeneBank.gerund>помещение в банк</AG_HaulToAlphaGeneBank.gerund>
+	<!--                      EN: bank mixedpack -->
+	<AG_HaulToMixedGeneBank.label>поместить смешанный пакет в банк</AG_HaulToMixedGeneBank.label>
+	<!--                     EN: bank -->
+	<AG_HaulToMixedGeneBank.verb>помещать в банк</AG_HaulToMixedGeneBank.verb>
+	<!--                       EN: banking -->
+	<AG_HaulToMixedGeneBank.gerund>помещение в банк</AG_HaulToMixedGeneBank.gerund>
+	<!--                  EN: administer metal -->
+	<AG_AdministerMetal.label>дать металл</AG_AdministerMetal.label>
+	<!--                 EN: feed -->
+	<AG_AdministerMetal.verb>кормить</AG_AdministerMetal.verb>
+	<!--                   EN: feeding -->
+	<AG_AdministerMetal.gerund>дача металла</AG_AdministerMetal.gerund>
+	<!--                EN: eat metal -->
+	<AG_ForceEatMetal.label>есть металл</AG_ForceEatMetal.label>
+	<!--               EN: eat -->
+	<AG_ForceEatMetal.verb>есть</AG_ForceEatMetal.verb>
+	<!--                 EN: eating -->
+	<AG_ForceEatMetal.gerund>поедание</AG_ForceEatMetal.gerund>
+	<!--                      EN: deliver metal -->
+	<AG_Warden_DeliverMetal.label>доставить металл</AG_Warden_DeliverMetal.label>
+	<!--                     EN: deliver food for -->
+	<AG_Warden_DeliverMetal.verb>доставлять металл для</AG_Warden_DeliverMetal.verb>
+	<!--                       EN: delivering food for -->
+	<AG_Warden_DeliverMetal.gerund>доставка металла для</AG_Warden_DeliverMetal.gerund>
+	<!--                       EN: works at forsaken forge -->
+	<AG_DoBillsForsakenForge.label>работать в кузнице Отрекшихся</AG_DoBillsForsakenForge.label>
+	<!--                      EN: work at -->
+	<AG_DoBillsForsakenForge.verb>работать в</AG_DoBillsForsakenForge.verb>
+	<!--                        EN: working at -->
+	<AG_DoBillsForsakenForge.gerund>работа в</AG_DoBillsForsakenForge.gerund>
+</LanguageData>

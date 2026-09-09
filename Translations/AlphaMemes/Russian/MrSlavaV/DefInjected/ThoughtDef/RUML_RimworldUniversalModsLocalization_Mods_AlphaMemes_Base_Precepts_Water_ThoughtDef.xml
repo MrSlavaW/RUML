@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Water.xml -->
+	
+	<!--                         EN: in a watery biome -->
+	<AM_Water_Desired.stages.0.label>в водном биоме</AM_Water_Desired.stages.0.label>
+	<!--                               EN: Being near water fills me with peace and purpose. Its presence is a gift we must honor. -->
+	<AM_Water_Desired.stages.0.description>Близость к воде наполняет меня покоем и смыслом. Её присутствие — это дар, который мы должны чтить.</AM_Water_Desired.stages.0.description>
+	<!--                         EN: in a non-watery biome -->
+	<AM_Water_Desired.stages.1.label>не в водном биоме</AM_Water_Desired.stages.1.label>
+	<!--                               EN: The absence of water weighs on my soul. This land feels barren and lifeless. -->
+	<AM_Water_Desired.stages.1.description>Отсутствие воды тяготит мою душу. Эта земля кажется пустынной и безжизненной.</AM_Water_Desired.stages.1.description>
+</LanguageData>

@@ -1,0 +1,51 @@
+﻿<LanguageData>
+	<!-- 1.6\Defs\HediffDefs\Hediffs_Attacks.xml -->
+	<!--             EN: oversized horns -->
+	<AG_HornAttack.label>большие рога</AG_HornAttack.label>
+	<!--                   EN: These horns can be used in melee attacks. -->
+	<AG_HornAttack.description>Рога, которыми можно бить в ближнем бою.</AG_HornAttack.description>
+	<!--                             EN: horns -->
+	<AG_HornAttack.comps.0.tools.0.label>рога</AG_HornAttack.comps.0.tools.0.label>
+	<!--                EN: chainsaw hand -->
+	<AG_ChainsawHands.label>рука-бензопила</AG_ChainsawHands.label>
+	<!--                      EN: It's a chainsaw. For hand. It's not a difficult concept to grasp, to be honest. -->
+	<AG_ChainsawHands.description>Бензопила вместо кисти. По правде говоря, концепция довольно простая.</AG_ChainsawHands.description>
+	<!--                                EN: chainsaw -->
+	<AG_ChainsawHands.comps.0.tools.0.label>бензопила</AG_ChainsawHands.comps.0.tools.0.label>
+	<!--               EN: scyther blade -->
+	<AG_ScytherHands.label>клинок жнеца</AG_ScytherHands.label>
+	<!--                     EN: A sharp scyther blade. -->
+	<AG_ScytherHands.description>Острый клинок жнеца.</AG_ScytherHands.description>
+	<!--                               EN: scyther blade -->
+	<AG_ScytherHands.comps.0.tools.0.label>клинок жнеца</AG_ScytherHands.comps.0.tools.0.label>
+	<!--              EN: clawed hand -->
+	<AG_ClawedHands.label>когтистая рука</AG_ClawedHands.label>
+	<!--                    EN: Clawed hands that can be used as a fast melee attack. -->
+	<AG_ClawedHands.description>Когтистая рука, подходящая для быстрой атаки в ближнем бою.</AG_ClawedHands.description>
+	<!--                              EN: clawed hand -->
+	<AG_ClawedHands.comps.0.tools.0.label>когтистая рука</AG_ClawedHands.comps.0.tools.0.label>
+	<!--           EN: crab claw -->
+	<AG_CrabClaw.label>крабовая клешня</AG_CrabClaw.label>
+	<!--                 EN: A gigantic, but surprisingly versatile, crab claw. -->
+	<AG_CrabClaw.description>Гигантская, но удивительно ловкая крабовая клешня.</AG_CrabClaw.description>
+	<!--                           EN: claw -->
+	<AG_CrabClaw.comps.0.tools.0.label>клешня</AG_CrabClaw.comps.0.tools.0.label>
+	<!--             EN: venom fangs -->
+	<AG_VenomFangs.label>ядовитые клыки</AG_VenomFangs.label>
+	<!--                   EN: Large fangs that can be used in melee combat to inject a powerful venom. -->
+	<AG_VenomFangs.description>Большие клыки, которые можно использовать в ближнем бою для впрыскивания сильнодействующего яда.</AG_VenomFangs.description>
+	<!--                             EN: venom fangs -->
+	<AG_VenomFangs.comps.0.tools.0.label>ядовитые клыки</AG_VenomFangs.comps.0.tools.0.label>
+	<!--            EN: acid fangs -->
+	<AG_AcidFangs.label>кислотные клыки</AG_AcidFangs.label>
+	<!--                  EN: Large fangs that can be used in melee combat to inject a powerful acid. -->
+	<AG_AcidFangs.description>Большие клыки, которые можно использовать в ближнем бою для впрыскивания сильнодействующей кислоты.</AG_AcidFangs.description>
+	<!--                            EN: acid fangs -->
+	<AG_AcidFangs.comps.0.tools.0.label>кислотные клыки</AG_AcidFangs.comps.0.tools.0.label>
+	<!--                  EN: acid fangs -->
+	<AG_SlowerAcidFangs.label>кислотные клыки</AG_SlowerAcidFangs.label>
+	<!--                        EN: Large fangs that can be used in melee combat to inject a powerful acid. -->
+	<AG_SlowerAcidFangs.description>Большие клыки, которые можно использовать в ближнем бою для впрыскивания сильнодействующей кислоты.</AG_SlowerAcidFangs.description>
+	<!--                                  EN: acid fangs -->
+	<AG_SlowerAcidFangs.comps.0.tools.0.label>кислотные клыки</AG_SlowerAcidFangs.comps.0.tools.0.label>
+</LanguageData>

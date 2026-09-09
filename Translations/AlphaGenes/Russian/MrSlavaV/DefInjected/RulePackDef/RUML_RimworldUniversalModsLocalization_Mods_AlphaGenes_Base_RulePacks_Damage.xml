@@ -1,0 +1,37 @@
+<LanguageData>
+	<!-- 1.6\Defs\RulePackDefs\RulePacks_Damage.xml -->
+	<!-- EN:
+		<li>damaged_past->sterilized</li>
+		<li>damaged_past->cleaned</li>
+		<li>destroyed_past->damaged_past</li>
+	 -->
+	<AG_SterilizingBreath_Rules.rulePack.rulesStrings>
+		<li>damaged_past->стерилизован</li>
+		<li>damaged_past->очищен</li>
+		<li>destroyed_past->damaged_past</li>
+	</AG_SterilizingBreath_Rules.rulePack.rulesStrings>
+	<!-- EN:
+		<li>damaged_past->stunned</li>
+		<li>damaged_past->screamed</li>
+		<li>damaged_past->blasted</li>
+		<li>destroyed_past->damaged_past</li>
+	 -->
+	<AG_BansheeScream_Rules.rulePack.rulesStrings>
+		<li>damaged_past->оглушён</li>
+		<li>damaged_past->закричал</li>
+		<li>damaged_past->разорван</li>
+		<li>destroyed_past->damaged_past</li>
+	</AG_BansheeScream_Rules.rulePack.rulesStrings>
+	<!-- EN:
+		<li>damaged_past->belched</li>
+		<li>damaged_past->vomited</li>
+		<li>damaged_past->puked</li>
+		<li>destroyed_past->damaged_past</li>
+	 -->
+	<AG_NoxiousBreath_Rules.rulePack.rulesStrings>
+		<li>damaged_past->рыгнул</li>
+		<li>damaged_past->изверг содержимое желудка</li>
+		<li>damaged_past->вытошнил</li>
+		<li>destroyed_past->damaged_past</li>
+	</AG_NoxiousBreath_Rules.rulePack.rulesStrings>
+</LanguageData>

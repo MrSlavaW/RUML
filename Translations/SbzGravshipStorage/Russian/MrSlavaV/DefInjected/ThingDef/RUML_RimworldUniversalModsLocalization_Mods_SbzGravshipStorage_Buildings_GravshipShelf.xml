@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<sbz_GravshipTwoTierShelf.label>двухъярусный стеллаж грав-корабля</sbz_GravshipTwoTierShelf.label>
+	<sbz_GravshipTwoTierShelf.description>Двухъярусная палубная полка для компактного хранения до 12 различных предметов.</sbz_GravshipTwoTierShelf.description>
+	<sbz_GravshipShelf.label>стеллаж грав-корабля</sbz_GravshipShelf.label>
+	<sbz_GravshipShelf.description>Стандартный стеллаж для грав-корабля, вмещающий до 6 различных предметов.</sbz_GravshipShelf.description>
+	<sbz_SmallGravshipShelf.label>малый стеллаж грав-корабля</sbz_SmallGravshipShelf.label>
+	<sbz_SmallGravshipShelf.description>Небольшая судовая полка для тесных кают грав-корабля. Вмещает до 3 предметов.</sbz_SmallGravshipShelf.description>
+</LanguageData>

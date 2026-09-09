@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_Colossus.xml -->
+	<!--                         EN: colossus -->
+	<VFE_Mech_Advanced_Goliath.label>колосс</VFE_Mech_Advanced_Goliath.label>
+	<!--                                            EN: Plural colossus -->
+	<VFE_Mech_Advanced_Goliath.lifeStages.0.labelPlural>Колоссы</VFE_Mech_Advanced_Goliath.lifeStages.0.labelPlural>
+</LanguageData>

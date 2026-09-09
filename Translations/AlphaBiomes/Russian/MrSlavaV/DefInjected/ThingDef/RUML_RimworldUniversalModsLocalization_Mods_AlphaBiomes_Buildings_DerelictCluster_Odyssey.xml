@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+<AB_Mech_RuinedTurret_Single.label>разрушенное основание мех-турели</AB_Mech_RuinedTurret_Single.label>
+<AB_Mech_RuinedTurret_Single.description>Разрушенное основание механоидной турели. Полностью сломано.</AB_Mech_RuinedTurret_Single.description>
+<AB_Mech_RuinedTurret_Full.label>разрушенная мех-турель</AB_Mech_RuinedTurret_Full.label>
+<AB_Mech_RuinedTurret_Full.description>Разрушенная механоидная турель. Полностью сломана. Никаких полезных компонентов получить не удастся.</AB_Mech_RuinedTurret_Full.description>
+<AB_Mech_RuinedShield.label>разрушенный мех-щит</AB_Mech_RuinedShield.label>
+<AB_Mech_RuinedShield.description>Опустошённый генератор механоидного щита. Всё ещё слабо гудит.</AB_Mech_RuinedShield.description>
+<AB_Mech_RuinedMortar_Single.label>разрушенный мех-миномёт</AB_Mech_RuinedMortar_Single.label>
+<AB_Mech_RuinedMortar_Single.description>Разрушённый механоидный миномёт.</AB_Mech_RuinedMortar_Single.description>
+<AB_Mech_RuinedMortar_Full.label>разрушенный мех-миномёт</AB_Mech_RuinedMortar_Full.label>
+<AB_Mech_RuinedMortar_Full.description>Разрушённый автоматический механоидный миномёт. Полностью сломан. Полезные компоненты отсутствуют.</AB_Mech_RuinedMortar_Full.description>
+<AB_Mech_RuinedLargeGunPlatform.label>разрушенное основание тяжёлой мех-турели</AB_Mech_RuinedLargeGunPlatform.label>
+<AB_Mech_RuinedLargeGunPlatform.description>Разрушенное основание тяжёлой механоидной турели. Всё, что на ней находилось, давно исчезло.</AB_Mech_RuinedLargeGunPlatform.description>
+<AB_Mech_RuinedCell.label>разрушенная мех-энергоячейка</AB_Mech_RuinedCell.label>
+<AB_Mech_RuinedCell.description>Разрушенная энергоячейка механоида. Возможно, отсюда можно добыть пару компонентов.</AB_Mech_RuinedCell.description>
+<AB_Mech_RuinedActivator.label>разрушенный мех-датчик движения</AB_Mech_RuinedActivator.label>
+<AB_Mech_RuinedActivator.description>Разрушенный датчик движения механоида. Возможно, отсюда можно добыть пару компонентов.</AB_Mech_RuinedActivator.description>
+<AB_Mech_RuinedCapsule.label>разрушенная мех-капсула</AB_Mech_RuinedCapsule.label>
+<AB_Mech_RuinedCapsule.description>Разрушенная механоидная капсула. К счастью, она уже давно пуста.</AB_Mech_RuinedCapsule.description>
+<AB_Mech_RuinedAssembler.label>разрушенный мех-сборщик</AB_Mech_RuinedAssembler.label>
+<AB_Mech_RuinedAssembler.description>Разрушенный механоидный сборочный модуль. К счастью, он давно не активен.</AB_Mech_RuinedAssembler.description>
+
+</LanguageData>
+
+

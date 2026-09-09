@@ -1,0 +1,17 @@
+<LanguageData>
+	<!-- 1.6\Mods\Royalty\Defs\PreceptDefs\Precepts_AnimaScreams.xml -->
+	
+	<!--                                   EN: anima scream -->
+	<AM_AnimaScreams_Delightful.stages.0.label>крик анимы</AM_AnimaScreams_Delightful.stages.0.label>
+	<!--                                         EN: The reverberating mental echoes of the cursed tree's death are music to my brain. -->
+	<AM_AnimaScreams_Delightful.stages.0.description>Отголоски смерти проклятого дерева, эхом отдающиеся в моем сознании, — это музыка для моего мозга.</AM_AnimaScreams_Delightful.stages.0.description>
+	
+	<!--                                  EN: anima tree around -->
+	<AM_AnimaScream_TreesInMap.stages.0.label>дерево анимы рядом</AM_AnimaScream_TreesInMap.stages.0.label>
+	<!--                                        EN: That strange anima tree is whispering inside my mind, we should get rid of it! -->
+	<AM_AnimaScream_TreesInMap.stages.0.description>Это странное дерево анимы шепчет в моем сознании, нам нужно избавиться от него!</AM_AnimaScream_TreesInMap.stages.0.description>
+	<!--                                  EN: anima trees around -->
+	<AM_AnimaScream_TreesInMap.stages.1.label>деревья анимы рядом</AM_AnimaScream_TreesInMap.stages.1.label>
+	<!--                                        EN: This is madness, those trees need to be cut down NOW. -->
+	<AM_AnimaScream_TreesInMap.stages.1.description>Это безумие, эти деревья нужно срубить прямо сейчас.</AM_AnimaScream_TreesInMap.stages.1.description>
+</LanguageData>

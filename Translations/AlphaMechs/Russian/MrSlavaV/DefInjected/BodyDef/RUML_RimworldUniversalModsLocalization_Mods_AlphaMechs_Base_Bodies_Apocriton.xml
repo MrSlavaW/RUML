@@ -1,0 +1,37 @@
+<LanguageData>
+	<!-- 1.6\Defs\Bodies_Mechanoids\Bodies_Apocriton.xml -->
+	<!--                  EN: winged apocriton -->
+	<AM_ApocritonWinged.label>крылатый апокритон</AM_ApocritonWinged.label>
+	<!--                                                                                                   EN: left sight sensor -->
+	<AM_ApocritonWinged.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>левый оптический датчик</AM_ApocritonWinged.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+	<!--                                                                                                    EN: right sight sensor -->
+	<AM_ApocritonWinged.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>правый оптический датчик</AM_ApocritonWinged.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+	<!--                                                                                                     EN: left hearing sensor -->
+	<AM_ApocritonWinged.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>левый звуковой датчик</AM_ApocritonWinged.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+	<!--                                                                                                      EN: right hearing sensor -->
+	<AM_ApocritonWinged.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>правый звуковой датчик</AM_ApocritonWinged.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+	<!--                                                      EN: front left leg -->
+	<AM_ApocritonWinged.corePart.parts.front_left_leg.customLabel>передняя левая нога</AM_ApocritonWinged.corePart.parts.front_left_leg.customLabel>
+	<!--                                                                            EN: front left foot -->
+	<AM_ApocritonWinged.corePart.parts.front_left_leg.parts.front_left_foot.customLabel>передняя левая ступня</AM_ApocritonWinged.corePart.parts.front_left_leg.parts.front_left_foot.customLabel>
+	<!--                                                       EN: front right leg -->
+	<AM_ApocritonWinged.corePart.parts.front_right_leg.customLabel>передняя правая нога</AM_ApocritonWinged.corePart.parts.front_right_leg.customLabel>
+	<!--                                                                              EN: front right foot -->
+	<AM_ApocritonWinged.corePart.parts.front_right_leg.parts.front_right_foot.customLabel>передняя правая стопа</AM_ApocritonWinged.corePart.parts.front_right_leg.parts.front_right_foot.customLabel>
+	<!--                                                     EN: rear left leg -->
+	<AM_ApocritonWinged.corePart.parts.rear_left_leg.customLabel>задняя левая нога</AM_ApocritonWinged.corePart.parts.rear_left_leg.customLabel>
+	<!--                                                                          EN: rear left foot -->
+	<AM_ApocritonWinged.corePart.parts.rear_left_leg.parts.rear_left_foot.customLabel>задняя левая ступня</AM_ApocritonWinged.corePart.parts.rear_left_leg.parts.rear_left_foot.customLabel>
+	<!--                                                      EN: rear right leg -->
+	<AM_ApocritonWinged.corePart.parts.rear_right_leg.customLabel>задняя правая нога</AM_ApocritonWinged.corePart.parts.rear_right_leg.customLabel>
+	<!--                                                                            EN: rear right foot -->
+	<AM_ApocritonWinged.corePart.parts.rear_right_leg.parts.rear_right_foot.customLabel>задняя правая стопа</AM_ApocritonWinged.corePart.parts.rear_right_leg.parts.rear_right_foot.customLabel>
+	<!--                                                        EN: first wing blade -->
+	<AM_ApocritonWinged.corePart.parts.first_wing_blade.customLabel>первая лопасть крыла</AM_ApocritonWinged.corePart.parts.first_wing_blade.customLabel>
+	<!--                                                         EN: second wing blade -->
+	<AM_ApocritonWinged.corePart.parts.second_wing_blade.customLabel>вторая лопасть крыла</AM_ApocritonWinged.corePart.parts.second_wing_blade.customLabel>
+	<!--                                                        EN: third wing blade -->
+	<AM_ApocritonWinged.corePart.parts.third_wing_blade.customLabel>лопасть третьего крыла</AM_ApocritonWinged.corePart.parts.third_wing_blade.customLabel>
+	<!--                                                         EN: fourth wing blade -->
+	<AM_ApocritonWinged.corePart.parts.fourth_wing_blade.customLabel>четвертая лопасть крыла</AM_ApocritonWinged.corePart.parts.fourth_wing_blade.customLabel>
+</LanguageData>

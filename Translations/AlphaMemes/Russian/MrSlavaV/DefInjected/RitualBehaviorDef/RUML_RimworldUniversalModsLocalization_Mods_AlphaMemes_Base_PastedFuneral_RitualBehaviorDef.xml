@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\PastedFuneral.xml -->
+	
+	<!--                                              EN: Spectators must be alive. -->
+	<AM_PastedFuneralBehavior.spectatorFilter.description>Зрители должны быть живы.</AM_PastedFuneralBehavior.spectatorFilter.description>
+	<!--                                EN: speaker -->
+	<AM_PastedFuneralBehavior.roles.0.label>оратор</AM_PastedFuneralBehavior.roles.0.label>
+	<!--                                EN: Corpse -->
+	<AM_PastedFuneralBehavior.roles.1.label>Труп</AM_PastedFuneralBehavior.roles.1.label>
+	<!--                                           EN: {0}: The speech is over, the nutrient extraction has begun. -->
+	<AM_PastedFuneralBehavior.stages.1.postAction.text>{0}: Речь окончена, началась добыча питательных веществ.</AM_PastedFuneralBehavior.stages.1.postAction.text>
+</LanguageData>

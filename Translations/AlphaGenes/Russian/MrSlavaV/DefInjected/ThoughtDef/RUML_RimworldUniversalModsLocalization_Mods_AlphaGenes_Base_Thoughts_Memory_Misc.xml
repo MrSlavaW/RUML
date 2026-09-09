@@ -1,0 +1,51 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThoughtDefs\Thoughts_Memory_Misc.xml -->
+	<!--                   EN: disgusting colonist -->
+	<AG_Disgust.stages.0.label>Отвратительный поселенец</AG_Disgust.stages.0.label>
+	<!--                         EN: I can't get it out of my mind. How can anyone be SO revolting and grotesque? -->
+	<AG_Disgust.stages.0.description>Я не могу выбросить это из головы. Как кто-то может быть ТАКИМ отвратительным и гротескным?</AG_Disgust.stages.0.description>
+	<!--               EN: angelic colonist -->
+	<AG_Awe.stages.0.label>Ангельский поселенец</AG_Awe.stages.0.label>
+	<!--                     EN: I can't get it out of my mind. How can anyone be SO beautiful? -->
+	<AG_Awe.stages.0.description>Я не могу выкинуть это из головы. Как кто-то может быть НАСТОЛЬКО красивым?</AG_Awe.stages.0.description>
+	<!--                        EN: psychic drone -->
+	<AG_PsychicDrone.stages.0.label>Пси волна</AG_PsychicDrone.stages.0.label>
+	<!--                              EN: I feel calm and at peace -->
+	<AG_PsychicDrone.stages.0.description>Я чувствую себя спокойно и умиротворенно</AG_PsychicDrone.stages.0.description>
+	<!--                         EN: smell of corpse-rotting gas -->
+	<AG_CorpseFeeding.stages.0.label>Вонь разлагающего трупа</AG_CorpseFeeding.stages.0.label>
+	<!--                               EN: The smell of putrid corpse bile and corpse-rotting gas is overpowering! -->
+	<AG_CorpseFeeding.stages.0.description>Вонь трупной желчи и гниющей плоти просто невыносима!</AG_CorpseFeeding.stages.0.description>
+	<!--                                     EN: sunlight sensitivity -->
+	<AG_SunlightSensitivity_Minor.stages.0.label>Чувствительность к солнечному свету</AG_SunlightSensitivity_Minor.stages.0.label>
+	<!--                                           EN: The sun hurts my eyes. -->
+	<AG_SunlightSensitivity_Minor.stages.0.description>Солнце режет мне глаза.</AG_SunlightSensitivity_Minor.stages.0.description>
+	<!--                          EN: afraid of water -->
+	<AG_Thalassophobia.stages.0.label>Боится воды</AG_Thalassophobia.stages.0.label>
+	<!--                                EN: I can't stand being near water! It terrifies me. -->
+	<AG_Thalassophobia.stages.0.description>Я терпеть не могу находиться рядом с водой! Это приводит меня в ужас.</AG_Thalassophobia.stages.0.description>
+	<!--                     EN: puked rats -->
+	<AG_PukedRats.stages.0.label>Выблевал крысу</AG_PukedRats.stages.0.label>
+	<!--                           EN: No matter how many times it happens, I'll never get used to this. -->
+	<AG_PukedRats.stages.0.description>Неважно, сколько раз это случится, я никогда не привыкну к этому.</AG_PukedRats.stages.0.description>
+	<!--                     EN: forcefully implanted by {0} -->
+	<AG_Implanted.stages.0.label>насильно заражён {0}</AG_Implanted.stages.0.label>
+	<!--                           EN: I was violated and stung. -->
+	<AG_Implanted.stages.0.description>Меня ужалили.</AG_Implanted.stages.0.description>
+	<!--                            EN: forcefully implanted -->
+	<AG_Implanted_Social.stages.0.label>Насильственно имплантированный</AG_Implanted_Social.stages.0.label>
+	<!--                    EN: parasitized by {0} -->
+	<AG_Parasite.stages.0.label>заражён паразитом {0}</AG_Parasite.stages.0.label>
+	<!--                          EN: I CAN FEEL THE EGGS MOVING INSIDE MY BODY! -->
+	<AG_Parasite.stages.0.description>Я ЧУВСТВУЮ, КАК ЯЙЦА ДВИЖУТСЯ ВНУТРИ МОЕГО ТЕЛА!</AG_Parasite.stages.0.description>
+	<!--                           EN: parasitized -->
+	<AG_Parasite_Social.stages.0.label>Зараженный паразитами</AG_Parasite_Social.stages.0.label>
+	<!--                        EN: raided biolab -->
+	<AG_RaidedBioLab.stages.0.label>налёт на биолабораторию</AG_RaidedBioLab.stages.0.label>
+	<!--                              EN: The thrill of adventuring is exhilarating. -->
+	<AG_RaidedBioLab.stages.0.description>Острые ощущения от вылазки до сих пор будоражат кровь.</AG_RaidedBioLab.stages.0.description>
+	<!--                                EN: used xenotype injector -->
+	<AG_UsedXenotypeInjector.stages.0.label>использовал инжектор ксенотипа</AG_UsedXenotypeInjector.stages.0.label>
+	<!--                                      EN: I used a xenotype injector. -->
+	<AG_UsedXenotypeInjector.stages.0.description>Я использовал инжектор ксенотипа.</AG_UsedXenotypeInjector.stages.0.description>
+</LanguageData>

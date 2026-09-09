@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\PreceptDefs\Precepts_SanguophageCampsRaiding.xml -->
+	
+	<!--                                  EN: raiding desired -->
+	<AM_SanguophageCamps_RaidingDesired.label>желание налетов</AM_SanguophageCamps_RaidingDesired.label>
+	<!--                                        EN: The lurking dens of sanguophages are a blight upon the world, festering with unnatural corruption. We take pride in raiding these camps, striking at their cursed kind.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - If this precept is active in your colony, you will get Sanguophage camp quests once per quadrum. These are storyteller-independent, they don't take the "slot" of a base game quest. -->
+	<AM_SanguophageCamps_RaidingDesired.description>Логова гемофагов, скрывающиеся в тени, — это язва на теле мира, кишащая неестественной порчей. Мы гордимся набегами на эти лагеря, нанося удары по их проклятому роду.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Если этот принцип активен в вашем поселении, вы будете получать задания на лагеря гемофагов раз в квадрум. Эти задания независимы от рассказчика и не занимают "слот" основного задания игры.</AM_SanguophageCamps_RaidingDesired.description>
+	<!--                                                               EN: More than 3 quadrums without killing a Sanguophage -->
+	<AM_SanguophageCamps_RaidingDesired.comps.3.thoughtStageDescriptions.0>Более 3 квадрумов без убийства гемофага</AM_SanguophageCamps_RaidingDesired.comps.3.thoughtStageDescriptions.0>
+	<!--                                               EN: sanguophage camp raided -->
+	<AM_SanguophageCamps_RaidingDesired.comps.4.eventLabel>лагерь гемофагов разграблен</AM_SanguophageCamps_RaidingDesired.comps.4.eventLabel>
+</LanguageData>

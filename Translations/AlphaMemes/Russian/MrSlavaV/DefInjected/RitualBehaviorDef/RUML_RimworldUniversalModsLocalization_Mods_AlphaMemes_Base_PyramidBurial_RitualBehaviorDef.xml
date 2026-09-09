@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\PyramidBurial.xml -->
+	
+	<!--                                              EN: Spectators must be alive. -->
+	<AM_PyramidBurialBehavior.spectatorFilter.description>Зрители должны быть живы.</AM_PyramidBurialBehavior.spectatorFilter.description>
+	<!--                                EN: speaker -->
+	<AM_PyramidBurialBehavior.roles.0.label>оратор</AM_PyramidBurialBehavior.roles.0.label>
+	<!--                                EN: Corpse -->
+	<AM_PyramidBurialBehavior.roles.1.label>Труп</AM_PyramidBurialBehavior.roles.1.label>
+	<!--                                           EN: {0}: The speech is over, and the entombing is beginning. -->
+	<AM_PyramidBurialBehavior.stages.1.postAction.text>{0}: Речь окончена, и начинается захоронение.</AM_PyramidBurialBehavior.stages.1.postAction.text>
+</LanguageData>

@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\TerrainDefs\Terrain_Floors_Horaxian.xml -->
+	<!--                EN: horaxian tile -->
+	<AM_Tile_Horaxian.label>гораксианская плитка</AM_Tile_Horaxian.label>
+	<!--                      EN: Stylish tiles in a Horaxian style. -->
+	<AM_Tile_Horaxian.description>Стильная плитка в гораксианском стиле.</AM_Tile_Horaxian.description>
+</LanguageData>

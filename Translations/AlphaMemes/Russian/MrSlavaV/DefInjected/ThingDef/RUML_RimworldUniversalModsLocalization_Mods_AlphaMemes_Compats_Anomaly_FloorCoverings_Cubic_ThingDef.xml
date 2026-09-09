@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\ThingDefs_Misc\FloorCoverings_Cubic.xml -->
+	<!--                   EN: cubic slab (medium) -->
+	<AM_CubicSlab_Medium.label>Кубическая плита (средняя)</AM_CubicSlab_Medium.label>
+	<!--                         EN: A stone bas relief of cubic imagery for decorating a floor. Contrary to other slabs, you can (and should) build these out of GOLD. -->
+	<AM_CubicSlab_Medium.description>Каменный барельеф с кубическими изображениями для украшения пола. В отличие от других плит, эти можно (и нужно) строить из ЗОЛОТА.</AM_CubicSlab_Medium.description>
+	
+	<!--                  EN: cubic slab (broad) -->
+	<AM_CubicSlab_Broad.label>Кубическая плита (широкая)</AM_CubicSlab_Broad.label>
+	<!--                        EN: A stone bas relief of cubic imagery for decorating a floor. Contrary to other slabs, you can (and should) build these out of GOLD. -->
+	<AM_CubicSlab_Broad.description>Каменный барельеф с кубическими изображениями для украшения пола. В отличие от других плит, эти можно (и нужно) строить из ЗОЛОТА.</AM_CubicSlab_Broad.description>
+</LanguageData>

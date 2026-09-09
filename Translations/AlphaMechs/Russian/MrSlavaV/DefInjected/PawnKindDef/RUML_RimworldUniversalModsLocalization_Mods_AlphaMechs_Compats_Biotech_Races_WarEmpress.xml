@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_WarEmpress.xml -->
+	<!--             EN: war empress -->
+	<AM_WarEmpress.label>военная императрица</AM_WarEmpress.label>
+	<!--                                EN: Plural war empress -->
+	<AM_WarEmpress.lifeStages.1.labelPlural>Императрицы войны</AM_WarEmpress.lifeStages.1.labelPlural>
+<AM_WarEmpress.lifeStages.0.labelPlural>Императрицы войны</AM_WarEmpress.lifeStages.0.labelPlural></LanguageData>

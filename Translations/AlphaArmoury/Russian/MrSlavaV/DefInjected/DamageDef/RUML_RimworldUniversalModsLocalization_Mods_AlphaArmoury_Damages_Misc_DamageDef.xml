@@ -1,0 +1,93 @@
+<LanguageData>
+	<!-- 1.6\Defs\DamageDefs\Damages_Misc.xml -->
+
+	<!-- EN: rotstink dust -->
+	<AArmoury_RotstinkDust.label>гниловонная пыль</AArmoury_RotstinkDust.label>
+	<!-- EN: {0} был убит. -->
+	<AArmoury_RotstinkDust.deathMessage>{0} был убит.</AArmoury_RotstinkDust.deathMessage>
+	
+	<!-- EN: acid -->
+	<AArmoury_AcidSpit.label>кислота</AArmoury_AcidSpit.label>
+	<!-- EN: {0} has been corroded to death. -->
+	<AArmoury_AcidSpit.deathMessage>{0} был разъеден до смерти.</AArmoury_AcidSpit.deathMessage>
+	
+	<!-- EN: decoherence nanites -->
+	<AArmoury_Holy.label>наниты декогеренции</AArmoury_Holy.label>
+	<!-- EN: {0} has been burned to death. -->
+	<AArmoury_Holy.deathMessage>{0} сгорел заживо.</AArmoury_Holy.deathMessage>
+	
+	<!-- EN: thermal damage -->
+	<AArmoury_ThermalBlasts.label>термический урон</AArmoury_ThermalBlasts.label>
+	<!-- EN: {0} был убит. -->
+	<AArmoury_ThermalBlasts.deathMessage>{0} был убит.</AArmoury_ThermalBlasts.deathMessage>
+	
+	<!-- EN: paralyzing needle -->
+	<AArmoury_NeedleProjectiles.label>парализующая игла</AArmoury_NeedleProjectiles.label>
+	<!-- EN: {0} был убит. -->
+	<AArmoury_NeedleProjectiles.deathMessage>{0} был убит.</AArmoury_NeedleProjectiles.deathMessage>
+	
+	<!-- EN: net -->
+	<AArmoury_NetDamage.label>сеть</AArmoury_NetDamage.label>
+	<!-- EN: {0} был убит. -->
+	<AArmoury_NetDamage.deathMessage>{0} был убит.</AArmoury_NetDamage.deathMessage>
+	
+	<!-- EN: flame -->
+	<AArmoury_Flame_Lesser.label>пламя</AArmoury_Flame_Lesser.label>
+	<!-- EN: {0} has burned to death. -->
+	<AArmoury_Flame_Lesser.deathMessage>{0} сгорел заживо.</AArmoury_Flame_Lesser.deathMessage>
+	
+	<!-- EN: bullet -->
+	<AArmoury_Chemburster.label>пуля</AArmoury_Chemburster.label>
+	<!-- EN: {0} был убит. -->
+	<AArmoury_Chemburster.deathMessage>{0} был убит.</AArmoury_Chemburster.deathMessage>
+	
+	<!-- EN: bullet -->
+	<AArmoury_Flux.label>биозарядная пуля</AArmoury_Flux.label>
+	<!-- EN: {0} был убит. -->
+	<AArmoury_Flux.deathMessage>{0} был убит.</AArmoury_Flux.deathMessage>
+	
+	<!-- EN: toxic spray -->
+	<AArmoury_MeleeTox.label>токсичный спрей</AArmoury_MeleeTox.label>
+	<!-- EN: {0} был убит. -->
+	<AArmoury_MeleeTox.deathMessage>{0} был убит.</AArmoury_MeleeTox.deathMessage>
+	
+	<!-- EN: bioengineered bee venom -->
+	<AArmoury_BeeVenom.label>биоинженерный пчелиный яд</AArmoury_BeeVenom.label>
+	<!-- EN: {0} has been stung to death. -->
+	<AArmoury_BeeVenom.deathMessage>{0} был ужален до смерти.</AArmoury_BeeVenom.deathMessage>
+	
+	<!-- EN: target locator -->
+	<AArmoury_TargetLocator.label>целеуказатель</AArmoury_TargetLocator.label>
+	<!-- EN: {0} был убит. -->
+	<AArmoury_TargetLocator.deathMessage>{0} был убит.</AArmoury_TargetLocator.deathMessage>
+	
+	<!-- EN: corrosive fluid -->
+	<AArmoury_Corrosive.label>разъедающая жидкость</AArmoury_Corrosive.label>
+	<!-- EN: {0} has been corroded to death. -->
+	<AArmoury_Corrosive.deathMessage>{0} был разъеден до смерти.</AArmoury_Corrosive.deathMessage>
+	
+	<!-- EN: electric shock -->
+	<AArmoury_Voltaic.label>электрошок</AArmoury_Voltaic.label>
+	<!-- EN: {0} был убит. -->
+	<AArmoury_Voltaic.deathMessage>{0} был убит.</AArmoury_Voltaic.deathMessage>
+	
+	<!-- EN: orgasmic -->
+	<AArmoury_Orgasmatron.label>оргазмический</AArmoury_Orgasmatron.label>
+	<!-- EN: {0} был убит. -->
+	<AArmoury_Orgasmatron.deathMessage>{0} был убит.</AArmoury_Orgasmatron.deathMessage>
+	
+	<!-- EN: psychic -->
+	<AArmoury_PsychicDamage.label>психический</AArmoury_PsychicDamage.label>
+	<!-- EN: {0} has suffered irreparable nerve damage. -->
+	<AArmoury_PsychicDamage.deathMessage>{0} получил необратимые повреждения нервной системы.</AArmoury_PsychicDamage.deathMessage>
+	
+	<!-- EN: insectkilling acid -->
+	<AArmoury_InsectKiller.label>кислота против насекомых</AArmoury_InsectKiller.label>
+	<!-- EN: {0} has been corroded to death. -->
+	<AArmoury_InsectKiller.deathMessage>{0} был разъеден до смерти.</AArmoury_InsectKiller.deathMessage>
+	
+	<!-- EN: entitykilling acid -->
+	<AArmoury_AnomalyKiller.label>кислота против сущностей</AArmoury_AnomalyKiller.label>
+	<!-- EN: {0} has been corroded to death. -->
+	<AArmoury_AnomalyKiller.deathMessage>{0} был разъеден до смерти.</AArmoury_AnomalyKiller.deathMessage>
+</LanguageData>

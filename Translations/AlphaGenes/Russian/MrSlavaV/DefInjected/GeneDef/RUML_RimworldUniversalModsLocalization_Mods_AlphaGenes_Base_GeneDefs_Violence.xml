@@ -1,0 +1,32 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Violence.xml -->
+	<!--             EN: inner peace -->
+	<AG_InnerPeace.label>внутренний мир</AG_InnerPeace.label>
+	<!--                   EN: Carriers of this gene have achieved a certain mental peace where they don't really care much about slights from others. -->
+	<AG_InnerPeace.description>Носители этого гена достигли определенного душевного спокойствия, когда их не особо заботит пренебрежение со стороны других.</AG_InnerPeace.description>
+	<!--                                  EN: Immune to negative moods and opinions from social fights or insults. -->
+	<AG_InnerPeace.customEffectDescriptions.0>Иммунитет к негативным настроениям и мнениям, возникающим в результате социальных драк или оскорблений.</AG_InnerPeace.customEffectDescriptions.0>
+	<!--        EN: rowdy -->
+	<AG_Rowdy.label>хулиган</AG_Rowdy.label>
+	<!--              EN: Carriers of this gene love to play fight. This might of course not be shared by the other person involved! -->
+	<AG_Rowdy.description>Носители этого гена любят драться, нарушать правила.</AG_Rowdy.description>
+	<!--                             EN: This gene will also make its carrier receive recreation after a social fight. -->
+	<AG_Rowdy.customEffectDescriptions.0>Этот ген также расслабляет носителя после хорошей драки и дебоша.</AG_Rowdy.customEffectDescriptions.0>
+	<!--           EN: enforcer -->
+	<AG_Enforcer.label>законник</AG_Enforcer.label>
+	<!--                 EN: Carriers of this gene are naturally adept at controlling people getting out of line, and therefore have a better chance of arresting them. -->
+	<AG_Enforcer.description>Носители этого гена от природы умеют контролировать людей, выходящих за рамки дозволенного, и поэтому имеют больше шансов их арестовать.</AG_Enforcer.description>
+	<!--                                EN: No metabolism cost because its effect is pretty minor. "But then I can add it to any xenotypes I make for free!". Yes, yes you can. Is that funny for you, or are you just bitching because you are a boring dumbass? Gods, I hate you so much, Mr. Strawman... -->
+	<AG_Enforcer.customEffectDescriptions.0>Нет затрат на метаболизм, поскольку его эффект довольно незначительный.
+
+
+«Но тогда я смогу бесплатно добавить его к любым ксенотипам, которые создаю!». Да, да, ты можешь. Тебе это смешно, или ты просто ругаешься, потому что ты скучный придурок? Боги, я так вас ненавижу, мистер Строуман...</AG_Enforcer.customEffectDescriptions.0>
+	<!--                  EN: arrest avoidant -->
+	<AG_ArrestAvoidance.label>Слабый в законе</AG_ArrestAvoidance.label>
+	<!--                        EN: Carriers of this gene are naturally inept at controlling people getting out of line, and therefore have a much worse chance of arresting them. -->
+	<AG_ArrestAvoidance.description>Носители этого гена по своей природе неспособны контролировать людей, выходящих за рамки дозволенного, и поэтому имеют гораздо меньше шансов арестовать их.</AG_ArrestAvoidance.description>
+	<!--              EN: tough sinews -->
+	<AG_ToughSinews.label>крепкие сухожилия</AG_ToughSinews.label>
+	<!--                    EN: Carriers of this gene can naturally use Heavy weapons or Warcasket weapons without the need of assisting armor. -->
+	<AG_ToughSinews.description>Носители этого гена могут естественным образом использовать тяжелое оружие без необходимости использования брони.</AG_ToughSinews.description>
+</LanguageData>

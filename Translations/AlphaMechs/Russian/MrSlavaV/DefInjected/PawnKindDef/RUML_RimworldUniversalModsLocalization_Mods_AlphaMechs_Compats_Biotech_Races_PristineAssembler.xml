@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_PristineAssembler.xml -->
+	<!--                         EN: pristine assembler -->
+	<AM_Mech_PristineAssembler.label>чистый ассемблер</AM_Mech_PristineAssembler.label>
+	<!--                                            EN: Plural pristine assembler -->
+	<AM_Mech_PristineAssembler.lifeStages.1.labelPlural>Безупречные ассемблеры</AM_Mech_PristineAssembler.lifeStages.1.labelPlural>
+<AM_Mech_PristineAssembler.lifeStages.0.labelPlural>Безупречные ассемблеры</AM_Mech_PristineAssembler.lifeStages.0.labelPlural></LanguageData>

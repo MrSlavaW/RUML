@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_PlantSowing.xml -->
+<!--                                                EN: sowed plants outside -->
+    <AM_PlantSowing_Inside_SowedPlantOutside.stages.0.label>посадил растения на открытом воздухе</AM_PlantSowing_Inside_SowedPlantOutside.stages.0.label>
+    <!--                                                      EN: I sowed a plant outside. We should grow our crops safely beneath the earth. -->
+    <AM_PlantSowing_Inside_SowedPlantOutside.stages.0.description>Я посадил растение на открытом воздухе. Мы должны выращивать наши культуры в безопасности под землёй.</AM_PlantSowing_Inside_SowedPlantOutside.stages.0.description>
+</LanguageData>

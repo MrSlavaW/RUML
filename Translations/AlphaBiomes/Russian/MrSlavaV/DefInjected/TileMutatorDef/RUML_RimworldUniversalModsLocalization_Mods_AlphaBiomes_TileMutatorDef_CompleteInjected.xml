@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AB_AnimaDesertFlora.description>This region contains a desert with sparse anima cacti, quietly resonating with psychic energy. The air feels attentive, as if the land itself is listening.</AB_AnimaDesertFlora.description>
+  <AB_AnimaFaunaDesert.description>The placid environment of the anima desert attracts some anima-touched animals.</AB_AnimaFaunaDesert.description>
+  <AB_AnimaSoilsDesert.description>This area contains soil infused with latent anima energy, subtly influencing plants, animals, and minds.</AB_AnimaSoilsDesert.description>
+  <AB_CalcifiedSoil.description>Твёрдая, обогащённая солями кальция земля.</AB_CalcifiedSoil.description>
+  <AB_CalcifiedSoil.label>кальцинированная почва</AB_CalcifiedSoil.label>
+  <AB_CerebrospinalFluid.description>Озёра и лужицы биологического ликвора.</AB_CerebrospinalFluid.description>
+  <AB_CerebrospinalFluid.label>спинномозговая жидкость</AB_CerebrospinalFluid.label>
+  <AB_CorruptedMechFlora.description>Синтетические нано-растения, оставшиеся от механоидов.</AB_CorruptedMechFlora.description>
+  <AB_CorruptedMechFlora.label>осквернённая мехо-флора</AB_CorruptedMechFlora.label>
+  <AB_DigestiveSurface.description>Органический покров, выделяющий едкие ферменты.</AB_DigestiveSurface.description>
+  <AB_DigestiveSurface.label>пищеварительная поверхность</AB_DigestiveSurface.label>
+  <AB_DryClimate.description>Крайне сухой воздух, ускоряющий жажду.</AB_DryClimate.description>
+  <AB_DryClimate.label>засушливый климат</AB_DryClimate.label>
+  <AB_DryMeadows.description>Засушливые луговые почвы с характерной растительностью.</AB_DryMeadows.description>
+  <AB_DryMeadowsFlora.description>This region contains flora adapted to the drier conditions of the terrain.</AB_DryMeadowsFlora.description>
+  <AB_FleshTerrain.description>Участок биома, покрытый шевелящейся биомассой.</AB_FleshTerrain.description>
+  <AB_FleshTerrain.label>живая плоть</AB_FleshTerrain.label>
+  <AB_GauranlenFlora.description>Земля, насыщенная симбиотическими спорами древа Гауранлен.</AB_GauranlenFlora.description>
+  <AB_GauranlenFlora.label>гауранленовая флора</AB_GauranlenFlora.label>
+  <AB_JadeiteChunksDesert.description>This desertic area contains small deposits of jadeite.</AB_JadeiteChunksDesert.description>
+  <AB_MauvebloomFlora.description>Заросли светящихся лиловых цветов и деревьев.</AB_MauvebloomFlora.description>
+  <AB_MauvebloomFlora.label>лиловоцветный лес</AB_MauvebloomFlora.label>
+  <AB_MobileCacti.description>Местные кактусы обладают слабой подвижностью.</AB_MobileCacti.description>
+  <AB_MobileCacti.label>блуждающие кактусы</AB_MobileCacti.label>
+  <AB_MutagenicSprings.description>Водные ключи, стимулирующие клеточные мутации.</AB_MutagenicSprings.description>
+  <AB_ObsidianSpires.description>Острые природные пики из вулканического стекла.</AB_ObsidianSpires.description>
+  <AB_ObsidianSpires.label>обсидиановые шпили</AB_ObsidianSpires.label>
+  <AB_OcularDesertFlora.description>This region contains a desert with sparse ocular cacti.</AB_OcularDesertFlora.description>
+  <AB_OcularDesertSoil.description>This desertic area contains soil twisted by a strange extradimensional influence.</AB_OcularDesertSoil.description>
+  <AB_OversaturatedSoil.description>Влажная болотистая земля, богатая органикой.</AB_OversaturatedSoil.description>
+  <AB_OversaturatedSoil.label>переувлажнённая почва</AB_OversaturatedSoil.label>
+  <AB_PollinationFrenzy.description>Воздух насыщен пыльцой и стимулирующими феромонами.</AB_PollinationFrenzy.description>
+  <AB_PollinationFrenzy.label>буйное опыление</AB_PollinationFrenzy.label>
+  <AB_QuicksandPits.description>Опасные ямы зыбучего песка, затягивающие неосторожных.</AB_QuicksandPits.description>
+  <AB_QuiveringSurface.description>Нестабильный вибрирующий биогенный покров.</AB_QuiveringSurface.description>
+  <AB_QuiveringSurface.label>дрожащая поверхность</AB_QuiveringSurface.label>
+  <AB_ReddishRains.description>Дожди с взвесью красноватой минеральной пыли.</AB_ReddishRains.description>
+  <AB_ReddishRains.label>красноватые дожди</AB_ReddishRains.label>
+  <AB_ReddishWaters.description>Водоёмы, насыщенные минералами железа и водорослями.</AB_ReddishWaters.description>
+  <AB_ReddishWaters.label>красноватые воды</AB_ReddishWaters.label>
+  <AB_ResidualOverclocking.description>Нано-поле, ускоряющее работу механизмов.</AB_ResidualOverclocking.description>
+  <AB_ResidualOverclocking.label>остаточный разгон</AB_ResidualOverclocking.label>
+  <AB_SugarChunks.description>Кристаллизовавшиеся глыбы органических сахаров.</AB_SugarChunks.description>
+  <AB_SugarChunks.label>сахарные глыбы</AB_SugarChunks.label>
+  <AB_SymbioticNutrients.description>Почва сочится высокопитательными выделениями.</AB_SymbioticNutrients.description>
+  <AB_SymbioticNutrients.label>симбиотические нутриенты</AB_SymbioticNutrients.label>
+  <AB_TarHoles.description>Вязкие нефтяные и дегтярные скопления.</AB_TarHoles.description>
+  <AB_TarHoles.label>дегтярные ямы</AB_TarHoles.label>
+  <AB_ToxicMeadowsFlora.description>Ядовитая флора, приспособившаяся к загрязнению.</AB_ToxicMeadowsFlora.description>
+  <AB_ToxicMeadowsFlora.label>флора токсичных лугов</AB_ToxicMeadowsFlora.label>
+  <AB_TumorousGrowths.description>Пульсирующие наросты искажённой плоти.</AB_TumorousGrowths.description>
+  <AB_TumorousGrowths.label>опухолевые наросты</AB_TumorousGrowths.label>
+  <AB_UnshackledCompanionDryads.description>Миролюбивые вольные дриады населяют территорию.</AB_UnshackledCompanionDryads.description>
+  <AB_UnshackledCompanionDryads.label>вольные дриады-спутники</AB_UnshackledCompanionDryads.label>
+  <AB_UnshackledDryads.description>Освободившиеся от связи дриады бродят по округе.</AB_UnshackledDryads.description>
+  <AB_UnshackledDryads.label>дикие дриады</AB_UnshackledDryads.label>
+</LanguageData>

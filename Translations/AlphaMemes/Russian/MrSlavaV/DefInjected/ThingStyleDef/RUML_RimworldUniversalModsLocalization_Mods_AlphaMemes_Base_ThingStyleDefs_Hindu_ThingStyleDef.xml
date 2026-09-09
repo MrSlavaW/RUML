@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingStyleDefs\Vanilla\ThingStyleDefs_Hindu.xml -->
+	<!--                        EN: short sword -->
+	<AM_Hindu_Gladius.overrideLabel>короткий меч</AM_Hindu_Gladius.overrideLabel>
+	<!--                     EN: tabar -->
+	<AM_Hindu_Ikwa.overrideLabel>табар</AM_Hindu_Ikwa.overrideLabel>
+	<!--                      EN: katar -->
+	<AM_Hindu_Knife.overrideLabel>катар</AM_Hindu_Knife.overrideLabel>
+	<!--                      EN: talwar -->
+	<AM_Hindu_Sword.overrideLabel>талвар</AM_Hindu_Sword.overrideLabel>
+	<!--                     EN: gada -->
+	<AM_Hindu_Mace.overrideLabel>гада</AM_Hindu_Mace.overrideLabel>
+	<!--                      EN: trishula -->
+	<AM_Hindu_Spear.overrideLabel>тришула</AM_Hindu_Spear.overrideLabel>
+</LanguageData>

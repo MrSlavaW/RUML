@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<InstallPlasmaShieldImplant.label>вживить имплант плазменного щита</InstallPlasmaShieldImplant.label>
+	<InstallPlasmaShieldImplant.description>Хирургическая операция по установке генератора плазменного щита.</InstallPlasmaShieldImplant.description>
+	<InstallPsiShieldBooster.label>установить пси-усилитель щита</InstallPsiShieldBooster.label>
+	<InstallPsiShieldBooster.description>Хирургическая операция по подключению пси-интерфейса к плазменному щиту.</InstallPsiShieldBooster.description>
+	<InstallPlasmaShieldBattery.label>установить аккумулятор щита</InstallPlasmaShieldBattery.label>
+	<InstallPlasmaShieldBattery.description>Операция по вживлению дополнительной батареи плазменного щита.</InstallPlasmaShieldBattery.description>
+	<InstallAdvancedPlasmaShieldBattery.label>установить продвинутый аккумулятор щита</InstallAdvancedPlasmaShieldBattery.label>
+	<InstallAdvancedPlasmaShieldBattery.description>Операция по вживлению высокоемкой батареи плазменного щита.</InstallAdvancedPlasmaShieldBattery.description>
+	<InstallHardenedPlasmaShield.label>установить закаленный плазменный щит</InstallHardenedPlasmaShield.label>
+	<InstallHardenedPlasmaShield.description>Хирургическая операция по установке закаленного модуля щита.</InstallHardenedPlasmaShield.description>
+</LanguageData>

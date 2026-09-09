@@ -1,0 +1,31 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\Rituals\DirtmoleConversion\Ritual_Outcomes_DirtmoleConversion.xml -->
+<!--                                  EN: If the embrace the deep ritual goes well (positive outcome), mood will be improved for all asistants. A negative outcome will cause a mood penalty. -->
+    <AM_DirtmoleConversionOutcome.description>Если ритуал «Объять глубины» пройдёт успешно (положительный исход), настроение всех ассистентов улучшится. При отрицательном исходе они получат штраф к настроению.</AM_DirtmoleConversionOutcome.description>
+    <!--                                    EN: participant count -->
+    <AM_DirtmoleConversionOutcome.comps.0.label>количество участников</AM_DirtmoleConversionOutcome.comps.0.label>
+    <!--                                    EN: indoors -->
+    <AM_DirtmoleConversionOutcome.comps.1.label>в помещении</AM_DirtmoleConversionOutcome.comps.1.label>
+    <!--                                          EN: not indoors -->
+    <AM_DirtmoleConversionOutcome.comps.1.labelNotMet>не в помещении</AM_DirtmoleConversionOutcome.comps.1.labelNotMet>
+    <!--                                    EN: {PAWN_labelShort}'s social impact -->
+    <AM_DirtmoleConversionOutcome.comps.2.label>социальное влияние {PAWN_labelShort}</AM_DirtmoleConversionOutcome.comps.2.label>
+    <!--                                            EN: speaker's social impact -->
+    <AM_DirtmoleConversionOutcome.comps.2.labelAbstract>социальное влияние оратора</AM_DirtmoleConversionOutcome.comps.2.labelAbstract>
+    <!--                                             EN: Unconvincing -->
+    <AM_DirtmoleConversionOutcome.outcomeChances.0.label>Неубедительно</AM_DirtmoleConversionOutcome.outcomeChances.0.label>
+    <!--                                                   EN: The {0} was unconvincing. The dirtmole conversion was successful, but the speaker failed to inspire the faithful with the importance of embracing the deep, and the assistants were left unimpressed. -->
+    <AM_DirtmoleConversionOutcome.outcomeChances.0.description>Ритуал {0} прошёл неубедительно. Обращение в подземного крота прошло успешно, но оратору не удалось вдохновить верующих важностью того, чтобы объять глубины, и ассистенты остались не впечатлены.</AM_DirtmoleConversionOutcome.outcomeChances.0.description>
+    <!--                                             EN: Underwhelming -->
+    <AM_DirtmoleConversionOutcome.outcomeChances.1.label>Разочаровывающе</AM_DirtmoleConversionOutcome.outcomeChances.1.label>
+    <!--                                                   EN: The {0} was underwhelming. The dirtmole conversion was successful, but the speaker's words lacked passion, and the assistants found little inspiration in the ceremony. -->
+    <AM_DirtmoleConversionOutcome.outcomeChances.1.description>Ритуал {0} прошёл разочаровывающе. Обращение в подземного крота прошло успешно, но в словах оратора не хватало страсти, и ассистенты не нашли в церемонии вдохновения.</AM_DirtmoleConversionOutcome.outcomeChances.1.description>
+    <!--                                             EN: Convincing -->
+    <AM_DirtmoleConversionOutcome.outcomeChances.2.label>Убедительно</AM_DirtmoleConversionOutcome.outcomeChances.2.label>
+    <!--                                                   EN: The {0} was convincing. The dirtmole conversion was successful, and the speaker delivered a stirring sermon about the embrace of the deep, leaving the assistants satisfied with the ceremony. -->
+    <AM_DirtmoleConversionOutcome.outcomeChances.2.description>Ритуал {0} прошёл убедительно. Обращение в подземного крота прошло успешно, и оратор произнёс волнующую проповедь об объятии глубин, оставив ассистентов довольными церемонией.</AM_DirtmoleConversionOutcome.outcomeChances.2.description>
+    <!--                                             EN: Inspiring -->
+    <AM_DirtmoleConversionOutcome.outcomeChances.3.label>Вдохновляюще</AM_DirtmoleConversionOutcome.outcomeChances.3.label>
+    <!--                                                   EN: The {0} was inspiring! The dirtmole conversion was successful, and the speaker's words captured the importance of embracing the deep and left the assistants deeply moved by the ceremony. -->
+    <AM_DirtmoleConversionOutcome.outcomeChances.3.description>Ритуал {0} прошёл вдохновляюще! Обращение в подземного крота прошло успешно, и слова оратора передали всю важность того, чтобы объять глубины, глубоко тронув ассистентов этой церемонией.</AM_DirtmoleConversionOutcome.outcomeChances.3.description>
+</LanguageData>

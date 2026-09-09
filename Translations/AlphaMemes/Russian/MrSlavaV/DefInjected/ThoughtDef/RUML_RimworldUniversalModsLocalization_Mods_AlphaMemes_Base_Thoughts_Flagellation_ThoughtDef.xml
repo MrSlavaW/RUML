@@ -1,0 +1,22 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThoughtDefs\Flagellation\Thoughts_Flagellation.xml -->
+<!--                                EN: failed flagellation -->
+    <AM_TerribleFlagellation.stages.0.label>провальное бичевание</AM_TerribleFlagellation.stages.0.label>
+    <!--                                      EN: The ritual left no scars at all. What was the point of the ceremony if my devotion is not written on my flesh? -->
+    <AM_TerribleFlagellation.stages.0.description>Ритуал не оставил ни единого шрама. Какой смысл был в церемонии, если моя преданность не начертана на моей плоти?</AM_TerribleFlagellation.stages.0.description>
+    
+    <!--                              EN: underwhelming flagellation -->
+    <AM_BoringFlagellation.stages.0.label>разочаровывающее бичевание</AM_BoringFlagellation.stages.0.label>
+    <!--                                    EN: I bear only a few new scars. It hardly feels like enough to properly mark my devotion. -->
+    <AM_BoringFlagellation.stages.0.description>Я ношу лишь несколько новых шрамов. Этого едва ли достаточно, чтобы должным образом отметить мою преданность.</AM_BoringFlagellation.stages.0.description>
+    
+    <!--                           EN: satisfying flagellation -->
+    <AM_FunFlagellation.stages.0.label>удовлетворительное бичевание</AM_FunFlagellation.stages.0.label>
+    <!--                                 EN: I bear several new ritual scars. My devotion is written into my flesh once again. -->
+    <AM_FunFlagellation.stages.0.description>Я ношу несколько новых ритуальных шрамов. Моя преданность вновь начертана на моей плоти.</AM_FunFlagellation.stages.0.description>
+    
+    <!--                                     EN: exemplary flagellation -->
+    <AM_UnforgettableFlagellation.stages.0.label>образцовое бичевание</AM_UnforgettableFlagellation.stages.0.label>
+    <!--                                           EN: My body is covered in new ritual scars. I have never felt more proud to wear my devotion so openly. -->
+    <AM_UnforgettableFlagellation.stages.0.description>Моё тело покрыто новыми ритуальными шрамами. Я никогда не испытывал такой гордости, открыто демонстрируя свою преданность.</AM_UnforgettableFlagellation.stages.0.description>
+</LanguageData>

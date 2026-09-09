@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ReelNeolithicStorage.label>племенные хранилища</ReelNeolithicStorage.label>
+	<ReelNeolithicStorage.description>Простые деревянные корзины и короба для организованного складирования припасов.</ReelNeolithicStorage.description>
+	<ReelMedievalStorage.label>средневековые хранилища</ReelMedievalStorage.label>
+	<ReelMedievalStorage.description>Бочки, сундуки и стеллажи из дерева и кованого железа.</ReelMedievalStorage.description>
+	<ReelIndustrialStorage.label>индустриальные хранилища</ReelIndustrialStorage.label>
+	<ReelIndustrialStorage.description>Грузовые паллеты, стальные шкафчики, скипы и многоярусные стеллажи.</ReelIndustrialStorage.description>
+	<ReelSpacerStorage.label>хранилища эпохи космоса</ReelSpacerStorage.label>
+	<ReelSpacerStorage.description>Высокотехнологичные герметичные контейнеры и охлаждаемые витрины.</ReelSpacerStorage.description>
+</LanguageData>

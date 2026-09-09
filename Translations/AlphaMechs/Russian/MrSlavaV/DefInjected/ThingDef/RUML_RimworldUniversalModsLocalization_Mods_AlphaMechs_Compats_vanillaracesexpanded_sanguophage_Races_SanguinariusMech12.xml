@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\vanillaracesexpanded_sanguophage\Races_SanguinariusMech11.xml -->
+	<!--                    EN: sanguinarius -->
+	<AM_Mech_Sanguinarius.label>сангвинарий</AM_Mech_Sanguinarius.label>
+	<!--                          EN: A formidable mechanoid that resembles a Centipede in its body plan, optimized for the efficient collection and processing of hemogen. Its sharp, retractable proboscis makes precise incisions to extract the resource, which is then processed and stored within its internal reservoirs. -->
+	<AM_Mech_Sanguinarius.description>Грозный механоид, напоминающий по строению тела многоножку, оптимизированный для эффективного сбора и переработки гемогена. Его острый выдвижной хоботок делает точные надрезы для извлечения ресурса, который затем обрабатывается и сохраняется во внутренних резервуарах.</AM_Mech_Sanguinarius.description>
+	<!--                            EN: передняя левая нога -->
+	<AM_Mech_Sanguinarius.tools.0.label>передняя левая нога</AM_Mech_Sanguinarius.tools.0.label>
+	<!--                            EN: передняя правая нога -->
+	<AM_Mech_Sanguinarius.tools.1.label>передняя правая нога</AM_Mech_Sanguinarius.tools.1.label>
+	<!--                            EN: голова -->
+	<AM_Mech_Sanguinarius.tools.2.label>голова</AM_Mech_Sanguinarius.tools.2.label>
+</LanguageData>

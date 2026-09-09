@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\ThingDefs_Building\ThingDefs_Buildings_Misc_Flesh.xml -->
+	<!--                                         EN: A piece of fleshmass. -->
+	<AM_Building_Misc_FleshmassPiece1x1c.description>Кусок биомассы.</AM_Building_Misc_FleshmassPiece1x1c.description>
+	<!--                                   EN: fleshmass piece (1x1) -->
+	<AM_Building_Misc_FleshmassPiece1x1c.label>Кусок биомассы (1x1)</AM_Building_Misc_FleshmassPiece1x1c.label>
+	
+	<!--                                         EN: A piece of fleshmass. -->
+	<AM_Building_Misc_FleshmassPiece2x2c.description>Кусок биомассы</AM_Building_Misc_FleshmassPiece2x2c.description>
+	<!--                                   EN: fleshmass piece (2x2) -->
+	<AM_Building_Misc_FleshmassPiece2x2c.label>Кусок биомассы (2x2)</AM_Building_Misc_FleshmassPiece2x2c.label>
+</LanguageData>

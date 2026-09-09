@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThoughtDefs\Thoughts_Situation_Social.xml -->
+	<!--                                EN: unsettling appearance -->
+	<AG_UnsettlingAppearance.stages.0.label>Тревожный внешний вид</AG_UnsettlingAppearance.stages.0.label>
+	<!--                          EN: eldritch -->
+	<AG_EldritchVisage.stages.0.label>Жуткий</AG_EldritchVisage.stages.0.label>
+	<!--                  EN: stinky -->
+	<AG_Stinky.stages.0.label>Вонючий</AG_Stinky.stages.0.label>
+</LanguageData>

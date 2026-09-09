@@ -1,0 +1,51 @@
+<LanguageData>
+	<!-- 1.6\Defs\HediffDefs\Hediffs_BrainDevouring.xml -->
+	<!--                   EN: devoured brain: shooting -->
+	<AG_DevouredShooting.label>съеденный мозг: стрельба</AG_DevouredShooting.label>
+	<!--                         EN: Devoured a brain that was skilled in Shooting. Buff lasts for 2 days -->
+	<AG_DevouredShooting.description>Поглотил мозг меткого стрелка. Эффект длится 2 дня.</AG_DevouredShooting.description>
+	<!--                EN: devoured brain: melee -->
+	<AG_DevouredMelee.label>съеденный мозг: ближний бой</AG_DevouredMelee.label>
+	<!--                      EN: Devoured a brain that was skilled in Melee. Buff lasts for 2 days -->
+	<AG_DevouredMelee.description>Поглотил мозг опытного бойца ближнего боя. Эффект длится 2 дня.</AG_DevouredMelee.description>
+	<!--                       EN: devoured brain: construction -->
+	<AG_DevouredConstruction.label>съеденный мозг: строительство</AG_DevouredConstruction.label>
+	<!--                             EN: Devoured a brain that was skilled in Construction. Buff lasts for 2 days -->
+	<AG_DevouredConstruction.description>Поглотил мозг умелого строителя. Эффект длится 2 дня.</AG_DevouredConstruction.description>
+	<!--                 EN: devoured brain: mining -->
+	<AG_DevouredMining.label>съеденный мозг: горное дело</AG_DevouredMining.label>
+	<!--                       EN: Devoured a brain that was skilled in Mining. Buff lasts for 2 days -->
+	<AG_DevouredMining.description>Поглотил мозг умелого шахтёра. Эффект длится 2 дня.</AG_DevouredMining.description>
+	<!--                  EN: devoured brain: cooking -->
+	<AG_DevouredCooking.label>съеденный мозг: кулинария</AG_DevouredCooking.label>
+	<!--                        EN: Devoured a brain that was skilled in Cooking. Buff lasts for 2 days -->
+	<AG_DevouredCooking.description>Поглотил мозг искусного повара. Эффект длится 2 дня.</AG_DevouredCooking.description>
+	<!--                 EN: devoured brain: plants -->
+	<AG_DevouredPlants.label>съеденный мозг: растения</AG_DevouredPlants.label>
+	<!--                       EN: Devoured a brain that was skilled in Plants. Buff lasts for 2 days -->
+	<AG_DevouredPlants.description>Поглотил мозг опытного растениевода. Эффект длится 2 дня.</AG_DevouredPlants.description>
+	<!--                  EN: devoured brain: animals -->
+	<AG_DevouredAnimals.label>съеденный мозг: животные</AG_DevouredAnimals.label>
+	<!--                        EN: Devoured a brain that was skilled in Animals. Buff lasts for 2 days -->
+	<AG_DevouredAnimals.description>Поглотил мозг опытного животновода. Эффект длится 2 дня.</AG_DevouredAnimals.description>
+	<!--                   EN: devoured brain: crafting -->
+	<AG_DevouredCrafting.label>съеденный мозг: ремесло</AG_DevouredCrafting.label>
+	<!--                         EN: Devoured a brain that was skilled in Crafting. Buff lasts for 2 days -->
+	<AG_DevouredCrafting.description>Поглотил мозг искусного ремесленника. Эффект длится 2 дня.</AG_DevouredCrafting.description>
+	<!--                   EN: devoured brain: artistic -->
+	<AG_DevouredArtistic.label>съеденный мозг: искусство</AG_DevouredArtistic.label>
+	<!--                         EN: Devoured a brain that was skilled in Artistic. Buff lasts for 2 days. This particular buff allows the colonist to make art with +1 quality. This will stack with similar effects from other mods, potentially doing Very Silly Things. weeeee. -->
+	<AG_DevouredArtistic.description>Поглотил мозг талантливого художника. Эффект длится 2 дня и повышает качество создаваемых произведений искусства на 1. Складывается с похожими эффектами из других модов.</AG_DevouredArtistic.description>
+	<!--                  EN: devoured brain: medical -->
+	<AG_DevouredMedical.label>съеденный мозг: медицина</AG_DevouredMedical.label>
+	<!--                        EN: Devoured a brain that was skilled in Medical. Buff lasts for 2 days -->
+	<AG_DevouredMedical.description>Поглотил мозг искусного врача. Эффект длится 2 дня.</AG_DevouredMedical.description>
+	<!--                 EN: devoured brain: social -->
+	<AG_DevouredSocial.label>съеденный мозг: общение</AG_DevouredSocial.label>
+	<!--                       EN: Devoured a brain that was skilled in Social. Buff lasts for 2 days -->
+	<AG_DevouredSocial.description>Поглотил мозг искусного переговорщика. Эффект длится 2 дня.</AG_DevouredSocial.description>
+	<!--                       EN: devoured brain: intellectual -->
+	<AG_DevouredIntellectual.label>съеденный мозг: интеллектуал</AG_DevouredIntellectual.label>
+	<!--                             EN: Devoured a brain that was skilled in Intellectual. Buff lasts for 2 days -->
+	<AG_DevouredIntellectual.description>Поглотил мозг выдающегося учёного. Эффект длится 2 дня.</AG_DevouredIntellectual.description>
+</LanguageData>

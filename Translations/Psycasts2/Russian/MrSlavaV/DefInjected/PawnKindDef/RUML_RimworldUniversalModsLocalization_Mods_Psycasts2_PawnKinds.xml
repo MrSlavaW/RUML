@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<PS_AncientPsycaster_Basic.label>древний псионик</PS_AncientPsycaster_Basic.label>
+	<PS_AncientPsycaster_Basic.description>Адепт древней школы псионики.</PS_AncientPsycaster_Basic.description>
+	<PS_AncientPsycaster_Adept.label>древний адепт</PS_AncientPsycaster_Adept.label>
+	<PS_AncientPsycaster_Adept.description>Опытный практик псионических искусств.</PS_AncientPsycaster_Adept.description>
+	<PS_AncientPsycaster_Master.label>древний архонт</PS_AncientPsycaster_Master.label>
+	<PS_AncientPsycaster_Master.description>Великий мастер древнего псионического ордена.</PS_AncientPsycaster_Master.description>
+</LanguageData>

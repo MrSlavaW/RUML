@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRE_BeetleEggsYield.label>сбор яиц жуков</VRE_BeetleEggsYield.label>
+  <VRE_BulkCarry.label>переноска тяжестей</VRE_BulkCarry.label>
+  <VRE_CarryingCapacity.label>грузоподъемность</VRE_CarryingCapacity.label>
+  <VRE_EggYield.label>сбор яиц</VRE_EggYield.label>
+  <VRE_RestRate.label>скорость отдыха</VRE_RestRate.label>
+</LanguageData>

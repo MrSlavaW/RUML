@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Optio.xml -->
+	<!--             EN: optio -->
+	<AM_Mech_Optio.label>оптио</AM_Mech_Optio.label>
+	<!--                   EN: An elite combat support mechanoid that employs a rotary needle launcher. Its armor is reinforced to withstand heavy firepower, and it can project a formidable energy shield to protect nearby allies. The Optio is a valuable asset on the battlefield, able to quickly adapt to changing situations and provide crucial support to other mechanoids. -->
+	<AM_Mech_Optio.description>Элитный механоид боевой поддержки, вооружённый вращающейся игольчатой установкой. Его броня рассчитана на тяжёлый огонь, а мощный энергетический щит помогает прикрывать ближайших союзников. Оптио быстро подстраивается к обстановке и оказывает другим механоидам решающую поддержку.</AM_Mech_Optio.description>
+</LanguageData>

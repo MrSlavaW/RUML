@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\MedievalOverhaul\Defs\GeneDefs\XenotypeDefs_MedievalOverhaul.xml -->
+	<!--             EN: rox-touched -->
+	<AG_RoxTouched.label>Рокс</AG_RoxTouched.label>
+	<!--                   EN: Rox-touched are a xenotype of bovine-like humans, standing out by their tall, robust frames covered in velvety, thick fur, which comes in a wide array of colors and patterns. Their faces feature endearing, expressive eyes that exude warmth and curiosity, framed by a pair of gracefully curved, crescent-shaped horns. Rox-touched almost universally consider themselves to be the divine progeny of a godlike mythological figure known to their culture as the "All-Knowing Rox". -->
+	<AG_RoxTouched.description>Рокс — это ксенотип скотоподобных людей. Они отличаются большим, крепким телосложением, покрытым густым бархатистым мехом, который бывает самых разных цветов и узоров. Их лицо характеризуется выразительными, милыми глазами, излучающими теплоту и любопытство, обрамленными парой изящно изогнутых рогов в форме полумесяца. Почти все Рокс считают себя божественными отпрысками мифологической фигуры, известной в их культуре как «Всезнающий Рокс».</AG_RoxTouched.description>
+	<!--                        EN: The Rox-touched are bovine-like xenohumans with a mystical disposition, celebrated for their gentle demeanour, close-knit communities, and exquisite culinary traditions. -->
+	<AG_RoxTouched.descriptionShort>Рокс — быкоподобные ксенолюди с мистическим темпераментом. Они известны своим мягким поведением, сплоченным сообществом и изысканными кулинарными традициями.</AG_RoxTouched.descriptionShort>
+</LanguageData>

@@ -1,0 +1,27 @@
+<LanguageData>
+	<AG_WingPoweredJump.label>Прыжок с крыльями</AG_WingPoweredJump.label>
+	<AG_WingPoweredJump.description>Взмах крыльев для прыжка на короткое расстояние.</AG_WingPoweredJump.description>
+	<AG_WingPoweredJump.verbProperties.label>взмах крыльев</AG_WingPoweredJump.verbProperties.label>
+	<AG_UnstableMutation.label>Нестабильная мутация</AG_UnstableMutation.label>
+	<AG_UnstableMutation.description>Вызывает нестабильную мутацию в теле. Эта мутация активирует новый случайный ген на 12 часов. По истечении этого периода ген деактивируется.</AG_UnstableMutation.description>
+	<AG_InsectRally.label>Тактика стаи</AG_InsectRally.label>
+	<AG_InsectRally.description>Выделяет облако феромонов, перед которыми не могут устоять все насекомые. Рядом с носителем они чувствуют прилив сил и бодрости.</AG_InsectRally.description>
+	<AG_UnstableMind.label>Нестабильный разум</AG_UnstableMind.label>
+	<AG_UnstableMind.description>Психически поражает разум других существ, вызывая нестабильность, которая повышает вероятность психических срывов и значительно усиливает их психическую чувствительность. Эффект длится три часа и может применяться как к враждебным, так и к дружественным целям.</AG_UnstableMind.description>
+	<AG_DevourBrains.label>Поглотить мозги</AG_DevourBrains.label>
+	<AG_DevourBrains.description>Поглотите мозг беспомощного, но живого гуманоида, чтобы присвоить часть его интеллекта и получить усиление, сила которого зависит от самого высокого навыка жертвы. Это убивает цель.\n\nОдновременно может действовать только одно усиление «Поглощение». Повторное применение до истечения 2 дней обновляет его эффект и длительность.</AG_DevourBrains.description>
+	<AG_GeneSyphon.label>Кража гена</AG_GeneSyphon.label>
+	<AG_GeneSyphon.description>Насильно извлеките ген из беспомощного, но живого гуманоида и внедрите его в ксенотип заклинателя как ксеноген. Ген выбирается случайно. Это убивает цель.</AG_GeneSyphon.description>
+	<AG_TailGrapple.label>Цепкий хвост</AG_TailGrapple.label>
+	<AG_TailGrapple.description>Атакуйте цель цепким хвостом, захватывая ее и обездвиживая на короткое время.</AG_TailGrapple.description>
+	<AG_UnstableRegeneration.label>Нестабильная регенерация</AG_UnstableRegeneration.label>
+	<AG_UnstableRegeneration.description>Лечит все непостоянные травмы, но с каждым использованием старит пользователя на 7 лет. Если пользователь состарится с этой способностью сверх продолжительности своей жизни, он умрет.</AG_UnstableRegeneration.description>
+	<AG_AdaptiveBiology.label>Адаптивная биология</AG_AdaptiveBiology.label>
+	<AG_AdaptiveBiology.description>Удаляет одну случайную черту и добавляет новую случайную черту.</AG_AdaptiveBiology.description>
+	<AG_SuperAdaptiveBiology.label>Сверхадаптивная биология</AG_SuperAdaptiveBiology.label>
+	<AG_SuperAdaptiveBiology.description>Удаляет пять случайных черт и добавляет пять новых случайных черт.</AG_SuperAdaptiveBiology.description>
+	<AG_PsychicAbsorption.label>Психическое поглощение</AG_PsychicAbsorption.label>
+	<AG_PsychicAbsorption.description>Поглощает одно негативное воспоминание цели, но не более чем на -40.\n\nСпособность работает только с воспоминаниями, то есть с мыслями, которые со временем исчезают. Ситуативные мысли, такие как «ужасная боль», не подойдут.</AG_PsychicAbsorption.description>
+	<AG_SpeedBurst.label>Всплеск скорости</AG_SpeedBurst.label>
+	<AG_SpeedBurst.description>Ненадолго ускоряет носителя.</AG_SpeedBurst.description>
+</LanguageData>

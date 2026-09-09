@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<LastHumanMeat>Каннибализм</LastHumanMeat>
+	<LastHumanMeatDesc>Из-за веры в идеологию {IDEO_name}, {PAWN_nameDef} впадает в уныние, если не употребляет человечину дольше {DURATION} дн.</LastHumanMeatDesc>
+</LanguageData>

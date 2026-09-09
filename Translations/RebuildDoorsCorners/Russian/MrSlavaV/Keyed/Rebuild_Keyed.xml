@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RE.EnableDiagonal>Разрешить диагональные {0}</RE.EnableDiagonal>
+  <RE.MustPlaceHeaterWithFreeSpaces>Горячая сторона камина должна выходить в открытое пространство.</RE.MustPlaceHeaterWithFreeSpaces>
+  <RE.ResetTerrainEdgesDesc>Сбросить пользовательские настройки границ покрытия.</RE.ResetTerrainEdgesDesc>
+  <RE.ResetTerrainEdgesLabel>Сбросить края покрытия</RE.ResetTerrainEdgesLabel>
+  <RE.SetTerrainEdgesDesc>Покрытие в этой области будет отображаться с индивидуальными границами.</RE.SetTerrainEdgesDesc>
+  <RE.SetTerrainEdgesLabel>Настроить края покрытия</RE.SetTerrainEdgesLabel>
+  <RE.TerrainEdgeTypeFade>Плавный переход</RE.TerrainEdgeTypeFade>
+  <RE.TerrainEdgeTypeFadeRough>Шероховатый переход</RE.TerrainEdgeTypeFadeRough>
+  <RE.TerrainEdgeTypeHard>Чёткий</RE.TerrainEdgeTypeHard>
+  <RE.WallArmorMustBePlacedOnWall>Броненакладка должна устанавливаться на существующую стену.</RE.WallArmorMustBePlacedOnWall>
+</LanguageData>

@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\Rituals\DirtmoleConversion\Ritual_Behaviors_DirtmoleConversion.xml -->
+<!--                                     EN: speaker -->
+    <AM_DirtmoleConversionBehavior.roles.0.label>оратор</AM_DirtmoleConversionBehavior.roles.0.label>
+    <!--                                     EN: converted -->
+    <AM_DirtmoleConversionBehavior.roles.1.label>обращаемый</AM_DirtmoleConversionBehavior.roles.1.label>
+    <!--                                       EN: Participants -->
+    <AM_DirtmoleConversionBehavior.spectatorsLabel>Участники</AM_DirtmoleConversionBehavior.spectatorsLabel>
+    <!--                                       EN: participate -->
+    <AM_DirtmoleConversionBehavior.spectatorGerund>участвовать</AM_DirtmoleConversionBehavior.spectatorGerund>
+</LanguageData>

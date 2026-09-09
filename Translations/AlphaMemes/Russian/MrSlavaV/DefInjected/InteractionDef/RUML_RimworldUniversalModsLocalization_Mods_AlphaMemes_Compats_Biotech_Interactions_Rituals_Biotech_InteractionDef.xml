@@ -1,0 +1,37 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\InteractionDefs\Interactions_Rituals_Biotech.xml -->
+	<!--                            EN: embrace the deep rhetoric -->
+	<AM_Speech_DirtmoleConversion.label>риторика "Объять глубины"</AM_Speech_DirtmoleConversion.label>
+	<!-- EN: 
+		<li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+		<li>тело</li>
+		<li>коготь</li>
+		<li>тело</li>
+		<li>speechtopic->the thickening of the skin to withstand the harshness of the underground</li>
+		<li>speechtopic->the sharpening of the senses to navigate through darkness</li>
+		<li>speechtopic->the transformation of the limbs for burrowing through solid earth</li>
+		<li>тело</li>
+		<li>тело</li>
+		<li>тело</li>
+		<li>speechtopic(p=0.25)->embracing the physical transformation into a dirtmole</li>
+		<li>speechtopic(p=0.25)->leaving the weakness of the surface behind</li>
+		<li>speechtopic(p=0.25)->becoming one with the earth below</li>
+		<li>тело</li>
+	 -->
+    <AM_Speech_DirtmoleConversion.logRulesInitiator.rulesStrings>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+        <li>speechtopic-&gt;преображении тела для жизни под землёй</li>
+        <li>speechtopic-&gt;вырастании мощных когтей, созданных для рытья</li>
+        <li>speechtopic-&gt;укреплении тела, способного вынести тяготы глубин</li>
+        <li>speechtopic-&gt;огрубении кожи, чтобы противостоять суровым подземным условиям</li>
+        <li>speechtopic-&gt;обострении чувств для ориентирования во тьме</li>
+        <li>speechtopic-&gt;трансформации конечностей для рытья сквозь твёрдую землю</li>
+        <li>speechtopic-&gt;преображении тела в форму подземного крота</li>
+        <li>speechtopic-&gt;утрате хрупких черт тела, свойственных жителям поверхности</li>
+        <li>speechtopic-&gt;приспособлении тела неофита к жизни в глубинах</li>
+        <li>speechtopic(p=0.25)-&gt;принятии физической трансформации в подземного крота</li>
+        <li>speechtopic(p=0.25)-&gt;оставлении слабости поверхности позади</li>
+        <li>speechtopic(p=0.25)-&gt;слиянии с земными недрами</li>
+        <li>speechtopic(p=0.25)-&gt;принятии тела, которому место под землёй</li>
+    </AM_Speech_DirtmoleConversion.logRulesInitiator.rulesStrings>
+</LanguageData>

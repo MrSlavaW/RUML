@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaInsectoidsExpanded\Defs\GeneDefs\GeneDefs_MeatTypes_VIE.xml -->
+	<!--                  EN: royal jelly flesh -->
+	<AG_RoyalJellyFlesh.label>маточное молочко</AG_RoyalJellyFlesh.label>
+	<!--                        EN: Carriers of this gene have royal jelly flesh. Consuming royal jelly by them is classed as cannibalism. -->
+	<AG_RoyalJellyFlesh.description>Носители этого гена производят маточное молочко</AG_RoyalJellyFlesh.description>
+</LanguageData>

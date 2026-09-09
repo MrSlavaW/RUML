@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Races\Races_Eyeling.xml -->
+	<!--          EN: eyeling -->
+	<AA_Eyeling.label>глазастик</AA_Eyeling.label>
+	<!--                             EN: Plural eyeling -->
+	<AA_Eyeling.lifeStages.2.labelPlural>глазастики</AA_Eyeling.lifeStages.2.labelPlural>
+</LanguageData>

@@ -1,0 +1,27 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Races\Races_Animal_Special_Ideology.xml -->
+	<!--               EN: ocular dryad -->
+	<AM_Dryad_Ocular.label>глазная дриада</AM_Dryad_Ocular.label>
+	<!--                                  EN: Plural ocular dryad -->
+	<AM_Dryad_Ocular.lifeStages.0.labelPlural>Глазные дриады</AM_Dryad_Ocular.lifeStages.0.labelPlural>
+	
+	<!--                EN: spitter dryad -->
+	<AM_Dryad_Spitter.label>дриада-плевательница</AM_Dryad_Spitter.label>
+	<!--                                   EN: Plural spitter dryad -->
+	<AM_Dryad_Spitter.lifeStages.0.labelPlural>дриады-плевательницы</AM_Dryad_Spitter.lifeStages.0.labelPlural>
+	
+	<!--                  EN: corruptor dryad -->
+	<AM_Dryad_Corruptor.label>испорченная дриада</AM_Dryad_Corruptor.label>
+	<!--                                     EN: Plural corruptor dryad -->
+	<AM_Dryad_Corruptor.lifeStages.0.labelPlural>испорченные дриады</AM_Dryad_Corruptor.lifeStages.0.labelPlural>
+	
+	<!--                 EN: unstable dryad -->
+	<AM_Dryad_Unstable.label>нестабильная дриада</AM_Dryad_Unstable.label>
+	<!--                                    EN: Plural unstable dryad -->
+	<AM_Dryad_Unstable.lifeStages.0.labelPlural>нестабильные дриады</AM_Dryad_Unstable.lifeStages.0.labelPlural>
+	
+	<!--                 EN: tumorous dryad -->
+	<AM_Dryad_Tumorous.label>опухлевая дриада</AM_Dryad_Tumorous.label>
+	<!--                                    EN: Plural tumorous dryad -->
+	<AM_Dryad_Tumorous.lifeStages.0.labelPlural>опухлевые дриады</AM_Dryad_Tumorous.lifeStages.0.labelPlural>
+</LanguageData>

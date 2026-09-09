@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_FungusEating.xml -->
+<!--                        EN: required -->
+    <AM_FungusEating_Required.label>обязательно</AM_FungusEating_Required.label>
+    <!--                              EN: Fungus sustains us where surface crops fail. We should eat nothing that cannot thrive in the darkness.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Eating anything different than fungus (or insect meat) will make the colonist vomit immediately. -->
+    <AM_FungusEating_Required.description>Грибы поддерживают нас там, где посевы на поверхности не приносят урожая. Мы не должны есть ничего, что не может расти во тьме.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Поедание чего-либо, кроме грибов (или мяса насекомых), вызовет у поселенца немедленную рвоту.</AM_FungusEating_Required.description>
+</LanguageData>

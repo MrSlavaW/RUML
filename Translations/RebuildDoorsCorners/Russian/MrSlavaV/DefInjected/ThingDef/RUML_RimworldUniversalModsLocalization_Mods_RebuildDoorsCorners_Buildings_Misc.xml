@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<RB_FloorLamp.label>напольный светильник</RB_FloorLamp.label>
+	<RB_FloorLamp.description>Стильный автономный светильник, мягко освещающий окружающее пространство.</RB_FloorLamp.description>
+	<RB_Fireplace.label>камин</RB_Fireplace.label>
+	<RB_Fireplace.description>Уютный очаг, согревающий помещение и освещающий комнату мягким живым огнем.</RB_Fireplace.description>
+	<RB_OverwallFireplace.label>встраиваемый камин</RB_OverwallFireplace.label>
+	<RB_OverwallFireplace.description>Камин, монтируемый непосредственно поверх существующей стены для экономии жилого пространства.</RB_OverwallFireplace.description>
+	<RB_OverwallArmor.label>настенная бронепанель</RB_OverwallArmor.label>
+	<RB_OverwallArmor.description>Усиленный броневой щит, монтируемый на стены для защиты от пробития снарядами.</RB_OverwallArmor.description>
+</LanguageData>

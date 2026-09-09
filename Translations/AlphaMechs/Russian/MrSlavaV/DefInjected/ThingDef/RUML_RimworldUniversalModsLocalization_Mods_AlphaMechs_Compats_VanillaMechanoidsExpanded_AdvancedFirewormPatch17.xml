@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\OskarPotocki_VFE_Mechanoid\AdvancedFirewormPatch14.xml -->
+	<!--                                           EN: incinerator -->
+	<VFE_Mech_Advanced_Fireworm_PlayerControlled.label>испепелитель</VFE_Mech_Advanced_Fireworm_PlayerControlled.label>
+	<!--                                                 EN: The Incinerator is an advanced version of the Fireworm, a huge mechanical worm armed with a dangerous chemfuel flamethrower. Their weapon has a very short range, so don't let an incinerator approach your defenses!\n\nThe incinerator superficially resembles a Frostbound Behemoth. A coincidence? Or perhaps mechanoids take living things as a blueprint for their units. If so, you wouldn't want to see what a biological scyther looks like... -->
+	<VFE_Mech_Advanced_Fireworm_PlayerControlled.description>Испепелитель — усовершенствованная версия огнечервя: огромный механический червь, вооружённый опасным огнемётом на химическом топливе. Его оружие бьёт на очень короткую дистанцию, так что не подпускайте испепелителя к своим укреплениям.\n\nВнешне испепелитель напоминает морозного чудовища. Совпадение? А может, механоиды действительно берут живых существ за образец при создании своих боевых единиц. Если так, то лучше не представлять, как выглядела бы биологическая коса.</VFE_Mech_Advanced_Fireworm_PlayerControlled.description>
+	<!--                                                   EN: голова -->
+	<VFE_Mech_Advanced_Fireworm_PlayerControlled.tools.0.label>голова</VFE_Mech_Advanced_Fireworm_PlayerControlled.tools.0.label>
+</LanguageData>

@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Ritual_OcularWarping.xml -->
+	<!--                EN: ocular warping -->
+	<AM_OcularWarping.label>глазное искривление</AM_OcularWarping.label>
+	<!--                           EN: Ocular warping -->
+	<AM_OcularWarping.tipLabelOverride>Глазное искривление</AM_OcularWarping.tipLabelOverride>
+	<!--                      EN: The ocular priest will use one of the colony's ocular dryads to warp a creature into an ocular monster. Depending on the ritual's outcome and the sacrificed creature's body size, a correspondingly stronger ocular monster will be summoned. -->
+	<AM_OcularWarping.description>Окулярный жрец использует одну из окулярных дриад поселения, чтобы превратить существо в окулярного монстра. В зависимости от результатов ритуала и размера тела принесенного в жертву существа будет призван соответственно более сильный окулярный монстр.</AM_OcularWarping.description>
+</LanguageData>

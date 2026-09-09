@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Blitzkrieg.xml -->
+	<!--             EN: blitzkrieg -->
+	<AM_Blitzkrieg.label>блицкриг</AM_Blitzkrieg.label>
+	<!--                                EN: Plural blitzkrieg -->
+	<AM_Blitzkrieg.lifeStages.1.labelPlural>Блицкриги</AM_Blitzkrieg.lifeStages.1.labelPlural>
+<AM_Blitzkrieg.lifeStages.0.labelPlural>Блицкриги</AM_Blitzkrieg.lifeStages.0.labelPlural></LanguageData>

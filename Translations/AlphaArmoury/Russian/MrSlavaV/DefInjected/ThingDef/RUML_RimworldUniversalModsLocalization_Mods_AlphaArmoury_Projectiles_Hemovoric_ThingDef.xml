@@ -1,0 +1,16 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Projectiles\Projectiles_Hemovoric.xml -->
+
+	<AArmoury_Hemovoric.label>гемогенная пуля</AArmoury_Hemovoric.label>
+	<AArmoury_Hemovoric_Lesser.label>гемогенная пуля</AArmoury_Hemovoric_Lesser.label>
+	<AArmoury_Hemovoric_Greater.label>гемогенная пуля</AArmoury_Hemovoric_Greater.label>
+
+	<AArmoury_Hemovoric_Arrow.label>гемогенная стрела</AArmoury_Hemovoric_Arrow.label>
+
+	<AArmoury_Hemovoric_Charge.label>гемогенный зарядный выстрел</AArmoury_Hemovoric_Charge.label>
+	<AArmoury_Hemovoric_Charge_Greater.label>гемогенный выстрел зарядного копья</AArmoury_Hemovoric_Charge_Greater.label>
+
+	<AArmoury_HemovoricRepeater.label>гемогенный луч повторителя</AArmoury_HemovoricRepeater.label>
+
+	<AArmoury_Hemovoric_Feedback.label>гемогенная обратная связь</AArmoury_Hemovoric_Feedback.label>
+</LanguageData>

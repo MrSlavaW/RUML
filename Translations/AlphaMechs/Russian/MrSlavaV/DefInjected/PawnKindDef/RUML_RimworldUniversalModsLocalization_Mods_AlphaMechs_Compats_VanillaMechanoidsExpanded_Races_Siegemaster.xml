@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_Siegemaster.xml -->
+	<!--                              EN: siegemaster -->
+	<VFE_Mech_Advanced_Siegebreaker.label>осадный мастер</VFE_Mech_Advanced_Siegebreaker.label>
+	<!--                                                 EN: Plural siegemaster -->
+	<VFE_Mech_Advanced_Siegebreaker.lifeStages.0.labelPlural>Осадные мастера</VFE_Mech_Advanced_Siegebreaker.lifeStages.0.labelPlural>
+</LanguageData>

@@ -1,0 +1,22 @@
+<LanguageData>
+	<AG_Foodless.label>без пищи</AG_Foodless.label>
+	<AG_Foodless.description>В крови носителей этого гена находятся архиты, поддерживающие обмен веществ без пищи.</AG_Foodless.description>
+	<AG_Foodless.customEffectDescriptions.0>Практически устраняет потребность в пище (но не сводит её к нулю, чтобы избежать странных взаимодействий с модами).</AG_Foodless.customEffectDescriptions.0>
+	<AG_Mood_Unfeeling.label>Бесчувственный</AG_Mood_Unfeeling.label>
+	<AG_Mood_Unfeeling.description>У носителей этого гена нет эмоций.</AG_Mood_Unfeeling.description>
+	<AG_Mood_Unfeeling.customEffectDescriptions.0>Этот ген ещё не протестирован на 100%, и я почти уверен, что он что-нибудь сломает. Уии!</AG_Mood_Unfeeling.customEffectDescriptions.0>
+	<AG_AsexualFission.label>Бесполое деление</AG_AsexualFission.label>
+	<AG_AsexualFission.description>У носителей этого гена на спине периодически образуются небольшие сгустки органической материи. Со временем они развиваются в полноценных человеческих существ и отделяются от носителя посредством стробиляции. Это даёт бесконечный источник новых поселенцев, но может быстро переполнить колонию новорождёнными.</AG_AsexualFission.description>
+	<AG_AsexualFission.customEffectDescriptions.0>Каждые 25 дней порождает новорождённых путём бесполого деления.</AG_AsexualFission.customEffectDescriptions.0>
+	<AG_Regeneration.label>усиленная регенерация</AG_Regeneration.label>
+	<AG_Regeneration.description>В кровотоке носителя этого гена действует распределённая сеть специализированных механитов, которая периодически залечивает внутренние травмы и позволяет восстанавливаться без отдыха.</AG_Regeneration.description>
+	<AG_Regeneration.customEffectDescriptions.0>Тяжесть случайной раны уменьшается на 0.1 каждые 300 тиков (5 секунд реального времени).</AG_Regeneration.customEffectDescriptions.0>
+	<AG_HeatImmunity.label>Тепловой иммунитет</AG_HeatImmunity.label>
+	<AG_HeatImmunity.description>Не страдают от жары и огня.</AG_HeatImmunity.description>
+	<AG_ColdImmunity.label>Иммунитет к холоду</AG_ColdImmunity.label>
+	<AG_ColdImmunity.description>Носители этого гена практически не боятся холода. Их одновременно не побеспокоит обморожение.</AG_ColdImmunity.description>
+	<AG_SuperAdaptiveBiology.label>Сверхадаптивная биология</AG_SuperAdaptiveBiology.label>
+	<AG_SuperAdaptiveBiology.description>Удаляет пять случайных черт и добавляет пять новых случайных черт.</AG_SuperAdaptiveBiology.description>
+	<AG_SuperAdaptiveBiology.customEffectDescriptions.0>Способность удаляет пять случайных черт (или все, если у пешки их меньше пяти) и добавляет пять новых случайных черт.</AG_SuperAdaptiveBiology.customEffectDescriptions.0>
+	<AG_SuperAdaptiveBiology.customEffectDescriptions.1>(кроме черт Warcasket, они занесены в черный список)</AG_SuperAdaptiveBiology.customEffectDescriptions.1>
+</LanguageData>

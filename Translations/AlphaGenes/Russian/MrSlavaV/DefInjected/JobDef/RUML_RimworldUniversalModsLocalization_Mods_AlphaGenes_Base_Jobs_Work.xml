@@ -1,0 +1,25 @@
+<LanguageData>
+	<!-- 1.6\Defs\JobDefs\Jobs_Work.xml -->
+	<!--                        EN: using gene remover. -->
+	<AG_UseGeneRemover.reportString>использует средство для удаления генов.</AG_UseGeneRemover.reportString>
+	<!--                         EN: using endogenefier. -->
+	<AG_UseEndogenefier.reportString>использует эндогенификатор.</AG_UseEndogenefier.reportString>
+	<!--                         EN: using xenogenefier. -->
+	<AG_UseXenogenefier.reportString>использует ксеногенизатор.</AG_UseXenogenefier.reportString>
+	<!--                              EN: using xenotype nullifier. -->
+	<AG_UseXenotypeNullifier.reportString>использует уничтожитель ксенотипов.</AG_UseXenotypeNullifier.reportString>
+	<!--                            EN: using germline mutator. -->
+	<AG_UseGermlineMutator.reportString>использует мутатор зародышевой линии.</AG_UseGermlineMutator.reportString>
+	<!--                             EN: using xenotype injector. -->
+	<AG_UseXenotypeInjector.reportString>использует инжектор ксенотипа.</AG_UseXenotypeInjector.reportString>
+	<!--                            EN: using genepack tweaker. -->
+	<AG_UseGenepackTweaker.reportString>использует редактор генпака.</AG_UseGenepackTweaker.reportString>
+	<!--                              EN: using genepack disruptor. -->
+	<AG_UseGenepackDisruptor.reportString>использует разрушитель генпака.</AG_UseGenepackDisruptor.reportString>
+	<!--                             EN: using archotech gene remover. -->
+	<AG_UseArchoGeneRemover.reportString>использует средство для удаления генов Архотех.</AG_UseArchoGeneRemover.reportString>
+	<!--                              EN: using archotech endogenefier. -->
+	<AG_UseArchoEndogenefier.reportString>использует архотех-эндогенез.</AG_UseArchoEndogenefier.reportString>
+	<!--                              EN: using archotech xenogenefier. -->
+	<AG_UseArchoXenogenefier.reportString>использует архотех-ксеногенез.</AG_UseArchoXenogenefier.reportString>
+</LanguageData>

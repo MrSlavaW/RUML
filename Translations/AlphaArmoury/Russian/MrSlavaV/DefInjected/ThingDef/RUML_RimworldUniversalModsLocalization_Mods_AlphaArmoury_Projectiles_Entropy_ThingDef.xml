@@ -1,0 +1,42 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Projectiles\Projectiles_Entropy.xml -->
+
+	<!--                               EN: entropy revolver bullet -->
+	<AArmoury_EntropyRounds_Revolver.label>энтропийная пуля револьвера</AArmoury_EntropyRounds_Revolver.label>
+
+	<!--                           EN: entropy bolt-action rifle bullet -->
+	<AArmoury_EntropyRounds_Bolt.label>энтропийная пуля болтовой винтовки</AArmoury_EntropyRounds_Bolt.label>
+
+	<!--                              EN: entropy shotgun blast -->
+	<AArmoury_EntropyRounds_Shotgun.label>энтропийный дробный выстрел</AArmoury_EntropyRounds_Shotgun.label>
+
+	<!--                               EN: entropy heavy SMG bullet -->
+	<AArmoury_EntropyRounds_HeavySMG.label>энтропийная пуля тяжёлого ПП</AArmoury_EntropyRounds_HeavySMG.label>
+
+	<!--                          EN: entropy LMG bullet -->
+	<AArmoury_EntropyRounds_LMG.label>энтропийная пуля ручного пулемёта</AArmoury_EntropyRounds_LMG.label>
+
+	<!--                              EN: entropy assault rifle bullet -->
+	<AArmoury_EntropyRounds_Assault.label>энтропийная пуля штурмовой винтовки</AArmoury_EntropyRounds_Assault.label>
+
+	<!--                              EN: entropy minigun bullet -->
+	<AArmoury_EntropyRounds_Minigun.label>энтропийная пуля минигана</AArmoury_EntropyRounds_Minigun.label>
+
+	<!--                             EN: entropy sniper rifle bullet -->
+	<AArmoury_EntropyRounds_Sniper.label>энтропийная пуля снайперской винтовки</AArmoury_EntropyRounds_Sniper.label>
+
+	<!--                            EN: entropy arrow -->
+	<AArmoury_EntropyRounds_Arrow.label>энтропийная стрела</AArmoury_EntropyRounds_Arrow.label>
+
+	<!--                             EN: entropy charge shot -->
+	<AArmoury_EntropyRounds_Charge.label>энтропийный зарядный выстрел</AArmoury_EntropyRounds_Charge.label>
+
+	<!--                            EN: entropy charge lance shot -->
+	<AArmoury_EntropyRounds_Lance.label>энтропийный выстрел зарядного копья</AArmoury_EntropyRounds_Lance.label>
+
+	<!--                              EN: entropy hellcat rifle bullet -->
+	<AArmoury_EntropyRounds_Hellcat.label>энтропийная пуля винтовки «Хеллкэт»</AArmoury_EntropyRounds_Hellcat.label>
+
+	<!--                               EN: entropy smoke launcher shell -->
+	<AArmoury_EntropyRounds_Launcher.label>энтропийный дымовой снаряд</AArmoury_EntropyRounds_Launcher.label>
+</LanguageData>

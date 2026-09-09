@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Projectiles.xml -->
+	<!--            EN: electric discharge -->
+	<AG_Lightning.label>Удар молнией</AG_Lightning.label>
+	<!--                  EN: greater fire spew -->
+	<AG_GreaterFireSpew.label>Огненное дыхание</AG_GreaterFireSpew.label>
+	<!--              EN: acidic vomit -->
+	<AG_AcidicVomit.label>Кислотный плевок</AG_AcidicVomit.label>
+	<!--             EN: gaze attack -->
+	<AG_GazeAttack.label>Окаменяющий взгляд</AG_GazeAttack.label>
+</LanguageData>

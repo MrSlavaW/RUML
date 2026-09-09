@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\AlphaAnimals\Defs\AbilityDefs\Abilities_AlphaAnimals.xml -->
+	<!--                    EN: nightling affinity -->
+	<AG_NightlingAffinity.label>Сродство с ночником</AG_NightlingAffinity.label>
+	<!--                          EN: Instantly tame a nightling. No food needed, no questions asked. -->
+	<AG_NightlingAffinity.description>Мгновенно приручите ночника. (название не точное поправлю)</AG_NightlingAffinity.description>
+</LanguageData>

@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaRacesExpandedPhytokin\Defs\GeneDefs\GeneDefs_Cosmetic_Phytokin.xml -->
+	<!--                    EN: ocular hair -->
+	<VRE_HairColor_Ocular.label>окулярные волосы</VRE_HairColor_Ocular.label>
+	<!--                        EN: ocular bark skin -->
+	<VRE_SkinColor_OcularBark.label>кожа окулярной коры</VRE_SkinColor_OcularBark.label>
+	<!--                                EN: red -->
+	<VRE_SkinColor_OcularBark.labelShortAdj>красный</VRE_SkinColor_OcularBark.labelShortAdj>
+	<!--                              EN: Carriers of this gene produce a pigment that gives their skin a colour similar to that of the bark of ocular trees. -->
+	<VRE_SkinColor_OcularBark.description>Носители этого гена производят пигмент, который придает их коже цвет, похожий на цвет коры окулярных деревьев.</VRE_SkinColor_OcularBark.description>
+</LanguageData>

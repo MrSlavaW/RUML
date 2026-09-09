@@ -1,0 +1,23 @@
+<LanguageData>
+	<!-- 1.6\Defs\TerrainDefs\Terrain_Floors.xml -->
+	<!--                    EN: jewish stone tiles -->
+	<AM_Floor_JewishTiles.label>иудейская каменная плитка</AM_Floor_JewishTiles.label>
+	
+	<!--                        EN: jewish fine stone tiles -->
+	<AM_Floor_JewishFineTiles.label>иудейская отличная каменная плитка</AM_Floor_JewishFineTiles.label>
+	
+	<!--                     EN: kemetic stone tiles -->
+	<AM_Floor_KemeticTiles.label>кеметская каменная плитка</AM_Floor_KemeticTiles.label>
+	
+	<!--                         EN: kemetic fine stone tiles -->
+	<AM_Floor_KemeticFineTiles.label>кеметская отличная каменная плитка</AM_Floor_KemeticFineTiles.label>
+	
+	<!--                       EN: steampunk stone tiles -->
+	<AM_Floor_SteampunkTiles.label>стимпанк каменная плитка</AM_Floor_SteampunkTiles.label>
+	
+	<!--                       EN: neolithic dirt floors -->
+	<AM_Floor_NeolithicTiles.label>неолитические земляные полы</AM_Floor_NeolithicTiles.label>
+	
+	<!--                     EN: ocular stone -->
+	<AM_Floor_Ocular_Stone.label>глазной камень</AM_Floor_Ocular_Stone.label>
+</LanguageData>

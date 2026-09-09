@@ -1,0 +1,10 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\ColonyTantrum\TantrumRitual.xml -->
+	
+	<!--                                  EN: Participants -->
+	<AM_TantrumRitualBehavior.spectatorsLabel>Участники</AM_TantrumRitualBehavior.spectatorsLabel>
+	<!--                                  EN: participate -->
+	<AM_TantrumRitualBehavior.spectatorGerund>Участники</AM_TantrumRitualBehavior.spectatorGerund>
+	<!--                                           EN: {0}: Everyone has gathered. Time to begin the destruction -->
+	<AM_TantrumRitualBehavior.stages.0.postAction.text>{0}: все собрались. Время начать разрушение</AM_TantrumRitualBehavior.stages.0.postAction.text>
+</LanguageData>

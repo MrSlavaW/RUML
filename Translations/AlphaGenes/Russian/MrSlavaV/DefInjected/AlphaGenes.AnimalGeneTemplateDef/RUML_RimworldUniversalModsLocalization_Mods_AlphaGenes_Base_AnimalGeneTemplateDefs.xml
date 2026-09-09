@@ -1,0 +1,21 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\AnimalGeneTemplateDefs.xml -->
+	<!--                                              EN: These genes are only useable by the player, not by raiders. -->
+	<AlphaGenes_AnimalSumMinor.customEffectDescriptions.0>Эти гены могут использовать только игроки, а не рейдеры.</AlphaGenes_AnimalSumMinor.customEffectDescriptions.0>
+	<!--                         EN: minor summoning: {0} -->
+	<AlphaGenes_AnimalSumMinor.label>второстепенный призыв: {0}</AlphaGenes_AnimalSumMinor.label>
+	<!--                               EN: The carrier can summon a {0}. -->
+	<AlphaGenes_AnimalSumMinor.description>Носитель может вызвать {0}.</AlphaGenes_AnimalSumMinor.description>
+	<!--                                            EN: These genes are only useable by the player, not by raiders. -->
+	<AlphaGenes_AnimalSummon.customEffectDescriptions.0>Эти гены могут использовать только игроки, а не рейдеры.</AlphaGenes_AnimalSummon.customEffectDescriptions.0>
+	<!--                       EN: summoning: {0} -->
+	<AlphaGenes_AnimalSummon.label>вызов: {0}</AlphaGenes_AnimalSummon.label>
+	<!--                             EN: The carrier can summon a {0}. -->
+	<AlphaGenes_AnimalSummon.description>Носитель может вызвать {0}.</AlphaGenes_AnimalSummon.description>
+	<!--                                              EN: These genes are only useable by the player, not by raiders. -->
+	<AlphaGenes_AnimalSumMajor.customEffectDescriptions.0>Эти гены могут использовать только игроки, а не рейдеры.</AlphaGenes_AnimalSumMajor.customEffectDescriptions.0>
+	<!--                         EN: major summoning: {0} -->
+	<AlphaGenes_AnimalSumMajor.label>основной призыв: {0}</AlphaGenes_AnimalSumMajor.label>
+	<!--                               EN: The carrier can summon a {0}. -->
+	<AlphaGenes_AnimalSumMajor.description>Носитель может вызвать {0}.</AlphaGenes_AnimalSumMajor.description>
+</LanguageData>

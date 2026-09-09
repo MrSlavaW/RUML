@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\TerrainDefs\Terrain_Floors_Flesh.xml -->
+	<!--             EN: flesh covering -->
+	<AM_Tile_Flesh.label>покрытие из плоти</AM_Tile_Flesh.label>
+	<!--                   EN: Cheap imitation flesh. Smells weird. -->
+	<AM_Tile_Flesh.description>Дешевая имитация плоти. Странный запах.</AM_Tile_Flesh.description>
+	
+	<!--                   EN: flesh tile -->
+	<AM_Tile_Flesh_Metal.label>плитка из плоти</AM_Tile_Flesh_Metal.label>
+	<!--                         EN: Cheap imitation flesh. Smells weird. -->
+	<AM_Tile_Flesh_Metal.description>Дешевая имитация плоти. Странный запах.</AM_Tile_Flesh_Metal.description>
+</LanguageData>

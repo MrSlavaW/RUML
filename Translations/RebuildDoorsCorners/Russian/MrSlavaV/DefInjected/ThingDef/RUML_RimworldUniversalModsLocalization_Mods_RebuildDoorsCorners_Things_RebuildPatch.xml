@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <RB_AnyWater.label>любая вода</RB_AnyWater.label>
+  <RB_BallisticGlass.label>бронестекло</RB_BallisticGlass.label>
+  <RB_BarriersWall.label>барьерная стена</RB_BarriersWall.label>
+  <RB_CellWall.label>тюремная стена</RB_CellWall.label>
+  <RB_ClerestoryWall.label>световая стена</RB_ClerestoryWall.label>
+  <RB_Core.label>Основные настройки</RB_Core.label>
+  <RB_Doors.label>Двери</RB_Doors.label>
+  <RB_Filth_BallisticGlassShards.label>осколки бронестекла</RB_Filth_BallisticGlassShards.label>
+  <RB_Filth_GlassShards.label>осколки стекла</RB_Filth_GlassShards.label>
+  <RB_Floor_Tile_GrateMetal.label>металлическая решётка</RB_Floor_Tile_GrateMetal.label>
+  <RB_Floor_Tile_StuddedMetal.label>рифлёная металлическая плитка</RB_Floor_Tile_StuddedMetal.label>
+  <RB_Floors.label>Полы</RB_Floors.label>
+  <RB_Glass.label>строительное стекло</RB_Glass.label>
+  <RB_GlassWall.label>стеклянная стена</RB_GlassWall.label>
+  <RB_GravshipPanoramaHull.description>Массивная ударопрочная стеклянная панель, открывающая захватывающий панорамный вид на космос или поверхность планеты.</RB_GravshipPanoramaHull.description>
+  <RB_GravshipPanoramaHull.label>панорамный корпус гравикорабля</RB_GravshipPanoramaHull.label>
+  <RB_Integrations.label>Интеграции модов</RB_Integrations.label>
+  <RB_LargeSecurityDoor.description>Усиленная двустворчатая бронированная дверь для герметизации взрывоопасных отсеков.</RB_LargeSecurityDoor.description>
+  <RB_LargeSecurityDoor.label>большая бронедверь</RB_LargeSecurityDoor.label>
+  <RB_OrnateWall.label>богато украшенная стена</RB_OrnateWall.label>
+  <RB_PavedTile_Transhumanist.description>Бетонные плиты с футуристическим шестиугольным узором в стиле трансгуманизма.</RB_PavedTile_Transhumanist.description>
+  <RB_PavedTile_Transhumanist.label>шестигранная мощёная плитка</RB_PavedTile_Transhumanist.label>
+  <RB_ReinforcedClerestoryWall.label>армированная световая стена</RB_ReinforcedClerestoryWall.label>
+  <RB_ReinforcedGlassWall.label>армированная стеклянная стена</RB_ReinforcedGlassWall.label>
+  <RB_RusticWall.description>Грубая стена из неотёсанных бревен или камня в деревенском стиле.</RB_RusticWall.description>
+  <RB_RusticWall.label>деревенская стена</RB_RusticWall.label>
+  <RB_Ship_Beam_Glass.label>корпус корабля (стекло)</RB_Ship_Beam_Glass.label>
+  <RB_Ship_Beam_Viewport.label>корпус корабля (иллюминатор)</RB_Ship_Beam_Viewport.label>
+  <RB_Walls.label>Стены</RB_Walls.label>
+  <RB_WoodPlankFloor_Transhumanist.description>Деревянный настил с элегантным геометрическим узором.</RB_WoodPlankFloor_Transhumanist.description>
+  <RB_WoodPlankFloor_Transhumanist.label>шестигранный деревянный пол</RB_WoodPlankFloor_Transhumanist.label>
+</LanguageData>

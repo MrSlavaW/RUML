@@ -1,0 +1,21 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Projectiles\Projectiles_Incendiary.xml -->
+
+	<AArmoury_Incendiary_Revolver.label>зажигательная пуля револьвера</AArmoury_Incendiary_Revolver.label>
+
+	<AArmoury_Incendiary_Bolt.label>зажигательная пуля болтовой винтовки</AArmoury_Incendiary_Bolt.label>
+
+	<AArmoury_Incendiary_Shotgun.label>зажигательная дробь</AArmoury_Incendiary_Shotgun.label>
+
+	<AArmoury_Incendiary_HeavySMG.label>зажигательная пуля тяжёлого ПП</AArmoury_Incendiary_HeavySMG.label>
+
+	<AArmoury_Incendiary_LMG.label>зажигательная пуля ручного пулемёта</AArmoury_Incendiary_LMG.label>
+
+	<AArmoury_Incendiary_Assault.label>зажигательная пуля штурмовой винтовки</AArmoury_Incendiary_Assault.label>
+
+	<AArmoury_Incendiary_Minigun.label>зажигательная пуля минигана</AArmoury_Incendiary_Minigun.label>
+
+	<AArmoury_Incendiary_Sniper.label>зажигательная пуля снайперской винтовки</AArmoury_Incendiary_Sniper.label>
+
+	<AArmoury_Incendiary_Hellcat.label>зажигательная пуля винтовки «Хеллкэт»</AArmoury_Incendiary_Hellcat.label>
+</LanguageData>

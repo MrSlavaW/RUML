@@ -1,0 +1,19 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\RulePackDefs\RulePacks_Deity_Names_Cubic.xml -->
+	<!-- EN: 
+		<li>r_deityName->The Cube</li>
+		<li>r_deityName->The Tetragold</li>
+		<li>r_deityName->The Auric Sanctum</li>
+		<li>r_deityName->The Gilded Ascendancy</li>
+		<li>r_deityName->The Archonic Reliquary</li>
+		<li>r_deityName->The Golden Luminae Devotion</li>
+	 -->
+	<AM_NamerDeityCubic.rulePack.rulesStrings>
+		<li>r_deityName-&gt;Куб</li>
+		<li>r_deityName-&gt;Тетраголд</li>
+		<li>r_deityName-&gt;Аурический санктум</li>
+		<li>r_deityName-&gt;Позолоченное возвышение</li>
+		<li>r_deityName-&gt;Реликварий архонтов</li>
+		<li>r_deityName-&gt;Посвящение Золотого Люмината</li>
+	</AM_NamerDeityCubic.rulePack.rulesStrings>
+</LanguageData>

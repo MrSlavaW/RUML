@@ -1,0 +1,546 @@
+<LanguageData>
+	<!-- 1.6\Defs\RulePackDefs\RulePacks_Ideo_Description.xml -->
+	<!-- EN: 
+		<li>lesson(priority=-1)->stuff happens</li>
+		<li>r_pattern->"[r_atheismlessonIntro] [r_lesson]. [r_lessonReinforcement] [r_atheismlessonReinforcement]"\n\n  - [lessonAttribution]</li>
+		<li>lessonAttribution->[founder_nameFull]'s [book] on [concept]</li>
+		<li>book->lecture</li>
+		<li>book->letter</li>
+		<li>book->conference</li>
+		<li>book->address</li>
+		<li>book->discourse</li>
+		<li>concept->the Death of God</li>
+		<li>concept->Non-belief</li>
+		<li>concept->Scepticism</li>
+		<li>concept->Irreligion</li>
+		<li>concept->Godlessness</li>
+		<li>concept->the Rejection of Magical Thinking</li>
+		<li>concept->Enlightened Humanism</li>
+		<li>atheismlessonIntro->... thus what is wanted are blindness and intoxication and an eternal song over the waves in which reason has drowned. The objective of religion is clear, hiding to us that</li>
+		<li>atheismlessonIntro->Human decency is not derived from religion. It precedes it. Once you understand that it becomes clear:</li>
+		<li>atheismlessonIntro->Atheism is more than just the knowledge that gods do not exist, and that religion is either a mistake or a fraud. Atheism is an attitude. It teaches us one thing:</li>
+		<li>atheismlessonIntro->Religion is excellent stuff for keeping common people quiet. The more controlled they are the longer it takes them to realize that</li>
+		<li>тело</li>
+		<li>atheismlessonIntro->Being a Humanist means trying to behave decently without expectation of rewards or punishment after you are dead. You will show everyone that</li>
+		<li>atheismlessonIntro->When one person suffers from a delusion, it is called insanity. When many people suffer from a delusion it is called a Religion. Only those who are free from magical thinking can see that</li>
+		<li>atheismlessonIntro->I believe the simplest explanation is, there is no God. No one created the universe and no one directs our fate. This leads me to a profound realization that</li>
+		<li>atheismlessonReinforcement->We can judge our progress by the courage of our questions and the depth of our answers, our willingness to embrace what is true rather than what feels good.</li>
+		<li>atheismlessonReinforcement->The more I learn about the universe, the less convinced I am that there's any sort of benevolent force that has anything to do with it, at all.</li>
+		<li>atheismlessonReinforcement->After coming into contact with a religious man I always feel I must wash my hands.</li>
+		<li>atheismlessonReinforcement->I don't want to believe. I want to know.</li>
+		<li>atheismlessonReinforcement->With or without religion, good people can behave well and bad people can do evil; but for good people to do evil - that takes religion.</li>
+		<li>atheismlessonReinforcement->Civilization will not attain to its perfection until the last stone from the last church falls on the last priest.</li>
+		<li>atheismlessonReinforcement->We must question the story logic of having an all-knowing all-powerful God, who creates faulty Humans, and then blames them for his own mistakes.</li>
+		<li>atheismlessonReinforcement->If there is a God, atheism must seem to Him as less of an insult than religion.</li>
+		<li>atheismlessonReinforcement->When people ask me if a god created the universe, I tell them that the question itself makes no sense.</li>
+		<li>lessonReinforcement->No one can argue with that.</li>
+	 -->
+	<AM_AtheismDescription.rules.rulesStrings>
+		<li>lesson(priority=-1)-&gt;всякое случается</li>
+		<li>r_pattern-&gt;[r_atheismlessonIntro] [r_lesson]. [r_lessonReinforcement] [r_atheismlessonReinforcement]\n\n - [lessonAttribution]</li>
+		<li>lessonAttribution-&gt;[founder_nameFull] [book] на [concept]</li>
+		<li>book-&gt;лекция</li>
+		<li>book-&gt;письмо</li>
+		<li>book-&gt;конференция</li>
+		<li>book-&gt;адрес</li>
+		<li>book-&gt;дискурс</li>
+		<li>concept-&gt;Смерть Бога</li>
+		<li>concept-&gt;Безверие</li>
+		<li>concept-&gt;Скептицизм</li>
+		<li>concept-&gt;Нерелигиозность</li>
+		<li>concept-&gt;Безбожие</li>
+		<li>concept-&gt;Отказ от магического мышления</li>
+		<li>concept-&gt;Просвещенный гуманизм</li>
+		<li>atheismlessonIntro-&gt;...итак, чего мы хотим, так это слепоты, опьянения и вечной песни над волнами, в которых утонул разум. Цель религии ясна, скрывая от нас, что</li>
+		<li>atheismlessonIntro-&gt;Человеческая порядочность не проистекает из религии. Она предшествует ему. Как только вы это поймете, это станет ясно:</li>
+		<li>atheismlessonIntro-&gt;Атеизм - это нечто большее, чем просто знание о том, что богов не существует и что религия - это либо ошибка, либо обман. Атеизм - это отношение. Это учит нас одной вещи:</li>
+		<li>atheismlessonIntro-&gt;Религия - отличный материал для того, чтобы заставить простых людей замолчать. Чем более они контролируются, тем больше времени им требуется, чтобы осознать что</li>
+		<li>atheismlessonIntro-&gt;Есть что-то инфантильное в предположении, что кто-то другой несет ответственность за то, чтобы придать вашей жизни смысл и смысл. Только вы можете осознать что</li>
+		<li>atheismlessonIntro-&gt;Быть гуманистом означает стараться вести себя прилично, не ожидая награды или осуждения после своей смерти. Вы покажете всем, что</li>
+		<li>atheismlessonIntro-&gt;Когда один человек страдает от заблуждения, это называется безумием. Когда многие люди страдают от заблуждения, это называется Религией. Только те, кто свободен от магического мышления, могут увидеть, что</li>
+		<li>atheismlessonIntro-&gt;Я считаю, что самое простое объяснение заключается в том, что Бога нет. Никто не создавал Вселенную, и никто не управляет нашей судьбой. Это приводит меня к глубокому осознанию того, что</li>
+		<li>atheismlessonReinforcement-&gt;Мы можем судить о нашем прогрессе по смелости наших вопросов и глубине наших ответов, нашей готовности принять то, что истинно, а не то, что кажется хорошим.</li>
+		<li>atheismlessonReinforcement-&gt;Чем больше я узнаю о Вселенной, тем меньше я убежден, что существует какая-то доброжелательная сила, которая вообще имеет ко вселенной какое-то отношение.</li>
+		<li>atheismlessonReinforcement-&gt;После контакта с религиозным человеком я всегда чувствую, что должен вымыть руки.</li>
+		<li>atheismlessonReinforcement-&gt;Я не хочу верить. Я хочу знать.</li>
+		<li>atheismlessonReinforcement-&gt;С религией или без нее хорошие люди могут вести себя хорошо, а плохие люди могут творить зло; но для того, чтобы хорошие люди творили зло, нужна религия.</li>
+		<li>atheismlessonReinforcement-&gt;Цивилизация не достигнет своего совершенства до тех пор, пока последний камень из последней церкви не упадет на последнего священника.</li>
+		<li>atheismlessonReinforcement-&gt;Мы должны подвергнуть сомнению логику истории о существовании всезнающего всемогущего Бога, который создает ошибочных людей, а затем обвиняет их в своих собственных ошибках.</li>
+		<li>atheismlessonReinforcement-&gt;Если Бог есть, атеизм должен казаться Ему меньшим оскорблением, чем религия.</li>
+		<li>atheismlessonReinforcement-&gt;Когда люди спрашивают меня, создал ли бог вселенную, я говорю им, что сам вопрос не имеет смысла.</li>
+		<li>lessonReinforcement-&gt;С этим никто не может поспорить.</li>
+</AM_AtheismDescription.rules.rulesStrings>
+<!-- EN: 
+		<li>lesson(priority=-1)->stuff happens</li>
+		<li>r_pattern->"[r_jewishlessonIntro] [r_lesson]. [r_lessonReinforcement] [r_jewlessonReinforcement]"\n\n  - [lessonAttribution]</li>
+		<li>lessonAttribution->[founder_nameFull]'s [revision] of the [book]</li>
+		<li>lessonAttribution->[founder_nameFull]'s [revision] of the [book], [edition]</li>
+		<li>revision->revision</li>
+		<li>revision->emendation</li>
+		<li>revision->edition</li>
+		<li>revision->correction</li>
+		<li>revision->alteration</li>
+		<li>book->Tanakh</li>
+		<li>book->Torah</li>
+		<li>book->Pentateuch</li>
+		<li>book->Nevi'im</li>
+		<li>book->Ketuvim</li>
+		<li>book->Talmud</li>
+		<li>edition->25th Edition</li>
+		<li>edition->3rd Edition</li>
+		<li>edition->12nd Edition</li>
+		<li>edition->37th Edition</li>
+		<li>jewishlessonIntro->Do not seek revenge or bear a grudge against anyone among your people, but love your neighbor as yourself. I am the LORD. I want you to understand:</li>
+		<li>jewishlessonIntro->Then Moses said, 'Now show me your glory.' And the Lord said, 'I will cause all my goodness to pass in front of you, and I will proclaim my name, the Lord, in your presence. I will have mercy on whom I will have mercy, and I will have compassion on whom I will have compassion.' This teaches us that</li>
+		<li>jewishlessonIntro->The LORD bless you and keep you; the LORD make his face shine upon you and be gracious to you; the LORD turn his face toward you and give you peace. The LORD did teach me one thing:</li>
+		<li>jewishlessonIntro->By teaching the Torah on the [place_summary] [place_name], I realized that</li>
+		<li>jewishlessonIntro->God is not a human, that he should lie, not a human being, that he should change his mind. Does he speak and then not act? Does he promise and not fulfill? You will realize that</li>
+		<li>jewishlessonIntro->And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth. He was teaching that</li>
+		<li>jewishlessonIntro->For the life of a creature is in the blood, and I have given it to you to make atonement for yourselves on the altar; it is the blood that makes atonement for one's life. One thing will become increasingly clear then: that</li>
+		<li>jewishlessonIntro->Any man or woman who wrongs another in any way and so is unfaithful to the Lord is guilty and must confess the sin they have committed. Then they'll see that</li>
+		<li>jewishlessonIntro->In your unfailing love, you will lead the people you have redeemed. In your strength, you will guide them to your holy dwelling. Once that is achieved you will see that</li>
+		<li>jewlessonReinforcement->A righteous man falls down seven times and gets up.</li>
+		<li>jewlessonReinforcement->If you don't know what you're living for, you haven't yet lived.</li>
+		<li>jewlessonReinforcement->Gam zu l'tova. This too is for the good.</li>
+		<li>jewlessonReinforcement->I don't speak because I have the power to speak; I speak because I don't have the power to remain silent.</li>
+		<li>рост</li>
+		<li>jewlessonReinforcement->The salvation of God is like the blink of an eye.</li>
+		<li>jewlessonReinforcement->L’fum tzara agra, according to the effort is the reward.</li>
+		<li>jewlessonReinforcement->L’Chaim!</li>
+		<li>lessonReinforcement->No one can argue with that.</li>
+	 -->
+	<AM_JewishDescription.rules.rulesStrings>
+		<li>lesson(priority=-1)-&gt;всякое случается</li>
+		<li>r_pattern-&gt;[r_jewishlessonIntro] [r_lesson]. [r_lessonReinforcement] [r_jewlessonReinforcement]\n\n - [lessonAttribution]</li>
+		<li>lessonAttribution-&gt;[founder_nameFull] [revision] [book]</li>
+		<li>lessonAttribution-&gt;[founder_nameFull] [revision] [book], [edition]</li>
+		<li>revision-&gt;пересмотр</li>
+		<li>revision-&gt;исправление</li>
+		<li>revision-&gt;издание</li>
+		<li>revision-&gt;коррекция</li>
+		<li>revision-&gt;изменение</li>
+		<li>book-&gt;Танак</li>
+		<li>book-&gt;Тора</li>
+		<li>book-&gt;Пятикнижие</li>
+		<li>book-&gt;Невиим</li>
+		<li>book-&gt;Кетувим</li>
+		<li>book-&gt;Талмуд</li>
+		<li>edition-&gt;25-е издание</li>
+		<li>edition-&gt;3-е издание</li>
+		<li>edition-&gt;12-е издание</li>
+		<li>edition-&gt;37-е издание</li>
+		<li>jewishlessonIntro-&gt;Не стремись к мести и не затаивай злобу на кого-либо из своего народа, но люби своего ближнего, как самого себя. Я - ГОСПОДЬ. Я хочу, чтобы ты понял:</li>
+		<li>jewishlessonIntro-&gt;И тогда Моисей сказал: "Теперь покажи мне свою славу". И Господь сказал: "Я заставлю всю мою доброту пройти перед тобой, и я буду провозглашать мое имя, Господь, в твоем присутствии. Я буду милостив к тому, к кому Я буду милостив, и я буду сострадать тому, к кому я буду сострадать". Это учит нас тому, что</li>
+		<li>jewishlessonIntro-&gt;Да благословит вас Господь и сохранит вас; да воссияет над вами ГОСПОДЬ и да будет милостив к вам; да обратит ГОСПОДЬ к вам свое лицо и дарует вам мир. ГОСПОДЬ действительно научил меня одной вещи:</li>
+		<li>jewishlessonIntro-&gt;Преподавая Тору на [place_summary] [place_name], я понял, что</li>
+		<li>jewishlessonIntro-&gt;Бог не человек, чтобы он лгал, а не человек, чтобы он передумал. Он говорит, а потом не действует? Разве он обещает и не выполняет? Вы поймете, что</li>
+		<li>jewishlessonIntro-&gt;И сказал Бог: сотворим человека по образу нашему, по подобию нашему; и да владычествуют они над рыбами морскими, и над птицами небесными, и над скотом, и над всей землей. Он учил этому</li>
+		<li>jewishlessonIntro-&gt;Ибо жизнь творения в крови, и Я дал ее вам, чтобы вы искупили себя на алтаре; именно кровь искупает чью-то жизнь. Тогда станет более очевидным одно: что</li>
+		<li>jewishlessonIntro-&gt;Любой мужчина или женщина, которые каким-либо образом причиняют вред другому и поэтому неверны Господу, виновны и должны признаться в совершенном ими грехе. Тогда они увидят, что</li>
+		<li>jewishlessonIntro-&gt;В своей неизменной любви ты поведешь за собой людей, которых ты искупил. В своей силе ты приведешь их в свое святое жилище. Как только это будет достигнуто, вы увидите, что</li>
+		<li>jewlessonReinforcement-&gt;Праведный человек семь раз падает и встает.</li>
+		<li>jewlessonReinforcement-&gt;Если вы не знаете, для чего живете, значит, вы еще не жили.</li>
+		<li>jewlessonReinforcement-&gt;Gam zu l'tova. Это тоже к лучшему.</li>
+		<li>jewlessonReinforcement-&gt;Я говорю не потому, что у меня есть сила говорить; Я говорю, потому что у меня нет силы молчать.</li>
+		<li>jewlessonReinforcement-&gt;Нет никаких проблем, только возможности для роста.</li>
+		<li>jewlessonReinforcement-&gt;Спасение Божье подобно мгновению ока.</li>
+		<li>jewlessonReinforcement-&gt;L'fum tzara agra, в соответствии с усилиями - награда.</li>
+		<li>jewlessonReinforcement-&gt;Л'Хаим!</li>
+		<li>lessonReinforcement-&gt;С этим никто не может поспорить.</li>
+</AM_JewishDescription.rules.rulesStrings>
+<!-- EN: 
+		<li>lesson(priority=-1)->stuff happens</li>
+		<li>r_pattern->"[r_jainistlessonIntro] [r_lesson]. [r_lessonReinforcement] [r_jainlessonReinforcement]"\n\n  - [lessonAttribution]</li>
+		<li>lessonAttribution->[founder_nameFull]'s [revision] of the [book]</li>
+		<li>lessonAttribution->[founder_nameFull]'s [revision] of the [book], [edition]</li>
+		<li>lessonAttribution->[founder_nameFull]'s memorized sutras</li>
+		<li>revision->interpretation</li>
+		<li>revision->preserved meditations</li>
+		<li>revision->theological musings</li>
+		<li>revision->reflection</li>
+		<li>revision->rumination</li>
+		<li>book->teachings of Mahavira</li>
+		<li>book->Agamas</li>
+		<li>book->compiled sutras</li>
+		<li>book->Purvas</li>
+		<li>edition->32nd Edition</li>
+		<li>edition->43rd Edition</li>
+		<li>edition->52nd Edition</li>
+		<li>edition->57th Edition</li>
+		<li>jainistlessonIntro->This is my country, that is your country; these are the conceptions of narrow souls - to the liberal minded the whole world is a family. I want you to understand:</li>
+		<li>jainistlessonIntro->In happiness and suffering, in joy and grief, we should regard all creatures as we regard our own self. This teaches us that</li>
+		<li>jainistlessonIntro->Some foolish men declare that a creator made the world. The doctrine that the world was created is ill advised and should be rejected. If God created the world, where was he before the creation? These musings did teach me one thing:</li>
+		<li>jainistlessonIntro->By teaching the sacred Agamas on the [place_summary] [place_name], I realized that</li>
+		<li>jainistlessonIntro->May peace rule the universe; may peace rule in kingdoms and empires; may peace rule in states and in the lands of the potentates; may peace rule in the house of friends and may peace also rule in the house of enemies. In peace you will realize that</li>
+		<li>jainistlessonIntro->We preach and practice brotherhood — not only of man but of all living beings — not on Sundays only but on all the days of the week. We believe in the law of universal justice. We preach that</li>
+		<li>jainistlessonIntro->If a person's mind is controlled by forces of revenge and jealousy, it cannot express love and sympathy. One thing will become increasingly clear then: that</li>
+		<li>jainistlessonIntro->A man is seated on top of a tree in the midst of a burning forest. He sees all living beings perish. But he doesn’t realize that the same fate is soon to overtake him also. That man is a fool. He needs to realize that</li>
+		<li>jainistlessonIntro->Attachment and aversion are the root cause of karma, and karma originates from infatuation. Karma is the root cause of birth and death, and these are said to be the source of misery. None can escape the effect of their own past karma. Once you free yourself from attachment you will see that</li>
+		<li>jainlessonReinforcement->Live and allow others to live; hurt no one; life is dear to all living beings.</li>
+		<li>jainlessonReinforcement->By sincerity, a man gains physical, mental and linguistic straightforwardness, and harmonious tendency; that is, congruence of speech and action.</li>
+		<li>jainlessonReinforcement->All souls are equal and alike and have the similar nature and qualities.</li>
+		<li>jainlessonReinforcement->Start the practice of self-control with some penance; begin with fasting.</li>
+		<li>jainlessonReinforcement->The nature of things is dharma.</li>
+		<li>jainlessonReinforcement->One who neglects or disregards the existence of earth, air, fire, water and vegetation disregards his own existence which is entwined with them.</li>
+		<li>jainlessonReinforcement->Soul is the central point of spiritual discipline.</li>
+		<li>jainlessonReinforcement->Eating constitutes the greatest obstacle to self-control; it gives rise to indolence.</li>
+		<li>lessonReinforcement->No one can argue with that.</li>
+	 -->
+	<AM_JainistDescription.rules.rulesStrings>
+		<li>lesson(priority=-1)-&gt;всякое случается</li>
+		<li>r_pattern-&gt;[r_jainistlessonIntro] [r_lesson]. [r_lessonReinforcement] [r_jainlessonReinforcement]\с\с - [lessonAttribution]</li>
+		<li>lessonAttribution-&gt;[founder_nameFull] [revision] [book]</li>
+		<li>lessonAttribution-&gt;[founder_nameFull] [revision] [book], [edition]</li>
+		<li>lessonAttribution-&gt;заученные сутры [founder_nameFull]</li>
+		<li>revision-&gt;интерпретация</li>
+		<li>revision-&gt;сохраненные медитации</li>
+		<li>revision-&gt;теологические размышления</li>
+		<li>revision-&gt;размышление</li>
+		<li>revision-&gt;раздумья</li>
+		<li>book-&gt;учения Махавиры</li>
+		<li>book-&gt;Агамы</li>
+		<li>book-&gt;составленные сутры</li>
+		<li>book-&gt;Пурвас</li>
+		<li>edition-&gt;37-е издание</li>
+		<li>edition-&gt;43-е издание</li>
+		<li>edition-&gt;52-е издание</li>
+		<li>edition-&gt;57-е издание</li>
+		<li>jainistlessonIntro-&gt;Это моя страна, то ваша страна; это концепции узких душ - для открыто настроенных весь мир - семья. Я хочу, чтобы ты понял:</li>
+		<li>jainistlessonIntro-&gt;В счастье и страдании, в радости и горе мы должны относиться ко всем существам так, как мы относимся к себе. Это учит нас тому, что</li>
+		<li>jainistlessonIntro-&gt;Некоторые глупцы заявляют, что мир сотворил творец. Доктрина о том, что мир был сотворен, является опрометчивой и должна быть отвергнута. Если Бог сотворил мир, то где он был до сотворения мира? Эти размышления научили меня одной вещи:</li>
+		<li>jainistlessonIntro-&gt;Обучая священным Агамам в [place_summary] [place_name], я понял, что</li>
+		<li>jainistlessonIntro-&gt;Пусть мир правит вселенной; пусть мир правит в королевствах и империях; пусть мир правит в государствах и на землях властителей; пусть мир правит в доме друзей и пусть мир также правит в доме врагов. В покое вы поймете, что</li>
+		<li>jainistlessonIntro-&gt;Мы проповедуем и практикуем братство — не только людей, но и всех живых существ — не только по воскресеньям, но и во все дни недели. Мы верим в закон всеобщей справедливости. Мы проповедуем, что</li>
+		<li>jainistlessonIntro-&gt;Если разум человека контролируется силами мести и ревности, он не может выражать любовь и сочувствие. Тогда станет все более очевидным одно: что</li>
+		<li>jainistlessonIntro-&gt;Человек сидит на вершине дерева посреди горящего леса. Он видит, как гибнут все живые существа. Но он не понимает, что та же участь вскоре постигнет и его. Этот человек - дурак. Он должен осознать, что</li>
+		<li>jainistlessonIntro-&gt;Привязанность и отвращение являются первопричиной кармы, а карма происходит от увлечения. Карма - это первопричина рождения и смерти, и считается, что они являются источником страданий. Никто не может избежать последствий своей собственной прошлой кармы. Как только вы освободитесь от привязанности, вы увидите, что</li>
+		<li>jainlessonReinforcement-&gt;Живите и позволяйте жить другим; никому не причиняйте вреда; жизнь дорога всем живым существам.</li>
+		<li>jainlessonReinforcement-&gt;Благодаря искренности человек обретает физическую, умственную и лингвистическую прямоту и гармоничную склонность, то есть согласованность речи и действий.</li>
+		<li>jainlessonReinforcement-&gt;Все души равны и похожи друг на друга и обладают схожей природой и качествами.</li>
+		<li>jainlessonReinforcement-&gt;Начните практику самоконтроля с некоторого покаяния; начните с голодания.</li>
+		<li>jainlessonReinforcement-&gt;Природа вещей есть дхарма.</li>
+		<li>jainlessonReinforcement-&gt;Тот, кто пренебрегает или игнорирует существование земли, воздуха, огня, воды и растительности, игнорирует свое собственное существование, которое с ними переплетено.</li>
+		<li>jainlessonReinforcement-&gt;Душа является центральной точкой духовной дисциплины.</li>
+		<li>jainlessonReinforcement-&gt;Еда представляет собой величайшее препятствие для самоконтроля; это порождает лень.</li>
+		<li>lessonReinforcement-&gt;С этим никто не может поспорить.</li>
+</AM_JainistDescription.rules.rulesStrings>
+<!-- EN: 
+		<li>lesson(priority=-1)->stuff happens</li>
+		<li>r_pattern->"[r_sikhlessonIntro] [r_lesson]. [r_lessonReinforcement] [r_sikhlessonReinforcement]"\n\n  - [lessonAttribution]</li>
+		<li>lessonAttribution->[founder_nameFull]'s [revision] of the [book]</li>
+		<li>lessonAttribution->[founder_nameFull]'s [revision] of the [book], [edition]</li>
+		<li>revision->writings</li>
+		<li>revision->contemplations</li>
+		<li>revision->theological debates</li>
+		<li>revision->pondering</li>
+		<li>revision->meditation</li>
+		<li>book->Guru Granth Sahib</li>
+		<li>book->Sarbloh Granth</li>
+		<li>book->Adi Sri Granth Sahib</li>
+		<li>book->Dasam Granth</li>
+		<li>edition->2nd Edition</li>
+		<li>edition->13th Edition</li>
+		<li>edition->38th Edition</li>
+		<li>edition->49th Edition</li>
+		<li>sikhlessonIntro->Truth is the highest of all virtues, but higher than truth is true conduct. I want you to understand:</li>
+		<li>sikhlessonIntro->The fool indulges in sensual pleasures which in the end lead to pain. Easy and sinful life is the Cause of diseases. This teaches us that</li>
+		<li>sikhlessonIntro->Neither do I call myself good nor I see any one bad. These contemplations did teach me one thing:</li>
+		<li>sikhlessonIntro->By teaching the sacred words of the Guru Granth Sahib on the [place_summary] [place_name], I realized that</li>
+		<li>sikhlessonIntro->In this life our actions are the ink and mind the paper, we inscribe on it the two writings of good and evil. In time you will realize that</li>
+		<li>sikhlessonIntro->When the mind is not pure, what is the good of practicing outward cleanliness? We preach that</li>
+		<li>sikhlessonIntro->There is only one air, earth and only one light of the God in each being. One thing will become increasingly clear then: that</li>
+		<li>sikhlessonIntro->The word (Shabad) is the Guru, And the mind attuned to the Shabad is the disciple. He needs to realize that</li>
+		<li>sikhlessonIntro->For the sake of wealth, the mortals become servants and thieves. But it goes not with them and remains behind for another. Once you free yourself from material attachment you will see that</li>
+		<li>sikhlessonReinforcement->The glories are in the Lord’s own hand. He blesses those with whom He is pleased.</li>
+		<li>sikhlessonReinforcement->He alone is a wise man, who gains spiritual knowledge through meditation upon the divine virtues.</li>
+		<li>sikhlessonReinforcement->Every one say that the Lord is one, but each one is engrossed in ego and pride.</li>
+		<li>sikhlessonReinforcement->If he who plays the tyrant, is honoured, then deem it to be the surest sign of the Dark Age.</li>
+		<li>sikhlessonReinforcement->A saint is better off without bathing. A thief is always a thief whether he bathes in sacred waters, or not.</li>
+		<li>sikhlessonReinforcement->We are men of but one breath and know not the appointed time and moment of our departure from this world.</li>
+		<li>sikhlessonReinforcement->Meet the Lord through contemplation and your anxieties will be dispelled.</li>
+		<li>sikhlessonReinforcement->When man abandons desire, then alone does he become a true renouncer.</li>
+		<li>lessonReinforcement->No one can argue with that.</li>
+	 -->
+	<AM_SikhDescription.rules.rulesStrings>
+		<li>lesson(priority=-1)-&gt;всякое случается</li>
+		<li>r_pattern-&gt;[r_sikhlessonIntro] [r_lesson]. [r_lessonReinforcement] [r_sikhlessonReinforcement]\n\n - [lessonAttribution]</li>
+		<li>lessonAttribution-&gt;[founder_nameFull] [revision] [book]</li>
+		<li>lessonAttribution-&gt;[founder_nameFull] [revision] [book], [edition]</li>
+		<li>revision-&gt;сочинения</li>
+		<li>revision-&gt;раздумья</li>
+		<li>revision-&gt;богословские дебаты</li>
+		<li>revision-&gt;размышление</li>
+		<li>revision-&gt;медитация</li>
+		<li>book-&gt;Гуру Грант Сахиб</li>
+		<li>book-&gt;Сарблох Грант</li>
+		<li>book-&gt;Ади Шри Грант Сахиб</li>
+		<li>book-&gt;Дасам Грантх</li>
+		<li>edition-&gt;2-е издание</li>
+		<li>edition-&gt;13-е издание</li>
+		<li>edition-&gt;38-е издание</li>
+		<li>edition-&gt;49-е издание</li>
+		<li>sikhlessonIntro-&gt;Истина - высшая из всех добродетелей, но выше истины - истинное поведение. Я хочу, чтобы вы поняли:</li>
+		<li>sikhlessonIntro-&gt;Глупец предается чувственным удовольствиям, которые в конце концов приводят к боли. Легкая и греховная жизнь - причина болезней. Это учит нас тому, что</li>
+		<li>sikhlessonIntro-&gt;Я не называю себя ни хорошим, ни плохим. Эти размышления научили меня одной вещи:</li>
+		<li>sikhlessonIntro-&gt;Обучаясь священным словам Гуру Грантх Сахиба на [place_summary] [place_name], я понял, что</li>
+		<li>sikhlessonIntro-&gt;В этой жизни наши поступки - это чернила, а разум - бумага, на которой мы начертали две надписи: добро и зло. Со временем вы поймете, что</li>
+		<li>sikhlessonIntro-&gt;Когда ум не чист, какая польза от практики внешней чистоты? Мы проповедуем, что</li>
+		<li>sikhlessonIntro-&gt;В каждом существе есть только один воздух, земля и только один свет Бога. Тогда станет ясно одно: что</li>
+		<li>sikhlessonIntro-&gt;Слово (Шабад) — это Гуру, а ум, настроенный на Шабад, — это ученик. Ему нужно осознать, что</li>
+		<li>sikhlessonIntro-&gt;Ради богатства смертные становятся слугами и ворами. Но он идет не с ними и остается позади для другого. Как только вы освободитесь от материальной привязанности, вы увидите, что</li>
+		<li>sikhlessonReinforcement-&gt;Слава в руках самого Господа. Он благословляет тех, кем Он доволен.</li>
+		<li>sikhlessonReinforcement-&gt;Только тот мудр, кто обретает духовное знание посредством размышления о божественных добродетелях.</li>
+		<li>sikhlessonReinforcement-&gt;Все говорят, что Господь один, но каждый поглощен эгоизмом и гордыней.</li>
+		<li>sikhlessonReinforcement-&gt;Если тот, кто изображает тирана, восхваляем, то считайте это вернейшим признаком Темных Веков.</li>
+		<li>sikhlessonReinforcement-&gt;Святому лучше не купаться. Вор всегда остается вором, купается он в священных водах или нет.</li>
+		<li>sikhlessonReinforcement-&gt;Мы люди одного дыхания и не знаем назначенного времени и момента нашего ухода из этого мира.</li>
+		<li>sikhlessonReinforcement-&gt;Встретьтесь с Господом через созерцание, и ваши тревоги рассеются.</li>
+		<li>sikhlessonReinforcement-&gt;Когда человек отказывается от желания, только тогда он становится истинным отрекшимся.</li>
+		<li>lessonReinforcement-&gt;С этим никто не может поспорить.</li>
+</AM_SikhDescription.rules.rulesStrings>
+<!-- EN: 
+		<li>lesson(priority=-1)->stuff happens</li>
+		<li>r_pattern->"[r_kemeticlessonIntro] [r_lesson]. [r_lessonReinforcement] [r_kemeticlessonReinforcement]"\n\n  - [lessonAttribution]</li>
+		<li>lessonAttribution->fragment of a [edited] [book] found [museum]</li>
+		<li>edited->heavily edited</li>
+		<li>edited->poorly translated</li>
+		<li>edited->ruined</li>
+		<li>edited->forgotten</li>
+		<li>edited->recovered</li>
+		<li>book->Book of the Dead</li>
+		<li>book->papyrus</li>
+		<li>book->funerary text</li>
+		<li>museum->in the archeological museum of Kalthas IV</li>
+		<li>museum->in the black market of Irithir</li>
+		<li>museum->in the hold of an imperial ship from Sophiamunda</li>
+		<li>museum->in the Novo Mosteiro dos Jerónimos in Aracena VI</li>
+		<li>museum->in ancient ruins on Ticonderoga</li>
+		<li>museum->by an artifact hunter on Ilwaba</li>
+		<li>kemeticlessonIntro->O you young men of Shu of the morning, who have power over those who flash among the sun-folk, whose arms move about and whose heads sway to and fro, may I move about every day. Understand:</li>
+		<li>kemeticlessonIntro->Behold Osiris Ani the scribe who recordeth the holy offerings of all the gods, who saith:</li>
+		<li>kemeticlessonIntro->Hail all ye gods of the Temple of the Soul, who weigh heaven and earth in the balance, and who provide food and abundance of meat. They teach us one thing:</li>
+		<li>kemeticlessonIntro->The House of the Prince keepeth festival, and the sound of those who rejoice is in the mighty dwelling. The gods are glad when we realize that</li>
+		<li>kemeticlessonIntro->Behold Osiris, Qenna the merchant, who saith: "Homage to thee, in thy rising thou Tmu in thy crowns of beauty. Thou risest, thou risest, thou Ra shinest, thou shinest, at dawn of day. Preach that</li>
+		<li>kemeticlessonIntro->Homage to thee, O thou glorious Being, thou who art provided with all things. O Tmu-Heru-khuti, when thou risest in the horizon of heaven, a cry cometh out of the mouth of all peoples:</li>
+		<li>мать выводка</li>
+		<li>kemeticlessonIntro->Hail, Bull of Amenta. I am brought unto thee, I am the oar of Ra wherewith he ferried over the aged ones; let me not be buried nor consumed. I thus declare:</li>
+		<li>kemeticlessonReinforcement->Hail, Tmu, grant thou unto me the sweet breath which is in thy two nostrils.</li>
+		<li>kemeticlessonReinforcement->Thou risest, O still heart! Thou shinest, O still heart!</li>
+		<li>kemeticlessonReinforcement->The blood of Isis, the charms of Isis, the power of Isis, are a protection unto me, the chief, and they crush that which I abhor.</li>
+		<li>kemeticlessonReinforcement->I am the soul of Ra, and the guide of the gods into the underworld. The souls come forth upon earth to do the will of their ka's.</li>
+		<li>kemeticlessonReinforcement->O Lord of Amentet, I am in thy presence. There is no sin in me.</li>
+		<li>kemeticlessonReinforcement->Hail, thou bearer of the sistrum, who comest forth from Nu, I have not spoken scornfully.</li>
+		<li>kemeticlessonReinforcement->Homage to you, O ye gods who live in your hall of Right and Truth, and who have no evil in your bodies.</li>
+		<li>kemeticlessonReinforcement->I have rested in Hemet, on the north of the field of the grasshoppers, wherein the holy mariners do purify themselves in the night season.</li>
+		<li>lessonReinforcement->No one can argue with that.</li>
+	 -->
+	<AM_KemeticDescription.rules.rulesStrings>
+		<li>lesson(priority=-1)-&gt;всякое случается</li>
+		<li>r_pattern-&gt;[r_kemeticlessonIntro] [r_lesson]. [r_lessonReinforcement] [r_kemeticlessonReinforcement]\r\r - [lessonAttribution]</li>
+		<li>lessonAttribution-&gt;фрагмент [edited] [book] найден [museum]</li>
+		<li>edited-&gt;сильно отредактированный</li>
+		<li>edited-&gt;плохо переведенный</li>
+		<li>edited-&gt;разрушенный</li>
+		<li>edited-&gt;забытый</li>
+		<li>edited-&gt;восстановленный</li>
+		<li>book-&gt;Книга мертвых</li>
+		<li>book-&gt;папирус</li>
+		<li>book-&gt;надгробный текст</li>
+		<li>museum-&gt;в археологическом музее Калтаса IV</li>
+		<li>museum-&gt;на черном рынке Иритира</li>
+		<li>museum-&gt;в трюме императорского корабля из Софиамунды</li>
+		<li>museum-&gt;в Ново-Мостейро-душ-Херонимуш в Арасене VI</li>
+		<li>museum-&gt;в древних руинах на Тикондероге</li>
+		<li>museum-&gt;охотником за артефактами на Илвабе</li>
+		<li>kemeticlessonIntro-&gt;О вы, юноши утреннего Шу, обладающие властью над теми, кто сверкает среди солнечного народа, чьи руки двигаются и чьи головы качаются взад и вперед, пусть я буду двигаться каждый день. Понимать:</li>
+		<li>kemeticlessonIntro-&gt;Взгляните на Осириса Ани, писца, записывающего святые приношения всех богов, который говорит:</li>
+		<li>kemeticlessonIntro-&gt;Приветствую всех богов Храма Души, взвешивающих небо и землю на весах и дающих пищу и изобилие мяса. Они учат нас одному:</li>
+		<li>kemeticlessonIntro-&gt;Дом Князя празднует, и голос веселящихся в могучем жилище. Боги радуются, когда мы понимаем, что</li>
+		<li>kemeticlessonIntro-&gt;Вот Осирис, купец Кенна, который говорит: «Почтение тебе, восходя, ты Тму в своих коронах красоты. Ты восходишь, ты восходишь, ты Ра сияешь, ты сияешь на заре дня.</li>
+		<li>kemeticlessonIntro-&gt;Поклоняюсь тебе, о славное Существо, наделенное всем. О Тму-Херу-хути, когда ты восходишь на горизонте небес, из уст всех народов исходит вопль:</li>
+		<li>kemeticlessonIntro-&gt;Я Тму-Хепера, родивший себя на бедре своей божественной матери. Те, кто в Ну, сделаны волками, а те, кто среди богоподобных правителей, стали. Представь, что</li>
+		<li>kemeticlessonIntro-&gt;Приветствую тебя, Бык Аменты. Я приведен к тебе, я - весло Ра, которым он переправил старцев; пусть меня не похоронят и не сожгут. Таким образом, я заявляю:</li>
+		<li>kemeticlessonReinforcement-&gt;Приветствую тебя, Тму, даруй мне сладкое дыхание, которое в твоих двух ноздрях.</li>
+		<li>kemeticlessonReinforcement-&gt;Ты восстаешь, о неподвижное сердце! Ты сияешь, о неподвижное сердце!</li>
+		<li>kemeticlessonReinforcement-&gt;Кровь Исиды, чары Исиды, сила Исиды - защита мне, вождю, и они сокрушают то, что я ненавижу.</li>
+		<li>kemeticlessonReinforcement-&gt;Я душа Ра и проводник богов в подземный мир. Души приходят на землю исполнять волю своих ка.</li>
+		<li>kemeticlessonReinforcement-&gt;О Господь Аментет, я в твоем присутствии. Во мне нет греха.</li>
+		<li>kemeticlessonReinforcement-&gt;Приветствую тебя, носитель систрума, исходящий из Ну, я не говорил пренебрежительно.</li>
+		<li>kemeticlessonReinforcement-&gt;Поклонение вам, о боги, живущие в вашем зале Правды и Истины и не имеющие зла в своих телах.</li>
+		<li>kemeticlessonReinforcement-&gt;Я отдыхал в Хемете, к северу от поля кузнечиков, где святые моряки очищаются в ночное время.</li>
+		<li>lessonReinforcement-&gt;С этим никто не может поспорить.</li>
+</AM_KemeticDescription.rules.rulesStrings>
+<!-- EN: 
+		<li>lesson(priority=-1)->stuff happens</li>
+		<li>r_pattern->"[r_steampunklessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n  - [lessonAttribution]</li>
+		<li>lessonAttribution->[founder_nameFull]'s [book] on [concept]</li>
+		<li>book->lecture</li>
+		<li>book->letter</li>
+		<li>book->studies</li>
+		<li>book->encyclopedia</li>
+		<li>book->critique</li>
+		<li>concept->ancient technologies</li>
+		<li>concept->the resurgence of the past</li>
+		<li>concept->the steam engine</li>
+		<li>concept->the neo-Victorian era</li>
+		<li>concept->the analytical AI</li>
+		<li>concept->the Brass Chronicles</li>
+		<li>steampunklessonIntro->The perfection of the ceramic heat cell and flameless combustion ushered in an era of invention and creativity in the early days of space exploration. The great philosophers of that era taught us that</li>
+		<li>steampunklessonIntro->As we all know, the Caloric Porous Structure Cell -CPSC-, is a ceramic device to burn a fuel without flame, converting the thermal energy to mechanical work. Its refinement ushered in an era of technological wonders, with its greatest philosophers preaching that</li>
+		<li>steampunklessonIntro->There is a lot to be learned of the past, specially of that particular period in the 22nd century. It teaches us one thing:</li>
+		<li>steampunklessonIntro->Some argue that it was the refinement of modern steam technology that led to a period of technological wonders in the mid 22nd century. Others say it was pure nostalgia for a past that never was. The mainstream sentiment among people in that era was that</li>
+		<li>steampunklessonIntro->Let's face it: humanity was drowning on its own refuse. Polluting energy sources were choking us into extinction. The ceramic heat cell ended all that, providing a fuel source with very low emissions. This affected everything, from science to philosophy, with the mainstream philosophical currents postulating that</li>
+		<li>steampunklessonIntro->The perfection of flameless combustion on the 22nd century was revolutionary. Society was shook to its core, and great philosophers arose that taught us that</li>
+		<li>lessonReinforcement->No one can argue with that.</li>
+	 -->
+	<AM_SteampunkRevivalDescription.rules.rulesStrings>
+		<li>lesson(priority=-1)-&gt;всякое случается</li>
+		<li>r_pattern-&gt;[r_steampunklessonIntro] [r_lesson]. [r_lessonReinforcement]\n\n - [lessonAttribution]</li>
+		<li>lessonAttribution-&gt;[founder_nameFull] [book] на [concept]</li>
+		<li>book-&gt;лекция</li>
+		<li>book-&gt;письмо</li>
+		<li>book-&gt;исследования</li>
+		<li>book-&gt;энциклопедия</li>
+		<li>book-&gt;критика</li>
+		<li>concept-&gt;древние технологии</li>
+		<li>concept-&gt;возрождение прошлого</li>
+		<li>concept-&gt;паровой двигатель</li>
+		<li>concept-&gt;неовикторианская эпоха</li>
+		<li>concept-&gt;аналитический ИИ</li>
+		<li>concept-&gt;Медные хроники</li>
+		<li>steampunklessonIntro-&gt;Совершенство керамического нагревательного элемента и беспламенное сгорание открыли эру изобретательства и творчества на заре освоения космоса. Великие философы той эпохи учили нас, что</li>
+		<li>steampunklessonIntro-&gt;Как мы все знаем, калорийная ячейка с пористой структурой -CPSC- представляет собой керамическое устройство для беспламенного сжигания топлива, преобразующего тепловую энергию в механическую работу. Его усовершенствование открыло эру технологических чудес, когда величайшие философы проповедовали, что</li>
+		<li>steampunklessonIntro-&gt;Можно многое узнать о прошлом, особенно о том конкретном периоде 22-го века. Он учит нас одному:</li>
+		<li>steampunklessonIntro-&gt;Некоторые утверждают, что усовершенствование современной паровой техники привело к периоду технологических чудес в середине 22 века. Другие говорят, что это была чистая ностальгия по прошлому, которого никогда не было. Основное мнение людей того времени заключалось в том, что</li>
+		<li>steampunklessonIntro-&gt;Посмотрим правде в глаза: человечество тонуло в собственных отбросах. Загрязняющие источники энергии душили нас до исчезновения. Керамический нагревательный элемент закончил все это, предоставив источник топлива с очень низким уровнем выбросов. Это затронуло все, от науки до философии, причем господствующие философские течения постулировали, что</li>
+		<li>steampunklessonIntro-&gt;Совершенство беспламенного горения в 22 веке было революционным. Общество было потрясено до глубины души, и возникли великие философы, которые учили нас, что</li>
+		<li>lessonReinforcement-&gt;С этим никто не может поспорить.</li>
+</AM_SteampunkRevivalDescription.rules.rulesStrings>
+<!-- EN: 
+		<li>lesson(priority=-1)->stuff happens</li>
+		<li>r_pattern->"[r_corsairlessonIntro] [r_lesson]. [r_lessonReinforcement]"\n\n  - [lessonAttribution]</li>
+		<li>lessonAttribution->[founder_nameFull]'s [book] on [concept]</li>
+		<li>book->speech</li>
+		<li>book->eloquent speech</li>
+		<li>book->rant</li>
+		<li>book->tirade</li>
+		<li>book->diatribe</li>
+		<li>concept->pillaging</li>
+		<li>concept->stealing from the weak</li>
+		<li>concept->raiding</li>
+		<li>concept->walking the plank</li>
+		<li>concept->scurvy</li>
+		<li>concept->the Brass Chronicles</li>
+		<li>corsairlessonIntro->"Pillagin', shoutin' an' slashin' — that be how we sail! May she always be swabbin' an' riggin'." Our captain taught us that</li>
+		<li>corsairlessonIntro->"A wise knave keeps only comp'ny with a pox-ridden rascal an' a grungy anchor." The boss preached that</li>
+		<li>corsairlessonIntro->"Bucket o' bladder stench, ye blaggard! Did ye dance a jig on me scabbard?" - the captain said. Strife taught us one thing:</li>
+		<li>corsairlessonIntro->"Begad! Why be they screamin' so cockeredly? I be broadsidin' on their bowspirit like a whoreson seadog!". The insane ramblings from the boss made us understand that</li>
+		<li>corsairlessonIntro->"Damnation seize me soul if I give ye quarters, or take any from ye." The courage of the captain was showing us that</li>
+		<li>corsairlessonIntro->"I'm yer knave, an' yer me kraken. For real, that be!." We didn't understand what the boss meant, but we were confident in the knowledge that</li>
+		<li>lessonReinforcement->No one can argue with that.</li>
+	 -->
+	<AM_CorsairDescription.rules.rulesStrings>
+		<li>lesson(priority=-1)-&gt;всякое случается</li>
+		<li>r_pattern-&gt;[r_corsairlessonIntro] [r_lesson]. [r_lessonReinforcement]\n\n - [lessonAttribution]</li>
+		<li>lessonAttribution-&gt;[founder_nameFull] [book] на [concept]</li>
+		<li>book-&gt;речь</li>
+		<li>book-&gt;красноречивая речь</li>
+		<li>book-&gt;разглагольствование</li>
+		<li>book-&gt;тирада</li>
+		<li>book-&gt;обличительная речь</li>
+		<li>concept-&gt;мародерство</li>
+		<li>concept-&gt;воровство у слабых</li>
+		<li>concept-&gt;набеги</li>
+		<li>concept-&gt;ходьба по доске</li>
+		<li>concept-&gt;цинга</li>
+		<li>concept-&gt;Медные хроники</li>
+		<li>corsairlessonIntro-&gt;«Грабя, крича и разрубая все — вот как мы плывем! Пусть она всегда будет чистить и тащить снасти». Наш капитан научил нас этому</li>
+		<li>corsairlessonIntro-&gt;«Мудрый плут дружит только с одержимым чумой негодяем и грязным якорем». Босс проповедовал, что</li>
+		<li>corsairlessonIntro-&gt;Ведро с вонью мочевого пузыря, ты, негодяй! Ты танцевал джигу на моих ножнах?" - сказал капитан. Раздор научил нас одному:</li>
+		<li>corsairlessonIntro-&gt;«Бегад! Почему они так кричат? Безумная болтовня босса заставила нас понять, что</li>
+		<li>corsairlessonIntro-&gt;«Проклятие постигнет меня, если я дам вам пощаду или возьму у вас хоть что-нибудь». Мужество капитана показало нам, что</li>
+		<li>corsairlessonIntro-&gt;«Я твой паж, а ты — кракен. На самом деле, если что!» Мы не понимали, что имел в виду босс, но были уверены, что знаем, что</li>
+		<li>lessonReinforcement-&gt;С этим никто не может поспорить.</li>
+</AM_CorsairDescription.rules.rulesStrings>
+<!-- EN: 
+		<li>lesson(priority=-1)->stuff happens</li>
+		<li>r_pattern->"[r_neolithiclessonIntro] [r_lesson]. [r_lessonReinforcement]"</li>
+		<li>улей</li>
+		<li>neolithiclessonIntro->We had been hunting the mammoth worm for days now, our spears' tips glistening with the recently applied poison. The chieftain urged us to hurry, reminding us that</li>
+		<li>neolithiclessonIntro->The whole wall of the cave showed the history of our people. Strife taught us one thing:</li>
+		<li>neolithiclessonIntro->The foolish ambition and carelessness of those who came before made us understand that</li>
+		<li>neolithiclessonIntro->We were content with our simple lives of gathering and hunting, with little need for the extravagant luxuries of our ancestors. The courage of the elders was showing us that</li>
+		<li>neolithiclessonIntro->There were some in out tribe who wanted to go beyond, explore and expand into a new settlement, but we were confident in the knowledge that</li>
+		<li>neolithiclessonIntro->Of course, we had seen the grotesque ruins of those who came before, and the elders have always taught us that it was their thirst for power that brought the downfall of their once mighty cities. By seeing their ruins we are emboldened in our knowledge that</li>
+		<li>neolithiclessonIntro->Our traditions speak of the Great Fire that engulfed the world. Of terrible weapons that burned brighter than any fire, and how everything perished in an abominable conflagration. Only few survived: those who were able to exploit their knowledge that</li>
+		<li>лапка</li>
+	 -->
+	<AM_NeolithicDescription.rules.rulesStrings>
+		<li>lesson(priority=-1)-&gt;всякое случается</li>
+		<li>r_pattern-&gt;[r_neolithiclessonIntro] [r_lesson]. [r_lessonReinforcement]</li>
+		<li>neolithiclessonIntro-&gt;Когда мы, дрожа, съежились у скудного костра, наш дражайший шаман научил нас, что</li>
+		<li>neolithiclessonIntro-&gt;Мы охотились на гигантского червя уже несколько дней, кончики наших копий блестели от недавно нанесенного яда. Вождь торопил нас, напоминая, что</li>
+		<li>neolithiclessonIntro-&gt;Вся стена пещеры показывала историю нашего народа. Раздор научил нас одному:</li>
+		<li>neolithiclessonIntro-&gt;Глупое честолюбие и беспечность тех, кто был раньше, заставили нас понять, что</li>
+		<li>neolithiclessonIntro-&gt;Мы были довольны нашей простой жизнью собирательства и охоты, почти не нуждаясь в экстравагантной роскоши наших предков. Мужество старейшин показало нам, что</li>
+		<li>neolithiclessonIntro-&gt;Были некоторые в нашем племени, которые хотели выйти за его пределы, исследовать и расшириться в новое поселение, но мы были уверены в том, что знаем, что</li>
+		<li>neolithiclessonIntro-&gt;Конечно, мы видели гротескные руины тех, кто был раньше, и старейшины всегда учили нас, что именно их жажда власти привела к падению их когда-то могущественных городов. Увидев их руины, мы приободрились, зная, что</li>
+		<li>neolithiclessonIntro-&gt;В наших традициях говорится о Великом пожаре, охватившем мир. О страшном оружии, горящем ярче любого огня, и о том, как все погибло в отвратительном пожаре. Выжили лишь немногие: те, кто смог использовать свои знания, о том, что</li>
+		<li>lessonReinforcement-&gt;Легенды о нашей борьбе будут рассказывать у костров долгие годы.</li>
+</AM_NeolithicDescription.rules.rulesStrings>
+<!-- EN: 
+		<li>lesson(priority=-1)->stuff happens</li>
+		<li>r_pattern->"[r_scavengerlessonIntro] [r_lesson]. [r_lessonReinforcement]"</li>
+		<li>scavengerlessonIntro->The ruins of ancient civilizations were ripe for the taking. This taught us that</li>
+		<li>scavengerlessonIntro->Our leader taught us how to convert useless scrap into wondrous creations, reminding us that</li>
+		<li>scavengerlessonIntro->The whole planet was poor in resources, so we had to adapt, and use whatever scraps of ancient technology were lying around. Strife taught us one thing:</li>
+		<li>scavengerlessonIntro->The foolish ambition and carelessness of those who came before made us understand that</li>
+		<li>scavengerlessonIntro->We were content with our simple lives of scavenging, with little need for the extravagant luxuries of our ancestors. Our fight for survival was showing us that</li>
+		<li>scavengerlessonIntro->The wilderness around our settlement was devoid of natural resources, but we were confident in the knowledge that</li>
+		<li>scavengerlessonIntro->Of course, we had seen the grotesque ruins of those who came before, and we quickly raided them for scrap. By seeing their ruins we are emboldened in our knowledge that</li>
+		<li>scavengerlessonIntro->Only those who can repurpose the ancient technology of those who came before will survive: those who are able to exploit their knowledge that</li>
+		<li>lessonReinforcement->In the end, we will adapt and survive, like we've always done.</li>
+	 -->
+	<AM_ScavengerDescription.rules.rulesStrings>
+		<li>lesson(priority=-1)-&gt;всякое случается</li>
+		<li>r_pattern-&gt;[r_scavengerlessonIntro] [r_lesson]. [r_lessonReinforcement]</li>
+		<li>scavengerlessonIntro-&gt;Руины древних цивилизаций созрели для захвата. Это научило нас тому, что</li>
+		<li>scavengerlessonIntro-&gt;Наш лидер научил нас, как превратить бесполезный хлам в чудесные творения, напомнив нам, что</li>
+		<li>scavengerlessonIntro-&gt;Вся планета была бедна ресурсами, поэтому нам пришлось приспосабливаться и использовать остатки древних технологий, которые валялись поблизости. Раздор научил нас одному:</li>
+		<li>scavengerlessonIntro-&gt;Глупое честолюбие и беспечность тех, кто был раньше, заставили нас понять, что</li>
+		<li>scavengerlessonIntro-&gt;Мы были довольны нашей простой жизнью собирателей мусора, почти не нуждаясь в экстравагантной роскоши наших предков. Наша борьба за выживание показала нам, что</li>
+		<li>scavengerlessonIntro-&gt;Пустыня вокруг нашего поселения была лишена природных ресурсов, но мы были уверены в том, что</li>
+		<li>scavengerlessonIntro-&gt;Конечно, мы видели гротескные руины тех, кто был раньше, и мы быстро обыскали их в поисках металлолома. Увидев их руины, мы приободрились, зная, что</li>
+		<li>scavengerlessonIntro-&gt;Выживут только те, кто сможет перепрофилировать древнюю технологию тех, кто был раньше. Те, кто сможет использовать свои знания: </li>
+		<li>lessonReinforcement-&gt;В конце концов, мы адаптируемся и выживем, как всегда.</li>
+</AM_ScavengerDescription.rules.rulesStrings>
+
+<!-- EN: 
+		<li>alienistBasis   ->When Humanity left its home planet, it found no alien life. A lonely Universe filled with nothing but unthinking matter.</li>
+		<li>alienistBasis   ->If we are not alone in the Universe, our neighbours are certainly too far away to affect us. We have found no new life beyond the one we carried from Old Earth.</li>
+		<li>alienistBasis   ->Humanity has found no "true" alien life in the Universe. No strange new creatures beyond simple, unicellular bacteria in the deepest oceanic trenches and a few self-replicating amino acids in some remote asteroid belt.</li>
+		<li>alienistBasis   ->Upon leaving Earth, we stumbled upon a hostile Universe devoid of all life but our own.</li>
+		<li>alienistFact    ->This didn't stop our ancestors from creating new beings. Exotic, alien life derived from terrestrial genomes to populate the myriad worlds of human space.</li>
+		<li>alienistFact    ->Our ingenuity, however, was far greater. We twisted and tangled the genetic strains carried by our forefathers from Earth, turning ancient breeds into new, wondrous creatures.</li>
+		<li>alienistFact    ->Human creativity was not to be shackled by this unfortunate constraint, and we warped the ancient genomes of Earth creatures into all sorts of new animals. Amazing creations.</li>
+		<li>alienistFact    ->However, playing God is what humans excel at. Like versatile clay we molded the ancient genelines into astonishing new creatures. Genetic marvels to populate an empty Universe.</li>
+		<li>alienistProphecy->[itIsSaid] we will learn more about these creatures, and we will unlock secrets that will allow us to prosper on the Rim.</li>
+		<li>itIsSaid->With careful experimentation,</li>
+		<li>itIsSaid->Either through technology or more arcane means</li>
+		<li>itIsSaid->Many techniques behind their creation have been lost with time, but in time</li>
+	 -->
+	<AM_AlienismDescription.rules.rulesStrings>
+		<li>alienistBasis   -&gt;Когда человечество покинуло родную планету, оно не обнаружило никакой инопланетной жизни. Одинокая Вселенная, наполненная лишь бездумной материей.</li>
+		<li>alienistBasis   -&gt;Если мы не одиноки во Вселенной, то наши соседи, конечно, слишком далеки, чтобы повлиять на нас. Мы не нашли никакой новой жизни, кроме той, которую мы перенесли со Старой Земли.</li>
+		<li>alienistBasis   -&gt;Человечество не нашло во Вселенной "настоящей" инопланетной жизни. Никаких новых странных существ, кроме простых одноклеточных бактерий в глубочайших океанских впадинах и нескольких самовоспроизводящихся аминокислот в каком-нибудь отдаленном поясе астероидов.</li>
+		<li>alienistBasis   -&gt;Покинув Землю, мы наткнулись на враждебную Вселенную, лишенную всякой жизни, кроме нашей собственной.</li>
+		<li>alienistFact    -&gt;Это не помешало нашим предкам создать новых существ. Экзотическая, инопланетная жизнь, полученная из земных геномов, заселяет бесчисленные миры человеческого космоса.</li>
+		<li>alienistFact    -&gt;Однако наша изобретательность оказалась гораздо выше. Мы извратили и запутали генетические штаммы, принесенные нашими предками с Земли, превратив древние породы в новые диковинные существа.</li>
+		<li>alienistFact    -&gt;Человеческая креативность не была скована этим досадным ограничением, и мы изменили древние геномы земных существ, превратив их во всевозможных новых животных. Удивительные творения.</li>
+		<li>alienistFact    -&gt;Однако игра в Бога - это то, в чем люди преуспели. Словно из разнородной глины, мы вылепили из древних генных линий удивительные новые существа. Генетические чудеса для заселения пустой Вселенной.</li>
+		<li>alienistProphecy-&gt;[itIsSaid] мы узнаем больше об этих существах и раскроем секреты, которые позволят нам процветать в Окраинных мирах.</li>
+		<li>itIsSaid-&gt;При тщательном экспериментировании,</li>
+		<li>itIsSaid-&gt;Либо с помощью технологий, либо с помощью более тайных средств</li>
+		<li>itIsSaid-&gt;Многие техники их создания были утеряны со временем, но со временем</li>
+	</AM_AlienismDescription.rules.rulesStrings>
+</LanguageData>

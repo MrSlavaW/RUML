@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\AlphaAnimals\Defs\GeneDefs\GeneDefs_Forsaken_AlphaAnimals.xml -->
+	<!--                    EN: nightling affinity -->
+	<AG_NightlingAffinity.label>Сродство с ночником</AG_NightlingAffinity.label>
+	<!--                          EN: Carriers of this gene have an innate affinity with Nightlings. They can automatically tame one of them. -->
+	<AG_NightlingAffinity.description>Носители этого гена обладают врождённой близостью к ночникам и могут автоматически приручать одного из них.</AG_NightlingAffinity.description>
+</LanguageData>

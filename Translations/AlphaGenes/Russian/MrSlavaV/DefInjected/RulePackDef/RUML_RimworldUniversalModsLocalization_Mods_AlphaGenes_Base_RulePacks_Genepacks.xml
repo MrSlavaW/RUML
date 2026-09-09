@@ -1,0 +1,23 @@
+<LanguageData>
+	<!-- 1.6\Defs\RulePackDefs\RulePacks_Genepacks.xml -->
+	<!-- EN:
+		<li>r_name->alphapack ([geneWord][otherGenesInfo])</li>
+		<li>otherGenesInfo(geneCount==1)-></li>
+		<li>otherGenesInfo(geneCount>=2)-> +[geneCountMinusOne]</li>
+	 -->
+	<AG_NamerAlphapack.rulePack.rulesStrings>
+		<li>r_name->альфа-пакет ([geneWord][otherGenesInfo])</li>
+		<li>otherGenesInfo(geneCount==1)-></li>
+		<li>otherGenesInfo(geneCount>=2)->+[geneCountMinusOne]</li>
+	</AG_NamerAlphapack.rulePack.rulesStrings>
+	<!-- EN:
+		<li>r_name->mixedpack ([geneWord][otherGenesInfo])</li>
+		<li>otherGenesInfo(geneCount==1)-></li>
+		<li>otherGenesInfo(geneCount>=2)-> +[geneCountMinusOne]</li>
+	 -->
+	<AG_NamerMixedpack.rulePack.rulesStrings>
+		<li>r_name->смешанный пакет ([geneWord][otherGenesInfo])</li>
+		<li>otherGenesInfo(geneCount==1)-></li>
+		<li>otherGenesInfo(geneCount>=2)->+[geneCountMinusOne]</li>
+	</AG_NamerMixedpack.rulePack.rulesStrings>
+</LanguageData>

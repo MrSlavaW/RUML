@@ -1,0 +1,39 @@
+<LanguageData>
+	<AG_Alphapack.label>Альфапак</AG_Alphapack.label>
+	<AG_Alphapack.description>Маленькая капсула, содержащая пакет генетической информации. Чтобы использовать генный пакет, его необходимо поместить в генный банк рядом с генным ассемблером и объединить в имплантируемую ксеногерму.\n\nЕсли не хранить этот генпакет в банке генов с питанием, он будет медленно разрушаться.\n\nАльфапаки содержат только комбинации альфа-генов.</AG_Alphapack.description>
+	<AG_Mixedpack.label>Микспак</AG_Mixedpack.label>
+	<AG_Mixedpack.description>Маленькая капсула, содержащая пакет генетической информации. Чтобы использовать генный пакет, его необходимо поместить в генный банк рядом с генным ассемблером и объединить в имплантируемую ксеногерму.\n\nЕсли не хранить этот генпакет в банке генов с питанием, он будет медленно разрушаться.\n\nМикспаки содержат комбинации альфа-генов и стандартных генов.</AG_Mixedpack.description>
+	<AG_GeneRemover.label>Средство для удаления генов</AG_GeneRemover.label>
+	<AG_GeneRemover.description>Генетический инструмент, способный удалить случайный ген у гуманоида. Процедура довольно травматична и всегда затрагивает случайный ген. После неё цель впадает в кому на 3 дня. Использование инструмента на поселенце, уже находящемся в такой коме, не даст эффекта.</AG_GeneRemover.description>
+	<AG_GeneRemover.comps.0.useLabel>Использовать средство для удаления генов</AG_GeneRemover.comps.0.useLabel>
+	<AG_Endogenefier.label>Эндогенификатор</AG_Endogenefier.label>
+	<AG_Endogenefier.description>Генетический инструмент, способный превратить случайный ксеноген гуманоида в эндоген. После процедуры цель впадает в кому на 3 дня. Использование на поселенце, уже находящемся в такой коме, не даст эффекта.</AG_Endogenefier.description>
+	<AG_Endogenefier.comps.0.useLabel>Использовать эндогенификатор</AG_Endogenefier.comps.0.useLabel>
+	<AG_Xenogenefier.label>Ксеногенизатор</AG_Xenogenefier.label>
+	<AG_Xenogenefier.description>Генетический инструмент, способный превратить случайный эндоген гуманоида в ксеноген. После процедуры цель впадает в кому на 3 дня. Использование на поселенце, уже находящемся в такой коме, не даст эффекта.</AG_Xenogenefier.description>
+	<AG_Xenogenefier.comps.0.useLabel>Использовать ксеногенизатор</AG_Xenogenefier.comps.0.useLabel>
+	<AG_XenotypeNullifier.label>Уничтожитель ксенотипов</AG_XenotypeNullifier.label>
+	<AG_XenotypeNullifier.description>Генетический инструмент, способный принудительно удалить у цели все гены ксенотипа и вернуть её к исходному состоянию. После процедуры цель впадает в кому на 3 дня. Использование на поселенце, уже находящемся в такой коме, не даст эффекта.</AG_XenotypeNullifier.description>
+	<AG_XenotypeNullifier.comps.0.useLabel>Использовать уничтожитель ксенотипов</AG_XenotypeNullifier.comps.0.useLabel>
+	<AG_XenotypeInjector.label>Инжектор ксенотипа</AG_XenotypeInjector.label>
+	<AG_XenotypeInjector.description>Генетический инструмент, способный принудительно удалить у цели все гены, и наследуемые, и ксеногены, а затем заменить их случайным ксенотипом. После процедуры цель впадает в кому на 3 дня. Использование на поселенце, уже находящемся в такой коме, не даст эффекта.</AG_XenotypeInjector.description>
+	<AG_XenotypeInjector.comps.0.useLabel>Использовать инжектор ксенотипа</AG_XenotypeInjector.comps.0.useLabel>
+	<AG_GermlineMutator.label>Мутатор зародышевой линии</AG_GermlineMutator.label>
+	<AG_GermlineMutator.description>Генетический инструмент, способный вызывать случайные мутации зародышевой линии, создавая один случайный эндоген. После процедуры цель впадает в кому на 3 дня. Использование на поселенце, уже находящемся в такой коме, не даст эффекта.</AG_GermlineMutator.description>
+	<AG_GermlineMutator.comps.0.useLabel>Использовать мутатор</AG_GermlineMutator.comps.0.useLabel>
+	<AG_GenepackTweaker.label>Редактор генпака</AG_GenepackTweaker.label>
+	<AG_GenepackTweaker.description>Генетический инструментарий, способный воздействовать на существующий генпак, альфапак или микспак, добавляя в него новый, случайный ген. В целевом генпаке должно быть 3 или менее генов, и этот процесс не будет добавлять в него новые гены архигенов.</AG_GenepackTweaker.description>
+	<AG_GenepackTweaker.comps.0.useLabel>Использовать редактор генпака</AG_GenepackTweaker.comps.0.useLabel>
+	<AG_GenepackDisruptor.label>Разрушитель генпака</AG_GenepackDisruptor.label>
+	<AG_GenepackDisruptor.description>Генетический инструментарий, способный воздействовать на существующий генпак, альфапак или микспак, удаляя из него случайный ген. В нацеленном генпаке должно быть 2 или более генов.</AG_GenepackDisruptor.description>
+	<AG_GenepackDisruptor.comps.0.useLabel>Использовать разрушитель генпака</AG_GenepackDisruptor.comps.0.useLabel>
+	<AG_ArchoGeneRemover.label>Средство для удаления генов Архотех</AG_ArchoGeneRemover.label>
+	<AG_ArchoGeneRemover.description>Генетический инструмент, способный удалить выбранный ген у существа. Процедура весьма травматична, поэтому цель впадает в кому на 3 дня. Использование инструмента на поселенце, уже находящемся в такой коме, не даст эффекта.</AG_ArchoGeneRemover.description>
+	<AG_ArchoGeneRemover.comps.0.useLabel>Использовать средство для удаления генов архотех</AG_ArchoGeneRemover.comps.0.useLabel>
+	<AG_ArchoEndogenefier.label>Архотех-эндогенез</AG_ArchoEndogenefier.label>
+	<AG_ArchoEndogenefier.description>Генетический инструмент, способный превратить конкретный ксеноген в эндоген. После процедуры цель впадает в кому на 3 дня. Использование на поселенце, уже находящемся в такой коме, не даст эффекта.</AG_ArchoEndogenefier.description>
+	<AG_ArchoEndogenefier.comps.0.useLabel>Использовать архотех-эндогенез</AG_ArchoEndogenefier.comps.0.useLabel>
+	<AG_ArchoXenogenefier.label>Архотех-ксеногенез</AG_ArchoXenogenefier.label>
+	<AG_ArchoXenogenefier.description>Генетический инструмент, способный превратить специфический эндоген в ксеноген. После процедуры цель впадает в кому на 3 дня. Использование на поселенце, уже находящемся в такой коме, не даст эффекта.</AG_ArchoXenogenefier.description>
+	<AG_ArchoXenogenefier.comps.0.useLabel>Использовать архотех-ксеногенез</AG_ArchoXenogenefier.comps.0.useLabel>
+</LanguageData>

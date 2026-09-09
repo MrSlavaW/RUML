@@ -1,0 +1,218 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\MemeDefs\Memes_Misc_Biotech.xml -->
+	<!--            EN: fertility -->
+	<AM_Fertility.label>плодовитость</AM_Fertility.label>
+	<!--                  EN: Life begets life, and the cycle of creation is the eternal heartbeat of existence. From fertile soil to fertile wombs, the promise of tomorrow is seeded in the abundance of today. -->
+	<AM_Fertility.description>Жизнь порождает жизнь, и цикл творения — это вечный пульс существования. От плодородной земли до плодородных чресел, обещание завтрашнего дня зарождается в изобилии сегодняшнего.</AM_Fertility.description>
+	<!-- EN: 
+		<li>memeAdjective->fertile</li>
+		<li>memeAdjective->bountiful</li>
+		<li>memeAdjective->fruitful</li>
+		<li>рост</li>
+		<li>memeHyphenPrefix->life</li>
+		<li>memeLeaderNoun->progenitor</li>
+		<li>memeMoralist->nurturer</li>
+	 -->
+	<AM_Fertility.generalRules.rulesStrings>
+		<li>memeAdjective-&gt;плодовитый</li>
+		<li>memeAdjective-&gt;щедрый</li>
+		<li>memeAdjective-&gt;плодородный</li>
+		<li>memeConcept-&gt;рост</li>
+		<li>memeHyphenPrefix-&gt;жизнь</li>
+		<li>memeLeaderNoun-&gt;прародитель</li>
+		<li>memeMoralist-&gt;воспитатель</li>
+	</AM_Fertility.generalRules.rulesStrings>
+	<!-- EN: 
+		<li>creation(tag=meme_Fertility)        ->[deity0_name] declared: "Be fruitful and multiply, for the strength of the faithful lies in their numbers."</li>
+		<li>episode(uses=1,tag=meme_Fertility)  ->Following [deity0_name]'s teachings, we celebrated each birth as a divine blessing, growing stronger with every child born.</li>
+		<li>intro(tag=meme_Fertility)           ->On the [place_summary] [place_name], the [memberNamePlural] established a tradition of large families, believing each child to be a gift from the divine.</li>
+		<li>conflict(tag=meme_Fertility)        ->A rival [foeLeader], envious of our growing population, sought to divide families and undermine our unity.</li>
+		<li>founderJoin(tag=meme_Fertility)     ->[founderName], a wise midwife, united the community and ensured every family thrived, even in times of hardship.</li>
+		<li>victory(tag=meme_Fertility)         ->[foeLeader] was overthrown, and [foeLeader_possessive] attempt to disrupt our families only strengthened our resolve.</li>
+		<li>setup(tag=meme_Fertility)           ->[founderName], a visionary leader, argued that a strong community is built on large families and the nurturing of many children.</li>
+		<li>story(uses=1,tag=meme_Fertility)    ->[founderName] created policies and customs that celebrated fertility and ensured that every child could thrive.</li>
+		<li>лапка</li>
+		<li>lesson(tag=meme_Fertility)              ->raising strong, united families is the foundation of any enduring community.</li>
+		<li>lessonReinforcement(tag=meme_Fertility) ->Children are the lifeblood of our future; each new life brings hope and strength.</li>
+		<li>рост</li>
+		<li>archistFact(tag=meme_Fertility)     ->In their algorithms, a thriving population is key to achieving transcendent stability</li>
+		<li>archistProphecy(tag=meme_Fertility) ->[inTheEnd], only the most populous and fertile communities will earn the archotechs' favor.</li>
+		<li>animistBasis(tag=meme_Fertility)    ->The spirits smile upon those who bring new life into the world, for they see children as the essence of vitality.</li>
+		<li>animistFact(tag=meme_Fertility)     ->Our ancestors guide us to cherish every child, as they are the bridge between the living and the spirit world.</li>
+		<li>animistProphecy(tag=meme_Fertility) ->[itIsSaid] the most fertile families will be blessed with wisdom from the spirits themselves.</li>
+		<li>serketistProphecy(tag=meme_Fertility)->[itIsSaid] a colony that embraces fertility will thrive as an unstoppable collective, like the most prolific ant colony.</li>
+		<li>chthonianProphecy(tag=meme_Fertility)->The eldritch entities watch our numbers grow with fascination, for they understand that strength lies in multitudes.</li>
+		<li>рост</li>
+		<li>eschatologismFact(tag=meme_Fertility)->We must grow our numbers, for only through countless generations can we see the end of days fulfilled.</li>
+		<li>рост</li>
+		<li>alienistProphecy(tag=meme_Fertility)->The alien species we encounter remind us of the beauty of diversity and the importance of expanding our own families.</li>
+	 -->
+	<AM_Fertility.descriptionMaker.rules.rulesStrings>
+		<li>creation(tag=meme_Fertility)        -&gt;[deity0_name] объявил: "Плодитесь и размножайтесь, ибо сила верующих в их числе."</li>
+		<li>episode(uses=1,tag=meme_Fertility)  -&gt;Следуя учениям [deity0_name], мы праздновали каждое рождение как божественное благословение, становясь сильнее с каждым рожденным ребенком.</li>
+		<li>intro(tag=meme_Fertility)           -&gt;На [place_summary] [place_name], [memberNamePlural] установили традицию больших семей, веря, что каждый ребенок — это дар от божества.</li>
+		<li>conflict(tag=meme_Fertility)        -&gt;Соперник [foeLeader], завидуя нашей растущей популяции, пытался разделить семьи и подорвать наше единство.</li>
+		<li>founderJoin(tag=meme_Fertility)     -&gt;[founderName], мудрая акушерка, объединила сообщество и обеспечила процветание каждой семьи, даже в трудные времена.</li>
+		<li>victory(tag=meme_Fertility)         -&gt;[foeLeader] был свергнут, и его попытка разрушить наши семьи только укрепила нашу решимость.</li>
+		<li>setup(tag=meme_Fertility)           -&gt;[founderName], прозорливый лидер, утверждал, что сильное сообщество строится на больших семьях и воспитании множества детей.</li>
+		<li>story(uses=1,tag=meme_Fertility)    -&gt;[founderName] создал политику и обычаи, которые праздновали плодовитость и обеспечивали процветание каждого ребенка.</li>
+		<li>lessonIntro(tag=meme_Fertility)         -&gt;Мать двенадцати детей однажды сказала мне, что мера наследия человека не в богатстве или славе, а в детях, которых он оставляет после себя. Она научила меня, что</li>
+		<li>lesson(tag=meme_Fertility)              -&gt;воспитание сильных, единых семей — это основа любого долговечного сообщества.</li>
+		<li>lessonReinforcement(tag=meme_Fertility) -&gt;Дети — это жизненная сила нашего будущего; каждая новая жизнь приносит надежду и силу.</li>
+		<li>archistBasis(tag=meme_Fertility)    -&gt;Архотехи ценят экспоненциальный рост, и большие семьи отражают безграничный потенциал их творений.</li>
+		<li>archistFact(tag=meme_Fertility)     -&gt;В их алгоритмах процветающее население — ключ к достижению трансцендентной стабильности.</li>
+		<li>archistProphecy(tag=meme_Fertility) -&gt;[inTheEnd], только самые многочисленные и плодовитые сообщества заслужат благосклонность архотехов.</li>
+		<li>animistBasis(tag=meme_Fertility)    -&gt;Духи благоволят тем, кто приносит новую жизнь в мир, ибо они видят в детях суть жизненной силы.</li>
+		<li>animistFact(tag=meme_Fertility)     -&gt;Наши предки учат нас ценить каждого ребенка, ибо они — мост между живыми и миром духов.</li>
+		<li>animistProphecy(tag=meme_Fertility) -&gt;[itIsSaid], что самые плодовитые семьи будут благословлены мудростью самих духов.</li>
+		<li>serketistProphecy(tag=meme_Fertility)-&gt;[itIsSaid], что поселение, принимающая плодовитость, будет процветать как неудержимый коллектив, подобно самому плодовитому поселению муравьев.</li>
+		<li>chthonianProphecy(tag=meme_Fertility)-&gt;Древние сущности с fascination наблюдают за ростом нашего числа, ибо они понимают, что сила в многочисленности.</li>
+		<li>esotericismProphecy(tag=meme_Fertility)-&gt;Только через поколения роста можно раскрыть и сохранить тайны космоса.</li>
+		<li>eschatologismFact(tag=meme_Fertility)-&gt;Мы должны увеличивать наше число, ибо только через бесчисленные поколения можно увидеть исполнение конца дней.</li>
+		<li>introMemo(tag=meme_Fertility)-&gt;Мы рады представить нашу новую программу "Стимулирование роста семьи", разработанную для поощрения сотрудников к вкладу в наши демографические цели.</li>
+		<li>alienistProphecy(tag=meme_Fertility)-&gt;Чужеродные виды, с которыми мы сталкиваемся, напоминают нам о красоте разнообразия и важности расширения наших собственных семей.</li>
+	</AM_Fertility.descriptionMaker.rules.rulesStrings>
+
+	<!--                             EN: Fertility -->
+	<AM_Fertility.symbolPacks.0.ideoName>Плодовитость</AM_Fertility.symbolPacks.0.ideoName>
+	<!--                          EN: fertility -->
+	<AM_Fertility.symbolPacks.0.theme>плодовитость</AM_Fertility.symbolPacks.0.theme>
+	<!--                              EN: fertile -->
+	<AM_Fertility.symbolPacks.0.adjective>плодовитый</AM_Fertility.symbolPacks.0.adjective>
+	<!--                           EN: fertile -->
+	<AM_Fertility.symbolPacks.0.member>плодовитый</AM_Fertility.symbolPacks.0.member>
+	<!--                             EN: Progenitor -->
+	<AM_Fertility.symbolPacks.1.ideoName>Прародители</AM_Fertility.symbolPacks.1.ideoName>
+	<!--                          EN: creation -->
+	<AM_Fertility.symbolPacks.1.theme>создание</AM_Fertility.symbolPacks.1.theme>
+	<!--                              EN: progenitor -->
+	<AM_Fertility.symbolPacks.1.adjective>прародитель</AM_Fertility.symbolPacks.1.adjective>
+	<!--                           EN: progenitor -->
+	<AM_Fertility.symbolPacks.1.member>прародитель</AM_Fertility.symbolPacks.1.member>
+	<!--                             EN: Gestation -->
+	<AM_Fertility.symbolPacks.2.ideoName>Вынашивание</AM_Fertility.symbolPacks.2.ideoName>
+	<!--                          EN: gestation -->
+	<AM_Fertility.symbolPacks.2.theme>вынашивание</AM_Fertility.symbolPacks.2.theme>
+	<!--                              EN: gestational -->
+	<AM_Fertility.symbolPacks.2.adjective>вынашивающий</AM_Fertility.symbolPacks.2.adjective>
+	<!--                           EN: gestator -->
+	<AM_Fertility.symbolPacks.2.member>вынашивающий</AM_Fertility.symbolPacks.2.member>
+	<!--                             EN: Reproduction -->
+	<AM_Fertility.symbolPacks.3.ideoName>Размножение</AM_Fertility.symbolPacks.3.ideoName>
+	<!--                          EN: reproduction -->
+	<AM_Fertility.symbolPacks.3.theme>размножение</AM_Fertility.symbolPacks.3.theme>
+	<!--                              EN: reproductive -->
+	<AM_Fertility.symbolPacks.3.adjective>размножающийся</AM_Fertility.symbolPacks.3.adjective>
+	<!--                           EN: reproducer -->
+	<AM_Fertility.symbolPacks.3.member>размножающийся</AM_Fertility.symbolPacks.3.member>
+	
+	<!--                 EN: vampire hunting -->
+	<AM_VampireHunting.label>охотники на вампиров</AM_VampireHunting.label>
+	<!--                       EN: We refuse to tolerate the predations of the sanguophages. These parasitic creatures thrive on the suffering of others, spreading their cursed condition like a plague. Our mission is clear: track them, eliminate them, and ensure their kind finds no safe haven under the stars. -->
+	<AM_VampireHunting.description>Мы не можем терпеть хищничество гемофагов. Эти паразитические существа процветают за счет страданий других, распространяя свое проклятое состояние как чуму. Наша миссия ясна: выследить их, уничтожить и убедиться, что их род не найдет убежища под звездами.</AM_VampireHunting.description>
+	<!-- EN: 
+		<li>memeAdjective->righteous</li>
+		<li>memeAdjective->zealous</li>
+		<li>memeAdjective->purifying</li>
+		<li>memeAdjective->unyielding</li>
+		<li>memeAdjective->vindictive</li>
+		<li>memeHyphenPrefix->blood</li>
+		<li>memeHyphenPrefix->hunter</li>
+		<li>memeConcept->purge</li>
+		<li>memeConcept->redemption</li>
+		<li>memeConcept->cleansing</li>
+		<li>memeLeaderNoun->inquisitor</li>
+		<li>memeLeaderNoun->exorcist</li>
+		<li>memeLeaderNoun->slayer</li>
+		<li>memeLeaderNoun->purifier</li>
+		<li>memeLeaderNoun->warden</li>
+	 -->
+	<AM_VampireHunting.generalRules.rulesStrings>
+		<li>memeAdjective-&gt;праведный</li>
+		<li>memeAdjective-&gt;фанатичный</li>
+		<li>memeAdjective-&gt;очищающий</li>
+		<li>memeAdjective-&gt;непреклонный</li>
+		<li>memeAdjective-&gt;мстительный</li>
+		<li>memeHyphenPrefix-&gt;кровь</li>
+		<li>memeHyphenPrefix-&gt;охотник</li>
+		<li>memeConcept-&gt;чистка</li>
+		<li>memeConcept-&gt;искупление</li>
+		<li>memeConcept-&gt;очищение</li>
+		<li>memeLeaderNoun-&gt;инквизитор</li>
+		<li>memeLeaderNoun-&gt;экзорцист</li>
+		<li>memeLeaderNoun-&gt;убийца</li>
+		<li>memeLeaderNoun-&gt;очиститель</li>
+		<li>memeLeaderNoun-&gt;страж</li>
+	</AM_VampireHunting.generalRules.rulesStrings>
+	<!-- EN: 
+		<li>creation(tag=meme_SanguophageHunting)        ->[deity0_name] gazed upon the cursed sanguophages and proclaimed: "These creatures are an affront to life itself. They must be purged to restore balance."</li>
+		<li>episode(uses=1,tag=meme_SanguophageHunting)  ->[deity0_name] said to the [memberNamePlural]: "Hunt the sanguophages wherever they hide. Their bloodlust defiles the sanctity of creation."</li>
+		<li>intro(tag=meme_SanguophageHunting)           ->[memberNamePlural] constructed a solemn [altarName] on the [place_summary] [place_name], where they swore an oath to cleanse the land of sanguophages.</li>
+		<li>conflict(tag=meme_SanguophageHunting)        ->The sanguophages retaliated against [deity0_name]'s followers, but the [memberNamePlural] stood firm, vowing to end their reign of terror.</li>
+		<li>founderJoin(tag=meme_SanguophageHunting)     ->[deity0_name] commanded [founderName] to rise against the sanguophages, calling them the bane of mortal existence.</li>
+		<li>victory(tag=meme_SanguophageHunting)         ->[founderName] led a crusade against the sanguophages, vanquishing them and securing a lasting peace for the faithful.</li>
+		<li>setup(tag=meme_SanguophageHunting)           ->Our founder [founderName] was a visionary who saw the danger of sanguophages in [founder_possessive] world. [founder_pronoun] gathered [founder_possessive] followers and set out to eradicate this parasitic menace.</li>
+		<li>story(uses=1,tag=meme_SanguophageHunting)    ->[founderName]'s followers documented [founder_possessive] tactics and strategies, passing down the art of sanguophage hunting through the generations.</li>
+		<li>lessonIntro(tag=meme_SanguophageHunting)         ->In all my years tracking sanguophages, one truth has become clear:</li>
+		<li>lesson(tag=meme_SanguophageHunting)              ->these creatures cannot coexist with humanity and must be eradicated for the safety of all</li>
+		<li>lessonReinforcement(tag=meme_SanguophageHunting) ->Only by standing together and taking action can we protect ourselves from the sanguophage threat.</li>
+		<li>archistBasis(tag=meme_SanguophageHunting)    ->The archotechs have no tolerance for sanguophages. Their parasitic nature is an antithesis to perfection.</li>
+		<li>archistFact(tag=meme_SanguophageHunting)     ->When the archotechs reveal their grand design, those who stood against sanguophages will be rewarded for their vigilance.</li>
+		<li>archistProphecy(tag=meme_SanguophageHunting) ->[inTheEnd], the archotechs will eliminate all sanguophages and elevate the hunters who aided in their extermination.</li>
+		<li>animistFact(tag=meme_SanguophageHunting)     ->The spirits abhor sanguophages, for their thirst for blood disrupts the natural order of life and death.</li>
+		<li>serketistProphecy(tag=meme_SanguophageHunting)->As predators prey upon the weak, so must we hunt the sanguophages to maintain the balance of the ecosystem.</li>
+		<li>chthonianProphecy(tag=meme_SanguophageHunting)->The sanguophages are a whisper of the cosmic madness that threatens to consume us all. By hunting them, we deny the abyss its agents.</li>
+		<li>esotericismProphecy(tag=meme_SanguophageHunting)->The sanguophages covet secrets that were never meant to be theirs. By ending their existence, we preserve the sacred knowledge of the unseen.</li>
+		<li>eschatologismFact(tag=meme_SanguophageHunting)->The sanguophages herald the end. To delay the apocalypse, we must extinguish their cursed bloodlines.</li>
+		<li>introMemo(tag=meme_SanguophageHunting)->It has come to my attention that some of you have been avoiding assignments to hunt sanguophages. Let me remind you: no one is exempt from safeguarding our colony. Remember: teamwork keeps the parasites at bay!</li>
+		<li>alienistProphecy(tag=meme_SanguophageHunting)->We will capture and study these creatures, learning from them and perhaps discover a way to better end the threat of sanguophages.</li>
+	 -->
+	<AM_VampireHunting.descriptionMaker.rules.rulesStrings>
+		<li>creation(tag=meme_SanguophageHunting)        -&gt;[deity0_name] взглянул на проклятых гемофагов и провозгласил: "Эти существа — оскорбление самой жизни. Их нужно истребить, чтобы восстановить равновесие."</li>
+		<li>episode(uses=1,tag=meme_SanguophageHunting)  -&gt;[deity0_name] сказал [memberNamePlural]: "Охотьтесь на гемофагов, где бы они ни прятались. Их жажда крови оскверняет святость творения."</li>
+		<li>intro(tag=meme_SanguophageHunting)           -&gt;[memberNamePlural] построили торжественный [altarName] на [place_summary] [place_name], где они поклялись очистить землю от гемофагов.</li>
+		<li>conflict(tag=meme_SanguophageHunting)        -&gt; Гемофаги отомстили последователям [deity0_name], но [memberNamePlural] стояли твердо, поклявшись положить конец их царству ужаса.</li>
+		<li>founderJoin(tag=meme_SanguophageHunting)     -&gt;[deity0_name] приказал [founderName] восстать против гемофагов, назвав их бичом смертного существования.</li>
+		<li>victory(tag=meme_SanguophageHunting)         -&gt;[founderName] возглавил крестовый поход против гемофагов, уничтожив их и обеспечив долговечный мир для верующих.</li>
+		<li>setup(tag=meme_SanguophageHunting)           -&gt;Наш основатель [founderName] был провидцем, который увидел опасность гемофагов в [founder_possessive] мире. [founder_pronoun] собрал [founder_possessive] последователей и отправился искоренять эту паразитическую угрозу.</li>
+		<li>story(uses=1,tag=meme_SanguophageHunting)    -&gt;Последователи [founderName] документировали [founder_possessive] тактики и стратегии, передавая искусство охоты на гемофагов из поколения в поколение.</li>
+		<li>lessonIntro(tag=meme_SanguophageHunting)         -&gt;За все годы охоты на гемофагов одна истина стала очевидной:</li>
+		<li>lesson(tag=meme_SanguophageHunting)              -&gt;эти существа не могут сосуществовать с человечеством и должны быть истреблены ради безопасности всех.</li>
+		<li>lessonReinforcement(tag=meme_SanguophageHunting) -&gt;Только объединившись и действуя вместе, мы сможем защитить себя от угрозы гемофагов.</li>
+		<li>archistBasis(tag=meme_SanguophageHunting)    -&gt;Архотехи не терпят гемофагов. Их паразитическая природа противоречит совершенству.</li>
+		<li>archistFact(tag=meme_SanguophageHunting)     -&gt;Когда архотехи раскроют свой великий замысел, те, кто стоял против гемофагов, будут вознаграждены за свою бдительность.</li>
+		<li>archistProphecy(tag=meme_SanguophageHunting) -&gt;[inTheEnd], архотехи уничтожат всех гемофагов и возвысят охотников, помогавших в их истреблении.</li>
+		<li>animistFact(tag=meme_SanguophageHunting)     -&gt;Духи ненавидят гемофагов, ибо их жажда крови нарушает естественный порядок жизни и смерти.</li>
+		<li>serketistProphecy(tag=meme_SanguophageHunting)-&gt;Как хищники охотятся на слабых, так и мы должны охотиться на гемофагов, чтобы поддерживать равновесие экосистемы.</li>
+		<li>chthonianProphecy(tag=meme_SanguophageHunting)-&gt; Гемофаги — это шепот космического безумия, угрожающего поглотить нас всех. Охотясь на них, мы лишаем бездну ее агентов.</li>
+		<li>esotericismProphecy(tag=meme_SanguophageHunting)-&gt; Гемофаги жаждут тайн, которые никогда не предназначались для них. Уничтожая их, мы сохраняем священные знания невидимого.</li>
+		<li>eschatologismFact(tag=meme_SanguophageHunting)-&gt; Гемофаги предвещают конец. Чтобы отсрочить апокалипсис, мы должны истребить их проклятые родословные.</li>
+		<li>introMemo(tag=meme_SanguophageHunting)-&gt;Мне стало известно, что некоторые из вас уклоняются от заданий по охоте на гемофагов. Позвольте напомнить: никто не освобожден от обязанности защищать наше поселение. Помните: командная работа держит паразитов в узде!</li>
+		<li>alienistProphecy(tag=meme_SanguophageHunting)-&gt;Мы захватим и изучим этих существ, научимся у них и, возможно, найдем способ лучше справиться с угрозой гемофагов.</li>
+	</AM_VampireHunting.descriptionMaker.rules.rulesStrings>
+
+	<!--                                  EN: Sanguophage Hunters -->
+	<AM_VampireHunting.symbolPacks.0.ideoName>Охотники на гемофагов</AM_VampireHunting.symbolPacks.0.ideoName>
+	<!--                               EN: hunt -->
+	<AM_VampireHunting.symbolPacks.0.theme>охота</AM_VampireHunting.symbolPacks.0.theme>
+	<!--                                   EN: hunter -->
+	<AM_VampireHunting.symbolPacks.0.adjective>охотник</AM_VampireHunting.symbolPacks.0.adjective>
+	<!--                                EN: hunter -->
+	<AM_VampireHunting.symbolPacks.0.member>охотник</AM_VampireHunting.symbolPacks.0.member>
+	<!--                                  EN: The Blood Purge -->
+	<AM_VampireHunting.symbolPacks.1.ideoName>Кровавая чистка</AM_VampireHunting.symbolPacks.1.ideoName>
+	<!--                               EN: purification -->
+	<AM_VampireHunting.symbolPacks.1.theme>очищение</AM_VampireHunting.symbolPacks.1.theme>
+	<!--                                   EN: purifying -->
+	<AM_VampireHunting.symbolPacks.1.adjective>очищающий</AM_VampireHunting.symbolPacks.1.adjective>
+	<!--                                EN: purifier -->
+	<AM_VampireHunting.symbolPacks.1.member>очиститель</AM_VampireHunting.symbolPacks.1.member>
+	<!--                                  EN: Vampire Bane -->
+	<AM_VampireHunting.symbolPacks.2.ideoName>Проклятие вампиров</AM_VampireHunting.symbolPacks.2.ideoName>
+	<!--                               EN: bane -->
+	<AM_VampireHunting.symbolPacks.2.theme>проклятие</AM_VampireHunting.symbolPacks.2.theme>
+	<!--                                   EN: baneful -->
+	<AM_VampireHunting.symbolPacks.2.adjective>проклятый</AM_VampireHunting.symbolPacks.2.adjective>
+	<!--                                EN: banisher -->
+	<AM_VampireHunting.symbolPacks.2.member>изгоняющий</AM_VampireHunting.symbolPacks.2.member>
+</LanguageData>

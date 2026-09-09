@@ -1,0 +1,218 @@
+<LanguageData>
+	<!-- 1.6\Defs\TerrainDefs\Terrain_Floors.xml -->
+	
+	<!--                            EN: Carefully-cut and fit stone tiles in a Jewish style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_JewishTileSandstone.description>Тщательно вырезанные и подогнанные каменные плитки в иудейском стиле. На вид они красивы, но укладывать долго.</AM_JewishTileSandstone.description>
+	<!--                      EN: jewish sandstone tile -->
+	<AM_JewishTileSandstone.label>иудейская плитка из песчаника</AM_JewishTileSandstone.label>
+	
+	<!--                          EN: Carefully-cut and fit stone tiles in a Jewish style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_JewishTileGranite.description>Тщательно вырезанные и подогнанные каменные плитки в иудейском стиле. На вид они красивы, но укладывать долго.</AM_JewishTileGranite.description>
+	<!--                    EN: jewish granite tile -->
+	<AM_JewishTileGranite.label>иудейская гранитная плитка</AM_JewishTileGranite.label>
+	
+	<!--                            EN: Carefully-cut and fit stone tiles in a Jewish style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_JewishTileLimestone.description>Тщательно вырезанные и подогнанные каменные плитки в иудейском стиле. На вид они красивы, но укладывать долго.</AM_JewishTileLimestone.description>
+	<!--                      EN: jewish limestone tile -->
+	<AM_JewishTileLimestone.label>иудейская плитка из известняка</AM_JewishTileLimestone.label>
+	
+	<!--                        EN: Carefully-cut and fit stone tiles in a Jewish style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_JewishTileSlate.description>Тщательно вырезанные и подогнанные каменные плитки в иудейском стиле. На вид они красивы, но укладывать долго.</AM_JewishTileSlate.description>
+	<!--                  EN: jewish slate tile -->
+	<AM_JewishTileSlate.label>иудейская плитка из сланца</AM_JewishTileSlate.label>
+	
+	<!--                         EN: Carefully-cut and fit stone tiles in a Jewish style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_JewishTileMarble.description>Тщательно вырезанные и подогнанные каменные плитки в иудейском стиле. На вид они красивы, но укладывать долго.</AM_JewishTileMarble.description>
+	<!--                   EN: jewish marble tile -->
+	<AM_JewishTileMarble.label>иудейская мраморная плитка</AM_JewishTileMarble.label>
+	
+	<!--                                EN: Fine stone tiles in a jewish style for expressing economic status. Slow to construct. -->
+	<AM_JewishFineTileSandstone.description>Изысканная каменная плитка в иудейском стиле для выражения экономического статуса. Медленно укладывается.</AM_JewishFineTileSandstone.description>
+	<!--                          EN: jewish fine sandstone tile -->
+	<AM_JewishFineTileSandstone.label>иудейская отличная плитка из песчаника</AM_JewishFineTileSandstone.label>
+	
+	<!--                              EN: Fine stone tiles in a jewish style for expressing economic status. Slow to construct. -->
+	<AM_JewishFineTileGranite.description>Изысканная каменная плитка в иудейском стиле для выражения экономического статуса. Медленно укладывается.</AM_JewishFineTileGranite.description>
+	<!--                        EN: jewish fine granite tile -->
+	<AM_JewishFineTileGranite.label>иудейская отличная гранитная плитка</AM_JewishFineTileGranite.label>
+	
+	<!--                                EN: Fine stone tiles in a jewish style for expressing economic status. Slow to construct. -->
+	<AM_JewishFineTileLimestone.description>Изысканная каменная плитка в иудейском стиле для выражения экономического статуса. Медленно укладывается.</AM_JewishFineTileLimestone.description>
+	<!--                          EN: jewish fine limestone tile -->
+	<AM_JewishFineTileLimestone.label>иудейская отличная плитка из известняка</AM_JewishFineTileLimestone.label>
+	
+	<!--                            EN: Fine stone tiles in a jewish style for expressing economic status. Slow to construct. -->
+	<AM_JewishFineTileSlate.description>Изысканная каменная плитка в иудейском стиле для выражения экономического статуса. Медленно укладывается.</AM_JewishFineTileSlate.description>
+	<!--                      EN: jewish fine slate tile -->
+	<AM_JewishFineTileSlate.label>иудейская отличная плитка из сланца</AM_JewishFineTileSlate.label>
+	
+	<!--                             EN: Fine stone tiles in a jewish style for expressing economic status. Slow to construct. -->
+	<AM_JewishFineTileMarble.description>Изысканная каменная плитка в иудейском стиле для выражения экономического статуса. Медленно укладывается.</AM_JewishFineTileMarble.description>
+	<!--                       EN: jewish fine marble tile -->
+	<AM_JewishFineTileMarble.label>иудейская отличная мраморная плитка</AM_JewishFineTileMarble.label>
+	
+	<!--                             EN: Carefully-cut and fit stone tiles in a Kemetic style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_KemeticTileSandstone.description>Тщательно вырезанные и подогнанные каменные плитки в кеметском стиле. На вид они красивы, но укладывать долго.</AM_KemeticTileSandstone.description>
+	<!--                       EN: kemetic sandstone tile -->
+	<AM_KemeticTileSandstone.label>кеметская плитка из песчаника</AM_KemeticTileSandstone.label>
+	
+	<!--                           EN: Carefully-cut and fit stone tiles in a Kemetic style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_KemeticTileGranite.description>Тщательно вырезанные и подогнанные каменные плитки в кеметском стиле. На вид они красивы, но укладывать долго.</AM_KemeticTileGranite.description>
+	<!--                     EN: kemetic granite tile -->
+	<AM_KemeticTileGranite.label>кеметская гранитная плитка</AM_KemeticTileGranite.label>
+	
+	<!--                             EN: Carefully-cut and fit stone tiles in a Kemetic style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_KemeticTileLimestone.description>Тщательно вырезанные и подогнанные каменные плитки в кеметском стиле. На вид они красивы, но укладывать долго.</AM_KemeticTileLimestone.description>
+	<!--                       EN: kemetic limestone tile -->
+	<AM_KemeticTileLimestone.label>кеметская плитка из известняка</AM_KemeticTileLimestone.label>
+	
+	<!--                         EN: Carefully-cut and fit stone tiles in a Kemetic style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_KemeticTileSlate.description>Тщательно вырезанные и подогнанные каменные плитки в кеметском стиле. На вид они красивы, но укладывать долго.</AM_KemeticTileSlate.description>
+	<!--                   EN: kemetic slate tile -->
+	<AM_KemeticTileSlate.label>кеметская плитка из сланца</AM_KemeticTileSlate.label>
+	
+	<!--                          EN: Carefully-cut and fit stone tiles in a Kemetic style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_KemeticTileMarble.description>Тщательно вырезанные и подогнанные каменные плитки в кеметском стиле. На вид они красивы, но укладывать долго.</AM_KemeticTileMarble.description>
+	<!--                    EN: kemetic marble tile -->
+	<AM_KemeticTileMarble.label>кеметская мраморная плитка</AM_KemeticTileMarble.label>
+	
+	<!--                                     EN: Carefully-cut and fit stone tiles in a Kemetic style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_KemeticTilePristineLimestone.description>Тщательно вырезанные и подогнанные каменные плитки в кеметском стиле. На вид они красивы, но укладывать долго.</AM_KemeticTilePristineLimestone.description>
+	<!--                               EN: kemetic pristine limestone tile -->
+	<AM_KemeticTilePristineLimestone.label>кеметская нетронутая плитка из известняка</AM_KemeticTilePristineLimestone.label>
+	
+	<!--                                 EN: Fine stone tiles in a kemetic style for expressing economic status. Slow to construct. -->
+	<AM_KemeticFineTileSandstone.description>Прекрасная каменная плитка в кеметском стиле для подчеркивания экономического статуса. Медленно укладывается.</AM_KemeticFineTileSandstone.description>
+	<!--                           EN: kemetic fine sandstone tile -->
+	<AM_KemeticFineTileSandstone.label>кеметская отличная плитка из песчаника</AM_KemeticFineTileSandstone.label>
+	
+	<!--                               EN: Fine stone tiles in a kemetic style for expressing economic status. Slow to construct. -->
+	<AM_KemeticFineTileGranite.description>Прекрасная каменная плитка в кеметском стиле для подчеркивания экономического статуса. Медленно укладывается.</AM_KemeticFineTileGranite.description>
+	<!--                         EN: kemetic fine granite tile -->
+	<AM_KemeticFineTileGranite.label>кеметская отличная гранитная плитка</AM_KemeticFineTileGranite.label>
+	
+	<!--                                 EN: Fine stone tiles in a kemetic style for expressing economic status. Slow to construct. -->
+	<AM_KemeticFineTileLimestone.description>Прекрасная каменная плитка в кеметском стиле для подчеркивания экономического статуса. Медленно укладывается.</AM_KemeticFineTileLimestone.description>
+	<!--                           EN: kemetic fine limestone tile -->
+	<AM_KemeticFineTileLimestone.label>кеметская отличная плитка из известняка</AM_KemeticFineTileLimestone.label>
+	
+	<!--                             EN: Fine stone tiles in a kemetic style for expressing economic status. Slow to construct. -->
+	<AM_KemeticFineTileSlate.description>Прекрасная каменная плитка в кеметском стиле для подчеркивания экономического статуса. Медленно укладывается.</AM_KemeticFineTileSlate.description>
+	<!--                       EN: kemetic fine slate tile -->
+	<AM_KemeticFineTileSlate.label>кеметская отличная плитка из сланца</AM_KemeticFineTileSlate.label>
+	
+	<!--                              EN: Fine stone tiles in a kemetic style for expressing economic status. Slow to construct. -->
+	<AM_KemeticFineTileMarble.description>Прекрасная каменная плитка в кеметском стиле для подчеркивания экономического статуса. Медленно укладывается.</AM_KemeticFineTileMarble.description>
+	<!--                        EN: kemetic fine marble tile -->
+	<AM_KemeticFineTileMarble.label>кеметская отличная мраморная плитка</AM_KemeticFineTileMarble.label>
+	
+	<!--                                         EN: Fine stone tiles in a kemetic style for expressing economic status. Slow to construct. -->
+	<AM_KemeticFineTilePristineLimestone.description>Прекрасная каменная плитка в кеметском стиле для подчеркивания экономического статуса. Медленно укладывается.</AM_KemeticFineTilePristineLimestone.description>
+	<!--                                   EN: kemetic fine pristine limestone tile -->
+	<AM_KemeticFineTilePristineLimestone.label>кеметская отличная плитка из известняка</AM_KemeticFineTilePristineLimestone.label>
+	
+	<!--                          EN: futuristic kemetic tile -->
+	<AM_Tile_Futuristic_Kemetic.label>футуристическая кеметская плитка</AM_Tile_Futuristic_Kemetic.label>
+	<!--                                EN: Fine steel plates with a hexagonal pattern for that ultra-technological look. -->
+	<AM_Tile_Futuristic_Kemetic.description>Прекрасные стальные пластины с шестиугольным узором для ультратехнологичного вида.</AM_Tile_Futuristic_Kemetic.description>
+	
+	<!--                              EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
+	<AM_TilePristineLimestone.description>Аккуратно вырезанная и укложенная замковая каменная плитка. На вид она красива, но укладывать долго.</AM_TilePristineLimestone.description>
+	<!--                        EN: pristine limestone tile -->
+	<AM_TilePristineLimestone.label>первозданный известняковая плитка</AM_TilePristineLimestone.label>
+	
+	<!--                                   EN: Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
+	<AM_FlagstonePristineLimestone.description>Каменная плитка грубой обработки. Выглядит не очень красиво, но из нее получаются хорошие покрытия для дорог и тротуаров. При разрушении не выделяется никаких ресурсов.</AM_FlagstonePristineLimestone.description>
+	<!--                             EN: pristine limestone flagstone -->
+	<AM_FlagstonePristineLimestone.label>первозданный известняковый плитняк</AM_FlagstonePristineLimestone.label>
+	
+	<!--                               EN: Carefully-cut and fit stone tiles in a Steampunk style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_SteampunkTileSandstone.description>Аккуратно вырезанная и укложенная каменная плитка в стиле стимпанк. На вид она красива, но укладывать долго.</AM_SteampunkTileSandstone.description>
+	<!--                         EN: steampunk sandstone tile -->
+	<AM_SteampunkTileSandstone.label>стимпанк плитка из песчаника</AM_SteampunkTileSandstone.label>
+	
+	<!--                             EN: Carefully-cut and fit stone tiles in a Steampunk style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_SteampunkTileGranite.description>Аккуратно вырезанная и укложенная каменная плитка в стиле стимпанк. На вид она красива, но укладывать долго.</AM_SteampunkTileGranite.description>
+	<!--                       EN: steampunk granite tile -->
+	<AM_SteampunkTileGranite.label>стимпанк гранитная плитка</AM_SteampunkTileGranite.label>
+	
+	<!--                               EN: Carefully-cut and fit stone tiles in a Steampunk style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_SteampunkTileLimestone.description>Аккуратно вырезанная и укложенная каменная плитка в стиле стимпанк. На вид она красива, но укладывать долго.</AM_SteampunkTileLimestone.description>
+	<!--                         EN: steampunk limestone tile -->
+	<AM_SteampunkTileLimestone.label>стимпанк плитка из известняка</AM_SteampunkTileLimestone.label>
+	
+	<!--                           EN: Carefully-cut and fit stone tiles in a Steampunk style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_SteampunkTileSlate.description>Аккуратно вырезанная и укложенная каменная плитка в стиле стимпанк. На вид она красива, но укладывать долго.</AM_SteampunkTileSlate.description>
+	<!--                     EN: steampunk slate tile -->
+	<AM_SteampunkTileSlate.label>стимпанк плитка из сланца</AM_SteampunkTileSlate.label>
+	
+	<!--                            EN: Carefully-cut and fit stone tiles in a Steampunk style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_SteampunkTileMarble.description>Аккуратно вырезанная и укложенная каменная плитка в стиле стимпанк. На вид она красива, но укладывать долго.</AM_SteampunkTileMarble.description>
+	<!--                      EN: steampunk marble tile -->
+	<AM_SteampunkTileMarble.label>стимпанк мраморная плитка</AM_SteampunkTileMarble.label>
+	
+	<!--                               EN: Rough, ugly packed dirt. Very cheap and quick to build, but barely better than regular dirt. -->
+	<AM_NeolithicTileSandstone.description>Грубая, уродливая утоптанная земля. Очень дешево и быстро строится, но едва ли лучше, чем обычная грязь.</AM_NeolithicTileSandstone.description>
+	<!--                         EN: neolithic sandstone packed dirt floor -->
+	<AM_NeolithicTileSandstone.label>неолитический пол из песчаника</AM_NeolithicTileSandstone.label>
+	
+	<!--                             EN: Rough, ugly packed dirt. Very cheap and quick to build, but barely better than regular dirt. -->
+	<AM_NeolithicTileGranite.description>Грубая, уродливая утоптанная земля. Очень дешево и быстро строится, но едва ли лучше, чем обычная грязь.</AM_NeolithicTileGranite.description>
+	<!--                       EN: neolithic granite packed dirt floor -->
+	<AM_NeolithicTileGranite.label>неолитический пол из гранита</AM_NeolithicTileGranite.label>
+	
+	<!--                               EN: Rough, ugly packed dirt. Very cheap and quick to build, but barely better than regular dirt. -->
+	<AM_NeolithicTileLimestone.description>Грубая, уродливая утоптанная земля. Очень дешево и быстро строится, но едва ли лучше, чем обычная грязь.</AM_NeolithicTileLimestone.description>
+	<!--                         EN: neolithic limestone packed dirt floor -->
+	<AM_NeolithicTileLimestone.label>неолитический пол из известняка</AM_NeolithicTileLimestone.label>
+	
+	<!--                           EN: Rough, ugly packed dirt. Very cheap and quick to build, but barely better than regular dirt. -->
+	<AM_NeolithicTileSlate.description>Грубая, уродливая утоптанная земля. Очень дешево и быстро строится, но едва ли лучше, чем обычная грязь.</AM_NeolithicTileSlate.description>
+	<!--                     EN: neolithic slate packed dirt floor -->
+	<AM_NeolithicTileSlate.label>неолитический пол из сланца</AM_NeolithicTileSlate.label>
+	
+	<!--                            EN: Rough, ugly packed dirt. Very cheap and quick to build, but barely better than regular dirt. -->
+	<AM_NeolithicTileMarble.description>Грубая, уродливая утоптанная земля. Очень дешево и быстро строится, но едва ли лучше, чем обычная грязь.</AM_NeolithicTileMarble.description>
+	<!--                      EN: neolithic marble packed dirt floor -->
+	<AM_NeolithicTileMarble.label>неолитический пол из мрамора</AM_NeolithicTileMarble.label>
+	
+	<!--                 EN: restored rusted tile -->
+	<AM_Tile_Scavenger.label>восстановленная ржавая плитка</AM_Tile_Scavenger.label>
+	<!--                       EN: Rusted steel plates scavenged from local materials. Small beauty bonus, but no cleanliness. -->
+	<AM_Tile_Scavenger.description>Ржавые стальные пластины, извлеченные из местных материалов. Небольшой бонус красоты, но никакой чистоты.</AM_Tile_Scavenger.description>
+	
+	<!--                       EN: restored tile -->
+	<AM_Tile_Scavenger_Clean.label>восстановленная плитка</AM_Tile_Scavenger_Clean.label>
+	<!--                             EN: Steel plates scavenged from local materials. No beauty bonus, but small bonus to cleanliness. -->
+	<AM_Tile_Scavenger_Clean.description>Стальные пластины, очищенные от местных материалов. Никакого бонуса за красоту, но небольшой бонус к чистоте.</AM_Tile_Scavenger_Clean.description>
+	
+	<!--                             EN: Fine stone slabs in an ocular style. -->
+	<AM_Tile_OcularSandstone.description>Изящные каменные плиты в окулярном стиле.</AM_Tile_OcularSandstone.description>
+	<!--                       EN: ocular sandstone floor -->
+	<AM_Tile_OcularSandstone.label>глазной пол из песчаника</AM_Tile_OcularSandstone.label>
+	
+	<!--                           EN: Fine stone slabs in an ocular style. -->
+	<AM_Tile_OcularGranite.description>Изящные каменные плиты в окулярном стиле.</AM_Tile_OcularGranite.description>
+	<!--                     EN: ocular granite floor -->
+	<AM_Tile_OcularGranite.label>глазной пол из гранита</AM_Tile_OcularGranite.label>
+	
+	<!--                             EN: Fine stone slabs in an ocular style. -->
+	<AM_Tile_OcularLimestone.description>Изящные каменные плиты в окулярном стиле.</AM_Tile_OcularLimestone.description>
+	<!--                       EN: ocular limestone floor -->
+	<AM_Tile_OcularLimestone.label>глазной пол из известняка</AM_Tile_OcularLimestone.label>
+	
+	<!--                         EN: Fine stone slabs in an ocular style. -->
+	<AM_Tile_OcularSlate.description>Изящные каменные плиты в окулярном стиле.</AM_Tile_OcularSlate.description>
+	<!--                   EN: ocular slate floor -->
+	<AM_Tile_OcularSlate.label>глазной пол из сланца</AM_Tile_OcularSlate.label>
+	
+	<!--                          EN: Fine stone slabs in an ocular style. -->
+	<AM_Tile_MorbidMarble.description>Изящные каменные плиты в окулярном стиле.</AM_Tile_MorbidMarble.description>
+	<!--                    EN: ocular marble floor -->
+	<AM_Tile_MorbidMarble.label>глазной пол из мрамора</AM_Tile_MorbidMarble.label>
+	
+<!--                   EN: rich fungal soil -->
+    <AM_RichFungalGravel.label>богатый грибной грунт</AM_RichFungalGravel.label>
+    <!--                         EN: A spreadable, rich form of soil for growing fungal crops underground. It must be placed under overhead mountain so the dank coolness of the depths can nourish the fungal spores. Harder to construct than fungal gravel but with better fertility. -->
+    <AM_RichFungalGravel.description>Укладываемый, богатый питательными веществами вид грунта для выращивания грибных культур под землёй. Его необходимо размещать под толщей горы, чтобы сырая прохлада глубин могла питать грибные споры. Его создание требует больше усилий, чем у обычного грибного гравия, но он обладает более высоким плодородием.</AM_RichFungalGravel.description>
+</LanguageData>

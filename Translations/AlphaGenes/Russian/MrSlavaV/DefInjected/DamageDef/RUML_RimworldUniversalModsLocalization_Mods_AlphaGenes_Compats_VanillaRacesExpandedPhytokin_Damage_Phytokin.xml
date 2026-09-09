@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaRacesExpandedPhytokin\Defs\DamageDefs\Damage_Phytokin.xml -->
+	<!--             EN: toxic sting -->
+	<AG_ToxicSting.label>ядовитый укус</AG_ToxicSting.label>
+	<!--                    EN: {0} has been stung to death. -->
+	<AG_ToxicSting.deathMessage>{0} был ужален до смерти.</AG_ToxicSting.deathMessage>
+</LanguageData>

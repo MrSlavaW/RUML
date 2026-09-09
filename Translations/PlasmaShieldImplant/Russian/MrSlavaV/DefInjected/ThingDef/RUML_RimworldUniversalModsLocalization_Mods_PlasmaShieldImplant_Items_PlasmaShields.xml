@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<PlasmaShieldImplant.label>имплант плазменного щита</PlasmaShieldImplant.label>
+	<PlasmaShieldImplant.description>Миниатюрный генератор защитного поля, готовый к хирургической имплантации.</PlasmaShieldImplant.description>
+	<PsiShieldBooster.label>пси-усилитель щита</PsiShieldBooster.label>
+	<PsiShieldBooster.description>Биомодуль для связи плазменного щита с псионическими способностями владельца.</PsiShieldBooster.description>
+	<PlasmaShieldBattery.label>аккумулятор плазменного щита</PlasmaShieldBattery.label>
+	<PlasmaShieldBattery.description>Имплантируемый накопитель энергии для плазменных защитных систем.</PlasmaShieldBattery.description>
+	<AdvancedPlasmaShieldBattery.label>продвинутый аккумулятор щита</AdvancedPlasmaShieldBattery.label>
+	<AdvancedPlasmaShieldBattery.description>Продвинутый имплантируемый накопитель энергии высокой плотности.</AdvancedPlasmaShieldBattery.description>
+	<HardenedPlasmaShield.label>закаленный плазменный щит</HardenedPlasmaShield.label>
+	<HardenedPlasmaShield.description>Модуль усиленной плотности защитного плазменного поля.</HardenedPlasmaShield.description>
+</LanguageData>

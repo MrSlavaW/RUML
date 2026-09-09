@@ -1,0 +1,31 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Armors.xml -->
+	<!--                EN: forsaken hood -->
+	<AG_Forsaken_Hood.label>капюшон Отреченных</AG_Forsaken_Hood.label>
+	<!--                      EN: This Forsaken-style hood gives protection, while helping the wearer keep calm and focused. -->
+	<AG_Forsaken_Hood.description>Этот капюшон в стиле Отреченных обеспечивает защиту, помогая владельцу сохранять спокойствие и сосредоточенность.</AG_Forsaken_Hood.description>
+	<!--                      EN: forsaken kid hood -->
+	<AG_Forsaken_Hood_Child.label>капюшон для детей Отреченных</AG_Forsaken_Hood_Child.label>
+	<!--                            EN: This Forsaken-style hood gives protection, while helping the wearer keep calm and focused. -->
+	<AG_Forsaken_Hood_Child.description>Этот капюшон в стиле Отреченных обеспечивает защиту, помогая владельцу сохранять спокойствие и сосредоточенность.</AG_Forsaken_Hood_Child.description>
+	<!--                      EN: This cloak has been fabricated by Forsaken for all of their hunting needs. -->
+	<AG_ForsakenCloak.description>Этот плащ был изготовлен Отреченными для всех их охотничьих нужд. Он легкий и содержит встроенный проектор щита с низким уровнем заряда.</AG_ForsakenCloak.description>
+	<!--                EN: forsaken cloak -->
+	<AG_ForsakenCloak.label>плащ Отреченных</AG_ForsakenCloak.label>
+	<!--                            EN: This cloak has been fabricated by Forsaken for all of their hunting needs. -->
+	<AG_ForsakenCloak_Child.description>Этот плащ был изготовлен Отреченными для всех их охотничьих нужд. Он легкий и содержит встроенный проектор щита с низким уровнем заряда.</AG_ForsakenCloak_Child.description>
+	<!--                      EN: forsaken kid cloak -->
+	<AG_ForsakenCloak_Child.label>плащ Отреченных для ребенка</AG_ForsakenCloak_Child.label>
+	<!--                       EN: forsaken helmet -->
+	<AG_ForsakenMarineHelmet.label>шлем Отреченных</AG_ForsakenMarineHelmet.label>
+	<!--                             EN: An ultratech Forsaken helmet designed for combat. Extremely durable and heightens focus. -->
+	<AG_ForsakenMarineHelmet.description>Ультратехнологичный шлем Отреченных, созданный для боя. Чрезвычайно прочный и усиливает концентрацию внимания.</AG_ForsakenMarineHelmet.description>
+	<!--                          EN: forsaken psycaster helmet -->
+	<AG_ForsakenMarineHelmetPsy.label>пси шлем Отреченных</AG_ForsakenMarineHelmetPsy.label>
+	<!--                                EN: An ultratech Forsaken helmet designed for combat. Extremely durable and heightens focus. This particular design enhances psycic sensitivity instead of suppressing it. -->
+	<AG_ForsakenMarineHelmetPsy.description>Ультратехнологичный шлем Отреченных, созданный для боя. Чрезвычайно прочный и усиливает концентрацию. Этот особый дизайн усиливает пси-чувствительность, а не подавляет ее.</AG_ForsakenMarineHelmetPsy.description>
+	<!--                      EN: forsaken armor -->
+	<AG_ForsakenMarineArmor.label>броня Отреченных</AG_ForsakenMarineArmor.label>
+	<!--                            EN: An ultratech Forsaken armor designed for combat. Extremely durable and comfortable. -->
+	<AG_ForsakenMarineArmor.description>Ультратехнологичная броня Отреченных, созданная для боя. Чрезвычайно прочная и удобная.</AG_ForsakenMarineArmor.description>
+</LanguageData>

@@ -1,0 +1,39 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Temperature.xml -->
+	<!--               EN: heat torpor -->
+	<AG_HeatSlowness.label>Тепловое оцепенение</AG_HeatSlowness.label>
+	<!--                     EN: Carriers of this gene move much slower while in temperatures above 40ºC. -->
+	<AG_HeatSlowness.description>Носители этого гена двигаются гораздо медленнее при температуре выше 40ºC.</AG_HeatSlowness.description>
+	<!--                                    EN: That's three gallons per inch squared in Fahrenheit! -->
+	<AG_HeatSlowness.customEffectDescriptions.0>Эффект действует при температуре выше 40 °C.</AG_HeatSlowness.customEffectDescriptions.0>
+	<!--            EN: heat speed -->
+	<AG_HeatSpeed.label>Быстрота в жаре</AG_HeatSpeed.label>
+	<!--                  EN: Carriers of this gene move much faster while in temperatures above 40ºC. -->
+	<AG_HeatSpeed.description>Носители этого гена двигаются гораздо быстрее при температуре выше 40ºC.</AG_HeatSpeed.description>
+	<!--                                 EN: That's three gallons per inch squared in Fahrenheit! -->
+	<AG_HeatSpeed.customEffectDescriptions.0>Эффект действует при температуре выше 40 °C.</AG_HeatSpeed.customEffectDescriptions.0>
+	<!--               EN: cold torpor -->
+	<AG_ColdSlowness.label>Холодное оцепенение</AG_ColdSlowness.label>
+	<!--                     EN: Carriers of this gene move much slower while in temperatures below 0ºC. -->
+	<AG_ColdSlowness.description>Носители этого гена двигаются гораздо медленнее при температуре ниже 0ºC.</AG_ColdSlowness.description>
+	<!--                                    EN: That's three gallons per inch squared in Fahrenheit! -->
+	<AG_ColdSlowness.customEffectDescriptions.0>Эффект действует при температуре ниже 0 °C.</AG_ColdSlowness.customEffectDescriptions.0>
+	<!--            EN: cold speed -->
+	<AG_ColdSpeed.label>Быстрота в холоде</AG_ColdSpeed.label>
+	<!--                  EN: Carriers of this gene move much faster while in temperatures below 0ºC. -->
+	<AG_ColdSpeed.description>Носители этого гена двигаются гораздо быстрее при температуре ниже 0ºC.</AG_ColdSpeed.description>
+	<!--                                 EN: That's three gallons per inch squared in Fahrenheit! -->
+	<AG_ColdSpeed.customEffectDescriptions.0>Эффект действует при температуре ниже 0 °C.</AG_ColdSpeed.customEffectDescriptions.0>
+	<!--                EN: heat radiating -->
+	<AG_HeatRadiating.label>Теплоизлучение</AG_HeatRadiating.label>
+	<!--                      EN: Carriers of this gene radiate intense heat. -->
+	<AG_HeatRadiating.description>Носители этого гена излучают сильный жар.</AG_HeatRadiating.description>
+	<!--                                     EN: Generates intense heat up to 80ºC. Bear in mind this gene itself doesn't make the carrier heat resistant. -->
+	<AG_HeatRadiating.customEffectDescriptions.0>Повышает температуру вокруг носителя вплоть до 80 °C. Сам по себе ген не даёт термоустойчивости.</AG_HeatRadiating.customEffectDescriptions.0>
+	<!--                EN: cold radiating -->
+	<AG_ColdRadiating.label>Холодное излучение</AG_ColdRadiating.label>
+	<!--                      EN: Carriers of this gene absorb great amounts of heat from their surroundings, freezing the air around them. -->
+	<AG_ColdRadiating.description>Носители этого гена поглощают большое количество тепла из окружающей среды, замораживая воздух вокруг себя.</AG_ColdRadiating.description>
+	<!--                                     EN: Generates intense cold up to -20ºC. Bear in mind this gene itself doesn't make the carrier cold resistant. -->
+	<AG_ColdRadiating.customEffectDescriptions.0>Понижает температуру вокруг носителя вплоть до -20 °C. Сам по себе ген не даёт устойчивости к холоду.</AG_ColdRadiating.customEffectDescriptions.0>
+</LanguageData>

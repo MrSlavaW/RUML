@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaCookingExpanded\Defs\Rituals\Banquet\Ritual_Behaviors_Banquet.xml -->
+	<!--                             EN: Participants -->
+	<AM_BanquetBehaviour.spectatorsLabel>Участники</AM_BanquetBehaviour.spectatorsLabel>
+	<!--                             EN: participate -->
+	<AM_BanquetBehaviour.spectatorGerund>участник</AM_BanquetBehaviour.spectatorGerund>
+</LanguageData>

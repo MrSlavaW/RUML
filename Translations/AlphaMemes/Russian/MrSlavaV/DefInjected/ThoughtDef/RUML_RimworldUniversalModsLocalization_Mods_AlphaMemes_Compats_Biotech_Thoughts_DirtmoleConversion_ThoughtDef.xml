@@ -1,0 +1,22 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThoughtDefs\Thoughts_DirtmoleConversion.xml -->
+<!--                                      EN: unconvincing embrace the deep -->
+    <AM_TerribleDirtmoleConversion.stages.0.label>неубедительное «Объять глубины»</AM_TerribleDirtmoleConversion.stages.0.label>
+    <!--                                            EN: The moralist failed to inspire me. The ceremony did little to strengthen my devotion to the depths of the earth. -->
+    <AM_TerribleDirtmoleConversion.stages.0.description>Моралист не смог меня вдохновить. Церемония почти ничему не послужила в укреплении моей преданности земным глубинам.</AM_TerribleDirtmoleConversion.stages.0.description>
+    
+    <!--                                    EN: underwhelming embrace the deep -->
+    <AM_BoringDirtmoleConversion.stages.0.label>разочаровывающее «Объять глубины»</AM_BoringDirtmoleConversion.stages.0.label>
+    <!--                                          EN: The moralist's words lacked passion. The ceremony left me unimpressed. -->
+    <AM_BoringDirtmoleConversion.stages.0.description>В словах моралиста не хватало страсти. Церемония не впечатлила меня.</AM_BoringDirtmoleConversion.stages.0.description>
+    
+    <!--                                 EN: convincing embrace the deep -->
+    <AM_FunDirtmoleConversion.stages.0.label>убедительное «Объять глубины»</AM_FunDirtmoleConversion.stages.0.label>
+    <!--                                       EN: The moralist spoke with conviction about life beneath the earth. I found the ceremony inspiring. -->
+    <AM_FunDirtmoleConversion.stages.0.description>Моралист убедительно говорил о жизни под землёй. Я нахожу эту церемонию вдохновляющей.</AM_FunDirtmoleConversion.stages.0.description>
+    
+    <!--                                           EN: inspiring embrace the deep -->
+    <AM_UnforgettableDirtmoleConversion.stages.0.label>вдохновляющее «Объять глубины»</AM_UnforgettableDirtmoleConversion.stages.0.label>
+    <!--                                                 EN: The moralist's words were profoundly inspiring. I feel deeply connected to the depths of the earth. -->
+    <AM_UnforgettableDirtmoleConversion.stages.0.description>Слова моралиста были глубоко вдохновляющими. Я чувствую тесную связь с земными глубинами.</AM_UnforgettableDirtmoleConversion.stages.0.description>
+</LanguageData>

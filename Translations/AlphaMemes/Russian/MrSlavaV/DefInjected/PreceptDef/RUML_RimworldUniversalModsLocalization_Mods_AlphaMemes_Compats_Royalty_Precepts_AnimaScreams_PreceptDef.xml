@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Mods\Royalty\Defs\PreceptDefs\Precepts_AnimaScreams.xml -->
+	
+	<!--                          EN: delightful -->
+	<AM_AnimaScreams_Delightful.label>восхитительны</AM_AnimaScreams_Delightful.label>
+	<!--                                EN: There is nothing sweeter than hearing a cursed anima tree scream after being uprooted. -->
+	<AM_AnimaScreams_Delightful.description>Нет ничего слаще, чем услышать крик проклятого дерева анимы после его выкорчевывания.</AM_AnimaScreams_Delightful.description>
+	<!--                                                       EN: Anima tree around -->
+	<AM_AnimaScreams_Delightful.comps.1.thoughtStageDescriptions.0>Дерево анимы рядом</AM_AnimaScreams_Delightful.comps.1.thoughtStageDescriptions.0>
+	<!--                                                       EN: More than 1 anima tree around -->
+	<AM_AnimaScreams_Delightful.comps.1.thoughtStageDescriptions.1>Более одного дерева анимы рядом</AM_AnimaScreams_Delightful.comps.1.thoughtStageDescriptions.1>
+</LanguageData>

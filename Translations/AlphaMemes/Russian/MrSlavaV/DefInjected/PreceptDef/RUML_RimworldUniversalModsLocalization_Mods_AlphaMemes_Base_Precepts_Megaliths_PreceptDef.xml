@@ -1,0 +1,8 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Megaliths.xml -->
+	
+	<!--                    EN: desired -->
+	<AM_Megaliths_Desired.label>желаемы</AM_Megaliths_Desired.label>
+	<!--                          EN: We honour our ancestors by erecting huge monuments that both defy and glorify nature. They will truly withstand the test of time.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonists desire the construction of megalithic monuments (found in the Misc category), expecting one to be built for every three members of the colony. This requires expectations to be Moderate or higher to trigger.\n\n&lt;color=#E5E54C&gt;NOTE:&lt;/color&gt;\n - To build the megaliths you NEED the Neolithic structure, without it you won't be able to build them and colonists will just be sad. -->
+	<AM_Megaliths_Desired.description>Мы чтим наших предков, воздвигая огромные памятники, которые одновременно бросают вызов природе и прославляют ее. Они выдержат испытание временем.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n — Поселенцы желают построить мегалитические монументы (находятся в категории «Разное»), ожидая, что они будут построены для каждых трех поселенцев. Для этого требуется, чтобы ожидания были умеренными или выше.</AM_Megaliths_Desired.description>
+</LanguageData>

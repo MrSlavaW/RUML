@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_RacesMechanoids\Races_Goliath.xml -->
+	<!--          EN: goliath -->
+	<AM_Goliath.label>голиаф</AM_Goliath.label>
+	<!--                             EN: Plural goliath -->
+	<AM_Goliath.lifeStages.1.labelPlural>Голиафы</AM_Goliath.lifeStages.1.labelPlural>
+<AM_Goliath.lifeStages.0.labelPlural>Голиафы</AM_Goliath.lifeStages.0.labelPlural></LanguageData>

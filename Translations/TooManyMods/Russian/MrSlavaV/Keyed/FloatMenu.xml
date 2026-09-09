@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<VF_LandVehicleHere>Посадить технику здесь</VF_LandVehicleHere>
+	<VF_AttackAndTargetLanding>Атаковать {0}: Выбрать место посадки</VF_AttackAndTargetLanding>
+</LanguageData>

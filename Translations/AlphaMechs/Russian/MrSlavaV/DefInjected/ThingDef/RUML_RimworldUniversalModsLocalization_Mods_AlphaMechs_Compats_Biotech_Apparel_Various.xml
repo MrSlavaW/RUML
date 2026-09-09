@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_Misc\Apparel_Various.xml -->
+	<!--                    EN: mech master suit -->
+	<AM_MechCommanderSuit.label>костюм мастера мехов</AM_MechCommanderSuit.label>
+	<!--                          EN: A power-assisted armor suit packed with mechanitor-assistance gear. Greatly amplifies the abilities of a mechanitor, while also being slightly stronger than a suit of marine armor. -->
+	<AM_MechCommanderSuit.description>Бронекостюм с электроприводом, оснащённый вспомогательным оборудованием механитора. Он заметно усиливает возможности механитора и при этом защищает чуть лучше брони морпеха.</AM_MechCommanderSuit.description>
+	<!--                   EN: mech breaker armor -->
+	<AM_MechBreakerArmor.label>броня разрушителя мехов</AM_MechBreakerArmor.label>
+	<!--                         EN: A modified suit of siegebreaker armor designed to improve the abilities of a mechanitor even further. -->
+	<AM_MechBreakerArmor.description>Модифицированный комплект осадной брони, ещё сильнее расширяющий возможности механитора.</AM_MechBreakerArmor.description>
+</LanguageData>

@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Rain.xml -->
+	
+	<!--               EN: blessed -->
+	<AM_Rain_Blessed.label>благословенен</AM_Rain_Blessed.label>
+	<!--                     EN: Rain is a gift from the heavens, a sign of life’s renewal and the divine’s favor. Each droplet is a blessing, nurturing the land and cleansing the spirit.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Nullifies "Soaking wet" thought. -->
+	<AM_Rain_Blessed.description>Дождь — это дар небес, знак обновления жизни и милости божественной. Каждая капля — благословение, питающее землю и очищающее дух.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Устраняет мысль "Промок до нитки".</AM_Rain_Blessed.description>
+	
+	<!--                EN: disliked -->
+	<AM_Rain_Disliked.label>не нравится</AM_Rain_Disliked.label>
+	<!--                      EN: The rain is a burden upon our minds, heavy and relentless. It clutters our thoughts with discomfort, and we long for its end. How we wish the sun would return and lift this oppressive gloom. -->
+	<AM_Rain_Disliked.description>Дождь — это бремя для нашего сознания, тяжелое и бесконечное. Он загромождает наши мысли дискомфортом, и мы жаждем его окончания. Как бы нам хотелось, чтобы солнце вернулось и сняло это угнетающее уныние.</AM_Rain_Disliked.description>
+</LanguageData>

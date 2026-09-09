@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+	<!-- EN: This ability needs to target its caster -->
+	<AArmoury_NeedToTargetCaster>Эта способность должна быть нацелена на использующего её персонажа</AArmoury_NeedToTargetCaster>
+
+	<!-- EN: This ability needs to target someone besides its caster -->
+	<AArmoury_NeedToTargetNotCaster>Эта способность должна быть нацелена на другого персонажа</AArmoury_NeedToTargetNotCaster>
+
+	<!-- EN: Weapon trait in this kit: "{0}" -->
+	<AArmoury_Trait>Оружейная особенность в этом наборе: «{0}»</AArmoury_Trait>
+
+	<!-- EN: Weapon conversion for: "{0}" -->
+	<AArmoury_Weapon>Модификация оружия для: «{0}»</AArmoury_Weapon>
+
+	<!-- EN: Can't apply "{0}" to {1}. {2} -->
+	<AArmoury_CantApply>Невозможно применить «{0}» к {1}. {2}</AArmoury_CantApply>
+
+	<!-- EN: Weapon doesn't accept that trait category. -->
+	<AArmoury_CantAcceptCategory>Оружие не поддерживает эту категорию особенностей.</AArmoury_CantAcceptCategory>
+
+	<!-- EN: That trait can't be generated alone. -->
+	<AArmoury_CantGenerateAlone>Эта особенность не может быть сгенерирована самостоятельно.</AArmoury_CantGenerateAlone>
+
+	<!-- EN: Trait conflicts with existing trait "{0}". -->
+	<AArmoury_TraitConflicts>Особенность конфликтует с уже существующей особенностью «{0}».</AArmoury_TraitConflicts>
+
+	<!-- EN: {0} doesn't have any traits to remove. -->
+	<AArmoury_NoTraits>У {0} нет особенностей, которые можно удалить.</AArmoury_NoTraits>
+
+	<!-- EN: Weapon trait "{0}" has been removed from {1}. It's gone, Jim. -->
+	<AArmoury_RemovedTrait>Оружейная особенность «{0}» удалена у {1}. Всё, Джим.</AArmoury_RemovedTrait>
+
+	<!-- EN: Guns that can use this trait: -->
+	<AArmoury_GunsSupportingTrait>Оружие, поддерживающее эту особенность:</AArmoury_GunsSupportingTrait>
+
+	<!-- EN: {0} doesn't seem to have an unique weapon equivalent. -->
+	<AArmoury_NoUniqueEquivalent>Похоже, у {0} нет эквивалента в виде уникального оружия.</AArmoury_NoUniqueEquivalent>
+
+	<!-- EN: This is a conversion kit for {0}. It won't work on other weapons. -->
+	<AArmoury_NotForThisGun>Это набор модификации для {0}. Он не работает с другим оружием.</AArmoury_NotForThisGun>
+
+	<!-- EN: Minimum weapon traits -->
+	<AArmoury_MinWeaponTraits>Минимум оружейных особенностей</AArmoury_MinWeaponTraits>
+
+	<!-- EN: By default, unique weapons have a minimum of 1 weapon trait. Changes to this will only affect newly spawned weapons, not existing ones. -->
+	<AArmoury_MinWeaponTraitsDesc>По умолчанию уникальное оружие имеет как минимум 1 оружейную особенность. Изменения повлияют только на вновь созданное оружие, а не на уже существующее.</AArmoury_MinWeaponTraitsDesc>
+
+	<!-- EN: Maximum weapon traits -->
+	<AArmoury_MaxWeaponTraits>Максимум оружейных особенностей</AArmoury_MaxWeaponTraits>
+
+	<!-- EN: By default, unique weapons have a maximum of 3 weapon traits. Changes to this will only affect newly spawned weapons, not existing ones. -->
+	<AArmoury_MaxWeaponTraitsDesc>По умолчанию уникальное оружие может иметь не более 3 оружейных особенностей. Изменения повлияют только на вновь созданное оружие, а не на уже существующее.</AArmoury_MaxWeaponTraitsDesc>
+
+	<!-- EN: Send unique weapon pods every quadrum! (weapon FIESTA!) -->
+	<AArmoury_SendWeaponPods>Отправлять капсулы с уникальным оружием каждый квадрум! (оружейная ФИЕСТА!)</AArmoury_SendWeaponPods>
+
+	<!-- EN: With this option, which is disabled by default, you can choose to get 1-3 drop pods loaded with random unique weapons every 15 days. Note that this can be very OP... or very underwhelming. If you have a caravan spot the weapons will be delivered there. -->
+	<AArmoury_SendWeaponPodsDesc>С этой настройкой, отключённой по умолчанию, вы будете получать 1–3 транспортные капсулы со случайным уникальным оружием каждые 15 дней. Учтите, это может быть либо очень имбово… либо крайне разочаровывающе. Если у вас есть стоянка каравана, оружие будет доставлено туда.</AArmoury_SendWeaponPodsDesc>
+
+	<!-- EN: Weapon FIESTA! -->
+	<AArmoury_FiestaDeliveredLabel>Оружейная ФИЕСТА!</AArmoury_FiestaDeliveredLabel>
+
+	<!-- EN: Drop pods loaded with unique weapons have been delivered to the colony! -->
+	<AArmoury_FiestaDelivered>В колонию доставлены капсулы с уникальным оружием!</AArmoury_FiestaDelivered>
+
+	<!-- EN: Add unique weapons to more Ancient Mercenaries -->
+	<AArmoury_AddWeaponsToMoreMercs>Добавлять уникальное оружие большему числу древних наёмников</AArmoury_AddWeaponsToMoreMercs>
+
+	<!-- EN: By default, only the leader in a band of mercenaries will have a unique weapon. With this setting you can make it so ALL of the mercenaries in the quest carry a unique! -->
+	<AArmoury_AddWeaponsToMoreMercsDesc>По умолчанию только лидер отряда наёмников имеет уникальное оружие. С этой настройкой ВСЕ наёмники в задании будут вооружены уникальным оружием.</AArmoury_AddWeaponsToMoreMercsDesc>
+
+	<!-- EN: Add weapon kits to more Ancient Mercenaries -->
+	<AArmoury_AddKitsToMoreMercs>Добавлять наборы модификации большему числу древних наёмников</AArmoury_AddKitsToMoreMercs>
+
+	<!-- EN: By default, the leader in a band of mercenaries will drop 2-4 weapon tweaking kits. With this setting you can make it so ALL of the mercenaries in the quest will drop an additional kit! -->
+	<AArmoury_AddKitsToMoreMercsDesc>По умолчанию лидер отряда наёмников оставляет после себя 2–4 набора модификации оружия. С этой настройкой ВСЕ наёмники в задании будут дополнительно оставлять по одному набору.</AArmoury_AddKitsToMoreMercsDesc>
+
+	<!-- EN: Add unique weapons to all raids -->
+	<AArmoury_AddWeaponsToAllRaids>Добавлять уникальное оружие во все рейды</AArmoury_AddWeaponsToAllRaids>
+
+	<!-- EN: Raids usually don't spawn with unique weapons, but you can change that with this mod option. Enjoy the absolute chaos! -->
+	<AArmoury_AddWeaponsToAllRaidsDesc>Обычно рейды не появляются с уникальным оружием, но этой настройкой вы можете это изменить. Наслаждайтесь абсолютным хаосом!</AArmoury_AddWeaponsToAllRaidsDesc>
+
+	<!-- EN: ...but make them all biocoded -->
+	<AArmoury_MakeRaidWeaponsBiocoded>…но сделать всё оружие биокодированным</AArmoury_MakeRaidWeaponsBiocoded>
+
+	<!-- EN: Weapons appearing in raids will be biocoded, so the player will have to fight against MUCH tougher raids, and have no unique weapons as rewards! -->
+	<AArmoury_MakeRaidWeaponsBiocodedDesc>Оружие, появляющееся в рейдах, будет биокодировано. Игроку придётся сражаться с ГОРАЗДО более сложными рейдами и при этом не получать уникальное оружие в награду!</AArmoury_MakeRaidWeaponsBiocodedDesc>
+
+	<!-- EN: ...but make them all be destroyed when dropped -->
+	<AArmoury_MakeRaidWeaponsDestroyedOnDrop>…но уничтожать оружие при падении</AArmoury_MakeRaidWeaponsDestroyedOnDrop>
+
+	<!-- EN: By default, even if the weapons are biocoded they can still be used by the raider if you capture them. With this mod options, weapons will autodestroy once dropped, making raids only just more difficult. -->
+	<AArmoury_MakeRaidWeaponsDestroyedOnDropDesc>По умолчанию даже биокодированное оружие можно использовать, если захватить рейдера. С этой настройкой оружие будет автоматически уничтожаться при падении, делая рейды лишь немного сложнее.</AArmoury_MakeRaidWeaponsDestroyedOnDropDesc>
+
+	<!-- EN: Make unique weapons more common as quest rewards (requires game reload) -->
+	<AArmoury_MakeMoreCommonAsQuestRewards>Сделать уникальное оружие более частой наградой за задания (требуется перезапуск игры)</AArmoury_MakeMoreCommonAsQuestRewards>
+
+	<!-- EN: By default, unique weapons are classified as RewardStandardLowFreq. With this mod option they will be classified instead as RewardStandardHighFreq, so they will appear more frequently as quest rewards. Requires game to be reloaded to take effect. -->
+	<AArmoury_MakeMoreCommonAsQuestRewardsDesc>По умолчанию уникальное оружие имеет категорию RewardStandardLowFreq. С этой настройкой оно будет переклассифицировано в RewardStandardHighFreq и станет чаще появляться в наградах за задания. Для применения требуется перезапуск игры.</AArmoury_MakeMoreCommonAsQuestRewardsDesc>
+
+	<!-- EN: Add unique weapons as drops for Ancient Urban Ruins (requires game reload) -->
+	<AArmoury_AddUniquesToMUR>Добавить уникальное оружие в добычу древних городских руин (требуется перезапуск игры)</AArmoury_AddUniquesToMUR>
+
+	<!-- EN: If you have the Ancient Urban Ruins mod, this mod option will add all unique weapons as possible drops for the weapon crates there. Requires game to be reloaded to take effect. -->
+	<AArmoury_AddUniquesToMURDesc>Если у вас установлен мод Ancient Urban Ruins, эта настройка добавит всё уникальное оружие в возможную добычу оружейных контейнеров. Для применения требуется перезапуск игры.</AArmoury_AddUniquesToMURDesc>
+
+	<!-- EN: Reset -->
+	<AArmoury_Reset>Сброс</AArmoury_Reset>
+
+	<!-- EN: Weapon in space -->
+	<AArmoury_StatsReport_InSpace>Оружие в космосе</AArmoury_StatsReport_InSpace>
+
+	<!-- EN: Weapon planetside -->
+	<AArmoury_StatsReport_NotInSpace>Оружие на планете</AArmoury_StatsReport_NotInSpace>
+
+	<!-- EN: Weapon in sunlight -->
+	<AArmoury_StatsReport_InSunlight>Оружие на солнечном свету</AArmoury_StatsReport_InSunlight>
+
+	<!-- EN: Weapon not in sunlight -->
+	<AArmoury_StatsReport_NotInSunlight>Оружие вне солнечного света</AArmoury_StatsReport_NotInSunlight>
+
+	<!-- EN: Weapon in polluted terrain -->
+	<AArmoury_StatsReport_InPollution>Оружие в загрязнённой местности</AArmoury_StatsReport_InPollution>
+</LanguageData>

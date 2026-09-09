@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PS_TierBracket>Уровень {0}</PS_TierBracket>
+  <PS_MsgPsychicStirring>{0} чувствует психический отклик, но способность не пробудилась.</PS_MsgPsychicStirring>
+  <PS_CannotAwaken>Невозможно пробудить: уже достигнут этот уровень просветления.</PS_CannotAwaken>
+  <PS_PsychicAttunementRequired>Требуется психическая сонастройка: {0}</PS_PsychicAttunementRequired>
+  <PS_MeditateToAwaken>Медитировать для пробуждения пси-силы</PS_MeditateToAwaken>
+</LanguageData>

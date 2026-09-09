@@ -1,0 +1,39 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\MemeDefs\Memes_Structures_Horaxian.xml -->
+	<!--                     EN: void-touched -->
+	<AM_Structure_Horaxian.label>тронутые пустотой</AM_Structure_Horaxian.label>
+	<!--                           EN: Space to you is a sterile grid, governed by logic. But we perceive the truth—a boundless sea of nightmares beneath the facade. From its depths, a mind rules, its tendrils stretching from the abyss to bless those who heed its call. -->
+	<AM_Structure_Horaxian.description>Для вас пространство - это стерильная сетка, управляемая логикой. Но мы видим правду - безбрежное море кошмаров под фасадом. Из его глубин правит разум, его усики тянутся из бездны, чтобы благословить тех, кто внял его призыву.</AM_Structure_Horaxian.description>
+	<!--                                EN: abyssal sanctum -->
+	<AM_Structure_Horaxian.worshipRoomLabel>святилище бездны</AM_Structure_Horaxian.worshipRoomLabel>
+	<!-- EN: 
+		<li>memeAdjective->shadowed</li>
+		<li>memeAdjective->abyssal</li>
+		<li>memeAdjective->corrupt</li>
+		<li>memeAdjective->tainted</li>
+		<li>memeLeaderNoun->shadowcaller</li>
+		<li>memeLeaderNoun->darkseer</li>
+		<li>memeMoralist->shadowbound acolyte</li>
+		<li>memeMoralist->netherseeker</li>
+		<li>memeMoralist->darkwatcher</li>
+		<li>memeMoralist->voidweaver</li>
+	 -->
+	<AM_Structure_Horaxian.generalRules.rulesStrings>
+		<li>memeAdjective-&gt;затененный</li>
+		<li>memeAdjective-&gt;бездонный</li>
+		<li>memeAdjective-&gt;оскверненный</li>
+		<li>memeAdjective-&gt;испорченный</li>
+		<li>memeLeaderNoun-&gt;зовущий тьму</li>
+		<li>memeLeaderNoun-&gt;тёмный провидец</li>
+		<li>memeMoralist-&gt;затенненый аколит</li>
+		<li>memeMoralist-&gt;искатель недр</li>
+		<li>memeMoralist-&gt;смотрящий в тьму</li>
+		<li>memeMoralist-&gt;ткач пустоты</li>
+	</AM_Structure_Horaxian.generalRules.rulesStrings>
+	<!--                                   EN: void-touched -->
+	<AM_Structure_Horaxian.symbolPacks.0.theme>тронутые пустотой</AM_Structure_Horaxian.symbolPacks.0.theme>
+	<!--                                       EN: void-touched -->
+	<AM_Structure_Horaxian.symbolPacks.0.adjective>тронутые пустотой</AM_Structure_Horaxian.symbolPacks.0.adjective>
+	<!--                                    EN: nightmare devotee -->
+	<AM_Structure_Horaxian.symbolPacks.0.member>преданный кошмару</AM_Structure_Horaxian.symbolPacks.0.member>
+</LanguageData>

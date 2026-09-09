@@ -1,0 +1,22 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThoughtDefs\SparringMatch\Thoughts_SparringMatch.xml -->
+	<!--                            EN: embarrassing sparring match -->
+	<AM_TerribleSparring.stages.0.label>постыдный спарринг</AM_TerribleSparring.stages.0.label>
+	<!--                                  EN: The match lacked skill, discipline, and respect. It was a shameful display that lingers in my thoughts. -->
+	<AM_TerribleSparring.stages.0.description>Поединок недоставало мастерства, дисциплины и уважения. Это было позорное зрелище, которое не выходит у меня из головы.</AM_TerribleSparring.stages.0.description>
+	
+	<!--                          EN: uneventful sparring match -->
+	<AM_BoringSparring.stages.0.label>невыразительный спарринг</AM_BoringSparring.stages.0.label>
+	<!--                                EN: The match lacked energy and intensity, leaving me feeling unimpressed. -->
+	<AM_BoringSparring.stages.0.description>Поединок недоставало энергии и интенсивности, оставив меня равнодушным.</AM_BoringSparring.stages.0.description>
+	
+	<!--                       EN: invigorating sparring match -->
+	<AM_FunSparring.stages.0.label>бодрящий спарринг</AM_FunSparring.stages.0.label>
+	<!--                             EN: A lively match that showcased skill and spirit, leaving me feeling energized. -->
+	<AM_FunSparring.stages.0.description>Оживленный поединок, демонстрирующий мастерство и дух, оставил меня полным энергии.</AM_FunSparring.stages.0.description>
+	
+	<!--                                 EN: exhilarating sparring match -->
+	<AM_UnforgettableSparring.stages.0.label>восхитительный спарринг</AM_UnforgettableSparring.stages.0.label>
+	<!--                                       EN: A breathtaking display of mastery and determination, leaving a lasting impression on me. -->
+	<AM_UnforgettableSparring.stages.0.description>Захватывающее зрелище мастерства и решимости, оставившее неизгладимое впечатление.</AM_UnforgettableSparring.stages.0.description>
+</LanguageData>

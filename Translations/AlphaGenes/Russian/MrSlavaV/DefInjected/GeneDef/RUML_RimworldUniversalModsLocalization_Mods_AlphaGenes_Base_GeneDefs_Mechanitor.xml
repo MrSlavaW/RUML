@@ -1,0 +1,105 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Mechanitor.xml -->
+	<!--                 EN: innate mechlink -->
+	<AG_InnateMechlink.label>встроенный мехлинк</AG_InnateMechlink.label>
+	<!--                       EN: Carriers of this gene have an innate ability to use mechanitor powers. -->
+	<AG_InnateMechlink.description>Носители этого гена получают врождённую способность использовать возможности механитора.</AG_InnateMechlink.description>
+	<!--                                      EN: Losing this gene will make the colonist lose ALL mechanitor stuff. -->
+	<AG_InnateMechlink.customEffectDescriptions.0>Потеря этого гена приведет к тому, что поселенец потеряет ВСЕХ мехов.</AG_InnateMechlink.customEffectDescriptions.0>
+	<!--                 EN: mech conversion -->
+	<AG_MechConversion.label>скремблер системы «свой-чужой»</AG_MechConversion.label>
+	<!--                       EN: The carrier of this gene can remotely hack the IFF sensors of a mechanoid to temporarily swap its allegiance. This will last for a day, after which the mechanoid will revert to its former allegiance and attack indiscriminately. -->
+	<AG_MechConversion.description>Удалённо взламывает систему опознавания «свой-чужой» механоида, временно меняя его лояльность. Эффект длится один день, после чего механоид возвращается к прежней лояльности и начинает атаковать без разбора.</AG_MechConversion.description>
+	<!--                                      EN: This gene is only active if the carrier is a mechanitor. -->
+	<AG_MechConversion.customEffectDescriptions.0>Этот ген активен только у механитора.</AG_MechConversion.customEffectDescriptions.0>
+	<!--                    EN: enhanced bandwidth -->
+	<AG_BandwidthIncrease.label>усиленная пропускная способность</AG_BandwidthIncrease.label>
+	<!--                          EN: The carrier of this gene will have an innate increased bandwidth. -->
+	<AG_BandwidthIncrease.description>Носитель этого гена получает врождённо повышенную пропускную способность.</AG_BandwidthIncrease.description>
+	<!--                                         EN: This gene is only active if the carrier is a mechanitor. -->
+	<AG_BandwidthIncrease.customEffectDescriptions.0>Этот ген активен только у механитора.</AG_BandwidthIncrease.customEffectDescriptions.0>
+	<!--                         EN: greatly enhanced bandwidth -->
+	<AG_BandwidthIncreaseMajor.label>сильно усиленная пропускная способность</AG_BandwidthIncreaseMajor.label>
+	<!--                               EN: The carrier of this gene will have a 35% increased bandwidth. The effect is multiplicative, so it will be less significant at first, but increase as the mechanitor gets more bandwidth. -->
+	<AG_BandwidthIncreaseMajor.description>Пропускная способность носителя этого гена увеличивается на 35%. Эффект мультипликативный: сначала он заметен слабее, но усиливается по мере роста пропускной способности механитора.</AG_BandwidthIncreaseMajor.description>
+	<!--                                              EN: This gene is only active if the carrier is a mechanitor. -->
+	<AG_BandwidthIncreaseMajor.customEffectDescriptions.0>Этот ген активен только у механитора.</AG_BandwidthIncreaseMajor.customEffectDescriptions.0>
+	<!--                    EN: decreased bandwidth -->
+	<AG_BandwidthDecrease.label>пониженная пропускная способность</AG_BandwidthDecrease.label>
+	<!--                          EN: The carrier of this gene will have an innate decreased bandwidth. -->
+	<AG_BandwidthDecrease.description>Носитель этого гена получает врождённо пониженную пропускную способность.</AG_BandwidthDecrease.description>
+	<!--                                         EN: This gene is only active if the carrier is a mechanitor. -->
+	<AG_BandwidthDecrease.customEffectDescriptions.0>Этот ген активен только у механитора.</AG_BandwidthDecrease.customEffectDescriptions.0>
+	<!--                                         EN: "But I can add this to non-mechanitors and get free metabolism!". Buddy, knock yourself out, this is a single player game. -->
+	<AG_BandwidthDecrease.customEffectDescriptions.1>«Но я же могу добавить это не-механиторам и получить бесплатный метаболизм!» Что ж, это одиночная игра.</AG_BandwidthDecrease.customEffectDescriptions.1>
+	<!--                      EN: summon band node -->
+	<AG_SummonTempBandwidth.label>призвать канальный узел</AG_SummonTempBandwidth.label>
+	<!--                            EN: The carrier of this gene can summon a temporary band node that will increase his bandwidth by 10 for a whole week. -->
+	<AG_SummonTempBandwidth.description>Носитель этого гена может призвать временный канальный узел, который увеличит его пропускную способность на 10 на целую неделю.</AG_SummonTempBandwidth.description>
+	<!--                                           EN: This gene is only active if the carrier is a mechanitor. -->
+	<AG_SummonTempBandwidth.customEffectDescriptions.0>Этот ген активен только у механитора.</AG_SummonTempBandwidth.customEffectDescriptions.0>
+	<!--                EN: bandwidth loop -->
+	<AG_BandwidthLoop.label>контур перегрузки</AG_BandwidthLoop.label>
+	<!--                      EN: The carrier of this gene can psychically create a feedback loop in a mech's connection, overloading its bandwidth and causing it to explode, destroying itself. This explosion will damage anything nearby, with the explosion range depending on the mech's bandwidth. -->
+	<AG_BandwidthLoop.description>Носитель этого гена может психически создать петлю обратной связи в соединении меха, перегрузив его пропускную способность и заставив его взорваться. Этот взрыв ранит всё поблизости, а его радиус зависит от пропускной способности меха.</AG_BandwidthLoop.description>
+	<!--                                     EN: This gene is only active if the carrier is a mechanitor. -->
+	<AG_BandwidthLoop.customEffectDescriptions.0>Этот ген активен только у механитора.</AG_BandwidthLoop.customEffectDescriptions.0>
+	<!--                        EN: increased command range -->
+	<AG_IncreasedCommandRange.label>увеличенная дальность командования</AG_IncreasedCommandRange.label>
+	<!--                              EN: The carrier of this gene will have an innate increased command range to draft mechanoids and control them around. -->
+	<AG_IncreasedCommandRange.description>Носитель этого гена получает врождённо увеличенную дальность управления и командования механоидами.</AG_IncreasedCommandRange.description>
+	<!--                                             EN: This gene is only active if the carrier is a mechanitor. -->
+	<AG_IncreasedCommandRange.customEffectDescriptions.0>Этот ген активен только у механитора.</AG_IncreasedCommandRange.customEffectDescriptions.0>
+	<!--                                             EN: Command range increased to 35 tiles. -->
+	<AG_IncreasedCommandRange.customEffectDescriptions.1>Дальность командования увеличена до 35 клеток.</AG_IncreasedCommandRange.customEffectDescriptions.1>
+	<!--                        EN: decreased command range -->
+	<AG_DecreasedCommandRange.label>уменьшенная дальность командования</AG_DecreasedCommandRange.label>
+	<!--                              EN: The carrier of this gene will have an innate decreased command range to draft mechanoids and control them around. -->
+	<AG_DecreasedCommandRange.description>Носитель этого гена получает врождённо уменьшенную дальность управления и командования механоидами.</AG_DecreasedCommandRange.description>
+	<!--                                             EN: This gene is only active if the carrier is a mechanitor. -->
+	<AG_DecreasedCommandRange.customEffectDescriptions.0>Этот ген активен только у механитора.</AG_DecreasedCommandRange.customEffectDescriptions.0>
+	<!--                                             EN: Command range decreased to 15 tiles. -->
+	<AG_DecreasedCommandRange.customEffectDescriptions.1>Дальность командования уменьшена до 15 клеток.</AG_DecreasedCommandRange.customEffectDescriptions.1>
+	<!--                                             EN: "But I can add this to non-mechanitors and get free metabolism!". Buddy, knock yourself out, this is a single player game. -->
+	<AG_DecreasedCommandRange.customEffectDescriptions.2>«Но я же могу добавить это не-механиторам и получить бесплатный метаболизм!» Что ж, это одиночная игра.</AG_DecreasedCommandRange.customEffectDescriptions.2>
+	<!--                      EN: increased fix speed -->
+	<AG_IncreasedMechRepair.label>повышенная скорость ремонта</AG_IncreasedMechRepair.label>
+	<!--                            EN: The carrier of this gene will have an innate fix speed bonus when repairing mechanoids. -->
+	<AG_IncreasedMechRepair.description>Носитель этого гена получает врождённый бонус к скорости ремонта механоидов.</AG_IncreasedMechRepair.description>
+	<!--                                           EN: This gene is only active if the carrier is a mechanitor. -->
+	<AG_IncreasedMechRepair.customEffectDescriptions.0>Этот ген активен только у механитора.</AG_IncreasedMechRepair.customEffectDescriptions.0>
+	<!--                      EN: decreased fix speed -->
+	<AG_DecreasedMechRepair.label>пониженная скорость ремонта</AG_DecreasedMechRepair.label>
+	<!--                            EN: The carrier of this gene will have an innate fix speed penalty when repairing mechanoids. -->
+	<AG_DecreasedMechRepair.description>Носитель этого гена получает врождённый штраф к скорости ремонта механоидов.</AG_DecreasedMechRepair.description>
+	<!--                                           EN: This gene is only active if the carrier is a mechanitor. -->
+	<AG_DecreasedMechRepair.customEffectDescriptions.0>Этот ген активен только у механитора.</AG_DecreasedMechRepair.customEffectDescriptions.0>
+	<!--                                           EN: "But I can add this to non-mechanitors and get free metabolism!". Buddy, knock yourself out, this is a single player game. -->
+	<AG_DecreasedMechRepair.customEffectDescriptions.1>«Но я же могу добавить это не-механиторам и получить бесплатный метаболизм!» Что ж, это одиночная игра.</AG_DecreasedMechRepair.customEffectDescriptions.1>
+	<!--                   EN: mech repair passion -->
+	<AG_ExpertMechRepair.label>мастер ремонта механоидов</AG_ExpertMechRepair.label>
+	<!--                         EN: The carrier of this gene has genetically enhanced mech repair capabilities, being capable of providing a significant boost to mechanoids that have just been repaired. -->
+	<AG_ExpertMechRepair.description>Носитель этого гена обладает улучшенными способностями к ремонту механоидов и может заметно усиливать только что отремонтированных механоидов.</AG_ExpertMechRepair.description>
+	<!--                                        EN: This gene is only active if the carrier is a mechanitor. -->
+	<AG_ExpertMechRepair.customEffectDescriptions.0>Этот ген активен только у механитора.</AG_ExpertMechRepair.customEffectDescriptions.0>
+	<!--                                        EN: This might be wonky if you have several mechanitors and apply to all of them. Just imagine they are sharing notes over the water cooler or something. -->
+	<AG_ExpertMechRepair.customEffectDescriptions.1>При нескольких механиторах эффект может работать странно. Считайте, что они просто обмениваются заметками у кулера.</AG_ExpertMechRepair.customEffectDescriptions.1>
+	<!--                               EN: summon militor -->
+	<AlphaGenes_Animal_SummonMilitor.label>призвать милитора</AlphaGenes_Animal_SummonMilitor.label>
+	<!--                                     EN: The carrier of this gene can summon a Militor mechanoid. It will be part of the colony for a period of 1 day, vanishing afterwards. The carrier will need at least 1 mech bandwidth to use this ability. -->
+	<AlphaGenes_Animal_SummonMilitor.description>Носитель этого гена может призвать механоида-милитора. Он пробудет частью колонии 1 день, после чего исчезнет. Для использования этой способности требуется не менее 1 единицы пропускной способности механоидов.</AlphaGenes_Animal_SummonMilitor.description>
+	<!--                                                    EN: This gene is only active if the carrier is a mechanitor. -->
+	<AlphaGenes_Animal_SummonMilitor.customEffectDescriptions.0>Этот ген активен только у механитора.</AlphaGenes_Animal_SummonMilitor.customEffectDescriptions.0>
+	<!--                                EN: summon tesseron -->
+	<AlphaGenes_Animal_SummonTesseron.label>призвать тессерона</AlphaGenes_Animal_SummonTesseron.label>
+	<!--                                      EN: The carrier of this gene can summon a Tesseron mechanoid. It will be part of the colony for a period of 1 day, vanishing afterwards. The carrier will need at least 3 mech bandwidth to use this ability. -->
+	<AlphaGenes_Animal_SummonTesseron.description>Носитель этого гена может призвать механоида-тессерона. Он пробудет частью колонии 1 день, после чего исчезнет. Для использования этой способности требуется не менее 3 единиц пропускной способности механоидов.</AlphaGenes_Animal_SummonTesseron.description>
+	<!--                                                     EN: This gene is only active if the carrier is a mechanitor. -->
+	<AlphaGenes_Animal_SummonTesseron.customEffectDescriptions.0>Этот ген активен только у механитора.</AlphaGenes_Animal_SummonTesseron.customEffectDescriptions.0>
+	<!--                                 EN: summon centipede -->
+	<AlphaGenes_Animal_SummonCentipede.label>призвать сентипеду</AlphaGenes_Animal_SummonCentipede.label>
+	<!--                                       EN: The carrier of this gene can summon a Centipede mechanoid. It will be part of the colony for a period of 1 day, vanishing afterwards. The carrier will need at least 4 mech bandwidth to use this ability. -->
+	<AlphaGenes_Animal_SummonCentipede.description>Носитель этого гена может призвать механоида-сентипеду. Он пробудет частью колонии 1 день, после чего исчезнет. Для использования этой способности требуется не менее 4 единиц пропускной способности механоидов.</AlphaGenes_Animal_SummonCentipede.description>
+	<!--                                                      EN: This gene is only active if the carrier is a mechanitor. -->
+	<AlphaGenes_Animal_SummonCentipede.customEffectDescriptions.0>Этот ген активен только у механитора.</AlphaGenes_Animal_SummonCentipede.customEffectDescriptions.0>
+</LanguageData>

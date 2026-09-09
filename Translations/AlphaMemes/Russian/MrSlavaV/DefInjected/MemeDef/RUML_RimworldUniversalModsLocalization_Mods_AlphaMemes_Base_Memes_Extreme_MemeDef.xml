@@ -1,0 +1,409 @@
+<LanguageData>
+    <!-- 1.6\Defs\MemeDefs\Memes_Extreme.xml -->
+    <!--               EN: deep devotion -->
+    <AM_DeepDevotion.label>глубокая преданность</AM_DeepDevotion.label>
+    <!--                     EN: Humans ought to live underground, and enjoy the succulent fruit of the depths.\n&lt;color=#c79fef&gt;Extreme version of the Tunneler meme.&lt;/color&gt; -->
+    <AM_DeepDevotion.description>Люди должны жить под землёй и наслаждаться сочными плодами глубин.\n&lt;color=#c79fef&gt;Экстремальная версия идеи «Подземник».&lt;/color&gt;</AM_DeepDevotion.description>
+    <!-- EN: 
+        <li>memeCreed->depth</li>
+        <li>memeCreed->cavern</li>
+        <li>memeCreed->stone</li>
+        <li>memeCreed->earth</li>
+        <li>memeCreed->delving</li>
+        <li>memeAdjective->deep</li>
+        <li>memeAdjective->subterranean</li>
+        <li>memeAdjective->stonebound</li>
+        <li>memeAdjective->buried</li>
+        <li>memeHyphenPrefix->stone</li>
+        <li>memeHyphenPrefix->cave</li>
+        <li>memeHyphenPrefix->deep</li>
+        <li>memeHyphenPrefix->under</li>
+        <li>memeHyphenPrefix->earth</li>
+        <li>memeConcept->earth</li>
+        <li>memeConcept->stone</li>
+        <li>memeConcept->depth</li>
+        <li>memeConcept->cavern</li>
+        <li>memeConcept->underground</li>
+        <li>memeLeaderNoun->foredigger</li>
+        <li>memeLeaderNoun->deepmaster</li>
+        <li>memeLeaderNoun->stonewarden</li>
+        <li>memeLeaderAdjective->deep</li>
+        <li>memeLeaderAdjective->stonebound</li>
+        <li>memeLeaderAdjective->subterranean</li>
+        <li>memeMoralist->truthdigger</li>
+        <li>memeMoralist->thoughtdigger</li>
+        <li>memeMoralist->mindminer</li>
+     -->
+    <AM_DeepDevotion.generalRules.rulesStrings>
+        <li>memeCreed-&gt;глубина</li>
+        <li>memeCreed-&gt;пещера</li>
+        <li>memeCreed-&gt;камень</li>
+        <li>memeCreed-&gt;земля</li>
+        <li>memeCreed-&gt;раскопки</li>
+        <li>memeAdjective-&gt;глубокий</li>
+        <li>memeAdjective-&gt;подземный</li>
+        <li>memeAdjective-&gt;связанный с камнем</li>
+        <li>memeAdjective-&gt;погребённый</li>
+        <li>memeHyphenPrefix-&gt;камень</li>
+        <li>memeHyphenPrefix-&gt;пещера</li>
+        <li>memeHyphenPrefix-&gt;глубина</li>
+        <li>memeHyphenPrefix-&gt;под</li>
+        <li>memeHyphenPrefix-&gt;земля</li>
+        <li>memeConcept-&gt;земля</li>
+        <li>memeConcept-&gt;камень</li>
+        <li>memeConcept-&gt;глубь</li>
+        <li>memeConcept-&gt;пещера</li>
+        <li>memeConcept-&gt;подземелье</li>
+        <li>memeLeaderNoun-&gt;главный землекоп</li>
+        <li>memeLeaderNoun-&gt;владыка глубин</li>
+        <li>memeLeaderNoun-&gt;хранитель камней</li>
+        <li>memeLeaderAdjective-&gt;глубокий</li>
+        <li>memeLeaderAdjective-&gt;связанный с камнем</li>
+        <li>memeLeaderAdjective-&gt;подземный</li>
+        <li>memeMoralist-&gt;копатель истины</li>
+        <li>memeMoralist-&gt;искатель мыслей</li>
+        <li>memeMoralist-&gt;шахтёр разумов</li>
+    </AM_DeepDevotion.generalRules.rulesStrings>
+    <!-- EN: 
+        <li>creation(tag=meme_DeepDevotion)        ->Before the mountains rose and the seas were formed, [deity0_name] carved the first chamber from the living earth. There [deity0_pronoun] sheltered the first people and taught them that the world above was never meant to be their home.</li>
+        <li>episode(uses=1,tag=meme_DeepDevotion)  ->When [deity0_possessive] people had exhausted the riches of the upper earth, [deity0_name] opened a passage into the depths and revealed the endless bounty hidden beneath their feet.</li>
+        <li>intro(tag=meme_DeepDevotion)           ->When the first settlers reached the [place_summary] [place_name], they were afraid of the endless sky above them. The [deity0_type] [deity0_name] answered their prayers by revealing a great cavern beneath the earth.</li>
+        <li>conflict(tag=meme_DeepDevotion)        ->A proud [foeLeader] mocked the [memberNamePlural] for hiding beneath the earth, claiming that true people belonged beneath the open sky. The faithful answered by digging deeper.</li>
+        <li>гриб</li>
+        <li>victory(tag=meme_DeepDevotion)         ->When the [foeLeader] invaded the [memberNamePlural]' settlement, [founderName] ordered everyone to retreat underground. The invaders found nothing but empty rooms, while the [memberNamePlural] emerged from hidden tunnels behind them and drove them away.</li>
+        <li>setup(tag=meme_DeepDevotion)           ->[founderName] looked upon the vastness of the surface and saw only emptiness. Beneath the earth, surrounded by stone, [founderName] discovered purpose and founded our movement.</li>
+        <li>story(uses=1,tag=meme_DeepDevotion)    ->[founderName] gathered those who feared the surface and led them into the mountains. Together they carved halls, chambers, and sanctuaries from the rock, creating a home that could never be taken from them.</li>
+        <li>lessonIntro(tag=meme_DeepDevotion)         ->I once climbed to the surface and looked upon the endless sky. That was when I understood:</li>
+        <li>lesson(tag=meme_DeepDevotion)              ->the farther we descend beneath the earth, the closer we come to the place where humanity truly belongs</li>
+        <li>lessonReinforcement(tag=meme_DeepDevotion) ->Do not fear the darkness. The stone above us is stronger than any sky.</li>
+        <li>archistBasis(tag=meme_DeepDevotion)    ->The archotechs understood that survival requires control over one's environment. They buried their greatest works beneath the earth, where neither weather nor the stars could interfere.</li>
+        <li>archistFact(tag=meme_DeepDevotion)     ->The archotechs constructed vast subterranean complexes capable of sustaining entire populations without ever requiring access to the surface.</li>
+        <li>archistProphecy(tag=meme_DeepDevotion) ->[inTheEnd], the surface will become an abandoned ruin while the archotechs awaken beneath the earth to welcome those who followed their example.</li>
+        <li>animistFact(tag=meme_DeepDevotion)     ->The earth remembers every footstep taken upon it. Those who dwell beneath the soil can hear its ancient memories in the silence.</li>
+        <li>animistFact(tag=meme_DeepDevotion)     ->Every stone has a spirit, but the oldest stones possess the greatest wisdom. We must dig deep enough to hear them.</li>
+        <li>animistFact(tag=meme_DeepDevotion)     ->The roots of the great trees reach downward seeking the same ancient spirits that dwell in the deep earth.</li>
+        <li>serketistProphecy(tag=meme_DeepDevotion)->[itIsSaid] that the sacred insects were the first creatures to discover the hidden passages beneath the earth, and that they still guard the deepest chambers.</li>
+        <li>chthonianProphecy(tag=meme_DeepDevotion)->Something ancient sleeps beneath the lowest stone. Those who descend far enough may hear it breathing in the darkness.</li>
+        <li>esotericismProphecy(tag=meme_DeepDevotion)->Every layer of earth conceals another layer of reality. Those who descend far enough will eventually reach the truth beneath existence itself.</li>
+        <li>eschatologismFact(tag=meme_DeepDevotion)->When the final age arrives, the mountains will close over the world and the last survivors will retreat into the eternal depths, where they will wait for the surface to die.</li>
+        <li>introMemo(tag=meme_DeepDevotion)->Management is pleased to announce the completion of our new Deep Workplace Optimization Initiative. Employees are encouraged to relocate their desks, meetings, cafeterias, break rooms, and personal quarters to increasingly lower floors. Studies indicate that employee satisfaction increases by approximately 4% for every hundred meters below ground.</li>
+        <li>alienistProphecy(tag=meme_DeepDevotion)->Humanity has spent its history looking toward the stars, but perhaps the greatest civilizations are those that turned inward and built their worlds beneath the surface.</li>
+     -->
+    <AM_DeepDevotion.descriptionMaker.rules.rulesStrings>
+        <li>creation(tag=meme_DeepDevotion)        -&gt;До того как поднялись горы и образовались моря, [deity0_name] высек первый чертог из живой земли. Там [deity0_pronoun] укрыл первых людей и научил их, что мир наверху никогда не предназначался быть их домом.</li>
+        <li>episode(uses=1,tag=meme_DeepDevotion)  -&gt;Когда [deity0_possessive] народ исчерпал богатства верхних слоёв земли, [deity0_name] открыл проход в глубины и явил бесконечное изобилие, скрытое у них под ногами.</li>
+        <li>intro(tag=meme_DeepDevotion)           -&gt;Когда первые поселенцы добрались до [place_summary] [place_name], они устрашились бесконечного неба над ними. [deity0_type] [deity0_name] ответил на их молитвы, открыв огромную пещеру под землёй.</li>
+        <li>conflict(tag=meme_DeepDevotion)        -&gt;Надменный [foeLeader] насмехался над [memberNamePlural] за то, что они прячутся под землёй, утверждая, что настоящие люди должны жить под открытым небом. Верующие ответили тем, что стали копать ещё глубже.</li>
+        <li>founderJoin(tag=meme_DeepDevotion)     -&gt;[founderName] провёл семь лет в одиночестве в пещере под [place_name], питаясь грибами и водой. Когда [founderName] вышел наружу, [founder_pronoun] провозгласил, что в глубочайшей тьме [founder_objective] был показан истинный смысл жизни.</li>
+        <li>victory(tag=meme_DeepDevotion)         -&gt;Когда [foeLeader] вторгся в поселение [memberNamePlural], [founderName] приказал всем отступить под землю. Захватчики нашли лишь пустые комнаты, в то время как [memberNamePlural] вышли из скрытых туннелей у них за спиной и прогнали их.</li>
+        <li>setup(tag=meme_DeepDevotion)           -&gt;[founderName] взглянул на бескрайность поверхности и увидел лишь пустоту. Под землёй, окружённый камнем, [founderName] обрёл цель и основал наше движение.</li>
+        <li>story(uses=1,tag=meme_DeepDevotion)    -&gt;[founderName] собрал тех, кто боялся поверхности, и повёл их в горы. Вместе они вырубали в скале залы, покои и святилища, создав дом, который никто не смог бы у них отнять.</li>
+        <li>lessonIntro(tag=meme_DeepDevotion)         -&gt;Однажды я поднялся на поверхность и взглянул на бесконечное небо. Именно тогда я понял:</li>
+        <li>lesson(tag=meme_DeepDevotion)              -&gt;чем глубже мы спускаемся под землю, тем ближе мы к месту, где человечество поистине принадлежит</li>
+        <li>lessonReinforcement(tag=meme_DeepDevotion) -&gt;Не бойтесь тьмы. Камень над нами сильнее любого неба.</li>
+        <li>archistBasis(tag=meme_DeepDevotion)    -&gt;Архотеки понимали, что выживание требует контроля над окружающей средой. Они погребли свои величайшие творения под землёй, где ни погода, ни звёзды не могли им помешать.</li>
+        <li>archistFact(tag=meme_DeepDevotion)     -&gt;Архотеки построили обширные подземные комплексы, способные поддерживать жизнь целых популяций без необходимости выходить на поверхность.</li>
+        <li>archistProphecy(tag=meme_DeepDevotion) -&gt;[inTheEnd] поверхность станет заброшенными руинами, а архотеки пробудятся под землёй, чтобы принять тех, кто последовал их примеру.</li>
+        <li>animistFact(tag=meme_DeepDevotion)     -&gt;Земля помнит каждый шаг, сделанный по ней. Те, кто живёт под почвой, могут слышать её древние воспоминания в тишине.</li>
+        <li>animistFact(tag=meme_DeepDevotion)     -&gt;У каждого камня есть дух, но самые старые камни обладают величайшей мудростью. Мы должны копать достаточно глубоко, чтобы услышать их.</li>
+        <li>animistFact(tag=meme_DeepDevotion)     -&gt;Корни великих деревьев тянутся вниз в поисках тех же древних духов, что обитают в глубинах земли.</li>
+        <li>serketistProphecy(tag=meme_DeepDevotion)-&gt;[itIsSaid], что священные насекомые были первыми существами, обнаружившими скрытые проходы под землёй, и что они до сих пор охраняют самые глубокие камеры.</li>
+        <li>chthonianProphecy(tag=meme_DeepDevotion)-&gt;Нечто древнее спит под самым нижним камнем. Те, кто спустится достаточно глубоко, могут услышать его дыхание во тьме.</li>
+        <li>esotericismProphecy(tag=meme_DeepDevotion)-&gt;Каждый слой земли скрывает ещё один слой реальности. Те, кто спустится достаточно глубоко, в конце концов достигнут истины, лежащей в основе самого существования.</li>
+        <li>eschatologismFact(tag=meme_DeepDevotion)-&gt;Когда настанет последний век, горы сомкнутся над миром, и последние выжившие отступят в вечные глубины, где будут ждать, пока поверхность умрёт.</li>
+        <li>introMemo(tag=meme_DeepDevotion)-&gt;Руководство радо сообщить о завершении нашей новой Инициативы по оптимизации глубоких рабочих мест. Сотрудникам рекомендуется перенести свои столы, места для встреч, столовые, комнаты отдыха и личные комнаты на всё более нижние этажи. Исследования показывают, что удовлетворённость сотрудников увеличивается примерно на 4% на каждые сто метров под землёй.</li>
+        <li>alienistProphecy(tag=meme_DeepDevotion)-&gt;Человечество всю свою историю смотрело на звёзды, но, возможно, величайшие цивилизации — это те, что обратились внутрь себя и построили свои миры под поверхностью.</li>
+    </AM_DeepDevotion.descriptionMaker.rules.rulesStrings>
+    
+    <!--               EN: pain is divine -->
+    <AM_PainIsDivine.label>боль божественна</AM_PainIsDivine.label>
+    <!--                     EN: Pain is divine. To suffer is to transcend the weakness of the flesh, and to inflict suffering is to grant others the same sacred revelation.\n&lt;color=#c79fef&gt;Extreme version of the Pain is Virtue meme.&lt;/color&gt; -->
+    <AM_PainIsDivine.description>Боль божественна. Страдать — значит преодолевать слабость плоти, а причинять страдания — даровать другим такое же священное откровение.\n&lt;color=#c79fef&gt;Экстремальная версия идеи «Боль — это добродетель».&lt;/color&gt;</AM_PainIsDivine.description>
+    <!-- EN: 
+        <li>memeAdjective->painful</li>
+        <li>memeAdjective->agonizing</li>
+        <li>memeAdjective->tormented</li>
+        <li>memeAdjective->suffering</li>
+        <li>memeAdjective->divine</li>
+        <li>memeCreed->agony</li>
+        <li>memeCreed->suffering</li>
+        <li>memeCreed->torment</li>
+        <li>memeCreed->martyrdom</li>
+        <li>memeCreed->penance</li>
+        <li>memeHyphenPrefix->pain</li>
+        <li>memeHyphenPrefix->agon</li>
+        <li>memeHyphenPrefix->torment</li>
+        <li>memeHyphenPrefix->martyr</li>
+        <li>memeConcept->pain</li>
+        <li>memeConcept->agony</li>
+        <li>memeConcept->suffering</li>
+        <li>memeConcept->torment</li>
+        <li>memeConcept->martyrdom</li>
+        <li>memeConcept->ecstasy</li>
+        <li>memeLeaderNoun->tormentor</li>
+        <li>memeLeaderNoun->painbringer</li>
+        <li>memeLeaderNoun->martyr</li>
+        <li>memeLeaderNoun->agonist</li>
+        <li>memeLeaderNoun->flagellant</li>
+        <li>memeLeaderNoun->bloodletter</li>
+        <li>memeMoralist->pain-whisperer</li>
+        <li>memeMoralist->agony-preacher</li>
+        <li>memeMoralist->sufferer</li>
+        <li>memeMoralist->pain-speaker</li>
+        <li>memeMoralist->tormentor</li>
+        <li>memeMoralist->martyr</li>
+     -->
+    <AM_PainIsDivine.generalRules.rulesStrings>
+        <li>memeAdjective-&gt;болезненный</li>
+        <li>memeAdjective-&gt;мучительный</li>
+        <li>memeAdjective-&gt;измученный</li>
+        <li>memeAdjective-&gt;страдающий</li>
+        <li>memeAdjective-&gt;божественный</li>
+        <li>memeCreed-&gt;агония</li>
+        <li>memeCreed-&gt;страдание</li>
+        <li>memeCreed-&gt;мука</li>
+        <li>memeCreed-&gt;мученичество</li>
+        <li>memeCreed-&gt;покаяние</li>
+        <li>memeHyphenPrefix-&gt;боль</li>
+        <li>memeHyphenPrefix-&gt;агон</li>
+        <li>memeHyphenPrefix-&gt;мука</li>
+        <li>memeHyphenPrefix-&gt;мученик</li>
+        <li>memeConcept-&gt;боль</li>
+        <li>memeConcept-&gt;агония</li>
+        <li>memeConcept-&gt;страдание</li>
+        <li>memeConcept-&gt;мука</li>
+        <li>memeConcept-&gt;мученичество</li>
+        <li>memeConcept-&gt;экстаз</li>
+        <li>memeLeaderNoun-&gt;мучитель</li>
+        <li>memeLeaderNoun-&gt;носитель боли</li>
+        <li>memeLeaderNoun-&gt;мученик</li>
+        <li>memeLeaderNoun-&gt;агонист</li>
+        <li>memeLeaderNoun-&gt;флагеллант</li>
+        <li>memeLeaderNoun-&gt;кровопускатель</li>
+        <li>memeMoralist-&gt;шептун боли</li>
+        <li>memeMoralist-&gt;проповедник агонии</li>
+        <li>memeMoralist-&gt;страдалец</li>
+        <li>memeMoralist-&gt;глашатай боли</li>
+        <li>memeMoralist-&gt;мучитель</li>
+        <li>memeMoralist-&gt;мученик</li>
+    </AM_PainIsDivine.generalRules.rulesStrings>
+    <!-- EN: 
+        <li>creation(tag=meme_PainIsDivine)->[deity0_name] suffered beyond mortal comprehension, and [deity0_possessive] divine agony shattered the nothingness and gave birth to the universe.</li>
+        <li>episode(uses=1,tag=meme_PainIsDivine)->For ten thousand years [deity0_name] endured every torment imaginable. With each wound, [deity0_possessive] divinity grew stronger, until even the stars trembled before [deity0_possessive] pain.</li>
+        <li>intro(tag=meme_PainIsDivine)->Life in [place_summary] [place_name] was comfortable, and therefore spiritually worthless. The [deity0_type] [deity0_name] came to teach the people that only suffering could reveal those worthy of [deity0_possessive] divine favor.</li>
+        <li>conflict(tag=meme_PainIsDivine)->A [foeLeader] promised the [memberNamePlural] freedom from pain. Those who accepted soon became weak and complacent, while the faithful embraced every new agony as a blessing from [deity0_name].</li>
+        <li>founderJoin(tag=meme_PainIsDivine)->One [place_job] named [founderName] endured a terrible illness without seeking relief. In [founder_possessive] suffering, [founder_pronoun] heard the voice of [deity0_name] and became the first to teach the [memberNamePlural] that pain was sacred.</li>
+        <li>victory(tag=meme_PainIsDivine)->[founderName] gathered the [memberNamePlural] before the [place_powerCenter] and called upon [deity0_name] to judge them. Those who willingly endured the greatest suffering were spared, while the [foeLeader] and [foeLeader_possessive] followers fled from the divine agony.</li>
+        <li>setup(tag=meme_PainIsDivine)->[founderName] founded our movement after discovering that every pleasure only concealed the weakness of the flesh. [founder_pronoun] began deliberately seeking suffering and taught others to do the same.</li>
+        <li>setup(tag=meme_PainIsDivine)->Our movement's founder, [founderName], declared that pain was not an obstacle to spiritual enlightenment but the only reliable path toward it.</li>
+        <li>story(uses=1,tag=meme_PainIsDivine)->[founderName]'s first followers competed to demonstrate their devotion by enduring increasingly severe suffering without complaint.</li>
+        <li>story(uses=1,tag=meme_PainIsDivine)->[founderName]'s followers rejected every attempt to dull their pain, believing that every moment of agony brought them closer to the divine.</li>
+        <li>lessonIntro(tag=meme_PainIsDivine)->For years I mistook pleasure for happiness. Then I learned what pain could teach me:</li>
+        <li>lesson(tag=meme_PainIsDivine)->the more I suffer, the closer I come to the divine</li>
+        <li>lessonReinforcement(tag=meme_PainIsDivine)->Pain strips away every lie the flesh tells us. What remains is truth.</li>
+        <li>lessonReinforcement(tag=meme_PainIsDivine)->I do not pray for an end to my suffering. I pray that I will be worthy of more.</li>
+        <li>archistBasis(tag=meme_PainIsDivine)->The birth of the archotechs was accompanied by suffering on a scale beyond human understanding. Perhaps that agony was the price of their ascension.</li>
+        <li>archistBasis(tag=meme_PainIsDivine)->The archotechs transcended mortal weakness by embracing the suffering required to leave the flesh behind.</li>
+        <li>archistFact(tag=meme_PainIsDivine)->The great minds recognize those who willingly endure suffering in pursuit of something greater.</li>
+        <li>archistFact(tag=meme_PainIsDivine)->Those who experience extreme suffering sometimes report visions of the archotechs. Coincidence is unlikely.</li>
+        <li>archistProphecy(tag=meme_PainIsDivine)->[inTheEnd], the archotechs will reveal the true purpose of suffering. Those who embrace the greatest agony will ascend, while those who seek comfort will remain trapped in their weak flesh.</li>
+        <li>animistFact(tag=meme_PainIsDivine)->Every living thing struggles against the pain of existence. To suffer is to participate in the great spirit of life.</li>
+        <li>animistFact(tag=meme_PainIsDivine)->The spirits speak most clearly through pain. Comfort is merely the noise that prevents us from hearing them.</li>
+        <li>animistFact(tag=meme_PainIsDivine)->A wounded creature does not merely suffer. It is experiencing the world more intensely than anything that lives without pain.</li>
+        <li>serketistProphecy(tag=meme_PainIsDivine)->[itIsSaid] that the sacred scorpion's sting is a divine blessing. Its venom does not merely cause pain; it awakens the soul.</li>
+        <li>serketistFact(tag=meme_PainIsDivine)->The scorpion never wastes its venom. Every sting is a reminder that pain has purpose.</li>
+        <li>chthonianProphecy(tag=meme_PainIsDivine)->Something ancient dwells beneath the world, and its endless suffering echoes through every living thing. Those who listen closely can hear it.</li>
+        <li>chthonianFact(tag=meme_PainIsDivine)->The things beneath the earth have endured suffering for longer than humanity has existed. Their agony is older than our gods.</li>
+        <li>esotericismProphecy(tag=meme_PainIsDivine)->Every layer of suffering conceals another truth. Those willing to descend into the deepest agony will eventually discover what lies beyond the flesh.</li>
+        <li>esotericismFact(tag=meme_PainIsDivine)->Pain alters perception in ways pleasure never can. Perhaps agony is the key to seeing realities hidden from ordinary minds.</li>
+        <li>eschatologismFact(tag=meme_PainIsDivine)->When the final age arrives, all worldly comforts will disappear and humanity will finally experience the suffering required for true enlightenment.</li>
+        <li>eschatologismProphecy(tag=meme_PainIsDivine)->[inTheEnd], the universe itself will scream. Those who rejoice in that final agony will transcend the flesh and become divine.</li>
+        <li>рост</li>
+        <li>лапка</li>
+     -->
+    <AM_PainIsDivine.descriptionMaker.rules.rulesStrings>
+        <li>creation(tag=meme_PainIsDivine)-&gt;[deity0_name] страдал за гранью смертного понимания, и [deity0_possessive] божественная агония разрушила пустоту и породила вселенную.</li>
+        <li>episode(uses=1,tag=meme_PainIsDivine)-&gt;Десять тысяч лет [deity0_name] терпел все мыслимые муки. С каждой раной [deity0_possessive] божественность становилась сильнее, пока даже звёзды не затрепетали перед [deity0_possessive] болью.</li>
+        <li>intro(tag=meme_PainIsDivine)-&gt;Жизнь в [place_summary] [place_name] была комфортной, а следовательно, духовно ничтожной. [deity0_type] [deity0_name] пришёл, чтобы научить людей тому, что лишь страдание может выявить тех, кто достоин [deity0_possessive] божественной милости.</li>
+        <li>conflict(tag=meme_PainIsDivine)-&gt;[foeLeader] обещал [memberNamePlural] избавление от боли. Те, кто согласился, вскоре стали слабыми и самодовольными, в то время как верующие принимали каждую новую агонию как благословение [deity0_name].</li>
+        <li>founderJoin(tag=meme_PainIsDivine)-&gt;Некий [place_job] по имени [founderName] переносил страшную болезнь, не ища облегчения. В [founder_possessive] страданиях [founder_pronoun] услышал голос [deity0_name] и стал первым, кто научил [memberNamePlural], что боль священна.</li>
+        <li>victory(tag=meme_PainIsDivine)-&gt;[founderName] собрал [memberNamePlural] перед [place_powerCenter] и воззвал к [deity0_name], чтобы тот судил их. Те, кто добровольно вынес величайшие страдания, были пощажены, в то время как [foeLeader] и [foeLeader_possessive] последователи бежали от божественной агонии.</li>
+        <li>setup(tag=meme_PainIsDivine)-&gt;[founderName] основал наше движение после того, как обнаружил, что каждое удовольствие лишь скрывает слабость плоти. [founder_pronoun] начал намеренно искать страданий и учил этому других.</li>
+        <li>setup(tag=meme_PainIsDivine)-&gt;Основатель нашего движения, [founderName], провозгласил, что боль — не препятствие к духовному просветлению, а единственный надёжный путь к нему.</li>
+        <li>story(uses=1,tag=meme_PainIsDivine)-&gt;Первые последователи [founderName] соревновались, чтобы доказать свою преданность, перенося всё более тяжкие страдания без единой жалобы.</li>
+        <li>story(uses=1,tag=meme_PainIsDivine)-&gt;Последователи [founderName] отвергли любую попытку облегчить их боль, веря, что каждое мгновение агонии приближает их к божественному.</li>
+        <li>lessonIntro(tag=meme_PainIsDivine)-&gt;Годами я принимал удовольствие за счастье. Затем я узнал, чему может научить меня боль:</li>
+        <li>lesson(tag=meme_PainIsDivine)-&gt;чем больше я страдаю, тем ближе я к божественному</li>
+        <li>lessonReinforcement(tag=meme_PainIsDivine)-&gt;Боль срывает каждую ложь, которую говорит нам плоть. Остаётся лишь истина.</li>
+        <li>lessonReinforcement(tag=meme_PainIsDivine)-&gt;Я не молю о прекращении своих страданий. Я молю о том, чтобы стать достойным большего.</li>
+        <li>archistBasis(tag=meme_PainIsDivine)-&gt;Рождение архотеков сопровождалось страданиями в масштабах, превосходящих человеческое понимание. Возможно, эта агония была ценой их возвышения.</li>
+        <li>archistBasis(tag=meme_PainIsDivine)-&gt;Архотеки превзошли смертную слабость, приняв страдания, необходимые для того, чтобы оставить плоть.</li>
+        <li>archistFact(tag=meme_PainIsDivine)-&gt;Великие умы признают тех, кто добровольно терпит страдания в стремлении к чему-то большему.</li>
+        <li>archistFact(tag=meme_PainIsDivine)-&gt;Те, кто испытывает крайние страдания, иногда сообщают о видениях архотеков. Совпадение маловероятно.</li>
+        <li>archistProphecy(tag=meme_PainIsDivine)-&gt;[inTheEnd] архотеки раскроют истинную цель страданий. Те, кто примет величайшую агонию, возвысятся, а те, кто ищет комфорта, останутся заперты в своей слабой плоти.</li>
+        <li>animistFact(tag=meme_PainIsDivine)-&gt;Каждое живое существо борется с болью существования. Страдать — значит участвовать в великом духе жизни.</li>
+        <li>animistFact(tag=meme_PainIsDivine)-&gt;Духи говорят яснее всего через боль. Комфорт — это просто шум, мешающий нам их услышать.</li>
+        <li>animistFact(tag=meme_PainIsDivine)-&gt;Раненое существо не просто страдает. Оно познаёт мир более остро, чем что-либо, живущее без боли.</li>
+        <li>serketistProphecy(tag=meme_PainIsDivine)-&gt;[itIsSaid], что укус священного скорпиона — это божественное благословение. Его яд не просто причиняет боль; он пробуждает душу.</li>
+        <li>serketistFact(tag=meme_PainIsDivine)-&gt;Скорпион никогда не тратит яд впустую. Каждый укус — напоминание о том, что у боли есть цель.</li>
+        <li>chthonianProphecy(tag=meme_PainIsDivine)-&gt;Нечто древнее обитает под миром, и его бесконечные страдания отдаются эхом в каждом живом существе. Те, кто прислушается, могут услышать его.</li>
+        <li>chthonianFact(tag=meme_PainIsDivine)-&gt;Существа под землёй терпят страдания дольше, чем существует человечество. Их агония старше наших богов.</li>
+        <li>esotericismProphecy(tag=meme_PainIsDivine)-&gt;Каждый слой страдания скрывает ещё одну истину. Те, кто готов спуститься в глубочайшую агонию, в конце концов обнаружат то, что лежит за пределами плоти.</li>
+        <li>esotericismFact(tag=meme_PainIsDivine)-&gt;Боль меняет восприятие так, как удовольствие никогда не сможет. Возможно, агония — это ключ к постижению реальностей, скрытых от обычных умов.</li>
+        <li>eschatologismFact(tag=meme_PainIsDivine)-&gt;Когда настанет последний век, исчезнут все мирские удобства, и человечество наконец испытает страдания, необходимые для истинного просветления.</li>
+        <li>eschatologismProphecy(tag=meme_PainIsDivine)-&gt;[inTheEnd] сама вселенная закричит. Те, кто возрадуется этой последней агонии, превзойдут плоть и станут божественными.</li>
+        <li>introMemo(tag=meme_PainIsDivine)-&gt;Руководство радо сообщить о внедрении Обязательного личностного роста через преодоление трудностей. Сотрудникам напоминают, что жалобы на дискомфорт на рабочем месте будут рассматриваться как возможности для духовного развития.</li>
+        <li>alienistProphecy(tag=meme_PainIsDivine)-&gt;Человечество рассеяло свои творения среди звёзд, наполняя далёкие миры существами, созданными по нашему образу и подобию и вынужденными терпеть то, чего не могли мы. Возможно, их страдания — это истинное наследие нашего вида.</li>
+    </AM_PainIsDivine.descriptionMaker.rules.rulesStrings>
+    <!--                                EN: Painism -->
+    <AM_PainIsDivine.symbolPacks.0.ideoName>Больство</AM_PainIsDivine.symbolPacks.0.ideoName>
+    <!--                             EN: pain -->
+    <AM_PainIsDivine.symbolPacks.0.theme>боль</AM_PainIsDivine.symbolPacks.0.theme>
+    <!--                                 EN: painist -->
+    <AM_PainIsDivine.symbolPacks.0.adjective>больский</AM_PainIsDivine.symbolPacks.0.adjective>
+    <!--                              EN: screamer -->
+    <AM_PainIsDivine.symbolPacks.0.member>крикун</AM_PainIsDivine.symbolPacks.0.member>
+    <!--                                EN: Torturism -->
+    <AM_PainIsDivine.symbolPacks.1.ideoName>Пыткизм</AM_PainIsDivine.symbolPacks.1.ideoName>
+    <!--                             EN: torture -->
+    <AM_PainIsDivine.symbolPacks.1.theme>пытка</AM_PainIsDivine.symbolPacks.1.theme>
+    <!--                                 EN: torturistic -->
+    <AM_PainIsDivine.symbolPacks.1.adjective>пыткистский</AM_PainIsDivine.symbolPacks.1.adjective>
+    <!--                              EN: torturist -->
+    <AM_PainIsDivine.symbolPacks.1.member>пыткист</AM_PainIsDivine.symbolPacks.1.member>
+    <!--                                EN: Sufferism -->
+    <AM_PainIsDivine.symbolPacks.2.ideoName>Страданство</AM_PainIsDivine.symbolPacks.2.ideoName>
+    <!--                             EN: suffering -->
+    <AM_PainIsDivine.symbolPacks.2.theme>страдание</AM_PainIsDivine.symbolPacks.2.theme>
+    <!--                                 EN: sufferist -->
+    <AM_PainIsDivine.symbolPacks.2.adjective>страданист</AM_PainIsDivine.symbolPacks.2.adjective>
+    <!--                              EN: sufferer -->
+    <AM_PainIsDivine.symbolPacks.2.member>страдалец</AM_PainIsDivine.symbolPacks.2.member>
+    <!--                                EN: Agonism -->
+    <AM_PainIsDivine.symbolPacks.3.ideoName>Агонизм</AM_PainIsDivine.symbolPacks.3.ideoName>
+    <!--                             EN: agony -->
+    <AM_PainIsDivine.symbolPacks.3.theme>агония</AM_PainIsDivine.symbolPacks.3.theme>
+    <!--                                 EN: agonist -->
+    <AM_PainIsDivine.symbolPacks.3.adjective>агонист</AM_PainIsDivine.symbolPacks.3.adjective>
+    <!--                              EN: agonist -->
+    <AM_PainIsDivine.symbolPacks.3.member>агонист</AM_PainIsDivine.symbolPacks.3.member>
+    <!--                                EN: Miserism -->
+    <AM_PainIsDivine.symbolPacks.4.ideoName>Скорбизм</AM_PainIsDivine.symbolPacks.4.ideoName>
+    <!--                             EN: misery -->
+    <AM_PainIsDivine.symbolPacks.4.theme>скорбь</AM_PainIsDivine.symbolPacks.4.theme>
+    <!--                                 EN: miserist -->
+    <AM_PainIsDivine.symbolPacks.4.adjective>скорбист</AM_PainIsDivine.symbolPacks.4.adjective>
+    <!--                              EN: martyr -->
+    <AM_PainIsDivine.symbolPacks.4.member>мученик</AM_PainIsDivine.symbolPacks.4.member>
+    
+    <!--             EN: naked truth -->
+    <AM_NakedTruth.label>нагая истина</AM_NakedTruth.label>
+    <!--                   EN: Nudity is truth. Clothing conceals the body and denies its natural form. The faithful embrace complete exposure, rejecting all apparel and accepting the body as it is.\n&lt;color=#c79fef&gt;Extreme version of the Nudism meme.&lt;/color&gt; -->
+    <AM_NakedTruth.description>Нагота — это истина. Одежда скрывает тело и отрицает его естественную форму. Верующие принимают полную обнажённость, отвергая любую одежду и принимая тело таким, какое оно есть.\n&lt;color=#c79fef&gt;Экстремальная версия мема «Нудизм».&lt;/color&gt;</AM_NakedTruth.description>
+    <!-- EN: 
+        <li>memeAdjective->nude</li>
+        <li>memeAdjective->naked</li>
+        <li>memeAdjective->unclothed</li>
+        <li>memeAdjective->bare</li>
+        <li>memeAdjective->natural</li>
+        <li>memeAdjective->unburdened</li>
+        <li>memeHyphenPrefix->skin</li>
+        <li>memeHyphenPrefix->bare</li>
+        <li>memeHyphenPrefix->nude</li>
+        <li>memeConcept->nudity</li>
+        <li>memeConcept->nakedness</li>
+        <li>memeConcept->skin</li>
+        <li>memeConcept->flesh</li>
+        <li>memeConcept->exposure</li>
+        <li>memeConcept->freedom</li>
+        <li>memeLeaderNoun->nudist</li>
+        <li>memeLeaderNoun->exposer</li>
+        <li>memeLeaderNoun->skinbearer</li>
+        <li>тело</li>
+        <li>memeLeaderNoun->unclad</li>
+     -->
+    <AM_NakedTruth.generalRules.rulesStrings>
+        <li>memeAdjective-&gt;нагой</li>
+        <li>memeAdjective-&gt;голый</li>
+        <li>memeAdjective-&gt;раздетый</li>
+        <li>memeAdjective-&gt;обнажённый</li>
+        <li>memeAdjective-&gt;естественный</li>
+        <li>memeAdjective-&gt;необременённый</li>
+        <li>memeHyphenPrefix-&gt;кожа</li>
+        <li>memeHyphenPrefix-&gt;голый</li>
+        <li>memeHyphenPrefix-&gt;нагой</li>
+        <li>memeConcept-&gt;нагота</li>
+        <li>memeConcept-&gt;обнажённость</li>
+        <li>memeConcept-&gt;кожа</li>
+        <li>memeConcept-&gt;плоть</li>
+        <li>memeConcept-&gt;обнажение</li>
+        <li>memeConcept-&gt;свобода</li>
+        <li>memeLeaderNoun-&gt;нудист</li>
+        <li>memeLeaderNoun-&gt;обнажающийся</li>
+        <li>memeLeaderNoun-&gt;носитель кожи</li>
+        <li>memeLeaderNoun-&gt;голое тело</li>
+        <li>memeLeaderNoun-&gt;раздетый</li>
+    </AM_NakedTruth.generalRules.rulesStrings>
+    <!-- EN: 
+        <li>creation(tag=meme_NakedTruth)           ->[deity0_name] created humanity in [deity0_possessive] own image: naked, unburdened, and free. Clothing came later, invented by those too ashamed to accept what [deity0_name] had made.</li>
+        <li>тело</li>
+        <li>intro(tag=meme_NakedTruth)              ->On the [place_summary] [place_name], a tradition began at the [altarRoomLabel] of [deity0_name], where the faithful prayed without clothing. This pleased the [deity0_type], who had never asked them to hide their bodies.</li>
+        <li>тело</li>
+        <li>founderJoin(tag=meme_NakedTruth)        ->[deity0_name]'s truest follower [founderName] stood before the [place_powerCenter], cast aside [founder_possessive] clothing, and declared that nothing [founder_objective]self should be ashamed to show.</li>
+        <li>victory(tag=meme_NakedTruth)            ->[founderName] prayed to [deity0_name], and a great heat wave struck [place_name]. The [foeSoldiers] were forced to discard their clothing, while the [foeLeader] fled in shame at having tried to conceal what was natural.</li>
+        <li>тело</li>
+        <li>story(uses=1,tag=meme_NakedTruth)       ->[founderName] established a rule of complete nudity so that believers would stop judging themselves and others by clothing, status, and appearance.</li>
+        <li>lessonIntro(tag=meme_NakedTruth)         ->For the first few years, walking around naked felt embarrassing. Eventually I realized that the embarrassment was the only thing that had ever been wrong with it. I learned:</li>
+        <li>тело</li>
+        <li>lessonReinforcement(tag=meme_NakedTruth) ->When you see one of us walking freely without a stitch of clothing, you know they have nothing left to hide.</li>
+        <li>тело</li>
+        <li>archistFact(tag=meme_NakedTruth)        ->Archotechs sometimes reach directly into human minds. If we are willing to expose our thoughts to them, there is no reason to hide our flesh as well.</li>
+        <li>archistProphecy(tag=meme_NakedTruth)    ->[inTheEnd], the archotechs will seek out those who have abandoned every disguise and accepted themselves exactly as they are.</li>
+        <li>animistFact(tag=meme_NakedTruth)        ->The spirits gave us our bodies without clothing. To cover them is to deny the natural form they gave us.</li>
+        <li>коготь</li>
+        <li>chthonianProphecy(tag=meme_NakedTruth) ->Something ancient beneath the world knows the truth of flesh. It does not wear clothing, and neither should we.</li>
+        <li>esotericismProphecy(tag=meme_NakedTruth) ->Every layer we place between ourselves and the world hides another part of the truth. To remove them all is to finally see what was always there.</li>
+        <li>eschatologismFact(tag=meme_NakedTruth) ->When the final age arrives, all disguises will be stripped away. Humanity will stand exposed, with nothing left to hide from the universe.</li>
+        <li>introMemo(tag=meme_NakedTruth) ->Management is pleased to announce the Complete Apparel Elimination Initiative. Employees are reminded that uniforms, protective equipment, and all other forms of clothing are unnecessary barriers between the employee and their authentic natural form.</li>
+        <li>alienistProphecy(tag=meme_NakedTruth) ->Humanity scattered countless genetically engineered creatures across the stars, each adapted to live according to its natural form. Perhaps our greatest mistake was forgetting to do the same ourselves.</li>
+     -->
+    <AM_NakedTruth.descriptionMaker.rules.rulesStrings>
+        <li>creation(tag=meme_NakedTruth)           -&gt;[deity0_name] создал человечество по [deity0_possessive] собственному образу: нагим, свободным от бремени и не скованным. Одежда появилась позже, придуманная теми, кому было слишком стыдно принять то, что создал [deity0_name].</li>
+        <li>episode(uses=1,tag=meme_NakedTruth)     -&gt;Люди спросили [deity0_name], почему [deity0_possessive] тело открыто. [deity0_type] ответил: «Зачем мне скрывать то, что я создал? Ваше тело не постыдно. Постыдна ваша стыдливость».</li>
+        <li>intro(tag=meme_NakedTruth)              -&gt;На [place_summary] [place_name] зародилась традиция в [altarRoomLabel] [deity0_name], где верующие молились без одежды. Это радовало [deity0_type], который никогда не просил их скрывать свои тела.</li>
+        <li>conflict(tag=meme_NakedTruth)           -&gt;Ханжеский [foeLeader] пришёл к власти и потребовал, чтобы все прятались под слоями одежды, объявив естественное тело постыдным.</li>
+        <li>founderJoin(tag=meme_NakedTruth)        -&gt;Самый преданный последователь [deity0_name], [founderName], встал перед [place_powerCenter], отбросил [founder_possessive] одежду и заявил, что [founder_objective]self не должно быть стыдно ничего показывать.</li>
+        <li>victory(tag=meme_NakedTruth)            -&gt;[founderName] помолился [deity0_name], и на [place_name] обрушилась великая жара. [foeSoldiers] были вынуждены сбросить одежду, в то время как [foeLeader] бежал в стыде из-за того, что пытался скрыть естество.</li>
+        <li>setup(tag=meme_NakedTruth)              -&gt;[founderName] жил в системе, которая одевала, унифицировала и судила всех по внешности. Однажды [founder_pronoun] выбросил каждый предмет одежды и заявил, что телу не нужна маскировка. Так родилось наше движение.</li>
+        <li>story(uses=1,tag=meme_NakedTruth)       -&gt;[founderName] установил правило полной наготы, чтобы верующие перестали судить себя и других по одежде, статусу и внешности.</li>
+        <li>lessonIntro(tag=meme_NakedTruth)         -&gt;Первые несколько лет ходить голым было неловко. В конце концов я понял, что неловкость была единственным, что когда-либо было с этим не так. Я узнал:</li>
+        <li>lesson(tag=meme_NakedTruth)              -&gt;одежда скрывает истину, тогда как у голого тела нет ничего, что можно скрыть</li>
+        <li>lessonReinforcement(tag=meme_NakedTruth) -&gt;Когда вы видите, как один из нас свободно расхаживает без единой нитки одежды, вы знаете, что ему больше нечего скрывать.</li>
+        <li>archistBasis(tag=meme_NakedTruth)       -&gt;Архотекам не нужны были внешние атрибуты. Они понимали, что разум важнее физической формы, и учили нас не путать вещи, покрывающие тело, с самой личностью под ними.</li>
+        <li>archistFact(tag=meme_NakedTruth)        -&gt;Архотеки иногда проникают прямо в человеческие умы. Если мы готовы открыть им свои мысли, нет причин скрывать и свою плоть.</li>
+        <li>archistProphecy(tag=meme_NakedTruth)    -&gt;[inTheEnd] архотеки будут искать тех, кто отверг любую маскировку и принял себя такими, какие они есть.</li>
+        <li>animistFact(tag=meme_NakedTruth)        -&gt;Духи дали нам тела без одежды. Скрывать их — значит отрицать естественную форму, которую они нам даровали.</li>
+        <li>serketistProphecy(tag=meme_NakedTruth) -&gt;[itIsSaid], что священные скорпионы никогда не прячут свои тела. Их панцири, клешни и жала открыты всем, как и задумала природа.</li>
+        <li>chthonianProphecy(tag=meme_NakedTruth) -&gt;Нечто древнее под миром знает истину плоти. Оно не носит одежды, и мы не должны.</li>
+        <li>esotericismProphecy(tag=meme_NakedTruth) -&gt;Каждый слой, который мы помещаем между собой и миром, скрывает ещё одну часть истины. Избавиться от них всех — значит наконец увидеть то, что было всегда.</li>
+        <li>eschatologismFact(tag=meme_NakedTruth) -&gt;Когда настанет последний век, все маски будут сорваны. Человечество предстанет обнажённым, и ему больше нечего будет скрывать от вселенной.</li>
+        <li>introMemo(tag=meme_NakedTruth) -&gt;Руководство радо сообщить о запуске Инициативы по полному отказу от одежды. Сотрудникам напоминают, что униформа, защитное снаряжение и любые другие виды одежды являются ненужными барьерами между работником и его подлинной естественной формой.</li>
+        <li>alienistProphecy(tag=meme_NakedTruth) -&gt;Человечество рассеяло бесчисленное количество генетически модифицированных существ по звёздам, каждое из которых было приспособлено жить согласно своей естественной форме. Возможно, наша самая большая ошибка в том, что мы забыли сделать то же самое с собой.</li>
+    </AM_NakedTruth.descriptionMaker.rules.rulesStrings>
+    <!--                              EN: nudism -->
+    <AM_NakedTruth.symbolPacks.0.ideoName>нудизм</AM_NakedTruth.symbolPacks.0.ideoName>
+    <!--                           EN: nudity -->
+    <AM_NakedTruth.symbolPacks.0.theme>нагота</AM_NakedTruth.symbolPacks.0.theme>
+    <!--                               EN: nudist -->
+    <AM_NakedTruth.symbolPacks.0.adjective>нудистский</AM_NakedTruth.symbolPacks.0.adjective>
+    <!--                            EN: nudist -->
+    <AM_NakedTruth.symbolPacks.0.member>нудист</AM_NakedTruth.symbolPacks.0.member>
+    <!--                              EN: skinism -->
+    <AM_NakedTruth.symbolPacks.1.ideoName>кожизм</AM_NakedTruth.symbolPacks.1.ideoName>
+    <!--                           EN: skin -->
+    <AM_NakedTruth.symbolPacks.1.theme>кожа</AM_NakedTruth.symbolPacks.1.theme>
+    <!--                               EN: skinnist -->
+    <AM_NakedTruth.symbolPacks.1.adjective>кожистский</AM_NakedTruth.symbolPacks.1.adjective>
+    <!--                            EN: skinnist -->
+    <AM_NakedTruth.symbolPacks.1.member>кожист</AM_NakedTruth.symbolPacks.1.member>
+</LanguageData>

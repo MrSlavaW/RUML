@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\NeedDefs\Needs_VBE.xml -->
+	<!--          EN: tea -->
+	<AM_TeaNeed.label>чай</AM_TeaNeed.label>
+	<!--                EN: Tea reflects a person’s craving for the soothing warmth and refined taste of brewed leaves, a ritual as old as civilization itself. -->
+	<AM_TeaNeed.description>Чай отражает человеческую тягу к успокаивающему теплу и утонченному вкусу заваренных листьев, ритуал, который существует с тех пор, как появилась цивилизация.</AM_TeaNeed.description>
+	
+<!--             EN: coffee -->
+    <AM_CoffeeNeed.label>кофе</AM_CoffeeNeed.label>
+    <!--                   EN: Coffee reflects a person's craving for the invigorating warmth and rich taste of freshly brewed beans, a ritual that sharpens the mind and starts the day. -->
+    <AM_CoffeeNeed.description>Кофе отражает тягу человека к бодрящему теплу и насыщенному вкусу свежесваренных бобов — ритуалу, который обостряет разум и помогает начать день.</AM_CoffeeNeed.description>
+</LanguageData>

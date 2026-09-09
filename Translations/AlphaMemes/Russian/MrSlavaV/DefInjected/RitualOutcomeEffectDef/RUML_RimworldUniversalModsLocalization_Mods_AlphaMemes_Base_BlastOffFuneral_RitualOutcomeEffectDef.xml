@@ -1,0 +1,31 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\BlastOffFuneral.xml -->
+	
+	<!--                               EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+	<AM_BlastOffFuneralOutcome.description>В зависимости от качества ритуала у участников изменится настроение от {MINMOOD} до {MAXMOOD} на {MOODDAYS} дней.</AM_BlastOffFuneralOutcome.description>
+	<!--                                          EN: Terrible -->
+	<AM_BlastOffFuneralOutcome.outcomeChances.0.label>Ужасный</AM_BlastOffFuneralOutcome.outcomeChances.0.label>
+	<!--                                                EN: The {0} was terrible! They came back down on a nearby settlement who are now furious. -->
+	<AM_BlastOffFuneralOutcome.outcomeChances.0.description>{0} было ужасно! Они упали в близлежащее поселение.</AM_BlastOffFuneralOutcome.outcomeChances.0.description>
+	<!--                                          EN: Lackluster -->
+	<AM_BlastOffFuneralOutcome.outcomeChances.1.label>Тусклый</AM_BlastOffFuneralOutcome.outcomeChances.1.label>
+	<!--                                                EN: The {0} was lackluster. We think they didn't even reach the atmosphere! Some swear they saw them come back down. -->
+	<AM_BlastOffFuneralOutcome.outcomeChances.1.description>{0} был тусклым. Мы думаем, что они даже не достигли атмосферы! Некоторые клянутся, что видели, как они возвращались вниз.</AM_BlastOffFuneralOutcome.outcomeChances.1.description>
+	<!--                                          EN: Good -->
+	<AM_BlastOffFuneralOutcome.outcomeChances.2.label>Хороший</AM_BlastOffFuneralOutcome.outcomeChances.2.label>
+	<!--                                                EN: The {0} was good. The speaker's final words were satisfying, and the smell of chemfuel was the perfect sendoff. -->
+	<AM_BlastOffFuneralOutcome.outcomeChances.2.description>{0} было хорошо. Последние слова оратора были удовлетворительными, а запах химтоплива был идеальным проводом.</AM_BlastOffFuneralOutcome.outcomeChances.2.description>
+	<!--                                          EN: Amazing -->
+	<AM_BlastOffFuneralOutcome.outcomeChances.3.label>Удивительно</AM_BlastOffFuneralOutcome.outcomeChances.3.label>
+	<!--                                                EN: The {0} was heartwarming. The speech was captivating and heartfelt, and we swear we saw them reach the sun. -->
+	<AM_BlastOffFuneralOutcome.outcomeChances.3.description>{0} было трогательным. Речь была увлекательной и проникновенной, и мы клянемся, что видели, как они достигли солнца.</AM_BlastOffFuneralOutcome.outcomeChances.3.description>
+	<!--                                 EN: moral guide present -->
+	<AM_BlastOffFuneralOutcome.comps.0.label>присутствует духовный лидер</AM_BlastOffFuneralOutcome.comps.0.label>
+	<!--                                 EN: participant count -->
+	<AM_BlastOffFuneralOutcome.comps.1.label>{0} было довольно эффективным. Они производили гораздо больше питательных веществ, чем можно было бы ожидать.
+количество участников</AM_BlastOffFuneralOutcome.comps.1.label>
+	<!--                                                    EN: The {RITUAL} was a disaster! Not only did {CORPSE} not reach the stars, they landed in {SETTLEMENT} causing a diplomatic disaster! -->
+	<AM_BlastOffFuneralOutcome.modExtensions.0.worstOutcomeDesc>{RITUAL} был катастрофой! {CORPSE} не только не достиг звезд, но и приземлился в {SETTLEMENT}, вызвав дипломатическую катастрофу!</AM_BlastOffFuneralOutcome.modExtensions.0.worstOutcomeDesc>
+	<!--                                                   EN: The {RITUAL} spectacular! {CORPSE} has reached the stars, which led a trade ship to come investigate! -->
+	<AM_BlastOffFuneralOutcome.modExtensions.0.bestOutcomeDesc>{RITUAL} был великолепен! {CORPSE} достиг звезд, что привело к тому, что торговый корабль приземлился узнать об этом!</AM_BlastOffFuneralOutcome.modExtensions.0.bestOutcomeDesc>
+</LanguageData>

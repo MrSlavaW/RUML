@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RB_ClerestoryWall.description>Стена с верхним рядом окон, пропускающих солнечный свет.</RB_ClerestoryWall.description>
+  <RB_ClerestoryWall.label>стена со световым фонарём</RB_ClerestoryWall.label>
+  <RB_GlassWall.description>Стена из закалённого панорамного стекла.</RB_GlassWall.description>
+  <RB_GlassWall.label>стеклянная стена</RB_GlassWall.label>
+  <RB_OrnateWall.description>Стена с тонкой декоративной отделкой и барельефами.</RB_OrnateWall.description>
+  <RB_OrnateWall.label>богато украшенная стена</RB_OrnateWall.label>
+  <RB_ReinforcedClerestoryWall.description>Усиленная бронированная стена с верхним остеклением.</RB_ReinforcedClerestoryWall.description>
+  <RB_ReinforcedClerestoryWall.label>укреплённая стена со световым фонарём</RB_ReinforcedClerestoryWall.label>
+  <RB_ReinforcedGlassWall.description>Сверхпрочная стеклянная стена с армированием.</RB_ReinforcedGlassWall.description>
+  <RB_ReinforcedGlassWall.label>бронированная стеклянная стена</RB_ReinforcedGlassWall.label>
+</LanguageData>

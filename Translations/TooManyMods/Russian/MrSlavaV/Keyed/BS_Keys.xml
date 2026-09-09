@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<BS_ThingDefSwap>назначает расу</BS_ThingDefSwap>
+	<BS_RacialFeatures>Расовые особенности</BS_RacialFeatures>
+	<BS_ThingDefSwapDesc>{0}</BS_ThingDefSwapDesc>
+	<BS_ApplyPartHediff>{0}</BS_ApplyPartHediff>
+</LanguageData>

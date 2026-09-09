@@ -1,0 +1,8 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_GauranlenConnection.xml -->
+	<!--                     EN: prune Gauranlen tree -->
+	<AM_PruneGauranlenTree.label>обрезка дерева Гауранлен</AM_PruneGauranlenTree.label>
+	
+	<!--                   EN: Gauranlen tree cut -->
+	<AM_CutGauranlenTree.label>обрезка дерева Гауранлен</AM_CutGauranlenTree.label>
+</LanguageData>

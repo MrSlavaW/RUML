@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\PreceptDefs\Precepts_TeaYield.xml -->
+	<!--                     EN: increased -->
+	<AM_TeaYield_Increased.label>увеличенный</AM_TeaYield_Increased.label>
+	<!--                           EN: By perfecting our harvesting techniques and nurturing the soil, each tea plant now provides a more generous yield.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Increases yield of tea plants by 10%. -->
+	<AM_TeaYield_Increased.description>Совершенствуя наши методы сбора урожая и ухаживая за почвой, каждое чайное растение теперь дает более щедрый урожай.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Увеличивает урожайность чайных растений на 10%.</AM_TeaYield_Increased.description>
+</LanguageData>

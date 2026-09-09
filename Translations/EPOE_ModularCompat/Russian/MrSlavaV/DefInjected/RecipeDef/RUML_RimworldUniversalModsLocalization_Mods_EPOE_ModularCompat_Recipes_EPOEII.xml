@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<LTS_EPOE_InstallLeftExtraAdvancedElbowBlade.label>установить дополнительный улучшенный бионический локтевой клинок (левый)</LTS_EPOE_InstallLeftExtraAdvancedElbowBlade.label>
+	<LTS_EPOE_InstallLeftExtraAdvancedElbowBlade.description>Устанавливает дополнительный улучшенный бионический локтевой клинок (левый).</LTS_EPOE_InstallLeftExtraAdvancedElbowBlade.description>
+	<LTS_EPOE_RemoveLeftExtraAdvancedElbowBlade.label>извлечь дополнительный улучшенный бионический локтевой клинок (левый)</LTS_EPOE_RemoveLeftExtraAdvancedElbowBlade.label>
+	<LTS_EPOE_RemoveLeftExtraAdvancedElbowBlade.description>Извлекает дополнительный улучшенный бионический локтевой клинок (левый).</LTS_EPOE_RemoveLeftExtraAdvancedElbowBlade.description>
+	<LTS_EPOE_InstallRightExtraAdvancedElbowBlade.label>установить дополнительный улучшенный бионический локтевой клинок (правый)</LTS_EPOE_InstallRightExtraAdvancedElbowBlade.label>
+	<LTS_EPOE_InstallRightExtraAdvancedElbowBlade.description>Устанавливает дополнительный улучшенный бионический локтевой клинок (правый).</LTS_EPOE_InstallRightExtraAdvancedElbowBlade.description>
+	<LTS_EPOE_RemoveRightExtraAdvancedElbowBlade.label>извлечь дополнительный улучшенный бионический локтевой клинок (правый)</LTS_EPOE_RemoveRightExtraAdvancedElbowBlade.label>
+	<LTS_EPOE_RemoveRightExtraAdvancedElbowBlade.description>Извлекает дополнительный улучшенный бионический локтевой клинок (правый).</LTS_EPOE_RemoveRightExtraAdvancedElbowBlade.description>
+	<LTS_EPOE_InstallLeftExtraAdvancedHandTalon.label>установить дополнительный улучшенный бионический коготь (левый)</LTS_EPOE_InstallLeftExtraAdvancedHandTalon.label>
+	<LTS_EPOE_InstallLeftExtraAdvancedHandTalon.description>Устанавливает дополнительный улучшенный бионический коготь (левый).</LTS_EPOE_InstallLeftExtraAdvancedHandTalon.description>
+	<LTS_EPOE_RemoveLeftExtraAdvancedHandTalon.label>извлечь дополнительный улучшенный бионический коготь (левый)</LTS_EPOE_RemoveLeftExtraAdvancedHandTalon.label>
+	<LTS_EPOE_RemoveLeftExtraAdvancedHandTalon.description>Извлекает дополнительный улучшенный бионический коготь (левый).</LTS_EPOE_RemoveLeftExtraAdvancedHandTalon.description>
+	<LTS_EPOE_InstallRightExtraAdvancedHandTalon.label>установить дополнительный улучшенный бионический коготь (правый)</LTS_EPOE_InstallRightExtraAdvancedHandTalon.label>
+	<LTS_EPOE_InstallRightExtraAdvancedHandTalon.description>Устанавливает дополнительный улучшенный бионический коготь (правый).</LTS_EPOE_InstallRightExtraAdvancedHandTalon.description>
+	<LTS_EPOE_RemoveRightExtraAdvancedHandTalon.label>извлечь дополнительный улучшенный бионический коготь (правый)</LTS_EPOE_RemoveRightExtraAdvancedHandTalon.label>
+	<LTS_EPOE_RemoveRightExtraAdvancedHandTalon.description>Извлекает дополнительный улучшенный бионический коготь (правый).</LTS_EPOE_RemoveRightExtraAdvancedHandTalon.description>
+	<LTS_EPOE_InstallLeftExtraAdvancedBionicHand.label>установить дополнительную улучшенную бионическую кисть (левая)</LTS_EPOE_InstallLeftExtraAdvancedBionicHand.label>
+	<LTS_EPOE_InstallLeftExtraAdvancedBionicHand.description>Устанавливает дополнительную улучшенную бионическую кисть (левая).</LTS_EPOE_InstallLeftExtraAdvancedBionicHand.description>
+	<LTS_EPOE_RemoveLeftExtraAdvancedBionicHand.label>извлечь дополнительную улучшенную бионическую кисть (левая)</LTS_EPOE_RemoveLeftExtraAdvancedBionicHand.label>
+	<LTS_EPOE_RemoveLeftExtraAdvancedBionicHand.description>Извлекает дополнительную улучшенную бионическую кисть (левая).</LTS_EPOE_RemoveLeftExtraAdvancedBionicHand.description>
+	<LTS_EPOE_InstallRightExtraAdvancedBionicHand.label>установить дополнительную улучшенную бионическую кисть (правая)</LTS_EPOE_InstallRightExtraAdvancedBionicHand.label>
+	<LTS_EPOE_InstallRightExtraAdvancedBionicHand.description>Устанавливает дополнительную улучшенную бионическую кисть (правая).</LTS_EPOE_InstallRightExtraAdvancedBionicHand.description>
+	<LTS_EPOE_RemoveRightExtraAdvancedBionicHand.label>извлечь дополнительную улучшенную бионическую кисть (правая)</LTS_EPOE_RemoveRightExtraAdvancedBionicHand.label>
+	<LTS_EPOE_RemoveRightExtraAdvancedBionicHand.description>Извлекает дополнительную улучшенную бионическую кисть (правая).</LTS_EPOE_RemoveRightExtraAdvancedBionicHand.description>
+	<LTS_EPOE_ModularizeAdvancedBionicEye.label>модуляризировать продвинутый бионический глаз</LTS_EPOE_ModularizeAdvancedBionicEye.label>
+	<LTS_EPOE_ModularizeAdvancedBionicEye.description>Переделать продвинутый бионический глаз под модульную структуру.</LTS_EPOE_ModularizeAdvancedBionicEye.description>
+	<LTS_EPOE_ModularizeAdvancedBionicArm.label>модуляризировать продвинутую бионическую руку</LTS_EPOE_ModularizeAdvancedBionicArm.label>
+	<LTS_EPOE_ModularizeAdvancedBionicArm.description>Переделать продвинутую бионическую руку под модульную структуру.</LTS_EPOE_ModularizeAdvancedBionicArm.description>
+	<LTS_EPOE_ModularizeAdvancedBionicLeg.label>модуляризировать продвинутую бионическую ногу</LTS_EPOE_ModularizeAdvancedBionicLeg.label>
+	<LTS_EPOE_ModularizeAdvancedBionicLeg.description>Переделать продвинутую бионическую ногу под модульную структуру.</LTS_EPOE_ModularizeAdvancedBionicLeg.description>
+	<LTS_EPOE_ModularizeAdvancedBionicJaw.label>модуляризировать продвинутую бионическую челюсть</LTS_EPOE_ModularizeAdvancedBionicJaw.label>
+	<LTS_EPOE_ModularizeAdvancedBionicJaw.description>Переделать продвинутую бионическую челюсть под модульную структуру.</LTS_EPOE_ModularizeAdvancedBionicJaw.description>
+	<LTS_EPOE_ModularizeAdvancedBionicSpine.label>модуляризировать продвинутый бионический позвоночник</LTS_EPOE_ModularizeAdvancedBionicSpine.label>
+	<LTS_EPOE_ModularizeAdvancedBionicSpine.description>Переделать продвинутый бионический позвоночник под модульную структуру.</LTS_EPOE_ModularizeAdvancedBionicSpine.description>
+	<LTS_EPOE_ModularizeAdvancedPowerArm.label>модуляризировать продвинутый силовой манипулятор</LTS_EPOE_ModularizeAdvancedPowerArm.label>
+	<LTS_EPOE_ModularizeAdvancedPowerArm.description>Переделать продвинутый силовой манипулятор под модульную структуру.</LTS_EPOE_ModularizeAdvancedPowerArm.description>
+	<LTS_EPOE_ModularizeAdvancedDrillArm.label>модуляризировать продвинутую руку-бур</LTS_EPOE_ModularizeAdvancedDrillArm.label>
+	<LTS_EPOE_ModularizeAdvancedDrillArm.description>Переделать продвинутую руку-бур под модульную структуру.</LTS_EPOE_ModularizeAdvancedDrillArm.description>
+	<LTS_EPOE_ModularizeAdvancedElbowBlade.label>модуляризировать продвинутый бионический локтевой клинок</LTS_EPOE_ModularizeAdvancedElbowBlade.label>
+	<LTS_EPOE_ModularizeAdvancedElbowBlade.description>Переделать продвинутый бионический локтевой клинок под модульную структуру.</LTS_EPOE_ModularizeAdvancedElbowBlade.description>
+</LanguageData>

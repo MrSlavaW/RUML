@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<PS_AwakeningTrigger.label>психическое пробуждение</PS_AwakeningTrigger.label>
+	<PS_AwakeningTrigger.description>Разум колониста откликнулся на скрытые волны пси-энергии, открывая доступ к псионическим талантам.</PS_AwakeningTrigger.description>
+	<PS_AwakeningTriggerTierII.label>психическое просветление (II)</PS_AwakeningTriggerTierII.label>
+	<PS_AwakeningTriggerTierII.description>Вторая ступень раскрытия сознания. Позволяет управлять более мощными потоками пси-поля.</PS_AwakeningTriggerTierII.description>
+	<PS_AwakeningTriggerTierIII.label>психическое озарение (III)</PS_AwakeningTriggerTierIII.label>
+	<PS_AwakeningTriggerTierIII.description>Высшая ступень псионического мастерства. Разум соединяется с глубинными слоями пси-поля.</PS_AwakeningTriggerTierIII.description>
+	<PS_Enlightenment.label>просветление</PS_Enlightenment.label>
+	<PS_Enlightenment.description>Глубокое созерцательное состояние, многократно повышающее психическую чувствительность.</PS_Enlightenment.description>
+</LanguageData>

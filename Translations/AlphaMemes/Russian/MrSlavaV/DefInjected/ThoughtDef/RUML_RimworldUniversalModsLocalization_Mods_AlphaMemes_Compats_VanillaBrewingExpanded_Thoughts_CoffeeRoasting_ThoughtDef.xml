@@ -1,0 +1,22 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\ThoughtDefs\CoffeeRoasting\Thoughts_CoffeeRoasting.xml -->
+<!--                               EN: burnt coffee beans -->
+    <AM_CoffeeRoastingBurnt.stages.0.label>сгоревшие кофейные бобы</AM_CoffeeRoastingBurnt.stages.0.label>
+    <!--                                     EN: The roasting was an affront to the sacred art of coffee. This desecration will linger in my thoughts. -->
+    <AM_CoffeeRoastingBurnt.stages.0.description>Эта обжарка была оскорблением священного искусства кофе. Это осквернение ещё долго будет жить в моих мыслях.</AM_CoffeeRoastingBurnt.stages.0.description>
+    
+    <!--                                       EN: underwhelming coffee roasting -->
+    <AM_CoffeeRoastingUnderwhelming.stages.0.label>разочаровывающая обжарка кофе</AM_CoffeeRoastingUnderwhelming.stages.0.label>
+    <!--                                             EN: The roasting lacked the care and craft it deserved. It felt hollow and uninspired. -->
+    <AM_CoffeeRoastingUnderwhelming.stages.0.description>Обжарке не хватало заботы и мастерства, которых она заслуживала. Она ощущалась пустой и невыразительной.</AM_CoffeeRoastingUnderwhelming.stages.0.description>
+    
+    <!--                              EN: rich coffee roasting -->
+    <AM_CoffeeRoastingRich.stages.0.label>насыщенная обжарка кофе</AM_CoffeeRoastingRich.stages.0.label>
+    <!--                                    EN: That was a delightful moment of connection with the art of coffee roasting. It left me feeling renewed. -->
+    <AM_CoffeeRoastingRich.stages.0.description>Это было восхитительное мгновение единения с искусством обжарки кофе. Оно оставило меня чувствующим себя обновлённым.</AM_CoffeeRoastingRich.stages.0.description>
+    
+    <!--                                    EN: masterful coffee roasting -->
+    <AAM_CoffeeRoastingMasterful.stages.0.label>мастерская обжарка кофе</AAM_CoffeeRoastingMasterful.stages.0.label>
+    <!--                                          EN: The roasting was a profound experience, an unforgettable communion with the sacred art of coffee. -->
+    <AAM_CoffeeRoastingMasterful.stages.0.description>Эта обжарка стала глубоким опытом, незабываемым единением со священным искусством кофе.</AAM_CoffeeRoastingMasterful.stages.0.description>
+</LanguageData>

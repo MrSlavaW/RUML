@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMemesExpanded\Defs\PreceptDefs\Precepts_Fleshcrafting.xml -->
+	<!--                       EN: fleshcrafting funeral -->
+	<AM_FleshCraftingFuneral.label>похороны</AM_FleshCraftingFuneral.label>
+	<!--                             EN: A gathering to butcher our colleague's corpse for spare parts -->
+	<AM_FleshCraftingFuneral.description>Собрание по разделке трупа нашего коллеги на запчасти</AM_FleshCraftingFuneral.description>
+	<!--                                          EN: {PAWN_nameDef} should be butchered so {PAWN_possessive} parts can be repurposed. -->
+	<AM_FleshCraftingFuneral.extraTextPawnDeathLetter>{PAWN_nameDef} следует разделать, чтобы можно было использовать его части.</AM_FleshCraftingFuneral.extraTextPawnDeathLetter>
+</LanguageData>

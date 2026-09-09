@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_CleanDaggersnout.xml -->
+	<!--                    EN: daggersnout -->
+	<VFE_Mech_Daggersnout.label>кинжалорыл</VFE_Mech_Daggersnout.label>
+	<!--                                       EN: Plural daggersnout -->
+	<VFE_Mech_Daggersnout.lifeStages.0.labelPlural>Кинжалорылы</VFE_Mech_Daggersnout.lifeStages.0.labelPlural>
+</LanguageData>

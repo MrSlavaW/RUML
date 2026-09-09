@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ReelIndustrialShelf.description>Хранилище: food shelf</ReelIndustrialShelf.description>
+  <ReelIndustrialShelf.label>промышленный стеллаж</ReelIndustrialShelf.label>
+  <ReelStorageBarrel.description>Прочная бочка для хранения сыпучих веществ, пороха или жидкостей.</ReelStorageBarrel.description>
+  <ReelStorageBarrel.label>бочка</ReelStorageBarrel.label>
+  <ReelStorageFridge.description>Хранилище: fridge</ReelStorageFridge.description>
+  <ReelStorageFridge.label>пищевой холодильник</ReelStorageFridge.label>
+  <ReelStorageHayBale.description>Компактный тюк сена, связанный шпагатом или верёвкой. Вмещает большое количество сырой травы и сена.</ReelStorageHayBale.description>
+  <ReelStorageHayBale.label>тюк сена</ReelStorageHayBale.label>
+  <ReelStorageHorizontalWeaponRack.description>Хранилище: horizontal weapon rack</ReelStorageHorizontalWeaponRack.description>
+  <ReelStorageHorizontalWeaponRack.label>горизонтальная оружейная стойка</ReelStorageHorizontalWeaponRack.label>
+  <ReelStorageLargeLocker.description>Хранилище: large locker</ReelStorageLargeLocker.description>
+  <ReelStorageLargeLocker.label>большой вещевой шкаф</ReelStorageLargeLocker.label>
+  <ReelStorageLargeMetalCrate.description>Хранилище: large metal crate</ReelStorageLargeMetalCrate.description>
+  <ReelStorageLargeMetalCrate.label>большой металлический ящик</ReelStorageLargeMetalCrate.label>
+  <ReelStorageLargeSpacerContainer.description>Крупный высокотехнологичный герметичный контейнер для длительного хранения больших объёмов припасов.</ReelStorageLargeSpacerContainer.description>
+  <ReelStorageLargeSpacerContainer.label>большой космо-контейнер</ReelStorageLargeSpacerContainer.label>
+  <ReelStorageLargeStonePile.description>Большая упорядоченная насыпь для организованного хранения каменных обломков и блоков.</ReelStorageLargeStonePile.description>
+  <ReelStorageLargeStonePile.label>большая каменная насыпь</ReelStorageLargeStonePile.label>
+  <ReelStorageLargeWoodChest.description>Вместительный деревянный сундук для хранения вещей и ценностей.</ReelStorageLargeWoodChest.description>
+  <ReelStorageLargeWoodChest.label>большой сундук</ReelStorageLargeWoodChest.label>
+  <ReelStorageLargeWoodCrate.description>Хранилище: crate stack</ReelStorageLargeWoodCrate.description>
+  <ReelStorageLargeWoodCrate.label>штабель деревянных ящиков</ReelStorageLargeWoodCrate.label>
+  <ReelStorageLargeWoodPile.description>Штабель для аккуратного и компактного хранения большого количества древесины.</ReelStorageLargeWoodPile.description>
+  <ReelStorageLargeWoodPile.label>большой штабель брёвен</ReelStorageLargeWoodPile.label>
+  <ReelStorageLocker.description>Хранилище: locker</ReelStorageLocker.description>
+  <ReelStorageLocker.label>вещевой шкаф</ReelStorageLocker.label>
+  <ReelStorageMeatHook.description>Крюк для подвешивания туш и мяса.</ReelStorageMeatHook.description>
+  <ReelStorageMeatHook.label>мясной крюк</ReelStorageMeatHook.label>
+  <ReelStorageMedicineCabinet.description>Хранилище: medicine cabinet</ReelStorageMedicineCabinet.description>
+  <ReelStorageMedicineCabinet.label>медицинский шкафчик</ReelStorageMedicineCabinet.label>
+  <ReelStorageMetalCrate.description>Хранилище: metal crate</ReelStorageMetalCrate.description>
+  <ReelStorageMetalCrate.label>металлический ящик</ReelStorageMetalCrate.label>
+  <ReelStorageNewLargeLocker.description>Хранилище: apparel locker</ReelStorageNewLargeLocker.description>
+  <ReelStorageNewLargeLocker.label>гардеробный шкаф</ReelStorageNewLargeLocker.label>
+  <ReelStorageNewLargeWoodCrate.description>Хранилище: large crate</ReelStorageNewLargeWoodCrate.description>
+  <ReelStorageNewLargeWoodCrate.label>большой ящик</ReelStorageNewLargeWoodCrate.label>
+  <ReelStorageNewMedicineCabinet.description>Хранилище: medical cabinet</ReelStorageNewMedicineCabinet.description>
+  <ReelStorageNewMedicineCabinet.label>медицинский шкаф</ReelStorageNewMedicineCabinet.label>
+  <ReelStorageNewWoodCrate.description>Хранилище: crate</ReelStorageNewWoodCrate.description>
+  <ReelStorageNewWoodCrate.label>ящик</ReelStorageNewWoodCrate.label>
+  <ReelStorageSpacerContainer.description>Герметичный контейнер эпохи космоса для безопасного складирования предметов.</ReelStorageSpacerContainer.description>
+  <ReelStorageSpacerContainer.label>космо-контейнер</ReelStorageSpacerContainer.label>
+  <ReelStorageSpacerContainerStack.description>Несколько контейнеров эпохи космоса, установленных друг на друга для экономии места.</ReelStorageSpacerContainerStack.description>
+  <ReelStorageSpacerContainerStack.label>стопка космо-контейнеров</ReelStorageSpacerContainerStack.label>
+  <ReelStorageSpacerLocker.description>Усиленный шкафчик для хранения снаряжения и медикаментов.</ReelStorageSpacerLocker.description>
+  <ReelStorageSpacerLocker.label>космо-шкафчик</ReelStorageSpacerLocker.label>
+  <ReelStorageStonePile.description>Обозначенное место для компактного складирования каменных блоков и кусков породы.</ReelStorageStonePile.description>
+  <ReelStorageStonePile.label>каменная насыпь</ReelStorageStonePile.label>
+  <ReelStorageTanningRack.description>Деревянная стойка для натягивания и хранения выделанных шкур и кож.</ReelStorageTanningRack.description>
+  <ReelStorageTanningRack.label>кожевенная стойка</ReelStorageTanningRack.label>
+  <ReelStorageVerticalWeaponRack.description>Хранилище: vertical weapon rack</ReelStorageVerticalWeaponRack.description>
+  <ReelStorageVerticalWeaponRack.label>вертикальная оружейная стойка</ReelStorageVerticalWeaponRack.label>
+  <ReelStorageWeaponRack.description>Специальная стойка для бережного и упорядоченного хранения оружия.</ReelStorageWeaponRack.description>
+  <ReelStorageWeaponRack.label>стойка для оружия</ReelStorageWeaponRack.label>
+  <ReelStorageWineRack.description>Полка с ячейками для хранения бутылок с алкогольными напитками.</ReelStorageWineRack.description>
+  <ReelStorageWineRack.label>винная стойка</ReelStorageWineRack.label>
+  <ReelStorageWoodChest.description>Простой сундук для хранения различных предметов домашнего обихода.</ReelStorageWoodChest.description>
+  <ReelStorageWoodChest.label>сундук</ReelStorageWoodChest.label>
+  <ReelStorageWoodCrate.description>Хранилище: crate</ReelStorageWoodCrate.description>
+  <ReelStorageWoodCrate.label>ящик</ReelStorageWoodCrate.label>
+  <ReelStorageWoodPile.description>Небольшой штабель для аккуратного хранения срубленной древесины.</ReelStorageWoodPile.description>
+  <ReelStorageWoodPile.label>штабель брёвен</ReelStorageWoodPile.label>
+</LanguageData>

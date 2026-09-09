@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\PreceptDefs\Precepts_RumBurial.xml -->
+	<!--            EN: rum burial -->
+	<AM_RumBurial.label>ромовое погребение</AM_RumBurial.label>
+	<!--                  EN: A gathering to turn our friends into delicious rum. -->
+	<AM_RumBurial.description>Мероприятие, посвященное превращению наших друзей во вкусный ром.</AM_RumBurial.description>
+	<!--                               EN: {PAWN_nameDef} should be placed in a rum vat so {PAWN_possessive} friends and family can enjoy their sweet rum. -->
+	<AM_RumBurial.extraTextPawnDeathLetter>{PAWN_nameDef} следует поместить в чан для рома, чтобы друзья и семья {PAWN_possessive} могли наслаждаться сладким ромом.</AM_RumBurial.extraTextPawnDeathLetter>
+</LanguageData>

@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Royalty\Defs\TerrainDefs\TerrainDefs_Royalty.xml -->
+	<!--                                   EN: Exquisite stone tiles, made with no compromises, for expressing economic status. Slow to construct. -->
+	<AM_FinestonePristineLimestone.description>Изысканная каменная плитка, выполненная без компромиссов, для выражения экономического статуса. Медленное строительство.</AM_FinestonePristineLimestone.description>
+	<!--                             EN: fine pristine limestone tile -->
+	<AM_FinestonePristineLimestone.label>прекрасная первозданная известняковая плитка</AM_FinestonePristineLimestone.label>
+</LanguageData>

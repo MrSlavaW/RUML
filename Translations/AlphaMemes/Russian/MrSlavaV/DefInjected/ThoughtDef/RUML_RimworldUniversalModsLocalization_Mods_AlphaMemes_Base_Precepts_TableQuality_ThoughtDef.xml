@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_TableQuality.xml -->
+	<!--                                                     EN: ate in shoddy table -->
+	<AM_TableQuality_Desired_AteInLowQualityTable.stages.0.label>ел за убогим столом</AM_TableQuality_Desired_AteInLowQualityTable.stages.0.label>
+	<!--                                                           EN: I had to eat at that ramshackle excuse for a table. Its wobbling legs and splintered surface were an insult to the act of dining itself. -->
+	<AM_TableQuality_Desired_AteInLowQualityTable.stages.0.description>Мне пришлось есть за этим разваливающимся подобием стола. Его шатающиеся ножки и занозистая поверхность оскорбляли само понятие трапезы.</AM_TableQuality_Desired_AteInLowQualityTable.stages.0.description>
+</LanguageData>

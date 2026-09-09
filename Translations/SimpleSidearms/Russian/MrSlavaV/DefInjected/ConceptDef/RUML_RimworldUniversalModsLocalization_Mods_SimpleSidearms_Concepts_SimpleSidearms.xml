@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Concept_CEOverride.label>SS: Патч совместимости CE</Concept_CEOverride.label>
+  <Concept_SimpleSidearmsAdvancedDrafted.label>SS: Продвинутое управление (призыв)</Concept_SimpleSidearmsAdvancedDrafted.label>
+  <Concept_SimpleSidearmsAdvancedMelee.label>SS: Продвинутое управление (ближний бой)</Concept_SimpleSidearmsAdvancedMelee.label>
+  <Concept_SimpleSidearmsLosingWeapons.label>SS: Потеря оружия</Concept_SimpleSidearmsLosingWeapons.label>
+</LanguageData>

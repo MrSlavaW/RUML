@@ -1,0 +1,28 @@
+<LanguageData>
+	<!-- 1.6\Defs\WeaponTraitDefs\WeaponTraitDefs_Stats.xml -->
+
+	<!-- EN: revolver scope -->
+	<AArmoury_RevolverScope.label>снайперский револьвер</AArmoury_RevolverScope.label>
+	<!-- EN: This revolver is outfitted with a scope, allowing it to fire farther. -->
+	<AArmoury_RevolverScope.description>Этот револьвер оснащён прицелом, позволяющим вести огонь на большую дистанцию.</AArmoury_RevolverScope.description>
+	
+	<!-- EN: double-tap cylinder -->
+	<AArmoury_DoubleTap.label>барабан двойного выстрела</AArmoury_DoubleTap.label>
+	<!-- EN: Turns the revolver’s single-shot action into a short burst, trading some accuracy for faster suppression. -->
+	<AArmoury_DoubleTap.description>Преобразует одиночный выстрел револьвера в короткую очередь, жертвуя точностью ради более быстрого подавления.</AArmoury_DoubleTap.description>
+	
+	<!-- EN: reinforced frame -->
+	<AArmoury_ReinforcedFrame.label>усиленная рама</AArmoury_ReinforcedFrame.label>
+	<!-- EN: This weapon has been reinforced with a plasteel carapace increasing its resilience. -->
+	<AArmoury_ReinforcedFrame.description>Это оружие усилено пласталевой оболочкой, повышающей его прочность.</AArmoury_ReinforcedFrame.description>
+	
+	<!-- EN: insectoid slayer -->
+	<AArmoury_InsectKiller.label>истребитель инсектойдов</AArmoury_InsectKiller.label>
+	<!-- EN: This gun is especially damaging to insectoids, ripping them apart with a dangerous acid. -->
+	<AArmoury_InsectKiller.description>Это оружие особенно эффективно против инсектойдов, разъедая их опасной кислотой.</AArmoury_InsectKiller.description>
+	
+	<!-- EN: entity slayer -->
+	<AArmoury_AnomalyKiller.label>истребитель сущностей</AArmoury_AnomalyKiller.label>
+	<!-- EN: This gun is especially damaging to anomalous entities, ripping them apart with a dangerous acid. -->
+	<AArmoury_AnomalyKiller.description>Это оружие особенно эффективно против аномальных сущностей, разъедая их опасной кислотой.</AArmoury_AnomalyKiller.description>
+</LanguageData>

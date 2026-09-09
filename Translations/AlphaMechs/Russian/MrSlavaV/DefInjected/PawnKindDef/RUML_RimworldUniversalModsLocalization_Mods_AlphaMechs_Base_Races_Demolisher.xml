@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_RacesMechanoids\Races_Demolisher.xml -->
+	<!--             EN: demolisher -->
+	<AM_Demolisher.label>разрушитель</AM_Demolisher.label>
+	<!--                                EN: Plural demolisher -->
+	<AM_Demolisher.lifeStages.1.labelPlural>Разрушители</AM_Demolisher.lifeStages.1.labelPlural>
+<AM_Demolisher.lifeStages.0.labelPlural>Разрушители</AM_Demolisher.lifeStages.0.labelPlural></LanguageData>

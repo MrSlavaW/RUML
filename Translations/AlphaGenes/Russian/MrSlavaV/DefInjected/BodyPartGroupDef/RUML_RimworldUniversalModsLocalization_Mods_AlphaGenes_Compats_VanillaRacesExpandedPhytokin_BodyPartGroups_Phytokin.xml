@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaRacesExpandedPhytokin\Defs\Bodies\BodyPartGroups_Phytokin.xml -->
+	<!--        EN: stinger -->
+	<AG_Sting.label>жало</AG_Sting.label>
+	<!--                   EN: pincer -->
+	<AG_PincerAttackTool.label>клешни</AG_PincerAttackTool.label>
+	<!--        EN: mouth -->
+	<AG_Mouth.label>рот</AG_Mouth.label>
+</LanguageData>

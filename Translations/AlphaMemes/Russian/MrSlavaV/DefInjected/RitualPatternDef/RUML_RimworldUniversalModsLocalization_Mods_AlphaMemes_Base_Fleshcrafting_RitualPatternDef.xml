@@ -1,0 +1,5 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\Fleshcrafting.xml -->
+	<!--                                           EN: Once a {IDEO} member dies, other {MEMBERS} desire a {RITUAL_labelDef}. -->
+	<AM_FleshCraftingFuneralPattern.ritualExpectedDesc>Как только член {IDEO} умирает, другие {MEMBERS} желают получить {RITUAL_labelDef}.</AM_FleshCraftingFuneralPattern.ritualExpectedDesc>
+</LanguageData>

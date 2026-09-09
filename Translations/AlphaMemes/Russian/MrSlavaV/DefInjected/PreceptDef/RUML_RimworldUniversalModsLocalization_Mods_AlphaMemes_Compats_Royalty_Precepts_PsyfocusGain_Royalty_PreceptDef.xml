@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Royalty\Defs\PreceptDefs\Precepts_PsyfocusGain_Royalty.xml -->
+	<!--                        EN: dampened -->
+	<AM_PsyfocusGain_Dampened.label>приглушенный</AM_PsyfocusGain_Dampened.label>
+	<!--                              EN: Meditation is a dangerous proposition. It can destabilize you, bring forth repressed emotional trauma from your past, and drown you in a fathomless ocean of despair. It is best to look for a source of psychic powers elsewhere. -->
+	<AM_PsyfocusGain_Dampened.description>Медитация — опасное занятие. Это может дестабилизировать вас, вызвать подавленную эмоциональную травму из вашего прошлого и утопить вас в бездонном океане отчаяния. Лучше всего искать источник экстрасенсорных способностей в другом месте.</AM_PsyfocusGain_Dampened.description>
+</LanguageData>

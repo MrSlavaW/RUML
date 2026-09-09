@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaCookingExpanded\Defs\PreceptDefs\Precepts_Meals.xml -->
+	<!--                EN: ate delightful meal -->
+	<AM_AteLavishMeal.label>съел восхитительное блюдо</AM_AteLavishMeal.label>
+	<!--                EN: ate simple meal -->
+	<AM_AteSimpleMeal.label>съел простое блюдо</AM_AteSimpleMeal.label>
+	<!--             EN: ate raw food -->
+	<AM_AteRawFood.label>съел сырую пищу</AM_AteRawFood.label>
+</LanguageData>

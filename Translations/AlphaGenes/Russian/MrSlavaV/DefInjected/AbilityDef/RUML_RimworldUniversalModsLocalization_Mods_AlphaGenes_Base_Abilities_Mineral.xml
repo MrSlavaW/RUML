@@ -1,0 +1,8 @@
+<LanguageData>
+	<AG_ReactiveArmourA.label>Минеральная броня</AG_ReactiveArmourA.label>
+	<AG_ReactiveArmourA.description>Потребляет минералы для укрепления организма пользователя против колющих и острых атак.</AG_ReactiveArmourA.description>
+	<AG_MineralOverdriveA.label>Минеральный овердрайв</AG_MineralOverdriveA.label>
+	<AG_MineralOverdriveA.description>Выводит минералы для повышения эффективности работы пользователя.</AG_MineralOverdriveA.description>
+	<AG_MineralShock.label>Минеральный шок</AG_MineralShock.label>
+	<AG_MineralShock.description>Использует накопленные минералы, чтобы обрушить на цель плотный сгусток породы. Наносит тупой урон.</AG_MineralShock.description>
+</LanguageData>

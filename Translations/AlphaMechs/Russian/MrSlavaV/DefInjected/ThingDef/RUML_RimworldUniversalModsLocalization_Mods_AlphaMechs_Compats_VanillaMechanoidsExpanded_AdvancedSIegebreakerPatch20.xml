@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\OskarPotocki_VFE_Mechanoid\AdvancedSIegebreakerPatch17.xml -->
+	<!--                                               EN: siegemaster -->
+	<VFE_Mech_Advanced_Siegebreaker_PlayerControlled.label>осадный мастер</VFE_Mech_Advanced_Siegebreaker_PlayerControlled.label>
+	<!--                                                     EN: The Siegemaster is an advanced version of the Siegebreaker, a particularly dangerous tank-shaped mechanoid. Armed with a Siegebreaker Cannon that fires explosive shells, they can detect a hostile presence from hundreds of meters away, acting as unrelenting siege weapons that can obliterate even the strongest defense. Their movement is incredibly slow, and their cannon takes a very long time to recharge, but they should be treated as priority targets in most cases. -->
+	<VFE_Mech_Advanced_Siegebreaker_PlayerControlled.description>Siegemaster — это усовершенствованная версия Siegebreaker, особенно опасного механоида в форме танка. Вооруженные осадной пушкой, стреляющей разрывными снарядами, они могут обнаружить присутствие противника на расстоянии сотен метров, действуя как безжалостное осадное оружие, способное уничтожить даже самую сильную оборону. Их движение невероятно медленное, а перезарядка их пушек занимает очень много времени, но в большинстве случаев их следует рассматривать как приоритетные цели.</VFE_Mech_Advanced_Siegebreaker_PlayerControlled.description>
+	<!--                                                       EN: голова -->
+	<VFE_Mech_Advanced_Siegebreaker_PlayerControlled.tools.0.label>голова</VFE_Mech_Advanced_Siegebreaker_PlayerControlled.tools.0.label>
+</LanguageData>

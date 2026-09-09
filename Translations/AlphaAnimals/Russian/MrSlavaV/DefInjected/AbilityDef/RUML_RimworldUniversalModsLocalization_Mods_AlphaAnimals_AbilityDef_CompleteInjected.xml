@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AA_AcidBolt.description>плевок</AA_AcidBolt.description>
+  <AA_AcidicVomit.description>Spew a corrosive, acidic bile that melts through armor and flesh, leaving a sizzling trail of destruction.</AA_AcidicVomit.description>
+  <AA_AcidicWeb.description>Throw a web of sticky silk that can stun its target and cause periodic acid burns.</AA_AcidicWeb.description>
+  <AA_BarbedQuills.description>иглы</AA_BarbedQuills.description>
+  <AA_BlackHiveBolt.description>Снаряд ядовитой слизи Чёрного Улья.</AA_BlackHiveBolt.description>
+  <AA_Bullet_Rock.description>Hurl a massive, psychically-charged rock that crackles with energy, exploding on impact and sending shockwaves through the air.</AA_Bullet_Rock.description>
+  <AA_Bullet_Rock.label>пси-заряженный камень</AA_Bullet_Rock.label>
+  <AA_Bullet_VenomBarb.description>Launch a venomous barb that pierces flesh and delivers a potent toxin.</AA_Bullet_VenomBarb.description>
+  <AA_Bullet_VenomBarb.label>ядовитый шип</AA_Bullet_VenomBarb.label>
+  <AA_Bullet_VenomBarb_Minor.description>Launch a venomous barb that pierces flesh and delivers a potent toxin.</AA_Bullet_VenomBarb_Minor.description>
+  <AA_Bullet_VenomBarb_Minor.label>малый ядовитый шип</AA_Bullet_VenomBarb_Minor.label>
+  <AA_DarkBolt.description>снаряд</AA_DarkBolt.description>
+  <AA_DarkBolt.label>тёмная стрела</AA_DarkBolt.label>
+  <AA_ElectricBolt.description>снаряд</AA_ElectricBolt.description>
+  <AA_ElectricBolt.label>электрический разряд</AA_ElectricBolt.label>
+  <AA_FireSpit.description>плевок</AA_FireSpit.description>
+  <AA_FireWeb.description>Throw a web of sticky silk that can stun its target and cause burns.</AA_FireWeb.description>
+  <AA_FlameBreathAnimated.description>Exhale a cone of superheated flame that ignites flammable objects and scorches anything caught in its path.</AA_FlameBreathAnimated.description>
+  <AA_FrostBolt.description>снаряд</AA_FrostBolt.description>
+  <AA_FrostBolt.label>морозный разряд</AA_FrostBolt.label>
+  <AA_FrostWeb.description>Throw a web of sticky silk that can stun its target and cause frostbite wounds.</AA_FrostWeb.description>
+  <AA_GazeAttack.description>Emit a melting gaze that causes flesh and armor to blister and liquefy under intense, focused heat.</AA_GazeAttack.description>
+  <AA_GazeAttack.label>плавящий взгляд</AA_GazeAttack.label>
+  <AA_GreaterVileSpit.description>плевок</AA_GreaterVileSpit.description>
+  <AA_IncendiaryMote.description>плевок</AA_IncendiaryMote.description>
+  <AA_LaserBullet.description>Fire a concentrated burst of pink laser energy that sears through targets with precision and speed.</AA_LaserBullet.description>
+  <AA_Plasma.description>Fire a volley of ionized plasma projectiles. Mainly used defensively.</AA_Plasma.description>
+  <AA_Plasma.label>четверная тесла-пушка</AA_Plasma.label>
+  <AA_PoisonBolt.description>плевок</AA_PoisonBolt.description>
+  <AA_Quill.description>иглы</AA_Quill.description>
+  <AA_RedPoisonBolt.description>Launch a venomous barb that pierces flesh and delivers a potent toxin.</AA_RedPoisonBolt.description>
+  <AA_RedPoisonBolt.label>ядовитый шип</AA_RedPoisonBolt.label>
+  <AA_Web.description>Throw a web of sticky silk that can stun its target.</AA_Web.description>
+  <AA_WindBolt.description>Release a powerful blast of wind that causes blunt force trauma.</AA_WindBolt.description>
+  <AA_WindBolt.label>ветряной порыв</AA_WindBolt.label>
+</LanguageData>

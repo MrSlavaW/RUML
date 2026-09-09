@@ -1,0 +1,23 @@
+<LanguageData>
+	<!-- 1.6\Defs\Bodies\BodyPartGroups_AlphaPredators.xml -->
+	<!--       EN: body -->
+	<AA_Body.label>тело</AA_Body.label>
+	<!--        EN: mouth -->
+	<AA_Mouth.label>рот</AA_Mouth.label>
+	<!--        EN: stinger -->
+	<AA_Sting.label>жало</AA_Sting.label>
+	<!--                   EN: pincer -->
+	<AA_PincerAttackTool.label>клещи</AA_PincerAttackTool.label>
+	<!--                  EN: blade -->
+	<AA_BladeAttackTool.label>лезвие</AA_BladeAttackTool.label>
+	<!--                     EN: tentacle -->
+	<AA_TentacleAttackTool.label>Щупальце</AA_TentacleAttackTool.label>
+	<!--                     EN: eyestalk -->
+	<AA_EyestalkAttackTool.label>Глазница</AA_EyestalkAttackTool.label>
+	<!--             EN: leg -->
+	<LegAttackTool.label>нога</LegAttackTool.label>
+	<!--              EN: tusk -->
+	<TuskAttackTool.label>бивень</TuskAttackTool.label>
+	<!--       EN: tail -->
+	<AA_Tail.label>хвост</AA_Tail.label>
+</LanguageData>

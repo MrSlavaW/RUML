@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\PreceptDefs\Precepts_Coffee.xml -->
+<!--              EN: drank coffee -->
+    <AM_DrankCoffee.label>выпил кофе</AM_DrankCoffee.label>
+    <!--                       EN: drank specialty coffee -->
+    <AM_DrankSpecialtyCoffee.label>выпил особый кофе</AM_DrankSpecialtyCoffee.label>
+</LanguageData>

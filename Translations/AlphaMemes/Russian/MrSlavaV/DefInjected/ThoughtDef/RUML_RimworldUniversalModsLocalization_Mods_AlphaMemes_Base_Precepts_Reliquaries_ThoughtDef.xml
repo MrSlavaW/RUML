@@ -1,0 +1,8 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Reliquaries.xml -->
+	
+	<!--                                 EN: reliquary nearby -->
+	<AM_Reliquaries_Forbidden.stages.0.label>реликварий поблизости</AM_Reliquaries_Forbidden.stages.0.label>
+	<!--                                       EN: We have a reliquary in the colony. This is blasphemy, it should be dismantled as soon as possible. -->
+	<AM_Reliquaries_Forbidden.stages.0.description>У нас есть реликварий в поселении. Это кощунство, его нужно демонтировать как можно быстрее.</AM_Reliquaries_Forbidden.stages.0.description>
+</LanguageData>

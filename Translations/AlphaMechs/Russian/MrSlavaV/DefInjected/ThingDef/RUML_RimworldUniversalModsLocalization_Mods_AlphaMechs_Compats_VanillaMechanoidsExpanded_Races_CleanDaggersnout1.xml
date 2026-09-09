@@ -1,0 +1,11 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_CleanDaggersnout.xml -->
+	<!--                    EN: daggersnout -->
+	<VFE_Mech_Daggersnout.label>кинжалорыл</VFE_Mech_Daggersnout.label>
+	<!--                          EN: The daggersnout is a fast, insectlike combat mechanoid armed with a vicious sharp blade on its head. It isn't as dangerous as other close-ranged mechanoids, such as scythers, but they usually appear in greater numbers. This particular unit appears to be freshly manufactured and will operate more robustly.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; If toggled to not spawn via mod options, they will get replaced by a Scyther. -->
+	<VFE_Mech_Daggersnout.description>Кинжалорыл — быстрый насекомоподобный боевой механоид, вооруженный ужасным острым лезвием на голове. Он не так опасен, как другие механоиды ближнего боя, такие как косы, но обычно появляются в большем количестве. Этот конкретный блок выглядит только что изготовленным и будет работать более надежно.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Если с помощью опций мода отключено появление, они будут заменены косой.</VFE_Mech_Daggersnout.description>
+	<!--                            EN: snout blade -->
+	<VFE_Mech_Daggersnout.tools.0.label>рыловой клинок</VFE_Mech_Daggersnout.tools.0.label>
+	<!--                            EN: голова -->
+	<VFE_Mech_Daggersnout.tools.1.label>голова</VFE_Mech_Daggersnout.tools.1.label>
+</LanguageData>

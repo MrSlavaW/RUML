@@ -1,0 +1,9 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Infernus.xml -->
+	<!--           EN: infernus -->
+	<AM_Infernus.label>инфернус</AM_Infernus.label>
+	<!--                 EN: An ultra-heavy mechanoid with an incredibly dangerous orbital strike targeter. The targeter won't cause any damage on its own, but a devastating orbital strike will be launched a few seconds after it finishes focusing on a target. This attack takes a long time to charge, and it has a large minimum range. The Infernus accumulates heat constantly due to its enormous size, and it can release it to ignite flammable objects nearby.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Seriously, don't let this thing fire... -->
+	<AM_Infernus.description>Сверхтяжелый механоид с невероятно опасным целеуказателем орбитального удара. Сам целеуказатель не наносит урона, но разрушительный орбитальный удар будет нанесен через несколько секунд после того, как он завершит наведение на цель. Эта атака требует много времени для зарядки и имеет большую минимальную дальность действия. Из-за своего огромного размера Инфернус постоянно накапливает тепло и может выделять его, чтобы поджечь легковоспламеняющиеся объекты поблизости.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Серьёзно, не давайте этой штуке открыть огонь...</AM_Infernus.description>
+	<!--                   EN: голова -->
+	<AM_Infernus.tools.0.label>голова</AM_Infernus.tools.0.label>
+</LanguageData>

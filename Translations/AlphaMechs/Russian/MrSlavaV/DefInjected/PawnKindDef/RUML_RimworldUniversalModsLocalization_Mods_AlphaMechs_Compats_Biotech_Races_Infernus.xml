@@ -1,0 +1,7 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Infernus.xml -->
+	<!--           EN: infernus -->
+	<AM_Infernus.label>инфернус</AM_Infernus.label>
+	<!--                              EN: Plural infernus -->
+	<AM_Infernus.lifeStages.1.labelPlural>Инфернусы</AM_Infernus.lifeStages.1.labelPlural>
+<AM_Infernus.lifeStages.0.labelPlural>Инфернусы</AM_Infernus.lifeStages.0.labelPlural></LanguageData>

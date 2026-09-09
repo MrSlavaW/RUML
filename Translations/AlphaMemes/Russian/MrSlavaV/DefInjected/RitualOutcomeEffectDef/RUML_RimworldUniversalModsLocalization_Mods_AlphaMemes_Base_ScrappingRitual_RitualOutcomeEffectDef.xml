@@ -1,0 +1,27 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\ScrappingRitual\ScrappingRitual.xml -->
+	
+	<!--                           EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+	<AM_ScrapRitualOutcome.description>В зависимости от качества ритуала у участников изменится настроение от {MINMOOD} до {MAXMOOD} на {MOODDAYS} дней.</AM_ScrapRitualOutcome.description>
+	<!--                                      EN: Terrible -->
+	<AM_ScrapRitualOutcome.outcomeChances.0.label>Ужасный</AM_ScrapRitualOutcome.outcomeChances.0.label>
+	<!--                                            EN: The {0} was terrible. We've learned almost nothing and all the tech was wasted. -->
+	<AM_ScrapRitualOutcome.outcomeChances.0.description>{0} был ужасен. Мы почти ничего не узнали, и все технологии были потрачены впустую.</AM_ScrapRitualOutcome.outcomeChances.0.description>
+	<!--                                      EN: LackLuster -->
+	<AM_ScrapRitualOutcome.outcomeChances.1.label>Тусклый</AM_ScrapRitualOutcome.outcomeChances.1.label>
+	<!--                                            EN: The {0} was mediocre. There was a great deal of waste in the deconstruction process and little was learned. -->
+	<AM_ScrapRitualOutcome.outcomeChances.1.description>{0} был посредственным. В процессе деконструкции было много отходов, и мало что было изучено.</AM_ScrapRitualOutcome.outcomeChances.1.description>
+	<!--                                      EN: Good -->
+	<AM_ScrapRitualOutcome.outcomeChances.2.label>Хороший</AM_ScrapRitualOutcome.outcomeChances.2.label>
+	<!--                                            EN: We successfully extracted both materials and a great deal of knowledge from {0}. -->
+	<AM_ScrapRitualOutcome.outcomeChances.2.description>Мы успешно извлекли как материалы, так и большой объем информации из {0}.</AM_ScrapRitualOutcome.outcomeChances.2.description>
+	<!--                                      EN: Amazing -->
+	<AM_ScrapRitualOutcome.outcomeChances.3.label>Удивительно</AM_ScrapRitualOutcome.outcomeChances.3.label>
+	<!--                                            EN: The {0} was spectacular. It has progressed our knowledge forward, and a great deal of useable salvage was recovered. -->
+	<AM_ScrapRitualOutcome.outcomeChances.3.description>{0} было впечатляющим. Это продвинуло наши знания вперед, и было извлечено много пригодного для использования.</AM_ScrapRitualOutcome.outcomeChances.3.description>
+	<!--                             EN: participant count -->
+	<AM_ScrapRitualOutcome.comps.0.label>{0} был довольно эффективным. Они производили гораздо больше питательных веществ, чем можно было бы ожидать.
+количество участников</AM_ScrapRitualOutcome.comps.0.label>
+	<!--                             EN: Scrapper -->
+	<AM_ScrapRitualOutcome.comps.1.label>Шкипер</AM_ScrapRitualOutcome.comps.1.label>
+</LanguageData>

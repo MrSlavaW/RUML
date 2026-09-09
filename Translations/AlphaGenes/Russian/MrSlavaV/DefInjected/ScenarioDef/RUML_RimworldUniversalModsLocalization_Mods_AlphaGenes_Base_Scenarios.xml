@@ -1,0 +1,13 @@
+<LanguageData>
+	<AG_WretchScenario.label>Жалкое существование</AG_WretchScenario.label>
+	<AG_WretchScenario.scenario.summary>Три жертвы генетических экспериментов пытаются выжить в дикой природе.</AG_WretchScenario.scenario.summary>
+	<AG_WretchScenario.scenario.parts.ConfigurePawnsXenotypes.customSummary>Надежда для троих.</AG_WretchScenario.scenario.parts.ConfigurePawnsXenotypes.customSummary>
+	<AG_WretchScenario.scenario.parts.GameStartDialog.text>В лаборатории не было света - только тьма. Ни голосов, ни звуков, лишь тишина. И бесконечные дни без еды...\n\nНо однажды всё изменилось. Завыли сирены, взрывы сотрясли толстые бетонные стены, а потом пришла свобода: порыв ветра и почти забытый солнечный свет. Вы втроём бежали, ни разу не оглянувшись. Но это навсегда изменило вас.</AG_WretchScenario.scenario.parts.GameStartDialog.text>
+	<AG_WretchScenario.scenario.name>Жалкое существование</AG_WretchScenario.scenario.name>
+	<AG_WretchScenario.scenario.description>В лаборатории не было света - только тьма. Ни голосов, ни звуков, лишь тишина. И бесконечные дни без еды...\n\nНо однажды всё изменилось. Завыли сирены, взрывы сотрясли толстые бетонные стены, а потом пришла свобода: порыв ветра и почти забытый солнечный свет. Вы втроём бежали, ни разу не оглянувшись. Но это навсегда изменило вас.</AG_WretchScenario.scenario.description>
+	<AG_ForsakenCrashlanded.label>Отреченные</AG_ForsakenCrashlanded.label>
+	<AG_ForsakenCrashlanded.scenario.summary>Трое выживших Отреченных - изгнанные и брошенные</AG_ForsakenCrashlanded.scenario.summary>
+	<AG_ForsakenCrashlanded.scenario.parts.ConfigurePawnsXenotypes.xenotypeCounts.0.description>взрослый Отреченный</AG_ForsakenCrashlanded.scenario.parts.ConfigurePawnsXenotypes.xenotypeCounts.0.description>
+	<AG_ForsakenCrashlanded.scenario.name>Отреченные</AG_ForsakenCrashlanded.scenario.name>
+	<AG_ForsakenCrashlanded.scenario.description>Изгнанные и покинутые, вы были отправлены в грузовых капсулах в другой мир, и теперь вам придется выживать самостоятельно.</AG_ForsakenCrashlanded.scenario.description>
+</LanguageData>

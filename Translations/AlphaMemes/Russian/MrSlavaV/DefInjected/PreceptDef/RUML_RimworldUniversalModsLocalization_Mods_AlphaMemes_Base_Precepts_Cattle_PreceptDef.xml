@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Cattle.xml -->
+	<!--                  EN: improved -->
+	<AM_Cattle_Improved.label>улучшенный</AM_Cattle_Improved.label>
+	<!--                        EN: Through careful breeding and care, we strive to improve our cattle. Stronger, healthier, and more productive herds are a testament to our dedication and the cornerstone of a thriving ranch.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colony cattle will get -15% needed nutrition, +25% eating speed and +15% immunity gain speed.\n - By default, cattle covers any milkable animal, plus Muffalos and Bison. -->
+	<AM_Cattle_Improved.description>Благодаря тщательному разведению и уходу мы стремимся улучшить наш скот. Более сильные, здоровые и продуктивные стада — свидетельство нашей преданности и основа процветающего ранчо.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Скот поселения будет получать -15% необходимого питания, +25% скорости питания и +15% скорости прироста иммунитета.</AM_Cattle_Improved.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Concept_SidearmsDropping.label>СС: Выбрасывание дополнительного оружия</Concept_SidearmsDropping.label>
+  <Concept_SidearmsDropping.helpText>Колонисты автоматически переключаются на запасное оружие при необходимости. Если вы хотите выбросить оружие из слота бокового ношения, используйте меню снаряжения.</Concept_SidearmsDropping.helpText>
+  <Concept_SimpleSidearmsPreference.label>СС: Предпочтения оружия</Concept_SimpleSidearmsPreference.label>
+  <Concept_SimpleSidearmsPreference.helpText>Вы можете настроить предпочтительное оружие для каждого поселенца в зависимости от дистанции до цели.</Concept_SimpleSidearmsPreference.helpText>
+  <Concept_SimpleSidearmsAdvancedRanged.label>СС: Расширенное управление стрелковым оружием</Concept_SimpleSidearmsAdvancedRanged.label>
+  <Concept_SimpleSidearmsAdvancedRanged.helpText>Позволяет тонко настраивать пороги переключения между снайперскими винтовками, дробовиками и пистолетами.</Concept_SimpleSidearmsAdvancedRanged.helpText>
+</LanguageData>

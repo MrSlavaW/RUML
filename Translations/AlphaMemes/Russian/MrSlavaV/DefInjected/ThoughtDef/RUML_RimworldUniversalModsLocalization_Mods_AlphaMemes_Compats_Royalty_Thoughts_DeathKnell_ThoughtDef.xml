@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Royalty\Defs\ThoughtDefs\Thoughts_DeathKnell.xml -->
+	<!--                             EN: death knell -->
+	<AM_DeathKnellThought.stages.0.label>погребальный звон</AM_DeathKnellThought.stages.0.label>
+	<!--                                   EN: I absorbed the latent psychic power of a downed enemy, so invigorating. -->
+	<AM_DeathKnellThought.stages.0.description>Я впитал скрытую психическую силу поверженного врага, Так бодрит</AM_DeathKnellThought.stages.0.description>
+</LanguageData>

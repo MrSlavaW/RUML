@@ -1,0 +1,6 @@
+<LanguageData>
+	<AG_AcidicDetonation.label>Туман кислоты</AG_AcidicDetonation.label>
+	<AG_AcidicDetonation.description>Выпрыскивает кислоту под огромным давлением, наносит сильный урон всем вокруг, не наносит урона пользователю умения.</AG_AcidicDetonation.description>
+	<AG_Detonation.label>Детонация</AG_Detonation.label>
+	<AG_Detonation.description>Высвобождает раскалённые газы, возникающие в результате внутренних процессов организма. Они создают волну перегретого воздуха, поражающую все соседние клетки в радиусе 1. При использовании носитель не получает урона.</AG_Detonation.description>
+</LanguageData>

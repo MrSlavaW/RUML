@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingStyleDefs\Alpha\ThingStyleDefs_Sikh.xml -->
+	<!--                       EN: kirpan -->
+	<AM_Sikh_Gladius.overrideLabel>кирпан</AM_Sikh_Gladius.overrideLabel>
+	<!--                    EN: barchha nagni -->
+	<AM_Sikh_Ikwa.overrideLabel>барчха нагни</AM_Sikh_Ikwa.overrideLabel>
+	<!--                     EN: zulfiqar -->
+	<AM_Sikh_Knife.overrideLabel>Зульфикар</AM_Sikh_Knife.overrideLabel>
+	<!--                     EN: khanda -->
+	<AM_Sikh_Sword.overrideLabel>кханда</AM_Sikh_Sword.overrideLabel>
+	<!--                    EN: gurj -->
+	<AM_Sikh_Mace.overrideLabel>гурдж</AM_Sikh_Mace.overrideLabel>
+	<!--                     EN: barchha -->
+	<AM_Sikh_Spear.overrideLabel>барчха</AM_Sikh_Spear.overrideLabel>
+</LanguageData>

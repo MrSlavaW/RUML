@@ -1,0 +1,9 @@
+﻿<LanguageData>
+	<!-- 1.6\Defs\JobDefs\Jobs_Metal.xml -->
+	<!--                      EN: consuming TargetA. -->
+	<AG_ConsumeMetal.reportString>поглощает TargetA.</AG_ConsumeMetal.reportString>
+	<!--                   EN: feeding TargetB. -->
+	<AG_FeedMetal.reportString>кормит TargetB.</AG_FeedMetal.reportString>
+	<!--                      EN: Delivering to TargetC. -->
+	<AG_DeliverMetal.reportString>доставляет в TargetC.</AG_DeliverMetal.reportString>
+</LanguageData>

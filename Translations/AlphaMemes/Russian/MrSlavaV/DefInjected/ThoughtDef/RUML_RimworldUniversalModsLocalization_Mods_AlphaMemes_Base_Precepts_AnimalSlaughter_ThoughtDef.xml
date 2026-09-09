@@ -1,0 +1,16 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_AnimalSlaughter.xml -->
+	
+	<!--                                     EN: slaughtered animal -->
+	<AN_SlaughteredAnimal_Desired.stages.0.label>убитое животное</AN_SlaughteredAnimal_Desired.stages.0.label>
+	<!--                                           EN: I slaughtered an animal. We are doing a vital and necessary job. -->
+	<AN_SlaughteredAnimal_Desired.stages.0.description>Я {PAWN_gender ? зарезал : зарезала} животное. Мы делаем жизненно важное и нужное дело.</AN_SlaughteredAnimal_Desired.stages.0.description>
+	
+	<!--                                          EN: slaughtered animal -->
+	<AN_SlaughteredAnimal_Know_Desired.stages.0.label>убитое животное</AN_SlaughteredAnimal_Know_Desired.stages.0.label>
+	
+	<!--                                               EN: animal slaughtered -->
+	<AN_SlaughteredAnimal_Know_Desired_Mood.stages.0.label>животное убито</AN_SlaughteredAnimal_Know_Desired_Mood.stages.0.label>
+	<!--                                                     EN: Someone slaughtered an animal. We are doing a vital and necessary job. -->
+	<AN_SlaughteredAnimal_Know_Desired_Mood.stages.0.description>Кто-то зарезал животное. Мы делаем жизненно важное и нужное дело.</AN_SlaughteredAnimal_Know_Desired_Mood.stages.0.description>
+</LanguageData>

@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\PreceptDefs\Precepts_Ritual_DirtmoleConversion.xml -->
+<!--                            EN: embrace the deep -->
+    <AM_DirtmoleConversionPrecept.label>объять глубины</AM_DirtmoleConversionPrecept.label>
+    <!--                                  EN: Using forbidden genetic engineering techniques, imbue a colonist with a dirtmole endogerm, reshaping their body with enlarged digging claws, powerful limbs, thickened skin, and enhanced senses suited to life underground. -->
+    <AM_DirtmoleConversionPrecept.description>Используя запретные методы генной инженерии, наделите поселенца эндогермом подземного крота, преображая его тело: увеличившиеся когти для рытья, мощные конечности, огрубевшая кожа и обострённые чувства, подходящие для жизни под землёй.</AM_DirtmoleConversionPrecept.description>
+</LanguageData>

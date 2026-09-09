@@ -1,0 +1,21 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaRacesExpandedPhytokin\Defs\AbilityDefs\Abilities_Phytokin.xml -->
+	<!--                       EN: summon ocular slinger -->
+	<VRE_SummonOcularSlinger.label>Призвать окулярного скорпиона</VRE_SummonOcularSlinger.label>
+	<!--                             EN: Summons an ocular slinger under the control of the caster. This animal is a permanent colony animal, and can be drafted. A new scorpion can be summoned if the previous one is killed. -->
+	<VRE_SummonOcularSlinger.description>Призывает окулярного скорпиона под контроль заклинателя. Это постоянное животное колонии, которое можно мобилизовать. Нового скорпиона можно призвать, если предыдущий погиб.</VRE_SummonOcularSlinger.description>
+	<!--              EN: strike eyes -->
+	<VRE_StrikeEyes.label>Бить по глазам</VRE_StrikeEyes.label>
+	<!--                    EN: Psychically causes the vitreous humour inside the target's eyes to heat to a boiling point, destroying them and leaving the poor victim forever blind. -->
+	<VRE_StrikeEyes.description>Психически заставляет стекловидное тело внутри глаз цели нагреваться до точки кипения, разрушая их и оставляя несчастную жертву навсегда слепой.</VRE_StrikeEyes.description>
+	<!--                               EN: ocular conversion -->
+	<AG_OcularConversionAlphaAnimals.label>окулярное терраформирование</AG_OcularConversionAlphaAnimals.label>
+	<!--                                     EN: Converts flora in an area into ocular versions. -->
+	<AG_OcularConversionAlphaAnimals.description>терраформирует флору в области в окулярные версии.</AG_OcularConversionAlphaAnimals.description>
+	<!--                              EN: ocular conversion -->
+	<AG_OcularConversionAlphaBiomes.label>окулярное терраформирование</AG_OcularConversionAlphaBiomes.label>
+	<!--                                    EN: Converts flora in an area into ocular versions. -->
+	<AG_OcularConversionAlphaBiomes.description>терраформирует флору в области в окулярные версии.</AG_OcularConversionAlphaBiomes.description>
+	<!--                    EN: It's better not to think too hard about this. -->
+	<AG_EyeProjectile.description>Лучше об этом особо не задумываться.</AG_EyeProjectile.description>
+</LanguageData>

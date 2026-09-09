@@ -1,0 +1,27 @@
+<LanguageData>
+	<!-- 1.6\Defs\AbilityDefs\Abilities_Mechanitor.xml -->
+	<!--                 EN: mech IFF scrambler -->
+	<AG_MechConversion.label>скремблер системы «свой-чужой»</AG_MechConversion.label>
+	<!--                       EN: Remotely hacks the IFF sensors of a mechanoid to temporarily swap its allegiance. This will last for a day, after which the mechanoid will revert to its former allegiance and attack indiscriminately. -->
+	<AG_MechConversion.description>Удалённо взламывает систему опознавания «свой-чужой» механоида, временно меняя его лояльность. Эффект длится один день, после чего механоид возвращается к прежней лояльности и начинает атаковать без разбора.</AG_MechConversion.description>
+	<!--                EN: bandwidth loop -->
+	<AG_BandwidthLoop.label>контур перегрузки</AG_BandwidthLoop.label>
+	<!--                      EN: Psychically create a feedback loop in a mech's connection, overloading its bandwidth and causing it to explode, destroying itself. This explosion will damage anything nearby, with the explosion range depending on the mech's bandwidth. -->
+	<AG_BandwidthLoop.description>Психически создаёт петлю обратной связи в соединении меха, перегружая его пропускную способность и вызывая взрыв. Взрыв наносит урон всему поблизости, а его радиус зависит от пропускной способности меха.</AG_BandwidthLoop.description>
+	<!--                      EN: summon band node -->
+	<AG_SummonTempBandwidth.label>призвать канальный узел</AG_SummonTempBandwidth.label>
+	<!--                            EN: Summon a temporary band node that will increase the caster's bandwidth by 10 for a whole week. -->
+	<AG_SummonTempBandwidth.description>Призывает временный канальный узел, который увеличивает пропускную способность носителя на 10 на целую неделю.</AG_SummonTempBandwidth.description>
+	<!--                EN: summon militor -->
+	<AG_SummonMilitor.label>призвать милитора</AG_SummonMilitor.label>
+	<!--                      EN: Summon a Militor mechanoid. It will be part of the colony for a period of 1 day, vanishing afterwards. The carrier will need at least 1 mech bandwidth to use this ability. -->
+	<AG_SummonMilitor.description>Призывает механоида-милитора. Он пробудет в составе колонии 1 день, после чего исчезнет. Для использования этой способности требуется не менее 1 единицы пропускной способности механоидов.</AG_SummonMilitor.description>
+	<!--                 EN: summon tesseron -->
+	<AG_SummonTesseron.label>призвать тессерона</AG_SummonTesseron.label>
+	<!--                       EN: Summon a Tesseron mechanoid. It will be part of the colony for a period of 1 day, vanishing afterwards. The carrier will need at least 3 mech bandwidth to use this ability. -->
+	<AG_SummonTesseron.description>Призывает механоида Тессерон. Он будет частью колонии в течение 1 дня, а затем исчезнет. Для использования этой возможности оператору связи потребуется пропускная способность не менее 3 мехов.</AG_SummonTesseron.description>
+	<!--                  EN: summon centipede -->
+	<AG_SummonCentipede.label>призвать сентипеду</AG_SummonCentipede.label>
+	<!--                        EN: Summon a Centipede Blaster mechanoid. It will be part of the colony for a period of 1 day, vanishing afterwards. The carrier will need at least 4 mech bandwidth to use this ability. -->
+	<AG_SummonCentipede.description>Призывает механоида-сентипеду. Он пробудет в составе колонии 1 день, после чего исчезнет. Для использования этой способности требуется не менее 4 единиц пропускной способности механоидов.</AG_SummonCentipede.description>
+</LanguageData>

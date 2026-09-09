@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<EPOE_AdvancedSpecializedLimbs.label>продвинутые специализированные конечности</EPOE_AdvancedSpecializedLimbs.label>
+	<EPOE_AdvancedSpecializedLimbs.description>Позволяет улучшать специализированные бионические конечности, предназначенные для физического труда и боя.</EPOE_AdvancedSpecializedLimbs.description>
+	<EPOE_AdvancedCompactWeaponry.label>продвинутое скрытое оружие</EPOE_AdvancedCompactWeaponry.label>
+	<EPOE_AdvancedCompactWeaponry.description>Позволяет улучшать скрытые встроенные бионические боевые клинки и шипы.</EPOE_AdvancedCompactWeaponry.description>
+	<EPOE_SyntheticOrgansIntegration.label>интеграция синтетических органов</EPOE_SyntheticOrgansIntegration.label>
+	<EPOE_SyntheticOrgansIntegration.description>Позволяет объединять молекулярные стимуляторы иммунитета и очистки крови непосредственно с синтетическими органами.</EPOE_SyntheticOrgansIntegration.description>
+</LanguageData>

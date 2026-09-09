@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <InstallAdaptivePlasmaShield.description>Хирургическая операция по установке импланта «адаптивный плазменный щит».</InstallAdaptivePlasmaShield.description>
+  <InstallAdaptivePlasmaShield.jobString>Устанавливает адаптивный плазменный щит.</InstallAdaptivePlasmaShield.jobString>
+  <InstallAdaptivePlasmaShield.label>установить: адаптивный плазменный щит</InstallAdaptivePlasmaShield.label>
+  <InstallPlasmaShieldFunctionalityEnhancer.description>Хирургическая операция по установке импланта «усилитель плазменного щита».</InstallPlasmaShieldFunctionalityEnhancer.description>
+  <InstallPlasmaShieldFunctionalityEnhancer.jobString>Устанавливает усилитель плазменного щита.</InstallPlasmaShieldFunctionalityEnhancer.jobString>
+  <InstallPlasmaShieldFunctionalityEnhancer.label>установить: усилитель плазменного щита</InstallPlasmaShieldFunctionalityEnhancer.label>
+  <InstallPlasmaShieldRegenerator.description>Хирургическая операция по установке импланта «регенератор плазменного щита».</InstallPlasmaShieldRegenerator.description>
+  <InstallPlasmaShieldRegenerator.jobString>Устанавливает регенератор плазменного щита.</InstallPlasmaShieldRegenerator.jobString>
+  <InstallPlasmaShieldRegenerator.label>установить: регенератор плазменного щита</InstallPlasmaShieldRegenerator.label>
+  <InstallPsionicRegenerator.description>Хирургическая операция по установке импланта «псионический регенератор щита».</InstallPsionicRegenerator.description>
+  <InstallPsionicRegenerator.jobString>Устанавливает псионический регенератор щита.</InstallPsionicRegenerator.jobString>
+  <InstallPsionicRegenerator.label>установить: псионический регенератор щита</InstallPsionicRegenerator.label>
+  <InstallResistantPlasmaShield.description>Хирургическая операция по установке импланта «стойкий плазменный щит».</InstallResistantPlasmaShield.description>
+  <InstallResistantPlasmaShield.jobString>Устанавливает стойкий плазменный щит.</InstallResistantPlasmaShield.jobString>
+  <InstallResistantPlasmaShield.label>установить: стойкий плазменный щит</InstallResistantPlasmaShield.label>
+  <ToggleAdaptiveShields.description>Усовершенствованный генератор, адаптирующий плотность поля к типу входящего огня.</ToggleAdaptiveShields.description>
+  <ToggleAdaptiveShields.label>адаптивный плазменный щит</ToggleAdaptiveShields.label>
+  <ToggleDampeningShields.description>Переключает активный рабочий режим плазменного щита.</ToggleDampeningShields.description>
+  <ToggleDampeningShields.label>переключить режим: Dampening Shields</ToggleDampeningShields.label>
+  <ToggleHardenedShields.description>Переключает активный рабочий режим плазменного щита.</ToggleHardenedShields.description>
+  <ToggleHardenedShields.label>переключить режим: Hardened Shields</ToggleHardenedShields.label>
+  <ToggleResistantShields.description>Улучшение генератора, позволяющее плазменному щиту эффективно сопротивляться энергетическому урону.</ToggleResistantShields.description>
+  <ToggleResistantShields.label>стойкий плазменный щит</ToggleResistantShields.label>
+</LanguageData>

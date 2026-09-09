@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Projectiles\Projectiles_Shatter.xml -->
+
+	<!-- EN: shatter round -->
+	<AArmoury_ShatterRounds.label>осколочный патрон</AArmoury_ShatterRounds.label>
+
+	<!-- EN: shatter round -->
+	<AArmoury_ShatterRounds_Lesser.label>осколочный патрон</AArmoury_ShatterRounds_Lesser.label>
+
+	<!-- EN: shatter pellets -->
+	<AArmoury_ShatterPellets.label>осколочная дробь</AArmoury_ShatterPellets.label>
+
+	<!-- EN: shrapnel -->
+	<AArmoury_Bullet_Shrapnel_Lesser.label>шрапнель</AArmoury_Bullet_Shrapnel_Lesser.label>
+</LanguageData>

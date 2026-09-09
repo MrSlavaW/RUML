@@ -1,0 +1,42 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Projectiles\Projectiles_Flux.xml -->
+
+	<!--                      EN: flux revolver bullet -->
+	<AArmoury_Flux_Revolver.label>биозарядная пуля револьвера</AArmoury_Flux_Revolver.label>
+
+	<!--                  EN: flux bolt-action rifle bullet -->
+	<AArmoury_Flux_Bolt.label>биозарядная пуля болтовой винтовки</AArmoury_Flux_Bolt.label>
+
+	<!--                     EN: flux shotgun blast -->
+	<AArmoury_Flux_Shotgun.label>биозарядный дробный выстрел</AArmoury_Flux_Shotgun.label>
+
+	<!--                      EN: flux heavy SMG bullet -->
+	<AArmoury_Flux_HeavySMG.label>биозарядная пуля тяжёлого ПП</AArmoury_Flux_HeavySMG.label>
+
+	<!--                 EN: flux LMG bullet -->
+	<AArmoury_Flux_LMG.label>биозарядная пуля ручного пулемёта</AArmoury_Flux_LMG.label>
+
+	<!--                     EN: flux assault rifle bullet -->
+	<AArmoury_Flux_Assault.label>биозарядная пуля штурмовой винтовки</AArmoury_Flux_Assault.label>
+
+	<!--                     EN: flux minigun bullet -->
+	<AArmoury_Flux_Minigun.label>биозарядная пуля минигана</AArmoury_Flux_Minigun.label>
+
+	<!--                    EN: flux sniper rifle bullet -->
+	<AArmoury_Flux_Sniper.label>биозарядная пуля снайперской винтовки</AArmoury_Flux_Sniper.label>
+
+	<!--                   EN: flux arrow -->
+	<AArmoury_Flux_Arrow.label>биозарядная стрела</AArmoury_Flux_Arrow.label>
+
+	<!--                    EN: flux charge shot -->
+	<AArmoury_Flux_Charge.label>биозарядный зарядный выстрел</AArmoury_Flux_Charge.label>
+
+	<!--                   EN: flux charge lance shot -->
+	<AArmoury_Flux_Lance.label>биозарядный выстрел зарядного копья</AArmoury_Flux_Lance.label>
+
+	<!--                     EN: flux hellcat rifle bullet -->
+	<AArmoury_Flux_Hellcat.label>биозарядная пуля винтовки «Хеллкэт»</AArmoury_Flux_Hellcat.label>
+
+	<!--                      EN: flux smoke launcher shell -->
+	<AArmoury_Flux_Launcher.label>биозарядный дымовой снаряд</AArmoury_Flux_Launcher.label>
+</LanguageData>

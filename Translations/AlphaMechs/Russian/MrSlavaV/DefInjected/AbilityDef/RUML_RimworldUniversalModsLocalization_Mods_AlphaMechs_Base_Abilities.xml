@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Defs\AbilityDefs\Abilities.xml -->
+	<!--             EN: swap gun -->
+	<AM_SwapWeapon.label>переключение оружия</AM_SwapWeapon.label>
+	<!--                   EN: Swaps between a charge blaster and a needle gun. -->
+	<AM_SwapWeapon.description>Переключает оружие между зарядным бластером и игольником.</AM_SwapWeapon.description>
+	<!--                 EN: mech IFF scrambler -->
+	<AM_MechConversion.label>глушитель системы «свой-чужой» механоидов</AM_MechConversion.label>
+	<!--                       EN: Remotely hacks the IFF sensors of a mechanoid to temporarily swap its allegiance. This will last for a day, after which the mechanoid will revert to its former allegiance and attack indiscriminately. -->
+	<AM_MechConversion.description>Удалённо взламывает систему опознавания «свой-чужой» механоидов, чтобы временно сменить сторону цели. Эффект длится сутки, после чего механоид возвращается к прежней принадлежности и атакует всех без разбора.</AM_MechConversion.description>
+</LanguageData>

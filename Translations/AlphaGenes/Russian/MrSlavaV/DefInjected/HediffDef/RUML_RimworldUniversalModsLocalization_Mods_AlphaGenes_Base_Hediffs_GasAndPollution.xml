@@ -1,0 +1,19 @@
+<LanguageData>
+	<!-- 1.6\Defs\HediffDefs\Hediffs_GasAndPollution.xml -->
+	<!--                EN: smoke producer -->
+	<AG_SmokeProducer.label>Дыхание пепла</AG_SmokeProducer.label>
+	<!--                      EN: This person is periodically exhaling clouds of dense smoke, providing a deterence to ranged attacks, both against them and produced by them. -->
+	<AG_SmokeProducer.description>Носитель этого гена периодически выдыхает облака густого дыма, затрудняющие дальнобойные атаки как по нему, так и с его стороны.</AG_SmokeProducer.description>
+	<!--                   EN: rot stink producer -->
+	<AG_RotStinkProducer.label>Гнилое дыхание</AG_RotStinkProducer.label>
+	<!--                         EN: This person is periodically exhaling clouds of rot stink. Nasty!. -->
+	<AG_RotStinkProducer.description>Носитель этого гена периодически выдыхает облака гнилостной вони.</AG_RotStinkProducer.description>
+	<!--                 EN: tox gas producer -->
+	<AG_ToxGasProducer.label>Ядовитое дыхание</AG_ToxGasProducer.label>
+	<!--                       EN: This person is periodically exhaling clouds of tox gas. -->
+	<AG_ToxGasProducer.description>Носитель этого гена периодически выдыхает облака ядовитого газа.</AG_ToxGasProducer.description>
+	<!--           EN: polluter -->
+	<AG_Polluter.label>Эрозив</AG_Polluter.label>
+	<!--                 EN: This person is periodically polluting the surrounding terrain, eventually turning the landscape into a desolate wasteland. -->
+	<AG_Polluter.description>Носитель этого гена периодически загрязняет окружающую местность, постепенно превращая её в безжизненную пустошь.</AG_Polluter.description>
+</LanguageData>

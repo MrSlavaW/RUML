@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Grouped_Bed_double.label>Двуспальные кровати</Grouped_Bed_double.label>
+  <Grouped_Bedroll.label>Спальные мешки</Grouped_Bedroll.label>
+  <Grouped_SleepingSpot.label>Спальные места</Grouped_SleepingSpot.label>
+  <Grouped_AnimalBed.label>Лежанки для животных</Grouped_AnimalBed.label>
+  <Grouped_Table.label>Столы</Grouped_Table.label>
+  <Grouped_Chair.label>Стулья и кресла</Grouped_Chair.label>
+  <Grouped_Light.label>Освещение</Grouped_Light.label>
+  <Grouped_Column.label>Колонны</Grouped_Column.label>
+  <Grouped_Door.label>Двери</Grouped_Door.label>
+  <Grouped_Wall.label>Стены</Grouped_Wall.label>
+  <Grouped_Autodoor.label>Автодвери</Grouped_Autodoor.label>
+  <Grouped_Sandbags.label>Мешки с песком</Grouped_Sandbags.label>
+  <Grouped_Barricades.label>Баррикады</Grouped_Barricades.label>
+  <Grouped_Turret.label>Оборонительные турели</Grouped_Turret.label>
+  <Grouped_Trap.label>Ловушки</Grouped_Trap.label>
+  <Grouped_Floor.label>Покрытия пола</Grouped_Floor.label>
+  <Grouped_Workbench.label>Производственные верстаки</Grouped_Workbench.label>
+  <Grouped_Generator.label>Генераторы энергии</Grouped_Generator.label>
+  <Grouped_Battery.label>Аккумуляторы</Grouped_Battery.label>
+  <Grouped_Conduit.label>Энергосети</Grouped_Conduit.label>
+  <Grouped_Temperature.label>Контроль температуры</Grouped_Temperature.label>
+  <Grouped_Storage.label>Хранилища и склады</Grouped_Storage.label>
+  <Grouped_Sculpture.label>Скульптуры</Grouped_Sculpture.label>
+  <Grouped_Recreation.label>Развлечения</Grouped_Recreation.label>
+  <Grouped_Ship.label>Космический корабль</Grouped_Ship.label>
+  <Grouped_Research.label>Исследования</Grouped_Research.label>
+  <Grouped_MedBed.label>Медицинские кровати</Grouped_MedBed.label>
+  <Grouped_PlantPot.label>Цветочные горшки</Grouped_PlantPot.label>
+  <Grouped_Dresser.label>Комоды</Grouped_Dresser.label>
+  <Grouped_Endtable.label>Тумбочки</Grouped_Endtable.label>
+  <Grouped_Shelf.label>Полки</Grouped_Shelf.label>
+  <Grouped_Hopper.label>Воронки</Grouped_Hopper.label>
+  <Grouped_SolarPanel.label>Солнечные панели</Grouped_SolarPanel.label>
+  <Grouped_WindTurbine.label>Ветрогенераторы</Grouped_WindTurbine.label>
+  <Grouped_GeothermalGenerator.label>Геотермальные генераторы</Grouped_GeothermalGenerator.label>
+  <Grouped_Watermill.label>Водяные мельницы</Grouped_Watermill.label>
+  <Grouped_Heater.label>Обогреватели</Grouped_Heater.label>
+  <Grouped_Cooler.label>Кондиционеры</Grouped_Cooler.label>
+  <Grouped_Vent.label>Вентиляции</Grouped_Vent.label>
+  <Grouped_Campfire.label>Костры</Grouped_Campfire.label>
+  <Grouped_1.label>Группа построек 1</Grouped_1.label>
+  <Grouped_2.label>Группа построек 2</Grouped_2.label>
+  <Grouped_3.label>Группа построек 3</Grouped_3.label>
+  <Grouped_4.label>Группа построек 4</Grouped_4.label>
+  <Grouped_5.label>Группа построек 5</Grouped_5.label>
+  <Grouped_6.label>Группа построек 6</Grouped_6.label>
+  <Grouped_7.label>Группа построек 7</Grouped_7.label>
+  <Grouped_8.label>Группа построек 8</Grouped_8.label>
+  <Grouped_9.label>Группа построек 9</Grouped_9.label>
+  <Grouped_10.label>Группа построек 10</Grouped_10.label>
+  <Grouped_11.label>Группа построек 11</Grouped_11.label>
+  <Grouped_12.label>Группа построек 12</Grouped_12.label>
+  <Grouped_13.label>Группа построек 13</Grouped_13.label>
+  <Grouped_14.label>Группа построек 14</Grouped_14.label>
+  <Grouped_15.label>Группа построек 15</Grouped_15.label>
+  <Grouped_16.label>Группа построек 16</Grouped_16.label>
+  <Grouped_17.label>Группа построек 17</Grouped_17.label>
+  <Grouped_18.label>Группа построек 18</Grouped_18.label>
+  <Grouped_19.label>Группа построек 19</Grouped_19.label>
+  <Grouped_20.label>Группа построек 20</Grouped_20.label>
+  <Grouped_21.label>Группа построек 21</Grouped_21.label>
+  <Grouped_22.label>Группа построек 22</Grouped_22.label>
+  <Grouped_23.label>Группа построек 23</Grouped_23.label>
+  <Grouped_24.label>Группа построек 24</Grouped_24.label>
+  <Grouped_25.label>Группа построек 25</Grouped_25.label>
+  <Grouped_26.label>Группа построек 26</Grouped_26.label>
+  <Grouped_27.label>Группа построек 27</Grouped_27.label>
+  <Grouped_28.label>Группа построек 28</Grouped_28.label>
+  <Grouped_29.label>Группа построек 29</Grouped_29.label>
+  <Grouped_30.label>Группа построек 30</Grouped_30.label>
+  <Grouped_31.label>Группа построек 31</Grouped_31.label>
+  <Grouped_32.label>Группа построек 32</Grouped_32.label>
+  <Grouped_33.label>Группа построек 33</Grouped_33.label>
+  <Grouped_34.label>Группа построек 34</Grouped_34.label>
+  <Grouped_35.label>Группа построек 35</Grouped_35.label>
+  <Grouped_36.label>Группа построек 36</Grouped_36.label>
+  <Grouped_37.label>Группа построек 37</Grouped_37.label>
+  <Grouped_38.label>Группа построек 38</Grouped_38.label>
+  <Grouped_39.label>Группа построек 39</Grouped_39.label>
+  <Grouped_40.label>Группа построек 40</Grouped_40.label>
+  <Grouped_41.label>Группа построек 41</Grouped_41.label>
+  <Grouped_42.label>Группа построек 42</Grouped_42.label>
+  <Grouped_43.label>Группа построек 43</Grouped_43.label>
+  <Grouped_44.label>Группа построек 44</Grouped_44.label>
+  <Grouped_45.label>Группа построек 45</Grouped_45.label>
+  <Grouped_46.label>Группа построек 46</Grouped_46.label>
+  <Grouped_47.label>Группа построек 47</Grouped_47.label>
+  <Grouped_48.label>Группа построек 48</Grouped_48.label>
+  <Grouped_49.label>Группа построек 49</Grouped_49.label>
+  <Grouped_50.label>Группа построек 50</Grouped_50.label>
+  <Grouped_51.label>Группа построек 51</Grouped_51.label>
+  <Grouped_52.label>Группа построек 52</Grouped_52.label>
+  <Grouped_53.label>Группа построек 53</Grouped_53.label>
+  <Grouped_54.label>Группа построек 54</Grouped_54.label>
+  <Grouped_55.label>Группа построек 55</Grouped_55.label>
+  <Grouped_56.label>Группа построек 56</Grouped_56.label>
+  <Grouped_57.label>Группа построек 57</Grouped_57.label>
+  <Grouped_58.label>Группа построек 58</Grouped_58.label>
+  <Grouped_59.label>Группа построек 59</Grouped_59.label>
+  <Grouped_60.label>Группа построек 60</Grouped_60.label>
+  <Grouped_61.label>Группа построек 61</Grouped_61.label>
+  <Grouped_62.label>Группа построек 62</Grouped_62.label>
+  <Grouped_63.label>Группа построек 63</Grouped_63.label>
+  <Grouped_64.label>Группа построек 64</Grouped_64.label>
+  <Grouped_65.label>Группа построек 65</Grouped_65.label>
+  <Grouped_66.label>Группа построек 66</Grouped_66.label>
+  <Grouped_67.label>Группа построек 67</Grouped_67.label>
+  <Grouped_68.label>Группа построек 68</Grouped_68.label>
+  <Grouped_69.label>Группа построек 69</Grouped_69.label>
+  <Grouped_70.label>Группа построек 70</Grouped_70.label>
+  <Grouped_71.label>Группа построек 71</Grouped_71.label>
+  <Grouped_72.label>Группа построек 72</Grouped_72.label>
+  <Grouped_73.label>Группа построек 73</Grouped_73.label>
+  <Grouped_74.label>Группа построек 74</Grouped_74.label>
+  <Grouped_75.label>Группа построек 75</Grouped_75.label>
+  <Grouped_76.label>Группа построек 76</Grouped_76.label>
+  <Grouped_77.label>Группа построек 77</Grouped_77.label>
+  <Grouped_78.label>Группа построек 78</Grouped_78.label>
+  <Grouped_79.label>Группа построек 79</Grouped_79.label>
+  <Grouped_80.label>Группа построек 80</Grouped_80.label>
+  <Grouped_81.label>Группа построек 81</Grouped_81.label>
+  <Grouped_82.label>Группа построек 82</Grouped_82.label>
+  <Grouped_83.label>Группа построек 83</Grouped_83.label>
+  <Grouped_84.label>Группа построек 84</Grouped_84.label>
+  <Grouped_85.label>Группа построек 85</Grouped_85.label>
+  <Grouped_86.label>Группа построек 86</Grouped_86.label>
+  <Grouped_87.label>Группа построек 87</Grouped_87.label>
+  <Grouped_88.label>Группа построек 88</Grouped_88.label>
+  <Grouped_89.label>Группа построек 89</Grouped_89.label>
+</LanguageData>

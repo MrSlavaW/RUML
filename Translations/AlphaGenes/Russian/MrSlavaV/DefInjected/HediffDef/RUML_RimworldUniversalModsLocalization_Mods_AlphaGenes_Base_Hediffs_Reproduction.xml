@@ -1,0 +1,23 @@
+<LanguageData>
+	<!-- 1.6\Defs\HediffDefs\Hediffs_Reproduction.xml -->
+	<!--                 EN: fission -->
+	<AG_AsexualFission.label>Бесполое деление</AG_AsexualFission.label>
+	<!--                       EN: Will periodically generate small clumps of organic matter on their backs that gradually develop into full human beings, and separate from their host / parent via a process of strobilation. This will provide an endless source of new colonists, at the risk of flooding the colony with newborns. -->
+	<AG_AsexualFission.description>У носителей этого гена на спине периодически образуются небольшие сгустки органической материи. Со временем они развиваются в полноценных человеческих существ и отделяются от носителя посредством стробиляции. Это даёт бесконечный источник новых поселенцев, но может быстро переполнить колонию новорождёнными.</AG_AsexualFission.description>
+	<!--                 EN: oviparous -->
+	<AG_HumanEggLaying.label>Яйценосный</AG_HumanEggLaying.label>
+	<!--                       EN: Females with this gene will periodically lay eggs when fertilized. -->
+	<AG_HumanEggLaying.description>Самки с этим геном будут периодически откладывать яйца при оплодотворении.</AG_HumanEggLaying.description>
+	<!--                        EN: parasitic implantation -->
+	<AG_ParasiticImplantation.label>Паразитарная имплантация</AG_ParasiticImplantation.label>
+	<!--                              EN: Affected by parasitic implantation. If the implantation advances to severity 1, or if the creature dies when it is sufficiently advanced (more than 90%), the human larvae inside the parasitic eggs will devour the victim from inside and hatch from its corpse. Gestation time is 15 days. -->
+	<AG_ParasiticImplantation.description>Поражены паразитарной имплантацией. Если имплантация продвигается до степени тяжести 1, или если существо умирает, когда оно достаточно продвинуто (более 90%), личинки человека внутри паразитических яиц будут пожирать жертву изнутри и вылупляться из её трупа. Время беременности 15 дней.</AG_ParasiticImplantation.description>
+	<!--                                 EN: minor -->
+	<AG_ParasiticImplantation.stages.0.label>незначительный</AG_ParasiticImplantation.stages.0.label>
+	<!--                                 EN: major -->
+	<AG_ParasiticImplantation.stages.1.label>Серьезный</AG_ParasiticImplantation.stages.1.label>
+	<!--                                 EN: extreme -->
+	<AG_ParasiticImplantation.stages.2.label>Экстремально</AG_ParasiticImplantation.stages.2.label>
+	<!--                                 EN: extreme -->
+	<AG_ParasiticImplantation.stages.3.label>Экстремально</AG_ParasiticImplantation.stages.3.label>
+</LanguageData>

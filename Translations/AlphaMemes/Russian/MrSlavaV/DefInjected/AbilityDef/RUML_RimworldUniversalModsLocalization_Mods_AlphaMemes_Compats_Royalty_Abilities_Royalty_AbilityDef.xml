@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Royalty\Defs\AbilityDefs\Abilities_Royalty.xml -->
+	<!--                    EN: psychic death knell -->
+	<AM_PsychicDeathKnell.label>пси погребальный звон</AM_PsychicDeathKnell.label>
+	<!--                          EN: Forcefully extract the latent psychic energy from a downed foe. Animals don't have enough intelligence to be of any use in this regard.\n\nIf the person casting the ability doesn't have psychic powers, they'll just receive a minor healing effect and a mood boost. If the person does have at least level 1 psychic powers this ability will recharge his or her focus, but will generate 30% of maximum psychic heat. -->
+	<AM_PsychicDeathKnell.description>Насильно извлеките скрытую психическую энергию из поверженного врага. У животных недостаточно интеллекта, чтобы быть полезными в этом отношении.\n\nЕсли человек, применяющий способность, не обладает экстрасенсорными способностями, он просто получит небольшой лечебный эффект и повышение настроения. Если у человека есть экстрасенсорные способности хотя бы 1-го уровня, эта способность перезарядит его или ее концентрацию, но будет генерировать 30% максимального психического перегрева.</AM_PsychicDeathKnell.description>
+</LanguageData>

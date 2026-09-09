@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\AlphaAnimals\Defs\GeneDefs\GeneDefs_Effects_AlphaAnimals.xml -->
+	<!--                    EN: blue gel production -->
+	<AG_BlueGelProduction.label>производство голубого геля</AG_BlueGelProduction.label>
+	<!--                          EN: The skin of this gene's carrier constantly exudes and produces globs of blue gel, which are very energy dense and can be used to power blue gel machinery. -->
+	<AG_BlueGelProduction.description>Кожа носителя этого гена постоянно расширяется и производит шарики синего геля, которые очень энергозатратны и могут быть использованы для питания оборудования из синего геля.</AG_BlueGelProduction.description>
+	<!--                                         EN: Produces 10 units of blue gel per day -->
+	<AG_BlueGelProduction.customEffectDescriptions.0>Производит 10геля каждый день.</AG_BlueGelProduction.customEffectDescriptions.0>
+</LanguageData>

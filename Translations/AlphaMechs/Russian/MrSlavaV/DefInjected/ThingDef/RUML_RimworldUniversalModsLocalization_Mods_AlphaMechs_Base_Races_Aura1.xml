@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_RacesMechanoids\Races_Aura.xml -->
+	<!--       EN: aura -->
+	<AM_Aura.label>аура</AM_Aura.label>
+	<!--             EN: The Aura, also known as Avenging Angels, are angel-shaped mechanoids surrounded by a whirling cloud of six levitating metallic blades. They favour close combat, approaching their victims and engulfing them in an eviscerating whirlwind of slashing death. They also have the ability to regenerate their wounds with fast acting mechanites.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Auras don't have much health, but they will regenerate damage quite fast.\n\nRegeneration is 0.1 damage to a random wound every 10 ticks, 1/6th of a second.\n\nIf toggled to not spawn via mod options, they will get replaced by a Scyther. -->
+	<AM_Aura.description>Аура, также известная как «Ангелы-мстители», представляет собой механоидов в форме ангелов, окруженных вращающимся облаком из шести левитирующих металлических лезвий. Они предпочитают ближний бой, приближаясь к своим жертвам и охватывая их потрошительным вихрем режущей смерти. У них также есть способность регенерировать свои раны с помощью быстродействующих механитов.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; У аур не так много здоровья, но они довольно быстро восстанавливают урон.\n\nРегенерация — это 0,1 урона случайной ране каждые 10 тактов, 1/6 секунды.\n\nЕсли с помощью опций мода отключено появление, они будут заменены косой.</AM_Aura.description>
+	<!--               EN: wing blade -->
+	<AM_Aura.tools.0.label>крыльевой клинок</AM_Aura.tools.0.label>
+	<!--               EN: голова -->
+	<AM_Aura.tools.1.label>голова</AM_Aura.tools.1.label>
+</LanguageData>

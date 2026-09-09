@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\TraitDefs\Traits_Singular.xml -->
+	<!--                       EN: vow of nonviolence -->
+	<AM_Ahimsa.degreeDatas.0.label>обет ненасилия</AM_Ahimsa.degreeDatas.0.label>
+	<!--                             EN: A strict principle of nonviolence which applies to all living things. -->
+	<AM_Ahimsa.degreeDatas.0.description>Строгий принцип ненасилия, применимый ко всем живым существам.</AM_Ahimsa.degreeDatas.0.description>
+	<!--                             EN: vow of nonviolence -->
+	<AM_Ahimsa.degreeDatas.0.labelFemale>обет ненасилия</AM_Ahimsa.degreeDatas.0.labelFemale>
+</LanguageData>

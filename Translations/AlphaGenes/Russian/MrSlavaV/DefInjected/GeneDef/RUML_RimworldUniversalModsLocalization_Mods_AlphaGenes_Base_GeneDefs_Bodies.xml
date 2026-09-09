@@ -1,0 +1,87 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Bodies.xml -->
+	<!--            EN: slime body -->
+	<AG_SlimeBody.label>Слизистое тело</AG_SlimeBody.label>
+	<!--                    EN: slime bodied -->
+	<AG_SlimeBody.labelShortAdj>вязкое тело</AG_SlimeBody.labelShortAdj>
+	<!--                  EN: Carriers of this gene have gelatinous, constantly dripping blue skin. -->
+	<AG_SlimeBody.description>Носители этого гена имеют студенистую, постоянно сочащуюся синевой кожу.</AG_SlimeBody.description>
+	<!--                                         EN: Fresh, Rotting -->
+	<AG_SlimeBody.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_SlimeBody.renderNodeProperties.0.rotDrawMode>
+	<!--           EN: slug body -->
+	<AG_SlugBody.label>Тело слизняка</AG_SlugBody.label>
+	<!--                   EN: slug-like -->
+	<AG_SlugBody.labelShortAdj>форма слизняка</AG_SlugBody.labelShortAdj>
+	<!--                 EN: Carriers of this gene have a thick, slimy tail growing from their tailbone. Their whole body is perpetually soft and moist. -->
+	<AG_SlugBody.description>У носителей этого гена толстый, слизистый хвост, растущий из копчика. Все их тело постоянно мягкое и влажное.</AG_SlugBody.description>
+	<!--                                        EN: Fresh, Rotting -->
+	<AG_SlugBody.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_SlugBody.renderNodeProperties.0.rotDrawMode>
+	<!--            EN: scaly body -->
+	<AG_ScalyBody.label>Чешуйчатое тело</AG_ScalyBody.label>
+	<!--                    EN: scaled -->
+	<AG_ScalyBody.labelShortAdj>чешуйчатый</AG_ScalyBody.labelShortAdj>
+	<!--                  EN: Carriers of this gene have wet scales over all their body. -->
+	<AG_ScalyBody.description>Тело носителей этого гена покрыто влажной чешуёй.</AG_ScalyBody.description>
+	<!--                                 EN: Can move very fast across shallow water -->
+	<AG_ScalyBody.customEffectDescriptions.0>Может очень быстро передвигаться по мелководью.</AG_ScalyBody.customEffectDescriptions.0>
+	<!--                                         EN: Fresh, Rotting -->
+	<AG_ScalyBody.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_ScalyBody.renderNodeProperties.0.rotDrawMode>
+	<!--            EN: rocky body -->
+	<AG_RockyBody.label>Скалистое тело</AG_RockyBody.label>
+	<!--                    EN: rocky -->
+	<AG_RockyBody.labelShortAdj>скалистый</AG_RockyBody.labelShortAdj>
+	<!--                  EN: Carriers of this gene have a rocky looking skin, with mineral deposits piercing the skin. -->
+	<AG_RockyBody.description>Носители этого гена имеют каменистую кожу с минеральными отложениями, пронизывающими кожу.</AG_RockyBody.description>
+	<!--                                         EN: Fresh, Rotting -->
+	<AG_RockyBody.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_RockyBody.renderNodeProperties.0.rotDrawMode>
+	<!--                EN: cancerous body -->
+	<AG_CancerousBody.label>Раковое тело</AG_CancerousBody.label>
+	<!--                        EN: cancerous -->
+	<AG_CancerousBody.labelShortAdj>раковый</AG_CancerousBody.labelShortAdj>
+	<!--                      EN: Carriers of this gene have a lumpy, cancerous looking body with loose skin and pockmarks. -->
+	<AG_CancerousBody.description>Носители этого гена имеют бугристое, раковое на вид тело с рыхлой кожей и язвами.</AG_CancerousBody.description>
+	<!--                                             EN: Fresh, Rotting -->
+	<AG_CancerousBody.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_CancerousBody.renderNodeProperties.0.rotDrawMode>
+	<!--            EN: gaunt body -->
+	<AG_GauntBody.label>Изможденное тело</AG_GauntBody.label>
+	<!--                    EN: gaunt -->
+	<AG_GauntBody.labelShortAdj>истощенный</AG_GauntBody.labelShortAdj>
+	<!--                  EN: Carriers of this gene have a pinched, gaunt appearance in their body. -->
+	<AG_GauntBody.description>Носители этого гена имеют скрюченный, изможденный вид своего тела.</AG_GauntBody.description>
+	<!--                                         EN: Fresh, Rotting -->
+	<AG_GauntBody.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_GauntBody.renderNodeProperties.0.rotDrawMode>
+	<!--                EN: drakonori body -->
+	<AG_DrakonoriBody.label>Тело драконори</AG_DrakonoriBody.label>
+	<!--                        EN: drakonori -->
+	<AG_DrakonoriBody.labelShortAdj>драконори</AG_DrakonoriBody.labelShortAdj>
+	<!--                      EN: Carriers of this gene have a draconic and scaly appearance in their body. -->
+	<AG_DrakonoriBody.description>Носители этого гена имеют драконий и чешуйчатый вид тела.</AG_DrakonoriBody.description>
+	<!--                                             EN: Fresh, Rotting -->
+	<AG_DrakonoriBody.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_DrakonoriBody.renderNodeProperties.0.rotDrawMode>
+	<!--             EN: nereid body -->
+	<AG_NereidBody.label>Тело нереиды</AG_NereidBody.label>
+	<!--                     EN: nereid -->
+	<AG_NereidBody.labelShortAdj>нереид</AG_NereidBody.labelShortAdj>
+	<!--                   EN: Carriers of this gene have a scaly appearance in their body, with bioluminescent spots. -->
+	<AG_NereidBody.description>Тело носителей этого гена покрыто чешуёй с биолюминесцентными пятнами.</AG_NereidBody.description>
+	<!--                                          EN: Fresh, Rotting -->
+	<AG_NereidBody.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_NereidBody.renderNodeProperties.0.rotDrawMode>
+	<!--               EN: forsaken body -->
+	<AG_ForsakenBody.label>тело Отреченных</AG_ForsakenBody.label>
+	<!--                       EN: forsaken -->
+	<AG_ForsakenBody.labelShortAdj>хрупкий</AG_ForsakenBody.labelShortAdj>
+	<!--                     EN: Carriers of this gene have a body that seems to have deep valleys around their bodies and ribs visible beneath the skin in certain places, yet are otherwise healthy in appearance. This results in a slightly lower weight and a significantly more fragile body. -->
+	<AG_ForsakenBody.description>Тело носителей этого гена кажется изрезанным глубокими впадинами, а в некоторых местах под кожей проступают рёбра, хотя в остальном они выглядят здоровыми. Это немного снижает вес, но делает тело значительно более хрупким.</AG_ForsakenBody.description>
+	<!--                                            EN: Fresh, Rotting -->
+	<AG_ForsakenBody.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_ForsakenBody.renderNodeProperties.0.rotDrawMode>
+	<!--              EN: digitigrade legs -->
+	<AG_Digitigrade.label>Ноги Дигитиграды</AG_Digitigrade.label>
+	<!--                      EN: digitigrade -->
+	<AG_Digitigrade.labelShortAdj>Дигитиграды</AG_Digitigrade.labelShortAdj>
+	<!--                    EN: Carriers of this gene have digitigrade legs, meaning they stand or walk with their toes (metatarsals) touching the ground, and the rest of their foot lifted. -->
+	<AG_Digitigrade.description>Носители этого гена имеют дигитиградные ноги: они стоят и ходят, опираясь на пальцы, тогда как остальная часть стопы остаётся приподнятой.</AG_Digitigrade.description>
+	<!--                                   EN: Carrying capacity on the map reduced to 60%. -->
+	<AG_Digitigrade.customEffectDescriptions.0>Грузоподъёмность на карте снижена до 60%.</AG_Digitigrade.customEffectDescriptions.0>
+	<!--                                   EN: Carrying capacity while caravaning reduced to 80%. -->
+	<AG_Digitigrade.customEffectDescriptions.1>Грузоподъёмность в караване снижена до 80%.</AG_Digitigrade.customEffectDescriptions.1>
+</LanguageData>

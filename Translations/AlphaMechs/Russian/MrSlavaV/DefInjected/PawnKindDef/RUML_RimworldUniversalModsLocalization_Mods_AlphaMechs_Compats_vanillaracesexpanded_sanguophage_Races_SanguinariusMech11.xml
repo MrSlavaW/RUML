@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\vanillaracesexpanded_sanguophage\Races_SanguinariusMech11.xml -->
+	<!--                    EN: sanguinarius -->
+	<AM_Mech_Sanguinarius.label>сангвинарий</AM_Mech_Sanguinarius.label>
+	<!--                                       EN: Plural sanguinarius -->
+	<AM_Mech_Sanguinarius.lifeStages.1.labelPlural>Сангвинарии</AM_Mech_Sanguinarius.lifeStages.1.labelPlural>
+<AM_Mech_Sanguinarius.lifeStages.0.labelPlural>Сангвинарии</AM_Mech_Sanguinarius.lifeStages.0.labelPlural></LanguageData>

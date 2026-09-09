@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Animal.xml -->
+	<!--                     EN: despised animal died -->
+	<AM_DespisedAnimalDied.label>презираемое животное умерло</AM_DespisedAnimalDied.label>
+	<!--             EN: animal died -->
+	<AM_AnimalDied.label>животное умерло</AM_AnimalDied.label>
+</LanguageData>

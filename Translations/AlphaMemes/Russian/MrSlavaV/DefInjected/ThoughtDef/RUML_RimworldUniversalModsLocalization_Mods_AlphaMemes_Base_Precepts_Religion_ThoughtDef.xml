@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Religion.xml -->
+	
+	<!--                             EN: religious beliefs -->
+	<AM_Religion_Despised.stages.0.label>религиозные верования</AM_Religion_Despised.stages.0.label>
+	
+	<!--                             EN: religious beliefs -->
+	<AM_Religion_Disliked.stages.0.label>религиозные верования</AM_Religion_Disliked.stages.0.label>
+	
+	<!--                                        EN: proselytizing behaviour -->
+	<AM_Religion_ProselytismDisliked.stages.0.label>прозелитизм</AM_Religion_ProselytismDisliked.stages.0.label>
+	
+	<!--                          EN: religious beliefs -->
+	<AM_Religion_Loved.stages.0.label>религиозные верования</AM_Religion_Loved.stages.0.label>
+</LanguageData>

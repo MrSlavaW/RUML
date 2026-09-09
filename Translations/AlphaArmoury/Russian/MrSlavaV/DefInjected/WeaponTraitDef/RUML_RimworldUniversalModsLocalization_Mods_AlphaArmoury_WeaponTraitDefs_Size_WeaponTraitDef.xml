@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- 1.6\Defs\WeaponTraitDefs\WeaponTraitDefs_Size.xml -->
+
+	<!-- EN: oversized -->
+	<AArmoury_Oversized.label>крупный</AArmoury_Oversized.label>
+	<!-- EN: This weapon is oversized, making it slower to aim, heavier, and more dangerous in close combat. -->
+	<AArmoury_Oversized.description>Это оружие увеличенного размера: оно тяжелее, медленнее в прицеливании и опаснее в ближнем бою.</AArmoury_Oversized.description>
+	
+	<!-- EN: undersized -->
+	<AArmoury_Undersized.label>компактный</AArmoury_Undersized.label>
+	<!-- EN: This weapon is undersized, making it faster to aim, lighter, and less dangerous in close combat. -->
+	<AArmoury_Undersized.description>Это оружие уменьшенного размера: оно легче, быстрее в прицеливании и менее эффективно в ближнем бою.</AArmoury_Undersized.description>
+</LanguageData>

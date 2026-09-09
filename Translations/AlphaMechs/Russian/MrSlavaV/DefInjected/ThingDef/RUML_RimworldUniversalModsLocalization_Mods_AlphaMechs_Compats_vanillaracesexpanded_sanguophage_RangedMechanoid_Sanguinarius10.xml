@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\vanillaracesexpanded_sanguophage\RangedMechanoid_Sanguinarius10.xml -->
+	<!--                   EN: blood belcher -->
+	<AM_Gun_BloodBelcher.label>рыгатель крови</AM_Gun_BloodBelcher.label>
+	<!--                         EN: A fearsome weapon that harnesses the power of boiling, acidic blood. When activated, the Blood Belcher propels a high-pressure stream of acidic hemogen towards its target. -->
+	<AM_Gun_BloodBelcher.description>Грозное оружие, использующее силу кипящей кислой крови. При активации «Изрыгатель крови» направляет к цели струю кислого гемогена под высоким давлением.</AM_Gun_BloodBelcher.description>
+	<!--                           EN: выстрел -->
+	<AM_Gun_BloodBelcher.verbs.0.label>выстрел</AM_Gun_BloodBelcher.verbs.0.label>
+	<!--                           EN: ствол -->
+	<AM_Gun_BloodBelcher.tools.0.label>ствол</AM_Gun_BloodBelcher.tools.0.label>
+</LanguageData>

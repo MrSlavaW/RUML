@@ -1,0 +1,75 @@
+<LanguageData>
+	<!-- 1.6\Defs\HediffDefs\Hediffs_InsectoidMutations.xml -->
+	<!--                    EN: insectoid leg -->
+	<AG_VFEI_InsectoidLeg.label>инсектоидная нога</AG_VFEI_InsectoidLeg.label>
+	<!--                        EN: an insectoid leg -->
+	<AG_VFEI_InsectoidLeg.labelNoun>инсектоидная нога</AG_VFEI_InsectoidLeg.labelNoun>
+	<!--                          EN: A jointed appendage of an insectoid, consisting of several chitin covered segments. Whilst it’s an extremely painful mutation, this leg has much higher resistance to damage. -->
+	<AG_VFEI_InsectoidLeg.description>Суставчатый придаток насекомоядного, состоящий из нескольких покрытых хитином сегментов. Несмотря на крайне болезненную мутацию, эта нога обладает гораздо большей устойчивостью к повреждениям.</AG_VFEI_InsectoidLeg.description>
+	<!--                    EN: insectoid arm -->
+	<AG_VFEI_InsectoidArm.label>рука инсектоида</AG_VFEI_InsectoidArm.label>
+	<!--                        EN: an insectoid arm -->
+	<AG_VFEI_InsectoidArm.labelNoun>рука инсектоида</AG_VFEI_InsectoidArm.labelNoun>
+	<!--                          EN: A jointed appendage of an insectoid, consisting of several chitin covered segments. Whilst it’s an extremely painful mutation, this arm has much higher resistance to damage. -->
+	<AG_VFEI_InsectoidArm.description>Суставчатый придаток насекомоядного, состоящий из нескольких покрытых хитином сегментов. Несмотря на крайне болезненную мутацию, эта рука обладает гораздо большей устойчивостью к повреждениям.</AG_VFEI_InsectoidArm.description>
+	<!--                    EN: compound eye -->
+	<AG_VFEI_SegmentedEye.label>глаз инсектоида</AG_VFEI_SegmentedEye.label>
+	<!--                        EN: a compound eye -->
+	<AG_VFEI_SegmentedEye.labelNoun>глаз инсектоида</AG_VFEI_SegmentedEye.labelNoun>
+	<!--                          EN: An eye consisting of thousands of individual photoreceptor units, compound eyes have a large field of view and help with detecting fast movement, however its visibility range is significantly reduced. Whilst it’s an extremely painful mutation, this eye has a higher resistance to damage. -->
+	<AG_VFEI_SegmentedEye.description>Глаз, состоящий из тысяч отдельных фоторецепторов, имеет большое поле зрения и помогает обнаруживать быстрые движения, однако дальность видимости значительно снижена. Несмотря на то, что это крайне болезненная мутация, такой глаз обладает повышенной устойчивостью к повреждениям.</AG_VFEI_SegmentedEye.description>
+	<!--                 EN: mandibles -->
+	<AG_VFEI_Mandibles.label>инсектоидные мандибулы</AG_VFEI_Mandibles.label>
+	<!--                     EN: mandible -->
+	<AG_VFEI_Mandibles.labelNoun>инсектоидные мандибулы</AG_VFEI_Mandibles.labelNoun>
+	<!--                       EN: A pair of appendages situated on the sides of the mouth, Helping to crush and cut the food. Whilst it’s significantly less comfortable than normal jaw, insectoid mandibles significantly increase eating speed. -->
+	<AG_VFEI_Mandibles.description>Пара придатков, расположенных по бокам рта и помогающих измельчать и разрезать пищу. Хотя они значительно менее удобны, чем обычные челюсти, инсектоидные мандибулы значительно увеличивают скорость приема пищи.</AG_VFEI_Mandibles.description>
+	<!--                  EN: venom gland -->
+	<AG_VFEI_VenomGland.label>ядовитая железа</AG_VFEI_VenomGland.label>
+	<!--                      EN: venom gland -->
+	<AG_VFEI_VenomGland.labelNoun>ядовитая железа</AG_VFEI_VenomGland.labelNoun>
+	<!--                        EN: A sack-like gland tucked under the tongue that secretes acid, liquifying and allowing to safely consume even the most dangerous foods. The overstimulation of this gland enables the user to throw a short range acid spitting attack, effective at going through armor. -->
+	<AG_VFEI_VenomGland.description>Мешковидная железа, расположенная под языком, выделяет кислоту, разжижает ее и позволяет спокойно употреблять даже самые опасные продукты. Перевозбуждение этой железы позволяет пользователю наносить кислотные плевки с короткой дистанции, эффективно пробивая броню</AG_VFEI_VenomGland.description>
+	<!--                                  EN: venom gland -->
+	<AG_VFEI_VenomGland.comps.0.tools.0.label>Ядовитая железа</AG_VFEI_VenomGland.comps.0.tools.0.label>
+	<!--                     EN: pneumatic claw -->
+	<AG_VFEI_PneumaticClaw.label>клешня инсектоида</AG_VFEI_PneumaticClaw.label>
+	<!--                         EN: pneumatic claw -->
+	<AG_VFEI_PneumaticClaw.labelNoun>клешня инсектоида</AG_VFEI_PneumaticClaw.labelNoun>
+	<!--                           EN: A powerful pneumatic pincer arm, capable of repeatedly exerting great pressure on the target at the cost of refined motor skills. -->
+	<AG_VFEI_PneumaticClaw.description>Мощная клешня инсектоида, способная многократно оказывать сильное давление на цель ценой отточенной моторики.</AG_VFEI_PneumaticClaw.description>
+	<!--                                     EN: claw -->
+	<AG_VFEI_PneumaticClaw.comps.0.tools.0.label>когти</AG_VFEI_PneumaticClaw.comps.0.tools.0.label>
+	<!--                       EN: adrenal secretor -->
+	<AG_VFEI_AdrenalSecretor.label>Инсектоидная почка</AG_VFEI_AdrenalSecretor.label>
+	<!--                           EN: adrenal secretor -->
+	<AG_VFEI_AdrenalSecretor.labelNoun>Инсектоидная почка</AG_VFEI_AdrenalSecretor.labelNoun>
+	<!--                             EN: An insectoid kidney with a hyperactive adrenal gland. Subjects with this mutation may find newfound pleasure in inflicting pain. However, it does bring the side effect of unwarranted aggression. -->
+	<AG_VFEI_AdrenalSecretor.description>Инсектоидная почка с гиперактивным надпочечником. Обладатели этой мутации могут находить новое удовольствие в причинении боли. Однако это влечет за собой побочный эффект - необоснованную агрессию.</AG_VFEI_AdrenalSecretor.description>
+	<!--               EN: antenna -->
+	<AG_VFEI_Antenna.label>Усики инсектоида</AG_VFEI_Antenna.label>
+	<!--                   EN: antenna -->
+	<AG_VFEI_Antenna.labelNoun>Усики инсектоида</AG_VFEI_Antenna.labelNoun>
+	<!--                     EN: A slender, mobile sensory organ that serves to compliment vision and locational awareness. A subject with this mutation will no longer suffer from darkness penalties, however sensory overload makes it very difficult to socialize. -->
+	<AG_VFEI_Antenna.description>Тонкий, подвижный орган чувств, служащий для дополнения зрения и определения местоположения. Объект с этой мутацией больше не страдает от штрафов за темноту, однако сенсорная перегрузка сильно затрудняет общение.</AG_VFEI_Antenna.description>
+	<!--                       EN: predator stomach -->
+	<AG_VFEI_PredatorStomach.label>желудок инсектоида</AG_VFEI_PredatorStomach.label>
+	<!--                           EN: predator stomach -->
+	<AG_VFEI_PredatorStomach.labelNoun>желудок инсектоида</AG_VFEI_PredatorStomach.labelNoun>
+	<!--                             EN: A highly efficient, although basic stomach alternative. Subjects with this mutation will be able to live longer with less food. Increases nutrition of non-raw food by 10%. -->
+	<AG_VFEI_PredatorStomach.description>Высокоэффективный, хотя и базовая альтернатива желудку. Люди с такой мутацией смогут жить дольше, потребляя меньше пищи. Повышает питательность несырьевых продуктов на 10%</AG_VFEI_PredatorStomach.description>
+	<!--                         EN: pheromone secretor -->
+	<AG_VFEI_PheromoneSecretor.label>секретор феромонов</AG_VFEI_PheromoneSecretor.label>
+	<!--                               EN: Insectoid glands that slowly leak colorless, odorless, but sticky pheromone, notable for inducing a mild euphoria in those nearby. -->
+	<AG_VFEI_PheromoneSecretor.description>Насекомовидные железы, из которых медленно вытекает бесцветный, не имеющий запаха, но липкий феромон, вызывающий легкую эйфорию у тех, кто находится рядом.</AG_VFEI_PheromoneSecretor.description>
+	<!--                         EN: ventricular sleeve -->
+	<AG_VFEI_VentricularSleeve.label>сердце инсектоида</AG_VFEI_VentricularSleeve.label>
+	<!--                             EN: ventricular sleeve -->
+	<AG_VFEI_VentricularSleeve.labelNoun>сердце инсектоида</AG_VFEI_VentricularSleeve.labelNoun>
+	<!--                               EN: A barely understood heart and artery mutation, causes blood to coagulate into oxygen-rich gel-like material. Upon laceration or even loss of limbs, the gel will cauterize the wound immediately. Unfortunately puts heavy strain on human cardiovascular biology. -->
+	<AG_VFEI_VentricularSleeve.description>Малоизученная мутация сердца и артерий приводит к тому, что кровь сворачивается в богатый кислородом гелеобразный материал. При ранениях или даже потере конечностей гель немедленно прижигает рану. К сожалению, это создает большую нагрузку на сердечно-сосудистую систему человека.</AG_VFEI_VentricularSleeve.description>
+	<!--                          EN: synaptic cerebellum -->
+	<AG_VFEI_SynapticCerebellum.label>Мозг инсектоида</AG_VFEI_SynapticCerebellum.label>
+	<!--                                EN: An insectoid brain particularly sensitive to residual psychic synapse. A creature with this mutation possesses profound collective thought and psychic sensitivity, however is barely able to form cohesive sentences. -->
+	<AG_VFEI_SynapticCerebellum.description>Мозг инсектоида, особенно чувствительный к остаточным психическим синапсам. Существо с этой мутацией обладает глубоким коллективным мышлением и экстрасенсорной чувствительностью, однако едва ли способно составлять связные предложения.</AG_VFEI_SynapticCerebellum.description>
+</LanguageData>

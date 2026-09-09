@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_CleanPhalanx.xml -->
+	<!--                EN: phalanx -->
+	<VFE_Mech_Phalanx.label>фаланга</VFE_Mech_Phalanx.label>
+	<!--                                   EN: Plural phalanx -->
+	<VFE_Mech_Phalanx.lifeStages.0.labelPlural>Фаланги</VFE_Mech_Phalanx.lifeStages.0.labelPlural>
+</LanguageData>

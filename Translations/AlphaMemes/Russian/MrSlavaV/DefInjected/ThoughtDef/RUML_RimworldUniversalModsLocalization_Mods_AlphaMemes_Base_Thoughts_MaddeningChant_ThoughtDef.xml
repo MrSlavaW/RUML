@@ -1,0 +1,22 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThoughtDefs\MaddeningChant\Thoughts_MaddeningChant.xml -->
+	<!--                                  EN: rational maddening chant -->
+	<AM_RationalMaddeningChant.stages.0.label>сводящая с ума песнь</AM_RationalMaddeningChant.stages.0.label>
+	<!--                                        EN: What was that? There was no shared insanity, no cackling forbidden whispers of madness. What a bore. -->
+	<AM_RationalMaddeningChant.stages.0.description>Что это было? Не было общего безумия, не было гогочащего запретного шепота безумия. Какая скука.</AM_RationalMaddeningChant.stages.0.description>
+	
+	<!--                                  EN: deranged maddening chant -->
+	<AM_DerangedMaddeningChant.stages.0.label>безумный сводящий с ума напев</AM_DerangedMaddeningChant.stages.0.label>
+	<!--                                        EN: One person's craziness is another person's reality. -->
+	<AM_DerangedMaddeningChant.stages.0.description>Сумасшествие одного человека — реальность другого человека.</AM_DerangedMaddeningChant.stages.0.description>
+	
+	<!--                                   EN: psychotic maddening chant -->
+	<AM_PsychoticMaddeningChant.stages.0.label>психотический сводящий с ума напев</AM_PsychoticMaddeningChant.stages.0.label>
+	<!--                                         EN: There's a fine line between genius and insanity. We have erased this line. -->
+	<AM_PsychoticMaddeningChant.stages.0.description>Между гениальностью и безумием тонкая грань. Мы стерли эту грань.</AM_PsychoticMaddeningChant.stages.0.description>
+	
+	<!--                                EN: insane maddening chant -->
+	<AM_InsaneMaddeningChant.stages.0.label>безумный сводящий с ума напев</AM_InsaneMaddeningChant.stages.0.label>
+	<!--                                      EN: Sweet, crazy conversations full of half sentences, daydreams and misunderstandings more thrilling than understanding could ever be. -->
+	<AM_InsaneMaddeningChant.stages.0.description>Сладкие, сумасшедшие разговоры, полные полупредложений, мечтаний и недоразумений, более захватывающих, чем понимание.</AM_InsaneMaddeningChant.stages.0.description>
+</LanguageData>

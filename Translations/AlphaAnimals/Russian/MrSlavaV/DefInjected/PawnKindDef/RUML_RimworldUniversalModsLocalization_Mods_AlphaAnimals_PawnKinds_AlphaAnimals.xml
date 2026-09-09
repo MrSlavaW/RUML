@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AAVPE_BlackQueen.label>чёрная королева улья</AAVPE_BlackQueen.label>
+  <AAVPE_BlackQueen.labelMale>чёрная королева улья</AAVPE_BlackQueen.labelMale>
+  <AAVPE_BlackQueen.labelFemale>чёрная королева улья</AAVPE_BlackQueen.labelFemale>
+  <AAVPE_BlackQueen.labelYoung>юная чёрная королева</AAVPE_BlackQueen.labelYoung>
+  <AA_AcanthamoebaGiganteaHuge.label>исполинская акантамёба</AA_AcanthamoebaGiganteaHuge.label>
+  <AA_AcanthamoebaGiganteaHuge.labelMale>исполинская акантамёба</AA_AcanthamoebaGiganteaHuge.labelMale>
+  <AA_AcanthamoebaGiganteaHuge.labelFemale>исполинская акантамёба</AA_AcanthamoebaGiganteaHuge.labelFemale>
+  <AA_AcanthamoebaGiganteaHuge.labelYoung>сгусток акантамёбы</AA_AcanthamoebaGiganteaHuge.labelYoung>
+  <AA_AcanthamoebaGiganteaLarge.label>гигантская акантамёба</AA_AcanthamoebaGiganteaLarge.label>
+  <AA_AcanthamoebaGiganteaLarge.labelMale>гигантская акантамёба</AA_AcanthamoebaGiganteaLarge.labelMale>
+  <AA_AcanthamoebaGiganteaLarge.labelFemale>гигантская акантамёба</AA_AcanthamoebaGiganteaLarge.labelFemale>
+  <AA_AcanthamoebaGiganteaLarge.labelYoung>сгусток акантамёбы</AA_AcanthamoebaGiganteaLarge.labelYoung>
+  <AA_AcanthamoebaGiganteaSmall.label>малая гигантская акантамёба</AA_AcanthamoebaGiganteaSmall.label>
+  <AA_AcanthamoebaGiganteaSmall.labelMale>малая акантамёба</AA_AcanthamoebaGiganteaSmall.labelMale>
+  <AA_AcanthamoebaGiganteaSmall.labelFemale>малая акантамёба</AA_AcanthamoebaGiganteaSmall.labelFemale>
+  <AA_AcanthamoebaGiganteaSmall.labelYoung>сгусток акантамёбы</AA_AcanthamoebaGiganteaSmall.labelYoung>
+  <AA_Aerofleet.label>аэрофлит</AA_Aerofleet.label>
+  <AA_Aerofleet.labelMale>самец аэрофлита</AA_Aerofleet.labelMale>
+  <AA_Aerofleet.labelFemale>самка аэрофлита</AA_Aerofleet.labelFemale>
+  <AA_Aerofleet.labelYoung>молодой аэрофлит</AA_Aerofleet.labelYoung>
+  <AA_Agaripawn.label>агарипешка</AA_Agaripawn.label>
+  <AA_Agaripawn.labelMale>агарипешка</AA_Agaripawn.labelMale>
+  <AA_Agaripawn.labelFemale>агарипешка</AA_Agaripawn.labelFemale>
+  <AA_Agaripawn.labelYoung>росток агарипешки</AA_Agaripawn.labelYoung>
+  <AA_Agaripod.label>агарипод</AA_Agaripod.label>
+  <AA_Agaripod.labelMale>агарипод</AA_Agaripod.labelMale>
+  <AA_Agaripod.labelFemale>агарипод</AA_Agaripod.labelFemale>
+  <AA_Agaripod.labelYoung>росток агарипода</AA_Agaripod.labelYoung>
+  <AA_AngelMoth.label>мотылёк-ангел</AA_AngelMoth.label>
+  <AA_AngelMoth.labelMale>самец мотылька-ангела</AA_AngelMoth.labelMale>
+  <AA_AngelMoth.labelFemale>самка мотылька-ангела</AA_AngelMoth.labelFemale>
+  <AA_AngelMoth.labelYoung>гусеница мотылька-ангела</AA_AngelMoth.labelYoung>
+  <AA_AngelMothLarva.label>личинка мотылька-ангела</AA_AngelMothLarva.label>
+  <AA_AngelMothLarva.labelMale>личинка мотылька-ангела</AA_AngelMothLarva.labelMale>
+  <AA_AngelMothLarva.labelFemale>личинка мотылька-ангела</AA_AngelMothLarva.labelFemale>
+  <AA_AngelMothLarva.labelYoung>малая личинка</AA_AngelMothLarva.labelYoung>
+  <AA_AnimaColossus.label>анима-колосс</AA_AnimaColossus.label>
+  <AA_AnimaColossus.labelMale>самец анима-колосса</AA_AnimaColossus.labelMale>
+  <AA_AnimaColossus.labelFemale>самка анима-колосса</AA_AnimaColossus.labelFemale>
+  <AA_AnimaColossus.labelYoung>детёныш анима-колосса</AA_AnimaColossus.labelYoung>
+  <AA_Animalisk.label>анималиск</AA_Animalisk.label>
+  <AA_Animalisk.labelMale>самец анималиска</AA_Animalisk.labelMale>
+  <AA_Animalisk.labelFemale>самка анималиска</AA_Animalisk.labelFemale>
+  <AA_Animalisk.labelYoung>паучонок анималиска</AA_Animalisk.labelYoung>
+  <AA_AnimusVox.label>анимус-вокс</AA_AnimusVox.label>
+  <AA_AnimusVox.labelMale>самец анимус-вокса</AA_AnimusVox.labelMale>
+  <AA_AnimusVox.labelFemale>самка анимус-вокса</AA_AnimusVox.labelFemale>
+  <AA_AnimusVox.labelYoung>щенок анимус-вокса</AA_AnimusVox.labelYoung>
+  <AA_ArcticLion.label>полярный лев</AA_ArcticLion.label>
+  <AA_ArcticLion.labelMale>полярный лев</AA_ArcticLion.labelMale>
+  <AA_ArcticLion.labelFemale>полярная львица</AA_ArcticLion.labelFemale>
+  <AA_ArcticLion.labelYoung>полярный львёнок</AA_ArcticLion.labelYoung>
+  <AA_Atispec.label>атиспек</AA_Atispec.label>
+  <AA_Atispec.labelMale>самец атиспека</AA_Atispec.labelMale>
+  <AA_Atispec.labelFemale>самка атиспека</AA_Atispec.labelFemale>
+  <AA_Atispec.labelYoung>детёныш атиспека</AA_Atispec.labelYoung>
+  <AA_AuroraSylph.label>северный сильф</AA_AuroraSylph.label>
+  <AA_AuroraSylph.labelMale>самец северного сильфа</AA_AuroraSylph.labelMale>
+  <AA_AuroraSylph.labelFemale>самка северного сильфа</AA_AuroraSylph.labelFemale>
+  <AA_AuroraSylph.labelYoung>молодой северный сильф</AA_AuroraSylph.labelYoung>
+  <AA_Barbslinger.label>шипомёт</AA_Barbslinger.label>
+  <AA_Barbslinger.labelMale>самец шипомёта</AA_Barbslinger.labelMale>
+  <AA_Barbslinger.labelFemale>самка шипомёта</AA_Barbslinger.labelFemale>
+  <AA_Barbslinger.labelYoung>молодой шипомёт</AA_Barbslinger.labelYoung>
+  <AA_BedBug.label>постельный клоп</AA_BedBug.label>
+  <AA_BedBug.labelMale>самец постельного клопа</AA_BedBug.labelMale>
+  <AA_BedBug.labelFemale>самка постельного клопа</AA_BedBug.labelFemale>
+  <AA_BedBug.labelYoung>личинка постельного клопа</AA_BedBug.labelYoung>
+  <AA_Behemoth.label>бегемот</AA_Behemoth.label>
+  <AA_Behemoth.labelMale>самец бегемота</AA_Behemoth.labelMale>
+  <AA_Behemoth.labelFemale>самка бегемота</AA_Behemoth.labelFemale>
+  <AA_Behemoth.labelYoung>детёныш бегемота</AA_Behemoth.labelYoung>
+  <AA_BlackLarvae.label>чёрная личинка</AA_BlackLarvae.label>
+  <AA_BlackLarvae.labelMale>чёрная личинка</AA_BlackLarvae.labelMale>
+  <AA_BlackLarvae.labelFemale>чёрная личинка</AA_BlackLarvae.labelFemale>
+  <AA_BlackLarvae.labelYoung>малая чёрная личинка</AA_BlackLarvae.labelYoung>
+  <AA_BlackScarab.label>чёрный скарабей</AA_BlackScarab.label>
+  <AA_BlackScarab.labelMale>самец чёрного скарабея</AA_BlackScarab.labelMale>
+  <AA_BlackScarab.labelFemale>самка чёрного скарабея</AA_BlackScarab.labelFemale>
+  <AA_BlackScarab.labelYoung>личинка чёрного скарабея</AA_BlackScarab.labelYoung>
+  <AA_BlackScarab_Temporary.label>чёрный скарабей</AA_BlackScarab_Temporary.label>
+  <AA_BlackScarab_Temporary.labelMale>самец чёрного скарабея</AA_BlackScarab_Temporary.labelMale>
+  <AA_BlackScarab_Temporary.labelFemale>самка чёрного скарабея</AA_BlackScarab_Temporary.labelFemale>
+  <AA_BlackScarab_Temporary.labelYoung>личинка чёрного скарабея</AA_BlackScarab_Temporary.labelYoung>
+  <AA_BlackSpelopede.label>чёрный мегаскарабей</AA_BlackSpelopede.label>
+  <AA_BlackSpelopede.labelMale>самец чёрного мегаскарабея</AA_BlackSpelopede.labelMale>
+  <AA_BlackSpelopede.labelFemale>самка чёрного мегаскарабея</AA_BlackSpelopede.labelFemale>
+  <AA_BlackSpelopede.labelYoung>молодой чёрный мегаскарабей</AA_BlackSpelopede.labelYoung>
+  <AA_BlackSpelopede_Temporary.label>чёрный мегаскарабей</AA_BlackSpelopede_Temporary.label>
+  <AA_BlackSpelopede_Temporary.labelMale>самец чёрного мегаскарабея</AA_BlackSpelopede_Temporary.labelMale>
+  <AA_BlackSpelopede_Temporary.labelFemale>самка чёрного мегаскарабея</AA_BlackSpelopede_Temporary.labelFemale>
+  <AA_BlackSpelopede_Temporary.labelYoung>молодой чёрный мегаскарабей</AA_BlackSpelopede_Temporary.labelYoung>
+  <AA_BlackSpider.label>чёрный паук</AA_BlackSpider.label>
+  <AA_BlackSpider.labelMale>самец чёрного паука</AA_BlackSpider.labelMale>
+  <AA_BlackSpider.labelFemale>самка чёрного паука</AA_BlackSpider.labelFemale>
+  <AA_BlackSpider.labelYoung>молодой чёрный паук</AA_BlackSpider.labelYoung>
+  <AA_BlackSpider_Temporary.label>чёрный паук</AA_BlackSpider_Temporary.label>
+  <AA_BlackSpider_Temporary.labelMale>самец чёрного паука</AA_BlackSpider_Temporary.labelMale>
+  <AA_BlackSpider_Temporary.labelFemale>самка чёрного паука</AA_BlackSpider_Temporary.labelFemale>
+  <AA_BlackSpider_Temporary.labelYoung>молодой чёрный паук</AA_BlackSpider_Temporary.labelYoung>
+  <AA_Blizzarisk.label>близзариск</AA_Blizzarisk.label>
+  <AA_Blizzarisk.labelMale>самец близзариска</AA_Blizzarisk.labelMale>
+  <AA_Blizzarisk.labelFemale>самка близзариска</AA_Blizzarisk.labelFemale>
+  <AA_Blizzarisk.labelYoung>паучонок близзариска</AA_Blizzarisk.labelYoung>
+  <AA_BlizzariskClutchMother.label>мать выводка близзарисков</AA_BlizzariskClutchMother.label>
+  <AA_BlizzariskClutchMother.labelMale>мать выводка близзарисков</AA_BlizzariskClutchMother.labelMale>
+  <AA_BlizzariskClutchMother.labelFemale>мать выводка близзарисков</AA_BlizzariskClutchMother.labelFemale>
+  <AA_BlizzariskClutchMother.labelYoung>юная самка близзариска</AA_BlizzariskClutchMother.labelYoung>
+  <AA_BloodShrimp.label>кровавая креветка</AA_BloodShrimp.label>
+  <AA_BloodShrimp.labelMale>самец кровавой креветки</AA_BloodShrimp.labelMale>
+  <AA_BloodShrimp.labelFemale>самка кровавой креветки</AA_BloodShrimp.labelFemale>
+  <AA_BloodShrimp.labelYoung>молодая кровавая креветка</AA_BloodShrimp.labelYoung>
+  <AA_Bobeene.label>бобин</AA_Bobeene.label>
+  <AA_Bobeene.labelMale>самец бобина</AA_Bobeene.labelMale>
+  <AA_Bobeene.labelFemale>самка бобина</AA_Bobeene.labelFemale>
+  <AA_Bobeene.labelYoung>личинка бобина</AA_Bobeene.labelYoung>
+  <AA_BoulderMit.label>валунник</AA_BoulderMit.label>
+  <AA_BoulderMit.labelMale>самец валунника</AA_BoulderMit.labelMale>
+  <AA_BoulderMit.labelFemale>самка валунника</AA_BoulderMit.labelFemale>
+  <AA_BoulderMit.labelYoung>малый валунник</AA_BoulderMit.labelYoung>
+  <AA_Bumbledrone.label>шмеледроид</AA_Bumbledrone.label>
+  <AA_Bumbledrone.labelMale>трутень шмеледроида</AA_Bumbledrone.labelMale>
+  <AA_Bumbledrone.labelFemale>рабочий шмеледроид</AA_Bumbledrone.labelFemale>
+  <AA_Bumbledrone.labelYoung>личинка шмеледроида</AA_Bumbledrone.labelYoung>
+  <AA_BumbledroneHierophant.label>иерофант шмеледроидов</AA_BumbledroneHierophant.label>
+  <AA_BumbledroneHierophant.labelMale>самец-иерофант</AA_BumbledroneHierophant.labelMale>
+  <AA_BumbledroneHierophant.labelFemale>самка-иерофант</AA_BumbledroneHierophant.labelFemale>
+  <AA_BumbledroneHierophant.labelYoung>молодой иерофант</AA_BumbledroneHierophant.labelYoung>
+  <AA_BumbledroneQueen.label>королева шмеледроидов</AA_BumbledroneQueen.label>
+  <AA_BumbledroneQueen.labelMale>королева шмеледроидов</AA_BumbledroneQueen.labelMale>
+  <AA_BumbledroneQueen.labelFemale>королева шмеледроидов</AA_BumbledroneQueen.labelFemale>
+  <AA_BumbledroneQueen.labelYoung>юная матка шмеледроидов</AA_BumbledroneQueen.labelYoung>
+  <AA_Cactipine.label>кактипин</AA_Cactipine.label>
+  <AA_Cactipine.labelMale>самец кактипина</AA_Cactipine.labelMale>
+  <AA_Cactipine.labelFemale>самка кактипина</AA_Cactipine.labelFemale>
+  <AA_Cactipine.labelYoung>детёныш кактипина</AA_Cactipine.labelYoung>
+  <AA_ChameleonYak.label>як-хамелеон</AA_ChameleonYak.label>
+  <AA_ChameleonYak.labelMale>бык-хамелеон</AA_ChameleonYak.labelMale>
+  <AA_ChameleonYak.labelFemale>корова-хамелеон</AA_ChameleonYak.labelFemale>
+  <AA_ChameleonYak.labelYoung>телёнок-хамелеон</AA_ChameleonYak.labelYoung>
+  <AA_ChemfuelMyrmidon.label>топливный мирмидонец</AA_ChemfuelMyrmidon.label>
+  <AA_ChemfuelMyrmidon.labelMale>самец-мирмидонец</AA_ChemfuelMyrmidon.labelMale>
+  <AA_ChemfuelMyrmidon.labelFemale>самка-мирмидонец</AA_ChemfuelMyrmidon.labelFemale>
+  <AA_ChemfuelMyrmidon.labelYoung>личинка мирмидонца</AA_ChemfuelMyrmidon.labelYoung>
+  <AA_Cinderlisk.label>пепелиск</AA_Cinderlisk.label>
+  <AA_Cinderlisk.labelMale>самец пепелиска</AA_Cinderlisk.labelMale>
+  <AA_Cinderlisk.labelFemale>самка пепелиска</AA_Cinderlisk.labelFemale>
+  <AA_Cinderlisk.labelYoung>паучонок пепелиска</AA_Cinderlisk.labelYoung>
+  <AA_ColossalAerofleet.label>колоссальный аэрофлит</AA_ColossalAerofleet.label>
+  <AA_ColossalAerofleet.labelMale>колоссальный аэрофлит-самец</AA_ColossalAerofleet.labelMale>
+  <AA_ColossalAerofleet.labelFemale>колоссальный аэрофлит-самка</AA_ColossalAerofleet.labelFemale>
+  <AA_ColossalAerofleet.labelYoung>юный колоссальный аэрофлит</AA_ColossalAerofleet.labelYoung>
+  <AA_CrepuscularBeetle.label>сумеречный жук</AA_CrepuscularBeetle.label>
+  <AA_CrepuscularBeetle.labelMale>самец сумеречного жука</AA_CrepuscularBeetle.labelMale>
+  <AA_CrepuscularBeetle.labelFemale>самка сумеречного жука</AA_CrepuscularBeetle.labelFemale>
+  <AA_CrepuscularBeetle.labelYoung>личинка сумеречного жука</AA_CrepuscularBeetle.labelYoung>
+  <AA_CrescendoAnole.label>анолис крещендо</AA_CrescendoAnole.label>
+  <AA_CrescendoAnole.labelMale>самец анолиса</AA_CrescendoAnole.labelMale>
+  <AA_CrescendoAnole.labelFemale>самка анолиса</AA_CrescendoAnole.labelFemale>
+  <AA_CrescendoAnole.labelYoung>детёныш анолиса</AA_CrescendoAnole.labelYoung>
+  <AA_CrystalMit.label>кристальник</AA_CrystalMit.label>
+  <AA_CrystalMit.labelMale>самец кристальника</AA_CrystalMit.labelMale>
+  <AA_CrystalMit.labelFemale>самка кристальника</AA_CrystalMit.labelFemale>
+  <AA_CrystalMit.labelYoung>малый кристальник</AA_CrystalMit.labelYoung>
+  <AA_CrystallineCaracal.label>кристальный каракал</AA_CrystallineCaracal.label>
+  <AA_CrystallineCaracal.labelMale>самец кристального каракала</AA_CrystallineCaracal.labelMale>
+  <AA_CrystallineCaracal.labelFemale>самка кристального каракала</AA_CrystallineCaracal.labelFemale>
+  <AA_CrystallineCaracal.labelYoung>котёнок кристального каракала</AA_CrystallineCaracal.labelYoung>
+  <AA_DarkVandal.label>тёмный вандал</AA_DarkVandal.label>
+  <AA_DarkVandal.labelMale>самец тёмного вандала</AA_DarkVandal.labelMale>
+  <AA_DarkVandal.labelFemale>самка тёмного вандала</AA_DarkVandal.labelFemale>
+  <AA_DarkVandal.labelYoung>детёныш тёмного вандала</AA_DarkVandal.labelYoung>
+  <AA_Darkbeast.label>тёмный зверь</AA_Darkbeast.label>
+  <AA_Darkbeast.labelMale>самец тёмного зверя</AA_Darkbeast.labelMale>
+  <AA_Darkbeast.labelFemale>самка тёмного зверя</AA_Darkbeast.labelFemale>
+  <AA_Darkbeast.labelYoung>детёныш тёмного зверя</AA_Darkbeast.labelYoung>
+  <AA_DecayDrake.label>дракон гниения</AA_DecayDrake.label>
+  <AA_DecayDrake.labelMale>самец дракона гниения</AA_DecayDrake.labelMale>
+  <AA_DecayDrake.labelFemale>самка дракона гниения</AA_DecayDrake.labelFemale>
+  <AA_DecayDrake.labelYoung>детёныш дракона гниения</AA_DecayDrake.labelYoung>
+  <AA_DesertAve.label>пустынный аве</AA_DesertAve.label>
+  <AA_DesertAve.labelMale>самец пустынного аве</AA_DesertAve.labelMale>
+  <AA_DesertAve.labelFemale>самка пустынного аве</AA_DesertAve.labelFemale>
+  <AA_DesertAve.labelYoung>птенец пустынного аве</AA_DesertAve.labelYoung>
+  <AA_DevilSheep.label>дьявольская овца</AA_DevilSheep.label>
+  <AA_DevilSheep.labelMale>дьявольский баран</AA_DevilSheep.labelMale>
+  <AA_DevilSheep.labelFemale>дьявольская овца</AA_DevilSheep.labelFemale>
+  <AA_DevilSheep.labelYoung>дьявольский ягнёнок</AA_DevilSheep.labelYoung>
+  <AA_Drainer.label>дренер</AA_Drainer.label>
+  <AA_Drainer.labelMale>самец дренера</AA_Drainer.labelMale>
+  <AA_Drainer.labelFemale>самка дренера</AA_Drainer.labelFemale>
+  <AA_Drainer.labelYoung>гусеница дренера</AA_Drainer.labelYoung>
+  <AA_DrainerLarva.label>личинка дренера</AA_DrainerLarva.label>
+  <AA_DrainerLarva.labelMale>личинка дренера</AA_DrainerLarva.labelMale>
+  <AA_DrainerLarva.labelFemale>личинка дренера</AA_DrainerLarva.labelFemale>
+  <AA_DrainerLarva.labelYoung>малая личинка</AA_DrainerLarva.labelYoung>
+  <AA_Dunealisk.label>дюналиск</AA_Dunealisk.label>
+  <AA_Dunealisk.labelMale>самец дюналиска</AA_Dunealisk.labelMale>
+  <AA_Dunealisk.labelFemale>самка дюналиска</AA_Dunealisk.labelFemale>
+  <AA_Dunealisk.labelYoung>паучонок дюналиска</AA_Dunealisk.labelYoung>
+  <AA_DunealiskClutchMother.label>мать выводка дюналисков</AA_DunealiskClutchMother.label>
+  <AA_DunealiskClutchMother.labelMale>мать выводка дюналисков</AA_DunealiskClutchMother.labelMale>
+  <AA_DunealiskClutchMother.labelFemale>мать выводка дюналисков</AA_DunealiskClutchMother.labelFemale>
+  <AA_DunealiskClutchMother.labelYoung>юная самка дюналиска</AA_DunealiskClutchMother.labelYoung>
+  <AA_DuskProwler.label>сумеречный рыскатель</AA_DuskProwler.label>
+  <AA_DuskProwler.labelMale>самец сумеречного рыскателя</AA_DuskProwler.labelMale>
+  <AA_DuskProwler.labelFemale>самка сумеречного рыскателя</AA_DuskProwler.labelFemale>
+  <AA_DuskProwler.labelYoung>детёныш сумеречного рыскателя</AA_DuskProwler.labelYoung>
+  <AA_DuskRat.label>сумеречная крыса</AA_DuskRat.label>
+  <AA_DuskRat.labelMale>самец сумеречной крысы</AA_DuskRat.labelMale>
+  <AA_DuskRat.labelFemale>самка сумеречной крысы</AA_DuskRat.labelFemale>
+  <AA_DuskRat.labelYoung>крысёнок</AA_DuskRat.labelYoung>
+  <AA_EmpressButterfly.label>бабочка-императрица</AA_EmpressButterfly.label>
+  <AA_EmpressButterfly.labelMale>самец императрицы</AA_EmpressButterfly.labelMale>
+  <AA_EmpressButterfly.labelFemale>самка императрицы</AA_EmpressButterfly.labelFemale>
+  <AA_EmpressButterfly.labelYoung>гусеница императрицы</AA_EmpressButterfly.labelYoung>
+  <AA_EmpressButterflyLarva.label>личинка бабочки-императрицы</AA_EmpressButterflyLarva.label>
+  <AA_EmpressButterflyLarva.labelMale>личинка императрицы</AA_EmpressButterflyLarva.labelMale>
+  <AA_EmpressButterflyLarva.labelFemale>личинка императрицы</AA_EmpressButterflyLarva.labelFemale>
+  <AA_EmpressButterflyLarva.labelYoung>малая личинка</AA_EmpressButterflyLarva.labelYoung>
+  <AA_EngorgedTentacularAberration.label>раздувшаяся щупальцевая аберрация</AA_EngorgedTentacularAberration.label>
+  <AA_EngorgedTentacularAberration.labelMale>аберрация</AA_EngorgedTentacularAberration.labelMale>
+  <AA_EngorgedTentacularAberration.labelFemale>аберрация</AA_EngorgedTentacularAberration.labelFemale>
+  <AA_EngorgedTentacularAberration.labelYoung>малая аберрация</AA_EngorgedTentacularAberration.labelYoung>
+  <AA_Erin.label>эрин</AA_Erin.label>
+  <AA_Erin.labelMale>самец эрина</AA_Erin.labelMale>
+  <AA_Erin.labelFemale>самка эрина</AA_Erin.labelFemale>
+  <AA_Erin.labelYoung>детёныш эрина</AA_Erin.labelYoung>
+  <AA_Eyeling.label>глазник</AA_Eyeling.label>
+  <AA_Eyeling.labelMale>самец глазника</AA_Eyeling.labelMale>
+  <AA_Eyeling.labelFemale>самка глазника</AA_Eyeling.labelFemale>
+  <AA_Eyeling.labelYoung>малый глазник</AA_Eyeling.labelYoung>
+  <AA_Fangsquid.label>клыкастый кальмар</AA_Fangsquid.label>
+  <AA_Fangsquid.labelMale>самец клыкастого кальмара</AA_Fangsquid.labelMale>
+  <AA_Fangsquid.labelFemale>самка клыкастого кальмара</AA_Fangsquid.labelFemale>
+  <AA_Fangsquid.labelYoung>молодой клыкастый кальмар</AA_Fangsquid.labelYoung>
+  <AA_Feralisk.label>фералиск</AA_Feralisk.label>
+  <AA_Feralisk.labelMale>самец фералиска</AA_Feralisk.labelMale>
+  <AA_Feralisk.labelFemale>самка фералиска</AA_Feralisk.labelFemale>
+  <AA_Feralisk.labelYoung>паучонок фералиска</AA_Feralisk.labelYoung>
+  <AA_FeraliskClutchMother.label>мать выводка фералисков</AA_FeraliskClutchMother.label>
+  <AA_FeraliskClutchMother.labelMale>мать выводка фералисков</AA_FeraliskClutchMother.labelMale>
+  <AA_FeraliskClutchMother.labelFemale>мать выводка фералисков</AA_FeraliskClutchMother.labelFemale>
+  <AA_FeraliskClutchMother.labelYoung>юная самка фералиска</AA_FeraliskClutchMother.labelYoung>
+  <AA_FireWasp.label>огненная оса</AA_FireWasp.label>
+  <AA_FireWasp.labelMale>самец огненной осы</AA_FireWasp.labelMale>
+  <AA_FireWasp.labelFemale>самка огненной осы</AA_FireWasp.labelFemale>
+  <AA_FireWasp.labelYoung>личинка огненной осы</AA_FireWasp.labelYoung>
+  <AA_FissionMouse.label>мышь деления</AA_FissionMouse.label>
+  <AA_FissionMouse.labelMale>самец мыши деления</AA_FissionMouse.labelMale>
+  <AA_FissionMouse.labelFemale>самка мыши деления</AA_FissionMouse.labelFemale>
+  <AA_FissionMouse.labelYoung>мышонок деления</AA_FissionMouse.labelYoung>
+  <AA_FissionMouseSecond.label>мышь деления (второе поколение)</AA_FissionMouseSecond.label>
+  <AA_FissionMouseSecond.labelMale>самец мыши деления</AA_FissionMouseSecond.labelMale>
+  <AA_FissionMouseSecond.labelFemale>самка мыши деления</AA_FissionMouseSecond.labelFemale>
+  <AA_FissionMouseSecond.labelYoung>мышонок деления</AA_FissionMouseSecond.labelYoung>
+  <AA_FissionMouseThird.label>мышь деления (третье поколение)</AA_FissionMouseThird.label>
+  <AA_FissionMouseThird.labelMale>самец мыши деления</AA_FissionMouseThird.labelMale>
+  <AA_FissionMouseThird.labelFemale>самка мыши деления</AA_FissionMouseThird.labelFemale>
+  <AA_FissionMouseThird.labelYoung>мышонок деления</AA_FissionMouseThird.labelYoung>
+  <AA_FlamingoPhoenix.label>фламинго-феникс</AA_FlamingoPhoenix.label>
+  <AA_FlamingoPhoenix.labelMale>самец фламинго-феникса</AA_FlamingoPhoenix.labelMale>
+  <AA_FlamingoPhoenix.labelFemale>самка фламинго-феникса</AA_FlamingoPhoenix.labelFemale>
+  <AA_FlamingoPhoenix.labelYoung>птенец фламинго-феникса</AA_FlamingoPhoenix.labelYoung>
+  <AA_FrostAve.label>морозный аве</AA_FrostAve.label>
+  <AA_FrostAve.labelMale>самец морозного аве</AA_FrostAve.labelMale>
+  <AA_FrostAve.labelFemale>самка морозного аве</AA_FrostAve.labelFemale>
+  <AA_FrostAve.labelYoung>птенец морозного аве</AA_FrostAve.labelYoung>
+  <AA_FrostLynx.label>морозная рысь</AA_FrostLynx.label>
+  <AA_FrostLynx.labelMale>самец морозной рыси</AA_FrostLynx.labelMale>
+  <AA_FrostLynx.labelFemale>самка морозной рыси</AA_FrostLynx.labelFemale>
+  <AA_FrostLynx.labelYoung>котёнок морозной рыси</AA_FrostLynx.labelYoung>
+  <AA_FrostboundBehemoth.label>ледяной бегемот</AA_FrostboundBehemoth.label>
+  <AA_FrostboundBehemoth.labelMale>самец ледяного бегемота</AA_FrostboundBehemoth.labelMale>
+  <AA_FrostboundBehemoth.labelFemale>самка ледяного бегемота</AA_FrostboundBehemoth.labelFemale>
+  <AA_FrostboundBehemoth.labelYoung>детёныш ледяного бегемота</AA_FrostboundBehemoth.labelYoung>
+  <AA_Frostling.label>фростлинг</AA_Frostling.label>
+  <AA_Frostling.labelMale>самец фростлинга</AA_Frostling.labelMale>
+  <AA_Frostling.labelFemale>самка фростлинга</AA_Frostling.labelFemale>
+  <AA_Frostling.labelYoung>молодой фростлинг</AA_Frostling.labelYoung>
+  <AA_Frostmite.label>морозный клещ</AA_Frostmite.label>
+  <AA_Frostmite.labelMale>самец морозного клеща</AA_Frostmite.labelMale>
+  <AA_Frostmite.labelFemale>самка морозного клеща</AA_Frostmite.labelFemale>
+  <AA_Frostmite.labelYoung>личинка морозного клеща</AA_Frostmite.labelYoung>
+  <AA_FungalHusk.label>грибная оболочка</AA_FungalHusk.label>
+  <AA_FungalHusk.labelMale>грибная оболочка</AA_FungalHusk.labelMale>
+  <AA_FungalHusk.labelFemale>грибная оболочка</AA_FungalHusk.labelFemale>
+  <AA_FungalHusk.labelYoung>малая грибная оболочка</AA_FungalHusk.labelYoung>
+  <AA_Gallatross.label>галлатрос</AA_Gallatross.label>
+  <AA_Gallatross.labelMale>самец галлатроса</AA_Gallatross.labelMale>
+  <AA_Gallatross.labelFemale>самка галлатроса</AA_Gallatross.labelFemale>
+  <AA_Gallatross.labelYoung>детёныш галлатроса</AA_Gallatross.labelYoung>
+  <AA_GallatrossMoribund.label>умирающий галлатрос</AA_GallatrossMoribund.label>
+  <AA_GallatrossMoribund.labelMale>умирающий самец галлатроса</AA_GallatrossMoribund.labelMale>
+  <AA_GallatrossMoribund.labelFemale>умирающая самка галлатроса</AA_GallatrossMoribund.labelFemale>
+  <AA_GallatrossMoribund.labelYoung>умирающий детёныш</AA_GallatrossMoribund.labelYoung>
+  <AA_Genix.label>дженикс</AA_Genix.label>
+  <AA_Genix.labelMale>самец дженикса</AA_Genix.labelMale>
+  <AA_Genix.labelFemale>самка дженикса</AA_Genix.labelFemale>
+  <AA_Genix.labelYoung>котёнок дженикса</AA_Genix.labelYoung>
+  <AA_GiantCrownedSilkie.label>венценосный шелкопряд</AA_GiantCrownedSilkie.label>
+  <AA_GiantCrownedSilkie.labelMale>самец шелкопряда</AA_GiantCrownedSilkie.labelMale>
+  <AA_GiantCrownedSilkie.labelFemale>самка шелкопряда</AA_GiantCrownedSilkie.labelFemale>
+  <AA_GiantCrownedSilkie.labelYoung>птенец шелкопряда</AA_GiantCrownedSilkie.labelYoung>
+  <AA_Gigantelope.label>гигантелопа</AA_Gigantelope.label>
+  <AA_Gigantelope.labelMale>самец гигантелопы</AA_Gigantelope.labelMale>
+  <AA_Gigantelope.labelFemale>самка гигантелопы</AA_Gigantelope.labelFemale>
+  <AA_Gigantelope.labelYoung>детёныш гигантелопы</AA_Gigantelope.labelYoung>
+  <AA_GreatDevourer.label>великий пожиратель</AA_GreatDevourer.label>
+  <AA_GreatDevourer.labelMale>самец великого пожирателя</AA_GreatDevourer.labelMale>
+  <AA_GreatDevourer.labelFemale>самка великого пожирателя</AA_GreatDevourer.labelFemale>
+  <AA_GreatDevourer.labelYoung>молодой великий пожиратель</AA_GreatDevourer.labelYoung>
+  <AA_GreenGoo.label>зелёная слизь</AA_GreenGoo.label>
+  <AA_GreenGoo.labelMale>зелёная слизь</AA_GreenGoo.labelMale>
+  <AA_GreenGoo.labelFemale>зелёная слизь</AA_GreenGoo.labelFemale>
+  <AA_GreenGoo.labelYoung>сгусток зелёной слизи</AA_GreenGoo.labelYoung>
+  <AA_GreyCoatedMouflon.label>серошёрстный муфлон</AA_GreyCoatedMouflon.label>
+  <AA_GreyCoatedMouflon.labelMale>баран-муфлон</AA_GreyCoatedMouflon.labelMale>
+  <AA_GreyCoatedMouflon.labelFemale>овца-муфлон</AA_GreyCoatedMouflon.labelFemale>
+  <AA_GreyCoatedMouflon.labelYoung>ягнёнок-муфлон</AA_GreyCoatedMouflon.labelYoung>
+  <AA_Groundrunner.label>землерой</AA_Groundrunner.label>
+  <AA_Groundrunner.labelMale>самец землероя</AA_Groundrunner.labelMale>
+  <AA_Groundrunner.labelFemale>самка землероя</AA_Groundrunner.labelFemale>
+  <AA_Groundrunner.labelYoung>детёныш землероя</AA_Groundrunner.labelYoung>
+  <AA_Helixien.label>улитка Хеликсиен</AA_Helixien.label>
+  <AA_Helixien.labelMale>самец улитки Хеликсиен</AA_Helixien.labelMale>
+  <AA_Helixien.labelFemale>самка улитки Хеликсиен</AA_Helixien.labelFemale>
+  <AA_Helixien.labelYoung>молодая улитка Хеликсиен</AA_Helixien.labelYoung>
+  <AA_InfectedAerofleet.label>заражённый аэрофлит</AA_InfectedAerofleet.label>
+  <AA_InfectedAerofleet.labelMale>заражённый самец аэрофлита</AA_InfectedAerofleet.labelMale>
+  <AA_InfectedAerofleet.labelFemale>заражённая самка аэрофлита</AA_InfectedAerofleet.labelFemale>
+  <AA_InfectedAerofleet.labelYoung>заражённый молодой аэрофлит</AA_InfectedAerofleet.labelYoung>
+  <AA_IronhuskBeetle.label>бронепанцирный жук</AA_IronhuskBeetle.label>
+  <AA_IronhuskBeetle.labelMale>самец бронепанцирного жука</AA_IronhuskBeetle.labelMale>
+  <AA_IronhuskBeetle.labelFemale>самка бронепанцирного жука</AA_IronhuskBeetle.labelFemale>
+  <AA_IronhuskBeetle.labelYoung>личинка бронепанцирного жука</AA_IronhuskBeetle.labelYoung>
+  <AA_Junglelisk.label>джунглиск</AA_Junglelisk.label>
+  <AA_Junglelisk.labelMale>самец джунглиска</AA_Junglelisk.labelMale>
+  <AA_Junglelisk.labelFemale>самка джунглиска</AA_Junglelisk.labelFemale>
+  <AA_Junglelisk.labelYoung>паучонок джунглиска</AA_Junglelisk.labelYoung>
+  <AA_LarvalAtispec.label>личинка атиспека</AA_LarvalAtispec.label>
+  <AA_LarvalAtispec.labelMale>самец личинки атиспека</AA_LarvalAtispec.labelMale>
+  <AA_LarvalAtispec.labelFemale>самка личинки атиспека</AA_LarvalAtispec.labelFemale>
+  <AA_LarvalAtispec.labelYoung>малая личинка атиспека</AA_LarvalAtispec.labelYoung>
+  <AA_Lockjaw.label>капканорот</AA_Lockjaw.label>
+  <AA_Lockjaw.labelMale>самец капканорота</AA_Lockjaw.labelMale>
+  <AA_Lockjaw.labelFemale>самка капканорота</AA_Lockjaw.labelFemale>
+  <AA_Lockjaw.labelYoung>детёныш капканорота</AA_Lockjaw.labelYoung>
+  <AA_Locusts.label>саранча</AA_Locusts.label>
+  <AA_Locusts.labelMale>самец саранчи</AA_Locusts.labelMale>
+  <AA_Locusts.labelFemale>самка саранчи</AA_Locusts.labelFemale>
+  <AA_Locusts.labelYoung>молодая саранча</AA_Locusts.labelYoung>
+  <AA_LuciferBug.label>люциферовый жук</AA_LuciferBug.label>
+  <AA_LuciferBug.labelMale>самец люциферового жука</AA_LuciferBug.labelMale>
+  <AA_LuciferBug.labelFemale>самка люциферового жука</AA_LuciferBug.labelFemale>
+  <AA_LuciferBug.labelYoung>личинка люциферового жука</AA_LuciferBug.labelYoung>
+  <AA_MammothWorm.label>мамонтовый червь</AA_MammothWorm.label>
+  <AA_MammothWorm.labelMale>самец мамонтового червя</AA_MammothWorm.labelMale>
+  <AA_MammothWorm.labelFemale>самка мамонтового червя</AA_MammothWorm.labelFemale>
+  <AA_MammothWorm.labelYoung>молодой мамонтовый червь</AA_MammothWorm.labelYoung>
+  <AA_MammothWorm_Temporary.label>мамонтовый червь</AA_MammothWorm_Temporary.label>
+  <AA_MammothWorm_Temporary.labelMale>самец мамонтового червя</AA_MammothWorm_Temporary.labelMale>
+  <AA_MammothWorm_Temporary.labelFemale>самка мамонтового червя</AA_MammothWorm_Temporary.labelFemale>
+  <AA_MammothWorm_Temporary.labelYoung>молодой мамонтовый червь</AA_MammothWorm_Temporary.labelYoung>
+  <AA_Mantrap.label>человеколов</AA_Mantrap.label>
+  <AA_Mantrap.labelMale>самец человеколова</AA_Mantrap.labelMale>
+  <AA_Mantrap.labelFemale>самка человеколова</AA_Mantrap.labelFemale>
+  <AA_Mantrap.labelYoung>росток человеколова</AA_Mantrap.labelYoung>
+  <AA_MatureFleshbeast.label>зрелый плотозверь</AA_MatureFleshbeast.label>
+  <AA_MatureFleshbeast.labelMale>зрелый плотозверь</AA_MatureFleshbeast.labelMale>
+  <AA_MatureFleshbeast.labelFemale>зрелый плотозверь</AA_MatureFleshbeast.labelFemale>
+  <AA_MatureFleshbeast.labelYoung>малый плотозверь</AA_MatureFleshbeast.labelYoung>
+  <AA_MeadowAve.label>луговой аве</AA_MeadowAve.label>
+  <AA_MeadowAve.labelMale>самец лугового аве</AA_MeadowAve.labelMale>
+  <AA_MeadowAve.labelFemale>самка лугового аве</AA_MeadowAve.labelFemale>
+  <AA_MeadowAve.labelYoung>птенец лугового аве</AA_MeadowAve.labelYoung>
+  <AA_MegaLouse.label>мегавошь</AA_MegaLouse.label>
+  <AA_MegaLouse.labelMale>самец мегавши</AA_MegaLouse.labelMale>
+  <AA_MegaLouse.labelFemale>самка мегавши</AA_MegaLouse.labelFemale>
+  <AA_MegaLouse.labelYoung>личинка мегавши</AA_MegaLouse.labelYoung>
+  <AA_Metallovore.label>металлоед</AA_Metallovore.label>
+  <AA_Metallovore.labelMale>самец металлоеда</AA_Metallovore.labelMale>
+  <AA_Metallovore.labelFemale>самка металлоеда</AA_Metallovore.labelFemale>
+  <AA_Metallovore.labelYoung>детёныш металлоеда</AA_Metallovore.labelYoung>
+  <AA_Mime.label>мим</AA_Mime.label>
+  <AA_Mime.labelMale>мим</AA_Mime.labelMale>
+  <AA_Mime.labelFemale>мим</AA_Mime.labelFemale>
+  <AA_Mime.labelYoung>молодой мим</AA_Mime.labelYoung>
+  <AA_Murkling.label>мёрклинг</AA_Murkling.label>
+  <AA_Murkling.labelMale>самец мёрклинга</AA_Murkling.labelMale>
+  <AA_Murkling.labelFemale>самка мёрклинга</AA_Murkling.labelFemale>
+  <AA_Murkling.labelYoung>детёныш мёрклинга</AA_Murkling.labelYoung>
+  <AA_MycoidColossus.label>микоидный колосс</AA_MycoidColossus.label>
+  <AA_MycoidColossus.labelMale>самец микоидного колосса</AA_MycoidColossus.labelMale>
+  <AA_MycoidColossus.labelFemale>самка микоидного колосса</AA_MycoidColossus.labelFemale>
+  <AA_MycoidColossus.labelYoung>детёныш микоидного колосса</AA_MycoidColossus.labelYoung>
+  <AA_Needlepost.label>игольчатый столб</AA_Needlepost.label>
+  <AA_Needlepost.labelMale>самец игольчатого столба</AA_Needlepost.labelMale>
+  <AA_Needlepost.labelFemale>самка игольчатого столба</AA_Needlepost.labelFemale>
+  <AA_Needlepost.labelYoung>отросток игольчатого столба</AA_Needlepost.labelYoung>
+  <AA_Needleroll.label>перекати-игла</AA_Needleroll.label>
+  <AA_Needleroll.labelMale>самец перекати-иглы</AA_Needleroll.labelMale>
+  <AA_Needleroll.labelFemale>самка перекати-иглы</AA_Needleroll.labelFemale>
+  <AA_Needleroll.labelYoung>малая перекати-игла</AA_Needleroll.labelYoung>
+  <AA_NightAve.label>ночной аве</AA_NightAve.label>
+  <AA_NightAve.labelMale>самец ночного аве</AA_NightAve.labelMale>
+  <AA_NightAve.labelFemale>самка ночного аве</AA_NightAve.labelFemale>
+  <AA_NightAve.labelYoung>птенец ночного аве</AA_NightAve.labelYoung>
+  <AA_NightMule.label>ночной мул</AA_NightMule.label>
+  <AA_NightMule.labelMale>самец ночного мула</AA_NightMule.labelMale>
+  <AA_NightMule.labelFemale>самка ночного мула</AA_NightMule.labelFemale>
+  <AA_NightMule.labelYoung>детёныш ночного мула</AA_NightMule.labelYoung>
+  <AA_NightRam.label>ночной баран</AA_NightRam.label>
+  <AA_NightRam.labelMale>ночной баран</AA_NightRam.labelMale>
+  <AA_NightRam.labelFemale>ночная овца</AA_NightRam.labelFemale>
+  <AA_NightRam.labelYoung>ночной ягнёнок</AA_NightRam.labelYoung>
+  <AA_Nightling.label>найтлинг</AA_Nightling.label>
+  <AA_Nightling.labelMale>самец найтлинга</AA_Nightling.labelMale>
+  <AA_Nightling.labelFemale>самка найтлинга</AA_Nightling.labelFemale>
+  <AA_Nightling.labelYoung>детёныш найтлинга</AA_Nightling.labelYoung>
+  <AA_OcularCactus.label>окулярный кактус</AA_OcularCactus.label>
+  <AA_OcularCactus.labelMale>самец окулярного кактуса</AA_OcularCactus.labelMale>
+  <AA_OcularCactus.labelFemale>самка окулярного кактуса</AA_OcularCactus.labelFemale>
+  <AA_OcularCactus.labelYoung>отросток окулярного кактуса</AA_OcularCactus.labelYoung>
+  <AA_OcularJelly.label>окулярная медуза</AA_OcularJelly.label>
+  <AA_OcularJelly.labelMale>самец окулярной медузы</AA_OcularJelly.labelMale>
+  <AA_OcularJelly.labelFemale>самка окулярной медузы</AA_OcularJelly.labelFemale>
+  <AA_OcularJelly.labelYoung>полип окулярной медузы</AA_OcularJelly.labelYoung>
+  <AA_OcularNightling.label>окулярный найтлинг</AA_OcularNightling.label>
+  <AA_OcularNightling.labelMale>самец окулярного найтлинга</AA_OcularNightling.labelMale>
+  <AA_OcularNightling.labelFemale>самка окулярного найтлинга</AA_OcularNightling.labelFemale>
+  <AA_OcularNightling.labelYoung>детёныш окулярного найтлинга</AA_OcularNightling.labelYoung>
+  <AA_OcularOriginator.label>окулярный прародитель</AA_OcularOriginator.label>
+  <AA_OcularOriginator.labelMale>окулярный прародитель</AA_OcularOriginator.labelMale>
+  <AA_OcularOriginator.labelFemale>окулярный прародитель</AA_OcularOriginator.labelFemale>
+  <AA_OcularOriginator.labelYoung>окулярный прародитель</AA_OcularOriginator.labelYoung>
+  <AA_OvergrownColossus.label>заросший колосс</AA_OvergrownColossus.label>
+  <AA_OvergrownColossus.labelMale>самец заросшего колосса</AA_OvergrownColossus.labelMale>
+  <AA_OvergrownColossus.labelFemale>самка заросшего колосса</AA_OvergrownColossus.labelFemale>
+  <AA_OvergrownColossus.labelYoung>детёныш заросшего колосса</AA_OvergrownColossus.labelYoung>
+  <AA_PebbleMit.label>галечник</AA_PebbleMit.label>
+  <AA_PebbleMit.labelMale>самец галечника</AA_PebbleMit.labelMale>
+  <AA_PebbleMit.labelFemale>самка галечника</AA_PebbleMit.labelFemale>
+  <AA_PebbleMit.labelYoung>малый галечник</AA_PebbleMit.labelYoung>
+  <AA_PedigreedRaptor.label>породистый раптор</AA_PedigreedRaptor.label>
+  <AA_PedigreedRaptor.labelMale>самец породистого раптора</AA_PedigreedRaptor.labelMale>
+  <AA_PedigreedRaptor.labelFemale>самка породистого раптора</AA_PedigreedRaptor.labelFemale>
+  <AA_PedigreedRaptor.labelYoung>птенец породистого раптора</AA_PedigreedRaptor.labelYoung>
+  <AA_PhoenixOwlcat.label>феникс-совокот</AA_PhoenixOwlcat.label>
+  <AA_PhoenixOwlcat.labelMale>самец совокота</AA_PhoenixOwlcat.labelMale>
+  <AA_PhoenixOwlcat.labelFemale>самка совокота</AA_PhoenixOwlcat.labelFemale>
+  <AA_PhoenixOwlcat.labelYoung>котёнок совокота</AA_PhoenixOwlcat.labelYoung>
+  <AA_Plasmorph.label>плазморф</AA_Plasmorph.label>
+  <AA_Plasmorph.labelMale>самец плазморфа</AA_Plasmorph.labelMale>
+  <AA_Plasmorph.labelFemale>самка плазморфа</AA_Plasmorph.labelFemale>
+  <AA_Plasmorph.labelYoung>молодой плазморф</AA_Plasmorph.labelYoung>
+  <AA_Radyak.label>рад-як</AA_Radyak.label>
+  <AA_Radyak.labelMale>рад-бык</AA_Radyak.labelMale>
+  <AA_Radyak.labelFemale>рад-корова</AA_Radyak.labelFemale>
+  <AA_Radyak.labelYoung>рад-телёнок</AA_Radyak.labelYoung>
+  <AA_RaptorShrimp.label>креветка-раптор</AA_RaptorShrimp.label>
+  <AA_RaptorShrimp.labelMale>самец креветки-раптора</AA_RaptorShrimp.labelMale>
+  <AA_RaptorShrimp.labelFemale>самка креветки-раптора</AA_RaptorShrimp.labelFemale>
+  <AA_RaptorShrimp.labelYoung>молодая креветка-раптор</AA_RaptorShrimp.labelYoung>
+  <AA_Ravager.label>опустошитель</AA_Ravager.label>
+  <AA_Ravager.labelMale>самец опустошителя</AA_Ravager.labelMale>
+  <AA_Ravager.labelFemale>самка опустошителя</AA_Ravager.labelFemale>
+  <AA_Ravager.labelYoung>молодой опустошитель</AA_Ravager.labelYoung>
+  <AA_RayHound.label>скатопёс</AA_RayHound.label>
+  <AA_RayHound.labelMale>кобель скатопса</AA_RayHound.labelMale>
+  <AA_RayHound.labelFemale>сука скатопса</AA_RayHound.labelFemale>
+  <AA_RayHound.labelYoung>щенок скатопса</AA_RayHound.labelYoung>
+  <AA_Razorjack.label>бритвенник</AA_Razorjack.label>
+  <AA_Razorjack.labelMale>самец бритвенника</AA_Razorjack.labelMale>
+  <AA_Razorjack.labelFemale>самка бритвенника</AA_Razorjack.labelFemale>
+  <AA_Razorjack.labelYoung>детёныш бритвенника</AA_Razorjack.labelYoung>
+  <AA_RedGoo.label>красная слизь</AA_RedGoo.label>
+  <AA_RedGoo.labelMale>красная слизь</AA_RedGoo.labelMale>
+  <AA_RedGoo.labelFemale>красная слизь</AA_RedGoo.labelFemale>
+  <AA_RedGoo.labelYoung>сгусток красной слизи</AA_RedGoo.labelYoung>
+  <AA_RedSpore.label>красная спора</AA_RedSpore.label>
+  <AA_RedSpore.labelMale>красная спора</AA_RedSpore.labelMale>
+  <AA_RedSpore.labelFemale>красная спора</AA_RedSpore.labelFemale>
+  <AA_RedSpore.labelYoung>малая красная спора</AA_RedSpore.labelYoung>
+  <AA_RipperHound.label>потрошитель</AA_RipperHound.label>
+  <AA_RipperHound.labelMale>кобель потрошителя</AA_RipperHound.labelMale>
+  <AA_RipperHound.labelFemale>сука потрошителя</AA_RipperHound.labelFemale>
+  <AA_RipperHound.labelYoung>щенок потрошителя</AA_RipperHound.labelYoung>
+  <AA_RoughPlatedMonitor.label>панцирный варан</AA_RoughPlatedMonitor.label>
+  <AA_RoughPlatedMonitor.labelMale>самец панцирного варана</AA_RoughPlatedMonitor.labelMale>
+  <AA_RoughPlatedMonitor.labelFemale>самка панцирного варана</AA_RoughPlatedMonitor.labelFemale>
+  <AA_RoughPlatedMonitor.labelYoung>детёныш панцирного варана</AA_RoughPlatedMonitor.labelYoung>
+  <AA_RoyalAve.label>королевский аве</AA_RoyalAve.label>
+  <AA_RoyalAve.labelMale>самец королевского аве</AA_RoyalAve.labelMale>
+  <AA_RoyalAve.labelFemale>самка королевского аве</AA_RoyalAve.labelFemale>
+  <AA_RoyalAve.labelYoung>птенец королевского аве</AA_RoyalAve.labelYoung>
+  <AA_SandLion.label>песчаный лев</AA_SandLion.label>
+  <AA_SandLion.labelMale>песчаный лев</AA_SandLion.labelMale>
+  <AA_SandLion.labelFemale>песчаная львица</AA_SandLion.labelFemale>
+  <AA_SandLion.labelYoung>песчаный львёнок</AA_SandLion.labelYoung>
+  <AA_SandProwler.label>песчаный рыскатель</AA_SandProwler.label>
+  <AA_SandProwler.labelMale>самец песчаного рыскателя</AA_SandProwler.labelMale>
+  <AA_SandProwler.labelFemale>самка песчаного рыскателя</AA_SandProwler.labelFemale>
+  <AA_SandProwler.labelYoung>детёныш песчаного рыскателя</AA_SandProwler.labelYoung>
+  <AA_SandSquid.label>песчаный кальмар</AA_SandSquid.label>
+  <AA_SandSquid.labelMale>самец песчаного кальмара</AA_SandSquid.labelMale>
+  <AA_SandSquid.labelFemale>самка песчаного кальмара</AA_SandSquid.labelFemale>
+  <AA_SandSquid.labelYoung>молодой песчаный кальмар</AA_SandSquid.labelYoung>
+  <AA_ShadowCharger.label>теневой таранщик</AA_ShadowCharger.label>
+  <AA_ShadowCharger.labelMale>самец теневого таранщика</AA_ShadowCharger.labelMale>
+  <AA_ShadowCharger.labelFemale>самка теневого таранщика</AA_ShadowCharger.labelFemale>
+  <AA_ShadowCharger.labelYoung>детёныш теневого таранщика</AA_ShadowCharger.labelYoung>
+  <AA_ShockGoat.label>шоковая коза</AA_ShockGoat.label>
+  <AA_ShockGoat.labelMale>шоковый козёл</AA_ShockGoat.labelMale>
+  <AA_ShockGoat.labelFemale>шоковая коза</AA_ShockGoat.labelFemale>
+  <AA_ShockGoat.labelYoung>шоковый козлёнок</AA_ShockGoat.labelYoung>
+  <AA_Skiphound.label>прыгопёс</AA_Skiphound.label>
+  <AA_Skiphound.labelMale>кобель прыгопса</AA_Skiphound.labelMale>
+  <AA_Skiphound.labelFemale>сука прыгопса</AA_Skiphound.labelFemale>
+  <AA_Skiphound.labelYoung>щенок прыгопса</AA_Skiphound.labelYoung>
+  <AA_Skyeel.label>небесный угорь</AA_Skyeel.label>
+  <AA_Skyeel.labelMale>самец небесного угря</AA_Skyeel.labelMale>
+  <AA_Skyeel.labelFemale>самка небесного угря</AA_Skyeel.labelFemale>
+  <AA_Skyeel.labelYoung>молодой небесный угорь</AA_Skyeel.labelYoung>
+  <AA_Slurrypede.label>жижеполз</AA_Slurrypede.label>
+  <AA_Slurrypede.labelMale>самец жижеполза</AA_Slurrypede.labelMale>
+  <AA_Slurrypede.labelFemale>самка жижеполза</AA_Slurrypede.labelFemale>
+  <AA_Slurrypede.labelYoung>молодой жижеполз</AA_Slurrypede.labelYoung>
+  <AA_SmallButterfly.label>бабочки</AA_SmallButterfly.label>
+  <AA_SmallButterfly.labelMale>самец бабочки</AA_SmallButterfly.labelMale>
+  <AA_SmallButterfly.labelFemale>самка бабочки</AA_SmallButterfly.labelFemale>
+  <AA_SmallButterfly.labelYoung>гусеница</AA_SmallButterfly.labelYoung>
+  <AA_SpinedGow.label>шипастая корова</AA_SpinedGow.label>
+  <AA_SpinedGow.labelMale>шипастый бык</AA_SpinedGow.labelMale>
+  <AA_SpinedGow.labelFemale>шипастая корова</AA_SpinedGow.labelFemale>
+  <AA_SpinedGow.labelYoung>шипастый телёнок</AA_SpinedGow.labelYoung>
+  <AA_SummitCrab.label>горный краб</AA_SummitCrab.label>
+  <AA_SummitCrab.labelMale>самец горного краба</AA_SummitCrab.labelMale>
+  <AA_SummitCrab.labelFemale>самка горного краба</AA_SummitCrab.labelFemale>
+  <AA_SummitCrab.labelYoung>молодой горный краб</AA_SummitCrab.labelYoung>
+  <AA_Summoned_Eyeling.label>призванное око</AA_Summoned_Eyeling.label>
+  <AA_Summoned_Eyeling.labelMale>призванное око</AA_Summoned_Eyeling.labelMale>
+  <AA_Summoned_Eyeling.labelFemale>призванное око</AA_Summoned_Eyeling.labelFemale>
+  <AA_Summoned_Eyeling.labelYoung>малое призванное око</AA_Summoned_Eyeling.labelYoung>
+  <AA_Swarmling.label>ройлинг</AA_Swarmling.label>
+  <AA_Swarmling.labelMale>самец ройлинга</AA_Swarmling.labelMale>
+  <AA_Swarmling.labelFemale>самка ройлинга</AA_Swarmling.labelFemale>
+  <AA_Swarmling.labelYoung>личинка ройлинга</AA_Swarmling.labelYoung>
+  <AA_TarGuzzler.label>смоложор</AA_TarGuzzler.label>
+  <AA_TarGuzzler.labelMale>самец смоложора</AA_TarGuzzler.labelMale>
+  <AA_TarGuzzler.labelFemale>самка смоложора</AA_TarGuzzler.labelFemale>
+  <AA_TarGuzzler.labelYoung>детёныш смоложора</AA_TarGuzzler.labelYoung>
+  <AA_TeratogenicOriginator.label>тератогенный исток</AA_TeratogenicOriginator.label>
+  <AA_TeratogenicOriginator.labelMale>тератогенный исток</AA_TeratogenicOriginator.labelMale>
+  <AA_TeratogenicOriginator.labelFemale>тератогенный исток</AA_TeratogenicOriginator.labelFemale>
+  <AA_TeratogenicOriginator.labelYoung>малый исток</AA_TeratogenicOriginator.labelYoung>
+  <AA_Terramorph.label>терраморф</AA_Terramorph.label>
+  <AA_Terramorph.labelMale>самец терраморфа</AA_Terramorph.labelMale>
+  <AA_Terramorph.labelFemale>самка терраморфа</AA_Terramorph.labelFemale>
+  <AA_Terramorph.labelYoung>молодой терраморф</AA_Terramorph.labelYoung>
+  <AA_TetraSlug.label>тетра-слизень</AA_TetraSlug.label>
+  <AA_TetraSlug.labelMale>самец тетра-слизня</AA_TetraSlug.labelMale>
+  <AA_TetraSlug.labelFemale>самка тетра-слизня</AA_TetraSlug.labelFemale>
+  <AA_TetraSlug.labelYoung>молодой тетра-слизень</AA_TetraSlug.labelYoung>
+  <AA_Thermadon.label>термадон</AA_Thermadon.label>
+  <AA_Thermadon.labelMale>самец термадона</AA_Thermadon.labelMale>
+  <AA_Thermadon.labelFemale>самка термадона</AA_Thermadon.labelFemale>
+  <AA_Thermadon.labelYoung>личинка термадона</AA_Thermadon.labelYoung>
+  <AA_Thunderbeast.label>громозверь</AA_Thunderbeast.label>
+  <AA_Thunderbeast.labelMale>самец громозверя</AA_Thunderbeast.labelMale>
+  <AA_Thunderbeast.labelFemale>самка громозверя</AA_Thunderbeast.labelFemale>
+  <AA_Thunderbeast.labelYoung>детёныш громозверя</AA_Thunderbeast.labelYoung>
+  <AA_Thunderox.label>громовой вол</AA_Thunderox.label>
+  <AA_Thunderox.labelMale>громовой бык</AA_Thunderox.labelMale>
+  <AA_Thunderox.labelFemale>громовая корова</AA_Thunderox.labelFemale>
+  <AA_Thunderox.labelYoung>громовой телёнок</AA_Thunderox.labelYoung>
+  <AA_UnblinkingEye.label>немигающее око</AA_UnblinkingEye.label>
+  <AA_UnblinkingEye.labelMale>немигающее око</AA_UnblinkingEye.labelMale>
+  <AA_UnblinkingEye.labelFemale>немигающее око</AA_UnblinkingEye.labelFemale>
+  <AA_UnblinkingEye.labelYoung>малое немигающее око</AA_UnblinkingEye.labelYoung>
+  <AA_Wildpawn.label>дикопешка</AA_Wildpawn.label>
+  <AA_Wildpawn.labelMale>дикопешка</AA_Wildpawn.labelMale>
+  <AA_Wildpawn.labelFemale>дикопешка</AA_Wildpawn.labelFemale>
+  <AA_Wildpawn.labelYoung>росток дикопешки</AA_Wildpawn.labelYoung>
+  <AA_Wildpod.label>дикостручок</AA_Wildpod.label>
+  <AA_Wildpod.labelMale>дикостручок</AA_Wildpod.labelMale>
+  <AA_Wildpod.labelFemale>дикостручок</AA_Wildpod.labelFemale>
+  <AA_Wildpod.labelYoung>росток дикостручка</AA_Wildpod.labelYoung>
+  <AA_WindBeast.label>ветрокрылый зверь</AA_WindBeast.label>
+  <AA_WindBeast.labelMale>самец ветрокрылого зверя</AA_WindBeast.labelMale>
+  <AA_WindBeast.labelFemale>самка ветрокрылого зверя</AA_WindBeast.labelFemale>
+  <AA_WindBeast.labelYoung>детёныш ветрокрылого зверя</AA_WindBeast.labelYoung>
+  <VFEI2_BlackEmpress.label>чёрная императрица</VFEI2_BlackEmpress.label>
+  <VFEI2_BlackEmpress.labelMale>чёрная императрица</VFEI2_BlackEmpress.labelMale>
+  <VFEI2_BlackEmpress.labelFemale>чёрная императрица</VFEI2_BlackEmpress.labelFemale>
+  <VFEI2_BlackEmpress.labelYoung>молодая чёрная императрица</VFEI2_BlackEmpress.labelYoung>
+  <VFEI2_BlackQueen.label>чёрная королева</VFEI2_BlackQueen.label>
+  <VFEI2_BlackQueen.labelMale>чёрная королева</VFEI2_BlackQueen.labelMale>
+  <VFEI2_BlackQueen.labelFemale>чёрная королева</VFEI2_BlackQueen.labelFemale>
+  <VFEI2_BlackQueen.labelYoung>молодая чёрная королева</VFEI2_BlackQueen.labelYoung>
+  <VFEI2_BlackSwarmling.label>чёрный ройлинг</VFEI2_BlackSwarmling.label>
+  <VFEI2_BlackSwarmling.labelMale>самец чёрного ройлинга</VFEI2_BlackSwarmling.labelMale>
+  <VFEI2_BlackSwarmling.labelFemale>самка чёрного ройлинга</VFEI2_BlackSwarmling.labelFemale>
+  <VFEI2_BlackSwarmling.labelYoung>личинка чёрного ройлинга</VFEI2_BlackSwarmling.labelYoung>
+</LanguageData>

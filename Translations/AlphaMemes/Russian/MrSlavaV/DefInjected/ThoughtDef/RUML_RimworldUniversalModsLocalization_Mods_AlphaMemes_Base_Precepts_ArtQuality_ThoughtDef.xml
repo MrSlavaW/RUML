@@ -1,0 +1,32 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_ArtQuality.xml -->
+	
+	<!--                               EN: awful art -->
+	<AM_ArtQuality_Expected.stages.0.label>ужасное искусство</AM_ArtQuality_Expected.stages.0.label>
+	<!--                                     EN: They say that art is not useless as long as it provokes any emotional response. The problem comes when that response is disgust... -->
+	<AM_ArtQuality_Expected.stages.0.description>Говорят, что искусство не бесполезно, пока оно вызывает какой-то эмоциональный отклик. Проблема возникает, когда такой реакцией становится отвращение...</AM_ArtQuality_Expected.stages.0.description>
+	<!--                               EN: poor art -->
+	<AM_ArtQuality_Expected.stages.1.label>плохое искусство</AM_ArtQuality_Expected.stages.1.label>
+	<!--                                     EN: I'm not gonna lie... this art is VERY poorly done. -->
+	<AM_ArtQuality_Expected.stages.1.description>Не буду врать... этот ОЧЕНЬ плохо сделано.</AM_ArtQuality_Expected.stages.1.description>
+	<!--                               EN: normal art -->
+	<AM_ArtQuality_Expected.stages.2.label>нормальное искусство</AM_ArtQuality_Expected.stages.2.label>
+	<!--                                     EN: The colony has some significant art pieces. -->
+	<AM_ArtQuality_Expected.stages.2.description>В поселении есть несколько значительных произведений искусства.</AM_ArtQuality_Expected.stages.2.description>
+	<!--                               EN: good art -->
+	<AM_ArtQuality_Expected.stages.3.label>хорошее искусство</AM_ArtQuality_Expected.stages.3.label>
+	<!--                                     EN: There are some art pieces in this colony that are very high quality, I'm impressed. -->
+	<AM_ArtQuality_Expected.stages.3.description>В этом поселении есть несколько произведений искусства очень высокого качества, я {PAWN_gender ? впечатлен : впечатлена}.</AM_ArtQuality_Expected.stages.3.description>
+	<!--                               EN: excellent art -->
+	<AM_ArtQuality_Expected.stages.4.label>отличное искусство</AM_ArtQuality_Expected.stages.4.label>
+	<!--                                     EN: Wow! Some of the art pieces in this colony are incredible examples of fine art! Amazing! -->
+	<AM_ArtQuality_Expected.stages.4.description>Ух ты! Некоторые произведения искусства в этом поселении — невероятные образцы изобразительного искусства! Удивительно!</AM_ArtQuality_Expected.stages.4.description>
+	<!--                               EN: masterwork art -->
+	<AM_ArtQuality_Expected.stages.5.label>шедевр искусства</AM_ArtQuality_Expected.stages.5.label>
+	<!--                                     EN: Some of these pieces of art are going to be considered a masterwork in the future, like the famed Mona Lisa or Michelangelo's David. -->
+	<AM_ArtQuality_Expected.stages.5.description>Некоторые из этих произведений искусства будут считаться шедеврами в будущем, как, знаменитая Мона Лиза или Давид Микеланджело.</AM_ArtQuality_Expected.stages.5.description>
+	<!--                               EN: legendary art -->
+	<AM_ArtQuality_Expected.stages.6.label>легендарное искусство</AM_ArtQuality_Expected.stages.6.label>
+	<!--                                     EN: Our colony is renowned the world over for its incredible collection of fine art. No museum of old Earth could even compare. -->
+	<AM_ArtQuality_Expected.stages.6.description>Наше поселение известно во всем мире своей невероятной коллекцией изобразительного искусства. Никакой музей старой Земли не мог даже сравниться.</AM_ArtQuality_Expected.stages.6.description>
+</LanguageData>

@@ -1,0 +1,55 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_Buildings\Buildings_Misc.xml -->
+	<!--                          EN: mechband beamcaster (tier 4) -->
+	<AM_InfernusMechlinkBooster.label>ретранслятор лучевой связи (уровень 4)</AM_InfernusMechlinkBooster.label>
+	<!--                                EN: A mechband signaling device more powerful than the mechband dish. When activated, it puts out a powerful mech signal pulse, which will attract an Infernus mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the beamcaster, so this building can only be used once. -->
+	<AM_InfernusMechlinkBooster.description>Сигнальное устройство мехбанда, превосходящее по мощности обычную тарелку мехбанда. При активации оно испускает мощный импульс, который привлекает Инфернуса вместе с его эскортом. Если вам удастся его победить, вы сможете извлечь особые технологии из его останков. Импульс выжигает ретранслятор, поэтому здание можно использовать только один раз.</AM_InfernusMechlinkBooster.description>
+	<!--                                     EN: Summon infernus threat -->
+	<AM_InfernusMechlinkBooster.comps.0.useLabel>Вызвать угрозу инфернуса</AM_InfernusMechlinkBooster.comps.0.useLabel>
+	<!--                                                  EN: LetterBossgroupCallerUnlocked -->
+	<AM_InfernusMechlinkBooster.comps.1.unlockedLetterTextKey>LetterBossgroupCallerUnlocked</AM_InfernusMechlinkBooster.comps.1.unlockedLetterTextKey>
+	<!--                            EN: voidlink relay (tier 5) -->
+	<AM_WarEmpressMechlinkBooster.label>ретранслятор пустотной связи (уровень 5)</AM_WarEmpressMechlinkBooster.label>
+	<!--                                  EN: A mechband signaling device that connects to a framework of relay stations positioned across the system. These relay stations, known as "voidlinks," use subspace communication technology to transmit messages at near-light speed, allowing for rapid communication across sub-stellar distances. Activating it which will attract a War Empress mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the relay, so this building can only be used once. -->
+	<AM_WarEmpressMechlinkBooster.description>Сигнальное устройство мехбанда, подключающееся к сети ретрансляционных станций по всей системе. Эти станции, известные как ретрансляторы пустотной связи, используют подпространственную связь для передачи сообщений почти со скоростью света, что позволяет поддерживать контакт на огромных расстояниях. Активация устройства привлекает Военную императрицу вместе с её эскортом. Если вам удастся её победить, вы сможете извлечь особые технологии из её останков. Импульс выжигает ретранслятор, поэтому здание можно использовать только один раз.</AM_WarEmpressMechlinkBooster.description>
+	<!--                                       EN: Summon war empress threat -->
+	<AM_WarEmpressMechlinkBooster.comps.0.useLabel>Вызвать угрозу императрицы войны</AM_WarEmpressMechlinkBooster.comps.0.useLabel>
+	<!--                                                    EN: LetterBossgroupCallerUnlocked -->
+	<AM_WarEmpressMechlinkBooster.comps.1.unlockedLetterTextKey>LetterBossgroupCallerUnlocked</AM_WarEmpressMechlinkBooster.comps.1.unlockedLetterTextKey>
+	<!--                           EN: quantum pulse complex (tier 6) -->
+	<AM_ApoptosisMechlinkBooster.label>комплекс квантовой связи (уровень 6)</AM_ApoptosisMechlinkBooster.label>
+	<!--                                 EN: A mechband signaling device that leverages the principles of quantum mechanics to transmit information using more than just binary states of 0s and 1s. The use of these qubits allows for the transmission of complex data, instructions, or commands in a highly efficient and secure manner. Activating it which will attract an Apoptosis mechanoid to attack with its escorts. If you can defeat it, you can collect special technologies from its corpse. The signal pulse burns out the complex, so this building can only be used once. -->
+	<AM_ApoptosisMechlinkBooster.description>Механическое сигнальное устройство, которое использует принципы квантовой механики для передачи информации, используя не только двоичные состояния 0 и 1. Использование этих кубитов позволяет передавать сложные данные, инструкции или команды высокоэффективным и безопасным способом. Активация комплекса привлечёт Апоптоз вместе с его эскортом. Если вам удастся его победить, вы сможете извлечь особые технологии из его останков. Импульс сигнала выжигает комплекс, поэтому это здание можно использовать только один раз.</AM_ApoptosisMechlinkBooster.description>
+	<!--                                      EN: Summon apoptosis threat -->
+	<AM_ApoptosisMechlinkBooster.comps.0.useLabel>Вызвать угрозу апоптоза</AM_ApoptosisMechlinkBooster.comps.0.useLabel>
+	<!--                                                   EN: LetterBossgroupCallerUnlocked -->
+	<AM_ApoptosisMechlinkBooster.comps.1.unlockedLetterTextKey>LetterBossgroupCallerUnlocked</AM_ApoptosisMechlinkBooster.comps.1.unlockedLetterTextKey>
+	<!--                     EN: beamcaster band node -->
+	<AM_BeamcasterBandNode.label>узел лучевой связи</AM_BeamcasterBandNode.label>
+	<!--                           EN: A mechanoid-band signal amplifier. Band nodes must be tuned to a specific mechanitor. This will add 2 bandwidth to that mechanitor's total bandwidth, allowing them to control more mechanoids.\n\nOnce a band node is constructed, it can be quickly tuned to a mechanitor. However, retuning a band node to a different mechanitor takes significantly longer. -->
+	<AM_BeamcasterBandNode.description>Усилитель сигнала механоидного диапазона. Такие узлы нужно настраивать под конкретного механитора. Каждый узел добавляет 2 единицы к общей пропускной способности механитора, позволяя ему управлять большим числом механоидов.\n\nПосле постройки узел можно быстро настроить на механитора, но перенастройка на другого механитора занимает заметно больше времени.</AM_BeamcasterBandNode.description>
+	<!--                  EN: voidlink band node -->
+	<AM_GreaterBandNode.label>узел пустотной связи</AM_GreaterBandNode.label>
+	<!--                        EN: A voidlink relay band node. Band nodes must be tuned to a specific mechanitor. This will add 5 bandwidth to that mechanitor's total bandwidth, allowing them to control more mechanoids.\n\nOnce a band node is constructed, it can be quickly tuned to a mechanitor. However, retuning a band node to a different mechanitor takes significantly longer. -->
+	<AM_GreaterBandNode.description>Узел пустотной связи. Такие узлы нужно настраивать под конкретного механитора. Каждый узел добавляет 5 единиц к общей пропускной способности механитора, позволяя ему управлять большим числом механоидов.\n\nПосле постройки узел можно быстро настроить на механитора, но перенастройка на другого механитора занимает заметно больше времени.</AM_GreaterBandNode.description>
+	<!--                     EN: persistent mech booster -->
+	<AM_GreaterMechBooster.label>постоянный усилитель механоидов</AM_GreaterMechBooster.label>
+	<!--                           EN: A remote energy and computation enhancement device. Any friendly mechanoids in its effect radius will move and work faster. This boost will be overwritten if the mech enters the range of a standard mech booster. The effect of the persistent mech booster will remain on the mech up to 3 hours after leaving its area of effect. -->
+	<AM_GreaterMechBooster.description>Устройство дистанционного улучшения энергии и вычислений. Любые дружественные механоиды в радиусе действия будут двигаться и работать быстрее. Это усиление будет заменено, если механоид войдёт в зону действия стандартного усилителя механоидов. Эффект постоянного усилителя сохраняется ещё 3 часа после выхода из его зоны действия.</AM_GreaterMechBooster.description>
+	<!--                        EN: mech efficiency booster -->
+	<AM_MechEfficiencyBooster.label>усилитель эффективности механоидов</AM_MechEfficiencyBooster.label>
+	<!--                              EN: A remote energy efficiency enhancement device. Any friendly mechanoids in its effect radius will use less energy per day. -->
+	<AM_MechEfficiencyBooster.description>Устройство дистанционного повышения энергоэффективности. Любые дружественные механоиды в радиусе действия будут использовать меньше энергии в день.</AM_MechEfficiencyBooster.description>
+	<!--                   EN: mech protection booster -->
+	<AM_MechArmorBooster.label>усилитель брони механоидов</AM_MechArmorBooster.label>
+	<!--                         EN: A remote armor reinforcement device. Any friendly mechanoids in its effect radius will have greater protection against attacks. -->
+	<AM_MechArmorBooster.description>Устройство дистанционного усиления брони. Любые дружественные механоиды в радиусе действия будут иметь большую защиту от атак.</AM_MechArmorBooster.description>
+	<!--                        EN: mech targeting booster -->
+	<AM_MechTargettingBooster.label>усилитель наведения механоидов</AM_MechTargettingBooster.label>
+	<!--                              EN: A remote targeting enhancement device. Any friendly mechanoids in its effect radius will have reduced weapon cooldown. -->
+	<AM_MechTargettingBooster.description>Устройство дистанционного улучшения прицеливания. У любых дружественных механоидов в радиусе действия будет уменьшено время восстановления оружия.</AM_MechTargettingBooster.description>
+	<!--                EN: mech disruptor -->
+	<AM_MechDisruptor.label>подавитель механоидов</AM_MechDisruptor.label>
+	<!--                      EN: A remote mech disruption device. Any enemy mechanoids in its effect radius will have reduced agility, movement and targeting skill. -->
+	<AM_MechDisruptor.description>Устройство дистанционного подавления механоидов. Любые вражеские механоиды в радиусе действия будут иметь пониженную ловкость, передвижение и навыки прицеливания.</AM_MechDisruptor.description>
+</LanguageData>

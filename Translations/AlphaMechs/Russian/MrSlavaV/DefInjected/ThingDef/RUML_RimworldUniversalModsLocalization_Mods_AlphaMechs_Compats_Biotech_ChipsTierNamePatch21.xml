@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\Ludeon_RimWorld_Biotech\ChipsTierNamePatch21.xml -->
+	<!--          EN: signal chip (tier 1) -->
+	<SignalChip.label>сигнальный чип (уровень 1)</SignalChip.label>
+	<!--              EN: powerfocus chip (tier 2) -->
+	<PowerfocusChip.label>чип фокусировки энергии (уровень 2)</PowerfocusChip.label>
+	<!--                   EN: nano structuring chip (tier 3) -->
+	<NanostructuringChip.label>нано-структурирующий чип (уровень 3)</NanostructuringChip.label>
+	<!--                      EN: mechband antenna (tier 2) -->
+	<BurnoutMechlinkBooster.label>антенна мехсвязи (уровень 2)</BurnoutMechlinkBooster.label>
+	<!--            EN: mechband dish (tier 3) -->
+	<MechbandDish.label>тарелка мехсвязи (уровень 3)</MechbandDish.label>
+</LanguageData>

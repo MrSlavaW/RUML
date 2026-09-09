@@ -1,0 +1,8 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_RoomSizes.xml -->
+	
+<!--                 EN: small -->
+    <AM_RoomSize_Small.label>маленький</AM_RoomSize_Small.label>
+    <!--                       EN: Large rooms and caverns remind us too much of the dangerous outdoors. We prefer tight, cramped accomodations. -->
+    <AM_RoomSize_Small.description>Большие комнаты и пещеры слишком сильно напоминают нам об опасной поверхности. Мы предпочитаем тесные, стеснённые помещения.</AM_RoomSize_Small.description>
+</LanguageData>

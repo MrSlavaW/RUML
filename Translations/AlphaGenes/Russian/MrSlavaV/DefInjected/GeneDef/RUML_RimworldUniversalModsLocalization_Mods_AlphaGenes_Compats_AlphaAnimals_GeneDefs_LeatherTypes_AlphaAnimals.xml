@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Mods\AlphaAnimals\Defs\GeneDefs\GeneDefs_LeatherTypes_AlphaAnimals.xml -->
+	<!--                   EN: aerofleet leather -->
+	<AG_AerofleetLeather.label>кожа аэрофлита</AG_AerofleetLeather.label>
+	<!--                         EN: Carriers of this gene will yield aerofleet fur when butchered. Wearing aerofleet fur apparel by them is classed as wearing human leather apparel. -->
+	<AG_AerofleetLeather.description>Носители этого гена дают кожу аэрофлита, когда их убивают.</AG_AerofleetLeather.description>
+	<!--                EN: chitin leather -->
+	<AG_ChitinLeather.label>хитиновая кожа</AG_ChitinLeather.label>
+	<!--                      EN: Carriers of this gene will yield chitin when butchered. Wearing chitin apparel by them is classed as wearing human leather apparel. -->
+	<AG_ChitinLeather.description>Носители этого гена при разделке дают хитин насекомых.</AG_ChitinLeather.description>
+	<!--                     EN: black chitin leather -->
+	<AG_BlackChitinLeather.label>черная хитиновая кожа</AG_BlackChitinLeather.label>
+	<!--                           EN: Carriers of this gene will yield black insect chitin when butchered. Wearing black insect chitin apparel by them is classed as wearing human leather apparel. -->
+	<AG_BlackChitinLeather.description>Носители этого гена при разделке дают черный хитин насекомых.</AG_BlackChitinLeather.description>
+</LanguageData>

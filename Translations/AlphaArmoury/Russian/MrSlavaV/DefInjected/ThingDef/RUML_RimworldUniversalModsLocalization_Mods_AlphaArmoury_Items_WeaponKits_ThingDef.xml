@@ -1,0 +1,39 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Items\Items_WeaponKits.xml -->
+
+	<!--                             EN: Use {0_label} -->
+	<AArmoury_WeaponKit.comps.2.useLabel>Использовать: {0_label}</AArmoury_WeaponKit.comps.2.useLabel>
+
+	<!--                  EN: weapon tweaking kit -->
+	<AArmoury_WeaponKit.label>набор модификации оружия</AArmoury_WeaponKit.label>
+
+	<!--                        EN: A weapon kit for a specific weapon modifier. It can be used on an unique weapon to add a trait to it, as long as the weapon supports it. -->
+	<AArmoury_WeaponKit.description>Набор модификации для определённого оружейного модификатора. Может быть использован на уникальном оружии для добавления особенности, если оружие её поддерживает.</AArmoury_WeaponKit.description>
+	
+	<!--                                       EN: Use {0_label} -->
+	<AArmoury_WeaponKit_Converter.comps.2.useLabel>Использовать: {0_label}</AArmoury_WeaponKit_Converter.comps.2.useLabel>
+
+	<!--                            EN: weapon conversion kit -->
+	<AArmoury_WeaponKit_Converter.label>набор преобразования оружия</AArmoury_WeaponKit_Converter.label>
+
+	<!--                                  EN: A weapon conversion kit for a specific weapon. It can be used on a weapon of that type to convert it to the equivalent unique weapon. -->
+	<AArmoury_WeaponKit_Converter.description>Набор преобразования для конкретного типа оружия. Может быть использован на оружии этого типа, чтобы превратить его в соответствующее уникальное оружие.</AArmoury_WeaponKit_Converter.description>
+	
+	<!--                                     EN: Use {0_label} -->
+	<AArmoury_WeaponKit_Remover.comps.2.useLabel>Использовать: {0_label}</AArmoury_WeaponKit_Remover.comps.2.useLabel>
+
+	<!--                          EN: weapon trait removing kit -->
+	<AArmoury_WeaponKit_Remover.label>набор удаления особенностей оружия</AArmoury_WeaponKit_Remover.label>
+
+	<!--                                EN: A weapon kit to remove traits from a weapon. It can be used on an unique weapon to remove a random trait from it. -->
+	<AArmoury_WeaponKit_Remover.description>Набор для удаления особенностей оружия. Может быть использован на уникальном оружии, чтобы удалить одну случайную особенность.</AArmoury_WeaponKit_Remover.description>
+	
+	<!--                                        EN: Use {0_label} -->
+	<AArmoury_WeaponKit_TabulaRasa.comps.2.useLabel>Использовать: {0_label}</AArmoury_WeaponKit_TabulaRasa.comps.2.useLabel>
+
+	<!--                             EN: tabula rasa weapon kit -->
+	<AArmoury_WeaponKit_TabulaRasa.label>набор «табула раса» для оружия</AArmoury_WeaponKit_TabulaRasa.label>
+
+	<!--                                   EN: A weapon kit that removes all weapon traits from a weapon. -->
+	<AArmoury_WeaponKit_TabulaRasa.description>Набор, полностью удаляющий все оружейные особенности с оружия.</AArmoury_WeaponKit_TabulaRasa.description>
+</LanguageData>

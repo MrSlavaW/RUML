@@ -1,0 +1,28 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Pain.xml -->
+<!--                         EN: no pain -->
+    <AM_Pain_Required.stages.0.label>нет боли</AM_Pain_Required.stages.0.label>
+    <!--                               EN: There is no life without pain. We can't experience life to its fullest while being tainted by comfort. -->
+    <AM_Pain_Required.stages.0.description>Без боли нет жизни. Мы не можем познать жизнь во всей её полноте, пока на нас сказывается комфорт.</AM_Pain_Required.stages.0.description>
+    <!--                         EN: minor pain -->
+    <AM_Pain_Required.stages.1.label>слабая боль</AM_Pain_Required.stages.1.label>
+    <!--                               EN: The pain grounds me. I appreciate it. -->
+    <AM_Pain_Required.stages.1.description>Боль удерживает меня в реальности. Я ценю её.</AM_Pain_Required.stages.1.description>
+    <!--                         EN: serious pain -->
+    <AM_Pain_Required.stages.2.label>серьёзная боль</AM_Pain_Required.stages.2.label>
+    <!--                               EN: The pain cleanses me. I like it. -->
+    <AM_Pain_Required.stages.2.description>Боль очищает меня. Мне это нравится.</AM_Pain_Required.stages.2.description>
+    <!--                         EN: intense pain -->
+    <AM_Pain_Required.stages.3.label>сильная боль</AM_Pain_Required.stages.3.label>
+    <!--                               EN: The pain purifies me. I need it! -->
+    <AM_Pain_Required.stages.3.description>Боль несёт мне очищение. Она мне нужна!</AM_Pain_Required.stages.3.description>
+    <!--                         EN: mind-shattering pain -->
+    <AM_Pain_Required.stages.4.label>разрушающая разум боль</AM_Pain_Required.stages.4.label>
+    <!--                               EN: The pain makes me sublime! I wish to become it! -->
+    <AM_Pain_Required.stages.4.description>Боль делает меня возвышенным! Я хочу стать ею!</AM_Pain_Required.stages.4.description>
+    
+    <!--                                   EN: no pain -->
+    <AM_Pain_Required_Masochist.stages.0.label>нет боли</AM_Pain_Required_Masochist.stages.0.label>
+    <!--                                         EN: Why does nothing hurt?! I feel hollow, numb, incomplete. I need pain. I need it so badly. -->
+    <AM_Pain_Required_Masochist.stages.0.description>Почему ничего не болит?! Я чувствую себя пустым, онемевшим, незавершённым. Мне нужна боль. Она мне так необходима.</AM_Pain_Required_Masochist.stages.0.description>
+</LanguageData>

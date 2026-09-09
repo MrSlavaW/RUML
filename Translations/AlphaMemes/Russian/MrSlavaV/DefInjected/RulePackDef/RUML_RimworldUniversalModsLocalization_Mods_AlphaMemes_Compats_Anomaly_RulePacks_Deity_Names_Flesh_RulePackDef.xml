@@ -1,0 +1,19 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\RulePackDefs\RulePacks_Deity_Names_Flesh.xml -->
+	<!-- EN: 
+		<li>r_deityName->The Gorefather</li>
+		<li>r_deityName->The Sinewlord</li>
+		<li>r_deityName->The Fleshtyrant</li>
+		<li>r_deityName->The Carnagebringer</li>
+		<li>r_deityName->The Rotgiver</li>
+		<li>r_deityName->The Fleshrend</li>
+	 -->
+	<AM_NamerDeityFlesh.rulePack.rulesStrings>
+		<li>r_deityName-&gt;Отец крови</li>
+		<li>r_deityName-&gt;Повелитель грехов</li>
+		<li>r_deityName-&gt;Плотский тиран</li>
+		<li>r_deityName-&gt;Приносящий резню</li>
+		<li>r_deityName-&gt;Даритель гнили</li>
+		<li>r_deityName-&gt;Рватель плоти</li>
+	</AM_NamerDeityFlesh.rulePack.rulesStrings>
+</LanguageData>

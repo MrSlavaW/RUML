@@ -1,0 +1,19 @@
+<LanguageData>
+	<!-- 1.6\Defs\FactionDefs\Factions_Misc.xml -->
+	<!--                      EN: civil xenohuman union -->
+	<AG_OutlanderCivilUnion.label>Союз ксенолюдей</AG_OutlanderCivilUnion.label>
+	<!--                            EN: A loose union of townships established by genetically modified humans of all kinds. This group is generally friendly towards outsiders. -->
+	<AG_OutlanderCivilUnion.description>Свободный союз поселков, созданный генетически модифицированными людьми всех видов. Эта группа, как правило, дружелюбна по отношению к посторонним.</AG_OutlanderCivilUnion.description>
+	<!--                             EN: участник -->
+	<AG_OutlanderCivilUnion.pawnSingular>иностранец</AG_OutlanderCivilUnion.pawnSingular>
+	<!--                            EN: лидер -->
+	<AG_OutlanderCivilUnion.leaderTitle>первый советник</AG_OutlanderCivilUnion.leaderTitle>
+	<!--                   EN: xenohuman pirate gang -->
+	<AG_XenohumanPirates.label>Пиратская банда ксенолюдей</AG_XenohumanPirates.label>
+	<!--                         EN: A loose confederation of pirate gangs established by genetically modified humans of all kinds.\n\nThey have little interest in building, or farming, preferring to take their sustenance from others using violence.\n\nTheir technology level depends mostly on who they've managed to steal from recently. Mostly they carry gunpowder weapons, though some prefer to stab victims at close range. -->
+	<AG_XenohumanPirates.description>Свободная конфедерация пиратских банд, созданная генетически модифицированными людьми всех видов.\n\nОни мало интересуются строительством или сельским хозяйством, предпочитая отнимать средства к существованию у других, используя насилие.\n\nИх технологический уровень зависит главным образом от того, у кого им удалось недавно украсть. В основном они носят пороховое оружие, хотя некоторые предпочитают наносить удары с близкого расстояния.</AG_XenohumanPirates.description>
+	<!--                          EN: участник -->
+	<AG_XenohumanPirates.pawnSingular>пират</AG_XenohumanPirates.pawnSingular>
+	<!--                         EN: лидер -->
+	<AG_XenohumanPirates.leaderTitle>Босс</AG_XenohumanPirates.leaderTitle>
+</LanguageData>

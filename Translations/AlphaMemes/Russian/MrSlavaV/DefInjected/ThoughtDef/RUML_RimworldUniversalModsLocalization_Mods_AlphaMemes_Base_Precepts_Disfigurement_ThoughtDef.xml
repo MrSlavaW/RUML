@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Disfigurement.xml -->
+	
+<!--                                          EN: disfigured -->
+    <AM_Disfigurement_Preferred_Social.stages.0.label>обезображен</AM_Disfigurement_Preferred_Social.stages.0.label>
+    
+    <!--                                   EN: disfigured -->
+    <AM_Disfigurement_Preferred.stages.0.label>обезображен</AM_Disfigurement_Preferred.stages.0.label>
+    <!--                                         EN: Disfigurement is beautiful. To alter the body is to improve it. -->
+    <AM_Disfigurement_Preferred.stages.0.description>Обезображивание прекрасно. Изменить тело — значит улучшить его.</AM_Disfigurement_Preferred.stages.0.description>
+    <!--                                   EN: not disfigured -->
+    <AM_Disfigurement_Preferred.stages.1.label>не обезображен</AM_Disfigurement_Preferred.stages.1.label>
+    <!--                                         EN: I want to be disfigured. An unaltered body is a wasted opportunity to become something greater. -->
+    <AM_Disfigurement_Preferred.stages.1.description>Я хочу быть обезображенным. Неизменённое тело — это упущенная возможность стать чем-то большим.</AM_Disfigurement_Preferred.stages.1.description>
+</LanguageData>

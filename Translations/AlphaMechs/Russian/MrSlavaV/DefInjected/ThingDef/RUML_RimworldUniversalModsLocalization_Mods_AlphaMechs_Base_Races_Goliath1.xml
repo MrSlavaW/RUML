@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_RacesMechanoids\Races_Goliath.xml -->
+	<!--          EN: goliath -->
+	<AM_Goliath.label>голиаф</AM_Goliath.label>
+	<!--                EN: The Goliath is a heavy combat mechanoid with a humanoid body plan. They are faster than centipedes, and are usually armed with heavy mechanoid weapons or needle guns.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Faster than a centipede, but weaker due to their weaker weapons. If built by the player, it will have a "Swap weapon" ability to choose between the charge blaster and the Needle gun. If toggled to not spawn via mod options, they will get replaced by a Centipede Gunner. -->
+	<AM_Goliath.description>Голиаф — тяжелый боевой механоид с гуманоидным строением тела. Они быстрее многоножек и обычно вооружены тяжелым механоидным оружием или игольчатыми пистолетами.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Быстрее многоножки, но слабее из-за более слабого оружия. Если он построен игроком, у него будет возможность «Сменить оружие», позволяющая выбирать между зарядным бластером и игольчатым пистолетом. Если с помощью опций мода отключено появление, они будут заменены многоножками-стрелками.</AM_Goliath.description>
+	<!--                  EN: голова -->
+	<AM_Goliath.tools.0.label>голова</AM_Goliath.tools.0.label>
+</LanguageData>

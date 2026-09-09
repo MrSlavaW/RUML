@@ -1,0 +1,31 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\Fleshcrafting.xml -->
+	
+	<!--                                    EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+	<AM_FleshCraftingFuneralOutcome.description>В зависимости от качества ритуала у участников изменится настроение от {MINMOOD} до {MAXMOOD} на {MOODDAYS} дней.</AM_FleshCraftingFuneralOutcome.description>
+	<!--                                               EN: Terrible -->
+	<AM_FleshCraftingFuneralOutcome.outcomeChances.0.label>Ужасный</AM_FleshCraftingFuneralOutcome.outcomeChances.0.label>
+	<!--                                                     EN: The {0} was terrible! The speaker just botched the whole operation and we couldn't recover any healthy organs. What a mess. -->
+	<AM_FleshCraftingFuneralOutcome.outcomeChances.0.description>{0} было ужасно! Спикер просто провалил всю операцию, и мы не смогли восстановить ни одного здорового органа. Какое месиво.</AM_FleshCraftingFuneralOutcome.outcomeChances.0.description>
+	<!--                                               EN: Lackluster -->
+	<AM_FleshCraftingFuneralOutcome.outcomeChances.1.label>Тусклый</AM_FleshCraftingFuneralOutcome.outcomeChances.1.label>
+	<!--                                                     EN: The {0} was lackluster. The speech was long-winded and did not honour them. At least we got some useful body parts out of the whole fiasco. -->
+	<AM_FleshCraftingFuneralOutcome.outcomeChances.1.description>{0} был тусклым. Речь была многословной и не удостоила их чести. По крайней мере, мы получили некоторые полезные части тела из этого фиаско.</AM_FleshCraftingFuneralOutcome.outcomeChances.1.description>
+	<!--                                               EN: Good -->
+	<AM_FleshCraftingFuneralOutcome.outcomeChances.2.label>Хороший</AM_FleshCraftingFuneralOutcome.outcomeChances.2.label>
+	<!--                                                     EN: The {0} was good. The speaker's final words provided a path for everyone to move on. We got some useful body parts out of our fallen colleague. -->
+	<AM_FleshCraftingFuneralOutcome.outcomeChances.2.description>{0} было хорошо. Последние слова оратора дали всем возможность двигаться дальше. Мы получили несколько полезных частей тела нашего павшего коллеги.</AM_FleshCraftingFuneralOutcome.outcomeChances.2.description>
+	<!--                                               EN: Amazing -->
+	<AM_FleshCraftingFuneralOutcome.outcomeChances.3.label>Удивительно</AM_FleshCraftingFuneralOutcome.outcomeChances.3.label>
+	<!--                                                     EN: The {0} was heartwarming. The speech was captivating and heartfelt, and everyone came away focused on good memories. We salvaged many body parts and our fallen colleague will be forever part of us, in some cases literally. -->
+	<AM_FleshCraftingFuneralOutcome.outcomeChances.3.description>{0} было трогательным. Выступление было увлекательным и проникновенным, и все ушли с хорошими воспоминаниями. Мы спасли много частей тела, и наш павший коллега навсегда останется частью нас, в некоторых случаях буквально.</AM_FleshCraftingFuneralOutcome.outcomeChances.3.description>
+	<!--                                      EN: moral guide present -->
+	<AM_FleshCraftingFuneralOutcome.comps.0.label>присутствует духовный лидер</AM_FleshCraftingFuneralOutcome.comps.0.label>
+	<!--                                      EN: participant count -->
+	<AM_FleshCraftingFuneralOutcome.comps.1.label>{0} был довольно эффективным. Они производили гораздо больше питательных веществ, чем можно было бы ожидать.
+количество участников</AM_FleshCraftingFuneralOutcome.comps.1.label>
+	<!--                                                         EN: The {RITUAL} was a disaster! The butchering of {CORPSE} was sloppy, and we couldn't recover any healthy organs. -->
+	<AM_FleshCraftingFuneralOutcome.modExtensions.0.worstOutcomeDesc>{RITUAL} был катастрофой! Разделка {CORPSE} была небрежной, и мы не смогли извлечь ни одного здорового органа.</AM_FleshCraftingFuneralOutcome.modExtensions.0.worstOutcomeDesc>
+	<!--                                                        EN: The {RITUAL} spectacular! We salvaged a lot of useful body parts. -->
+	<AM_FleshCraftingFuneralOutcome.modExtensions.0.bestOutcomeDesc>{RITUAL} был великолепен! Мы спасли много полезных частей тела.</AM_FleshCraftingFuneralOutcome.modExtensions.0.bestOutcomeDesc>
+</LanguageData>

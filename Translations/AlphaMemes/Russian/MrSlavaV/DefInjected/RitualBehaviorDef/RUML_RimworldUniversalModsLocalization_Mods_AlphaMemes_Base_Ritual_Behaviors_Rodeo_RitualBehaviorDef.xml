@@ -1,0 +1,19 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\Rodeo\Ritual_Behaviors_Rodeo.xml -->
+	<!--                        EN: speaker -->
+	<AM_RodeoBehavior.roles.0.label>оратор</AM_RodeoBehavior.roles.0.label>
+	<!--                        EN: cowboy -->
+	<AM_RodeoBehavior.roles.1.label>ковбой</AM_RodeoBehavior.roles.1.label>
+	<!--                              EN: the current cowboy -->
+	<AM_RodeoBehavior.roles.1.missingDesc>текущий ковбой</AM_RodeoBehavior.roles.1.missingDesc>
+	<!--                        EN: cattle -->
+	<AM_RodeoBehavior.roles.2.label>скот</AM_RodeoBehavior.roles.2.label>
+	<!--                              EN: a colony cattle -->
+	<AM_RodeoBehavior.roles.2.missingDesc>скот поселения</AM_RodeoBehavior.roles.2.missingDesc>
+	<!--                          EN: Spectators -->
+	<AM_RodeoBehavior.spectatorsLabel>Зрители</AM_RodeoBehavior.spectatorsLabel>
+	<!--                          EN: participate -->
+	<AM_RodeoBehavior.spectatorGerund>участвовать</AM_RodeoBehavior.spectatorGerund>
+	<!--                                       EN: Cattle is not reachable. -->
+	<AM_RodeoBehavior.stages.1.failTriggers.0.desc>Скот недостижим.</AM_RodeoBehavior.stages.1.failTriggers.0.desc>
+</LanguageData>

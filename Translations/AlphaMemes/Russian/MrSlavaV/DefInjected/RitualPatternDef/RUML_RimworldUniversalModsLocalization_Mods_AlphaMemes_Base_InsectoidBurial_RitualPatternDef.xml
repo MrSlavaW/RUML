@@ -1,0 +1,5 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\InsectoidBurial.xml -->
+	<!--                                       EN: Once a {IDEO} member dies, other {MEMBERS} witness {RITUAL_labelDef} be offered to the insectoids. -->
+	<AM_InsectoidFuneralPattern.ritualExpectedDesc>Как только член {IDEO} умирает, другие {MEMBERS} свидетели {RITUAL_labelDef} будут предложены инсектоидам.</AM_InsectoidFuneralPattern.ritualExpectedDesc>
+</LanguageData>

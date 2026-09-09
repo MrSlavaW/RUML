@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\Rituals\CoffeeRoasting\Ritual_Behaviors_CoffeeRoasting.xml -->
+	<!--                                 EN: speaker -->
+	<AM_CoffeeRoastingBehavior.roles.0.label>оратор</AM_CoffeeRoastingBehavior.roles.0.label>
+	<!--                                   EN: Participants -->
+	<AM_CoffeeRoastingBehavior.spectatorsLabel>Участники</AM_CoffeeRoastingBehavior.spectatorsLabel>
+	<!--                                   EN: participate -->
+	<AM_CoffeeRoastingBehavior.spectatorGerund>участвовать</AM_CoffeeRoastingBehavior.spectatorGerund>
+</LanguageData>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AAVPE_InfectedMandibles.label>заражающие жвалы</AAVPE_InfectedMandibles.label>
+  <AA_AcidRainDamage.label>кислотный ожог</AA_AcidRainDamage.label>
+  <AA_AcidSpit.label>кислотный плевок</AA_AcidSpit.label>
+  <AA_BlackHiveBolt.label>мерзкий плевок</AA_BlackHiveBolt.label>
+  <AA_BoulderScratch.label>удар валуном</AA_BoulderScratch.label>
+  <AA_BurningAndFeedingBite.label>поглощающий укус</AA_BurningAndFeedingBite.label>
+  <AA_BurningBite.label>обжигающий укус</AA_BurningBite.label>
+  <AA_EMPBlunt.label>ЭМИ-удар</AA_EMPBlunt.label>
+  <AA_EMPSlash.label>ЭМИ-разрез</AA_EMPSlash.label>
+  <AA_Electric.label>электроразряд</AA_Electric.label>
+  <AA_ExtraDamageInsectoidsClaws.label>раздирающие когти</AA_ExtraDamageInsectoidsClaws.label>
+  <AA_ExtraDamageMechanoidsBite.label>дробящий укус</AA_ExtraDamageMechanoidsBite.label>
+  <AA_ExtraDamageMechanoidsClaws.label>раздирающие когти</AA_ExtraDamageMechanoidsClaws.label>
+  <AA_ExtraDamageMechanoidsTusk.label>пробивающий бивень</AA_ExtraDamageMechanoidsTusk.label>
+  <AA_FrostBite.label>морозный укус</AA_FrostBite.label>
+  <AA_FrostBomb.label>ледяной взрыв</AA_FrostBomb.label>
+  <AA_FrostClaws.label>ледяные когти</AA_FrostClaws.label>
+  <AA_FungalClaws.label>грибные когти</AA_FungalClaws.label>
+  <AA_InfectedClaws.label>гнойные когти</AA_InfectedClaws.label>
+  <AA_LockJawDamage.label>челюстной спазм</AA_LockJawDamage.label>
+  <AA_LuciferiumExplosion.label>люцифериевая вспышка</AA_LuciferiumExplosion.label>
+  <AA_OverpoweringSecondaryAcidBurn.label>вторичный кислотный ожог</AA_OverpoweringSecondaryAcidBurn.label>
+  <AA_ParalysingBite.label>парализующий укус</AA_ParalysingBite.label>
+  <AA_PermanentBurn.label>перманентный ожог</AA_PermanentBurn.label>
+  <AA_Pierce.label>прокол</AA_Pierce.label>
+  <AA_RegenerativePierce.label>вампирический укол</AA_RegenerativePierce.label>
+  <AA_SiegeBlunt.label>осадный крушащий удар</AA_SiegeBlunt.label>
+  <AA_SwallowWhole.label>заглатывание</AA_SwallowWhole.label>
+  <AA_SwarmlingClaws.label>когти роя</AA_SwarmlingClaws.label>
+  <AA_ToxicBite.label>ядовитый укус</AA_ToxicBite.label>
+  <AA_ToxicBolt.label>ядовитый шип</AA_ToxicBolt.label>
+  <AA_ToxicSting.label>токсичный укол</AA_ToxicSting.label>
+  <AA_VeryToxicSting.label>смертоносный токсичный укол</AA_VeryToxicSting.label>
+  <BodyCrush.label>раздавливание</BodyCrush.label>
+  <FO_PlaguedBite.label>чумной укус</FO_PlaguedBite.label>
+  <Frostbite.label>обморожение</Frostbite.label>
+</LanguageData>

@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_PristineSlurrypede.xml -->
+	<!--                          EN: pristine slurrypede -->
+	<AM_Mech_PristineSlurrypede.label>безупречный слиррипед</AM_Mech_PristineSlurrypede.label>
+	<!--                                EN: Although rare, mechanoids have been known to capture prisoners, and the Slurrypede is their solution to feed them in the most efficient way possible. The Slurrypede is a modified bio-mechanoid capable of extracting energy from standard mech rechargers and use it to process inorganic matter into a homogeneous organic slurry. This slurry is edible for carnivore and omnivore animals, but barely, and completely indigestible for herbivores. -->
+	<AM_Mech_PristineSlurrypede.description>Хотя такое случается редко, механоиды порой захватывают пленников, и слиррипед служит им средством снабжения пищей. Этот модифицированный биомеханоид извлекает энергию из обычных зарядных устройств для механоидов и перерабатывает неорганическое вещество в однородную органическую жижу. Она пригодна в пищу плотоядным и всеядным животным, но почти не усваивается травоядными.</AM_Mech_PristineSlurrypede.description>
+	<!--                                  EN: голова -->
+	<AM_Mech_PristineSlurrypede.tools.0.label>голова</AM_Mech_PristineSlurrypede.tools.0.label>
+</LanguageData>

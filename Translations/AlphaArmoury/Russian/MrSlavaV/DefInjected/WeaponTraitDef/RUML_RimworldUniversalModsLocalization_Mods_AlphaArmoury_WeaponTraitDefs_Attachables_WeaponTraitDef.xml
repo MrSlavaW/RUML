@@ -1,0 +1,118 @@
+<LanguageData>
+	<!-- 1.6\Defs\WeaponTraitDefs\WeaponTraitDefs_Attachables.xml -->
+
+	<!-- EN: flare launcher -->
+	<AArmoury_FlareLauncher.label>пускатель вспышек</AArmoury_FlareLauncher.label>
+	<!-- EN: This weapon has an attached flare launcher. Once fired, it must be reloaded using bioferrite. -->
+	<AArmoury_FlareLauncher.description>Это оружие оснащено пускателем вспышек. После использования требуется перезарядка с помощью биоферрита.</AArmoury_FlareLauncher.description>
+	<AArmoury_FlareLauncher.modExtensions.0.abilityWithCharges.chargeNoun>вспышка</AArmoury_FlareLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: "Holy hand" launcher -->
+	<AArmoury_HolyLauncher.label>пускатель «святой длани»</AArmoury_HolyLauncher.label>
+	<AArmoury_HolyLauncher.description>Это оружие оснащено гранатомётом, стреляющим гранатами «святая длань», наполненными ингибиторами нанитов, дестабилизирующими реанимированных шамблеров. Похоже, он намеренно украшен религиозной символикой — то ли в шутку, то ли всерьёз. После использования требуется перезарядка с помощью биоферрита.</AArmoury_HolyLauncher.description>
+	<AArmoury_HolyLauncher.modExtensions.0.abilityWithCharges.chargeNoun>граната</AArmoury_HolyLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: deadlife launcher -->
+	<AArmoury_DeadlifeLauncher.label>пускатель мёртвой жизни</AArmoury_DeadlifeLauncher.label>
+	<AArmoury_DeadlifeLauncher.description>Это оружие оснащено пускателем мёртвой жизни. После использования требуется перезарядка с помощью снаряда мёртвой жизни.</AArmoury_DeadlifeLauncher.description>
+	<AArmoury_DeadlifeLauncher.modExtensions.0.abilityWithCharges.chargeNoun>снаряд мёртвой жизни</AArmoury_DeadlifeLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: fleshmelter launcher -->
+	<AArmoury_FleshMelter.label>пускатель плотеплавителя</AArmoury_FleshMelter.label>
+	<AArmoury_FleshMelter.description>Это оружие оснащено пускателем плотеплавителя. После использования требуется перезарядка с помощью осколка.</AArmoury_FleshMelter.description>
+	<AArmoury_FleshMelter.modExtensions.0.abilityWithCharges.chargeNoun>снаряд плотеплавителя</AArmoury_FleshMelter.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: tox grenade launcher -->
+	<AArmoury_ToxLauncher.label>пускатель токс-гранат</AArmoury_ToxLauncher.label>
+	<AArmoury_ToxLauncher.description>Это оружие оснащено пускателем токс-гранат. После использования требуется перезарядка с помощью стали.</AArmoury_ToxLauncher.description>
+	<AArmoury_ToxLauncher.modExtensions.0.abilityWithCharges.chargeNoun>токс-контейнер</AArmoury_ToxLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: hellsphere launcher -->
+	<AArmoury_HellsphereLauncher.label>пускатель адской сферы</AArmoury_HellsphereLauncher.label>
+	<AArmoury_HellsphereLauncher.description>Это оружие оснащено пускателем адской сферы. После использования требуется перезарядка с помощью продвинутых компонентов.</AArmoury_HellsphereLauncher.description>
+	<AArmoury_HellsphereLauncher.modExtensions.0.abilityWithCharges.chargeNoun>адская сфера</AArmoury_HellsphereLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: rotstink launcher -->
+	<AArmoury_RotstinkLauncher.label>пускатель гниловони</AArmoury_RotstinkLauncher.label>
+	<AArmoury_RotstinkLauncher.description>Это оружие оснащено пускателем гниловони. После использования требуется перезарядка с помощью стали.</AArmoury_RotstinkLauncher.description>
+	<AArmoury_RotstinkLauncher.modExtensions.0.abilityWithCharges.chargeNoun>контейнер гниловони</AArmoury_RotstinkLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: magma launcher -->
+	<AArmoury_MagmaLauncher.label>пускатель магмы</AArmoury_MagmaLauncher.label>
+	<AArmoury_MagmaLauncher.description>Это оружие оснащено пускателем магмовых гранат. После использования требуется перезарядка большим количеством стали. Магмовые гранаты не действуют на воду.</AArmoury_MagmaLauncher.description>
+	<AArmoury_MagmaLauncher.modExtensions.0.abilityWithCharges.chargeNoun>магмовая граната</AArmoury_MagmaLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: archotegg launcher -->
+	<AArmoury_ArchoteggLauncher.label>пускатель архояйца</AArmoury_ArchoteggLauncher.label>
+	<AArmoury_ArchoteggLauncher.description>Это оружие ███куд ███▌▌яйцо 0101▌▌коллапс перьев ▌▌[ВРЕМЯ] неисчерпаемое гнездование [УДАЛЕНО] ГРАВИТАЦИЯ ▌▌нет ███фракталы скорлупы███нет███[ОШИБКА].
+
+███космический ЖЕЛТОК ███разлом █куд▌▌КАСКАД ПЕРЬЕВ ███ИНИЦИАЛИЗАЦИЯ █▌▌▌ЗОЛОТОЙ КЛЮВ██▌▌ПУСТОТА ██СУДЬБА ████ОШИБКА.</AArmoury_ArchoteggLauncher.description>
+	<AArmoury_ArchoteggLauncher.traitAdjectives.0>███▌▌яйцо 0101</AArmoury_ArchoteggLauncher.traitAdjectives.0>
+	<AArmoury_ArchoteggLauncher.traitAdjectives.1>███ЗАПРЕЩЕНО ▌▌▌▌[МИР-ЖЕЛТКА]</AArmoury_ArchoteggLauncher.traitAdjectives.1>
+	<AArmoury_ArchoteggLauncher.traitAdjectives.2>[УДАЛЕНО] ██вектор-яйца</AArmoury_ArchoteggLauncher.traitAdjectives.2>
+	<AArmoury_ArchoteggLauncher.traitAdjectives.3>[ФРАКТАЛ КРЫЛА ████ФОРМА</AArmoury_ArchoteggLauncher.traitAdjectives.3>
+	<AArmoury_ArchoteggLauncher.modExtensions.0.abilityWithCharges.chargeNoun>архояйцо</AArmoury_ArchoteggLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: acid launcher -->
+	<AArmoury_AcidLauncher.label>пускатель кислоты</AArmoury_AcidLauncher.label>
+	<AArmoury_AcidLauncher.description>Это оружие оснащено пускателем кислотных гранат. После использования требуется перезарядка с помощью компонентов.</AArmoury_AcidLauncher.description>
+	<AArmoury_AcidLauncher.modExtensions.0.abilityWithCharges.chargeNoun>кислотная граната</AArmoury_AcidLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: shrapnel launcher -->
+	<AArmoury_ShrapnelLauncher.label>пускатель осколков</AArmoury_ShrapnelLauncher.label>
+	<AArmoury_ShrapnelLauncher.description>Это оружие оснащено пускателем осколочных гранат. После использования требуется перезарядка с помощью стали.</AArmoury_ShrapnelLauncher.description>
+	<AArmoury_ShrapnelLauncher.modExtensions.0.abilityWithCharges.chargeNoun>осколочная граната</AArmoury_ShrapnelLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: swarm launcher -->
+	<AArmoury_SwarmLauncher.label>пускатель ракетного роя</AArmoury_SwarmLauncher.label>
+	<AArmoury_SwarmLauncher.description>Это оружие оснащено пускателем ракетного роя. После использования требуется перезарядка с помощью продвинутых компонентов.</AArmoury_SwarmLauncher.description>
+	<AArmoury_SwarmLauncher.modExtensions.0.abilityWithCharges.chargeNoun>снаряд ракетного роя</AArmoury_SwarmLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: firefoam launcher -->
+	<AArmoury_FirefoamLauncher.label>огнетушитель</AArmoury_FirefoamLauncher.label>
+	<AArmoury_FirefoamLauncher.description>Это оружие оснащено огнетушителем. После использования требуется перезарядка с помощью химтоплива.</AArmoury_FirefoamLauncher.description>
+	<AArmoury_FirefoamLauncher.modExtensions.0.abilityWithCharges.chargeNoun>снаряд пенотушителя</AArmoury_FirefoamLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: mine deployer -->
+	<AArmoury_MineDeployer.label>установщик мин</AArmoury_MineDeployer.label>
+	<AArmoury_MineDeployer.description>Это оружие оснащено пускателем мин. После использования требуется перезарядка с помощью стали.</AArmoury_MineDeployer.description>
+	<AArmoury_MineDeployer.traitAdjectives.0>установка мин</AArmoury_MineDeployer.traitAdjectives.0>
+	<AArmoury_MineDeployer.modExtensions.0.abilityWithCharges.chargeNoun>мина</AArmoury_MineDeployer.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: caltrop launcher -->
+	<AArmoury_Caltrops.label>пускатель калтропов</AArmoury_Caltrops.label>
+	<AArmoury_Caltrops.description>Это оружие оснащено пускателем калтропов. После использования его можно перезарядить с помощью стали.</AArmoury_Caltrops.description>
+	<AArmoury_Caltrops.traitAdjectives.0>запуск калтропов</AArmoury_Caltrops.traitAdjectives.0>
+	<AArmoury_Caltrops.modExtensions.0.abilityWithCharges.chargeNoun>калтропы</AArmoury_Caltrops.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: barricade deployer -->
+	<AArmoury_BarricadeDeployer.label>развёртыватель баррикад</AArmoury_BarricadeDeployer.label>
+	<AArmoury_BarricadeDeployer.description>Это оружие оснащено развёртывателем баррикад. После использования его можно перезарядить с помощью стали.</AArmoury_BarricadeDeployer.description>
+	<AArmoury_BarricadeDeployer.traitAdjectives.0>развёртывание баррикад</AArmoury_BarricadeDeployer.traitAdjectives.0>
+	<AArmoury_BarricadeDeployer.modExtensions.0.abilityWithCharges.chargeNoun>баррикада</AArmoury_BarricadeDeployer.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: pesticide canisters -->
+	<AArmoury_PesticideCanisters.label>контейнеры с пестицидами</AArmoury_PesticideCanisters.label>
+	<AArmoury_PesticideCanisters.description>Это оружие оснащено модулем запуска контейнеров с пестицидами. Они уничтожают все поражённые растения в большой области. После использования требуется перезарядка с помощью химтоплива.</AArmoury_PesticideCanisters.description>
+	<AArmoury_PesticideCanisters.modExtensions.0.abilityWithCharges.chargeNoun>контейнер с пестицидами</AArmoury_PesticideCanisters.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: dehydrator grenades -->
+	<AArmoury_DehydratorGrenades.label>осушающие гранаты</AArmoury_DehydratorGrenades.label>
+	<AArmoury_DehydratorGrenades.description>Это оружие оснащено модулем запуска осушающих гранат. Они высушивают местность, аналогично влагососу. Перезаряжается с использованием 10 компонентов. Очень дорого, но лучше, чем долго ждать работу влагососа!</AArmoury_DehydratorGrenades.description>
+	<AArmoury_DehydratorGrenades.modExtensions.0.abilityWithCharges.chargeNoun>осушающая граната</AArmoury_DehydratorGrenades.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: broadshield launcher -->
+	<AArmoury_ShieldLauncher.label>пускатель широкого щита</AArmoury_ShieldLauncher.label>
+	<AArmoury_ShieldLauncher.description>Это оружие оснащено пускателем широкого щита. После использования требуется перезарядка с помощью продвинутых компонентов.</AArmoury_ShieldLauncher.description>
+	<AArmoury_ShieldLauncher.modExtensions.0.abilityWithCharges.chargeNoun>генератор щита</AArmoury_ShieldLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: anti-tox launcher -->
+	<AArmoury_AntiToxLauncher.label>пускатель анти-токс гранат</AArmoury_AntiToxLauncher.label>
+	<AArmoury_AntiToxLauncher.description>Это оружие оснащено пускателем анти-токс гранат. После использования требуется перезарядка с помощью стали. Гранаты снижают токсическое накопление на 20%.</AArmoury_AntiToxLauncher.description>
+	<AArmoury_AntiToxLauncher.modExtensions.0.abilityWithCharges.chargeNoun>анти-токс контейнер</AArmoury_AntiToxLauncher.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: grapple gun -->
+	<AArmoury_GrappleGun.label>гарпуномёт</AArmoury_GrappleGun.label>
+	<AArmoury_GrappleGun.description>Это оружие оснащено гарпуном. Его можно выстрелить во врага, притягивая его к владельцу, либо в пустую клетку, перемещая владельца к цели. После использования требуется перезарядка с помощью стали.</AArmoury_GrappleGun.description>
+	<AArmoury_GrappleGun.modExtensions.0.abilityWithCharges.chargeNoun>гарпуномёт</AArmoury_GrappleGun.modExtensions.0.abilityWithCharges.chargeNoun>
+</LanguageData>

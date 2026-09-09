@@ -1,0 +1,16 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_RelicDestruction.xml -->
+	
+	<!--                                    EN: destroyed a relic -->
+	<AM_RelicDestruction_Desired.stages.0.label>уничтожена реликвия</AM_RelicDestruction_Desired.stages.0.label>
+	<!--                                          EN: We destroyed a relic. Feels good to get rid of such obscene idols. -->
+	<AM_RelicDestruction_Desired.stages.0.description>Мы уничтожили реликвию. Приятно избавиться от таких непристойных идолов.</AM_RelicDestruction_Desired.stages.0.description>
+	<!--                                    EN: destroyed two relics -->
+	<AM_RelicDestruction_Desired.stages.1.label>уничтожены две реликвии</AM_RelicDestruction_Desired.stages.1.label>
+	<!--                                          EN: We destroyed two relics. We won't rest until we have destroyed all the false images. -->
+	<AM_RelicDestruction_Desired.stages.1.description>Мы уничтожили две реликвии. Мы не успокоимся, пока не уничтожим все ложные образы.</AM_RelicDestruction_Desired.stages.1.description>
+	<!--                                    EN: destroyed three or more relics -->
+	<AM_RelicDestruction_Desired.stages.2.label>уничтожены три или более реликвии</AM_RelicDestruction_Desired.stages.2.label>
+	<!--                                          EN: We destroyed three or more relics. The entire world will be purged of such obscene representations. -->
+	<AM_RelicDestruction_Desired.stages.2.description>Мы уничтожили три или более реликвии. Весь мир будет очищен от таких непристойных представлений.</AM_RelicDestruction_Desired.stages.2.description>
+</LanguageData>

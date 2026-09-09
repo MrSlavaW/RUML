@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AA_BehemothPasses.label>проход бегемота</AA_BehemothPasses.label>
+  <AA_CactipineDropPod.label>странная капсула</AA_CactipineDropPod.label>
+  <AA_Eclipse.label>механитовое затмение</AA_Eclipse.label>
+  <AA_IncidentFungalHusk.label>грибные оболочки</AA_IncidentFungalHusk.label>
+  <AA_IncidentSummitCrab.label>вершинный краб</AA_IncidentSummitCrab.label>
+  <AA_Incident_Bumbledrones.label>миграция шмеледронов</AA_Incident_Bumbledrones.label>
+  <AA_Incident_Gallatross.label>бродячий галлатросс</AA_Incident_Gallatross.label>
+  <AA_Incident_SkyMeteorite.label>небесный метеорит</AA_Incident_SkyMeteorite.label>
+  <AA_MimeWandererJoinQuest.label>присоединение скитальца</AA_MimeWandererJoinQuest.label>
+  <AA_ResourcePodCrash.label>падение капсулы с ресурсами</AA_ResourcePodCrash.label>
+</LanguageData>

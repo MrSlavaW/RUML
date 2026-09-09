@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\DamageDefs\Damages_Special.xml -->
+	<!--           EN: holy burn -->
+	<AM_HolyBurn.label>святой ожог</AM_HolyBurn.label>
+	<!--                  EN: {0} has burned to death. -->
+	<AM_HolyBurn.deathMessage>{0} был сожжен.</AM_HolyBurn.deathMessage>
+</LanguageData>

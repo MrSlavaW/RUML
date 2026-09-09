@@ -1,0 +1,10 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_GauranlenConnection.xml -->
+	
+	<!--                                EN: forbidden -->
+	<AM_GauranlenConnection_Forbidden.label>запрещена</AM_GauranlenConnection_Forbidden.label>
+	<!--                                      EN: We shun any connection with Gauranlen trees. Such bonds are a wasteful indulgence, distracting from proper labor and fostering unnatural dependence. True strength lies in severing these ties.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Planting the Gauranlen seed and then cutting the tree will provide development points and a mood bonus. -->
+	<AM_GauranlenConnection_Forbidden.description>Мы избегаем любых связей с деревьями Гауранлен. Такие узы — пустая роскошь, отвлекающая от настоящего труда и порождающая неестественную зависимость. Истинная сила заключается в разрыве этих связей.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Посадка семян Гауранлен и последующая вырубка дерева принесут очки развития и бонус к настроению.</AM_GauranlenConnection_Forbidden.description>
+	<!--                                             EN: cut Gauranlen tree -->
+	<AM_GauranlenConnection_Forbidden.comps.2.eventLabel>срубить дерево Гауранлен</AM_GauranlenConnection_Forbidden.comps.2.eventLabel>
+</LanguageData>

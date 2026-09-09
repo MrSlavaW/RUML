@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Cosmetic_Hair.xml -->
+	<!--               EN: deep red hair -->
+	<AG_Hair_DeepRed.label>Красные волосы</AG_Hair_DeepRed.label>
+	<!--                                    EN: Just the way General Pain likes it. -->
+	<AG_Hair_DeepRed.customEffectDescriptions.0>Именно так, как нравится.</AG_Hair_DeepRed.customEffectDescriptions.0>
+	<!--                  EN: deep orange hair -->
+	<AG_Hair_DeepOrange.label>Оранжевые волосы</AG_Hair_DeepOrange.label>
+	<!--                 EN: pale green hair -->
+	<AG_Hair_PaleGreen.label>Зеленые волосы</AG_Hair_PaleGreen.label>
+	<!--              EN: golden hair -->
+	<AG_Hair_Golden.label>Золотистые волосы</AG_Hair_Golden.label>
+</LanguageData>

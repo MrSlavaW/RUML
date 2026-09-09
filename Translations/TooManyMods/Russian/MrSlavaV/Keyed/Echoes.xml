@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<EOTR_DespawnTime>Время исчезновения (в днях): {0}</EOTR_DespawnTime>
+	<EOTR_ChanceForEvent>Шанс события на клетку: {0}%</EOTR_ChanceForEvent>
+	<EOTR_CaravanSite_LetterMarkForLater>Отложить на потом</EOTR_CaravanSite_LetterMarkForLater>
+	<EOTR_UnknownSite>Скрытый объект</EOTR_UnknownSite>
+</LanguageData>

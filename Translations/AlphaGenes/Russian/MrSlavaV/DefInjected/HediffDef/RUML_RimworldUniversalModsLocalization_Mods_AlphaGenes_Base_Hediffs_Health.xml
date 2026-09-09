@@ -1,0 +1,53 @@
+<LanguageData>
+	<!-- 1.6\Defs\HediffDefs\Hediffs_Health.xml -->
+	<!--               EN: regeneration -->
+	<AG_Regeneration.label>усиленная регенерация</AG_Regeneration.label>
+	<!--                     EN: This person has a distributed network of specialized mechanites on their bloodstream that periodically tend to internal wounds, regenerating them without any need for rest. -->
+	<AG_Regeneration.description>В кровотоке носителя этого гена действует распределённая сеть специализированных механитов, которая периодически залечивает внутренние травмы и позволяет восстанавливаться без отдыха.</AG_Regeneration.description>
+	<!--                    EN: regeneration, minor -->
+	<AG_RegenerationMinor.label>Слабая регенерация</AG_RegenerationMinor.label>
+	<!--                          EN: This person has a faint distributed network of specialized mechanites on their bloodstream that periodically tend to internal wounds, regenerating them without any need for rest. -->
+	<AG_RegenerationMinor.description>В кровотоке носителей этого гена циркулирует слабая сеть специализированных механитов, которые периодически лечат внутренние повреждения без необходимости в отдыхе.</AG_RegenerationMinor.description>
+	<!--                    EN: water regeneration -->
+	<AG_WaterRegeneration.label>Водная регенерация</AG_WaterRegeneration.label>
+	<!--                          EN: This person will slowly regenerate health whenever they are on watery terrain. -->
+	<AG_WaterRegeneration.description>Носители этого гена будут медленно восстанавливать здоровье всякий раз, когда они находятся в воде.</AG_WaterRegeneration.description>
+	<!--                     EN: passive regenerator -->
+	<AG_PassiveRegenerator.label>Аура регенерации</AG_PassiveRegenerator.label>
+	<!--                           EN: This person constantly releases an invisible cloud of specialized mechanites that periodically tend to the wounds of nearby people and animals, regenerating them without any need for rest. -->
+	<AG_PassiveRegenerator.description>Носители этого гена постоянно испускают невидимое облако специализированных механитов, которые периодически лечат раны людей и животных поблизости без необходимости в отдыхе.</AG_PassiveRegenerator.description>
+	<!--                    EN: lethal instability -->
+	<AG_LethalInstability.label>Смертельная нестабильность</AG_LethalInstability.label>
+	<!--                          EN: This person needs considerably less metabolic energy to stay alive, at the cost of outrageously-reduced stability in their cell-replication machinery, and a very, VERY limited lifespan that can't be expanded in any way. -->
+	<AG_LethalInstability.description>Носителю требуется значительно меньше метаболической энергии, чтобы оставаться в живых, ценой чудовищно сниженной стабильности механизма репликации клеток и крайне короткой продолжительности жизни, которую никак нельзя увеличить.</AG_LethalInstability.description>
+	<!--                   EN: unstable mutation -->
+	<AG_UnstableMutation.label>Нестабильная мутация</AG_UnstableMutation.label>
+	<!--                         EN: Forces an unstable mutation on this person. This mutation will activate a new random gene for 12 hours. After that period passes, the gene will deactivate. -->
+	<AG_UnstableMutation.description>Вызывает нестабильную мутацию в теле. Эта мутация активирует новый случайный ген на 12 часов. По истечении этого периода ген деактивируется.</AG_UnstableMutation.description>
+	<!--                        EN: unstable mutation, major -->
+	<AG_UnstableMutationMajor.label>Сильная нестабильная мутация</AG_UnstableMutationMajor.label>
+	<!--                              EN: Forces an uncontrollable and unstable mutation on this person every day. This mutation will activate two new random genes for a whole day. Next day, the genes will deactivate and two new ones will take their place. -->
+	<AG_UnstableMutationMajor.description>Носители этого гена будут страдать от нестабильной мутации в своих телах один раз в день. Эта мутация активирует два новых случайных гена на целый день. На следующий день гены деактивируются, и их место занимают два новых.</AG_UnstableMutationMajor.description>
+	<!--                               EN: unstable mutation, catastrophic -->
+	<AG_UnstableMutationCatastrophic.label>Катастрофическая мутация</AG_UnstableMutationCatastrophic.label>
+	<!--                                     EN: Forces an uncontrollable and unstable mutation on this person every day. This mutation will activate ten new random genes for a whole day. Next day, the genes will deactivate and ten new ones will take their place. -->
+	<AG_UnstableMutationCatastrophic.description>Раз в день носитель переживает крайне мощную нестабильную мутацию. Она активирует до десяти случайных генов на сутки, а на следующий день эти гены отключаются и уступают место новым.</AG_UnstableMutationCatastrophic.description>
+	<!--                EN: near blindness -->
+	<AG_NearBlindness.label>Почти слепой</AG_NearBlindness.label>
+	<!--                      EN: This person has almost completely useless eyes, with close to total blindness. -->
+	<AG_NearBlindness.description>Носители этого гена имеют почти бесполезные глаза и страдают от почти полной слепоты.</AG_NearBlindness.description>
+	<!--           EN: deafness -->
+	<AG_Deafness.label>Глухота</AG_Deafness.label>
+	<!--                 EN: This person has a complete lack of hearing. -->
+	<AG_Deafness.description>Этот человек полностью лишён слуха.</AG_Deafness.description>
+	<!--                EN: teratogenesis -->
+	<AG_Teratogenesis.label>Тератогенез</AG_Teratogenesis.label>
+	<!--                      EN: The genes of this person constantly generate tumors all over their body. They are not immune to dead from these tumors.\n\nA new carcinoma will be generated every 42000 to 72000 ticks (0.7 to 1.2 days), and no more than ten carcinomas may be present at the same time on the body. -->
+	<AG_Teratogenesis.description>У носителей этого гена постоянно возникают опухоли по всему телу. Они не застрахованы от смерти от этих опухолей.
+
+Новая карцинома образуется каждые 42000-72000 тиков (0,7-1,2 дня). Одновременно на теле может быть не больше 10 карцином.</AG_Teratogenesis.description>
+	<!--                   EN: limb regeneration -->
+	<AG_LimbRegeneration.label>Регенерация конечностей</AG_LimbRegeneration.label>
+	<!--                         EN: This person has improved regenerating factors in their DNA, allowing them to slowly regenerate limbs that may even be completely missing. The process is slow, and will prioritize healing existing, but damaged, limbs. -->
+	<AG_LimbRegeneration.description>Носители этого гена имеют улучшенные регенерирующие факторы в своей ДНК, что позволяет им медленно регенерировать конечности, которые могут даже полностью отсутствовать. Процесс медленный, и приоритет отдается заживлению существующих, но поврежденных конечностей.</AG_LimbRegeneration.description>
+</LanguageData>

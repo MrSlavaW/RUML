@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMemesExpanded\Defs\PreceptDefs\Precepts_Violence.xml -->
+	<!--                            EN: abhorrent (strict) -->
+	<AM_Violence_Abhorrent_Strict.label>отвратительно (строгий)</AM_Violence_Abhorrent_Strict.label>
+	<!--                                  EN: Strive for peace within yourself. Refuse to retaliate in the face of provocation and violence. Persevere in nonviolence of tongue and heart.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All persons joining this ideoligion will take a solemn nonviolence vow.\n - The only mental break allowed is psychotic wander.\n - Colonists will receive negative mood if ANY human casualties take place on the colony. -->
+	<AM_Violence_Abhorrent_Strict.description>Стремитесь к миру внутри себя. Откажитесь от ответных мер перед лицом провокаций и насилия. Упорствуйте в ненасилии языка и сердца.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Все люди, присоединяющиеся к этой идеологии, примут торжественную клятву ненасилия.\n - Единственный разрешенный психический срыв - психотическое блуждание.\n — Поселенцы получат негативное настроение, если в поселении произойдут КАКИЕ-ЛИБО человеческие жертвы.</AM_Violence_Abhorrent_Strict.description>
+</LanguageData>

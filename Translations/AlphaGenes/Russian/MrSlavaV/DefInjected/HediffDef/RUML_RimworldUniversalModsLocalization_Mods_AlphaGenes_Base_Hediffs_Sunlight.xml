@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\HediffDefs\Hediffs_Sunlight.xml -->
+	<!--                             EN: vicious UV sensitivity -->
+	<AG_Sensitivity_Vicious_Hediff.label>Чувствительность к Солнцу</AG_Sensitivity_Vicious_Hediff.label>
+	<!--                                   EN: This person will be knocked unconscious under direct sunlight. -->
+	<AG_Sensitivity_Vicious_Hediff.description>Этот человек потеряет сознание под прямыми солнечными лучами.</AG_Sensitivity_Vicious_Hediff.description>
+	<!--                             EN: minor UV sensitivity -->
+	<AG_UVSensitivity_Minor_Hediff.label>Раздражение от Солнца</AG_UVSensitivity_Minor_Hediff.label>
+	<!--                                   EN: This person's eyes will hurt slightly under direct sunlight. -->
+	<AG_UVSensitivity_Minor_Hediff.description>Глаза этого человека будут слегка болеть под прямыми солнечными лучами.</AG_UVSensitivity_Minor_Hediff.description>
+	<!--                            EN: lethal UV sensitivity -->
+	<AG_Sensitivity_Lethal_Hediff.label>Смерть от Солнца</AG_Sensitivity_Lethal_Hediff.label>
+	<!--                                  EN: This person will quickly burn to death under direct sunlight. -->
+	<AG_Sensitivity_Lethal_Hediff.description>Этот человек быстро сгорит заживо под прямыми солнечными лучами.</AG_Sensitivity_Lethal_Hediff.description>
+</LanguageData>

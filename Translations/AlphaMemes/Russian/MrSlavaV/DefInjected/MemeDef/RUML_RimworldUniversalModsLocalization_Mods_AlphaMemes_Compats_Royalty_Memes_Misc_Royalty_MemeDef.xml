@@ -1,0 +1,95 @@
+<LanguageData>
+	<!-- 1.6\Mods\Royalty\Defs\MemeDefs\Memes_Misc_Royalty.xml -->
+	<!--                   EN: psychic vampirism -->
+	<AM_PsychicVampirism.label>пси-вампиризм</AM_PsychicVampirism.label>
+	<!--                         EN: Meditation is useless and a waste of time. If we want to master the powers of the mind we will have to rip the psychic energy from the still pulsating brains of our enemies. -->
+	<AM_PsychicVampirism.description>Медитация бесполезна и является пустой тратой времени. Если мы хотим овладеть силами разума, нам придется вырывать психическую энергию из еще пульсирующих мозгов наших врагов.</AM_PsychicVampirism.description>
+	<!-- EN: 
+		<li>memeAdjective->draining</li>
+		<li>memeAdjective->psychic</li>
+		<li>memeHyphenPrefix->mind</li>
+		<li>memeConcept->psychic draining</li>
+		<li>memeLeaderNoun->thaumaturge</li>
+		<li>memeMoralist->sorcerer</li>
+		<li>memeMoralist->warlock</li>
+	 -->
+	<AM_PsychicVampirism.generalRules.rulesStrings>
+		<li>memeAdjective-&gt;осушение</li>
+		<li>memeAdjective-&gt;психический</li>
+		<li>memeHyphenPrefix-&gt;разум</li>
+		<li>memeConcept-&gt;психическое истощение</li>
+		<li>memeLeaderNoun-&gt;чудотворец</li>
+		<li>memeMoralist-&gt;колдун</li>
+		<li>memeMoralist-&gt;Чернокнижник</li>
+</AM_PsychicVampirism.generalRules.rulesStrings>
+                                                    
+<!-- EN: 
+		<li>creation(tag=meme_PsychicVampirism)        ->[deity0_name] gifted humanity with psychic powers so we can follow [deity0_possessive] will.</li>
+		<li>episode(uses=1,tag=meme_PsychicVampirism)  ->[deity0_name] said to all the [memberNamePlural], "The power of the mind is limitless. Drain the mind of your enemies and you will be unstoppable."</li>
+		<li>intro(tag=meme_PsychicVampirism)           ->[memberNamePlural] built a great [altarName] on the [place_summary] [place_name], a place of learning and a school to hone one's psychic powers to exalt [deity0_name]'s will.</li>
+		<li>атака</li>
+		<li>атака</li>
+		<li>victory(tag=meme_PsychicVampirism)         ->[founderName] approached the kneeling [foeLeader] and slaughtered [foeLeader_objective] for the glory of [deity0_name].</li>
+		<li>setup(tag=meme_PsychicVampirism)           ->Our founder [founderName] was a psychic warrior living in the shattered ruins of a fallen Glitterworld. [founder_pronoun] had an incredible mental discipline, that manifested in wild psychic powers.</li>
+		<li>story(uses=1,tag=meme_PsychicVampirism)    ->[founder_pronoun] undertood that your mind must be honed to be used as a weapon, and that psychic power is something that must be acquired by force. No senseless meditation technique will turn you into a bastion of psychic powers.</li>
+		<li>lessonIntro(tag=meme_PsychicVampirism)         ->In all my years teaching the discipline of mind combat, I learned one lesson that is more important than anything else:</li>
+		<li>lesson(tag=meme_PsychicVampirism)              ->psychic powers must be acquired by force, pried from the still pulsating mind of a fallen enemy</li>
+		<li>lessonReinforcement(tag=meme_PsychicVampirism) ->Others will try to convince you that ancient techniques of meditation are somehow more useful than laying the mind of your enemies bare and ripping their psychic power for your own use. They are fools.</li>
+		<li>archistBasis(tag=meme_PsychicVampirism)    ->The archotechs are pure minds, pristine intellects that are so far beyond anything else as to be like gods. They didn't get to their stage by playing nice.</li>
+		<li>archistFact(tag=meme_PsychicVampirism)     ->Psychic powers are a gift from the archotechs. But it is a gift that we will need to pry from the still pulsating minds of our fallen enemies.</li>
+		<li>archistProphecy(tag=meme_PsychicVampirism) ->[inTheEnd], the archotechs will choose those with the greatest psychic powers, and only them will be allowed to transcend.</li>
+		<li>animistFact(tag=meme_PsychicVampirism)     ->The spirits are the ultimate minds, and by prying the psychic power from the still pulsating minds of our fallen enemies we can commune with them.</li>
+		<li>serketistProphecy(tag=meme_PsychicVampirism)->[itIsSaid] we will pry the psychic power from the still pulsating minds of our fallen enemies, and use those newfound powers to venerate our beloved insects.</li>
+		<li>chthonianProphecy(tag=meme_PsychicVampirism)->These eldritch entities are the ultimate intellects, as vast and deep as entire nebulae, their madness engulfing a thousand stars. Only by prying the psychic power from the still pulsating minds of our fallen enemies can we hope to stand against them.</li>
+		<li>esotericismProphecy(tag=meme_PsychicVampirism)->We will pry the psychic power from the still pulsating minds of our fallen enemies to unlock all these secrets, baring them for all to see.</li>
+		<li>eschatologismFact(tag=meme_PsychicVampirism)->We will pryg the psychic power from the still pulsating minds of our fallen enemies and use our destructive powers to slaughter everyone who stands in our way.</li>
+		<li>introMemo(tag=meme_PsychicVampirism)->There have been rumours floating around that a competing company is using psychics to try and uncover some of our corporate secrets. This cannot be allowed to stand, so if you have any info that could lead to apprehending these disgusting corporate spies feel free to contact us ASAP.</li>
+	 -->
+	<AM_PsychicVampirism.descriptionMaker.rules.rulesStrings>
+		<li>creation(tag=meme_PsychicVampirism) -&gt;[deity0_name] наделил человечество экстрасенсорными способностями, чтобы мы могли следовать воле [deity0_possessive].</li>
+		<li>episode(uses=1,tag=meme_PsychicVampirism) -&gt;[deity0_name] сказал всем [memberNamePlural]: «Сила разума безгранична. Иссушите разум своих врагов, и вы будете непобедимы».</li>
+		<li>intro(tag=meme_PsychicVampirism) -&gt;[memberNamePlural] построил великий [altarName] на [place_summary] [place_name], место обучения и школу для оттачивания экстрасенсорных способностей для возвышения воли [deity0_name].</li>
+		<li>conflict(tag=meme_PsychicVampirism) -&gt;Трус [foeLeader], стремящийся отвергнуть волю [deity0_name], приказал [foeLeader_possessive] [foeSoldiers] атаковать последователей [deity0_name] безумными психическими способностями.</li>
+		<li>founderJoin(tag=meme_PsychicVampirism) -&gt;[deity0_name] благословил [place_job] по имени [founderName] сверхъестественными умственными способностями [deity0_possessive] и [founder_pronoun] истощил умственную энергию нападавших, оставив их бессильными.</li>
+		<li>victory(tag=meme_PsychicVampirism) -&gt;[founderName] подошел к стоящему на коленях [foeLeader] и убил [foeLeader_objective] во славу [deity0_name].</li>
+		<li>setup(tag=meme_PsychicVampirism) -&gt;Наш основатель [founderName] был пси воином, живущим в разрушенных руинах падшего Блестящего мира. [founder_pronoun] обладал невероятной умственной дисциплиной, которая проявлялась в диких экстрасенсорных способностях.</li>
+		<li>story(uses=1,tag=meme_PsychicVampirism) -&gt;[founder_pronoun] понял, что ваш разум должен быть отточен, чтобы его можно было использовать в качестве оружия, и что психическую силу нужно приобретать силой. Никакая бессмысленная медитативная техника не превратит вас в оплот экстрасенсорных способностей.</li>
+		<li>lessonIntro(tag=meme_PsychicVampirism) -&gt;За все годы, что я преподавал дисциплину боя разума, я усвоил один урок, который важнее всего остального:</li>
+		<li>lesson(tag=meme_PsychicVampirism) -&gt;психические силы должны быть приобретены силой, вырванной из все еще пульсирующего разума поверженного врага.</li>
+		<li>lessonReinforcement(tag=meme_PsychicVampirism) -&gt;Другие попытаются убедить вас, что древние техники медитации более полезны, чем обнажать разум ваших врагов и вырывать их психическую силу для собственного использования. Они дураки.</li>
+		<li>archistBasis(tag=meme_PsychicVampirism) -&gt;Архотехи — это чистые разумы, первозданный интеллект, который настолько превосходит все остальное, что может быть подобен богам. Они не попали туда, где они сейчас, играя хорошо.</li>
+		<li>archistFact(tag=meme_PsychicVampirism) -&gt;Психические силы — это дар архотеков. Но это дар, который нам нужно будет извлечь из все еще пульсирующих умов наших поверженных врагов.</li>
+		<li>archistProphecy(tag=meme_PsychicVampirism) -&gt;[inTheEnd] архотеки выберут тех, кто обладает величайшими экстрасенсорными способностями, и только им будет позволено вознестись.</li>
+		<li>animistFact(tag=meme_PsychicVampirism) -&gt;Духи — это высшие разумы, и, извлекая психическую силу из все еще пульсирующих разумов наших поверженных врагов, мы можем общаться с ними.</li>
+		<li>serketistProphecy(tag=meme_PsychicVampirism)-&gt;[itIsSaid] мы вырвем психическую силу из все еще пульсирующих умов наших павших врагов и воспользуемся этими вновь обретенными силами, чтобы поклоняться нашим любимым насекомым.</li>
+		<li>chthonianProphecy(tag=meme_PsychicVampirism)-&gt;Эти сверхъестественные сущности — высшие разумы, столь же обширные и глубокие, как целые туманности, их безумие охватывает тысячи звезд. Только извлекая психическую силу из все еще пульсирующих разумов наших поверженных врагов, мы можем надеяться выстоять против них.</li>
+		<li>esotericismProphecy(tag=meme_PsychicVampirism)-&gt;Мы вырвем психическую силу из все еще пульсирующих разумов наших павших врагов, чтобы раскрыть все эти секреты, обнажив их для всеобщего обозрения.</li>
+		<li>eschatologismFact(tag=meme_PsychicVampirism)-&gt;Мы вырвем психическую силу из все еще пульсирующих разумов наших поверженных врагов и используем наши разрушительные силы, чтобы уничтожить всех, кто встанет у нас на пути.</li>
+		<li>introMemo(tag=meme_PsychicVampirism)-&gt;Ходили слухи, что конкурирующая компания использует псиоников, чтобы попытаться раскрыть некоторые из наших корпоративных секретов. Это не может оставаться в силе, поэтому, если у вас есть какая-либо информация, которая может привести к задержанию этих отвратительных корпоративных шпионов, не стесняйтесь обращаться к нам как можно скорее.</li>
+</AM_PsychicVampirism.descriptionMaker.rules.rulesStrings>
+                                       
+<!--                                    EN: Psychics -->
+	<AM_PsychicVampirism.symbolPacks.0.ideoName>Пси вампиризм</AM_PsychicVampirism.symbolPacks.0.ideoName>
+	<!--                                 EN: pshychic powers -->
+	<AM_PsychicVampirism.symbolPacks.0.theme>экстрасенсорные способности</AM_PsychicVampirism.symbolPacks.0.theme>
+	<!--                                     EN: psychic -->
+	<AM_PsychicVampirism.symbolPacks.0.adjective>психический</AM_PsychicVampirism.symbolPacks.0.adjective>
+	<!--                                  EN: psychic -->
+	<AM_PsychicVampirism.symbolPacks.0.member>психический</AM_PsychicVampirism.symbolPacks.0.member>
+	<!--                                    EN: Mentalism -->
+	<AM_PsychicVampirism.symbolPacks.1.ideoName>Ментализм</AM_PsychicVampirism.symbolPacks.1.ideoName>
+	<!--                                 EN: mentalism -->
+	<AM_PsychicVampirism.symbolPacks.1.theme>ментализм</AM_PsychicVampirism.symbolPacks.1.theme>
+	<!--                                     EN: mentalist -->
+	<AM_PsychicVampirism.symbolPacks.1.adjective>менталист</AM_PsychicVampirism.symbolPacks.1.adjective>
+	<!--                                  EN: mentalist -->
+	<AM_PsychicVampirism.symbolPacks.1.member>менталист</AM_PsychicVampirism.symbolPacks.1.member>
+	<!--                                    EN: Psionics -->
+	<AM_PsychicVampirism.symbolPacks.2.ideoName>Псионика</AM_PsychicVampirism.symbolPacks.2.ideoName>
+	<!--                                 EN: psionics -->
+	<AM_PsychicVampirism.symbolPacks.2.theme>псионика</AM_PsychicVampirism.symbolPacks.2.theme>
+	<!--                                     EN: psionic -->
+	<AM_PsychicVampirism.symbolPacks.2.adjective>псионик</AM_PsychicVampirism.symbolPacks.2.adjective>
+	<!--                                  EN: psion -->
+	<AM_PsychicVampirism.symbolPacks.2.member>псион</AM_PsychicVampirism.symbolPacks.2.member>
+</LanguageData>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+<AB_PropanePump.label>пропановый насос</AB_PropanePump.label>
+<AB_PropanePump.description>Извлекает пропан из жидких пропановых озёр и перерабатывает его в топливо. Очевидно, он не работает в большинстве биомов.</AB_PropanePump.description>
+<AB_PropaneStove.label>пропановая плита</AB_PropaneStove.label>
+<AB_PropaneStove.description>Плита, работающая на пропане, с присоединённой столешницей для приготовления еды.</AB_PropaneStove.description>
+<AB_PropaneHeater.label>пропановый обогреватель</AB_PropaneHeater.label>
+<AB_PropaneHeater.description>Устройство, которое сжигает пропановое топливо и превращает его в тепло. Оно может автоматически включаться и выключаться при достижении определённой температуры.</AB_PropaneHeater.description>
+<AB_PropanePipe.label>пропановая труба</AB_PropanePipe.label>
+<AB_PropanePipe.description>Стальные трубы, предназначенные для транспортировки жидкого пропана под давлением.</AB_PropanePipe.description>
+<AB_PropanePipe_Underground.label>подземная пропановая труба</AB_PropanePipe_Underground.label>
+<AB_PropanePipe_Underground.description>Стальные трубы, предназначенные для транспортировки жидкого пропана под давлением.</AB_PropanePipe_Underground.description>
+<AB_Propane_Valve.label>пропановый клапан</AB_Propane_Valve.label>
+<AB_Propane_Valve.description>Включает/выключает подачу пропана.</AB_Propane_Valve.description>
+<AB_PropaneStorage.label>пропановый резервуар</AB_PropaneStorage.label>
+<AB_PropaneStorage.description>Промышленный резервуар для хранения жидкости, предназначенный для хранения сжатого пропана, поступающего по пропановой трубопроводной сети. Резервуары могут быть настроены на отбора пропана по мере необходимости. Даже при незначительном повреждении утечка газа может очень быстро привести к образованию огненного шара, размер взрыва будет зависеть от объёма хранимого пропана.</AB_PropaneStorage.description>
+<AB_PropaneTap.label>пропановый отборник</AB_PropaneTap.label>
+<AB_PropaneTap.description>Бункероподобный накопительный резервуар, предназначенный для временного хранения пропана, периодически поступающего из основных резервуаров, с целью последующего использования.</AB_PropaneTap.description>
+<AB_PropaneDrain.label>пропановый сток</AB_PropaneDrain.label>
+<AB_PropaneDrain.description>Бункероподобный накопительный резервуар, предназначенный для подачи пропана в систему с целью заполнения подключённых резервуаров хранения.</AB_PropaneDrain.description>
+<AB_PropanePump.label>пропановый насос</AB_PropanePump.label>
+<AB_PropanePump.description>Выкачивает пропан из пропанового озера в жидком состоянии и перерабатывает его в пригодное топливо.</AB_PropanePump.description>
+<AB_PropaneFueledSmithy.label>пропановая кузница</AB_PropaneFueledSmithy.label>
+<AB_PropaneFueledSmithy.description>Кузнечная станция на пропановом топливе для изготовления немеханического оружия и инструментов.</AB_PropaneFueledSmithy.description>
+<AB_PropaneSmelter.label>пропановая плавильня</AB_PropaneSmelter.label>
+<AB_PropaneSmelter.description>Извлекает пригодный металл из металлолома и других смешанных металлических предметов.</AB_PropaneSmelter.description>
+<AB_PropaneTableMachining.label>пропановый верстак</AB_PropaneTableMachining.label>
+<AB_PropaneTableMachining.description>Рабочая станция для сборки механизмов, таких как оружие и боеприпасы, а также для разборки мёртвых механоидов.</AB_PropaneTableMachining.description>
+<AB_Turret_Propane.label>пропановая турель</AB_Turret_Propane.label>
+<AB_Turret_Propane.description>Переносная огнемётная турель на пропановом топливе. Может взорваться при повреждении. Из-за примитивного ИИ не поддаётся прямому управлению — остерегайтесь дружественного огня.</AB_Turret_Propane.description>
+<AB_Turret_Propane_Gun.label>огнемёт для пропановой турели</AB_Turret_Propane_Gun.label>
+<AB_Turret_Propane_Gun.description>Пропановый огнемёт, предназначенный для установки на турель.</AB_Turret_Propane_Gun.description>
+
+</LanguageData>
+
+
+
+

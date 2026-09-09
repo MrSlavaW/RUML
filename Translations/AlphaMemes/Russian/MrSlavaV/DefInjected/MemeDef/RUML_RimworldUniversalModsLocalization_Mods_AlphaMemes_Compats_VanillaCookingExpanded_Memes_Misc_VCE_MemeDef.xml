@@ -1,0 +1,143 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaCookingExpanded\Defs\MemeDefs\Memes_Misc_VCE.xml -->
+	<!--            EN: epicurean -->
+	<AM_Epicurean.label>эпикуреец</AM_Epicurean.label>
+	<!--                  EN: Life is too short for bland meals. We savor every bite, celebrating food as art and joy. A good feast is our highest expression of life’s beauty. -->
+	<AM_Epicurean.description>Жизнь слишком коротка для пресной еды. Мы наслаждаемся каждым кусочком, празднуя еду как искусство и радость. Хороший пир — это наше высшее выражение красоты жизни.</AM_Epicurean.description>
+	<!-- EN: 
+		<li>memeCreed->feast</li>
+		<li>memeCreed->indulgence</li>
+		<li>memeCreed->banquet</li>
+		<li>memeCreed->gourmet</li>
+		<li>memeCreed->savor</li>
+		<li>memeConcept->flavor</li>
+		<li>memeConcept->culinary</li>
+		<li>memeAdjective->lavish</li>
+		<li>memeAdjective->decadent</li>
+		<li>memeAdjective->refined</li>
+		<li>memeHyphenPrefix->taste</li>
+		<li>memeHyphenPrefix->feast</li>
+		<li>memeHyphenPrefix->flavor</li>
+		<li>memeLeaderNoun->gourmand</li>
+		<li>memeLeaderNoun->epicure</li>
+		<li>memeLeaderNoun->foodie</li>
+		<li>memeLeaderAdjective->savory</li>
+		<li>memeLeaderAdjective->indulgent</li>
+		<li>memeLeaderAdjective->refined</li>
+		<li>memeMoralist->chef</li>
+	 -->
+	<AM_Epicurean.generalRules.rulesStrings>
+		<li>memeCreed-&gt;пир</li>
+		<li>memeCreed-&gt;услада</li>
+		<li>memeCreed-&gt;банкет</li>
+		<li>memeCreed-&gt;гурман</li>
+		<li>memeCreed-&gt;наслаждение</li>
+		<li>memeConcept-&gt;вкус</li>
+		<li>memeConcept-&gt;кулинария</li>
+		<li>memeAdjective-&gt;роскошный</li>
+		<li>memeAdjective-&gt;утонченный</li>
+		<li>memeAdjective-&gt;изнеженный</li>
+		<li>memeHyphenPrefix-&gt;вкус</li>
+		<li>memeHyphenPrefix-&gt;пир</li>
+		<li>memeHyphenPrefix-&gt;вкус</li>
+		<li>memeLeaderNoun-&gt;гурман</li>
+		<li>memeLeaderNoun-&gt;эпикуреец</li>
+		<li>memeLeaderNoun-&gt;фуди</li>
+		<li>memeLeaderAdjective-&gt;пикантный</li>
+		<li>memeLeaderAdjective-&gt;усладительный</li>
+		<li>memeLeaderAdjective-&gt;изнеженный</li>
+		<li>memeMoralist-&gt;шеф-повар</li>
+	</AM_Epicurean.generalRules.rulesStrings>
+	<!-- EN: 
+		<li>creation(tag=meme_Epicurean)        ->[deity0_name] blessed the world with an abundance of flavors and delicacies, declaring that savoring life’s pleasures was [deity0_possessive] divine purpose for humanity. This is [deity0_name]'s first gift to the Epicureans.</li>
+		<li>episode(uses=1,tag=meme_Epicurean)  ->[deity0_name] taught [deity0_possessive] people the secrets of spices and wine, ensuring their feasts were as eternal as their devotion.</li>
+		<li>intro(tag=meme_Epicurean)           ->When the first Epicureans gathered in the [place_summary] [place_name], they shared a meal of unparalleled richness, raising their glasses to the [deity0_type] [deity0_name] for blessing their table.</li>
+		<li>conflict(tag=meme_Epicurean)        ->A rival [foeLeader] sought to hoard the finest ingredients, but the [memberNamePlural] prepared a feast that won the hearts of all, reclaiming their rightful bounty.</li>
+		<li>founderJoin(tag=meme_Epicurean)     ->The culinary genius [founderName] was said to have crafted the first true banquet in [place_name], inspiring a movement devoted to the art of indulgence.</li>
+		<li>victory(tag=meme_Epicurean)         ->[founderName] outshone [foeLeader] at the [place_powerCenter], crafting a dish so sublime that it united their followers in celebration.</li>
+		<li>setup(tag=meme_Epicurean)           ->In a time of scarcity, [founderName] dreamed of a world where flavor and nourishment were celebrated as the highest form of art.</li>
+		<li>story(uses=1,tag=meme_Epicurean)    ->[founderName] gathered the hungry and hopeless, teaching them to cook, savor, and celebrate, creating a society built on the joys of the table.</li>
+		<li>lessonIntro(tag=meme_Epicurean)         ->You might overlook this, but as I savored my meal, I realized this truth: through every flavor,</li>
+		<li>lesson(tag=meme_Epicurean)              ->we celebrate life’s bounty and find joy in its smallest moments</li>
+		<li>lessonReinforcement(tag=meme_Epicurean) ->Remember this truth, as every meal is a gift and every taste a fleeting connection to the divine.</li>
+		<li>archistBasis(tag=meme_Epicurean)    ->The archotechs value balance and satisfaction, and nothing satisfies like a perfectly crafted dish.</li>
+		<li>archistFact(tag=meme_Epicurean)     ->The archotechs engineered the finest ingredients, ensuring humanity could always savor perfection.</li>
+		<li>archistFact(tag=meme_Epicurean)     ->The archotechs see indulgence as a necessary reward for efficient living, fostering happiness through culinary excellence.</li>
+		<li>archistProphecy(tag=meme_Epicurean) ->[inTheEnd], the archotechs will craft the ultimate feast, uniting all under a table of endless delights.</li>
+		<li>animistFact(tag=meme_Epicurean)     ->Every herb and spice holds a spirit of its own, granting life and wisdom to those who use them with care.</li>
+		<li>animistFact(tag=meme_Epicurean)     ->The essence of the feast lies in harmony with the land, where the spirits of food and cook align.</li>
+		<li>animistFact(tag=meme_Epicurean)     ->When a cook listens, the spirits of the ingredients whisper, guiding them to create something truly divine.</li>
+		<li>serketistProphecy(tag=meme_Epicurean)->[itIsSaid] that sacred insects cultivate the most exquisite flavors, their labor a hidden gift to the culinary world.</li>
+		<li>chthonianProphecy(tag=meme_Epicurean)->The ancient gods of the earth delight in decadence, their power flowing through the rich bounty of the feast.</li>
+		<li>esotericismProphecy(tag=meme_Epicurean)->The secrets of the universe lie in the perfect pairing of flavors, where each bite reveals a cosmic truth.</li>
+		<li>eschatologismFact(tag=meme_Epicurean)->At the end of days, tables will stretch endlessly, and all will feast together in an eternal celebration.</li>
+		<li>introMemo(tag=meme_Epicurean)->There have been conflicting reports that someone is stealing other employees' lunch from the common freezer. To address this and promote a culture of culinary respect, we are launching our new initiative to celebrate and share the joys of good food. Together, we can savor prosperity and ensure everyone's meals remain safe and satisfying.</li>
+		<li>alienistProphecy(tag=meme_Epicurean)->The diverse creations of the galaxy are like flavors, and the harmony of all beings begins with the joy of the table.</li>
+	 -->
+	<AM_Epicurean.descriptionMaker.rules.rulesStrings>
+		<li>creation(tag=meme_Epicurean)        -&gt;[deity0_name] благословил мир изобилием вкусов и деликатесов, объявив, что наслаждение жизненными удовольствиями было [deity0_possessive] божественным предназначением для человечества. Это первый дар [deity0_name] эпикурейцам.</li>
+		<li>episode(uses=1,tag=meme_Epicurean)  -&gt;[deity0_name] научил [deity0_possessive] людей секретам специй и вина, обеспечив, чтобы их пиршества были такими же вечными, как их преданность.</li>
+		<li>intro(tag=meme_Epicurean)           -&gt;Когда первые эпикурейцы собрались в [place_summary] [place_name], они разделили трапезу невероятной богатства, подняв бокалы за [deity0_type] [deity0_name] за благословение их стола.</li>
+		<li>conflict(tag=meme_Epicurean)        -&gt;Соперник [foeLeader] пытался захватить лучшие ингредиенты, но [memberNamePlural] приготовили пир, который покорил сердца всех, вернув себе законное изобилие.</li>
+		<li>founderJoin(tag=meme_Epicurean)     -&gt;Кулинарный гений [founderName] говорили, что создал первый настоящий банкет в [place_name], вдохновив движение, посвященное искусству услады.</li>
+		<li>victory(tag=meme_Epicurean)         -&gt;[founderName] превзошел [foeLeader] в [place_powerCenter], приготовив блюдо настолько возвышенное, что оно объединило их последователей в праздновании.</li>
+		<li>setup(tag=meme_Epicurean)           -&gt;В эпоху дефицита [founderName] мечтал о мире, где вкус и питание праздновались бы как высшая форма искусства.</li>
+		<li>story(uses=1,tag=meme_Epicurean)    -&gt;[founderName] собрал голодных и отчаявшихся, научив их готовить, наслаждаться и праздновать, создав общество, построенное на радостях застолья.</li>
+		<li>lessonIntro(tag=meme_Epicurean)         -&gt;Вы могли бы не заметить, но когда я наслаждался своей едой, я понял эту истину: через каждый вкус,</li>
+		<li>lesson(tag=meme_Epicurean)              -&gt;мы празднуем изобилие жизни и находим радость в ее самых маленьких моментах</li>
+		<li>lessonReinforcement(tag=meme_Epicurean) -&gt;Помните эту истину, ведь каждая еда — это дар, а каждый вкус — мимолетная связь с божественным.</li>
+		<li>archistBasis(tag=meme_Epicurean)    -&gt;Архотехи ценят баланс и удовлетворение, и ничто так не удовлетворяет, как идеально приготовленное блюдо.</li>
+		<li>archistFact(tag=meme_Epicurean)     -&gt;Архотехи создали лучшие ингредиенты, обеспечив, чтобы человечество всегда могло наслаждаться совершенством.</li>
+		<li>archistFact(tag=meme_Epicurean)     -&gt;Архотехи видят в усладе необходимую награду за эффективную жизнь, способствуя счастью через кулинарное мастерство.</li>
+		<li>archistProphecy(tag=meme_Epicurean) -&gt;[inTheEnd], архотехи создадут идеальный пир, объединив всех за столом бесконечных наслаждений.</li>
+		<li>animistFact(tag=meme_Epicurean)     -&gt;Каждая трава и специя имеет свой дух, даря жизнь и мудрость тем, кто использует их с заботой.</li>
+		<li>animistFact(tag=meme_Epicurean)     -&gt;Суть пиршества заключается в гармонии с землей, где духи еды и повара сливаются воедино.</li>
+		<li>animistFact(tag=meme_Epicurean)     -&gt;Когда повар прислушивается, духи ингредиентов шепчут, направляя его создать что-то поистине божественное.</li>
+		<li>serketistProphecy(tag=meme_Epicurean)-&gt;[itIsSaid], что священные насекомые выращивают самые изысканные вкусы, их труд — скрытый дар кулинарному миру.</li>
+		<li>chthonianProphecy(tag=meme_Epicurean)-&gt;Древние боги земли наслаждаются изнеженностью, их сила течет через богатое изобилие пиршества.</li>
+		<li>esotericismProphecy(tag=meme_Epicurean)-&gt;Секреты вселенной кроются в идеальном сочетании вкусов, где каждый кусочек раскрывает космическую истину.</li>
+		<li>eschatologismFact(tag=meme_Epicurean)-&gt;В конце дней столы растянутся бесконечно, и все будут пировать вместе в вечном праздновании.</li>
+		<li>introMemo(tag=meme_Epicurean)-&gt;Поступили противоречивые сообщения, что кто-то ворует обеды других сотрудников из общего холодильника. Чтобы решить эту проблему и поощрить культуру кулинарного уважения, мы запускаем новую инициативу по празднованию и обмену радостями хорошей еды. Вместе мы можем наслаждаться процветанием и обеспечить, чтобы обеды каждого оставались в безопасности и приносили удовлетворение.</li>
+		<li>alienistProphecy(tag=meme_Epicurean)-&gt;Разнообразие творений галактики подобно вкусам, и гармония всех существ начинается с радости застолья.</li>
+	</AM_Epicurean.descriptionMaker.rules.rulesStrings>
+	<!--                             EN: Savorists -->
+	<AM_Epicurean.symbolPacks.0.ideoName>Савористы</AM_Epicurean.symbolPacks.0.ideoName>
+	<!--                          EN: gourmet -->
+	<AM_Epicurean.symbolPacks.0.theme>гурман</AM_Epicurean.symbolPacks.0.theme>
+	<!--                              EN: savored -->
+	<AM_Epicurean.symbolPacks.0.adjective>наслаждающийся</AM_Epicurean.symbolPacks.0.adjective>
+	<!--                           EN: taster -->
+	<AM_Epicurean.symbolPacks.0.member>дегустатор</AM_Epicurean.symbolPacks.0.member>
+	<!--                             EN: Flavorguardians -->
+	<AM_Epicurean.symbolPacks.1.ideoName>Хранители вкуса</AM_Epicurean.symbolPacks.1.ideoName>
+	<!--                          EN: flavor -->
+	<AM_Epicurean.symbolPacks.1.theme>вкус</AM_Epicurean.symbolPacks.1.theme>
+	<!--                              EN: flavorful -->
+	<AM_Epicurean.symbolPacks.1.adjective>ароматный</AM_Epicurean.symbolPacks.1.adjective>
+	<!--                           EN: chef -->
+	<AM_Epicurean.symbolPacks.1.member>шеф-повар</AM_Epicurean.symbolPacks.1.member>
+	<!--                             EN: Ambrosians -->
+	<AM_Epicurean.symbolPacks.2.ideoName>Амбросианцы</AM_Epicurean.symbolPacks.2.ideoName>
+	<!--                          EN: feast -->
+	<AM_Epicurean.symbolPacks.2.theme>пир</AM_Epicurean.symbolPacks.2.theme>
+	<!--                              EN: feastbound -->
+	<AM_Epicurean.symbolPacks.2.adjective>связанный пиром</AM_Epicurean.symbolPacks.2.adjective>
+	<!--                           EN: culinarian -->
+	<AM_Epicurean.symbolPacks.2.member>кулинар</AM_Epicurean.symbolPacks.2.member>
+	<!--                             EN: Gastronomes -->
+	<AM_Epicurean.symbolPacks.3.ideoName>Гастрономы</AM_Epicurean.symbolPacks.3.ideoName>
+	<!--                          EN: cuisine -->
+	<AM_Epicurean.symbolPacks.3.theme>кухня</AM_Epicurean.symbolPacks.3.theme>
+	<!--                              EN: gastronomic -->
+	<AM_Epicurean.symbolPacks.3.adjective>гастрономический</AM_Epicurean.symbolPacks.3.adjective>
+	<!--                           EN: foodie -->
+	<AM_Epicurean.symbolPacks.3.member>фуди</AM_Epicurean.symbolPacks.3.member>
+	<!--                             EN: Epicures -->
+	<AM_Epicurean.symbolPacks.4.ideoName>Эпикурейцы</AM_Epicurean.symbolPacks.4.ideoName>
+	<!--                          EN: indulgence -->
+	<AM_Epicurean.symbolPacks.4.theme>услада</AM_Epicurean.symbolPacks.4.theme>
+	<!--                              EN: epicurean -->
+	<AM_Epicurean.symbolPacks.4.adjective>эпикурейский</AM_Epicurean.symbolPacks.4.adjective>
+	<!--                           EN: connoisseur -->
+	<AM_Epicurean.symbolPacks.4.member>знаток</AM_Epicurean.symbolPacks.4.member>
+</LanguageData>

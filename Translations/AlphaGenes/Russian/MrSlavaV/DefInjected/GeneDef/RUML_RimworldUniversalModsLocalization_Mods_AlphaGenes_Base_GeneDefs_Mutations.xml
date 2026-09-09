@@ -1,0 +1,97 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Mutations.xml -->
+	<!--                    EN: insectoid legs -->
+	<AG_VFEI_InsectoidLeg.label>инсектоидная нога</AG_VFEI_InsectoidLeg.label>
+	<!--                          EN: Carriers of this gene have the jointed legs of an insectoid, consisting of several chitin covered segments. Whilst it’s an extremely painful mutation, these legs have much higher resistance to damage. -->
+	<AG_VFEI_InsectoidLeg.description>Суставчатый придаток насекомоядного, состоящий из нескольких покрытых хитином сегментов. Несмотря на крайне болезненную мутацию, эта нога обладает гораздо большей устойчивостью к повреждениям.</AG_VFEI_InsectoidLeg.description>
+	<!--                                         EN: Increases hit points of the legs by 30. -->
+	<AG_VFEI_InsectoidLeg.customEffectDescriptions.0>Увеличивает здоровье ног на 30.</AG_VFEI_InsectoidLeg.customEffectDescriptions.0>
+	<!--                    EN: insectoid arms -->
+	<AG_VFEI_InsectoidArm.label>рука инсектоида</AG_VFEI_InsectoidArm.label>
+	<!--                          EN: Carriers of this gene have the jointed arms of an insectoid, consisting of several chitin covered segments. Whilst it’s an extremely painful mutation, these arms have much higher resistance to damage. -->
+	<AG_VFEI_InsectoidArm.description>Суставчатый придаток насекомоядного, состоящий из нескольких покрытых хитином сегментов. Несмотря на крайне болезненную мутацию, эта рука обладает гораздо большей устойчивостью к повреждениям.</AG_VFEI_InsectoidArm.description>
+	<!--                                         EN: Increases hit points of the arms by 30. -->
+	<AG_VFEI_InsectoidArm.customEffectDescriptions.0>увеличивает здоровье на 30.</AG_VFEI_InsectoidArm.customEffectDescriptions.0>
+	<!--                     EN: compound eyes -->
+	<AG_VFEI_SegmentedEyes.label>глаз инсектоида</AG_VFEI_SegmentedEyes.label>
+	<!--                           EN: Carriers of this gene have compound eyes, consisting of thousands of individual photoreceptor units. These eyes have a large field of view and help with detecting fast movement, however their visibility range is significantly reduced. Whilst it’s an extremely painful mutation, this eye has a higher resistance to damage. -->
+	<AG_VFEI_SegmentedEyes.description>Глаз, состоящий из тысяч отдельных фоторецепторов, имеет большое поле зрения и помогает обнаруживать быстрые движения, однако дальность видимости значительно снижена. Несмотря на то, что это крайне болезненная мутация, такой глаз обладает повышенной устойчивостью к повреждениям.</AG_VFEI_SegmentedEyes.description>
+	<!--                                          EN: Increases hit points of the eyes by 6. -->
+	<AG_VFEI_SegmentedEyes.customEffectDescriptions.0>Увеличивает здоровье глаз на 6.</AG_VFEI_SegmentedEyes.customEffectDescriptions.0>
+	<!--                                                  EN: Fresh, Rotting -->
+	<AG_VFEI_SegmentedEyes.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_VFEI_SegmentedEyes.renderNodeProperties.0.rotDrawMode>
+	<!--                                                  EN: Fresh, Rotting -->
+	<AG_VFEI_SegmentedEyes.renderNodeProperties.1.rotDrawMode>Fresh, Rotting</AG_VFEI_SegmentedEyes.renderNodeProperties.1.rotDrawMode>
+	<!--                          EN: insectoid mandibles -->
+	<AG_VFEI_InsectoidMandibles.label>инсектоидные мандибулы</AG_VFEI_InsectoidMandibles.label>
+	<!--                                               EN: Increases hit points of the jaw by 4. -->
+	<AG_VFEI_InsectoidMandibles.customEffectDescriptions.0>Увеличивает здоровье челюсти на 4.</AG_VFEI_InsectoidMandibles.customEffectDescriptions.0>
+	<!--                                EN: Carriers of this gene sport a pair of appendages situated on the sides of the mouth, helping to crush and cut the food. Whilst it’s significantly less comfortable than a normal jaw, insectoid mandibles increase eating speed. -->
+	<AG_VFEI_InsectoidMandibles.description>Пара придатков, расположенных по бокам рта и помогающих измельчать и разрезать пищу. Хотя они значительно менее удобны, чем обычные челюсти, инсектоидные мандибулы значительно увеличивают скорость приема пищи</AG_VFEI_InsectoidMandibles.description>
+	<!--                  EN: venom gland -->
+	<AG_VFEI_VenomGland.label>ядовитая железа</AG_VFEI_VenomGland.label>
+	<!--                        EN: Carriers of this gene grow a sack-like gland tucked under the tongue that secretes acid, liquifying and allowing to safely consume even the most dangerous foods. The overstimulation of this gland enables the user to throw a short range acid spitting attack, effective at going through armor. -->
+	<AG_VFEI_VenomGland.description>Мешковидная железа, расположенная под языком, выделяет кислоту, разжижает ее и позволяет спокойно употреблять даже самые опасные продукты. Перевозбуждение этой железы позволяет пользователю наносить кислотные плевки с короткой дистанции, эффективно пробивая броню</AG_VFEI_VenomGland.description>
+	<!--                                       EN: Disables all thoughts from food ingestion. -->
+	<AG_VFEI_VenomGland.customEffectDescriptions.0>Отключает все мысли о поглощении пищи.</AG_VFEI_VenomGland.customEffectDescriptions.0>
+	<!--                                       EN: Increases hit points of the jaw by 4. -->
+	<AG_VFEI_VenomGland.customEffectDescriptions.1>Увеличивает здоровье челюсти на 4.</AG_VFEI_VenomGland.customEffectDescriptions.1>
+	<!--                     EN: pneumatic claw -->
+	<AG_VFEI_PneumaticClaw.label>клешня инсектоида</AG_VFEI_PneumaticClaw.label>
+	<!--                           EN: Carriers of this gene have powerful pneumatic pincer hands, capable of repeatedly exerting great pressure on the target at the cost of refined motor skills. -->
+	<AG_VFEI_PneumaticClaw.description>Мощная клешня инсектоида, способная многократно оказывать сильное давление на цель ценой отточенной моторики.</AG_VFEI_PneumaticClaw.description>
+	<!--                                          EN: Increases hit points of the hands by 40. -->
+	<AG_VFEI_PneumaticClaw.customEffectDescriptions.0>Увеличивает здоровье рук на 40.</AG_VFEI_PneumaticClaw.customEffectDescriptions.0>
+	<!--                        EN: adrenal secretors -->
+	<AG_VFEI_AdrenalSecretors.label>Инсектоидная почка</AG_VFEI_AdrenalSecretors.label>
+	<!--                              EN: Carriers of this gene have insectoid kidneys with hyperactive adrenal glands. Subjects with this mutation may find newfound pleasure in inflicting pain. However, it does bring the side effect of unwarranted aggression. -->
+	<AG_VFEI_AdrenalSecretors.description>Инсектоидная почка с гиперактивным надпочечником. Обладатели этой мутации могут находить новое удовольствие в причинении боли. Однако это влечет за собой побочный эффект - необоснованную агрессию.</AG_VFEI_AdrenalSecretors.description>
+	<!--                                             EN: Will gain recreation after killing someone. -->
+	<AG_VFEI_AdrenalSecretors.customEffectDescriptions.0>Получает спокойствие после убийства.</AG_VFEI_AdrenalSecretors.customEffectDescriptions.0>
+	<!--                EN: insectoid antennae -->
+	<AG_VFEI_Antennae.label>Усики инсектоида</AG_VFEI_Antennae.label>
+	<!--                      EN: Carriers of this gene have slender, mobile sensory organs that serve to compliment vision and locational awareness. A subject with this mutation will no longer suffer from darkness penalties, however sensory overload makes it very difficult to socialize. -->
+	<AG_VFEI_Antennae.description>Тонкий, подвижный орган чувств, служащий для дополнения зрения и определения местоположения. Объект с этой мутацией больше не страдает от штрафов за темноту, однако сенсорная перегрузка сильно затрудняет общение</AG_VFEI_Antennae.description>
+	<!--                                             EN: Fresh, Rotting -->
+	<AG_VFEI_Antennae.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_VFEI_Antennae.renderNodeProperties.0.rotDrawMode>
+	<!--                                     EN: Carrier is immune to any darkness effects. -->
+	<AG_VFEI_Antennae.customEffectDescriptions.0>Носитель невосприимчив к любым эффектам темноты.</AG_VFEI_Antennae.customEffectDescriptions.0>
+	<!--                       EN: predator stomach -->
+	<AG_VFEI_PredatorStomach.label>желудок инсектоида</AG_VFEI_PredatorStomach.label>
+	<!--                             EN: Carriers of this gene have a highly efficient, although basic stomach alternative. Subjects with this mutation will be able to live longer with less food. -->
+	<AG_VFEI_PredatorStomach.description>У носителей этого гена есть простая, но очень эффективная альтернатива желудку. Благодаря этой мутации они могут дольше обходиться меньшим количеством пищи.</AG_VFEI_PredatorStomach.description>
+	<!--                                            EN: Decreases hit points of the stomach by 5. -->
+	<AG_VFEI_PredatorStomach.customEffectDescriptions.0>Уменьшает здоровье желудка на 5.</AG_VFEI_PredatorStomach.customEffectDescriptions.0>
+	<!--                                            EN: +10% nutrition gained from NON-raw foods. -->
+	<AG_VFEI_PredatorStomach.customEffectDescriptions.1>+10% питательных веществ, полученных из несырых продуктов.</AG_VFEI_PredatorStomach.customEffectDescriptions.1>
+	<!--                         EN: pheromone secretor -->
+	<AG_VFEI_PheromoneSecretor.label>секретор феромонов</AG_VFEI_PheromoneSecretor.label>
+	<!--                               EN: Carriers of this gene have insectoid glands that slowly leak colorless, odorless, but sticky pheromone, notable for inducing a mild euphoria in those nearby. -->
+	<AG_VFEI_PheromoneSecretor.description>Насекомовидные железы, из которых медленно вытекает бесцветный, не имеющий запаха, но липкий феромон, вызывающий легкую эйфорию у тех, кто находится рядом.</AG_VFEI_PheromoneSecretor.description>
+	<!--                         EN: ventricular sleeve -->
+	<AG_VFEI_VentricularSleeve.label>сердце инсектоида</AG_VFEI_VentricularSleeve.label>
+	<!--                               EN: Carriers of this gene posses a heart and artery mutation that causes blood to coagulate into oxygen-rich gel-like material. Upon laceration or even loss of limbs, the gel will cauterize the wound immediately. Unfortunately puts heavy strain on human cardiovascular biology. -->
+	<AG_VFEI_VentricularSleeve.description>Малоизученная мутация сердца и артерий приводит к тому, что кровь сворачивается в богатый кислородом гелеобразный материал. При ранениях или даже потере конечностей гель немедленно прижигает рану. К сожалению, это создает большую нагрузку на сердечно-сосудистую систему человека.</AG_VFEI_VentricularSleeve.description>
+	<!--                                              EN: Increases hit points of the heart by 5. -->
+	<AG_VFEI_VentricularSleeve.customEffectDescriptions.0>Увеличивает здоровье сердца на 5.</AG_VFEI_VentricularSleeve.customEffectDescriptions.0>
+	<!--                                              EN: Wounds will coagulate, but every time a bleeding wound coagulates on its own, there is a 5% chance of a heart attack. -->
+	<AG_VFEI_VentricularSleeve.customEffectDescriptions.1>Раны свертываются, но каждый раз, когда кровоточащая рана свертывается сама по себе, существует 5% вероятность сердечного приступа.</AG_VFEI_VentricularSleeve.customEffectDescriptions.1>
+	<!--                          EN: synaptic cerebellum -->
+	<AG_VFEI_SynapticCerebellum.label>Мозг инсектоида</AG_VFEI_SynapticCerebellum.label>
+	<!--                                EN: Carriers of this gene posses an insectoid brain particularly sensitive to residual psychic synapse. A creature with this mutation possesses profound collective thought and psychic sensitivity, however is barely able to form cohesive sentences. -->
+	<AG_VFEI_SynapticCerebellum.description>Мозг инсектоида, особенно чувствительный к остаточным психическим синапсам. Существо с этой мутацией обладает глубоким коллективным мышлением и экстрасенсорной чувствительностью, однако едва ли способно составлять связные предложения.</AG_VFEI_SynapticCerebellum.description>
+	<!--                                               EN: Increases hit points of the brain by 10. -->
+	<AG_VFEI_SynapticCerebellum.customEffectDescriptions.0>Увеличивает здоровье мозга на 10.</AG_VFEI_SynapticCerebellum.customEffectDescriptions.0>
+	<!--                             EN: vat-grown insectoid skin -->
+	<AG_VFEI_VatGrownInsectoidSkin.label>кожа инсектоида из чана</AG_VFEI_VatGrownInsectoidSkin.label>
+	<!--                                     EN: insect -->
+	<AG_VFEI_VatGrownInsectoidSkin.labelShortAdj>насекомое</AG_VFEI_VatGrownInsectoidSkin.labelShortAdj>
+	<!--                                   EN: Carriers of this gene produce a pigment similar to that of vat-grown insectoids. -->
+	<AG_VFEI_VatGrownInsectoidSkin.description>Носители этого гена производят пигмент, похожий на пигмент  инсектоидов из чана роста.</AG_VFEI_VatGrownInsectoidSkin.description>
+	<!--                     EN: insectoid skin -->
+	<AG_VFEI_InsectoidSkin.label>кожа инсектоида</AG_VFEI_InsectoidSkin.label>
+	<!--                             EN: insect -->
+	<AG_VFEI_InsectoidSkin.labelShortAdj>насекомое</AG_VFEI_InsectoidSkin.labelShortAdj>
+	<!--                           EN: Carriers of this gene produce a pigment similar to that of insectoids. -->
+	<AG_VFEI_InsectoidSkin.description>Носители этого гена производят пигмент, сходный с пигментом инсектоидов.</AG_VFEI_InsectoidSkin.description>
+</LanguageData>

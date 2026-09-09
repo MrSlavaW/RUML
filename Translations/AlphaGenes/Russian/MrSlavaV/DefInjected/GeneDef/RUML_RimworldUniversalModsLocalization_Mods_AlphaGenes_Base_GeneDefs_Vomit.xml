@@ -1,0 +1,29 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Vomit.xml -->
+	<!--                EN: chemfuel vomit -->
+	<AG_ChemfuelVomit.label>Рвота химическим топливом</AG_ChemfuelVomit.label>
+	<!--                      EN: Carriers of this gene have a chemfuel powered metabolism, and as such will vomit chemfuel. This vomit is flammable. -->
+	<AG_ChemfuelVomit.description>Носители этого гена имеют метаболизм, основанный на химическом топливе, и поэтому их будет рвать химическим топливом. Эта рвота легко воспламеняется.</AG_ChemfuelVomit.description>
+	<!--             EN: blood vomit -->
+	<AG_BloodVomit.label>Рвота кровью</AG_BloodVomit.label>
+	<!--                   EN: Carriers of this gene will violently vomit blood instead of normal vomit. This will cause internal bleeding every time they vomit, causing cuts and bruises over their whole body. -->
+	<AG_BloodVomit.description>Носителей этого гена будет сильно рвать кровью вместо обычной рвоты. Это будет вызывать внутреннее кровотечение каждый раз, когда их рвет, вызывая порезы и синяки по всему телу.</AG_BloodVomit.description>
+	<!--           EN: rat vomit -->
+	<AG_RatVomit.label>Крысиная рвота</AG_RatVomit.label>
+	<!--                 EN: Carriers of this gene will vomit clumps of mechanites that coalesce into pseudo-organic rats. This is such an incredibly cruel and disgusting thing that it's not clear if it's the result of a genetic experiment gone horribly wrong, or just a macabre prank by a truly unethical geneticist. -->
+	<AG_RatVomit.description>Носители этого гена будут извергать скопления механитов, которые сливаются в псевдоорганических крыс. Это настолько невероятно жестокая и отвратительная вещь, что неясно, является ли это результатом генетического эксперимента, который прошел ужасно неправильно, или просто жуткой шуткой действительно неэтичного генетика.</AG_RatVomit.description>
+	<!--                                EN: This is understandably pretty traumatizing... -->
+	<AG_RatVomit.customEffectDescriptions.0>Это, естественно, очень травмирует...</AG_RatVomit.customEffectDescriptions.0>
+	<!--            EN: water vomit -->
+	<AG_PukeWater.label>водяная рвота</AG_PukeWater.label>
+	<!--                  EN: Carriers of this gene will vomit water instead of normal vomit. -->
+	<AG_PukeWater.description>Носители этого гена будут рвать водой вместо обычной рвоты.</AG_PukeWater.description>
+	<!--           EN: bile vomit -->
+	<AG_PukeBile.label>рвота желчью</AG_PukeBile.label>
+	<!--                 EN: Carriers of this gene will vomit corpse bile instead of normal vomit. This liquid is even more revolting than normal vomit. -->
+	<AG_PukeBile.description>Носители этого гена будут рвать трупной желчью вместо обычной рвоты. Эта жидкость еще более отвратительна, чем обычная рвота.</AG_PukeBile.description>
+	<!--           EN: cryo vomit -->
+	<AG_PukeCryo.label>крио рвота</AG_PukeCryo.label>
+	<!--                 EN: Carriers of this gene will vomit cryogenic fluid instead of normal vomit. This liquid will quickly drop the temperature of its surroundings, making it both useful and incredibly dangerous. Dissipates faster than normal vomit but can't be cleaned. -->
+	<AG_PukeCryo.description>Носители этого гена будут рвать криогенной жидкостью вместо обычной рвоты. Эта жидкость быстро снижает температуру окружающей среды, что делает ее одновременно полезной и невероятно опасной, не поддается очистке.</AG_PukeCryo.description>
+</LanguageData>

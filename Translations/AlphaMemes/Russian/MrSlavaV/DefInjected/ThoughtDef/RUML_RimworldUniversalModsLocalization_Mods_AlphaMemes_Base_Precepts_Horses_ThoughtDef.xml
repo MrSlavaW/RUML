@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Horses.xml -->
+	<!--                                    EN: colony horse died -->
+	<AM_Horses_Desired_HorseDied.stages.0.label>лошадь поселения погибла</AM_Horses_Desired_HorseDied.stages.0.label>
+	<!--                                          EN: Such a cruel world. Our horses are not just animals, but our friends and companions. -->
+	<AM_Horses_Desired_HorseDied.stages.0.description>Какой жестокий мир. Наши лошади — это не просто животные, но и наши друзья и спутники.</AM_Horses_Desired_HorseDied.stages.0.description>
+</LanguageData>

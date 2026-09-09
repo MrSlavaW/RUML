@@ -1,0 +1,32 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaFactionsPirates\Defs\RitualDefs\DreadnoughtFuneral.xml -->
+	
+	<!--                                  EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+	<AM_DreadnoughtFuneralOutcome.description>В зависимости от качества ритуала, участники будут находиться в настроении от {MINMOOD} до {MAXMOOD} в течение {MOODDAYS} дней.</AM_DreadnoughtFuneralOutcome.description>
+	<!--                                             EN: Terrible -->
+	<AM_DreadnoughtFuneralOutcome.outcomeChances.0.label>Ужасно</AM_DreadnoughtFuneralOutcome.outcomeChances.0.label>
+	<!--                                                   EN: The {0} was terrible! The entombing failed and they are lost to us forever. -->
+	<AM_DreadnoughtFuneralOutcome.outcomeChances.0.description>{0} было ужасно! Погребение провалилось, и они потеряны для нас навсегда.</AM_DreadnoughtFuneralOutcome.outcomeChances.0.description>
+	<!--                                             EN: Lackluster -->
+	<AM_DreadnoughtFuneralOutcome.outcomeChances.1.label>Непримечательно</AM_DreadnoughtFuneralOutcome.outcomeChances.1.label>
+	<!--                                                   EN: The {0} was messy. I hope if I ever end up in that situation they do a better job. -->
+	<AM_DreadnoughtFuneralOutcome.outcomeChances.1.description>{0} было грязно, я надеюсь, что если я когда-нибудь окажусь в такой ситуации, они справятся лучше.</AM_DreadnoughtFuneralOutcome.outcomeChances.1.description>
+	<!--                                             EN: Good -->
+	<AM_DreadnoughtFuneralOutcome.outcomeChances.2.label>Хорошо</AM_DreadnoughtFuneralOutcome.outcomeChances.2.label>
+	<!--                                                   EN: The {0} was good. I'm sure they'll be up on their feet any time now. -->
+	<AM_DreadnoughtFuneralOutcome.outcomeChances.2.description>{0} было хорошо. Я уверен, что они встанут на ноги в любой момент.</AM_DreadnoughtFuneralOutcome.outcomeChances.2.description>
+	<!--                                             EN: Amazing -->
+	<AM_DreadnoughtFuneralOutcome.outcomeChances.3.label>Удивительно</AM_DreadnoughtFuneralOutcome.outcomeChances.3.label>
+	<!--                                                   EN: The {0} was Amazing. I've never seen such skill, they walked right out as if nothing had happened. -->
+	<AM_DreadnoughtFuneralOutcome.outcomeChances.3.description>{0} было потрясающе. Я никогда не видел такого мастерства, они вышли как ни в чем не бывало.</AM_DreadnoughtFuneralOutcome.outcomeChances.3.description>
+	<!--                                    EN: moral guide present -->
+	<AM_DreadnoughtFuneralOutcome.comps.0.label>присутствует моральный наставник</AM_DreadnoughtFuneralOutcome.comps.0.label>
+	<!--                                    EN: participant count -->
+	<AM_DreadnoughtFuneralOutcome.comps.1.label>количество участников</AM_DreadnoughtFuneralOutcome.comps.1.label>
+	<!--                                    EN: doctor -->
+	<AM_DreadnoughtFuneralOutcome.comps.2.label>доктор</AM_DreadnoughtFuneralOutcome.comps.2.label>
+	<!--                                                      EN: {RITUAL} was spectacular! {CORPSE} had 0 side effects -->
+	<AM_DreadnoughtFuneralOutcome.modExtensions.0.bestOutcomeDesc>{RITUAL} был впечатляющим! У {CORPSE} было 0 побочных эффектов</AM_DreadnoughtFuneralOutcome.modExtensions.0.bestOutcomeDesc>
+	<!--                                                       EN: {RITUAL} was a disaster! {CORPSE} has been lost forever. -->
+	<AM_DreadnoughtFuneralOutcome.modExtensions.0.worstOutcomeDesc>{RITUAL} был катастрофой! {CORPSE} был потерян навсегда.</AM_DreadnoughtFuneralOutcome.modExtensions.0.worstOutcomeDesc>
+</LanguageData>

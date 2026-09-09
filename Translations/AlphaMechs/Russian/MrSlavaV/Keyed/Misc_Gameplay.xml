@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+	<!-- Options -->
+	<!-- EN: Allow Aura -->
+	<AM_allowAura>Разрешить Ауру</AM_allowAura>
+	<!-- EN: Allow Daggersnout -->
+	<AM_allowDaggersnout>Разрешить Кинжалорыла</AM_allowDaggersnout>
+	<!-- EN: Allow Demolisher -->
+	<AM_allowDemolisher>Разрешить Разрушителя</AM_allowDemolisher>
+	<!-- EN: Allow Fireworm -->
+	<AM_allowFireworm>Разрешить Огнечервя</AM_allowFireworm>
+	<!-- EN: Allow Goliath -->
+	<AM_allowGoliath>Разрешить Голиафа</AM_allowGoliath>
+	<!-- EN: Allow Phalanx -->
+	<AM_allowPhalanx>Разрешить Фалангу</AM_allowPhalanx>
+	<!-- EN: Allow Siegebreaker -->
+	<AM_allowSiegebreaker>Разрешить Осадного разрушителя</AM_allowSiegebreaker>
+	<!-- EN: Bandwidth amount for Beamcaster Band Nodes -->
+	<AM_Tier2BandAmount>Пропускная способность узлов лучевой связи</AM_Tier2BandAmount>
+	<!-- EN: Each Beamcaster Band Node will increase a pawn's bandwidth by this amount. Only applies if you have Biotech DLC active. Electric power in the nodes will need to be toggled before the changes take effect. -->
+	<AM_Tier2BandAmountDesc>Каждый узел лучевой связи увеличивает пропускную способность механитора на это значение. Работает только при активном дополнении Biotech. После изменения параметра питание узлов нужно переключить заново.</AM_Tier2BandAmountDesc>
+	<!-- EN: Bandwidth amount for Voidlink Band Nodes -->
+	<AM_Tier3BandAmount>Пропускная способность узлов диапазона пустотной связи</AM_Tier3BandAmount>
+	<!-- EN: Each Voidlink Band Node will increase a pawn's bandwidth by this amount. Only applies if you have Biotech DLC active. Electric power in the nodes will need to be toggled before the changes take effect. -->
+	<AM_Tier3BandAmountDesc>Каждый узел диапазона пустотной связи увеличивает пропускную способность механитора на это значение. Работает только при активном дополнении Biotech. После изменения параметра питание узлов нужно переключить заново.</AM_Tier3BandAmountDesc>
+	<!-- EN: Reset -->
+	<AM_Reset>Сброс</AM_Reset>
+	<!-- Abilities -->
+	<!-- EN: This ability will only works on mechanoids -->
+	<AM_CantUseOnNonMechs>Эта способность действует только на механоидов.</AM_CantUseOnNonMechs>
+	<!-- EN: Only a mechanitor can use this ability -->
+	<AM_OnlyMechanitorCanUse>Только механитор может использовать эту способность.</AM_OnlyMechanitorCanUse>
+	<!-- EN: "Boss" mechanoids have a reinforced IFF system that can't be hacked -->
+	<AM_CantUseOnBossMechs>Механоиды-боссы оснащены усиленной системой опознавания «свой-чужой», которую невозможно взломать.</AM_CantUseOnBossMechs>
+	<!-- EN: Mechanitor doesn't have enough bandwidth to use this ability on a {0} -->
+	<AM_NotEnoughBandwidth>У механитора недостаточно пропускной способности, чтобы применить эту способность к {0}.</AM_NotEnoughBandwidth>
+	<!-- EN: This mechanoid is being remotely controlled by a human pilot, and it can't be hacked -->
+	<AM_CantUseVEMechs>Этот механоид дистанционно управляется пилотом-человеком, поэтому его нельзя взломать.</AM_CantUseVEMechs>
+	<!-- EN: Can't use on non-downed persons -->
+	<AM_CantUseOnNonDowned>Нельзя использовать на целях, которые не находятся в состоянии беспомощности.</AM_CantUseOnNonDowned>
+	<!-- EN: Eject hemogen packs -->
+	<AM_EjectHemogen>Извлечь пакеты гемогена</AM_EjectHemogen>
+	<!-- EN: Ejects all the hemogen packs stored inside the mech's storage vats -->
+	<AM_EjectHemogenDesc>Извлекает все пакеты гемогена, хранящиеся во внутренних резервуарах меха.</AM_EjectHemogenDesc>
+	<!-- EN: Hemogen packs stored: {0} -->
+	<AM_HemogenStored>Пакетов гемогена внутри: {0}</AM_HemogenStored>
+	<!-- Placeworkers -->
+	<!-- EN: Band nodes, beamcaster and voidlink band nodes must not be placed close to each other -->
+	<AM_MustNotBePlacedCloseToAnother>Обычные узлы связи, узлы лучевой связи и узлы пустотной связи нельзя размещать слишком близко друг к другу.</AM_MustNotBePlacedCloseToAnother>
+	<!-- Resources -->
+	<!-- EN: Resource assembly in -->
+	<AM_RandomItems>Сборка ресурсов через</AM_RandomItems>
+	<!-- EN: Nutrient paste production -->
+	<AM_MealNutrientPaste>Производство питательной пасты</AM_MealNutrientPaste>
+</LanguageData>
+
+

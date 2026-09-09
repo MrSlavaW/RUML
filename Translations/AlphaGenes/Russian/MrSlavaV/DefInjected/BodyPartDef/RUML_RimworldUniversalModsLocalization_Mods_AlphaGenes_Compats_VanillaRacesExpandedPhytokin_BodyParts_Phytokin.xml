@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaRacesExpandedPhytokin\Defs\Bodies\BodyParts_Phytokin.xml -->
+	<!--         EN: thorax -->
+	<AG_Thorax.label>грудная клетка</AG_Thorax.label>
+	<!--             EN: tail -->
+	<AG_InsectTail.label>хвост</AG_InsectTail.label>
+	<!--              EN: mouth -->
+	<AG_InsectMouth.label>рот</AG_InsectMouth.label>
+	<!--              EN: stinger -->
+	<AG_InsectSting.label>жало</AG_InsectSting.label>
+	<!--             EN: left pincer -->
+	<AG_LeftPincer.label>левая клешня</AG_LeftPincer.label>
+	<!--              EN: right pincer -->
+	<AG_RightPincer.label>правая клешня</AG_RightPincer.label>
+</LanguageData>

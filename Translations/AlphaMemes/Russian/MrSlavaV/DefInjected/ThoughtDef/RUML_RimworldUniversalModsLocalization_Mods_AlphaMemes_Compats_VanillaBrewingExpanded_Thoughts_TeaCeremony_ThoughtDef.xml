@@ -1,0 +1,22 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\ThoughtDefs\TeaCeremony\Thoughts_TeaCeremony.xml -->
+	<!--                                  EN: profane tea ceremony -->
+	<AM_TeaCeremonyBlasphemous.stages.0.label>кощунственная чайная церемония</AM_TeaCeremonyBlasphemous.stages.0.label>
+	<!--                                        EN: The ceremony was an affront to the sacred art of tea. This desecration will linger in my thoughts. -->
+	<AM_TeaCeremonyBlasphemous.stages.0.description>Церемония была оскорблением священному искусству чая. Это осквернение будет долго преследовать меня.</AM_TeaCeremonyBlasphemous.stages.0.description>
+	
+	<!--                                    EN: disappointing tea ceremony -->
+	<AM_TeaCeremonyUnderwhelming.stages.0.label>разочаровывающая чайная церемония</AM_TeaCeremonyUnderwhelming.stages.0.label>
+	<!--                                          EN: The ceremony lacked the spirit and grace it deserved. It felt hollow and uninspired. -->
+	<AM_TeaCeremonyUnderwhelming.stages.0.description>Церемония не имела того духа и грации, которые она заслуживала. Она казалась пустой и невдохновляющей.</AM_TeaCeremonyUnderwhelming.stages.0.description>
+	
+	<!--                                 EN: soothing tea ceremony -->
+	<AM_TeaCeremonyRefreshing.stages.0.label>успокаивающая чайная церемония</AM_TeaCeremonyRefreshing.stages.0.label>
+	<!--                                       EN: That was a delightful moment of connection with the essence of tea. It left me feeling renewed. -->
+	<AM_TeaCeremonyRefreshing.stages.0.description>Это был приятный момент единения с сущностью чая. Он оставил меня чувствующим себя обновленным.</AM_TeaCeremonyRefreshing.stages.0.description>
+	
+	<!--                                   EN: enlightening tea ceremony -->
+	<AM_TeaCeremonyTranscendent.stages.0.label>просветляющая чайная церемония</AM_TeaCeremonyTranscendent.stages.0.label>
+	<!--                                         EN: This ceremony was a profound experience, an unforgettable communion with the sacred tea. -->
+	<AM_TeaCeremonyTranscendent.stages.0.description>Эта церемония была глубоким опытом, незабываемым общением с священным чаем.</AM_TeaCeremonyTranscendent.stages.0.description>
+</LanguageData>

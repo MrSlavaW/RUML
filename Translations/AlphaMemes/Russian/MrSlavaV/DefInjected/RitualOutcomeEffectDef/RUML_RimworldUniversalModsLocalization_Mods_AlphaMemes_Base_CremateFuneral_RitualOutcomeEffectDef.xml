@@ -1,0 +1,29 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\CremateFuneral.xml -->
+	
+	<!--                              EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+	<AM_CremateFuneralOutcome.description>В зависимости от качества ритуала у участников изменится настроение от {MINMOOD} до {MAXMOOD} на {MOODDAYS} дней.</AM_CremateFuneralOutcome.description>
+	<!--                                         EN: Terrible -->
+	<AM_CremateFuneralOutcome.outcomeChances.0.label>Ужасный</AM_CremateFuneralOutcome.outcomeChances.0.label>
+	<!--                                               EN: The {0} was terrible! The speech was boring and the crematorium wasn't hot enough. -->
+	<AM_CremateFuneralOutcome.outcomeChances.0.description>{0} было ужасно! Речь была скучной, а в крематории было недостаточно жарко.</AM_CremateFuneralOutcome.outcomeChances.0.description>
+	<!--                                         EN: Lackluster -->
+	<AM_CremateFuneralOutcome.outcomeChances.1.label>Тусклый</AM_CremateFuneralOutcome.outcomeChances.1.label>
+	<!--                                               EN: The {0} was lackluster. The speech was long-winded and did not honour them. -->
+	<AM_CremateFuneralOutcome.outcomeChances.1.description>{0} был тусклым. Речь была многословной и не удостоила их чести.</AM_CremateFuneralOutcome.outcomeChances.1.description>
+	<!--                                         EN: Good -->
+	<AM_CremateFuneralOutcome.outcomeChances.2.label>Хороший</AM_CremateFuneralOutcome.outcomeChances.2.label>
+	<!--                                               EN: The {0} was good. The speaker's final words provided a path for everyone to move on. -->
+	<AM_CremateFuneralOutcome.outcomeChances.2.description>{0} было хорошо. Последние слова оратора дали всем возможность двигаться дальше.</AM_CremateFuneralOutcome.outcomeChances.2.description>
+	<!--                                         EN: Amazing -->
+	<AM_CremateFuneralOutcome.outcomeChances.3.label>Удивительно</AM_CremateFuneralOutcome.outcomeChances.3.label>
+	<!--                                               EN: The {0} was heartwarming. The speech was captivating and heartfelt, and everyone came away focused on good memories. -->
+	<AM_CremateFuneralOutcome.outcomeChances.3.description>{0} было трогательным. Выступление было увлекательным и проникновенным, и все ушли с хорошими воспоминаниями.</AM_CremateFuneralOutcome.outcomeChances.3.description>
+	<!--                                EN: moral guide present -->
+	<AM_CremateFuneralOutcome.comps.0.label>присутствует духовный лидер</AM_CremateFuneralOutcome.comps.0.label>
+	<!--                                EN: participant count -->
+	<AM_CremateFuneralOutcome.comps.1.label>{0} было довольно эффективным. Они производили гораздо больше питательных веществ, чем можно было бы ожидать.
+количество участников</AM_CremateFuneralOutcome.comps.1.label>
+	<!--                                EN: Artist -->
+	<AM_CremateFuneralOutcome.comps.2.label>Художник</AM_CremateFuneralOutcome.comps.2.label>
+</LanguageData>

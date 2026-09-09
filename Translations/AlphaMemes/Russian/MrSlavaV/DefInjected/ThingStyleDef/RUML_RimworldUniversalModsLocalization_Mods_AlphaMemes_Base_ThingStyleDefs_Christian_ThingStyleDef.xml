@@ -1,0 +1,21 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingStyleDefs\Vanilla\ThingStyleDefs_Christian.xml -->
+	<!--                         EN: cudgel -->
+	<AM_Christian_Club.overrideLabel>дубинка</AM_Christian_Club.overrideLabel>
+	<!--                            EN: squire sword -->
+	<AM_Christian_Gladius.overrideLabel>меч оруженосца</AM_Christian_Gladius.overrideLabel>
+	<!--                         EN: guisarme -->
+	<AM_Christian_Ikwa.overrideLabel>гуизарм</AM_Christian_Ikwa.overrideLabel>
+	<!--                        EN: halberd -->
+	<AM_Christian_Axe.overrideLabel>алебарда</AM_Christian_Axe.overrideLabel>
+	<!--                           EN: flail -->
+	<AM_Christian_Hammer.overrideLabel>цеп</AM_Christian_Hammer.overrideLabel>
+	<!--                          EN: poignard -->
+	<AM_Christian_Knife.overrideLabel>пойньяр</AM_Christian_Knife.overrideLabel>
+	<!--                          EN: knightly sword -->
+	<AM_Christian_Sword.overrideLabel>рыцарский меч</AM_Christian_Sword.overrideLabel>
+	<!--                         EN: flanged mace -->
+	<AM_Christian_Mace.overrideLabel>булава с фланцем</AM_Christian_Mace.overrideLabel>
+	<!--                          EN: lance -->
+	<AM_Christian_Spear.overrideLabel>копье</AM_Christian_Spear.overrideLabel>
+</LanguageData>

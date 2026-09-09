@@ -1,0 +1,27 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\RecipeDefs\Recipes_MechGestator_Light.xml -->
+	<!--                    EN: gestate daggersnout -->
+	<AM_DaggersnoutRecipe.label>Собрать механоида «Кинжалорыл»</AM_DaggersnoutRecipe.label>
+	<!--                          EN: Gestate a daggersnout mechanoid. -->
+	<AM_DaggersnoutRecipe.description>Собрать механоида «Кинжалорыл».</AM_DaggersnoutRecipe.description>
+	<!--                 EN: gestate bellicor -->
+	<AM_BellicorRecipe.label>Собрать механоида «Воинственный»</AM_BellicorRecipe.label>
+	<!--                       EN: Gestate a bellicor mechanoid. -->
+	<AM_BellicorRecipe.description>Собрать механоида «Воинственный».</AM_BellicorRecipe.description>
+	<!--                   EN: gestate artilleron -->
+	<AM_ArtilleronRecipe.label>Собрать механоида «Артиллерон»</AM_ArtilleronRecipe.label>
+	<!--                         EN: Gestate an artilleron mechanoid. -->
+	<AM_ArtilleronRecipe.description>Собрать механоида «Артиллерон».</AM_ArtilleronRecipe.description>
+	<!--                   EN: gestate blitzkrieg -->
+	<AM_BlitzkriegRecipe.label>Собрать механоида «Блицкриг»</AM_BlitzkriegRecipe.label>
+	<!--                         EN: Gestate a blitzkrieg mechanoid. -->
+	<AM_BlitzkriegRecipe.description>Собрать механоида «Блицкриг».</AM_BlitzkriegRecipe.description>
+	<!--                        EN: gestate culinarius -->
+	<AM_Mech_MasterChefRecipe.label>Собрать механоида «Кулинар»</AM_Mech_MasterChefRecipe.label>
+	<!--                              EN: Gestate a culinarius mechanoid. -->
+	<AM_Mech_MasterChefRecipe.description>Собрать механоида «Кулинар».</AM_Mech_MasterChefRecipe.description>
+	<!--                          EN: gestate turbocleaner -->
+	<AM_Mech_TurboCleanerRecipe.label>Собрать механоида «Турбоочиститель»</AM_Mech_TurboCleanerRecipe.label>
+	<!--                                EN: Gestate a turbocleaner mechanoid. -->
+	<AM_Mech_TurboCleanerRecipe.description>Собрать механоида «Турбоочиститель».</AM_Mech_TurboCleanerRecipe.description>
+</LanguageData>

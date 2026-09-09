@@ -1,0 +1,35 @@
+<LanguageData>
+	<!-- 1.6\Defs\Bodies_Mechanoids\BodyParts_Mechanoids.xml -->
+	<!--                EN: wing blade -->
+	<AM_MechanoidWing.label>крыльевой клинок</AM_MechanoidWing.label>
+	<!--                   EN: mechanoid wing -->
+	<AM_MechanoidBeeWing.label>механоидное крыло</AM_MechanoidBeeWing.label>
+	<!--             EN: turret -->
+	<AM_TankTurret.label>турель</AM_TankTurret.label>
+	<!--                 EN: claw -->
+	<AM_MechanicalClaw.label>лапа</AM_MechanicalClaw.label>
+	<!--                      EN: chassis -->
+	<AM_TankPlateFirst.labelShort>шасси</AM_TankPlateFirst.labelShort>
+	<!--                 EN: frontal metallic plating -->
+	<AM_TankPlateFirst.label>лобовая металлическая обшивка</AM_TankPlateFirst.label>
+	<!--                       EN: chassis -->
+	<AM_TankPlateSecond.labelShort>шасси</AM_TankPlateSecond.labelShort>
+	<!--                  EN: auxiliary frontal metallic plating -->
+	<AM_TankPlateSecond.label>вспомогательная лобовая металлическая обшивка</AM_TankPlateSecond.label>
+	<!--                      EN: chassis -->
+	<AM_TankPlateThird.labelShort>шасси</AM_TankPlateThird.labelShort>
+	<!--                 EN: central metallic plating -->
+	<AM_TankPlateThird.label>центральное металлическое покрытие</AM_TankPlateThird.label>
+	<!--                       EN: chassis -->
+	<AM_TankPlateFourth.labelShort>шасси</AM_TankPlateFourth.labelShort>
+	<!--                  EN: auxiliary central metallic plating -->
+	<AM_TankPlateFourth.label>вспомогательная центральная металлическая обшивка</AM_TankPlateFourth.label>
+	<!--                      EN: chassis -->
+	<AM_TankPlateFifth.labelShort>шасси</AM_TankPlateFifth.labelShort>
+	<!--                 EN: rear metallic plating -->
+	<AM_TankPlateFifth.label>задняя металлическая обшивка</AM_TankPlateFifth.label>
+	<!--                      EN: chassis -->
+	<AM_TankPlateSixth.labelShort>шасси</AM_TankPlateSixth.labelShort>
+	<!--                 EN: auxiliary rear metallic plating -->
+	<AM_TankPlateSixth.label>вспомогательная задняя металлическая обшивка</AM_TankPlateSixth.label>
+</LanguageData>

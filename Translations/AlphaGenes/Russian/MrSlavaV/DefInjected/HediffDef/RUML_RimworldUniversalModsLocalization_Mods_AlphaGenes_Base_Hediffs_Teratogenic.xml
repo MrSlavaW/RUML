@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\HediffDefs\Hediffs_Teratogenic.xml -->
+	<!--                          EN: teratogenic coordination -->
+	<AG_TeratogenicManipulation.label>Тератогенная координация</AG_TeratogenicManipulation.label>
+	<!--                                EN: This person has increased manipulation and manual dexterity. -->
+	<AG_TeratogenicManipulation.description>Перепрофилирует существующие опухоли, обеспечивая огромный толчок к манипуляциям и ловкости.</AG_TeratogenicManipulation.description>
+	<!--                       EN: teratogenic swiftness -->
+	<AG_TeratogenicSwiftness.label>Тератогенная быстрота</AG_TeratogenicSwiftness.label>
+	<!--                             EN: This person has increased movement and working speed. -->
+	<AG_TeratogenicSwiftness.description>Перепрофилирует существующие опухоли, обеспечивая огромный прирост скорости движения и работы.</AG_TeratogenicSwiftness.description>
+	<!--                     EN: teratogenic stamina -->
+	<AG_TeratogenicStamina.label>Тератогенная выносливость</AG_TeratogenicStamina.label>
+	<!--                           EN: This person has a huge boost to their immune system, and overall stamina. -->
+	<AG_TeratogenicStamina.description>Перепрофилирует существующие опухоли, чтобы дать огромный толчок их иммунной системе и общей выносливости</AG_TeratogenicStamina.description>
+</LanguageData>

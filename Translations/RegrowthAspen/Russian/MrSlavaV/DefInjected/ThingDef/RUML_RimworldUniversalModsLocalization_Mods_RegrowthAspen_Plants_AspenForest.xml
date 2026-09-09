@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<RG_Plant_AspenGrass.label>осиновая трава</RG_Plant_AspenGrass.label>
+	<RG_Plant_AspenGrass.description>Невысокая дикая трава, типичная для лесных полян.</RG_Plant_AspenGrass.description>
+	<RG_Plant_TallAspenGrass.label>высокая осиновая трава</RG_Plant_TallAspenGrass.label>
+	<RG_Plant_TallAspenGrass.description>Пышные заросли высокой травы, растущие под пологом осинового леса.</RG_Plant_TallAspenGrass.description>
+	<RG_Plant_AspenFern.label>осиновый папоротник</RG_Plant_AspenFern.label>
+	<RG_Plant_AspenFern.description>Широколистный лесной папоротник, любящий влажные тенистые места.</RG_Plant_AspenFern.description>
+	<RG_Plant_SaffronCushion.label>шафрановая подушка</RG_Plant_SaffronCushion.label>
+	<RG_Plant_SaffronCushion.description>Низкорослый плотный кустарник с яркими шафрановыми цветами.</RG_Plant_SaffronCushion.description>
+	<RG_Plant_TreeAspenYellow.label>желтая осина</RG_Plant_TreeAspenYellow.label>
+	<RG_Plant_TreeAspenYellow.description>Стройное высокое дерево с белой корой и пышной золотистой листвой, дрожащей на ветру.</RG_Plant_TreeAspenYellow.description>
+	<RG_Plant_TreeAspenRed.label>красная осина</RG_Plant_TreeAspenRed.label>
+	<RG_Plant_TreeAspenRed.description>Красивое дерево с багряно-красной листвой, служащее украшением осеннего леса.</RG_Plant_TreeAspenRed.description>
+	<RG_Plant_Chokecherry.label>виргинская черемуха</RG_Plant_Chokecherry.label>
+	<RG_Plant_Chokecherry.description>Крупный ягодный кустарник с терпкими съедобными плодами.</RG_Plant_Chokecherry.description>
+	<RG_Plant_Winterberry.label>снежноягодник</RG_Plant_Winterberry.label>
+	<RG_Plant_Winterberry.description>Морозостойкий кустарник, сохраняющий яркие ягоды даже под снегом.</RG_Plant_Winterberry.description>
+	<RG_Plant_Fireweed.label>иван-чай</RG_Plant_Fireweed.label>
+	<RG_Plant_Fireweed.description>Высокое травянистое растение с яркими пурпурно-розовыми соцветиями.</RG_Plant_Fireweed.description>
+	<RG_Plant_Horsetail.label>хвощ</RG_Plant_Horsetail.label>
+	<RG_Plant_Horsetail.description>Древнее жесткое растение, любящее влажную лесную почву.</RG_Plant_Horsetail.description>
+	<RG_Plant_WildBlackberry.label>дикая ежевика</RG_Plant_WildBlackberry.label>
+	<RG_Plant_WildBlackberry.description>Колючий кустарник со сладкими темными ягодами.</RG_Plant_WildBlackberry.description>
+	<RG_Plant_Lupine.label>люпин</RG_Plant_Lupine.label>
+	<RG_Plant_Lupine.description>Красочное цветковое растение со стройными свечевидными соцветиями.</RG_Plant_Lupine.description>
+	<RG_Plant_PoisonIvy.label>ядовитый плющ</RG_Plant_PoisonIvy.label>
+	<RG_Plant_PoisonIvy.description>Коварное ползучее растение, сок которого вызывает раздражение кожи при контакте.</RG_Plant_PoisonIvy.description>
+	<RG_Plant_BogBean.label>вахта трехлистная</RG_Plant_BogBean.label>
+	<RG_Plant_BogBean.description>Влаголюбивое болотное растение с белыми пушистыми соцветиями.</RG_Plant_BogBean.description>
+	<RG_Plant_Spatterdock.label>кубышка</RG_Plant_Spatterdock.label>
+	<RG_Plant_Spatterdock.description>Водное растение с плавающими листьями и желтыми округлыми цветами.</RG_Plant_Spatterdock.description>
+	<RG_Plant_WaterHemlock.label>водяной болиголов</RG_Plant_WaterHemlock.label>
+	<RG_Plant_WaterHemlock.description>Чрезвычайно ядовитое прибрежное растение. Опасно при употреблении в пищу.</RG_Plant_WaterHemlock.description>
+	<RG_Plant_MarshMarigold.label>калужница болотная</RG_Plant_MarshMarigold.label>
+	<RG_Plant_MarshMarigold.description>Ярко-желтые весенние цветы, растущие по берегам ручьев и болот.</RG_Plant_MarshMarigold.description>
+	<RG_Plant_WildChives.label>дикий шнитт-лук</RG_Plant_WildChives.label>
+	<RG_Plant_WildChives.description>Съедобное травянистое растение с легким чесночно-луковым ароматом.</RG_Plant_WildChives.description>
+	<RG_Plant_Blueberry.label>лесная черника</RG_Plant_Blueberry.label>
+	<RG_Plant_Blueberry.description>Низкорослый ягодный кустарничек с сочными сладкими ягодами синего цвета.</RG_Plant_Blueberry.description>
+	<RG_Plant_Lingonberry.label>брусника</RG_Plant_Lingonberry.label>
+	<RG_Plant_Lingonberry.description>Вечнозеленый лесной кустарник с терпко-кислыми ярко-красными ягодами.</RG_Plant_Lingonberry.description>
+	<RG_Plant_WildStrawberry.label>дикая земляника</RG_Plant_WildStrawberry.label>
+	<RG_Plant_WildStrawberry.description>Ароматная дикорастущая земляника, излюбленное лакомство колонистов.</RG_Plant_WildStrawberry.description>
+	<RG_Plant_BoletusMushroom.label>белый гриб</RG_Plant_BoletusMushroom.label>
+	<RG_Plant_BoletusMushroom.description>Благородный боровик с толстой ножкой и коричневой шляпкой. Прекрасный питательный ингредиент.</RG_Plant_BoletusMushroom.description>
+	<RG_Plant_ChanterelleMushroom.label>лисичка</RG_Plant_ChanterelleMushroom.label>
+	<RG_Plant_ChanterelleMushroom.description>Ярко-рыжий съедобный гриб с нежной мякотью.</RG_Plant_ChanterelleMushroom.description>
+</LanguageData>

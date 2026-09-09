@@ -1,0 +1,18 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\PreceptDefs\Precepts_ChildLearning.xml -->
+	
+	<!--                         EN: increased -->
+	<AM_LearningRate_Increased.label>быстрое</AM_LearningRate_Increased.label>
+	<!--                               EN: The minds of children are fertile ground, ready to be shaped and cultivated. -->
+	<AM_LearningRate_Increased.description>Умы детей — это плодородная почва, готовая быть сформированной и возделанной.</AM_LearningRate_Increased.description>
+	
+	<!--                      EN: normal -->
+	<AM_LearningRate_Normal.label>нормальное</AM_LearningRate_Normal.label>
+	<!--                            EN: Children should learn and grow at their own pace, guided by natural curiosity and the wisdom of their elders. -->
+	<AM_LearningRate_Normal.description>Дети должны учиться и расти в своем темпе, руководствуясь естественным любопытством и мудростью старших.</AM_LearningRate_Normal.description>
+	
+	<!--                         EN: decreased -->
+	<AM_LearningRate_Decreased.label>уменьшенное</AM_LearningRate_Decreased.label>
+	<!--                               EN: Childhood should be a time of simplicity and play. Overburdening young minds with excessive learning only leads to stress and a loss of innocence. -->
+	<AM_LearningRate_Decreased.description>Детство должно быть временем для игр. Перегрузка юных умов чрезмерным обучением приводит только к стрессу и утрате невинности.</AM_LearningRate_Decreased.description>
+</LanguageData>

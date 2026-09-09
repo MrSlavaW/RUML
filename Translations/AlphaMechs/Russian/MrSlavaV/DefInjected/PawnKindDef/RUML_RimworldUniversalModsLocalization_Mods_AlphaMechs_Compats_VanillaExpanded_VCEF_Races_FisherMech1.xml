@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\VanillaExpanded_VCEF\Races_FisherMech1.xml -->
+	<!--              EN: oceanus -->
+	<AM_Mech_Angler.label>океан</AM_Mech_Angler.label>
+	<!--                                 EN: Plural oceanus -->
+	<AM_Mech_Angler.lifeStages.1.labelPlural>Океанусы</AM_Mech_Angler.lifeStages.1.labelPlural>
+<AM_Mech_Angler.lifeStages.0.labelPlural>Океанусы</AM_Mech_Angler.lifeStages.0.labelPlural></LanguageData>

@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Blitzkrieg.xml -->
+	<!--             EN: blitzkrieg -->
+	<AM_Blitzkrieg.label>блицкриг</AM_Blitzkrieg.label>
+	<!--                   EN: The Blietzkrieg is a unique mechanoid designed for tactical warfare and area denial. Shaped like a sleek and menacing metallic mine, it is capable of self-propelling itself to the intended target location before detonating in a devastating explosion. However, its indiscriminate detonation makes it a double-edged sword, and careful coordination is required to ensure that it does not harm friendly forces. -->
+	<AM_Blitzkrieg.description>Блицкриг — уникальный механоид, созданный для тактической войны и захвата территорий. По форме напоминающий гладкую и грозную металлическую мину, он способен самостоятельно перемещаться к намеченной цели, а затем взорваться разрушительным взрывом. Однако неизбирательный взрыв делает его палкой о двух концах, и требуется тщательная координация, чтобы гарантировать, что он не причинит вреда дружественным силам.</AM_Blitzkrieg.description>
+	<!--                     EN: голова -->
+	<AM_Blitzkrieg.tools.0.label>голова</AM_Blitzkrieg.tools.0.label>
+</LanguageData>

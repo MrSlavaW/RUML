@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GET_DidSplitZeroCost>Генный пакет был успешно разделён во время экстракции, выделив неметаболические гены.</GET_DidSplitZeroCost>
+  <GET_Extracted>Извлечён генный пакет из {0}: {1}</GET_Extracted>
+  <GET_ExtractedMega>Извлечён мега-генпакет {0}: {1}</GET_ExtractedMega>
+  <GET_ExtractionTime>Время экстракции</GET_ExtractionTime>
+  <GET_GenesRegrowingTime>Время восстановления генов</GET_GenesRegrowingTime>
+  <GET_MegapackChance>Шанс извлечения мегапакета</GET_MegapackChance>
+  <GET_MultipackChance>Шанс извлечения мультипакета</GET_MultipackChance>
+  <GET_NutritionUseMultiplier>Множитель потребления питания</GET_NutritionUseMultiplier>
+  <GET_SplitZeroCostChance>Шанс отделения нулевых генов в отдельный пакет</GET_SplitZeroCostChance>
+</LanguageData>

@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Siegemelter.xml -->
+	<!--              EN: siegemelter -->
+	<AM_Siegemelter.label>осадный плавитель</AM_Siegemelter.label>
+	<!--                                 EN: Plural siegemelter -->
+	<AM_Siegemelter.lifeStages.1.labelPlural>Осадные плавители</AM_Siegemelter.lifeStages.1.labelPlural>
+<AM_Siegemelter.lifeStages.0.labelPlural>Осадные плавители</AM_Siegemelter.lifeStages.0.labelPlural></LanguageData>

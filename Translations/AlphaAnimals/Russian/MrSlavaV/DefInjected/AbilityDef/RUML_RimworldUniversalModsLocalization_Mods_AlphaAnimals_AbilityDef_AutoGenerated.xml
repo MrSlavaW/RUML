@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AA_AcidBolt.label>кислотный плевок</AA_AcidBolt.label>
+  <AA_AcidicVomit.label>кислотная рвота</AA_AcidicVomit.label>
+  <AA_AcidicWeb.label>кислотная паутина лиска</AA_AcidicWeb.label>
+  <AA_BarbedQuills.label>зазубренные иглы</AA_BarbedQuills.label>
+  <AA_BlackHiveBolt.label>мерзкий плевок</AA_BlackHiveBolt.label>
+  <AA_Bullet_Rock.label>пси-заряженный камень</AA_Bullet_Rock.label>
+  <AA_Bullet_VenomBarb.label>ядовитый шип</AA_Bullet_VenomBarb.label>
+  <AA_Bullet_VenomBarb_Minor.label>малый ядовитый шип</AA_Bullet_VenomBarb_Minor.label>
+  <AA_DarkBolt.label>тёмная стрела</AA_DarkBolt.label>
+  <AA_ElectricBolt.label>электрический разряд</AA_ElectricBolt.label>
+  <AA_FireSpit.label>плевок</AA_FireSpit.label>
+  <AA_FireWeb.label>огненная паутина лиска</AA_FireWeb.label>
+  <AA_FlameBreathAnimated.label>огненное дыхание</AA_FlameBreathAnimated.label>
+  <AA_FrostBolt.label>морозный разряд</AA_FrostBolt.label>
+  <AA_FrostWeb.label>ледяная паутина лиска</AA_FrostWeb.label>
+  <AA_GazeAttack.label>плавящий взгляд</AA_GazeAttack.label>
+  <AA_GreaterVileSpit.label>плевок</AA_GreaterVileSpit.label>
+  <AA_IncendiaryMote.label>плевок</AA_IncendiaryMote.label>
+  <AA_LaserBullet.label>лазерный залп</AA_LaserBullet.label>
+  <AA_Plasma.label>четверная тесла-пушка</AA_Plasma.label>
+  <AA_PoisonBolt.label>плевок</AA_PoisonBolt.label>
+  <AA_Quill.label>зазубренные иглы</AA_Quill.label>
+  <AA_RedPoisonBolt.label>ядовитый шип</AA_RedPoisonBolt.label>
+  <AA_Web.label>паутина лиска</AA_Web.label>
+  <AA_WindBolt.label>ветряной порыв</AA_WindBolt.label>
+</LanguageData>

@@ -1,0 +1,49 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneCategoryDefs.xml -->
+	<!--                         EN: special effects -->
+	<AG_SpecialEffectsCategory.label>Особые эффекты</AG_SpecialEffectsCategory.label>
+	<!--         EN: gender -->
+	<AG_Gender.label>Пол</AG_Gender.label>
+	<!--           EN: body size -->
+	<AG_BodySize.label>Размер тела</AG_BodySize.label>
+	<!--           EN: presence -->
+	<AG_Presence.label>Присутствие</AG_Presence.label>
+	<!--            EN: blood type -->
+	<AG_BloodType.label>Тип крови</AG_BloodType.label>
+	<!--            EN: vomit type -->
+	<AG_VomitType.label>Тип рвоты</AG_VomitType.label>
+	<!--           EN: meat type -->
+	<AG_MeatType.label>Вид мяса</AG_MeatType.label>
+	<!--              EN: leather type -->
+	<AG_LeatherType.label>Тип кожи</AG_LeatherType.label>
+	<!--                 EN: animal affinity -->
+	<AG_AnimalAffinity.label>Сходство с животными</AG_AnimalAffinity.label>
+	<!--                EN: animal summoning -->
+	<AG_AnimalSummons.label>Призыв животного</AG_AnimalSummons.label>
+	<!--              EN: teratogenic -->
+	<AG_Teratogenic.label>Тератогенный</AG_Teratogenic.label>
+	<!--           EN: metallic -->
+	<AG_Metallic.label>Металлик</AG_Metallic.label>
+	<!--                 EN: cosmetic - horns, tusks, antennae -->
+	<AG_Cosmetic_Horns.label>Косметические - рога, бивни, усики</AG_Cosmetic_Horns.label>
+	<!--                 EN: cosmetic - heads -->
+	<AG_Cosmetic_Heads.label>Косметические - головы</AG_Cosmetic_Heads.label>
+	<!--                  EN: cosmetic - bodies -->
+	<AG_Cosmetic_Bodies.label>Косметические - тела</AG_Cosmetic_Bodies.label>
+	<!--        EN: functional wings -->
+	<AG_Wings.label>Функциональные крылья</AG_Wings.label>
+	<!--                 EN: cosmetic - tails -->
+	<AG_Cosmetic_Tails.label>Косметические - хвосты</AG_Cosmetic_Tails.label>
+	<!--                EN: cosmetic - ears -->
+	<AG_Cosmetic_Ears.label>Косметические - уши</AG_Cosmetic_Ears.label>
+	<!--                  EN: food consumption -->
+	<AG_FoodConsumption.label>Потребление пищи</AG_FoodConsumption.label>
+	<!--         EN: natural armour -->
+	<AG_Armour.label>Естественная броня</AG_Armour.label>
+	<!--             EN: mechanitor -->
+	<AG_Mechanitor.label>механитор</AG_Mechanitor.label>
+	<!--                   EN: aptitudes - miscellaneous -->
+	<AG_AptitudeModifier.label>способности — разные</AG_AptitudeModifier.label>
+	<!--                     EN: insectoid mutations -->
+	<AG_InsectoidMutations.label>инсектоидные мутации</AG_InsectoidMutations.label>
+</LanguageData>

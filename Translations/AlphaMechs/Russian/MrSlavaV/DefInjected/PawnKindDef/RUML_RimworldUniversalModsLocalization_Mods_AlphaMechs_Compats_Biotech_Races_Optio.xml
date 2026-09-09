@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Optio.xml -->
+	<!--             EN: optio -->
+	<AM_Mech_Optio.label>Оптио</AM_Mech_Optio.label>
+	<!--                                EN: Plural optio -->
+	<AM_Mech_Optio.lifeStages.1.labelPlural>Оптионы</AM_Mech_Optio.lifeStages.1.labelPlural>
+<AM_Mech_Optio.lifeStages.0.labelPlural>Оптионы</AM_Mech_Optio.lifeStages.0.labelPlural></LanguageData>

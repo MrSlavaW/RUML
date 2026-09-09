@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RS.SeparateGene>Отделить ген</RS.SeparateGene>
+  <RS.SeparateGeneDesc>Выберите генпак, из которого необходимо изолировать отдельный ген.</RS.SeparateGeneDesc>
+  <RS.SeparatingGenes>Отделение генов</RS.SeparatingGenes>
+</LanguageData>

@@ -1,0 +1,81 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Races\Races_Animal_Special_Ideology.xml -->
+	<!--                       EN: левый коготь -->
+	<AM_Dryad_Ocular.tools.0.label>левый коготь</AM_Dryad_Ocular.tools.0.label>
+	<!--                                 EN: claw -->
+	<AM_Dryad_Ocular.tools.0.labelNoLocation>коготь</AM_Dryad_Ocular.tools.0.labelNoLocation>
+	<!--                       EN: правый коготь -->
+	<AM_Dryad_Ocular.tools.1.label>правый коготь</AM_Dryad_Ocular.tools.1.label>
+	<!--                                 EN: claw -->
+	<AM_Dryad_Ocular.tools.1.labelNoLocation>коготь</AM_Dryad_Ocular.tools.1.labelNoLocation>
+	<!--                       EN: голова -->
+	<AM_Dryad_Ocular.tools.3.label>голова</AM_Dryad_Ocular.tools.3.label>
+	<!--               EN: ocular dryad -->
+	<AM_Dryad_Ocular.label>глазная дриада</AM_Dryad_Ocular.label>
+	<!--                     EN: A corrupted dryad afflicted by a bizarre extradimensional disease that causes gaping wounds to appear all over its body, from which ocular orbs slowly emerge. Ocular dryads can be further mutated into grotesque beasts by an Ocular Priest.\n\nIn general, dryads are mammal-like creatures that have a symbiotic relationship with the Gauranlen tree. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes. -->
+	<AM_Dryad_Ocular.description>Испорченная дриада, пораженная странной внепространственной болезнью, из-за которой по всему телу появляются зияющие раны, из которых медленно выходят глазные орбы. Окулярные дриады могут быть превращены в гротескных чудовищ Окулярным жрецом.\n\nВ целом, дриады - млекопитающие существа, которые находятся в симбиотической связи с деревом Гауранлен. Они размножаются вместе со своим деревом, в котором скрыта королева дриад. Дриады могут превращаться в различные специализированные касты.</AM_Dryad_Ocular.description>
+	
+	<!--                        EN: левый коготь -->
+	<AM_Dryad_Spitter.tools.0.label>левый коготь</AM_Dryad_Spitter.tools.0.label>
+	<!--                                  EN: claw -->
+	<AM_Dryad_Spitter.tools.0.labelNoLocation>коготь</AM_Dryad_Spitter.tools.0.labelNoLocation>
+	<!--                        EN: правый коготь -->
+	<AM_Dryad_Spitter.tools.1.label>правый коготь</AM_Dryad_Spitter.tools.1.label>
+	<!--                                  EN: claw -->
+	<AM_Dryad_Spitter.tools.1.labelNoLocation>коготь</AM_Dryad_Spitter.tools.1.labelNoLocation>
+	<!--                        EN: голова -->
+	<AM_Dryad_Spitter.tools.3.label>голова</AM_Dryad_Spitter.tools.3.label>
+	<!--                EN: spitter dryad -->
+	<AM_Dryad_Spitter.label>дриада-плевательница</AM_Dryad_Spitter.label>
+	<!--                      EN: A dryad caste specialized in venomous ranged attacks. Their ranged attacks can be commanded directly, or ordered to attack on their own by their trainer.\n\nIn general, dryads are mammal-like creatures that have a symbiotic relationship with the Gauranlen tree. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes. -->
+	<AM_Dryad_Spitter.description>Каста дриад специализируется на ядовитых атаках. Дриадами можно командовать напрямую или приказать им атаковать самостоятельно.\n\nВ целом, дриады - млекопитающие существа, которые находятся в симбиотических отношениях с деревом Гауранлен. Они размножаются вместе со своим деревом, в котором скрыта королева дриад. Дриады могут превращаться в различные специализированные касты.</AM_Dryad_Spitter.description>
+	<!--                        EN: venomous spit -->
+	<AM_Dryad_Spitter.verbs.0.label>ядовитая слюна</AM_Dryad_Spitter.verbs.0.label>
+	<!--                                 EN: выстрел -->
+	<AM_Dryad_Spitter.verbs.Verb_Shoot.label>выстрел</AM_Dryad_Spitter.verbs.Verb_Shoot.label>
+	
+	<!--                          EN: левый коготь -->
+	<AM_Dryad_Corruptor.tools.0.label>левый коготь</AM_Dryad_Corruptor.tools.0.label>
+	<!--                                    EN: claw -->
+	<AM_Dryad_Corruptor.tools.0.labelNoLocation>коготь</AM_Dryad_Corruptor.tools.0.labelNoLocation>
+	<!--                          EN: правый коготь -->
+	<AM_Dryad_Corruptor.tools.1.label>правый коготь</AM_Dryad_Corruptor.tools.1.label>
+	<!--                                    EN: claw -->
+	<AM_Dryad_Corruptor.tools.1.labelNoLocation>коготь</AM_Dryad_Corruptor.tools.1.labelNoLocation>
+	<!--                          EN: голова -->
+	<AM_Dryad_Corruptor.tools.3.label>голова</AM_Dryad_Corruptor.tools.3.label>
+	<!--                  EN: corruptor dryad -->
+	<AM_Dryad_Corruptor.label>испорченная дриада</AM_Dryad_Corruptor.label>
+	<!--                        EN: A dryad caste with the unique ability to produce corrupted Gauranlen pods and reproduce the Gauranlen tree along with its symbiote, the dryad queen. To do this, three corruptor dryads must slowly merge.\n\nIn general, dryads are mammal-like creatures that have a symbiotic relationship with the Gauranlen tree. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes. -->
+	<AM_Dryad_Corruptor.description>Каста дриад, обладающая уникальной способностью производить испорченные стручки Гауранлена и воспроизводить дерево Гауранлен вместе с его симбионтом, королевой дриад. Для этого три дриады-коррупционера должны медленно объединиться.\n\nВ целом, дриады - это млекопитающие существа, которые находятся в симбиотической связи с деревом Гауранлен. Они размножаются вместе со своим деревом, в котором скрыта королева дриад. Дриады могут превращаться в различные специализированные касты.</AM_Dryad_Corruptor.description>
+	
+	<!--                         EN: левый коготь -->
+	<AM_Dryad_Unstable.tools.0.label>левый коготь</AM_Dryad_Unstable.tools.0.label>
+	<!--                                   EN: claw -->
+	<AM_Dryad_Unstable.tools.0.labelNoLocation>коготь</AM_Dryad_Unstable.tools.0.labelNoLocation>
+	<!--                         EN: правый коготь -->
+	<AM_Dryad_Unstable.tools.1.label>правый коготь</AM_Dryad_Unstable.tools.1.label>
+	<!--                                   EN: claw -->
+	<AM_Dryad_Unstable.tools.1.labelNoLocation>коготь</AM_Dryad_Unstable.tools.1.labelNoLocation>
+	<!--                         EN: голова -->
+	<AM_Dryad_Unstable.tools.3.label>голова</AM_Dryad_Unstable.tools.3.label>
+	<!--                 EN: unstable dryad -->
+	<AM_Dryad_Unstable.label>нестабильная дриада</AM_Dryad_Unstable.label>
+	<!--                       EN: A dangerous dryad caste that will explode with acid when dead. They can be commanded to explode... for the good of the tree.\n\nIn general, dryads are mammal-like creatures that have a symbiotic relationship with the Gauranlen tree. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes. -->
+	<AM_Dryad_Unstable.description>Опасная каста дриад, которые после смерти взрываются кислотой. Им можно приказать взорваться... на благо дерева.\n\nВ общем, дриады - это млекопитающие существа, которые находятся в симбиотических отношениях с деревом Гауранлен. Они размножаются вместе со своим деревом, в котором скрыта королева дриад. Дриады могут превращаться в различные специализированные касты.</AM_Dryad_Unstable.description>
+	
+	<!--                         EN: левый коготь -->
+	<AM_Dryad_Tumorous.tools.0.label>левый коготь</AM_Dryad_Tumorous.tools.0.label>
+	<!--                                   EN: claw -->
+	<AM_Dryad_Tumorous.tools.0.labelNoLocation>коготь</AM_Dryad_Tumorous.tools.0.labelNoLocation>
+	<!--                         EN: правый коготь -->
+	<AM_Dryad_Tumorous.tools.1.label>правый коготь</AM_Dryad_Tumorous.tools.1.label>
+	<!--                                   EN: claw -->
+	<AM_Dryad_Tumorous.tools.1.labelNoLocation>коготь</AM_Dryad_Tumorous.tools.1.labelNoLocation>
+	<!--                         EN: голова -->
+	<AM_Dryad_Tumorous.tools.3.label>голова</AM_Dryad_Tumorous.tools.3.label>
+	<!--                 EN: tumorous dryad -->
+	<AM_Dryad_Tumorous.label>опухлевая дриада</AM_Dryad_Tumorous.label>
+	<!--                       EN: A corrupted dryad covered in tumorous growths that constantly appear over its whole body. These growths are edible, and can be used as a meat substitute of... questionable origins to say the least.\n\nIn general, dryads are mammal-like creatures that have a symbiotic relationship with the Gauranlen tree. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes. -->
+	<AM_Dryad_Tumorous.description>Испорченная дриада, покрытая опухолевидными наростами, которые постоянно появляются по всему телу. Эти наросты съедобны, и их можно использовать в качестве заменителя мяса... мягко говоря, сомнительного происхождения.\n\nВ целом дриады - млекопитающие существа, которые находятся в симбиотических отношениях с деревом Гауранлен. Они размножаются вместе со своим деревом, в котором скрыта королева дриад. Дриады могут превращаться в различные специализированные касты.</AM_Dryad_Tumorous.description>
+</LanguageData>

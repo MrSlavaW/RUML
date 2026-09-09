@@ -1,0 +1,21 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\OcularWarping\Ritual_Behaviors_OcularWarping.xml -->
+<!--                        EN: ocular priest -->
+    <AM_OcularWarping.roles.0.label>окулярный жрец</AM_OcularWarping.roles.0.label>
+    <!--                        EN: sacrifice -->
+    <AM_OcularWarping.roles.1.label>жертва</AM_OcularWarping.roles.1.label>
+    <!--                              EN: a tamed animal, the bigger the better -->
+    <AM_OcularWarping.roles.1.missingDesc>приручённое животное, чем больше, тем лучше</AM_OcularWarping.roles.1.missingDesc>
+    <!--                        EN: channel -->
+    <AM_OcularWarping.roles.2.label>проводник</AM_OcularWarping.roles.2.label>
+    <!--                              EN: an ocular dryad from a corrupted gauranlen tree -->
+    <AM_OcularWarping.roles.2.missingDesc>окулярная дриада из осквернённого дерева гауранлен</AM_OcularWarping.roles.2.missingDesc>
+    <!--                          EN: Participants -->
+    <AM_OcularWarping.spectatorsLabel>Участники</AM_OcularWarping.spectatorsLabel>
+    <!--                          EN: participate -->
+    <AM_OcularWarping.spectatorGerund>участвовать</AM_OcularWarping.spectatorGerund>
+    <!--                                       EN: Animal is not reachable. -->
+    <AM_OcularWarping.stages.0.failTriggers.0.desc>Животное недоступно.</AM_OcularWarping.stages.0.failTriggers.0.desc>
+    <!--                                       EN: Dryad is not reachable. -->
+    <AM_OcularWarping.stages.1.failTriggers.0.desc>Дриада недоступна.</AM_OcularWarping.stages.1.failTriggers.0.desc>
+</LanguageData>

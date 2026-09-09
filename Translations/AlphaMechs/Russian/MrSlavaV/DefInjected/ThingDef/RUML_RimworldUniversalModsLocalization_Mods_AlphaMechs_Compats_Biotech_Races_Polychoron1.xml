@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Polychoron.xml -->
+	<!--                  EN: polychoron -->
+	<AM_Mech_Polychoron.label>полихорон</AM_Mech_Polychoron.label>
+	<!--                        EN: A heavy combat mechanoid with a graser cannon that can deal massive damage to armored targets. Though it lacks agility, its graser cannon is capable of firing focused energy beams that can cut through most shielding and leave enemies defenseless. -->
+	<AM_Mech_Polychoron.description>Тяжёлый боевой механоид с грейзерной пушкой, способной наносить огромный урон бронированным целям. Он не отличается манёвренностью, зато его оружие выпускает сфокусированные энергетические лучи, которые пробивают большую часть щитов и оставляют врагов без защиты.</AM_Mech_Polychoron.description>
+</LanguageData>

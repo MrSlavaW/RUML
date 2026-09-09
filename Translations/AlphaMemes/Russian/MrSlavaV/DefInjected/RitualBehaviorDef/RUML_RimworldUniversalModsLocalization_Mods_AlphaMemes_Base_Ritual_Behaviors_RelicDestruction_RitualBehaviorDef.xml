@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\RelicDestruction\Ritual_Behaviors_RelicDestruction.xml -->
+	<!--                                   EN: speaker -->
+	<AM_RelicDestructionBehavior.roles.0.label>оратор</AM_RelicDestructionBehavior.roles.0.label>
+	<!--                                     EN: Participants -->
+	<AM_RelicDestructionBehavior.spectatorsLabel>Участники</AM_RelicDestructionBehavior.spectatorsLabel>
+	<!--                                     EN: participate -->
+	<AM_RelicDestructionBehavior.spectatorGerund>Участники</AM_RelicDestructionBehavior.spectatorGerund>
+</LanguageData>

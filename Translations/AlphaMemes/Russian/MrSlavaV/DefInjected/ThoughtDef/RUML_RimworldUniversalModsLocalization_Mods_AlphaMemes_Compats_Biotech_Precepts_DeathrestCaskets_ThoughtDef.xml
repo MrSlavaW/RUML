@@ -1,0 +1,8 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\PreceptDefs\Precepts_DeathrestCaskets.xml -->
+	
+	<!--                                      EN: deathrest casket nearby -->
+	<AM_DeathrestCaskets_Abhorrent.stages.0.label>гроб для торпора рядом</AM_DeathrestCaskets_Abhorrent.stages.0.label>
+	<!--                                            EN: We have a deathrest casket in the colony. This is blasphemy, it should be dismantled as soon as possible. -->
+	<AM_DeathrestCaskets_Abhorrent.stages.0.description>У нас в поселении есть гроб для торпора. Это кощунство, его нужно разобрать как можно скорее.</AM_DeathrestCaskets_Abhorrent.stages.0.description>
+</LanguageData>

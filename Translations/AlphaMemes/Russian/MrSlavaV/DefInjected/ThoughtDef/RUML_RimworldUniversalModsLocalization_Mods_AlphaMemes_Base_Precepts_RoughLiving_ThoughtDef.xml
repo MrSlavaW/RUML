@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_RoughLiving.xml -->
+	<!--                                                 EN: slept in wooden bed -->
+	<AM_RoughLiving_Disliked_SleptInWoodenBed.stages.0.label>спал в деревянной кровати</AM_RoughLiving_Disliked_SleptInWoodenBed.stages.0.label>
+	<!--                                                       EN: There's something deeply satisfying about resting on the remains of felled trees. A proper victory over nature. -->
+	<AM_RoughLiving_Disliked_SleptInWoodenBed.stages.0.description>Вот что действительно удовлетворяет — отдыхать на остатках срубленных деревьев. Настоящая победа над природой.</AM_RoughLiving_Disliked_SleptInWoodenBed.stages.0.description>
+	<!--                                                 EN: ate in wooden table -->
+	<AM_RoughLiving_Disliked_AteInWoodenTable.stages.0.label>ел за деревянным столом</AM_RoughLiving_Disliked_AteInWoodenTable.stages.0.label>
+	<!--                                                       EN: Dining on a table crafted from fallen trees fills me with pride. A symbol of our dominance over the wild. -->
+	<AM_RoughLiving_Disliked_AteInWoodenTable.stages.0.description>Есть за столом, сделанным из упавших деревьев, наполняет меня гордостью. Символ нашего господства над дикой природой.</AM_RoughLiving_Disliked_AteInWoodenTable.stages.0.description>
+	<!--                                                 EN: ate without table -->
+	<AM_RoughLiving_Disliked_AteWithoutATable.stages.0.label>ел без стола</AM_RoughLiving_Disliked_AteWithoutATable.stages.0.label>
+	<!--                                                       EN: I had to eat a meal off the filthy ground like a wild animal. This is beneath even the barest standards of decency! -->
+	<AM_RoughLiving_Disliked_AteWithoutATable.stages.0.description>Мне пришлось есть прямо с грязной земли, как дикому животному. Это ниже всяких норм приличия!</AM_RoughLiving_Disliked_AteWithoutATable.stages.0.description>
+</LanguageData>

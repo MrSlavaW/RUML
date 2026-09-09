@@ -1,0 +1,7 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Starfire.xml -->
+	<!--           EN: starfire -->
+	<AM_Starfire.label>старфайр</AM_Starfire.label>
+	<!--                              EN: Plural starfire -->
+	<AM_Starfire.lifeStages.1.labelPlural>старфайры</AM_Starfire.lifeStages.1.labelPlural>
+<AM_Starfire.lifeStages.0.labelPlural>старфайры</AM_Starfire.lifeStages.0.labelPlural></LanguageData>

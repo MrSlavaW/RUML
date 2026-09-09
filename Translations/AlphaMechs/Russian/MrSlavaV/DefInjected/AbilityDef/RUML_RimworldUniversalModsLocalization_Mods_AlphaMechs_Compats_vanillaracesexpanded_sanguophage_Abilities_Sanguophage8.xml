@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\vanillaracesexpanded_sanguophage\Abilities_Sanguophage8.xml -->
+	<!--                 EN: extract hemogen -->
+	<AM_ExtractHemogen.label>извлекать гемоген</AM_ExtractHemogen.label>
+	<!--                       EN: Extract hemogen directly from the blood of a downed person. The target will lose blood and get knocked down. A fast-acting coagulant will seal the wound to prevent bleeding. -->
+	<AM_ExtractHemogen.description>Извлеките гемоген непосредственно из крови сбитого человека. Цель потеряет кровь и будет сбита с ног. Быстродействующий коагулянт запечатает рану и предотвратит кровотечение.</AM_ExtractHemogen.description>
+</LanguageData>

@@ -1,0 +1,127 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\GeneDefs\GeneDefs_Shambler_Anomaly.xml -->
+	<!--                         EN: lightning fast shambler -->
+	<AG_Shambler_LightningFast.label>молниеносный шамблер</AG_Shambler_LightningFast.label>
+	<!--                               EN: Shamblers carrying this gene will move with great speed. -->
+	<AG_Shambler_LightningFast.description>Шамблеры с этим геном передвигаются с огромной скоростью.</AG_Shambler_LightningFast.description>
+	<!--                                              EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_LightningFast.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_LightningFast.customEffectDescriptions.0>
+	<!--                    EN: timeless shambler -->
+	<AG_Shambler_Timeless.label>вневременной шамблер</AG_Shambler_Timeless.label>
+	<!--                          EN: Shamblers carrying this gene will last much longer than 4-5 days. -->
+	<AG_Shambler_Timeless.description>Шамблеры с этим геном существуют значительно дольше обычных 4-5 дней.</AG_Shambler_Timeless.description>
+	<!--                                         EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_Timeless.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_Timeless.customEffectDescriptions.0>
+	<!--                                         EN: Time before shambler is destroyed is multiplied by 5, though the counter won't reflect it. -->
+	<AG_Shambler_Timeless.customEffectDescriptions.1>Время до разрушения шамблера увеличено в 5 раз, хотя счётчик этого не показывает.</AG_Shambler_Timeless.customEffectDescriptions.1>
+	<!--                 EN: toxic shambler -->
+	<AG_Shambler_Toxic.label>токсичный шамблер</AG_Shambler_Toxic.label>
+	<!--                       EN: Shamblers carrying this gene will periodically exhale clouds of tox gas. -->
+	<AG_Shambler_Toxic.description>Такой шамблер время от времени выпускает из пасти облака токсгаза.</AG_Shambler_Toxic.description>
+	<!--                                      EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_Toxic.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_Toxic.customEffectDescriptions.0>
+	<!--                   EN: stinker shambler -->
+	<AG_Shambler_Stinker.label>зловонный шамблер</AG_Shambler_Stinker.label>
+	<!--                         EN: Shamblers carrying this gene will periodically exhale clouds of rot stink. Nasty! -->
+	<AG_Shambler_Stinker.description>Шамблеры с этим геном периодически выдыхают облака трупной вони. Отвратительно!</AG_Shambler_Stinker.description>
+	<!--                                        EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_Stinker.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_Stinker.customEffectDescriptions.0>
+	<!--                           EN: deadlife belcher shambler -->
+	<AG_Shambler_DeadlifeBelcher.label>шамблер, изрыгающий пыль мёртвой жизни</AG_Shambler_DeadlifeBelcher.label>
+	<!--                                 EN: Shamblers carrying this gene will periodically exhale clouds of deadlife dust that will raise nearby corpses as shamblers. -->
+	<AG_Shambler_DeadlifeBelcher.description>Шамблеры с этим геном периодически выдыхают облака пыли мёртвой жизни, которая поднимает ближайшие трупы в виде шамблеров.</AG_Shambler_DeadlifeBelcher.description>
+	<!--                                                EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_DeadlifeBelcher.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_DeadlifeBelcher.customEffectDescriptions.0>
+	<!--                    EN: polluter shambler -->
+	<AG_Shambler_Polluter.label>загрязняющий шамблер</AG_Shambler_Polluter.label>
+	<!--                          EN: Shamblers carrying this gene will constantly pollute the surrounding terrain, eventually turning the landscape into a desolate wasteland. -->
+	<AG_Shambler_Polluter.description>Шамблеры с таким геном непрерывно отравляют почву вокруг себя и со временем обращают местность в мёртвую пустошь.</AG_Shambler_Polluter.description>
+	<!--                                         EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_Polluter.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_Polluter.customEffectDescriptions.0>
+	<!--                          EN: photosynthetic shambler -->
+	<AG_Shambler_Photosynthetic.label>фотосинтетический шамблер</AG_Shambler_Photosynthetic.label>
+	<!--                                EN: Shamblers carrying this gene will be strengthened by sunlight. -->
+	<AG_Shambler_Photosynthetic.description>Шамблеры с этим геном становятся сильнее под солнечным светом.</AG_Shambler_Photosynthetic.description>
+	<!--                                               EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_Photosynthetic.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_Photosynthetic.customEffectDescriptions.0>
+	<!--                                               EN: A random limb wound is reduced by 10 severity every half hour, as long as the shambler is in sunlight. -->
+	<AG_Shambler_Photosynthetic.customEffectDescriptions.1>Случайная рана на конечности уменьшается на 10 единиц каждые полчаса, пока шамблер находится на солнце.</AG_Shambler_Photosynthetic.customEffectDescriptions.1>
+	<!--                    EN: armoured shambler -->
+	<AG_Shambler_Armoured.label>бронированный шамблер</AG_Shambler_Armoured.label>
+	<!--                          EN: Shamblers carrying this gene will be stronger and bigger than usual. -->
+	<AG_Shambler_Armoured.description>Шамблеры с этим геном сильнее и крупнее обычных.</AG_Shambler_Armoured.description>
+	<!--                                         EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_Armoured.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_Armoured.customEffectDescriptions.0>
+	<!--                   EN: plagued shambler -->
+	<AG_Shambler_Plagued.label>чумной шамблер</AG_Shambler_Plagued.label>
+	<!--                         EN: Shamblers carrying this gene will infect their victims with a shambler plague that will turn them into shamblers upon death. -->
+	<AG_Shambler_Plagued.description>Шамблеры с этим геном заражают жертв чумой шамблеров, которая превращает их в шамблеров после смерти.</AG_Shambler_Plagued.description>
+	<!--                                        EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_Plagued.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_Plagued.customEffectDescriptions.0>
+	<!--                  EN: acid shambler -->
+	<AG_Shambler_Acidic.label>кислотный шамблер</AG_Shambler_Acidic.label>
+	<!--                        EN: Shamblers carrying this gene are extremely acidic and will bleed acid, explode in an acid burst when destroyed and attack with their acid fangs. -->
+	<AG_Shambler_Acidic.description>Шамблеры с этим геном крайне едки: они истекают кислотой, взрываются кислотным облаком при уничтожении и атакуют кислотными клыками.</AG_Shambler_Acidic.description>
+	<!--                                       EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_Acidic.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_Acidic.customEffectDescriptions.0>
+	<!--                     EN: exploding shambler -->
+	<AG_Shambler_Exploding.label>взрывающийся шамблер</AG_Shambler_Exploding.label>
+	<!--                           EN: Shamblers carrying this gene have chemfuel nodules on their body and will explode when destroyed. -->
+	<AG_Shambler_Exploding.description>Шамблеры с этим геном обладают узлами химтоплива на теле и взрываются при уничтожении.</AG_Shambler_Exploding.description>
+	<!--                                          EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_Exploding.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_Exploding.customEffectDescriptions.0>
+	<!--                    EN: rotting shambler -->
+	<AG_Shambler_Delicate.label>гниющий шамблер</AG_Shambler_Delicate.label>
+	<!--                          EN: Shamblers carrying this gene are more decayed than usual, receiving more incoming damage. -->
+	<AG_Shambler_Delicate.description>Шамблеры с этим геном разложились сильнее обычного и получают больше урона.</AG_Shambler_Delicate.description>
+	<!--                                         EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_Delicate.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_Delicate.customEffectDescriptions.0>
+	<!--                 EN: tough shambler -->
+	<AG_Shambler_Tough.label>крепкий шамблер</AG_Shambler_Tough.label>
+	<!--                       EN: Shamblers carrying this gene are more resilient than usual, receiving less incoming damage. -->
+	<AG_Shambler_Tough.description>Шамблеры с этим геном более стойкие и получают меньше урона.</AG_Shambler_Tough.description>
+	<!--                                      EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_Tough.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_Tough.customEffectDescriptions.0>
+	<!--                      EN: tinderskin shambler -->
+	<AG_Shambler_Tinderskin.label>горючий шамблер</AG_Shambler_Tinderskin.label>
+	<!--                            EN: Shamblers carrying this gene are more flammable than usual. -->
+	<AG_Shambler_Tinderskin.description>Из-за этого гена шамблеры вспыхивают куда легче обычного.</AG_Shambler_Tinderskin.description>
+	<!--                                           EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_Tinderskin.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_Tinderskin.customEffectDescriptions.0>
+	<!--                     EN: aggressive shambler -->
+	<AG_Shambler_HighMelee.label>агрессивный шамблер</AG_Shambler_HighMelee.label>
+	<!--                           EN: Shamblers carrying this gene are more aggressive than usual, causing more damage in melee combat. -->
+	<AG_Shambler_HighMelee.description>Шамблеры с этим геном агрессивнее обычных и наносят больше урона в ближнем бою.</AG_Shambler_HighMelee.description>
+	<!--                                          EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_HighMelee.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_HighMelee.customEffectDescriptions.0>
+	<!--                    EN: weak shambler -->
+	<AG_Shambler_LowMelee.label>слабый шамблер</AG_Shambler_LowMelee.label>
+	<!--                          EN: Shamblers carrying this gene are weaker than usual, causing less damage in melee combat. -->
+	<AG_Shambler_LowMelee.description>Этот ген делает шамблеров менее опасными в рукопашной: их удары слабее обычного.</AG_Shambler_LowMelee.description>
+	<!--                                         EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_LowMelee.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_LowMelee.customEffectDescriptions.0>
+	<!--                       EN: UV sensitive shambler -->
+	<AG_Shambler_UVSensitive.label>УФ-чувствительный шамблер</AG_Shambler_UVSensitive.label>
+	<!--                             EN: Shamblers carrying this gene are affected by sunlight, making them enter a state of torpor. -->
+	<AG_Shambler_UVSensitive.description>Шамблеры с этим геном страдают от солнечного света и впадают в оцепенение.</AG_Shambler_UVSensitive.description>
+	<!--                                            EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_UVSensitive.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_UVSensitive.customEffectDescriptions.0>
+	<!--                      EN: venomous shambler -->
+	<AG_Shambler_VenomFangs.label>ядовитый шамблер</AG_Shambler_VenomFangs.label>
+	<!--                            EN: Shamblers carrying this gene have venomous fangs they'll use in melee combat. -->
+	<AG_Shambler_VenomFangs.description>Шамблеры с этим геном обладают ядовитыми клыками и используют их в ближнем бою.</AG_Shambler_VenomFangs.description>
+	<!--                                           EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_VenomFangs.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_VenomFangs.customEffectDescriptions.0>
+	<!--                     EN: gaunt shambler -->
+	<AG_Shambler_VeryGaunt.label>измождённый шамблер</AG_Shambler_VeryGaunt.label>
+	<!--                           EN: Shamblers carrying this gene have a very gaunt and rotten appearance. -->
+	<AG_Shambler_VeryGaunt.description>С таким геном шамблер приобретает особенно иссохший и прогнивший вид.</AG_Shambler_VeryGaunt.description>
+	<!--                                          EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_VeryGaunt.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_VeryGaunt.customEffectDescriptions.0>
+	<!--                  EN: spiked shambler -->
+	<AG_Shambler_Spiked.label>шипастый шамблер</AG_Shambler_Spiked.label>
+	<!--                        EN: Shamblers carrying this gene have a ranged spike attack similar to the Gorehulk. -->
+	<AG_Shambler_Spiked.description>Шамблеры с этим геном обладают дальнобойной атакой шипами.</AG_Shambler_Spiked.description>
+	<!--                                       EN: This gene will only be active if the carrier is a shambler. -->
+	<AG_Shambler_Spiked.customEffectDescriptions.0>Этот ген активен только у шамблеров.</AG_Shambler_Spiked.customEffectDescriptions.0>
+</LanguageData>

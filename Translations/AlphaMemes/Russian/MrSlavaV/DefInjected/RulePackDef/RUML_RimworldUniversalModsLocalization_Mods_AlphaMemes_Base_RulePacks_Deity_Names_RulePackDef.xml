@@ -1,0 +1,75 @@
+<LanguageData>
+	<!-- 1.6\Defs\RulePackDefs\RulePacks_Deity_Names.xml -->
+	<!-- EN: 
+		<li>r_deityName(p=3)->Yahweh</li>
+		<li>r_deityName->Elohim</li>
+		<li>r_deityName->YHWH</li>
+		<li>r_deityName->El</li>
+		<li>r_deityName->Eloah</li>
+		<li>r_deityName->Shaddai</li>
+		<li>r_deityName->Ehyeh</li>
+		<li>r_deityName->Tzevaot</li>
+	 -->
+	<AM_NamerDeityJewish.rulePack.rulesStrings>
+				<li>r_deityName(p=3)-&gt;Яхве</li>
+				<li>r_deityName-&gt;Элохим</li>
+				<li>r_deityName-&gt;Тетраграмматон</li>
+				<li>r_deityName-&gt;Эль</li>
+				<li>r_deityName-&gt;Элоах</li>
+				<li>r_deityName-&gt;Шаддай</li>
+				<li>r_deityName-&gt;Эйех</li>
+				<li>r_deityName-&gt;Цеваот</li>
+</AM_NamerDeityJewish.rulePack.rulesStrings>
+
+<!-- EN: 
+		<li>r_deityName->Akal Purakh</li>
+		<li>r_deityName->Ek Onkar</li>
+		<li>r_deityName->Satnam</li>
+		<li>r_deityName->Waheguru</li>
+		<li>r_deityName->Bhao Khandan</li>
+		<li>r_deityName->Dukh Bhanjno</li>
+		<li>r_deityName->Bhagat Vachhal</li>
+		<li>r_deityName->Hari</li>
+		<li>r_deityName->Govinda</li>
+		<li>r_deityName->Bhagavan</li>
+		<li>r_deityName->Rabh</li>
+		<li>r_deityName->Uppar Valah</li>
+	 -->
+	<AM_NamerDeitySikh.rulePack.rulesStrings>
+		<li>r_deityName-&gt;Акал Пурах</li>
+		<li>r_deityName-&gt;Эк Онкар</li>
+		<li>r_deityName-&gt;Сатнам</li>
+		<li>r_deityName-&gt;Вахегуру</li>
+		<li>r_deityName-&gt;Бхао Хандан</li>
+		<li>r_deityName-&gt;Дух Бханджно</li>
+		<li>r_deityName-&gt;Бхагат Вачхал</li>
+		<li>r_deityName-&gt;Хари</li>
+		<li>r_deityName-&gt;Говинда</li>
+		<li>r_deityName-&gt;Багаван</li>
+		<li>r_deityName-&gt;Рабх</li>
+		<li>r_deityName-&gt;Уппар Валах</li>
+</AM_NamerDeitySikh.rulePack.rulesStrings>
+<!-- EN: 
+		<li>r_deityType->Timeless Primal Being</li>
+		<li>r_deityType->One Creator</li>
+		<li>r_deityType->True Name</li>
+		<li>r_deityType->Wonderful Teacher</li>
+		<li>r_deityType->Destroyer of Fear</li>
+		<li>r_deityType->Dispeller of Pain</li>
+		<li>r_deityType->Lover of His Saints</li>
+		<li>r_deityType->Preserver of the World</li>
+		<li>r_deityType->Supreme being</li>
+	 -->
+	<AM_DeityTypeMakerSikh.rulePack.rulesStrings>
+		<li>r_deityType-&gt;Вневременное Первобытное Существо</li>
+		<li>r_deityType-&gt;Единственный Создатель</li>
+		<li>r_deityType-&gt;Истинное Имя</li>
+		<li>r_deityType-&gt;Замечательный учитель</li>
+		<li>r_deityType-&gt;Разрушитель страха</li>
+		<li>r_deityType-&gt;Рассеиватель боли</li>
+		<li>r_deityType-&gt;Любитель своих святых</li>
+		<li>r_deityType-&gt;Хранитель мира</li>
+		<li>r_deityType-&gt;Высшее существо</li>
+</AM_DeityTypeMakerSikh.rulePack.rulesStrings>
+
+</LanguageData>

@@ -1,0 +1,27 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Voices.xml -->
+	<!--            EN: slug voice -->
+	<AG_SlugVoice.label>Голос слизняка</AG_SlugVoice.label>
+	<!--                  EN: Carriers have a gurgling, squishing voice. -->
+	<AG_SlugVoice.description>У носителей булькающий, хлюпающий голос.</AG_SlugVoice.description>
+	<!--            EN: rock voice -->
+	<AG_RockVoice.label>Рок-голос</AG_RockVoice.label>
+	<!--                  EN: Carriers have a rumbling, metallic voice that sounds like two stones scratching against each other. -->
+	<AG_RockVoice.description>У носителей грохочущий металлический голос, который звучит так, словно два камня скребутся друг о друга.</AG_RockVoice.description>
+	<!--            EN: frog voice -->
+	<AG_FrogVoice.label>Лягушачий голос</AG_FrogVoice.label>
+	<!--                  EN: Carriers have a croaking voice similar to that of a frog. -->
+	<AG_FrogVoice.description>У носителей квакающий голос, похожий на лягушачий.</AG_FrogVoice.description>
+	<!--                EN: guttural voice -->
+	<AG_GutturalVoice.label>Гортанный голос</AG_GutturalVoice.label>
+	<!--                      EN: Carriers have a guttural, harsh voice produced mostly on the throat. -->
+	<AG_GutturalVoice.description>Носители имеют гортанный, резкий голос, производимый в основном на горле.</AG_GutturalVoice.description>
+	<!--                EN: growling voice -->
+	<AG_GrowlingVoice.label>Рычащий голос</AG_GrowlingVoice.label>
+	<!--                      EN: Carriers have a growling and snarling voice with fearsome animalistic undertones. -->
+	<AG_GrowlingVoice.description>У носителей рычащий голос с устрашающими животными оттенками.</AG_GrowlingVoice.description>
+	<!--                EN: hiveling voice -->
+	<AG_HivelingVoice.label>Голос инсектоида</AG_HivelingVoice.label>
+	<!--                      EN: Carriers have high pitched insectoid voices. -->
+	<AG_HivelingVoice.description>У носителей высокие инсектоидные голоса.</AG_HivelingVoice.description>
+</LanguageData>

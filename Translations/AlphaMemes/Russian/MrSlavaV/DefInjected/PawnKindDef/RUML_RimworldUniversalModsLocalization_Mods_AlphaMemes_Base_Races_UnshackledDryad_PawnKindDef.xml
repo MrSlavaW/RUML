@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Races\Races_UnshackledDryad.xml -->
+	<!--                  EN: unshackled dryad -->
+	<AM_UnshackledDryad.label>освобожденная дриада</AM_UnshackledDryad.label>
+	<!--                                     EN: Plural unshackled dryad -->
+	<AM_UnshackledDryad.lifeStages.0.labelPlural>освобожденные дриады</AM_UnshackledDryad.lifeStages.0.labelPlural>
+</LanguageData>

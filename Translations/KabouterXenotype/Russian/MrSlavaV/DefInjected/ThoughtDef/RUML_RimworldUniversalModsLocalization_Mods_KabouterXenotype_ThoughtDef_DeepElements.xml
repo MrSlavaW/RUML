@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GS_Buff.stages.0.label>насмешка над чужаком</GS_Buff.stages.0.label>
+  <GS_Debuff.stages.0.label>осмеян</GS_Debuff.stages.0.label>
+  <GS_DungeonDweller_Thought.stages.0.label>в глубине подземелья</GS_DungeonDweller_Thought.stages.0.label>
+  <GS_DungeonDweller_Thought.stages.1.label>заперт под землей</GS_DungeonDweller_Thought.stages.1.label>
+  <GS_DungeonDweller_Thought.stages.2.label>клаустрофобия</GS_DungeonDweller_Thought.stages.2.label>
+  <GS_DungeonDweller_Thought.stages.3.label>заперт в помещении</GS_DungeonDweller_Thought.stages.3.label>
+  <GS_DungeonDweller_Thought.stages.4.label>вынужден сидеть дома</GS_DungeonDweller_Thought.stages.4.label>
+  <GS_Expectations.stages.0.label>колоссальное богатство</GS_Expectations.stages.0.label>
+  <GS_Expectations.stages.1.label>высокое богатство</GS_Expectations.stages.1.label>
+  <GS_Expectations.stages.2.label>умеренное богатство</GS_Expectations.stages.2.label>
+  <GS_Expectations.stages.3.label>низкое богатство</GS_Expectations.stages.3.label>
+  <GS_Expectations.stages.4.label>очень низкое богатство</GS_Expectations.stages.4.label>
+  <GS_Expectations.stages.5.label>крайняя нищета</GS_Expectations.stages.5.label>
+  <GS_Expectations.stages.6.label>дворянские ожидания</GS_Expectations.stages.6.label>
+  <GS_Expectations.stages.7.label>королевские ожидания</GS_Expectations.stages.7.label>
+  <GS_Expectations.stages.8.label>элитные ожидания</GS_Expectations.stages.8.label>
+  <GS_Expectations.stages.9.label>верховные ожидания</GS_Expectations.stages.9.label>
+  <GS_QuirkyThought.stages.0.label>причуда</GS_QuirkyThought.stages.0.label>
+</LanguageData>

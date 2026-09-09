@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AA_ExcellentFleetDrop.description>Грузовая капсула призывает</AA_ExcellentFleetDrop.description>
+  <AA_ExcellentFleetDrop.label>Вызвать поддержку флота</AA_ExcellentFleetDrop.label>
+  <AA_ExcellentLiskSquad.description>Грузовая капсула призывает</AA_ExcellentLiskSquad.description>
+  <AA_ExcellentLiskSquad.label>Вызвать отряд лисков</AA_ExcellentLiskSquad.label>
+  <AA_GallatrossDrop.description>Cargo pod drops 1 tamed gallatross</AA_GallatrossDrop.description>
+  <AA_GallatrossDrop.label>Сброс галлатросса</AA_GallatrossDrop.label>
+  <AA_GoodFleetDrop.description>Грузовая капсула призывает</AA_GoodFleetDrop.description>
+  <AA_GoodFleetDrop.label>Вызвать поддержку флота</AA_GoodFleetDrop.label>
+  <AA_GoodLiskSquad.description>Грузовая капсула призывает</AA_GoodLiskSquad.description>
+  <AA_GoodLiskSquad.label>Вызвать отряд лисков</AA_GoodLiskSquad.label>
+  <AA_NormalFleetDrop.description>Грузовая капсула призывает</AA_NormalFleetDrop.description>
+  <AA_NormalFleetDrop.label>Вызвать поддержку флота</AA_NormalFleetDrop.label>
+  <AA_NormalLiskSquad.description>Грузовая капсула призывает</AA_NormalLiskSquad.description>
+  <AA_NormalLiskSquad.label>Вызвать отряд лисков</AA_NormalLiskSquad.label>
+</LanguageData>

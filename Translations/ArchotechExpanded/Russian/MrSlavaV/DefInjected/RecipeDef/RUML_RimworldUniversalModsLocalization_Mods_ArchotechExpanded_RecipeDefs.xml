@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<InstallAdvancedArchotechLeg.label>установить продвинутая архонога</InstallAdvancedArchotechLeg.label>
+	<InstallAdvancedArchotechLeg.description>Устанавливает продвинутая архонога.</InstallAdvancedArchotechLeg.description>
+	<InstallAdvancedArchotechArm.label>установить продвинутая архорука</InstallAdvancedArchotechArm.label>
+	<InstallAdvancedArchotechArm.description>Устанавливает продвинутая архорука.</InstallAdvancedArchotechArm.description>
+	<InstallArchotechObliterator.label>установить архотек-аннигилятор</InstallArchotechObliterator.label>
+	<InstallArchotechObliterator.description>Устанавливает архотек-аннигилятор.</InstallArchotechObliterator.description>
+	<InstallArchotechHeart.label>установить архосердце</InstallArchotechHeart.label>
+	<InstallArchotechHeart.description>Устанавливает архосердце.</InstallArchotechHeart.description>
+	<InstallArchotechKidney.label>установить архопочка</InstallArchotechKidney.label>
+	<InstallArchotechKidney.description>Устанавливает архопочка.</InstallArchotechKidney.description>
+	<InstallArchotechLiver.label>установить архопечень</InstallArchotechLiver.label>
+	<InstallArchotechLiver.description>Устанавливает архопечень.</InstallArchotechLiver.description>
+	<InstallArchotechPelvis.label>установить архотаз</InstallArchotechPelvis.label>
+	<InstallArchotechPelvis.description>Устанавливает архотаз.</InstallArchotechPelvis.description>
+	<InstallArchotechSpine.label>установить архопозвоночник</InstallArchotechSpine.label>
+	<InstallArchotechSpine.description>Устанавливает архопозвоночник.</InstallArchotechSpine.description>
+	<InstallArchotechLung.label>установить архолегкое</InstallArchotechLung.label>
+	<InstallArchotechLung.description>Устанавливает архолегкое.</InstallArchotechLung.description>
+	<InstallArchotechStomach.label>установить архожелудок</InstallArchotechStomach.label>
+	<InstallArchotechStomach.description>Устанавливает архожелудок.</InstallArchotechStomach.description>
+	<InstallArchotechDenture.label>установить архозубы</InstallArchotechDenture.label>
+	<InstallArchotechDenture.description>Устанавливает архозубы.</InstallArchotechDenture.description>
+	<InstallArchotechEar.label>установить архоухо</InstallArchotechEar.label>
+	<InstallArchotechEar.description>Устанавливает архоухо.</InstallArchotechEar.description>
+	<InstallArchotechDeathClaw.label>установить архотек-коготь смерти</InstallArchotechDeathClaw.label>
+	<InstallArchotechDeathClaw.description>Устанавливает архотек-коготь смерти.</InstallArchotechDeathClaw.description>
+	<InstallArchotechBrainMelder.label>установить архотек-гармонизатор разума</InstallArchotechBrainMelder.label>
+	<InstallArchotechBrainMelder.description>Устанавливает архотек-гармонизатор разума.</InstallArchotechBrainMelder.description>
+	<InstallArchotechMembrane.label>установить архомембрана</InstallArchotechMembrane.label>
+	<InstallArchotechMembrane.description>Устанавливает архомембрана.</InstallArchotechMembrane.description>
+	<InstallArchotechRegenerationMatrix.label>установить архотек-матрица регенерации</InstallArchotechRegenerationMatrix.label>
+	<InstallArchotechRegenerationMatrix.description>Устанавливает архотек-матрица регенерации.</InstallArchotechRegenerationMatrix.description>
+</LanguageData>

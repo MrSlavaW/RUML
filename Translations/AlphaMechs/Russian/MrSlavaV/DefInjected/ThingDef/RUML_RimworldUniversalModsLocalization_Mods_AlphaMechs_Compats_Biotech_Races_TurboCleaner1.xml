@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_TurboCleaner.xml -->
+	<!--                    EN: turbocleaner -->
+	<AM_Mech_TurboCleaner.label>турбоочиститель</AM_Mech_TurboCleaner.label>
+	<!--                          EN: Basically a cleansweeper mounted on two small gyro-stabilized turbine engines. The turbocleaner hovers over terrain, using a vacuum nozzle to suction dirt and other debris. Absurdly useless in combat.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Hovers over terrain, ignoring terrain movement costs. -->
+	<AM_Mech_TurboCleaner.description>По сути, это очиститель, установленный на двух небольших турбинных двигателях с гиростабилизацией. Турбоочиститель парит над местностью, используя вакуумную насадку для всасывания грязи и другого мусора. Абсолютно бесполезен в бою.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Парит над местностью, игнорируя затраты на перемещение по местности.</AM_Mech_TurboCleaner.description>
+	<!--                            EN: голова -->
+	<AM_Mech_TurboCleaner.tools.0.label>голова</AM_Mech_TurboCleaner.tools.0.label>
+</LanguageData>

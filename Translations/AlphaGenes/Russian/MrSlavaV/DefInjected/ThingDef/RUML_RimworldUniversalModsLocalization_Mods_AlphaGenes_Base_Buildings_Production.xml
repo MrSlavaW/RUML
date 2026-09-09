@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Buildings\Buildings_Production.xml -->
+	<!--                EN: forsaken forge -->
+	<AG_ForsakenForge.label>кузница Отреченных</AG_ForsakenForge.label>
+	<!--                      EN: An electric-powered forge for smithing forsaken weapons and tools. Can only be built by a colonist with the Forsaken Knowledge gene. -->
+	<AG_ForsakenForge.description>Кузница с электрическим приводом для ковки оружия и инструментов Отреченных. Может быть построена только поселенцем с геном «знание Отреченных».</AG_ForsakenForge.description>
+</LanguageData>

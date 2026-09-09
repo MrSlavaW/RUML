@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_CombatProwess.xml -->
+	<!--            EN: used non-ranged attack -->
+	<AM_UsedMelee.label>использована не дальняя атака</AM_UsedMelee.label>
+	<!--             EN: used ranged attack -->
+	<AM_UsedRanged.label>использована дальняя атака</AM_UsedRanged.label>
+</LanguageData>

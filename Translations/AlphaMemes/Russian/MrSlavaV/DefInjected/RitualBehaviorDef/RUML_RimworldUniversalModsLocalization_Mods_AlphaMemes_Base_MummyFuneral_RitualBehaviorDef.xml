@@ -1,0 +1,16 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\MummyFuneral.xml -->
+	
+	<!--                                              EN: Spectators must be alive. -->
+	<AM_MummificationBehavior.spectatorFilter.description>Зрители должны быть живы.</AM_MummificationBehavior.spectatorFilter.description>
+	<!--                                EN: speaker -->
+	<AM_MummificationBehavior.roles.0.label>оратор</AM_MummificationBehavior.roles.0.label>
+	<!--                                EN: Corpse -->
+	<AM_MummificationBehavior.roles.1.label>Труп</AM_MummificationBehavior.roles.1.label>
+	<!--                                EN: crafter -->
+	<AM_MummificationBehavior.roles.2.label>ремесленник</AM_MummificationBehavior.roles.2.label>
+	<!--                                               EN: Selected stuff is not reachable -->
+	<AM_MummificationBehavior.stages.0.failTriggers.0.desc>Выбранный материал недоступен</AM_MummificationBehavior.stages.0.failTriggers.0.desc>
+	<!--                                           EN: {0}: The speech is over, and the embalming is beginning. -->
+	<AM_MummificationBehavior.stages.1.postAction.text>{0}: Речь окончена, начинается бальзамирование.</AM_MummificationBehavior.stages.1.postAction.text>
+</LanguageData>

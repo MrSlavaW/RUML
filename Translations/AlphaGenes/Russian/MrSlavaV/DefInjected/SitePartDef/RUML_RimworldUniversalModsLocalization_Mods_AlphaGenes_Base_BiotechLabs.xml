@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\Sites\BiotechLabs.xml -->
+	<!--                      EN: abandoned biotech lab -->
+	<AG_AbandonedBiotechLab.label>Заброшенная лаборатория</AG_AbandonedBiotechLab.label>
+	<!--                            EN: A recently-discovered abandoned biotech lab. -->
+	<AG_AbandonedBiotechLab.description>заброшенная биотехнологическая лаборатория.</AG_AbandonedBiotechLab.description>
+</LanguageData>

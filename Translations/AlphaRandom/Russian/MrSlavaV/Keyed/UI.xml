@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ARandom_NewManipulator>Инертный манипулятор судьбы превратился в {0}!</ARandom_NewManipulator>
+	<ARandom_IncidentCaused>Манипулятор {0} вызвал событие: {1}!</ARandom_IncidentCaused>
+	<ARandom_BoonSkillsLearned>Архотеки даровали колонисту {0} глубокие познания в области «{1}»!</ARandom_BoonSkillsLearned>
+	<ARandom_BoonInspiration>Архотеки вдохновили колониста {0}!</ARandom_BoonInspiration>
+	<ARandom_BoonHediff>Архотеки благословили колониста {0}!</ARandom_BoonHediff>
+	<ARandom_BoonGene>Архотеки модифицировали геном {0}, внедрив ген «{1}»!</ARandom_BoonGene>
+	<ARandom_BoonTraits>Архотеки полностью перекроили личность колониста {0}!</ARandom_BoonTraits>
+	<ARandom_BoonSight>Архотеки открыли колонисту {0} сверхъестественное зрение! Вся карта открыта.</ARandom_BoonSight>
+	<ARandom_BoonMidasTouch>Архотеки превратили имущество колониста {0} в чистое золото!</ARandom_BoonMidasTouch>
+	<ARandom_BoonCleaningRepairing>Архотеки мгновенно очистили домашнюю зону колонии от грязи и починили поврежденные постройки!</ARandom_BoonCleaningRepairing>
+	<ARandom_BoonQuality>Архотеки повысили качество всей экипировки колониста {0}!</ARandom_BoonQuality>
+	<ARandom_BoonChickens>Архотеки... ▌яйцо 0101▌▌перьевой-коллапс ▌▌[ВРЕМЯ] неисчерпаемый ███гнездование [УДАЛЕНО] ГРАВИТАЦИЯ ▌▌не надо.</ARandom_BoonChickens>
+	<ARandom_TotalMarketValueRange>Диапазон рыночной стоимости (базовый)</ARandom_TotalMarketValueRange>
+	<ARandom_TotalMarketValueRange_Desc>Общий диапазон рыночной стоимости предметов (минимум и максимум), которые могут выпасть при открытии этого лутбокса.</ARandom_TotalMarketValueRange_Desc>
+	<ARandom_TotalMarketValueRange_Quality>Диапазон рыночной стоимости (с учетом качества)</ARandom_TotalMarketValueRange_Quality>
+	<ARandom_TotalMarketValueRange_Quality_Desc>Общий диапазон стоимости предметов с поправкой на качество ящика. Качество изменяет базовую стоимость с коэффициентом {0}.</ARandom_TotalMarketValueRange_Quality_Desc>
+	<ARandom_AddLootboxesToRaiders>Выдавать случайные лутбоксы рейдерам</ARandom_AddLootboxesToRaiders>
+	<ARandom_AddLootboxesToRaidersDesc>Если включено, атакующие рейдеры могут нести в инвентаре случайные лутбоксы.</ARandom_AddLootboxesToRaidersDesc>
+	<ARandom_LootboxCommonality>Шанс лутбокса у рейдера</ARandom_LootboxCommonality>
+	<ARandom_LootboxCommonalityDesc>По умолчанию 1% рейдеров имеют лутбокс в инвентаре, но вы можете настроить эту вероятность.</ARandom_LootboxCommonalityDesc>
+	<ARandom_Reset>Сброс</ARandom_Reset>
+</LanguageData>

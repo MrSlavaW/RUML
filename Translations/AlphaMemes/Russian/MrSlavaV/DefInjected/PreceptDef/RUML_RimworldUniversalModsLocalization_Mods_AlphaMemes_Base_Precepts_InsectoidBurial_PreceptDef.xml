@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\PreceptDefs\Precepts_InsectoidBurial.xml -->
+	<!--                  EN: hive burial -->
+	<AM_InsectoidBurial.label>захоронение улья</AM_InsectoidBurial.label>
+	<!--                        EN: A gathering to witness our friend offered to the greater powers; Insects! -->
+	<AM_InsectoidBurial.description>Собрание, чтобы засвидетельствовать нашего друга, предложенного более великим силам; Насекомым!</AM_InsectoidBurial.description>
+	<!--                                     EN: {PAWN_nameDef} should be offered to the insectoids so {PAWN_possessive} friends and family will know they are with the superior race -->
+	<AM_InsectoidBurial.extraTextPawnDeathLetter>{PAWN_nameDef} следует предлагать инсектиодам, чтобы {PAWN_possessive} друзья и семья знали, что он с высшей расой.</AM_InsectoidBurial.extraTextPawnDeathLetter>
+</LanguageData>

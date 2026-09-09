@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_PristineStrider.xml -->
+	<!--                  EN: pristine strider -->
+	<AM_PristineStrider.label>безупречный страйдер</AM_PristineStrider.label>
+	<!--                        EN: A more advanced, mechanite-grown version of the autostrider, the pristine strider has a large carrying capacity, making it perfect as a partner on long caravan trips. Can also be ridden by pawns to increase travel speed. -->
+	<AM_PristineStrider.description>Безупречный страйдер — более совершенная, выращенная механитами версия автострайдера. Он отличается большой грузоподъёмностью, поэтому отлично подходит для долгих караванных переходов. Поселенцы также могут ездить на нём верхом, чтобы быстрее перемещаться.</AM_PristineStrider.description>
+	<!--                          EN: голова -->
+	<AM_PristineStrider.tools.0.label>голова</AM_PristineStrider.tools.0.label>
+</LanguageData>

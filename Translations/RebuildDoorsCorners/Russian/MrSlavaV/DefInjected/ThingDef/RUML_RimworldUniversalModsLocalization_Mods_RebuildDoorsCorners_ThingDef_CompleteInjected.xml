@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RB_BallisticGlass.label>бронестекло</RB_BallisticGlass.label>
+  <RB_BarriersWall.label>барьерная стена</RB_BarriersWall.label>
+  <RB_CellWall.label>тюремная стена</RB_CellWall.label>
+  <RB_Filth_BallisticGlassShards.label>осколки бронестекла</RB_Filth_BallisticGlassShards.label>
+  <RB_Filth_GlassShards.label>осколки стекла</RB_Filth_GlassShards.label>
+  <RB_Glass.label>строительное стекло</RB_Glass.label>
+  <RB_Ship_Beam_Glass.label>корпус корабля (стекло)</RB_Ship_Beam_Glass.label>
+  <RB_Ship_Beam_Viewport.label>корпус корабля (иллюминатор)</RB_Ship_Beam_Viewport.label>
+</LanguageData>

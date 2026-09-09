@@ -1,0 +1,14 @@
+<LanguageData>
+	<AG_Fogger.label>Туман</AG_Fogger.label>
+	<AG_Fogger.description>Распределённое облако механитов вплетено в ДНК носителя. Эти механиты способны влиять на влажность окружающей атмосферы, вызывая вокруг густой плотный туман.</AG_Fogger.description>
+	<AG_RainMaker.label>Вызыватель дождя</AG_RainMaker.label>
+	<AG_RainMaker.description>Распределённое облако механитов вплетено в ДНК носителя. Эти механиты способны резко понижать атмосферное давление вокруг, вызывая постоянные осадки.</AG_RainMaker.description>
+	<AG_FoggyRainMaker.label>Циклон</AG_FoggyRainMaker.label>
+	<AG_FoggyRainMaker.description>Носитель этого гена вызывает постоянные осадки и густой, плотный туман.</AG_FoggyRainMaker.description>
+	<AG_RainyThunderstormMaker.label>Вызыватель грозы с дождём</AG_RainyThunderstormMaker.label>
+	<AG_RainyThunderstormMaker.description>Носитель этого гена постоянно вызывает сильную грозу с дождём.</AG_RainyThunderstormMaker.description>
+	<AG_DryThunderstormMaker.label>Вызыватель сухой грозы</AG_DryThunderstormMaker.label>
+	<AG_DryThunderstormMaker.description>Носитель этого гена постоянно вызывает сильную сухую грозу. Это не делает его невосприимчивым к ударам молнии!</AG_DryThunderstormMaker.description>
+	<AG_SnowMaker.label>Вьюга</AG_SnowMaker.label>
+	<AG_SnowMaker.description>Носитель этого гена вызывает выпадение снега.</AG_SnowMaker.description>
+</LanguageData>

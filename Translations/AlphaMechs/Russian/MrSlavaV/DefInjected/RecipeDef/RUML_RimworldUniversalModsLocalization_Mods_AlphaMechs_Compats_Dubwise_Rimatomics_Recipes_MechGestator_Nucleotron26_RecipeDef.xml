@@ -1,0 +1,8 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+	<!--\Grabbed_Defs_from_patches\Dubwise_Rimatomics\Recipes_MechGestator_Nucleotron25.xml-->
+	<!--                         gestate nucleotron -->
+	<AM_Gestate_Nucleotron.label>Собрать механоида «Нуклеотрон»</AM_Gestate_Nucleotron.label>
+	<!--                               Gestate a nucleotron mechanoid. -->
+	<AM_Gestate_Nucleotron.description>Собрать механоида «Нуклеотрон».</AM_Gestate_Nucleotron.description>
+</LanguageData>

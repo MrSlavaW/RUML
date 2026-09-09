@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<RB_MetalGrateTile.label>стальная решетка</RB_MetalGrateTile.label>
+	<RB_MetalGrateTile.description>Прочный решетчатый пол из стали. Позволяет грязи проваливаться вниз, замедляя загрязнение.</RB_MetalGrateTile.description>
+	<RB_SilverGrateTile.label>серебряная решетка</RB_SilverGrateTile.label>
+	<RB_SilverGrateTile.description>Изысканный решетчатый пол из серебра. Повышает красоту помещения.</RB_SilverGrateTile.description>
+	<RB_GoldGrateTile.label>золотая решетка</RB_GoldGrateTile.label>
+	<RB_GoldGrateTile.description>Роскошный золотой решетчатый пол для палат знати.</RB_GoldGrateTile.description>
+	<RB_MetalStuddedTile.label>рифленая стальная плитка</RB_MetalStuddedTile.label>
+	<RB_MetalStuddedTile.description>Промышленный металлический настил с нескользящей рифленой поверхностью.</RB_MetalStuddedTile.description>
+	<RB_SilverStuddedTile.label>рифленая серебряная плитка</RB_SilverStuddedTile.label>
+	<RB_SilverStuddedTile.description>Декоративная серебряная плитка с тиснением.</RB_SilverStuddedTile.description>
+	<RB_GoldStuddedTile.label>рифленая золотая плитка</RB_GoldStuddedTile.label>
+	<RB_GoldStuddedTile.description>Богато украшенный настил из рифленого золота.</RB_GoldStuddedTile.description>
+	<RB_SterileGrateTile.label>стерильная решетка</RB_SterileGrateTile.label>
+	<RB_SterileGrateTile.description>Решетчатый пол со специальным бактерицидным покрытием для медицинских лабораторий.</RB_SterileGrateTile.description>
+	<RB_SterileStuddedTile.label>стерильная рифленая плитка</RB_SterileStuddedTile.label>
+	<RB_SterileStuddedTile.description>Стерильный нескользящий пол для хирургических боксов.</RB_SterileStuddedTile.description>
+</LanguageData>

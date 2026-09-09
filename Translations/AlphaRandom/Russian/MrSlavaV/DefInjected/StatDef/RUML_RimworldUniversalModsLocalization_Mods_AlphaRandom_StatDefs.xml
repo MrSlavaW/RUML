@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ARandom_ArchotechBoonChance.label>шанс благословения архотеков</ARandom_ArchotechBoonChance.label>
+	<ARandom_ArchotechBoonChance.description>Вероятность того, что этот манипулятор вызовет благословение архотеков вместо случайного события.</ARandom_ArchotechBoonChance.description>
+</LanguageData>

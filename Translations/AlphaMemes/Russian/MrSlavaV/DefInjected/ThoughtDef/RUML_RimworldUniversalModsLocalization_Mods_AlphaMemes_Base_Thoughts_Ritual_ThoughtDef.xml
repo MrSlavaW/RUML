@@ -1,0 +1,47 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\ThoughtDefs\Thoughts_Ritual.xml -->
+	<!--                           EN: disgraceful funeral -->
+	<AM_TerribleFuneral.stages.0.label>позорные похороны</AM_TerribleFuneral.stages.0.label>
+	<!--                                 EN: That funeral was borderline insulting to everyone involved -->
+	<AM_TerribleFuneral.stages.0.description>Эти похороны были на грани оскорбления для всех участников</AM_TerribleFuneral.stages.0.description>
+	
+	<!--                             EN: lackluster funeral -->
+	<AM_LacklusterFuneral.stages.0.label>тусклые похороны</AM_LacklusterFuneral.stages.0.label>
+	<!--                                   EN: That funeral was really uninspired and didn't resolve anything. -->
+	<AM_LacklusterFuneral.stages.0.description>Эти похороны были действительно скучными и ничего не решили.</AM_LacklusterFuneral.stages.0.description>
+	
+	<!--                       EN: good funeral -->
+	<AM_GoodFuneral.stages.0.label>хорошие похороны</AM_GoodFuneral.stages.0.label>
+	<!--                             EN: That funeral went well - a good way to say goodbye. -->
+	<AM_GoodFuneral.stages.0.description>Похороны прошли хорошо - хороший способ попрощаться.</AM_GoodFuneral.stages.0.description>
+	
+	<!--                          EN: amazing funeral -->
+	<AM_AmazingFuneral.stages.0.label>удивительные похороны</AM_AmazingFuneral.stages.0.label>
+	<!--                                EN: That funeral went perfectly - it brought up a lot of good memories and showed us a path forward. -->
+	<AM_AmazingFuneral.stages.0.description>Похороны прошли отлично - они вызвали много хороших воспоминаний и указали нам путь вперед.</AM_AmazingFuneral.stages.0.description>
+	
+	<!--                            EN: disgraceful launch -->
+	<AM_TerribleBlastOff.stages.0.label>позорный запуск</AM_TerribleBlastOff.stages.0.label>
+	<!--                                  EN: That launch was horrific, something must have been very wrong with that pod. -->
+	<AM_TerribleBlastOff.stages.0.description>Запуск был ужасен, должно быть, что-то было не так с этой капсулой.</AM_TerribleBlastOff.stages.0.description>
+	
+	<!--                              EN: lackluster launch -->
+	<AM_LacklusterBlastOff.stages.0.label>тусклый запуск</AM_LacklusterBlastOff.stages.0.label>
+	<!--                                    EN: That launch was quite disappointing. I doubt they even make it to the edge of the atmosphere -->
+	<AM_LacklusterBlastOff.stages.0.description>Этот запуск был довольно разочаровывающим. Я сомневаюсь, что они даже доберутся до края атмосферы.</AM_LacklusterBlastOff.stages.0.description>
+	
+	<!--                        EN: good launch -->
+	<AM_GoodBlastOff.stages.0.label>хороший запуск</AM_GoodBlastOff.stages.0.label>
+	<!--                              EN: The launch went well, a good sendoff. -->
+	<AM_GoodBlastOff.stages.0.description>Запуск прошел хорошо, хорошие проводы.</AM_GoodBlastOff.stages.0.description>
+	
+	<!--                           EN: amazing launch -->
+	<AM_AmazingBlastOff.stages.0.label>удивительный запуск</AM_AmazingBlastOff.stages.0.label>
+	<!--                                 EN: That launch was earthshaking! I can still taste the chemfuel, the perfect way to say goodbye. -->
+	<AM_AmazingBlastOff.stages.0.description>Этот запуск был потрясающим! Я все еще чувствую запах химтоплива, идеальный способ попрощаться.</AM_AmazingBlastOff.stages.0.description>
+	
+	<!--                            EN: reminiscent rum -->
+	<AM_CorpseRumThought.stages.0.label>ром {0}</AM_CorpseRumThought.stages.0.label>
+	<!--                                  EN: The rum was so delicious, it allows me to reminisce fondly about our fallen comrades. -->
+	<AM_CorpseRumThought.stages.0.description>Ром был настолько вкусным, что {0} чувствовал, как их товарищ {1} присматривает за ними, пока они занимаются грабежом.</AM_CorpseRumThought.stages.0.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<VFEC.Letters.SenatorJoins>Сенатор присоединяется: {0}</VFEC.Letters.SenatorJoins>
+	<VFEC.Letters.SenatorLost>Сенатор потерян: {0}</VFEC.Letters.SenatorLost>
+	<VFEC.Letters.Donation>Получена дань от {0}</VFEC.Letters.Donation>
+	<VFEC.Letters.Researched>Изучена технология: {0}</VFEC.Letters.Researched>
+	<TMM.VPE.FirstPsylinkPathUnlocked.Desc>{0} получает пси-связь.\n\nПуть псионики {3} взывает к {0}, но решение остается за вами.\n\n{1} теперь может распределить очко навыка, чтобы выучить новую способность, повысить характеристики медитации или открыть новый фокус.\n\nОпыт псионики до следующего уровня: {2}.</TMM.VPE.FirstPsylinkPathUnlocked.Desc>
+	<VPE.PsylinkGained.Desc>{0} повышает уровень пси-связи.\n\nС новым уровнем параметры псионики у {1} слегка возросли. {1} может изучить новую пси-способность или открыть новый тип медитации.\n\nОпыт псионики до следующего уровня: {2}.</VPE.PsylinkGained.Desc>
+</LanguageData>

@@ -1,0 +1,27 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\Bodies\Bodies_WarEmpress.xml -->
+	<!--                  EN: war empress -->
+	<AM_Mech_WarEmpress.label>военная императрица</AM_Mech_WarEmpress.label>
+	<!--                                                                              EN: left sight sensor -->
+	<AM_Mech_WarEmpress.corePart.parts.MechanicalHead.parts.left_sight_sensor.customLabel>левый оптический датчик</AM_Mech_WarEmpress.corePart.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+	<!--                                                                               EN: right sight sensor -->
+	<AM_Mech_WarEmpress.corePart.parts.MechanicalHead.parts.right_sight_sensor.customLabel>правый оптический датчик</AM_Mech_WarEmpress.corePart.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+	<!--                                                                                EN: left hearing sensor -->
+	<AM_Mech_WarEmpress.corePart.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>левый звуковой датчик</AM_Mech_WarEmpress.corePart.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+	<!--                                                                                 EN: right hearing sensor -->
+	<AM_Mech_WarEmpress.corePart.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>правый звуковой датчик</AM_Mech_WarEmpress.corePart.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+	<!--                                                     EN: left shoulder -->
+	<AM_Mech_WarEmpress.corePart.parts.left_shoulder.customLabel>левое плечо</AM_Mech_WarEmpress.corePart.parts.left_shoulder.customLabel>
+	<!--                                                                    EN: left arm -->
+	<AM_Mech_WarEmpress.corePart.parts.left_shoulder.parts.left_arm.customLabel>левая рука</AM_Mech_WarEmpress.corePart.parts.left_shoulder.parts.left_arm.customLabel>
+	<!--                                                                                          EN: left power claw -->
+	<AM_Mech_WarEmpress.corePart.parts.left_shoulder.parts.left_arm.parts.left_power_claw.customLabel>левая силовая клешня</AM_Mech_WarEmpress.corePart.parts.left_shoulder.parts.left_arm.parts.left_power_claw.customLabel>
+	<!--                                                      EN: right shoulder -->
+	<AM_Mech_WarEmpress.corePart.parts.right_shoulder.customLabel>правое плечо</AM_Mech_WarEmpress.corePart.parts.right_shoulder.customLabel>
+	<!--                                                                      EN: right arm -->
+	<AM_Mech_WarEmpress.corePart.parts.right_shoulder.parts.right_arm.customLabel>правая рука</AM_Mech_WarEmpress.corePart.parts.right_shoulder.parts.right_arm.customLabel>
+	<!--                                                                                             EN: right power claw -->
+	<AM_Mech_WarEmpress.corePart.parts.right_shoulder.parts.right_arm.parts.right_power_claw.customLabel>правая силовая клешня</AM_Mech_WarEmpress.corePart.parts.right_shoulder.parts.right_arm.parts.right_power_claw.customLabel>
+	<!--                                                   EN: bulb turret -->
+	<AM_Mech_WarEmpress.corePart.parts.bulb_turret.customLabel>энергетическое орудие</AM_Mech_WarEmpress.corePart.parts.bulb_turret.customLabel>
+</LanguageData>

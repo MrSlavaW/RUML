@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Sagittarius.xml -->
+	<!--                   EN: sagittarius -->
+	<AM_Mech_Sagittarius.label>Стрелец</AM_Mech_Sagittarius.label>
+	<!--                         EN: The Sagittarius is a humanoid mechanoid equipped with a powerful tesla gun, a fearsome energy weapon designed to unleash a cascade of electromagnetic energy upon its targets. Capable of generating a burst of EMP energy that can stun and disable mechanoids with a single shot. At the same time, it unleashes a searing bolt of electrical energy that can burn through organic targets, leaving them smoldering and vulnerable.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; If controlled by the player, the Sagittarius' weapon will not auto target enemies, as the game doesn't consider the EMP damage to be valid against fleshy targets. Be sure to draft them and choose their targets. -->
+	<AM_Mech_Sagittarius.description>Стрелец — гуманоидный механоид, оснащенный мощной пушкой Тесла, грозным энергетическим оружием, предназначенным для обрушивания на цели каскада электромагнитной энергии. Способен генерировать взрыв энергии ЭМИ, который может оглушить и вывести из строя механоидов одним выстрелом. В то же время он высвобождает обжигающую стрелу электрической энергии, которая может прожечь органические цели, оставив их тлеющими и уязвимыми.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Если оружие Стрельца контролируется игроком, оно не будет автоматически нацеливаться на врагов, поскольку игра не считает, что урон от ЭМИ действителен против мясистых целей. Обязательно составьте их и выберите их цели.</AM_Mech_Sagittarius.description>
+	<!--                           EN: левый кулак -->
+	<AM_Mech_Sagittarius.tools.0.label>левый кулак</AM_Mech_Sagittarius.tools.0.label>
+	<!--                           EN: правый кулак -->
+	<AM_Mech_Sagittarius.tools.1.label>правый кулак</AM_Mech_Sagittarius.tools.1.label>
+	<!--                           EN: голова -->
+	<AM_Mech_Sagittarius.tools.2.label>голова</AM_Mech_Sagittarius.tools.2.label>
+</LanguageData>

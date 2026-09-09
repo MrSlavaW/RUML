@@ -1,0 +1,28 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\ThingDefs\RulePacks_FuneralContainers.xml -->
+	<!-- EN: 
+		<li>physical_description_root->The Urn is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
+		<li>physical_description_root->The Urn bears a [depiction] of [image]. [desc_sentence_group]</li>
+		<li>physical_description_root->The Urn is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
+		<li>physical_description_root->An engraving on this Urn [depicts] [image]. [desc_sentence_group]</li>
+	 -->
+	<AM_ArtDescription_Urn.rulePack.rulesStrings>
+		<li>physical_description_root-&gt;На Урне выгравировано [depiction] [image]. [desc_sentence_group]</li>
+		<li>physical_description_root-&gt;Урна несет [depiction] [image]. [desc_sentence_group]</li>
+		<li>physical_description_root-&gt;На Урне выгравировано [depiction] [image]. [desc_sentence_group]</li>
+		<li>physical_description_root-&gt;Гравюра на этой Урне [depicts] [image]. [desc_sentence_group]</li>
+</AM_ArtDescription_Urn.rulePack.rulesStrings>
+<!-- EN: 
+		<li>physical_description_root->The plaque is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
+		<li>physical_description_root->The plaque has a [depiction] of [image]. [desc_sentence_group]</li>
+		<li>physical_description_root->The plaque is engraved with a [depiction] of [image]. [desc_sentence_group]</li>
+		<li>physical_description_root->An engraving on the plaque [depicts] [image]. [desc_sentence_group]</li>
+	 -->
+	<AM_ArtDescription_Mummy.rulePack.rulesStrings>
+		<li>physical_description_root-&gt;На табличке выгравировано [depiction] [image]. [desc_sentence_group]</li>
+		<li>physical_description_root-&gt;На табличке есть [depiction] [image]. [desc_sentence_group]</li>
+		<li>physical_description_root-&gt;На табличке выгравировано [depiction] [image]. [desc_sentence_group]</li>
+		<li>physical_description_root-&gt;Гравюра на табличке [depiction] [image]. [desc_sentence_group]</li>
+</AM_ArtDescription_Mummy.rulePack.rulesStrings>
+
+</LanguageData>

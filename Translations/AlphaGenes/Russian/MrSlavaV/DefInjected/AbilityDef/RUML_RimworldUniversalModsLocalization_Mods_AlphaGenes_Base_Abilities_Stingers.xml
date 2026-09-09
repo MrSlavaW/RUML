@@ -1,0 +1,10 @@
+<LanguageData>
+	<AG_InsectStinger.label>Жало</AG_InsectStinger.label>
+	<AG_InsectStinger.description>Перенесите ксеногены этого гуманоида другой цели с помощью отвратительного инъекционного жала.\n\nПосле имплантации ксеногерм перезапишет ксеногены цели. Наследуемые гены затронуты не будут.</AG_InsectStinger.description>
+	<AG_InsectStingerEndogenes.label>Эндогены</AG_InsectStingerEndogenes.label>
+	<AG_InsectStingerEndogenes.description>Перенесите эндогены этого носителя другой цели с помощью отвратительного жала-инъектора.\n\nПосле имплантации генетический материал перезапишет эндогены цели. Ксеногены затронуты не будут.</AG_InsectStingerEndogenes.description>
+	<AG_ParasiticStinger.label>Внедрение яиц паразита</AG_ParasiticStinger.label>
+	<AG_ParasiticStinger.description>Имплантируйте яйца с ксеногенами этого носителя другой цели с помощью отвратительного жала-инъектора.\n\nПосле имплантации яйца начнут расти внутри жертвы и в конце концов прорвутся наружу, убив её.</AG_ParasiticStinger.description>
+	<AG_ParasiticStingerEndogenes.label>Яйца эндогенных паразитов</AG_ParasiticStingerEndogenes.label>
+	<AG_ParasiticStingerEndogenes.description>Имплантируйте яйца с эндогенами этого носителя другой цели с помощью отвратительного жала-инъектора.\n\nПосле имплантации яйца начнут расти внутри цели и в конце концов прорвутся наружу, убив её.</AG_ParasiticStingerEndogenes.description>
+</LanguageData>

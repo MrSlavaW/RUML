@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingStyleDefs\Alpha\ThingStyleDefs_Steampunk.xml -->
+	<!--                                 EN: flat cap -->
+	<AM_SteampunkRevival_Tuque.overrideLabel>кепка</AM_SteampunkRevival_Tuque.overrideLabel>
+	<!--                                   EN: steampunk goggles -->
+	<AM_SteampunkRevival_Goggles.overrideLabel>стимпанк очки</AM_SteampunkRevival_Goggles.overrideLabel>
+	<!--                                      EN: aviator hat -->
+	<AM_SteampunkRevival_AviatorHat.overrideLabel>шляпа летчика</AM_SteampunkRevival_AviatorHat.overrideLabel>
+	<!--                                   EN: rapier -->
+	<AM_SteampunkRevival_Gladius.overrideLabel>рапира</AM_SteampunkRevival_Gladius.overrideLabel>
+</LanguageData>

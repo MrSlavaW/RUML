@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <BIU.AllStats>Все показатели</BIU.AllStats>
+  <BIU.Sections>Разделы</BIU.Sections>
+  <BIU.SearchPlaceholder>Поиск показателей...</BIU.SearchPlaceholder>
+  <BIU.Pinned>Закреплённые</BIU.Pinned>
+  <BIU.Description>Описание</BIU.Description>
+  <BIU.StatDetail>Подробности показателя</BIU.StatDetail>
+  <BIU.StatDetailHint>Подробности показателя — наведите на строку</BIU.StatDetailHint>
+  <BIU.HoverAStat>Наведите или нажмите на показатель, чтобы просмотреть его свойства.</BIU.HoverAStat>
+  <BIU.NoStatsMatch>Нет показателей, соответствующих фильтру.</BIU.NoStatsMatch>
+  <BIU.ClearPins>Очистить закрепления</BIU.ClearPins>
+  <BIU.SwitchToVanilla>Переключиться на стандартную карточку инфо.
+
+Повторное открытие меню вернёт улучшенный интерфейс.</BIU.SwitchToVanilla>
+  <BIU.SwitchToImproved>Вернуться к улучшенной карточке инфо.</BIU.SwitchToImproved>
+  <BIU.SettingAlwaysShowDescription>Всегда отображать описание</BIU.SettingAlwaysShowDescription>
+  <BIU.SettingAlwaysShowDescriptionTip>Всегда закреплять описание объекта над подробностями показателя на правой панели.
+
+Если отключено, панель показывает описание только когда курсор ни на что не наведён, отдавая всё пространство выбранному показателю. Само описание в любом случае доступно в соответствующей карточке.</BIU.SettingAlwaysShowDescriptionTip>
+  <BIU.SettingCompactMode>Компактный режим (одна колонка)</BIU.SettingCompactMode>
+  <BIU.SettingCompactModeTip>Убирает вторую колонку карточек и сужает окно инфо, занимая меньше места на экране.
+
+Отображаются те же показатели в одну колонку с более длинной прокруткой.</BIU.SettingCompactModeTip>
+  <BIU.SettingDontPause>Не ставить игру на паузу при открытии инфо</BIU.SettingDontPause>
+  <BIU.SettingDontPauseTip>Позволяет игре продолжать идти на текущей скорости при открытой карточке инфо, вместо автоматической паузы.
+
+Остальная часть игры всё равно игнорирует клики позади окна, пока вы его не закроете.</BIU.SettingDontPauseTip>
+  <BIU.StatDps>Урон в секунду (DPS)</BIU.StatDps>
+  <BIU.StatDpsDesc>Урон, наносимый в секунду цели без брони, при условии 100% попадания.
+
+Учитывает полный цикл очереди: время прицеливания, саму стрельбу и последующую перезарядку/задержку.</BIU.StatDpsDesc>
+  <BIU.StatDpsa>DPS с учётом точности</BIU.StatDpsa>
+  <BIU.StatDpsaDesc>Урон в секунду с поправкой на среднюю точность этого оружия ({0}), что является более реалистичным показателем эффективности, чем чистый DPS.
+
+Рассчитывается только для дистанций, на которых оружие действительно способно стрелять.</BIU.StatDpsaDesc>
+  <BIU.DpsBreakdownHeader>Как это рассчитывается:</BIU.DpsBreakdownHeader>
+  <BIU.DpsDamagePerShot>Урон за выстрел</BIU.DpsDamagePerShot>
+  <BIU.DpsShotsPerBurst>Выстрелов в очереди</BIU.DpsShotsPerBurst>
+  <BIU.DpsDamagePerBurst>Урон за очередь</BIU.DpsDamagePerBurst>
+  <BIU.DpsWarmup>Время прицеливания</BIU.DpsWarmup>
+  <BIU.DpsCooldown>Задержка / перезарядка</BIU.DpsCooldown>
+  <BIU.DpsBetweenShots>Интервал между выстрелами</BIU.DpsBetweenShots>
+  <BIU.DpsCycleTime>Время полного цикла</BIU.DpsCycleTime>
+  <BIU.DpsResult>{0} урона / {1} сек = {2} DPS</BIU.DpsResult>
+  <BIU.DpsSeconds>{0} с</BIU.DpsSeconds>
+  <BIU.DpsTimesCount>{0} с x{1}</BIU.DpsTimesCount>
+  <BIU.DpsaBreakdownHeader>Как это рассчитывается:</BIU.DpsaBreakdownHeader>
+  <BIU.DpsaBandsHeader>Точность на доступных дистанциях стрельбы:</BIU.DpsaBandsHeader>
+  <BIU.DpsaMeanAccuracy>Средняя точность</BIU.DpsaMeanAccuracy>
+  <BIU.DpsaResult>{0} DPS x {1} = {2} DPS с точностью</BIU.DpsaResult>
+  <BIU.DpsaBandTouch>В упор (3 клетки)</BIU.DpsaBandTouch>
+  <BIU.DpsaBandShort>Близкая (12 клеток)</BIU.DpsaBandShort>
+  <BIU.DpsaBandMedium>Средняя (25 клеток)</BIU.DpsaBandMedium>
+  <BIU.DpsaBandLong>Дальняя (40 клеток)</BIU.DpsaBandLong>
+  <BIU.IngredientsPerUnit>Ингредиенты (за единицу)</BIU.IngredientsPerUnit>
+  <BIU.IngredientsPerUnitDesc>Себестоимость одной штуки {0}, рассчитанная из рецепта производства партии по {1} шт.
+
+Одно изготовление расходует общее количество ниже и даёт {1} шт.</BIU.IngredientsPerUnitDesc>
+  <BIU.IngredientsPerCraft>За изготовление (создаёт {0}):</BIU.IngredientsPerCraft>
+  <BIU.StatDeconstructYield>Выход при разборке</BIU.StatDeconstructYield>
+  <BIU.StatDeconstructYieldDesc>Ресурсы, возвращаемые при аккуратном демонтаже, составляют {0} от начальной стоимости постройки.</BIU.StatDeconstructYieldDesc>
+  <BIU.StatDestroyYield>Остатки при разрушении</BIU.StatDestroyYield>
+  <BIU.StatDestroyYieldDesc>Ресурсы, остающиеся после уничтожения постройки вместо разборки: {0} от затрат на строительство.</BIU.StatDestroyYieldDesc>
+  <BIU.StatDestroyYieldDescFlat>Ресурсы, остающиеся при уничтожении объекта.</BIU.StatDestroyYieldDescFlat>
+  <BIU.RecentlyViewed>Недавно просмотренные</BIU.RecentlyViewed>
+  <BIU.Compare>Сравнить</BIU.Compare>
+  <BIU.CompareWithCount>Сравнение {0}</BIU.CompareWithCount>
+  <BIU.CompareWithCountMax>Сравнение {0} (макс)</BIU.CompareWithCountMax>
+  <BIU.CompareFull>Сравнивается максимальное количество предметов ({0}). Снимите отметку с одного, чтобы заменить его.</BIU.CompareFull>
+  <BIU.CompareHint>Отметьте два для сравнения</BIU.CompareHint>
+  <BIU.CompareStat>Показатель</BIU.CompareStat>
+  <BIU.CompareNote>Отображаются только показатели, общие для всех выбранных предметов.</BIU.CompareNote>
+  <BIU.CompareNoteAll>Отображаются все показатели выбранных предметов. Значение «—» означает отсутствие показателя.</BIU.CompareNoteAll>
+  <BIU.CompareShowAll>Показать все показатели</BIU.CompareShowAll>
+  <BIU.CompareShowAllTip>Показать любой показатель, присутствующий хотя бы у одного выбранного предмета («—» где он неприменим).
+
+Если выключено, отображаются только общие свойства.</BIU.CompareShowAllTip>
+  <BIU.CompareNothingShared>У этих предметов нет общих характеристик для сравнения.</BIU.CompareNothingShared>
+  <BIU.CompareEmpty>Пока нечего сравнивать. Откройте несколько предметов и отметьте их флажками в «недавно просмотренных».</BIU.CompareEmpty>
+  <BIU.CompareSelectedTip>Сравнить {0} выбранных предметов бок о бок.</BIU.CompareSelectedTip>
+  <BIU.CompareSelectedTooMany>Выберите не более {0} предметов для сравнения. Сейчас выбрано: {1}.</BIU.CompareSelectedTooMany>
+  <BIU.CompareSelectedNoStats>У выбранных предметов нет показателей для сравнения.</BIU.CompareSelectedNoStats>
+  <BIU.FactionOwnerDesc>Это место принадлежит фракции {0}.</BIU.FactionOwnerDesc>
+  <BIU.FactionCategory>Фракция</BIU.FactionCategory>
+  <BIU.FactionName>Фракция</BIU.FactionName>
+  <BIU.FactionNameDesc>{0} — {1}.</BIU.FactionNameDesc>
+  <BIU.Relation>Отношения</BIU.Relation>
+  <BIU.RelationDesc>Текущий статус отношений вашей колонии с ними: {0}, при доброй воле {1}.</BIU.RelationDesc>
+  <BIU.RelationNatural>Если не вмешиваться, уровень отношений естественно стремится к {0}.</BIU.RelationNatural>
+  <BIU.Leader>Лидер</BIU.Leader>
+  <BIU.LeaderLabel>{0} (лидер)</BIU.LeaderLabel>
+  <BIU.LeaderDesc>{0} — это {1} фракции {2}.</BIU.LeaderDesc>
+  <BIU.TechLevel>Технологический уровень</BIU.TechLevel>
+  <BIU.TechLevelDesc>{0} находится на уровне развития «{1}». Их люди используют снаряжение, доступное этому уровню, и редко торгуют вещами сверх него.</BIU.TechLevelDesc>
+  <BIU.TechLevelDetail_Animal>Они живут подобно диким зверям, беря то, что даёт природа. Они ничего не строят, не накапливают и не торгуют.</BIU.TechLevelDetail_Animal>
+  <BIU.TechLevelDetail_Neolithic>Они живут охотой, скотоводством и собирательством, укрываясь в рукотворных примитивных жилищах. Их орудия из камня, дерева и шкур, а любой обрезок металла ценится дороже золота.</BIU.TechLevelDetail_Neolithic>
+  <BIU.TechLevelDetail_Medieval>Они возделывают землю и развивают ремёсла, обрабатывая железо в кузницах. Их мастера куют латы, клинки и луки, а ночью зажигают факелы, а не электричество.</BIU.TechLevelDetail_Medieval>
+  <BIU.TechLevelDetail_Industrial>Они живут в электрифицированных городах, обеспеченных машинами и топливом. Их фабрики производят винтовки, двигатели и детали ящиками.</BIU.TechLevelDetail_Industrial>
+  <BIU.TechLevelDetail_Spacer>Они рождены для межзвёздных перелётов и легко бороздят космос. Зарядовое оружие, силовая броня и наниты, исцеляющие смертельные раны — для них обыденность.</BIU.TechLevelDetail_Spacer>
+  <BIU.TechLevelDetail_Ultra>Они находятся на вершине развития человечества. Их тела перестроены имплантами и защищены от большинства планетарных угроз. Мало что в этом мире способно с ними сравниться.</BIU.TechLevelDetail_Ultra>
+  <BIU.TechLevelDetail_Archotech>Их артефакты созданы непостижимым разумом архотеков, а не человеческими руками. Никто в этом мире не способен даже объяснить принципы их работы, не говоря уже о повторении.</BIU.TechLevelDetail_Archotech>
+  <BIU.Members>Участники</BIU.Members>
+  <BIU.MembersDesc>Члены фракции {0} зовутся «{1}». Большинство встреченных вами будут принадлежать к роли «{2}».</BIU.MembersDesc>
+  <BIU.Ideoligion>Идеология</BIU.Ideoligion>
+  <BIU.IdeoDesc>{0} исповедует {1}.</BIU.IdeoDesc>
+  <BIU.IdeoMemes>Мемы:</BIU.IdeoMemes>
+  <BIU.Xenotypes>Ксенотипы</BIU.Xenotypes>
+  <BIU.XenotypesDesc>Ксенотипы, встречающиеся во фракции {0}, и их распространённость:</BIU.XenotypesDesc>
+  <BIU.Caravans>Караваны</BIU.Caravans>
+  <BIU.CaravansDesc>Торговые караваны, отправляемые фракцией {0}:</BIU.CaravansDesc>
+  <BIU.OtherRelations>Союзники и враги</BIU.OtherRelations>
+  <BIU.OtherRelationsDesc>Кого фракция {0} считает союзниками и врагами на этой планете.</BIU.OtherRelationsDesc>
+  <BIU.OtherRelationsAllies>Союзники</BIU.OtherRelationsAllies>
+  <BIU.OtherRelationsEnemies>Враги</BIU.OtherRelationsEnemies>
+  <BIU.OtherRelationsSummary>Союзников: {0}, врагов: {1}</BIU.OtherRelationsSummary>
+  <BIU.Settlements>Поселения</BIU.Settlements>
+  <BIU.SettlementsDesc>{0} контролирует {1} поселений на этой планете (начиная с ближайших):</BIU.SettlementsDesc>
+  <BIU.SettlementsDescOne>{0} контролирует одно поселение на этой планете:</BIU.SettlementsDescOne>
+  <BIU.OtherBases>Другие базы</BIU.OtherBases>
+  <BIU.OtherBasesDesc>{0} контролирует ещё {1} поселений на планете (начиная с ближайших):</BIU.OtherBasesDesc>
+  <BIU.OtherBasesDescOne>{0} контролирует ещё одно поселение на этой планете:</BIU.OtherBasesDescOne>
+  <BIU.Biome>Биом</BIU.Biome>
+  <BIU.PlaceTerrain>Рельеф: {0}</BIU.PlaceTerrain>
+  <BIU.PlaceElevation>Высота: {0} м</BIU.PlaceElevation>
+  <BIU.PlaceRainfall>Осадки: {0} мм/год</BIU.PlaceRainfall>
+  <BIU.Distance>Расстояние</BIU.Distance>
+  <BIU.DistanceTiles>{0} клеток</BIU.DistanceTiles>
+  <BIU.DistanceDesc>{0} находится примерно в {1} клетках от вашей колонии по прямой линии.</BIU.DistanceDesc>
+  <BIU.JumpToTile>Показать</BIU.JumpToTile>
+  <BIU.JumpToTileTip>Найти {0} на карте мира.</BIU.JumpToTileTip>
+  <BIU.BiomeCategory>Биом</BIU.BiomeCategory>
+  <BIU.BiomeLifeCategory>Живая природа и погода</BIU.BiomeLifeCategory>
+  <BIU.BiomeSettleable>Пригодно для заселения</BIU.BiomeSettleable>
+  <BIU.BiomeSettleYesDesc>Вы можете основать колонию в биоме {0}.</BIU.BiomeSettleYesDesc>
+  <BIU.BiomeSettleNoDesc>В биоме {0} нельзя основать колонию.</BIU.BiomeSettleNoDesc>
+  <BIU.BiomeAllowsRoads>Дороги: {0}</BIU.BiomeAllowsRoads>
+  <BIU.BiomeAllowsRivers>Реки: {0}</BIU.BiomeAllowsRivers>
+  <BIU.BiomeAllowsFarmCamps>Фермерские лагеря: {0}</BIU.BiomeAllowsFarmCamps>
+  <BIU.BiomeAnimalDensity>Плотность фауны</BIU.BiomeAnimalDensity>
+  <BIU.BiomeAnimalDensityDesc>Сколько диких животных поддерживает этот биом ({0}). Чем выше, тем чаще появляются и возрождаются животные на карте.</BIU.BiomeAnimalDensityDesc>
+  <BIU.BiomePlantDensity>Плотность флоры</BIU.BiomePlantDensity>
+  <BIU.BiomePlantDensityDesc>Насколько густо здесь растут дикие растения ({0}). Высокое значение означает больше растительного покрова и сбора урожая.</BIU.BiomePlantDensityDesc>
+  <BIU.BiomeForageability>Фуражирование</BIU.BiomeForageability>
+  <BIU.BiomeForageabilityDesc>Караваны, проходящие через этот биом, собирают подножный корм с эффективностью {0}.</BIU.BiomeForageabilityDesc>
+  <BIU.BiomeForagedFood>Сборная пища: {0}</BIU.BiomeForagedFood>
+  <BIU.BiomeMovement>Сложность передвижения</BIU.BiomeMovement>
+  <BIU.BiomeMovementDesc>Караваны пересекают этот биом со скоростью в {0} от базового времени пути.</BIU.BiomeMovementDesc>
+  <BIU.BiomeImpassable>Непроходимо</BIU.BiomeImpassable>
+  <BIU.BiomeImpassableDesc>Караваны не могут перемещаться через биом {0}.</BIU.BiomeImpassableDesc>
+  <BIU.BiomeDays>{0} дн.</BIU.BiomeDays>
+  <BIU.BiomeRegrowDays>Восстановление растений</BIU.BiomeRegrowDays>
+  <BIU.BiomeRegrowDaysDesc>Собранные или уничтоженные дикие растения восстанавливаются примерно за {0} дн.</BIU.BiomeRegrowDaysDesc>
+  <BIU.BiomeDiseaseMtb>Частота болезней</BIU.BiomeDiseaseMtb>
+  <BIU.BiomeDiseaseMtbDesc>Поселенец здесь заболевает в среднем раз в {0} дн. Чем больше число, тем безопаснее.</BIU.BiomeDiseaseMtbDesc>
+  <BIU.BiomeTreeDensity>Плотность деревьев</BIU.BiomeTreeDensity>
+  <BIU.BiomeTreeDensityDesc>Доля деревьев в общем растительном покрове ({0}).</BIU.BiomeTreeDensityDesc>
+  <BIU.BiomeTreeSightings>Проходящий караван замечает около {0} деревьев в час.</BIU.BiomeTreeSightings>
+  <BIU.BiomeNotes>Особенности</BIU.BiomeNotes>
+  <BIU.BiomeNotesDesc>Что следует знать о биоме {0}:</BIU.BiomeNotesDesc>
+  <BIU.BiomeNoteExtreme>Это экстремальный биом. Выживание здесь требует серьёзных усилий.</BIU.BiomeNoteExtreme>
+  <BIU.BiomeNoteExtremeShort>экстремальный</BIU.BiomeNoteExtremeShort>
+  <BIU.BiomeNoteVacuum>Здесь нет атмосферы. Поселенцам требуется защита от вакуума.</BIU.BiomeNoteVacuum>
+  <BIU.BiomeNoteVacuumShort>вакуум</BIU.BiomeNoteVacuumShort>
+  <BIU.BiomeNoteWater>Этот биом представляет собой открытую водную гладь.</BIU.BiomeNoteWater>
+  <BIU.BiomeNoteWaterShort>вода</BIU.BiomeNoteWaterShort>
+  <BIU.BiomeNoteNoVirtualPlants>Здесь ничего съедобного не растёт само по себе, поэтому пасущиеся животные не могут прокормиться.</BIU.BiomeNoteNoVirtualPlants>
+  <BIU.BiomeNoteNoVirtualPlantsShort>нет выпаса</BIU.BiomeNoteNoVirtualPlantsShort>
+  <BIU.BiomeNoteCavePlants>Дикие растения здесь растут как пещерные, без потребности в солнечном свете.</BIU.BiomeNoteCavePlants>
+  <BIU.BiomeNoteCavePlantsShort>пещерные растения</BIU.BiomeNoteCavePlantsShort>
+  <BIU.BiomeNoteNoExit>Караваны не могут покинуть карту в этом биоме пешком.</BIU.BiomeNoteNoExit>
+  <BIU.BiomeNoteNoExitShort>нет выхода</BIU.BiomeNoteNoExitShort>
+  <BIU.BiomeNoteScaria>Дикие животные здесь с вероятностью {0} заражены скарией.</BIU.BiomeNoteScaria>
+  <BIU.BiomeNoteScariaShort>скария</BIU.BiomeNoteScariaShort>
+  <BIU.BiomeNotePollution>Карты здесь генерируются со смещением токсичного загрязнения {0}.</BIU.BiomeNotePollution>
+  <BIU.BiomeNotePollutionShort>токсично</BIU.BiomeNotePollutionShort>
+  <BIU.BiomeNoteGeysers>Паровые гейзеры встречаются с частотой в {0} от обычной нормы.</BIU.BiomeNoteGeysers>
+  <BIU.BiomeNoteGeysersShort>гейзеры</BIU.BiomeNoteGeysersShort>
+  <BIU.BiomeNoteConstantTemp>Температура наружного воздуха здесь всегда постоянна: {0}.</BIU.BiomeNoteConstantTemp>
+  <BIU.BiomeNoteConstantTempShort>фиксированная температура</BIU.BiomeNoteConstantTempShort>
+  <BIU.BiomeAndMore>...и ещё {0}</BIU.BiomeAndMore>
+  <BIU.BiomeFlora>Флора</BIU.BiomeFlora>
+  <BIU.BiomeFloraDesc>В биоме {0} произрастает {1} видов диких растений (по распространённости):</BIU.BiomeFloraDesc>
+  <BIU.BiomeFauna>Фауна</BIU.BiomeFauna>
+  <BIU.BiomeFaunaDesc>В биоме {0} обитает {1} видов диких животных (по распространённости):</BIU.BiomeFaunaDesc>
+  <BIU.BiomeFaunaPolluted>Токсичная фауна</BIU.BiomeFaunaPolluted>
+  <BIU.BiomeFaunaPollutedDesc>На загрязнённых картах в {0} могут появляться эти {1} видов животных:</BIU.BiomeFaunaPollutedDesc>
+  <BIU.BiomeFaunaCoastal>Прибрежная фауна</BIU.BiomeFaunaCoastal>
+  <BIU.BiomeFaunaCoastalDesc>Эти {1} видов животных также встречаются на прибрежных картах биома {0}:</BIU.BiomeFaunaCoastalDesc>
+  <BIU.BiomeDiseases>Болезни</BIU.BiomeDiseases>
+  <BIU.BiomeDiseasesDesc>В биоме {0} могут возникнуть следующие {1} болезней (по вероятности):</BIU.BiomeDiseasesDesc>
+  <BIU.BiomeWeather>Типичная погода</BIU.BiomeWeather>
+  <BIU.BiomeWeatherDesc>Вероятность различных погодных явлений в биоме {0}:</BIU.BiomeWeatherDesc>
+  <BIU.BiomeFish>Популяция рыбы</BIU.BiomeFish>
+  <BIU.BiomeFishDesc>Водоёмы в биоме {0} поддерживают до {1} рыбы.</BIU.BiomeFishDesc>
+  <BIU.BiomeFishFreshCommon>Пресноводная, обычная</BIU.BiomeFishFreshCommon>
+  <BIU.BiomeFishFreshUncommon>Пресноводная, редкая</BIU.BiomeFishFreshUncommon>
+  <BIU.BiomeFishSaltCommon>Морская, обычная</BIU.BiomeFishSaltCommon>
+  <BIU.BiomeFishSaltUncommon>Морская, редкая</BIU.BiomeFishSaltUncommon>
+  <BIU.BiomeRocks>Типы горных пород</BIU.BiomeRocks>
+  <BIU.BiomeRocksForcedDesc>Карты в биоме {0} всегда содержат следующие породы:</BIU.BiomeRocksForcedDesc>
+  <BIU.BiomeRocksExtraDesc>Карты в биоме {0} помимо стандартных могут содержать:</BIU.BiomeRocksExtraDesc>
+</LanguageData>

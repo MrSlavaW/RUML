@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<AB_NamerLandmark_TarLakes.rulePack.rulesStrings>
+
+<li>terrain_word(p=4)-&gt;смоляные озёра</li>
+<li>terrain_word-&gt;асфальтовые ямы</li>
+<li>terrain_word-&gt;битумные лужи</li>
+<li>terrain_word-&gt;пековые пруды</li>
+
+</AB_NamerLandmark_TarLakes.rulePack.rulesStrings>
+
+<AB_NamerLandmark_PropaneLakes.rulePack.rulesStrings>
+
+<li>terrain_word(p=4)-&gt;пропановые озёра</li>
+<li>terrain_word-&gt;пропановые пруды</li>
+<li>terrain_word-&gt;пропановые лужи</li>
+<li>terrain_word-&gt;пропановые котловины</li>
+
+</AB_NamerLandmark_PropaneLakes.rulePack.rulesStrings>
+
+<AB_NamerLandmark_MagmaticQuagmire.rulePack.rulesStrings>
+
+<li>terrain_word(p=4)-&gt;магматическая трясина</li>
+<li>terrain_word-&gt;магматические впадины</li>
+<li>terrain_word-&gt;пироболото</li>
+<li>terrain_word-&gt;лавовая трясина</li>
+
+</AB_NamerLandmark_MagmaticQuagmire.rulePack.rulesStrings>
+
+<AB_NamerLandmark_QuicksandPits.rulePack.rulesStrings>
+
+<li>terrain_word(p=4)-&gt;ямы с зыбучими песками</li>
+<li>terrain_word-&gt;тонущие пески</li>
+<li>terrain_word-&gt;карманы рыхлой земли</li>
+<li>terrain_word-&gt;нестабильный грунт</li>
+
+</AB_NamerLandmark_QuicksandPits.rulePack.rulesStrings>
+
+<AB_NamerLandmark_MutagenicSprings.rulePack.rulesStrings>
+
+<li>r_name(p=0.2)-&gt;ядовитые источники [NamePerson]</li>
+<li>terrain_word(p=2)-&gt;мутагенный источник</li>
+<li>terrain_word(p=2)-&gt;окулярные источники</li>
+<li>terrain_word-&gt;окулярный источник</li>
+
+</AB_NamerLandmark_MutagenicSprings.rulePack.rulesStrings>
+
+<AB_NamerLandmark_HealingSprings.rulePack.rulesStrings>
+
+<li> r_name(p=0.2)-&gt;исцеляющие ключи [NamePerson]</li>
+<li>terrain_word(p=2)-&gt;исцеляющие источники</li>
+<li>terrain_word(p=2)-&gt;исцеляющий источник</li>
+
+</AB_NamerLandmark_HealingSprings.rulePack.rulesStrings>
+
+</LanguageData>
+
+
+
+
+
+

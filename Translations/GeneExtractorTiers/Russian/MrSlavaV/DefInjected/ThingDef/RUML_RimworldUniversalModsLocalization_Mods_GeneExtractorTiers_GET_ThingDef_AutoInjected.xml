@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GET_GN_BasicBody.description>Базовый анатомический генный узел.</GET_GN_BasicBody.description>
+  <GET_GN_BasicBody.label>генный узел — тело</GET_GN_BasicBody.label>
+  <GET_GN_Culture.description>Специализированный культурный генный узел.</GET_GN_Culture.description>
+  <GET_GN_Culture.label>генный узел — культура</GET_GN_Culture.label>
+  <GET_GN_Intern.description>Специализированный генный узел стажёра.</GET_GN_Intern.description>
+  <GET_GN_Intern.label>генный узел — стажёр</GET_GN_Intern.label>
+  <GET_GN_ViperSpecial.description>Элитный генный узел VIPER.</GET_GN_ViperSpecial.description>
+  <GET_GN_ViperSpecial.label>генный узел — VIPER</GET_GN_ViperSpecial.label>
+  <GET_GN_Warrior.description>Боевой генный узел воина.</GET_GN_Warrior.description>
+  <GET_GN_Warrior.label>генный узел — воин</GET_GN_Warrior.label>
+  <GET_GN_WeaknessOfBody.description>Генный узел ослабления физической структуры.</GET_GN_WeaknessOfBody.description>
+  <GET_GN_WeaknessOfBody.label>генный узел — слабость тела</GET_GN_WeaknessOfBody.label>
+  <GET_GN_WeaknessOfMind.description>Генный узел подавления ментальных функций.</GET_GN_WeaknessOfMind.description>
+  <GET_GN_WeaknessOfMind.label>генный узел — слабость разума</GET_GN_WeaknessOfMind.label>
+</LanguageData>

@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\ThingDefs_Misc\FloorCoverings_Horaxian.xml -->
+	<!--                      EN: horaxian slab (medium) -->
+	<AM_HoraxianSlab_Medium.label>гораксианская плита (средняя)</AM_HoraxianSlab_Medium.label>
+	<!--                            EN: A stone bas relief of Horaxian imagery for decorating a floor. -->
+	<AM_HoraxianSlab_Medium.description>Каменный барельеф с гораксийскими изображениями для украшения пола.</AM_HoraxianSlab_Medium.description>
+	
+	<!--                     EN: horaxian slab (broad) -->
+	<AM_HoraxianSlab_Broad.label>гораксианская плита (широкая)</AM_HoraxianSlab_Broad.label>
+	<!--                           EN: A stone bas relief of Horaxian imagery for decorating a floor. -->
+	<AM_HoraxianSlab_Broad.description>Каменный барельеф с гораксийскими изображениями для украшения пола.</AM_HoraxianSlab_Broad.description>
+</LanguageData>

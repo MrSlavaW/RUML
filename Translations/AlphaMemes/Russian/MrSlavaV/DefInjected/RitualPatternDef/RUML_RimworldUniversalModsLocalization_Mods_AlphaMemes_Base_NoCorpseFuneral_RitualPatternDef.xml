@@ -1,0 +1,5 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\NoCorpseFuneral.xml -->
+	<!--                                      EN: Once a {IDEO} member dies and the body is lost, other {MEMBERS} gather around an empty grave for {RITUAL_labelDef}. -->
+	<AM_FuneralNoCorpsePattern.ritualExpectedDesc>Как только член {IDEO} умирает и тело теряется, другие {MEMBERS} собираются вокруг пустой могилы для {RITUAL_labelDef}.</AM_FuneralNoCorpsePattern.ritualExpectedDesc>
+</LanguageData>

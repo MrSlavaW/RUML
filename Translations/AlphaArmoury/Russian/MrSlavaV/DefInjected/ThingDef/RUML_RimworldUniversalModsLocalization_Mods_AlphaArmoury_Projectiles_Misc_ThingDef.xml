@@ -1,0 +1,73 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Projectiles\Projectiles_Misc.xml -->
+
+	<!-- EN: sound burst -->
+	<AArmoury_Sonic.label>звуковой импульс</AArmoury_Sonic.label>
+
+	<!-- EN: mini-rocket -->
+	<AArmoury_MiniRocket.label>мини-ракета</AArmoury_MiniRocket.label>
+	<AArmoury_MiniRocketBolt.label>мини-ракета</AArmoury_MiniRocketBolt.label>
+	<AArmoury_MiniRocketSniper.label>мини-ракета</AArmoury_MiniRocketSniper.label>
+
+	<!-- EN: shrapnel -->
+	<AArmoury_Bullet_Shrapnel.label>шрапнель</AArmoury_Bullet_Shrapnel.label>
+
+	<!-- EN: laser shot -->
+	<AArmoury_Bullet_LaserRifle.label>лазерный выстрел</AArmoury_Bullet_LaserRifle.label>
+	<!-- EN: A focused laser beam. -->
+	<AArmoury_Bullet_LaserRifle.description>Сфокусированный лазерный луч.</AArmoury_Bullet_LaserRifle.description>
+
+	<!-- EN: thermal blast -->
+	<AArmoury_ThermalBlasts.label>термический импульс</AArmoury_ThermalBlasts.label>
+
+	<!-- EN: needle -->
+	<AArmoury_NeedleProjectiles_LMG.label>игла</AArmoury_NeedleProjectiles_LMG.label>
+
+	<!-- EN: chain tesla bolt -->
+	<AArmoury_Bullet_Tesla.label>цепной разряд Теслы</AArmoury_Bullet_Tesla.label>
+
+	<!-- EN: net -->
+	<AArmoury_Net.label>сеть</AArmoury_Net.label>
+
+	<!-- EN: needle -->
+	<AArmoury_Syringe.label>игла</AArmoury_Syringe.label>
+
+	<!-- EN: electric potential -->
+	<AArmoury_Electric.label>электрический потенциал</AArmoury_Electric.label>
+
+	<!-- EN: revolver bullet -->
+	<AArmoury_PulseBullet.label>пуля револьвера</AArmoury_PulseBullet.label>
+
+	<!-- EN: healing projectile -->
+	<AArmoury_HealingMinigun.label>лечебный снаряд</AArmoury_HealingMinigun.label>
+
+	<!-- EN: energy discharge -->
+	<AArmoury_Flux_Secondary.label>энергетический разряд</AArmoury_Flux_Secondary.label>
+
+	<!-- EN: cryo ray -->
+	<AArmoury_FrostRay.label>криолуч</AArmoury_FrostRay.label>
+
+	<!-- EN: plasma ray -->
+	<AArmoury_PlasmaRay.label>плазменный луч</AArmoury_PlasmaRay.label>
+
+	<!-- EN: chakram -->
+	<AArmoury_Chakram.label>чакрам</AArmoury_Chakram.label>
+
+	<!-- EN: target locator -->
+	<AArmoury_TargetLocator.label>целеуказатель</AArmoury_TargetLocator.label>
+
+	<!-- EN: repair projectile -->
+	<AArmoury_RepairGun.label>ремонтный снаряд</AArmoury_RepairGun.label>
+
+	<!-- EN: bee -->
+	<AArmoury_BeeBeeGun.label>пчела</AArmoury_BeeBeeGun.label>
+
+	<!-- EN: acid bubble -->
+	<AArmoury_BubbleBurster.label>кислотный пузырь</AArmoury_BubbleBurster.label>
+
+	<!-- EN: voltaic smoke launcher shell -->
+	<AArmoury_Voltaic_Launcher.label>вольтаический дымовой снаряд</AArmoury_Voltaic_Launcher.label>
+
+	<!-- EN: grapple chain -->
+	<AArmoury_GrappleGun.label>гарпунная цепь</AArmoury_GrappleGun.label>
+</LanguageData>

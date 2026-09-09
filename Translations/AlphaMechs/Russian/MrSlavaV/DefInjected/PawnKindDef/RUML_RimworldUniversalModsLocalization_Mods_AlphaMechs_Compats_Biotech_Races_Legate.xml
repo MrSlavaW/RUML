@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Legate.xml -->
+	<!--              EN: legate -->
+	<AM_Mech_Legate.label>легат</AM_Mech_Legate.label>
+	<!--                                 EN: Plural legate -->
+	<AM_Mech_Legate.lifeStages.1.labelPlural>Легаты</AM_Mech_Legate.lifeStages.1.labelPlural>
+<AM_Mech_Legate.lifeStages.0.labelPlural>Легаты</AM_Mech_Legate.lifeStages.0.labelPlural></LanguageData>

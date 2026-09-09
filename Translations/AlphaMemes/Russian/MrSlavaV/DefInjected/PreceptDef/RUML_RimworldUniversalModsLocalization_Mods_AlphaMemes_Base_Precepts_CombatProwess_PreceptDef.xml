@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_CombatProwess.xml -->
+	<!--                        EN: reduced -->
+	<AM_CombatProwess_Reduced.label>уменьшена</AM_CombatProwess_Reduced.label>
+	<!--                              EN: Although we won't hesitate to defend ourselves if the situation warrants it, we have grown dependent on our dryads for our defense. -->
+	<AM_CombatProwess_Reduced.description>Хотя мы, не колеблясь, будем защищаться, если того потребует ситуация, наша защита стала зависеть от наших дриад.</AM_CombatProwess_Reduced.description>
+	<!--                          EN: distance -->
+	<AM_CombatProwess_Increased.label>дальний бой</AM_CombatProwess_Increased.label>
+	<!--                                EN: Sniper rifles, carbines, revolvers, all ranged weapons are our expertise. We will master their use and defend ourselves from anyone who dares oppose us.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Any ranged weapons used by colonists receive a 20% range increase. Mortars and other artillery weapons are not counted as ranged for this purpose. -->
+	<AM_CombatProwess_Increased.description>Снайперские винтовки, карабины, револьверы, все виды оружия дальнего боя - наша специализация. Мы освоим их использование и защитим себя от любого, кто посмеет противостоять нам.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n — Дальность действия любого оружия дальнего боя, используемого поселенцами, увеличивается на 20%. Минометы и другие артиллерийские орудия не учитываются.</AM_CombatProwess_Increased.description>
+	<!--                      EN: melee -->
+	<AM_CombatProwess_Melee.label>ближний бой</AM_CombatProwess_Melee.label>
+	<!--                            EN: Swords, maces, axes, all melee weapons are our expertise. We will master their use and defend ourselves from anyone who dares oppose us.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Any melee attacks by colonists have a 20% stun chance. -->
+	<AM_CombatProwess_Melee.description>Мечи, булавы, топоры, все оружие ближнего боя - наша специализация. Мы освоим их использование и защитим себя от любого, кто посмеет противостоять нам.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Любые атаки поселенцев в ближнем бою имеют 20% шанс оглушения.</AM_CombatProwess_Melee.description>
+</LanguageData>

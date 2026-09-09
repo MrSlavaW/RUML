@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<RS_GeneVault.label>генное хранилище</RS_GeneVault.label>
+	<RS_GeneVault.description>Специализированный криогенный стеллаж повышенной емкости для безопасного и долговечного хранения пакетов генов.</RS_GeneVault.description>
+	<RS_GeneRepository.label>генный депозитарий</RS_GeneRepository.label>
+	<RS_GeneRepository.description>Массивный автоматизированный комплекс для каталогизации и хранения огромного количества генпаков.</RS_GeneRepository.description>
+</LanguageData>

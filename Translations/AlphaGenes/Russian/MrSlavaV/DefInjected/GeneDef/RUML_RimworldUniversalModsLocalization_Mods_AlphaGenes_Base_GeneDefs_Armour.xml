@@ -1,0 +1,33 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Armour.xml -->
+	<!--             EN: fungal skin -->
+	<AG_FungalSkin.label>Грибковая кожа</AG_FungalSkin.label>
+	<!--                   EN: Carriers of this gene have several fungal clumps sprouting from their skin. These fungi cause them no pain and provide a considerable amount of natural armor, at the cost of making them VERY vulnerable to fire. -->
+	<AG_FungalSkin.description>У носителей этого гена на коже растут небольшие грибковые наросты. Они не причиняют боли и обеспечивают заметную естественную броню, но из-за этого носители становятся очень уязвимыми к огню.</AG_FungalSkin.description>
+	<!--                                  EN: +50% blunt and sharp natural armour. +25% injury healing factor. -->
+	<AG_FungalSkin.customEffectDescriptions.0>+50% к природной защите от тупого и режущего урона. +25% к скорости заживления ран.</AG_FungalSkin.customEffectDescriptions.0>
+	<!--                                  EN: Fires will cause permanent wounds. -->
+	<AG_FungalSkin.customEffectDescriptions.1>Огонь вызывает необратимые повреждения.</AG_FungalSkin.customEffectDescriptions.1>
+	<!--            EN: frail skin -->
+	<AG_FrailSkin.label>Хрупкая кожа</AG_FrailSkin.label>
+	<!--                  EN: Carriers of this gene have very frail and thin skin. This confers a small increase to damage received. -->
+	<AG_FrailSkin.description>Носители этого гена обладают очень тонкой и хрупкой кожей. Из-за этого они получают немного больше урона.</AG_FrailSkin.description>
+	<!--              EN: bark skin -->
+	<AG_ArmourMinor.label>Кожа коры</AG_ArmourMinor.label>
+	<!--                    EN: Carriers of this gene have hard, bark-like skin. This confers a small amount of natural armour. -->
+	<AG_ArmourMinor.description>Носители этого гена обладают твёрдой, похожей на кору кожей. Она даёт небольшой объём природной брони.</AG_ArmourMinor.description>
+	<!--                                   EN: +20% blunt and sharp natural armour. -->
+	<AG_ArmourMinor.customEffectDescriptions.0>20% брони.</AG_ArmourMinor.customEffectDescriptions.0>
+	<!--               EN: ferrous skin -->
+	<AG_ArmourMedium.label>Железная кожа</AG_ArmourMedium.label>
+	<!--                     EN: Carriers of this gene have their skin strengthened by a nano-lattice of metallic compounds. This confers a medium amount of natural armour. -->
+	<AG_ArmourMedium.description>Кожа носителей этого гена укреплена наноструктурой металлических соединений.</AG_ArmourMedium.description>
+	<!--                                    EN: +30% blunt and sharp natural armour. -->
+	<AG_ArmourMedium.customEffectDescriptions.0>30% брони</AG_ArmourMedium.customEffectDescriptions.0>
+	<!--              EN: plasteel skin -->
+	<AG_ArmourMajor.label>Пласталевая кожа</AG_ArmourMajor.label>
+	<!--                    EN: Carriers of this gene have their skin strengthened by a plasteel nano-lattice. This confers a great amount of natural armour. -->
+	<AG_ArmourMajor.description>Кожа носителей этого гена усилена пласталевой нанорешёткой. Это даёт значительный объём природной брони.</AG_ArmourMajor.description>
+	<!--                                   EN: +40% blunt and sharp natural armour. -->
+	<AG_ArmourMajor.customEffectDescriptions.0>40% брони.</AG_ArmourMajor.customEffectDescriptions.0>
+</LanguageData>

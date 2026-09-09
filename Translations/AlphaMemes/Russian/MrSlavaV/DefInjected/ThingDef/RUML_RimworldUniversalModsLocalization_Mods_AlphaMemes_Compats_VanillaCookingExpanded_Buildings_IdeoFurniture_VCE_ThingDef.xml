@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaCookingExpanded\Defs\ThingDefs_Buildings\Buildings_IdeoFurniture_VCE.xml -->
+	<!--               EN: banquet table -->
+	<AM_BanquetTable.label>пиршественный стол</AM_BanquetTable.label>
+	<!--                     EN: A grand and sprawling table designed to host feasts fit for a king. It’s not just a place to eat—it’s a centerpiece for celebration, a symbol of abundance, and the heart of any proper gathering. -->
+	<AM_BanquetTable.description>Величественный и просторный стол, предназначенный для пиршеств, достойных короля. Это не просто место для еды — это центральный элемент празднования, символ изобилия и сердце любого достойного сбора.</AM_BanquetTable.description>
+</LanguageData>

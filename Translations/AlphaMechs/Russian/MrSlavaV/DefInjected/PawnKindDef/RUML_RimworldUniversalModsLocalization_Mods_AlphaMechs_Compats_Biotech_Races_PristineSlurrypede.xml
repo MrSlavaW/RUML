@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_PristineSlurrypede.xml -->
+	<!--                          EN: pristine slurrypede -->
+	<AM_Mech_PristineSlurrypede.label>безупречный слиррипед</AM_Mech_PristineSlurrypede.label>
+	<!--                                             EN: Plural pristine slurrypede -->
+	<AM_Mech_PristineSlurrypede.lifeStages.1.labelPlural>Безупречные слиррипеды</AM_Mech_PristineSlurrypede.lifeStages.1.labelPlural>
+<AM_Mech_PristineSlurrypede.lifeStages.0.labelPlural>Безупречные слиррипеды</AM_Mech_PristineSlurrypede.lifeStages.0.labelPlural></LanguageData>

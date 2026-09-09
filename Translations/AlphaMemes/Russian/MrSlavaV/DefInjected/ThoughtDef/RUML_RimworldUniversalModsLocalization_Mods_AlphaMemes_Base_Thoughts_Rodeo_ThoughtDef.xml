@@ -1,0 +1,22 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThoughtDefs\Rodeo\Thoughts_Rodeo.xml -->
+	<!--                         EN: disastrous rodeo -->
+	<AM_TerribleRodeo.stages.0.label>катастрофическое родео</AM_TerribleRodeo.stages.0.label>
+	<!--                               EN: The event was chaotic and poorly organized. It was embarrassing and left me feeling disappointed. -->
+	<AM_TerribleRodeo.stages.0.description>Мероприятие было хаотичным и плохо организованным. Это было унизительно и оставило меня разочарованным.</AM_TerribleRodeo.stages.0.description>
+	
+	<!--                       EN: underwhelming rodeo -->
+	<AM_BoringRodeo.stages.0.label>невыразительное родео</AM_BoringRodeo.stages.0.label>
+	<!--                             EN: The energy was low, and the performance lacked the excitement I was hoping for. -->
+	<AM_BoringRodeo.stages.0.description>Энергия была низкой, а выступление недоставало воодушевления, на которое я надеялся.</AM_BoringRodeo.stages.0.description>
+	
+	<!--                    EN: thrilling rodeo -->
+	<AM_FunRodeo.stages.0.label>захватывающее родео</AM_FunRodeo.stages.0.label>
+	<!--                          EN: The performances were energetic, and the crowd's excitement was contagious. I had a great time. -->
+	<AM_FunRodeo.stages.0.description>Выступления были энергичными, а восторг толпы был заразительным. Я получил массу удовольствия.</AM_FunRodeo.stages.0.description>
+	
+	<!--                              EN: legendary rodeo -->
+	<AM_UnforgettableRodeo.stages.0.label>легендарное родео</AM_UnforgettableRodeo.stages.0.label>
+	<!--                                    EN: The event was electrifying and unforgettable. It was one of the greatest moments in our colony's history! -->
+	<AM_UnforgettableRodeo.stages.0.description>Мероприятие было захватывающим и незабываемым. Это был один из величайших моментов в истории нашем поселении!</AM_UnforgettableRodeo.stages.0.description>
+</LanguageData>

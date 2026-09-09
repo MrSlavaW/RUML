@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_AnimalSlaughter.xml -->
+	<!--                          EN: desired -->
+	<AM_AnimalSlaughter_Desired.label>желаем</AM_AnimalSlaughter_Desired.label>
+	<!--                                EN: The abominable genetically modified creations of humanity must be culled. We have no compunctions about consuming their flesh, as long as we are hunting them in the wild. -->
+	<AM_AnimalSlaughter_Desired.description>Отвратительные генетически модифицированные создания человечества должны быть уничтожены. У нас нет угрызений совести по поводу употребления их плоти, пока мы охотимся на них в дикой природе.</AM_AnimalSlaughter_Desired.description>
+	<!--                                        EN: Someone slaughtered an animal -->
+	<AM_AnimalSlaughter_Desired.comps.1.description>Кто-то зарезал животное</AM_AnimalSlaughter_Desired.comps.1.description>
+</LanguageData>

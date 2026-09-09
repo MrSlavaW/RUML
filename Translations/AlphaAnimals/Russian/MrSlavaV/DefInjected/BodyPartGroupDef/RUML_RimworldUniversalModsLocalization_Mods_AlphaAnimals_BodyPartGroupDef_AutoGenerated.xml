@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AA_BladeAttackTool.label>лезвие</AA_BladeAttackTool.label>
+  <AA_Body.label>тело</AA_Body.label>
+  <AA_EyestalkAttackTool.label>стебелёк</AA_EyestalkAttackTool.label>
+  <AA_LocustsA.label>роящаяся саранча</AA_LocustsA.label>
+  <AA_LocustsB.label>роящаяся саранча</AA_LocustsB.label>
+  <AA_LocustsC.label>роящаяся саранча</AA_LocustsC.label>
+  <AA_LocustsD.label>роящаяся саранча</AA_LocustsD.label>
+  <AA_MechaClaws.label>механические когти</AA_MechaClaws.label>
+  <AA_Mouth.label>рот</AA_Mouth.label>
+  <AA_NoseBlade.label>носовое лезвие</AA_NoseBlade.label>
+  <AA_PincerAttackTool.label>клешня</AA_PincerAttackTool.label>
+  <AA_SmallButterflyA.label>бабочки</AA_SmallButterflyA.label>
+  <AA_SmallButterflyB.label>бабочки</AA_SmallButterflyB.label>
+  <AA_SmallButterflyC.label>бабочки</AA_SmallButterflyC.label>
+  <AA_SmallButterflyD.label>бабочки</AA_SmallButterflyD.label>
+  <AA_Sting.label>жало</AA_Sting.label>
+  <AA_Tail.label>хвост</AA_Tail.label>
+  <AA_TentacleAttackTool.label>щупальце</AA_TentacleAttackTool.label>
+  <AA_WingBlades.label>крылья-лезвия</AA_WingBlades.label>
+  <LegAttackTool.label>нога</LegAttackTool.label>
+  <TuskAttackTool.label>бивень</TuskAttackTool.label>
+</LanguageData>

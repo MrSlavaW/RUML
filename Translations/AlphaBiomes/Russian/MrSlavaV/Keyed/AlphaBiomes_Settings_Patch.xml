@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AB_UseAgariluxParticlesDesc>Гриб Агарилюкс Прайм в Микотических джунглях испускает облако крайне опасных спор, наносящих урон всему живому. Если вам не нравится эта механика, ее можно отключить этой опцией.</AB_UseAgariluxParticlesDesc>
+  <AB_RemoveVanillaBiomesDesc>Включение этой опции позволяет сгенерировать полностью чужеродную планету, используя исключительно модовые биомы.</AB_RemoveVanillaBiomesDesc>
+  <AB_RemoveOdysseyBiomes>Убрать биомы Odyssey</AB_RemoveOdysseyBiomes>
+  <AB_RemoveOdysseyBiomesDesc>Включение этой опции исключит появление биомов дополнения Odyssey.</AB_RemoveOdysseyBiomesDesc>
+  <AB_ShowBuildingsButton>Показывать кнопку «постройки биома» в меню мебели</AB_ShowBuildingsButton>
+  <AB_ShowBuildingsButtonDescription>По умолчанию в меню архитектора («Мебель») отображается кнопка для постройки уникальных биомных сооружений. Ее можно скрыть при необходимости.\n\nТребуется перезапуск игры.</AB_ShowBuildingsButtonDescription>
+  <AB_BiomeCommonalities>Частота генерации биомов. Установите на 0, чтобы полностью отключить появление биома:</AB_BiomeCommonalities>
+  <AB_MutatorMultiplier>Множитель частоты модификаторов карты (требуется новый мир)</AB_MutatorMultiplier>
+  <AB_MutatorMultiplierTooltip>Частота появления элементов на обычных картах будет умножена на это число. Требует генерации новой планеты!</AB_MutatorMultiplierTooltip>
+  <AB_LandmarkMutatorMultiplier>Частота ориентиров на карте (требуется новый мир)</AB_LandmarkMutatorMultiplier>
+  <AB_LandmarkMutatorMultiplierTooltip>Частота появления ориентиров на карте будет умножена на это число. Требует генерации новой планеты!</AB_LandmarkMutatorMultiplierTooltip>
+  <AB_SpecificMutatorCommonalities>Частота конкретных модификаторов:</AB_SpecificMutatorCommonalities>
+  
+  <AB_AncientFreezingVentShutdown>Запечатать древнее морозное жерло</AB_AncientFreezingVentShutdown>
+  <AB_AncientFreezingVentStartUp>Древние морозные жерла активизировались, понижая температуру вокруг.</AB_AncientFreezingVentStartUp>
+  <AB_AncientFreezingVentActive>извергает ледяной воздух.</AB_AncientFreezingVentActive>
+  
+  <AB_AncientGreyPallVentStartUp>Древние жерла серой пелены активизировались, выбрасывая удушливый густой дым.</AB_AncientGreyPallVentStartUp>
+  <AB_AncientGreyPallVentShutdown>Древние жерла серой пелены затихают.</AB_AncientGreyPallVentShutdown>
+  <AB_AncientGreyPallVentActive>выбрасывает удушливый сероватый дым.</AB_AncientGreyPallVentActive>
+  
+  <AB_AncientBloodRainVentStartUp>Активировать древнее жерло кровавого дождя</AB_AncientBloodRainVentStartUp>
+  <AB_AncientBloodRainVentShutdown>Древние жерла кровавого дождя затихают.</AB_AncientBloodRainVentShutdown>
+  <AB_AncientBloodRainVentActive>выбрасывает кроваво-красный пар.</AB_AncientBloodRainVentActive>
+  
+  <AB_AncientDeathPallVentStartUp>Древние жерла пелены смерти активизировались, извергая облако реанимирующих трупы архитов.</AB_AncientDeathPallVentStartUp>
+  <AB_AncientDeathPallVentShutdown>Древние жерла пелены смерти затихают.</AB_AncientDeathPallVentShutdown>
+  <AB_AncientDeathPallVentActive>выбрасывает облако оживляющих мертвецов архитов.</AB_AncientDeathPallVentActive>
+  
+  <AB_Distance_Generic_Fifteen>15 клеток</AB_Distance_Generic_Fifteen>
+  <AB_Distance_Propane>Пропановые насосы должны располагаться минимум в 12 клетках друг от друга</AB_Distance_Propane>
+  <AB_ExtractPropane>Добыть 150 ед. пропана</AB_ExtractPropane>
+  <AB_ExtractPropaneDesc>Добывать пропан из подземных резервуаров.</AB_ExtractPropaneDesc>
+  
+  <AB_PropaneValve>Переключить подачу пропана вкл/выкл.</AB_PropaneValve>
+  <AB_PropaneValveDesc>Переключает подачу пропана. Колонист придет, чтобы открыть или перекрыть вентиль.</AB_PropaneValveDesc>
+  
+  <AB_ConvertToAlcyonite>Модифицировать солнечную панель</AB_ConvertToAlcyonite>
+  <AB_ConvertToAlcyoniteDesc>Улучшить эту солнечную панель с помощью альционита: она будет работать на 50% эффективнее в условиях красного тумана.</AB_ConvertToAlcyoniteDesc>
+  <AB_AlcyoniteSolarPanels>Улучшить солнечные панели</AB_AlcyoniteSolarPanels>
+  <AB_AlcyoniteSolarPanelsDescription>В этом биоме можно улучшать солнечные панели альционитом, увеличивая выработку на 50% во время красного тумана.</AB_AlcyoniteSolarPanelsDescription>
+  <AB_AlcyoniteSolarPanels_NotBuildable>Для создания сначала постройте стандартную солнечную панель, затем используйте кнопку «Модифицировать солнечную панель»</AB_AlcyoniteSolarPanels_NotBuildable>
+  
+  <AB_SlimeCompressorNotWorking>Этот компрессор слизи в данный момент не работает</AB_SlimeCompressorNotWorking>
+  <AB_BiomeBuildings>постройки биома</AB_BiomeBuildings>
+  <AB_BiomeBuildingsDesc>Открыть меню уникальных построек этого биома.</AB_BiomeBuildingsDesc>
+  <AM_CurrentBiome>Текущий биом:</AM_CurrentBiome>
+  <AM_AvailableStructures>Доступные постройки для этого биома:</AM_AvailableStructures>
+  <AM_None>Нет</AM_None>
+  <AB_ResearchNeeded>Нельзя построить, пока поселение не исследует технологию: {0}</AB_ResearchNeeded>
+  <AB_FeaturesInThisTile>Особенности этого сектора:</AB_FeaturesInThisTile>
+  <AB_AmbientRadiationLabel>Мутация от фонового излучения для {0}</AB_AmbientRadiationLabel>
+  <AB_AmbientRadiationDesc>Из-за фонового излучения в этой местности {0} получает мутацию: {1}</AB_AmbientRadiationDesc>
+  <AB_Reset_Plain>Сброс</AB_Reset_Plain>
+  <AB_TabImage>Изображение</AB_TabImage>
+</LanguageData>

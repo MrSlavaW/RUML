@@ -1,0 +1,5 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\OcularFuneral.xml -->
+	<!--                                    EN: Once a {IDEO} member dies, other {MEMBERS} witness {RITUAL_labelDef} to see the deceased turned into a beautiful beast of corruption -->
+	<AM_OcularFuneralPattern.ritualExpectedDesc>Как только участник {IDEO} умирает, другие {УЧАСТНИКИ} становятся свидетелями {RITUAL_labelDef}, чтобы увидеть, как покойный превращается в прекрасного испорченного зверя</AM_OcularFuneralPattern.ritualExpectedDesc>
+</LanguageData>

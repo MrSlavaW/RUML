@@ -1,0 +1,7 @@
+﻿<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Hands.xml -->
+	<!--              EN: clawed hands -->
+	<AG_ClawedHands.label>когтистые руки</AG_ClawedHands.label>
+	<!--                    EN: Carriers of this gene have clawed hands ending in viciously sharpened nails. This reduces manipulation, but gives them a melee combat bonus. -->
+	<AG_ClawedHands.description>Носители этого гена обладают когтистыми руками с острыми, злобно заточенными когтями. Это снижает манипуляцию, но даёт преимущество в ближнем бою.</AG_ClawedHands.description>
+</LanguageData>

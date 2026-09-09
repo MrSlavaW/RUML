@@ -1,0 +1,8 @@
+<LanguageData>
+	<!-- 1.6\Mods\AlphaPrefabs\Defs\PreceptDefs\Precepts_AlphaPrefabs.xml -->
+	
+	<!--                                  EN: acquired new prefab -->
+	<AM_PrefabBuying_Preferred.stages.0.label>приобрел новый префаб</AM_PrefabBuying_Preferred.stages.0.label>
+	<!--                                        EN: We bought an awesome new prefab from a trader! We should deploy it and see what's inside! -->
+	<AM_PrefabBuying_Preferred.stages.0.description>Купили у трейдера потрясающий новый Префаб! Нам следует развернуть его и посмотреть, что внутри!</AM_PrefabBuying_Preferred.stages.0.description>
+</LanguageData>

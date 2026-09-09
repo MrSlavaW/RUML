@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Buildings\Buildings_Special.xml -->
+	<!--                 EN: animal database -->
+	<AM_AnimalDatabase.label>база данных животных</AM_AnimalDatabase.label>
+	<!--                       EN: An animal database containing detailed data of all scanned animals.\n\nIf the database gets somehow destroyed it will lose all its data, so you'd better protect it well.\n\nIt will display a total database completion on its infobox. Bear in mind you ABSOLUTELY do not need 100% completion, as it will most likely be impossible to attain, especially if you are using modded animals that only appear under special circumstances. -->
+	<AM_AnimalDatabase.description>База данных животных, содержащая подробные данные обо всех отсканированных животных.\n\nЕсли база данных каким-либо образом будет уничтожена, она потеряет все свои данные, поэтому лучше ее защитить.\n\nВ информационном окне будет отображаться полное завершение базы данных. Имейте в виду, что вам АБСОЛЮТНО не нужно 100% завершение, поскольку его, скорее всего, будет невозможно достичь, особенно если вы используете модифицированных животных, которые появляются только при особых обстоятельствах.</AM_AnimalDatabase.description>
+	
+	<!--              EN: sanguophage radio beacon -->
+	<AM_RaidSpawner.label>радиомаяк гемофагов</AM_RaidSpawner.label>
+	<!--                    EN: This device seems to be emitting weak radio waves. -->
+	<AM_RaidSpawner.description>Это устройство, похоже, излучает слабые радиоволны.</AM_RaidSpawner.description>
+</LanguageData>

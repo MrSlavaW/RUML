@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+<AB_Exploder.label>химтопливные наросты</AB_Exploder.label>
+<AB_Exploder.description>Наросты, наполненные химическим топливом, вызовут взрыв, когда это существо умрёт.</AB_Exploder.description>
+<AB_AnimalTentacle.label>жуткое щупальце из плоти</AB_AnimalTentacle.label>
+<AB_AnimalTentacle.description>Установленное жуткое щупальце из плоти.</AB_AnimalTentacle.description>
+<AB_MalevolentEye.labelNoun>злобный глаз</AB_MalevolentEye.labelNoun>
+<AB_MalevolentEye.description>Злобно выглядящий, налитый кровью глаз появляется из раны, моргает и дико озирается по сторонам. Без лечения он вызовет гниение локальных тканей, что в конечном итоге приведёт к заражению крови и смерти. Однако он позволит поражённому видеть этим глазом.</AB_MalevolentEye.description>
+<AB_Quicksand.label>движение по зыбучим пескам</AB_Quicksand.label>
+<AB_Quicksand.description>Передвижение по зыбучим пескам. Значительно снижает скорость передвижения.</AB_Quicksand.description>
+<AB_ResonanceSoothe.label>резонансное успокоение</AB_ResonanceSoothe.label>
+<AB_ResonanceSoothe.description>Колонист подвергается подсознательному воздействию низкочастотных гармоник резонансного приёмника механоидов. Сигналы стресса в мозге подавляются, улучшая концентрацию и эмоциональную устойчивость.</AB_ResonanceSoothe.description>
+
+</LanguageData>
+
+
+

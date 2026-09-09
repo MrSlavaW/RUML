@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\Ludeon_RimWorld_Biotech\AlphaAnimalsPatch20.xml -->
+	<!--                              EN: disgusting nutrient paste meal -->
+	<AM_DisgustingMealNutrientPaste.label>отвратительная питательная паста</AM_DisgustingMealNutrientPaste.label>
+	<!--                                    EN: A synthetic mixture of protein, carbohydrates, and vitamins, amino acids and minerals. Everything the body needs, and absolutely disgusting. This paste is EVEN more disgusting than the paste produced by a nutrient paste dispenser, and people will just outright hate eating it. It was cheap, though!\n\nThis slurry is edible for carnivore and omnivore animals, but barely, and completely indigestible for herbivores. -->
+	<AM_DisgustingMealNutrientPaste.description>Синтетическая смесь белков, углеводов, витаминов, аминокислот и минералов. Все, что нужно организму, и абсолютно отвратительно. Эта паста ДАЖЕ более отвратительна, чем паста, производимая дозатором питательной пасты, и люди просто возненавидят ее есть. Хотя это было дешево!\n\nЭта жижа съедобна плотоядным и всеядным животным, но едва и совершенно непереваривается для травоядных.</AM_DisgustingMealNutrientPaste.description>
+</LanguageData>

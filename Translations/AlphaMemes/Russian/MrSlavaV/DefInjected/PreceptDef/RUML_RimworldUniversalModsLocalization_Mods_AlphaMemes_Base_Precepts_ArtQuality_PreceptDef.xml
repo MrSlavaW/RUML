@@ -1,0 +1,22 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_ArtQuality.xml -->
+	
+	<!--                      EN: expected -->
+	<AM_ArtQuality_Expected.label>ожидается</AM_ArtQuality_Expected.label>
+	<!--                            EN: The true work of art is but a shadow of divine perfection. There is no valid excuse for shoddily executed art, and we shouldn't have to suffer it.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonists with "High" expectations or higher will demand high quality art. Art quality will be averaged between all art pieces present in the colony. -->
+	<AM_ArtQuality_Expected.description>Истинное произведение искусства — лишь тень божественного совершенства. Нет веских оправданий для некачественно выполненного искусства, и мы не должны страдать от этого.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Поселенцы с «Высокими» ожиданиями или выше будут требовать искусство высокого качества. Качество искусства будет усреднено между всеми произведениями искусства, присутствующими в поселении.</AM_ArtQuality_Expected.description>
+	<!--                                                   EN: Awful art -->
+	<AM_ArtQuality_Expected.comps.0.thoughtStageDescriptions.0>Ужасное искусство</AM_ArtQuality_Expected.comps.0.thoughtStageDescriptions.0>
+	<!--                                                   EN: Poor art -->
+	<AM_ArtQuality_Expected.comps.0.thoughtStageDescriptions.1>Плохое искусство</AM_ArtQuality_Expected.comps.0.thoughtStageDescriptions.1>
+	<!--                                                   EN: Normal art -->
+	<AM_ArtQuality_Expected.comps.0.thoughtStageDescriptions.2>Нормальное искусство</AM_ArtQuality_Expected.comps.0.thoughtStageDescriptions.2>
+	<!--                                                   EN: Good art -->
+	<AM_ArtQuality_Expected.comps.0.thoughtStageDescriptions.3>Хорошее искусство</AM_ArtQuality_Expected.comps.0.thoughtStageDescriptions.3>
+	<!--                                                   EN: Excellent art -->
+	<AM_ArtQuality_Expected.comps.0.thoughtStageDescriptions.4>Отличное искусство</AM_ArtQuality_Expected.comps.0.thoughtStageDescriptions.4>
+	<!--                                                   EN: Masterwork art -->
+	<AM_ArtQuality_Expected.comps.0.thoughtStageDescriptions.5>Шедевр искусства</AM_ArtQuality_Expected.comps.0.thoughtStageDescriptions.5>
+	<!--                                                   EN: Legendary art -->
+	<AM_ArtQuality_Expected.comps.0.thoughtStageDescriptions.6>Легендарное искусство</AM_ArtQuality_Expected.comps.0.thoughtStageDescriptions.6>
+</LanguageData>

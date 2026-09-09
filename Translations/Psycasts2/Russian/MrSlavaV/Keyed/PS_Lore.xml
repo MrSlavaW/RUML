@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<PS_Tier_Awakened>Пробужденный</PS_Tier_Awakened>
+	<PS_Tier_Enlightened>Просветленный</PS_Tier_Enlightened>
+	<PS_Tier_Illuminated>Озаренный</PS_Tier_Illuminated>
+	<PS_TierTranscendent>Трансцендентный {0}</PS_TierTranscendent>
+	<PS_LetterAwakeningLabel>Психическое пробуждение</PS_LetterAwakeningLabel>
+	<PS_LetterAwakenMeditationText>{0} пробуждается как псионик. Выберите начальное древо путей.</PS_LetterAwakenMeditationText>
+	<PS_LetterAwakenExternalText>{0} пробуждается как псионик. Выберите начальное древо путей.</PS_LetterAwakenExternalText>
+	<PS_LetterJoinPsycasterLabel>Псионик без пути</PS_LetterJoinPsycasterLabel>
+	<PS_LetterJoinPsycasterText>{0} обладает пси-связью, но никогда не следовал пути. Теперь, когда колонист с вами, сделайте этот выбор за него.</PS_LetterJoinPsycasterText>
+	<PS_LetterAwakenSurgeText>{0} пробуждается как псионик. Выберите начальное древо путей.</PS_LetterAwakenSurgeText>
+	<PS_LetterEnlightenment>Просветление: {0}</PS_LetterEnlightenment>
+	<PS_LetterElevatedSilent>{0} возвышается до ступени: {1}. Новые пути и силы наполняют разум.</PS_LetterElevatedSilent>
+	<PS_LetterElevatedTowardText>{0} возвышается к ступени: {1}. Открывается новый путь способностей.</PS_LetterElevatedTowardText>
+	<PS_LetterTranscendence>Трансцендентность: {0}</PS_LetterTranscendence>
+	<PS_LetterTranscendText>{0} совершает трансцендентный переход ({1}), превосходя ступень Озаренного. Потенциал раскрывается глубже, открывая новый путь.</PS_LetterTranscendText>
+	<PS_LetterFlowLabel>Поток древних знаний</PS_LetterFlowLabel>
+	<PS_LetterFlowText>{0} наполняется потоком древних знаний во время медитации — внезапная вспышка мастерства дает целый уровень.</PS_LetterFlowText>
+	<PS_LetterOverloadLabel>Психическая перегрузка</PS_LetterOverloadLabel>
+	<PS_LetterOverloadText>{0} заходит слишком далеко в медитации и впадает в психическую кому на {1}.</PS_LetterOverloadText>
+	<PS_MsgStirring>{0} ощущает пробуждение древних знаний во время медитации.</PS_MsgStirring>
+	<PS_CardReroll>Продолжать медитировать — обновить карты (риск комы)</PS_CardReroll>
+	<PS_CardHoldForNow>Отложить выбор на потом</PS_CardHoldForNow>
+	<PS_CardConfirmTitle>Подтвердить путь</PS_CardConfirmTitle>
+	<PS_CardConfirmBody>Выбрать путь {0}? Это определит ваше следующее направление развития псионики.</PS_CardConfirmBody>
+	<PS_PilgrimSiteLetterLabel>Паломничество: {0}</PS_PilgrimSiteLetterLabel>
+	<PS_PilgrimSiteLetterText>Псионику {0} явилось видение священного места. Отправьте караван, чтобы совершить ритуал и получить ступень Просветления.</PS_PilgrimSiteLetterText>
+</LanguageData>

@@ -1,0 +1,22 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThoughtDefs\Baptism\Thoughts_Baptism.xml -->
+	<!--                           EN: blasphemous baptism -->
+	<AM_TerribleBaptism.stages.0.label>кощунственное крещение</AM_TerribleBaptism.stages.0.label>
+	<!--                                 EN: The ritual was an affront to the holiness of water. This desecration will linger in my thoughts. -->
+	<AM_TerribleBaptism.stages.0.description>Ритуал был оскорблением святости воды. Это осквернение будет преследовать меня.</AM_TerribleBaptism.stages.0.description>
+	
+	<!--                         EN: underwhelming baptism -->
+	<AM_BoringBaptism.stages.0.label>невыразительное крещение</AM_BoringBaptism.stages.0.label>
+	<!--                               EN: The ceremony lacked the spirit and grace it deserved. It felt hollow and uninspired. -->
+	<AM_BoringBaptism.stages.0.description>Церемония недоставала духа и грации, которой она заслуживала. Она казалась пустой и невдохновляющей.</AM_BoringBaptism.stages.0.description>
+	
+	<!--                      EN: refreshing baptism -->
+	<AM_FunBaptism.stages.0.label>освежающее крещение</AM_FunBaptism.stages.0.label>
+	<!--                            EN: That was a delightful moment of connection with the holy water. It left me feeling renewed. -->
+	<AM_FunBaptism.stages.0.description>Это был приятный момент единения со святой водой. Он оставил меня чувствующим себя обновленным.</AM_FunBaptism.stages.0.description>
+	
+	<!--                                EN: transcendent baptism -->
+	<AM_UnforgettableBaptism.stages.0.label>восхитительное крещение</AM_UnforgettableBaptism.stages.0.label>
+	<!--                                      EN: This ritual was a profound experience, an unforgettable communion with the sacred flow of life. -->
+	<AM_UnforgettableBaptism.stages.0.description>Этот ритуал был глубоким опытом, незабываемым общением с священным потоком жизни.</AM_UnforgettableBaptism.stages.0.description>
+</LanguageData>

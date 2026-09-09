@@ -1,0 +1,14 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaGeneticsExpanded\Defs\RitualDefs\ExtractorFuneral.xml -->
+	
+	<!--                                                 EN: Spectators must be alive. -->
+	<GR_ExtractorFuneralBehavior.spectatorFilter.description>Зрители должны быть живы.</GR_ExtractorFuneralBehavior.spectatorFilter.description>
+	<!--                                   EN: speaker -->
+	<GR_ExtractorFuneralBehavior.roles.0.label>оратор</GR_ExtractorFuneralBehavior.roles.0.label>
+	<!--                                   EN: Corpse -->
+	<GR_ExtractorFuneralBehavior.roles.1.label>Труп</GR_ExtractorFuneralBehavior.roles.1.label>
+	<!--                                   EN: crafter -->
+	<GR_ExtractorFuneralBehavior.roles.2.label>ремесленник</GR_ExtractorFuneralBehavior.roles.2.label>
+	<!--                                              EN: {0}: The speech is over, and the extraction is beginning. -->
+	<GR_ExtractorFuneralBehavior.stages.1.postAction.text>{0}: речь окончена, и начинается извлечение.</GR_ExtractorFuneralBehavior.stages.1.postAction.text>
+</LanguageData>

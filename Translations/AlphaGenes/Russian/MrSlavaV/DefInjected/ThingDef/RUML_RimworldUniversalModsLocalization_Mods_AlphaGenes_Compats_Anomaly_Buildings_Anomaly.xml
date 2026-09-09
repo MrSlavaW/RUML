@@ -1,0 +1,35 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\ThingDefs_Buildings\Buildings_Anomaly.xml -->
+	<!--           EN: gray wall -->
+	<AG_GrayWall.label>серая стена</AG_GrayWall.label>
+	<!--                 EN: An impassable gray wall. Capable of holding up a roof. -->
+	<AG_GrayWall.description>Непроходимая серая стена. Способна удерживать крышу.</AG_GrayWall.description>
+	<!--           EN: gray door -->
+	<AG_GrayDoor.label>серая дверь</AG_GrayDoor.label>
+	<!--                 EN: Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of. -->
+	<AG_GrayDoor.description>Разделяет помещения. Простые двери приходится открывать вручную, что замедляет проход. Насколько сильно — зависит от материала.</AG_GrayDoor.description>
+	<!--             EN: gray statue -->
+	<AG_GrayStatue.label>серая статуя</AG_GrayStatue.label>
+	<!--                   EN: A strange, twisted sculpture shaped into a disturbing form. It hums gently with some strange internal energy. -->
+	<AG_GrayStatue.description>Странная, искривлённая скульптура тревожной формы. Она тихо гудит, источая странную внутреннюю энергию.</AG_GrayStatue.description>
+	<!--               EN: floor etching -->
+	<AG_FloorEtching.label>напольная гравировка</AG_FloorEtching.label>
+	<!--                     EN: A crude sketch drawn onto the ground. -->
+	<AG_FloorEtching.description>Грубый рисунок, начерченный на полу.</AG_FloorEtching.description>
+	<!--                 EN: endless pit -->
+	<AG_EndlessPit2x2c.label>бездонная яма</AG_EndlessPit2x2c.label>
+	<!--                       EN: A smooth-sided hole that extends endlessly downwards. -->
+	<AG_EndlessPit2x2c.description>Бездонная яма с гладкими стенками.</AG_EndlessPit2x2c.description>
+	<!--                 EN: endless pit -->
+	<AG_EndlessPit3x2c.label>бездонная яма</AG_EndlessPit3x2c.label>
+	<!--                       EN: A smooth-sided hole that extends endlessly downwards. -->
+	<AG_EndlessPit3x2c.description>Бездонная яма с гладкими стенками.</AG_EndlessPit3x2c.description>
+	<!--                 EN: endless pit -->
+	<AG_EndlessPit3x3c.label>бездонная яма</AG_EndlessPit3x3c.label>
+	<!--                       EN: A smooth-sided hole that extends endlessly downwards. -->
+	<AG_EndlessPit3x3c.description>Бездонная яма с гладкими стенками.</AG_EndlessPit3x3c.description>
+	<!--          EN: gray box -->
+	<AG_GrayBox.label>серый ящик</AG_GrayBox.label>
+	<!--                EN: An empty, strange gray container. It is featureless and the surfaces are smooth. The material is not metal, concrete, or any other identifiable material. -->
+	<AG_GrayBox.description>Пустой странный серый ящик. На нём нет ни единой детали, а все поверхности идеально гладкие. Материал не похож ни на металл, ни на бетон, ни на что-либо ещё знакомое.</AG_GrayBox.description>
+</LanguageData>

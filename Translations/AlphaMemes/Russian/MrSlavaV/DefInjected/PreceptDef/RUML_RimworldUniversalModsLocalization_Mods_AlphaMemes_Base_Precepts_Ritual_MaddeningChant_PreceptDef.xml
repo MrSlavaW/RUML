@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Ritual_MaddeningChant.xml -->
+	<!--                        EN: maddening chant -->
+	<AM_MaddeningChantPrecept.label>сводящее с ума пение</AM_MaddeningChantPrecept.label>
+	<!--                              EN: A maddening chant. Participants will suffer an immediate mental breakdown. -->
+	<AM_MaddeningChantPrecept.description>Сводящее с ума пение. Участников ждет немедленный психический срыв.</AM_MaddeningChantPrecept.description>
+</LanguageData>

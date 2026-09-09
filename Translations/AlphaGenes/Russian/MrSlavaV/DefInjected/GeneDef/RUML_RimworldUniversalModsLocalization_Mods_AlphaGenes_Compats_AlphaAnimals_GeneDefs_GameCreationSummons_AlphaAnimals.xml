@@ -1,0 +1,35 @@
+<LanguageData>
+	<!-- 1.6\Mods\AlphaAnimals\Defs\GeneDefs\GeneDefs_GameCreationSummons_AlphaAnimals.xml -->
+	<!--                       EN: fission mouse affinity -->
+	<AG_FissionMouseAffinity.label>Крысиный король</AG_FissionMouseAffinity.label>
+	<!--                             EN: Carriers of this gene attract fission mice, and a tame horde of these critters is constantly surrounding them. -->
+	<AG_FissionMouseAffinity.description>Носители этого гена привлекают мышей-делителей, и их постоянно окружает ручная орда этих тварей.</AG_FissionMouseAffinity.description>
+	<!--                                            EN: Begins play with 3 tamed fission mice. -->
+	<AG_FissionMouseAffinity.customEffectDescriptions.0>Начинает игру с 3 ручными мышами-делителями.</AG_FissionMouseAffinity.customEffectDescriptions.0>
+	<!--                                            EN: This gene can only be chosen (and only has effects) at character creation. It won't appear during gameplay. -->
+	<AG_FissionMouseAffinity.customEffectDescriptions.1>Этот ген может быть выбран (и действует) только при создании персонажа. Он не появится во время игры.</AG_FissionMouseAffinity.customEffectDescriptions.1>
+	<!--                     EN: needleroll affinity -->
+	<AG_NeedlerollAffinity.label>укротитель иглокожих</AG_NeedlerollAffinity.label>
+	<!--                           EN: Carriers of this gene attract needlerolls, and a tame horde of these critters is constantly surrounding them. -->
+	<AG_NeedlerollAffinity.description>Носители этого гена привлекают иглокожих, и их постоянно окружает ручная орда этих тварей.</AG_NeedlerollAffinity.description>
+	<!--                                          EN: Begins play with 3 tamed needlerolls. -->
+	<AG_NeedlerollAffinity.customEffectDescriptions.0>Начинает игру с 3 ручными иглокожами.</AG_NeedlerollAffinity.customEffectDescriptions.0>
+	<!--                                          EN: This gene can only be chosen (and only has effects) at character creation. It won't appear during gameplay. -->
+	<AG_NeedlerollAffinity.customEffectDescriptions.1>Этот ген может быть выбран (и действует) только при создании персонажа. Он не появится во время игры.</AG_NeedlerollAffinity.customEffectDescriptions.1>
+	<!--                      EN: ocular affinity -->
+	<AG_OcularJellyAffinity.label>Укротитель Окуляра</AG_OcularJellyAffinity.label>
+	<!--                            EN: Carriers of this gene have pierced the veil between realities and accessed an extradimensional realm of pure madness. -->
+	<AG_OcularJellyAffinity.description>Носители этого гена преодолели завесу между реальностями и получили доступ к внепространственному царству чистого безумия.</AG_OcularJellyAffinity.description>
+	<!--                                           EN: Begins play with a tamed ocular jelly. -->
+	<AG_OcularJellyAffinity.customEffectDescriptions.0>Начинает игру с ручным окулярным студнем.</AG_OcularJellyAffinity.customEffectDescriptions.0>
+	<!--                                           EN: This gene can only be chosen (and only has effects) at character creation. It won't appear during gameplay. -->
+	<AG_OcularJellyAffinity.customEffectDescriptions.1>Этот ген может быть выбран (и действует) только при создании персонажа. Он не появится во время игры.</AG_OcularJellyAffinity.customEffectDescriptions.1>
+	<!--              EN: ave affinity -->
+	<AG_AveAffinity.label>Укротитель лугового авеню</AG_AveAffinity.label>
+	<!--                    EN: Carriers of this gene have a mystical psychic bond with a meadow ave. -->
+	<AG_AveAffinity.description>Носители этого гена имеют мистическую психическую связь с луговым авеню.</AG_AveAffinity.description>
+	<!--                                   EN: Begins play with a tamed meadow ave. -->
+	<AG_AveAffinity.customEffectDescriptions.0>Начинает игру с ручной луговой авой.</AG_AveAffinity.customEffectDescriptions.0>
+	<!--                                   EN: This gene can only be chosen (and only has effects) at character creation. It won't appear during gameplay. -->
+	<AG_AveAffinity.customEffectDescriptions.1>Этот ген может быть выбран (и действует) только при создании персонажа. Он не появится во время игры.</AG_AveAffinity.customEffectDescriptions.1>
+</LanguageData>

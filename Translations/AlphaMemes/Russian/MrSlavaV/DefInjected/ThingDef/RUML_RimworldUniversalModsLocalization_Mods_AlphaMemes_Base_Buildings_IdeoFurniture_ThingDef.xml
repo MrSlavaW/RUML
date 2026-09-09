@@ -1,0 +1,92 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Buildings\Buildings_IdeoFurniture.xml -->
+	<!--               EN: stone-framed bedroll -->
+	<AM_StoneBedroll.label>спальный мешок с каменным каркасом</AM_StoneBedroll.label>
+	<!--                     EN: A cozy mattress and sheets on a frame for resting. -->
+	<AM_StoneBedroll.description>Уютный матрас на каркасе и простыни для отдыха.</AM_StoneBedroll.description>
+	
+	<!--                     EN: double stone-framed bedroll -->
+	<AM_DoubleStoneBedroll.label>двуспальная кровать с каменным каркасом</AM_DoubleStoneBedroll.label>
+	<!--                           EN: A cozy mattress and sheets on a frame for resting. -->
+	<AM_DoubleStoneBedroll.description>Уютный матрас и простыни на каркасе для отдыха.</AM_DoubleStoneBedroll.description>
+	
+	<!--             EN: restored ancient bed -->
+	<AM_AncientBed.label>восстановленная старинная кровать</AM_AncientBed.label>
+	<!--                   EN: An old, rotted mattress on a rusty frame. Restored to be useable, though a bit uncomfortable. -->
+	<AM_AncientBed.description>Старый сгнивший матрас на ржавой раме. Восстановлено, чтобы можно было использовать, хотя и немного неудобно.</AM_AncientBed.description>
+	
+	<!--                   EN: restored ancient double bed -->
+	<AM_AncientDoubleBed.label>восстановленная старинная двуспальная кровать</AM_AncientDoubleBed.label>
+	<!--                         EN: An old, rotted mattress on a rusty frame. Restored to be useable, though a bit uncomfortable. Fits two people. -->
+	<AM_AncientDoubleBed.description>Старый сгнивший матрас на ржавой раме. Восстановлено, чтобы можно было использовать, хотя и немного неудобно. Подходит для двух человек.</AM_AncientDoubleBed.description>
+	
+	<!--                        EN: restored ancient operating table -->
+	<AM_AncientOperatingTable.label>восстановленный старинный операционный стол</AM_AncientOperatingTable.label>
+	<!--                              EN: An ancient bed once used for forgotten surgical operations. Adjustable for a patient and festooned with built-in equipment, it improves medical outcomes over normal beds. Uncomfortable but efficient. -->
+	<AM_AncientOperatingTable.description>Древняя кровать, когда-то использовавшаяся для забытых хирургических операций. Она улучшает медицинские результаты по сравнению с обычными кроватями. Неудобно, но эффективно.</AM_AncientOperatingTable.description>
+	
+	<!--                   EN: ancient razor wire -->
+	<AM_AncientRazorwire.label>древняя колючая проволока</AM_AncientRazorwire.label>
+	<!--                         EN: A piece of ancient razor wire. It has been restored to be useable. Less efficient as cover than a barricade, but easier and less costly to build. -->
+	<AM_AncientRazorwire.description>Кусок древней колючей проволоки. Он был восстановлен, чтобы его можно было использовать. Менее эффективен в качестве укрытия, чем баррикада, но его проще и дешевле построить.</AM_AncientRazorwire.description>
+	
+	<!--               EN: restored ancient fence -->
+	<AM_AncientFence.label>восстановленный старинный забор</AM_AncientFence.label>
+	<!--                     EN: An ancient fence made of reinforced concrete posts joined by concrete panels. -->
+	<AM_AncientFence.description>Старинный забор из железобетонных столбов, соединенных бетонными панелями.</AM_AncientFence.description>
+	
+	<!--                    EN: ancient locker bank -->
+	<AM_AncientLockerBank.label>древний шкафчик банка</AM_AncientLockerBank.label>
+	<!--                          EN: An ancient, rusted bank of lockers. These have been restored to be at least partially functional. Gives a small comfort bonus to all nearby restored ancient beds. Placing more than one locker bank near the same ancient bed has no effect. -->
+	<AM_AncientLockerBank.description>Древний ржавый ряд шкафчиков. Они были восстановлены, чтобы по крайней мере частично функционировать. Дает небольшой бонус комфорта всем ближайшим отреставрированным древним кроватям. Размещение более одного банка шкафчиков рядом с одной и той же древней кроватью не даст никакого эффекта.</AM_AncientLockerBank.description>
+	
+	<!--                                  EN: People eat off tables when chairs are placed facing them. -->
+    <AM_Neolithic_StoneTable_1x2c.description>Люди едят за столом, если перед ним стоят стулья.</AM_Neolithic_StoneTable_1x2c.description>
+    <!--                            EN: crude stone table (1x2) -->
+    <AM_Neolithic_StoneTable_1x2c.label>стол из необработанного камня (1x2)</AM_Neolithic_StoneTable_1x2c.label>
+    
+    <!--                                  EN: People eat off tables when chairs are placed facing them. -->
+    <AM_Neolithic_StoneTable_2x2c.description>Люди едят за столом, если перед ним стоят стулья.</AM_Neolithic_StoneTable_2x2c.description>
+    <!--                            EN: crude stone table (2x2) -->
+    <AM_Neolithic_StoneTable_2x2c.label>стол из необработанного камня (2x2)</AM_Neolithic_StoneTable_2x2c.label>
+    
+    <!--                                  EN: People eat off tables when chairs are placed facing them. -->
+    <AM_Neolithic_StoneTable_2x4c.description>Люди едят за столом, если перед ним стоят стулья.</AM_Neolithic_StoneTable_2x4c.description>
+    <!--                            EN: crude stone table (2x4) -->
+    <AM_Neolithic_StoneTable_2x4c.label>стол из необработанного камня (2x4)</AM_Neolithic_StoneTable_2x4c.label>
+    
+    <!--                                  EN: People eat off tables when chairs are placed facing them. -->
+    <AM_Neolithic_StoneTable_3x3c.description>Люди едят за столом, если перед ним стоят стулья.</AM_Neolithic_StoneTable_3x3c.description>
+    <!--                            EN: crude stone table (3x3) -->
+    <AM_Neolithic_StoneTable_3x3c.label>стол из необработанного камня (3x3)</AM_Neolithic_StoneTable_3x3c.label>
+    
+    <!--                                   EN: People eat off tables when chairs are placed facing them. -->
+    <AM_Neolithic_WoodenTable_1x2c.description>Люди едят за столом, если перед ним стоят стулья.</AM_Neolithic_WoodenTable_1x2c.description>
+    <!--                             EN: crude wooden table (1x2) -->
+    <AM_Neolithic_WoodenTable_1x2c.label>грубый деревянный стол (1x2)</AM_Neolithic_WoodenTable_1x2c.label>
+    
+    <!--                                   EN: People eat off tables when chairs are placed facing them. -->
+    <AM_Neolithic_WoodenTable_2x2c.description>Люди едят за столом, если перед ним стоят стулья.</AM_Neolithic_WoodenTable_2x2c.description>
+    <!--                             EN: crude wooden table (2x2) -->
+    <AM_Neolithic_WoodenTable_2x2c.label>грубый деревянный стол (2x2)</AM_Neolithic_WoodenTable_2x2c.label>
+    
+    <!--                                   EN: People eat off tables when chairs are placed facing them. -->
+    <AM_Neolithic_WoodenTable_2x4c.description>Люди едят за столом, если перед ним стоят стулья.</AM_Neolithic_WoodenTable_2x4c.description>
+    <!--                             EN: crude wooden table (2x4) -->
+    <AM_Neolithic_WoodenTable_2x4c.label>грубый деревянный стол (2x4)</AM_Neolithic_WoodenTable_2x4c.label>
+    
+    <!--                                   EN: People eat off tables when chairs are placed facing them. -->
+    <AM_Neolithic_WoodenTable_3x3c.description>Люди едят за столом, если перед ним стоят стулья.</AM_Neolithic_WoodenTable_3x3c.description>
+	<!--                             EN: crude wooden table (3x3) -->
+	<AM_Neolithic_WoodenTable_3x3c.label>грубый деревянный стол (3x3)</AM_Neolithic_WoodenTable_3x3c.label>
+	
+	<!--                EN: baptismal font -->
+	<AM_BaptismalFont.label>купель для крещения</AM_BaptismalFont.label>
+	<!--                      EN: A sacred basin for cleansing and spiritual rebirth through water rituals. -->
+	<AM_BaptismalFont.description>Священный бассейн для очищения и духовного возрождения с помощью водных ритуалов.</AM_BaptismalFont.description>
+	
+	<!--                     EN: relic smashing altar -->
+	<AM_RelicSmashingAltar.label>алтарь разрушения реликвий</AM_RelicSmashingAltar.label>
+	<!--                           EN: A small bowl with capacity for one relic. Relics can be slotted in the altar to start a relic destruction ritual, but the colonists won't extract the relic from it. -->
+	<AM_RelicSmashingAltar.description>Небольшая чаша, вмещающая одну реликвию. Реликвии можно вставить в алтарь, чтобы начать ритуал уничтожения реликвии, но поселенцы не смогут извлечь реликвию из него.</AM_RelicSmashingAltar.description>
+</LanguageData>

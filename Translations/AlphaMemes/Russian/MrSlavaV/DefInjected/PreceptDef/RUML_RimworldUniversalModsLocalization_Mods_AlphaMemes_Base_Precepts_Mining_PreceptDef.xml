@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Mining.xml -->
+	<!--                       EN: very high -->
+<AB_MiningYield_VeryHigh.label>очень высокий</AB_MiningYield_VeryHigh.label>
+    <!--                             EN: Mining is sacred to us. We devote ourselves to it with absolute focus and reverence, and the earth rewards our dedication with greater abundance.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - 25% of the time, mining will produce small amounts of other random minerals. -->
+    <AB_MiningYield_VeryHigh.description>Добыча для нас священна. Мы предаёмся ей с абсолютной сосредоточенностью и благоговением, и земля вознаграждает нашу преданность большим изобилием.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - В 25% случаев при добыче будут получаться небольшие количества других случайных минералов.</AB_MiningYield_VeryHigh.description>
+</LanguageData>

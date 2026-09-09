@@ -1,0 +1,17 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Armor.xml -->
+	
+<!--                                      EN: naked truth -->
+    <AM_Armour_Forbidden_HappyNude.stages.0.label>нагая истина</AM_Armour_Forbidden_HappyNude.stages.0.label>
+    <!--                                            EN: My body is bare and the truth is clear for all to see. -->
+    <AM_Armour_Forbidden_HappyNude.stages.0.description>Моё тело обнажено, и истина ясна для всех.</AM_Armour_Forbidden_HappyNude.stages.0.description>
+	
+	<!--                           EN: no metallic armor -->
+	<AM_Armour_Expected.stages.0.label>нет металлической брони</AM_Armour_Expected.stages.0.label>
+	<!--                                 EN: You call this protection? I feel naked. -->
+	<AM_Armour_Expected.stages.0.description>Вы называете это защитой? Я чувствую себя {PAWN_gender ? голым : голой}.</AM_Armour_Expected.stages.0.description>
+	<!--                           EN: strong armor -->
+	<AM_Armour_Expected.stages.1.label>крепкая броня</AM_Armour_Expected.stages.1.label>
+	<!--                                 EN: I feel well protected. -->
+	<AM_Armour_Expected.stages.1.description>Я чувствую себя хорошо {PAWN_gender ? защищенным : защищенной}.</AM_Armour_Expected.stages.1.description>
+</LanguageData>

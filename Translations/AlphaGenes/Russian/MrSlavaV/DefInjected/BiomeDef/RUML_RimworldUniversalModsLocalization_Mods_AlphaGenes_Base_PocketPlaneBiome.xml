@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\BiomeDefs\PocketPlaneBiome.xml -->
+	<!--                    EN: nereid pocket plane -->
+	<AG_NereidPocketPlane.label>карманное измерение нереиды</AG_NereidPocketPlane.label>
+	<!--                          EN: An empty extradimensional space -->
+	<AG_NereidPocketPlane.description>Пустое внепространственное убежище.</AG_NereidPocketPlane.description>
+</LanguageData>

@@ -1,0 +1,93 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Weapons\WeaponDefs.xml -->
+	<!--                 EN: forsaken sniper rifle -->
+	<AG_ForsakenSniper.label>Снайперская винтовка Отреченных</AG_ForsakenSniper.label>
+	<!--                       EN: This sniper rifle is prized by Forsaken explorers for its long range and high accuracy. -->
+	<AG_ForsakenSniper.description>Эта снайперская винтовка ценится исследователями Отреченных за дальность стрельбы и высокую точность.</AG_ForsakenSniper.description>
+	<!--                         EN: выстрел -->
+	<AG_ForsakenSniper.verbs.0.label>выстрел</AG_ForsakenSniper.verbs.0.label>
+	<!--                         EN: ствол -->
+	<AG_ForsakenSniper.tools.0.label>ствол</AG_ForsakenSniper.tools.0.label>
+	<!--              EN: forsaken sniper pulse -->
+	<AG_SniperPulse.label>Снайперский импульс</AG_SniperPulse.label>
+	<!--                  EN: forsaken shotgun -->
+	<AG_ForsakenShotgun.label>дробовик Отреченных</AG_ForsakenShotgun.label>
+	<!--                        EN: Forsaken shotgun, great accuracy at short distances and very deadly at close range. -->
+	<AG_ForsakenShotgun.description>Дробовик Отречённых, очень точный на коротких дистанциях и смертоносный вблизи.</AG_ForsakenShotgun.description>
+	<!--                          EN: выстрел -->
+	<AG_ForsakenShotgun.verbs.0.label>выстрел</AG_ForsakenShotgun.verbs.0.label>
+	<!--                          EN: приклад -->
+	<AG_ForsakenShotgun.tools.0.label>приклад</AG_ForsakenShotgun.tools.0.label>
+	<!--                          EN: ствол -->
+	<AG_ForsakenShotgun.tools.1.label>ствол</AG_ForsakenShotgun.tools.1.label>
+	<!--               EN: forsaken shotgun pulse -->
+	<AG_ShotgunPulse.label>импульс дробовика</AG_ShotgunPulse.label>
+	<!--                       EN: forsaken assault rifle -->
+	<AG_ForsakenAssaultRifle.label>штурмовая винтовка Отреченных</AG_ForsakenAssaultRifle.label>
+	<!--                             EN: This Forsaken assault rifle has a rather small calibre cartridge and a long reload time, but has a high burst shot count, high armor penetration and decent accuracy. -->
+	<AG_ForsakenAssaultRifle.description>Штурмовая винтовка Отреченных имеет довольно маленький калибр и долгое время перезарядки, но при этом обладает большим количеством серийных выстрелов, высокой бронепробиваемостью и приличной точностью.</AG_ForsakenAssaultRifle.description>
+	<!--                               EN: выстрел -->
+	<AG_ForsakenAssaultRifle.verbs.0.label>выстрел</AG_ForsakenAssaultRifle.verbs.0.label>
+	<!--                               EN: приклад -->
+	<AG_ForsakenAssaultRifle.tools.0.label>ложа</AG_ForsakenAssaultRifle.tools.0.label>
+	<!--                               EN: ствол -->
+	<AG_ForsakenAssaultRifle.tools.1.label>ствол</AG_ForsakenAssaultRifle.tools.1.label>
+	<!--                            EN: forsaken assault rifle pulse -->
+	<AG_ForsakenAssaultRiflePulse.label>штурмовая винтовка</AG_ForsakenAssaultRiflePulse.label>
+	<!--                    EN: forsaken long blade -->
+	<AG_ForsakenLongBlade.label>длинный клинок Отреченных</AG_ForsakenLongBlade.label>
+	<!--                          EN: This Forsaken long sword takes little effort to lift and swing but can deal substantial damage. -->
+	<AG_ForsakenLongBlade.description>Этот длинный клинок Отреченных не требует особых усилий для поднятия и взмаха, но способен нанести значительный урон.</AG_ForsakenLongBlade.description>
+	<!--                            EN: рукоять -->
+	<AG_ForsakenLongBlade.tools.0.label>рукоять</AG_ForsakenLongBlade.tools.0.label>
+	<!--                            EN: острие -->
+	<AG_ForsakenLongBlade.tools.1.label>острие</AG_ForsakenLongBlade.tools.1.label>
+	<!--                            EN: кромка -->
+	<AG_ForsakenLongBlade.tools.2.label>кромка</AG_ForsakenLongBlade.tools.2.label>
+	<!--                    EN: forsaken battle axe -->
+	<AG_ForsakenBattleAxe.label>боевой топор Отреченных</AG_ForsakenBattleAxe.label>
+	<!--                          EN: The traditional Forsaken battle axe deals a lot of damage on impact, at the cost of unwealdy shape and weight. -->
+	<AG_ForsakenBattleAxe.description>Традиционный боевой топор Отречённых наносит большой урон при ударе, за счёт неудобной формы и веса.</AG_ForsakenBattleAxe.description>
+	<!--                            EN: рукоять -->
+	<AG_ForsakenBattleAxe.tools.0.label>рукоять</AG_ForsakenBattleAxe.tools.0.label>
+	<!--                            EN: топор -->
+	<AG_ForsakenBattleAxe.tools.1.label>топор</AG_ForsakenBattleAxe.tools.1.label>
+	<!--                            EN: кромка -->
+	<AG_ForsakenBattleAxe.tools.2.label>кромка</AG_ForsakenBattleAxe.tools.2.label>
+	<!--                    EN: forsaken bulk sword -->
+	<AG_ForsakenBulkSword.label>Большой меч Отреченных</AG_ForsakenBulkSword.label>
+	<!--                          EN: A Forsaken equivalent of the gladius, common sidearms among Forsaken infantry. Terrible armor penetration, but easy to handle. -->
+	<AG_ForsakenBulkSword.description>Аналог гладиуса у Отречённых, распространённое оружие их пехоты. Броню пробивает слабо, но прост в обращении.</AG_ForsakenBulkSword.description>
+	<!--                            EN: рукоять -->
+	<AG_ForsakenBulkSword.tools.0.label>рукоять</AG_ForsakenBulkSword.tools.0.label>
+	<!--                            EN: топор -->
+	<AG_ForsakenBulkSword.tools.1.label>топор</AG_ForsakenBulkSword.tools.1.label>
+	<!--                            EN: кромка -->
+	<AG_ForsakenBulkSword.tools.2.label>кромка</AG_ForsakenBulkSword.tools.2.label>
+	<!--                EN: forsaken spear -->
+	<AG_ForsakenSpear.label>копье Отреченных</AG_ForsakenSpear.label>
+	<!--                      EN: A Forsaken spear. Deals great damage, but can be difficult to handle. -->
+	<AG_ForsakenSpear.description>Копьё Отречённых. Наносит большой урон, но требует сноровки в обращении.</AG_ForsakenSpear.description>
+	<!--                        EN: древко -->
+	<AG_ForsakenSpear.tools.0.label>древко</AG_ForsakenSpear.tools.0.label>
+	<!--                        EN: острие -->
+	<AG_ForsakenSpear.tools.1.label>острие</AG_ForsakenSpear.tools.1.label>
+	<!--              EN: forsaken bow -->
+	<AG_ForsakenBow.label>лук Отреченных</AG_ForsakenBow.label>
+	<!--                    EN: This traditional Forsaken bow is very accurate and can deal decent damage. Its sharp edges make it usable in melee combat. -->
+	<AG_ForsakenBow.description>Этот традиционный лук Отречённых очень точен и способен нанести приличный урон. Острые края делают его пригодным для ближнего боя.</AG_ForsakenBow.description>
+	<!--                      EN: выстрел -->
+	<AG_ForsakenBow.verbs.0.label>выстрел</AG_ForsakenBow.verbs.0.label>
+	<!--                      EN: limb -->
+	<AG_ForsakenBow.tools.0.label>Клинок</AG_ForsakenBow.tools.0.label>
+	<!--                EN: forsaken arrow -->
+	<AG_ForsakenArrow.label>отреченная стрела</AG_ForsakenArrow.label>
+	<!--                EN: forsaken black hydra -->
+	<AG_ForsakenHydra.label>черная гидра Отреченных</AG_ForsakenHydra.label>
+	<!--                      EN: The Forsaken Black Hydra is a special weapon system that draws lightning to the point of fire, due to an ionized electrocloud detonator. Legend says these weapons needed to contain the heart of a hydra to function. -->
+	<AG_ForsakenHydra.description>Черная Гидра - это особая система оружия, которая притягивает молнию к месту выстрела благодаря ионизированному электрооблачному детонатору. Легенда гласит, что для работы этого оружия необходимо было сердце гидры.</AG_ForsakenHydra.description>
+	<!--                        EN: выстрел -->
+	<AG_ForsakenHydra.verbs.0.label>выстрел</AG_ForsakenHydra.verbs.0.label>
+	<!--                    EN: Hydra Blast -->
+	<AG_Bullet_HydraBlast.label>Взрыв гидры</AG_Bullet_HydraBlast.label>
+</LanguageData>

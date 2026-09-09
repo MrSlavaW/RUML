@@ -1,0 +1,5 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\SkyBurial.xml -->
+	<!--                                EN: Once a {IDEO} member dies, other {MEMBERS} witnesss {RITUAL_labelDef} to send off their friend to nature -->
+	<AM_SkyBurialPattern.ritualExpectedDesc>Когда член {IDEO} умирает, другие {MEMBERS} становятся свидетелями того, как {RITUAL_labelDef} отправляют своего друга на природу</AM_SkyBurialPattern.ritualExpectedDesc>
+</LanguageData>

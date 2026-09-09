@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\Flagellation\Ritual_Behaviors_Flagellation.xml -->
+<!--                               EN: speaker -->
+    <AM_FlagellationBehavior.roles.0.label>оратор</AM_FlagellationBehavior.roles.0.label>
+    <!--                               EN: flagellant -->
+    <AM_FlagellationBehavior.roles.1.label>флагеллант</AM_FlagellationBehavior.roles.1.label>
+    <!--                                 EN: Participants -->
+    <AM_FlagellationBehavior.spectatorsLabel>Участники</AM_FlagellationBehavior.spectatorsLabel>
+    <!--                                 EN: participate -->
+    <AM_FlagellationBehavior.spectatorGerund>участвовать</AM_FlagellationBehavior.spectatorGerund>
+</LanguageData>

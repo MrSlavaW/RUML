@@ -1,0 +1,16 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaFactionsPirates\Defs\RitualDefs\DreadnoughtFuneral.xml -->
+	
+	<!--                                                   EN: Spectators must be alive. -->
+	<AM_DreadnoughtFuneralBehavior.spectatorFilter.description>Зрители должны быть живы.</AM_DreadnoughtFuneralBehavior.spectatorFilter.description>
+	<!--                                     EN: speaker -->
+	<AM_DreadnoughtFuneralBehavior.roles.0.label>оратор</AM_DreadnoughtFuneralBehavior.roles.0.label>
+	<!--                                     EN: Corpse -->
+	<AM_DreadnoughtFuneralBehavior.roles.1.label>Труп</AM_DreadnoughtFuneralBehavior.roles.1.label>
+	<!--                                     EN: apothecary (any colonist) -->
+	<AM_DreadnoughtFuneralBehavior.roles.2.label>Аптекарь</AM_DreadnoughtFuneralBehavior.roles.2.label>
+	<!--                                                    EN: Unable to retrieve materials -->
+	<AM_DreadnoughtFuneralBehavior.stages.0.failTriggers.0.desc>Не удалось получить материалы</AM_DreadnoughtFuneralBehavior.stages.0.failTriggers.0.desc>
+	<!--                                                EN: {0}: The speech is over, and the welding has commenced. -->
+	<AM_DreadnoughtFuneralBehavior.stages.1.postAction.text>{0}: Речь окончена, сварка началась.</AM_DreadnoughtFuneralBehavior.stages.1.postAction.text>
+</LanguageData>

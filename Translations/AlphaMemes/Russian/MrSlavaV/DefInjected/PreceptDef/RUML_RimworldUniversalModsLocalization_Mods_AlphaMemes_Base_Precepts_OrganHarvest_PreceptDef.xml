@@ -1,0 +1,10 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_OrganHarvest.xml -->
+	
+	<!--                     EN: torturous -->
+	<AM_OrganUse_Torturous.label>мучения</AM_OrganUse_Torturous.label>
+	<!--                           EN: Harvesting the organs of a still-living enemy is exquisite torture that should be encouraged. -->
+	<AM_OrganUse_Torturous.description>Извлечение органов у еще живого врага — это изысканная пытка, которую следует поощрять.</AM_OrganUse_Torturous.description>
+	<!--                                   EN: Someone harvested an organ -->
+	<AM_OrganUse_Torturous.comps.2.description>Кто-то извлек орган</AM_OrganUse_Torturous.comps.2.description>
+</LanguageData>

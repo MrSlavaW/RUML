@@ -1,0 +1,21 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\GeneDefs\GeneDefs_ShoulderCritters_Anomaly.xml -->
+	<!--               EN: flesh spitter -->
+	<AG_FleshSpitter.label>плотеплюй</AG_FleshSpitter.label>
+	<!--                     EN: Carriers of this gene have a grotesque, cancerous growth on their shoulder thaT can spit acid on its own volition. -->
+	<AG_FleshSpitter.description>Носители этого гена обладают уродливым раковым наростом на плече, который самопроизвольно плюётся кислотой.</AG_FleshSpitter.description>
+	<!--                                            EN: Fresh, Rotting -->
+	<AG_FleshSpitter.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_FleshSpitter.renderNodeProperties.0.rotDrawMode>
+	<!--            EN: flesh bulb -->
+	<AG_FleshBulb.label>плотешар</AG_FleshBulb.label>
+	<!--                  EN: Carriers of this gene have a grotesque, cancerous growth on their shoulder that can launch luminous flesh bulbs that act as disruptor flares. -->
+	<AG_FleshBulb.description>На плече носителя вырастает уродливый раковый нарост, выпускающий светящиеся плотешары, которые действуют как дизрапторные ракеты.</AG_FleshBulb.description>
+	<!--                                         EN: Fresh, Rotting -->
+	<AG_FleshBulb.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_FleshBulb.renderNodeProperties.0.rotDrawMode>
+	<!--            EN: flesh sack -->
+	<AG_FleshSack.label>плотемешок</AG_FleshSack.label>
+	<!--                  EN: Carriers of this gene have a grotesque, cancerous growth on their shoulder that can absorb flesh beasts and empower the carrier for a short while. -->
+	<AG_FleshSack.description>Носители этого гена обладают уродливым раковым наростом на плече, который может поглощать зверей из плоти и ненадолго усиливать носителя.</AG_FleshSack.description>
+	<!--                                         EN: Fresh, Rotting -->
+	<AG_FleshSack.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_FleshSack.renderNodeProperties.0.rotDrawMode>
+</LanguageData>

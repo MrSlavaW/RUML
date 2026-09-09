@@ -1,0 +1,23 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\PreceptDefs\Precepts_LovinFrequency.xml -->
+	
+	<!--                           EN: exuberant -->
+	<AM_LovinFrequency_Exuberant.label>буйная</AM_LovinFrequency_Exuberant.label>
+	<!--                                 EN: Passion flows freely among us, a celebration of life and connection. -->
+	<AM_LovinFrequency_Exuberant.description>Страсть свободно течет среди нас, как празднование жизни и связи.</AM_LovinFrequency_Exuberant.description>
+	
+	<!--                           EN: increased -->
+	<AM_LovinFrequency_Increased.label>увеличенная</AM_LovinFrequency_Increased.label>
+	<!--                                 EN: The bonds between partners are strengthened through frequent expressions of intimacy. -->
+	<AM_LovinFrequency_Increased.description>Связь между партнерами укрепляется через частые проявления близости.</AM_LovinFrequency_Increased.description>
+	
+	<!--                        EN: normal -->
+	<AM_LovinFrequency_Normal.label>нормальная</AM_LovinFrequency_Normal.label>
+	<!--                              EN: Intimacy is a natural part of life, best enjoyed in moderation. -->
+	<AM_LovinFrequency_Normal.description>Близость — естественная часть жизни, которую лучше всего наслаждаться в меру.</AM_LovinFrequency_Normal.description>
+	
+	<!--                           EN: decreased -->
+	<AM_LovinFrequency_Decreased.label>уменьшенная</AM_LovinFrequency_Decreased.label>
+	<!--                                 EN: While intimacy is important, it need not be a constant focus. By placing our energy elsewhere, we find fulfillment in other aspects of life. -->
+	<AM_LovinFrequency_Decreased.description>Хотя близость важна, она не должна быть постоянным фокусом. Направляя нашу энергию в другие области, мы находим удовлетворение в других аспектах жизни.</AM_LovinFrequency_Decreased.description>
+</LanguageData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<CAT_Footwear_EltexBoots.label>элтексовые сапоги</CAT_Footwear_EltexBoots.label>
+	<CAT_Footwear_EltexBoots.description>Пара сапог, пронизанных особыми материалами для фокусировки пси-энергии. Хотя они слабо защищают от физического урона, они заметно усиливают пси-способности владельца и ускоряют рассеивание нейроперегрева.</CAT_Footwear_EltexBoots.description>
+	<CAT_Footwear_ReconBoots.label>разведывательные сапоги</CAT_Footwear_ReconBoots.label>
+	<CAT_Footwear_ReconBoots.description>Пара легких сапог силовой брони со стратегически расположенными пласталевыми пластинами и сервоприводами. Их относительно малый вес позволяет сервоприводам работать без малейших задержек.</CAT_Footwear_ReconBoots.description>
+	<CAT_Footwear_HeavyMarineBoots.label>тяжелые сапоги силовой брони</CAT_Footwear_HeavyMarineBoots.label>
+	<CAT_Footwear_HeavyMarineBoots.description>Пара тяжелых сапог силовой брони, покрытых толстыми пласталевыми пластинами и оснащенных мощными сервоприводами. Их прочная конструкция и внушительный вес обеспечивают отличную устойчивость.</CAT_Footwear_HeavyMarineBoots.description>
+	<CAT_Footwear_EnsignBoots.label>офицерские сапоги</CAT_Footwear_EnsignBoots.label>
+	<CAT_Footwear_EnsignBoots.description>Пара передовых легких сапог силовой брони с пласталевыми пластинами, эффективно защищающими ключевые зоны стопы. Встроенные тепловые экраны обеспечивают надежную защиту от ожогов, а сложные сервоприводы позволяют выполнять маневры уклонения.</CAT_Footwear_EnsignBoots.description>
+	<CAT_Footwear_CrusaderBoots.label>сабатоны крестоносца</CAT_Footwear_CrusaderBoots.label>
+	<CAT_Footwear_CrusaderBoots.description>Пара сверхтяжелых сапог силовой брони, покрытых усиленными пласталевыми пластинами, способными остановить даже самые тяжелые снаряды.\n\nМногочисленные сервоприводы сохраняют подвижность владельца, а встроенная гидравлика обеспечивает непревзойденную устойчивость и повышает переносимый вес.</CAT_Footwear_CrusaderBoots.description>
+	<CAT_Footwear_FlakBoots.label>бронесапоги</CAT_Footwear_FlakBoots.label>
+	<CAT_Footwear_FlakBoots.description>Пара крепких сапог со стальными пластинами, прикрывающими пальцы и подъем стопы. Слегка сковывают движения, но обеспечивают хорошую защиту и вполне удобны при ношении.</CAT_Footwear_FlakBoots.description>
+	<CAT_Footwear_RiotBoots.label>полицейские сапоги</CAT_Footwear_RiotBoots.label>
+	<CAT_Footwear_RiotBoots.description>Пара сапог, усиленных демпфирующими накладками. Несколько громоздки, но отлично защищают пальцы ног от дробящих травм, что особенно полезно при усмирении буйных заключенных.</CAT_Footwear_RiotBoots.description>
+	<CAT_Footwear_VacsuitBoots.label>скафандровые сапоги</CAT_Footwear_VacsuitBoots.label>
+	<CAT_Footwear_VacsuitBoots.description>Защитные сапоги, частично защищающие владельца от космического вакуума. Содержат гравитационные стабилизаторы, сохраняющие равновесие при запуске грав-корабля и облегчающие пилотирование.</CAT_Footwear_VacsuitBoots.description>
+</LanguageData>

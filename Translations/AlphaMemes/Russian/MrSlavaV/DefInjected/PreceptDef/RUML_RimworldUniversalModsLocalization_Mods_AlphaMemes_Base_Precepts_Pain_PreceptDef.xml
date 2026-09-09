@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Pain.xml -->
+<!--                EN: required -->
+    <AM_Pain_Required.label>обязательно</AM_Pain_Required.label>
+    <!--                      EN: To endure nerve-shattering pain is to prove my strength and moral worth. Avoiding it is a sign of weakness. -->
+    <AM_Pain_Required.description>Выносить изматывающую боль — значит доказывать свою силу и моральную стойкость. Избегать её — признак слабости.</AM_Pain_Required.description>
+    <!--                              EN: Pain -->
+    <AM_Pain_Required.comps.0.description>Боль</AM_Pain_Required.comps.0.description>
+    <!--                              EN: No pain (masochist trait) -->
+    <AM_Pain_Required.comps.1.description>Отсутствие боли (черта мазохиста)</AM_Pain_Required.comps.1.description>
+</LanguageData>

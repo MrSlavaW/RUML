@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\PreceptDefs\Precepts_MaternalMortality.xml -->
+	<!--                              EN: nullified -->
+	<AM_MaternalMortality_Nullified.label>нулевая</AM_MaternalMortality_Nullified.label>
+	<!--                                    EN: Through our advancements and careful practices, we have ensured that the dangers of childbirth are a thing of the past. -->
+	<AM_MaternalMortality_Nullified.description>Благодаря нашим достижениям и тщательной практике мы добились того, что опасности, связанные с деторождением, остались в прошлом.</AM_MaternalMortality_Nullified.description>
+</LanguageData>

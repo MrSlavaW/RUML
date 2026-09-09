@@ -1,0 +1,21 @@
+<LanguageData>
+	<AG_Beauty_VeryVeryUgly.label>Уродливый</AG_Beauty_VeryVeryUgly.label>
+	<AG_Beauty_VeryVeryUgly.labelShortAdj>отвратительный</AG_Beauty_VeryVeryUgly.labelShortAdj>
+	<AG_Beauty_VeryVeryUgly.description>Носители этого гена настолько непостижимо уродливы и гротескны, что одного взгляда на них достаточно, чтобы вызвать у других людей тошноту.</AG_Beauty_VeryVeryUgly.description>
+	<AG_Beauty_VeryVeryUgly.customEffectDescriptions.0>Любой поселенец рядом проходящий получит минус к настроению -5,шанс завести отношения 0.</AG_Beauty_VeryVeryUgly.customEffectDescriptions.0>
+	<AG_Beauty_Angelic.label>Ангельская красота</AG_Beauty_Angelic.label>
+	<AG_Beauty_Angelic.labelShortAdj>ангельский</AG_Beauty_Angelic.labelShortAdj>
+	<AG_Beauty_Angelic.description>Носители этого гена обладают неестественной, почти первозданной красотой, которая выделяет их среди себе подобных.</AG_Beauty_Angelic.description>
+	<AG_Beauty_Angelic.customEffectDescriptions.0>Любой другой поселенец поблизости будет получать положительный эффект на настроение, находясь рядом с этой неземной красотой.</AG_Beauty_Angelic.customEffectDescriptions.0>
+	<AG_Beauty_Angelic.customEffectDescriptions.1>НЕВОЗМОЖНО - изуродовать хоть что сделайте все продолжат считать Ангельски красивым.</AG_Beauty_Angelic.customEffectDescriptions.1>
+	<AG_UnsettlingAppearance.label>Тревожный внешний вид</AG_UnsettlingAppearance.label>
+	<AG_UnsettlingAppearance.labelShortAdj>тревожный</AG_UnsettlingAppearance.labelShortAdj>
+	<AG_UnsettlingAppearance.description>Выходя за рамки обыденных представлений о красоте или уродстве, носитель этого гена имеет настолько тревожный внешний вид, что внушает другим людям определенное чувство неловкости.</AG_UnsettlingAppearance.description>
+	<AG_UnsettlingAppearance.customEffectDescriptions.0>ЛЮБОЙ человек без этого гена получит социальный штраф -60 по отношению к людям, у которых он есть.</AG_UnsettlingAppearance.customEffectDescriptions.0>
+	<AG_EldritchVisage.label>Иллитид</AG_EldritchVisage.label>
+	<AG_EldritchVisage.labelShortAdj>сверхъестественный</AG_EldritchVisage.labelShortAdj>
+	<AG_EldritchVisage.description>Носитель этого гена обладает внешностью, которая до глубины души ужасает окружающих. Его будут презирать.\n\nШанс на романтические отношения равен 0.</AG_EldritchVisage.description>
+	<AG_EldritchVisage.customEffectDescriptions.0>Любой, у кого нет этого гена, получает социальный штраф -500 к носителям этого гена, поэтому мнение о них всегда падает до -100.</AG_EldritchVisage.customEffectDescriptions.0>
+	<AG_Teratophilia.label>Тератофилия</AG_Teratophilia.label>
+	<AG_Teratophilia.description>Носителю этого гена безразлична внешность других поселенцев: уродливы они или прекрасны, для него все равны.</AG_Teratophilia.description>
+</LanguageData>

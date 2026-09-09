@@ -1,0 +1,27 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\CryptoSleepFuneral.xml -->
+	
+	<!--                             EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+	<AM_CryptoFuneralOutcome.description>В зависимости от качества ритуала у участников изменится настроение от {MINMOOD} до {MAXMOOD} на {MOODDAYS} дней.</AM_CryptoFuneralOutcome.description>
+	<!--                                        EN: Terrible -->
+	<AM_CryptoFuneralOutcome.outcomeChances.0.label>Ужасный</AM_CryptoFuneralOutcome.outcomeChances.0.label>
+	<!--                                              EN: The {0} was terrible! The speech was boring and it was disrespectful of their legacy. -->
+	<AM_CryptoFuneralOutcome.outcomeChances.0.description>{0} было ужасно! Речь была скучной и неуважительной к их наследию.</AM_CryptoFuneralOutcome.outcomeChances.0.description>
+	<!--                                        EN: Lackluster -->
+	<AM_CryptoFuneralOutcome.outcomeChances.1.label>Тусклый</AM_CryptoFuneralOutcome.outcomeChances.1.label>
+	<!--                                              EN: The {0} was lackluster. The speech was long-winded and did not honour them. -->
+	<AM_CryptoFuneralOutcome.outcomeChances.1.description>{0} был тусклым. Речь была многословной и не удостоила их чести.</AM_CryptoFuneralOutcome.outcomeChances.1.description>
+	<!--                                        EN: Good -->
+	<AM_CryptoFuneralOutcome.outcomeChances.2.label>Хороший</AM_CryptoFuneralOutcome.outcomeChances.2.label>
+	<!--                                              EN: The {0} was good. The speaker's final words provided a path for everyone to move on. -->
+	<AM_CryptoFuneralOutcome.outcomeChances.2.description>{0} было хорошо. Последние слова оратора дали всем возможность двигаться дальше.</AM_CryptoFuneralOutcome.outcomeChances.2.description>
+	<!--                                        EN: Amazing -->
+	<AM_CryptoFuneralOutcome.outcomeChances.3.label>Удивительно</AM_CryptoFuneralOutcome.outcomeChances.3.label>
+	<!--                                              EN: The {0} was heartwarming. The speech was captivating and heartfelt, and everyone came away focused on good memories. -->
+	<AM_CryptoFuneralOutcome.outcomeChances.3.description>{0} было трогательным. Выступление было увлекательным и проникновенным, и все ушли с хорошими воспоминаниями.</AM_CryptoFuneralOutcome.outcomeChances.3.description>
+	<!--                               EN: moral guide present -->
+	<AM_CryptoFuneralOutcome.comps.0.label>присутствует духовный лидер</AM_CryptoFuneralOutcome.comps.0.label>
+	<!--                               EN: participant count -->
+	<AM_CryptoFuneralOutcome.comps.1.label>{0} был довольно эффективным. Они производили гораздо больше питательных веществ, чем можно было бы ожидать.
+количество участников</AM_CryptoFuneralOutcome.comps.1.label>
+</LanguageData>

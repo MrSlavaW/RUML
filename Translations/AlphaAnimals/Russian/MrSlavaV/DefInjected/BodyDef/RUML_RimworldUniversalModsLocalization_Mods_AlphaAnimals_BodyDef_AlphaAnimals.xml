@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AA_Arachnid.label>паукообразное тело</AA_Arachnid.label>
+  <AA_ArmouredSlug.label>бронированный слизняк</AA_ArmouredSlug.label>
+  <AA_Assembler.label>парящий механизм</AA_Assembler.label>
+  <AA_Atispec.label>тело</AA_Atispec.label>
+  <AA_AuraBody.label>аура</AA_AuraBody.label>
+  <AA_Butterfly.label>тело</AA_Butterfly.label>
+  <AA_ClawedSlug.label>слизень</AA_ClawedSlug.label>
+  <AA_Crocodile.label>крокодил</AA_Crocodile.label>
+  <AA_DaggerSnoutBody.label>кинжалорыл</AA_DaggerSnoutBody.label>
+  <AA_DemolisherBody.label>разрушитель</AA_DemolisherBody.label>
+  <AA_DualJawedQuadruped.label>двучелюстное четвероногое</AA_DualJawedQuadruped.label>
+  <AA_DualTentacledQuadrupedWithJowl.label>двущупальцевое четвероногое</AA_DualTentacledQuadrupedWithJowl.label>
+  <AA_ExtraClawedQuadruped.label>коготь</AA_ExtraClawedQuadruped.label>
+  <AA_EyeBody.label>окулярное тело</AA_EyeBody.label>
+  <AA_EyelessQuadruped.label>безглазое четвероногое</AA_EyelessQuadruped.label>
+  <AA_FlyTrap.label>тело</AA_FlyTrap.label>
+  <AA_FourEyedQuadruped.label>четырёхглазое четвероногое</AA_FourEyedQuadruped.label>
+  <AA_GooBody.label>зелёная слизь</AA_GooBody.label>
+  <AA_GooWithTeethBody.label>зелёная слизь</AA_GooWithTeethBody.label>
+  <AA_Hexapod.label>гексапод</AA_Hexapod.label>
+  <AA_JellyfishBoatBody.label>медуза</AA_JellyfishBoatBody.label>
+  <AA_JellyfishBody.label>медуза</AA_JellyfishBody.label>
+  <AA_Locusts.label>саранча</AA_Locusts.label>
+  <AA_NautiloidBody.label>тело</AA_NautiloidBody.label>
+  <AA_NightMuleBody.label>ночной мул</AA_NightMuleBody.label>
+  <AA_NightRamBody.label>ночной баран</AA_NightRamBody.label>
+  <AA_OcularJellyBody.label>окулярное желе</AA_OcularJellyBody.label>
+  <AA_RaptorBody.label>раптор</AA_RaptorBody.label>
+  <AA_RedSporeBody.label>споры</AA_RedSporeBody.label>
+  <AA_ScorpionLike.label>тело</AA_ScorpionLike.label>
+  <AA_SentientPlant.label>тело</AA_SentientPlant.label>
+  <AA_SiegebreakerBody.label>сокрушитель осад</AA_SiegebreakerBody.label>
+  <AA_SixEyedGoat.label>шестиглазый козёл</AA_SixEyedGoat.label>
+  <AA_Slug.label>слизень</AA_Slug.label>
+  <AA_SlurrypedeBody.label>механическая многоножка</AA_SlurrypedeBody.label>
+  <AA_SmallButterfly.label>симбиотическая бабочка</AA_SmallButterfly.label>
+  <AA_Snail.label>улитка</AA_Snail.label>
+  <AA_SnakeWithTwoLimbs.label>Змея с двумя лапками</AA_SnakeWithTwoLimbs.label>
+  <AA_Squid.label>кальмар</AA_Squid.label>
+  <AA_Squid_NoShell.label>кальмар</AA_Squid_NoShell.label>
+  <AA_TentacledQuadruped.label>щупальцевое четвероногое</AA_TentacledQuadruped.label>
+  <AA_TentacledQuadrupedEyeless.label>безглазое щупальцевое животное</AA_TentacledQuadrupedEyeless.label>
+  <AA_TentacledSlug.label>щупальцевый слизняк</AA_TentacledSlug.label>
+  <AA_Wasp.label>тело</AA_Wasp.label>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.label>крылатое четвероногое</AA_WingedQuadrupedAnimalWithPawsAndTail.label>
+  <AA_WormWithArmor.label>бронированный червь</AA_WormWithArmor.label>
+  <AA_WormWithArmorAndTusks.label>бивень</AA_WormWithArmorAndTusks.label>
+  <FO_Nightcallerbody.label>призыватель ночи</FO_Nightcallerbody.label>
+  <FO_ShadowChargerBody.label>теневой таран</FO_ShadowChargerBody.label>
+</LanguageData>

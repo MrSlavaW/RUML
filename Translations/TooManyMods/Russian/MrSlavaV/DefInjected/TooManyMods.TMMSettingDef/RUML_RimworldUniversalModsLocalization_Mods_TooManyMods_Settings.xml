@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<TMM_EquipmentRebalances.label>Ребаланс: снаряжение и экипировка</TMM_EquipmentRebalances.label>
+	<TMM_GeneRebalances.label>Ребаланс: гены</TMM_GeneRebalances.label>
+	<TMM_TraitRebalances.label>Ребаланс: черты характера</TMM_TraitRebalances.label>
+	<TMM_ImplantRebalances.label>Ребаланс: импланты</TMM_ImplantRebalances.label>
+	<TMM_OtherRebalances.label>Ребаланс: прочее</TMM_OtherRebalances.label>
+	<TMM_Biocoding.label>Общее: биокодирование оружия</TMM_Biocoding.label>
+	<TMM_Researchlocks.label>Общее: блокировка исследований</TMM_Researchlocks.label>
+	<TMM_StrongerEnemies.label>Ребаланс: усиленные враги</TMM_StrongerEnemies.label>
+	<TMM_MoreShamblerXenotypes.label>Общее: расширенные ксенотипы бродячих мертвецов</TMM_MoreShamblerXenotypes.label>
+	<TMM_MoodRebalances.label>Ребаланс: настроение и мысли</TMM_MoodRebalances.label>
+	<TMM_NameChanges.label>Общее: унификация названий</TMM_NameChanges.label>
+	<TMM_AutoCapitalizationFix.label>Авто-исправление заглавных букв</TMM_AutoCapitalizationFix.label>
+	<TMM_WingIntegration.label>Общее: интеграция крыльев</TMM_WingIntegration.label>
+	<TMM_HornIntegration.label>Общее: интеграция рогов</TMM_HornIntegration.label>
+	<TMM_TailIntegration.label>Общее: интеграция хвостов</TMM_TailIntegration.label>
+	<TMM_FactionTweaks.label>Общее: настройки фракций</TMM_FactionTweaks.label>
+	<TMM_CraftingTableMerging.label>Общее: объединение производственных столов</TMM_CraftingTableMerging.label>
+	<TMM_StorageTweakes.label>Общее: оптимизация хранилищ</TMM_StorageTweakes.label>
+	<TMM_ModularBionics.label>Общее: модульная бионика</TMM_ModularBionics.label>
+	<TMM_GeneCategoryReallocations.label>Общее: перераспределение категорий генов</TMM_GeneCategoryReallocations.label>
+	<TMM_AG_XenohumanFactions.label>Специфично (Alpha Genes): добавление ксенотипов во фракции ксенолюдей</TMM_AG_XenohumanFactions.label>
+	<TMM_AG_BS_RaidWealth.label>Специфично (Alpha Genes): расчет богатства рейдов из Big and Small</TMM_AG_BS_RaidWealth.label>
+	<TMM_AG_NoCustomGenepack.label>Специфично (Alpha Genes): отключение случайных генпаков</TMM_AG_NoCustomGenepack.label>
+	<TMM_AlphaImplants_Disable_BodyPartDef_GetMaxHealth.label>Специфично (Alpha Implants): расчет прочности частей тела из Alpha Genes</TMM_AlphaImplants_Disable_BodyPartDef_GetMaxHealth.label>
+	<TMM_AUR_OptionalTweaks.label>Специфично (Ancient urban ruins): дополнительные твики</TMM_AUR_OptionalTweaks.label>
+	<TMM_BS_HideBodySizeDescription.label>Специфично (Big and Small): скрывать описание размера тела</TMM_BS_HideBodySizeDescription.label>
+	<TMM_BS_NephilimBeliarIntegration.label>Специфично (Big and Small): интеграция исполинов / белиаров</TMM_BS_NephilimBeliarIntegration.label>
+	<TMM_RB_GlassForLamps.label>Специфично (ReBuild): для ламп требуется стекло</TMM_RB_GlassForLamps.label>
+	<TMM_RS_Disable_Hediff_CurStage_Patch.label>Специфично (ReSplice): отключить патч Hediff_CurStage</TMM_RS_Disable_Hediff_CurStage_Patch.label>
+	<TMM_RSF_HostileCorps.label>Специфично (Rimsenal): корпорации изначально враждебны</TMM_RSF_HostileCorps.label>
+	<TMM_VFEC_OptionalRebalances.label>Специфично (VFE - Classical): опциональный ребаланс</TMM_VFEC_OptionalRebalances.label>
+	<TMM_VFEC_ConcreteIntegration.label>Специфично (VFE - Classical): интеграция бетона</TMM_VFEC_ConcreteIntegration.label>
+	<TMM_VTE_Disable_Pawn_CombinedDisabledWorkTags_Patch.label>Специфично (VFE - Tribals): отключить патч запрещенных работ</TMM_VTE_Disable_Pawn_CombinedDisabledWorkTags_Patch.label>
+	<TMM_VGE_Disable_Patch_HealthScale.label>Специфично (Vanilla Genetics Expanded): отключить Patch_HealthScale</TMM_VGE_Disable_Patch_HealthScale.label>
+	<TMM_VPE_PsycastRebalances.label>Специфично (Vanilla Psycasts Expanded): ребаланс псионики</TMM_VPE_PsycastRebalances.label>
+	<TMM_VPE_KeepMechanoidWeapons.label>Специфично (Vanilla Psycasts Expanded): сохранять оружие механоидов при падении</TMM_VPE_KeepMechanoidWeapons.label>
+	<TMM_VPE_FocusTypeForTraits.label>Специфично (Vanilla Psycasts Expanded): медитативный фокус для черт характера</TMM_VPE_FocusTypeForTraits.label>
+	<TMM_VQEA_HE_HackingIntegration.label>Специфично (Vanilla Quests Expanded - Ancients): интеграция взлома с Hacking Expansion</TMM_VQEA_HE_HackingIntegration.label>
+	<TMM_VREStarjack_WhitelistAstrogenes.label>Специфично (Vanilla Races Expanded - Starjack): разрешенные астрогены</TMM_VREStarjack_WhitelistAstrogenes.label>
+	<TMM_VVE_VehicleTweaks.label>Специфично (Vanilla Vehicles Expanded): баланс техники</TMM_VVE_VehicleTweaks.label>
+	<TMM_WVC_GenepackTweaks.label>Специфично (WVC): твики генпаков (устаревшее)</TMM_WVC_GenepackTweaks.label>
+	<TMM_ResearchMerging1.label>Общее: объединение древних исследований</TMM_ResearchMerging1.label>
+	<TMM_ResearchMerging2.label>Общее: объединение промышленных исследований</TMM_ResearchMerging2.label>
+	<TMM_ResearchMerging3.label>Общее: объединение космических исследований</TMM_ResearchMerging3.label>
+	<TMM_ResearchMerging4.label>Общее: объединение ультратехнологических исследований</TMM_ResearchMerging4.label>
+</LanguageData>

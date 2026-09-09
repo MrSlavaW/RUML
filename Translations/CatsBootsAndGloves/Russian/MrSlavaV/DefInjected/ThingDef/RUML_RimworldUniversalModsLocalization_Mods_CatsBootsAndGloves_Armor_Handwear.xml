@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<CAT_Handwear_EltexGloves.label>элтексовые перчатки</CAT_Handwear_EltexGloves.label>
+	<CAT_Handwear_EltexGloves.description>Пара перчаток с вплетенными нитями пси-фокусирующего материала. Практически не защищают от физических ударов, однако усиливают псионические способности владельца и способствуют рассеиванию нейроперегрева.</CAT_Handwear_EltexGloves.description>
+	<CAT_Handwear_ReconGloves.label>разведывательные перчатки</CAT_Handwear_ReconGloves.label>
+	<CAT_Handwear_ReconGloves.description>Пара легких перчаток силовой брони с пласталевыми пластинами, прикрывающими пальцы и кисть. Тактильные усилители и встроенные нейро-меметические ассистенты помогают быстрее перезаряжать оружие и точнее целиться.</CAT_Handwear_ReconGloves.description>
+	<CAT_Handwear_HeavyMarineGloves.label>тяжелые латные рукавицы</CAT_Handwear_HeavyMarineGloves.label>
+	<CAT_Handwear_HeavyMarineGloves.description>Пара усиленных латных рукавиц силовой брони, защищающих руки от пальцев до предплечья без потери мелкой моторики. Встроенные синхронизаторы рефлексов помогают наносить выверенные и сокрушительные удары.</CAT_Handwear_HeavyMarineGloves.description>
+	<CAT_Handwear_EnsignGloves.label>офицерские перчатки</CAT_Handwear_EnsignGloves.label>
+	<CAT_Handwear_EnsignGloves.description>Пара продвинутых легких перчаток силовой брони. Пласталевые пластины надежно защищают кисть, а встроенная теплозащита оберегает от ожогов. Шумопоглощающая подкладка приглушает движения, а тактильные усилители помогают быстрее перезаряжать оружие и парировать удары.</CAT_Handwear_EnsignGloves.description>
+	<CAT_Handwear_CrusaderGloves.label>латные рукавицы крестоносца</CAT_Handwear_CrusaderGloves.label>
+	<CAT_Handwear_CrusaderGloves.description>Пара сверхтяжелых латных рукавиц силовой брони, закрывающих руку от кончиков пальцев до самого локтя усиленной пласталью.\n\nНейро-меметические ассистенты сохраняют полную подвижность пальцев, а внушительный вес рукавиц усиливает рукопашные атаки и служит естественным компенсатором отдачи оружия.</CAT_Handwear_CrusaderGloves.description>
+	<CAT_Handwear_FlakGloves.label>бронеперчатки</CAT_Handwear_FlakGloves.label>
+	<CAT_Handwear_FlakGloves.description>Пара перчаток со стальными пластинами, защищающими кисть и пальцы. В них несколько неудобно выполнять тонкую работу, но они обеспечивают надежную защиту и комфортны в повседневном ношении.</CAT_Handwear_FlakGloves.description>
+	<CAT_Handwear_RiotGloves.label>полицейские перчатки</CAT_Handwear_RiotGloves.label>
+	<CAT_Handwear_RiotGloves.description>Пара перчаток с амортизирующими накладками. Немного жестковаты, но надежно защищают пальцы от переломов при сильных тупых ударах, что незаменимо при задержании агрессивных пленников.</CAT_Handwear_RiotGloves.description>
+	<CAT_Handwear_VacsuitGloves.label>скафандровые перчатки</CAT_Handwear_VacsuitGloves.label>
+	<CAT_Handwear_VacsuitGloves.description>Защитные перчатки герметичного костюма, предохраняющие руки от воздействия космического вакуума. Оснащены гасителями вибраций, позволяющими твердо удерживать штурвал и инструменты даже во время турбулентного взлета грав-корабля.</CAT_Handwear_VacsuitGloves.description>
+</LanguageData>

@@ -1,0 +1,16 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_OrganHarvest.xml -->
+	
+	<!--                              EN: harvested organ -->
+	<AM_OrganUse_Torturous.stages.0.label>извлеченный орган</AM_OrganUse_Torturous.stages.0.label>
+	<!--                                    EN: I tortured someone and harvested organs while he was still alive. What an exquisite deliverance of suffering. -->
+	<AM_OrganUse_Torturous.stages.0.description>Я {PAWN_gender ? пытал : пытала} кого-то и {PAWN_gender ? извлек : извлекла} органы, пока он был еще жив. Какое изысканное избавление от страданий.</AM_OrganUse_Torturous.stages.0.description>
+	
+	<!--                                   EN: harvested organ -->
+	<AM_OrganUse_Know_Torturous.stages.0.label>извлеченный орган</AM_OrganUse_Know_Torturous.stages.0.label>
+	
+	<!--                                        EN: organ harvested -->
+	<AM_OrganUse_Know_Torturous_Mood.stages.0.label>изъят орган</AM_OrganUse_Know_Torturous_Mood.stages.0.label>
+	<!--                                              EN: A colonist tortured someone and harvested organs while he was still alive. Glorious! -->
+	<AM_OrganUse_Know_Torturous_Mood.stages.0.description>Поселенец пытал кого-то и извлек органы, пока жертва была еще жива. Великолепно!</AM_OrganUse_Know_Torturous_Mood.stages.0.description>
+</LanguageData>

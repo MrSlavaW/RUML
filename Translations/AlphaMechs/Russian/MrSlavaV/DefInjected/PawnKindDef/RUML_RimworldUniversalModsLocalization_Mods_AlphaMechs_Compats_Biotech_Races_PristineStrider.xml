@@ -1,0 +1,8 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_PristineStrider.xml -->
+	<!--                  EN: pristine strider -->
+	<AM_PristineStrider.label>безупречный страйдер</AM_PristineStrider.label>
+	<!--                                     EN: Plural pristine strider -->
+	<AM_PristineStrider.lifeStages.1.labelPlural>Безупречные страйдеры</AM_PristineStrider.lifeStages.1.labelPlural>
+<AM_PristineStrider.lifeStages.0.labelPlural>Безупречные страйдеры</AM_PristineStrider.lifeStages.0.labelPlural></LanguageData>
+

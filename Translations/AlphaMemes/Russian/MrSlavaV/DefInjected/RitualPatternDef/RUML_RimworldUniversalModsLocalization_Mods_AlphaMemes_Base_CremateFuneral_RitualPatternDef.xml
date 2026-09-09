@@ -1,0 +1,5 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\CremateFuneral.xml -->
+	<!--                                     EN: Once a {IDEO} member dies, other {MEMBERS} witnesss {RITUAL_labelDef} return to dust. -->
+	<AM_CremateFuneralPattern.ritualExpectedDesc>Как только член {IDEO} умирает, другие {MEMBERS} свидетели {RITUAL_labelDef} возвращения в прах.</AM_CremateFuneralPattern.ritualExpectedDesc>
+</LanguageData>

@@ -1,0 +1,17 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\ThingDefs_Building\ThingDefs_Buildings_Misc_Cubic.xml -->
+	<!--           EN: cubic bed -->
+	<AM_CubicBed.label>кубическая кровать</AM_CubicBed.label>
+	<!--                 EN: Rest in the loving embrace of the Cube. -->
+	<AM_CubicBed.description>Отдыхайте в любящих объятиях Куба.</AM_CubicBed.description>
+	
+	<!--                 EN: double cubic bed -->
+	<AM_DoubleCubicBed.label>двуспальная кубическая кровать</AM_DoubleCubicBed.label>
+	<!--                       EN: Rest in the loving embrace of the Cube. -->
+	<AM_DoubleCubicBed.description>Отдыхайте в любящих объятиях Куба.</AM_DoubleCubicBed.description>
+	
+	<!--                   EN: cubic hospital bed -->
+	<AM_CubicHospitalBed.label>Кубическая больничная кровать</AM_CubicHospitalBed.label>
+	<!--                         EN: Rest in the loving embrace of the Cube. Specially designed for use in hospitals. Adjustable for a patient and festooned with built-in equipment, it improves medical outcomes over normal beds. -->
+	<AM_CubicHospitalBed.description>Отдохните в любящих объятиях куба. Специально разработанная для использования в больницах. Регулируемая под пациента и оснащенная встроенным оборудованием, она улучшает результаты лечения по сравнению с обычными кроватями.</AM_CubicHospitalBed.description>
+</LanguageData>

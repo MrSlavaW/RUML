@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\JobDefs\Jobs_Misc.xml -->
+	<!--                      EN: installing TargetA in TargetB -->
+	<AM_InstallRelic.reportString>устанавливает TargetA в TargetB</AM_InstallRelic.reportString>
+	<!--                               EN: merging into TargetB. -->
+	<AM_MergeIntoCorruptedPod.reportString>сливается с TargetB.</AM_MergeIntoCorruptedPod.reportString>
+	<!--                             EN: melee. -->
+	<AM_RodeoFalseAttackJob.reportString>рукопашная.</AM_RodeoFalseAttackJob.reportString>
+</LanguageData>

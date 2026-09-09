@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Gender.xml -->
+	<!--       EN: male -->
+	<AG_Male.label>Мужской</AG_Male.label>
+	<!--             EN: Carriers of this gene are always biologically male. -->
+	<AG_Male.description>Носители этого гена всегда биологически являются мужчинами.</AG_Male.description>
+	<!--         EN: female -->
+	<AG_Female.label>Женский</AG_Female.label>
+	<!--               EN: Carriers of this gene are always biologically female. -->
+	<AG_Female.description>Носители этого гена всегда биологически женского пола.</AG_Female.description>
+</LanguageData>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Creatures & Pawns -->
+  <AB_UnshackledCompanionDryad.label>раскрепощенная дриада-спутник</AB_UnshackledCompanionDryad.label>
+  <AB_UnshackledCompanionDryad.description>Каста дриад, приспособленная для универсальной защиты и бытовых задач колонии.</AB_UnshackledCompanionDryad.description>
+
+  <!-- Items & Materials -->
+  <AB_SugarChunk.label>кусок сахара</AB_SugarChunk.label>
+  <AB_SugarChunk.description>Крупный монолит сахара. Его можно разобрать на пищевой сахар.</AB_SugarChunk.description>
+  <AB_WarpedStonePillar.label>искаженная каменная колонна</AB_WarpedStonePillar.label>
+  <AB_WarpedStonePillar.description>Песчаниковая колонна, деформированная в противоестественную форму.</AB_WarpedStonePillar.description>
+  <AB_ObsidianSpire.label>обсидиановый шпиль</AB_ObsidianSpire.label>
+  <AB_ObsidianSpire.description>Огромный монолитный шпиль из цельного черного обсидиана.</AB_ObsidianSpire.description>
+  <AB_NeutroamineSynthetizer.label>синтезатор нейтроамина</AB_NeutroamineSynthetizer.label>
+  <AB_NeutroamineSynthetizer.description>Специализированный синтезатор, извлекающий компоненты нейтроамина из окружающей среды.</AB_NeutroamineSynthetizer.description>
+  <AB_MineableChocolate.label>шоколадная порода</AB_MineableChocolate.label>
+  <AB_MineableChocolate.description>Залежи плотного спрессованного шоколада.</AB_MineableChocolate.description>
+  <AB_SmoothedChocolate.label>гладкая шоколадная порода</AB_SmoothedChocolate.label>
+  <AB_SmoothedChocolate.description>Отшлифованная шоколадная порода. Выглядит странно, но съедобно.</AB_SmoothedChocolate.description>
+  <AB_BoneDistillery.label>костяной бур</AB_BoneDistillery.label>
+  <AB_BoneDistillery.description>Мощный гидравлический бур, предназначенный для бурения древних костяных массивов.</AB_BoneDistillery.description>
+  <AB_Bullet_Shell_Tar.label>смоляной снаряд</AB_Bullet_Shell_Tar.label>
+  <AB_AncientBone_Stuff.label>древняя кость</AB_AncientBone_Stuff.label>
+  <AB_AncientBone_Stuff.description>Прочный строительный материал из останков гигантских доисторических существ.</AB_AncientBone_Stuff.description>
+  <AB_Filth_Propane.label>лужа пропана</AB_Filth_Propane.label>
+  <AB_ExoticSmelterOcular.label>экзотическая плавильня</AB_ExoticSmelterOcular.label>
+  <AB_CrystallineMatrix.label>кристаллическая матрица</AB_CrystallineMatrix.label>
+  <AB_CrystallineMatrix.description>Тонкая решетка из экзотических инопланетных кристаллов. Чрезвычайно прочный материал.</AB_CrystallineMatrix.description>
+  <AB_ProcessedResin.label>обработанная смола</AB_ProcessedResin.label>
+  <AB_ProcessedResin.description>Смола, полученная путем очистки сырой смолы Кордакса.</AB_ProcessedResin.description>
+
+  <!-- Plants & Flora -->
+  <AB_Plant_AnimaCactus_Small.label>малый анима-кактус</AB_Plant_AnimaCactus_Small.label>
+  <AB_Plant_AnimaCactus_Small.description>Небольшой кактус, тронутый пси-энергией древа анима. Слегка гудит от психической активности.</AB_Plant_AnimaCactus_Small.description>
+  <AB_Plant_AnimaCactus_Medium.label>анима-кактус</AB_Plant_AnimaCactus_Medium.label>
+  <AB_Plant_AnimaCactus_Medium.description>Кактус, пропитанный пси-энергией. Наполняет окружающий воздух легким гулом.</AB_Plant_AnimaCactus_Medium.description>
+  <AB_Plant_AnimaCactus_Grand.label>великий анима-кактус</AB_Plant_AnimaCactus_Grand.label>
+  <AB_Plant_AnimaCactus_Grand.description>Величественный кактус, излучающий ощутимое психическое тепло.</AB_Plant_AnimaCactus_Grand.description>
+  <AB_Plant_AnimaPalm.label>анима-пальма</AB_Plant_AnimaPalm.label>
+  <AB_Plant_AnimaPalm.description>Пальма, несущая частицу псионической силы древа анима.</AB_Plant_AnimaPalm.description>
+  <AB_Plant_OcularCactus_Small.label>малый окулярный кактус</AB_Plant_OcularCactus_Small.label>
+  <AB_Plant_OcularCactus_Small.description>Небольшой окулярный кактус. Кажется, он наблюдает за вами.</AB_Plant_OcularCactus_Small.description>
+  <AB_Plant_OcularCactus_Large.label>окулярный кактус</AB_Plant_OcularCactus_Large.label>
+  <AB_Plant_OcularCactus_Large.description>Крупный окулярный кактус с несколькими внимательными глазными яблоками на стебле.</AB_Plant_OcularCactus_Large.description>
+  <AB_DesertBouquet.label>пустынный букет</AB_DesertBouquet.label>
+  <AB_DesertBouquet.description>Колючее пустынное растение с причудливыми мясистыми отростками.</AB_DesertBouquet.description>
+  <AB_Clovers.label>клевер</AB_Clovers.label>
+  <AB_Clovers.description>Низкорослое выносливое растение с характерными резными листьями.</AB_Clovers.description>
+  <AB_Plant_TreeClover.label>клеверное дерево</AB_Plant_TreeClover.label>
+  <AB_Plant_TreeClover.description>Высокое дерево, широкая крона которого сложена из гигантских листьев клевера.</AB_Plant_TreeClover.description>
+  <AB_Plant_TreeLilypad.label>лилейное дерево</AB_Plant_TreeLilypad.label>
+  <AB_Plant_TreeLilypad.description>Необычное дерево с плоскими листьями, напоминающими гигантские речные кувшинки.</AB_Plant_TreeLilypad.description>
+  <AB_Plant_SugarcaneGrass.label>сахарный тростник</AB_Plant_SugarcaneGrass.label>
+  <AB_Plant_SugarcaneGrass.description>Дикая трава, генетически модифицированная для накопления сахарозы.</AB_Plant_SugarcaneGrass.description>
+  <AB_ChocolateTree.label>шоколадное дерево</AB_ChocolateTree.label>
+  <AB_ChocolateTree.description>Странный симбиоз дерева, гриба, взбитых сливок и твердого шоколада.</AB_ChocolateTree.description>
+  <AB_Plant_Lollipops.label>леденцовые цветы</AB_Plant_Lollipops.label>
+  <AB_Plant_Lollipops.description>Странные растения, внешне напоминающие гигантские карамельные леденцы на палочке.</AB_Plant_Lollipops.description>
+  <AB_FleshyTumor.label>мясистая опухоль</AB_FleshyTumor.label>
+  <AB_FleshyTumor.description>Бугристое наростообразное образование из живой плоти, прорастающее прямо из земли.</AB_FleshyTumor.description>
+  <AB_FleshTentacle.label>щупальце из плоти</AB_FleshTentacle.label>
+  <AB_FleshTentacle.description>Извивающееся щупальце из мышечной ткани, вырывающееся из почвы.</AB_FleshTentacle.description>
+  <AB_TentacleGrass.label>щупальцевая трава</AB_TentacleGrass.label>
+  <AB_TentacleGrass.description>Покров из мелких шевелящихся отростков. Выглядит опасно.</AB_TentacleGrass.description>
+  <AB_GauGrass.label>гау-трава</AB_GauGrass.label>
+  <AB_GauGrass.description>Трава теплого оранжевого оттенка, тихо колышущаяся на ветру.</AB_GauGrass.description>
+  <AB_GauMoss.label>малый мох Гауранлен</AB_GauMoss.label>
+  <AB_GauMoss.description>Симбиотический мох, произрастающий в рощах древа Гауранлен.</AB_GauMoss.description>
+  <AB_Plant_GauBush.label>гау-куст</AB_Plant_GauBush.label>
+  <AB_Plant_GauBush.description>Низкорослый оранжевый кустарник с плотными листьями.</AB_Plant_GauBush.description>
+  <AB_Plant_GauBrambles.label>гау-ежевика</AB_Plant_GauBrambles.label>
+  <AB_Plant_GauBrambles.description>Колючие переплетенные побеги, покрытые яркой рыжей листвой.</AB_Plant_GauBrambles.description>
+  <AB_Plant_GiantGauTree.label>исполинское древо Гауранлен</AB_Plant_GiantGauTree.label>
+  <AB_Plant_GiantGauTree.description>Огромный дикий родственник древа Гауранлен с раскидистой золотистой кроной.</AB_Plant_GiantGauTree.description>
+  <AB_BloodGrass.label>кровавая трава</AB_BloodGrass.label>
+  <AB_BloodGrass.description>Алые стебли травы, сочащиеся багровым соком. Выглядит зловеще.</AB_BloodGrass.description>
+  <AB_Plant_MauveBush.label>лиловый куст</AB_Plant_MauveBush.label>
+  <AB_Plant_MauveBush.description>Кустарник с нежными сиренево-лиловыми листьями.</AB_Plant_MauveBush.description>
+  <AB_Plant_MauveBrambles.label>лиловый терновник</AB_Plant_MauveBrambles.label>
+  <AB_Plant_MauveBrambles.description>Колючие заросли кустарника с густой лиловой листвой.</AB_Plant_MauveBrambles.description>
+  <AB_Plant_MauvebloomTree.label>плакучий лиловоцвет</AB_Plant_MauvebloomTree.label>
+  <AB_Plant_MauvebloomTree.description>Изящное дерево со свисающими ветвями и густыми лиловыми соцветиями.</AB_Plant_MauvebloomTree.description>
+  <AB_ToxiGrass_Odyssey.label>токсичная трава</AB_ToxiGrass_Odyssey.label>
+  <AB_ToxiGrass_Odyssey.description>Желтовато-зеленая трава, насыщенная едкими токсинами. Лучше ее не употреблять в пищу.</AB_ToxiGrass_Odyssey.description>
+  <AB_ToxicFlowers.label>токсичные цветы</AB_ToxicFlowers.label>
+  <AB_ToxicFlowers.description>Яркие соцветия, источающие слабое ядовитое испарение.</AB_ToxicFlowers.description>
+  <AB_DryFlowers.label>сухоцветы</AB_DryFlowers.label>
+  <AB_DryFlowers.description>Скромные засухоустойчивые полевые цветы.</AB_DryFlowers.description>
+  <AB_DryFern.label>засушливый папоротник</AB_DryFern.label>
+  <AB_DryFern.description>Папоротник, превосходно адаптированный к жаркому сухому климату.</AB_DryFern.description>
+  <AB_ToxicBush.label>токсичный куст</AB_ToxicBush.label>
+  <AB_ToxicBush.description>Ядовитый кустарник, приспособленный к выживанию в зонах химического заражения.</AB_ToxicBush.description>
+  <AB_GiantTrumpetglory.label>гигантские трубкоцветы</AB_GiantTrumpetglory.label>
+  <AB_GiantTrumpetglory.description>Скопление крупных воронкообразных цветов диковинной окраски.</AB_GiantTrumpetglory.description>
+  <AB_GiantPaleRose.label>гигантские бледные розы</AB_GiantPaleRose.label>
+  <AB_GiantPaleRose.description>Исполинские розы, генетически выведенные древними селекционерами.</AB_GiantPaleRose.description>
+  <AB_GiantToxicFlower_Odyssey.label>гигантский токсичный цветок</AB_GiantToxicFlower_Odyssey.label>
+  <AB_GiantToxicFlower_Odyssey.description>Непрерывно цветущий гигантский цветок с опасным ядовитым венчиком.</AB_GiantToxicFlower_Odyssey.description>
+  <AB_GiantToxicHornbloom.label>гигантский токсичный рогоцвет</AB_GiantToxicHornbloom.label>
+  <AB_GiantToxicHornbloom.description>Крупный ядовитый цветок с роговидными лепестками.</AB_GiantToxicHornbloom.description>
+  <AB_Plant_TreeWillow.label>плакучая ива</AB_Plant_TreeWillow.label>
+  <AB_Plant_TreeWillow.description>Живописное дерево с длинными гибкими ветвями, спускающимися к самой земле.</AB_Plant_TreeWillow.description>
+  <AB_Plant_GinkgoTree.label>дерево гинкго</AB_Plant_GinkgoTree.label>
+  <AB_Plant_GinkgoTree.description>Выносливое реликтовое дерево с характерными веерообразными листьями.</AB_Plant_GinkgoTree.description>
+  <AB_CalcifiedRemnant.label>обызвествленный остаток</AB_CalcifiedRemnant.label>
+  <AB_CalcifiedRemnant.description>Полуживое-полумертвое растение, ткани которого частично превратились в камень.</AB_CalcifiedRemnant.description>
+  <AB_LivingAlcyonite.label>живой альционит</AB_LivingAlcyonite.label>
+  <AB_LivingAlcyonite.description>Кристаллический организм, слабо пульсирующий признаками жизни.</AB_LivingAlcyonite.description>
+  <AB_MechCorruption.label>заражение механоидов</AB_MechCorruption.label>
+  <AB_MechCorruption.description>Следы архотековых наномашин, преобразующих биологическую материю в металл.</AB_MechCorruption.description>
+  <AB_MechNode.label>оскверненный узел механоидов</AB_MechNode.label>
+  <AB_MechNode.description>Инопланетный механизм, генерирующий техногенное заражение вокруг себя.</AB_MechNode.description>
+  <AB_Tooth.label>ложный зуб</AB_Tooth.label>
+  <AB_Tooth.description>Потустороннее растение, вырастающее внутри мраморных решеток в форме зуба.</AB_Tooth.description>
+</LanguageData>

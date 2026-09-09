@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AB_MalevolentEye.stages.0.label>лёгкое</AB_MalevolentEye.stages.0.label>
+  <AB_MalevolentEye.stages.1.label>сильное</AB_MalevolentEye.stages.1.label>
+  <AB_MalevolentEye.stages.2.label>критическое</AB_MalevolentEye.stages.2.label>
+  <AB_MalevolentEye.stages.3.label>критическое</AB_MalevolentEye.stages.3.label>
+  <AB_SporesAllergy_Heightened.stages.0.label>лёгкое</AB_SporesAllergy_Heightened.stages.0.label>
+  <AB_SporesAllergy_Heightened.stages.1.label>сильное</AB_SporesAllergy_Heightened.stages.1.label>
+  <AB_SporesAllergy_Heightened.stages.2.label>критическое</AB_SporesAllergy_Heightened.stages.2.label>
+</LanguageData>

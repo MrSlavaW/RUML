@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<GET_GN_Engineer.label>генный узел: инженер</GET_GN_Engineer.label>
+	<GET_GN_Engineer.description>Специализированный генный процессор, повышающий генетическую сложность и открывающий инженерные модификации.</GET_GN_Engineer.description>
+	<GET_GN_Druid.label>генный узел: друид</GET_GN_Druid.label>
+	<GET_GN_Druid.description>Биоорганический процессор, оптимизирующий природные и растительные гены.</GET_GN_Druid.description>
+</LanguageData>

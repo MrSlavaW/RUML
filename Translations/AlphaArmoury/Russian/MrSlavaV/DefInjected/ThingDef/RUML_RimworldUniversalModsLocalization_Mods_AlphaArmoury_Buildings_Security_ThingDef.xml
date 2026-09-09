@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Buildings\Buildings_Security.xml -->
+
+	<!--             EN: mine -->
+	<AArmoury_Mine.label>мина</AArmoury_Mine.label>
+	<!--                   EN: An anti-personnel mine that will detonate on contact. -->
+	<AArmoury_Mine.description>Противопехотная мина, срабатывающая при контакте.</AArmoury_Mine.description>
+	
+	<!--                 EN: caltrops -->
+	<AArmoury_Caltrops.label>ежи</AArmoury_Caltrops.label>
+	<!--                       EN: Scattered clusters of sharpened spikes designed to wound and slow intruders. They will break down in a short time. -->
+	<AArmoury_Caltrops.description>Разбросанные скопления заострённых шипов, предназначенные для ранения и замедления нарушителей. Со временем разрушаются.</AArmoury_Caltrops.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\Bodies\BodyParts_Mechanoid_Biotech.xml -->
+	<!--              EN: circular saw -->
+	<AM_CircularSaw.label>циркулярная пила</AM_CircularSaw.label>
+	<!--                         EN: metal carapace -->
+	<AM_MechanicalBodyCarapace.label>металлический панцирь</AM_MechanicalBodyCarapace.label>
+	<!--                    EN: hover engine nozzle -->
+	<AM_HoverEngineNozzle.label>сопло двигателя зависания</AM_HoverEngineNozzle.label>
+</LanguageData>

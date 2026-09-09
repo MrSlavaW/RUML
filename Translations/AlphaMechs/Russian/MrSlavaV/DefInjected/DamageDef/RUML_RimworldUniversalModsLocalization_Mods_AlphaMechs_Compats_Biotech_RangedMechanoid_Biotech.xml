@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_Misc\Weapons\RangedMechanoid_Biotech.xml -->
+	<!--               EN: beam -->
+	<AM_PowerfulBeam.label>луч</AM_PowerfulBeam.label>
+	<!--                      EN: {0} has been beamed to death. -->
+	<AM_PowerfulBeam.deathMessage>{0} был телепортирован насмерть.</AM_PowerfulBeam.deathMessage>
+</LanguageData>

@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- 1.6\Mods\Royalty\Defs\PreceptDefs\Precepts_PsychicSensitivity_Royalty.xml -->
+	
+	<!--                              EN: affinity -->
+	<AM_PsychicSensitivity_Affinity.label>близость</AM_PsychicSensitivity_Affinity.label>
+	<!--                                    EN: Our minds will be like a bulwark against the psychic powers. A labyrinth that only the most skilled will be able to navigate.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - A colony starting with this precept will start the gameplay with a free psylink neuroformer. -->
+	<AM_PsychicSensitivity_Affinity.description>Наш разум будет подобен бастиону против психических сил. Лабиринт, в котором смогут пройти только самые опытные.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n — Поселение, начинающее с этим предписанием, начнет игровой процесс с бесплатным нейроформером пси-связи.</AM_PsychicSensitivity_Affinity.description>
+	
+	<!--                                EN: increased -->
+	<AM_PsychicSensitivity_Heightened.label>увеличена</AM_PsychicSensitivity_Heightened.label>
+	<!--                                      EN: Our minds will stay wide open to the vast universe of possibilities we are facing. We are not afraid. -->
+	<AM_PsychicSensitivity_Heightened.description>Наши умы останутся широко открытыми для огромной вселенной возможностей, с которыми мы сталкиваемся. Мы не боимся.</AM_PsychicSensitivity_Heightened.description>
+</LanguageData>

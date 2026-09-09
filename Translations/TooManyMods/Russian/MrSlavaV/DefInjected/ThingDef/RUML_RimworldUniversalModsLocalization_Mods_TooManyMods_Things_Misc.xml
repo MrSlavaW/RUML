@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TMM_RandomBreakfast.description>Сытный завтрак, приготовленный из доступных продуктов.</TMM_RandomBreakfast.description>
+  <TMM_RandomBreakfast.label>случайный завтрак</TMM_RandomBreakfast.label>
+  <TMM_RandomChillDrink.description>Освежающий напиток из случайных ингредиентов.</TMM_RandomChillDrink.description>
+  <TMM_RandomChillDrink.label>случайный прохладительный напиток</TMM_RandomChillDrink.label>
+  <TMM_RandomMealFridge.description>Холодильник, содержащий разнообразные готовые блюда.</TMM_RandomMealFridge.description>
+  <TMM_RandomMealFridge.label>холодильник со случайными блюдами</TMM_RandomMealFridge.label>
+  <TMM_RandomPotPlant.description>Декоративное комнатное растение в глиняном горшке.</TMM_RandomPotPlant.description>
+  <TMM_RandomPotPlant.label>растение в горшке</TMM_RandomPotPlant.label>
+  <TMM_RandomSushi.description>Традиционные суши со случайной начинкой.</TMM_RandomSushi.description>
+  <TMM_RandomSushi.label>случайные суши</TMM_RandomSushi.label>
+  <TMM_RandomSushiFish.description>Свежевыловленная рыба, подготовленная для приготовления суши.</TMM_RandomSushiFish.description>
+  <TMM_RandomSushiFish.label>случайная рыба для суши</TMM_RandomSushiFish.label>
+</LanguageData>

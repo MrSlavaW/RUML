@@ -1,0 +1,8 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\OskarPotocki_VFE_Mechanoid\AdvancedAuraPatch12.xml -->
+	<!--                                       EN: dominion -->
+	<VFE_Mech_Advanced_Aura_PlayerControlled.label>доминион</VFE_Mech_Advanced_Aura_PlayerControlled.label>
+	<!--                                                          EN: Plural dominion -->
+	<VFE_Mech_Advanced_Aura_PlayerControlled.lifeStages.1.labelPlural>Доминионы</VFE_Mech_Advanced_Aura_PlayerControlled.lifeStages.1.labelPlural>
+<VFE_Mech_Advanced_Aura_PlayerControlled.lifeStages.0.labelPlural>Доминионы</VFE_Mech_Advanced_Aura_PlayerControlled.lifeStages.0.labelPlural></LanguageData>
+

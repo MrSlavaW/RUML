@@ -1,0 +1,19 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\AbilityDefs\Abilities_Anomaly.xml -->
+	<!--                  EN: grey pocket plane -->
+	<AG_GreyPocketPlane.label>серое карманное измерение</AG_GreyPocketPlane.label>
+	<!--                        EN: Opens a link to an extradimensional space that only the caster can access. If cast inside the pocket plane, it will return the caster to the original map, at the same position it departed when entering the pocket plane. -->
+	<AG_GreyPocketPlane.description>Открывает проход в внепространственное убежище, доступное только заклинателю. Если использовать способность внутри карманного измерения, она вернёт его на исходную карту, в ту точку, откуда он вошёл.</AG_GreyPocketPlane.description>
+	<!--                  EN: tentacle grapple -->
+	<AG_TentacleGrapple.label>захват щупальцем</AG_TentacleGrapple.label>
+	<!--                        EN: Attack a target with a prehensile tentacle, grappling it and immobilizing it for a short time. -->
+	<AG_TentacleGrapple.description>Атакует цель цепким щупальцем, захватывая её и ненадолго обездвиживая.</AG_TentacleGrapple.description>
+	<!--            EN: flesh bulb -->
+	<AG_FleshBulb.label>плотешар</AG_FleshBulb.label>
+	<!--                  EN: Launch a luminous flesh bulb that acts as a disruptor flare. -->
+	<AG_FleshBulb.description>Запускает светящийся плотешар, который действует как дизрапторная ракета.</AG_FleshBulb.description>
+	<!--            EN: absorb fleshbeast -->
+	<AG_FleshSack.label>поглощение зверя из плоти</AG_FleshSack.label>
+	<!--                  EN: Absorb a flesh beast, destroying it and empowering the caster for a short while, as well as healing some of their wounds. -->
+	<AG_FleshSack.description>Поглощает зверя из плоти, уничтожая его, временно усиливая заклинателя и залечивая часть его ран.</AG_FleshSack.description>
+</LanguageData>

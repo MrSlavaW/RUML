@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Corpses.xml -->
+	
+	<!--                                                EN: observed corpse -->
+	<AM_Corpses_Sublime_ObservedLayingCorpse.stages.0.label>заметил труп</AM_Corpses_Sublime_ObservedLayingCorpse.stages.0.label>
+	<!--                                                      EN: I saw a dead body laying on the ground. What a glorious sight! -->
+	<AM_Corpses_Sublime_ObservedLayingCorpse.stages.0.description>Я {PAWN_gender ? увидел : увидела} мертвое тело, лежащее на земле. Какое славное зрелище!</AM_Corpses_Sublime_ObservedLayingCorpse.stages.0.description>
+	
+	<!--                                                       EN: observed rotting corpse -->
+	<AM_Corpses_Sublime_ObservedLayingRottingCorpse.stages.0.label>заметил гниющий труп</AM_Corpses_Sublime_ObservedLayingRottingCorpse.stages.0.label>
+	<!--                                                             EN: I saw a rotting corpse laying on the ground. What a glorious sight! -->
+	<AM_Corpses_Sublime_ObservedLayingRottingCorpse.stages.0.description>Я {PAWN_gender ? увидел : увидела} гниющий труп, лежащий на земле. Какое славное зрелище!</AM_Corpses_Sublime_ObservedLayingRottingCorpse.stages.0.description>
+</LanguageData>

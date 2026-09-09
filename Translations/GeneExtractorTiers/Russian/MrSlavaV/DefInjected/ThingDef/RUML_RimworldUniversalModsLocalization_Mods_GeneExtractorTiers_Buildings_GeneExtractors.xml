@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<GET_GeneExtractor_II.label>экстрактор генов ур. II</GET_GeneExtractor_II.label>
+	<GET_GeneExtractor_II.description>Улучшенная капсула для извлечения генетического материала. Работает быстрее базового экстрактора и снижает время генного шока у донора.</GET_GeneExtractor_II.description>
+	<GET_GeneExtractor_III.label>экстрактор генов ур. III</GET_GeneExtractor_III.label>
+	<GET_GeneExtractor_III.description>Высокотехнологичный экстрактор генов с микролазерными сканерами. Значительно ускоряет процесс и позволяет изолировать более редкие гены.</GET_GeneExtractor_III.description>
+	<GET_GeneExtractor_IV.label>экстрактор генов ур. IV</GET_GeneExtractor_IV.label>
+	<GET_GeneExtractor_IV.description>Архотек-ориентированный экстрактор генов высшего тира. Извлекает гены почти безболезненно и с максимальной точностью.</GET_GeneExtractor_IV.description>
+</LanguageData>

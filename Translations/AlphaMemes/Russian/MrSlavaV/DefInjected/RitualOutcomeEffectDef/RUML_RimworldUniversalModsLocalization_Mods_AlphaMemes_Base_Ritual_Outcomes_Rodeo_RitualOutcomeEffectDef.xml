@@ -1,0 +1,29 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\Rodeo\Ritual_Outcomes_Rodeo.xml -->
+	<!--                     EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+	<AM_RodeoOutcome.description>В зависимости от качества ритуала, участники получат от {MINMOOD} до {MAXMOOD} настроения на {MOODDAYS} дней.</AM_RodeoOutcome.description>
+	<!--                       EN: room impressiveness -->
+	<AM_RodeoOutcome.comps.0.label>впечатляемость комнаты</AM_RodeoOutcome.comps.0.label>
+	<!--                       EN: participant count -->
+	<AM_RodeoOutcome.comps.1.label>количество участников</AM_RodeoOutcome.comps.1.label>
+	<!--                       EN: {PAWN_labelShort}'s social impact -->
+	<AM_RodeoOutcome.comps.2.label>социальное влияние {PAWN_labelShort}</AM_RodeoOutcome.comps.2.label>
+	<!--                               EN: speaker's social impact -->
+	<AM_RodeoOutcome.comps.2.labelAbstract>социальное влияние оратора</AM_RodeoOutcome.comps.2.labelAbstract>
+	<!--                                EN: Disastrous -->
+	<AM_RodeoOutcome.outcomeChances.0.label>Катастрофический</AM_RodeoOutcome.outcomeChances.0.label>
+	<!--                                      EN: The {0} was disastrous. The event was chaotic and poorly organized, leaving everyone embarrassed and disappointed. -->
+	<AM_RodeoOutcome.outcomeChances.0.description>Родео {0} было катастрофическим. Мероприятие было хаотичным и плохо организованным, все остались смущены и разочарованы.</AM_RodeoOutcome.outcomeChances.0.description>
+	<!--                                EN: Underwhelming -->
+	<AM_RodeoOutcome.outcomeChances.1.label>Разочаровывающий</AM_RodeoOutcome.outcomeChances.1.label>
+	<!--                                      EN: The {0} was underwhelming. The energy was low, and the performance lacked the excitement we were hoping for. -->
+	<AM_RodeoOutcome.outcomeChances.1.description>Родео {0} было разочаровывающим. Энергия была низкой, а выступление недоставало воодушевления, на которое мы надеялись.</AM_RodeoOutcome.outcomeChances.1.description>
+	<!--                                EN: Thrilling -->
+	<AM_RodeoOutcome.outcomeChances.2.label>Захватывающий</AM_RodeoOutcome.outcomeChances.2.label>
+	<!--                                      EN: The {0} was thrilling. The performances were energetic, and the crowd was roaring with excitement. A great time was had by all. -->
+	<AM_RodeoOutcome.outcomeChances.2.description>Родео {0} было захватывающим. Выступления были энергичными, а толпа ревела от восторга. Все получили массу удовольствия.</AM_RodeoOutcome.outcomeChances.2.description>
+	<!--                                EN: Legendary -->
+	<AM_RodeoOutcome.outcomeChances.3.label>Легендарный</AM_RodeoOutcome.outcomeChances.3.label>
+	<!--                                      EN: The {0} was legendary! Every moment was electrifying, and the show will be remembered as one of the greatest events in our colony's history. -->
+	<AM_RodeoOutcome.outcomeChances.3.description>Родео {0} было легендарным! Каждый момент был захватывающим, и шоу запомнится как одно из величайших событий в истории нашем поселении.</AM_RodeoOutcome.outcomeChances.3.description>
+</LanguageData>

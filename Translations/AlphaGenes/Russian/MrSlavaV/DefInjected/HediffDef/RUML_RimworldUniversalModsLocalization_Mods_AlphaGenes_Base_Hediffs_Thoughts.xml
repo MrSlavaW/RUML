@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\HediffDefs\Hediffs_Thoughts.xml -->
+	<!--          EN: unfathomably ugly -->
+	<AG_Disgust.label>Непостижимо уродливый</AG_Disgust.label>
+	<!--                EN: There are no words to describe how revolting this person is. -->
+	<AG_Disgust.description>Нет слов, чтобы описать, насколько отвратителен этот человек.</AG_Disgust.description>
+	<!--      EN: angelic beauty -->
+	<AG_Awe.label>Ангельская красота</AG_Awe.label>
+	<!--            EN: This person emanates an aura of preternatural beauty. -->
+	<AG_Awe.description>От этого человека исходит аура сверхъестественной красоты.</AG_Awe.description>
+	<!--               EN: psychic drone -->
+	<AG_PsychicDrone.label>Пси волна</AG_PsychicDrone.label>
+	<!--                     EN: Being close to this person causes a soothing feeling. -->
+	<AG_PsychicDrone.description>Близость к этому человеку вызывает успокаивающее чувство.</AG_PsychicDrone.description>
+</LanguageData>

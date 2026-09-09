@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Royalty\Defs\PreceptDefs\Precepts_Abilities_Royalty.xml -->
+	<!--                       EN: death knell -->
+	<AM_Abilities_DeathKnell.label>погребальный звон</AM_Abilities_DeathKnell.label>
+	<!--                             EN: We will lay bare the minds of our enemies, and take their latent psychic energy for ourselves.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - All colonists that adopt this precept will get the Psychic death knell ability, which allows them to recharge their psyfocus completely by killing a downed human enemy. -->
+	<AM_Abilities_DeathKnell.description>Мы обнажим разум наших врагов и возьмем их скрытую психическую энергию для себя.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Все поселенцы, принявшие это предписание, получат Психическую способность погребальный звон, которая позволяет им полностью перезарядить свой псифокус, убивая сбитого врага-человека.</AM_Abilities_DeathKnell.description>
+</LanguageData>

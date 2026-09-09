@@ -1,0 +1,162 @@
+<LanguageData>
+	<!-- 1.6\Defs\InteractionDefs\Interactions_Rituals.xml -->
+	<!--                 EN: baptism rhetoric -->
+	<AM_Speech_Baptism.label>крестильная риторика</AM_Speech_Baptism.label>
+	<!-- EN: 
+		<li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+		<li>speechtopic->the [AdjectiveWater] power of a [WaterSource]</li>
+		<li>speechtopic->how a [WaterSource] represents [AdjectiveWater] renewal</li>
+		<li>speechtopic->a [WaterSymbol] as a symbol of purity and life</li>
+		<li>speechtopic->how a [WaterSymbol] connects us through shared rituals</li>
+		<li>speechtopic->how a [AdjectiveWater] [WaterSource] brings balance to all</li>
+		<li>speechtopic->the [AdjectiveWater] flow of a [WaterSource] brings peace</li>
+		<li>speechtopic->the cleansing power of a [AdjectiveWater] [WaterSource]</li>
+		<li>speechtopic->a [WaterSymbol] as a reminder of life's eternal cycle</li>
+		<li>speechtopic(p=0.25)->committing to the ideals of [IDEO_name]</li>
+		<li>speechtopic(p=0.25)->strengthening the spirit through shared tradition</li>
+		<li>speechtopic(p=0.25)->celebrating the unity of our community</li>
+		<li>speechtopic(p=0.25)->finding harmony through nature’s gifts</li>
+		<li>speechtopic(p=0.25)->the tranquil blessing of a [AdjectiveWater] [WaterSource]</li>
+		<li>AdjectiveWater->pure</li>
+		<li>AdjectiveWater->serene</li>
+		<li>AdjectiveWater->renewing</li>
+		<li>AdjectiveWater->life-giving</li>
+		<li>WaterSource->river</li>
+		<li>WaterSource->spring</li>
+		<li>WaterSource->sacred pool</li>
+		<li>WaterSymbol->wave</li>
+		<li>WaterSymbol->droplet</li>
+		<li>WaterSymbol->ripple</li>
+	 -->
+	<AM_Speech_Baptism.logRulesInitiator.rulesStrings>
+		<li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+		<li>speechtopic-&gt;[AdjectiveWater] сила [WaterSource]</li>
+		<li>speechtopic-&gt;как [WaterSource] символизирует [AdjectiveWater] обновление</li>
+		<li>speechtopic-&gt;[WaterSymbol] как символ чистоты и жизни</li>
+		<li>speechtopic-&gt;как [WaterSymbol] объединяет нас через общие ритуалы</li>
+		<li>speechtopic-&gt;как [AdjectiveWater] [WaterSource] приносит гармонию всем</li>
+		<li>speechtopic-&gt;[AdjectiveWater] течение [WaterSource] приносит мир</li>
+		<li>speechtopic-&gt;очищающая сила [AdjectiveWater] [WaterSource]</li>
+		<li>speechtopic-&gt;[WaterSymbol] как напоминание о вечном цикле жизни</li>
+		<li>speechtopic(p=0.25)-&gt;приверженность идеалам [IDEO_name]</li>
+		<li>speechtopic(p=0.25)-&gt;укрепление духа через общие традиции</li>
+		<li>speechtopic(p=0.25)-&gt;празднование единства нашего сообщества</li>
+		<li>speechtopic(p=0.25)-&gt;нахождение гармонии через дары природы</li>
+		<li>speechtopic(p=0.25)-&gt;спокойное благословение [AdjectiveWater] [WaterSource]</li>
+		<li>AdjectiveWater-&gt;чистая</li>
+		<li>AdjectiveWater-&gt;безмятежная</li>
+		<li>AdjectiveWater-&gt;обновляющая</li>
+		<li>AdjectiveWater-&gt;животворящая</li>
+		<li>WaterSource-&gt;река</li>
+		<li>WaterSource-&gt;источник</li>
+		<li>WaterSource-&gt;священный бассейн</li>
+		<li>WaterSymbol-&gt;волна</li>
+		<li>WaterSymbol-&gt;капелька</li>
+		<li>WaterSymbol-&gt;рябь</li>
+	</AM_Speech_Baptism.logRulesInitiator.rulesStrings>
+<!--                      EN: flagellation rhetoric -->
+	<AM_Speech_Flagellation.label>флагеллянская риторика</AM_Speech_Flagellation.label>
+	<!-- EN: 
+		<li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+		<li>speechtopic->the [AdjectivePain] power of suffering</li>
+		<li>speechtopic->how pain strips away the weakness of the flesh</li>
+		<li>speechtopic->the [PainSymbol] as a symbol of strength and devotion</li>
+		<li>speechtopic->how suffering reveals the truth hidden beneath comfort</li>
+		<li>тело</li>
+		<li>speechtopic->the cleansing power of [AdjectivePain] suffering</li>
+		<li>speechtopic->how enduring pain proves the strength of one's convictions</li>
+		<li>speechtopic->the sacred purpose of willingly enduring suffering</li>
+		<li>speechtopic(p=0.25)->committing to the ideals of [IDEO_name]</li>
+		<li>speechtopic(p=0.25)->strengthening the spirit through shared suffering</li>
+		<li>speechtopic(p=0.25)->proving one's devotion through endurance</li>
+		<li>speechtopic(p=0.25)->rejecting the weakness of comfort</li>
+		<li>speechtopic(p=0.25)->the divine lesson hidden within [AdjectivePain] pain</li>
+		<li>AdjectivePain->sacred</li>
+		<li>AdjectivePain->searing</li>
+		<li>AdjectivePain->piercing</li>
+		<li>AdjectivePain->agonizing</li>
+		<li>AdjectivePain->purifying</li>
+		<li>PainSymbol->whip</li>
+		<li>PainSymbol->scar</li>
+		<li>PainSymbol->wound</li>
+	 -->
+    <AM_Speech_Flagellation.logRulesInitiator.rulesStrings>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+        <li>speechtopic-&gt;[AdjectivePain] силе страдания</li>
+        <li>speechtopic-&gt;том, как боль стирает слабость плоти</li>
+        <li>speechtopic-&gt;[PainSymbol] как символе силы и преданности</li>
+        <li>speechtopic-&gt;том, как страдание открывает правду, скрытую за комфортом</li>
+        <li>speechtopic-&gt;влиянии [AdjectivePain] боли на укрепление тела и духа</li>
+        <li>speechtopic-&gt;очищающей силе [AdjectivePain] боли</li>
+        <li>speechtopic-&gt;том, как перенесение боли доказывает силу убеждений</li>
+        <li>speechtopic-&gt;священной цели добровольного перенесения страданий</li>
+        <li>speechtopic(p=0.25)-&gt;приверженности идеалам [IDEO_name]</li>
+        <li>speechtopic(p=0.25)-&gt;укреплении духа через совместное страдание</li>
+        <li>speechtopic(p=0.25)-&gt;доказательстве своей преданности через стойкость</li>
+        <li>speechtopic(p=0.25)-&gt;отвержении слабости комфорта</li>
+        <li>speechtopic(p=0.25)-&gt;божественном уроке, скрытом в [AdjectivePain] боли</li>
+        <li>AdjectivePain-&gt;священной</li>
+        <li>AdjectivePain-&gt;обжигающей</li>
+        <li>AdjectivePain-&gt;пронзающей</li>
+        <li>AdjectivePain-&gt;мучительной</li>
+        <li>AdjectivePain-&gt;искупительной</li>
+        <li>PainSymbol-&gt;плети</li>
+        <li>PainSymbol-&gt;шраме</li>
+        <li>PainSymbol-&gt;ране</li>
+    </AM_Speech_Flagellation.logRulesInitiator.rulesStrings>
+	
+	<!--                                 EN: flagellation rhetoric -->
+	<AM_Speech_Flagellation_Flagellant.label>флагеллянская риторика</AM_Speech_Flagellation_Flagellant.label>
+	<!-- EN: 
+		<li>r_logentry->[INITIATOR_nameDef] [spokeof] [speechtopic]. [argh]</li>
+		<li>speechtopic->the [AdjectivePain] pain they endure</li>
+		<li>speechtopic->how pain makes them stronger</li>
+		<li>speechtopic->how suffering proves their devotion</li>
+		<li>speechtopic->the scars they will bear after the ritual</li>
+		<li>speechtopic->how they welcome the pain</li>
+		<li>speechtopic->how comfort has no place in a faithful life</li>
+		<li>speechtopic->the strength they find in suffering</li>
+		<li>argh->"Agh!"</li>
+		<li>argh->"Ghn!"</li>
+		<li>argh->"Nngh!"</li>
+		<li>argh->"Hrrgh!"</li>
+		<li>argh->"Aaargh!"</li>
+		<li>argh->"It hurts!"</li>
+		<li>argh->"More!"</li>
+		<li>speechtopic(p=0.25)->their devotion to the ideals of [IDEO_name]</li>
+		<li>speechtopic(p=0.25)->how they will carry these scars with pride</li>
+		<li>speechtopic(p=0.25)->how they refuse to fear pain</li>
+		<li>speechtopic(p=0.25)->how they are grateful for this suffering</li>
+		<li>AdjectivePain->sacred</li>
+		<li>AdjectivePain->searing</li>
+		<li>AdjectivePain->piercing</li>
+		<li>AdjectivePain->agonizing</li>
+		<li>AdjectivePain->purifying</li>
+	 -->
+    <AM_Speech_Flagellation_Flagellant.logRulesInitiator.rulesStrings>
+        <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic]. [argh]</li>
+        <li>speechtopic-&gt;[AdjectivePain] боли, которую они переносят</li>
+        <li>speechtopic-&gt;том, как боль делает их сильнее</li>
+        <li>speechtopic-&gt;том, как страдания доказывают их преданность</li>
+        <li>speechtopic-&gt;шрамах, которые останутся после ритуала</li>
+        <li>speechtopic-&gt;том, как они приветствуют боль</li>
+        <li>speechtopic-&gt;том, что комфорту нет места в жизни верующего</li>
+        <li>speechtopic-&gt;силе, которую они обретают в страданиях</li>
+        <li>argh-&gt;"Ай!"</li>
+        <li>argh-&gt;"Гхн!"</li>
+        <li>argh-&gt;"Нгх!"</li>
+        <li>argh-&gt;"Хрргх!"</li>
+        <li>argh-&gt;"Ааарх!"</li>
+        <li>argh-&gt;"Больно!"</li>
+        <li>argh-&gt;"Ещё!"</li>
+        <li>speechtopic(p=0.25)-&gt;их преданности идеалам [IDEO_name]</li>
+        <li>speechtopic(p=0.25)-&gt;том, как они будут с гордостью носить эти шрамы</li>
+        <li>speechtopic(p=0.25)-&gt;том, как они отказываются бояться боли</li>
+        <li>speechtopic(p=0.25)-&gt;том, как они благодарны за эти страдания</li>
+        <li>AdjectivePain-&gt;священной</li>
+        <li>AdjectivePain-&gt;обжигающей</li>
+        <li>AdjectivePain-&gt;пронзающей</li>
+        <li>AdjectivePain-&gt;мучительной</li>
+        <li>AdjectivePain-&gt;очищающей</li>
+    </AM_Speech_Flagellation_Flagellant.logRulesInitiator.rulesStrings>
+</LanguageData>

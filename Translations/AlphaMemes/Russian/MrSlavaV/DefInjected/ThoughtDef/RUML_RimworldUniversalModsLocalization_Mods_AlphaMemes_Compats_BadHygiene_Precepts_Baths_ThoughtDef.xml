@@ -1,0 +1,20 @@
+<LanguageData>
+	<!-- 1.6\Mods\BadHygiene\Defs\PreceptDefs\Precepts_Baths.xml -->
+	
+	<!--                         EN: no bathtubs or showers -->
+	<AM_Baths_Desired.stages.0.label>нет ванн или душей</AM_Baths_Desired.stages.0.label>
+	<!--                               EN: What is this, a pigsty? We deserve better. -->
+	<AM_Baths_Desired.stages.0.description>Что это, свинарник? Мы заслуживаем лучшего.</AM_Baths_Desired.stages.0.description>
+	<!--                         EN: very few bathtubs and showers -->
+	<AM_Baths_Desired.stages.1.label>очень мало ванн и душей</AM_Baths_Desired.stages.1.label>
+	<!--                               EN: There are only a bunch of bathtubs and showers around. This isn't hygienic. -->
+	<AM_Baths_Desired.stages.1.description>Здесь только несколько ванн и душей. Это негигиенично.</AM_Baths_Desired.stages.1.description>
+	<!--                         EN: enough bathtubs and showers -->
+	<AM_Baths_Desired.stages.2.label>достаточно ванн и душей</AM_Baths_Desired.stages.2.label>
+	<!--                               EN: Every colonist has a bathtub or shower. Squeaky clean! -->
+	<AM_Baths_Desired.stages.2.description>У каждого поселенца есть ванна или душ. Чистота и порядок!</AM_Baths_Desired.stages.2.description>
+	<!--                         EN: lots of bathtubs and showers -->
+	<AM_Baths_Desired.stages.3.label>много ванн и душей</AM_Baths_Desired.stages.3.label>
+	<!--                               EN: Dub's Amazing Hygiene! -->
+	<AM_Baths_Desired.stages.3.description>Поразительная гигиена Даба!</AM_Baths_Desired.stages.3.description>
+</LanguageData>

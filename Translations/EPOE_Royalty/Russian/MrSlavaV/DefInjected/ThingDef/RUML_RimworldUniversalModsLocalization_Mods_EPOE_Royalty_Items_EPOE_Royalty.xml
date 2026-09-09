@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<EPOE_AdvancedDrillArm.label>улучшенная рука-бур</EPOE_AdvancedDrillArm.label>
+	<EPOE_AdvancedDrillArm.description>Улучшенная механическая рука для ускорения горных работ. Оснащена встроенным гибким буром, позволяющим шахтеру быстро находить и разрабатывать трещины в породе. В сложенном виде компактна и не сковывает движения.</EPOE_AdvancedDrillArm.description>
+	<EPOE_AdvancedFieldHand.label>улучшенная рука-культиватор</EPOE_AdvancedFieldHand.label>
+	<EPOE_AdvancedFieldHand.description>Улучшенный механический протез кисти для ускорения полевых работ. Телескопические пальцы позволяют одновременно собирать урожай или высевать семена сразу в несколько точек.</EPOE_AdvancedFieldHand.description>
+	<EPOE_AdvancedHandTalon.label>улучшенный бионический коготь</EPOE_AdvancedHandTalon.label>
+	<EPOE_AdvancedHandTalon.description>Модифицированный бритвенно-острый коготь, выдвигающийся из скрытого паза между пальцами кисти. Изготовлен из сверхпрочного сплава жнецов и управляется встроенным микрокомпьютером.</EPOE_AdvancedHandTalon.description>
+	<EPOE_AdvancedElbowBlade.label>улучшенный бионический локтевой клинок</EPOE_AdvancedElbowBlade.label>
+	<EPOE_AdvancedElbowBlade.description>Острейший клинок механоида-жнеца, скрытый в локтевом сочленении. Наносит сокрушительные рубящие удары в ближнем бою.</EPOE_AdvancedElbowBlade.description>
+	<EPOE_AdvancedKneeSpike.label>улучшенный бионический коленный шип</EPOE_AdvancedKneeSpike.label>
+	<EPOE_AdvancedKneeSpike.description>Модифицированный бронебойный шип, выдвигающийся из коленного сочленения. Обладает высочайшей пробивающей способностью.</EPOE_AdvancedKneeSpike.description>
+	<EPOE_ScytherHandTalon.label>бионический коготь</EPOE_ScytherHandTalon.label>
+	<EPOE_ScytherHandTalon.description>Острый клинок-коготь, встроенный в бионическую кисть. Выдвигается для нанесения глубоких режущих ран.</EPOE_ScytherHandTalon.description>
+	<EPOE_ScytherElbowBlade.label>бионический локтевой клинок</EPOE_ScytherElbowBlade.label>
+	<EPOE_ScytherElbowBlade.description>Выдвижной боевой клинок, встроенный в бионическую руку на основе компонентов клинка жнеца.</EPOE_ScytherElbowBlade.description>
+	<EPOE_ScytherKneeSpike.label>бионический коленный шип</EPOE_ScytherKneeSpike.label>
+	<EPOE_ScytherKneeSpike.description>Выдвижной боевой шип, встроенный в бионическую ногу.</EPOE_ScytherKneeSpike.description>
+	<EPIA_CircadianRefresher.label>циркадный освежитель</EPIA_CircadianRefresher.label>
+	<EPIA_CircadianRefresher.description>Искусственная железа, вырабатывающая специализированные химические соединения и наномашины, выводящие токсины из мозга во время сна и значительно повышающие качество отдыха.</EPIA_CircadianRefresher.description>
+	<EPOE_DetoxifierEnhancer.label>стимулятор-детоксикатор</EPOE_DetoxifierEnhancer.label>
+	<EPOE_DetoxifierEnhancer.description>Аналитический микрокомпьютер, непрерывно сканирующий кровоток, распознающий токсины и стимулирующий иммунную систему на их ускоренную нейтрализацию.</EPOE_DetoxifierEnhancer.description>
+	<EPOE_DetoxifierSyntheticLiver.label>синтетическая печень-детоксикатор</EPOE_DetoxifierSyntheticLiver.label>
+	<EPOE_DetoxifierSyntheticLiver.description>Улучшенная печень, укрепленная синтетическими волокнами для предотвращения отторжения и снабженная встроенным стимулятором-детоксикатором.</EPOE_DetoxifierSyntheticLiver.description>
+	<EPOE_ImmunoenhancerSyntheticKidney.label>синтетическая иммунная почка</EPOE_ImmunoenhancerSyntheticKidney.label>
+	<EPOE_ImmunoenhancerSyntheticKidney.description>Улучшенная почка с синтетическими волокнами и интегрированным иммуностимулятором.</EPOE_ImmunoenhancerSyntheticKidney.description>
+</LanguageData>

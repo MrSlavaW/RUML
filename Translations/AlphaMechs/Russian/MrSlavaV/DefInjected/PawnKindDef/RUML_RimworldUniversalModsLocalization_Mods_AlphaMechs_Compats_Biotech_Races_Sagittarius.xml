@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Sagittarius.xml -->
+	<!--                   EN: sagittarius -->
+	<AM_Mech_Sagittarius.label>Стрелец</AM_Mech_Sagittarius.label>
+	<!--                                      EN: Plural sagittarius -->
+	<AM_Mech_Sagittarius.lifeStages.1.labelPlural>Стрельцы</AM_Mech_Sagittarius.lifeStages.1.labelPlural>
+<AM_Mech_Sagittarius.lifeStages.0.labelPlural>Стрельцы</AM_Mech_Sagittarius.lifeStages.0.labelPlural></LanguageData>

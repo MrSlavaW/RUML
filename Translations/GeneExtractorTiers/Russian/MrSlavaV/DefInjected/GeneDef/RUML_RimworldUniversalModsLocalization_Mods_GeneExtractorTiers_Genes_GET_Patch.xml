@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GET_Aggressive_normal.label>обычная агрессия</GET_Aggressive_normal.label>
+  <GET_Aggressive_normal.description>Носители этого гена обладают стандартным уровнем агрессии.</GET_Aggressive_normal.description>
+  <GET_BodySizeNormal.label>обычный размер тела</GET_BodySizeNormal.label>
+  <GET_BodySizeNormal.description>Носители этого гена имеют стандартные пропорции и вес тела.</GET_BodySizeNormal.description>
+</LanguageData>

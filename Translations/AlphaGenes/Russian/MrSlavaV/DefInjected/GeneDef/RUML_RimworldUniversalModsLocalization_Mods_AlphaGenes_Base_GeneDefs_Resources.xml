@@ -1,0 +1,19 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Resources.xml -->
+	<!--             EN: mineral absorber -->
+	<AG_MetalEater.label>Минеральный поглотитель</AG_MetalEater.label>
+	<!--                   EN: Carriers of this gene have a reserve of metallurgic strength that replaces their need to eat traditional food with metals from the ground, having their needs last much longer.\n\nCarriers lose 25% of their minerals to their metabolism per day. -->
+	<AG_MetalEater.description>Носители этого гена обладают запасом минеральной энергии, который позволяет заменять обычную пищу металлами из земли и дольше обходиться без еды.\n\nИз-за метаболизма они теряют 25% запаса минералов в день.</AG_MetalEater.description>
+	<!--                     EN: minerals -->
+	<AG_MetalEater.resourceLabel>минералы</AG_MetalEater.resourceLabel>
+	<!--                           EN: A mineral energy reseve used directly by {PAWN_nameDef} to not grow hungry -->
+	<AG_MetalEater.resourceDescription>Запас минеральной энергии, используемый непосредственно {PAWN_nameDef}, чтобы не голодать.</AG_MetalEater.resourceDescription>
+	<!--                       EN: poor mineral absorbtion -->
+	<AG_MineralEfficencyPoor.label>Плохое усвоение металлов</AG_MineralEfficencyPoor.label>
+	<!--                             EN: Carriers of this gene have terrible efficiency in converting metals into minerals their body can use. This requires them to consume much more minerals than most. -->
+	<AG_MineralEfficencyPoor.description>Носители этого гена очень плохо преобразуют металлы в минералы, пригодные для организма. Поэтому им приходится потреблять гораздо больше минералов, чем большинству других.</AG_MineralEfficencyPoor.description>
+	<!--                       EN: great mineral absorbtion -->
+	<AG_MineralEfficencyGood.label>Превосходное поглощение металлов</AG_MineralEfficencyGood.label>
+	<!--                             EN: Carriers of this gene have amazing efficiency in converting metals into minerals their body can use. This requires them to consume much less metals than most. -->
+	<AG_MineralEfficencyGood.description>Носители этого гена очень эффективно преобразуют металлы в минералы, пригодные для организма. Поэтому им требуется значительно меньше металлов, чем большинству других.</AG_MineralEfficencyGood.description>
+</LanguageData>

@@ -1,0 +1,19 @@
+﻿<LanguageData>
+	<!-- 1.6\Defs\DamageDefs\DamageDefs.xml -->
+	<!--             EN: crush -->
+	<AM_SiegeBlunt.label>давка</AM_SiegeBlunt.label>
+	<!--                    EN: {0} has been crushed to death. -->
+	<AM_SiegeBlunt.deathMessage>{0} был раздавлен насмерть.</AM_SiegeBlunt.deathMessage>
+	<!--           EN: acid -->
+	<AM_AcidSpit.label>кислота</AM_AcidSpit.label>
+	<!--                  EN: {0} has been corroded to death. -->
+	<AM_AcidSpit.deathMessage>{0} был разъеден насмерть.</AM_AcidSpit.deathMessage>
+	<!--            EN: apoptosis -->
+	<AM_SoulDrain.label>апоптоз</AM_SoulDrain.label>
+	<!--                   EN: {0} has been drained. -->
+	<AM_SoulDrain.deathMessage>{0} пал от истощения души.</AM_SoulDrain.deathMessage>
+	<!--                EN: freezing burst -->
+	<AM_FreezingBurst.label>ледяной взрыв</AM_FreezingBurst.label>
+	<!--                       EN: {0} has succumbed to frostbite. -->
+	<AM_FreezingBurst.deathMessage>{0} скончался от обморожения.</AM_FreezingBurst.deathMessage>
+</LanguageData>

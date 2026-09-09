@@ -1,0 +1,40 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Mood.xml -->
+	
+	<!--                         EN: spiders in my face -->
+	<AM_Mood_Volatile.stages.0.label>пауки на моем лице</AM_Mood_Volatile.stages.0.label>
+	<!--                               EN: Did you know you swallow at least two spiders every night? I enjoy it. They taste like cinnamon. -->
+	<AM_Mood_Volatile.stages.0.description>Знаете ли вы, что каждую ночь проглатываете как минимум двух пауков? Мне это нравится. Они на вкус как корица.</AM_Mood_Volatile.stages.0.description>
+	<!--                         EN: clown in the sky looking at me -->
+	<AM_Mood_Volatile.stages.1.label>клоун в небе смотрит на меня</AM_Mood_Volatile.stages.1.label>
+	<!--                               EN: There is a stern-looking clown dressed like a pirate looking at me, licking his lips. It craves my attention. -->
+	<AM_Mood_Volatile.stages.1.description>На меня смотрит суровый клоун, одетый как пират, облизывая губы. Он жаждет моего внимания.</AM_Mood_Volatile.stages.1.description>
+	<!--                         EN: liquorice tastes like betrayal -->
+	<AM_Mood_Volatile.stages.2.label>лакрица на вкус как предательство</AM_Mood_Volatile.stages.2.label>
+	<!--                               EN: I have been betrayed by my fiercest enemy: croutons. They will be slaughtered by the thousands. -->
+	<AM_Mood_Volatile.stages.2.description>Меня предал мой злейший враг: гренки. Они будут истреблены тысячами.</AM_Mood_Volatile.stages.2.description>
+	<!--                         EN: the voices won't stop -->
+	<AM_Mood_Volatile.stages.3.label>голоса не остановятся</AM_Mood_Volatile.stages.3.label>
+	<!--                               EN: They could be telling me to kill everyone, but instead they recite stock exchange transactions in ancient languages. A beet smiles upon my portfolio. -->
+	<AM_Mood_Volatile.stages.3.description>Они могли бы сказать мне убить всех, но вместо этого они декламируют биржевые операции на древних языках. Свекла улыбается моему портфолио.</AM_Mood_Volatile.stages.3.description>
+	<!--                         EN: I feel like turpentine -->
+	<AM_Mood_Volatile.stages.4.label>Я чувствую себя скипидаром</AM_Mood_Volatile.stages.4.label>
+	<!--                               EN: It's a slick feeling, like a raspy cat's tongue licking the inside of my organs. It reminds me of my grandma's stew. -->
+	<AM_Mood_Volatile.stages.4.description>Это скользкое ощущение, как хриплый кошачий язык, облизывающий мои внутренние органы. Напоминает рагу моей бабушки.</AM_Mood_Volatile.stages.4.description>
+	<!--                         EN: all cheese is obnoxious -->
+	<AM_Mood_Volatile.stages.5.label>весь сыр противный</AM_Mood_Volatile.stages.5.label>
+	<!--                               EN: Especially blue cheese. It refuses to let other people talk and interrupts constantly. -->
+	<AM_Mood_Volatile.stages.5.description>Особенно сыр с плесенью. Он отказывается позволять другим людям говорить и постоянно перебивает.</AM_Mood_Volatile.stages.5.description>
+	<!--                         EN: have you ever seen tomorrow? -->
+	<AM_Mood_Volatile.stages.6.label>ты когда-нибудь видел завтра?</AM_Mood_Volatile.stages.6.label>
+	<!--                               EN: It's blue. All blue. With hints of a colour that is between stygian blue and hyperbolic orange. -->
+	<AM_Mood_Volatile.stages.6.description>Это синий. Все синее. С оттенками цвета, который находится между стигийским синим и гиперболическим оранжевым.</AM_Mood_Volatile.stages.6.description>
+	<!--                         EN: I can feel the inside of my skin -->
+	<AM_Mood_Volatile.stages.7.label>Я чувствую внутреннюю часть своей кожи</AM_Mood_Volatile.stages.7.label>
+	<!--                               EN: It feels like home. I can even see the fireplace burning with the smell of freshly baked kerosene. -->
+	<AM_Mood_Volatile.stages.7.description>Это похоже на дом. Я даже вижу горящий камин с запахом свежеиспеченного керосина.</AM_Mood_Volatile.stages.7.description>
+	<!--                         EN: my flesh vessel is itchy -->
+	<AM_Mood_Volatile.stages.8.label>мой сосуд плоти зудит</AM_Mood_Volatile.stages.8.label>
+	<!--                               EN: It burns. -->
+	<AM_Mood_Volatile.stages.8.description>Жжется.</AM_Mood_Volatile.stages.8.description>
+</LanguageData>

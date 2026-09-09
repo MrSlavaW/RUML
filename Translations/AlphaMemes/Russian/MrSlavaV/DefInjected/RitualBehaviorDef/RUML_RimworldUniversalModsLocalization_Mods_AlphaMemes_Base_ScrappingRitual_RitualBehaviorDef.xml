@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\ScrappingRitual\ScrappingRitual.xml -->
+	
+	<!--                                EN: Spectators -->
+	<AM_ScrapRitualBehavior.spectatorsLabel>Зрители</AM_ScrapRitualBehavior.spectatorsLabel>
+	<!--                                EN: participate -->
+	<AM_ScrapRitualBehavior.spectatorGerund>Участники</AM_ScrapRitualBehavior.spectatorGerund>
+	<!--                              EN: Scrapper -->
+	<AM_ScrapRitualBehavior.roles.0.label>Скребок</AM_ScrapRitualBehavior.roles.0.label>
+	<!--                                             EN: Unable to retrieve materials -->
+	<AM_ScrapRitualBehavior.stages.0.failTriggers.0.desc>Не удалось получить материалы</AM_ScrapRitualBehavior.stages.0.failTriggers.0.desc>
+</LanguageData>

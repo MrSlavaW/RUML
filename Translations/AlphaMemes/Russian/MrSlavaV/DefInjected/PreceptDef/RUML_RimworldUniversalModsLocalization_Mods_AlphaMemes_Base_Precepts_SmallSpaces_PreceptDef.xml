@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_SmallSpaces.xml -->
+<!--                   EN: required -->
+    <AM_Indoors_Required.label>обязательно</AM_Indoors_Required.label>
+    <!--                         EN: The surface is no place for us. We were meant to live beneath the earth, sheltered from the open sky. -->
+    <AM_Indoors_Required.description>Поверхность — не место для нас. Нам суждено жить под землёй, укрытыми от открытого неба.</AM_Indoors_Required.description>
+</LanguageData>

@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaFactionsPirates\Defs\HediffDef\Hediffs_Local_Misc.xml -->
+	<!--                       EN: Warcasket Life Support -->
+	<AM_WarCasketLifeSupport.label>Боевое жизнеобеспечения</AM_WarCasketLifeSupport.label>
+	<!--                             EN: This person is alive against all odds, without the warcasket they would perish immediately. -->
+	<AM_WarCasketLifeSupport.description>Этот человек жив, несмотря ни на что, без боевого костюма он бы сразу погиб.</AM_WarCasketLifeSupport.description>
+</LanguageData>

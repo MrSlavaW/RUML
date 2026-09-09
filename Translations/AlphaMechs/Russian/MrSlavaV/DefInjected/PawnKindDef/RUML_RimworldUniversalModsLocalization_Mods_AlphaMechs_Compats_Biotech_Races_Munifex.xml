@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Munifex.xml -->
+	<!--               EN: munifex -->
+	<AM_Mech_Munifex.label>Мунифекс</AM_Mech_Munifex.label>
+	<!--                                  EN: Plural munifex -->
+	<AM_Mech_Munifex.lifeStages.1.labelPlural>Мунифексы</AM_Mech_Munifex.lifeStages.1.labelPlural>
+<AM_Mech_Munifex.lifeStages.0.labelPlural>Мунифексы</AM_Mech_Munifex.lifeStages.0.labelPlural></LanguageData>

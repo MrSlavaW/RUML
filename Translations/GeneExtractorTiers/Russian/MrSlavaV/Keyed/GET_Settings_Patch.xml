@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GET_SelectGene>Выбрать ген</GET_SelectGene>
+  <GET_SelectGeneDesc>Выберите конкретный ген для целевого извлечения.</GET_SelectGeneDesc>
+  <GET_AllVatsCanTargetGenes>Все экстракторы могут нацеливаться на конкретные гены</GET_AllVatsCanTargetGenes>
+  <GET_AllVatsCanTargetGenesDesc>Позволяет экстракторам любых уровней извлекать выбранные гены.</GET_AllVatsCanTargetGenesDesc>
+  <GET_TargetGeneExtractCooldownMultiplier>Множитель перезарядки целевого извлечения</GET_TargetGeneExtractCooldownMultiplier>
+  <GET_GeneLossChanceOnTargetExtract>Шанс потери гена при целевом извлечении</GET_GeneLossChanceOnTargetExtract>
+  <GET_DeathChanceOnTargetExtract>Шанс смерти при целевом извлечении</GET_DeathChanceOnTargetExtract>
+  <GET_TargetExtractQualityBoost>Бонус к качеству целевого извлечения</GET_TargetExtractQualityBoost>
+  <GET_GeneCategoryExtraction>Извлечение по категориям</GET_GeneCategoryExtraction>
+  <GET_ExtractionSpeedMultiplier>Множитель скорости экстракции</GET_ExtractionSpeedMultiplier>
+  <GET_PowerConsumptionMultiplier>Множитель энергопотребления</GET_PowerConsumptionMultiplier>
+  <GET_EnableArchiteExtraction>Разрешить извлечение архитовых генов</GET_EnableArchiteExtraction>
+</LanguageData>

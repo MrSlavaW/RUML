@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_RacesMechanoids\Races_Fireworm.xml -->
+	<!--           EN: fireworm -->
+	<AM_Fireworm.label>огнечервь</AM_Fireworm.label>
+	<!--                 EN: A huge mechanical worm armed with a dangerous chemfuel flamethrower. Their weapon has a very short range, so don't let a fireworm approach your defenses!\n\nThe fireworm superficially resembles a Frostbound Behemoth. A coincidence? Or perhaps mechanoids take living things as a blueprint for their units. If so, you wouldn't want to see what a biological scyther looks like...\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Will explode on death with 15 Bomb damage on a 1.9 tile radius.\n\nIf toggled to not spawn via mod options, they will get replaced by a Pikeman. -->
+	<AM_Fireworm.description>Огромный механический червь, вооружённый опасным огнемётом на химическом топливе. Его оружие бьёт на очень короткую дистанцию, так что не подпускайте огнечервя к своим укреплениям.\n\nВнешне огнечервь напоминает морозного чудовища. Совпадение? А может, механоиды действительно берут живых существ за образец при создании своих боевых единиц. Если так, то лучше не представлять, как выглядела бы биологическая коса.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt; При смерти взрывается, нанося 15 ед. бомбового урона в радиусе 1,9 клетки.\n\nЕсли отключить его появление в настройках мода, вместо него будут появляться пикинеры.</AM_Fireworm.description>
+	<!--                   EN: голова -->
+	<AM_Fireworm.tools.0.label>голова</AM_Fireworm.tools.0.label>
+</LanguageData>

@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\JobDefs\Jobs_Ritual.xml -->
+	<!--                             EN: delivering TargetA. -->
+	<AM_DeliverCorpseToCell.reportString>доставляет TargetA</AM_DeliverCorpseToCell.reportString>
+	<!--                            EN: delivering TargetA. -->
+	<AM_DeliverStuffToCell.reportString>доставляет TargetA</AM_DeliverStuffToCell.reportString>
+	<!--                           EN: delivering TargetA. -->
+	<AM_LoadCorpseToThing.reportString>доставляет TargetA</AM_LoadCorpseToThing.reportString>
+	<!--                             EN: delivering TargetB. -->
+	<AM_DeliverThingsToCell.reportString>доставляет TargetB</AM_DeliverThingsToCell.reportString>
+	<!--                      EN: burying TargetA. -->
+	<AM_OcularBurial.reportString>хоронит TargetA.</AM_OcularBurial.reportString>
+</LanguageData>

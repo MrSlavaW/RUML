@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\VanillaExpanded_VBooksE\Races_LibrarianMech7.xml -->
+	<!--                 EN: scriptomaton -->
+	<AM_Mech_Librarian.label>скриптоматон</AM_Mech_Librarian.label>
+	<!--                                    EN: Plural scriptomaton -->
+	<AM_Mech_Librarian.lifeStages.1.labelPlural>Скриптоматоны</AM_Mech_Librarian.lifeStages.1.labelPlural>
+<AM_Mech_Librarian.lifeStages.0.labelPlural>Библиарии</AM_Mech_Librarian.lifeStages.0.labelPlural></LanguageData>

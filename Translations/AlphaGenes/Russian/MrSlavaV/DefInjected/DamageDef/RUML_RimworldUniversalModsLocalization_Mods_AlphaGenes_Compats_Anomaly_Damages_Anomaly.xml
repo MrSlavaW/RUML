@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\DamageDefs\Damages_Anomaly.xml -->
+	<!--               EN: plagued claws -->
+	<AG_PlaguedClaws.label>чумные когти</AG_PlaguedClaws.label>
+	<!--                      EN: {0} был зарезан насмерть. -->
+	<AG_PlaguedClaws.deathMessage>{0} был зарезан насмерть.</AG_PlaguedClaws.deathMessage>
+</LanguageData>

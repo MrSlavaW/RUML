@@ -1,0 +1,81 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Cosmetic_Skin.xml -->
+	<!--                 EN: deep green skin -->
+	<AG_Skin_DeepGreen.label>Зеленая кожа</AG_Skin_DeepGreen.label>
+	<!--                         EN: green -->
+	<AG_Skin_DeepGreen.labelShortAdj>Темно-зеленый</AG_Skin_DeepGreen.labelShortAdj>
+	<!--                       EN: Carriers of this gene produce a pigment that gives their skin a deep green color. -->
+	<AG_Skin_DeepGreen.description>Носители этого гена вырабатывают пигмент, который придает их коже зеленый цвет.</AG_Skin_DeepGreen.description>
+	<!--                  EN: plant green skin -->
+	<AG_Skin_PlantGreen.label>Зелёная кожа растений</AG_Skin_PlantGreen.label>
+	<!--                          EN: green -->
+	<AG_Skin_PlantGreen.labelShortAdj>зеленый</AG_Skin_PlantGreen.labelShortAdj>
+	<!--                        EN: Carriers of this gene produce a pigment that gives their skin a green, plant-like colour. -->
+	<AG_Skin_PlantGreen.description>Носители этого гена вырабатывают пигмент, который придает их коже зеленый цвет, похожий на цвет растений.</AG_Skin_PlantGreen.description>
+	<!--                 EN: deeper red skin -->
+	<AG_Skin_DeeperRed.label>Красная кожа</AG_Skin_DeeperRed.label>
+	<!--                         EN: red -->
+	<AG_Skin_DeeperRed.labelShortAdj>красный</AG_Skin_DeeperRed.labelShortAdj>
+	<!--                       EN: Carriers of this gene produce a deeper-red pigment that gives their skin an almost bloody appearance. -->
+	<AG_Skin_DeeperRed.description>Носители этого гена вырабатывают красный пигмент, который придает их коже почти кровавый вид.</AG_Skin_DeeperRed.description>
+	<!--                  EN: deep purple skin -->
+	<AG_Skin_DeepPurple.label>Фиолетовая кожа</AG_Skin_DeepPurple.label>
+	<!--                          EN: purple -->
+	<AG_Skin_DeepPurple.labelShortAdj>фиолетовый</AG_Skin_DeepPurple.labelShortAdj>
+	<!--                        EN: Carriers of this gene produce a deep purple pigment that gives their skin a sickly appearance. -->
+	<AG_Skin_DeepPurple.description>Носители этого гена вырабатывают фиолетовый пигмент, который придает их коже болезненный вид.</AG_Skin_DeepPurple.description>
+	<!--                EN: deep blue skin -->
+	<AG_Skin_DeepBlue.label>Синяя кожа</AG_Skin_DeepBlue.label>
+	<!--                        EN: blue -->
+	<AG_Skin_DeepBlue.labelShortAdj>синий</AG_Skin_DeepBlue.labelShortAdj>
+	<!--                      EN: Carriers of this gene produce a pigment that turns their skin a deep blue color. -->
+	<AG_Skin_DeepBlue.description>Носители этого гена вырабатывают пигмент, который придает их коже синий цвет.</AG_Skin_DeepBlue.description>
+	<!--                         EN: very pale red skin -->
+	<AG_Skin_Drakonori_PaleRed.label>бледно-красная кожа</AG_Skin_Drakonori_PaleRed.label>
+	<!--                               EN: Carriers of this gene produce a pigment that turns their skin a pale red color. -->
+	<AG_Skin_Drakonori_PaleRed.description>Носители этого гена производят пигмент, который придает коже бледно-красный цвет.</AG_Skin_Drakonori_PaleRed.description>
+	<!--                          EN: very pale blue skin -->
+	<AG_Skin_Drakonori_PaleBlue.label>бледно-голубая кожа</AG_Skin_Drakonori_PaleBlue.label>
+	<!--                                EN: Carriers of this gene produce a pigment that turns their skin a pale blue color. -->
+	<AG_Skin_Drakonori_PaleBlue.description>Носители этого гена производят пигмент, который придает коже бледно-синий цвет.</AG_Skin_Drakonori_PaleBlue.description>
+	<!--           EN: rotten skin -->
+	<AG_Skin_Rot.label>гнилая кожа</AG_Skin_Rot.label>
+	<!--                 EN: Carriers of this gene have rotten, sickly looking skin. -->
+	<AG_Skin_Rot.description>У носителей этого гена кожа гнилая, болезненного вида.</AG_Skin_Rot.description>
+	<!--                    EN: pale blue fish skin -->
+	<AG_Skin_PaleBlueFish.label>бледно-лазурная рыбья кожа</AG_Skin_PaleBlueFish.label>
+	<!--                          EN: Carriers of this gene produce a pigment that turns their skin a pale fishy blue color. -->
+	<AG_Skin_PaleBlueFish.description>Носители этого гена вырабатывают пигмент, придающий коже бледно-лазурный оттенок, напоминающий рыбью чешую.</AG_Skin_PaleBlueFish.description>
+	<!--                EN: blue fish skin -->
+	<AG_Skin_BlueFish.label>лазурная рыбья кожа</AG_Skin_BlueFish.label>
+	<!--                      EN: Carriers of this gene produce a pigment that turns their skin a fishy blue color. -->
+	<AG_Skin_BlueFish.description>Носители этого гена вырабатывают пигмент, придающий коже лазурный оттенок, напоминающий рыбью чешую.</AG_Skin_BlueFish.description>
+	<!--                    EN: deep blue fish skin -->
+	<AG_Skin_DeepBlueFish.label>сапфирная рыбья кожа</AG_Skin_DeepBlueFish.label>
+	<!--                          EN: Carriers of this gene produce a pigment that turns their skin a deep, fishy blue color. -->
+	<AG_Skin_DeepBlueFish.description>Носители этого гена вырабатывают пигмент, придающий коже насыщенный сапфирный оттенок, напоминающий рыбью чешую.</AG_Skin_DeepBlueFish.description>
+	<!--              EN: Silver skin -->
+	<AG_Skin_Silver.label>Серебристая кожа</AG_Skin_Silver.label>
+	<!--                      EN: Silver -->
+	<AG_Skin_Silver.labelShortAdj>Серебро</AG_Skin_Silver.labelShortAdj>
+	<!--                    EN: Carriers of this gene produce a pigment that turns their skin an iridescent silver color. -->
+	<AG_Skin_Silver.description>Носители этого гена вырабатывают пигмент, который придает их коже переливающийся серебристый цвет.</AG_Skin_Silver.description>
+	<!--                                           EN: Fresh, Rotting -->
+	<AG_Skin_Silver.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_Skin_Silver.renderNodeProperties.0.rotDrawMode>
+	<!--            EN: golden skin -->
+	<AG_Skin_Gold.label>Золотистая кожа</AG_Skin_Gold.label>
+	<!--                    EN: golden -->
+	<AG_Skin_Gold.labelShortAdj>золотой</AG_Skin_Gold.labelShortAdj>
+	<!--                  EN: Carriers of this gene produce a pigment that turns their skin an iridescent golden color. -->
+	<AG_Skin_Gold.description>Носители этого гена вырабатывают пигмент, который придает их коже переливающийся золотистый цвет.</AG_Skin_Gold.description>
+	<!--                                         EN: Fresh, Rotting -->
+	<AG_Skin_Gold.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_Skin_Gold.renderNodeProperties.0.rotDrawMode>
+	<!--                 EN: deep black skin -->
+	<AG_Skin_TrueBlack.label>Черная кожа</AG_Skin_TrueBlack.label>
+	<!--                         EN: golden -->
+	<AG_Skin_TrueBlack.labelShortAdj>чёрный</AG_Skin_TrueBlack.labelShortAdj>
+	<!--                       EN: Carriers of this gene produce a pigment that turns their skin a very very deep black. -->
+	<AG_Skin_TrueBlack.description>Носители этого гена вырабатывают пигмент, который придает их коже очень-очень глубокий черный цвет.</AG_Skin_TrueBlack.description>
+	<!--                                              EN: Fresh, Rotting -->
+	<AG_Skin_TrueBlack.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_Skin_TrueBlack.renderNodeProperties.0.rotDrawMode>
+</LanguageData>

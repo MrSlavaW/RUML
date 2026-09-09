@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\HediffDefs\Hediffs_Mechanitor.xml -->
+	<!--                        EN: increased command range -->
+	<AG_IncreasedCommandRange.label>увеличенная дальность командования</AG_IncreasedCommandRange.label>
+	<!--                              EN: This person has an increased range when commanding drafted mechanoids. -->
+	<AG_IncreasedCommandRange.description>Носитель этого гена получает врождённо увеличенную дальность управления и командования механоидами.</AG_IncreasedCommandRange.description>
+	<!--                        EN: decreased command range -->
+	<AG_DecreasedCommandRange.label>уменьшенная дальность командования</AG_DecreasedCommandRange.label>
+	<!--                              EN: This person has a decreased range when commanding drafted mechanoids. -->
+	<AG_DecreasedCommandRange.description>Носитель этого гена получает врождённо уменьшенную дальность управления и командования механоидами.</AG_DecreasedCommandRange.description>
+	<!--                  EN: repair boost -->
+	<AG_MechRepairBoost.label>Ускорение ремонта</AG_MechRepairBoost.label>
+	<!--                        EN: This mechanoid's capacities have been boosted by a mechanitor with genetically enhanced mech repair capabilities. -->
+	<AG_MechRepairBoost.description>Скорость ремонта этого механоида была увеличена.</AG_MechRepairBoost.description>
+</LanguageData>

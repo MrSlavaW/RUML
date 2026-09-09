@@ -1,0 +1,32 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaGeneticsExpanded\Defs\RitualDefs\ExtractorFuneral.xml -->
+	
+	<!--                                EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+	<GR_ExtractorFuneralOutcome.description>В зависимости от качества ритуала, участники будут находиться в настроении от {MINMOOD} до {MAXMOOD} в течение {MOODDAYS} дней.</GR_ExtractorFuneralOutcome.description>
+	<!--                                           EN: Terrible -->
+	<GR_ExtractorFuneralOutcome.outcomeChances.0.label>Ужасно</GR_ExtractorFuneralOutcome.outcomeChances.0.label>
+	<!--                                                 EN: The {0} was terrible! Everyone felt devastated for having to see the genomes destroyed. -->
+	<GR_ExtractorFuneralOutcome.outcomeChances.0.description>{0} было ужасно! Все чувствовали себя опустошенными из-за того, что им пришлось увидеть уничтожение геномов.</GR_ExtractorFuneralOutcome.outcomeChances.0.description>
+	<!--                                           EN: Lackluster -->
+	<GR_ExtractorFuneralOutcome.outcomeChances.1.label>Непримечательно</GR_ExtractorFuneralOutcome.outcomeChances.1.label>
+	<!--                                                 EN: The {0} was lackluster. The speech was long-winded and failed to invoke the imagination. -->
+	<GR_ExtractorFuneralOutcome.outcomeChances.1.description>{0} было тусклым. Речь была многословной и не смогла пробудить воображение.</GR_ExtractorFuneralOutcome.outcomeChances.1.description>
+	<!--                                           EN: Good -->
+	<GR_ExtractorFuneralOutcome.outcomeChances.2.label>Хорошо</GR_ExtractorFuneralOutcome.outcomeChances.2.label>
+	<!--                                                 EN: The {0} was good. The speaker's final words provided hope for the creations. -->
+	<GR_ExtractorFuneralOutcome.outcomeChances.2.description>{0} было хорошо. Заключительные слова докладчика вселили надежду в творения.</GR_ExtractorFuneralOutcome.outcomeChances.2.description>
+	<!--                                           EN: Amazing -->
+	<GR_ExtractorFuneralOutcome.outcomeChances.3.label>Удивительно</GR_ExtractorFuneralOutcome.outcomeChances.3.label>
+	<!--                                                 EN: The {0} was Amazing. The speech was captivating, and everyone came away focused on the creations that could be made. -->
+	<GR_ExtractorFuneralOutcome.outcomeChances.3.description>{0} было потрясающим. Речь была увлекательной, и все ушли сосредоточенными на творениях, которые можно было бы создать.</GR_ExtractorFuneralOutcome.outcomeChances.3.description>
+	<!--                                  EN: moral guide present -->
+	<GR_ExtractorFuneralOutcome.comps.0.label>присутствует моральный наставник</GR_ExtractorFuneralOutcome.comps.0.label>
+	<!--                                  EN: participant count -->
+	<GR_ExtractorFuneralOutcome.comps.1.label>количество участников</GR_ExtractorFuneralOutcome.comps.1.label>
+	<!--                                  EN: Geneticist -->
+	<GR_ExtractorFuneralOutcome.comps.2.label>Генетик</GR_ExtractorFuneralOutcome.comps.2.label>
+	<!--                                                    EN: {RITUAL} was spectacular! {CORPSE} miraculously produced 2 genomes, perhaps they did eat their twin in the womb -->
+	<GR_ExtractorFuneralOutcome.modExtensions.0.bestOutcomeDesc>{RITUAL} был впечатляющим! {CORPSE} чудесным образом произвел 2 генома, возможно, они действительно съели своего близнеца в утробе матери</GR_ExtractorFuneralOutcome.modExtensions.0.bestOutcomeDesc>
+	<!--                                                     EN: {{RITUAL} was a disaster! {CORPSE}'s genome was destroyed; colonists are having to say goodbye -->
+	<GR_ExtractorFuneralOutcome.modExtensions.0.worstOutcomeDesc>{RITUAL} был катастрофой! Геном {CORPSE} был уничтожен; поселенцам приходится прощаться</GR_ExtractorFuneralOutcome.modExtensions.0.worstOutcomeDesc>
+</LanguageData>

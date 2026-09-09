@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<AdvancedArchotechLeg.label>продвинутая архонога</AdvancedArchotechLeg.label>
+	<AdvancedArchotechLeg.description>Улучшенная версия искусственной ноги архотеков. Покрыта гладкой органической оболочкой, дарует невероятную скорость перемещения.</AdvancedArchotechLeg.description>
+	<AdvancedArchotechArm.label>продвинутая архорука</AdvancedArchotechArm.label>
+	<AdvancedArchotechArm.description>Улучшенная версия искусственной руки архотеков. Обеспечивает колоссальную силу захвата и микроскопическую точность манипуляций.</AdvancedArchotechArm.description>
+	<ArchotechObliterator.label>архотек-аннигилятор</ArchotechObliterator.label>
+	<ArchotechObliterator.description>Многофункциональный архотек-протез руки со встроенным излучателем микроволн для разрушительных атак в ближнем бою.</ArchotechObliterator.description>
+	<ArchotechHeart.label>архосердце</ArchotechHeart.label>
+	<ArchotechHeart.description>Искусственное сердце, созданное архотеками. Безупречно перекачивает кровь и стимулирует метаболизм без риска сбоев.</ArchotechHeart.description>
+	<ArchotechKidney.label>архопочка</ArchotechKidney.label>
+	<ArchotechKidney.description>Искусственная почка архотеков. Мгновенно фильтрует любые токсины и примеси в кровотоке.</ArchotechKidney.description>
+	<ArchotechLiver.label>архопечень</ArchotechLiver.label>
+	<ArchotechLiver.description>Искусственная печень архотеков. Полностью очищает организм от ядов и ускоряет регенерацию клеток.</ArchotechLiver.description>
+	<ArchotechPelvis.label>архотаз</ArchotechPelvis.label>
+	<ArchotechPelvis.description>Архотек-протез таза. Оптимизирует баланс, координацию и устойчивость носителя.</ArchotechPelvis.description>
+	<ArchotechSpine.label>архопозвоночник</ArchotechSpine.label>
+	<ArchotechSpine.description>Искусственный позвоночник архотеков. Позволяет выдерживать колоссальные нагрузки без малейшей усталости.</ArchotechSpine.description>
+	<ArchotechLung.label>архолегкое</ArchotechLung.label>
+	<ArchotechLung.description>Искусственное легкое архотеков. Насыщает кровь кислородом даже в разреженной или токсичной атмосфере.</ArchotechLung.description>
+	<ArchotechStomach.label>архожелудок</ArchotechStomach.label>
+	<ArchotechStomach.description>Искусственный желудок архотеков. Мгновенно усваивает любую органику без риска отравления.</ArchotechStomach.description>
+	<ArchotechDenture.label>архозубы</ArchotechDenture.label>
+	<ArchotechDenture.description>Искусственный зубной аппарат архотеков. Неразрушимые эмалевые микроструктуры обеспечивают безупречную речь и питание.</ArchotechDenture.description>
+	<ArchotechEar.label>архоухо</ArchotechEar.label>
+	<ArchotechEar.description>Искусственное ухо архотеков. Улавливает ультразвук и инфразвук, даруя превосходный слух.</ArchotechEar.description>
+	<ArchotechDeathClaw.label>архотек-коготь смерти</ArchotechDeathClaw.label>
+	<ArchotechDeathClaw.description>Смертоносный архотек-коготь, рассекающий броню с молекулярной легкостью.</ArchotechDeathClaw.description>
+	<ArchotechBrainMelder.label>архотек-гармонизатор разума</ArchotechBrainMelder.label>
+	<ArchotechBrainMelder.description>Имплант архотеков, связывающий нейронные пути и гармонизирующий сознание носителя.</ArchotechBrainMelder.description>
+	<ArchotechMembrane.label>архомембрана</ArchotechMembrane.label>
+	<ArchotechMembrane.description>Подкожная наноматрица архотеков, поглощающая кинетическую энергию ударов и термоперепады.</ArchotechMembrane.description>
+	<ArchotechRegenerationMatrix.label>архотек-матрица регенерации</ArchotechRegenerationMatrix.label>
+	<ArchotechRegenerationMatrix.description>Устройство архотеков с роем микромеханитов, непрерывно залечивающих шрамы и затягивающих раны.</ArchotechRegenerationMatrix.description>
+</LanguageData>

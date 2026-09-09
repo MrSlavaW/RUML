@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaCookingExpanded\Defs\PreceptDefs\Precepts_KitchenProficiency.xml -->
+	<!--                             EN: extreme -->
+	<AM_KitchenProficiency_Extreme.label>экстремально</AM_KitchenProficiency_Extreme.label>
+	<!--                                   EN: A meal is more than sustenance—it's an art form. Only the most skilled hands should touch the ingredients, and every dish must be crafted to perfection. -->
+	<AM_KitchenProficiency_Extreme.description>Еда — это больше, чем просто питание, это искусство. Только самые умелые руки должны прикасаться к ингредиентам, и каждое блюдо должно быть приготовлено идеально.</AM_KitchenProficiency_Extreme.description>
+</LanguageData>

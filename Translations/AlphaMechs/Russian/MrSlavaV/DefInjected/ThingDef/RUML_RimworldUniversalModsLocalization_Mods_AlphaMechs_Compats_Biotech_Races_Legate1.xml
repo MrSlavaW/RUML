@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Legate.xml -->
+	<!--              EN: legate -->
+	<AM_Mech_Legate.label>легат</AM_Mech_Legate.label>
+	<!--                    EN: An ultraheavy mech with a built-in advanced shield bubble generator. The Legate lacks the point-defense bulb turret present in Centurions, but in exchange it is armed with a super heavy charge blaster that is much more dangerous than standard ones. -->
+	<AM_Mech_Legate.description>Сверхтяжёлый мех со встроенным улучшенным генератором защитного купола. У легата нет турели точечной обороны, как у центурионов, зато он вооружён сверхтяжёлым зарядным бластером, намного опаснее стандартных моделей.</AM_Mech_Legate.description>
+	<!--                      EN: голова -->
+	<AM_Mech_Legate.tools.0.label>голова</AM_Mech_Legate.tools.0.label>
+</LanguageData>

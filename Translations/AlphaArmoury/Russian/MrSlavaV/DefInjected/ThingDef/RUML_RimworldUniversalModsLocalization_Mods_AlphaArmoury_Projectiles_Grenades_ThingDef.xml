@@ -1,0 +1,54 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Projectiles\Projectiles_Grenades.xml -->
+
+	<!-- EN: acid grenade -->
+	<AArmoury_AcidGrenade.label>кислотная граната</AArmoury_AcidGrenade.label>
+
+	<!-- EN: "Holy hand" grenade -->
+	<AArmoury_HolyGrenade.label>граната «святая длань»</AArmoury_HolyGrenade.label>
+
+	<!-- EN: firefoam grenade -->
+	<AArmoury_FirefoamGrenade.label>пено-граната</AArmoury_FirefoamGrenade.label>
+
+	<!-- EN: shrapnel grenade -->
+	<AArmoury_ShrapnelGrenade.label>осколочная граната</AArmoury_ShrapnelGrenade.label>
+
+	<!-- EN: fertilizer canister -->
+	<AArmoury_FertilizerShot.label>контейнер с удобрениями</AArmoury_FertilizerShot.label>
+
+	<!-- EN: swarm rocket -->
+	<AArmoury_SwarmRocket.label>ракета роя</AArmoury_SwarmRocket.label>
+
+	<!-- EN: potato -->
+	<AArmoury_PotatoShot.label>картофель</AArmoury_PotatoShot.label>
+
+	<!-- EN: magma grenade -->
+	<AArmoury_MagmaGrenade.label>магмовая граната</AArmoury_MagmaGrenade.label>
+
+	<!-- EN: rotstink grenade -->
+	<AArmoury_RotstinkGrenade.label>гниловонная граната</AArmoury_RotstinkGrenade.label>
+
+	<!-- EN: egg -->
+	<AArmoury_Egg.label>яйцо</AArmoury_Egg.label>
+
+	<!-- EN: mine -->
+	<AArmoury_MineProjectile.label>мина</AArmoury_MineProjectile.label>
+
+	<!-- EN: caltrops -->
+	<AArmoury_CaltropProjectile.label>калтропы</AArmoury_CaltropProjectile.label>
+
+	<!-- EN: barricade -->
+	<AArmoury_BarricadeProjectile.label>баррикада</AArmoury_BarricadeProjectile.label>
+
+	<!-- EN: pesticide canister -->
+	<AArmoury_PesticideCanistersProjectile.label>контейнер с пестицидами</AArmoury_PesticideCanistersProjectile.label>
+
+	<!-- EN: dehydrator grenade -->
+	<AArmoury_DehydratorGrenade.label>осушающая граната</AArmoury_DehydratorGrenade.label>
+
+	<!-- EN: shield -->
+	<AArmoury_Shield.label>щит</AArmoury_Shield.label>
+
+	<!-- EN: anti-tox grenade -->
+	<AArmoury_AntiToxGrenade.label>анти-токс граната</AArmoury_AntiToxGrenade.label>
+</LanguageData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AB_ReddishRain.label>багровый дождь</AB_ReddishRain.label>
+  <AB_ReddishRain.description>Цветение атмосферных водорослей окрашивает дождевые капли в тревожный темно-красный оттенок.</AB_ReddishRain.description>
+  <AB_PetalStorms.label>лепестковая буря</AB_PetalStorms.label>
+  <AB_PetalStorms.description>Вихрь из миллионов цветочных лепестков. Улучшает настроение колонистов, но слегка ухудшает видимость.</AB_PetalStorms.description>
+  <AB_CompactedSand.label>плотный песок</AB_CompactedSand.label>
+  <AB_AlphaBiomesBuildings.label>Альфа-Биомы</AB_AlphaBiomesBuildings.label>
+  <AB_OptionalFeatures.description>Опциональные функции фреймворка Vanilla Expanded для Alpha Biomes.</AB_OptionalFeatures.description>
+</LanguageData>

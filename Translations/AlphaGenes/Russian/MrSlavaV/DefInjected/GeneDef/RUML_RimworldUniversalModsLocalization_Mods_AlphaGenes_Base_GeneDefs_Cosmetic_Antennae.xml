@@ -1,0 +1,43 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Cosmetic_Antennae.xml -->
+	<!--             EN: no upper antennae -->
+	<AG_NoAntennae.label>без верхних усиков</AG_NoAntennae.label>
+	<!--                   EN: Carriers of this gene don't have upper antennae. -->
+	<AG_NoAntennae.description>У носителей этого гена нет верхних усиков.</AG_NoAntennae.description>
+	<!--                                  EN: With this gene you can create xenotypes in which a pawn can have upper antennae or a lack of them at random -->
+	<AG_NoAntennae.customEffectDescriptions.0>Позволяет создавать ксенотипы, у носителей которых верхние усики либо присутствуют, либо случайно отсутствуют.</AG_NoAntennae.customEffectDescriptions.0>
+	<!--               EN: moth antennae -->
+	<AG_MothAntennae.label>усики мотылька</AG_MothAntennae.label>
+	<!--                     EN: Carriers of this gene grow two large antennae protruding from the nose. -->
+	<AG_MothAntennae.description>У носителей этого гена вырастают две большие антенны, выступающие из носа.</AG_MothAntennae.description>
+	<!--                   EN: bee antennae -->
+	<AG_OutwardsAntennas.label>пчелиные усики</AG_OutwardsAntennas.label>
+	<!--                         EN: Carriers of this gene grow two large bee antennae protruding from the head. -->
+	<AG_OutwardsAntennas.description>У носителей этого гена вырастают два больших пчелиных усика, торчащих из головы.</AG_OutwardsAntennas.description>
+	<!--                                                EN: Fresh, Rotting -->
+	<AG_OutwardsAntennas.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_OutwardsAntennas.renderNodeProperties.0.rotDrawMode>
+	<!--                    EN: wasp antennae -->
+	<AG_DownwardsAntennas.label>осиные усики</AG_DownwardsAntennas.label>
+	<!--                          EN: Carriers of this gene grow two large wasp antennae protruding from the head. -->
+	<AG_DownwardsAntennas.description>У носителей этого гена вырастают два больших осиных усика, выступающих из головы.</AG_DownwardsAntennas.description>
+	<!--                                                 EN: Fresh, Rotting -->
+	<AG_DownwardsAntennas.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_DownwardsAntennas.renderNodeProperties.0.rotDrawMode>
+	<!--                 EN: formic antennae -->
+	<AG_FormicAntennas.label>муравьиные усики</AG_FormicAntennas.label>
+	<!--                       EN: Carriers of this gene grow two large ant antennae protruding from the head. -->
+	<AG_FormicAntennas.description>У носителей этого гена вырастают два больших муравьиных усика, выступающих из головы.</AG_FormicAntennas.description>
+	<!--                                              EN: Fresh, Rotting -->
+	<AG_FormicAntennas.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_FormicAntennas.renderNodeProperties.0.rotDrawMode>
+	<!--                  EN: no lower antennae -->
+	<AG_NoLowerAntennae.label>без нижних усиков</AG_NoLowerAntennae.label>
+	<!--                        EN: Carriers of this gene don't have lower antennae. -->
+	<AG_NoLowerAntennae.description>У носителей этого гена нет нижних усиков.</AG_NoLowerAntennae.description>
+	<!--                                       EN: With this gene you can create xenotypes in which a pawn can have lower antennae or a lack of them at random -->
+	<AG_NoLowerAntennae.customEffectDescriptions.0>Позволяет создавать ксенотипы, у носителей которых нижние усики либо присутствуют, либо случайно отсутствуют.</AG_NoLowerAntennae.customEffectDescriptions.0>
+	<!--                EN: lower antennae -->
+	<AG_LowerAntennas.label>нижние усики</AG_LowerAntennas.label>
+	<!--                      EN: Carriers of this gene grow two large antennae protruding from their jaw. -->
+	<AG_LowerAntennas.description>У носителей этого гена вырастают два больших усика, выступающих из челюсти.</AG_LowerAntennas.description>
+	<!--                                             EN: Fresh, Rotting -->
+	<AG_LowerAntennas.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_LowerAntennas.renderNodeProperties.0.rotDrawMode>
+</LanguageData>

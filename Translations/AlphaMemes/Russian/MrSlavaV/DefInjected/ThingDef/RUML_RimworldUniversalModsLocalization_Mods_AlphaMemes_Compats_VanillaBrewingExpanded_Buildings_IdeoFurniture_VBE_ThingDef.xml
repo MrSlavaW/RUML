@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\ThingDefs_Buildings\Buildings_IdeoFurniture_VBE.xml -->
+	<!--                   EN: tea table -->
+	<AM_TeaCeremonyTable.label>чайный столик</AM_TeaCeremonyTable.label>
+	<!--                         EN: A short-legged table designed specifically for the tea ceremony, offering a stable surface for brewing and presenting tea with care and precision. Its low height encourages a sense of intimacy and tranquility during the ritual. -->
+	<AM_TeaCeremonyTable.description>Низкий столик, специально разработанный для чайной церемонии, предоставляющий устойчивую поверхность для заваривания и подачи чая с заботой и точностью. Его небольшая высота способствует чувству уюта и спокойствия во время ритуала.</AM_TeaCeremonyTable.description>
+</LanguageData>

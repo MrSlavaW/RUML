@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\PreceptDefs\Precepts_Coffee.xml -->
+<!--                          EN: required -->
+    <AM_CoffeeDrinking_Required.label>обязательно</AM_CoffeeDrinking_Required.label>
+    <!--                                EN: Coffee is more than just a drink; it is a moment of energy, focus, and ritual. The consumption of coffee is a sacred obligation.\n\n&lt;color=#E5E54C&gt;Unlocks need:&lt;/color&gt;\n - Coffee drinking need.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Bear in mind this precept has a minimum expectation required. Moderate expectations or higher are needed for the "Coffee" need to show up.\n- Coffee and iced coffee fill the need by 0.4, specialty coffee (any in VE Brewing - Coffees and Teas) by 0.5 -->
+    <AM_CoffeeDrinking_Required.description>Кофе — это больше, чем просто напиток; это момент энергии, концентрации и ритуал. Употребление кофе — это священная обязанность.\n\n&lt;color=#E5E54C&gt;Открывает потребность:&lt;/color&gt;\n - Потребность в употреблении кофе.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Имейте в виду, что для этого принципа требуется минимальный уровень ожиданий. Чтобы потребность «Кофе» появилась, уровень ожиданий должен быть умеренным или выше.\n- Кофе и холодный кофе восполняют потребность на 0.4, особый кофе (любой из VE Brewing - Coffees and Teas) — на 0.5.</AM_CoffeeDrinking_Required.description>
+</LanguageData>

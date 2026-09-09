@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\HediffDefs\Hediffs_Food.xml -->
+	<!--           EN: corpse feeding -->
+	<AG_Helixien.label>Газовик</AG_Helixien.label>
+	<!--                 EN: Constantly secretes a foul-smelling, corrosive gas that produces an uncomfortable, itchy sensation in living beings. This gas is mostly harmless, unless it comes into contact with decaying organic matter: it greatly accelerates corpse rotting, liberating a black putrid liquid known as "purge fluid" or corpse bile. The carrier is fed through the skin by contacting the liquid sludge, although they can also feed on other organic matter if needed. -->
+	<AG_Helixien.description>Постоянно выделяет неприятно пахнущий едкий газ, вызывающий у живых существ неприятный зуд. Обычно этот газ почти безвреден, но при контакте с разлагающейся органикой резко ускоряет гниение и выделяет чёрную гнилостную жидкость, известную как трупная желчь.</AG_Helixien.description>
+	<!--         EN: extremely low hunger -->
+	<AG_NoFood.label>Бретарианец</AG_NoFood.label>
+	<!--               EN: This person doesn't feel hunger, only needing to eat every few weeks. -->
+	<AG_NoFood.description>Этот человек не чувствует голода, ему нужно есть только раз в несколько недель.</AG_NoFood.description>
+	<!--                  EN: photosynthesis -->
+	<AG_LightSustenance.label>светопитание</AG_LightSustenance.label>
+	<!--                        EN: This colonist has chlorophyll pigments in their skin that allows them to absorb nutrients from sunlight, eliminating almost entirely their need to eat, but requiring them to be constantly exposed to light for sustenance. -->
+	<AG_LightSustenance.description>У носителей этого гена в коже есть пигменты хлорофилла, которые позволяют им поглощать питательные вещества из солнечного света, почти полностью устраняя их потребность в еде, но требуя, чтобы они постоянно подвергались воздействию света для поддержания жизни.</AG_LightSustenance.description>
+</LanguageData>

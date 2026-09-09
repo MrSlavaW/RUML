@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\AbilityDefs\Abilities_PocketPlane.xml -->
+	<!--                    EN: nereid pocket plane -->
+	<AG_NereidPocketPlane.label>карманное измерение нереиды</AG_NereidPocketPlane.label>
+	<!--                          EN: Opens a link to an extradimensional space that only the caster can access. If cast inside the pocket plane, it will return the caster to the original map, at the same position it departed when entering the pocket plane. -->
+	<AG_NereidPocketPlane.description>Открывает проход в внепространственное убежище, доступное только заклинателю. Если использовать способность внутри карманного измерения, она вернёт его на исходную карту, в ту точку, откуда он вошёл.</AG_NereidPocketPlane.description>
+	<!--                     EN: destroy pocket plane -->
+	<AG_DestroyPocketPlane.label>уничтожить карманное измерение</AG_DestroyPocketPlane.label>
+	<!--                           EN: Destroys the pocket plane, along with everything inside it. WARNING: you can open a new pocket plane, but the original will be forever lost. -->
+	<AG_DestroyPocketPlane.description>Уничтожает карманное измерение вместе со всем, что в нём находится. ВНИМАНИЕ: вы сможете открыть новое карманное измерение, но исходное будет потеряно навсегда.</AG_DestroyPocketPlane.description>
+	<!--                           EN: transfer to pocket plane -->
+	<AG_TeleportItemsPocketPlane.label>перенос в карманное измерение</AG_TeleportItemsPocketPlane.label>
+	<!--                                 EN: Transfers items to pocket plane. Items can be transported to a pocket plane, but cannot be taken out of it! -->
+	<AG_TeleportItemsPocketPlane.description>Переносит предметы в карманное измерение. Поместить вещи туда можно, но вернуть их обратно уже нельзя.</AG_TeleportItemsPocketPlane.description>
+</LanguageData>

@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- 1.6\Mods\MedievalOverhaul\Defs\GeneDefs\GeneDefs_MedievalOverhaul.xml -->
+	<!--           EN: rox horns -->
+	<AG_RoxHorns.label>рога рокса</AG_RoxHorns.label>
+	<!--                 EN: Carriers of this gene grow two large curved horns protruding from the forehead. -->
+	<AG_RoxHorns.description>У носителей этого гена вырастают два больших изогнутых рога, торчащих изо лба.</AG_RoxHorns.description>
+	<!--                                EN: Blessed by the Rox. -->
+	<AG_RoxHorns.customEffectDescriptions.0>Благословен Роксом.</AG_RoxHorns.customEffectDescriptions.0>
+	<!--          EN: rox pelt -->
+	<AG_RoxPelt.label>шкура рокса</AG_RoxPelt.label>
+	<!--                EN: Carriers of this gene have a luxurious mat of grey hair covering their upper torso. -->
+	<AG_RoxPelt.description>У носителей этого гена верхняя часть туловища покрыта роскошной копной седых волос.</AG_RoxPelt.description>
+</LanguageData>

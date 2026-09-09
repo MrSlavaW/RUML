@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\sarg_rimbees\Races_ApiaristMech3.xml -->
+	<!--                EN: apiarist -->
+	<AM_Mech_Apiarist.label>пчеловод</AM_Mech_Apiarist.label>
+	<!--                      EN: The Apiarist is a small, bee-shaped machine designed specifically for beekeeping tasks. With its advanced sensors and programming, it can monitor hive health, collect honey, and perform other essential tasks with exceptional precision and efficiency. The Apiarist's compact size and winged design allow it to hover over terrain, ignoring terrain movement costs and accessing hard-to-reach locations. While not designed for combat, its robust construction and ability to move swiftly and nimbly make it difficult to catch.\n\n&lt;color=#E5E54C&gt;Special abilities:&lt;/color&gt; Hovers over terrain, ignoring terrain movement costs. -->
+	<AM_Mech_Apiarist.description>Apiarist — это небольшая машина в форме пчелы, разработанная специально для пчеловодства. Благодаря передовым датчикам и программированию он может контролировать состояние улья, собирать мед и выполнять другие важные задачи с исключительной точностью и эффективностью. Компактный размер и крылатая конструкция «Апиариста» позволяют ему парить над местностью, игнорируя затраты на перемещение по местности и обеспечивая доступ к труднодоступным местам. Хотя он и не предназначен для боя, его прочная конструкция и способность быстро и ловко передвигаться затрудняют его поимку.\n\n&lt;color=#E5E54C&gt;Особые способности:&lt;/color&gt; Парит над местностью, игнорируя затраты на перемещение по местности.</AM_Mech_Apiarist.description>
+	<!--                        EN: голова -->
+	<AM_Mech_Apiarist.tools.0.label>голова</AM_Mech_Apiarist.tools.0.label>
+</LanguageData>

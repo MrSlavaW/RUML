@@ -1,0 +1,55 @@
+﻿<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Weapons\RangedMechanoid.xml -->
+	<!--               EN: flamethrower -->
+	<AM_Flamethrower.label>огнемет</AM_Flamethrower.label>
+	<!--                     EN: A chemfuel flamethrower. Short range, but it will cause uncontrollable fires if you let the fireworms come near. -->
+	<AM_Flamethrower.description>Химический огнемет. Небольшое расстояние, но если вы позволите огненным червям приблизиться, это вызовет неконтролируемые пожары.</AM_Flamethrower.description>
+	<!--                       EN: ствол -->
+	<AM_Flamethrower.tools.0.label>ствол</AM_Flamethrower.tools.0.label>
+	<!--                       EN: выстрел -->
+	<AM_Flamethrower.verbs.0.label>выстрел</AM_Flamethrower.verbs.0.label>
+	<!--                           EN: goliath charge blaster -->
+	<AM_Gun_GoliathChargeBlaster.label>зарядный бластер голиаф</AM_Gun_GoliathChargeBlaster.label>
+	<!--                                 EN: A pulse-charged rapid-fire blaster for area suppressive fire. Heavy cooling allows long, deadly bursts. -->
+	<AM_Gun_GoliathChargeBlaster.description>Импульсный скорострельный бластер для подавления огня по площади. Сильное охлаждение позволяет совершать длинные смертоносные всплески.</AM_Gun_GoliathChargeBlaster.description>
+	<!--                                   EN: ствол -->
+	<AM_Gun_GoliathChargeBlaster.tools.0.label>ствол</AM_Gun_GoliathChargeBlaster.tools.0.label>
+	<!--                                   EN: выстрел -->
+	<AM_Gun_GoliathChargeBlaster.verbs.0.label>выстрел</AM_Gun_GoliathChargeBlaster.verbs.0.label>
+	<!--                    EN: goliath needle gun -->
+	<AM_Gun_GoliathNeedle.label>игольчатый пистолет голиаф</AM_Gun_GoliathNeedle.label>
+	<!--                          EN: A long-range weapon used by mechanoids. Named after its needle-like projectiles, it fires single shots with great accuracy. While it does less damage than charge weapons, it can reach over very long distances. -->
+	<AM_Gun_GoliathNeedle.description>Дальнобойное оружие механоидов. Оно названо в честь игольчатых снарядов и стреляет одиночными, очень точными выстрелами. По урону уступает зарядному оружию, но бьёт на значительно большую дистанцию.</AM_Gun_GoliathNeedle.description>
+	<!--                            EN: выстрел -->
+	<AM_Gun_GoliathNeedle.verbs.0.label>выстрел</AM_Gun_GoliathNeedle.verbs.0.label>
+	<!--                            EN: ствол -->
+	<AM_Gun_GoliathNeedle.tools.0.label>ствол</AM_Gun_GoliathNeedle.tools.0.label>
+	<!--               EN: cryogenic gun -->
+	<AM_CryogenicGun.label>криогенная пушка</AM_CryogenicGun.label>
+	<!--                     EN: A weapon that fires frozen pellets or liquid nitrogen, rapidly lowering the temperature of the target to freeze or immobilize it. Frostbite damage bypasses armor. -->
+	<AM_CryogenicGun.description>Оружие, стреляющее замороженными гранулами или жидким азотом, быстро понижающее температуру цели, чтобы заморозить или обездвижить ее. Урон от обморожения обходит броню.</AM_CryogenicGun.description>
+	<!--                       EN: ствол -->
+	<AM_CryogenicGun.tools.0.label>ствол</AM_CryogenicGun.tools.0.label>
+	<!--                       EN: выстрел -->
+	<AM_CryogenicGun.verbs.0.label>выстрел</AM_CryogenicGun.verbs.0.label>
+	<!--             EN: cryogenic pellet -->
+	<AM_CryoBullet.label>криогенная таблетка</AM_CryoBullet.label>
+	<!--                     EN: siege turret -->
+	<AM_SiegebreakerTurret.label>осадная башня</AM_SiegebreakerTurret.label>
+	<!--                           EN: A huge turret that fires explosive warheads. -->
+	<AM_SiegebreakerTurret.description>Огромная турель, стреляющая взрывными боеголовками.</AM_SiegebreakerTurret.description>
+	<!--                             EN: ствол -->
+	<AM_SiegebreakerTurret.tools.0.label>ствол</AM_SiegebreakerTurret.tools.0.label>
+	<!--                             EN: выстрел -->
+	<AM_SiegebreakerTurret.verbs.0.label>выстрел</AM_SiegebreakerTurret.verbs.0.label>
+	<!--                         EN: high-explosive shell -->
+	<AM_Bullet_Shell_Explosive.label>осколочный снаряд</AM_Bullet_Shell_Explosive.label>
+	<!--                       EN: demolisher charges -->
+	<AM_DemolisherChargeBase.label>обвинения в разрушении</AM_DemolisherChargeBase.label>
+	<!--                             EN: A huge mechanoid-mounted turret that launches high-explosive demolisher charges, capable of taking out even heavily armored fortifications. Obviously also dangerous against living creatures. -->
+	<AM_DemolisherChargeBase.description>Огромная турель, установленная на механоиде, запускающая фугасные разрушительные заряды, способные уничтожить даже тяжелобронированные укрепления. Очевидно, также опасен против живых существ.</AM_DemolisherChargeBase.description>
+	<!--                               EN: выстрел -->
+	<AM_DemolisherChargeBase.verbs.0.label>выстрел</AM_DemolisherChargeBase.verbs.0.label>
+	<!--                          EN: demolisher charge -->
+	<AM_Bullet_Shell_Demolisher.label>разрушительный заряд</AM_Bullet_Shell_Demolisher.label>
+</LanguageData>

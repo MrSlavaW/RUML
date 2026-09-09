@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_CleanGoliath.xml -->
+	<!--                EN: goliath -->
+	<VFE_Mech_Goliath.label>голиаф</VFE_Mech_Goliath.label>
+	<!--                      EN: The Goliath is a heavy combat mechanoid with a humanoid body plan. They are faster than centipedes, and are usually armed with heavy mechanoid weapons or needle guns. This particular unit appears to be freshly manufactured and will operate more robustly.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Faster than a centipede, but weaker due to their weaker weapons. If toggled to not spawn via mod options, they will get replaced by a Centipede Gunner. -->
+	<VFE_Mech_Goliath.description>Голиаф — тяжелый боевой механоид с гуманоидным строением тела. Они быстрее многоножек и обычно вооружены тяжелым механоидным оружием или игольчатыми пистолетами. Этот конкретный блок выглядит только что изготовленным и будет работать более надежно.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Быстрее многоножки, но слабее из-за более слабого оружия. Если с помощью опций мода отключено появление, они будут заменены многоножками-стрелками.</VFE_Mech_Goliath.description>
+	<!--                        EN: голова -->
+	<VFE_Mech_Goliath.tools.0.label>голова</VFE_Mech_Goliath.tools.0.label>
+</LanguageData>

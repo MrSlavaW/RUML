@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThoughtDefs\RelicDestruction\Thoughts_RelicDestruction.xml -->
+	<!--                                  EN: boring relic destruction -->
+	<AM_BoringRelicDestruction.stages.0.label>скучное разрушение реликвий</AM_BoringRelicDestruction.stages.0.label>
+	<!--                                        EN: The ritual was a bit boring, but we got rid of an obscene idol, and that will only make our beliefs stronger. -->
+	<AM_BoringRelicDestruction.stages.0.description>Ритуал был немного скучным, но мы избавились от непристойного идола, и это только укрепит наши убеждения.</AM_BoringRelicDestruction.stages.0.description>
+	
+	<!--                                        EN: entertaining relic destruction -->
+	<AM_EntertainingRelicDestruction.stages.0.label>занимательное разрушение реликвий</AM_EntertainingRelicDestruction.stages.0.label>
+	<!--                                              EN: The ritual was entertaining. We got rid of an obscene idol, and that will only make our beliefs stronger. -->
+	<AM_EntertainingRelicDestruction.stages.0.description>Ритуал был развлекательным. Мы избавились от непристойного идола, и это только укрепит наши убеждения.</AM_EntertainingRelicDestruction.stages.0.description>
+</LanguageData>

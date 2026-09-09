@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\PreceptDefs\Precepts_SkyBurial.xml -->
+	<!--            EN: sky burial -->
+	<AM_SkyBurial.label>небесное захоронение</AM_SkyBurial.label>
+	<!--                  EN: A gathering to witness the send off of our friend to nature. -->
+	<AM_SkyBurial.description>Собрание, чтобы засвидетельствовать отправку нашего друга к природе.</AM_SkyBurial.description>
+	<!--                               EN: {PAWN_nameDef} should be left in a secluded area and left to nature so {PAWN_possessive} friends and family can move on as their. -->
+	<AM_SkyBurial.extraTextPawnDeathLetter>{PAWN_nameDef} следует оставить в уединенном месте на природе, чтобы друзья и семья {PAWN_possessive} могли жить дальше.</AM_SkyBurial.extraTextPawnDeathLetter>
+</LanguageData>

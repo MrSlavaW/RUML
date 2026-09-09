@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RS.CancelGeneSeparating>Cancel gene separating</RS.CancelGeneSeparating>
+  <RS.CancelGeneSeparatingDesc>Cancel separating genes.</RS.CancelGeneSeparatingDesc>
+  <RS.CancelInfusingDesc>лапа</RS.CancelInfusingDesc>
+  <RS.CancelInfusion>Cansel infusion</RS.CancelInfusion>
+  <RS.CancelXenogermDuplication>Cancel xenogerm duplication</RS.CancelXenogermDuplication>
+  <RS.CancelXenogermDuplicationDesc>Cancel xenogerm duplication.</RS.CancelXenogermDuplicationDesc>
+  <RS.CannotInfuseAlreadyHasDarkGene>лапа</RS.CannotInfuseAlreadyHasDarkGene>
+  <RS.CentrigureWorking>Gene centrifuge is working.</RS.CentrigureWorking>
+  <RS.ContainsGenepack>Contains: {0}</RS.ContainsGenepack>
+  <RS.ContainsXenogerm>Contains: {0}</RS.ContainsXenogerm>
+  <RS.DuplicateXenogerm>Duplicate xenogerm</RS.DuplicateXenogerm>
+  <RS.DuplicateXenogermDesc>Select a xenogerm to duplicate. Xenogerms with archite genes require archite capsules to be loaded.</RS.DuplicateXenogermDesc>
+  <RS.DuplicationProgress>Duplicating: {0}</RS.DuplicationProgress>
+  <RS.DuplicatorWorking>Xenogerm duplicator is working</RS.DuplicatorWorking>
+  <RS.EjectArchites>Eject archite capsules</RS.EjectArchites>
+  <RS.EjectArchitesDesc>Eject all contained archite capsules onto the ground.</RS.EjectArchitesDesc>
+  <RS.FinishedSeparatingDestroyedMessage>Центрифуга генов завершила разделение пакетов!</RS.FinishedSeparatingDestroyedMessage>
+  <RS.FinishedSeparatingMessage>Центрифуга генов завершила разделение пакетов!</RS.FinishedSeparatingMessage>
+  <RS.FinishedXenogermDuplicationMessage>Центрифуга генов завершила разделение пакетов!</RS.FinishedXenogermDuplicationMessage>
+  <RS.InfuseDarkArchite>Infuse voidspike</RS.InfuseDarkArchite>
+  <RS.InfuseDarkArchiteDesc>Infuse this into a person to introduce a dark archite gene into their genetic code.\n\nThis is a surgical operation, so it requires a doctor and medical bed.</RS.InfuseDarkArchiteDesc>
+  <RS.InfuseDarkArchiteWarningDesc>лапа</RS.InfuseDarkArchiteWarningDesc>
+  <RS.InfuseDarkArchiteWarningNewMetabolism>лапа</RS.InfuseDarkArchiteWarningNewMetabolism>
+  <RS.LetterDarkArchiteOrderedInfused>лапа</RS.LetterDarkArchiteOrderedInfused>
+  <RS.LetterLabelDarkArchiteOrderedInfused>Voidspike infusion ordered</RS.LetterLabelDarkArchiteOrderedInfused>
+  <RS.MessageCannotInfuseInTempFactionMembers>Cannot infuse in temporary faction members.</RS.MessageCannotInfuseInTempFactionMembers>
+  <RS.NotEnoughArchiteCapsulesLoaded>Do you really want to duplicate the xenogerm? Not enough archite capsules are loaded to duplicate all any archite genes inside the xenogerm.</RS.NotEnoughArchiteCapsulesLoaded>
+  <RS.OrderInfusionIntoPawn>лапа</RS.OrderInfusionIntoPawn>
+  <RS.SelectAGeneToSeparate>Select a gene to separate.</RS.SelectAGeneToSeparate>
+  <RS.SelectGene>Выбрать ген</RS.SelectGene>
+  <RS.SelectGeneExplanation>Выбрать ген</RS.SelectGeneExplanation>
+  <RS.SeparateGene>Отделить ген</RS.SeparateGene>
+  <RS.SeparateGeneDesc>Выберите генный пакет для отделения from which to separate a gene from.</RS.SeparateGeneDesc>
+  <RS.SeparateGeneExplanation>лапа</RS.SeparateGeneExplanation>
+  <RS.SeparatingGenes>Отделение генов</RS.SeparatingGenes>
+  <RS.SeparatingProgress>Отделение: {0}</RS.SeparatingProgress>
+  <RS.StartSeparating>Начать центрифугирование</RS.StartSeparating>
+  <RS.TargetArchiteCapsuleLevel>Target archite capsule amount: {0}</RS.TargetArchiteCapsuleLevel>
+  <RS.TargetMustHaveAtLeastOneDarkGene>Target must have at least one dark archite gene.</RS.TargetMustHaveAtLeastOneDarkGene>
+</LanguageData>

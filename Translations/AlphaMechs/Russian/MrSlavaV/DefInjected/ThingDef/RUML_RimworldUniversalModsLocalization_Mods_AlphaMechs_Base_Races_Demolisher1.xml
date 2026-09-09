@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_RacesMechanoids\Races_Demolisher.xml -->
+	<!--             EN: demolisher -->
+	<AM_Demolisher.label>разрушитель</AM_Demolisher.label>
+	<!--                   EN: The strange demolisher mechanoid looks like a weird amalgamation of a deep sea crab, a star-nosed mole and an armoured combat vehicle. Demolishers are armed with a very dangerous short range turret that fires demolisher charges, capable of blowing up even the strongest walls in two or three hits. Once they have ruptured a colony's outer defenses, their enormous plasteel reinforced claws can make short work of anyone foolish enough to stay in their way.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Demolishers will only appear in breach raids, as an alternative to the Termite. If toggled to not spawn via mod options, they will get replaced by a Termite. -->
+	<AM_Demolisher.description>Странный механоид-разрушитель выглядит как странная смесь глубоководного краба, звездоносого крота и боевой бронированной машины. Разрушители вооружены очень опасной турелью ближнего действия, стреляющей зарядами-разрушителями, способными взорвать даже самые крепкие стены за два-три попадания. Как только они прорвут внешнюю оборону колонии, их огромные усиленные пластали когти могут быстро расправиться с любым глупцом, который встанет у них на пути.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Разрушители будут появляться только в рейдах на проломы, как альтернатива Термитам. Если с помощью опций мода отключить спавн, они будут заменены термитами.</AM_Demolisher.description>
+	<!--                     EN: mechanoid claws -->
+	<AM_Demolisher.tools.0.label>когти механоида</AM_Demolisher.tools.0.label>
+</LanguageData>

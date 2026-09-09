@@ -1,0 +1,34 @@
+<LanguageData>
+	<!-- 1.6\Defs\WeaponTraitDefs\WeaponTraitDefs_Abilities.xml -->
+
+	<!-- EN: self-skip field -->
+	<AArmoury_SelfSkipField.label>поле самопрыжка</AArmoury_SelfSkipField.label>
+	<!-- EN: This weapon generates a localized skip field that allows its user to self-skip. -->
+	<AArmoury_SelfSkipField.description>Это оружие создаёт локализованное поле прыжка, позволяющее владельцу перемещаться самостоятельно.\n\nПодробности способности: без зарядов, перезарядка 4800 тиков (примерно 2 часа). Дальность — 21 клетка в пределах прямой видимости.</AArmoury_SelfSkipField.description>
+	
+	<!-- EN: skip field -->
+	<AArmoury_SkipField.label>поле прыжка</AArmoury_SkipField.label>
+	<!-- EN: This weapon generates a localized skip field that allows its user to skip a target away. -->
+	<AArmoury_SkipField.description>Это оружие создаёт локализованное поле прыжка, позволяющее перемещать цель.\n\nПодробности способности: без зарядов, перезарядка 4800 тиков (примерно 2 часа). Дальность — 21 клетка в пределах прямой видимости.</AArmoury_SkipField.description>
+	
+	<!-- EN: invisibility field -->
+	<AArmoury_InvisibilityField.label>поле невидимости</AArmoury_InvisibilityField.label>
+	<!-- EN: Psychic invisibility -->
+	<AArmoury_InvisibilityField.description>Это оружие создаёт поле психической невидимости, временно скрывающее владельца.\n\nПодробности способности: без зарядов, перезарядка 30000 тиков (половина дня). Длительность — 4 часа.</AArmoury_InvisibilityField.description>
+	
+	<!-- EN: sludge spewer -->
+	<AArmoury_Sludge.label>разбрызгиватель шлама</AArmoury_Sludge.label>
+	<!-- EN: Acidic sludge -->
+	<AArmoury_Sludge.description>Это оружие распыляет кислотный шлам. Он прилипает к целям, обжигает их и превращает поверхность в насекомый шлам.</AArmoury_Sludge.description>
+	<AArmoury_Sludge.modExtensions.0.abilityWithCharges.chargeNoun>шлам</AArmoury_Sludge.modExtensions.0.abilityWithCharges.chargeNoun>
+	
+	<!-- EN: detonation -->
+	<AArmoury_Detonation.label>детонация</AArmoury_Detonation.label>
+	<!-- EN: Ultra heated gasses -->
+	<AArmoury_Detonation.description>Это оружие накапливает сверхнагретые газы, которые можно высвободить в виде мощного взрыва. Владельцу урон не наносится.\n\nПодробности способности: без зарядов, перезарядка 30000 тиков (половина дня). Поражает область в радиусе 2 клеток вокруг владельца, нанося 50 урона взрывом.</AArmoury_Detonation.description>
+	
+	<!-- EN: mimic core -->
+	<AArmoury_MimicCore.label>ядро мимика</AArmoury_MimicCore.label>
+	<!-- EN: Acquire weapon traits -->
+	<AArmoury_MimicCore.description>Это оружие может перенять оружейные особенности другого уникального оружия, уничтожая его в процессе. Учитываются только совместимые особенности (никаких луков с ракетами).\n\nПодробности способности: без зарядов, перезарядка 30000 тиков (половина дня). Дальность — 6 клеток.</AArmoury_MimicCore.description>
+</LanguageData>

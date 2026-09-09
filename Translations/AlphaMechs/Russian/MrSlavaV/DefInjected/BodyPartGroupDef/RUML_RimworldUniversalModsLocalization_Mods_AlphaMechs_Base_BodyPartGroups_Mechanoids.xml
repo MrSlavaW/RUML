@@ -1,0 +1,15 @@
+﻿<LanguageData>
+	<!-- 1.6\Defs\Bodies_Mechanoids\BodyPartGroups_Mechanoids.xml -->
+	<!--             EN: wing blades -->
+	<AM_WingBlades.label>лопасти крыла</AM_WingBlades.label>
+	<!--                  EN: wing blade -->
+	<AM_WingBlades.labelShort>крыльевой клинок</AM_WingBlades.labelShort>
+	<!--             EN: mechanoid claws -->
+	<AM_MechaClaws.label>когти механоида</AM_MechaClaws.label>
+	<!--                  EN: mechanoid claw -->
+	<AM_MechaClaws.labelShort>механоидный коготь</AM_MechaClaws.labelShort>
+	<!--            EN: snout blade -->
+	<AM_NoseBlade.label>рыловой клинок</AM_NoseBlade.label>
+	<!--                 EN: snout blade -->
+	<AM_NoseBlade.labelShort>рыловой клинок</AM_NoseBlade.labelShort>
+</LanguageData>

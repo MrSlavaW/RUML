@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Buildings\Buildings_Production.xml -->
+	<!--                EN: grog dispenser -->
+	<AM_GrogDispenser.label>дозатор грога</AM_GrogDispenser.label>
+	<!--                      EN: A dispenser of grog, an alcoholic liquor usually made with rum cut with water and often served hot with lemon juice and sugar, as well as other additives. May contain one or more of the following: kerosene, propylene glycol, artificial sweeteners, sulphuric acid, acetone, red dye no. 2, scumm, axle grease, battery acid, pepperoni. This barrel ferments organic feedstocks placed in adjacent hoppers. It consumes less ingredients and time than any other meal production method - but nobody likes actually drinking grog. Accepts raw food, but not rough plant matter like hay. -->
+	<AM_GrogDispenser.description>Дозатор грога, алкогольного напитка, обычно приготовленного из рома, разбавленного водой, и часто подаваемого горячим с лимонным соком и сахаром, а также другими добавками. Может содержать одно или несколько из следующих веществ: керосин, пропиленгликоль, искусственные подсластители, серную кислоту, ацетон, краситель красный №. 2, накипь, смазка для осей, аккумуляторная кислота, пепперони. В этой бочке ферментируется органическое сырье, помещенное в соседние загрузочные воронки. Требуется меньше ингредиентов и времени, чем любой другой метод приготовления еды, но на самом деле никто не любит пить грог.</AM_GrogDispenser.description>
+</LanguageData>

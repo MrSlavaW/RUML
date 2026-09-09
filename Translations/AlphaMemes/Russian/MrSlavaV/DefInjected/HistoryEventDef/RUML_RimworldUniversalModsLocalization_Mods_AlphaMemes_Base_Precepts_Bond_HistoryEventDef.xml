@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Bond.xml -->
+	<!--             EN: taming animal -->
+	<AM_TameAnimal.label>приручение животного</AM_TameAnimal.label>
+	<!--              EN: training animal -->
+	<AM_TrainAnimal.label>тренировка животного</AM_TrainAnimal.label>
+</LanguageData>

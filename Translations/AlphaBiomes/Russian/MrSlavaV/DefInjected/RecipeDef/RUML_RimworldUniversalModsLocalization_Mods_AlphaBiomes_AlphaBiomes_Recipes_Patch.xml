@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AB_PropaneToChemfuel.label>изготовить химтопливо из пропана</AB_PropaneToChemfuel.label>
+  <AB_PropaneToChemfuel.description>Синтезирует порцию химтоплива из природного пропана.</AB_PropaneToChemfuel.description>
+  <AB_RedQuartzToAlcyonite.label>извлечь альционит из розового кварца</AB_RedQuartzToAlcyonite.label>
+  <AB_RedQuartzToAlcyonite.description>Извлекает пригодные фрагменты альционита из кристаллов розового кварца.</AB_RedQuartzToAlcyonite.description>
+  <AB_CrystalWoodToMatrix.label>переработать кристаллическую древесину в матрицу</AB_CrystalWoodToMatrix.label>
+  <AB_CrystalWoodToMatrix.description>Преобразует кристаллическую древесину в сверхпрочную кристаллическую матрицу.</AB_CrystalWoodToMatrix.description>
+  <AB_ResinToProcessed.label>очистить смолу Кордакса</AB_ResinToProcessed.label>
+  <AB_ResinToProcessed.description>Перерабатывает сырую смолу Кордакса в очищенный промышленный полимер.</AB_ResinToProcessed.description>
+</LanguageData>

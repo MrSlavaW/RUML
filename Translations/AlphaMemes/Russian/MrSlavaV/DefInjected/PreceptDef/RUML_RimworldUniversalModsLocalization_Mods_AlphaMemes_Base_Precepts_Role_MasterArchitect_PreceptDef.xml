@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Role_MasterArchitect.xml -->
+	<!--                           EN: master architect -->
+	<AM_IdeoRole_MasterArchitect.label>главный архитектор</AM_IdeoRole_MasterArchitect.label>
+	<!--                                 EN: A master builder, capable of designing and planning intricate designs and turning them into huge structures to awe even the most skeptical bystanders. -->
+	<AM_IdeoRole_MasterArchitect.description>Мастер-строитель, способный проектировать и планировать сложные конструкции и превращать их в огромные сооружения, вызывающие благоговейный трепет даже у самых скептически настроенных наблюдателей.</AM_IdeoRole_MasterArchitect.description>
+</LanguageData>

@@ -1,0 +1,35 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Teratogenic.xml -->
+	<!--                EN: teratogenesis -->
+	<AG_Teratogenesis.label>Тератогенез</AG_Teratogenesis.label>
+	<!--                      EN: Carriers of this gene constantly generate tumors all over their body. They are not immune to death from these tumors. -->
+	<AG_Teratogenesis.description>У носителей этого гена постоянно возникают опухоли по всему телу. Они не застрахованы от смерти от этих опухолей.</AG_Teratogenesis.description>
+	<!--                                     EN: A new carcinoma will be generated every 42000 to 72000 ticks (0.7 to 1.2 days), and no more than ten carcinomas may be present at the same time on the body. -->
+	<AG_Teratogenesis.customEffectDescriptions.0>Новая карцинома образуется каждые 42000-72000 тиков (0,7-1,2 дня). Одновременно на теле может быть не больше 10 карцином.</AG_Teratogenesis.customEffectDescriptions.0>
+	<!--                                     EN: Starts taking effect when a Taukai becomes an adult. -->
+	<AG_Teratogenesis.customEffectDescriptions.1>Начинает действовать, когда таукай становится взрослым.</AG_Teratogenesis.customEffectDescriptions.1>
+	<!--                     EN: teratogenic healing -->
+	<AG_TeratogenicHealing.label>Тератогенное заживление</AG_TeratogenicHealing.label>
+	<!--                           EN: Carriers of this gene can repurpose their tumors to heal them, consuming the cancerous masses in the process. -->
+	<AG_TeratogenicHealing.description>Перепрофилирует существующие опухоли для лечения цели, поглощая раковые образования в процессе.</AG_TeratogenicHealing.description>
+	<!--               EN: healing touch -->
+	<AG_HealingTouch.label>Целительное прикосновение</AG_HealingTouch.label>
+	<!--                     EN: Carriers of this gene can repurpose their tumors to heal other people, consuming the cancerous masses in the process. -->
+	<AG_HealingTouch.description>Перепрофилирует существующие опухоли для лечения других людей, поглощая при этом раковые образования.</AG_HealingTouch.description>
+	<!--                          EN: teratogenic coordination -->
+	<AG_TeratogenicManipulation.label>Тератогенная координация</AG_TeratogenicManipulation.label>
+	<!--                                EN: Carriers of this gene can repurpose their tumors to provide them a huge boost to their manipulation and dexterity. -->
+	<AG_TeratogenicManipulation.description>Перепрофилирует существующие опухоли, обеспечивая огромный толчок к манипуляциям и ловкости.</AG_TeratogenicManipulation.description>
+	<!--                       EN: teratogenic swiftness -->
+	<AG_TeratogenicSwiftness.label>Тератогенная быстрота</AG_TeratogenicSwiftness.label>
+	<!--                             EN: Carriers of this gene can repurpose their tumors to provide them a huge boost to their movement and working speed. -->
+	<AG_TeratogenicSwiftness.description>Перепрофилирует существующие опухоли, обеспечивая огромный прирост скорости движения и работы.</AG_TeratogenicSwiftness.description>
+	<!--                     EN: teratogenic stamina -->
+	<AG_TeratogenicStamina.label>Тератогенная выносливость</AG_TeratogenicStamina.label>
+	<!--                           EN: Carriers of this gene can repurpose their tumors to provide them a huge boost to their immune system, and overall stamina. -->
+	<AG_TeratogenicStamina.description>Перепрофилирует существующие опухоли, чтобы дать огромный толчок их иммунной системе и общей выносливости</AG_TeratogenicStamina.description>
+	<!--                   EN: teratogenic touch -->
+	<AG_TeratogenicBurst.label>Тератогенное прикосновение</AG_TeratogenicBurst.label>
+	<!--                         EN: Carriers of this gene can transfer their tumors to another person, which is generally as painful and dangerous as it sounds. -->
+	<AG_TeratogenicBurst.description>Переносит существующие опухоли на других людей, что, как правило, так же болезненно и опасно, как и звучит. Может использоваться как инструмент нападения или как способ передачи опухолей другим поселенцам.</AG_TeratogenicBurst.description>
+</LanguageData>

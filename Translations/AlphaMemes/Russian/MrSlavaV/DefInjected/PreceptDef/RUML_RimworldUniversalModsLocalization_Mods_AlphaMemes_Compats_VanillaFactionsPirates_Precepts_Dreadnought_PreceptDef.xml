@@ -1,0 +1,16 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaFactionsPirates\Defs\PreceptDefs\Precepts_Dreadnought.xml -->
+	<!--                     EN: dreadnought funeral -->
+	<AM_DreadnoughtFuneral.label>похороны дредноута</AM_DreadnoughtFuneral.label>
+	<!--                           EN: A gathering to witness the venerated deceased be turned into a true machine of war. -->
+	<AM_DreadnoughtFuneral.description>Собрание, чтобы засвидетельствовать почитаемых умерших, превращаемых в настоящую машину войны.</AM_DreadnoughtFuneral.description>
+	<!--                                        EN: {PAWN_nameDef} should be put in a sarcophagus warcasket, so even in death they can serve! -->
+	<AM_DreadnoughtFuneral.extraTextPawnDeathLetter>{PAWN_nameDef} следует поместить в боевой саркофаг - боевую броню, чтобы они могли служить даже в смерти!</AM_DreadnoughtFuneral.extraTextPawnDeathLetter>
+	
+	<!--                           EN: crypto funeral -->
+	<AM_DreadnoughtCryptoFuneral.label>крипто похороны</AM_DreadnoughtCryptoFuneral.label>
+	<!--                                 EN: A gathering to witness our friend be preserved for the future. -->
+	<AM_DreadnoughtCryptoFuneral.description>Собрание, чтобы засвидетельствовать, что наш друг будет сохранен для будущего.</AM_DreadnoughtCryptoFuneral.description>
+	<!--                                              EN: {PAWN_nameDef} should be saved in crypto sleep so {PAWN_possessive} friends and family can know they are safe -->
+	<AM_DreadnoughtCryptoFuneral.extraTextPawnDeathLetter>{PAWN_nameDef} следует сохранить в криптосне, чтобы {PAWN_possessive} друзья и семья могли знать, что он в безопасности.</AM_DreadnoughtCryptoFuneral.extraTextPawnDeathLetter>
+</LanguageData>

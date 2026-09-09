@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ReelStorageAnimalFeeder.label>кормушка для животных</ReelStorageAnimalFeeder.label>
+	<ReelStorageAnimalFeeder.description>Деревянное корыто для хранения сена, комбикорма и овощей, доступное домашним животным.</ReelStorageAnimalFeeder.description>
+	<ReelStorageNewBarrel.label>бочка для припасов</ReelStorageNewBarrel.label>
+	<ReelStorageNewBarrel.description>Вместительная деревянная бочка со стальными обручами для сыпучих продуктов и алкоголя.</ReelStorageNewBarrel.description>
+	<ReelStorageNewFridge.label>охлаждаемый стеллаж</ReelStorageNewFridge.label>
+	<ReelStorageNewFridge.description>Стеллаж со встроенным охлаждением для предотвращения порчи продуктов и лекарств.</ReelStorageNewFridge.description>
+	<ReelNewIndustrialShelf.label>индустриальный стеллаж</ReelNewIndustrialShelf.label>
+	<ReelNewIndustrialShelf.description>Усиленный многоярусный стальной стеллаж высокой вместимости.</ReelNewIndustrialShelf.description>
+	<ReelStorageSkip.label>грузовой скип</ReelStorageSkip.label>
+	<ReelStorageSkip.description>Массивный металлический контейнер для удобного хранения руды, строительных блоков и обломков.</ReelStorageSkip.description>
+	<ReelStoragePallet.label>грузовая паллета</ReelStoragePallet.label>
+	<ReelStoragePallet.description>Стандартный деревянный поддон для удобного размещения однотипных грузов.</ReelStoragePallet.description>
+	<ReelStorageLargePallet.label>большая паллета</ReelStorageLargePallet.label>
+	<ReelStorageLargePallet.description>Широкий поддон для крупных партий строительных материалов.</ReelStorageLargePallet.description>
+</LanguageData>

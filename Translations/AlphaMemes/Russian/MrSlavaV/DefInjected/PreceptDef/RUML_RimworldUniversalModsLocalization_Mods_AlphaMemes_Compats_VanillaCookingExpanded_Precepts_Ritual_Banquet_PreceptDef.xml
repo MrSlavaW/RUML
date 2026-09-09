@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaCookingExpanded\Defs\PreceptDefs\Precepts_Ritual_Banquet.xml -->
+	<!--                 EN: banquet -->
+	<AM_BanquetPrecept.label>пир</AM_BanquetPrecept.label>
+	<!--                       EN: A lavish feast celebrating unity, abundance, and camaraderie. -->
+	<AM_BanquetPrecept.description>Роскошный пир, празднующий единство, изобилие и товарищество.</AM_BanquetPrecept.description>
+</LanguageData>

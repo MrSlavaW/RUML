@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Mods\Royalty\Defs\AbilityDefs\Abilities_Royalty.xml -->
+	<!--               EN: psychic invisibility -->
+	<AG_Invisibility.label>Пси невидимость</AG_Invisibility.label>
+	<!--                     EN: Psychically shift skin tones to camouflage in almost any surroundings. -->
+	<AG_Invisibility.description>Психологически меняйте оттенки кожи, чтобы маскироваться практически в любой обстановке.</AG_Invisibility.description>
+	<!--           EN: self skip -->
+	<AG_SelfSkip.label>Блинк</AG_SelfSkip.label>
+	<!--                 EN: Teleport to a desired position not too far from the starting point. -->
+	<AG_SelfSkip.description>скачек в нужную позицию</AG_SelfSkip.description>
+</LanguageData>

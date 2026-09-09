@@ -1,0 +1,122 @@
+<LanguageData>
+	<!-- 1.6\Mods\AlphaBiomes\Defs\TerrainDefs\Terrain_Floors_AlphaBiomes.xml -->
+	<!--                             EN: Carefully-cut and fit stone tiles in a Jewish style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_JewishTileRoseQuartz.description>Тщательно вырезанные и подогнанные каменные плитки в иудейском стиле. На вид они красивы, но укладывать долго.</AM_JewishTileRoseQuartz.description>
+	<!--                       EN: jewish rose quartz tile -->
+	<AM_JewishTileRoseQuartz.label>иудейская плитка из розового кварца</AM_JewishTileRoseQuartz.label>
+	
+	<!--                           EN: Carefully-cut and fit stone tiles in a Jewish style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_JewishTileMudstone.description>Тщательно вырезанные и подогнанные каменные плитки в иудейском стиле. На вид они красивы, но укладывать долго.</AM_JewishTileMudstone.description>
+	<!--                     EN: jewish mudstone tile -->
+	<AM_JewishTileMudstone.label>иудейская плитка из аргиллита</AM_JewishTileMudstone.label>
+	
+	<!--                            EN: Carefully-cut and fit stone tiles in a Jewish style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_JewishTileCragstone.description>Тщательно вырезанные и подогнанные каменные плитки в иудейском стиле. На вид они красивы, но укладывать долго.</AM_JewishTileCragstone.description>
+	<!--                      EN: jewish cragstone tile -->
+	<AM_JewishTileCragstone.label>иудейская плитка из скального камня</AM_JewishTileCragstone.label>
+	
+	<!--                           EN: Carefully-cut and fit stone tiles in a Jewish style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_JewishTileObsidian.description>Тщательно вырезанные и подогнанные каменные плитки в иудейском стиле. На вид они красивы, но укладывать долго.</AM_JewishTileObsidian.description>
+	<!--                     EN: jewish obsidian tile -->
+	<AM_JewishTileObsidian.label>иудейская плитка из обсидиана</AM_JewishTileObsidian.label>
+	
+	<!--                                 EN: Fine stone tiles in a jewish style for expressing economic status. Slow to construct. -->
+	<AM_JewishFineTileRoseQuartz.description>Изысканная каменная плитка в иудейском стиле для выражения экономического статуса. Медленно укладывается.</AM_JewishFineTileRoseQuartz.description>
+	<!--                           EN: jewish fine rose quartz tile -->
+	<AM_JewishFineTileRoseQuartz.label>иудейская отличная плитка из розового кварца</AM_JewishFineTileRoseQuartz.label>
+	
+	<!--                               EN: Fine stone tiles in a jewish style for expressing economic status. Slow to construct. -->
+	<AM_JewishFineTileMudstone.description>Изысканная каменная плитка в иудейском стиле для выражения экономического статуса. Медленно укладывается.</AM_JewishFineTileMudstone.description>
+	<!--                         EN: jewish fine mudstone tile -->
+	<AM_JewishFineTileMudstone.label>иудейская отличная плитка из аргиллита</AM_JewishFineTileMudstone.label>
+	
+	<!--                                EN: Fine stone tiles in a jewish style for expressing economic status. Slow to construct. -->
+	<AM_JewishFineTileCragstone.description>Изысканная каменная плитка в иудейском стиле для выражения экономического статуса. Медленно укладывается.</AM_JewishFineTileCragstone.description>
+	<!--                          EN: jewish fine cragstone tile -->
+	<AM_JewishFineTileCragstone.label>иудейская отличная плитка из скального камня</AM_JewishFineTileCragstone.label>
+	
+	<!--                               EN: Fine stone tiles in a jewish style for expressing economic status. Slow to construct. -->
+	<AM_JewishFineTileObsidian.description>Изысканная каменная плитка в иудейском стиле для выражения экономического статуса. Медленно укладывается.</AM_JewishFineTileObsidian.description>
+	<!--                         EN: jewish fine obsidian tile -->
+	<AM_JewishFineTileObsidian.label>иудейская отличная плитка из обсидиана</AM_JewishFineTileObsidian.label>
+	
+	<!--                              EN: Carefully-cut and fit stone tiles in a Kemetic style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_KemeticTileRoseQuartz.description>Тщательно вырезанные и подогнанные каменные плитки в кеметском стиле. На вид они красивы, но укладывать долго.</AM_KemeticTileRoseQuartz.description>
+	<!--                        EN: kemetic rose quartz tile -->
+	<AM_KemeticTileRoseQuartz.label>кеметская плитка из розового кварца</AM_KemeticTileRoseQuartz.label>
+	
+	<!--                            EN: Carefully-cut and fit stone tiles in a Kemetic style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_KemeticTileMudstone.description>Тщательно вырезанные и подогнанные каменные плитки в кеметском стиле. На вид они красивы, но укладывать долго.</AM_KemeticTileMudstone.description>
+	<!--                      EN: kemetic mudstone tile -->
+	<AM_KemeticTileMudstone.label>кеметская плитка из аргиллита</AM_KemeticTileMudstone.label>
+	
+	<!--                             EN: Carefully-cut and fit stone tiles in a Kemetic style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_KemeticTileCragstone.description>Тщательно вырезанные и подогнанные каменные плитки в кеметском стиле. На вид они красивы, но укладывать долго.</AM_KemeticTileCragstone.description>
+	<!--                       EN: kemetic cragstone tile -->
+	<AM_KemeticTileCragstone.label>кеметская плитка из скального камня</AM_KemeticTileCragstone.label>
+	
+	<!--                            EN: Carefully-cut and fit stone tiles in a Kemetic style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_KemeticTileObsidian.description>Тщательно вырезанные и подогнанные каменные плитки в кеметском стиле. На вид они красивы, но укладывать долго.</AM_KemeticTileObsidian.description>
+	<!--                      EN: kemetic obsidian tile -->
+	<AM_KemeticTileObsidian.label>кеметская плитка из обсидиана</AM_KemeticTileObsidian.label>
+	
+	<!--                                  EN: Fine stone tiles in a kemetic style for expressing economic status. Slow to construct. -->
+	<AM_KemeticFineTileRoseQuartz.description>Прекрасная каменная плитка в кеметском стиле для подчеркивания экономического статуса. Медленно укладывается.</AM_KemeticFineTileRoseQuartz.description>
+	<!--                            EN: kemetic fine rose quartz tile -->
+	<AM_KemeticFineTileRoseQuartz.label>кеметская отличная плитка из обсидиана</AM_KemeticFineTileRoseQuartz.label>
+	
+	<!--                                EN: Fine stone tiles in a kemetic style for expressing economic status. Slow to construct. -->
+	<AM_KemeticFineTileMudstone.description>Прекрасная каменная плитка в кеметском стиле для подчеркивания экономического статуса. Медленно укладывается.</AM_KemeticFineTileMudstone.description>
+	<!--                          EN: kemetic fine mudstone tile -->
+	<AM_KemeticFineTileMudstone.label>кемеская отличная плитка из аргиллита</AM_KemeticFineTileMudstone.label>
+	
+	<!--                                 EN: Fine stone tiles in a kemetic style for expressing economic status. Slow to construct. -->
+	<AM_KemeticFineTileCragstone.description>Прекрасная каменная плитка в кеметском стиле для подчеркивания экономического статуса. Медленно укладывается.</AM_KemeticFineTileCragstone.description>
+	<!--                           EN: kemetic fine cragstone tile -->
+	<AM_KemeticFineTileCragstone.label>кеметская отличная плитка из скального камня</AM_KemeticFineTileCragstone.label>
+	
+	<!--                                EN: Fine stone tiles in a kemetic style for expressing economic status. Slow to construct. -->
+	<AM_KemeticFineTileObsidian.description>Прекрасная каменная плитка в кеметском стиле для подчеркивания экономического статуса. Медленно укладывается.</AM_KemeticFineTileObsidian.description>
+	<!--                          EN: kemetic fine obsidian tile -->
+	<AM_KemeticFineTileObsidian.label>кеметская отличная плитка из обсидиана</AM_KemeticFineTileObsidian.label>
+	
+	<!--                                EN: Carefully-cut and fit stone tiles in a Steampunk style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_SteampunkTileRoseQuartz.description>Аккуратно вырезанная и укложенная каменная плитка в стиле стимпанк. На вид она красива, но укладывать долго.</AM_SteampunkTileRoseQuartz.description>
+	<!--                          EN: steampunk rose quartz tile -->
+	<AM_SteampunkTileRoseQuartz.label>стимпанк плитка из розового кварца</AM_SteampunkTileRoseQuartz.label>
+	
+	<!--                              EN: Carefully-cut and fit stone tiles in a Steampunk style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_SteampunkTileMudstone.description>Аккуратно вырезанная и укложенная каменная плитка в стиле стимпанк. На вид она красива, но укладывать долго.</AM_SteampunkTileMudstone.description>
+	<!--                        EN: steampunk mudstone tile -->
+	<AM_SteampunkTileMudstone.label>стимпанк плитка из аргиллита</AM_SteampunkTileMudstone.label>
+	
+	<!--                               EN: Carefully-cut and fit stone tiles in a Steampunk style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_SteampunkTileCragstone.description>Аккуратно вырезанная и укложенная каменная плитка в стиле стимпанк. На вид она красива, но укладывать долго.</AM_SteampunkTileCragstone.description>
+	<!--                         EN: steampunk cragstone tile -->
+	<AM_SteampunkTileCragstone.label>стимпанк плитка из скального камня</AM_SteampunkTileCragstone.label>
+	
+	<!--                              EN: Carefully-cut and fit stone tiles in a Steampunk style. They are pretty to look at, but they take a long time to lay. -->
+	<AM_SteampunkTileObsidian.description>Аккуратно вырезанная и укложенная каменная плитка в стиле стимпанк. На вид она красива, но укладывать долго.</AM_SteampunkTileObsidian.description>
+	<!--                        EN: steampunk obsidian tile -->
+	<AM_SteampunkTileObsidian.label>стимпанк плитка из обсидиана</AM_SteampunkTileObsidian.label>
+	
+	<!--                          EN: Fine stone slabs in an ocular style. -->
+	<AB_Tile_OcularQuartz.description>Изящные каменные плиты в окулярном стиле.</AB_Tile_OcularQuartz.description>
+	<!--                    EN: ocular red quartz floor -->
+	<AB_Tile_OcularQuartz.label>глазной пол из красного кварца</AB_Tile_OcularQuartz.label>
+	
+	<!--                            EN: Fine stone slabs in an ocular style. -->
+	<AB_Tile_OcularMudstone.description>Изящные каменные плиты в окулярном стиле.</AB_Tile_OcularMudstone.description>
+	<!--                      EN: ocular mudstone floor -->
+	<AB_Tile_OcularMudstone.label>глазной пол из глинобитного камня</AB_Tile_OcularMudstone.label>
+	
+	<!--                             EN: Fine stone slabs in an ocular style. -->
+	<AB_Tile_OcularCragstone.description>Изящные каменные плиты в окулярном стиле.</AB_Tile_OcularCragstone.description>
+	<!--                       EN: ocular cragstone floor -->
+	<AB_Tile_OcularCragstone.label>глазной пол из крагстона</AB_Tile_OcularCragstone.label>
+	
+	<!--                            EN: Fine stone slabs in an ocular style. -->
+	<AB_Tile_OcularObsidian.description>Изящные каменные плиты в окулярном стиле.</AB_Tile_OcularObsidian.description>
+	<!--                      EN: ocular obsidian floor -->
+	<AB_Tile_OcularObsidian.label>Глазной обсидиановый пол</AB_Tile_OcularObsidian.label>
+</LanguageData>

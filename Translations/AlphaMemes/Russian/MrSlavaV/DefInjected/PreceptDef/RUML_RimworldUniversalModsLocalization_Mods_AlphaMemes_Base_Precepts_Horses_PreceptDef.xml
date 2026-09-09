@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Horses.xml -->
+	<!--                 EN: desired -->
+	<AM_Horses_Desired.label>желаемы</AM_Horses_Desired.label>
+	<!--                       EN: We see the horse as a vital companion on our ranch. Their strength and loyalty will enhance our life here, helping with work and bringing a sense of freedom to our lives.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colony will start with two tamed horses.\n - Horses will get -2 Minimum handling skill (it will be 0), +15% move speed and +25% caravan riding speed.\n - By default, this covers base game horses, Meadow aves from Alpha Animals and horse hybrids from Vanilla Genetics Expanded. -->
+	<AM_Horses_Desired.description>Мы видим в лошади незаменимого спутника на нашем ранчо. Их сила и верность улучшат нашу жизнь, помогая в работе и принося чувство свободы.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Поселение начнет с двумя прирученными лошадьми.\n - Лошади получат -2 минимального навыка обращения (он будет равен 0), +15% скорости передвижения и +25% скорости верховой езды в караване.</AM_Horses_Desired.description>
+</LanguageData>

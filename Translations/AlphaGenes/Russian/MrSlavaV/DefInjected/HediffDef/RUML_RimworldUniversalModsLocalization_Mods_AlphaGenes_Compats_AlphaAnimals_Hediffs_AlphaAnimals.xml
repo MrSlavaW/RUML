@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\AlphaAnimals\Defs\HediffDefs\Hediffs_AlphaAnimals.xml -->
+	<!--          EN: blue gel production -->
+	<AG_BlueGel.label>производство голубого геля</AG_BlueGel.label>
+	<!--                EN: The skin of this person constantly exudes and produces globs of blue gel, which are very energy dense and can be used to power blue gel machinery. -->
+	<AG_BlueGel.description>Кожа этого человека постоянно выделяет сгустки голубого геля. Эти сгустки обладают высокой энергетической плотностью и могут питать машины, работающие на голубом геле.</AG_BlueGel.description>
+</LanguageData>

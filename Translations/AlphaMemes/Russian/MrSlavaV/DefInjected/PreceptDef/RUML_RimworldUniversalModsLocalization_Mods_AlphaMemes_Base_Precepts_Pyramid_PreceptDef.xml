@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\PreceptDefs\Precepts_Pyramid.xml -->
+	<!--                EN: pyramid burial funeral -->
+	<AM_PyramidBurial.label>похороны в пирамиде</AM_PyramidBurial.label>
+	<!--                      EN: A gathering to entomb our colleague within a subterranean burial chamber underneath a pyramid -->
+	<AM_PyramidBurial.description>Собрание, чтобы похоронить нашего коллегу в подземной камере под пирамидой.</AM_PyramidBurial.description>
+	<!--                                   EN: {PAWN_nameDef} should be entombed so {PAWN_pronoun} can watch us all from the afterlife. -->
+	<AM_PyramidBurial.extraTextPawnDeathLetter>{PAWN_nameDef} следует похоронить, чтобы {PAWN_pronoun} мог наблюдать за всеми нами из загробной жизни.</AM_PyramidBurial.extraTextPawnDeathLetter>
+</LanguageData>

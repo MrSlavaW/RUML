@@ -1,0 +1,27 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Buildings\Buildings_Misc.xml -->
+	<!--                    EN: temporary band node -->
+	<AG_TemporaryBandNode.label>Временный усилитель сигнала</AG_TemporaryBandNode.label>
+	<!--                          EN: A temporary mechanoid-band signal amplifier. Automatically tuned to the mechanitor that summoned it. It will provide a significant 10 bandwidth boost, but it will vanish after a week. Doesn't require power. -->
+	<AG_TemporaryBandNode.description>Временный усилитель сигнала механоидного диапазона. Автоматически настраивается, Обеспечит значительное увеличение пропускной способности на 10, действует неделю. Не требует энергии.</AG_TemporaryBandNode.description>
+	<!--                    EN: luminescent column -->
+	<AG_LuminescentColumn.label>Люминесцентная лампа из коралла</AG_LuminescentColumn.label>
+	<!--                          EN: A luminescent column made of coral. -->
+	<AG_LuminescentColumn.description>Люминесцентная лампа из коралла.</AG_LuminescentColumn.description>
+	<!--                         EN: large luminescent column -->
+	<AG_LargeLuminescentColumn.label>Люминесцентная колонна из коралла.</AG_LargeLuminescentColumn.label>
+	<!--                               EN: A luminescent column made of coral. -->
+	<AG_LargeLuminescentColumn.description>Люминесцентная колонна из коралла.</AG_LargeLuminescentColumn.description>
+	<!--              EN: coral column -->
+	<AG_CoralColumn.label>коралл</AG_CoralColumn.label>
+	<!--                    EN: A column made of coral. -->
+	<AG_CoralColumn.description>коралл</AG_CoralColumn.description>
+	<!--                   EN: large coral column -->
+	<AG_LargeCoralColumn.label>большой коралл</AG_LargeCoralColumn.label>
+	<!--                         EN: A column made of coral. -->
+	<AG_LargeCoralColumn.description>большой коралл.</AG_LargeCoralColumn.description>
+	<!--                 EN: large clam -->
+	<AG_DecorativeClam.label>большой моллюск</AG_DecorativeClam.label>
+	<!--                       EN: It seems to be chilling out. -->
+	<AG_DecorativeClam.description>виднеется жемчуг.</AG_DecorativeClam.description>
+</LanguageData>

@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Guttersnipe.xml -->
+	<!--                   EN: guttersnipe -->
+	<AM_Mech_Guttersnipe.label>гаттерснайп</AM_Mech_Guttersnipe.label>
+	<!--                                      EN: Plural guttersnipe -->
+	<AM_Mech_Guttersnipe.lifeStages.1.labelPlural>Гаттерснайпы</AM_Mech_Guttersnipe.lifeStages.1.labelPlural>
+<AM_Mech_Guttersnipe.lifeStages.0.labelPlural>Гаттерснайпы</AM_Mech_Guttersnipe.lifeStages.0.labelPlural></LanguageData>

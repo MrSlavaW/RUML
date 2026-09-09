@@ -1,0 +1,27 @@
+<LanguageData>
+	<!-- 1.6\Defs\AbilityDefs\Abilities_Teratogenic.xml -->
+	<!--                     EN: teratogenic healing -->
+	<AG_TeratogenicHealing.label>Тератогенное заживление</AG_TeratogenicHealing.label>
+	<!--                           EN: Repurposes existing tumors to heal the target, consuming the cancerous masses in the process. -->
+	<AG_TeratogenicHealing.description>Перепрофилирует существующие опухоли для лечения цели, поглощая раковые образования в процессе.</AG_TeratogenicHealing.description>
+	<!--                          EN: teratogenic coordination -->
+	<AG_TeratogenicManipulation.label>Тератогенная координация</AG_TeratogenicManipulation.label>
+	<!--                                EN: Repurposes existing tumors to provide a huge boost to manipulation and dexterity. -->
+	<AG_TeratogenicManipulation.description>Перепрофилирует существующие опухоли, обеспечивая огромный толчок к манипуляциям и ловкости.</AG_TeratogenicManipulation.description>
+	<!--                       EN: teratogenic swiftness -->
+	<AG_TeratogenicSwiftness.label>Тератогенная быстрота</AG_TeratogenicSwiftness.label>
+	<!--                             EN: Repurposes existing tumors to provide a huge boost to movement and working speed. -->
+	<AG_TeratogenicSwiftness.description>Перепрофилирует существующие опухоли, обеспечивая огромный прирост скорости движения и работы.</AG_TeratogenicSwiftness.description>
+	<!--                     EN: teratogenic stamina -->
+	<AG_TeratogenicStamina.label>Тератогенная выносливость</AG_TeratogenicStamina.label>
+	<!--                           EN: Repurposes existing tumors to provide a huge boost to their immune system, and overall stamina. -->
+	<AG_TeratogenicStamina.description>Перепрофилирует существующие опухоли, чтобы дать огромный толчок их иммунной системе и общей выносливости</AG_TeratogenicStamina.description>
+	<!--               EN: healing touch -->
+	<AG_HealingTouch.label>Целительное прикосновение</AG_HealingTouch.label>
+	<!--                     EN: Repurposes existing tumors to heal other people, consuming the cancerous masses in the process. -->
+	<AG_HealingTouch.description>Перепрофилирует существующие опухоли для лечения других людей, поглощая при этом раковые образования.</AG_HealingTouch.description>
+	<!--                   EN: teratogenic touch -->
+	<AG_TeratogenicBurst.label>Тератогенное прикосновение</AG_TeratogenicBurst.label>
+	<!--                         EN: Transfers existing tumors to other people, which is generally as painful and dangerous as it sounds. Can be used as an offenssive tool or as a way to transfer tumors to other colonists. -->
+	<AG_TeratogenicBurst.description>Переносит существующие опухоли на других людей, что, как правило, так же болезненно и опасно, как и звучит. Может использоваться как инструмент нападения или как способ передачи опухолей другим поселенцам.</AG_TeratogenicBurst.description>
+</LanguageData>

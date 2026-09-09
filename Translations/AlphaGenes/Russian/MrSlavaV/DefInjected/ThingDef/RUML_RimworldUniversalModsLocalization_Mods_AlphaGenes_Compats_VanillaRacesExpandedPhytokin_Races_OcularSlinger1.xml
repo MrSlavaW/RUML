@@ -1,0 +1,17 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaRacesExpandedPhytokin\Defs\ThingDefs_Races\Races_OcularSlinger.xml -->
+	<!--                EN: ocular slinger -->
+	<AG_OcularSlinger.label>окулярный скорпион</AG_OcularSlinger.label>
+	<!--                      EN: A large, mutated scorpion. A multitude of twitching eyes look around nervously. -->
+	<AG_OcularSlinger.description>Большой мутировавший скорпион Множество подергивающихся глаз нервно оглядываются.</AG_OcularSlinger.description>
+	<!--                        EN: левая клешня -->
+	<AG_OcularSlinger.tools.0.label>левая клешня</AG_OcularSlinger.tools.0.label>
+	<!--                        EN: правая клешня -->
+	<AG_OcularSlinger.tools.1.label>правая клешня</AG_OcularSlinger.tools.1.label>
+	<!--                        EN: голова -->
+	<AG_OcularSlinger.tools.3.label>голова</AG_OcularSlinger.tools.3.label>
+	<!--                        EN: eye -->
+	<AG_OcularSlinger.verbs.0.label>глаз</AG_OcularSlinger.verbs.0.label>
+	<!--                                 EN: выстрел -->
+	<AG_OcularSlinger.verbs.Verb_Shoot.label>выстрел</AG_OcularSlinger.verbs.Verb_Shoot.label>
+</LanguageData>

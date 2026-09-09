@@ -1,0 +1,22 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\RelicDestruction\Ritual_Outcomes_RelicDestruction.xml -->
+	<!--                                EN: If the relic destruction ritual goes well (positive outcome) it will provide a mood bonus. A negative outcome will cause a mood penalty. In any case, the relic will be destroyed and all followers of the same ideo will get a permanent stat bonus. -->
+	<AM_RelicDestructionOutcome.description>Если ритуал уничтожения реликвии пройдет хорошо (положительный результат), он даст бонус к настроению. Отрицательный результат вызовет штраф настроения. В любом случае реликвия будет уничтожена, а все последователи одной идеологии получат постоянный бонус к характеристикам.</AM_RelicDestructionOutcome.description>
+	<!--                                  EN: room impressiveness -->
+	<AM_RelicDestructionOutcome.comps.0.label>впечатляющая комната</AM_RelicDestructionOutcome.comps.0.label>
+	<!--                                  EN: participant count -->
+	<AM_RelicDestructionOutcome.comps.1.label>{0} был довольно эффективным. Они производили гораздо больше питательных веществ, чем можно было бы ожидать.
+количество участников</AM_RelicDestructionOutcome.comps.1.label>
+	<!--                                  EN: {PAWN_labelShort}'s social impact -->
+	<AM_RelicDestructionOutcome.comps.2.label>Социальное влияние {PAWN_labelShort}</AM_RelicDestructionOutcome.comps.2.label>
+	<!--                                          EN: speaker's social impact -->
+	<AM_RelicDestructionOutcome.comps.2.labelAbstract>социальное влияние оратора</AM_RelicDestructionOutcome.comps.2.labelAbstract>
+	<!--                                           EN: Boring -->
+	<AM_RelicDestructionOutcome.outcomeChances.0.label>Скучный</AM_RelicDestructionOutcome.outcomeChances.0.label>
+	<!--                                                 EN: The {0} was a bit boring, but we got rid of an obscene idol, and that will only make our beliefs stronger. -->
+	<AM_RelicDestructionOutcome.outcomeChances.0.description>{0} был немного скучным, но мы избавились от непристойного идола, и это только укрепит наши убеждения.</AM_RelicDestructionOutcome.outcomeChances.0.description>
+	<!--                                           EN: Entertaining -->
+	<AM_RelicDestructionOutcome.outcomeChances.1.label>Развлекательный</AM_RelicDestructionOutcome.outcomeChances.1.label>
+	<!--                                                 EN: The {0} was entertaining. We got rid of an obscene idol, and that will only make our beliefs stronger. -->
+	<AM_RelicDestructionOutcome.outcomeChances.1.description>{0} было интересно. Мы избавились от непристойного идола, и это только укрепит наши убеждения.</AM_RelicDestructionOutcome.outcomeChances.1.description>
+</LanguageData>

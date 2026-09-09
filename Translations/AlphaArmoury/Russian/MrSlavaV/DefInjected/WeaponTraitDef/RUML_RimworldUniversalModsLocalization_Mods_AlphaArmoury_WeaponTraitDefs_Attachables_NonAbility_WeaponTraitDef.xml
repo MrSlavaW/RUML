@@ -1,0 +1,31 @@
+<LanguageData>
+	<!-- 1.6\Defs\WeaponTraitDefs\WeaponTraitDefs_Attachables_NonAbility.xml -->
+
+	<!-- EN: attached chainsaw -->
+	<AArmoury_Chainsaw.label>цепная пила</AArmoury_Chainsaw.label>
+	<!-- EN: This weapon has an attached chainsaw, just like the Emperor intended. -->
+	<AArmoury_Chainsaw.description>Это оружие оснащено цепной пилой — именно так, как и задумывал Император.</AArmoury_Chainsaw.description>
+	<!-- EN: close combat -->
+	<AArmoury_Chainsaw.traitAdjectives.0>ближний бой</AArmoury_Chainsaw.traitAdjectives.0>
+	
+	<!-- EN: attached bayonet -->
+	<AArmoury_Bayonet.label>штык</AArmoury_Bayonet.label>
+	<!-- EN: This weapon has an attached bayonet. -->
+	<AArmoury_Bayonet.description>Это оружие оснащено штыком.</AArmoury_Bayonet.description>
+	<!-- EN: close combat -->
+	<AArmoury_Bayonet.traitAdjectives.0>ближний бой</AArmoury_Bayonet.traitAdjectives.0>
+	
+	<!-- EN: toxic sprayer -->
+	<AArmoury_ToxicSprayer.label>токсичный распылитель</AArmoury_ToxicSprayer.label>
+	<!-- EN: This weapon has a close quarters sprayer that will create a toxic mist when used in melee range. -->
+	<AArmoury_ToxicSprayer.description>Это оружие оснащено распылителем ближнего действия, создающим токсичное облако при использовании в ближнем бою.</AArmoury_ToxicSprayer.description>
+	<!-- EN: toxic spraying -->
+	<AArmoury_ToxicSprayer.traitAdjectives.0>токсичное распыление</AArmoury_ToxicSprayer.traitAdjectives.0>
+	
+	<!-- EN: acid sprayer -->
+	<AArmoury_AcidSprayer.label>кислотный распылитель</AArmoury_AcidSprayer.label>
+	<!-- EN: This weapon has a close quarters sprayer that will create an acid mist when used in melee range. -->
+	<AArmoury_AcidSprayer.description>Это оружие оснащено распылителем ближнего действия, создающим кислотное облако при использовании в ближнем бою.</AArmoury_AcidSprayer.description>
+	<!-- EN: acid spraying -->
+	<AArmoury_AcidSprayer.traitAdjectives.0>кислотное распыление</AArmoury_AcidSprayer.traitAdjectives.0>
+</LanguageData>

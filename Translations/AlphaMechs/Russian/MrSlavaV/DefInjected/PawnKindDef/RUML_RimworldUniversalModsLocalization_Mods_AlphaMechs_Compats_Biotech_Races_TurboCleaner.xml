@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_TurboCleaner.xml -->
+	<!--                    EN: turbocleaner -->
+	<AM_Mech_TurboCleaner.label>турбоочиститель</AM_Mech_TurboCleaner.label>
+	<!--                                       EN: Plural turbocleaner -->
+	<AM_Mech_TurboCleaner.lifeStages.1.labelPlural>Турбоочистители</AM_Mech_TurboCleaner.lifeStages.1.labelPlural>
+<AM_Mech_TurboCleaner.lifeStages.0.labelPlural>Турбоочистители</AM_Mech_TurboCleaner.lifeStages.0.labelPlural></LanguageData>

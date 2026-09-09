@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Munifex.xml -->
+	<!--               EN: munifex -->
+	<AM_Mech_Munifex.label>Мунифекс</AM_Mech_Munifex.label>
+	<!--                     EN: The Munifex are formidable human-sized combat mechanoids designed specifically for long-range combat scenarios. They are equipped with advanced coil lances, which are mass driver weapons that fire electromagnetically accelerated slugs at incredible velocities. These projectiles are capable of penetrating through almost any kind of defense, including thick armor plating and reinforced concrete.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Yes, this is the friendly fire mech. Yes, this is very much intended. Beware! -->
+	<AM_Mech_Munifex.description>Мунифекс — грозный боевой механоид размером с человека, созданный специально для дальнего боя. Он вооружён усовершенствованным катушечным копьём — масс-драйвером, разгоняющим снаряды электромагнитным импульсом до огромной скорости. Такие выстрелы пробивают почти любую защиту, включая толстую броню и железобетон.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Да, этот механоид может задеть своих. Да, так и задумано. Будьте осторожны.</AM_Mech_Munifex.description>
+	<!--                       EN: левый кулак -->
+	<AM_Mech_Munifex.tools.0.label>левый кулак</AM_Mech_Munifex.tools.0.label>
+	<!--                       EN: правый кулак -->
+	<AM_Mech_Munifex.tools.1.label>правый кулак</AM_Mech_Munifex.tools.1.label>
+	<!--                       EN: голова -->
+	<AM_Mech_Munifex.tools.2.label>голова</AM_Mech_Munifex.tools.2.label>
+</LanguageData>

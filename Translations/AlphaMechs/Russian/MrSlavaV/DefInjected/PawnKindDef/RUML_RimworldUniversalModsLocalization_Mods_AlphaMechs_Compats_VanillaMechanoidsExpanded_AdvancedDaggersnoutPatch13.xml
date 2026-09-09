@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\OskarPotocki_VFE_Mechanoid\AdvancedDaggersnoutPatch13.xml -->
+	<!--                                              EN: eviscerator -->
+	<VFE_Mech_Advanced_Daggersnout_PlayerControlled.label>потрошитель</VFE_Mech_Advanced_Daggersnout_PlayerControlled.label>
+	<!--                                                                 EN: Plural eviscerator -->
+	<VFE_Mech_Advanced_Daggersnout_PlayerControlled.lifeStages.1.labelPlural>Потрошители</VFE_Mech_Advanced_Daggersnout_PlayerControlled.lifeStages.1.labelPlural>
+<VFE_Mech_Advanced_Daggersnout_PlayerControlled.lifeStages.0.labelPlural>Потрошители</VFE_Mech_Advanced_Daggersnout_PlayerControlled.lifeStages.0.labelPlural></LanguageData>

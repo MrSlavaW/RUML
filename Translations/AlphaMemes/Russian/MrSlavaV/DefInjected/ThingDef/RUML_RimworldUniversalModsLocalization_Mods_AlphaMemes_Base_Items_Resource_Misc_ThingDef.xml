@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Items_Resource_Misc.xml -->
+	<!--          EN: red wood -->
+	<GU_RedWood.label>красное дерево</GU_RedWood.label>
+	<!--                EN: This red tinged wood is oddly strong, and a sweet scent emanates from it. Less flammable than terrestrial wood, but quite ugly. -->
+	<GU_RedWood.description>Эта древесина с красным оттенком странно прочна, и от нее исходит сладкий аромат. Она менее огнеопасна, чем земная древесина, но довольно уродлива.</GU_RedWood.description>
+	<!--                              EN: Adjectivered wooden -->
+	<GU_RedWood.stuffProps.stuffAdjective>красного дерева</GU_RedWood.stuffProps.stuffAdjective>
+	<!--                  EN: red wood log -->
+	<GU_RedWood.tools.0.label>красного бревна</GU_RedWood.tools.0.label>
+</LanguageData>

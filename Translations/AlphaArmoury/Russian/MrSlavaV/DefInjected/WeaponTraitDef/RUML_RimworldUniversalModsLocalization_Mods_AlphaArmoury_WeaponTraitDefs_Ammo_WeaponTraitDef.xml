@@ -1,0 +1,177 @@
+<LanguageData>
+	<!-- 1.6\Defs\WeaponTraitDefs\WeaponTraitDefs_Ammo.xml -->
+
+	<!-- EN: flechettes -->
+	<AArmoury_Flechettes.label>флешеты</AArmoury_Flechettes.label>
+	<AArmoury_Flechettes.description>Это оружие стреляет заострёнными стальными снарядами со стабилизирующими оперениями.</AArmoury_Flechettes.description>
+	
+	<!-- EN: mini-rockets -->
+	<AArmoury_MiniRocket.label>мини-ракеты</AArmoury_MiniRocket.label>
+	<AArmoury_MiniRocket.description>Это оружие стреляет опасными мини-ракетами с взрывной начинкой. Они наносят меньше урона, чем пули, но поражают большую область.</AArmoury_MiniRocket.description>
+	
+	<!-- EN: sonic amplifier -->
+	<AArmoury_Sonic.label>звуковой усилитель</AArmoury_Sonic.label>
+	<AArmoury_Sonic.description>Вместо пуль это оружие выпускает импульсы сжатого звука, нанося дробящий урон.</AArmoury_Sonic.description>
+	
+	<!-- EN: cryo rounds -->
+	<AArmoury_Cryo.label>криопатроны</AArmoury_Cryo.label>
+	<AArmoury_Cryo.description>Это оружие стреляет боеприпасами с криогенными химикатами, вызывающими обморожение.</AArmoury_Cryo.description>
+	
+	<!-- EN: fertilizer canisters -->
+	<AArmoury_FertilizerCanisters.label>удобрительные контейнеры</AArmoury_FertilizerCanisters.label>
+	<AArmoury_FertilizerCanisters.description>Это оружие стреляет контейнерами с удобрениями, превращающими почву во вспаханную.</AArmoury_FertilizerCanisters.description>
+	
+	<!-- EN: corrosive burst -->
+	<AArmoury_Corrosive.label>коррозионный выброс</AArmoury_Corrosive.label>
+	<AArmoury_Corrosive.description>Это оружие выпускает сжатый поток разъедающей кислоты, наносящий повышенный урон броне.</AArmoury_Corrosive.description>
+	
+	<!-- EN: potato cannon -->
+	<AArmoury_PotatoCannon.label>картофельная пушка</AArmoury_PotatoCannon.label>
+	<AArmoury_PotatoCannon.description>Это оружие стреляет… картошкой. В бою почти бесполезно, зато отлично подходит для посадки картофеля. Учтите: картофель растёт только на почве с плодородием выше 70%.</AArmoury_PotatoCannon.description>
+	
+	<!-- EN: incendiary launcher -->
+	<AArmoury_IncendiaryLauncher.label>зажигательный модуль</AArmoury_IncendiaryLauncher.label>
+	<AArmoury_IncendiaryLauncher.description>Это оружие стреляет зажигательными контейнерами.</AArmoury_IncendiaryLauncher.description>
+	
+	<!-- EN: EMP launcher -->
+	<AArmoury_EMPLauncher.label>ЭМИ-модуль</AArmoury_EMPLauncher.label>
+	<AArmoury_EMPLauncher.description>Это оружие стреляет ЭМИ-контейнерами.</AArmoury_EMPLauncher.description>
+	
+	<!-- EN: toxbomb launcher -->
+	<AArmoury_ToxLauncherMain.label>токсбомбовый модуль</AArmoury_ToxLauncherMain.label>
+	<AArmoury_ToxLauncherMain.description>Это оружие стреляет контейнерами с токсичным газом.</AArmoury_ToxLauncherMain.description>
+	
+	<!-- EN: flamethrower -->
+	<AArmoury_Flamethrower.label>огнемёт</AArmoury_Flamethrower.label>
+	<AArmoury_Flamethrower.description>Это оружие поджигает зажигательные заряды сразу после выстрела, создавая огромный конус пламени, сжигающий всё на своём пути.</AArmoury_Flamethrower.description>
+	
+	<!-- EN: laser capacitor -->
+	<AArmoury_Laser.label>лазерный конденсатор</AArmoury_Laser.label>
+	<AArmoury_Laser.description>Вместо пуль это оружие стреляет лазерными импульсами.</AArmoury_Laser.description>
+	
+	<!-- EN: coil lance conversion -->
+	<AArmoury_CoilLance.label>рельсовая модификация</AArmoury_CoilLance.label>
+	<AArmoury_CoilLance.description>Этот снайпер был модифицирован для электромагнитного разгона пробивных металлических осколков до колоссальных скоростей. Снаряды пробивают цели насквозь.</AArmoury_CoilLance.description>
+	
+	<!-- EN: acidic repeater -->
+	<AArmoury_AcidicRepeater.label>кислотный повторитель</AArmoury_AcidicRepeater.label>
+	<AArmoury_AcidicRepeater.description>Вместо гамма-лазерных импульсов это оружие выпускает серию чрезвычайно опасных кислотных выбросов.</AArmoury_AcidicRepeater.description>
+	
+	<!-- EN: cryo cannon -->
+	<AArmoury_FrostRepeater.label>криопушка</AArmoury_FrostRepeater.label>
+	<AArmoury_FrostRepeater.description>Вместо гамма-лазерных импульсов это оружие испускает единый морозный луч, повреждающий всё на своём пути.</AArmoury_FrostRepeater.description>
+	
+	<!-- EN: plasma cannon -->
+	<AArmoury_PlasmaCannon.label>плазменная пушка</AArmoury_PlasmaCannon.label>
+	<AArmoury_PlasmaCannon.description>Вместо гамма-лазерных импульсов это оружие испускает единый плазменный луч, повреждающий всё на своём пути.</AArmoury_PlasmaCannon.description>
+	
+	<!-- EN: chakram launcher -->
+	<AArmoury_Chakram.label>чакрамный модуль</AArmoury_Chakram.label>
+	<AArmoury_Chakram.description>Вместо пуль этот снайпер стреляет чрезвычайно опасными пласталевыми чакрамами, движущимися за счёт нано-скачковых полей. Они обладают крайне высокой бронепробиваемостью и наносят ужасающие порезы.</AArmoury_Chakram.description>
+	
+	<!-- EN: thermal blasts -->
+	<AArmoury_ThermalBlasts.label>термические импульсы</AArmoury_ThermalBlasts.label>
+	<AArmoury_ThermalBlasts.description>Вместо пуль это оружие выпускает концентрированные термические импульсы, мгновенно вызывающие тепловой удар. Бесполезно против негорючих врагов, таких как механоиды.</AArmoury_ThermalBlasts.description>
+	
+	<!-- EN: vanometric 3D printer -->
+	<AArmoury_RandomProjectiles.label>ванометрический 3D-принтер</AArmoury_RandomProjectiles.label>
+	<AArmoury_RandomProjectiles.description>Редчайшее архотек-устройство, позволяющее оружию работать без боеприпасов и источников энергии. Технология крайне древняя и неисправная, из-за чего каждый выстрел даёт случайный результат.
+
+Это либо уничтожит цель… либо породит неконтролируемый хаос.</AArmoury_RandomProjectiles.description>
+	
+	<!-- EN: needle projectiles -->
+	<AArmoury_NeedleProjectiles.label>игольчатые снаряды</AArmoury_NeedleProjectiles.label>
+	<AArmoury_NeedleProjectiles.description>Вместо пуль это оружие выпускает быструю очередь мелких игл, покрытых паралитическим ядом.</AArmoury_NeedleProjectiles.description>
+	
+	<!-- EN: tesla coil -->
+	<AArmoury_Tesla.label>катушка Теслы</AArmoury_Tesla.label>
+	<AArmoury_Tesla.description>Вместо зарядных выстрелов это оружие испускает каскад цепной электромагнитной энергии, способной оглушать и выводить из строя механоидов, одновременно прожигая органические цели.</AArmoury_Tesla.description>
+	
+	<!-- EN: nerve spiker -->
+	<AArmoury_NerveSpiker.label>нервный шипомёт</AArmoury_NerveSpiker.label>
+	<AArmoury_NerveSpiker.description>Это оружие модифицировано устройством наподобие арбалета, выбрасывающим грубые шипы с паралитическим биотоксином.</AArmoury_NerveSpiker.description>
+	
+	<!-- EN: thumper rounds -->
+	<AArmoury_Thumper.label>пробивные заряды</AArmoury_Thumper.label>
+	<AArmoury_Thumper.description>Вместо дроби этот дробовик стреляет пробивными взрывными зарядами, чрезвычайно эффективными против стен и сооружений, но наносящими значительно меньший урон мелким целям.</AArmoury_Thumper.description>
+	
+	<!-- EN: net gun -->
+	<AArmoury_NetGun.label>сетемёт</AArmoury_NetGun.label>
+	<AArmoury_NetGun.description>Это оружие стреляет спутанными сетями, обездвиживающими цели.
+
+- Отменяет принудительный радиус промаха этого оружия.</AArmoury_NetGun.description>
+	<AArmoury_NetGun.traitAdjectives.0>запуск сетей</AArmoury_NetGun.traitAdjectives.0>
+	
+	<!-- EN: syringer gun -->
+	<AArmoury_SyringerGun.label>шприцемёт</AArmoury_SyringerGun.label>
+	<AArmoury_SyringerGun.description>Это оружие модифицировано для стрельбы мутагенными шприцами, вызывающими случайные вредоносные мутации у целей.</AArmoury_SyringerGun.description>
+	
+	<!-- EN: shatter rounds -->
+	<AArmoury_ShatterRounds.label>осколочные патроны</AArmoury_ShatterRounds.label>
+	<AArmoury_ShatterRounds.description>Это оружие стреляет патронами, образующими осколки при попадании.</AArmoury_ShatterRounds.description>
+	
+	<!-- EN: shatter pellets -->
+	<AArmoury_ShatterPellets.label>осколочная дробь</AArmoury_ShatterPellets.label>
+	<AArmoury_ShatterPellets.description>Вместо обычной дроби этот дробовик стреляет осколочной дробью, образующей шрапнель при попадании.</AArmoury_ShatterPellets.description>
+	
+	<!-- EN: electrified -->
+	<AArmoury_Electric.label>электризованный</AArmoury_Electric.label>
+	<AArmoury_Electric.description>Это оружие стреляет микроскопическими механитными зарядами, вызывающими удар молнии по цели.</AArmoury_Electric.description>
+	
+	<!-- EN: tachyonic feed -->
+	<AArmoury_TachyonicFeed.label>тахионная подача</AArmoury_TachyonicFeed.label>
+	<AArmoury_TachyonicFeed.description>Снаряды этого оружия наносят возрастающий урон движущимся целям.</AArmoury_TachyonicFeed.description>
+	
+	<!-- EN: hemovoric -->
+	<AArmoury_Hemovoric.label>гемоворический</AArmoury_Hemovoric.label>
+	<AArmoury_Hemovoric.description>Снаряды этого оружия высасывают кровь из цели и пытаются передать её стрелку. Что, очевидно, бесполезно, если стрелок не является сангвофагом.</AArmoury_Hemovoric.description>
+	
+	<!-- EN: psychic -->
+	<AArmoury_Psychic.label>психический</AArmoury_Psychic.label>
+	<AArmoury_Psychic.description>Снаряды этого оружия поглощают жизненную энергию цели и пытаются передать её стрелку в виде психофокуса. Что, очевидно, бесполезно, если стрелок не является псикастером.</AArmoury_Psychic.description>
+	
+	<!-- EN: bullet splitting -->
+	<AArmoury_Splitting.label>расщепление пуль</AArmoury_Splitting.label>
+	<AArmoury_Splitting.description>Снаряды этого оружия дублируются с половинной мощностью.</AArmoury_Splitting.description>
+	
+	<!-- EN: healing gun -->
+	<AArmoury_HealingMinigun.label>лечебный миниган</AArmoury_HealingMinigun.label>
+	<AArmoury_HealingMinigun.description>Этот миниган стреляет механитными иглами с мощной лечебной сывороткой. Они лечат цели вместо нанесения урона.</AArmoury_HealingMinigun.description>
+	
+	<!-- EN: lifesteal -->
+	<AArmoury_Lifesteal.label>кража жизни</AArmoury_Lifesteal.label>
+	<AArmoury_Lifesteal.description>Снаряды этого оружия вытягивают здоровье из цели и передают его владельцу.</AArmoury_Lifesteal.description>
+	
+	<!-- EN: chemburster -->
+	<AArmoury_Chemburster.label>химвзрыватель</AArmoury_Chemburster.label>
+	<AArmoury_Chemburster.description>Пули этого оружия содержат микроскопическую ампулу концентрированного химтоплива, которое внедряется в цель и вызывает взрыв при её смерти.</AArmoury_Chemburster.description>
+	
+	<!-- EN: flux-charged -->
+	<AArmoury_Flux.label>нестабильный биозаряд</AArmoury_Flux.label>
+	<AArmoury_Flux.description>Снаряды этого оружия насыщают цель биозарядным уроном. Биозаряд дестабилизирует биоэлектрическое поле цели, вызывая кратковременный энергетический разряд, поражающий ближайших существ.</AArmoury_Flux.description>
+	
+	<!-- EN: voltaic rounds -->
+	<AArmoury_Voltaic.label>вольтаические патроны</AArmoury_Voltaic.label>
+	<AArmoury_Voltaic.description>Это оружие стреляет патронами с накопленным электрическим зарядом, парализующими цели и вызывающими сердечные приступы.</AArmoury_Voltaic.description>
+	
+	<!-- EN: target locator -->
+	<AArmoury_TargetLocator.label>целеуказатель</AArmoury_TargetLocator.label>
+	<AArmoury_TargetLocator.description>Это оружие почти не наносит урона, но вводит в цель нано-маяк, значительно усиливающий попадания другого оружия.</AArmoury_TargetLocator.description>
+	<AArmoury_TargetLocator.traitAdjectives.0>маркировка цели</AArmoury_TargetLocator.traitAdjectives.0>
+	
+	<!-- EN: repair gun -->
+	<AArmoury_RepairGun.label>ремонтный инструмент</AArmoury_RepairGun.label>
+	<AArmoury_RepairGun.description>Это оружие не наносит урона, а вместо этого ремонтирует здания, по которым производится выстрел.</AArmoury_RepairGun.description>
+	
+	<!-- EN: bee-bee gun -->
+	<AArmoury_BeeBeeGun.label>пчеломёт</AArmoury_BeeBeeGun.label>
+	<AArmoury_BeeBeeGun.description>Это оружие стреляет пчёлами вместо пуль. Да…</AArmoury_BeeBeeGun.description>
+	
+	<!-- EN: bubble burster -->
+	<AArmoury_BubbleBurster.label>пузырьковый разрядник</AArmoury_BubbleBurster.label>
+	<AArmoury_BubbleBurster.description>Это оружие выпускает очередь кислотных пузырей на короткой дистанции.</AArmoury_BubbleBurster.description>
+	
+	<!-- EN: entropy rounds -->
+	<AArmoury_EntropyRounds.label>энтропийные патроны</AArmoury_EntropyRounds.label>
+	<AArmoury_EntropyRounds.description>Снаряды этого оружия преобразуют нейронный жар владельца в дополнительный психический урон. Каждое попадание снижает этот жар на 1.</AArmoury_EntropyRounds.description>
+</LanguageData>

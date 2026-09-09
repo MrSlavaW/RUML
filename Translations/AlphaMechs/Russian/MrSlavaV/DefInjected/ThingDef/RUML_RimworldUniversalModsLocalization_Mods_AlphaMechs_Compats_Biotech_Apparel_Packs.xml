@@ -1,0 +1,15 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_Misc\Apparel_Packs.xml -->
+	<!--                 EN: beamcaster pack -->
+	<AM_BeamcasterPack.label>ранец лучевой связи</AM_BeamcasterPack.label>
+	<!--                       EN: A backpack containing a beamcaster antenna to more adequately reach all controlled mechanoids. It can greatly increase a mechanitor's maximum total bandwidth. -->
+	<AM_BeamcasterPack.description>Ранец с антенной лучевой связи, которая помогает устойчиво поддерживать связь со всеми подконтрольными механоидами. Он может заметно увеличить максимальную общую пропускную способность механитора.</AM_BeamcasterPack.description>
+	<!--               EN: voidlink pack -->
+	<AM_VoidlinkPack.label>ранец пустотной связи</AM_VoidlinkPack.label>
+	<!--                     EN: A backpack containing a voidlink relay to access the vast amounts of data present on this system's mechanoid voidlink network. It can vastly increase a mechanitor's maximum total bandwidth. -->
+	<AM_VoidlinkPack.description>Ранец с ретранслятором пустотной связи, открывающим доступ к огромным массивам данных в механоидной сети пустотной связи этой системы. Он может значительно увеличить максимальную общую пропускную способность механитора.</AM_VoidlinkPack.description>
+	<!--             EN: mech crypto-pack -->
+	<AM_CryptoPack.label>механический криптопакет</AM_CryptoPack.label>
+	<!--                   EN: A backpack containing an array of mechanoid encryption decoders. It allows a mechanitor to control an additional control group, whilst also vastly increasing a mechanitor's maximum total bandwidth. -->
+	<AM_CryptoPack.description>Ранец с набором дешифраторов механоидных протоколов. Он позволяет механитору получить дополнительную группу управления и заметно повышает его максимальную общую пропускную способность.</AM_CryptoPack.description>
+</LanguageData>

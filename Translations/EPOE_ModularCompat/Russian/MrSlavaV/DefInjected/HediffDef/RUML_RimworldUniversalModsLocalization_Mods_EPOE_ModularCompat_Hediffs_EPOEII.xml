@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<LTS_EPOE_LeftExtraAdvancedElbowBlade.label>дополнительный улучшенный бионический локтевой клинок (левый)</LTS_EPOE_LeftExtraAdvancedElbowBlade.label>
+	<LTS_EPOE_LeftExtraAdvancedElbowBlade.description>Улучшенный бионический локтевой клинок, смонтированный на плечевом узле в качестве вспомогательной конечности.</LTS_EPOE_LeftExtraAdvancedElbowBlade.description>
+	<LTS_EPOE_RightExtraAdvancedElbowBlade.label>дополнительный улучшенный бионический локтевой клинок (правый)</LTS_EPOE_RightExtraAdvancedElbowBlade.label>
+	<LTS_EPOE_RightExtraAdvancedElbowBlade.description>Улучшенный бионический локтевой клинок, смонтированный на плечевом узле в качестве вспомогательной конечности.</LTS_EPOE_RightExtraAdvancedElbowBlade.description>
+	<LTS_EPOE_LeftExtraAdvancedHandTalon.label>дополнительный улучшенный бионический коготь (левый)</LTS_EPOE_LeftExtraAdvancedHandTalon.label>
+	<LTS_EPOE_LeftExtraAdvancedHandTalon.description>Улучшенный бионический коготь на вспомогательной конечности, скрытно размещенной вдоль спины.</LTS_EPOE_LeftExtraAdvancedHandTalon.description>
+	<LTS_EPOE_RightExtraAdvancedHandTalon.label>дополнительный улучшенный бионический коготь (правый)</LTS_EPOE_RightExtraAdvancedHandTalon.label>
+	<LTS_EPOE_RightExtraAdvancedHandTalon.description>Улучшенный бионический коготь на вспомогательной конечности, скрытно размещенной вдоль спины.</LTS_EPOE_RightExtraAdvancedHandTalon.description>
+	<LTS_EPOE_LeftExtraAdvancedBionicHand.label>дополнительная улучшенная бионическая кисть (левая)</LTS_EPOE_LeftExtraAdvancedBionicHand.label>
+	<LTS_EPOE_LeftExtraAdvancedBionicHand.description>Улучшенная бионическая кисть на дополнительной конечности с бесшумными приводами и биогелевой нейросвязью.</LTS_EPOE_LeftExtraAdvancedBionicHand.description>
+	<LTS_EPOE_RightExtraAdvancedBionicHand.label>дополнительная улучшенная бионическая кисть (правая)</LTS_EPOE_RightExtraAdvancedBionicHand.label>
+	<LTS_EPOE_RightExtraAdvancedBionicHand.description>Улучшенная бионическая кисть на дополнительной конечности с бесшумными приводами и биогелевой нейросвязью.</LTS_EPOE_RightExtraAdvancedBionicHand.description>
+	<LTS_EPOE_ModularAdvancedBionicEye.label>продвинутый бионический глаз (модульный)</LTS_EPOE_ModularAdvancedBionicEye.label>
+	<LTS_EPOE_ModularAdvancedBionicEye.description>Установленный продвинутый бионический глаз, модифицированный для установки модульных улучшений.</LTS_EPOE_ModularAdvancedBionicEye.description>
+	<LTS_EPOE_ModularAdvancedBionicArm.label>продвинутая бионическая рука (модульная)</LTS_EPOE_ModularAdvancedBionicArm.label>
+	<LTS_EPOE_ModularAdvancedBionicArm.description>Установленная продвинутая бионическая рука, модифицированная для установки модульных улучшений.</LTS_EPOE_ModularAdvancedBionicArm.description>
+	<LTS_EPOE_ModularAdvancedBionicLeg.label>продвинутая бионическая нога (модульная)</LTS_EPOE_ModularAdvancedBionicLeg.label>
+	<LTS_EPOE_ModularAdvancedBionicLeg.description>Установленная продвинутая бионическая нога, модифицированная для установки модульных улучшений.</LTS_EPOE_ModularAdvancedBionicLeg.description>
+	<LTS_EPOE_ModularAdvancedBionicJaw.label>продвинутая бионическая челюсть (модульная)</LTS_EPOE_ModularAdvancedBionicJaw.label>
+	<LTS_EPOE_ModularAdvancedBionicJaw.description>Установленная продвинутая бионическая челюсть, модифицированная для установки модульных улучшений.</LTS_EPOE_ModularAdvancedBionicJaw.description>
+	<LTS_EPOE_ModularAdvancedBionicSpine.label>продвинутый бионический позвоночник (модульный)</LTS_EPOE_ModularAdvancedBionicSpine.label>
+	<LTS_EPOE_ModularAdvancedBionicSpine.description>Установленный продвинутый бионический позвоночник, модифицированный для установки модульных улучшений.</LTS_EPOE_ModularAdvancedBionicSpine.description>
+	<LTS_EPOE_ModularAdvancedPowerArm.label>продвинутый силовой манипулятор (модульный)</LTS_EPOE_ModularAdvancedPowerArm.label>
+	<LTS_EPOE_ModularAdvancedPowerArm.description>Установленный продвинутый силовой манипулятор с выдвижными когтями, адаптированный под модули.</LTS_EPOE_ModularAdvancedPowerArm.description>
+	<LTS_EPOE_ModularAdvancedDrillArm.label>продвинутая рука-бур (модульная)</LTS_EPOE_ModularAdvancedDrillArm.label>
+	<LTS_EPOE_ModularAdvancedDrillArm.description>Установленная продвинутая рука-бур, адаптированная под модули.</LTS_EPOE_ModularAdvancedDrillArm.description>
+	<LTS_EPOE_ModularAdvancedElbowBlade.label>продвинутый бионический локтевой клинок (модульный)</LTS_EPOE_ModularAdvancedElbowBlade.label>
+	<LTS_EPOE_ModularAdvancedElbowBlade.description>Установленный продвинутый локтевой клинок, адаптированный под модули.</LTS_EPOE_ModularAdvancedElbowBlade.description>
+</LanguageData>

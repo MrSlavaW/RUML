@@ -1,0 +1,22 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\ColonyTantrum\Thoughts_Tantrum.xml -->
+	<!--                           EN: terrible tantrum -->
+	<AM_TerribleTantrum.stages.0.label>ужасная истерика</AM_TerribleTantrum.stages.0.label>
+	<!--                                 EN: That tantrum was a waste of time. We barely did anything. -->
+	<AM_TerribleTantrum.stages.0.description>Эта истерика была пустой тратой времени. Мы почти ничего не делали.</AM_TerribleTantrum.stages.0.description>
+	
+	<!--                             EN: lackluster tantrum -->
+	<AM_LacklusterTantrum.stages.0.label>тусклая истерика</AM_LacklusterTantrum.stages.0.label>
+	<!--                                   EN: That tantrum could've been a lot better. I think I chose my targets wrong. -->
+	<AM_LacklusterTantrum.stages.0.description>Эта истерика могла быть намного лучше. Думаю, я неправильно {PAWN_gender ? выбрал : выбрала} цели.</AM_LacklusterTantrum.stages.0.description>
+	
+	<!--                       EN: good tantrum -->
+	<AM_GoodTantrum.stages.0.label>хорошая истерика</AM_GoodTantrum.stages.0.label>
+	<!--                             EN: That tantrum was enjoyable. Got some of the anger and bad feelings out so we can move on. -->
+	<AM_GoodTantrum.stages.0.description>Эта истерика была приятной. Выплеснули немного гнева и плохих чувств, чтобы двигаться дальше.</AM_GoodTantrum.stages.0.description>
+	
+	<!--                          EN: amazing tantrum -->
+	<AM_AmazingTantrum.stages.0.label>удивительная истерика</AM_AmazingTantrum.stages.0.label>
+	<!--                                EN: That tantrum was so satisfying. I got to destroy so much, I'm excited for the new start. -->
+	<AM_AmazingTantrum.stages.0.description>Эта истерика была такой приятной. Я {PAWN_gender ? должен : должна} разрушить так много, я {PAWN_gender ? взволнован : взволнована} для нового начала.</AM_AmazingTantrum.stages.0.description>
+</LanguageData>

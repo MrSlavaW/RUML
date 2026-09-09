@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ABHATweaker>Настройка головных уборов AB</ABHATweaker>
+	<Basic_Settings>Базовые настройки</Basic_Settings>
+	<Advanced_Settings>Расширенные настройки</Advanced_Settings>
+	<Global_Settings>Глобальные настройки</Global_Settings>
+	<Alien_Patch_Settings>Настройки патчей ксеносов</Alien_Patch_Settings>
+	<Use_Default0>Использовать стандарт 0</Use_Default0>
+	<Use_Default1>Использовать стандарт 1</Use_Default1>
+	<Style>Стиль</Style>
+	<Reset_Change>Сбросить изменения</Reset_Change>
+	<Default>По умолчанию</Default>
+	<No_Graphic>Без графики</No_Graphic>
+	<No_Hair>Без волос</No_Hair>
+	<No_Beard>Без бороды</No_Beard>
+	<Hide_Indoor>Скрывать в помещении</Hide_Indoor>
+	<Hide_No_Fight>Скрывать вне боя</Hide_No_Fight>
+	<Hide_In_Bed>Скрывать в кровати</Hide_In_Bed>
+	<Size>Размер</Size>
+	<South>Юг</South>
+	<North>Север</North>
+	<West>Запад</West>
+	<East>Восток</East>
+	<Rotate>Поворот</Rotate>
+	<Advance_Mode>Расширенный режим</Advance_Mode>
+	<Reset>Сброс</Reset>
+	<Reset_All_Setting>Сбросить все настройки</Reset_All_Setting>
+	<Only_Colonist>Только для колонистов</Only_Colonist>
+	<useIsColonistCache>Использовать кэш колонистов</useIsColonistCache>
+	<Quick_HideBeard>Быстро "Скрыть бороду"</Quick_HideBeard>
+	<Quick_DisplayBeard>Быстро "Показать бороду"</Quick_DisplayBeard>
+	<Quick_NoGraphic>Быстро "Без графики"</Quick_NoGraphic>
+	<Quick_HideHair>Быстро "Скрыть волосы"</Quick_HideHair>
+	<Quick_DisplayHair>Быстро "Показать волосы"</Quick_DisplayHair>
+	<Quick_Open_HideInDoor>Включить "Скрывать в помещении"</Quick_Open_HideInDoor>
+	<Quick_Close_HideInDoor>Выключить "Скрывать в помещении"</Quick_Close_HideInDoor>
+	<Quick_Open_HideNoFight>Включить "Скрывать вне боя"</Quick_Open_HideNoFight>
+	<Quick_Close_HideNoFight>Выключить "Скрывать вне боя"</Quick_Close_HideNoFight>
+	<Quick_Open_HideInBed>Включить "Скрывать в кровати"</Quick_Open_HideInBed>
+	<Quick_Close_HideInBed>Выключить "Скрывать в кровати"</Quick_Close_HideInBed>
+	<Layer_Offset>Смещение слоя рендера</Layer_Offset>
+	<With_Hair>С волосами</With_Hair>
+	<With_Beard>С бородой</With_Beard>
+	<Global_Layer_Offset>Глобальное смещение слоя</Global_Layer_Offset>
+	<Quick_Open_HideNonVacuum>Включить "Показывать в вакууме"</Quick_Open_HideNonVacuum>
+	<Quick_Close_HideNonVacuum>Выключить "Показывать в вакууме"</Quick_Close_HideNonVacuum>
+	<Hide_Non_Vacuum>Показывать в вакууме</Hide_Non_Vacuum>
+	<Into_Game>(Используйте эту настройку во время игры)</Into_Game>
+</LanguageData>

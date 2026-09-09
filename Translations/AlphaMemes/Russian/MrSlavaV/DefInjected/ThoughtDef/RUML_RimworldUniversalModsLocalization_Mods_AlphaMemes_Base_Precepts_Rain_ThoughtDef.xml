@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Rain.xml -->
+	
+	<!--                        EN: it's raining -->
+	<AM_Rain_Blessed.stages.0.label>идет дождь</AM_Rain_Blessed.stages.0.label>
+	<!--                              EN: Rain is a blessing, purifying our souls with its sacred touch. -->
+	<AM_Rain_Blessed.stages.0.description>Дождь — это благословение, очищающее наши души своим священным прикосновением.</AM_Rain_Blessed.stages.0.description>
+	
+	<!--                         EN: it's raining -->
+	<AM_Rain_Disliked.stages.0.label>идет дождь</AM_Rain_Disliked.stages.0.label>
+	<!--                               EN: The rain weighs on me, bringing discomfort and longing for the sun. -->
+	<AM_Rain_Disliked.stages.0.description>Дождь давит на меня, принося дискомфорт и тоску по солнцу.</AM_Rain_Disliked.stages.0.description>
+</LanguageData>

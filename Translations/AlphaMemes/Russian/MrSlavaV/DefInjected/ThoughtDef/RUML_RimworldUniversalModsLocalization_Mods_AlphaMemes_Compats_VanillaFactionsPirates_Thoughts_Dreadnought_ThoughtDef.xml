@@ -1,0 +1,22 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaFactionsPirates\Defs\ThoughtDefs\Thoughts_Dreadnought.xml -->
+	<!--                               EN: disgraceful entombing -->
+	<AM_TerribleDreadnought.stages.0.label>позорное захоронение</AM_TerribleDreadnought.stages.0.label>
+	<!--                                     EN: That entombing was a complete failure. I hope that doesn't happen to me when it's my time. -->
+	<AM_TerribleDreadnought.stages.0.description>Это захоронение было полным провалом. Надеюсь, со мной этого не случится, когда придет мое время.</AM_TerribleDreadnought.stages.0.description>
+	
+	<!--                                 EN: lackluster entombing -->
+	<AM_LacklusterDreadnought.stages.0.label>тусклое захоронение</AM_LacklusterDreadnought.stages.0.label>
+	<!--                                       EN: That entombing was messy and dangerous. I hope they make it through. -->
+	<AM_LacklusterDreadnought.stages.0.description>Это захоронение было грязным и опасным. Я надеюсь, что они справятся.</AM_LacklusterDreadnought.stages.0.description>
+	
+	<!--                           EN: good entombing -->
+	<AM_GoodDreadnought.stages.0.label>хорошее захоронение</AM_GoodDreadnought.stages.0.label>
+	<!--                                 EN: That entombing went well, I'm sure they'll be walking shortly. -->
+	<AM_GoodDreadnought.stages.0.description>Это захоронение прошло хорошо, я уверен, что они скоро будут ходить.</AM_GoodDreadnought.stages.0.description>
+	
+	<!--                              EN: amazing entombing -->
+	<AM_AmazingDreadnought.stages.0.label>удивительное захоронение</AM_AmazingDreadnought.stages.0.label>
+	<!--                                    EN: That entombing was amazing. I hope when it's my turn I have no side effects like that. -->
+	<AM_AmazingDreadnought.stages.0.description>Это захоронение было потрясающим. Надеюсь, когда придет моя очередь, у меня не будет таких побочных эффектов.</AM_AmazingDreadnought.stages.0.description>
+</LanguageData>

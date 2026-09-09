@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<EPIA_UpgradeAdvancedDrillArm.label>собрать улучшенную руку-бур</EPIA_UpgradeAdvancedDrillArm.label>
+	<EPIA_UpgradeAdvancedDrillArm.description>Собрать улучшенную руку-бур на основе базовой модели.</EPIA_UpgradeAdvancedDrillArm.description>
+	<InstallEPOE_AdvancedDrillArm.label>установить улучшенную руку-бур</InstallEPOE_AdvancedDrillArm.label>
+	<InstallEPOE_AdvancedDrillArm.description>Устанавливает улучшенную руку-бур.</InstallEPOE_AdvancedDrillArm.description>
+	<EPIA_UpgradeAdvancedFieldHand.label>собрать улучшенную руку-культиватор</EPIA_UpgradeAdvancedFieldHand.label>
+	<EPIA_UpgradeAdvancedFieldHand.description>Собрать улучшенную руку-культиватор.</EPIA_UpgradeAdvancedFieldHand.description>
+	<InstallEPOE_AdvancedFieldHand.label>установить улучшенную руку-культиватор</InstallEPOE_AdvancedFieldHand.label>
+	<InstallEPOE_AdvancedFieldHand.description>Устанавливает улучшенную руку-культиватор.</InstallEPOE_AdvancedFieldHand.description>
+	<EPIA_UpgradeAdvancedHandTalon.label>собрать улучшенный бионический коготь</EPIA_UpgradeAdvancedHandTalon.label>
+	<EPIA_UpgradeAdvancedHandTalon.description>Собрать улучшенный бионический коготь.</EPIA_UpgradeAdvancedHandTalon.description>
+	<InstallEPOE_AdvancedHandTalon.label>установить улучшенный бионический коготь</InstallEPOE_AdvancedHandTalon.label>
+	<InstallEPOE_AdvancedHandTalon.description>Устанавливает улучшенный бионический коготь.</InstallEPOE_AdvancedHandTalon.description>
+	<EPIA_UpgradeAdvancedElbowBlade.label>собрать улучшенный бионический локтевой клинок</EPIA_UpgradeAdvancedElbowBlade.label>
+	<EPIA_UpgradeAdvancedElbowBlade.description>Собрать улучшенный бионический локтевой клинок.</EPIA_UpgradeAdvancedElbowBlade.description>
+	<InstallEPOE_AdvancedElbowBlade.label>установить улучшенный бионический локтевой клинок</InstallEPOE_AdvancedElbowBlade.label>
+	<InstallEPOE_AdvancedElbowBlade.description>Устанавливает улучшенный бионический локтевой клинок.</InstallEPOE_AdvancedElbowBlade.description>
+	<EPIA_UpgradeAdvancedKneeSpike.label>собрать улучшенный бионический коленный шип</EPIA_UpgradeAdvancedKneeSpike.label>
+	<EPIA_UpgradeAdvancedKneeSpike.description>Собрать улучшенный бионический коленный шип.</EPIA_UpgradeAdvancedKneeSpike.description>
+	<InstallEPOE_AdvancedKneeSpike.label>установить улучшенный бионический коленный шип</InstallEPOE_AdvancedKneeSpike.label>
+	<InstallEPOE_AdvancedKneeSpike.description>Устанавливает улучшенный бионический коленный шип.</InstallEPOE_AdvancedKneeSpike.description>
+	<EPIA_UpgradeBionicHandTalon.label>собрать бионический коготь</EPIA_UpgradeBionicHandTalon.label>
+	<EPIA_UpgradeBionicHandTalon.description>Собрать бионический коготь.</EPIA_UpgradeBionicHandTalon.description>
+	<InstallEPOE_ScytherHandTalon.label>установить бионический коготь</InstallEPOE_ScytherHandTalon.label>
+	<InstallEPOE_ScytherHandTalon.description>Устанавливает бионический коготь.</InstallEPOE_ScytherHandTalon.description>
+	<EPIA_UpgradeBionicElbowBlade.label>собрать бионический локтевой клинок</EPIA_UpgradeBionicElbowBlade.label>
+	<EPIA_UpgradeBionicElbowBlade.description>Собрать бионический локтевой клинок.</EPIA_UpgradeBionicElbowBlade.description>
+	<InstallEPOE_ScytherElbowBlade.label>установить бионический локтевой клинок</InstallEPOE_ScytherElbowBlade.label>
+	<InstallEPOE_ScytherElbowBlade.description>Устанавливает бионический локтевой клинок.</InstallEPOE_ScytherElbowBlade.description>
+	<EPIA_UpgradeBionicKneeSpike.label>собрать бионический коленный шип</EPIA_UpgradeBionicKneeSpike.label>
+	<EPIA_UpgradeBionicKneeSpike.description>Собрать бионический коленный шип.</EPIA_UpgradeBionicKneeSpike.description>
+	<InstallEPOE_ScytherKneeSpike.label>установить бионический коленный шип</InstallEPOE_ScytherKneeSpike.label>
+	<InstallEPOE_ScytherKneeSpike.description>Устанавливает бионический коленный шип.</InstallEPOE_ScytherKneeSpike.description>
+	<EPIA_InstallCircadianRefresher.label>установить циркадный освежитель</EPIA_InstallCircadianRefresher.label>
+	<EPIA_InstallCircadianRefresher.description>Устанавливает циркадный освежитель.</EPIA_InstallCircadianRefresher.description>
+	<EPIA_RemoveCircadianRefresher.label>извлечь циркадный освежитель</EPIA_RemoveCircadianRefresher.label>
+	<EPIA_RemoveCircadianRefresher.description>Извлекает циркадный освежитель.</EPIA_RemoveCircadianRefresher.description>
+	<InstallEPOE_DetoxifierEnhancer.label>установить стимулятор-детоксикатор</InstallEPOE_DetoxifierEnhancer.label>
+	<InstallEPOE_DetoxifierEnhancer.description>Устанавливает стимулятор-детоксикатор.</InstallEPOE_DetoxifierEnhancer.description>
+	<EPIA_RemoveDetoxifierEnhancer.label>извлечь стимулятор-детоксикатор</EPIA_RemoveDetoxifierEnhancer.label>
+	<EPIA_RemoveDetoxifierEnhancer.description>Извлекает стимулятор-детоксикатор.</EPIA_RemoveDetoxifierEnhancer.description>
+	<InstallEPOE_DetoxifierSyntheticLiver.label>установить синтетическую печень-детоксикатор</InstallEPOE_DetoxifierSyntheticLiver.label>
+	<InstallEPOE_DetoxifierSyntheticLiver.description>Устанавливает синтетическую печень-детоксикатор.</InstallEPOE_DetoxifierSyntheticLiver.description>
+	<InstallEPOE_ImmunoenhancerSyntheticKidney.label>установить синтетическую иммунную почку</InstallEPOE_ImmunoenhancerSyntheticKidney.label>
+	<InstallEPOE_ImmunoenhancerSyntheticKidney.description>Устанавливает синтетическую иммунную почку.</InstallEPOE_ImmunoenhancerSyntheticKidney.description>
+</LanguageData>

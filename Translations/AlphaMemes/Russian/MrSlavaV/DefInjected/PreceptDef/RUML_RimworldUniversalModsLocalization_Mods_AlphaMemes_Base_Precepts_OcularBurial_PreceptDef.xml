@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\PreceptDefs\Precepts_OcularBurial.xml -->
+	<!--                EN: ocular funeral -->
+	<AM_OcularFuneral.label>окулярные похороны</AM_OcularFuneral.label>
+	<!--                      EN: A gathering to witness the deceased be offered to the ocular lands! -->
+	<AM_OcularFuneral.description>Собрание, чтобы засвидетельствовать, как покойный будет принесен в жертву окулярным землям!</AM_OcularFuneral.description>
+	<!--                                   EN: {PAWN_nameDef} should be offered to the ocular lands, so it may reward us with wonderous creatures -->
+	<AM_OcularFuneral.extraTextPawnDeathLetter>{PAWN_nameDef} следует предложить окулярным землям, чтобы они могли вознаградить нас чудесными существами</AM_OcularFuneral.extraTextPawnDeathLetter>
+</LanguageData>

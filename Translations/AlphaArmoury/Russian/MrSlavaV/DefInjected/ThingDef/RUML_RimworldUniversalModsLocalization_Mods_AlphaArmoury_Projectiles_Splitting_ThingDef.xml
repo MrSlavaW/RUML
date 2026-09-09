@@ -1,0 +1,39 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Projectiles\Projectiles_Splitting.xml -->
+
+	<AArmoury_Splitting_Revolver.label>расщеплённая пуля револьвера</AArmoury_Splitting_Revolver.label>
+	<AArmoury_Splitting_Revolver_Secondary.label>расщеплённая пуля револьвера</AArmoury_Splitting_Revolver_Secondary.label>
+
+	<AArmoury_Splitting_Bolt.label>расщеплённая пуля болтовой винтовки</AArmoury_Splitting_Bolt.label>
+	<AArmoury_Splitting_Bolt_Secondary.label>расщеплённая пуля болтовой винтовки</AArmoury_Splitting_Bolt_Secondary.label>
+
+	<AArmoury_Splitting_Shotgun.label>расщеплённый дробовой выстрел</AArmoury_Splitting_Shotgun.label>
+	<AArmoury_Splitting_Shotgun_Secondary.label>расщеплённый дробовой выстрел</AArmoury_Splitting_Shotgun_Secondary.label>
+
+	<AArmoury_Splitting_HeavySMG.label>расщеплённая пуля тяжёлого ПП</AArmoury_Splitting_HeavySMG.label>
+	<AArmoury_Splitting_HeavySMG_Secondary.label>расщеплённая пуля тяжёлого ПП</AArmoury_Splitting_HeavySMG_Secondary.label>
+
+	<AArmoury_Splitting_LMG.label>расщеплённая пуля РП</AArmoury_Splitting_LMG.label>
+	<AArmoury_Splitting_LMG_Secondary.label>расщеплённая пуля Ручного Пулемета</AArmoury_Splitting_LMG_Secondary.label>
+
+	<AArmoury_Splitting_Assault.label>расщеплённая пуля штурмовой винтовки</AArmoury_Splitting_Assault.label>
+	<AArmoury_Splitting_Assault_Secondary.label>расщеплённая пуля штурмовой винтовки</AArmoury_Splitting_Assault_Secondary.label>
+
+	<AArmoury_Splitting_Minigun.label>расщеплённая пуля минигана</AArmoury_Splitting_Minigun.label>
+	<AArmoury_Splitting_Minigun_Secondary.label>расщеплённая пуля минигана</AArmoury_Splitting_Minigun_Secondary.label>
+
+	<AArmoury_Splitting_Sniper.label>расщеплённая пуля снайперской винтовки</AArmoury_Splitting_Sniper.label>
+	<AArmoury_Splitting_Sniper_Secondary.label>расщеплённая пуля снайперской винтовки</AArmoury_Splitting_Sniper_Secondary.label>
+
+	<AArmoury_Splitting_Arrow.label>расщеплённая стрела большого лука</AArmoury_Splitting_Arrow.label>
+	<AArmoury_Splitting_Arrow_Secondary.label>расщеплённая стрела большого лука</AArmoury_Splitting_Arrow_Secondary.label>
+
+	<AArmoury_Splitting_Charge.label>расщеплённый зарядный выстрел</AArmoury_Splitting_Charge.label>
+	<AArmoury_Splitting_Charge_Secondary.label>расщеплённый зарядный выстрел</AArmoury_Splitting_Charge_Secondary.label>
+
+	<AArmoury_Splitting_Lance.label>расщеплённый выстрел зарядного копья</AArmoury_Splitting_Lance.label>
+	<AArmoury_Splitting_Lance_Secondary.label>расщеплённый выстрел зарядного копья</AArmoury_Splitting_Lance_Secondary.label>
+
+	<AArmoury_Splitting_Hellcat.label>расщеплённая пуля винтовки «Хеллкэт»</AArmoury_Splitting_Hellcat.label>
+	<AArmoury_Splitting_Hellcat_Secondary.label>расщеплённая пуля винтовки «Хеллкэт»</AArmoury_Splitting_Hellcat_Secondary.label>
+</LanguageData>

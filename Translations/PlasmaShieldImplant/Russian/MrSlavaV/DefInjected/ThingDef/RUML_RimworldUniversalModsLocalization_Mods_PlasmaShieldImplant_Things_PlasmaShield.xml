@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AdaptivePlasmaShield.description>Усовершенствованный генератор, адаптирующий плотность поля к типу входящего огня.</AdaptivePlasmaShield.description>
+  <AdaptivePlasmaShield.label>адаптивный плазменный щит</AdaptivePlasmaShield.label>
+  <ModuleSwitchTerminal.description>Специальный интерфейс для удалённого переключения режимов защитных имплантов.</ModuleSwitchTerminal.description>
+  <ModuleSwitchTerminal.label>терминал переключения модулей</ModuleSwitchTerminal.label>
+  <PlasmaShieldFunctionalityEnhancer.description>Модуль, повышающий общую энергоёмкость и стабильность персонального плазменного щита.</PlasmaShieldFunctionalityEnhancer.description>
+  <PlasmaShieldFunctionalityEnhancer.label>усилитель плазменного щита</PlasmaShieldFunctionalityEnhancer.label>
+  <PlasmaShieldRegenerator.description>Имплант, значительно ускоряющий скорость перезарядки истощённого щита.</PlasmaShieldRegenerator.description>
+  <PlasmaShieldRegenerator.label>регенератор плазменного щита</PlasmaShieldRegenerator.label>
+  <PsionicRegenerator.description>Использует психоактивность носителя для мгновенной подпитки плазменного барьера.</PsionicRegenerator.description>
+  <PsionicRegenerator.label>псионический регенератор щита</PsionicRegenerator.label>
+  <ResistantPlasmaShield.description>Улучшение генератора, позволяющее плазменному щиту эффективно сопротивляться энергетическому урону.</ResistantPlasmaShield.description>
+  <ResistantPlasmaShield.label>стойкий плазменный щит</ResistantPlasmaShield.label>
+</LanguageData>

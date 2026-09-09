@@ -1,0 +1,8 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Death.xml -->
+	
+	<!--                EN: desired -->
+	<AM_Death_Desired.label>желанна</AM_Death_Desired.label>
+	<!--                      EN: Death is what makes us truly human. It shouldn't be avoided, but actively sought.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonists will receive a positive mood if ANY human casualties take place on the colony. -->
+	<AM_Death_Desired.description>Смерть делает нас по-настоящему людьми. Ее нужно не избегать, а активно искать.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Поселенцы получат положительный настрой, если в поселении произойдут ЛЮБЫЕ человеческие жертвы.</AM_Death_Desired.description>
+</LanguageData>

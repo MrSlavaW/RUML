@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_BodySize.xml -->
+	<!--                 EN: larger -->
+	<AG_LargerBodySize.label>Крупный</AG_LargerBodySize.label>
+	<!--                       EN: Carriers of this gene have a larger body size than usual. This has its advantages and disadvantages. -->
+	<AG_LargerBodySize.description>Носители этого гена отличаются увеличенным размером тела. Это даёт как преимущества, так и недостатки.</AG_LargerBodySize.description>
+	<!--                  EN: smaller -->
+	<AG_SmallerBodySize.label>Худой</AG_SmallerBodySize.label>
+	<!--                        EN: Carriers of this gene have a smaller body size than usual. This has its advantages and disadvantages. -->
+	<AG_SmallerBodySize.description>Носители этого гена отличаются уменьшенным размером тела. Это даёт как преимущества, так и недостатки.</AG_SmallerBodySize.description>
+</LanguageData>

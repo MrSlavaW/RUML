@@ -1,0 +1,5 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\CryptoSleepFuneral.xml -->
+	<!--                                    EN: Once a {IDEO} member dies, other {MEMBERS} witnesss {RITUAL_labelDef} to perfectly preserve the body -->
+	<AM_CryptoFuneralPattern.ritualExpectedDesc>Когда член {IDEO} умирает, другие {MEMBERS} наблюдают, как {RITUAL_labelDef} прекрасно сохраняет тело</AM_CryptoFuneralPattern.ritualExpectedDesc>
+</LanguageData>

@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\OskarPotocki_VFE_Mechanoid\ResearchProjectDefPatch19.xml -->
+	<!--                       EN: alpha hardware upgrade -->
+	<AM_AlphaHardwareUpgrade.label>модернизация альфа-оборудования</AM_AlphaHardwareUpgrade.label>
+	<!--                             EN: Researching the mechanoid hardware upgrade will allow you to build all the advanced alpha mechs added in Vanilla Factions Expanded - Mechanoid. -->
+	<AM_AlphaHardwareUpgrade.description>Исследование обновления оборудования механоидов позволит вам создать все продвинутые альфа-механики, добавленные в Vanilla Factions Expanded — Mechanoid.</AM_AlphaHardwareUpgrade.description>
+</LanguageData>

@@ -1,0 +1,28 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Scarification.xml -->
+	
+<!--                                             EN: got scarified -->
+    <AM_ScarificationCeremony_Self_Insane.stages.0.label>подвергся шрамированию</AM_ScarificationCeremony_Self_Insane.stages.0.label>
+    <!--                                                   EN: I bear a new ritual scar, another mark carved into my flesh to bind me forever to our truth. -->
+    <AM_ScarificationCeremony_Self_Insane.stages.0.description>Я ношу новый ритуальный шрам — ещё одну метку, вырезанную на моей плоти, чтобы навсегда связать меня с нашей истиной.</AM_ScarificationCeremony_Self_Insane.stages.0.description>
+    
+    <!--                                        EN: scarified -->
+    <AM_Scarification_Insane_Opinion.stages.0.label>шрамирован</AM_Scarification_Insane_Opinion.stages.0.label>
+    <!--                                        EN: not scarified -->
+    <AM_Scarification_Insane_Opinion.stages.1.label>не шрамирован</AM_Scarification_Insane_Opinion.stages.1.label>
+    <!--                                        EN: insufficiently scarified -->
+    <AM_Scarification_Insane_Opinion.stages.2.label>недостаточно шрамирован</AM_Scarification_Insane_Opinion.stages.2.label>
+    
+    <!--                                EN: scarified -->
+    <AM_Scarification_Insane.stages.0.label>шрамирован</AM_Scarification_Insane.stages.0.label>
+    <!--                                      EN: My flesh bears the proof of my devotion. Every scar is another piece of our truth written into me. -->
+    <AM_Scarification_Insane.stages.0.description>Моя плоть несёт доказательство моей преданности. Каждый шрам — это ещё одна часть нашей истины, вписанной в меня.</AM_Scarification_Insane.stages.0.description>
+    <!--                                EN: not scarified -->
+    <AM_Scarification_Insane.stages.1.label>не шрамирован</AM_Scarification_Insane.stages.1.label>
+    <!--                                      EN: My unmarked flesh disgusts me. I have nothing written upon me to prove who I am. -->
+    <AM_Scarification_Insane.stages.1.description>Моя плоть без шрамов вызывает у меня отвращение. На мне ничего не начертано, чтобы доказать, кто я есть.</AM_Scarification_Insane.stages.1.description>
+    <!--                                EN: insufficiently scarified -->
+    <AM_Scarification_Insane.stages.2.label>недостаточно шрамирован</AM_Scarification_Insane.stages.2.label>
+    <!--                                      EN: I have too little scarification. My body should be covered in the marks of our truth. -->
+    <AM_Scarification_Insane.stages.2.description>У меня слишком мало шрамов. Моё тело должно быть покрыто метками нашей истины.</AM_Scarification_Insane.stages.2.description>
+</LanguageData>

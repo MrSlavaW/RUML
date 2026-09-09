@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ReelStorageHorizontalWeaponRack.label>горизонтальная оружейная стойка</ReelStorageHorizontalWeaponRack.label>
+  <ReelStorageLargeLocker.label>большой вещевой шкаф</ReelStorageLargeLocker.label>
+  <ReelStorageLargeMetalCrate.label>большой металлический ящик</ReelStorageLargeMetalCrate.label>
+  <ReelStorageMedicineCabinet.label>медицинский шкафчик</ReelStorageMedicineCabinet.label>
+  <ReelStorageMetalCrate.label>металлический ящик</ReelStorageMetalCrate.label>
+  <ReelStorageNewLargeLocker.label>гардеробный шкаф</ReelStorageNewLargeLocker.label>
+  <ReelStorageNewLargeWoodCrate.label>большой ящик</ReelStorageNewLargeWoodCrate.label>
+  <ReelStorageNewMedicineCabinet.label>медицинский шкаф</ReelStorageNewMedicineCabinet.label>
+  <ReelStorageNewWoodCrate.label>ящик</ReelStorageNewWoodCrate.label>
+  <ReelStorageVerticalWeaponRack.label>вертикальная оружейная стойка</ReelStorageVerticalWeaponRack.label>
+</LanguageData>

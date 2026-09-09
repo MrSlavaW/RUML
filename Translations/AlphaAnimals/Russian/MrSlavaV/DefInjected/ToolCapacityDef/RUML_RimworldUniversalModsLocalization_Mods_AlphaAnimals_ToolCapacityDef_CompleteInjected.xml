@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AA_Acid.label>кислотный плевок</AA_Acid.label>
+  <AA_BurningAndFeedingBite.label>обжигающий укус</AA_BurningAndFeedingBite.label>
+  <AA_BurningBite.label>обжигающий укус</AA_BurningBite.label>
+  <AA_EMPBlunt.label>ЭМИ-удар</AA_EMPBlunt.label>
+  <AA_EMPSlash.label>ЭМИ-разрез</AA_EMPSlash.label>
+  <AA_ExtraDamageInsectoidsClaws.label>раздирающие когти</AA_ExtraDamageInsectoidsClaws.label>
+  <AA_ExtraDamageMechanoidsBite.label>дробящий укус</AA_ExtraDamageMechanoidsBite.label>
+  <AA_ExtraDamageMechanoidsClaws.label>раздирающие когти</AA_ExtraDamageMechanoidsClaws.label>
+  <AA_ExtraDamageMechanoidsTusk.label>бивень</AA_ExtraDamageMechanoidsTusk.label>
+  <AA_FrostBite.label>морозный укус</AA_FrostBite.label>
+  <AA_FrostClaws.label>ледяные когти</AA_FrostClaws.label>
+  <AA_LockJawDamage.label>сводящий челюсти укус</AA_LockJawDamage.label>
+  <AA_Pierce.label>прокол</AA_Pierce.label>
+  <AA_RegenerativePierce.label>вампирический укол</AA_RegenerativePierce.label>
+  <AA_SiegeBlunt.label>осадный крушащий удар</AA_SiegeBlunt.label>
+  <AA_SwallowWhole.label>проглотить целиком</AA_SwallowWhole.label>
+  <AA_SwarmlingClaws.label>когти роя</AA_SwarmlingClaws.label>
+  <AA_VeryToxicSting.label>смертоносный токсичный укол</AA_VeryToxicSting.label>
+  <BodyCrush.label>раздавливание</BodyCrush.label>
+  <FO_PlaguedBite.label>чумной укус</FO_PlaguedBite.label>
+</LanguageData>

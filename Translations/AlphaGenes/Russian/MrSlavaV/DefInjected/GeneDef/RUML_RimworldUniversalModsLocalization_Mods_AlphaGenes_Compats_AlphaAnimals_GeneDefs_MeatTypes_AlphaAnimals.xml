@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Mods\AlphaAnimals\Defs\GeneDefs\GeneDefs_MeatTypes_AlphaAnimals.xml -->
+	<!--                 EN: aerofleet flesh -->
+	<AG_AerofleetFlesh.label>плоть аэрофлита</AG_AerofleetFlesh.label>
+	<!--                       EN: Carriers of this gene have a chewy, gelatinous and insipid meat, similar in texture to a jellyfish. Consuming such meat by them is classed as cannibalism. -->
+	<AG_AerofleetFlesh.description>У носителей этого гена мясо студенистое и невкусное, похожее по консистенции на медузу.</AG_AerofleetFlesh.description>
+	<!--             EN: plant flesh -->
+	<AG_PlantFlesh.label>мякоть растения</AG_PlantFlesh.label>
+	<!--                   EN: Carriers of this gene have a strange meat that is part vegetable, part animal. Confusing, to say the least. Consuming such meat by them is classed as cannibalism. -->
+	<AG_PlantFlesh.description>Носители этого гена имеют странное мясо, которое частично растительное, частично животное. Смущает, по меньшей мере.</AG_PlantFlesh.description>
+	<!--              EN: ocular flesh -->
+	<AG_OcularFlesh.label>окулярная плоть</AG_OcularFlesh.label>
+	<!--                    EN: Carriers of this gene have a red, chewy, gelatinous and insipid meat, similar in texture to a jellyfish. Consuming such meat by them is classed as cannibalism. -->
+	<AG_OcularFlesh.description>Носители этого гена имеют красное, студенистое и невкусное мясо, похожее по консистенции на медузу.</AG_OcularFlesh.description>
+</LanguageData>

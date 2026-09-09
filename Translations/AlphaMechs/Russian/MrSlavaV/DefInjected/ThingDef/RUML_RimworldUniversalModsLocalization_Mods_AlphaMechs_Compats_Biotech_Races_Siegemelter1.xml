@@ -1,0 +1,10 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Siegemelter.xml -->
+	<!--              EN: siegemelter -->
+	<AM_Siegemelter.label>осадный плавитель</AM_Siegemelter.label>
+	<!--                    EN: The siegemelter is a variant of the siegebreaker armed with a powerful flamethrower. Their movement is incredibly slow, but their siegemelter turret has a considerable range, so they should be treated as priority targets in most cases. -->
+	<AM_Siegemelter.description>Осадный плавитель — модификация осадного разрушителя, вооружённая мощным огнемётом. Он движется очень медленно, но его дальнобойная осадная турель делает его приоритетной целью почти в любой стычке.</AM_Siegemelter.description>
+	<!--                      EN: голова -->
+	<AM_Siegemelter.tools.0.label>голова</AM_Siegemelter.tools.0.label>
+</LanguageData>
+

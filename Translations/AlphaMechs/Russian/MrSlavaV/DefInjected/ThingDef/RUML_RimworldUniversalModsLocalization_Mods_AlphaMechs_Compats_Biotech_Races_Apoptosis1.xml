@@ -1,0 +1,19 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Apoptosis.xml -->
+	<!--            EN: apoptosis -->
+	<AM_Apoptosis.label>апоптоз</AM_Apoptosis.label>
+	<!--                  EN: Malice incarnate, the Apoptosis is an advanced Apocriton that acts as a commander designed to coordinate and motivate other mechs during long extermination campaigns. They are less adept at resurrecting other mechanoids than Apocritons, but the aura of hate they emanate is so powerful and intense that it will cause uncontrollable despair on those too close to it.\n\nThe Apoptosis is armed with two dangerous ranged weapons: an acid spewer that can melt the flesh out of the bone, and a psychically charged energy pulse that can damage the very soul of its target.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; The Apoptosis is a stronger version of the Apocriton, and should be treated as such. Its hatred aura will make everyone nearby scream in despair. It will unleash two devastating ranged attacks against defenders, as well as resurrect nearby mechanoids, although not as often as an Apocriton would. -->
+	<AM_Apoptosis.description>Воплощение Злобы, Апоптоз — это продвинутый Апокритон, который действует как командир, предназначенный для координации и мотивации других роботов во время длительных кампаний по истреблению. Они менее искусны в воскрешении других механоидов, чем Апокритоны, но аура ненависти, которую они излучают, настолько мощна и интенсивна, что вызовет неконтролируемое отчаяние у тех, кто слишком близок к ней.\n\nАпоптоз вооружен двумя опасными видами оружия дальнего боя: кислотным извергателем, способным расплавить плоть из костей, и психически заряженным энергетическим импульсом, способным повредить саму душу цели.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Апоптоз — более сильная версия Апокритона, и к нему следует относиться соответственно. Его аура ненависти заставит всех вокруг кричать от отчаяния. Он нанесет две разрушительные дальние атаки против защитников, а также воскресит ближайших механоидов, хотя и не так часто, как это сделал бы Апокритон.</AM_Apoptosis.description>
+	<!--                    EN: wing blade -->
+	<AM_Apoptosis.tools.0.label>крыльевой клинок</AM_Apoptosis.tools.0.label>
+	<!--                    EN: голова -->
+	<AM_Apoptosis.tools.1.label>голова</AM_Apoptosis.tools.1.label>
+	<!--                      EN: apoptosis turret -->
+	<AM_Gun_SoulDrainTurret.label>турель апоптоза</AM_Gun_SoulDrainTurret.label>
+	<!--                            EN: A terrifying weapon designed to drain the souls of its targets. Equipped with soul-draining technology, it is capable of siphoning the life force of organic beings, leaving them weakened and vulnerable. -->
+	<AM_Gun_SoulDrainTurret.description>Ужасающее оружие, предназначенное для истощения душ своих целей. Оснащенный технологией высасывания душ, он способен выкачивать жизненную силу органических существ, делая их ослабленными и уязвимыми.</AM_Gun_SoulDrainTurret.description>
+	<!--                              EN: выстрел -->
+	<AM_Gun_SoulDrainTurret.verbs.0.label>выстрел</AM_Gun_SoulDrainTurret.verbs.0.label>
+	<!--                   EN: soul drain -->
+	<AM_Bullet_SoulDrain.label>утечка души</AM_Bullet_SoulDrain.label>
+</LanguageData>

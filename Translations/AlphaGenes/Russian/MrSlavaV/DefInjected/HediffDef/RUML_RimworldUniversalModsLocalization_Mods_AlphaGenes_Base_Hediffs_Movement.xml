@@ -1,0 +1,19 @@
+<LanguageData>
+	<!-- 1.6\Defs\HediffDefs\Hediffs_Movement.xml -->
+	<!--        EN: glide -->
+	<AG_Hover.label>Скользить</AG_Hover.label>
+	<!--              EN: Limited flight that allows this colonist to hop and glide small distances over terrain. They will ignore terrain movement costs when moving. -->
+	<AG_Hover.description>позволяет этому поселенцу прыгать и скользить на небольшие расстояния по местности. Они будут игнорировать затраты на передвижение по местности при перемещении.</AG_Hover.description>
+	<!--                EN: water striding -->
+	<AG_WaterStriding.label>Дельфин</AG_WaterStriding.label>
+	<!--                      EN: This person moves without movement penalties through water. They will ignore terrain movement costs when moving through watery terrains. -->
+	<AG_WaterStriding.description>Носители этого гена передвигаются по воде без штрафов.</AG_WaterStriding.description>
+	<!--                EN: hydrogen hover -->
+	<AG_HoverExploder.label>Водородное парение</AG_HoverExploder.label>
+	<!--                      EN: Limited flight that allows this colonist to hover over terrain. They will ignore terrain movement costs when moving. The hydrogen inside the gas bags will cause this person to blow up when killed. -->
+	<AG_HoverExploder.description>Ограниченный полет, который позволяет этому поселенцу парить над местностью. При перемещении они будут игнорировать затраты на перемещение по местности. Водород внутри газовых баллонов приведет к тому, что этот человек взорвется при смерти.</AG_HoverExploder.description>
+	<!--             EN: affected by speed burst -->
+	<AG_SpeedBurst.label>Всплеск скорости</AG_SpeedBurst.label>
+	<!--                   EN: This person has been affected by a speed burst, making it move faster for a while. Effects will go away after 1 hour. -->
+	<AG_SpeedBurst.description>Этот человек находится под действием всплеска скорости и некоторое время двигается быстрее. Эффект исчезнет через 1 час.</AG_SpeedBurst.description>
+</LanguageData>

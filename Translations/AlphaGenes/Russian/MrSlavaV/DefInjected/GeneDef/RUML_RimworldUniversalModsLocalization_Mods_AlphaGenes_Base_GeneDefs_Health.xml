@@ -1,0 +1,151 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Health.xml -->
+	<!--                  EN: total antirot lungs -->
+	<AG_LungRotImmunity.label>Искусственные легкие</AG_LungRotImmunity.label>
+	<!--                        EN: Carriers of this gene have strengthened lungs that are immune to lung rot. -->
+	<AG_LungRotImmunity.description>Носители этого гена имеют укрепленные легкие, которые невосприимчивы к легочной гнили.
+
+(иммунитет к гниению легких)</AG_LungRotImmunity.description>
+	<!--                  EN: lung rot strength -->
+	<AG_LungRotStrength.label>Стальные легкие</AG_LungRotStrength.label>
+	<!--                        EN: Carriers of this gene have special structures in their lungs that strengthen their bodies when they are affected by lung rot, making piles of corpses... a pleasant prospect. -->
+	<AG_LungRotStrength.description>В лёгких носителей этого гена развиваются особые структуры, которые превращают трупную вонь в источник силы вместо болезни.
+
+(иммунитет к гниению легких)</AG_LungRotStrength.description>
+	<!--                                       EN: Standing on rot stink strengthens the carrier for around two days after exposure, instead of causing lung rot. -->
+	<AG_LungRotStrength.customEffectDescriptions.0>Трупная вонь усиливает носителя примерно на два дня вместо того, чтобы вызывать легочную гниль.</AG_LungRotStrength.customEffectDescriptions.0>
+	<!--                    EN: regeneration, minor -->
+	<AG_RegenerationMinor.label>Слабая регенерация</AG_RegenerationMinor.label>
+	<!--                          EN: Carriers of this gene have a faint distributed network of specialized mechanites on their bloodstream that periodically tend to internal wounds, regenerating them without any need for rest. -->
+	<AG_RegenerationMinor.description>В кровотоке носителей этого гена циркулирует слабая сеть специализированных механитов, которые периодически лечат внутренние повреждения без необходимости в отдыхе.</AG_RegenerationMinor.description>
+	<!--                                         EN: A random wound is reduced by 0.1 severity every 2500 ticks (1 ingame hour). -->
+	<AG_RegenerationMinor.customEffectDescriptions.0>Случайная рана уменьшается на 0,1 каждые 2500 тиков (1 игровой час).</AG_RegenerationMinor.customEffectDescriptions.0>
+	<!--                    EN: water regeneration -->
+	<AG_WaterRegeneration.label>Водная регенерация</AG_WaterRegeneration.label>
+	<!--                          EN: Carriers of this gene will slowly regenerate health whenever they are on watery terrain. -->
+	<AG_WaterRegeneration.description>Носители этого гена будут медленно восстанавливать здоровье всякий раз, когда они находятся в воде.</AG_WaterRegeneration.description>
+	<!--                                         EN: A random wound is reduced by 0.1 severity every 750 ticks (approx 1/4th ingame hour). -->
+	<AG_WaterRegeneration.customEffectDescriptions.0>Случайная рана уменьшается на 0,1 каждые 750 тиков (примерно четверть игрового часа).</AG_WaterRegeneration.customEffectDescriptions.0>
+	<!--                   EN: limb regeneration -->
+	<AG_LimbRegeneration.label>Регенерация конечностей</AG_LimbRegeneration.label>
+	<!--                                        EN: A random limb wound is reduced by 1 severity every day. If the organ has been destroyed it will be restored with 2 hit points, bleeding. -->
+	<AG_LimbRegeneration.customEffectDescriptions.0>Случайное повреждение конечности уменьшается на 1 единицу тяжести каждый день. Если часть тела была утрачена, она восстановится с 2 очками здоровья и кровотечением.</AG_LimbRegeneration.customEffectDescriptions.0>
+	<!--                                        EN: This will affect damage to parts that are not internal organs. -->
+	<AG_LimbRegeneration.customEffectDescriptions.1>Это повлияет на поврежденные части, которые не являются внутренними органами.</AG_LimbRegeneration.customEffectDescriptions.1>
+	<!--                         EN: Carriers of this gene have improved regenerating factors in their DNA, allowing them to slowly regenerate limbs that may even be completely missing. The process is slow, and will prioritize healing existing, but damaged, limbs. -->
+	<AG_LimbRegeneration.description>Носители этого гена имеют улучшенные регенерирующие факторы в своей ДНК, что позволяет им медленно регенерировать конечности, которые могут даже полностью отсутствовать. Процесс медленный, и приоритет отдается заживлению существующих, но поврежденных конечностей.</AG_LimbRegeneration.description>
+	<!--                     EN: passive regenerator -->
+	<AG_PassiveRegenerator.label>Аура регенерации</AG_PassiveRegenerator.label>
+	<!--                           EN: Carriers of this gene constantly release an invisible cloud of specialized mechanites that periodically tend to the wounds of nearby people and animals, regenerating them without any need for rest. -->
+	<AG_PassiveRegenerator.description>Носители этого гена постоянно испускают невидимое облако специализированных механитов, которые периодически лечат раны людей и животных поблизости без необходимости в отдыхе.</AG_PassiveRegenerator.description>
+	<!--                                          EN: Every pawn of the player faction in a radius of 5 tiles will get a random wound reduced by 0.1 severity every 1250 ticks (1/2 ingame hour). -->
+	<AG_PassiveRegenerator.customEffectDescriptions.0>Каждая пешка фракции игрока в радиусе 5 клеток получает лечение случайной раны на 0,1 каждые 1250 тиков (пол-игрового часа).</AG_PassiveRegenerator.customEffectDescriptions.0>
+	<!--                       EN: unstable regeneration -->
+	<AG_UnstableRegeneration.label>Нестабильная регенерация</AG_UnstableRegeneration.label>
+	<!--                             EN: Carriers of this gene can periodically heal all injuries, at the cost of great exertion and a reduction of their lifespan. -->
+	<AG_UnstableRegeneration.description>Носители этого гена могут периодически исцелять все травмы ценой сильного истощения и сокращения срока жизни.</AG_UnstableRegeneration.description>
+	<!--                                            EN: Using the ability heals all non-permanent injuries, but ages the user 7 years with each use. If the user ages themselves with this ability beyond their lifespan (80 years, multiplied by lifespan factors), they die. -->
+	<AG_UnstableRegeneration.customEffectDescriptions.0>Способность исцеляет все непостоянные травмы, но с каждым применением старит носителя на 7 лет. Если итоговый возраст превысит продолжительность жизни (80 лет с учётом всех множителей), носитель погибнет.</AG_UnstableRegeneration.customEffectDescriptions.0>
+	<!--                                            EN: The game doesn't make this calculation for you. You'll have to face many people's Nemesis: basic algebra!. -->
+	<AG_UnstableRegeneration.customEffectDescriptions.1>Игра не считает это за вас, так что придётся самому прикинуть предел безопасного использования.</AG_UnstableRegeneration.customEffectDescriptions.1>
+	<!--                        EN: unstable mutation, major -->
+	<AG_UnstableMutationMajor.label>Сильная нестабильная мутация</AG_UnstableMutationMajor.label>
+	<!--                              EN: Carriers of this gene will suffer an unstable mutation on their bodies once per day. This mutation will activate two new random genes for the whole day. Next day, the genes will deactivate and two new ones will take their place. -->
+	<AG_UnstableMutationMajor.description>Носители этого гена будут страдать от нестабильной мутации в своих телах один раз в день. Эта мутация активирует два новых случайных гена на целый день. На следующий день гены деактивируются, и их место занимают два новых.</AG_UnstableMutationMajor.description>
+	<!--                               EN: unstable mutation, catastrophic -->
+	<AG_UnstableMutationCatastrophic.label>Катастрофическая мутация</AG_UnstableMutationCatastrophic.label>
+	<!--                                     EN: Carriers of this gene will suffer a very powerful unstable mutation on their bodies once per day. This mutation will activate up to ten new random genes for the whole day. Next day, the genes will deactivate and ten new ones will take their place. -->
+	<AG_UnstableMutationCatastrophic.description>Раз в день носитель переживает крайне мощную нестабильную мутацию. Она активирует до десяти случайных генов на сутки, а на следующий день эти гены отключаются и уступают место новым.</AG_UnstableMutationCatastrophic.description>
+	<!--                                                    EN: This mutation can be incredibly harmful, and potentially lethal. -->
+	<AG_UnstableMutationCatastrophic.customEffectDescriptions.0>Эта мутация может оказаться крайне опасной и даже смертельной.</AG_UnstableMutationCatastrophic.customEffectDescriptions.0>
+	<!--       EN: deaf -->
+	<AG_Deaf.label>Глухой</AG_Deaf.label>
+	<!--             EN: Carriers of this gene have a complete lack of hearing. -->
+	<AG_Deaf.description>Носители этого гена полностью лишены слуха.</AG_Deaf.description>
+	<!--                                   EN: frail antitoxic lungs -->
+	<AG_ToxicEnvironmentResistance_Frail.label>Слабые антитоксические легкие</AG_ToxicEnvironmentResistance_Frail.label>
+	<!--                                           EN: tox-affected -->
+	<AG_ToxicEnvironmentResistance_Frail.labelShortAdj>токсичный</AG_ToxicEnvironmentResistance_Frail.labelShortAdj>
+	<!--                                         EN: Carriers of this gene are specially affected by environmental toxins. They get more toxic buildup from tox gas, polluted terrain, and toxic fallout, and are more vulnerable to direct attacks with venom or injected poison. Additionally, they build up rot stink exposure faster. -->
+	<AG_ToxicEnvironmentResistance_Frail.description>Носители этого гена особенно подвержены воздействию токсинов окружающей среды. Они накапливают больше токсинов из-за токсичных газов, загрязненной местности и токсичных осадков и более уязвимы для прямых атак ядом или инъекций яда. Кроме того, они быстрее накапливают запах гнили.</AG_ToxicEnvironmentResistance_Frail.description>
+	<!--                          EN: tox vulnerability -->
+	<AG_ToxResist_Vulnerability.label>Уязвимость к токсинам</AG_ToxResist_Vulnerability.label>
+	<!--                                  EN: tox-vulnerable -->
+	<AG_ToxResist_Vulnerability.labelShortAdj>токсико-уязвимый</AG_ToxResist_Vulnerability.labelShortAdj>
+	<!--                                EN: Carriers of this gene are vulnerable to toxic buildup from any source. This includes pollution, toxic fallout, tox gas, and direct attacks with venom or injected poison. They'll gain an additional half as much amount of toxic buildup compared to others. -->
+	<AG_ToxResist_Vulnerability.description>Носители этого гена особенно уязвимы к накоплению токсинов из любых источников: загрязнённой среды, токсичных осадков, ядовитого газа и прямых атак ядом. Они получают примерно в полтора раза больше токсического накопления, чем другие.</AG_ToxResist_Vulnerability.description>
+	<!--            EN: hard bones -->
+	<AG_HardBones.label>Твёрдые кости</AG_HardBones.label>
+	<!--                  EN: Carriers of this gene have very hard bones with extended bone growth, making them resistant to blunt damage, at the cost of being vulnerable to cuts. -->
+	<AG_HardBones.description>Носители этого гена имеют очень твердые кости с увеличенным ростом костей, что делает их устойчивыми к тупым повреждениям за счет уязвимости к порезам.</AG_HardBones.description>
+	<!--                      EN: frostbite resistance -->
+	<AG_FrostbiteResistance.label>Морозостойкость</AG_FrostbiteResistance.label>
+	<!--                            EN: Carriers of this gene have resistance to frostbite damage. -->
+	<AG_FrostbiteResistance.description>Носители этого гена обладают устойчивостью к повреждениям от обморожения.</AG_FrostbiteResistance.description>
+	<!--                         EN: frostbite vulnerability -->
+	<AG_FrostbiteVulnerability.label>Уязвимость к обморожению</AG_FrostbiteVulnerability.label>
+	<!--                               EN: Carriers of this gene have vulnerability to frostbite damage. -->
+	<AG_FrostbiteVulnerability.description>Носители этого гена уязвимы к повреждениям от обморожения.</AG_FrostbiteVulnerability.description>
+	<!--        EN: clean -->
+	<AG_Clean.label>Чистюля</AG_Clean.label>
+	<!--              EN: Carriers of this gene are naturally clean and generate less filth on their day to day activities. -->
+	<AG_Clean.description>Носители этого гена от природы чистоплотны и производят меньше грязи в своей повседневной деятельности.</AG_Clean.description>
+	<!--         EN: filthy -->
+	<AG_Filthy.label>Грязнуля</AG_Filthy.label>
+	<!--               EN: Carriers of this gene are naturally filthy and generate more filth on their day to day activities. -->
+	<AG_Filthy.description>Носители этого гена от природы очень неопрятны и оставляют после себя больше грязи в повседневной жизни.</AG_Filthy.description>
+	<!--                        EN: very weak immunity -->
+	<AG_Gene_VeryWeakImmunity.label>Очень слабый иммунитет</AG_Gene_VeryWeakImmunity.label>
+	<!--                                EN: sickly -->
+	<AG_Gene_VeryWeakImmunity.labelShortAdj>болезненный</AG_Gene_VeryWeakImmunity.labelShortAdj>
+	<!--                              EN: Carriers of this gene gain immunity to diseases very slowly. They will die from infections that others would survive. -->
+	<AG_Gene_VeryWeakImmunity.description>Носители этого гена очень медленно приобретают иммунитет к болезням. Они умрут от инфекций, которые другие пережили бы.</AG_Gene_VeryWeakImmunity.description>
+	<!--           EN: pack mule -->
+	<AG_PackMule.label>Вьючный мул</AG_PackMule.label>
+	<!--                 EN: Carriers of this gene can carry obscene amounts of stuff before feeling encumbered. -->
+	<AG_PackMule.description>Носители этого гена способны нести огромное количество груза, прежде чем начнут страдать от перегрузки.</AG_PackMule.description>
+	<!--            EN: frail back -->
+	<AG_FrailBack.label>Хрупкая спина</AG_FrailBack.label>
+	<!--                  EN: Carriers of this gene can't carry a lot of weight. -->
+	<AG_FrailBack.description>Носители этого гена не могут нести большой вес.</AG_FrailBack.description>
+	<!--         EN: stinky -->
+	<AG_Stinky.label>Вонючий</AG_Stinky.label>
+	<!--               EN: Carriers of this gene generate a very unpleasant aroma that will bother other people. -->
+	<AG_Stinky.description>Носители этого гена генерируют очень неприятный аромат, который будет беспокоить других людей.</AG_Stinky.description>
+	<!--               EN: acid immunity -->
+	<AG_AcidImmunity.label>Кислотный иммунитет</AG_AcidImmunity.label>
+	<!--                     EN: Carriers of this gene have immunity to acid damage. -->
+	<AG_AcidImmunity.description>Носители этого гена невосприимчивы к кислотному урону.</AG_AcidImmunity.description>
+	<!--                                    EN: Acid damage from vanilla game and the following mods should be covered: Alpha Animals, Alpha Mythology, Alpha Mechs, Vanilla Genetics Expanded, Witcher Monster Hunt. -->
+	<AG_AcidImmunity.customEffectDescriptions.0>Иммунитет совместим с другими моими модификациями</AG_AcidImmunity.customEffectDescriptions.0>
+	<!--               EN: acid weakness -->
+	<AG_AcidWeakness.label>Кислотная уязвимость</AG_AcidWeakness.label>
+	<!--                     EN: Carriers of this gene have a particular weakness to acid damage, receiving more severe chemical burns. -->
+	<AG_AcidWeakness.description>Носители этого гена имеют особую слабость к повреждению кислотой, поэтому получают более серьезные химические ожоги.</AG_AcidWeakness.description>
+	<!--                                    EN: Acid damage from vanilla game and the following mods should be covered: Alpha Animals, Alpha Mythology, Alpha Mechs, Vanilla Genetics Expanded, Witcher Monster Hunt. -->
+	<AG_AcidWeakness.customEffectDescriptions.0>Действует на кислотный урон из ванильной игры и поддерживаемых модов.</AG_AcidWeakness.customEffectDescriptions.0>
+	<!--                  EN: adaptive biology -->
+	<AG_AdaptiveBiology.label>Адаптивная биология</AG_AdaptiveBiology.label>
+	<!--                        EN: Carriers of this gene can subtly change their very own personality, getting rid of old traits and gaining new ones. -->
+	<AG_AdaptiveBiology.description>Удаляет одну случайную черту и добавляет новую случайную черту.</AG_AdaptiveBiology.description>
+	<!--                                       EN: Ability removes a random trait, and adds a new, random one. -->
+	<AG_AdaptiveBiology.customEffectDescriptions.0>Способность удаляет случайную черту и добавляет новую, случайную.</AG_AdaptiveBiology.customEffectDescriptions.0>
+	<!--                                       EN: But my essential modded traits! haha, no, chaos, I say. (except Warcasket traits, those are blacklisted) -->
+	<AG_AdaptiveBiology.customEffectDescriptions.1>(кроме черт Warcasket, они занесены в черный список)</AG_AdaptiveBiology.customEffectDescriptions.1>
+	<!--               EN: extra leather -->
+	<AG_ExtraLeather.label>Плотная кожа</AG_ExtraLeather.label>
+	<!--                     EN: Carriers of this gene have much more dense skin, resulting in greater leather yield when butchered. -->
+	<AG_ExtraLeather.description>Носители этого гена имеют гораздо более плотную кожу, что приводит к большей добыче кожи при разделке.</AG_ExtraLeather.description>
+	<!--             EN: low leather -->
+	<AG_LowLeather.label>Тонкая кожа</AG_LowLeather.label>
+	<!--                   EN: Carriers of this gene have very thin skin, resulting in much smaller leather yield when butchered. -->
+	<AG_LowLeather.description>У носителей этого гена очень тонкая кожа, в результате чего при разделке получается гораздо меньше кожи.</AG_LowLeather.description>
+	<!--            EN: no leather -->
+	<AG_NoLeather.label>Без кожи</AG_NoLeather.label>
+	<!--                  EN: Carriers of this gene have extraordinarily thin skin, resulting in no leather yield when butchered. -->
+	<AG_NoLeather.description>Кожа носителей этого гена настолько тонка и слаба, что при разделке не даёт пригодной кожи.</AG_NoLeather.description>
+	<!--         EN: no meat -->
+	<AG_NoMeat.label>Без мяса</AG_NoMeat.label>
+	<!--               EN: Carriers of this gene have extraordinarily thin meat and fat tissue, resulting in no usable meat yield when butchered. -->
+	<AG_NoMeat.description>Носители этого гена имеют чрезвычайно тонкое мясо и жировую ткань, что приводит к невозможности получения полезного мяса при разделке.</AG_NoMeat.description>
+</LanguageData>

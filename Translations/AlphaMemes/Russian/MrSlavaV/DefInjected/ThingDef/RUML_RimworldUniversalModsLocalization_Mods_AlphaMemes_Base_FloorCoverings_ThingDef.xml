@@ -1,0 +1,102 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\FloorCoverings.xml -->
+	<!--                    EN: jewish slab (medium) -->
+	<AM_JewishSlab_Medium.label>иудейская плита (средняя)</AM_JewishSlab_Medium.label>
+	<!--                          EN: A stone bas relief of jewish imagery for decorating a floor. -->
+	<AM_JewishSlab_Medium.description>Каменный барельеф с иудейскими изображениями для украшения пола.</AM_JewishSlab_Medium.description>
+	
+	<!--                   EN: jewish slab (broad) -->
+	<AM_JewishSlab_Broad.label>иудейская плита (широкая)</AM_JewishSlab_Broad.label>
+	<!--                         EN: A stone bas relief of jewish imagery for decorating a floor. -->
+	<AM_JewishSlab_Broad.description>Каменный барельеф с иудейскими изображениями для украшения пола.</AM_JewishSlab_Broad.description>
+	
+	<!--                     EN: kemetic slab (medium) -->
+	<AM_KemeticSlab_Medium.label>кеметская плита (средняя)</AM_KemeticSlab_Medium.label>
+	<!--                           EN: A stone bas relief of kemetic imagery for decorating a floor. -->
+	<AM_KemeticSlab_Medium.description>Каменный барельеф кеметических образов для украшения пола.</AM_KemeticSlab_Medium.description>
+	
+	<!--                    EN: kemetic slab (broad) -->
+	<AM_KemeticSlab_Broad.label>кеметская плита (широкая)</AM_KemeticSlab_Broad.label>
+	<!--                          EN: A stone bas relief of kemetic imagery for decorating a floor. -->
+	<AM_KemeticSlab_Broad.description>Каменный барельеф кеметических образов для украшения пола.</AM_KemeticSlab_Broad.description>
+	
+	<!--                   EN: hindu slab (medium) -->
+	<AM_HinduSlab_Medium.label>индуистская плита (средняя)</AM_HinduSlab_Medium.label>
+	<!--                         EN: A stone bas relief of hindu imagery for decorating a floor. -->
+	<AM_HinduSlab_Medium.description>Каменный барельеф с индуистскими изображениями для украшения пола.</AM_HinduSlab_Medium.description>
+	
+	<!--                  EN: hindu slab (broad) -->
+	<AM_HinduSlab_Broad.label>индуистская плита (широкая)</AM_HinduSlab_Broad.label>
+	<!--                        EN: A stone bas relief of hindu imagery for decorating a floor. -->
+	<AM_HinduSlab_Broad.description>Каменный барельеф с индуистскими изображениями для украшения пола.</AM_HinduSlab_Broad.description>
+	
+	<!--                       EN: steampunk slab (medium) -->
+	<AM_SteampunkSlab_Medium.label>стимпанк плита (средний)</AM_SteampunkSlab_Medium.label>
+	<!--                             EN: A stone bas relief of steampunk imagery for decorating a floor. -->
+	<AM_SteampunkSlab_Medium.description>Каменный барельеф в стиле стимпанк для украшения пола.</AM_SteampunkSlab_Medium.description>
+	
+	<!--                      EN: steampunk slab (broad) -->
+	<AM_SteampunkSlab_Broad.label>плита стимпанк (широкая)</AM_SteampunkSlab_Broad.label>
+	<!--                            EN: A stone bas relief of steampunk imagery for decorating a floor. -->
+	<AM_SteampunkSlab_Broad.description>Каменный барельеф в стиле стимпанк для украшения пола.</AM_SteampunkSlab_Broad.description>
+	
+	<!--                     EN: corsair slab (medium) -->
+	<AM_CorsairSlab_Medium.label>плита корсар (средняя)</AM_CorsairSlab_Medium.label>
+	<!--                           EN: A stone bas relief of corsair imagery for decorating a floor. -->
+	<AM_CorsairSlab_Medium.description>Каменный барельеф с изображением корсара для украшения пола.</AM_CorsairSlab_Medium.description>
+	
+	<!--                    EN: corsair slab (broad) -->
+	<AM_CorsairSlab_Broad.label>корсар плита (широкая)</AM_CorsairSlab_Broad.label>
+	<!--                          EN: A stone bas relief of corsair imagery for decorating a floor. -->
+	<AM_CorsairSlab_Broad.description>Каменный барельеф с изображением корсара для украшения пола.</AM_CorsairSlab_Broad.description>
+	
+	<!--                  EN: jain slab (medium) -->
+	<AM_JainSlab_Medium.label>джайнская плита (средняя)</AM_JainSlab_Medium.label>
+	<!--                        EN: A stone bas relief of jain imagery for decorating a floor. -->
+	<AM_JainSlab_Medium.description>Каменный барельеф джайнских образов для украшения пола.</AM_JainSlab_Medium.description>
+	
+	<!--                 EN: jain slab (broad) -->
+	<AM_JainSlab_Broad.label>джайнская плита (широкая)</AM_JainSlab_Broad.label>
+	<!--                       EN: A stone bas relief of jain imagery for decorating a floor. -->
+	<AM_JainSlab_Broad.description>Каменный барельеф джайнских образов для украшения пола.</AM_JainSlab_Broad.description>
+	
+	<!--                  EN: sikh slab (medium) -->
+	<AM_SikhSlab_Medium.label>сикхская плита (средняя)</AM_SikhSlab_Medium.label>
+	<!--                        EN: A stone bas relief of sikh imagery for decorating a floor. -->
+	<AM_SikhSlab_Medium.description>Каменный барельеф с изображениями сикхов для украшения пола.</AM_SikhSlab_Medium.description>
+	
+	<!--                 EN: sikh slab (broad) -->
+	<AM_SikhSlab_Broad.label>сикхская плита (широкая)</AM_SikhSlab_Broad.label>
+	<!--                       EN: A stone bas relief of sikh imagery for decorating a floor. -->
+	<AM_SikhSlab_Broad.description>Каменный барельеф с изображениями сикхов для украшения пола.</AM_SikhSlab_Broad.description>
+	
+	<!--                     EN: islamic slab (medium) -->
+	<AM_IslamicSlab_Medium.label>исламская плита (средняя)</AM_IslamicSlab_Medium.label>
+	<!--                           EN: A stone bas relief of islamic imagery for decorating a floor. -->
+	<AM_IslamicSlab_Medium.description>Каменный барельеф исламских образов для украшения пола.</AM_IslamicSlab_Medium.description>
+	
+	<!--                    EN: islamic slab (broad) -->
+	<AM_IslamicSlab_Broad.label>исламская плита (широкая)</AM_IslamicSlab_Broad.label>
+	<!--                          EN: A stone bas relief of islamic imagery for decorating a floor. -->
+	<AM_IslamicSlab_Broad.description>Каменный барельеф исламских образов для украшения пола.</AM_IslamicSlab_Broad.description>
+	
+	<!--                       EN: christian slab (medium) -->
+	<AM_ChristianSlab_Medium.label>христианская плита (средняя)</AM_ChristianSlab_Medium.label>
+	<!--                             EN: A stone bas relief of christian imagery for decorating a floor. -->
+	<AM_ChristianSlab_Medium.description>Каменный барельеф христианских образов для украшения пола.</AM_ChristianSlab_Medium.description>
+	
+	<!--                      EN: christian slab (broad) -->
+	<AM_ChristianSlab_Broad.label>христианская плита (широкая)</AM_ChristianSlab_Broad.label>
+	<!--                            EN: A stone bas relief of christian imagery for decorating a floor. -->
+	<AM_ChristianSlab_Broad.description>Каменный барельеф христианских образов для украшения пола.</AM_ChristianSlab_Broad.description>
+	
+	<!--                      EN: buddhist slab (medium) -->
+	<AM_BuddhistSlab_Medium.label>буддийская плита (средняя)</AM_BuddhistSlab_Medium.label>
+	<!--                            EN: A stone bas relief of buddhist imagery for decorating a floor. -->
+	<AM_BuddhistSlab_Medium.description>Каменный барельеф с буддийскими изображениями для украшения пола.</AM_BuddhistSlab_Medium.description>
+	
+	<!--                     EN: buddhist slab (broad) -->
+	<AM_BuddhistSlab_Broad.label>буддийская плита (широкая)</AM_BuddhistSlab_Broad.label>
+	<!--                           EN: A stone bas relief of buddhist imagery for decorating a floor. -->
+	<AM_BuddhistSlab_Broad.description>Каменный барельеф с буддийскими изображениями для украшения пола.</AM_BuddhistSlab_Broad.description>
+</LanguageData>

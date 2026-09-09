@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Races\Races_Eyeling.xml -->
+	<!--          EN: eyeling -->
+	<AA_Eyeling.label>Глазастик</AA_Eyeling.label>
+	<!--                EN: A grotesquely enlarged eye, crawling around with the help of a few fleshy tentacles. Not very useful at all. Created by infusing an animal with the strange energies from an extradimensional corruption. -->
+	<AA_Eyeling.description>Гротескно увеличенный глаз, ползающий по земле с помощью нескольких мясистых щупалец. Не очень полезно. Создан путем вливания в животное странных энергий из внепространственного разложения.</AA_Eyeling.description>
+	<!--                  EN: глаз -->
+	<AA_Eyeling.tools.0.label>глаз</AA_Eyeling.tools.0.label>
+</LanguageData>

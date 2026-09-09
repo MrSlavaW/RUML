@@ -1,0 +1,81 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Wings.xml -->
+	<!--               EN: rainbow wings -->
+	<AG_RainbowWings.label>Радужные крылья</AG_RainbowWings.label>
+	<!--                     EN: Carriers of this gene have a pair of lepidopteran giant wings sprouting from their back. -->
+	<AG_RainbowWings.description>У носителей этого гена из спины вырастает пара гигантских радужных крыльев.</AG_RainbowWings.description>
+	<!--                                    EN: Colonist will ignore terrain movement costs -->
+	<AG_RainbowWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_RainbowWings.customEffectDescriptions.0>
+	<!--           EN: bat wings -->
+	<AG_BatWings.label>Крылья летучей мыши</AG_BatWings.label>
+	<!--                 EN: Carriers of this gene have a pair of chiropteran giant wings sprouting from their back. -->
+	<AG_BatWings.description>У носителей этого гена из спины вырастает пара гигантских крыльев.</AG_BatWings.description>
+	<!--                                EN: Colonist will ignore terrain movement costs -->
+	<AG_BatWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_BatWings.customEffectDescriptions.0>
+	<!--               EN: pegasus wings -->
+	<AG_PegasusWings.label>Крылья Пегаса</AG_PegasusWings.label>
+	<!--                     EN: Carriers of this gene have a pair of feathered giant wings sprouting from their back. -->
+	<AG_PegasusWings.description>У носителей этого гена из спины вырастает пара гигантских крыльев, покрытых перьями.</AG_PegasusWings.description>
+	<!--                                    EN: Colonist will ignore terrain movement costs -->
+	<AG_PegasusWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_PegasusWings.customEffectDescriptions.0>
+	<!--            EN: moth wings -->
+	<AG_MothWings.label>Крылья мотылька</AG_MothWings.label>
+	<!--                  EN: Carriers of this gene have a pair of lepidopteran giant wings sprouting from their back. -->
+	<AG_MothWings.description>У носителей этого гена из спины вырастает пара гигантских крыльев.</AG_MothWings.description>
+	<!--                                 EN: Colonist will ignore terrain movement costs -->
+	<AG_MothWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_MothWings.customEffectDescriptions.0>
+	<!--                   EN: bumbledrone wings -->
+	<AG_BumbledroneWings.label>Пчелиные крылья</AG_BumbledroneWings.label>
+	<!--                         EN: Carriers of this gene have two pairs of bee wings sprouting from their back. -->
+	<AG_BumbledroneWings.description>Носители этого гена имеют две пары пчелиных крыльев, растущих из спины.</AG_BumbledroneWings.description>
+	<!--                                        EN: Colonist will ignore terrain movement costs -->
+	<AG_BumbledroneWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_BumbledroneWings.customEffectDescriptions.0>
+	<!--            EN: wasp wings -->
+	<AG_WaspWings.label>Крылья осы</AG_WaspWings.label>
+	<!--                  EN: Carriers of this gene have two pairs of wasp wings sprouting from their back. -->
+	<AG_WaspWings.description>Носители этого гена имеют две пары осиных крыльев, растущих из спины.</AG_WaspWings.description>
+	<!--                                 EN: Colonist will ignore terrain movement costs -->
+	<AG_WaspWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_WaspWings.customEffectDescriptions.0>
+	<!--               EN: drainer wings -->
+	<AG_DrainerWings.label>Крылья бабочки</AG_DrainerWings.label>
+	<!--                     EN: Carriers of this gene have two pairs of drainer butterfly wings sprouting from their back. -->
+	<AG_DrainerWings.description>У носителей этого гена из спины растут две пары крыльев бабочки.</AG_DrainerWings.description>
+	<!--                                    EN: Colonist will ignore terrain movement costs -->
+	<AG_DrainerWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_DrainerWings.customEffectDescriptions.0>
+	<!--                 EN: feathered wings -->
+	<AG_FeatheredWings.label>Пернатые крылья</AG_FeatheredWings.label>
+	<!--                       EN: Carriers of this gene have two pairs of feathery wings sprouting from their back. -->
+	<AG_FeatheredWings.description>Носители этого гена имеют две пары пернатых крыльев, растущих из спины.</AG_FeatheredWings.description>
+	<!--                                      EN: Colonist will ignore terrain movement costs -->
+	<AG_FeatheredWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_FeatheredWings.customEffectDescriptions.0>
+	<!--             EN: demon wings -->
+	<AG_DemonWings.label>Крылья демона</AG_DemonWings.label>
+	<!--                   EN: Carriers of this gene have two pairs of demonic wings sprouting from their back. -->
+	<AG_DemonWings.description>Носители этого гена имеют две пары демонических крыльев, растущих из их спины.</AG_DemonWings.description>
+	<!--                                  EN: Colonist will ignore terrain movement costs -->
+	<AG_DemonWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_DemonWings.customEffectDescriptions.0>
+	<!--          EN: gas bags -->
+	<AG_GasBags.label>Газовые баллоны</AG_GasBags.label>
+	<!--                EN: Carriers of this gene have an internal organ consisting of hydrogen filled gas bags, that allows them to hover over terrain, at the cost of being quite flammable and exploding on death. -->
+	<AG_GasBags.description>У носителей этого гена есть внутренний орган, состоящий из наполненных водородом газовых мешков. Он позволяет парить над местностью, но делает носителя легко воспламеняемым и вызывает взрыв при смерти.</AG_GasBags.description>
+	<!--                               EN: Colonist will ignore terrain movement costs -->
+	<AG_GasBags.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_GasBags.customEffectDescriptions.0>
+	<!--                               EN: Colonist will explode on death in a flame explosion with 3 tiles radius -->
+	<AG_GasBags.customEffectDescriptions.1>При смерти носитель взрывается огненным взрывом радиусом 3 клетки.</AG_GasBags.customEffectDescriptions.1>
+	<!--             EN: malformed wing -->
+	<AG_SingleWing.label>Деформированное крыло</AG_SingleWing.label>
+	<!--                   EN: Carriers of this gene have a single, atrophied wing. Useless for flight. -->
+	<AG_SingleWing.description>У носителей этого гена имеется одно атрофированное крыло. Для полёта оно бесполезно.</AG_SingleWing.description>
+	<!--                 EN: drakonori wings -->
+	<AG_DrakonoriWings.label>Крылья драконори</AG_DrakonoriWings.label>
+	<!--                       EN: Carriers of this gene have a pair of giant draconic wings sprouting from their back. -->
+	<AG_DrakonoriWings.description>Носители этого гена имеют пару гигантских драконьих крыльев, растущих из спины.</AG_DrakonoriWings.description>
+	<!--                                      EN: Colonist will ignore terrain movement costs -->
+	<AG_DrakonoriWings.customEffectDescriptions.0>Поселенец игнорирует затраты на перемещение по местности.</AG_DrakonoriWings.customEffectDescriptions.0>
+	<!--          EN: no wings -->
+	<AG_NoWings.label>Без крыльев</AG_NoWings.label>
+	<!--                EN: Carriers of this gene don't have wings. -->
+	<AG_NoWings.description>У носителей этого гена нет крыльев.</AG_NoWings.description>
+	<!--                               EN: With this gene you can create xenotypes in which a pawn can have wings or a lack of them at random -->
+	<AG_NoWings.customEffectDescriptions.0>С помощью этого гена вы можете создавать ксенотипы, в которых поселенец может иметь крылья или не иметь их случайным образом.</AG_NoWings.customEffectDescriptions.0>
+</LanguageData>

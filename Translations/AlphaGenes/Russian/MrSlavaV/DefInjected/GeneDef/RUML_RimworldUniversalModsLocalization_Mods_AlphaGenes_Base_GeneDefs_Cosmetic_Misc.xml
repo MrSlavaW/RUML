@@ -1,0 +1,59 @@
+﻿<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Cosmetic_Misc.xml -->
+	<!--                 EN: heavily scarred -->
+	<AG_HeavilyScarred.label>серьёзные шрамы</AG_HeavilyScarred.label>
+	<!--                       EN: Carriers of this gene have prominent scars on their faces, as if their skin had been cut and put together again. -->
+	<AG_HeavilyScarred.description>Носители этого гена обладают заметными шрамами на лице, как будто кожу разрезали и сшили заново.</AG_HeavilyScarred.description>
+	<!--                                              EN: Fresh, Rotting -->
+	<AG_HeavilyScarred.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_HeavilyScarred.renderNodeProperties.0.rotDrawMode>
+	<!--                EN: chainsaw hands -->
+	<AG_ChainsawHands.label>руки-бензопилы</AG_ChainsawHands.label>
+	<!--                      EN: Carriers of this gene have chainsaws for hands. "Akkkkssstually -you say- those would be better implemented as implants, not a gene!". No, no, you misunderstand: these are biological, DNA codified chainsaw hands. Children of two people with chainsaw hands will have itty bitty chainsaw hands. It's science. -->
+	<AG_ChainsawHands.description>Носители этого гена обладают бензопилами вместо рук. Нет, это не импланты, а биологические руки-бензопилы, закодированные прямо в ДНК. У детей двух таких носителей тоже будут крошечные руки-бензопилы. Это наука.</AG_ChainsawHands.description>
+	<!--                                             EN: Fresh, Rotting -->
+	<AG_ChainsawHands.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_ChainsawHands.renderNodeProperties.0.rotDrawMode>
+	<!--               EN: scyther blades -->
+	<AG_ScytherHands.label>клинки жнеца</AG_ScytherHands.label>
+	<!--                     EN: Carriers of this gene have scyther blades on their arms. These are not implants, but a biomechanical adaptation that has fused mechanites with the carrier's DNA to create the blades out of their own bone tissues. They don't completely replace the hands, so the carrier keeps their manipulation capacities mostly intact. -->
+	<AG_ScytherHands.description>Носители этого гена обладают клинками жнеца, встроенными в руки. Это не импланты, а биомеханическая адаптация: механиты слились с ДНК носителя и сформировали лезвия из его костной ткани. При этом руки остаются в основном функциональными.</AG_ScytherHands.description>
+	<!--                                            EN: Fresh, Rotting -->
+	<AG_ScytherHands.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_ScytherHands.renderNodeProperties.0.rotDrawMode>
+	<!--           EN: crab claw -->
+	<AG_CrabClaw.label>крабовая клешня</AG_CrabClaw.label>
+	<!--                 EN: Carriers of this gene have one of their arms mutated into a gigantic crab claw. This claw is surprisingly dexterous and doesn't impede the person's manipulation. -->
+	<AG_CrabClaw.description>У носителя этого гена одна рука мутирует в гигантскую крабовую клешню. Несмотря на размеры, она удивительно ловкая и почти не мешает тонким манипуляциям.</AG_CrabClaw.description>
+	<!--                                EN: Why? Because. -->
+	<AG_CrabClaw.customEffectDescriptions.0>Почему? Потому что.</AG_CrabClaw.customEffectDescriptions.0>
+	<!--                                        EN: Fresh, Rotting -->
+	<AG_CrabClaw.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_CrabClaw.renderNodeProperties.0.rotDrawMode>
+	<!--                EN: body tentacles -->
+	<AG_BodyTentacles.label>телесные щупальца</AG_BodyTentacles.label>
+	<!--                      EN: Carriers of this gene have a mass of writhing tentacles sprouting from their back. -->
+	<AG_BodyTentacles.description>Носители этого гена обладают массой извивающихся щупалец, прорастающих из спины.</AG_BodyTentacles.description>
+	<!--                                             EN: Fresh, Rotting -->
+	<AG_BodyTentacles.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_BodyTentacles.renderNodeProperties.0.rotDrawMode>
+	<!--            EN: proboscis -->
+	<AG_Proboscis.label>хоботок</AG_Proboscis.label>
+	<!--                  EN: Carriers of this gene grow a large proboscis protruding from their jaw. -->
+	<AG_Proboscis.description>У носителей этого гена вырастает крупный хоботок, выступающий из челюсти.</AG_Proboscis.description>
+	<!--                                         EN: Fresh, Rotting -->
+	<AG_Proboscis.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_Proboscis.renderNodeProperties.0.rotDrawMode>
+	<!--               EN: fungal clumps -->
+	<AG_FungalClumps.label>грибные наросты</AG_FungalClumps.label>
+	<!--                     EN: Carriers of this gene have overgrown toxic fungi growing from their torso. These fungi are so virulent that they will even grow over light clothing and armors. -->
+	<AG_FungalClumps.description>У носителей этого гена из туловища разрастаются токсичные грибы. Они настолько агрессивны, что способны прорастать даже сквозь лёгкую одежду и броню.</AG_FungalClumps.description>
+	<!--                                            EN: Fresh, Rotting -->
+	<AG_FungalClumps.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_FungalClumps.renderNodeProperties.0.rotDrawMode>
+	<!--               EN: fungal sprout -->
+	<AG_FungalSprout.label>грибной отросток</AG_FungalSprout.label>
+	<!--                     EN: Carriers of this gene have a strain of virulent fungi on their blood that has burst through their upper torso, creating blood filled pustules. -->
+	<AG_FungalSprout.description>В крови носителей этого гена живёт вирулентный грибок, который прорывается через верхнюю часть туловища, образуя наполненные кровью пустулы.</AG_FungalSprout.description>
+	<!--                                            EN: Fresh, Rotting -->
+	<AG_FungalSprout.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_FungalSprout.renderNodeProperties.0.rotDrawMode>
+	<!--                  EN: fungal tentacles -->
+	<AG_FungalTentacles.label>грибные щупальца</AG_FungalTentacles.label>
+	<!--                        EN: Carriers of this gene have a strain of virulent fungi that has braided itself into sickly looking tentacles that constantly twitch and move. -->
+	<AG_FungalTentacles.description>Носители этого гена заражены вирулентным грибком, который сплёлся в болезненно выглядящие щупальца, постоянно дёргающиеся и шевелящиеся.</AG_FungalTentacles.description>
+	<!--                                               EN: Fresh, Rotting -->
+	<AG_FungalTentacles.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_FungalTentacles.renderNodeProperties.0.rotDrawMode>
+</LanguageData>

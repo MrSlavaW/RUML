@@ -1,0 +1,8 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Death.xml -->
+	
+	<!--                         EN: someone died -->
+	<AM_Death_Desired.stages.0.label>кто-то умер</AM_Death_Desired.stages.0.label>
+	<!--                               EN: The grim spectre of death is welcome among us, for it reveals to us what it means to be truly human. -->
+	<AM_Death_Desired.stages.0.description>Мрачный призрак смерти приветствуется среди нас, ибо он открывает нам, что значит быть по-настоящему человеком.</AM_Death_Desired.stages.0.description>
+</LanguageData>

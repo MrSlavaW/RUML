@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\AbilityDefs\Abilities_Summons.xml -->
+	<!--              EN: minor summon -->
+	<AG_MinorSummon.label>Призыв слабого животного</AG_MinorSummon.label>
+	<!--                    EN: Summon a creature that will stay around for a short period. It will be hostile to any targets hostile to the caster. -->
+	<AG_MinorSummon.description>Призывает животное, которое будет находиться поблизости и будет агрессивно настроено ко всем, включая призывателя.</AG_MinorSummon.description>
+	<!--         EN: summon -->
+	<AG_Summon.label>Призыв обычного животного</AG_Summon.label>
+	<!--               EN: Summon a creature that will stay around for a short period. It will be hostile to any targets hostile to the caster. -->
+	<AG_Summon.description>Призывает животное, которое будет находиться поблизости и будет агрессивно настроено ко всем, включая призывателя.</AG_Summon.description>
+	<!--              EN: major summon -->
+	<AG_MajorSummon.label>Призыв сильного животного</AG_MajorSummon.label>
+	<!--                    EN: Summon a creature that will stay around for a short period. It will be hostile to any targets hostile to the caster. -->
+	<AG_MajorSummon.description>Призывает животное, которое будет находиться поблизости и будет агрессивно настроено ко всем, включая призывателя.</AG_MajorSummon.description>
+</LanguageData>

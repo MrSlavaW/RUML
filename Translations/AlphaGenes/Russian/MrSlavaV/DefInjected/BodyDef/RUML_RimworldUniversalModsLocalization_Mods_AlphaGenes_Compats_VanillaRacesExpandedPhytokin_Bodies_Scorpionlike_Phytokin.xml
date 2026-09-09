@@ -1,0 +1,33 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaRacesExpandedPhytokin\Defs\Bodies\Bodies_Scorpionlike_Phytokin.xml -->
+	<!--               EN: scorpionlike body -->
+	<AG_ScorpionLike.label>скорпионоподобное тело</AG_ScorpionLike.label>
+	<!--                                                                              EN: first eye -->
+	<AG_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.first_eye.customLabel>первый глаз</AG_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.first_eye.customLabel>
+	<!--                                                                               EN: second eye -->
+	<AG_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.second_eye.customLabel>второй глаз</AG_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.second_eye.customLabel>
+	<!--                                                                              EN: third eye -->
+	<AG_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.third_eye.customLabel>третий глаз</AG_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.third_eye.customLabel>
+	<!--                                                                               EN: fourth eye -->
+	<AG_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.fourth_eye.customLabel>четвертый глаз</AG_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.fourth_eye.customLabel>
+	<!--                                                                              EN: sixth eye -->
+	<AG_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.sixth_eye.customLabel>шестой глаз</AG_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.sixth_eye.customLabel>
+	<!--                                                                              EN: fifth eye -->
+	<AG_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.fifth_eye.customLabel>пятый глаз</AG_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.fifth_eye.customLabel>
+	<!--                                                                                 EN: left antenna -->
+	<AG_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_antenna.customLabel>левая (усик)антенна</AG_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_antenna.customLabel>
+	<!--                                                                                  EN: right antenna -->
+	<AG_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_antenna.customLabel>правая (усик)антенна</AG_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_antenna.customLabel>
+	<!--                                                   EN: front left leg -->
+	<AG_ScorpionLike.corePart.parts.front_left_leg.customLabel>передняя левая нога</AG_ScorpionLike.corePart.parts.front_left_leg.customLabel>
+	<!--                                                    EN: front right leg -->
+	<AG_ScorpionLike.corePart.parts.front_right_leg.customLabel>передняя правая нога</AG_ScorpionLike.corePart.parts.front_right_leg.customLabel>
+	<!--                                                    EN: middle left leg -->
+	<AG_ScorpionLike.corePart.parts.middle_left_leg.customLabel>средняя левая нога</AG_ScorpionLike.corePart.parts.middle_left_leg.customLabel>
+	<!--                                                     EN: middle right leg -->
+	<AG_ScorpionLike.corePart.parts.middle_right_leg.customLabel>средняя правая нога</AG_ScorpionLike.corePart.parts.middle_right_leg.customLabel>
+	<!--                                                  EN: rear left leg -->
+	<AG_ScorpionLike.corePart.parts.rear_left_leg.customLabel>задняя левая нога</AG_ScorpionLike.corePart.parts.rear_left_leg.customLabel>
+	<!--                                                   EN: rear right leg -->
+	<AG_ScorpionLike.corePart.parts.rear_right_leg.customLabel>задняя правая нога</AG_ScorpionLike.corePart.parts.rear_right_leg.customLabel>
+</LanguageData>

@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_AteNutrientPaste.xml -->
+	
+	<!--                                          EN: ate nutrient paste meal -->
+	<AM_AteNutrientPasteMeal_Preferred.stages.0.label>съел питательную пасту</AM_AteNutrientPasteMeal_Preferred.stages.0.label>
+	<!--                                                EN: I ate a delicious nutrient paste meal of unknown composition. The wonders of modern technology! -->
+	<AM_AteNutrientPasteMeal_Preferred.stages.0.description>Я {PAWN_gender ? съел : съеела} вкусную питательную пасту неизвестного состава. Чудеса современной техники!</AM_AteNutrientPasteMeal_Preferred.stages.0.description>
+	
+	<!--                                          EN: ate nutrient paste meal -->
+	<AM_AteNutrientPasteMeal_Forbidden.stages.0.label>съел питательную пасту</AM_AteNutrientPasteMeal_Forbidden.stages.0.label>
+	<!--                                                EN: I'm not eating nutrient paste. I'd rather starve! -->
+	<AM_AteNutrientPasteMeal_Forbidden.stages.0.description>Я не буду есть питательную пасту. Лучше умру от голода!</AM_AteNutrientPasteMeal_Forbidden.stages.0.description>
+</LanguageData>

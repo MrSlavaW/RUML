@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\VanillaExpanded_VGeneticsE\Races_GeneticorMech5.xml -->
+	<!--                 EN: geneticor -->
+	<AM_Mech_Geneticor.label>генетик</AM_Mech_Geneticor.label>
+	<!--                                    EN: Plural geneticor -->
+	<AM_Mech_Geneticor.lifeStages.1.labelPlural>Генетикоры</AM_Mech_Geneticor.lifeStages.1.labelPlural>
+<AM_Mech_Geneticor.lifeStages.0.labelPlural>Генетикоры</AM_Mech_Geneticor.lifeStages.0.labelPlural></LanguageData>

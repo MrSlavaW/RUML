@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\BossgroupDefs\Bossgroups.xml -->
+	<!--                                   EN: The {LEADERKIND_label} is equipped with an incredibly dangerous orbital strike targetter. It is very slow to charge, but once fired it will blanket a huge area in explosions. -->
+	<AM_BossGroupDefInfernus.leaderDescription>{LEADERKIND_label} оснащен невероятно опасным целеуказателем орбитального удара. Он очень медленно заряжается, но после выстрела он покроет огромную территорию взрывами.</AM_BossGroupDefInfernus.leaderDescription>
+	<!--                                     EN: The {LEADERKIND_label} is equipped with a long range slug sniper turret, and will constantly summon Guttersnipes, dangerous close combat mechanoids that will rip anything to shreds. -->
+	<AM_BossGroupDefWarEmpress.leaderDescription>{LEADERKIND_label} оснащен дальнобойной снайперской турелью и постоянно вызывает Гатерснайпов, опасных механоидов ближнего боя, которые разорвут что угодно в клочья.</AM_BossGroupDefWarEmpress.leaderDescription>
+	<!--                                    EN: The {LEADERKIND_label} is malice incarnate. A towering mechanoid commander armed with both acid and soul draining weapons, it will resurrect mechanoids surrounding it and plunge your colony into despair. -->
+	<AM_BossGroupDefApoptosis.leaderDescription>{LEADERKIND_label} — воплощение злобы. Высокий командир механоидов, вооруженный как кислотным, так и высасывающим души оружием, он воскресит окружающих его механоидов и погрузит вашу колонию в отчаяние.</AM_BossGroupDefApoptosis.leaderDescription>
+</LanguageData>

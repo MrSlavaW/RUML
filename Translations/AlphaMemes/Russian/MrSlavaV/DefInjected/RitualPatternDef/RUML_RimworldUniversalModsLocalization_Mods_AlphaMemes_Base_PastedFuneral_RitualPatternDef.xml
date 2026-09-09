@@ -1,0 +1,5 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\PastedFuneral.xml -->
+	<!--                                    EN: Once a {IDEO} member dies, they must be turned into paste to ensure they aren't wasted. -->
+	<AM_PastedFuneralPattern.ritualExpectedDesc>После того, как член {IDEO} умирает, его нужно превратить в пасту, чтобы гарантировать, что он не будет потрачен впустую.</AM_PastedFuneralPattern.ritualExpectedDesc>
+</LanguageData>

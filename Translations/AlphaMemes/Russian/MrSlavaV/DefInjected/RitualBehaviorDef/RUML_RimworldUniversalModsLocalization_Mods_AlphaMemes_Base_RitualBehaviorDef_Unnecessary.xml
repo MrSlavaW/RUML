@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+	<AM_BanquetBehaviour.roles.0.label>оратор</AM_BanquetBehaviour.roles.0.label>
+	<AM_BanquetBehaviour.stages.0.postAction.text>{0}: Речь окончена, и вечеринка начинается.</AM_BanquetBehaviour.stages.0.postAction.text>
+	<AM_OcularWarping.stages.0.postAction.text>{0}: Речь окончена, и вечеринка начинается.</AM_OcularWarping.stages.0.postAction.text>
+</LanguageData>

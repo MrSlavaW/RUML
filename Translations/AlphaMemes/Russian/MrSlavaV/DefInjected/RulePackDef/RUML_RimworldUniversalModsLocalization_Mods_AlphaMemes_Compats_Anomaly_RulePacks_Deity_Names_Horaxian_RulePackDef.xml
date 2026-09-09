@@ -1,0 +1,19 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\RulePackDefs\RulePacks_Deity_Names_Horaxian.xml -->
+	<!-- EN: 
+		<li>r_deityName->The Voidbringer</li>
+		<li>r_deityName->The Nightmare Sovereign</li>
+		<li>r_deityName->The Shadowed Monarch</li>
+		<li>r_deityName->The Umbral Tyrant</li>
+		<li>r_deityName->The Darkened Emperor</li>
+		<li>r_deityName->The Tenebrous Divinity</li>
+	 -->
+	<AM_NamerDeityHoraxian.rulePack.rulesStrings>
+		<li>r_deityName-&gt;Приносящий пустоту</li>
+		<li>r_deityName-&gt;Властитель кошмаров</li>
+		<li>r_deityName-&gt;Теневой монарх</li>
+		<li>r_deityName-&gt;Умбральный тиран</li>
+		<li>r_deityName-&gt;Темный император</li>
+		<li>r_deityName-&gt;Тенебровая божественность</li>
+	</AM_NamerDeityHoraxian.rulePack.rulesStrings>
+</LanguageData>

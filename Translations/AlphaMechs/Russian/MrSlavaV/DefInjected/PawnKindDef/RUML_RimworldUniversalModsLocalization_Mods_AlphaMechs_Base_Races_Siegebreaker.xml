@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_RacesMechanoids\Races_Siegebreaker.xml -->
+	<!--               EN: siegebreaker -->
+	<AM_Siegebreaker.label>осадный разрушитель</AM_Siegebreaker.label>
+	<!--                                  EN: Plural siegebreaker -->
+	<AM_Siegebreaker.lifeStages.1.labelPlural>Осадные разрушители</AM_Siegebreaker.lifeStages.1.labelPlural>
+<AM_Siegebreaker.lifeStages.0.labelPlural>Осадные разрушители</AM_Siegebreaker.lifeStages.0.labelPlural></LanguageData>

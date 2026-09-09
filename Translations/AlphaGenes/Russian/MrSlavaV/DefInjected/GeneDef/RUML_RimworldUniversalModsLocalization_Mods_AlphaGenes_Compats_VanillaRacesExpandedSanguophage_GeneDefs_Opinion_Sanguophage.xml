@@ -1,0 +1,9 @@
+﻿<LanguageData>
+	<!-- 1.6\Mods\VanillaRacesExpandedSanguophage\Defs\GeneDefs\GeneDefs_Opinion_Sanguophage.xml -->
+	<!--                      EN: bloodsucker distrust -->
+	<AG_BloodsuckerDistrust.label>недоверие к кровопийцам</AG_BloodsuckerDistrust.label>
+	<!--                            EN: The carrier of this gene have an innate distrust for Sanguophages of a different xenotype than theirs. -->
+	<AG_BloodsuckerDistrust.description>Носители этого гена испытывают врождённое недоверие к сангуофагам другого ксенотипа.</AG_BloodsuckerDistrust.description>
+	<!--                                           EN: Any person carrying the Hemogenic gene that isn't of the same xenotype as the carrier of this gene will get a -100 opinion penalty. -->
+	<AG_BloodsuckerDistrust.customEffectDescriptions.0>Любой носитель гена «Гемогенность», принадлежащий к другому ксенотипу, получает штраф -100 к мнению.</AG_BloodsuckerDistrust.customEffectDescriptions.0>
+</LanguageData>

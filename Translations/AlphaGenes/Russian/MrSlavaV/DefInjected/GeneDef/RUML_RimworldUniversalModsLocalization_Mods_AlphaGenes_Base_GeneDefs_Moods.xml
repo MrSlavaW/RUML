@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Moods.xml -->
+	<!--               EN: volatile -->
+	<AG_VolatileMood.label>Циклотимия</AG_VolatileMood.label>
+	<!--                     EN: Carriers of this gene get random mood changes every day. -->
+	<AG_VolatileMood.description>У носителей этого гена каждый день случайное настроение.</AG_VolatileMood.description>
+	<!--                                    EN: Mood will oscillate daily between -10 and +10. -->
+	<AG_VolatileMood.customEffectDescriptions.0>Настроение будет колебаться ежедневно от -10 до +10.</AG_VolatileMood.customEffectDescriptions.0>
+</LanguageData>

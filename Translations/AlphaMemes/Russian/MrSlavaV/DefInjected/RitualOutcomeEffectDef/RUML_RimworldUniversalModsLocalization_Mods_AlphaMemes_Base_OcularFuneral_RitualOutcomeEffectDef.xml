@@ -1,0 +1,32 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\OcularFuneral.xml -->
+	
+	<!--                             EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+	<AM_OcularFuneralOutcome.description>В зависимости от качества ритуала участники получат от {MINMOOD} до {MAXMOOD} настроения на {MOODDAYS} дней.</AM_OcularFuneralOutcome.description>
+	<!--                                        EN: Terrible -->
+	<AM_OcularFuneralOutcome.outcomeChances.0.label>Ужасный</AM_OcularFuneralOutcome.outcomeChances.0.label>
+	<!--                                              EN: The {0} was terrible! The resurrection has failed in an awful way. All that remains is this gross goo -->
+	<AM_OcularFuneralOutcome.outcomeChances.0.description>{0} было ужасно! Воскрешение провалилось ужасным образом. Все, что осталось, - это эта мерзкая слизь</AM_OcularFuneralOutcome.outcomeChances.0.description>
+	<!--                                        EN: Lackluster -->
+	<AM_OcularFuneralOutcome.outcomeChances.1.label>Непримечательный</AM_OcularFuneralOutcome.outcomeChances.1.label>
+	<!--                                              EN: The {0} was disappointing, we were hoping for more great creatures! -->
+	<AM_OcularFuneralOutcome.outcomeChances.1.description>Результат {0} разочаровал, мы надеялись на более замечательных существ!</AM_OcularFuneralOutcome.outcomeChances.1.description>
+	<!--                                        EN: Good -->
+	<AM_OcularFuneralOutcome.outcomeChances.2.label>Хороший</AM_OcularFuneralOutcome.outcomeChances.2.label>
+	<!--                                              EN: The {0} was good. We were able to welcome more creatures to our glorious collection! -->
+	<AM_OcularFuneralOutcome.outcomeChances.2.description>{0} было хорошо. Мы смогли поприветствовать еще больше существ в нашей великолепной коллекции!</AM_OcularFuneralOutcome.outcomeChances.2.description>
+	<!--                                        EN: Amazing -->
+	<AM_OcularFuneralOutcome.outcomeChances.3.label>Удивительный</AM_OcularFuneralOutcome.outcomeChances.3.label>
+	<!--                                              EN: The {0} was Amazing. The ocular lands smile upon us! That body has served their true purpose! -->
+	<AM_OcularFuneralOutcome.outcomeChances.3.description>{0} было потрясающе. Окулярные земли улыбаются нам! Это тело послужило их истинной цели!</AM_OcularFuneralOutcome.outcomeChances.3.description>
+	<!--                               EN: moral guide present -->
+	<AM_OcularFuneralOutcome.comps.0.label>моральный наставник присутствует</AM_OcularFuneralOutcome.comps.0.label>
+	<!--                               EN: participant count -->
+	<AM_OcularFuneralOutcome.comps.1.label>количество участников</AM_OcularFuneralOutcome.comps.1.label>
+	<!--                               EN: A corrupt gauranlen tree -->
+	<AM_OcularFuneralOutcome.comps.2.label>Испорченное дерево гауранлен</AM_OcularFuneralOutcome.comps.2.label>
+	<!--                                                 EN: {RITUAL} was spectacular! {CORPSE} has pleased the beyond -->
+	<AM_OcularFuneralOutcome.modExtensions.0.bestOutcomeDesc>{РИТУАЛ} был впечатляющим! {ТРУП} угодил запредельному</AM_OcularFuneralOutcome.modExtensions.0.bestOutcomeDesc>
+	<!--                                                  EN: {RITUAL} was a disaster! {CORPSE} has been lost forever, now we just have a mess!. -->
+	<AM_OcularFuneralOutcome.modExtensions.0.worstOutcomeDesc>{РИТУАЛ} был катастрофой! {ТРУП} был потерян навсегда, теперь у нас грязь!</AM_OcularFuneralOutcome.modExtensions.0.worstOutcomeDesc>
+</LanguageData>

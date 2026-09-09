@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\GeneDefs\GeneDefs_MeatTypes_Anomaly.xml -->
+	<!--               EN: twisted flesh -->
+	<AG_TwistedFlesh.label>искривленная плоть</AG_TwistedFlesh.label>
+	<!--                     EN: Carriers of this gene have twisted muscle, bloated with tumorous growths. Consuming such meat by them is classed as cannibalism. -->
+	<AG_TwistedFlesh.description>Носители этого гена имеют искривленные мышцы, раздутые опухолевыми разрастаниями. Употребление ими такого мяса квалифицируется как каннибализм.</AG_TwistedFlesh.description>
+</LanguageData>

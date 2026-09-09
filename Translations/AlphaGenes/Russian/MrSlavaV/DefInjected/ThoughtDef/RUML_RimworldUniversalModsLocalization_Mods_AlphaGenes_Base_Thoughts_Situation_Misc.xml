@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThoughtDefs\Thoughts_Situation_Misc.xml -->
+	<!--                         EN: genetic joy -->
+	<AG_Mood_Volatile.stages.0.label>генетическая радость</AG_Mood_Volatile.stages.0.label>
+	<!--                               EN: Natural bonus from 'volatile' gene. -->
+	<AG_Mood_Volatile.stages.0.description>Естественный бонус от «неустойчивого» гена.</AG_Mood_Volatile.stages.0.description>
+	<!--                         EN: genetic depression -->
+	<AG_Mood_Volatile.stages.1.label>генетическая депрессия</AG_Mood_Volatile.stages.1.label>
+	<!--                               EN: Natural penalty from 'volatile' gene. -->
+	<AG_Mood_Volatile.stages.1.description>Естественный штраф от «неустойчивого» гена.</AG_Mood_Volatile.stages.1.description>
+</LanguageData>

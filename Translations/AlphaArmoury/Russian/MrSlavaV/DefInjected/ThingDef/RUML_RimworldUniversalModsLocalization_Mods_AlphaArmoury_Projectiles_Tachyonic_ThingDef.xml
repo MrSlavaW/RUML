@@ -1,0 +1,24 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Projectiles\Projectiles_Tachyonic.xml -->
+
+	<!-- EN: tachyonic fed bullet -->
+	<AArmoury_TachyonicFeed.label>тахионная пуля</AArmoury_TachyonicFeed.label>
+
+	<!-- EN: tachyonic fed bullet -->
+	<AArmoury_TachyonicFeed_Lesser.label>тахионная пуля</AArmoury_TachyonicFeed_Lesser.label>
+
+	<!-- EN: tachyonic fed bullet -->
+	<AArmoury_TachyonicFeed_Greater.label>тахионная пуля</AArmoury_TachyonicFeed_Greater.label>
+
+	<!-- EN: tachyonic arrow -->
+	<AArmoury_TachyonicFeed_Arrow.label>тахионная стрела</AArmoury_TachyonicFeed_Arrow.label>
+
+	<!-- EN: tachyonic charge shot -->
+	<AArmoury_TachyonicFeed_Charge.label>тахионный зарядный выстрел</AArmoury_TachyonicFeed_Charge.label>
+
+	<!-- EN: tachyonic charge lance shot -->
+	<AArmoury_TachyonicFeed_Charge_Greater.label>тахионный зарядный выстрел копья</AArmoury_TachyonicFeed_Charge_Greater.label>
+
+	<!-- EN: tachyonic beam repeater laser -->
+	<AArmoury_TachyonicBeamRepeater.label>тахионный луч повторителя</AArmoury_TachyonicBeamRepeater.label>
+</LanguageData>

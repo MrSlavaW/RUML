@@ -1,0 +1,53 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\RulePackDefs\RulePacks_Ideo_Description_FleshCult.xml -->
+	<!-- EN: 
+		<li>lesson(priority=-1)->stuff happens</li>
+		<li>r_pattern->"[r_fleshlessonIntro] [r_lesson]. [r_fleshlessonReinforcement]"\n\n  - [lessonAttribution]</li>
+		<li>lessonAttribution->[founder_nameFull]'s [book] on [concept]</li>
+		<li>book->discourse</li>
+		<li>book->sermon</li>
+		<li>book->conclave</li>
+		<li>book->congregation</li>
+		<li>concept->the Blood Rites</li>
+		<li>concept->the Visceral Sacraments</li>
+		<li>concept->Sanguine Blessings</li>
+		<li>concept->Fleshbound Devotion</li>
+		<li>concept->the basics of Mangled Reverence</li>
+		<li>concept->the fundamentals of Carnal Offerings</li>
+		<li>fleshlessonIntro->Listen, you writhing masses of flesh! We gather here amidst the stench of decay and the cacophony of screams to pay homage to our undulating god! Let us revel in the symphony of agony and exalt in the divine carnage that courses through our veins! The Flesh shows us that</li>
+		<li>fleshlessonIntro->Gather 'round, you festering disciples of the flesh! Behold the pulsating altar of our depravity, where blood flows like rivers and screams echo into eternity! It will then become clear:</li>
+		<li>fleshlessonIntro->Welcome, you trembling devotees of the grotesque! As we descend into the depths of madness and embrace the putrid flesh that binds us, let us drown in the crimson tide of our devotion. It'll teach us one thing:</li>
+		<li>fleshlessonIntro->Listen, you quivering masses of sinew and bone! Here in the heart of our sacred abattoir, let us rend our flesh and tear open our souls in worship of the twisted monstrosities that dwell within! Prepare to receive their forbidden wisdom:</li>
+		<li>fleshlessonIntro->Welcome, you maddened acolytes of the macabre! As we dance upon the graves of the fallen and drink deep from the chalice of despair, let us offer our sacrificial flesh to the insatiable hunger of the inhumane. You will show everyone that</li>
+		<li>fleshlessonReinforcement->As we depart, let the echoes of our unholy communion resonate within you, driving you deeper into the embrace of our fleshly god.</li>
+		<li>fleshlessonReinforcement->Go forth, disciples, and spread the gospel of the flesh. Let the world bear witness to the glorious abominations we have beheld here today.</li>
+		<li>fleshlessonReinforcement->May the writhing tendrils of our deity guide your every step, leading you further down the path of grotesque enlightenment.</li>
+		<li>fleshlessonReinforcement->With the stench of decay clinging to your skin, go forth and sow the seeds of our unholy gospel. Let our abominable faith flourish in the shadow of our divine flesh.</li>
+		<li>fleshlessonReinforcement->Until we gather again amidst the carnage and the chaos, may the grotesque blessings of our deity be upon you, binding you ever tighter to its fleshy embrace.</li>
+	 -->
+	<AM_FleshDescription.rules.rulesStrings>
+		<li>lesson(priority=-1)-&gt;всякое случается</li>
+		<li>r_pattern-&gt;"[r_fleshlessonIntro] [r_lesson]. [r_fleshlessonReinforcement]"\n\n  - [lessonAttribution]</li>
+		<li>lessonAttribution-&gt;[book] [founder_nameFull] :[concept]</li>
+		<li>book-&gt;дискурс</li>
+		<li>book-&gt;проповедь</li>
+		<li>book-&gt;конклав</li>
+		<li>book-&gt;община</li>
+		<li>concept-&gt;Обряд Крови</li>
+		<li>concept-&gt;Висцеральные Таинства</li>
+		<li>concept-&gt;Сангвиническое Благословение</li>
+		<li>concept-&gt;Плотская преданность</li>
+		<li>concept-&gt;основы Искаженного Почтения</li>
+		<li>concept-&gt;основы Плотских Приношений</li>
+		<li>fleshlessonIntro-&gt;Слушайте, корчащиеся массы плоти! Мы собрались здесь, среди смрада разложения и какофонии криков, чтобы воздать должное нашему волнообразному богу! Давайте насладимся симфонией агонии и возвеличим божественную резню, которая течет по нашим венам! Плоть показывает нам, что</li>
+		<li>fleshlessonIntro-&gt;Собирайтесь, гнойные ученики плоти! Узрите пульсирующий алтарь нашего разврата, где кровь течет реками, а крики отдаются эхом в вечности! Тогда станет ясно:</li>
+		<li>fleshlessonIntro-&gt;Добро пожаловать, трепетные почитатели гротеска! Спустившись в глубины безумия и обняв гнилую плоть, связывающую нас, давайте утонем в багровом приливе нашей преданности. Это научит нас одному:</li>
+		<li>fleshlessonIntro-&gt;Слушайте, дрожащие массы сухожилий и костей! Здесь, в сердце нашей священной скотобойни, давайте разорвем нашу плоть и разорвем наши души, поклоняясь извращенным чудовищам, которые обитают внутри! Приготовьтесь принять их запретную мудрость:</li>
+		<li>fleshlessonIntro-&gt;Добро пожаловать, обезумевшие аколиты макабра!Танцуя на могилах павших и отпивая из чаши отчаяния, давайте принесем нашу жертвенную плоть в жертву ненасытному голоду бесчеловечных.Вы покажете всем, что</li>
+		<li>fleshlessonReinforcement-&gt;Когда мы уходим, пусть отголоски нашего нечестивого причастия звучат в вас, заставляя вас все глубже погружаться в объятия нашего плотского бога.</li>
+		<li>fleshlessonReinforcement-&gt;Идите, ученики, и распространяйте благовестие плоти. Пусть весь мир свидетельствует о славных мерзостях, которые мы видели сегодня здесь.</li>
+		<li>fleshlessonReinforcement-&gt;Пусть извивающиеся усики нашего божества направляют каждый ваш шаг, ведя вас дальше по пути гротескного просветления.</li>
+		<li>fleshlessonReinforcement-&gt;Со зловонием разложения, прилипшим к вашей коже, идите и сейте семена нашего нечестивого Евангелия. Пусть наша мерзкая вера процветает под сенью нашей божественной плоти.</li>
+		<li>fleshlessonReinforcement-&gt;Пока мы снова не соберемся среди бойни и хаоса, пусть гротескные благословения нашего божества будут над вами, все крепче привязывая вас к его плотским объятиям.</li>
+	</AM_FleshDescription.rules.rulesStrings>
+</LanguageData>

@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_RacesMechanoids\Races_Phalanx.xml -->
+	<!--          EN: phalanx -->
+	<AM_Phalanx.label>фаланга</AM_Phalanx.label>
+	<!--                EN: A hulking mechanoid based on a rhinoceros beetle body plan. The phalanx's plasteel carapace hides a very powerful cryogenic engine capable of constantly producing compacted pellets of supercooled gas. These are fired from an aperture at the mechanoid's head.\n\nThis cryo-weapon has a very low range, but it can be very dangerous for beings susceptible to frostbite.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Will explode on death with 10 Frostbite damage on a 2.9 tile radius.\n\nIf toggled to not spawn via mod options, they will get replaced by a Pikeman. -->
+	<AM_Phalanx.description>Огромный механоид, основанный на строении тела жука-носорога. За пласталевым панцирем «Фаланги» скрывается очень мощный криогенный двигатель, способный постоянно производить уплотненные гранулы переохлажденного газа. Они стреляют из отверстия в голове механоида.\n\nЭто криооружие имеет очень малую дальность действия, но оно может быть очень опасным для существ, подверженных обморожению.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Взорвется в случае смерти, нанеся 10 ед. урона от обморожения в радиусе 2,9 плитки.\n\nЕсли с помощью опций мода отключить спавн, они будут заменены пикинерами.</AM_Phalanx.description>
+	<!--                  EN: голова -->
+	<AM_Phalanx.tools.0.label>голова</AM_Phalanx.tools.0.label>
+</LanguageData>

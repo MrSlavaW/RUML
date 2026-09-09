@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<ARandom_MaterialsLootBox.label>ящик со стройматериалами</ARandom_MaterialsLootBox.label>
+	<ARandom_MaterialsLootBox.description>Контейнер, наполненный разнообразными полезными материалами для строительства и ремесла.</ARandom_MaterialsLootBox.description>
+	<ARandom_MedicineLootBox.label>медицинский ящик</ARandom_MedicineLootBox.label>
+	<ARandom_MedicineLootBox.description>Герметичный санитарный контейнер с медикаментами, бинтами и препаратами.</ARandom_MedicineLootBox.description>
+	<ARandom_TextilesLootBox.label>ящик с тканями</ARandom_TextilesLootBox.label>
+	<ARandom_TextilesLootBox.description>Ящик, доверху набитый тканями, кожей и ценным текстилем для пошива одежды.</ARandom_TextilesLootBox.description>
+	<ARandom_DrugsLootBox.label>ящик с препаратами</ARandom_DrugsLootBox.label>
+	<ARandom_DrugsLootBox.description>Защищенный контейнер со смесью боевых стимуляторов и рекреационных психоактивных веществ.</ARandom_DrugsLootBox.description>
+	<ARandom_ProduceBox.label>ящик с урожаем</ARandom_ProduceBox.label>
+	<ARandom_ProduceBox.description>Продовольственный контейнер со свежими овощами и сырыми сельхозпродуктами.</ARandom_ProduceBox.description>
+	<ARandom_MealsBox.label>ящик с блюдами</ARandom_MealsBox.label>
+	<ARandom_MealsBox.description>Герметичный контейнер с готовыми к употреблению пайками и блюдами.</ARandom_MealsBox.description>
+	<ARandom_BooksBox.label>ящик с книгами</ARandom_BooksBox.label>
+	<ARandom_BooksBox.description>Ящик с книгами, научными трактатами и техническими руководствами.</ARandom_BooksBox.description>
+	<ARandom_DrinksBox.label>ящик с выпивкой</ARandom_DrinksBox.label>
+	<ARandom_DrinksBox.description>Тяжелый ящик, наполненный пивом, крепким алкоголем и напитками.</ARandom_DrinksBox.description>
+	<ARandom_WeaponsBox.label>ящик с оружием</ARandom_WeaponsBox.label>
+	<ARandom_WeaponsBox.description>Усиленный оружейный контейнер со случайным вооружением различных технологических эпох.</ARandom_WeaponsBox.description>
+	<ARandom_ApparelLootBox.label>ящик с одеждой</ARandom_ApparelLootBox.label>
+	<ARandom_ApparelLootBox.description>Вместительный контейнер с одеждой, элементами брони и экипировкой.</ARandom_ApparelLootBox.description>
+	<ARandom_TribalLootBox.label>племенной ящик</ARandom_TribalLootBox.label>
+	<ARandom_TribalLootBox.description>Простой деревянный короб с традиционными припасами и изделиями дикарей.</ARandom_TribalLootBox.description>
+	<ARandom_ShellsLootBox.label>ящик со снарядами</ARandom_ShellsLootBox.label>
+	<ARandom_ShellsLootBox.description>Взрывобезопасный металлический ящик с минометными снарядами и боеприпасами.</ARandom_ShellsLootBox.description>
+	<ARandom_ValuablesLootBox.label>ящик с сокровищами</ARandom_ValuablesLootBox.label>
+	<ARandom_ValuablesLootBox.description>Контейнер высокой степени защиты, наполненный редкими и дорогостоящими предметами.</ARandom_ValuablesLootBox.description>
+	<ARandom_HemogenCrate.label>контейнер с гемогеном</ARandom_HemogenCrate.label>
+	<ARandom_HemogenCrate.description>Специальный медицинский контейнер с пакетами донорского гемогена.</ARandom_HemogenCrate.description>
+	<ARandom_LootBox.label>лутбокс</ARandom_LootBox.label>
+	<ARandom_LootBox.description>Базовый ящик с полезным случайным содержимым.</ARandom_LootBox.description>
+	<ARandom_LootBox_High.label>ценный лутбокс</ARandom_LootBox_High.label>
+	<ARandom_LootBox_High.description>Улучшенный контейнер с ценными товарами и редкими материалами.</ARandom_LootBox_High.description>
+	<ARandom_LootBox_SuperHigh.label>элитный лутбокс</ARandom_LootBox_SuperHigh.label>
+	<ARandom_LootBox_SuperHigh.description>Премиальный реликтовый контейнер с исключительно редкими и могущественными артефактами.</ARandom_LootBox_SuperHigh.description>
+</LanguageData>

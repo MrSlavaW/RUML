@@ -1,0 +1,31 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\Flagellation\Ritual_Outcomes_Flagellation.xml -->
+    <!--                            EN: If the flagellation ritual goes well (anything over the worst result), the flagellant will receive a number of scarifications. -->
+    <AM_FlagellationOutcome.description>Если ритуал бичевания пройдёт успешно (любой результат, кроме самого худшего), флагеллант получит несколько ритуальных шрамов.</AM_FlagellationOutcome.description>
+    <!--                              EN: started at altar -->
+    <AM_FlagellationOutcome.comps.0.label>проведён у алтаря</AM_FlagellationOutcome.comps.0.label>
+    <!--                                              EN: an altar -->
+    <AM_FlagellationOutcome.comps.0.expectedThingLabelTip>алтарь</AM_FlagellationOutcome.comps.0.expectedThingLabelTip>
+    <!--                              EN: participant count -->
+    <AM_FlagellationOutcome.comps.1.label>количество участников</AM_FlagellationOutcome.comps.1.label>
+    <!--                              EN: {PAWN_labelShort}'s social impact -->
+    <AM_FlagellationOutcome.comps.2.label>социальное влияние {PAWN_labelShort}</AM_FlagellationOutcome.comps.2.label>
+    <!--                                      EN: speaker's social impact -->
+    <AM_FlagellationOutcome.comps.2.labelAbstract>социальное влияние оратора</AM_FlagellationOutcome.comps.2.labelAbstract>
+    <!--                                       EN: Failed -->
+    <AM_FlagellationOutcome.outcomeChances.0.label>Провал</AM_FlagellationOutcome.outcomeChances.0.label>
+    <!--                                             EN: The {0} was a failure. The ritual failed to leave even a single scar, making the entire ceremony feel pointless. -->
+    <AM_FlagellationOutcome.outcomeChances.0.description>Ритуал {0} провалился. Он не оставил ни единого шрама, из-за чего вся церемония кажется абсолютно бессмысленной.</AM_FlagellationOutcome.outcomeChances.0.description>
+    <!--                                       EN: Underwhelming -->
+    <AM_FlagellationOutcome.outcomeChances.1.label>Разочарование</AM_FlagellationOutcome.outcomeChances.1.label>
+    <!--                                             EN: The {0} was underwhelming. Only a few ritual scars were earned, leaving much to be desired. -->
+    <AM_FlagellationOutcome.outcomeChances.1.description>Ритуал {0} прошёл разочаровывающе. Было получено лишь несколько ритуальных шрамов, что оставляет желать лучшего.</AM_FlagellationOutcome.outcomeChances.1.description>
+    <!--                                       EN: Satisfying -->
+    <AM_FlagellationOutcome.outcomeChances.2.label>Удовлетворительно</AM_FlagellationOutcome.outcomeChances.2.label>
+    <!--                                             EN: The {0} was satisfying. The ritual left its participant bearing several new scars as marks of their devotion. -->
+    <AM_FlagellationOutcome.outcomeChances.2.description>Ритуал {0} прошёл удовлетворительно. Его участник получил несколько новых шрамов как свидетельство своей преданности.</AM_FlagellationOutcome.outcomeChances.2.description>
+    <!--                                       EN: Exemplary -->
+    <AM_FlagellationOutcome.outcomeChances.3.label>Образцово</AM_FlagellationOutcome.outcomeChances.3.label>
+    <!--                                             EN: The {0} was exemplary! The ritual left its participant covered in new scars, displaying their devotion for all to see. -->
+    <AM_FlagellationOutcome.outcomeChances.3.description>Ритуал {0} прошёл образцово! Его участник покрыт новыми шрамами, демонстрируя свою преданность на всеобщее обозрение.</AM_FlagellationOutcome.outcomeChances.3.description>
+</LanguageData>

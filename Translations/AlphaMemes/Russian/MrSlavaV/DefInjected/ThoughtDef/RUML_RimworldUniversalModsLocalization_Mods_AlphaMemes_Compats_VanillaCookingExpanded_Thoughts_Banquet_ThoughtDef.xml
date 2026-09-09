@@ -1,0 +1,22 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaCookingExpanded\Defs\ThoughtDefs\Banquet\Thoughts_Banquet.xml -->
+	<!--                             EN: disastrous banquet -->
+	<AM_DisastrousBanquet.stages.0.label>катастрофический пир</AM_DisastrousBanquet.stages.0.label>
+	<!--                                   EN: The food was revolting, and arguments spoiled the entire occasion. -->
+	<AM_DisastrousBanquet.stages.0.description>Еда была отвратительной, а споры испортили все мероприятие.</AM_DisastrousBanquet.stages.0.description>
+	
+	<!--                       EN: dull banquet -->
+	<AM_DullBanquet.stages.0.label>скучный пир</AM_DullBanquet.stages.0.label>
+	<!--                             EN: The food was uninspired, and the atmosphere felt lifeless and routine. -->
+	<AM_DullBanquet.stages.0.description>Еда была невдохновляющей, а атмосфера казалась безжизненной и рутинной.</AM_DullBanquet.stages.0.description>
+	
+	<!--                            EN: enjoyable banquet -->
+	<AM_EnjoyableBanquet.stages.0.label>приятный пир</AM_EnjoyableBanquet.stages.0.label>
+	<!--                                  EN: Sharing delicious food and laughter together made the event truly worthwhile. -->
+	<AM_EnjoyableBanquet.stages.0.description>Разделение вкусной еды и смеха сделало мероприятие по-настоящему стоящим.</AM_EnjoyableBanquet.stages.0.description>
+	
+	<!--                            EN: exquisite banquet -->
+	<AM_ExquisiteBanquet.stages.0.label>изысканный пир</AM_ExquisiteBanquet.stages.0.label>
+	<!--                                  EN: The atmosphere was perfect, the company heartwarming, and the food beyond compare. -->
+	<AM_ExquisiteBanquet.stages.0.description>Атмосфера была идеальной, компания — тёплой, а еда — несравненной.</AM_ExquisiteBanquet.stages.0.description>
+</LanguageData>

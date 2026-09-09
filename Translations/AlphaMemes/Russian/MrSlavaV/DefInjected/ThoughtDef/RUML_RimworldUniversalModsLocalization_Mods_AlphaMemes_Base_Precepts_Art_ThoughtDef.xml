@@ -1,0 +1,28 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Art.xml -->
+	
+	<!--                       EN: no art nearby -->
+	<AM_Art_Desired.stages.0.label>рядом нет искусства</AM_Art_Desired.stages.0.label>
+	<!--                             EN: This colony is barren of fine art. A disgrace. -->
+	<AM_Art_Desired.stages.0.description>Это поселение лишено изобразительного искусства. Позор.</AM_Art_Desired.stages.0.description>
+	<!--                       EN: very little art around -->
+	<AM_Art_Desired.stages.1.label>очень мало искусства вокруг</AM_Art_Desired.stages.1.label>
+	<!--                             EN: There are only a bunch of art pieces around: where the spirit does not work with the hand, there is no art. -->
+	<AM_Art_Desired.stages.1.description>Вокруг есть только куча произведений искусства: там, где дух не работает рукой, нет искусства.</AM_Art_Desired.stages.1.description>
+	<!--                       EN: a few art pieces around -->
+	<AM_Art_Desired.stages.2.label>несколько произведений искусства вокруг</AM_Art_Desired.stages.2.label>
+	<!--                             EN: This colony is starting to look like a proper art gallery. Life beats down and crushes the soul and art reminds you that you have one. -->
+	<AM_Art_Desired.stages.2.description>Это поселение начинает походить на настоящую художественную галерею. Жизнь сбивает с ног и давит душу, а искусство напоминает, что она у тебя есть.</AM_Art_Desired.stages.2.description>
+	<!--                       EN: several art pieces around -->
+	<AM_Art_Desired.stages.3.label>несколько произведений искусства вокруг</AM_Art_Desired.stages.3.label>
+	<!--                             EN: The colony is adorned with several art pieces. Human life is full of chaos and suffering and the name of the remedy is ‘beauty’. -->
+	<AM_Art_Desired.stages.3.description>Поселение украшена несколькими произведениями искусства. Человеческая жизнь полна хаоса и страданий, и имя лекарства — «красота».</AM_Art_Desired.stages.3.description>
+	<!--                       EN: lots of art pieces around -->
+	<AM_Art_Desired.stages.4.label>много произведений искусства вокруг</AM_Art_Desired.stages.4.label>
+	<!--                             EN: There are a lot of art pieces in this colony. This warms my soul. -->
+	<AM_Art_Desired.stages.4.description>В этом поселении много произведений искусства. Это согревает мою душу.</AM_Art_Desired.stages.4.description>
+	<!--                       EN: surrounded by art -->
+	<AM_Art_Desired.stages.5.label>в окружении искусства</AM_Art_Desired.stages.5.label>
+	<!--                             EN: Art washes away from the soul the dust of everyday life. -->
+	<AM_Art_Desired.stages.5.description>Искусство смывает с души пыль повседневности.</AM_Art_Desired.stages.5.description>
+</LanguageData>

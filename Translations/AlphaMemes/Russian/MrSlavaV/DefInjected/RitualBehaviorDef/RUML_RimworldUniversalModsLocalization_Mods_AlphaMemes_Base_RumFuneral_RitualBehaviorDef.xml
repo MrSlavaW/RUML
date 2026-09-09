@@ -1,0 +1,10 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\RumFuneral.xml -->
+	
+	<!--                                          EN: Spectators must be alive. -->
+	<AM_RumBurialBehavior.spectatorFilter.description>Зрители должны быть живыми.</AM_RumBurialBehavior.spectatorFilter.description>
+	<!--                            EN: speaker -->
+	<AM_RumBurialBehavior.roles.0.label>оратор</AM_RumBurialBehavior.roles.0.label>
+	<!--                            EN: Corpse -->
+	<AM_RumBurialBehavior.roles.1.label>Труп</AM_RumBurialBehavior.roles.1.label>
+</LanguageData>

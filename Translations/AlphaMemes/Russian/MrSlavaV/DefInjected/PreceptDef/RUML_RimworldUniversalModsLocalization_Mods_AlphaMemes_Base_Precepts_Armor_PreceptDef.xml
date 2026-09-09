@@ -1,0 +1,37 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Armor.xml -->
+	
+<!--                   EN: forbidden -->
+    <AM_Armour_Forbidden.label>запрещено</AM_Armour_Forbidden.label>
+    <!--                         EN: Armor is forbidden. I will never hide my body behind clothing or armor. The body must remain exposed, for there is nothing shameful about our natural form.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonists can't equip ANY apparel. -->
+    <AM_Armour_Forbidden.description>Броня запрещена. Я никогда не буду прятать своё тело за одеждой или бронёй. Тело должно оставаться открытым, ведь в нашей естественной форме нет ничего постыдного.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Поселенцы не могут надевать НИКАКУЮ одежду.</AM_Armour_Forbidden.description>
+
+
+	
+	<!--               EN: blunt -->
+	<AM_Armour_Blunt.label>тупого урона</AM_Armour_Blunt.label>
+	<!--                     EN: Defense is paramount to any military strategy. We will be like a bulwark that stops all attacks our enemies try to direct against us.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonists wearing any kind of apparel will get +25% blunt armour bonus. -->
+	<AM_Armour_Blunt.description>Защита имеет первостепенное значение для любой военной стратегии. Мы будем как оплот, который остановит все атаки, которые наши враги попытаются направить против нас.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Поселенцы, одетые в любую одежду, получат +25% бонус к броне против тупых ударов.</AM_Armour_Blunt.description>
+	<!--                                            EN: No metallic armor -->
+	<AM_Armour_Blunt.comps.0.thoughtStageDescriptions.0>Нет металлической брони</AM_Armour_Blunt.comps.0.thoughtStageDescriptions.0>
+	<!--                                            EN: Strong armor -->
+	<AM_Armour_Blunt.comps.0.thoughtStageDescriptions.1>Сильная броня</AM_Armour_Blunt.comps.0.thoughtStageDescriptions.1>
+	
+	<!--               EN: sharp -->
+	<AM_Armour_Sharp.label>проникающего урона</AM_Armour_Sharp.label>
+	<!--                     EN: Defense is paramount to any military strategy. We will be like a bulwark that stops all attacks our enemies try to direct against us.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonists wearing any kind of apparel will get +25% sharp armour bonus. -->
+	<AM_Armour_Sharp.description>Защита имеет первостепенное значение для любой военной стратегии. Мы будем как оплот, который остановит все атаки, которые наши враги попытаются направить против нас.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Поселенцы, одетые в любую одежду, получат +25% бонус к броне против острых ударов.</AM_Armour_Sharp.description>
+	<!--                                            EN: No metallic armor -->
+	<AM_Armour_Sharp.comps.0.thoughtStageDescriptions.0>Нет металлической брони</AM_Armour_Sharp.comps.0.thoughtStageDescriptions.0>
+	<!--                                            EN: Strong armor -->
+	<AM_Armour_Sharp.comps.0.thoughtStageDescriptions.1>Сильная броня</AM_Armour_Sharp.comps.0.thoughtStageDescriptions.1>
+	
+	<!--              EN: heat -->
+	<AM_Armour_Heat.label>теплового урона</AM_Armour_Heat.label>
+	<!--                    EN: Defense is paramount to any military strategy. We will be like a bulwark that stops all attacks our enemies try to direct against us.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonists wearing any kind of apparel will get +25% heat armour bonus. -->
+	<AM_Armour_Heat.description>Защита имеет первостепенное значение для любой военной стратегии. Мы будем как оплот, который остановит все атаки, которые наши враги попытаются направить против нас.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Поселенцы в любой одежде получат +25% бонус к защите от температуры.</AM_Armour_Heat.description>
+	<!--                                           EN: No metallic armor -->
+	<AM_Armour_Heat.comps.0.thoughtStageDescriptions.0>Нет металлической брони</AM_Armour_Heat.comps.0.thoughtStageDescriptions.0>
+	<!--                                           EN: Strong armor -->
+	<AM_Armour_Heat.comps.0.thoughtStageDescriptions.1>Сильная броня</AM_Armour_Heat.comps.0.thoughtStageDescriptions.1>
+</LanguageData>

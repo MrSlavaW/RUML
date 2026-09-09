@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PS_AscensionBlessing.description>Благословение высших пси-сущностей ускоряет духовное вознесение.</PS_AscensionBlessing.description>
+  <PS_AscensionBlessing.label>психическое благословение</PS_AscensionBlessing.label>
+  <PS_Chronos.description>Восприятие времени ускоряется до сверхчеловеческого предела.</PS_Chronos.description>
+  <PS_Chronos.label>хронос</PS_Chronos.label>
+  <PS_Consonance.description>Гармоничный резонанс психических волн поддерживает союзников.</PS_Consonance.description>
+  <PS_Consonance.label>созвучие</PS_Consonance.label>
+  <PS_Empyrean.description>Разум сливается с пустотой между звёздами. Психическая чувствительность и скорость нейронного охлаждения колоссально возрастают.</PS_Empyrean.description>
+  <PS_Empyrean.label>эмпирей</PS_Empyrean.label>
+  <PS_OSkillGrant.description>Псионическая матрица наполняет разум глубокими практическими знаниями.</PS_OSkillGrant.description>
+  <PS_OSkillGrant.label>настройка мастера навыков</PS_OSkillGrant.label>
+  <PS_Pandemonium.description>Хаотический психо-вихрь искажает реальность вокруг носителя.</PS_Pandemonium.description>
+  <PS_Pandemonium.label>пандемониум</PS_Pandemonium.label>
+  <PS_PilgrimSite.description>Древний алтарь, где псионики могут пережить трансцендентный опыт.</PS_PilgrimSite.description>
+  <PS_PilgrimSite.label>алтарь паломника</PS_PilgrimSite.label>
+  <PS_UmbralSovereign.description>Окутан психической тенью. Разум становится несокрушимым, а болевой порог многократно возрастает.</PS_UmbralSovereign.description>
+  <PS_UmbralSovereign.label>полумрак</PS_UmbralSovereign.label>
+  <PS_UmbralSuppression.description>Психическая тень глушит этот разум, снижая его психическую чувствительность и способность к концентрации.</PS_UmbralSuppression.description>
+  <PS_UmbralSuppression.label>теневое подавление</PS_UmbralSuppression.label>
+</LanguageData>

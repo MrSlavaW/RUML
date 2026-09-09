@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\OskarPotocki_VFE_Mechanoid\AdvancedGoliathPatch15.xml -->
+	<!--                                          EN: colossus -->
+	<VFE_Mech_Advanced_Goliath_PlayerControlled.label>колосс</VFE_Mech_Advanced_Goliath_PlayerControlled.label>
+	<!--                                                EN: The Colossus is an advanced version of the Goliath, a heavy combat mechanoid with a humanoid body plan. They are faster than centipedes, and are usually armed with heavy mechanoid weapons or needle guns. If built by the player, it will have a "Swap weapon" ability to choose between the charge blaster and the Needle gun. -->
+	<VFE_Mech_Advanced_Goliath_PlayerControlled.description>Колосс — усовершенствованная версия Голиафа, тяжелого боевого механоида с гуманоидным телом. Они быстрее многоножек и обычно вооружены тяжелым механоидным оружием или игольчатыми пистолетами. Если он построен игроком, у него будет возможность «Сменить оружие», позволяющая выбирать между зарядным бластером и игольчатым пистолетом.</VFE_Mech_Advanced_Goliath_PlayerControlled.description>
+	<!--                                                  EN: голова -->
+	<VFE_Mech_Advanced_Goliath_PlayerControlled.tools.0.label>голова</VFE_Mech_Advanced_Goliath_PlayerControlled.tools.0.label>
+</LanguageData>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AB_ToxicMeadows.label>токсичные луга</AB_ToxicMeadows.label>
+  <AB_WillowForest.label>ивовый лес</AB_WillowForest.label>
+  <AB_CloverForest.label>клеверный лес</AB_CloverForest.label>
+  <AB_GinkgoForest.label>лес гинкго</AB_GinkgoForest.label>
+  <AB_MauvebloomFields.label>поля лиловоцвета</AB_MauvebloomFields.label>
+  <AB_GauranlenGrove.label>роща Гауранлен</AB_GauranlenGrove.label>
+  <AB_WarpedStoneForest.label>лес искаженных камней</AB_WarpedStoneForest.label>
+  <AB_ObsidianExpanse.label>обсидиановые просторы</AB_ObsidianExpanse.label>
+  <AB_CalcifiedRemnants.label>обызвествленные останки</AB_CalcifiedRemnants.label>
+  <AB_LivingCrystalBed.label>пласт живых кристаллов</AB_LivingCrystalBed.label>
+  <AB_FleshMorass.label>трясина плоти</AB_FleshMorass.label>
+  <AB_CorruptedIntrusion.label>оскверненный прорыв</AB_CorruptedIntrusion.label>
+  <AB_GnawingSands.label>гложущие пески</AB_GnawingSands.label>
+</LanguageData>

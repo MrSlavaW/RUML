@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Defs\JobDefs\Jobs_Work.xml -->
+
+	<!--                            EN: using weapon kit. -->
+	<AArmoury_UseWeaponKit.reportString>использует оружейный набор.</AArmoury_UseWeaponKit.reportString>
+
+	<!--                                    EN: using weapon kit. -->
+	<AArmoury_UseWeaponKit_Remover.reportString>использует оружейный набор.</AArmoury_UseWeaponKit_Remover.reportString>
+
+	<!--                                      EN: using weapon kit. -->
+	<AArmoury_UseWeaponKit_Converter.reportString>использует оружейный набор.</AArmoury_UseWeaponKit_Converter.reportString>
+</LanguageData>

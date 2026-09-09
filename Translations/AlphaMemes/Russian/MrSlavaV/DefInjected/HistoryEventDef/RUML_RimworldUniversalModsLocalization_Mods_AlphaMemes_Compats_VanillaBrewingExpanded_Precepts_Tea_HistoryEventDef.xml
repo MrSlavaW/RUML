@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\PreceptDefs\Precepts_Tea.xml -->
+	<!--                   EN: drank psychite tea -->
+	<AM_DrankPsychiteTea.label>выпит психновый чай</AM_DrankPsychiteTea.label>
+	<!--           EN: drank tea -->
+	<AM_DrankTea.label>выпит чай</AM_DrankTea.label>
+	<!--                    EN: drank specialty tea -->
+	<AM_DrankSpecialtyTea.label>выпит специальный чай</AM_DrankSpecialtyTea.label>
+</LanguageData>

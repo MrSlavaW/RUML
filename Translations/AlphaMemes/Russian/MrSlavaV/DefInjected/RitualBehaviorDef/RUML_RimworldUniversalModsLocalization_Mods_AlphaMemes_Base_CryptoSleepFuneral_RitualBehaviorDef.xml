@@ -1,0 +1,10 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\CryptoSleepFuneral.xml -->
+	
+	<!--                                              EN: Spectators must be alive. -->
+	<AM_CryptoFuneralBehavior.spectatorFilter.description>Зрители должны быть живы.</AM_CryptoFuneralBehavior.spectatorFilter.description>
+	<!--                                EN: speaker -->
+	<AM_CryptoFuneralBehavior.roles.0.label>оратор</AM_CryptoFuneralBehavior.roles.0.label>
+	<!--                                EN: Corpse -->
+	<AM_CryptoFuneralBehavior.roles.1.label>Труп</AM_CryptoFuneralBehavior.roles.1.label>
+</LanguageData>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GET_RegularAddiction.description>Носители этого гена имеют стандартную восприимчивость к привыканию.</GET_RegularAddiction.description>
+  <GET_RegularAddiction.label>обычная толерантность к {0}</GET_RegularAddiction.label>
+</LanguageData>

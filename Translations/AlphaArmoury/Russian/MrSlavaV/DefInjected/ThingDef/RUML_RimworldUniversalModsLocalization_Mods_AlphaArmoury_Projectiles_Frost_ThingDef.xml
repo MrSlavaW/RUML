@@ -1,0 +1,39 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Projectiles\Projectiles_Frost.xml -->
+
+	<!--                       EN: frost revolver bullet -->
+	<AArmoury_Frost_Revolver.label>крио-пуля револьвера</AArmoury_Frost_Revolver.label>
+
+	<!--                   EN: frost bolt-action rifle bullet -->
+	<AArmoury_Frost_Bolt.label>крио-пуля болтовой винтовки</AArmoury_Frost_Bolt.label>
+
+	<!--                      EN: frost shotgun blast -->
+	<AArmoury_Frost_Shotgun.label>крио-дробный выстрел</AArmoury_Frost_Shotgun.label>
+
+	<!--                       EN: frost heavy SMG bullet -->
+	<AArmoury_Frost_HeavySMG.label>крио-пуля тяжёлого ПП</AArmoury_Frost_HeavySMG.label>
+
+	<!--                  EN: frost LMG bullet -->
+	<AArmoury_Frost_LMG.label>крио-пуля ручного пулемёта</AArmoury_Frost_LMG.label>
+
+	<!--                      EN: frost assault rifle bullet -->
+	<AArmoury_Frost_Assault.label>крио-пуля штурмовой винтовки</AArmoury_Frost_Assault.label>
+
+	<!--                      EN: frost minigun bullet -->
+	<AArmoury_Frost_Minigun.label>крио-пуля минигана</AArmoury_Frost_Minigun.label>
+
+	<!--                     EN: frost sniper rifle bullet -->
+	<AArmoury_Frost_Sniper.label>крио-пуля снайперской винтовки</AArmoury_Frost_Sniper.label>
+
+	<!--                    EN: frost arrow -->
+	<AArmoury_Frost_Arrow.label>крио-стрела</AArmoury_Frost_Arrow.label>
+
+	<!--                     EN: frost charge shot -->
+	<AArmoury_Frost_Charge.label>крио-зарядный выстрел</AArmoury_Frost_Charge.label>
+
+	<!--                    EN: frost charge lance shot -->
+	<AArmoury_Frost_Lance.label>крио-выстрел зарядного копья</AArmoury_Frost_Lance.label>
+
+	<!--                      EN: frost hellcat rifle bullet -->
+	<AArmoury_Frost_Hellcat.label>крио-пуля винтовки «Хеллкэт»</AArmoury_Frost_Hellcat.label>
+</LanguageData>

@@ -1,0 +1,26 @@
+﻿<LanguageData>
+	<AG_FeraliskEyes.label>глаза фералиска</AG_FeraliskEyes.label>
+	<AG_FeraliskEyes.description>Этот ген наделяет носителя четырьмя глазами и заметно обостряет его зрение.</AG_FeraliskEyes.description>
+	<AG_FeraliskEyes.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_FeraliskEyes.renderNodeProperties.0.rotDrawMode>
+	<AG_FeraliskEyes.renderNodeProperties.1.rotDrawMode>Fresh, Rotting</AG_FeraliskEyes.renderNodeProperties.1.rotDrawMode>
+	<AG_ThirdEye.label>третий глаз</AG_ThirdEye.label>
+	<AG_ThirdEye.description>У носителей этого гена на лбу вырастает третий глаз. Он улучшает зрение и, благодаря своим необычным психическим свойствам, не может быть повреждён в бою.</AG_ThirdEye.description>
+	<AG_EyeOfShubNiggurath.label>глаз Шуб-Ниггурата</AG_EyeOfShubNiggurath.label>
+	<AG_EyeOfShubNiggurath.description>У носителей этого гена вместо одного глаза вырастает злобная клыкастая пасть. Неясно почему, но она прекрасно видит.</AG_EyeOfShubNiggurath.description>
+	<AG_NearBlindness.label>почти полная слепота</AG_NearBlindness.label>
+	<AG_NearBlindness.description>Носители этого гена обладают почти бесполезными глазами и страдают почти полной слепотой.</AG_NearBlindness.description>
+	<AG_NearBlindness.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_NearBlindness.renderNodeProperties.0.rotDrawMode>
+	<AG_NearBlindness.renderNodeProperties.1.rotDrawMode>Fresh, Rotting</AG_NearBlindness.renderNodeProperties.1.rotDrawMode>
+	<AG_ChameleonVision.label>глаза хамелеона</AG_ChameleonVision.label>
+	<AG_ChameleonVision.description>Носители этого гена обладают выпуклыми глазами, которые могут независимо двигаться и фокусироваться, обеспечивая панорамный обзор. Это позволяет одновременно следить за приближающейся целью и сканировать окружающее пространство.</AG_ChameleonVision.description>
+	<AG_DevilEyes.label>демонические глаза</AG_DevilEyes.label>
+	<AG_DevilEyes.description>Носители этого гена обладают большими тёмно-жёлтыми глазами.</AG_DevilEyes.description>
+	<AG_DevilEyes.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_DevilEyes.renderNodeProperties.0.rotDrawMode>
+	<AG_DevilEyes.renderNodeProperties.1.rotDrawMode>Fresh, Rotting</AG_DevilEyes.renderNodeProperties.1.rotDrawMode>
+	<AG_BioluminescentEyes.label>биолюминесцентные глаза</AG_BioluminescentEyes.label>
+	<AG_BioluminescentEyes.description>У носителей этого гена глаза светятся в темноте благодаря тапетуму — специальной мембране за сетчаткой. Это даёт им превосходное зрение в темноте.</AG_BioluminescentEyes.description>
+	<AG_ForsakenEyes.label>глаза Отреченных</AG_ForsakenEyes.label>
+	<AG_ForsakenEyes.description>Носители этого гена обладают четырьмя жёлтыми глазами: два маленьких расположены под двумя большими.</AG_ForsakenEyes.description>
+	<AG_ForsakenEyes.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_ForsakenEyes.renderNodeProperties.0.rotDrawMode>
+	<AG_ForsakenEyes.renderNodeProperties.1.rotDrawMode>Fresh, Rotting</AG_ForsakenEyes.renderNodeProperties.1.rotDrawMode>
+</LanguageData>

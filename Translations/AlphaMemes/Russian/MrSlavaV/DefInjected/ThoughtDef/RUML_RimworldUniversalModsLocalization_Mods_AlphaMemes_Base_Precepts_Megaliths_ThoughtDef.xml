@@ -1,0 +1,8 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Megaliths.xml -->
+	
+	<!--                             EN: desiring megalithic constructions -->
+	<AM_Megaliths_Desired.stages.0.label>желание мегалитических сооружений</AM_Megaliths_Desired.stages.0.label>
+	<!--                                   EN: We are disrespecting our ancestors, we should build more megaliths. -->
+	<AM_Megaliths_Desired.stages.0.description>Мы не уважаем наших предков, мы должны построить больше мегалитов.</AM_Megaliths_Desired.stages.0.description>
+</LanguageData>

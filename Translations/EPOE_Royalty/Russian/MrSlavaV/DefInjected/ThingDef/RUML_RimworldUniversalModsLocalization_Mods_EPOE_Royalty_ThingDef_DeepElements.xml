@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EPIA_InstallCircadianRefresher.jobString>Устанавливает circadian refresher.</EPIA_InstallCircadianRefresher.jobString>
+  <EPIA_RemoveCircadianRefresher.jobString>Removing circadian refresher.</EPIA_RemoveCircadianRefresher.jobString>
+  <EPIA_RemoveDetoxifierEnhancer.jobString>Removing detoxifier enhancer.</EPIA_RemoveDetoxifierEnhancer.jobString>
+  <EPIA_UpgradeAdvancedDrillArm.jobString>Upgrading drill arm.</EPIA_UpgradeAdvancedDrillArm.jobString>
+  <EPIA_UpgradeAdvancedElbowBlade.jobString>Upgrading bionic elbow blade.</EPIA_UpgradeAdvancedElbowBlade.jobString>
+  <EPIA_UpgradeAdvancedFieldHand.jobString>Upgrading field hand.</EPIA_UpgradeAdvancedFieldHand.jobString>
+  <EPIA_UpgradeAdvancedHandTalon.jobString>Upgrading bionic hand talon.</EPIA_UpgradeAdvancedHandTalon.jobString>
+  <EPIA_UpgradeAdvancedKneeSpike.jobString>Upgrading bionic knee spike.</EPIA_UpgradeAdvancedKneeSpike.jobString>
+  <EPIA_UpgradeBionicElbowBlade.jobString>Upgrading elbow blade.</EPIA_UpgradeBionicElbowBlade.jobString>
+  <EPIA_UpgradeBionicHandTalon.jobString>Upgrading hand talon.</EPIA_UpgradeBionicHandTalon.jobString>
+  <EPIA_UpgradeBionicKneeSpike.jobString>Upgrading knee spike.</EPIA_UpgradeBionicKneeSpike.jobString>
+  <EPIA_UpgradeDetoxifierSyntheticLiver.jobString>Upgrading synthetic liver.</EPIA_UpgradeDetoxifierSyntheticLiver.jobString>
+  <EPIA_UpgradeImmunoenhancerSyntheticKidney.jobString>Upgrading synthetic kidney.</EPIA_UpgradeImmunoenhancerSyntheticKidney.jobString>
+  <EPOE_AdvancedDrillArm.comps.0.tools.0.label>бур</EPOE_AdvancedDrillArm.comps.0.tools.0.label>
+  <EPOE_AdvancedElbowBlade.comps.0.tools.0.label>лезвие</EPOE_AdvancedElbowBlade.comps.0.tools.0.label>
+  <EPOE_AdvancedFieldHand.comps.0.tools.0.label>кастет</EPOE_AdvancedFieldHand.comps.0.tools.0.label>
+  <EPOE_AdvancedHandTalon.comps.0.tools.0.label>коготь</EPOE_AdvancedHandTalon.comps.0.tools.0.label>
+  <EPOE_AdvancedKneeSpike.comps.0.tools.0.label>шип</EPOE_AdvancedKneeSpike.comps.0.tools.0.label>
+  <EPOE_ScytherElbowBlade.comps.0.tools.0.label>лезвие</EPOE_ScytherElbowBlade.comps.0.tools.0.label>
+  <EPOE_ScytherHandTalon.comps.0.tools.0.label>коготь</EPOE_ScytherHandTalon.comps.0.tools.0.label>
+  <EPOE_ScytherKneeSpike.comps.0.tools.0.label>шип</EPOE_ScytherKneeSpike.comps.0.tools.0.label>
+  <InstallEPOE_AdvancedDrillArm.jobString>Устанавливает advanced drill arm.</InstallEPOE_AdvancedDrillArm.jobString>
+  <InstallEPOE_AdvancedElbowBlade.jobString>Устанавливает advanced bionic elbow blade.</InstallEPOE_AdvancedElbowBlade.jobString>
+  <InstallEPOE_AdvancedFieldHand.jobString>Устанавливает advanced field hand.</InstallEPOE_AdvancedFieldHand.jobString>
+  <InstallEPOE_AdvancedHandTalon.jobString>Устанавливает advanced bionic hand talon.</InstallEPOE_AdvancedHandTalon.jobString>
+  <InstallEPOE_AdvancedKneeSpike.jobString>Устанавливает advanced bionic knee spike.</InstallEPOE_AdvancedKneeSpike.jobString>
+  <InstallEPOE_DetoxifierEnhancer.jobString>Устанавливает detoxifier enhancer.</InstallEPOE_DetoxifierEnhancer.jobString>
+  <InstallEPOE_DetoxifierSyntheticLiver.jobString>Устанавливает synthetic detoxifier liver.</InstallEPOE_DetoxifierSyntheticLiver.jobString>
+  <InstallEPOE_ImmunoenhancerSyntheticKidney.jobString>Устанавливает synthetic immunoenhanced kidney.</InstallEPOE_ImmunoenhancerSyntheticKidney.jobString>
+  <InstallEPOE_ScytherElbowBlade.jobString>Устанавливает bionic elbow blade.</InstallEPOE_ScytherElbowBlade.jobString>
+  <InstallEPOE_ScytherHandTalon.jobString>Устанавливает bionic hand talon.</InstallEPOE_ScytherHandTalon.jobString>
+  <InstallEPOE_ScytherKneeSpike.jobString>Устанавливает bionic knee spike.</InstallEPOE_ScytherKneeSpike.jobString>
+</LanguageData>

@@ -1,0 +1,27 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Projectiles\Projectiles_Psychic.xml -->
+
+	<!-- EN: psychic bullet -->
+	<AArmoury_Psychic.label>психическая пуля</AArmoury_Psychic.label>
+
+	<!-- EN: psychic bullet -->
+	<AArmoury_Psychic_Lesser.label>психическая пуля</AArmoury_Psychic_Lesser.label>
+
+	<!-- EN: psychic bullet -->
+	<AArmoury_Psychic_Greater.label>психическая пуля</AArmoury_Psychic_Greater.label>
+
+	<!-- EN: psychic arrow -->
+	<AArmoury_Psychic_Arrow.label>психическая стрела</AArmoury_Psychic_Arrow.label>
+
+	<!-- EN: psychic charge shot -->
+	<AArmoury_Psychic_Charge.label>психический зарядный выстрел</AArmoury_Psychic_Charge.label>
+
+	<!-- EN: psychic charge lance shot -->
+	<AArmoury_Psychic_Charge_Greater.label>психический зарядный выстрел копья</AArmoury_Psychic_Charge_Greater.label>
+
+	<!-- EN: psychic beam repeater laser -->
+	<AArmoury_PsychicRepeater.label>психический луч повторителя</AArmoury_PsychicRepeater.label>
+
+	<!-- EN: psychic feedback -->
+	<AArmoury_Psychic_Feedback.label>психическая обратная связь</AArmoury_Psychic_Feedback.label>
+</LanguageData>

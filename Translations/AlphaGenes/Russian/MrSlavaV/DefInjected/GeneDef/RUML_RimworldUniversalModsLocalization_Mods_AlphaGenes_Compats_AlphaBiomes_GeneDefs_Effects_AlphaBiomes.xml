@@ -1,0 +1,27 @@
+<LanguageData>
+	<!-- 1.6\Mods\AlphaBiomes\Defs\GeneDefs\GeneDefs_Effects_AlphaBiomes.xml -->
+	<!--            EN: red fogger -->
+	<AG_RedFogger.label>Красный туманник</AG_RedFogger.label>
+	<!--                  EN: A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of warping space via a psychic pinhole, causing an extradimensional red fog to coalesce around the carrier. -->
+	<AG_RedFogger.description>Распределенное облако механитов переплетается с ДНК носителя. Эти механикиты обладают способностью искривлять пространство через психическое отверстие, заставляя межпространственный красный туман сгущаться вокруг носителя.Вокруг этого человека всегда будет красный туман</AG_RedFogger.description>
+	<!--                                 EN: Causes a red fog weather to be always present around this person -->
+	<AG_RedFogger.customEffectDescriptions.0>Вызывает красную туманную погоду, которая всегда присутствует вокруг этого человека.</AG_RedFogger.customEffectDescriptions.0>
+	<!--                   EN: ashmaker -->
+	<AG_VolcanicAshMaker.label>пепельник</AG_VolcanicAshMaker.label>
+	<!--                         EN: A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of attracting the ashy cinders of close volcanoees, causing volcanic ash to fall, sometimes along with rain. -->
+	<AG_VolcanicAshMaker.description>Носители этого гена обладают способностью притягивать пепел близлежащих вулканов, вызывая выпадение вулканического пепла, иногда вместе с дождем.</AG_VolcanicAshMaker.description>
+	<!--                                        EN: Causes a volcanic ash weather to be always present around this person -->
+	<AG_VolcanicAshMaker.customEffectDescriptions.0>Вызывает постоянное присутствие вулканического пепла вокруг этого человека</AG_VolcanicAshMaker.customEffectDescriptions.0>
+	<!--                EN: acid rainmaker -->
+	<AG_AcidRainMaker.label>Кислотник</AG_AcidRainMaker.label>
+	<!--                      EN: A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of drastically lowering the atmospheric pressure around and increasing acidity of the rain, causing constant acidic rain precipitation. -->
+	<AG_AcidRainMaker.description>Носители этого гена обладают способностью понижать атмосферное давление вокруг и повышать кислотность дождя, вызывая постоянные кислотные осадки.</AG_AcidRainMaker.description>
+	<!--                                     EN: Causes an acid rain weather to be always present around this person -->
+	<AG_AcidRainMaker.customEffectDescriptions.0>Вызывает постоянный кислотный дождь вокруг этого человека</AG_AcidRainMaker.customEffectDescriptions.0>
+	<!--                     EN: nightmaker -->
+	<AG_ForsakenNightMaker.label>Создатель ночи</AG_ForsakenNightMaker.label>
+	<!--                           EN: A distributed cloud of mechanites is interwoven with the DNA of the carrier. These mechanites have the ability of almost completely covering the sun, causing constant forsaken night weathers. -->
+	<AG_ForsakenNightMaker.description>Носители этого гена обладают способностью почти полностью закрывать солнце, вызывая постоянную унылую ночную погоду.</AG_ForsakenNightMaker.description>
+	<!--                                          EN: Causes forsaken night weathers to be always present around this person -->
+	<AG_ForsakenNightMaker.customEffectDescriptions.0>Приводит к тому, что вокруг этого человека всегда ночная погода</AG_ForsakenNightMaker.customEffectDescriptions.0>
+</LanguageData>

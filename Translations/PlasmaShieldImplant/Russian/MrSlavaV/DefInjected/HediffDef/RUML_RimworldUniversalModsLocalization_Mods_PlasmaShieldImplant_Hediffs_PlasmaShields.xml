@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<PlasmaShieldImplant.label>имплант плазменного щита</PlasmaShieldImplant.label>
+	<PlasmaShieldImplant.description>Вживленный под кожу генератор плазменного защитного поля, поглощающий входящие выстрелы и удары.</PlasmaShieldImplant.description>
+	<PsiShieldBooster.label>пси-усилитель щита</PsiShieldBooster.label>
+	<PsiShieldBooster.description>Нейроинтерфейс, позволяющий подпитывать плазменный щит психической энергией колониста.</PsiShieldBooster.description>
+	<PlasmaShieldBattery.label>аккумулятор плазменного щита</PlasmaShieldBattery.label>
+	<PlasmaShieldBattery.description>Внутренняя энергоячейка, увеличивающая емкость защитного поля.</PlasmaShieldBattery.description>
+	<AdvancedPlasmaShieldBattery.label>продвинутый аккумулятор щита</AdvancedPlasmaShieldBattery.label>
+	<AdvancedPlasmaShieldBattery.description>Высокоемкая батарея, значительно продлевающая работу плазменного щита под огнем.</AdvancedPlasmaShieldBattery.description>
+	<HardenedPlasmaShield.label>закаленный плазменный щит</HardenedPlasmaShield.label>
+	<HardenedPlasmaShield.description>Модификация защитного поля, повышающая устойчивость к пробитию брони.</HardenedPlasmaShield.description>
+</LanguageData>

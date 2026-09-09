@@ -1,0 +1,28 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_AnimalAnalysis.xml -->
+	
+	<!--                          EN: expected -->
+	<AM_AnimalAnalysis_Expected.label>ожидается</AM_AnimalAnalysis_Expected.label>
+	<!--                                EN: By properly cataloguing all the genetically modified animals on the Rim we are contributing to making the galaxy a better place.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonists with "Low" expectations or higher will receive increasing mood boosts from the number of animals scanned and stored in the animal database. You need to have a database built for this to work. Animals that have been analyzed will get a bonus to filth rate, caravan riding speed and minimum handling skill needed to tame and train them. -->
+	<AM_AnimalAnalysis_Expected.description>Правильно каталогизируя всех генетически модифицированных животных в Окраинных мирах, мы вносим свой вклад в улучшение галактики.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n - Поселенцы с «Низкими» ожиданиями или выше будет получать все большее повышение настроения от количества просканированных и сохраненных в базе данных животных животных. Для этого вам нужно создать базу данных.</AM_AnimalAnalysis_Expected.description>
+	<!--                                                       EN: No scans -->
+	<AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.0>не отсканировано</AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.0>
+	<!--                                                       EN: Very few scans (less than 1%) -->
+	<AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.1>Очень мало сканирований (менее 1%)</AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.1>
+	<!--                                                       EN: Few scans (less than 5%) -->
+	<AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.2>Мало сканирований (менее 5%)</AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.2>
+	<!--                                                       EN: Some scans (less than 10%) -->
+	<AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.3>Немного сканирований (менее 10%)</AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.3>
+	<!--                                                       EN: Many scans (less than 25%) -->
+	<AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.4>Много сканирований (менее 25%)</AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.4>
+	<!--                                                       EN: A lot of scans (less than 40%) -->
+	<AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.5>Много сканирований (менее 40%)</AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.5>
+	<!--                                                       EN: Database almost half full (less than 50%) -->
+	<AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.6>База данных заполнена почти наполовину (менее 50%)</AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.6>
+	<!--                                                       EN: A huge lot of scans (less than 60%) -->
+	<AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.7>Огромное количество сканирований (менее 60%)</AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.7>
+	<!--                                                       EN: Database almost filled (less than 75%) -->
+	<AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.8>База данных почти заполнена (менее 75%)</AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.8>
+	<!--                                                       EN: Database filled (more than 75%) -->
+	<AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.9>База заполнена (более 75%)</AM_AnimalAnalysis_Expected.comps.0.thoughtStageDescriptions.9>
+</LanguageData>

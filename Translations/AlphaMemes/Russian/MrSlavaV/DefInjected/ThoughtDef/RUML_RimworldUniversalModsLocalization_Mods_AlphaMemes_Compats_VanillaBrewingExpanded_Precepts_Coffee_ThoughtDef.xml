@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\PreceptDefs\Precepts_Coffee.xml -->
+<!--                                               EN: drank coffee -->
+    <AM_CoffeeDrinking_Required_DrankCoffee.stages.0.label>выпил кофе</AM_CoffeeDrinking_Required_DrankCoffee.stages.0.label>
+    <!--                                                     EN: That coffee was refreshing and invigorating. A nice moment of energy and focus. -->
+    <AM_CoffeeDrinking_Required_DrankCoffee.stages.0.description>Этот кофе был освежающим и бодрящим. Приятный момент энергии и концентрации.</AM_CoffeeDrinking_Required_DrankCoffee.stages.0.description>
+    <!--                                                        EN: drank specialty coffee -->
+    <AM_CoffeeDrinking_Required_DrankSpecialtyCoffee.stages.0.label>выпил особый кофе</AM_CoffeeDrinking_Required_DrankSpecialtyCoffee.stages.0.label>
+    <!--                                                              EN: That specialty coffee was exquisite—rich, aromatic, and exactly what I needed. -->
+    <AM_CoffeeDrinking_Required_DrankSpecialtyCoffee.stages.0.description>Этот особый кофе был изысканным — насыщенным, ароматным и именно тем, что мне было нужно.</AM_CoffeeDrinking_Required_DrankSpecialtyCoffee.stages.0.description>
+</LanguageData>

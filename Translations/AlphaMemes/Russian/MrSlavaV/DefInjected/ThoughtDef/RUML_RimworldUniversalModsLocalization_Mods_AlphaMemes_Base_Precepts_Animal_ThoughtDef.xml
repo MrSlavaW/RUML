@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Animal.xml -->
+	<!--                                        EN: despised animal died -->
+	<AM_AnimalDespised_Died_Despised.stages.0.label>презираемое животное умерло</AM_AnimalDespised_Died_Despised.stages.0.label>
+	<!--                                              EN: A despised animal died. The death of such a grotesque abomination is something to celebrate. -->
+	<AM_AnimalDespised_Died_Despised.stages.0.description>Презренное животное умерло. Смерть такой гротескной мерзости стоит отпраздновать.</AM_AnimalDespised_Died_Despised.stages.0.description>
+	<!--                                      EN: animal died -->
+	<AM_AnimalDespised_Died_Normal.stages.0.label>животное умерло</AM_AnimalDespised_Died_Normal.stages.0.label>
+	<!--                                            EN: An animal died. The sooner we get rid of these misguided genetic creations the sooner the galaxy will be safe. -->
+	<AM_AnimalDespised_Died_Normal.stages.0.description>Животное умерло. Чем раньше мы избавимся от этих ошибочных генетических творений, тем скорее галактика будет в безопасности.</AM_AnimalDespised_Died_Normal.stages.0.description>
+</LanguageData>

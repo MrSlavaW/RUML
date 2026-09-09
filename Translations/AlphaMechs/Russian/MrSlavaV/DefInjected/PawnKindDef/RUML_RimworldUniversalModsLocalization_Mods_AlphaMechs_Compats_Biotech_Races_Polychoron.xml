@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Polychoron.xml -->
+	<!--                  EN: polychoron -->
+	<AM_Mech_Polychoron.label>полихорон</AM_Mech_Polychoron.label>
+	<!--                                     EN: Plural polychoron -->
+	<AM_Mech_Polychoron.lifeStages.1.labelPlural>Полихороны</AM_Mech_Polychoron.lifeStages.1.labelPlural>
+<AM_Mech_Polychoron.lifeStages.0.labelPlural>Полихороны</AM_Mech_Polychoron.lifeStages.0.labelPlural></LanguageData>

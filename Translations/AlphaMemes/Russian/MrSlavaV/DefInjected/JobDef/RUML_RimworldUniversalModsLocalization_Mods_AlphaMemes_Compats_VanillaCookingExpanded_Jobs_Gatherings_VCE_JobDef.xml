@@ -1,0 +1,5 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaCookingExpanded\Defs\JobDefs\Jobs_Gatherings_VCE.xml -->
+	<!--                      EN: eating at TargetA. -->
+	<AM_EatAtBanquet.reportString>ест TargetA.</AM_EatAtBanquet.reportString>
+</LanguageData>

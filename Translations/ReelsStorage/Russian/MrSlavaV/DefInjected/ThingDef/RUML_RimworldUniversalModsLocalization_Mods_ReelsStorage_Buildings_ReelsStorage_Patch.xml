@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ReelStorageBarrelPallet.label>поддон для бочек</ReelStorageBarrelPallet.label>
+  <ReelStorageBarrelPallet.description>Деревянный поддон, приспособленный для аккуратного вертикального хранения бочек.</ReelStorageBarrelPallet.description>
+  <ReelStorageBookshelf.label>книжный шкаф</ReelStorageBookshelf.label>
+  <ReelStorageBookshelf.description>Элегантный шкаф с полками для хранения книг, фолиантов и рукописей.</ReelStorageBookshelf.description>
+  <ReelStorageCargoContainer.label>грузовой контейнер</ReelStorageCargoContainer.label>
+  <ReelStorageCargoContainer.description>Прочный герметичный грузовой контейнер большой вместимости.</ReelStorageCargoContainer.description>
+</LanguageData>

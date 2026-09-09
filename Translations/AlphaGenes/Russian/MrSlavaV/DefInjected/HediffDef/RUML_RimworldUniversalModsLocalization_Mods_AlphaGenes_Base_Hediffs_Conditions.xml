@@ -1,0 +1,19 @@
+<LanguageData>
+	<!-- 1.6\Defs\HediffDefs\Hediffs_Conditions.xml -->
+	<!--                  EN: gene tampering coma -->
+	<AG_GeneRemovalComa.label>Генная кома</AG_GeneRemovalComa.label>
+	<!--                        EN: The genes of this person were artificailly tampered with. This is greatly taxing on the organism and it will put them into a coma for 3 days. -->
+	<AG_GeneRemovalComa.description>Гены этого человека были искусственно изменены. Это сильно нагружает организм и вводит их в кому на 3 дня.</AG_GeneRemovalComa.description>
+	<!--                      EN: forceful implantation coma -->
+	<AG_XenogerminationComa.label>Насильственная имплантационная кома</AG_XenogerminationComa.label>
+	<!--                            EN: A xenogerm was implanted in this person by force. This will keep them in a coma for 4 days. -->
+	<AG_XenogerminationComa.description>Ксеногерм был имплантирован этому человеку насильно. Это продержит его в коме в течение 4 дней.</AG_XenogerminationComa.description>
+	<!--                       EN: germline implantation coma -->
+	<AG_EndoimplantationComa.label>имплантационная кома</AG_EndoimplantationComa.label>
+	<!--                             EN: An new germline was implanted in this person by force. This will keep them in a coma for 4 days. -->
+	<AG_EndoimplantationComa.description>имплантационная кома. Это продержит его в коме в течение 4 дней.</AG_EndoimplantationComa.description>
+	<!--               EN: unstable mind -->
+	<AG_UnstableMind.label>Нестабильный разум</AG_UnstableMind.label>
+	<!--                     EN: Mental instability that makes this person prone to mental breaks, and greatly increases their psychic sensitivity. -->
+	<AG_UnstableMind.description>Психически поражает разум других существ, вызывая нестабильность, которая повышает вероятность психических срывов и значительно усиливает их психическую чувствительность. Эффект длится три часа и может применяться как к враждебным, так и к дружественным целям.</AG_UnstableMind.description>
+</LanguageData>

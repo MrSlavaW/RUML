@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaMechanoidsExpanded\Defs\ThingDefs_Races\Races_Incinerator.xml -->
+	<!--                          EN: incinerator -->
+	<VFE_Mech_Advanced_Fireworm.label>испепелитель</VFE_Mech_Advanced_Fireworm.label>
+	<!--                                             EN: Plural incinerator -->
+	<VFE_Mech_Advanced_Fireworm.lifeStages.0.labelPlural>Испепелители</VFE_Mech_Advanced_Fireworm.lifeStages.0.labelPlural>
+</LanguageData>

@@ -1,0 +1,12 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\BlastOffFuneral.xml -->
+	
+	<!--                                         EN: Spectators must be alive. -->
+	<AM_BlastOffBehavior.spectatorFilter.description>Зрители должны быть живы.</AM_BlastOffBehavior.spectatorFilter.description>
+	<!--                           EN: speaker -->
+	<AM_BlastOffBehavior.roles.0.label>оратор</AM_BlastOffBehavior.roles.0.label>
+	<!--                           EN: Corpse -->
+	<AM_BlastOffBehavior.roles.1.label>Труп</AM_BlastOffBehavior.roles.1.label>
+	<!--                                      EN: {0}: The speech is over, the shuttle is blasting off! -->
+	<AM_BlastOffBehavior.stages.1.postAction.text>{0}: Речь окончена, шаттл взлетает!</AM_BlastOffBehavior.stages.1.postAction.text>
+</LanguageData>

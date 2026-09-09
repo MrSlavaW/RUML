@@ -1,0 +1,23 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_OcularTrees.xml -->
+	
+	<!--                      EN: desired -->
+	<AM_OcularTrees_Desired.label>желаемы</AM_OcularTrees_Desired.label>
+	<!--                            EN: The strange alien gaze of the ocular trees is soothing.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Bear in mind, ocular trees are added by Alpha Animals or Alpha Biomes. If you don't have these mods, you won't have any way to get the trees. -->
+	<AM_OcularTrees_Desired.description>Странный инопланетный взгляд глазных деревьев успокаивает.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n- Имейте в виду, что глазные деревья добавляются с помощью Alpha Animals или Alpha Biomes. Если у вас нет этих модов, вы не сможете получить деревья.</AM_OcularTrees_Desired.description>
+	<!--                                                   EN: No ocular trees -->
+	<AM_OcularTrees_Desired.comps.0.thoughtStageDescriptions.0>Нет глазных деревьев</AM_OcularTrees_Desired.comps.0.thoughtStageDescriptions.0>
+	<!--                                                   EN: Scarce ocular trees (less than 50 trees) -->
+	<AM_OcularTrees_Desired.comps.0.thoughtStageDescriptions.1>Редкие глазные деревья (менее 50 деревьев)</AM_OcularTrees_Desired.comps.0.thoughtStageDescriptions.1>
+	<!--                                                   EN: Adequate ocular trees (less than 500 trees) -->
+	<AM_OcularTrees_Desired.comps.0.thoughtStageDescriptions.2>Достаточное количество глазных деревьев (менее 500 деревьев)</AM_OcularTrees_Desired.comps.0.thoughtStageDescriptions.2>
+	<!--                                                   EN: Amazing ocular trees (less than 1000 trees) -->
+	<AM_OcularTrees_Desired.comps.0.thoughtStageDescriptions.3>Удивительные глазные деревья (менее 1000 деревьев)</AM_OcularTrees_Desired.comps.0.thoughtStageDescriptions.3>
+	<!--                                                   EN: Sublime ocular forest (more than 1000 trees) -->
+	<AM_OcularTrees_Desired.comps.0.thoughtStageDescriptions.4>Возвышенный глазной лес (более 1000 деревьев)</AM_OcularTrees_Desired.comps.0.thoughtStageDescriptions.4>
+	
+	<!--                          EN: indifferent -->
+	<AM_OcularTrees_Indifferent.label>безразличны</AM_OcularTrees_Indifferent.label>
+	<!--                                EN: What a weird tree. Yuck. -->
+	<AM_OcularTrees_Indifferent.description>Какое странное дерево. Ух.</AM_OcularTrees_Indifferent.description>
+</LanguageData>

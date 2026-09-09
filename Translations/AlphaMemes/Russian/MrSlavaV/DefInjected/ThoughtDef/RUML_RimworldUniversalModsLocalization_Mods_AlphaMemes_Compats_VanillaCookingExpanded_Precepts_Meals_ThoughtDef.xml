@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaCookingExpanded\Defs\PreceptDefs\Precepts_Meals.xml -->
+	<!--                                              EN: ate delightful meal -->
+	<AM_Meals_QualityDesired_AteLavishMeal.stages.0.label>съел восхитительную еду</AM_Meals_QualityDesired_AteLavishMeal.stages.0.label>
+	<!--                                                    EN: That meal was a masterpiece—a symphony of flavors and textures. For a moment, all felt right with the world. -->
+	<AM_Meals_QualityDesired_AteLavishMeal.stages.0.description>Эта еда была шедевром — симфонией вкусов и текстур. На мгновение всё казалось правильным в этом мире.</AM_Meals_QualityDesired_AteLavishMeal.stages.0.description>
+	<!--                                              EN: ate simple meal -->
+	<AM_Meals_QualityDesired_AteSimpleMeal.stages.0.label>съел простую еду</AM_Meals_QualityDesired_AteSimpleMeal.stages.0.label>
+	<!--                                                    EN: Really? Was that the best we can do? What a bland, simple meal. -->
+	<AM_Meals_QualityDesired_AteSimpleMeal.stages.0.description>Действительно? Это всё, на что мы способны? Какая пресная и простая еда.</AM_Meals_QualityDesired_AteSimpleMeal.stages.0.description>
+	<!--                                           EN: ate raw food -->
+	<AM_Meals_QualityDesired_AteRawFood.stages.0.label>съел сырую пищу</AM_Meals_QualityDesired_AteRawFood.stages.0.label>
+	<!--                                                 EN: I was forced to eat raw food. It’s an utter abomination—filthy, revolting, and beneath any sense of decency. We’re not beasts scavenging in the dirt! -->
+	<AM_Meals_QualityDesired_AteRawFood.stages.0.description>Меня заставили есть сырую пищу. Это полное безобразие — грязное, отвратительное и недостойное любого понятия о приличии. Мы не звери, роющиеся в грязи!</AM_Meals_QualityDesired_AteRawFood.stages.0.description>
+</LanguageData>

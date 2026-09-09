@@ -1,0 +1,30 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\MaddeningChant\Ritual_Outcomes_MaddeningChant.xml -->
+	<!--                              EN: If the incantation ritual goes well (positive outcome) it will provide a mood bonus and cause mental breaks. A negative outcome will have no effect except a mood penalty. -->
+	<AM_MaddeningChantOutcome.description>Если ритуал заклинания пройдет хорошо (положительный результат), он даст бонус к настроению и вызовет психические расстройства. Отрицательный результат не будет иметь никакого эффекта, кроме штрафа за настроение.</AM_MaddeningChantOutcome.description>
+	<!--                                EN: room impressiveness -->
+	<AM_MaddeningChantOutcome.comps.0.label>впечатляющая комната</AM_MaddeningChantOutcome.comps.0.label>
+	<!--                                EN: participant count -->
+	<AM_MaddeningChantOutcome.comps.1.label>{0} был довольно эффективным. Они производили гораздо больше питательных веществ, чем можно было бы ожидать.
+количество участников</AM_MaddeningChantOutcome.comps.1.label>
+	<!--                                EN: {PAWN_labelShort}'s social impact -->
+	<AM_MaddeningChantOutcome.comps.2.label>Социальное влияние {PAWN_labelShort}</AM_MaddeningChantOutcome.comps.2.label>
+	<!--                                        EN: speaker's social impact -->
+	<AM_MaddeningChantOutcome.comps.2.labelAbstract>социальное влияние оратора</AM_MaddeningChantOutcome.comps.2.labelAbstract>
+	<!--                                         EN: Rational -->
+	<AM_MaddeningChantOutcome.outcomeChances.0.label>Рациональный</AM_MaddeningChantOutcome.outcomeChances.0.label>
+	<!--                                               EN: The {0} was rational and sane! What was that? There was no shared insanity, no cackling forbidden whispers of madness. What a bore. -->
+	<AM_MaddeningChantOutcome.outcomeChances.0.description>{0} был рациональным и разумным! Что это было? Не было общего безумия, не было гогочащего запретного шепота безумия. Какая скука.</AM_MaddeningChantOutcome.outcomeChances.0.description>
+	<!--                                         EN: Deranged -->
+	<AM_MaddeningChantOutcome.outcomeChances.1.label>Невменяемый</AM_MaddeningChantOutcome.outcomeChances.1.label>
+	<!--                                               EN: The {0} was suitably deranged. One person's craziness is another person's reality. -->
+	<AM_MaddeningChantOutcome.outcomeChances.1.description>{0} был соответствующим образом ненормальный. Сумасшествие одного человека — реальность другого человека.</AM_MaddeningChantOutcome.outcomeChances.1.description>
+	<!--                                         EN: Psychotic -->
+	<AM_MaddeningChantOutcome.outcomeChances.2.label>Психотик</AM_MaddeningChantOutcome.outcomeChances.2.label>
+	<!--                                               EN: The {0} was psychotic. There's a fine line between genius and insanity. We have erased this line. -->
+	<AM_MaddeningChantOutcome.outcomeChances.2.description>{0} был психопатом. Между гениальностью и безумием тонкая грань. Мы стерли эту грань.</AM_MaddeningChantOutcome.outcomeChances.2.description>
+	<!--                                         EN: Insane -->
+	<AM_MaddeningChantOutcome.outcomeChances.3.label>Безумный</AM_MaddeningChantOutcome.outcomeChances.3.label>
+	<!--                                               EN: The {0} was thoroughly insane! Sweet, crazy conversations full of half sentences, daydreams and misunderstandings more thrilling than understanding could ever be. -->
+	<AM_MaddeningChantOutcome.outcomeChances.3.description>{0} был совершенно безумен! Сладкие, сумасшедшие разговоры, полные полупредложений, мечтаний и недоразумений, более захватывающих, чем понимание.</AM_MaddeningChantOutcome.outcomeChances.3.description>
+</LanguageData>

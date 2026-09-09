@@ -1,0 +1,23 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Art.xml -->
+	
+	<!--              EN: desired -->
+	<AM_Art_Desired.label>желаемо</AM_Art_Desired.label>
+	<!--                    EN: A true work of art is the revelation of a new conception of life arising in the artist's soul, which, when expressed, lights up the path along which humanity progresses.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonists with "Low" expectations or higher will demand art pieces around the colony, at the very least one per colonist. -->
+	<AM_Art_Desired.description>Настоящее произведение искусства — это откровение новой концепции жизни, зарождающейся в душе художника, выражение которой освещает путь, по которому движется человечество.
+
+&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;
+ - Поселенцы с «Низкими» ожиданиями или выше будут требовать произведения искусства по всему поселению, по крайней мере, по одному на каждого поселенца.</AM_Art_Desired.description>
+	<!--                                           EN: No art nearby -->
+	<AM_Art_Desired.comps.0.thoughtStageDescriptions.0>Рядом нет искусства</AM_Art_Desired.comps.0.thoughtStageDescriptions.0>
+	<!--                                           EN: Very little art around (less than 1 per colonist) -->
+	<AM_Art_Desired.comps.0.thoughtStageDescriptions.1>Очень мало искусства вокруг (менее 1 на поселенца)</AM_Art_Desired.comps.0.thoughtStageDescriptions.1>
+	<!--                                           EN: A few art pieces around (less than 1,5 per colonist) -->
+	<AM_Art_Desired.comps.0.thoughtStageDescriptions.2>Несколько произведений искусства вокруг (менее 1,5 на поселенца)</AM_Art_Desired.comps.0.thoughtStageDescriptions.2>
+	<!--                                           EN: Several art pieces around (less than 2 per colonist) -->
+	<AM_Art_Desired.comps.0.thoughtStageDescriptions.3>Немного произведений искусства вокруг (менее 2 на поселенца)</AM_Art_Desired.comps.0.thoughtStageDescriptions.3>
+	<!--                                           EN: Lots of art pieces around (less than 3 per colonist) -->
+	<AM_Art_Desired.comps.0.thoughtStageDescriptions.4>Много произведений искусства вокруг (менее 3 на поселенца)</AM_Art_Desired.comps.0.thoughtStageDescriptions.4>
+	<!--                                           EN: Surrounded by art -->
+	<AM_Art_Desired.comps.0.thoughtStageDescriptions.5>в окружении искусства</AM_Art_Desired.comps.0.thoughtStageDescriptions.5>
+</LanguageData>

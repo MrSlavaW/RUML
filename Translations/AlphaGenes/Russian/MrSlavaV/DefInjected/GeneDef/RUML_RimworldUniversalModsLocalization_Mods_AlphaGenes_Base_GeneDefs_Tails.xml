@@ -1,0 +1,27 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Tails.xml -->
+	<!--          EN: fox tail -->
+	<AG_FoxTail.label>Лисий хвост</AG_FoxTail.label>
+	<!--                EN: Carriers of this gene grow a large fox tail which partially protects them from cold temperatures. -->
+	<AG_FoxTail.description>Носители этого гена отращивают большой лисий хвост, который частично защищает их от низких температур.</AG_FoxTail.description>
+	<!--                                       EN: Fresh, Rotting -->
+	<AG_FoxTail.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_FoxTail.renderNodeProperties.0.rotDrawMode>
+	<!--            EN: demon tail -->
+	<AG_DemonTail.label>Хвост демона</AG_DemonTail.label>
+	<!--                  EN: Carriers of this gene grow a large demon tail which can act as a dexterous fifth limb. -->
+	<AG_DemonTail.description>У носителей этого гена вырастает большой демонический хвост, который может действовать как ловкая пятая конечность.</AG_DemonTail.description>
+	<!--                                         EN: Fresh, Rotting -->
+	<AG_DemonTail.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_DemonTail.renderNodeProperties.0.rotDrawMode>
+	<!--                 EN: drakonori tail -->
+	<AG_Drakonori_Tail.label>хвост драконори</AG_Drakonori_Tail.label>
+	<!--                       EN: Carriers of this gene grow a large draconic tail which can be used to grapple and immobilize a target. -->
+	<AG_Drakonori_Tail.description>У носителей этого гена вырастает большой драконий хвост, который можно использовать для захвата и обездвиживания цели.</AG_Drakonori_Tail.description>
+	<!--                                              EN: Fresh, Rotting -->
+	<AG_Drakonori_Tail.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_Drakonori_Tail.renderNodeProperties.0.rotDrawMode>
+	<!--             EN: nereid tail -->
+	<AG_NereidTail.label>хвост нереиды</AG_NereidTail.label>
+	<!--                   EN: Carriers of this gene grow a large fish-like tail. -->
+	<AG_NereidTail.description>Носители этого гена отращивают большой рыбий хвост.</AG_NereidTail.description>
+	<!--                                          EN: Fresh, Rotting -->
+	<AG_NereidTail.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_NereidTail.renderNodeProperties.0.rotDrawMode>
+</LanguageData>

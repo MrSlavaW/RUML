@@ -1,0 +1,31 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\OcularWarping\Ritual_Outcomes_OcularWarping.xml -->
+	<!--                      EN: Note that unless you have Alpha Animals, this ritual will only produce Eyelings. A sublime quality result will always result in an Unblinking Eye. -->
+	<AM_OcularWarping.description>Обратите внимание, что, если у вас нет Альфа-животных, этот ритуал приведет только к появлению Глазастиков. В результате возвышенного качества всегда получается Немигающий глаз.</AM_OcularWarping.description>
+	<!--                        EN: participant count -->
+	<AM_OcularWarping.comps.1.label>количество участников</AM_OcularWarping.comps.1.label>
+	<!--                        EN: started at altar or ideogram -->
+	<AM_OcularWarping.comps.2.label>начало у алтаря или идеограммы</AM_OcularWarping.comps.2.label>
+	<!--                                        EN: an altar or an ideogram -->
+	<AM_OcularWarping.comps.2.expectedThingLabelTip>алтарь или идеограмма</AM_OcularWarping.comps.2.expectedThingLabelTip>
+	<!--                                 EN: Terrible -->
+	<AM_OcularWarping.outcomeChances.0.label>Ужасно</AM_OcularWarping.outcomeChances.0.label>
+	<!--                                       EN: The {0} was terrible! A very weak ocular monster has joined the colony. -->
+	<AM_OcularWarping.outcomeChances.0.description>{0}. Было ужасно! К поселению присоединился очень слабый глазной монстр.</AM_OcularWarping.outcomeChances.0.description>
+	<!--                                 EN: Boring -->
+	<AM_OcularWarping.outcomeChances.1.label>Скучно</AM_OcularWarping.outcomeChances.1.label>
+	<!--                                       EN: The {0} was incredibly boring. A weak ocular monster has joined the colony. -->
+	<AM_OcularWarping.outcomeChances.1.description>{0}. Было невероятно скучно. К поселению присоединился слабый глазной монстр.</AM_OcularWarping.outcomeChances.1.description>
+	<!--                                 EN: Satisfying -->
+	<AM_OcularWarping.outcomeChances.2.label>Удовлетворительно</AM_OcularWarping.outcomeChances.2.label>
+	<!--                                       EN: The {0} was satisfying. A medium-sized ocular monster has joined the colony. -->
+	<AM_OcularWarping.outcomeChances.2.description>{0}. Было удовлетворительно. К поселению присоединился глазной монстр среднего размера.</AM_OcularWarping.outcomeChances.2.description>
+	<!--                                 EN: Spectacular -->
+	<AM_OcularWarping.outcomeChances.3.label>Впечатляющие</AM_OcularWarping.outcomeChances.3.label>
+	<!--                                       EN: The {0} was spectacular! A large ocular monster has joined the colony. -->
+	<AM_OcularWarping.outcomeChances.3.description>{0}. Было впечатляюще! К поселению присоединился большой глазной монстр.</AM_OcularWarping.outcomeChances.3.description>
+	<!--                                 EN: Sublime -->
+	<AM_OcularWarping.outcomeChances.4.label>Возвышенное</AM_OcularWarping.outcomeChances.4.label>
+	<!--                                       EN: The {0} was sublime! An Unblinking Eye has pledged its servitude to the colony. -->
+	<AM_OcularWarping.outcomeChances.4.description>{0}. Было возвышенно! Немигающий Глаз пообещал свое служение поселению.</AM_OcularWarping.outcomeChances.4.description>
+</LanguageData>

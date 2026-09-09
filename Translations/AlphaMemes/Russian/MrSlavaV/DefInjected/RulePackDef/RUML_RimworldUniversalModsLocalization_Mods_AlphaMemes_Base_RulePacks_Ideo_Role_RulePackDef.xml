@@ -1,0 +1,16 @@
+<LanguageData>
+	<!-- 1.6\Defs\RulePackDefs\RulePacks_Ideo_Role.xml -->
+	<!-- EN: 
+		<li>r_roleName->Master architect</li>
+	 -->
+	<AM_MasterArchitect.rulePack.rulesStrings>
+		<li>r_roleName-&gt;главный архитектор</li>
+</AM_MasterArchitect.rulePack.rulesStrings>
+
+<!-- EN: 
+		<li>r_roleName->Master stylist</li>
+	 -->
+	<AM_MasterStylist.rulePack.rulesStrings>
+		<li>r_roleName-&gt;Мастер-стилист</li>
+	</AM_MasterStylist.rulePack.rulesStrings>
+</LanguageData>

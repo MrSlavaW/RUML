@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_TableQuality.xml -->
+	<!--                       EN: desired -->
+	<AM_TableQuality_Desired.label>желанны</AM_TableQuality_Desired.label>
+	<!--                             EN: Meals are best enjoyed with dignity. A proper table elevates the experience, turning simple sustenance into a moment of refinement.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Eating on a Poor or Awful quality table will cause a mood penalty. -->
+	<AM_TableQuality_Desired.description>Едой лучше всего наслаждается с достоинством. Правильный стол возвышает опыт, превращая простую пищу в момент утонченности.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Прием пищи за столом плохого или ужасного качества вызовет штраф к настроению.</AM_TableQuality_Desired.description>
+</LanguageData>

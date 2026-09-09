@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaRacesExpandedFungoid\Defs\GeneDefs\XenotypeDefs_Fungoid.xml -->
+	<!--             EN: mycomorph -->
+	<AG_Mycormorph.label>Грибоморф</AG_Mycormorph.label>
+	<!--                   EN: The result of ancient victims of the fungoid military bioweapons project, mycomorphs have been subjected to a specially virulent strain of the virus, which causes their bodies to rot and become infused with extense mycelial networks. Mycomorphs constantly secrete a foul smelling gas and have a similarly rotten disposition, tending to act aggressively towards others. A controlled mycomorph can be a huge combat asset, or a dangerous potential threat to the rest of the colony. -->
+	<AG_Mycormorph.description>Грибоморф, ставшие жертвами проекта создания грибкового военного, биологического оружия, подверглись воздействию особо вирулентного штамма вируса, который вызывает гниение их тел и пропитывает их обширными мицелиальными сетями. Грибоморф постоянно выделяют зловонный газ и имеют такой же гнилой характер, склонны действовать агрессивно по отношению к другим. Контролируемый Грибоморф может быть огромным боевым активом или опасной потенциальной угрозой для остальной части колонии.</AG_Mycormorph.description>
+	<!--                        EN: Victims of a more virulent strain of the fungoid virus. Violent, very dangerous, both to other mycomorphs but specially to other xenotypes around them, as they can infect them via melee attacks, and they love to fight others. -->
+	<AG_Mycormorph.descriptionShort>Жертвы более вирулентного штамма грибкового вируса. Жестокие, очень опасные как для других Грибоморфов, так и для других ксенотипов вокруг них, поскольку они могут заразить их посредством атаки.</AG_Mycormorph.descriptionShort>
+</LanguageData>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AB_BoneWall.description>Окаменелые кости колоссальных доисторических существ.</AB_BoneWall.description>
+  <AB_BoneWall.label>гигантские кости</AB_BoneWall.label>
+  <AB_CompactedSand.description>Плотный слежавшийся слой песка, пригодный для строительства.</AB_CompactedSand.description>
+  <AB_CompactedSand.label>утрамбованный песок</AB_CompactedSand.label>
+  <AB_CoreSampleDrill.description>Специализированная глубинная буровая установка для извлечения образцов породы.</AB_CoreSampleDrill.description>
+  <AB_CoreSampleDrill.label>буровая установка для керна</AB_CoreSampleDrill.label>
+  <AB_ExoticAutoDoor.description>Автоматизированная раздвижная дверь из экзотических материалов.</AB_ExoticAutoDoor.description>
+  <AB_ExoticAutoDoor.label>экзотическая автодверь</AB_ExoticAutoDoor.label>
+  <AB_ExoticColumn.description>Колонна искусной работы, поддерживающая потолок.</AB_ExoticColumn.description>
+  <AB_ExoticColumn.label>экзотическая колонна</AB_ExoticColumn.label>
+  <AB_ExoticDoor.description>Массивная дверь, изготовленная из необычных местных материалов биома.</AB_ExoticDoor.description>
+  <AB_ExoticDoor.label>экзотическая дверь</AB_ExoticDoor.label>
+  <AB_ExoticWall.description>Прочная стена, возведённая из уникальных минералов биома.</AB_ExoticWall.description>
+  <AB_ExoticWall.label>экзотическая стена</AB_ExoticWall.label>
+  <AB_Filth_Tar.description>Липкая вязкая лужа смолистого дёгтя, затрудняющая ходьбу.</AB_Filth_Tar.description>
+  <AB_Filth_Tar.label>лужа дёгтя</AB_Filth_Tar.label>
+  <AB_MycoticSpores.description>Облако токсичных грибных спор, вызывающих удушье и микоз.</AB_MycoticSpores.description>
+  <AB_MycoticSpores.label>вирулентные микотические споры</AB_MycoticSpores.label>
+  <AB_OcularGas.description>Психоактивный газ, выделяемый окулярной растительностью.</AB_OcularGas.description>
+  <AB_OcularGas.label>окулярный газ</AB_OcularGas.label>
+  <AB_RustedWall.description>Стена из покрытого толстым слоем ржавчины листового металла.</AB_RustedWall.description>
+  <AB_RustedWall.label>ржавая стена</AB_RustedWall.label>
+  <AB_SlagRubble.description>Остатки переплавленного шлака и металлолома.</AB_SlagRubble.description>
+  <AB_SlagRubble.label>рассыпанный шлак</AB_SlagRubble.label>
+</LanguageData>

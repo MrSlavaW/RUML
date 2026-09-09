@@ -1,0 +1,27 @@
+<LanguageData>
+	<!-- 1.6\Defs\GauranlenTreeModDefs\GauranlenTreeModeDefs.xml -->
+	<!--         EN: ocular -->
+	<AM_Ocular.label>глазная</AM_Ocular.label>
+	<!--               EN: A corrupted dryad afflicted by a bizarre extradimensional disease that causes gaping wounds to appear all over its body, from which ocular orbs slowly emerge. Ocular dryads can be further mutated into grotesque beasts by an Ocular Priest. -->
+	<AM_Ocular.description>Испорченная дриада, пораженная странной внепространственной болезнью, из-за которой по всему телу появляются зияющие раны, из которых медленно выходят глазные шары. Окулярные дриады могут быть превращены в гротескных чудовищ Окулярным жрецом.</AM_Ocular.description>
+	
+	<!--          EN: spitter -->
+	<AM_Spitter.label>плевательница</AM_Spitter.label>
+	<!--                EN: A dryad caste specialized in venomous ranged attacks. Their ranged attacks can be commanded directly, or ordered to attack on their own by their trainer. -->
+	<AM_Spitter.description>Каста дриад, специализирующихся на ядовитых атаках дальнего боя. Их дальними атаками можно командовать напрямую или приказать тренеру атаковать самостоятельно.</AM_Spitter.description>
+	
+	<!--           EN: unstable -->
+	<AM_Unstable.label>нестабильная</AM_Unstable.label>
+	<!--                 EN: A dangerous dryad caste that will explode with acid when dead. They can be commanded to explode... for the good of the tree. -->
+	<AM_Unstable.description>Опасная каста дриад, которые после смерти взрываются кислотой. Им можно приказать взорваться... на благо дерева.</AM_Unstable.description>
+	
+	<!--           EN: tumorous -->
+	<AM_Tumorous.label>опухолевидная</AM_Tumorous.label>
+	<!--                 EN: A dryad caste specialized in creating meat. Together with its Gauranlen tree, this dryad can generate harvestable meat on an ongoing basis. However, it is slow and ineffective at work or combat. -->
+	<AM_Tumorous.description>Каста дриад, специализирующаяся на создании мяса. Вместе со своим деревом Гауранлен эта дриада может постоянно генерировать пригодное к употреблению мясо. Однако она медлительна и неэффективна ни в работе, ни в бою.</AM_Tumorous.description>
+	
+	<!--            EN: corruptor dryad -->
+	<AM_Corruptor.label>испорченная</AM_Corruptor.label>
+	<!--                  EN: A dryad caste with the unique ability to produce corrupted Gauranlen pods and reproduce the Gauranlen tree along with its symbiote, the dryad queen. To do this, three corruptor dryads must slowly merge. -->
+	<AM_Corruptor.description>Каста дриад, обладающая уникальной способностью производить испорченные стручки Гауранлена и воспроизводить дерево Гауранлена вместе с его симбионтом - королевой дриад. Для этого три испорченные дриады должны медленно слиться воедино.</AM_Corruptor.description>
+</LanguageData>

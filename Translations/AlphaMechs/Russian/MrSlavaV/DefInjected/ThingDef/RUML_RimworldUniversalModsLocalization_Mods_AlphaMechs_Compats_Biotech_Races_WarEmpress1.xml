@@ -1,0 +1,21 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_WarEmpress.xml -->
+	<!--             EN: war empress -->
+	<AM_WarEmpress.label>военная императрица</AM_WarEmpress.label>
+	<!--                   EN: An ultra-heavy mech with a built-in mech gestator. Fed with appropriate resources, the War empress can form swarms of small melee-adept guttersnipe combat mechs within its massive carapace and deploy them into combat. The Empress is armed with a very dangerous and long ranged slug sniper turret that should be avoided at all costs, but the greatest threat comes from her sharp rending claws, which she uses to viciously lash at her targets. -->
+	<AM_WarEmpress.description>Сверхтяжёлый мех со встроенным гестатором. Получив достаточно ресурсов, Императрица войны выращивает внутри своего массивного панциря стаи небольших штурмовых мехов и выпускает их прямо в бой. Императрица вооружена крайне опасной дальнобойной снайперской турелью, но ещё страшнее её острые рвущие когти, которыми она яростно разрывает цели вблизи.</AM_WarEmpress.description>
+	<!--                     EN: left rending claws -->
+	<AM_WarEmpress.tools.0.label>левые рвущие когти</AM_WarEmpress.tools.0.label>
+	<!--                     EN: right rending claws -->
+	<AM_WarEmpress.tools.1.label>правые рвущие когти</AM_WarEmpress.tools.1.label>
+	<!--                     EN: голова -->
+	<AM_WarEmpress.tools.2.label>голова</AM_WarEmpress.tools.2.label>
+	<!--                   EN: sniper turret -->
+	<AM_Gun_SniperTurret.label>снайперская турель</AM_Gun_SniperTurret.label>
+	<!--                         EN: A powerful, long-range defense mechanism designed to take out enemy targets from a distance. Fires depleted uranium slugs at extreme velocities, capable of piercing even the toughest armor. -->
+	<AM_Gun_SniperTurret.description>Мощный защитный механизм дальнего действия, предназначенный для уничтожения вражеских целей на расстоянии. Стреляет снарядами из обеднённого урана с огромной скоростью, способными пробить даже самую прочную броню.</AM_Gun_SniperTurret.description>
+	<!--                           EN: выстрел -->
+	<AM_Gun_SniperTurret.verbs.0.label>выстрел</AM_Gun_SniperTurret.verbs.0.label>
+	<!--                      EN: heavy slug -->
+	<AM_Bullet_SniperTurret.label>тяжелая пуля</AM_Bullet_SniperTurret.label>
+</LanguageData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AB_MalevolentEye.label>недобрый глаз</AB_MalevolentEye.label>
+  <AB_ChocolateInEyes.label>шоколад в глазах</AB_ChocolateInEyes.label>
+  <AB_ChocolateInEyes.description>Шоколадная масса попала в глаза. Это ухудшает зрение, но со временем пройдет само.</AB_ChocolateInEyes.description>
+  <AB_StrawberryInEyes.label>клубничный джем в глазах</AB_StrawberryInEyes.label>
+  <AB_StrawberryInEyes.description>Клубничное лакомство в глазах. Мешает обзору, пока глаза не будут промыты.</AB_StrawberryInEyes.description>
+  <AB_CreamInEyes.label>взбитые сливки в глазах</AB_CreamInEyes.label>
+  <AB_CreamInEyes.description>Густые сливки попали на веки и роговицу, временно снижая резкость зрения.</AB_CreamInEyes.description>
+</LanguageData>

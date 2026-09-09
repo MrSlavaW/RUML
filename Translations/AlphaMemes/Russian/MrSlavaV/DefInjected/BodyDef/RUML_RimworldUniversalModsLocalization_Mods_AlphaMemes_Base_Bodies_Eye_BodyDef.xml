@@ -1,0 +1,17 @@
+<LanguageData>
+	<!-- 1.6\Defs\Bodies\Bodies_Eye.xml -->
+	<!--          EN: eye -->
+	<AM_EyeBody.label>глаз</AM_EyeBody.label>
+	<!--                                             EN: stomach pouch -->
+	<AM_EyeBody.corePart.parts.stomach_pouch.customLabel>желудочный мешок</AM_EyeBody.corePart.parts.stomach_pouch.customLabel>
+	<!--                                                     EN: gastrovascular cavity -->
+	<AM_EyeBody.corePart.parts.gastrovascular_cavity.customLabel>гастроваскулярная полость</AM_EyeBody.corePart.parts.gastrovascular_cavity.customLabel>
+	<!--                                              EN: eye -->
+	<AM_EyeBody.corePart.parts.Head.parts.eye.customLabel>глаз</AM_EyeBody.corePart.parts.Head.parts.eye.customLabel>
+	<!--                                              EN: first tentacle -->
+	<AM_EyeBody.corePart.parts.first_tentacle.customLabel>первое щупальце</AM_EyeBody.corePart.parts.first_tentacle.customLabel>
+	<!--                                               EN: second tentacle -->
+	<AM_EyeBody.corePart.parts.second_tentacle.customLabel>второе щупальце</AM_EyeBody.corePart.parts.second_tentacle.customLabel>
+	<!--                                              EN: third tentacle -->
+	<AM_EyeBody.corePart.parts.third_tentacle.customLabel>третье щупальце</AM_EyeBody.corePart.parts.third_tentacle.customLabel>
+</LanguageData>

@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_Misc\Apparel_Headgear.xml -->
+	<!--                    EN: mech master helmet -->
+	<AM_MechCommanderHelm.label>шлем мастера мехов</AM_MechCommanderHelm.label>
+	<!--                          EN: A heavy power armor helmet packed with mechanitor-assistance gear. The mech master helmet drastically amplifies a mechanitor's bandwidth, while being as protective as a marine helmet. -->
+	<AM_MechCommanderHelm.description>Тяжёлый шлем силовой брони, оснащённый вспомогательным оборудованием механитора. Шлем мастера мехов заметно увеличивает его пропускную способность, сохраняя уровень защиты морского шлема.</AM_MechCommanderHelm.description>
+	<!--                  EN: mech breaker helmet -->
+	<AM_MechBreakerHelm.label>шлем разрушителя мехов</AM_MechBreakerHelm.label>
+	<!--                        EN: A modified siegebreaker helmet designed to improve the abilities of a mechanitor even further. -->
+	<AM_MechBreakerHelm.description>Модифицированный осадный шлем, ещё сильнее расширяющий возможности механитора.</AM_MechBreakerHelm.description>
+</LanguageData>

@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- 1.6\Mods\AlphaPrefabs\Defs\PreceptDefs\Precepts_AlphaPrefabs.xml -->
+	
+	<!--                         EN: preferred -->
+	<AM_PrefabBuying_Preferred.label>предпочтительна</AM_PrefabBuying_Preferred.label>
+	<!--                               EN: Acquiring prefab structures from merchants is a good use of our money.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Provides a mood bonus when acquiring prefabs from merchants. This only applies to trading them, not buying them from the prefab catalog. -->
+	<AM_PrefabBuying_Preferred.description>Приобретение сборных конструкций у торговцев — хорошее использование наших денег.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n — Обеспечивает бонус настроения при приобретении сборных конструкций у торговцев. Это относится только к их торговле, а не к покупке из каталога сборных конструкций.</AM_PrefabBuying_Preferred.description>
+	
+	<!--                         EN: easy -->
+	<AM_PrefabAcquisition_Easy.label>сделка</AM_PrefabAcquisition_Easy.label>
+	<!--                               EN: In a pioneering deal with orbital supply enterprises, our colony has secured lucrative contracts that extend beyond mere financial gains. Annually, as part of this groundbreaking alliance, these out-of-world companies generously provide our settlement with a supply of free prefabricated structures.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Will get a free prefab once a year, assuming the colony has the necessary research to build all its components. -->
+	<AM_PrefabAcquisition_Easy.description>Заключив новаторскую сделку с предприятиями орбитального снабжения, наше поселение заключила выгодные контракты, выходящие за рамки простой финансовой выгоды. Ежегодно в рамках этого новаторского альянса эти иностранные компании щедро обеспечивают наше поселение бесплатными сборными конструкциями.\n\n&lt;color=#E5E54C&gt;Геймплейный эффект:&lt;/color&gt;\n - Получите бесплатный сборный дом раз в год, при условии, что в поселении есть необходимые исследования для создания всех его компонентов.</AM_PrefabAcquisition_Easy.description>
+</LanguageData>

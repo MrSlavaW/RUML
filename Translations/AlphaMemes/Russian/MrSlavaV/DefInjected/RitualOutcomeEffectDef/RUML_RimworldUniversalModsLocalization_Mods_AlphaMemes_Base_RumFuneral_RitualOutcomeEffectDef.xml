@@ -1,0 +1,28 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\RumFuneral.xml -->
+	
+	<!--                         EN: Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days. -->
+	<AM_RumBurialOutcome.description>В зависимости от качества ритуала участники получат от {MINMOOD} до {MAXMOOD} настроения на {MOODDAYS} дней.</AM_RumBurialOutcome.description>
+	<!--                                    EN: Terrible -->
+	<AM_RumBurialOutcome.outcomeChances.0.label>Ужасно</AM_RumBurialOutcome.outcomeChances.0.label>
+	<!--                                          EN: The {0} was terrible! The speech was boring and it was disrespectful of their legacy. -->
+	<AM_RumBurialOutcome.outcomeChances.0.description>{0} прошло ужасно! Речь была скучной и неуважительной по отношению к их наследию..</AM_RumBurialOutcome.outcomeChances.0.description>
+	<!--                                    EN: Lackluster -->
+	<AM_RumBurialOutcome.outcomeChances.1.label>Неубедительно</AM_RumBurialOutcome.outcomeChances.1.label>
+	<!--                                          EN: The {0} was lackluster. The speech was long-winded and did not honour them. -->
+	<AM_RumBurialOutcome.outcomeChances.1.description>{0} было неубедительно. Речь была длинной и не делала им чести..</AM_RumBurialOutcome.outcomeChances.1.description>
+	<!--                                    EN: Good -->
+	<AM_RumBurialOutcome.outcomeChances.2.label>Хорошо</AM_RumBurialOutcome.outcomeChances.2.label>
+	<!--                                          EN: The {0} was good. The speaker's final words provided a path for everyone to move on. -->
+	<AM_RumBurialOutcome.outcomeChances.2.description>{0} прошло хорошо. Заключительные слова оратора дали всем возможность двигаться дальше.</AM_RumBurialOutcome.outcomeChances.2.description>
+	<!--                                    EN: Amazing -->
+	<AM_RumBurialOutcome.outcomeChances.3.label>Удивительно</AM_RumBurialOutcome.outcomeChances.3.label>
+	<!--                                          EN: The {0} was heartwarming. The speech was captivating and heartfelt, and everyone came away focused on good memories. -->
+	<AM_RumBurialOutcome.outcomeChances.3.description>{0} было очень трогательно. Речь была захватывающей и проникновенной, и все ушли, сосредоточившись на хороших воспоминаниях.</AM_RumBurialOutcome.outcomeChances.3.description>
+	<!--                           EN: moral guide present -->
+	<AM_RumBurialOutcome.comps.0.label>моральный ориентир</AM_RumBurialOutcome.comps.0.label>
+	<!--                           EN: participant count -->
+	<AM_RumBurialOutcome.comps.1.label>количество участников</AM_RumBurialOutcome.comps.1.label>
+	<!--                                             EN: The {RITUAL} was spectacular! Our offering of {CORPSE} to nature has improved our ecosystem and the animal population has increased -->
+	<AM_RumBurialOutcome.modExtensions.0.bestOutcomeDesc>{RITUAL} был впечатляющим! Наше подношение {CORPSE} природе улучшило нашу экосистему, и популяция животных увеличилась</AM_RumBurialOutcome.modExtensions.0.bestOutcomeDesc>
+</LanguageData>

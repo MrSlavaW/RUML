@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\AlphaBiomes\Defs\GeneDefs\GeneDefs_Forsaken_AlphaBiomes.xml -->
+	<!--               EN: crag affinity -->
+	<AG_CragAffinity.label>Отреченный Крэгах</AG_CragAffinity.label>
+	<!--                     EN: Carriers of this gene feel completely at home in the Forsaken Crags, and will be immune to the oppressive feelings of the preternatural darkness. -->
+	<AG_CragAffinity.description>Носители этого гена чувствуют себя в Отреченных Крэгах как дома и будут невосприимчивы к гнетущим чувствам предутренней тьмы.</AG_CragAffinity.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Bellicor.xml -->
+	<!--                EN: bellicor -->
+	<AM_Mech_Bellicor.label>белликор</AM_Mech_Bellicor.label>
+	<!--                      EN: An advanced combat mechanoid designed to excel in high-risk combat situations. With a height of around 5 feet, it is armed with a rapid-firing tactical mechanoid shotgun. Unlike its predecessor, the Militor, the Bellicor is highly durable and has the ability to withstand intense battles. It is often deployed in the front lines to eliminate high priority targets and secure strategic objectives. Due to its advanced capabilities, the Bellicor is more expensive to produce and maintain, but is still highly valued by those who seek to dominate the battlefield. -->
+	<AM_Mech_Bellicor.description>Продвинутый боевой механоид, созданный для самых опасных столкновений. Ростом около пяти футов, он вооружён скорострельным тактическим дробовиком механоидов. В отличие от своего предшественника, милитора, белликор гораздо прочнее и способен выдерживать затяжные бои. Его часто выпускают на передовую для уничтожения приоритетных целей и удержания важных позиций. Из-за своих возможностей белликор дороже в производстве и обслуживании, но остаётся ценным активом для тех, кто хочет доминировать на поле боя.</AM_Mech_Bellicor.description>
+	<!--                        EN: голова -->
+	<AM_Mech_Bellicor.tools.0.label>голова</AM_Mech_Bellicor.tools.0.label>
+</LanguageData>

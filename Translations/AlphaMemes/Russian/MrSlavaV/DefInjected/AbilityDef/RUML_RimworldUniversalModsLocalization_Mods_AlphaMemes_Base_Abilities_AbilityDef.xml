@@ -1,0 +1,47 @@
+<LanguageData>
+	<!-- 1.6\Defs\AbilityDefs\Abilities.xml -->
+	<!--                  EN: analyze creature -->
+	<AM_AnalyzeCreature.label>анализировать существо</AM_AnalyzeCreature.label>
+	<!--                        EN: This ability allows the colonist to scan animals in the map and add them to a genetic database, receiving bonuses depending on the number of animals scanned.\n\nIt is very low range and some animals will move out of range constantly, so they can be downed first to make it easier.\n\nNote however that it won't work on dead animals, and it will also fail if no database has been built yet. -->
+	<AM_AnalyzeCreature.description>Эта способность позволяет поселенцу сканировать животных на карте и добавлять их в генетическую базу данных, получая бонусы в зависимости от количества просканированных животных.\n\nДиапазон очень мал, и некоторые животные будут постоянно выходить за его пределы, поэтому можно сначала сбить с ног животных, чтобы упростить задачу.\n\nОбратите внимание, однако, что способность не будет работать с мертвыми животными, а также не сработает, если база данных еще не создана.</AM_AnalyzeCreature.description>
+	
+	<!--               EN: convert to pristine limestone -->
+	<AM_ConvertStone.label>превратить в Первозданный известняк</AM_ConvertStone.label>
+	<!--                     EN: This ability allows the master architect to convert any stone block (for mod compatibility defined as anything with "Blocks" in its defName) to Pristine limestone, a stone that is both beautiful and damage resistant.\n\nTo do this, the architect uses... err... mechanites... or something... Look, I just wanted a new rock type to build pretty pyramids with, ok? -->
+	<AM_ConvertStone.description>Эта способность позволяет мастеру-архитектору преобразовать любой каменный блок в Первозданный известняк, камень, который одновременно красив и устойчив к повреждениям.\ n\ n Для этого архитектор использует... э-э-э... механитов... или что-то в этом роде... Слушай, я просто хотел новый тип камня, чтобы строить красивые пирамиды, хорошо?</AM_ConvertStone.description>
+	
+	<!--                     EN: finish construction -->
+	<AM_FinishConstruction.label>закончить строительство</AM_FinishConstruction.label>
+	<!--                           EN: Once every 10 days the master architect can use this ability to finish the construction of a blueprint. -->
+	<AM_FinishConstruction.description>Раз в 10 дней мастер-архитектор может использовать эту способность, чтобы завершить создание проекта.</AM_FinishConstruction.description>
+	
+	<!--                   EN: ocular conversion -->
+	<AM_OcularConversion.label>глазное преобразование</AM_OcularConversion.label>
+	<!--                         EN: Converts trees. -->
+	<AM_OcularConversion.description>Преобразует деревья.</AM_OcularConversion.description>
+	
+	<!--              EN: change style -->
+	<AM_ChangeStyle.label>изменить стиль</AM_ChangeStyle.label>
+	<!--                    EN: Change the styling of an item or building. Bear in mind that only the styles present in the colony's primary ideo can be used to swap (this can be changed in mod options to allow ALL possible styles). -->
+	<AM_ChangeStyle.description>Изменить стиль предмета или здания. Имейте в виду, что для обмена можно использовать только стили, присутствующие в основной идеологии поселения (это можно изменить в настройках мода, чтобы разрешить ВСЕ возможные стили).</AM_ChangeStyle.description>
+	
+	<!--                    EN: change style, random -->
+	<AM_ChangeStyleRandom.label>изменить стиль, случайный</AM_ChangeStyleRandom.label>
+	<!--                          EN: Change the styling of an item or building to a random supported style. Bear in mind that only the styles present in the colony's primary ideo can be used to swap (this can be changed in mod options to allow ALL possible styles). -->
+	<AM_ChangeStyleRandom.description>Изменить стиль предмета или здания на случайный поддерживаемый стиль. Имейте в виду, что для смены можно использовать только стили, присутствующие в основном идео поселения (это можно изменить в опциях мода, чтобы разрешить ВСЕ возможные стили).</AM_ChangeStyleRandom.description>
+	
+	<!--                    EN: change style on area -->
+	<AM_ChangeStyleRadius.label>изменение стиля области</AM_ChangeStyleRadius.label>
+	<!--                          EN: Change the styling of items or buildings in an area. Bear in mind that only the styles present in the colony's primary ideo can be used to swap (this can be changed in mod options to allow ALL possible styles). -->
+	<AM_ChangeStyleRadius.description>Изменить стиль предметов или зданий в зоне. Имейте в виду, что для подмены можно использовать только стили, присутствующие в основном идео поселения (это можно изменить в опциях мода, чтобы разрешить все возможные стили).</AM_ChangeStyleRadius.description>
+	
+	<!--                     EN: change style, map-wide -->
+	<AM_ChangeStyle_AllMap.label>изменить стиль, по всей карте</AM_ChangeStyle_AllMap.label>
+	<!--                           EN: Change the styling of all items or buildings in the whole map. Bear in mind that only the styles present in the colony's primary ideo can be used to swap (this can be changed in mod options to allow ALL possible styles). -->
+	<AM_ChangeStyle_AllMap.description>Изменить стиль всех предметов или зданий на всей карте. Имейте в виду, что для подмены можно использовать только стили, присутствующие в основном идео поселения (это можно изменить в опциях мода, чтобы разрешить ВСЕ возможные стили).</AM_ChangeStyle_AllMap.description>
+	
+	<!--                          EN: swap style A with style B, map-wide -->
+	<AM_ChangeStyle_AllMap_Swap.label>Поменяйте стиль A на стиль B, по всей карте</AM_ChangeStyle_AllMap_Swap.label>
+	<!--                                EN: Swaps all objects in the map belonging to style A to style B, leaving all other styled objects untouched. Bear in mind that only the styles present in the colony's primary ideo can be used to swap (this can be changed in mod options to allow ALL possible styles). -->
+	<AM_ChangeStyle_AllMap_Swap.description>Меняет все объекты на карте, принадлежащие стилю A, на стиль B, оставляя все остальные стилизованные объекты нетронутыми. Имейте в виду, что для обмена можно использовать только стили, присутствующие в основном идео поселения (это можно изменить в опциях мода, чтобы разрешить ВСЕ возможные стили).</AM_ChangeStyle_AllMap_Swap.description>
+</LanguageData>

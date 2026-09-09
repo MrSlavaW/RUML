@@ -1,0 +1,8 @@
+<LanguageData>
+	<AG_FasterAging.label>Ускоренное старение</AG_FasterAging.label>
+	<AG_FasterAging.description>Носители этого гена стареют быстрее обычного. Это касается и детей, и взрослых, что даёт как преимущества, так и недостатки.</AG_FasterAging.description>
+	<AG_FasterAging.customEffectDescriptions.0>Возраст будет прогрессировать на 50% быстрее.</AG_FasterAging.customEffectDescriptions.0>
+	<AG_SlowerAging.label>Более медленное старение</AG_SlowerAging.label>
+	<AG_SlowerAging.description>Носители этого гена стареют медленнее обычного. Это касается и детей, и взрослых, что даёт как преимущества, так и недостатки.</AG_SlowerAging.description>
+	<AG_SlowerAging.customEffectDescriptions.0>Возраст будет прогрессировать на 50% медленнее.</AG_SlowerAging.customEffectDescriptions.0>
+</LanguageData>

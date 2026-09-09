@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_RoughLiving.xml -->
+	<!--                   EN: slept in wooden bed -->
+	<AM_SleptInWoodenBed.label>спал в деревянной кровати</AM_SleptInWoodenBed.label>
+	<!--                   EN: ate in wooden table -->
+	<AM_AteInWoodenTable.label>ел на древянном столе</AM_AteInWoodenTable.label>
+	<!--                   EN: ate without a table -->
+	<AM_AteWithoutATable.label>ел без стола</AM_AteWithoutATable.label>
+</LanguageData>

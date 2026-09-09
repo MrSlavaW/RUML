@@ -1,0 +1,5 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\RitualDefs\BlastOffFuneral.xml -->
+	<!--                                      EN: Once a {IDEO} member dies, other {MEMBERS} witness their friend return to space. -->
+	<AM_BlastOffFuneralPattern.ritualExpectedDesc>Когда член {IDEO} умирает, другие {MEMBERS} становятся свидетелями того, как их друг возвращается в космос.</AM_BlastOffFuneralPattern.ritualExpectedDesc>
+</LanguageData>

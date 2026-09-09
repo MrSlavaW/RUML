@@ -1,0 +1,131 @@
+<LanguageData>
+	<!-- 1.6\Defs\GeneDefs\GeneDefs_Cosmetic_Horns.xml -->
+	<!--                    EN: chameleon yak horns -->
+	<AG_ChameleonYakHorns.label>Рога яка-хамелеона</AG_ChameleonYakHorns.label>
+	<!--                          EN: Carriers of this gene grow two curved horns protruding from the forehead. -->
+	<AG_ChameleonYakHorns.description>У носителей этого гена вырастают два изогнутых рога, выступающих изо лба.</AG_ChameleonYakHorns.description>
+	<!--                                                EN: chameleon yak -->
+	<AG_ChameleonYakHorns.symbolPack.prefixSymbols.0.symbol>як хамелеон</AG_ChameleonYakHorns.symbolPack.prefixSymbols.0.symbol>
+	<!--                  EN: devilsheep horns -->
+	<AG_DevilsheepHorns.label>Дьявольские рога</AG_DevilsheepHorns.label>
+	<!--                        EN: Carriers of this gene grow two short sheep horns protruding from the forehead. -->
+	<AG_DevilsheepHorns.description>У носителей этого гена вырастают два коротких овечьих рога, выступающих изо лба.</AG_DevilsheepHorns.description>
+	<!--            EN: bull horns -->
+	<AG_BullHorns.label>Бычьи рога</AG_BullHorns.label>
+	<!--                  EN: Carriers of this gene grow two large bull horns protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes. -->
+	<AG_BullHorns.description>У носителей этого гена вырастают два больших бычьих рога, выступающих изо лба. Они не являются чисто косметическими, так как могут быть использованы в оскорбительных целях.</AG_BullHorns.description>
+	<!--                                 EN: Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack -->
+	<AG_BullHorns.customEffectDescriptions.0>Увеличивает урон владельца, добавляя к атаке ближнего боя 16 ед. урона, а время восстановления составляет 2 секунды.</AG_BullHorns.customEffectDescriptions.0>
+	<!--              EN: antlers -->
+	<AG_AntlerHorns.label>Оленьи рога</AG_AntlerHorns.label>
+	<!--                    EN: Carriers of this gene grow two large antlers protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes. -->
+	<AG_AntlerHorns.description>У носителей этого гена вырастают два больших рога, выступающих изо лба. Они не являются чисто косметическими, так как могут быть использованы в оскорбительных целях.</AG_AntlerHorns.description>
+	<!--                                   EN: Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack -->
+	<AG_AntlerHorns.customEffectDescriptions.0>Увеличивает урон владельца, добавляя к атаке ближнего боя 16 ед. урона, а время восстановления составляет 2 секунды.</AG_AntlerHorns.customEffectDescriptions.0>
+	<!--                    EN: rayhound tentacles -->
+	<AG_RayHoundTentacles.label>Щупальца рейхаунда</AG_RayHoundTentacles.label>
+	<!--                          EN: Carriers of this gene grow two large rayhound tentacles protruding from the nose. -->
+	<AG_RayHoundTentacles.description>У носителей этого гена вырастают два больших щупальца райхаунда, выступающих из носа.</AG_RayHoundTentacles.description>
+	<!--                EN: eldritch horns -->
+	<AG_EldritchHorns.label>Жуткие рога</AG_EldritchHorns.label>
+	<!--                      EN: Carriers of this gene grow two huge eldritch antlers protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes. -->
+	<AG_EldritchHorns.description>У носителей этого гена вырастают два огромных сверхъестественных рога, выступающих изо лба. Они не являются чисто косметическими, так как могут быть использованы в оскорбительных целях.</AG_EldritchHorns.description>
+	<!--                                     EN: Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack -->
+	<AG_EldritchHorns.customEffectDescriptions.0>Увеличивает урон в секунду владельца, добавляя к атаке ближнего боя 16 ед. урона, а время восстановления составляет 2 секунды.</AG_EldritchHorns.customEffectDescriptions.0>
+	<!--                                             EN: Fresh, Rotting -->
+	<AG_EldritchHorns.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_EldritchHorns.renderNodeProperties.0.rotDrawMode>
+	<!--            EN: horn crown -->
+	<AG_HornCrown.label>Роговая корона</AG_HornCrown.label>
+	<!--                  EN: Carriers of this gene grow a huge crown of sharp horns protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes. -->
+	<AG_HornCrown.description>У носителей этого гена вырастает огромная корона из острых рогов, выступающих изо лба. Они не являются чисто косметическими, так как могут быть использованы в оскорбительных целях.</AG_HornCrown.description>
+	<!--                                 EN: Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack -->
+	<AG_HornCrown.customEffectDescriptions.0>Увеличивает урон в секунду владельца, добавляя к атаке ближнего боя 16 ед. урона, а время восстановления составляет 2 секунды.</AG_HornCrown.customEffectDescriptions.0>
+	<!--                                         EN: Fresh, Rotting -->
+	<AG_HornCrown.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_HornCrown.renderNodeProperties.0.rotDrawMode>
+	<!--                 EN: upper tentacles -->
+	<AG_UpperTentacles.label>Головные щупальца</AG_UpperTentacles.label>
+	<!--                       EN: Carriers of this gene grow several tentacles protruding from the forehead. -->
+	<AG_UpperTentacles.description>У носителей этого гена вырастает несколько щупалец, выступающих изо лба.</AG_UpperTentacles.description>
+	<!--                                              EN: Fresh, Rotting -->
+	<AG_UpperTentacles.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_UpperTentacles.renderNodeProperties.0.rotDrawMode>
+	<!--         EN: eye stalks -->
+	<AG_Stalks.label>Глазные стебельки</AG_Stalks.label>
+	<!--               EN: Carriers of this gene have no hair, instead growing non-functional eye stalks on their head. -->
+	<AG_Stalks.description>У носителей этого гена нет волос, вместо них на голове растут нефункциональные глазные стебельки.</AG_Stalks.description>
+	<!--                      EN: ornate eldritch horns -->
+	<AG_OrnateEldritchHorns.label>Рога архидемона</AG_OrnateEldritchHorns.label>
+	<!--                            EN: Carriers of this gene grow two huge ornate eldritch horns protruding from the forehead. -->
+	<AG_OrnateEldritchHorns.description>У носителей этого гена вырастают два огромных богато украшенных сверхъестественных рога, выступающих изо лба.</AG_OrnateEldritchHorns.description>
+	<!--             EN: demon horns -->
+	<AG_DemonHorns.label>Рога демона</AG_DemonHorns.label>
+	<!--                   EN: Carriers of this gene grow two huge demon horns protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes. -->
+	<AG_DemonHorns.description>У носителей этого гена вырастают два огромных демонических рога, торчащих изо лба. Они не являются чисто косметическими, поскольку могут использоваться в оскорбительных целях.</AG_DemonHorns.description>
+	<!--                                  EN: Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack -->
+	<AG_DemonHorns.customEffectDescriptions.0>Увеличивает урон владельца, добавляя к атаке ближнего боя 16 ед. урона, а время восстановления составляет 2 секунды.</AG_DemonHorns.customEffectDescriptions.0>
+	<!--                                          EN: Fresh, Rotting -->
+	<AG_DemonHorns.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_DemonHorns.renderNodeProperties.0.rotDrawMode>
+	<!--                      EN: quad demon horns -->
+	<AG_DemonHornsQuadruple.label>Четыре рога демона</AG_DemonHornsQuadruple.label>
+	<!--                            EN: Carriers of this gene grow four huge demon horns protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes. -->
+	<AG_DemonHornsQuadruple.description>У носителей этого гена вырастают четыре огромных демонических рога, торчащих изо лба. Они не являются чисто косметическими, поскольку могут использоваться в оскорбительных целях.</AG_DemonHornsQuadruple.description>
+	<!--                                           EN: Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack -->
+	<AG_DemonHornsQuadruple.customEffectDescriptions.0>Увеличивает урон владельца, добавляя к атаке ближнего боя 16 ед. урона, а время восстановления составляет 2 секунды.</AG_DemonHornsQuadruple.customEffectDescriptions.0>
+	<!--                                                   EN: Fresh, Rotting -->
+	<AG_DemonHornsQuadruple.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_DemonHornsQuadruple.renderNodeProperties.0.rotDrawMode>
+	<!--             EN: terror mask -->
+	<AG_TerrorMask.label>Маска ужаса</AG_TerrorMask.label>
+	<!--                   EN: Carriers of this gene grow a terrifying bone mask that covers their entire face. -->
+	<AG_TerrorMask.description>У носителей этого гена вырастает ужасающая костяная маска, закрывающая все лицо.</AG_TerrorMask.description>
+	<!--                                          EN: Fresh, Rotting -->
+	<AG_TerrorMask.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_TerrorMask.renderNodeProperties.0.rotDrawMode>
+	<!--                  EN: drakonori horns -->
+	<AG_Drakonori_Horns.label>рога драконори</AG_Drakonori_Horns.label>
+	<!--                        EN: Carriers of this gene grow two short draconic horns protruding from the forehead. -->
+	<AG_Drakonori_Horns.description>У носителей этого гена вырастают два коротких драконьих рога, торчащих изо лба.</AG_Drakonori_Horns.description>
+	<!--                                               EN: Fresh, Rotting -->
+	<AG_Drakonori_Horns.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_Drakonori_Horns.renderNodeProperties.0.rotDrawMode>
+	<!--                 EN: nereid glow lure -->
+	<AG_NereidGlowlure.label>Иллиций</AG_NereidGlowlure.label>
+	<!--                       EN: Carriers of this gene grow a unique bioluminescent organ that emits light, which attracts prey in the dark depths of the ocean where Nereids originate. -->
+	<AG_NereidGlowlure.description>У носителей этого гена вырастает уникальный биолюминесцентный орган, излучающий свет, который привлекает добычу в темные глубины океана, где зарождаются нереиды.</AG_NereidGlowlure.description>
+	<!--                                              EN: Fresh, Rotting -->
+	<AG_NereidGlowlure.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_NereidGlowlure.renderNodeProperties.0.rotDrawMode>
+	<!--                    EN: forsaken bull horns -->
+	<AG_ForsakenHornsBull.label>бычьи рога Отреченных</AG_ForsakenHornsBull.label>
+	<!--                          EN: Carriers of this gene grow two huge bull-like horns with yellow tips protruding from the forehead as well as several smaller horns on their chin and atop their head. These are not purely cosmetic, as they can be used for offensive purposes. -->
+	<AG_ForsakenHornsBull.description>У носителей этого гена вырастают два огромных бычьих рога с желтыми кончиками, торчащих изо лба, а также несколько рогов поменьше на подбородке и на макушке. Они не являются чисто косметическими, так как могут использоваться в наступательных целях.</AG_ForsakenHornsBull.description>
+	<!--                                         EN: Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack -->
+	<AG_ForsakenHornsBull.customEffectDescriptions.0>Увеличивает скорость атаки носителя, добавляя атаку ближнего боя с уроном 16 единиц, 2 секунды промедления</AG_ForsakenHornsBull.customEffectDescriptions.0>
+	<!--                     EN: forsaken sheep horns -->
+	<AG_ForsakenHornsSheep.label>овечьи рога Отреченных</AG_ForsakenHornsSheep.label>
+	<!--                           EN: Carriers of this gene grow two huge sheep-like horns with yellow tips protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes. -->
+	<AG_ForsakenHornsSheep.description>У носителей этого гена вырастают два огромных овечьих рога с желтыми кончиками, торчащими изо лба. Они не являются чисто косметическими, так как могут использоваться в наступательных целях.</AG_ForsakenHornsSheep.description>
+	<!--                                          EN: Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack -->
+	<AG_ForsakenHornsSheep.customEffectDescriptions.0>Увеличивает урон носителя, добавляя атаку ближнего боя с уроном 16 единиц, 2 секунды промедления</AG_ForsakenHornsSheep.customEffectDescriptions.0>
+	<!--                         EN: forsaken reptilian horns -->
+	<AG_ForsakenHornsReptilian.label>рога рептилий Отреченных</AG_ForsakenHornsReptilian.label>
+	<!--                               EN: Carriers of this gene grow two reptilian horns with yellow tips protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes. -->
+	<AG_ForsakenHornsReptilian.description>У носителей этого гена вырастают два рептилоидных рога с желтыми кончиками, торчащие изо лба. Они не являются чисто косметическими, так как могут использоваться в наступательных целях.</AG_ForsakenHornsReptilian.description>
+	<!--                                              EN: Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack -->
+	<AG_ForsakenHornsReptilian.customEffectDescriptions.0>Увеличивает скорость атаки носителя, добавляя атаку ближнего боя с уроном 16 единиц, 2 секунды промедления</AG_ForsakenHornsReptilian.customEffectDescriptions.0>
+	<!--                     EN: forsaken horn crown -->
+	<AG_ForsakenHornsCrown.label>рогатая корона Отреченных</AG_ForsakenHornsCrown.label>
+	<!--                           EN: Carriers of this gene grow four of small horns with yellow tips protruding from the forehead. These are not long enough to be practical in a fight. -->
+	<AG_ForsakenHornsCrown.description>У носителей этого гена вырастают четыре небольших рога с желтыми кончиками, торчащих изо лба. Они недостаточно длинные, чтобы быть полезными в бою.</AG_ForsakenHornsCrown.description>
+	<!--                     EN: forsaken devil horns -->
+	<AG_ForsakenHornsDevil.label>рога дьявола Отреченных</AG_ForsakenHornsDevil.label>
+	<!--                           EN: Carriers of this gene grow two devilish horns with yellow tips protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes. -->
+	<AG_ForsakenHornsDevil.description>У носителей этого гена вырастают два дьявольских рога с желтыми кончиками, торчащие изо лба. Они не являются чисто косметическими, так как могут использоваться в оскорбительных целях.</AG_ForsakenHornsDevil.description>
+	<!--                                          EN: Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack -->
+	<AG_ForsakenHornsDevil.customEffectDescriptions.0>Увеличивает урон носителя, добавляя атаку ближнего боя с уроном 16 единиц, 2 секунды промедления</AG_ForsakenHornsDevil.customEffectDescriptions.0>
+	<!--                    EN: forsaken goat horns -->
+	<AG_ForsakenHornsGoat.label>козлиные рога Отреченных</AG_ForsakenHornsGoat.label>
+	<!--                          EN: Carriers of this gene grow two straight goat horns with yellow tips protruding from the forehead. These are not long enough to be practical in a fight. -->
+	<AG_ForsakenHornsGoat.description>У носителей этого гена вырастают два прямых козьих рога с желтыми кончиками, торчащими изо лба. Они недостаточно длинные, чтобы быть полезными в драке.</AG_ForsakenHornsGoat.description>
+	<!--                    EN: forsaken quad horns -->
+	<AG_ForsakenQuadruple.label>четырехрогий Отреченных</AG_ForsakenQuadruple.label>
+	<!--                          EN: Carriers of this gene grow four twisted horns with yellow tips protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes. -->
+	<AG_ForsakenQuadruple.description>У носителей этого гена вырастают четыре витых рога с желтыми кончиками, торчащими изо лба. Они не являются чисто косметическими, так как могут использоваться в наступательных целях.</AG_ForsakenQuadruple.description>
+	<!--                                         EN: Increases the carrier's dps by adding a 16 Stab damage, 2 seconds cooldown melee attack -->
+	<AG_ForsakenQuadruple.customEffectDescriptions.0>Увеличивает урон носителя, добавляя ему атаку ближнего боя с уроном 16 единиц и периодом ожидания 2 секунды</AG_ForsakenQuadruple.customEffectDescriptions.0>
+</LanguageData>

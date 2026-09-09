@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_Misc\Apparel_Mech.xml -->
+	<!--                              EN: mechanite shield unit -->
+	<AM_Apparel_ExpandedHeavyShield.label>Блок механитового щита</AM_Apparel_ExpandedHeavyShield.label>
+	<!--                                    EN: A mechanite enhanced projectile-repulsion device. The user can shoot out, but the shield will block shots coming in. This shield only protects the user, not those around them. It does nothing against melee attacks or heat. The shield will break instantly if hit by EMP. This shield seems to be bigger and stronger than usual. -->
+	<AM_Apparel_ExpandedHeavyShield.description>Механитовое усовершенствованное устройство для отталкивания снарядов. Пользователь может стрелять, но щит блокирует попадающие выстрелы. Этот щит защищает только пользователя, а не окружающих. Он ничего не делает против атак ближнего боя или тепла. Щит мгновенно сломается при попадании ЭМИ. Этот щит кажется больше и сильнее, чем обычно.</AM_Apparel_ExpandedHeavyShield.description>
+</LanguageData>

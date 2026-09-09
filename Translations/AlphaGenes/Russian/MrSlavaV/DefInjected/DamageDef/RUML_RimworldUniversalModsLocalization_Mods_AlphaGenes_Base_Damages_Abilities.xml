@@ -1,0 +1,35 @@
+<LanguageData>
+	<!-- 1.6\Defs\DamageDefs\Damages_Abilities.xml -->
+	<!--              EN: blunt -->
+	<AG_RangedBlunt.label>Раздавлен</AG_RangedBlunt.label>
+	<!--                     EN: {0} has been crushed to death. -->
+	<AG_RangedBlunt.deathMessage>{0} был раздавлен насмерть.</AG_RangedBlunt.deathMessage>
+	<!--           EN: electric shock -->
+	<AG_Electric.label>Поражение электрическим током</AG_Electric.label>
+	<!--                  EN: {0} has been electrocuted to death. -->
+	<AG_Electric.deathMessage>{0} был убит электрическим током.</AG_Electric.deathMessage>
+	<!--           EN: acid -->
+	<AG_AcidSpit.label>Разъеден</AG_AcidSpit.label>
+	<!--                  EN: {0} has been corroded to death. -->
+	<AG_AcidSpit.deathMessage>{0} был разъеден насмерть.</AG_AcidSpit.deathMessage>
+	<!--                 EN: petrifying gaze -->
+	<AG_PetrifyingGaze.label>Взгляд окаменения</AG_PetrifyingGaze.label>
+	<!--                        EN: {0} has been petrified. -->
+	<AG_PetrifyingGaze.deathMessage>{0} окаменел.</AG_PetrifyingGaze.deathMessage>
+	<!--                    EN: sterilizing breath -->
+	<AG_SterilizingBreath.label>Очищающее дыхание</AG_SterilizingBreath.label>
+	<!--                           EN: {0} был убит. -->
+	<AG_SterilizingBreath.deathMessage>{0} был убит.</AG_SterilizingBreath.deathMessage>
+	<!--                EN: sonic burst -->
+	<AG_BansheeScream.label>крик банши</AG_BansheeScream.label>
+	<!--                       EN: {0} был убит. -->
+	<AG_BansheeScream.deathMessage>{0} был убит.</AG_BansheeScream.deathMessage>
+	<!--                 EN: freezing breath -->
+	<AG_FreezingBreath.label>леденящее дыхание</AG_FreezingBreath.label>
+	<!--                        EN: {0} has succumbed to frostbite. -->
+	<AG_FreezingBreath.deathMessage>{0} скончался от обморожения.</AG_FreezingBreath.deathMessage>
+	<!--                EN: noxious breath -->
+	<AG_NoxiousBreath.label>зловонное дыхание</AG_NoxiousBreath.label>
+	<!--                       EN: {0} был убит. -->
+	<AG_NoxiousBreath.deathMessage>{0} был убит.</AG_NoxiousBreath.deathMessage>
+</LanguageData>

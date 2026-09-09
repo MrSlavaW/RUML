@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaRacesExpandedPhytokin\Defs\ThingDefs_Races\Races_OcularSlinger.xml -->
+	<!--                EN: ocular slinger -->
+	<AG_OcularSlinger.label>окулярный скорпион</AG_OcularSlinger.label>
+	<!--                                   EN: Plural ocular slinger -->
+	<AG_OcularSlinger.lifeStages.0.labelPlural>окулярные скорпионы</AG_OcularSlinger.lifeStages.0.labelPlural>
+</LanguageData>

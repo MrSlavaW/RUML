@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaBrewingExpanded\Defs\PreceptDefs\Precepts_Tea.xml -->
+	<!--                                                 EN: drank psychite tea -->
+	<AM_TeaDrinking_Required_DrankPsychiteTea.stages.0.label>выпил психиновый чай</AM_TeaDrinking_Required_DrankPsychiteTea.stages.0.label>
+	<!--                                                       EN: That wasn't real tea, and very simple, but it had a pleasant flavor. It hit the spot. -->
+	<AM_TeaDrinking_Required_DrankPsychiteTea.stages.0.description>Это был не настоящий чай, и он был очень простым, но у него был приятный вкус. Он пришелся кстати.</AM_TeaDrinking_Required_DrankPsychiteTea.stages.0.description>
+	<!--                                         EN: drank tea -->
+	<AM_TeaDrinking_Required_DrankTea.stages.0.label>выпил чай</AM_TeaDrinking_Required_DrankTea.stages.0.label>
+	<!--                                               EN: That tea was refreshing and comforting. A nice moment of calm. -->
+	<AM_TeaDrinking_Required_DrankTea.stages.0.description>Этот чай был освежающим и успокаивающим. Приятный момент покоя.</AM_TeaDrinking_Required_DrankTea.stages.0.description>
+	<!--                                                  EN: drank specialty tea -->
+	<AM_TeaDrinking_Required_DrankSpecialtyTea.stages.0.label>выпил специальный чай</AM_TeaDrinking_Required_DrankSpecialtyTea.stages.0.label>
+	<!--                                                        EN: That specialty tea was exquisite—rich, fragrant, and exactly what I needed. -->
+	<AM_TeaDrinking_Required_DrankSpecialtyTea.stages.0.description>Этот специальный чай был изысканным — насыщенным, ароматным и именно тем, что мне было нужно.</AM_TeaDrinking_Required_DrankSpecialtyTea.stages.0.description>
+</LanguageData>

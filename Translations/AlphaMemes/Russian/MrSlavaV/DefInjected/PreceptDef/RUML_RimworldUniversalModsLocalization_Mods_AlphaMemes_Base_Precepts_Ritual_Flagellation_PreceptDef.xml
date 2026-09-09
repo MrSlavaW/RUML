@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Ritual_Flagellation.xml -->
+<!--                      EN: flagellation -->
+    <AM_FlagellationPrecept.label>бичевание</AM_FlagellationPrecept.label>
+    <!--                            EN: A brutal ceremony of ritual suffering and scarification, marking devotion through endurance of pain. -->
+    <AM_FlagellationPrecept.description>Жестокая церемония ритуальных страданий и шрамирования, отмечающая преданность через перенесение боли.</AM_FlagellationPrecept.description>
+</LanguageData>

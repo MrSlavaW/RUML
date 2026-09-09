@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!--\Grabbed_Defs_from_patches\Dubwise_Rimatomics\Races_Nucleotron26.xml-->
+	<!--                      nucleotron -->
+	<AM_Mech_Nucleotron.label>нуклеотрон</AM_Mech_Nucleotron.label>
+	<!--                                         Plural nucleotron -->
+	<AM_Mech_Nucleotron.lifeStages.0.labelPlural>нуклеотроны</AM_Mech_Nucleotron.lifeStages.0.labelPlural>
+	<!--                                         Plural nucleotron -->
+	<AM_Mech_Nucleotron.lifeStages.1.labelPlural>нуклеотроны</AM_Mech_Nucleotron.lifeStages.1.labelPlural>
+</LanguageData>

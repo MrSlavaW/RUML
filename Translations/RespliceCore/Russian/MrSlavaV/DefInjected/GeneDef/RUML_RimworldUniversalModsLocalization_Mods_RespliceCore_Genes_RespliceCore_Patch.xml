@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RS_Anomaly.label>Аномалия</RS_Anomaly.label>
+  <RS_Core.label>Основные настройки</RS_Core.label>
+  <RS_DarkArchiteHarvesting.label>жатва тёмных архитов</RS_DarkArchiteHarvesting.label>
+  <RS_DarkArchiteSpike.label>шип пустоты</RS_DarkArchiteSpike.label>
+  <RS_DeadlifeDust.description>Носители могут распылять облако нанитов мёртвой жизни, поднимая павших существ.</RS_DeadlifeDust.description>
+  <RS_DeadlifeDust.label>пыль мёртвой жизни</RS_DeadlifeDust.label>
+  <RS_HarvestTarget.label>цель жатвы</RS_HarvestTarget.label>
+  <RS_InfuseDarkArchite.label>внедрить тёмные архиты</RS_InfuseDarkArchite.label>
+  <RS_InfusionComa.description>Состояние комы во время слияния тканей с тёмным архотеком.</RS_InfusionComa.description>
+  <RS_InfusionComa.label>кома инфузии</RS_InfusionComa.label>
+  <RS_PsychicSlaughter.description>Псионический импульс, мгновенно разрывающий сознание и биологические функции жертвы.</RS_PsychicSlaughter.description>
+  <RS_PsychicSlaughter.label>психический убой</RS_PsychicSlaughter.label>
+  <RS_ShapeFlesh.description>Позволяет перекраивать живую плоть и исцелять тяжелейшие увечья.</RS_ShapeFlesh.description>
+  <RS_ShapeFlesh.label>формовка плоти</RS_ShapeFlesh.label>
+  <RS_Tentacle_Limbs.description>Конечности носителя мутировали в гибкие, сильные щупальца.</RS_Tentacle_Limbs.description>
+  <RS_Tentacle_Limbs.label>щупальца-конечности</RS_Tentacle_Limbs.label>
+  <RS_Tentacle_Whip.description>Носитель может хлестать врагов вырастающими из рук отростками.</RS_Tentacle_Whip.description>
+  <RS_Tentacle_Whip.label>хлысты из плоти</RS_Tentacle_Whip.label>
+  <RS_TransmuteSteel.description>Носители способны перестраивать сталь на атомном уровне, преобразуя её в ценные металлы.</RS_TransmuteSteel.description>
+  <RS_TransmuteSteel.label>трансмутация стали</RS_TransmuteSteel.label>
+</LanguageData>

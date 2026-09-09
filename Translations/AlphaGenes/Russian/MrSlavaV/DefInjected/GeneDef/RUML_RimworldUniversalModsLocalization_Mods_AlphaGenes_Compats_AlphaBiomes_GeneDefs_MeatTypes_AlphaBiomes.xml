@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\AlphaBiomes\Defs\GeneDefs\GeneDefs_MeatTypes_AlphaBiomes.xml -->
+	<!--                     EN: magic mushroom flesh -->
+	<AG_MagicMushroomFlesh.label>Мякоть волшебного гриба</AG_MagicMushroomFlesh.label>
+	<!--                           EN: Carriers of this gene have psychotropic mushrooms in their flesh. Consuming such fungus by them is classed as cannibalism. -->
+	<AG_MagicMushroomFlesh.description>Носители этого гена имеют в своей плоти психотропные грибы.</AG_MagicMushroomFlesh.description>
+</LanguageData>

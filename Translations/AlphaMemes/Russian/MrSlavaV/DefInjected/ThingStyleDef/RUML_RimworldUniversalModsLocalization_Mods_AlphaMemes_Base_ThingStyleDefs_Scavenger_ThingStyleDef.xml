@@ -1,0 +1,31 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingStyleDefs\Alpha\ThingStyleDefs_Scavenger.xml -->
+	<!--                            EN: ancient storage cylinder dresser -->
+	<AM_Scavenger_Dresser.overrideLabel>старинный цилиндрический комод для хранения</AM_Scavenger_Dresser.overrideLabel>
+	<!--                          EN: ancient barrel stool -->
+	<AM_Scavenger_Stool.overrideLabel>древний табурет из бочки</AM_Scavenger_Stool.overrideLabel>
+	<!--                          EN: ancient barrel chair -->
+	<AM_Scavenger_Chair.overrideLabel>старинный стул из бочки</AM_Scavenger_Chair.overrideLabel>
+	<!--                           EN: ancient gun column -->
+	<AM_Scavenger_Column.overrideLabel>древняя орудийная колонна</AM_Scavenger_Column.overrideLabel>
+	<!--                              EN: ancient scrap table -->
+	<AM_Scavenger_Table1x2c.overrideLabel>древний стол для отходов</AM_Scavenger_Table1x2c.overrideLabel>
+	<!--                              EN: ancient scrap table -->
+	<AM_Scavenger_Table2x2c.overrideLabel>древний стол для отходов</AM_Scavenger_Table2x2c.overrideLabel>
+	<!--                              EN: ancient scrap table -->
+	<AM_Scavenger_Table2x4c.overrideLabel>древний стол для отходов</AM_Scavenger_Table2x4c.overrideLabel>
+	<!--                              EN: ancient scrap table -->
+	<AM_Scavenger_Table3x3c.overrideLabel>древний стол для отходов</AM_Scavenger_Table3x3c.overrideLabel>
+	<!--                                 EN: ancient beacon light -->
+	<AM_Scavenger_StandingLamp.overrideLabel>древний маяк</AM_Scavenger_StandingLamp.overrideLabel>
+	<!--                             EN: ancient crate end table -->
+	<AM_Scavenger_EndTable.overrideLabel>столик из древнего ящика</AM_Scavenger_EndTable.overrideLabel>
+	<!--                           EN: ancient cooler -->
+	<AM_Scavenger_Cooler.overrideLabel>древний кулер</AM_Scavenger_Cooler.overrideLabel>
+	<!--                                       EN: ancient repurposed generator -->
+	<AM_Scavenger_WoodFiredGenerator.overrideLabel>древний перепрофилированный генератор</AM_Scavenger_WoodFiredGenerator.overrideLabel>
+	<!--                                             EN: ancient repurposed chemfuel generator -->
+	<AM_Scavenger_ChemfuelPoweredGenerator.overrideLabel>древний перепрофилированный генератор химтоплива</AM_Scavenger_ChemfuelPoweredGenerator.overrideLabel>
+	<!--                            EN: rapier -->
+	<AM_Scavenger_Gladius.overrideLabel>рапира</AM_Scavenger_Gladius.overrideLabel>
+</LanguageData>

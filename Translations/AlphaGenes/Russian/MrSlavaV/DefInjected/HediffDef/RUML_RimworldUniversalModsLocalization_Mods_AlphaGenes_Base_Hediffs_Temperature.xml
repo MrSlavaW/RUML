@@ -1,0 +1,15 @@
+<LanguageData>
+	<!-- 1.6\Defs\HediffDefs\Hediffs_Temperature.xml -->
+	<!--                EN: heat radiating -->
+	<AG_HeatRadiating.label>Теплоизлучение</AG_HeatRadiating.label>
+	<!--                      EN: Generates intense heat up to 80ºC. Bear in mind this condition itself doesn't make the carrier heat resistant. -->
+	<AG_HeatRadiating.description>Создаёт сильный жар вплоть до 80 °C. Само это состояние не делает носителя устойчивым к жаре.</AG_HeatRadiating.description>
+	<!--                EN: cold radiating -->
+	<AG_ColdRadiating.label>Холодное излучение</AG_ColdRadiating.label>
+	<!--                      EN: Generates intense cold up to -20ºC. Bear in mind this condition itself doesn't make the carrier cold resistant. -->
+	<AG_ColdRadiating.description>Создаёт сильный холод вплоть до -20 °C. Само это состояние не делает носителя устойчивым к холоду.</AG_ColdRadiating.description>
+	<!--                     EN: thermal speed -->
+	<AG_SpeedByTemperature.label>Тепловая скорость</AG_SpeedByTemperature.label>
+	<!--                           EN: Moves fast at high temperatures, at the cost of getting much more tired. -->
+	<AG_SpeedByTemperature.description>Носители этого гена быстрее двигаются при высоких температурах, из-за чего сильнее устают. Низкие температуры замедляют их метаболизм, делая их менее подвижными, но и заставляя тратить меньше энергии на бодрствование.</AG_SpeedByTemperature.description>
+</LanguageData>

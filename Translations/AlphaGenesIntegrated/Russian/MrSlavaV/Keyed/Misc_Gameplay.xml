@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AGI_EnableXenotypes>Добавлять ли гены Alpha Genes в стандартные ксенотипы? (требуется перезапуск)</AGI_EnableXenotypes>
+  <AGI_EnableXenotypesDescription>Отключение этой опции приведет к тому, что новые ксенотипы будут создаваться без изменений из этого мода. Это не повлияет на уже существующих поселенцев.\n\nПотребуется перезапуск игры для вступления в силу.</AGI_EnableXenotypesDescription>
+  <AGI_EnableStinkyPatch>Должны ли вонючие пешки спокойно относиться к другим вонючим пешкам? (требуется перезапуск)</AGI_EnableStinkyPatch>
+  <AGI_EnableStinkyPatchDescription>Отключение этой опции вернет штраф в -15 к отношениям между пешками, обладающими геном неприятного запаха.\n\nПотребуется перезапуск игры для вступления в силу.</AGI_EnableStinkyPatchDescription>
+  <AGI_EnableGenepackChanges>Должны ли альфапаки и смешанные паки выглядеть как стандартные генпаки? (требуется перезапуск)</AGI_EnableGenepackChanges>
+  <AGI_EnableGenepackChangesDescription>Отключение этой опции вернет альфапакам и смешанным пакам их оригинальные названия и текстуры. Это не повлияет на уже существующие паки.\n\nТакже это уберет смешанные паки из ассортимента торговцев.\n\nПотребуется перезапуск игры для вступления в силу.</AGI_EnableGenepackChangesDescription>
+</LanguageData>

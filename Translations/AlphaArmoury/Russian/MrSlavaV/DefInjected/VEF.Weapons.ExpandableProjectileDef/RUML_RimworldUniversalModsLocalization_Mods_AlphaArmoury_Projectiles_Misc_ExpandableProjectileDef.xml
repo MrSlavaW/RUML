@@ -1,0 +1,18 @@
+<LanguageData>
+	<!-- 1.6\Defs\ThingDefs_Misc\Projectiles\Projectiles_Misc.xml -->
+
+	<!-- EN: fire -->
+	<AArmoury_Bullet_Firethrower.label>огонь</AArmoury_Bullet_Firethrower.label>
+
+	<!-- EN: coil lance shard -->
+	<AAArmoury_CoilLance_Projectile.label>осколок рельсового копья</AAArmoury_CoilLance_Projectile.label>
+
+	<!-- EN: coil lance shard -->
+	<AAArmoury_CoilLance_Projectile_Lance.label>осколок рельсового копья</AAArmoury_CoilLance_Projectile_Lance.label>
+
+	<!-- EN: acid -->
+	<AArmoury_Bullet_AcidSpewer.label>кислота</AArmoury_Bullet_AcidSpewer.label>
+
+	<!-- EN: corrosive fluid -->
+	<AArmoury_Corrosive.label>разъедающая жидкость</AArmoury_Corrosive.label>
+</LanguageData>

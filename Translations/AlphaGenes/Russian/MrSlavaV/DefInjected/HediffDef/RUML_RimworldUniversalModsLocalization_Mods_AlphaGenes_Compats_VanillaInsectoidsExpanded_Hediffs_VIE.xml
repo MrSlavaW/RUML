@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaInsectoidsExpanded\Defs\HediffDefs\Hediffs_VIE.xml -->
+	<!--                       EN: royal jelly production -->
+	<AG_RoyalJellyProduction.label>производство маточного молочка</AG_RoyalJellyProduction.label>
+	<!--                             EN: The skin of this person constantly exudes and produces globs of royal jelly, which provides some extra food for the colony. -->
+	<AG_RoyalJellyProduction.description>Носитель этого гена постоянно выделяет и производит капли маточного молочка, что обеспечивает дополнительную пищу для колонии.</AG_RoyalJellyProduction.description>
+</LanguageData>

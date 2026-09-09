@@ -1,0 +1,22 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaGeneticsExpanded\Defs\ThoughtDefs\Thoughts_Extractor.xml -->
+	<!--                              EN: disgraceful extraction -->
+	<GR_TerribleExtraction.stages.0.label>позорное извлечение</GR_TerribleExtraction.stages.0.label>
+	<!--                                    EN: That extraction was devastating, now I have to say goodbye. -->
+	<GR_TerribleExtraction.stages.0.description>Это извлечение было разрушительным, теперь я должен попрощаться.</GR_TerribleExtraction.stages.0.description>
+	
+	<!--                                EN: lackluster extraction -->
+	<GR_LacklusterExtraction.stages.0.label>тусклая добыча</GR_LacklusterExtraction.stages.0.label>
+	<!--                                      EN: That extraction was really uninspired and I fear they will be wasted on that creation. -->
+	<GR_LacklusterExtraction.stages.0.description>Это извлечение было действительно скучным, и я боюсь, что они будут потрачены впустую на это творение.</GR_LacklusterExtraction.stages.0.description>
+	
+	<!--                          EN: good extraction -->
+	<GR_GoodExtraction.stages.0.label>хорошее извлечение</GR_GoodExtraction.stages.0.label>
+	<!--                                EN: That extraction went well, they'll be repurposed well. -->
+	<GR_GoodExtraction.stages.0.description>Эта добыча прошла хорошо, они будут хорошо перепрофилированы.</GR_GoodExtraction.stages.0.description>
+	
+	<!--                             EN: amazing extraction -->
+	<GR_AmazingExtraction.stages.0.label>удивительная добыча</GR_AmazingExtraction.stages.0.label>
+	<!--                                   EN: That extraction was amazing. I can't wait to see the final creation. -->
+	<GR_AmazingExtraction.stages.0.description>Эта добыча была потрясающей. Я не могу дождаться, чтобы увидеть, что окончательное творение</GR_AmazingExtraction.stages.0.description>
+</LanguageData>

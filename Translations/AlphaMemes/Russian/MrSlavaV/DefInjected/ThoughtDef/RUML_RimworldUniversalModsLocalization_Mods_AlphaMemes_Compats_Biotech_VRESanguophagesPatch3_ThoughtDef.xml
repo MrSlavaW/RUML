@@ -1,0 +1,8 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\Ludeon_RimWorld_Biotech\VRESanguophagesPatch3.xml -->
+	
+	<!--                                  EN: draincasket nearby -->
+	<AM_DrainCaskets_Abhorrent.stages.0.label>дренажный гроб рядом</AM_DrainCaskets_Abhorrent.stages.0.label>
+	<!--                                        EN: We have a draincasket in the colony. This is blasphemy, it should be dismantled as soon as possible. -->
+	<AM_DrainCaskets_Abhorrent.stages.0.description>У нас в поселении есть дренажный гроб. Это кощунство, его нужно демонтировать как можно скорее.</AM_DrainCaskets_Abhorrent.stages.0.description>
+</LanguageData>

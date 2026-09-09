@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LTS_EPOE_InstallLeftExtraAdvancedBionicHand.jobString>Устанавливает extra advanced bionic hand (left).</LTS_EPOE_InstallLeftExtraAdvancedBionicHand.jobString>
+  <LTS_EPOE_InstallLeftExtraAdvancedElbowBlade.jobString>Устанавливает extra advanced bionic elbow blade (left).</LTS_EPOE_InstallLeftExtraAdvancedElbowBlade.jobString>
+  <LTS_EPOE_InstallLeftExtraAdvancedHandTalon.jobString>Устанавливает extra advanced bionic hand talon (left).</LTS_EPOE_InstallLeftExtraAdvancedHandTalon.jobString>
+  <LTS_EPOE_InstallRightExtraAdvancedBionicHand.jobString>Устанавливает extra advanced bionic hand (right).</LTS_EPOE_InstallRightExtraAdvancedBionicHand.jobString>
+  <LTS_EPOE_InstallRightExtraAdvancedElbowBlade.jobString>Устанавливает extra advanced bionic elbow blade (right).</LTS_EPOE_InstallRightExtraAdvancedElbowBlade.jobString>
+  <LTS_EPOE_InstallRightExtraAdvancedHandTalon.jobString>Устанавливает extra advanced bionic hand talon (right).</LTS_EPOE_InstallRightExtraAdvancedHandTalon.jobString>
+  <LTS_EPOE_ModularizeAdvancedBionicArm.jobString>upgrading advanced bionic arm.</LTS_EPOE_ModularizeAdvancedBionicArm.jobString>
+  <LTS_EPOE_ModularizeAdvancedBionicEye.jobString>upgrading advanced bionic eye.</LTS_EPOE_ModularizeAdvancedBionicEye.jobString>
+  <LTS_EPOE_ModularizeAdvancedBionicJaw.jobString>upgrading advanced bionic jaw.</LTS_EPOE_ModularizeAdvancedBionicJaw.jobString>
+  <LTS_EPOE_ModularizeAdvancedBionicLeg.jobString>лапка</LTS_EPOE_ModularizeAdvancedBionicLeg.jobString>
+  <LTS_EPOE_ModularizeAdvancedBionicSpine.jobString>upgrading advanced bionic spine.</LTS_EPOE_ModularizeAdvancedBionicSpine.jobString>
+  <LTS_EPOE_ModularizeAdvancedDrillArm.jobString>upgrading advanced drill arm.</LTS_EPOE_ModularizeAdvancedDrillArm.jobString>
+  <LTS_EPOE_ModularizeAdvancedElbowBlade.jobString>upgrading advanced bionic elbow blade.</LTS_EPOE_ModularizeAdvancedElbowBlade.jobString>
+  <LTS_EPOE_ModularizeAdvancedPowerArm.jobString>upgrading advanced power arm.</LTS_EPOE_ModularizeAdvancedPowerArm.jobString>
+  <LTS_EPOE_RemoveLeftExtraAdvancedBionicHand.jobString>Removing extra advanced bionic hand (left).</LTS_EPOE_RemoveLeftExtraAdvancedBionicHand.jobString>
+  <LTS_EPOE_RemoveLeftExtraAdvancedElbowBlade.jobString>Removing extra advanced bionic elbow blade (left).</LTS_EPOE_RemoveLeftExtraAdvancedElbowBlade.jobString>
+  <LTS_EPOE_RemoveLeftExtraAdvancedHandTalon.jobString>Removing extra advanced bionic hand talon (left).</LTS_EPOE_RemoveLeftExtraAdvancedHandTalon.jobString>
+  <LTS_EPOE_RemoveRightExtraAdvancedBionicHand.jobString>Removing extra advanced bionic hand (right).</LTS_EPOE_RemoveRightExtraAdvancedBionicHand.jobString>
+  <LTS_EPOE_RemoveRightExtraAdvancedElbowBlade.jobString>Removing extra advanced bionic elbow blade (right).</LTS_EPOE_RemoveRightExtraAdvancedElbowBlade.jobString>
+  <LTS_EPOE_RemoveRightExtraAdvancedHandTalon.jobString>Removing extra advanced bionic hand talon (right).</LTS_EPOE_RemoveRightExtraAdvancedHandTalon.jobString>
+</LanguageData>

@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Animal.xml -->
+	<!--                 EN: despised -->
+	<AM_AnimalDespised.label>презираемый</AM_AnimalDespised.label>
+	<!--                       EN: This animal is considered by believers to be especially abhorrent, which means it must be hunted and exterminated at all costs. -->
+	<AM_AnimalDespised.description>Верующие считают это животное особо ненавистным, а значит, на него нужно охотиться и истребить любой ценой.</AM_AnimalDespised.description>
+</LanguageData>

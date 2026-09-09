@@ -1,0 +1,18 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_AnimalRelease.xml -->
+	
+	<!--                                    EN: animal released -->
+	<AM_AnimalRelease_Encouraged.stages.0.label>животное выпущено</AM_AnimalRelease_Encouraged.stages.0.label>
+	<!--                                          EN: We released an animal into the wild, enriching the ecosystem. -->
+	<AM_AnimalRelease_Encouraged.stages.0.description>Мы выпустили животное на волю, обогатив экосистему.</AM_AnimalRelease_Encouraged.stages.0.description>
+	
+	<!--                                                EN: animal analyzed and released -->
+	<AM_AnimalAnalyzedAndReleased_Encouraged.stages.0.label>животное проанализировано и выпущено</AM_AnimalAnalyzedAndReleased_Encouraged.stages.0.label>
+	<!--                                                      EN: We released an analyzed animal into the wild, enriching the ecosystem. -->
+	<AM_AnimalAnalyzedAndReleased_Encouraged.stages.0.description>Мы выпустили проанализированное животное в дикую природу, обогащая экосистему.</AM_AnimalAnalyzedAndReleased_Encouraged.stages.0.description>
+	
+	<!--                                     EN: animal released -->
+	<AM_AnimalRelease_Discouraged.stages.0.label>животное выпущено</AM_AnimalRelease_Discouraged.stages.0.label>
+	<!--                                           EN: We released an animal into the wild, damaging the ecosystem. -->
+	<AM_AnimalRelease_Discouraged.stages.0.description>Мы выпустили животное в дикую природу, нанеся ущерб экосистеме.</AM_AnimalRelease_Discouraged.stages.0.description>
+</LanguageData>

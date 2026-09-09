@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Anomaly\Defs\TerrainDefs\Terrain_Floors_Cubic.xml -->
+	<!--             EN: cubic tile -->
+	<AM_Tile_Cubic.label>кубическая плитка</AM_Tile_Cubic.label>
+	<!--                   EN: Cheap gold plated steel tiles built to resemble the pristine surface of the Divine Cube. -->
+	<AM_Tile_Cubic.description>Дешевые стальные плитки с золотым напылением, построенные так, чтобы напоминать нетронутую поверхность Божественного куба.</AM_Tile_Cubic.description>
+</LanguageData>

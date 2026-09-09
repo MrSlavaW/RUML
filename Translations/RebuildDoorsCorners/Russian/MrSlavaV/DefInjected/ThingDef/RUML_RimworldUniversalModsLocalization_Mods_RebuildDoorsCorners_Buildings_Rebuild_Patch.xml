@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RB_ACUnitFloor.label>напольный кондиционер</RB_ACUnitFloor.label>
+  <RB_ACUnitFloor.description>Компактный напольный блок охлаждения воздуха, не требующий вывода наружу стены.</RB_ACUnitFloor.description>
+  <RB_SmoothGravshipHull.label>гладкая обшивка гравилета</RB_SmoothGravshipHull.label>
+  <RB_SmoothGravshipHull.description>Сверхпрочная гладкая бронированная пластина для обшивки гравилетов.</RB_SmoothGravshipHull.description>
+  <RB_GravshipWindowHull.label>остекленная обшивка гравилета</RB_GravshipWindowHull.label>
+  <RB_GravshipWindowHull.description>Прозрачная бронепанель для создания обзорных иллюминаторов гравилета.</RB_GravshipWindowHull.description>
+</LanguageData>

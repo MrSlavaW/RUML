@@ -1,0 +1,7 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\ThingDefs_RacesMechanoids\Races_Bellicor.xml -->
+	<!--                EN: bellicor -->
+	<AM_Mech_Bellicor.label>воинственный</AM_Mech_Bellicor.label>
+	<!--                                   EN: Plural bellicor -->
+	<AM_Mech_Bellicor.lifeStages.1.labelPlural>Белликоры</AM_Mech_Bellicor.lifeStages.1.labelPlural>
+<AM_Mech_Bellicor.lifeStages.0.labelPlural>Белликоры</AM_Mech_Bellicor.lifeStages.0.labelPlural></LanguageData>

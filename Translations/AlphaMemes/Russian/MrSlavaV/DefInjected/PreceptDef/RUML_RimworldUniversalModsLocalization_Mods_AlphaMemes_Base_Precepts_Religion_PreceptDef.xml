@@ -1,0 +1,23 @@
+<LanguageData>
+	<!-- 1.6\Defs\PreceptDefs\Precepts_Religion.xml -->
+	
+	<!--                    EN: despised -->
+	<AM_Religion_Despised.label>презирается</AM_Religion_Despised.label>
+	<!--                          EN: We call religion the one great curse, the one great intrinsic depravity, the one great instinct of revenge, for which no means are venomous enough, or secret, subterranean and small enough – we call it the one immortal blemish upon the human race.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonists get a considerable opinion penalty on other colonists with religious beliefs. This covers all religious structures from this mod, VE Memes and Structures as well as vanilla Ideology, plus God Emperor meme in VE. -->
+	<AM_Religion_Despised.description>Мы называем религию одним великим проклятием, одной великой внутренней испорченностью, одним великим инстинктом мести, для которого нет достаточно ядовитых или тайных, подземных и малых средств, — мы называем ее единственным бессмертным пятном на человеческом роде.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n — Поселенцы получают значительное снижение мнения о других поселенцах с религиозными убеждениями. Это охватывает все религиозные структуры из этого мода, мемы и структуры VE, а также ванильную идеологию, а также мем Бога-Императора в VE.</AM_Religion_Despised.description>
+	
+	<!--                    EN: disliked -->
+	<AM_Religion_Disliked.label>не нравится</AM_Religion_Disliked.label>
+	<!--                          EN: What millions believe is often just fairy tales for children. Glory lies in searching for the truth not in believing the irrational legends.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonists get an opinion penalty on other colonists with religious beliefs. This covers all religious structures from this mod, VE Memes and Structures as well as vanilla Ideology, plus God Emperor meme in VE. -->
+	<AM_Religion_Disliked.description>То, во что верят миллионы, часто оказывается просто детскими сказками. Слава заключается в поиске правды, а не в вере в иррациональные легенды.\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Поселенцы получают штраф к мнению других поселенцев с религиозными убеждениями. Это охватывает все религиозные структуры из этого мода, мемы и структуры VE, а также ванильную идеологию, а также мем Бога-Императора в VE.</AM_Religion_Disliked.description>
+	
+	<!--                               EN: proselytism disliked -->
+	<AM_Religion_ProselytismDisliked.label>прозелитизм не нравится</AM_Religion_ProselytismDisliked.label>
+	<!--                                     EN: Everyone is entitled to their own beliefs. Forcing such beliefs upon others, however, is not right.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonists get an opinion penalty on other colonists with Proselytizer or Violent Conversion on their ideos. -->
+	<AM_Religion_ProselytismDisliked.description>Каждый имеет право на свои убеждения. Однако навязывать такие убеждения другим — неправильно.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n — Поселенцы получают штраф к мнению других поселенцев с Прозелитизатором или Насильственным обращением на их идеологию.</AM_Religion_ProselytismDisliked.description>
+	
+	<!--                 EN: loved -->
+	<AM_Religion_Loved.label>нравится</AM_Religion_Loved.label>
+	<!--                       EN: Religion is an amazing human concept that brings everyone together.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colonists get an opinion bonus on other colonists with religious beliefs. This covers all religious structures from this mod, VE Memes and Structures as well as vanilla Ideology, plus God Emperor meme in VE. -->
+	<AM_Religion_Loved.description>Религия — это удивительная человеческая концепция, объединяющая всех.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt;\n — Поселенцы получают бонус мнения о других поселенцах с религиозными убеждениями. Это охватывает все религиозные структуры из этого мода, мемы и структуры VE, а также ванильную идеологию, а также мем Бога-Императора в VE.</AM_Religion_Loved.description>
+</LanguageData>

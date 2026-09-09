@@ -1,0 +1,9 @@
+<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\VanillaExpanded_VIEAT\VIEAnimaTheme0.xml -->
+	<!--                     EN: dryad supremacy -->
+	<AM_GauranlenSupremacy.label>Превосходство дриад</AM_GauranlenSupremacy.label>
+	<!--                           EN: The symbiotic relationship between humanity, anima nexus trees and their dryads is sacred. We will defend and nurture the trees, and in return they will help us protect our colony.\n\n&lt;color=#E5E54C&gt;Restrictions:&lt;/color&gt;\n - This meme can only be chosen if the Tree Connection meme is chosen too (alternatively, the Biological Corruptors meme in Alpha Animals).\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - Colony will start with three Unshackled dryads. -->
+	<AM_GauranlenSupremacy.description>Симбиотическая связь между человечеством, анимическими деревьями-нексусами и их дриадами священна. Мы будем защищать и взращивать деревья, а взамен они помогут нам защитить наше поселение.\n\n&lt;color=#E5E54C&gt;Ограничения:&lt;/color&gt;\n - Эту идею можно выбрать, только если также выбрана идея «Связь с деревьями» (в качестве альтернативы — идея «Биологические поработители» из Alpha Animals).\n\n&lt;color=#E5E54C&gt;Игровой эффект:&lt;/color&gt;\n - Поселение начнёт игру с тремя освобождёнными дриадами.</AM_GauranlenSupremacy.description>
+</LanguageData>
+
+

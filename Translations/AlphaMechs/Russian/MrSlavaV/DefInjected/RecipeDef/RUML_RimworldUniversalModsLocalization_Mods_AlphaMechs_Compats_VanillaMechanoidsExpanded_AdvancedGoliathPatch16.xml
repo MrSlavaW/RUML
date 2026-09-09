@@ -1,0 +1,7 @@
+﻿<LanguageData>
+	<!-- _Translation\Grabbed_Defs_from_patches\OskarPotocki_VFE_Mechanoid\AdvancedGoliathPatch15.xml -->
+	<!--                 EN: gestate colossus -->
+	<AM_ColossusRecipe.label>Собрать механоида «Колосс»</AM_ColossusRecipe.label>
+	<!--                       EN: Gestate a colossus mechanoid. -->
+	<AM_ColossusRecipe.description>Собрать механоида «Колосс».</AM_ColossusRecipe.description>
+</LanguageData>

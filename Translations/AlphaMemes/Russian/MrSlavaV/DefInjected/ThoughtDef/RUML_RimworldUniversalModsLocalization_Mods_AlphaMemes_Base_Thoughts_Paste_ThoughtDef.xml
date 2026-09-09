@@ -1,0 +1,22 @@
+<LanguageData>
+	<!-- 1.6\Defs\Rituals\FuneralFramework\ThoughtDefs\Thoughts_Paste.xml -->
+	<!--                         EN: disgraceful funeral -->
+	<AM_TerriblePaste.stages.0.label>позорные похороны</AM_TerriblePaste.stages.0.label>
+	<!--                               EN: That was a waste of time and precious nutrients. -->
+	<AM_TerriblePaste.stages.0.description>Это была пустая трата времени и драгоценных питательных веществ.</AM_TerriblePaste.stages.0.description>
+	
+	<!--                           EN: lackluster Funeral -->
+	<AM_LacklusterPaste.stages.0.label>тусклые похороны</AM_LacklusterPaste.stages.0.label>
+	<!--                                 EN: I'd have rather been doing something else, at least the nutrients weren't wasted -->
+	<AM_LacklusterPaste.stages.0.description>Я бы {PAWN_gender ? предпочел : предпочла} заняться чем-то другим, по крайней мере, питательные вещества не были потрачены впустую.</AM_LacklusterPaste.stages.0.description>
+	
+	<!--                     EN: good Funeral -->
+	<AM_GoodPaste.stages.0.label>хорошие похороны</AM_GoodPaste.stages.0.label>
+	<!--                           EN: That was pretty good, I got a good meal out of it -->
+	<AM_GoodPaste.stages.0.description>Это было довольно хорошо, я {PAWN_gender ? получил : получила} хорошую еду из этого</AM_GoodPaste.stages.0.description>
+	
+	<!--                        EN: amazing Funeral -->
+	<AM_AmazingPaste.stages.0.label>удивительные похороны</AM_AmazingPaste.stages.0.label>
+	<!--                              EN: That was very effective, there was so much more nutrients than one could've guessed -->
+	<AM_AmazingPaste.stages.0.description>Это было очень эффективно, было намного больше питательных веществ, чем можно было предположить.</AM_AmazingPaste.stages.0.description>
+</LanguageData>

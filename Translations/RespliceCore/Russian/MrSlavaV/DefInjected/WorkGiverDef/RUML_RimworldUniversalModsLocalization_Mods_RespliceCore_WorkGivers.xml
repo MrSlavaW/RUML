@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<RS_InsertGenepack.label>загрузить генпак в центрифугу</RS_InsertGenepack.label>
+	<RS_InsertGenepack.description>Загрузить выбранный генпак в центрифугу для разделения.</RS_InsertGenepack.description>
+	<RS_InsertXenogerm.label>загрузить ксеногерм в дубликатор</RS_InsertXenogerm.label>
+	<RS_InsertXenogerm.description>Загрузить готовый ксеногерм в камеру репликации.</RS_InsertXenogerm.description>
+</LanguageData>

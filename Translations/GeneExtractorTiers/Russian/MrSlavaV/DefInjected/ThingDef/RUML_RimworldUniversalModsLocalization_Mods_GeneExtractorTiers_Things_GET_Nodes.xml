@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GET_GN_BasicBody.description>Базовый модуль структурирования геномов, стабилизирующий гены телосложения.</GET_GN_BasicBody.description>
+  <GET_GN_Culture.description>Специализированный генный узел для извлечения и стабилизации генов культурного и социального назначения.</GET_GN_Culture.description>
+  <GET_GN_Experimental.description>Высокотехнологичный экспериментальный узел с повышенной производительностью экстракции.</GET_GN_Experimental.description>
+  <GET_GN_Intern.description>Генный узел начального уровня для изучения базовых принципов работы с экстракторами.</GET_GN_Intern.description>
+  <GET_GN_ViperSpecial.description>Экспериментальный генный узел, разработанный для выделения токсических и адаптивных генов.</GET_GN_ViperSpecial.description>
+  <GET_GN_Warrior.description>Генный узел, оптимизирующий фильтрацию боевых генов и физических модификаций.</GET_GN_Warrior.description>
+  <GET_GN_WeaknessOfBody.description>Генный узел для разделения сложных метаболических процессов носителя.</GET_GN_WeaknessOfBody.description>
+  <GET_GN_WeaknessOfMind.description>Генный узел для безопасной изоляции психоактивных и ментальных генов.</GET_GN_WeaknessOfMind.description>
+</LanguageData>

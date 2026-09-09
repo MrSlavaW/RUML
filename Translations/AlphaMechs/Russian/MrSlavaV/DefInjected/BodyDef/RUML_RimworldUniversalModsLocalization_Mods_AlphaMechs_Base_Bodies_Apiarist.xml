@@ -1,0 +1,13 @@
+<LanguageData>
+	<!-- 1.6\Defs\Bodies_Mechanoids\Bodies_Apiarist.xml -->
+	<!--                   EN: winged light mech -->
+	<AM_Mech_Winged_Body.label>крылатый легкий мех</AM_Mech_Winged_Body.label>
+	<!--                                                                                                    EN: left sight sensor -->
+	<AM_Mech_Winged_Body.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>левый оптический датчик</AM_Mech_Winged_Body.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+	<!--                                                                                                       EN: right hearing sensor -->
+	<AM_Mech_Winged_Body.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>правый звуковой датчик</AM_Mech_Winged_Body.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+	<!--                                                  EN: left wing -->
+	<AM_Mech_Winged_Body.corePart.parts.left_wing.customLabel>левое крыло</AM_Mech_Winged_Body.corePart.parts.left_wing.customLabel>
+	<!--                                                   EN: right wing -->
+	<AM_Mech_Winged_Body.corePart.parts.right_wing.customLabel>правое крыло</AM_Mech_Winged_Body.corePart.parts.right_wing.customLabel>
+</LanguageData>

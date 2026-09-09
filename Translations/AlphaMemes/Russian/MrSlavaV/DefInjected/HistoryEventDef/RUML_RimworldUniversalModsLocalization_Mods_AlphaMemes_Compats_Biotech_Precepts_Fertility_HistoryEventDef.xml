@@ -1,0 +1,6 @@
+<LanguageData>
+	<!-- 1.6\Mods\Biotech\Defs\PreceptDefs\Precepts_Fertility.xml -->
+	
+	<!--            EN: a child was born -->
+	<AM_ChildBorn.label>рождение ребенка</AM_ChildBorn.label>
+</LanguageData>

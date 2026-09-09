@@ -1,0 +1,11 @@
+<LanguageData>
+	<!-- 1.6\Mods\VanillaRacesExpandedPhytokin\Defs\GeneDefs\GeneDefs_Archite_Phytokin.xml -->
+	<!--                 EN: ocular affinity -->
+	<AG_OcularAffinity.label>Окулярная близость</AG_OcularAffinity.label>
+	<!--                       EN: Carriers of this gene have a special connection to the ocular trees, allowing them to act as an amplifier to the special properties of the tree, giving them access to powerful innate psychic abilities. -->
+	<AG_OcularAffinity.description>Носители этого гена имеют особую связь с окулярными деревьями, что позволяет им действовать как усилитель особых свойств дерева, предоставляя им доступ к мощным врожденным экстрасенсорным способностям.</AG_OcularAffinity.description>
+	<!--                                      EN: Guarantees Natural Meditation focus on the pawn. -->
+	<AG_OcularAffinity.customEffectDescriptions.0>Гарантирует, что Природная медитация фокусируется на пешке.</AG_OcularAffinity.customEffectDescriptions.0>
+	<!--                                      EN: If Alpha Animals OR Alpha Biomes are present, they'll get an ocular conversion ability. -->
+	<AG_OcularAffinity.customEffectDescriptions.1>Если присутствуют альфа-животные ИЛИ альфа-биомы, они получат возможность преобразования окуляра.</AG_OcularAffinity.customEffectDescriptions.1>
+</LanguageData>
