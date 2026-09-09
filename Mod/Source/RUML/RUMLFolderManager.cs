@@ -445,6 +445,7 @@ namespace RUML
                     try
                     {
                         RUMLLanguageSanitizer.SanitizeAndAlias(lang);
+                        RUMLLanguageSanitizer.ApplyDirectInjections(lang);
                     }
                     catch { }
 

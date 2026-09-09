@@ -225,6 +225,18 @@ namespace RUML
         {
             List<ModAuditReport> reports = new List<ModAuditReport>();
 
+            // 0. Ensure all direct injections and stage aliases are applied into live memory
+            if (LanguageDatabase.activeLanguage != null)
+            {
+                try
+                {
+                    RUMLLanguageSanitizer.SanitizeAndAlias(LanguageDatabase.activeLanguage);
+                    RUMLLanguageSanitizer.ApplyDirectInjections(LanguageDatabase.activeLanguage);
+                    GenLabel.ClearCache();
+                }
+                catch { }
+            }
+
             // Ensure English default language data is loaded so all mods' English keyed strings exist in memory
             if (LanguageDatabase.defaultLanguage != null)
             {

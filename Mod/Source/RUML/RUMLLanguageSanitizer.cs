@@ -1,7 +1,10 @@
 // MC Version: 1.5 | Loader: RimWorld | Mappings: Official
 using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Reflection;
 using System.Text.RegularExpressions;
+using System.Xml;
 using RimWorld;
 using Verse;
 
@@ -126,6 +129,445 @@ namespace RUML
             return totalAliased;
         }
 
+        /// <summary>
+        /// Directly injects Def field values (labels, descriptions, stages, custom fields) into in-memory Def instances.
+        /// Resolves issues where RimWorld's internal SetDefFieldAtPath fails on custom stage keys or modded def types.
+        /// </summary>
+        public static int ApplyDirectInjections(LoadedLanguage lang)
+        {
+            int totalInjected = 0;
+            try
+            {
+                // 1. Process all in-memory DefInjectionPackages in active language
+                if (lang != null && lang.defInjections != null)
+                {
+                    for (int pIdx = 0; pIdx < lang.defInjections.Count; pIdx++)
+                    {
+                        DefInjectionPackage pkg = lang.defInjections[pIdx];
+                        if (pkg == null || pkg.defType == null || pkg.injections == null) continue;
+
+                        foreach (var kv in pkg.injections)
+                        {
+                            string key = kv.Key;
+                            DefInjectionPackage.DefInjection inj = kv.Value;
+                            if (string.IsNullOrEmpty(key) || inj == null || inj.isPlaceholder || string.IsNullOrEmpty(inj.injection) || string.Equals(inj.injection, "TODO", StringComparison.OrdinalIgnoreCase))
+                            {
+                                continue;
+                            }
+
+                            if (ApplySingleInjection(pkg.defType, key, inj.injection, lang))
+                            {
+                                totalInjected++;
+                            }
+                        }
+                    }
+                }
+
+                // 2. Scan active external RUML translation XML files on disk as an authoritative fallback
+                string extDir = RUMLFolderManager.GetExternalTranslationsDir();
+                if (Directory.Exists(extDir))
+                {
+                    List<InstalledModItem> installed = RUMLFolderManager.GetAllInstalledMods();
+                    RUMLSettings settings = LoadedModManager.GetMod<RUMLMod>() != null ? LoadedModManager.GetMod<RUMLMod>().GetSettings<RUMLSettings>() : null;
+
+                    for (int i = 0; i < installed.Count; i++)
+                    {
+                        InstalledModItem item = installed[i];
+                        if (settings != null && !settings.IsModEnabled(item.ModFolder)) continue;
+
+                        string author = settings != null ? settings.GetSelectedAuthor(item.ModFolder) : null;
+                        if (string.IsNullOrEmpty(author) && item.Authors != null && item.Authors.Count > 0)
+                        {
+                            author = item.Authors[0];
+                        }
+                        if (string.IsNullOrEmpty(author)) continue;
+
+                        string defInjPath = Path.Combine(Path.Combine(Path.Combine(Path.Combine(extDir, item.ModFolder), author), "Languages"), "Russian");
+                        defInjPath = Path.Combine(defInjPath, "DefInjected");
+                        if (!Directory.Exists(defInjPath)) continue;
+
+                        string[] typeDirs = Directory.GetDirectories(defInjPath);
+                        for (int t = 0; t < typeDirs.Length; t++)
+                        {
+                            string typeDir = typeDirs[t];
+                            string typeName = Path.GetFileName(typeDir);
+                            Type defType = ResolveDefType(typeName);
+                            if (defType == null) continue;
+
+                            string[] xmlFiles = Directory.GetFiles(typeDir, "*.xml", SearchOption.AllDirectories);
+                            for (int f = 0; f < xmlFiles.Length; f++)
+                            {
+                                try
+                                {
+                                    XmlDocument doc = new XmlDocument();
+                                    doc.Load(xmlFiles[f]);
+                                    if (doc.DocumentElement == null) continue;
+
+                                    foreach (XmlNode node in doc.DocumentElement.ChildNodes)
+                                    {
+                                        if (node.NodeType != XmlNodeType.Element) continue;
+                                        string key = node.Name;
+                                        string val = node.InnerText;
+                                        if (string.IsNullOrEmpty(key) || string.IsNullOrEmpty(val) || val.Trim() == "TODO") continue;
+
+                                        val = val.Trim();
+                                        if (ApplySingleInjection(defType, key, val, lang))
+                                        {
+                                            totalInjected++;
+                                        }
+                                    }
+                                }
+                                catch (Exception fex)
+                                {
+                                    Log.Warning("[RUML] Error parsing translation XML " + xmlFiles[f] + ": " + fex.Message);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Warning("[RUML] Error in ApplyDirectInjections: " + ex);
+            }
+
+            if (totalInjected > 0)
+            {
+                Log.Message("[RUML] Directly applied " + totalInjected + " translation injections into live Defs.");
+            }
+
+            return totalInjected;
+        }
+
+        public static Type ResolveDefType(string typeName)
+        {
+            if (string.IsNullOrEmpty(typeName)) return null;
+            Type t = GenTypes.GetTypeInAnyAssembly(typeName);
+            if (t == null) t = GenTypes.GetTypeInAnyAssembly("Verse." + typeName);
+            if (t == null) t = GenTypes.GetTypeInAnyAssembly("RimWorld." + typeName);
+            return t;
+        }
+
+        public static bool ApplySingleInjection(Type defType, string key, string val, LoadedLanguage lang)
+        {
+            if (defType == null || string.IsNullOrEmpty(key) || string.IsNullOrEmpty(val)) return false;
+
+            int dotIdx = key.IndexOf('.');
+            if (dotIdx <= 0) return false;
+
+            string defName = key.Substring(0, dotIdx);
+            string fieldPath = key.Substring(dotIdx + 1);
+
+            Def targetDef = GenDefDatabase.GetDefSilentFail(defType, defName, false);
+            if (targetDef == null) return false;
+
+            bool applied = false;
+
+            // 1. Handle stages (HediffDef, ThoughtDef)
+            if (fieldPath.StartsWith("stages."))
+            {
+                string stageSub = fieldPath.Substring(7);
+                int lastDot = stageSub.LastIndexOf('.');
+                if (lastDot > 0)
+                {
+                    string stageIdent = stageSub.Substring(0, lastDot);
+                    string stageField = stageSub.Substring(lastDot + 1);
+
+                    // HediffDef stages
+                    HediffDef hd = targetDef as HediffDef;
+                    if (hd != null && hd.stages != null)
+                    {
+                        HediffStage matchedStage = null;
+                        int sIdx;
+                        int matchedIndex = -1;
+                        if (int.TryParse(stageIdent, out sIdx) && sIdx >= 0 && sIdx < hd.stages.Count)
+                        {
+                            matchedStage = hd.stages[sIdx];
+                            matchedIndex = sIdx;
+                        }
+                        else
+                        {
+                            for (int i = 0; i < hd.stages.Count; i++)
+                            {
+                                var st = hd.stages[i];
+                                if (st == null) continue;
+                                string raw = !string.IsNullOrEmpty(st.untranslatedLabel) ? st.untranslatedLabel : st.label;
+                                string sLabel = SanitizeLabel(raw);
+                                if (string.Equals(sLabel, stageIdent, StringComparison.OrdinalIgnoreCase) ||
+                                    string.Equals(st.label, stageIdent, StringComparison.OrdinalIgnoreCase) ||
+                                    string.Equals(st.untranslatedLabel, stageIdent, StringComparison.OrdinalIgnoreCase))
+                                {
+                                    matchedStage = st;
+                                    matchedIndex = i;
+                                    break;
+                                }
+                            }
+                        }
+
+                        if (matchedStage != null)
+                        {
+                            if (stageField == "label")
+                            {
+                                if (string.IsNullOrEmpty(matchedStage.untranslatedLabel))
+                                {
+                                    matchedStage.untranslatedLabel = matchedStage.label;
+                                }
+                                matchedStage.label = val;
+                                applied = true;
+                            }
+                            else
+                            {
+                                FieldInfo fi = GetFieldRecursive(typeof(HediffStage), stageField);
+                                if (fi != null && fi.FieldType == typeof(string))
+                                {
+                                    fi.SetValue(matchedStage, val);
+                                    applied = true;
+                                }
+                            }
+
+                            EnsurePackageRegistration(lang, defType, defName, matchedIndex, matchedStage.untranslatedLabel ?? matchedStage.label, stageField, val);
+                        }
+                    }
+
+                    // ThoughtDef stages
+                    ThoughtDef td = targetDef as ThoughtDef;
+                    if (td != null && td.stages != null)
+                    {
+                        ThoughtStage matchedStage = null;
+                        int sIdx;
+                        int matchedIndex = -1;
+                        if (int.TryParse(stageIdent, out sIdx) && sIdx >= 0 && sIdx < td.stages.Count)
+                        {
+                            matchedStage = td.stages[sIdx];
+                            matchedIndex = sIdx;
+                        }
+                        else
+                        {
+                            for (int i = 0; i < td.stages.Count; i++)
+                            {
+                                var st = td.stages[i];
+                                if (st == null) continue;
+                                string raw = !string.IsNullOrEmpty(st.untranslatedLabel) ? st.untranslatedLabel : st.label;
+                                string sLabel = SanitizeLabel(raw);
+                                if (string.Equals(sLabel, stageIdent, StringComparison.OrdinalIgnoreCase) ||
+                                    string.Equals(st.label, stageIdent, StringComparison.OrdinalIgnoreCase) ||
+                                    string.Equals(st.untranslatedLabel, stageIdent, StringComparison.OrdinalIgnoreCase))
+                                {
+                                    matchedStage = st;
+                                    matchedIndex = i;
+                                    break;
+                                }
+                            }
+                        }
+
+                        if (matchedStage != null)
+                        {
+                            if (stageField == "label")
+                            {
+                                if (string.IsNullOrEmpty(matchedStage.untranslatedLabel))
+                                {
+                                    matchedStage.untranslatedLabel = matchedStage.label;
+                                }
+                                matchedStage.label = val;
+                                FieldInfo tCap = GetFieldRecursive(typeof(ThoughtStage), "cachedLabelCap");
+                                if (tCap != null)
+                                {
+                                    tCap.SetValue(matchedStage, null);
+                                }
+                                applied = true;
+                            }
+                            else if (stageField == "description")
+                            {
+                                matchedStage.description = val;
+                                applied = true;
+                            }
+                            else
+                            {
+                                FieldInfo fi = GetFieldRecursive(typeof(ThoughtStage), stageField);
+                                if (fi != null && fi.FieldType == typeof(string))
+                                {
+                                    fi.SetValue(matchedStage, val);
+                                    applied = true;
+                                }
+                            }
+
+                            EnsurePackageRegistration(lang, defType, defName, matchedIndex, matchedStage.untranslatedLabel ?? matchedStage.label, stageField, val);
+                        }
+                    }
+                }
+            }
+            else
+            {
+                // 2. Direct field on Def (label, description, endMessage, letterText, etc.)
+                FieldInfo fi = GetFieldRecursive(targetDef.GetType(), fieldPath);
+                if (fi != null && fi.FieldType == typeof(string))
+                {
+                    fi.SetValue(targetDef, val);
+                    if (fieldPath == "label")
+                    {
+                        FieldInfo capFi = GetFieldRecursive(typeof(Def), "cachedLabelCap");
+                        if (capFi != null)
+                        {
+                            capFi.SetValue(targetDef, default(TaggedString));
+                        }
+                    }
+                    applied = true;
+                }
+                else if (fieldPath.Contains("."))
+                {
+                    applied = SetNestedValue(targetDef, fieldPath.Split('.'), 0, val);
+                }
+
+                EnsurePackageRegistrationDirect(lang, defType, key, val);
+            }
+
+            return applied;
+        }
+
+        private static bool SetNestedValue(object obj, string[] parts, int index, string val)
+        {
+            if (obj == null || index >= parts.Length) return false;
+            string part = parts[index];
+            if (index == parts.Length - 1)
+            {
+                FieldInfo fi = GetFieldRecursive(obj.GetType(), part);
+                if (fi != null && fi.FieldType == typeof(string))
+                {
+                    fi.SetValue(obj, val);
+                    return true;
+                }
+                return false;
+            }
+
+            int listIdx;
+            if (int.TryParse(part, out listIdx))
+            {
+                System.Collections.IList list = obj as System.Collections.IList;
+                if (list != null && listIdx >= 0 && listIdx < list.Count)
+                {
+                    return SetNestedValue(list[listIdx], parts, index + 1, val);
+                }
+                return false;
+            }
+
+            FieldInfo nextFi = GetFieldRecursive(obj.GetType(), part);
+            if (nextFi != null)
+            {
+                object nextObj = nextFi.GetValue(obj);
+                return SetNestedValue(nextObj, parts, index + 1, val);
+            }
+            return false;
+        }
+
+        private static void EnsurePackageRegistration(LoadedLanguage lang, Type defType, string defName, int stageIndex, string stageLabel, string fieldName, string val)
+        {
+            if (lang == null || lang.defInjections == null || defType == null) return;
+
+            DefInjectionPackage pkg = null;
+            for (int i = 0; i < lang.defInjections.Count; i++)
+            {
+                if (lang.defInjections[i] != null && lang.defInjections[i].defType == defType)
+                {
+                    pkg = lang.defInjections[i];
+                    break;
+                }
+            }
+            if (pkg == null)
+            {
+                pkg = new DefInjectionPackage(defType);
+                lang.defInjections.Add(pkg);
+            }
+
+            if (pkg.injections == null) return;
+
+            // Numeric key
+            if (stageIndex >= 0)
+            {
+                string numKey = defName + ".stages." + stageIndex + "." + fieldName;
+                DefInjectionPackage.DefInjection inj;
+                if (!pkg.injections.TryGetValue(numKey, out inj) || inj == null || string.IsNullOrEmpty(inj.injection))
+                {
+                    inj = new DefInjectionPackage.DefInjection();
+                    inj.path = numKey;
+                    inj.normalizedPath = numKey;
+                    inj.suggestedPath = numKey;
+                    inj.injection = val;
+                    inj.isPlaceholder = false;
+                    inj.injected = true;
+                    pkg.injections[numKey] = inj;
+                }
+            }
+
+            // Named key
+            if (!string.IsNullOrEmpty(stageLabel))
+            {
+                string sanitized = SanitizeLabel(stageLabel);
+                if (!string.IsNullOrEmpty(sanitized))
+                {
+                    string nameKey = defName + ".stages." + sanitized + "." + fieldName;
+                    DefInjectionPackage.DefInjection inj;
+                    if (!pkg.injections.TryGetValue(nameKey, out inj) || inj == null || string.IsNullOrEmpty(inj.injection))
+                    {
+                        inj = new DefInjectionPackage.DefInjection();
+                        inj.path = nameKey;
+                        inj.normalizedPath = nameKey;
+                        inj.suggestedPath = nameKey;
+                        inj.injection = val;
+                        inj.isPlaceholder = false;
+                        inj.injected = true;
+                        pkg.injections[nameKey] = inj;
+                    }
+                }
+            }
+        }
+
+        private static void EnsurePackageRegistrationDirect(LoadedLanguage lang, Type defType, string key, string val)
+        {
+            if (lang == null || lang.defInjections == null || defType == null || string.IsNullOrEmpty(key)) return;
+
+            DefInjectionPackage pkg = null;
+            for (int i = 0; i < lang.defInjections.Count; i++)
+            {
+                if (lang.defInjections[i] != null && lang.defInjections[i].defType == defType)
+                {
+                    pkg = lang.defInjections[i];
+                    break;
+                }
+            }
+            if (pkg == null)
+            {
+                pkg = new DefInjectionPackage(defType);
+                lang.defInjections.Add(pkg);
+            }
+
+            if (pkg.injections == null) return;
+
+            DefInjectionPackage.DefInjection inj;
+            if (!pkg.injections.TryGetValue(key, out inj) || inj == null || string.IsNullOrEmpty(inj.injection))
+            {
+                inj = new DefInjectionPackage.DefInjection();
+                inj.path = key;
+                inj.normalizedPath = key;
+                inj.suggestedPath = key;
+                inj.injection = val;
+                inj.isPlaceholder = false;
+                inj.injected = true;
+                pkg.injections[key] = inj;
+            }
+        }
+
+        public static FieldInfo GetFieldRecursive(Type t, string name)
+        {
+            Type curr = t;
+            while (curr != null && curr != typeof(object))
+            {
+                FieldInfo fi = curr.GetField(name, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly);
+                if (fi != null) return fi;
+                curr = curr.BaseType;
+            }
+            return null;
+        }
+
         public static string SanitizeLabel(string raw)
         {
             if (string.IsNullOrEmpty(raw)) return "";
@@ -143,12 +585,10 @@ namespace RUML
             {
                 if (LanguageDatabase.activeLanguage != null)
                 {
-                    int aliased = RUMLLanguageSanitizer.SanitizeAndAlias(LanguageDatabase.activeLanguage);
-                    if (aliased > 0)
-                    {
-                        LanguageDatabase.activeLanguage.InjectIntoData_AfterImpliedDefs();
-                        GenLabel.ClearCache();
-                    }
+                    RUMLLanguageSanitizer.SanitizeAndAlias(LanguageDatabase.activeLanguage);
+                    RUMLLanguageSanitizer.ApplyDirectInjections(LanguageDatabase.activeLanguage);
+                    LanguageDatabase.activeLanguage.InjectIntoData_AfterImpliedDefs();
+                    GenLabel.ClearCache();
                 }
             }
             catch (Exception ex)
