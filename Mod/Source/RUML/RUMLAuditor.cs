@@ -85,7 +85,7 @@ namespace RUML
             for (int pIdx = 0; pIdx < LanguageDatabase.activeLanguage.defInjections.Count; pIdx++)
             {
                 var pkg = LanguageDatabase.activeLanguage.defInjections[pIdx];
-                if (pkg == null || pkg.defType != defType || pkg.injections == null)
+                if (pkg == null || pkg.defType == null || !string.Equals(pkg.defType.Name, defType.Name, StringComparison.OrdinalIgnoreCase) || pkg.injections == null)
                 {
                     continue;
                 }
@@ -114,9 +114,10 @@ namespace RUML
                             if (hd != null && hd.stages != null && sIdx >= 0 && sIdx < hd.stages.Count)
                             {
                                 var st = hd.stages[sIdx];
-                                if (st != null && !string.IsNullOrEmpty(st.label))
+                                if (st != null)
                                 {
-                                    string sLabel = RUMLLanguageSanitizer.SanitizeLabel(st.label);
+                                    string raw = !string.IsNullOrEmpty(st.untranslatedLabel) ? st.untranslatedLabel : st.label;
+                                    string sLabel = RUMLLanguageSanitizer.SanitizeLabel(raw);
                                     if (!string.IsNullOrEmpty(sLabel))
                                     {
                                         string altKey = dName + ".stages." + sLabel + "." + fName;
@@ -134,9 +135,10 @@ namespace RUML
                             if (td != null && td.stages != null && sIdx >= 0 && sIdx < td.stages.Count)
                             {
                                 var st = td.stages[sIdx];
-                                if (st != null && !string.IsNullOrEmpty(st.label))
+                                if (st != null)
                                 {
-                                    string sLabel = RUMLLanguageSanitizer.SanitizeLabel(st.label);
+                                    string raw = !string.IsNullOrEmpty(st.untranslatedLabel) ? st.untranslatedLabel : st.label;
+                                    string sLabel = RUMLLanguageSanitizer.SanitizeLabel(raw);
                                     if (!string.IsNullOrEmpty(sLabel))
                                     {
                                         string altKey = dName + ".stages." + sLabel + "." + fName;
@@ -167,17 +169,22 @@ namespace RUML
                                 for (int i = 0; i < hd.stages.Count; i++)
                                 {
                                     var st = hd.stages[i];
-                                    if (st != null && RUMLLanguageSanitizer.SanitizeLabel(st.label).Equals(sLabel, StringComparison.OrdinalIgnoreCase))
+                                    if (st != null)
                                     {
-                                        string altKey = dName + ".stages." + i + "." + fName;
-                                        if (pkg.injections.TryGetValue(altKey, out inj))
+                                        bool labelMatches = (!string.IsNullOrEmpty(st.untranslatedLabel) && RUMLLanguageSanitizer.SanitizeLabel(st.untranslatedLabel).Equals(sLabel, StringComparison.OrdinalIgnoreCase)) ||
+                                                            (!string.IsNullOrEmpty(st.label) && RUMLLanguageSanitizer.SanitizeLabel(st.label).Equals(sLabel, StringComparison.OrdinalIgnoreCase));
+                                        if (labelMatches)
                                         {
-                                            if (inj != null && !inj.isPlaceholder && !string.Equals(inj.injection, "TODO", StringComparison.OrdinalIgnoreCase))
+                                            string altKey = dName + ".stages." + i + "." + fName;
+                                            if (pkg.injections.TryGetValue(altKey, out inj))
                                             {
-                                                return true;
+                                                if (inj != null && !inj.isPlaceholder && !string.Equals(inj.injection, "TODO", StringComparison.OrdinalIgnoreCase))
+                                                {
+                                                    return true;
+                                                }
                                             }
+                                            break;
                                         }
-                                        break;
                                     }
                                 }
                             }
@@ -187,17 +194,22 @@ namespace RUML
                                 for (int i = 0; i < td.stages.Count; i++)
                                 {
                                     var st = td.stages[i];
-                                    if (st != null && RUMLLanguageSanitizer.SanitizeLabel(st.label).Equals(sLabel, StringComparison.OrdinalIgnoreCase))
+                                    if (st != null)
                                     {
-                                        string altKey = dName + ".stages." + i + "." + fName;
-                                        if (pkg.injections.TryGetValue(altKey, out inj))
+                                        bool labelMatches = (!string.IsNullOrEmpty(st.untranslatedLabel) && RUMLLanguageSanitizer.SanitizeLabel(st.untranslatedLabel).Equals(sLabel, StringComparison.OrdinalIgnoreCase)) ||
+                                                            (!string.IsNullOrEmpty(st.label) && RUMLLanguageSanitizer.SanitizeLabel(st.label).Equals(sLabel, StringComparison.OrdinalIgnoreCase));
+                                        if (labelMatches)
                                         {
-                                            if (inj != null && !inj.isPlaceholder && !string.Equals(inj.injection, "TODO", StringComparison.OrdinalIgnoreCase))
+                                            string altKey = dName + ".stages." + i + "." + fName;
+                                            if (pkg.injections.TryGetValue(altKey, out inj))
                                             {
-                                                return true;
+                                                if (inj != null && !inj.isPlaceholder && !string.Equals(inj.injection, "TODO", StringComparison.OrdinalIgnoreCase))
+                                                {
+                                                    return true;
+                                                }
                                             }
+                                            break;
                                         }
-                                        break;
                                     }
                                 }
                             }
