@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RG_NamerAspenForest.rulePack.rulesStrings>r_name(p=0.3)-&gt;[aspenForest_adjective] [narrative_name]
+r_name(p=0.2)-&gt;[narrative_name] [terrain_word]
+aspenForest_adjective(p=2)-&gt;золотой
+aspenForest_adjective-&gt;янтарный
+aspenForest_adjective-&gt;дрожащий
+aspenForest_adjective-&gt;шепчущий
+aspenForest_adjective-&gt;туманный
+aspenForest_adjective-&gt;солнечный
+aspenForest_adjective-&gt;лиственный
+aspenForest_adjective-&gt;мерцающий
+terrain_word(p=3)-&gt;осиновый лес
+terrain_word(p=2)-&gt;осинник
+terrain_word(p=2)-&gt;лес
+terrain_word(p=2)-&gt;роща
+terrain_word-&gt;чаща
+terrain_word-&gt;долина
+terrain_word-&gt;лощина
+terrain_word-&gt;низина
+terrain_word-&gt;возвышенность
+terrain_word-&gt;предгорье
+terrain_word-&gt;перелесок
+terrain_word-&gt;заросли</RG_NamerAspenForest.rulePack.rulesStrings>
+</LanguageData>

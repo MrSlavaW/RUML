@@ -108,7 +108,8 @@ namespace RUML
                             dtName.Equals("ModDef") || dtName.Contains("TMMSettingDef") || dtName.Contains("SettingsMenuDef") ||
                             dtName.Contains("ModOptionCategoryDef") ||
                             dtName.Equals("ToolCapacityDef") || dtName.Equals("WorkGiverDef") || dtName.Contains("ThinkTree") ||
-                            dtName.Contains("Duty") || dtName.Contains("ShaderTypeDef") || dtName.Contains("SoundDef"))
+                            dtName.Contains("Duty") || dtName.Contains("ShaderTypeDef") || dtName.Contains("SoundDef") ||
+                            dtName.Contains("PawnRenderTree") || dtName.Contains("PawnRenderNode"))
                         {
                             continue;
                         }
@@ -126,6 +127,8 @@ namespace RUML
                         {
                             if (!translationAllowed || currentDef == null) return;
                             if (currentDef.modContentPack != mod) return;
+                            if (fieldInfo != null && fieldInfo.Name == "debugLabel") return;
+                            if (suggestedPath != null && suggestedPath.EndsWith(".debugLabel")) return;
 
                             ThingDef td = currentDef as ThingDef;
                             if (td != null)

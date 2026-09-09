@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AB_NamerLandmark_SweetForest.rulePack.rulesStrings>
+    <li>terrain_word(p=2)->сладкий лес</li>
+    <li>terrain_word->кремовые луга</li>
+    <li>terrain_word->клубничные равнины</li>
+    <li>terrain_word->шоколадные поля</li>
+    <li>terrain_word->леденцовые сады</li>
+  </AB_NamerLandmark_SweetForest.rulePack.rulesStrings>
+  <AB_NamerLandmark_AnimaDesert.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->[terrain_word] [NamePerson]</li>
+    <li>terrain_word(p=3)->пустыня души</li>
+    <li>terrain_word(p=2)->пески души</li>
+  </AB_NamerLandmark_AnimaDesert.rulePack.rulesStrings>
+  <AB_NamerLandmark_OcularDesert.rulePack.rulesStrings>
+    <li>r_name(p=0.2)->[terrain_word] [NamePerson]</li>
+    <li>terrain_word(p=3)->окулярная пустыня</li>
+    <li>terrain_word(p=2)->окулярные пески</li>
+  </AB_NamerLandmark_OcularDesert.rulePack.rulesStrings>
+  <AB_NamerLandmark_DryMeadows.rulePack.rulesStrings>
+    <li>r_name->сухие луга [NamePerson]</li>
+  </AB_NamerLandmark_DryMeadows.rulePack.rulesStrings>
+  <AB_NamerLandmark_ToxicMeadows.rulePack.rulesStrings>
+    <li>r_name->токсичные луга [NamePerson]</li>
+  </AB_NamerLandmark_ToxicMeadows.rulePack.rulesStrings>
+  <AB_NamerLandmark_WillowForest.rulePack.rulesStrings>
+    <li>terrain_word(p=4)->ивовый лес</li>
+    <li>terrain_word->плакучая чаща</li>
+  </AB_NamerLandmark_WillowForest.rulePack.rulesStrings>
+</LanguageData>

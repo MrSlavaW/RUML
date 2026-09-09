@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AB_AnimalTentacle.labelNoun>звериное щупальце</AB_AnimalTentacle.labelNoun>
+  <AB_CandySandInEyes.battleStateLabel>ослеплен</AB_CandySandInEyes.battleStateLabel>
+  <AB_CandySandInEyes.labelNoun>сахарный песок</AB_CandySandInEyes.labelNoun>
+  <AB_ChocolateInEyes.battleStateLabel>ослеплен</AB_ChocolateInEyes.battleStateLabel>
+  <AB_ChocolateInEyes.labelNoun>шоколад</AB_ChocolateInEyes.labelNoun>
+  <AB_CreamInEyes.battleStateLabel>ослеплен</AB_CreamInEyes.battleStateLabel>
+  <AB_CreamInEyes.labelNoun>взбитые сливки</AB_CreamInEyes.labelNoun>
+  <AB_MalevolentEye.label>зловещий глаз</AB_MalevolentEye.label>
+  <AB_SlimeInEyes.battleStateLabel>ослеплен</AB_SlimeInEyes.battleStateLabel>
+  <AB_StrawberryInEyes.battleStateLabel>ослеплен</AB_StrawberryInEyes.battleStateLabel>
+  <AB_StrawberryInEyes.labelNoun>клубника</AB_StrawberryInEyes.labelNoun>
+</LanguageData>

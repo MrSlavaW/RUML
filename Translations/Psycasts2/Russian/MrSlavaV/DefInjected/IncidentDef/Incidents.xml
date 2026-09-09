@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<PS_Awakening.label>психическое пробуждение</PS_Awakening.label>
-	<PS_Awakening.description>Колонист пережил спонтанное психическое пробуждение.</PS_Awakening.description>
-	<PS_AwakeningSurgeIncident.label>всплеск пси-поля</PS_AwakeningSurgeIncident.label>
-	<PS_AwakeningSurgeIncident.description>Мощная волна пси-энергии прокатилась по региону.</PS_AwakeningSurgeIncident.description>
+  <PS_Awakening.description>Колонист пережил спонтанное психическое пробуждение.</PS_Awakening.description>
+  <PS_Awakening.label>психическое пробуждение</PS_Awakening.label>
+  <PS_AwakeningSurgeIncident.description>Мощная волна пси-энергии прокатилась по региону.</PS_AwakeningSurgeIncident.description>
+  <PS_AwakeningSurgeIncident.label>всплеск пси-поля</PS_AwakeningSurgeIncident.label>
+  <PS_AwakeningSurgeIncident.letterLabel>Всплеск пси-пробуждения</PS_AwakeningSurgeIncident.letterLabel>
+  <PS_AwakeningSurgeIncident.letterText>Волна псионического резонанса прокатилась по региону. Пока она длится, прорывы в медитации даются намного легче, а медитирующие колонисты могут спонтанно пробудиться как псионики.</PS_AwakeningSurgeIncident.letterText>
 </LanguageData>

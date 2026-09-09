@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AGI_OpportunitySite_AbandonedBiotechLab_Giver.questNameRules.rulesStrings>questName-&gt;[complexAdj] [complex] — [finalWord]
+questName-&gt;[complexAdj] [complex]
+questName-&gt;[complex] — [finalWord]</AGI_OpportunitySite_AbandonedBiotechLab_Giver.questNameRules.rulesStrings>
+  <AGI_OpportunitySite_AbandonedBiotechLab_Giver.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Задание истекло: [resolvedQuestName]</AGI_OpportunitySite_AbandonedBiotechLab_Giver.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+  <AGI_OpportunitySite_AbandonedBiotechLab_Giver.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Перехваченные радиопередачи сообщают, что заброшенная биотехнологическая лаборатория была разграблена кем-то другим. Задание [resolvedQuestName] истекло.</AGI_OpportunitySite_AbandonedBiotechLab_Giver.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+</LanguageData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LTS_EPOE_LeftExtraAdvancedBionicHand.label>кулак</LTS_EPOE_LeftExtraAdvancedBionicHand.label>
+  <LTS_EPOE_LeftExtraAdvancedBionicHand.labelNoun>экстра-продвинутая бионическая кисть (левая)</LTS_EPOE_LeftExtraAdvancedBionicHand.labelNoun>
+  <LTS_EPOE_LeftExtraAdvancedElbowBlade.label>срез</LTS_EPOE_LeftExtraAdvancedElbowBlade.label>
+  <LTS_EPOE_LeftExtraAdvancedElbowBlade.labelNoun>экстра-продвинутый бионический локтевой клинок (левый)</LTS_EPOE_LeftExtraAdvancedElbowBlade.labelNoun>
+  <LTS_EPOE_LeftExtraAdvancedHandTalon.label>коготь</LTS_EPOE_LeftExtraAdvancedHandTalon.label>
+  <LTS_EPOE_LeftExtraAdvancedHandTalon.labelNoun>экстра-продвинутый бионический кистевой коготь (левый)</LTS_EPOE_LeftExtraAdvancedHandTalon.labelNoun>
+  <LTS_EPOE_ModularAdvancedBionicArm.comps.HediffComp_Modular.slots.0.slotName>слот модуля руки</LTS_EPOE_ModularAdvancedBionicArm.comps.HediffComp_Modular.slots.0.slotName>
+  <LTS_EPOE_ModularAdvancedBionicArm.label>кулак</LTS_EPOE_ModularAdvancedBionicArm.label>
+  <LTS_EPOE_ModularAdvancedBionicArm.labelNoun>модульная продвинутая бионическая рука</LTS_EPOE_ModularAdvancedBionicArm.labelNoun>
+  <LTS_EPOE_ModularAdvancedBionicEye.comps.HediffComp_Modular.slots.0.slotName>слот глазного модуля</LTS_EPOE_ModularAdvancedBionicEye.comps.HediffComp_Modular.slots.0.slotName>
+  <LTS_EPOE_ModularAdvancedBionicEye.labelNoun>модульный продвинутый бионический глаз</LTS_EPOE_ModularAdvancedBionicEye.labelNoun>
+  <LTS_EPOE_ModularAdvancedBionicJaw.comps.HediffComp_Modular.slots.0.slotName>слот модуля челюсти</LTS_EPOE_ModularAdvancedBionicJaw.comps.HediffComp_Modular.slots.0.slotName>
+  <LTS_EPOE_ModularAdvancedBionicJaw.labelNoun>модульная продвинутая бионическая челюсть</LTS_EPOE_ModularAdvancedBionicJaw.labelNoun>
+  <LTS_EPOE_ModularAdvancedBionicLeg.comps.HediffComp_Modular.slots.0.slotName>слот модуля ноги</LTS_EPOE_ModularAdvancedBionicLeg.comps.HediffComp_Modular.slots.0.slotName>
+  <LTS_EPOE_ModularAdvancedBionicLeg.labelNoun>модульная продвинутая бионическая нога</LTS_EPOE_ModularAdvancedBionicLeg.labelNoun>
+  <LTS_EPOE_ModularAdvancedBionicSpine.comps.HediffComp_Modular.slots.0.slotName>слот модуля позвоночника</LTS_EPOE_ModularAdvancedBionicSpine.comps.HediffComp_Modular.slots.0.slotName>
+  <LTS_EPOE_ModularAdvancedBionicSpine.labelNoun>модульный продвинутый бионический позвоночник</LTS_EPOE_ModularAdvancedBionicSpine.labelNoun>
+  <LTS_EPOE_ModularAdvancedDrillArm.comps.HediffComp_Modular.slots.0.slotName>слот модуля руки</LTS_EPOE_ModularAdvancedDrillArm.comps.HediffComp_Modular.slots.0.slotName>
+  <LTS_EPOE_ModularAdvancedDrillArm.label>бур</LTS_EPOE_ModularAdvancedDrillArm.label>
+  <LTS_EPOE_ModularAdvancedDrillArm.labelNoun>модульная продвинутая рука-бур</LTS_EPOE_ModularAdvancedDrillArm.labelNoun>
+  <LTS_EPOE_ModularAdvancedElbowBlade.comps.HediffComp_Modular.slots.0.slotName>слот модуля руки</LTS_EPOE_ModularAdvancedElbowBlade.comps.HediffComp_Modular.slots.0.slotName>
+  <LTS_EPOE_ModularAdvancedElbowBlade.label>лезвие</LTS_EPOE_ModularAdvancedElbowBlade.label>
+  <LTS_EPOE_ModularAdvancedElbowBlade.labelNoun>модульный продвинутый бионический локтевой клинок</LTS_EPOE_ModularAdvancedElbowBlade.labelNoun>
+  <LTS_EPOE_ModularAdvancedPowerArm.comps.HediffComp_Modular.slots.0.slotName>слот модуля руки</LTS_EPOE_ModularAdvancedPowerArm.comps.HediffComp_Modular.slots.0.slotName>
+  <LTS_EPOE_ModularAdvancedPowerArm.label>коготь</LTS_EPOE_ModularAdvancedPowerArm.label>
+  <LTS_EPOE_ModularAdvancedPowerArm.labelNoun>модульная продвинутая силовая рука</LTS_EPOE_ModularAdvancedPowerArm.labelNoun>
+  <LTS_EPOE_RightExtraAdvancedBionicHand.label>кулак</LTS_EPOE_RightExtraAdvancedBionicHand.label>
+  <LTS_EPOE_RightExtraAdvancedBionicHand.labelNoun>экстра-продвинутая бионическая кисть (правая)</LTS_EPOE_RightExtraAdvancedBionicHand.labelNoun>
+  <LTS_EPOE_RightExtraAdvancedElbowBlade.label>срез</LTS_EPOE_RightExtraAdvancedElbowBlade.label>
+  <LTS_EPOE_RightExtraAdvancedElbowBlade.labelNoun>экстра-продвинутый бионический локтевой клинок (правый)</LTS_EPOE_RightExtraAdvancedElbowBlade.labelNoun>
+  <LTS_EPOE_RightExtraAdvancedHandTalon.label>коготь</LTS_EPOE_RightExtraAdvancedHandTalon.label>
+  <LTS_EPOE_RightExtraAdvancedHandTalon.labelNoun>экстра-продвинутый бионический кистевой коготь (правый)</LTS_EPOE_RightExtraAdvancedHandTalon.labelNoun>
+</LanguageData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EPIA_InstallCircadianRefresher.jobString>Установка циркадного освежителя.</EPIA_InstallCircadianRefresher.jobString>
+  <EPIA_RemoveCircadianRefresher.jobString>Удаление циркадного освежителя.</EPIA_RemoveCircadianRefresher.jobString>
+  <EPIA_RemoveDetoxifierEnhancer.jobString>Удаление детоксикационного усилителя.</EPIA_RemoveDetoxifierEnhancer.jobString>
+  <EPIA_UpgradeAdvancedDrillArm.jobString>Модернизация руки-бура.</EPIA_UpgradeAdvancedDrillArm.jobString>
+  <EPIA_UpgradeAdvancedElbowBlade.jobString>Модернизация локтевого клинка.</EPIA_UpgradeAdvancedElbowBlade.jobString>
+  <EPIA_UpgradeAdvancedFieldHand.jobString>Модернизация агроманипулятора.</EPIA_UpgradeAdvancedFieldHand.jobString>
+  <EPIA_UpgradeAdvancedHandTalon.jobString>Модернизация кистевого когтя.</EPIA_UpgradeAdvancedHandTalon.jobString>
+  <EPIA_UpgradeAdvancedKneeSpike.jobString>Модернизация коленного шипа.</EPIA_UpgradeAdvancedKneeSpike.jobString>
+  <EPIA_UpgradeBionicElbowBlade.jobString>Модернизация локтевого клинка.</EPIA_UpgradeBionicElbowBlade.jobString>
+  <EPIA_UpgradeBionicHandTalon.jobString>Модернизация кистевого когтя.</EPIA_UpgradeBionicHandTalon.jobString>
+  <EPIA_UpgradeBionicKneeSpike.jobString>Модернизация коленного шипа.</EPIA_UpgradeBionicKneeSpike.jobString>
+  <InstallEPOE_AdvancedDrillArm.jobString>Установка продвинутой руки-бура.</InstallEPOE_AdvancedDrillArm.jobString>
+  <InstallEPOE_AdvancedElbowBlade.jobString>Установка продвинутого локтевого клинка.</InstallEPOE_AdvancedElbowBlade.jobString>
+  <InstallEPOE_AdvancedFieldHand.jobString>Установка продвинутого агроманипулятора.</InstallEPOE_AdvancedFieldHand.jobString>
+  <InstallEPOE_AdvancedHandTalon.jobString>Установка продвинутого кистевого когтя.</InstallEPOE_AdvancedHandTalon.jobString>
+  <InstallEPOE_AdvancedKneeSpike.jobString>Установка продвинутого коленного шипа.</InstallEPOE_AdvancedKneeSpike.jobString>
+  <InstallEPOE_DetoxifierEnhancer.jobString>Установка детоксикационного усилителя.</InstallEPOE_DetoxifierEnhancer.jobString>
+  <InstallEPOE_DetoxifierSyntheticLiver.jobString>Установка синтетической детокс-печени.</InstallEPOE_DetoxifierSyntheticLiver.jobString>
+  <InstallEPOE_ImmunoenhancerSyntheticKidney.jobString>Установка синтетической иммуноусиленной почки.</InstallEPOE_ImmunoenhancerSyntheticKidney.jobString>
+  <InstallEPOE_ScytherElbowBlade.jobString>Установка бионического локтевого клинка.</InstallEPOE_ScytherElbowBlade.jobString>
+  <InstallEPOE_ScytherHandTalon.jobString>Установка бионического кистевого когтя.</InstallEPOE_ScytherHandTalon.jobString>
+  <InstallEPOE_ScytherKneeSpike.jobString>Установка бионического коленного шипа.</InstallEPOE_ScytherKneeSpike.jobString>
+</LanguageData>

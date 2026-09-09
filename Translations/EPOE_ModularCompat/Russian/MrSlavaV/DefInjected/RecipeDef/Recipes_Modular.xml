@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LTS_EPOE_InstallLeftExtraAdvancedBionicHand.jobString>Установка экстра-продвинутой бионической кисти (левой).</LTS_EPOE_InstallLeftExtraAdvancedBionicHand.jobString>
+  <LTS_EPOE_InstallLeftExtraAdvancedElbowBlade.jobString>Установка экстра-продвинутого бионического локтевого клинка (левого).</LTS_EPOE_InstallLeftExtraAdvancedElbowBlade.jobString>
+  <LTS_EPOE_InstallLeftExtraAdvancedHandTalon.jobString>Установка экстра-продвинутого бионического кистевого когтя (левого).</LTS_EPOE_InstallLeftExtraAdvancedHandTalon.jobString>
+  <LTS_EPOE_InstallRightExtraAdvancedBionicHand.jobString>Установка экстра-продвинутой бионической кисти (правой).</LTS_EPOE_InstallRightExtraAdvancedBionicHand.jobString>
+  <LTS_EPOE_InstallRightExtraAdvancedElbowBlade.jobString>Установка экстра-продвинутого бионического локтевого клинка (правого).</LTS_EPOE_InstallRightExtraAdvancedElbowBlade.jobString>
+  <LTS_EPOE_InstallRightExtraAdvancedHandTalon.jobString>Установка экстра-продвинутого бионического кистевого когтя (правого).</LTS_EPOE_InstallRightExtraAdvancedHandTalon.jobString>
+  <LTS_EPOE_ModularizeAdvancedBionicArm.jobString>модернизация продвинутой бионической руки.</LTS_EPOE_ModularizeAdvancedBionicArm.jobString>
+  <LTS_EPOE_ModularizeAdvancedBionicArm.successfullyRemovedHediffMessage>{0} успешно модернизирует {2} колониста {1}.</LTS_EPOE_ModularizeAdvancedBionicArm.successfullyRemovedHediffMessage>
+  <LTS_EPOE_ModularizeAdvancedBionicEye.jobString>модернизация продвинутого бионического глаза.</LTS_EPOE_ModularizeAdvancedBionicEye.jobString>
+  <LTS_EPOE_ModularizeAdvancedBionicEye.successfullyRemovedHediffMessage>{0} успешно модернизирует {2} колониста {1}.</LTS_EPOE_ModularizeAdvancedBionicEye.successfullyRemovedHediffMessage>
+  <LTS_EPOE_ModularizeAdvancedBionicJaw.jobString>модернизация продвинутой бионической челюсти.</LTS_EPOE_ModularizeAdvancedBionicJaw.jobString>
+  <LTS_EPOE_ModularizeAdvancedBionicJaw.successfullyRemovedHediffMessage>{0} успешно модернизирует {2} колониста {1}.</LTS_EPOE_ModularizeAdvancedBionicJaw.successfullyRemovedHediffMessage>
+  <LTS_EPOE_ModularizeAdvancedBionicLeg.jobString>модернизация продвинутой бионической ноги.</LTS_EPOE_ModularizeAdvancedBionicLeg.jobString>
+  <LTS_EPOE_ModularizeAdvancedBionicLeg.successfullyRemovedHediffMessage>{0} успешно модернизирует {2} колониста {1}.</LTS_EPOE_ModularizeAdvancedBionicLeg.successfullyRemovedHediffMessage>
+  <LTS_EPOE_ModularizeAdvancedBionicSpine.jobString>модернизация продвинутого бионического позвоночника.</LTS_EPOE_ModularizeAdvancedBionicSpine.jobString>
+  <LTS_EPOE_ModularizeAdvancedBionicSpine.successfullyRemovedHediffMessage>{0} успешно модернизирует {2} колониста {1}.</LTS_EPOE_ModularizeAdvancedBionicSpine.successfullyRemovedHediffMessage>
+  <LTS_EPOE_ModularizeAdvancedDrillArm.jobString>модернизация продвинутой руки-бура.</LTS_EPOE_ModularizeAdvancedDrillArm.jobString>
+  <LTS_EPOE_ModularizeAdvancedDrillArm.successfullyRemovedHediffMessage>{0} успешно модернизирует {2} колониста {1}.</LTS_EPOE_ModularizeAdvancedDrillArm.successfullyRemovedHediffMessage>
+  <LTS_EPOE_ModularizeAdvancedElbowBlade.jobString>модернизация продвинутого бионического локтевого клинка.</LTS_EPOE_ModularizeAdvancedElbowBlade.jobString>
+  <LTS_EPOE_ModularizeAdvancedElbowBlade.successfullyRemovedHediffMessage>{0} успешно модернизирует {2} колониста {1}.</LTS_EPOE_ModularizeAdvancedElbowBlade.successfullyRemovedHediffMessage>
+  <LTS_EPOE_ModularizeAdvancedPowerArm.jobString>модернизация продвинутой силовой руки.</LTS_EPOE_ModularizeAdvancedPowerArm.jobString>
+  <LTS_EPOE_ModularizeAdvancedPowerArm.successfullyRemovedHediffMessage>{0} успешно модернизирует {2} колониста {1}.</LTS_EPOE_ModularizeAdvancedPowerArm.successfullyRemovedHediffMessage>
+  <LTS_EPOE_RemoveLeftExtraAdvancedBionicHand.jobString>Удаление экстра-продвинутой бионической кисти (левой).</LTS_EPOE_RemoveLeftExtraAdvancedBionicHand.jobString>
+  <LTS_EPOE_RemoveLeftExtraAdvancedElbowBlade.jobString>Удаление экстра-продвинутого бионического локтевого клинка (левого).</LTS_EPOE_RemoveLeftExtraAdvancedElbowBlade.jobString>
+  <LTS_EPOE_RemoveLeftExtraAdvancedHandTalon.jobString>Удаление экстра-продвинутого бионического кистевого когтя (левого).</LTS_EPOE_RemoveLeftExtraAdvancedHandTalon.jobString>
+  <LTS_EPOE_RemoveRightExtraAdvancedBionicHand.jobString>Удаление экстра-продвинутой бионической кисти (правой).</LTS_EPOE_RemoveRightExtraAdvancedBionicHand.jobString>
+  <LTS_EPOE_RemoveRightExtraAdvancedElbowBlade.jobString>Удаление экстра-продвинутого бионического локтевого клинка (правого).</LTS_EPOE_RemoveRightExtraAdvancedElbowBlade.jobString>
+  <LTS_EPOE_RemoveRightExtraAdvancedHandTalon.jobString>Удаление экстра-продвинутого бионического кистевого когтя (правого).</LTS_EPOE_RemoveRightExtraAdvancedHandTalon.jobString>
+</LanguageData>

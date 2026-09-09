@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<GR_GrowthCell_InspectDominant>Доминантный ген: {0}</GR_GrowthCell_InspectDominant>
-	<GR_GrowthCell_InspectSecondary>Вторичный ген: {0}</GR_GrowthCell_InspectSecondary>
-	<GR_GeneticDiseasesIn>Генетические аномалии: {0}</GR_GeneticDiseasesIn>
-	<VPE_MushroomGrowingZone>зона выращивания грибов</VPE_MushroomGrowingZone>
-	<VCE_AquaticGrowingZone>водная посадочная зона</VCE_AquaticGrowingZone>
-	<VCE_SandyGrowingZone>песчаная посадочная зона</VCE_SandyGrowingZone>
-	<VCE_FlowerGardenGrowingZone>цветочный сад</VCE_FlowerGardenGrowingZone>
-	<KAU_GrowingZone>карьерная выработка</KAU_GrowingZone>
-	<KAU_DesignatorZoneExpand>расширить зону (только плодородная почва)</KAU_DesignatorZoneExpand>
-	<MeditationFocusPerSuperComputerAbstract>{1} за каждый суперкомпьютер поблизости (макс. {0})</MeditationFocusPerSuperComputerAbstract>
-	<MeditationFocusPerSuperComputer>{2} за каждый суперкомпьютер поблизости ({0} / {1})</MeditationFocusPerSuperComputer>
-	<MeditationFocusPerWealthyAbstract>2-6% за каждый богатый объект поблизости (макс. {0})</MeditationFocusPerWealthyAbstract>
-	<VCE_CondimentEffects>Эффекты приправы</VCE_CondimentEffects>
-	<MeditationFocusPerWealthy>2-6% за каждый богатый объект поблизости ({0} / {1})</MeditationFocusPerWealthy>
-	<TMM_VCE_CondimentEffectsLuciferiumPowder>Блюда с этой приправой улучшают зрение, кровообращение и фильтрацию на 5%, повышают сознание, подвижность, дыхание и пищеварение на 2%, и снижают боль на 5% в течение 12 ч.</TMM_VCE_CondimentEffectsLuciferiumPowder>
-	<TMM_VCE_CondimentEffectsWakeUpPowder>Блюда с этой приправой повышают скорость работы на 10%, прирост пси-фокуса на 5%, сознание и скорость движения на 3%, и снижают утомляемость на 5% в течение 12 ч.</TMM_VCE_CondimentEffectsWakeUpPowder>
-	<TMM_VCE_CondimentEffectsGoJuiceStock>Блюда с этой приправой повышают зрение и скорость на 5%, сознание на 3%, и снижают боль на 10% в течение 12 ч.</TMM_VCE_CondimentEffectsGoJuiceStock>
-	<VCE_CondimentEffectsMayo>Майонез крайне калориен и дарит приятный насыщенный вкус. Блюда с ним снижают скорость голодания на 15% и повышают настроение на 1 на 12 ч.</VCE_CondimentEffectsMayo>
-	<VCE_CondimentEffectsInfusedMayo>Пряный майонез дарит непревзойденный вкус. Блюда с ним снижают скорость голодания на 15% и повышают настроение на 3 на 12 ч.</VCE_CondimentEffectsInfusedMayo>
-	<VCE_CondimentEffectsBlackMayo>Черный майонез изысканного приготовления. Блюда с ним снижают скорость голодания на 15% и повышают настроение на 4 на 12 ч.</VCE_CondimentEffectsBlackMayo>
-	<CultureLetterTitleDesc>Ваш радиоприемник перехватил сигналы нескольких спорящих сенаторов из {0}. Выполняя задания для этих сенаторов, вы получите уникальные бонусы для всей колонии, новые технологии и возможность принять их в поселение.</CultureLetterTitleDesc>
+  <CultureLetterTitleDesc>Ваше радио ближнего действия уловило сигналы нескольких кричащих сенаторов {0}.
+
+Они перебивают друг друга, пока один голос не звучит четко среди них. Они заметили ваш сигнал и просят о помощи в обмен на полезные неолитические технологии.</CultureLetterTitleDesc>
+  <GR_GeneticDiseasesIn>Генетические заболевания в: {0}</GR_GeneticDiseasesIn>
+  <GR_GrowthCell_InspectDominant>Доминантный ген: {0}</GR_GrowthCell_InspectDominant>
+  <GR_GrowthCell_InspectSecondary>Вторичный ген: {0}</GR_GrowthCell_InspectSecondary>
+  <KAU_DesignatorZoneExpand>расширить зону (только плодородная)</KAU_DesignatorZoneExpand>
+  <KAU_GrowingZone>зона выращивания (только плодородная)</KAU_GrowingZone>
+  <MeditationFocusPerSuperComputer>{2} за каждый суперкомпьютер поблизости ({0} / {1})</MeditationFocusPerSuperComputer>
+  <MeditationFocusPerSuperComputerAbstract>{1} за каждый суперкомпьютер поблизости (макс. {0})</MeditationFocusPerSuperComputerAbstract>
+  <MeditationFocusPerWealthy>2-6% за каждое богатое здание поблизости ({0} / {1})</MeditationFocusPerWealthy>
+  <MeditationFocusPerWealthyAbstract>2-6% за каждое богатое здание поблизости (макс. {0})</MeditationFocusPerWealthyAbstract>
+  <TMM_VCE_CondimentEffectsGoJuiceStock>Употребление блюд с этой приправой улучшает зрение и движение на 5%, повышает сознание на 3% и снижает боль на 10% в течение 12 часов.</TMM_VCE_CondimentEffectsGoJuiceStock>
+  <TMM_VCE_CondimentEffectsLuciferiumPowder>Употребление блюд с этой приправой повышает зрение, перекачку крови и фильтрацию на 5%, повышает сознание, движение, дыхание и пищеварение на 2%, а также снижает боль на 5% в течение 12 часов.</TMM_VCE_CondimentEffectsLuciferiumPowder>
+  <TMM_VCE_CondimentEffectsWakeUpPowder>Употребление блюд с этой приправой увеличивает общую скорость работы на 10%, повышает прирост пси-фокуса от медитации на 5%, увеличивает сознание и движение на 3%, а также снижает усталость на 5% в течение 12 часов.</TMM_VCE_CondimentEffectsWakeUpPowder>
+  <VCE_AquaticGrowingZone>водная зона выращивания</VCE_AquaticGrowingZone>
+  <VCE_CondimentEffects>Эффекты приправы</VCE_CondimentEffects>
+  <VCE_CondimentEffectsBlackMayo>Майонез добавляет приятную пикантность и очень калориен. Блюда с этой приправой снижают скорость голодания на 15% и повышают настроение на 4 в течение 12 часов.</VCE_CondimentEffectsBlackMayo>
+  <VCE_CondimentEffectsInfusedMayo>Майонез добавляет приятную пикантность и очень калориен. Блюда с этой приправой снижают скорость голодания на 15% и повышают настроение на 3 в течение 12 часов.</VCE_CondimentEffectsInfusedMayo>
+  <VCE_CondimentEffectsMayo>Майонез крайне калориен и дарит приятный насыщенный вкус. Блюда с ним снижают скорость голодания на 15% и повышают настроение на 1 на 12 ч.</VCE_CondimentEffectsMayo>
+  <VCE_FlowerGardenGrowingZone>зона цветочного сада</VCE_FlowerGardenGrowingZone>
+  <VCE_SandyGrowingZone>песчаная зона выращивания</VCE_SandyGrowingZone>
+  <VPE_MushroomGrowingZone>зона выращивания грибов</VPE_MushroomGrowingZone>
 </LanguageData>

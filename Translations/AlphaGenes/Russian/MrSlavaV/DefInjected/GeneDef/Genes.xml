@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AG_FleshSpitter.customEffectDescriptions.0>-0.4% рассудка в день</AG_FleshSpitter.customEffectDescriptions.0>
+  <AG_GreaterFleshWhip.customEffectDescriptions.0>-0.4% рассудка в день</AG_GreaterFleshWhip.customEffectDescriptions.0>
+  <AG_GreaterToughspikes.customEffectDescriptions.0>-0.4% рассудка в день</AG_GreaterToughspikes.customEffectDescriptions.0>
+  <AG_OcularAffinity.symbolPack.prefixSymbols.0.symbol>глазо</AG_OcularAffinity.symbolPack.prefixSymbols.0.symbol>
+  <AG_OcularAffinity.symbolPack.prefixSymbols.1.symbol>окул</AG_OcularAffinity.symbolPack.prefixSymbols.1.symbol>
+  <VRE_HairColor_Ocular.description>Носители этого гена имеют особый цвет волос. При наличии нескольких генов цвета волос случайным образом выбирается один из них.</VRE_HairColor_Ocular.description>
+  <VRE_SkinColor_OcularBark.symbolPack.prefixSymbols.0.symbol>окул</VRE_SkinColor_OcularBark.symbolPack.prefixSymbols.0.symbol>
+  <VRE_SkinColor_OcularBark.symbolPack.prefixSymbols.1.symbol>глазо</VRE_SkinColor_OcularBark.symbolPack.prefixSymbols.1.symbol>
+</LanguageData>

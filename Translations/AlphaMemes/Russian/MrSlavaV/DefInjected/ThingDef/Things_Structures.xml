@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AM_FuturisticPyramid.comps.Comp_CorpseContainer.transformLabel>{LABEL} {CORPSE}</AM_FuturisticPyramid.comps.Comp_CorpseContainer.transformLabel>
+  <AM_GreatPyramid.comps.Comp_CorpseContainer.transformLabel>{LABEL} {CORPSE}</AM_GreatPyramid.comps.Comp_CorpseContainer.transformLabel>
+  <AM_Pyramid.comps.Comp_CorpseContainerMulti.inspectString>Содержит останки: {CORPSES}</AM_Pyramid.comps.Comp_CorpseContainerMulti.inspectString>
+  <AM_Urn.comps.Comp_CorpseContainer.transformLabel>{LABEL} {CORPSE}</AM_Urn.comps.Comp_CorpseContainer.transformLabel>
+</LanguageData>

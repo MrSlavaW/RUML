@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<Concept_SimpleSidearmsBasic.label>Второстепенное оружие</Concept_SimpleSidearmsBasic.label>
-	<Concept_SimpleSidearmsBasic.description>Поселенцы теперь могут носить с собой дополнительное оружие в инвентаре. Нажмите правой кнопкой мыши по оружию на земле, чтобы добавить его как второстепенное.</Concept_SimpleSidearmsBasic.description>
-	<Concept_SidearmsInInventory.label>Оружие в инвентаре</Concept_SidearmsInInventory.label>
-	<Concept_SidearmsInInventory.description>Носимое второстепенное оружие отображается на нижней панели интерфейса колониста. Вы можете мгновенно переключаться между ними в бою одним кликом.</Concept_SidearmsInInventory.description>
-	<Concept_SidearmsPrimary.label>Основное оружие</Concept_SidearmsPrimary.label>
-	<Concept_SidearmsPrimary.description>Оружие, находящееся в руках поселенца, считается основным. Если колонист потеряет его, он автоматически достанет подходящее оружие из инвентаря.</Concept_SidearmsPrimary.description>
-	<Concept_SidearmsMissing.label>Потерянное оружие</Concept_SidearmsMissing.label>
-	<Concept_SidearmsMissing.description>Если поселенец уронил свое оружие при ранении, на панели появится полупрозрачный силуэт. Колонист попытается подобрать его обратно, как только придет в себя.</Concept_SidearmsMissing.description>
-	<Concept_SimpleSidearmsAdvanced.label>Продвинутый бой</Concept_SimpleSidearmsAdvanced.label>
-	<Concept_SimpleSidearmsAdvanced.description>Вы можете тонко настроить автоматическую смену оружия: например, переключение на нож при нападении в упор или на снайперскую винтовку при дальней дистанции.</Concept_SimpleSidearmsAdvanced.description>
-	<Concept_SimpleSidearmsDropping.label>Сброс оружия</Concept_SimpleSidearmsDropping.label>
-	<Concept_SimpleSidearmsDropping.description>Чтобы полностью освободить слот второстепенного оружия, нажмите по его иконке на панели правой кнопкой мыши и выберите «Выбросить».</Concept_SimpleSidearmsDropping.description>
+  <Concept_CEOverride.helpText>Обнаружен мод Combat Extended. Управление инвентарем SimpleSidearms отключено в пользу системы CE.</Concept_CEOverride.helpText>
+  <Concept_SidearmsInInventory.description>Носимое второстепенное оружие отображается на нижней панели интерфейса колониста. Вы можете мгновенно переключаться между ними в бою одним кликом.</Concept_SidearmsInInventory.description>
+  <Concept_SidearmsInInventory.label>Оружие в инвентаре</Concept_SidearmsInInventory.label>
+  <Concept_SidearmsMissing.description>Если поселенец уронил свое оружие при ранении, на панели появится полупрозрачный силуэт. Колонист попытается подобрать его обратно, как только придет в себя.</Concept_SidearmsMissing.description>
+  <Concept_SidearmsMissing.helpText>Оружие на темно-фиолетовом фоне сейчас отсутствует в снаряжении колониста. Он попытается восполнить его при первой же возможности. Нажмите правой кнопкой мыши, чтобы забыть об этом оружии.</Concept_SidearmsMissing.helpText>
+  <Concept_SidearmsMissing.label>Потерянное оружие</Concept_SidearmsMissing.label>
+  <Concept_SidearmsPrimary.description>Оружие, находящееся в руках поселенца, считается основным. Если колонист потеряет его, он автоматически достанет подходящее оружие из инвентаря.</Concept_SidearmsPrimary.description>
+  <Concept_SidearmsPrimary.label>Основное оружие</Concept_SidearmsPrimary.label>
+  <Concept_SimpleSidearmsAdvanced.description>Вы можете тонко настроить автоматическую смену оружия: например, переключение на нож при нападении в упор или на снайперскую винтовку при дальней дистанции.</Concept_SimpleSidearmsAdvanced.description>
+  <Concept_SimpleSidearmsAdvanced.label>Продвинутый бой</Concept_SimpleSidearmsAdvanced.label>
+  <Concept_SimpleSidearmsAdvancedDrafted.helpText>В боевом режиме кликните левой кнопкой по оружию, чтобы принудительно использовать его до окончания боя.
+
+Большинство изменений состава доп. оружия требует снятия мобилизации.</Concept_SimpleSidearmsAdvancedDrafted.helpText>
+  <Concept_SimpleSidearmsAdvancedMelee.helpText>Кликните левой кнопкой мыши по оружию ближнего боя в инвентаре, чтобы назначить его предпочтительным. Колонист будет переключаться на него при навязывании ближнего боя.
+
+Повторный клик заставит колониста использовать его постоянно.
+
+Правый клик сбрасывает предпочтение.</Concept_SimpleSidearmsAdvancedMelee.helpText>
+  <Concept_SimpleSidearmsBasic.description>Поселенцы теперь могут носить с собой дополнительное оружие в инвентаре. Нажмите правой кнопкой мыши по оружию на земле, чтобы добавить его как второстепенное.</Concept_SimpleSidearmsBasic.description>
+  <Concept_SimpleSidearmsBasic.helpText>Simple Sidearms
+
+Чтобы взять оружие в качестве дополнительного, нажмите на него правой кнопкой мыши и выберите соответствующий пункт.
+
+По умолчанию колонисты используют оружие, с которым обращаются лучше всего. Стрелки также переключаются на оружие ближнего боя при сближении с противником. Это поведение можно изменить в настройках мода.</Concept_SimpleSidearmsBasic.helpText>
+  <Concept_SimpleSidearmsBasic.label>Второстепенное оружие</Concept_SimpleSidearmsBasic.label>
+  <Concept_SimpleSidearmsDropping.description>Чтобы полностью освободить слот второстепенного оружия, нажмите по его иконке на панели правой кнопкой мыши и выберите «Выбросить».</Concept_SimpleSidearmsDropping.description>
+  <Concept_SimpleSidearmsDropping.label>Сброс оружия</Concept_SimpleSidearmsDropping.label>
+  <Concept_SimpleSidearmsLosingWeapons.helpText>В зависимости от настроек колонисты могут выронить оружие при рукопашных ударах. Они вернутся и подберут его после окончания схватки.</Concept_SimpleSidearmsLosingWeapons.helpText>
 </LanguageData>

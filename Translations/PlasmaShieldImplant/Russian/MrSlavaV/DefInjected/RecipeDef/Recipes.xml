@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <InstallAdvancedPlasmaShieldBattery.jobString>Установка улучшенной батареи плазменного щита.</InstallAdvancedPlasmaShieldBattery.jobString>
+  <InstallHardenedPlasmaShield.jobString>Установка упрочненного плазменного щита.</InstallHardenedPlasmaShield.jobString>
+  <InstallPlasmaShieldBattery.jobString>Установка батареи плазменного щита.</InstallPlasmaShieldBattery.jobString>
+  <InstallPlasmaShieldImplant.jobString>Установка импланта плазменного щита.</InstallPlasmaShieldImplant.jobString>
+  <InstallPsiShieldBooster.jobString>Установка усилителя пси-щита.</InstallPsiShieldBooster.jobString>
+</LanguageData>

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<RB_GlassAutodoor.label>стеклянная автодверь</RB_GlassAutodoor.label>
-	<RB_GlassAutodoor.description>Автоматическая раздвижная дверь из прочного стекла. Пропускает свет и не замедляет проходящих колонистов.</RB_GlassAutodoor.description>
-	<RB_ReinforcedGlassAutodoor.label>бронированная стеклянная автодверь</RB_ReinforcedGlassAutodoor.label>
-	<RB_ReinforcedGlassAutodoor.description>Сверхпрочная автодверь из пуленепробиваемого стекла с усиленной стальной рамой.</RB_ReinforcedGlassAutodoor.description>
-	<RB_DoubleDoor.label>двустворчатая дверь</RB_DoubleDoor.label>
-	<RB_DoubleDoor.description>Широкая распашная дверь шириной в 2 клетки. Удобна для прохода больших групп пешек и вьючных животных.</RB_DoubleDoor.description>
-	<RB_DoubleAutodoor.label>двустворчатая автодверь</RB_DoubleAutodoor.label>
-	<RB_DoubleAutodoor.description>Широкая автоматическая дверь с электроприводом. Мгновенно распахивается при приближении колонистов.</RB_DoubleAutodoor.description>
-	<RB_LargeOrnateDoor.label>парадная двустворчатая дверь</RB_LargeOrnateDoor.label>
-	<RB_LargeOrnateDoor.description>Монументальная дверь, украшенная резьбой и орнаментом. Придает помещению величественный и респектабельный вид.</RB_LargeOrnateDoor.description>
-	<RB_CellDoor.label>решетчатая тюремная дверь</RB_CellDoor.label>
-	<RB_CellDoor.description>Дверь из массивных стальных прутьев. Позволяет надзирателям безопасно наблюдать за заключенными внутри камеры.</RB_CellDoor.description>
+  <RB_CellDoor.description>Дверь из массивных стальных прутьев. Позволяет надзирателям безопасно наблюдать за заключенными внутри камеры.</RB_CellDoor.description>
+  <RB_CellDoor.label>решетчатая тюремная дверь</RB_CellDoor.label>
+  <RB_DoubleAutodoor.description>Широкая автоматическая дверь с электроприводом. Мгновенно распахивается при приближении колонистов.</RB_DoubleAutodoor.description>
+  <RB_DoubleAutodoor.label>двустворчатая автодверь</RB_DoubleAutodoor.label>
+  <RB_DoubleDoor.description>Широкая распашная дверь шириной в 2 клетки. Удобна для прохода больших групп пешек и вьючных животных.</RB_DoubleDoor.description>
+  <RB_DoubleDoor.label>двустворчатая дверь</RB_DoubleDoor.label>
+  <RB_GlassAutodoor.comps.CompAdditionalGraphic.toggleLabel>Сменить текстуру</RB_GlassAutodoor.comps.CompAdditionalGraphic.toggleLabel>
+  <RB_GlassAutodoor.description>Автоматическая раздвижная дверь из прочного стекла. Пропускает свет и не замедляет проходящих колонистов.</RB_GlassAutodoor.description>
+  <RB_GlassAutodoor.label>стеклянная автодверь</RB_GlassAutodoor.label>
+  <RB_LargeOrnateDoor.description>Монументальная дверь, украшенная резьбой и орнаментом. Придает помещению величественный и респектабельный вид.</RB_LargeOrnateDoor.description>
+  <RB_LargeOrnateDoor.label>парадная двустворчатая дверь</RB_LargeOrnateDoor.label>
+  <RB_ReinforcedGlassAutodoor.description>Сверхпрочная автодверь из пуленепробиваемого стекла с усиленной стальной рамой.</RB_ReinforcedGlassAutodoor.description>
+  <RB_ReinforcedGlassAutodoor.label>бронированная стеклянная автодверь</RB_ReinforcedGlassAutodoor.label>
 </LanguageData>

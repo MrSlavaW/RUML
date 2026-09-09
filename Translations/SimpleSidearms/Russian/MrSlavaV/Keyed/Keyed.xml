@@ -1,41 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <AllowBlockedWeaponUse_desc>Allow usage of weapons that are normally blocked (such as persona weapons, biocoded weapons, and Ideology role-restricted weapons) - see XKCD #1172</AllowBlockedWeaponUse_desc>
-  <AllowBlockedWeaponUse_title>Allow use of blocked weapons</AllowBlockedWeaponUse_title>
-  <DrawSidearm_blocked>Weapon unusable</DrawSidearm_blocked>
-  <FirstTimeSettingsWarning>Первый запуск Simple Sidearms?
-Этот значок указывает, что настройки мода ещё не были открыты.</FirstTimeSettingsWarning>
-  <FumbleRecoveryChance_hint>По вертикали — шанс избежать вырона, по горизонтали — навык стрельбы или ближнего боя.</FumbleRecoveryChance_hint>
-  <FumbleRecoveryChance_title>Шанс избежать выпадения оружия</FumbleRecoveryChance_title>
-  <Fumbled>Fumble!</Fumbled>
-  <Fumbled_dev>Fumble! ({0})</Fumbled_dev>
-  <HideSidearmsInCaravanDialogs_desc>Hide sideams in caravan dialogs, to prevent accidentaly selling them. (Experimental, implemented by XT-0xFF @Github)</HideSidearmsInCaravanDialogs_desc>
-  <HideSidearmsInCaravanDialogs_title>Hide sidearms in caravan dialogs</HideSidearmsInCaravanDialogs_title>
-  <LimitModeAmount_option_None>No limit</LimitModeAmount_option_None>
-  <MaximumMassAmountRelative_hint>Listing assumes standard carry capacity of 35 kg</MaximumMassAmountRelative_hint>
-  <PreserveInventoryInCaravans_desc>Keep sidearms in the right inventory when returning from caravans. (Experimental, implemented by XT-0xFF @Github)</PreserveInventoryInCaravans_desc>
-  <PreserveInventoryInCaravans_title>Preserve sideams through caravans</PreserveInventoryInCaravans_title>
-  <ReEquipInCombat_desc>Автоматически подбирать оружие прямо во время боя, если колонист в данный момент не атакует.</ReEquipInCombat_desc>
-  <ReEquipInCombat_title>Подбирать оружие в бою</ReEquipInCombat_title>
-  <ReEquipOutOfCombat_desc>Автоматически подбирать выроненное оружие после выхода из боя при отсутствии опасности.</ReEquipOutOfCombat_desc>
-  <ReEquipOutOfCombat_title>Подбирать выроненное оружие вне боя</ReEquipOutOfCombat_title>
-  <SS_CanEquipAsOffand>Left click on the offhand icon to equip {0} as offhand weapon.</SS_CanEquipAsOffand>
-  <SS_EquipAsOffand>Left click on the offhand icon to equip {0} as offhand weapon.</SS_EquipAsOffand>
-  <SS_EquipOffandFail_AlreadyHoldingShield>Cannot equip {0} as offhand weapon - already holding {1}.</SS_EquipOffandFail_AlreadyHoldingShield>
-  <SS_EquipOffandFail_NoPrimary>Cannot equip {0} as offhand weapon - need a primary weapon to pair it with first.</SS_EquipOffandFail_NoPrimary>
-  <SS_EquipOffandFail_PrimaryTwoHanded>Cannot equip {0} as offhand weapon - {1} is a two-handed weapon.</SS_EquipOffandFail_PrimaryTwoHanded>
-  <SS_EquipWarning_CannotUseWithShield>Using {0} will prevent use of {1}.</SS_EquipWarning_CannotUseWithShield>
-  <SS_EquipWarning_WillUnequipOffhand>Equipping {0} will unequip offhand {1}.</SS_EquipWarning_WillUnequipOffhand>
-  <ShowAlertsMissingSidearm_desc>Show alerts for colonists that remember having sidearms that they no longer have and can't find a replacement for.</ShowAlertsMissingSidearm_desc>
-  <ShowAlertsMissingSidearm_title>Show missing sidearm alerts</ShowAlertsMissingSidearm_title>
+  <ActiveTab_title>Вкладки настроек</ActiveTab_title>
+  <AllowBlockedWeaponUse_desc>Разрешить использование обычно заблокированного оружия (персональное, биокодированное и ограниченное ролями идеологии).</AllowBlockedWeaponUse_desc>
+  <AllowBlockedWeaponUse_title>Разрешить заблокированное оружие</AllowBlockedWeaponUse_title>
+  <CEOverrideInfo_title>Отключено в пользу системы Combat Extended.</CEOverrideInfo_title>
+  <CQCAutoSwitch_title>Автопереключение в ближнем бою</CQCAutoSwitch_title>
+  <CQCFistSwitch_title>Автопереключение на кулачный бой</CQCFistSwitch_title>
+  <DrawSidearm_blocked>Оружие непригодно</DrawSidearm_blocked>
+  <DropMode_title>Критерии выпадания оружия</DropMode_title>
+  <FirstTimeSettingsWarning>Впервые запускаете Simple Sidearms?
+
+Эта иконка указывает, что настройки мода еще не были открыты. Она исчезнет после первого входа в меню настроек.
+
+Нажмите, чтобы перейти в настройки сейчас.</FirstTimeSettingsWarning>
+  <FumbleRecoveryChance_hint>По вертикали — шанс избежать выпадания оружия
+По горизонтали — навык ближнего или дальнего боя (в зависимости от того, какой выше)</FumbleRecoveryChance_hint>
+  <FumbleRecoveryChance_title>Шанс не выронить оружие</FumbleRecoveryChance_title>
+  <Fumbled>Выронил!</Fumbled>
+  <Fumbled_dev>Выронил! ({0})</Fumbled_dev>
+  <HideSidearmsInCaravanDialogs_desc>Скрывать дополнительное оружие в диалогах караванов, чтобы случайно не продать его.</HideSidearmsInCaravanDialogs_desc>
+  <HideSidearmsInCaravanDialogs_title>Скрывать доп. оружие в караванах</HideSidearmsInCaravanDialogs_title>
+  <LimitModeAmountMelee_desc>Ограничения на оружие ближнего боя.</LimitModeAmountMelee_desc>
+  <LimitModeAmountMelee_title>Режим лимита оружия ближнего боя</LimitModeAmountMelee_title>
+  <LimitModeAmountRanged_desc>Ограничения на оружие дальнего боя.</LimitModeAmountRanged_desc>
+  <LimitModeAmountRanged_title>Режим лимита оружия дальнего боя</LimitModeAmountRanged_title>
+  <LimitModeAmountTotal_desc>Ограничения на все дополнительное оружие.</LimitModeAmountTotal_desc>
+  <LimitModeAmountTotal_title>Режим лимита общего числа оружия</LimitModeAmountTotal_title>
+  <LimitModeAmount_desc>Ограничения на все дополнительное оружие.</LimitModeAmount_desc>
+  <LimitModeAmount_option_None>Без ограничений</LimitModeAmount_option_None>
+  <LimitModeAmount_title>Режим лимита общего числа оружия</LimitModeAmount_title>
+  <LimitModeSingleMelee_desc>Ограничения на отдельные единицы ближнего боя.</LimitModeSingleMelee_desc>
+  <LimitModeSingleMelee_title>Режим единичного оружия ближнего боя</LimitModeSingleMelee_title>
+  <LimitModeSingleRanged_desc>Ограничения на отдельные единицы дальнего боя.</LimitModeSingleRanged_desc>
+  <LimitModeSingleRanged_title>Режим единичного оружия дальнего боя</LimitModeSingleRanged_title>
+  <LimitModeSingle_desc>Ограничения на отдельные экземпляры оружия.</LimitModeSingle_desc>
+  <LimitModeSingle_title>Режим лимита единичного оружия</LimitModeSingle_title>
+  <MaximumMassAmountAbsolute_title>Макс. вес оружия (абсолютный)</MaximumMassAmountAbsolute_title>
+  <MaximumMassAmountRelative_hint>Расчет основан на стандартной грузоподъемности в 35 кг.</MaximumMassAmountRelative_hint>
+  <MaximumMassAmountRelative_title>Макс. вес оружия (от грузоподъемности)</MaximumMassAmountRelative_title>
+  <MaximumMassSingleAbsolute_title>Макс. вес одного оружия (абсолютный)</MaximumMassSingleAbsolute_title>
+  <MaximumMassSingleRelative_title>Макс. вес одного оружия (от грузоподъемности)</MaximumMassSingleRelative_title>
+  <OptimalMelee_title>Использовать лучшее оружие ближнего боя</OptimalMelee_title>
+  <PreserveInventoryInCaravans_desc>Сохранять дополнительное оружие в правильном инвентаре при возвращении из караванов.</PreserveInventoryInCaravans_desc>
+  <PreserveInventoryInCaravans_title>Сохранять оружие в караванах</PreserveInventoryInCaravans_title>
+  <ReEquipBest_desc>Автоподбор будет искать лучшее доступное оружие (вместо ближайшего).</ReEquipBest_desc>
+  <ReEquipBest_title>Подбирать лучшее доступное</ReEquipBest_title>
+  <ReEquipInCombat_desc>Автоматически подбирать оружие даже во время боя, если колонист в данный момент не сражается.</ReEquipInCombat_desc>
+  <ReEquipInCombat_title>Подбирать во время боя</ReEquipInCombat_title>
+  <ReEquipOutOfCombat_desc>Автоматически подбирать выроненное оружие после окончания боя, оказавшись вне непосредственной опасности.</ReEquipOutOfCombat_desc>
+  <ReEquipOutOfCombat_title>Подбирать выроненное оружие</ReEquipOutOfCombat_title>
+  <SS_CanEquipAsOffand>Кликните левой кнопкой мыши по иконке второй руки, чтобы взять {0} как дополнительное оружие.</SS_CanEquipAsOffand>
+  <SS_EquipAsOffand>Кликните левой кнопкой мыши по иконке второй руки, чтобы взять {0} как дополнительное оружие.</SS_EquipAsOffand>
+  <SS_EquipOffandFail_AlreadyHoldingShield>Невозможно взять {0} во вторую руку: в ней уже удерживается щит {1}.</SS_EquipOffandFail_AlreadyHoldingShield>
+  <SS_EquipOffandFail_NoPrimary>Невозможно взять {0} во вторую руку: сначала возьмите основное оружие.</SS_EquipOffandFail_NoPrimary>
+  <SS_EquipOffandFail_PrimaryTwoHanded>Невозможно взять {0} во вторую руку: {1} является двуручным оружием.</SS_EquipOffandFail_PrimaryTwoHanded>
+  <SS_EquipWarning_CannotUseWithShield>Использование {0} сделает невозможным ношение {1}.</SS_EquipWarning_CannotUseWithShield>
+  <SS_EquipWarning_WillUnequipOffhand>Экипировка {0} снимет оружие из второй руки {1}.</SS_EquipWarning_WillUnequipOffhand>
+  <ShowAlertsMissingSidearm_desc>Показывать оповещения о колонистах, потерявших дополнительное оружие, для которого пока нет замены.</ShowAlertsMissingSidearm_desc>
+  <ShowAlertsMissingSidearm_title>Оповещения об утраченном оружии</ShowAlertsMissingSidearm_title>
   <ShowBrainscope_desc>лапа</ShowBrainscope_desc>
-  <ShowBrainscope_title>Show Brainscope</ShowBrainscope_title>
-  <SidearmPickupFail_NotYetBladelinkBonded>Not yet bonded</SidearmPickupFail_NotYetBladelinkBonded>
-  <SidearmsPlaySounds_desc>Play sounds when swapping weapons.</SidearmsPlaySounds_desc>
-  <SidearmsPlaySounds_title>Play sounds</SidearmsPlaySounds_title>
+  <ShowBrainscope_title>Отображать Brainscope</ShowBrainscope_title>
+  <SidearmPickupFail_NotYetBladelinkBonded>Еще не привязано</SidearmPickupFail_NotYetBladelinkBonded>
+  <SidearmsPlaySounds_desc>Воспроизводить звуки при смене оружия.</SidearmsPlaySounds_desc>
+  <SidearmsPlaySounds_title>Звуки смены оружия</SidearmsPlaySounds_title>
   <SimpleSidearms_ModTitle>Simple Sidearms</SimpleSidearms_ModTitle>
-  <SkipDangerousWeapons_desc>Запретить автоматический подбор опасного оружия (гранаты, ракетницы, коктейли Молотова).</SkipDangerousWeapons_desc>
-  <SkipDangerousWeapons_title>Пропускать взрывное и опасное оружие</SkipDangerousWeapons_title>
+  <SkipDangerousWeapons_desc>Запретить автоэкипировку опасного оружия (коктейли Молотова, осколочные гранаты, ракетницы и т.д.).</SkipDangerousWeapons_desc>
+  <SkipDangerousWeapons_title>Пропускать опасное оружие</SkipDangerousWeapons_title>
   <SkipEMPWeapons_desc>лапа</SkipEMPWeapons_desc>
-  <SkipEMPWeapons_title>Skip EMP weapons</SkipEMPWeapons_title>
+  <SkipEMPWeapons_title>Пропускать ЭМИ-оружие</SkipEMPWeapons_title>
+  <ToolAutoSwitch_title>Автопереключение на инструменты</ToolAutoSwitch_title>
 </LanguageData>

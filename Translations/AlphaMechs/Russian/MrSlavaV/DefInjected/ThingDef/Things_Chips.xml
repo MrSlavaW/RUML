@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.activateDescString>Изучить чип гипер-связи.</AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.activateDescString>
+  <AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.activateLabelString>Изучить...</AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.completedLetter>Изучив чип гипер-связи, {PAWN_labelShort} получает озарение, необходимое для исследования {RESEARCH}.</AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Чип изучен: открыто исследование {RESEARCH}</AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
+  <AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.guiLabelString>Выберите, кто должен исследовать чип</AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.guiLabelString>
+  <AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.inspectString>Может быть исследован колонистом.</AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.inspectString>
+  <AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.jobString>Изучение чипа гипер-связи</AM_HyperLinkageChip.comps.CompAnalyzableUnlockResearch.jobString>
+  <AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.activateDescString>Изучить чип квантовой матрицы.</AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.activateDescString>
+  <AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.activateLabelString>Изучить...</AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.completedLetter>Изучив чип квантовой матрицы, {PAWN_labelShort} получает озарение, необходимое для исследования {RESEARCH}.</AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Чип изучен: открыто исследование {RESEARCH}</AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
+  <AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.guiLabelString>Выберите, кто должен исследовать чип</AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.guiLabelString>
+  <AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.inspectString>Может быть исследован колонистом.</AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.inspectString>
+  <AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.jobString>Изучение чипа квантовой матрицы</AM_QuantumMatrixChip.comps.CompAnalyzableUnlockResearch.jobString>
+  <AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.activateDescString>Изучить чип звездной обработки.</AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.activateDescString>
+  <AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.activateLabelString>Изучить...</AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.completedLetter>Изучив чип звездной обработки, {PAWN_labelShort} получает озарение, необходимое для исследования {RESEARCH}.</AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>Чип изучен: открыто исследование {RESEARCH}</AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
+  <AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.guiLabelString>Выберите, кто должен исследовать чип</AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.guiLabelString>
+  <AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.inspectString>Может быть исследован колонистом.</AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.inspectString>
+  <AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.jobString>Изучение чипа звездной обработки</AM_StellarProcessingChip.comps.CompAnalyzableUnlockResearch.jobString>
+</LanguageData>

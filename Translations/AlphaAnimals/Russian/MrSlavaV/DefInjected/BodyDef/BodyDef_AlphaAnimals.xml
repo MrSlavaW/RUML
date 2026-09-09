@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <AA_Arachnid.corePart.parts.Pronotum.parts.InsectHead.parts.left_first_eye.customLabel>левый первый глаз</AA_Arachnid.corePart.parts.Pronotum.parts.InsectHead.parts.left_first_eye.customLabel>
+  <AA_Arachnid.corePart.parts.Pronotum.parts.InsectHead.parts.left_fourth_eye.customLabel>левый четвёртый глаз</AA_Arachnid.corePart.parts.Pronotum.parts.InsectHead.parts.left_fourth_eye.customLabel>
+  <AA_Arachnid.corePart.parts.Pronotum.parts.InsectHead.parts.left_second_eye.customLabel>левый второй глаз</AA_Arachnid.corePart.parts.Pronotum.parts.InsectHead.parts.left_second_eye.customLabel>
+  <AA_Arachnid.corePart.parts.Pronotum.parts.InsectHead.parts.left_third_eye.customLabel>левый третий глаз</AA_Arachnid.corePart.parts.Pronotum.parts.InsectHead.parts.left_third_eye.customLabel>
+  <AA_Arachnid.corePart.parts.Pronotum.parts.InsectHead.parts.right_first_eye.customLabel>правый первый глаз</AA_Arachnid.corePart.parts.Pronotum.parts.InsectHead.parts.right_first_eye.customLabel>
+  <AA_Arachnid.corePart.parts.Pronotum.parts.InsectHead.parts.right_fourth_eye.customLabel>правый четвёртый глаз</AA_Arachnid.corePart.parts.Pronotum.parts.InsectHead.parts.right_fourth_eye.customLabel>
+  <AA_Arachnid.corePart.parts.Pronotum.parts.InsectHead.parts.right_second_eye.customLabel>правый второй глаз</AA_Arachnid.corePart.parts.Pronotum.parts.InsectHead.parts.right_second_eye.customLabel>
+  <AA_Arachnid.corePart.parts.Pronotum.parts.InsectHead.parts.right_third_eye.customLabel>правый третий глаз</AA_Arachnid.corePart.parts.Pronotum.parts.InsectHead.parts.right_third_eye.customLabel>
+  <AA_Arachnid.corePart.parts.left_first_leg.customLabel>левая передняя лапа</AA_Arachnid.corePart.parts.left_first_leg.customLabel>
+  <AA_Arachnid.corePart.parts.left_fourth_leg.customLabel>левая задняя лапа</AA_Arachnid.corePart.parts.left_fourth_leg.customLabel>
+  <AA_Arachnid.corePart.parts.left_second_leg.customLabel>левая вторая лапа</AA_Arachnid.corePart.parts.left_second_leg.customLabel>
+  <AA_Arachnid.corePart.parts.left_third_leg.customLabel>левая третья лапа</AA_Arachnid.corePart.parts.left_third_leg.customLabel>
+  <AA_Arachnid.corePart.parts.right_first_leg.customLabel>правая передняя лапа</AA_Arachnid.corePart.parts.right_first_leg.customLabel>
+  <AA_Arachnid.corePart.parts.right_fourth_leg.customLabel>правая задняя лапа</AA_Arachnid.corePart.parts.right_fourth_leg.customLabel>
+  <AA_Arachnid.corePart.parts.right_second_leg.customLabel>правая вторая лапа</AA_Arachnid.corePart.parts.right_second_leg.customLabel>
+  <AA_Arachnid.corePart.parts.right_third_leg.customLabel>правая третья лапа</AA_Arachnid.corePart.parts.right_third_leg.customLabel>
   <AA_Arachnid.label>паукообразное тело</AA_Arachnid.label>
   <AA_ArmouredSlug.label>бронированный слизняк</AA_ArmouredSlug.label>
+  <AA_Assembler.corePart.parts.Head.parts.left_hearing_sensor.customLabel>левый акустический сенсор</AA_Assembler.corePart.parts.Head.parts.left_hearing_sensor.customLabel>
+  <AA_Assembler.corePart.parts.Head.parts.left_sight_sensor.customLabel>левый оптический сенсор</AA_Assembler.corePart.parts.Head.parts.left_sight_sensor.customLabel>
+  <AA_Assembler.corePart.parts.Head.parts.right_hearing_sensor.customLabel>правый акустический сенсор</AA_Assembler.corePart.parts.Head.parts.right_hearing_sensor.customLabel>
+  <AA_Assembler.corePart.parts.Head.parts.right_sight_sensor.customLabel>правый оптический сенсор</AA_Assembler.corePart.parts.Head.parts.right_sight_sensor.customLabel>
   <AA_Assembler.label>парящий механизм</AA_Assembler.label>
   <AA_Atispec.label>тело</AA_Atispec.label>
   <AA_AuraBody.label>аура</AA_AuraBody.label>
   <AA_Butterfly.label>тело</AA_Butterfly.label>
   <AA_ClawedSlug.label>слизень</AA_ClawedSlug.label>
   <AA_Crocodile.label>крокодил</AA_Crocodile.label>
+  <AA_DaggerSnoutBody.corePart.parts.Head.parts.snout_blade.customLabel>носовой клинок</AA_DaggerSnoutBody.corePart.parts.Head.parts.snout_blade.customLabel>
   <AA_DaggerSnoutBody.label>кинжалорыл</AA_DaggerSnoutBody.label>
+  <AA_DemolisherBody.corePart.parts.Head.parts.left_hearing_sensor.customLabel>левый акустический сенсор</AA_DemolisherBody.corePart.parts.Head.parts.left_hearing_sensor.customLabel>
+  <AA_DemolisherBody.corePart.parts.Head.parts.left_sight_sensor.customLabel>левый оптический сенсор</AA_DemolisherBody.corePart.parts.Head.parts.left_sight_sensor.customLabel>
+  <AA_DemolisherBody.corePart.parts.Head.parts.right_hearing_sensor.customLabel>правый акустический сенсор</AA_DemolisherBody.corePart.parts.Head.parts.right_hearing_sensor.customLabel>
+  <AA_DemolisherBody.corePart.parts.Head.parts.right_sight_sensor.customLabel>правый оптический сенсор</AA_DemolisherBody.corePart.parts.Head.parts.right_sight_sensor.customLabel>
+  <AA_DemolisherBody.corePart.parts.left_mechanical_claw.customLabel>левая механическая клешня</AA_DemolisherBody.corePart.parts.left_mechanical_claw.customLabel>
+  <AA_DemolisherBody.corePart.parts.right_mechanical_claw.customLabel>правая механическая клешня</AA_DemolisherBody.corePart.parts.right_mechanical_claw.customLabel>
   <AA_DemolisherBody.label>разрушитель</AA_DemolisherBody.label>
   <AA_DualJawedQuadruped.label>двучелюстное четвероногое</AA_DualJawedQuadruped.label>
   <AA_DualTentacledQuadrupedWithJowl.label>двущупальцевое четвероногое</AA_DualTentacledQuadrupedWithJowl.label>
@@ -19,19 +46,48 @@
   <AA_FourEyedQuadruped.label>четырёхглазое четвероногое</AA_FourEyedQuadruped.label>
   <AA_GooBody.label>зелёная слизь</AA_GooBody.label>
   <AA_GooWithTeethBody.label>зелёная слизь</AA_GooWithTeethBody.label>
+  <AA_Hexapod.corePart.parts.Pronotum.parts.InsectHead.parts.left_first_eye.customLabel>левый первый глаз</AA_Hexapod.corePart.parts.Pronotum.parts.InsectHead.parts.left_first_eye.customLabel>
+  <AA_Hexapod.corePart.parts.Pronotum.parts.InsectHead.parts.left_second_eye.customLabel>левый второй глаз</AA_Hexapod.corePart.parts.Pronotum.parts.InsectHead.parts.left_second_eye.customLabel>
+  <AA_Hexapod.corePart.parts.Pronotum.parts.InsectHead.parts.right_first_eye.customLabel>правый первый глаз</AA_Hexapod.corePart.parts.Pronotum.parts.InsectHead.parts.right_first_eye.customLabel>
+  <AA_Hexapod.corePart.parts.Pronotum.parts.InsectHead.parts.right_second_eye.customLabel>правый второй глаз</AA_Hexapod.corePart.parts.Pronotum.parts.InsectHead.parts.right_second_eye.customLabel>
   <AA_Hexapod.label>гексапод</AA_Hexapod.label>
   <AA_JellyfishBoatBody.label>медуза</AA_JellyfishBoatBody.label>
+  <AA_JellyfishBody.corePart.parts.Head.parts.left_eye_spot.customLabel>левое глазное пятно</AA_JellyfishBody.corePart.parts.Head.parts.left_eye_spot.customLabel>
+  <AA_JellyfishBody.corePart.parts.Head.parts.right_eye_spot.customLabel>правое глазное пятно</AA_JellyfishBody.corePart.parts.Head.parts.right_eye_spot.customLabel>
+  <AA_JellyfishBody.corePart.parts.first_tentacle.customLabel>первое щупальце</AA_JellyfishBody.corePart.parts.first_tentacle.customLabel>
+  <AA_JellyfishBody.corePart.parts.gastrovascular_cavity.customLabel>гастроваскулярная полость</AA_JellyfishBody.corePart.parts.gastrovascular_cavity.customLabel>
+  <AA_JellyfishBody.corePart.parts.left_hydrogen_sac.customLabel>левый водородный мешок</AA_JellyfishBody.corePart.parts.left_hydrogen_sac.customLabel>
+  <AA_JellyfishBody.corePart.parts.right_hydrogen_sac.customLabel>правый водородный мешок</AA_JellyfishBody.corePart.parts.right_hydrogen_sac.customLabel>
+  <AA_JellyfishBody.corePart.parts.second_tentacle.customLabel>второе щупальце</AA_JellyfishBody.corePart.parts.second_tentacle.customLabel>
+  <AA_JellyfishBody.corePart.parts.stomach_pouch.customLabel>желудочный карман</AA_JellyfishBody.corePart.parts.stomach_pouch.customLabel>
+  <AA_JellyfishBody.corePart.parts.third_tentacle.customLabel>третье щупальце</AA_JellyfishBody.corePart.parts.third_tentacle.customLabel>
   <AA_JellyfishBody.label>медуза</AA_JellyfishBody.label>
   <AA_Locusts.label>саранча</AA_Locusts.label>
   <AA_NautiloidBody.label>тело</AA_NautiloidBody.label>
   <AA_NightMuleBody.label>ночной мул</AA_NightMuleBody.label>
   <AA_NightRamBody.label>ночной баран</AA_NightRamBody.label>
+  <AA_OcularJellyBody.corePart.parts.Head.parts.first_eye_spot.customLabel>первое глазное пятно</AA_OcularJellyBody.corePart.parts.Head.parts.first_eye_spot.customLabel>
+  <AA_OcularJellyBody.corePart.parts.Head.parts.second_eye_spot.customLabel>второе глазное пятно</AA_OcularJellyBody.corePart.parts.Head.parts.second_eye_spot.customLabel>
+  <AA_OcularJellyBody.corePart.parts.Head.parts.third_eye_spot.customLabel>третье глазное пятно</AA_OcularJellyBody.corePart.parts.Head.parts.third_eye_spot.customLabel>
+  <AA_OcularJellyBody.corePart.parts.first_tentacle.customLabel>первое щупальце</AA_OcularJellyBody.corePart.parts.first_tentacle.customLabel>
+  <AA_OcularJellyBody.corePart.parts.gastrovascular_cavity.customLabel>гастроваскулярная полость</AA_OcularJellyBody.corePart.parts.gastrovascular_cavity.customLabel>
+  <AA_OcularJellyBody.corePart.parts.left_hydrogen_sac.customLabel>левый водородный мешок</AA_OcularJellyBody.corePart.parts.left_hydrogen_sac.customLabel>
+  <AA_OcularJellyBody.corePart.parts.right_hydrogen_sac.customLabel>правый водородный мешок</AA_OcularJellyBody.corePart.parts.right_hydrogen_sac.customLabel>
+  <AA_OcularJellyBody.corePart.parts.second_tentacle.customLabel>второе щупальце</AA_OcularJellyBody.corePart.parts.second_tentacle.customLabel>
+  <AA_OcularJellyBody.corePart.parts.stomach_pouch.customLabel>желудочный карман</AA_OcularJellyBody.corePart.parts.stomach_pouch.customLabel>
+  <AA_OcularJellyBody.corePart.parts.third_tentacle.customLabel>третье щупальце</AA_OcularJellyBody.corePart.parts.third_tentacle.customLabel>
   <AA_OcularJellyBody.label>окулярное желе</AA_OcularJellyBody.label>
   <AA_RaptorBody.label>раптор</AA_RaptorBody.label>
   <AA_RedSporeBody.label>споры</AA_RedSporeBody.label>
   <AA_ScorpionLike.label>тело</AA_ScorpionLike.label>
   <AA_SentientPlant.label>тело</AA_SentientPlant.label>
   <AA_SiegebreakerBody.label>сокрушитель осад</AA_SiegebreakerBody.label>
+  <AA_SixEyedGoat.corePart.parts.Head.parts.first_left_eye.customLabel>первый левый глаз</AA_SixEyedGoat.corePart.parts.Head.parts.first_left_eye.customLabel>
+  <AA_SixEyedGoat.corePart.parts.Head.parts.first_right_eye.customLabel>первый правый глаз</AA_SixEyedGoat.corePart.parts.Head.parts.first_right_eye.customLabel>
+  <AA_SixEyedGoat.corePart.parts.Head.parts.second_left_eye.customLabel>второй левый глаз</AA_SixEyedGoat.corePart.parts.Head.parts.second_left_eye.customLabel>
+  <AA_SixEyedGoat.corePart.parts.Head.parts.second_right_eye.customLabel>второй правый глаз</AA_SixEyedGoat.corePart.parts.Head.parts.second_right_eye.customLabel>
+  <AA_SixEyedGoat.corePart.parts.Head.parts.third_left_eye.customLabel>третий левый глаз</AA_SixEyedGoat.corePart.parts.Head.parts.third_left_eye.customLabel>
+  <AA_SixEyedGoat.corePart.parts.Head.parts.third_right_eye.customLabel>третий правый глаз</AA_SixEyedGoat.corePart.parts.Head.parts.third_right_eye.customLabel>
   <AA_SixEyedGoat.label>шестиглазый козёл</AA_SixEyedGoat.label>
   <AA_Slug.label>слизень</AA_Slug.label>
   <AA_SlurrypedeBody.label>механическая многоножка</AA_SlurrypedeBody.label>

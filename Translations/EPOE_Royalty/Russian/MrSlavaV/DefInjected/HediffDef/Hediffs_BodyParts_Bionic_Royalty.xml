@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EPIA_CircadianRefresher.labelNoun>циркадный освежитель</EPIA_CircadianRefresher.labelNoun>
+  <EPOE_AdvancedDrillArm.label>бур</EPOE_AdvancedDrillArm.label>
+  <EPOE_AdvancedDrillArm.labelNoun>продвинутая рука-бур</EPOE_AdvancedDrillArm.labelNoun>
+  <EPOE_AdvancedElbowBlade.label>лезвие</EPOE_AdvancedElbowBlade.label>
+  <EPOE_AdvancedElbowBlade.labelNoun>продвинутый локтевой клинок</EPOE_AdvancedElbowBlade.labelNoun>
+  <EPOE_AdvancedFieldHand.label>костяшка</EPOE_AdvancedFieldHand.label>
+  <EPOE_AdvancedFieldHand.labelNoun>продвинутый агроманипулятор</EPOE_AdvancedFieldHand.labelNoun>
+  <EPOE_AdvancedHandTalon.label>коготь</EPOE_AdvancedHandTalon.label>
+  <EPOE_AdvancedHandTalon.labelNoun>продвинутый кистевой коготь</EPOE_AdvancedHandTalon.labelNoun>
+  <EPOE_AdvancedKneeSpike.label>шип</EPOE_AdvancedKneeSpike.label>
+  <EPOE_AdvancedKneeSpike.labelNoun>продвинутый коленный шип</EPOE_AdvancedKneeSpike.labelNoun>
+  <EPOE_DetoxifierEnhancer.labelNoun>детоксикационный усилитель</EPOE_DetoxifierEnhancer.labelNoun>
+  <EPOE_DetoxifierSyntheticLiver.labelNoun>синтетическая детокс-печень</EPOE_DetoxifierSyntheticLiver.labelNoun>
+  <EPOE_ImmunoenhancerSyntheticKidney.labelNoun>синтетическая иммуноусиленная почка</EPOE_ImmunoenhancerSyntheticKidney.labelNoun>
+  <EPOE_ScytherElbowBlade.label>клинок</EPOE_ScytherElbowBlade.label>
+  <EPOE_ScytherElbowBlade.labelNoun>бионический локтевой клинок</EPOE_ScytherElbowBlade.labelNoun>
+  <EPOE_ScytherHandTalon.label>коготь</EPOE_ScytherHandTalon.label>
+  <EPOE_ScytherHandTalon.labelNoun>бионический кистевой коготь</EPOE_ScytherHandTalon.labelNoun>
+  <EPOE_ScytherKneeSpike.label>шип</EPOE_ScytherKneeSpike.label>
+  <EPOE_ScytherKneeSpike.labelNoun>бионический коленный шип</EPOE_ScytherKneeSpike.labelNoun>
+</LanguageData>

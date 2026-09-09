@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <InstallAdvancedArchotechArm.jobString>Установка продвинутой архотек-руки.</InstallAdvancedArchotechArm.jobString>
+  <InstallAdvancedArchotechLeg.jobString>Установка продвинутой архотек-ноги.</InstallAdvancedArchotechLeg.jobString>
+  <InstallArchotechBrainMelder.jobString>Установка архотек-слиятеля разума.</InstallArchotechBrainMelder.jobString>
+  <InstallArchotechDeathClaw.jobString>Установка архотек-когтя смерти.</InstallArchotechDeathClaw.jobString>
+  <InstallArchotechDenture.jobString>Установка архотек-челюсти.</InstallArchotechDenture.jobString>
+  <InstallArchotechEar.jobString>Установка архотек-уха.</InstallArchotechEar.jobString>
+  <InstallArchotechHeart.jobString>Установка архотек-сердца.</InstallArchotechHeart.jobString>
+  <InstallArchotechKidney.jobString>Установка архотек-почки.</InstallArchotechKidney.jobString>
+  <InstallArchotechLiver.jobString>Установка архотек-печени.</InstallArchotechLiver.jobString>
+  <InstallArchotechLung.jobString>Установка архотек-легкого.</InstallArchotechLung.jobString>
+  <InstallArchotechMembrane.jobString>Установка архотек-мембраны.</InstallArchotechMembrane.jobString>
+  <InstallArchotechObliterator.jobString>Установка архотек-дезинтегратора.</InstallArchotechObliterator.jobString>
+  <InstallArchotechPelvis.jobString>Установка архотек-таза.</InstallArchotechPelvis.jobString>
+  <InstallArchotechRegenerationMatrix.jobString>Установка архотек-матрицы регенерации.</InstallArchotechRegenerationMatrix.jobString>
+  <InstallArchotechSpine.jobString>Установка архотек-позвоночника.</InstallArchotechSpine.jobString>
+  <InstallArchotechStomach.jobString>Установка архотек-желудка.</InstallArchotechStomach.jobString>
+</LanguageData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AB_Calcified.label>окаменелый гравий</AB_Calcified.label>
+  <AB_CandySand.label>сахарный песок</AB_CandySand.label>
+  <AB_CeruleanSoil.label>лазурная почва</AB_CeruleanSoil.label>
+  <AB_ChocolateSoil.label>шоколадная почва</AB_ChocolateSoil.label>
+  <AB_ChocolateSoilRich.label>плодородная шоколадная почва</AB_ChocolateSoilRich.label>
+  <AB_Cream.label>взбитые сливки</AB_Cream.label>
+  <AB_Crystallized.label>кристаллизованный гравий</AB_Crystallized.label>
+  <AB_DryFlowerySoil.label>сухая цветочная почва</AB_DryFlowerySoil.label>
+  <AB_FinestoneCragstone.description>Изысканная каменная плитка из скальной породы.</AB_FinestoneCragstone.description>
+  <AB_FinestoneMudstone.description>Изысканная каменная плитка из аргиллита для демонстрации высокого статуса.</AB_FinestoneMudstone.description>
+  <AB_FinestoneObsidian.description>Изысканная плитка из глубокого обсидиана.</AB_FinestoneObsidian.description>
+  <AB_FinestoneRoseQuartz.description>Изысканная каменная плитка из розового кварца, изготовленная без компромиссов для демонстрации статуса.</AB_FinestoneRoseQuartz.description>
+  <AB_GauranlenSoil.label>гауранленовая почва</AB_GauranlenSoil.label>
+  <AB_HealingSpringwater.label>целебная вода</AB_HealingSpringwater.label>
+  <AB_MutagenicOcularWater.label>окулярная вода</AB_MutagenicOcularWater.label>
+  <AB_Quicksand.label>зыбучие пески</AB_Quicksand.label>
+  <AB_Strawberry.label>клубничная глазурь</AB_Strawberry.label>
+  <AB_ToxicFlowerySoil.label>токсичная цветочная почва</AB_ToxicFlowerySoil.label>
+</LanguageData>

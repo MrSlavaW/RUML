@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<RB_Make_GlassFromChunks.label>выплавить стекло из обломков</RB_Make_GlassFromChunks.label>
-	<RB_Make_GlassFromChunks.description>Переплавить каменные обломки в прозрачные листы строительного стекла.</RB_Make_GlassFromChunks.description>
-	<RB_Make_BallisticGlassFromChunks.label>изготовить бронестекло</RB_Make_BallisticGlassFromChunks.label>
-	<RB_Make_BallisticGlassFromChunks.description>Изготовить листы сверхпрочного армированного бронестекла.</RB_Make_BallisticGlassFromChunks.description>
+  <RB_Make_BallisticGlassFromChunks.description>Изготовить листы сверхпрочного армированного бронестекла.</RB_Make_BallisticGlassFromChunks.description>
+  <RB_Make_BallisticGlassFromChunks.jobString>Создание бронированного стекла.</RB_Make_BallisticGlassFromChunks.jobString>
+  <RB_Make_BallisticGlassFromChunks.label>изготовить бронестекло</RB_Make_BallisticGlassFromChunks.label>
+  <RB_Make_GlassFromChunks.description>Переплавить каменные обломки в прозрачные листы строительного стекла.</RB_Make_GlassFromChunks.description>
+  <RB_Make_GlassFromChunks.jobString>Создание стекла.</RB_Make_GlassFromChunks.jobString>
+  <RB_Make_GlassFromChunks.label>выплавить стекло из обломков</RB_Make_GlassFromChunks.label>
 </LanguageData>

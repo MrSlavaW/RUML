@@ -1,221 +1,260 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <AA_AlphaAnimalSpawnMultiplier>лапа</AA_AlphaAnimalSpawnMultiplier>
-  <AA_AlphaAnimalSpawnMultiplierTooltip>лапа</AA_AlphaAnimalSpawnMultiplierTooltip>
-  <AA_AlphaCargoPodCrash>You have detected a cargo pod crashing nearby. Captive exotic animals seem to be inside.\n\nWho knows, but perhaps you'll find something useful in the wreckage.</AA_AlphaCargoPodCrash>
-  <AA_AnimalDoingWeirdJob>Animal is busy doing a job.</AA_AnimalDoingWeirdJob>
-  <AA_AntiInsectoidShockTroop>Anti-Insectoid Shock Troop</AA_AntiInsectoidShockTroop>
-  <AA_AntiInsectoidShockTroopDesc>атака</AA_AntiInsectoidShockTroopDesc>
-  <AA_ArmouredTankDesc>атака</AA_ArmouredTankDesc>
-  <AA_Artillery>Artillery</AA_Artillery>
-  <AA_ArtilleryDesc>атака</AA_ArtilleryDesc>
-  <AA_AsexualCloning>{0} has cloned itself.</AA_AsexualCloning>
-  <AA_AsexualHatched>{0} has reproduced asexually.</AA_AsexualHatched>
-  <AA_AsexualHatchedEgg>{0} has sporulated.</AA_AsexualHatchedEgg>
-  <AA_BlueGel>Blue Gel production</AA_BlueGel>
-  <AA_Boomer>Boomer</AA_Boomer>
-  <AA_BoomerDesc>This animal explodes on death.</AA_BoomerDesc>
-  <AA_CancelDestroyFlamingoEggsDesc>яйцо</AA_CancelDestroyFlamingoEggsDesc>
-  <AA_CancelDestroyFlamingoEggsLabel>яйцо</AA_CancelDestroyFlamingoEggsLabel>
-  <AA_Charge>Charge!</AA_Charge>
-  <AA_ChargeAndSkewer>Charge and skewer!</AA_ChargeAndSkewer>
-  <AA_ChargeAndSkewerFailed>Failed charge and skewer</AA_ChargeAndSkewerFailed>
-  <AA_ChargeFailed>Failed charge</AA_ChargeFailed>
-  <AA_CinderSilkDesc>Cindersilk production</AA_CinderSilkDesc>
-  <AA_ClawFrenzy>коготь</AA_ClawFrenzy>
-  <AA_ClawFrenzyFailed>коготь</AA_ClawFrenzyFailed>
-  <AA_ClutchmotherNotTameable>мать выводка</AA_ClutchmotherNotTameable>
-  <AA_CocoonInsectSpawnIn>Insect emerging in: {0}</AA_CocoonInsectSpawnIn>
-  <AA_DOTShockTroop>DOT Shock Troop</AA_DOTShockTroop>
-  <AA_DamageRanged>атака</AA_DamageRanged>
-  <AA_DamageRangedDOT>атака</AA_DamageRangedDOT>
-  <AA_DamageRangedDOTDesc>атака</AA_DamageRangedDOTDesc>
-  <AA_DamageRangedDesc>атака</AA_DamageRangedDesc>
-  <AA_DamageRangedElectric>атака</AA_DamageRangedElectric>
-  <AA_DamageRangedElectricDesc>атака</AA_DamageRangedElectricDesc>
-  <AA_DamageRangedFire>атака</AA_DamageRangedFire>
-  <AA_DamageRangedFireDesc>атака</AA_DamageRangedFireDesc>
-  <AA_DamageRangedPoison>атака</AA_DamageRangedPoison>
-  <AA_DamageRangedPoisonDesc>атака</AA_DamageRangedPoisonDesc>
-  <AA_DestroyFlamingoEggsDesc>яйцо</AA_DestroyFlamingoEggsDesc>
-  <AA_DestroyFlamingoEggsLabel>яйцо</AA_DestroyFlamingoEggsLabel>
-  <AA_Detonate>Detonate</AA_Detonate>
-  <AA_DetonateDesc>Force this animal to detonate. This will kill the animal and cause an explosion.</AA_DetonateDesc>
-  <AA_DigestionTime>Will be consumed in {0}</AA_DigestionTime>
-  <AA_DisableAnimal>Disable {0}</AA_DisableAnimal>
-  <AA_DisablingStrike>Disabling strike!</AA_DisablingStrike>
-  <AA_DisablingStrikeFailed>Failed disabling strike</AA_DisablingStrikeFailed>
-  <AA_EMPBlow>EMP blow!</AA_EMPBlow>
-  <AA_EMPBlowFailed>EMP blow failed</AA_EMPBlowFailed>
-  <AA_EMPShockTroop>EMP Shock Troop</AA_EMPShockTroop>
-  <AA_EMPShockTroopDesc>атака</AA_EMPShockTroopDesc>
+  <AA_AlphaAnimalSpawnMultiplier>Множитель частоты появления Alpha Animals</AA_AlphaAnimalSpawnMultiplier>
+  <AA_AlphaAnimalSpawnMultiplierTooltip>Этот множитель влияет на базовую частоту появления (распространённость) ВСЕХ животных из этого мода. Например, при значении 0.5 животные из мода будут появляться в два раза реже обычного (значение по умолчанию — 1). При значении 2 они будут появляться в два раза чаще. Влияет только на диких животных на карте.</AA_AlphaAnimalSpawnMultiplierTooltip>
+  <AA_AlphaCargoPodCrash>Вы зафиксировали падение грузовой капсулы неподалёку. Внутри находятся запертые экзотические животные.
+
+Кто знает, возможно, среди обломков удастся найти что-то ценное.</AA_AlphaCargoPodCrash>
+  <AA_AnimalDoingWeirdJob>Животное занято выполнением работы.</AA_AnimalDoingWeirdJob>
+  <AA_AntiInsectoidShockTroop>Противоинсектоидный ударный отряд</AA_AntiInsectoidShockTroop>
+  <AA_AntiInsectoidShockTroopDesc>Животные класса «Ударный отряд» специализируются на высокой скорости и обладают способностями, полезными в ближнем бою. Они могут быть не слишком живучими, но при грамотном использовании способны наносить сокрушительный урон.
+
+Это животное также наносит рвущие удары с дополнительным уроном по инсектоидам.</AA_AntiInsectoidShockTroopDesc>
+  <AA_ArmouredTankDesc>Животные класса «Танк» специализируются на ближнем бою. Они обладают высоким уроном, отличным сопротивлением, большим запасом здоровья или другими способностями, позволяющими им выживать на передовой.</AA_ArmouredTankDesc>
+  <AA_Artillery>Артиллерия</AA_Artillery>
+  <AA_ArtilleryDesc>Это животное атакует опасными взрывными дальнобойными снарядами.</AA_ArtilleryDesc>
+  <AA_AsexualCloning>{0} клонирует себя.</AA_AsexualCloning>
+  <AA_AsexualHatched>У {0} произошло бесполое размножение.</AA_AsexualHatched>
+  <AA_AsexualHatchedEgg>У {0} произошло спороношение.</AA_AsexualHatchedEgg>
+  <AA_BlueGel>Производство синего геля</AA_BlueGel>
+  <AA_Boomer>Бумер</AA_Boomer>
+  <AA_BoomerDesc>Это животное взрывается при гибели.</AA_BoomerDesc>
+  <AA_CancelDestroyFlamingoEggsDesc>Отменить приказ разбить это яйцо как можно скорее.</AA_CancelDestroyFlamingoEggsDesc>
+  <AA_CancelDestroyFlamingoEggsLabel>Отменить уничтожение яйца</AA_CancelDestroyFlamingoEggsLabel>
+  <AA_Charge>Таран!</AA_Charge>
+  <AA_ChargeAndSkewer>Рывок и пронзание!</AA_ChargeAndSkewer>
+  <AA_ChargeAndSkewerFailed>Не удалось выполнить рывок и пронзание</AA_ChargeAndSkewerFailed>
+  <AA_ChargeFailed>Не удалось выполнить таран</AA_ChargeFailed>
+  <AA_CinderSilkDesc>Производство пепельного шёлка</AA_CinderSilkDesc>
+  <AA_ClawFrenzy>Ярость когтей!</AA_ClawFrenzy>
+  <AA_ClawFrenzyFailed>Не удалось выполнить ярость когтей</AA_ClawFrenzyFailed>
+  <AA_ClutchmotherNotTameable>Матку кладки невозможно приручить, она агрессивна и не поддаётся дрессировке.</AA_ClutchmotherNotTameable>
+  <AA_CocoonInsectSpawnIn>Насекомое вылупится через: {0}</AA_CocoonInsectSpawnIn>
+  <AA_DOTShockTroop>Периодический ударный отряд</AA_DOTShockTroop>
+  <AA_DamageRanged>Дальний бой</AA_DamageRanged>
+  <AA_DamageRangedDOT>Дальний бой (периодический урон)</AA_DamageRangedDOT>
+  <AA_DamageRangedDOTDesc>Это животное атакует на расстоянии, накладывая периодический урон (яд, горение и др.).</AA_DamageRangedDOTDesc>
+  <AA_DamageRangedDesc>Это животное способно атаковать врагов на расстоянии.</AA_DamageRangedDesc>
+  <AA_DamageRangedElectric>Дальний бой (электричество)</AA_DamageRangedElectric>
+  <AA_DamageRangedElectricDesc>Это животное поражает врагов электрическими разрядами на расстоянии.</AA_DamageRangedElectricDesc>
+  <AA_DamageRangedFire>Дальний бой (огонь)</AA_DamageRangedFire>
+  <AA_DamageRangedFireDesc>Это животное изрыгает огонь или поджигает врагов на расстоянии.</AA_DamageRangedFireDesc>
+  <AA_DamageRangedPoison>Дальний бой (яд)</AA_DamageRangedPoison>
+  <AA_DamageRangedPoisonDesc>Это животное отравляет врагов ядовитыми плевками на расстоянии.</AA_DamageRangedPoisonDesc>
+  <AA_DestroyFlamingoEggsDesc>Приказать колонистам немедленно разбить это яйцо фламинго.</AA_DestroyFlamingoEggsDesc>
+  <AA_DestroyFlamingoEggsLabel>Разбить яйцо</AA_DestroyFlamingoEggsLabel>
+  <AA_Detonate>Взорвать</AA_Detonate>
+  <AA_DetonateDesc>Принудительно подорвать это животное. Это убьёт животное и вызовет мощный взрыв.</AA_DetonateDesc>
+  <AA_DigestionTime>Будет переварено через {0}</AA_DigestionTime>
+  <AA_DisableAnimal>Отключить появление {0}</AA_DisableAnimal>
+  <AA_DisablingStrike>Обездвиживающий удар!</AA_DisablingStrike>
+  <AA_DisablingStrikeFailed>Обездвиживающий удар не удался</AA_DisablingStrikeFailed>
+  <AA_EMPBlow>ЭМИ-удар!</AA_EMPBlow>
+  <AA_EMPBlowFailed>ЭМИ-удар не удался</AA_EMPBlowFailed>
+  <AA_EMPShockTroop>ЭМИ ударный отряд</AA_EMPShockTroop>
+  <AA_EMPShockTroopDesc>Животные класса «Ударный отряд» специализируются на высокой скорости и дестабилизации противников. Это существо атакует электрическими или электромагнитными импульсами, оглушая механику и щиты.</AA_EMPShockTroopDesc>
   <AA_EcholocativeFeedbackReason>The catatonic state was caused by an echolocative feedback. The sudden overwhelming sound proved too much to endure.</AA_EcholocativeFeedbackReason>
+  <AA_ElectricShockTroop>Электрический ударный отряд</AA_ElectricShockTroop>
+  <AA_ElectricShockTroopDesc>Животное атакует мощными электроразрядами в ближнем бою.</AA_ElectricShockTroopDesc>
   <AA_Farm>Farm Animal</AA_Farm>
+  <AA_FarmAnimals>Сельскохозяйственные животные</AA_FarmAnimals>
   <AA_FarmBloodDesc>This is a farm animal that produces hemogen packs.</AA_FarmBloodDesc>
   <AA_FarmBuildingAndMilkDesc>This is a farm animal that produces building materials and milk.</AA_FarmBuildingAndMilkDesc>
   <AA_FarmBuildingDesc>This is a farm animal that produces building materials.</AA_FarmBuildingDesc>
-  <AA_FarmChemfuelDesc>This is a farm animal that produces chemfuel.</AA_FarmChemfuelDesc>
+  <AA_FarmChemfuelDesc>Это фермерское животное, производящее химтопливо.</AA_FarmChemfuelDesc>
+  <AA_FarmDesc>Это домашнее животное, приносящее пользу ресурсами или продуктами.</AA_FarmDesc>
   <AA_FarmDrugsDesc>This is a farm animal that produces drugs.</AA_FarmDrugsDesc>
   <AA_FarmFoodDesc>This is a farm animal that produces food items.</AA_FarmFoodDesc>
   <AA_FarmImplantsDesc>имплант</AA_FarmImplantsDesc>
+  <AA_FarmMeatDesc>Это сельскохозяйственное животное, выращиваемое ради мяса.</AA_FarmMeatDesc>
   <AA_FarmMedicineDesc>This is a farm animal that produces medicines.</AA_FarmMedicineDesc>
   <AA_FarmMilkDesc>This is a farm animal that produces milk.</AA_FarmMilkDesc>
+  <AA_FarmMiscDesc>Это фермерское животное, производящее полезные ресурсы.</AA_FarmMiscDesc>
   <AA_FarmRandomDesc>This is a farm animal that produces random things.</AA_FarmRandomDesc>
   <AA_FarmWoolAndEggsDesc>яйцо</AA_FarmWoolAndEggsDesc>
   <AA_FarmWoolAndMilkDesc>This is a farm animal that produces wool / textiles and milk.</AA_FarmWoolAndMilkDesc>
-  <AA_FarmWoolDesc>This is a farm animal that produces wool / textiles.</AA_FarmWoolDesc>
-  <AA_FireyShockTroop>Firey Shock Troop</AA_FireyShockTroop>
+  <AA_FarmWoolDesc>Это фермерское животное, дающее шерсть и текстиль.</AA_FarmWoolDesc>
+  <AA_FireyShockTroop>Огненный ударный отряд</AA_FireyShockTroop>
   <AA_FireyShockTroopDesc>атака</AA_FireyShockTroopDesc>
-  <AA_GallatrossNotTameable>The Moribund Gallatross is untameable and quickly returns into the wild, awaiting to die</AA_GallatrossNotTameable>
-  <AA_HemogenPackDesc>Hemogen pack in</AA_HemogenPackDesc>
+  <AA_GallatrossNotTameable>Умирающий галлатрос не поддаётся приручению и стремится уйти в дикую природу, ожидая смерти.</AA_GallatrossNotTameable>
+  <AA_HemogenPackDesc>Пакет гемогена через</AA_HemogenPackDesc>
   <AA_HiveInvalidPosition>улей</AA_HiveInvalidPosition>
-  <AA_HuskNotTameable>The Fungal Husk only exists to spread its fungal infection, it can't be tamed</AA_HuskNotTameable>
-  <AA_InfectiousShockTroop>Infectious Shock Troop</AA_InfectiousShockTroop>
+  <AA_HuskNotTameable>Грибная оболочка существует лишь для распространения спор и не может быть приручена.</AA_HuskNotTameable>
+  <AA_InfectiousShockTroop>Заражающий ударный отряд</AA_InfectiousShockTroop>
   <AA_InfectiousShockTroopDesc>атака</AA_InfectiousShockTroopDesc>
-  <AA_KO>KO!</AA_KO>
-  <AA_KOFailed>KO failed</AA_KOFailed>
-  <AA_Larva>Larva</AA_Larva>
-  <AA_LarvaDesc>This animal is a larval form, not suited for combat. You should keep it well defended if you want it to transform into its adult form.</AA_LarvaDesc>
+  <AA_KO>Нокаут!</AA_KO>
+  <AA_KOFailed>Нокаут не удался</AA_KOFailed>
+  <AA_Larva>Личинка</AA_Larva>
+  <AA_LarvaDesc>Это животное находится в личиночной стадии и не приспособлено к бою. Защищайте его, пока оно не разовьётся во взрослую особь.</AA_LarvaDesc>
   <AA_LarvaeTimeSpawn>лапа</AA_LarvaeTimeSpawn>
   <AA_LegSkip>лапка</AA_LegSkip>
   <AA_LegSkipFailed>лапка</AA_LegSkipFailed>
-  <AA_LetterAnimaliskEnters>A huge spider like creature with arcane runes carved on its exoskeleton wanders through this territory.\n\nThis creature is an Animalisk, a gigantic herbivorous insect that devours Anima grass and trees.</AA_LetterAnimaliskEnters>
-  <AA_LetterBehemothPasses>A small herd of behemoth have wandered into the area.\n\nThese gargantuan creatures have a voracious appetite, and a very dangerous fire breath that could probably set a whole forest on fire.\n\nThey are commonly used as beasts of burden by a fearsome race known as Forsaken.</AA_LetterBehemothPasses>
+  <AA_LetterAnimaliskEnters>Огромное паукообразное существо с таинственными рунами на панцире бродит по территории.
+
+Это анималиск — гигантское растительноядное насекомое, пожирающее траву и деревья души.</AA_LetterAnimaliskEnters>
+  <AA_LetterBehemothPasses>Небольшое стадо бегемотов забрело на эту территорию.
+
+Эти исполинские существа обладают ненасытным аппетитом и смертоносным огненным дыханием, способным испепелить целый лес.
+
+Они часто используются в качестве вьючных животных грозной расой Забытых.</AA_LetterBehemothPasses>
   <AA_LetterFungalHusk>гриб</AA_LetterFungalHusk>
   <AA_LetterLabelAlphaCargoPodCrash>Alpha Animals (Альфа-Животные)</AA_LetterLabelAlphaCargoPodCrash>
-  <AA_LetterLabelAnimaliskEnters>Animalisk spotted</AA_LetterLabelAnimaliskEnters>
-  <AA_LetterLabelBehemothPasses>Rare behemoth</AA_LetterLabelBehemothPasses>
-  <AA_LetterLabelFungalHusk>Fungal Husks</AA_LetterLabelFungalHusk>
-  <AA_LetterLabelMatureFleshbeast>Devoured whole</AA_LetterLabelMatureFleshbeast>
-  <AA_LetterLabelMechanoidSappers>Mechanoid Sappers</AA_LetterLabelMechanoidSappers>
-  <AA_LetterLabelMime>Mime revealed</AA_LetterLabelMime>
-  <AA_LetterMatureFleshbeast>A grotesque creature has swallowed {0} whole! If you act quickly, perhaps you can still save {0_objective}.</AA_LetterMatureFleshbeast>
+  <AA_LetterLabelAnimaliskEnters>Замечен анималиск</AA_LetterLabelAnimaliskEnters>
+  <AA_LetterLabelBehemothPasses>Редкие бегемоты</AA_LetterLabelBehemothPasses>
+  <AA_LetterLabelFungalHusk>Грибные оболочки</AA_LetterLabelFungalHusk>
+  <AA_LetterLabelMatureFleshbeast>Проглочен целиком</AA_LetterLabelMatureFleshbeast>
+  <AA_LetterLabelMechanoidSappers>Механоиды-сапёры</AA_LetterLabelMechanoidSappers>
+  <AA_LetterLabelMime>Мим разоблачён</AA_LetterLabelMime>
+  <AA_LetterMatureFleshbeast>Гротескная тварь проглотила целиком {0}! Если действовать быстро, ещё есть шанс спасти {0_objective}.</AA_LetterMatureFleshbeast>
   <AA_LetterMechanoidSappers>атака</AA_LetterMechanoidSappers>
   <AA_LetterMime>атака</AA_LetterMime>
-  <AA_Luciferium>Luciferium production</AA_Luciferium>
-  <AA_MealNutrientPaste>Nutrient paste production</AA_MealNutrientPaste>
-  <AA_MeleeWeaponNeeded>Caster requires a melee weapon</AA_MeleeWeaponNeeded>
-  <AA_MimeNotTameable>The Mime refuses to be tamed</AA_MimeNotTameable>
-  <AA_MothSilkDesc>Moth silk production</AA_MothSilkDesc>
-  <AA_MountArmoured>Armoured Mount</AA_MountArmoured>
+  <AA_Luciferium>Производство люциферия</AA_Luciferium>
+  <AA_MealNutrientPaste>Производство питательной пасты</AA_MealNutrientPaste>
+  <AA_MeleeWeaponNeeded>Применитель должен быть экипирован оружием ближнего боя</AA_MeleeWeaponNeeded>
+  <AA_MimeNotTameable>Мим не поддаётся приручению.</AA_MimeNotTameable>
+  <AA_MothSilkDesc>Производство шёлка моли</AA_MothSilkDesc>
+  <AA_MountArmoured>Бронированное ездовое животное</AA_MountArmoured>
   <AA_MountArmouredDesc>атака</AA_MountArmouredDesc>
-  <AA_MountFast>Fast Mount</AA_MountFast>
-  <AA_MountFastArmoured>Armoured and Fast Mount</AA_MountFastArmoured>
+  <AA_MountFast>Быстрое ездовое животное</AA_MountFast>
+  <AA_MountFastArmoured>Бронированное и быстрое верховое животное</AA_MountFastArmoured>
   <AA_MountFastArmouredDesc>атака</AA_MountFastArmouredDesc>
   <AA_MountFastDesc>атака</AA_MountFastDesc>
   <AA_MutantImplantsDesc>имплант</AA_MutantImplantsDesc>
-  <AA_No>No</AA_No>
+  <AA_No>Нет</AA_No>
   <AA_NoMoreLarvaeAllowed>лапа</AA_NoMoreLarvaeAllowed>
   <AA_NoRanged>атака</AA_NoRanged>
-  <AA_NotTameable>This creature is untameable</AA_NotTameable>
+  <AA_NotTameable>Это существо невозможно приручить.</AA_NotTameable>
   <AA_OnlyBlackHive>улей</AA_OnlyBlackHive>
-  <AA_OnlyNumberAllowed>Only {0} allowed per map</AA_OnlyNumberAllowed>
+  <AA_OnlyNumberAllowed>Разрешено не более {0} на карте</AA_OnlyNumberAllowed>
   <AA_OnlyOneHivePerMap>улей</AA_OnlyOneHivePerMap>
-  <AA_PackAnimal>Pack Animal</AA_PackAnimal>
-  <AA_PackAnimalDesc>This is a pack animal, and can carry more weight in caravans than usual.</AA_PackAnimalDesc>
-  <AA_ParalizingRanged>Paralyzing Ranged</AA_ParalizingRanged>
+  <AA_PackAnimal>Вьючное животное</AA_PackAnimal>
+  <AA_PackAnimalDesc>Это вьючное животное, способное нести в караванах больше веса, чем обычно.</AA_PackAnimalDesc>
+  <AA_ParalizingRanged>Парализующий дальний бой</AA_ParalizingRanged>
   <AA_ParalyzingRangedDesc>атака</AA_ParalyzingRangedDesc>
-  <AA_ParalyzingShockTroop>Paralyzing Shock Troop</AA_ParalyzingShockTroop>
+  <AA_ParalyzingShockTroop>Парализующий ударный отряд</AA_ParalyzingShockTroop>
   <AA_ParalyzingShockTroopDesc>атака</AA_ParalyzingShockTroopDesc>
-  <AA_Pest>Pest</AA_Pest>
-  <AA_PestDesc>This animal is generally considered a pest, and not useful at all to have around the colony. It either has effects that are purely detrimental, or needs that outweigh its usefulness. You may find a niche use for them, though!</AA_PestDesc>
-  <AA_Pet>Pet</AA_Pet>
-  <AA_PetDesc>This animal is a pet. Isn't he cute?</AA_PetDesc>
-  <AA_PlantConversionRadius>Plant conversion radius</AA_PlantConversionRadius>
-  <AA_PoisonShockTroop>Poison Shock Troop</AA_PoisonShockTroop>
+  <AA_Pest>Вредитель</AA_Pest>
+  <AA_PestDesc>Это животное считается вредителем и обычно бесполезно для колонии. Его повадки либо вредоносны, либо требуют слишком больших затрат. Тем не менее, вы можете найти для него узкое применение!</AA_PestDesc>
+  <AA_Pet>Питомец</AA_Pet>
+  <AA_PetDesc>Это домашний любимец. Разве он не милашка?</AA_PetDesc>
+  <AA_PlantConversionRadius>Радиус обращения растений</AA_PlantConversionRadius>
+  <AA_PoisonShockTroop>Ядовитый ударный отряд</AA_PoisonShockTroop>
   <AA_PoisonShockTroopDesc>атака</AA_PoisonShockTroopDesc>
-  <AA_PrimaryRole>Primary Role</AA_PrimaryRole>
-  <AA_PsychicSlice>Psychic slice!</AA_PsychicSlice>
-  <AA_PsychicSliceFailed>Failed psychic slice</AA_PsychicSliceFailed>
-  <AA_RadiusExpandRate>Expansion rate</AA_RadiusExpandRate>
-  <AA_RandomItems>Resource assembly in</AA_RandomItems>
+  <AA_PrimaryRole>Основная роль</AA_PrimaryRole>
+  <AA_PsychicSlice>Психоклинок!</AA_PsychicSlice>
+  <AA_PsychicSliceFailed>Психоклинок не удался</AA_PsychicSliceFailed>
+  <AA_RadiusExpandRate>Скорость расширения</AA_RadiusExpandRate>
+  <AA_RandomItems>Сборка ресурсов через</AA_RandomItems>
   <AA_Ranged>атака</AA_Ranged>
   <AA_RangedAttacks>атака</AA_RangedAttacks>
-  <AA_RegeneratingShockTroop>Regenerating Shock Troop</AA_RegeneratingShockTroop>
-  <AA_RegeneratingShockTroopDesc>"Shock Troop" animals are specialized in high speed, and some ability that adds utility to melee combat. They may not be very resistant, or have high health, but if properly used they can have devastating effects.\n\nThis animal regenerates its health, making it more durable.</AA_RegeneratingShockTroopDesc>
-  <AA_Reset>Reset multiplier</AA_Reset>
-  <AA_SeasonalWoolDesc>Chameleon wool production</AA_SeasonalWoolDesc>
-  <AA_SecondaryRole>Secondary Role</AA_SecondaryRole>
-  <AA_ShockTroop>Shock Troop</AA_ShockTroop>
+  <AA_RegeneratingShockTroop>Регенерирующий ударный отряд</AA_RegeneratingShockTroop>
+  <AA_RegeneratingShockTroopDesc>Животные класса «Ударный отряд» специализируются на высокой скорости и боевых способностях. Это существо быстро восстанавливает здоровье, что делает его крайне стойким.</AA_RegeneratingShockTroopDesc>
+  <AA_Reset>Сбросить множитель</AA_Reset>
+  <AA_SeasonalWoolDesc>Производство шерсти хамелеона</AA_SeasonalWoolDesc>
+  <AA_SecondaryRole>Вторичная роль</AA_SecondaryRole>
+  <AA_ShockTroop>Ударный отряд</AA_ShockTroop>
   <AA_ShockTroopDOTDesc>атака</AA_ShockTroopDOTDesc>
-  <AA_ShockTroopDesc>"Shock Troop" animals are specialized in high speed, and some ability that adds utility to melee combat. They may not be very resistant, or have high health, but if properly used they can have devastating effects.</AA_ShockTroopDesc>
-  <AA_Skewer>Skewer!</AA_Skewer>
-  <AA_SkewerFailed>Failed skewer</AA_SkewerFailed>
-  <AA_SpinCut>Spin cut!</AA_SpinCut>
-  <AA_SpinCutFailed>Spin cut failed</AA_SpinCutFailed>
-  <AA_StomachContents>{0} creatures swallowed whole.</AA_StomachContents>
-  <AA_Tank>Tank</AA_Tank>
-  <AA_TimeToMetamorphosis>Time to metamorphosis: {0}</AA_TimeToMetamorphosis>
-  <AA_UraniumCrystalsDesc>Uranium crystal loosening</AA_UraniumCrystalsDesc>
-  <AA_Utility>Utility</AA_Utility>
-  <AA_UtilityBeautyDesc>This animal is not suited for combat, being quite physically weak. It will however increase the beauty of your colony.</AA_UtilityBeautyDesc>
-  <AA_UtilityHealthDesc>This animal is not suited for combat, being quite physically weak. It will however help your colonists' health, either by healing wounds or somehow strengthening them.</AA_UtilityHealthDesc>
-  <AA_UtilityMoodDesc>This animal is not suited for combat, being quite physically weak. It will however increase the mood of your colonists, either through nuzzling or other alternative abilities.</AA_UtilityMoodDesc>
-  <AA_UtilityPowerDesc>This animal is not suited for combat, being quite physically weak. It will however produce items that can be used to build power generators.</AA_UtilityPowerDesc>
-  <AA_UtilityRechargerDesc>This animal is not suited for combat, being quite physically weak. It will periodically recharge nearby batteries.</AA_UtilityRechargerDesc>
-  <AA_UtilityRecycling>This animal is not suited for combat, being quite physically weak. It will eat textiles, getting rid of unwanted items to regulate your colony's wealth.</AA_UtilityRecycling>
-  <AA_UtilityTemperatureDesc>This animal is not suited for combat, being quite physically weak. It will however help you control your colony's heat.</AA_UtilityTemperatureDesc>
-  <AA_UtilityWorkerDesc>This animal is not suited for combat, being quite physically weak. It will however help your colonists with certain tasks (Mining, Harvesting, Cleaning, etc), reducing their work load considerably.</AA_UtilityWorkerDesc>
-  <AA_VFEI_CreatingCocoon>{0} to create cocoon</AA_VFEI_CreatingCocoon>
+  <AA_ShockTroopDesc>Животные класса «Ударный отряд» специализируются на высокой скорости и способностях, полезных в ближнем бою.</AA_ShockTroopDesc>
+  <AA_Skewer>Пронзание!</AA_Skewer>
+  <AA_SkewerFailed>Пронзание не удалось</AA_SkewerFailed>
+  <AA_SpinCut>Вихревой порез!</AA_SpinCut>
+  <AA_SpinCutFailed>Вихревой порез не удался</AA_SpinCutFailed>
+  <AA_StomachContents>Проглочено существ: {0}.</AA_StomachContents>
+  <AA_Tank>Танк</AA_Tank>
+  <AA_TimeToMetamorphosis>До метаморфоза: {0}</AA_TimeToMetamorphosis>
+  <AA_UraniumCrystalsDesc>Кристаллизация урана через</AA_UraniumCrystalsDesc>
+  <AA_Utility>Поддержка</AA_Utility>
+  <AA_UtilityBeautyDesc>Это животное физически слабо и не подходит для боя. Однако оно значительно повышает красоту окружающей обстановки вашей колонии.</AA_UtilityBeautyDesc>
+  <AA_UtilityHealthDesc>Это животное физически слабо, но помогает поддерживать здоровье колонистов, заживляя раны или укрепляя их тела.</AA_UtilityHealthDesc>
+  <AA_UtilityMoodDesc>Это животное физически слабо, но повышает настроение колонистов лаской или особыми психоэмоциональными способностями.</AA_UtilityMoodDesc>
+  <AA_UtilityPowerDesc>Это животное вырабатывает субстанции или ресурсы, пригодные для генерации электроэнергии.</AA_UtilityPowerDesc>
+  <AA_UtilityRechargerDesc>Это животное физически слабо, но периодически подзаряжает аккумуляторы поблизости.</AA_UtilityRechargerDesc>
+  <AA_UtilityRecycling>Это животное физически слабо, но поедает ткани и одежду, помогая избавиться от лишнего хлама и регулировать богатство поселения.</AA_UtilityRecycling>
+  <AA_UtilityTemperatureDesc>Это животное помогает регулировать температуру и обогревать либо охлаждать помещения.</AA_UtilityTemperatureDesc>
+  <AA_UtilityWorkerDesc>Это животное помогает колонистам в работе (добыча руды, сбор урожая, уборка), существенно снижая трудозатраты.</AA_UtilityWorkerDesc>
+  <AA_VFEI_CreatingCocoon>Кокон будет создан через {0}</AA_VFEI_CreatingCocoon>
   <AA_VenomousTankDesc>атака</AA_VenomousTankDesc>
-  <AA_Wood>Time to "trim" trees</AA_Wood>
-  <AA_Yes>Yes</AA_Yes>
+  <AA_Wood>Время до срезки древесины</AA_Wood>
+  <AA_Yes>Да</AA_Yes>
   <BlizzariskClutchMother>яйцо</BlizzariskClutchMother>
-  <BoomthreadDesc>Boomthread production</BoomthreadDesc>
-  <CactipineDropPod>The air roars with the unmistakable sound of a drop pod during re-entry. Scanners detect life signs inside, but they are REALLY weird life signs, as if the scanner couldn't tell whether it is animal or plant life.</CactipineDropPod>
-  <ChunkSlagSteelDesc>Steel chunk loosening</ChunkSlagSteelDesc>
-  <DevilstrandDesc>Devilstrand production</DevilstrandDesc>
+  <BoomthreadDesc>Производство бумнити</BoomthreadDesc>
+  <CactipineDropPod>Воздух сотрясает безошибочно узнаваемый гул десантной капсулы при входе в атмосферу. Сенсоры фиксируют признаки жизни внутри, но показания крайне необычны — словно смесь животного и растения.</CactipineDropPod>
+  <ChunkSlagSteelDesc>Выделение стальных обломков через</ChunkSlagSteelDesc>
+  <DevilstrandDesc>Производство дьявлоткани</DevilstrandDesc>
   <DunealiskClutchMother>яйцо</DunealiskClutchMother>
   <FeraliskClutchMother>яйцо</FeraliskClutchMother>
-  <HyperweaveDesc>Hyperweave production</HyperweaveDesc>
+  <HyperweaveDesc>Производство гиперткани</HyperweaveDesc>
   <LetterBlackHiveAttack>улей</LetterBlackHiveAttack>
-  <LetterBumbledroneMigration>A small group of bumbledrones, led by a bumbledrone queen, has entered this area.\n\nBumbledrones are generally not aggressive, unless threatened.\n\nThey will probably leave this area after a while in search of a quieter place, since the colony is too noisy for them.</LetterBumbledroneMigration>
-  <LetterColossalAerofleetPasses>A strange floating creature bounces around in the distance, blundering around the landscape.\n\nA small horde of smaller specimens seem to be attracted to it, and follow it at a short distance.\n\nThey seem to be mostly harmless, and will probably leave the area when they have fed.</LetterColossalAerofleetPasses>
+  <LetterBumbledroneMigration>Небольшая группа шмеледронов во главе с маткой вошла на эту территорию.
+
+Шмеледроны не агрессивны, если их не провоцировать.
+
+Через некоторое время они покинут местность в поисках более тихого уголка, так как колония для них слишком шумная.</LetterBumbledroneMigration>
+  <LetterBumbledroneMigration: A small group of bumbledrones, led by a bumbledrone queen, has entered this area.
+
+Bumbledrones are generally not aggressive, unless threatened.
+
+They will probably leave this area after a while in search of a quieter place, since the colony is too noisy for them.>Небольшая группа шмеледронов во главе с маткой вошла на эту территорию.
+
+Шмеледроны не агрессивны, если их не провоцировать.
+
+Через некоторое время они покинут местность в поисках более тихого уголка, так как колония для них слишком шумная.</LetterBumbledroneMigration: A small group of bumbledrones, led by a bumbledrone queen, has entered this area.
+
+Bumbledrones are generally not aggressive, unless threatened.
+
+They will probably leave this area after a while in search of a quieter place, since the colony is too noisy for them.>
+  <LetterColossalAerofleetPasses>Странное парящее существо плывёт по воздуху вдалеке, медленно покачиваясь над ландшафтом.
+
+Небольшой рой мелких особей следует за ним на короткой дистанции.
+
+Они в основном безвредны и, скорее всего, покинут эти края, как только насытятся.</LetterColossalAerofleetPasses>
   <LetterGallatrossPasses>лапка</LetterGallatrossPasses>
   <LetterLabelBlackHiveAttack>нападение Чёрного Улья</LetterLabelBlackHiveAttack>
   <LetterLabelBlizzariskClutchMother>мать выводка близарисков</LetterLabelBlizzariskClutchMother>
-  <LetterLabelBumbledroneMigration>Bumbledrone migration</LetterLabelBumbledroneMigration>
-  <LetterLabelCactipinePod>Strange drop pod</LetterLabelCactipinePod>
-  <LetterLabelColossalAerofleetPasses>Colossal Aerofleet</LetterLabelColossalAerofleetPasses>
+  <LetterLabelBumbledroneMigration>Миграция шмеледронов</LetterLabelBumbledroneMigration>
+  <LetterLabelCactipinePod>Странная капсула</LetterLabelCactipinePod>
+  <LetterLabelColossalAerofleetPasses>Колоссальный аэрофлот</LetterLabelColossalAerofleetPasses>
   <LetterLabelDunealiskClutchMother>мать выводка дюналисков</LetterLabelDunealiskClutchMother>
   <LetterLabelFeraliskClutchMother>мать выводка фералисков</LetterLabelFeraliskClutchMother>
   <LetterLabelGallatrossPasses>появление галлатросса</LetterLabelGallatrossPasses>
   <LetterLabelManhuntingArcticLion>крадущийся полярный лев</LetterLabelManhuntingArcticLion>
-  <LetterLabelSkyAsteroid>Strange asteroid</LetterLabelSkyAsteroid>
+  <LetterLabelSkyAsteroid>Странный астероид</LetterLabelSkyAsteroid>
   <LetterLabelSummitCrab>краб вершин</LetterLabelSummitCrab>
-  <LetterSkyAsteroid>A small, strange asteroid seems to have entered the atmosphere of this planet. Impact is imminent.</LetterSkyAsteroid>
+  <LetterSkyAsteroid>Небольшой необычный астероид вошёл в атмосферу планеты. Падение неизбежно.</LetterSkyAsteroid>
   <ManhuntingArcticLion>атака</ManhuntingArcticLion>
   <MedicinalQuillDesc>иглы</MedicinalQuillDesc>
   <NocturnalAnimals.BodyClock>тело</NocturnalAnimals.BodyClock>
-  <NocturnalAnimals.BodyClock_Crepuscular>Crepuscular</NocturnalAnimals.BodyClock_Crepuscular>
-  <NocturnalAnimals.BodyClock_Description>Determines when the animal sleeps and when it is awake.\n\nDiurnal animals sleep during the night and are awake during the day, while nocturnal animals sleep during the day and are awake during the night. Crepuscular animals are mainly active during dusk.</NocturnalAnimals.BodyClock_Description>
-  <NocturnalAnimals.BodyClock_Diurnal>Diurnal</NocturnalAnimals.BodyClock_Diurnal>
-  <NocturnalAnimals.BodyClock_Nocturnal>Nocturnal</NocturnalAnimals.BodyClock_Nocturnal>
+  <NocturnalAnimals.BodyClock_Crepuscular>Сумеречный</NocturnalAnimals.BodyClock_Crepuscular>
+  <NocturnalAnimals.BodyClock_Description>Определяет режим сна и бодрствования животного.
+
+Дневные животные спят ночью и активны днём, а ночные спят днём и активны ночью. Сумеречные животные наиболее активны в предрассветные и вечерние часы.</NocturnalAnimals.BodyClock_Description>
+  <NocturnalAnimals.BodyClock_Diurnal>Дневной</NocturnalAnimals.BodyClock_Diurnal>
+  <NocturnalAnimals.BodyClock_Nocturnal>Ночной</NocturnalAnimals.BodyClock_Nocturnal>
   <RawMushrooms>рост</RawMushrooms>
-  <StoneBlockDesc>Random stone block loosening</StoneBlockDesc>
-  <StoneChunkDesc>Random stone chunk loosening</StoneChunkDesc>
+  <StoneBlockDesc>Дробление каменных блоков через</StoneBlockDesc>
+  <StoneChunkDesc>Добыча каменных глыб через</StoneChunkDesc>
   <SummitCrab>орудие</SummitCrab>
-  <SynthreadDesc>Synthread production</SynthreadDesc>
-  <VFEI2_BlackInsectJelly>Black insect jelly fullness:</VFEI2_BlackInsectJelly>
-  <allowAerofleet>Allow colossal aerofleet migrations</allowAerofleet>
-  <allowAlphaMechanoids>Allow Alpha mechanoids on raids, clusters, etc</allowAlphaMechanoids>
-  <allowAnimalisk>Allow Animalisk (Royalty only in any case)</allowAnimalisk>
-  <allowAsteroids>Allow Arcturan Sky eel asteroids impacting</allowAsteroids>
-  <allowBehemoth>Allow Behemoth wandering event</allowBehemoth>
+  <SynthreadDesc>Производство синтоткани</SynthreadDesc>
+  <VFEI2_BlackInsectJelly>Заполненность чёрным желе:</VFEI2_BlackInsectJelly>
+  <allowAerofleet>Разрешить миграцию колоссальных аэрофлотов</allowAerofleet>
+  <allowAlphaMechanoids>Разрешить альфа-механоидов в рейдах и кластерах</allowAlphaMechanoids>
+  <allowAnimalisk>Разрешить анималисков (требуется Royalty)</allowAnimalisk>
+  <allowAsteroids>Разрешить падение арктуранских метеоритов</allowAsteroids>
+  <allowBehemoth>Разрешить появление бродячих бегемотов</allowBehemoth>
   <allowBlackHive>улей</allowBlackHive>
-  <allowBumbledrones>Allow bumbledrone queen migrations</allowBumbledrones>
-  <allowCactipineDroppods>Allow Cactipine droppod event</allowCactipineDroppods>
-  <allowFrostmiteCorpses>Allow frostmites digging corpses on their own</allowFrostmiteCorpses>
+  <allowBumbledrones>Разрешить миграции королев шмеледронов</allowBumbledrones>
+  <allowCactipineDroppods>Разрешить падение капсул с кактусинами</allowCactipineDroppods>
+  <allowFrostmiteCorpses>Разрешить морозным клещам выкапывать трупы</allowFrostmiteCorpses>
   <allowFungalHusk>атака</allowFungalHusk>
-  <allowGallatross>Allow gallatross migrations</allowGallatross>
-  <allowHelixienCorpseEffect>Allow Helixien effect (disable if getting errors due to other mods)</allowHelixienCorpseEffect>
-  <allowMechanoidSappers>Allow Mechanoid sappers event</allowMechanoidSappers>
-  <allowMime>Allow Mime Wanderer Joins event</allowMime>
+  <allowGallatross>Разрешить миграции галлатросов</allowGallatross>
+  <allowHelixienCorpseEffect>Разрешить эффект геликсиена (отключите при конфликтах с другими модами)</allowHelixienCorpseEffect>
+  <allowMechanoidSappers>Разрешить событие «Механоиды-сапёры»</allowMechanoidSappers>
+  <allowMime>Разрешить событие присоединения мима-странника</allowMime>
   <allowSpiderClutchMothers>мать выводка</allowSpiderClutchMothers>
   <allowStalkingLions>атака</allowStalkingLions>
-  <allowSummitCrab>Allow summit crab event</allowSummitCrab>
+  <allowSummitCrab>Разрешить событие появления верхового краба</allowSummitCrab>
   <allowVanillaAnimals>лапа</allowVanillaAnimals>
-  <alternatePokemonGraphics>Use alternate "cute" graphics for select animals, by Roidgy</alternatePokemonGraphics>
+  <alternatePokemonGraphics>Использовать милые альтернативные текстуры от Roidgy</alternatePokemonGraphics>
   <alternatePokemonGraphics_Desc>лапа</alternatePokemonGraphics_Desc>
-  <removeAnimalParticles>Remove animal particles</removeAnimalParticles>
+  <removeAnimalParticles>Отключить частицы эффектов у животных</removeAnimalParticles>
 </LanguageData>

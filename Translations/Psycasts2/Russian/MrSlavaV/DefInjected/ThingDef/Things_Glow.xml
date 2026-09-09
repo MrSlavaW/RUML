@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PS_GiantAnimaTree.comps.CompGiveThoughtToAllMapPawnsOnDestroy.message>Древо анимы погибло и издало тревожный псионический вопль.</PS_GiantAnimaTree.comps.CompGiveThoughtToAllMapPawnsOnDestroy.message>
+  <PS_GiantAnimaTree.comps.CompPsylinkable.enoughPlantsLetterLabel>Связывание с древом анимы</PS_GiantAnimaTree.comps.CompPsylinkable.enoughPlantsLetterLabel>
+  <PS_GiantAnimaTree.comps.CompPsylinkable.enoughPlantsLetterText>Вокруг древа анимы выросло достаточно травы анимы ({0}). Этого хватит племенному колонисту для начала ритуала связывания!</PS_GiantAnimaTree.comps.CompPsylinkable.enoughPlantsLetterText>
+</LanguageData>

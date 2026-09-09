@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PS_T2AnimaPilgrimage.questDescriptionRules.rulesStrings>questDescription-&gt;Несколько деревьев анимы в мире зашелестели в унисон, призывая Пробужденных. Колонист первого ранга должен посетить каждое и помедитировать под его кроной для перехода на второй ранг.
+
+Это мирное паломничество: враги не будут атаковать святилища. Общее время медитации дольше, чем испытание у алтаря. Святилища угаснут через два месяца.</PS_T2AnimaPilgrimage.questDescriptionRules.rulesStrings>
+  <PS_T2AnimaPilgrimage.questNameRules.rulesStrings>questName-&gt;Песнь анимы
+questName-&gt;Под кронами древ мира
+questName-&gt;Паломничество по священным рощам</PS_T2AnimaPilgrimage.questNameRules.rulesStrings>
+  <PS_T3AnimaPilgrimage.questDescriptionRules.rulesStrings>questDescription-&gt;Несколько деревьев анимы пробудились в мире, среди них — древнейшее древо анимы первозданной силы. Колонист второго ранга должен помедитировать у каждого, чтобы стать Озаренным.
+
+Мирное паломничество без нападений. Места угаснут через два месяца.</PS_T3AnimaPilgrimage.questDescriptionRules.rulesStrings>
+  <PS_T3AnimaPilgrimage.questNameRules.rulesStrings>questName-&gt;Древнее древо мира
+questName-&gt;Паломничество к Первозданному
+questName-&gt;Под сенью духов мира</PS_T3AnimaPilgrimage.questNameRules.rulesStrings>
+  <PS_TierIIIPilgrimage.questDescriptionRules.rulesStrings>questDescription-&gt;Проявилось место еще более глубокого резонанса. Колонист второго ранга Просветления, переживший натиск Древнего Ордена псиоников у алтаря, станет Озаренным.
+
+Волны Ордена здесь будут значительно опаснее. Место угаснет через месяц.</PS_TierIIIPilgrimage.questDescriptionRules.rulesStrings>
+  <PS_TierIIIPilgrimage.questNameRules.rulesStrings>questName-&gt;Испытание озарения
+questName-&gt;Путь озаренного
+questName-&gt;Третье пробуждение</PS_TierIIIPilgrimage.questNameRules.rulesStrings>
+  <PS_TierIIPilgrimage.questDescriptionRules.rulesStrings>questDescription-&gt;Место псионического резонанса проявилось на карте мира. Пробужденный колонист, отправившийся туда и помедитировавший у алтаря, совершит прорыв на второй уровень Просветления, выбрав новую школу псионики.
+
+Древний Орден псиоников пошлет волны адептов для проверки. Место угаснет через месяц.</PS_TierIIPilgrimage.questDescriptionRules.rulesStrings>
+  <PS_TierIIPilgrimage.questNameRules.rulesStrings>questName-&gt;Путь паломника
+questName-&gt;Второе пробуждение
+questName-&gt;К высшему просветлению</PS_TierIIPilgrimage.questNameRules.rulesStrings>
+</LanguageData>

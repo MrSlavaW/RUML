@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RS.CancelGeneSeparating>Отменить разделение генов</RS.CancelGeneSeparating>
+  <RS.CancelGeneSeparatingDesc>Отменить процесс разделения генов.</RS.CancelGeneSeparatingDesc>
+  <RS.CancelInfusingDesc>Отменить имплантацию этого пустотного шипа {PAWN_nameDef}.</RS.CancelInfusingDesc>
+  <RS.CancelInfusion>Отменить операцию</RS.CancelInfusion>
+  <RS.CancelXenogermDuplication>Отменить дублирование ксеногерма</RS.CancelXenogermDuplication>
+  <RS.CancelXenogermDuplicationDesc>Отменить дублирование ксеногерма.</RS.CancelXenogermDuplicationDesc>
+  <RS.CannotInfuseAlreadyHasDarkGene>Невозможно имплантировать {1}, у {PAWN_nameDef} уже есть этот темный ген.</RS.CannotInfuseAlreadyHasDarkGene>
+  <RS.CentrigureWorking>Центрифуга генов работает.</RS.CentrigureWorking>
+  <RS.ContainsGenepack>Содержит: {0}</RS.ContainsGenepack>
+  <RS.ContainsXenogerm>Содержит: {0}</RS.ContainsXenogerm>
+  <RS.DuplicateXenogermDesc>Выберите ксеногерм для дублирования. Для ксеногермов с архотек-генами требуется загрузка капсул с архоитами.</RS.DuplicateXenogermDesc>
+  <RS.DuplicationProgress>Дублирование: {0}</RS.DuplicationProgress>
+  <RS.DuplicatorWorking>Дубликатор ксеногермов работает</RS.DuplicatorWorking>
+  <RS.EjectArchites>Извлечь капсулы с архоитами</RS.EjectArchites>
+  <RS.EjectArchitesDesc>Выгрузить все загруженные капсулы с архоитами на землю.</RS.EjectArchitesDesc>
+  <RS.FinishedXenogermDuplicationMessage>Дубликатор ксеногермов завершил дублирование ксеногерма!</RS.FinishedXenogermDuplicationMessage>
+  <RS.InfuseDarkArchite>Имплантировать пустотный шип</RS.InfuseDarkArchite>
+  <RS.InfuseDarkArchiteDesc>Имплантировать этот шип существу, чтобы внедрить темный архотек-ген в его генетический код.
+
+Это хирургическая операция, требующая врача и медицинской кровати.</RS.InfuseDarkArchiteDesc>
+  <RS.InfuseDarkArchiteWarningDesc>Имплантация пустотного шипа погрузит {PAWN_nameDef} в кратковременную кому, пока ген шипа внедряется в организм. В среднем это длится {COMADURATION}.</RS.InfuseDarkArchiteWarningDesc>
+  <RS.InfuseDarkArchiteWarningNewMetabolism>После процедуры значение метаболизма {PAWN_nameDef} составит {MET}, а множитель потребления пищи — {CONSUMPTION}.</RS.InfuseDarkArchiteWarningNewMetabolism>
+  <RS.LetterDarkArchiteOrderedInfused>Вы назначили операцию по имплантации пустотного шипа {PAWN_nameDef}. Для этой процедуры требуется медицинская кровать.
+
+Вы можете отменить операцию во вкладке «Здоровье» -&gt; «Операции».</RS.LetterDarkArchiteOrderedInfused>
+  <RS.LetterLabelDarkArchiteOrderedInfused>Назначена имплантация пустотного шипа</RS.LetterLabelDarkArchiteOrderedInfused>
+  <RS.MessageCannotInfuseInTempFactionMembers>Нельзя проводить имплантацию временным членам фракции.</RS.MessageCannotInfuseInTempFactionMembers>
+  <RS.NotEnoughArchiteCapsulesLoaded>Вы действительно хотите дублировать этот ксеногерм? Загружено недостаточно капсул с архоитами для дублирования всех архотек-генов внутри него.</RS.NotEnoughArchiteCapsulesLoaded>
+  <RS.OrderInfusionIntoPawn>Назначить имплантацию {PAWN_nameDef}</RS.OrderInfusionIntoPawn>
+  <RS.SelectAGeneToSeparate>Выберите ген для разделения.</RS.SelectAGeneToSeparate>
+  <RS.TargetArchiteCapsuleLevel>Целевое количество капсул с архоитами: {0}</RS.TargetArchiteCapsuleLevel>
+  <RS.TargetMustHaveAtLeastOneDarkGene>Цель должна обладать хотя бы одним темным архотек-геном.</RS.TargetMustHaveAtLeastOneDarkGene>
+</LanguageData>
