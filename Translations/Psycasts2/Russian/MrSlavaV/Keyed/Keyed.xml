@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <PS_AlertPathAwaits>Psycast path awaits</PS_AlertPathAwaits>
-  <PS_AlertPathAwaitsMulti>Psycast paths await ({0})</PS_AlertPathAwaitsMulti>
-  <PS_AlertPathFooter>The cards return on their own while the colonist meditates - or click this alert to open the pick right now.</PS_AlertPathFooter>
-  <PS_AlertPathHeader>These colonists have enlightenment cards waiting to be faced:</PS_AlertPathHeader>
-  <PS_AnimaHere>· here: {0}h / {1}h</PS_AnimaHere>
-  <PS_AnimaSites>Sites completed: {0} / {1}</PS_AnimaSites>
-  <PS_AnimaToday>· today: {0}h / {1}h</PS_AnimaToday>
+  <PS_AlertPathAwaits>Ожидает путь псионики</PS_AlertPathAwaits>
+  <PS_AlertPathAwaitsMulti>Ожидают пути псионики ({0})</PS_AlertPathAwaitsMulti>
+  <PS_AlertPathFooter>Карты снова появятся во время медитации поселенца, либо нажмите на это оповещение, чтобы выбрать прямо сейчас.</PS_AlertPathFooter>
+  <PS_AlertPathHeader>Следующие поселенцы могут выбрать карты просветления:</PS_AlertPathHeader>
+  <PS_AnimaHere>· здесь: {0} ч / {1} ч</PS_AnimaHere>
+  <PS_AnimaSites>Мест завершено: {0} / {1}</PS_AnimaSites>
+  <PS_AnimaToday>· сегодня: {0} ч / {1} ч</PS_AnimaToday>
   <PS_AscensionCultivated>лапа</PS_AscensionCultivated>
-  <PS_AscensionSpecs>Specializations:</PS_AscensionSpecs>
-  <PS_BarComaOff>None</PS_BarComaOff>
+  <PS_AscensionSpecs>Специализации:</PS_AscensionSpecs>
+  <PS_BarComaOff>Нет</PS_BarComaOff>
   <PS_BarComaTipOff>лапа</PS_BarComaTipOff>
-  <PS_BtnPick>Open path cards</PS_BtnPick>
-  <PS_CannotReachSuffix>(cannot reach)</PS_CannotReachSuffix>
-  <PS_CardChooseLater>Choose later</PS_CardChooseLater>
-  <PS_CardChooseLaterTip>Set the cards aside without choosing. They return while this colonist meditates - or reopen them anytime from the "Psycast path awaits" alert.</PS_CardChooseLaterTip>
+  <PS_BtnPick>Открыть карты путей</PS_BtnPick>
+  <PS_CannotReachSuffix>(недосягаемо)</PS_CannotReachSuffix>
+  <PS_CardChooseLater>Выбрать позже</PS_CardChooseLater>
+  <PS_CardChooseLaterTip>Отложить выбор карт. Они снова предстанут во время медитации этого поселенца, либо их можно открыть через оповещение «Ожидает путь псионики».</PS_CardChooseLaterTip>
   <PS_CardEmbrace>Принять путь {0}</PS_CardEmbrace>
   <PS_CardForgo>Отказаться: +{0} очков специализации</PS_CardForgo>
   <PS_CardForgoAll>Отказаться: +{0} очков специализации</PS_CardForgoAll>
   <PS_CardPromptT1>Нажмите, чтобы открыть пути псионики.</PS_CardPromptT1>
   <PS_CardPromptT2>Нажмите, чтобы открыть пути псионики.</PS_CardPromptT2>
   <PS_CardPromptT3>Нажмите, чтобы открыть пути псионики.</PS_CardPromptT3>
-  <PS_CardRedeal>Reroll</PS_CardRedeal>
-  <PS_CardRedealTip>Throw this hand back and deal a new one, right now. You get one reroll per awakening.</PS_CardRedealTip>
+  <PS_CardRedeal>Пересдать</PS_CardRedeal>
+  <PS_CardRedealTip>Сбросить текущие карты и сдать новые прямо сейчас. Даётся один переброс на каждое пробуждение.</PS_CardRedealTip>
   <PS_CardSubCommitted>Ваш путь выбран.</PS_CardSubCommitted>
   <PS_CardSubRevealAll>Ваш путь выбран.</PS_CardSubRevealAll>
   <PS_CardTitleT1>Выберите путь для {0}</PS_CardTitleT1>
   <PS_CardTitleT2>{0} восходит — Просветление II</PS_CardTitleT2>
   <PS_CardTitleT3>{0} переступает пределы — Просветление III</PS_CardTitleT3>
-  <PS_LetterWaveLabel>Ancient psycasters</PS_LetterWaveLabel>
-  <PS_LetterWaveText>The Ancient Psycaster Order has come to test the pilgrim. {0} of them assault from the edge of the map.</PS_LetterWaveText>
-  <PS_MeditateAt>Meditate at {0} (until told to stop)</PS_MeditateAt>
-  <PS_MsgCardsAside>{0} set the cards aside for now - they return during meditation, or via the alert.</PS_MsgCardsAside>
-  <PS_MsgDeferReroll>{0} sets the cards aside to meditate further - the omens will shift.</PS_MsgDeferReroll>
-  <PS_MsgEmbraced>{0} embraced the {1} path.</PS_MsgEmbraced>
-  <PS_MsgEmbracedBonus>(+{0} specialization points)</PS_MsgEmbracedBonus>
-  <PS_MsgForgo>{0} forwent the vision for deeper insight.  (+{1} specialization points)</PS_MsgForgo>
-  <PS_MsgPilgrimReform>{0} has completed the pilgrimage and broken through. Reform a caravan at the site to bring them home.</PS_MsgPilgrimReform>
-  <PS_NoFreeSpotSuffix>(no free spot)</PS_NoFreeSpotSuffix>
-  <PS_PilgrimProgress>Meditation: {0}h / {1}h  ·  waves fired: {2}</PS_PilgrimProgress>
-  <PS_PilgrimProgressCap>Meditation: {0}h / {1}h  (today: {2}h / {3}h)  ·  waves fired: {4}</PS_PilgrimProgressCap>
-  <PS_SetBreakChance>Breakthrough chance each hour: {0}%</PS_SetBreakChance>
-  <PS_SetBreakChanceTip>Rolled once an hour for a meditating psycaster who has not yet reached Illuminated. Meditating for hours without a break pushes it higher. Set it to 0 and they never break through at all.</PS_SetBreakChanceTip>
-  <PS_SetBreakChanceTrans>Breakthrough chance each hour past Illuminated: {0}%</PS_SetBreakChanceTrans>
-  <PS_SetBreakChanceTransTip>The same roll once a psycaster has climbed past Illuminated. Set it apart from the one above to make late game breakthroughs rarer or more common than the climb to get there. 0 stops them completely.</PS_SetBreakChanceTransTip>
-  <PS_SetCardRedeal>Allow one reroll at a first awakening</PS_SetCardRedeal>
+  <PS_LetterWaveLabel>Древние псионики</PS_LetterWaveLabel>
+  <PS_LetterWaveText>Орден древних псиоников явился испытать паломника. Их отряд ({0}) атакует с края карты.</PS_LetterWaveText>
+  <PS_MeditateAt>Медитировать у {0} (до отмены)</PS_MeditateAt>
+  <PS_MsgCardsAside>{0} откладывает карты — они вернутся во время медитации или через оповещение.</PS_MsgCardsAside>
+  <PS_MsgDeferReroll>{0} откладывает карты для дальнейшей медитации — знамения изменятся.</PS_MsgDeferReroll>
+  <PS_MsgEmbraced>{0} избирает путь «{1}».</PS_MsgEmbraced>
+  <PS_MsgEmbracedBonus>(+{0} очк. специализации)</PS_MsgEmbracedBonus>
+  <PS_MsgForgo>{0} отказывается от видения ради глубинного озарения. (+{1} очк. специализации)</PS_MsgForgo>
+  <PS_MsgPilgrimReform>{0} завершает паломничество и совершает прорыв. Сформируйте караван в этой области, чтобы вернуть поселенца домой.</PS_MsgPilgrimReform>
+  <PS_NoFreeSpotSuffix>(нет свободного места)</PS_NoFreeSpotSuffix>
+  <PS_PilgrimProgress>Медитация: {0} ч / {1} ч · отражено волн: {2}</PS_PilgrimProgress>
+  <PS_PilgrimProgressCap>Медитация: {0} ч / {1} ч (сегодня: {2} ч / {3} ч) · отражено волн: {4}</PS_PilgrimProgressCap>
+  <PS_SetBreakChance>Шанс прорыва каждый час: {0}%</PS_SetBreakChance>
+  <PS_SetBreakChanceTip>Проверяется раз в час во время медитации псионика, ещё не достигшего ранга Просветлённого. Многочасовая медитация без перерывов увеличивает этот шанс. Значение 0 полностью отключает прорывы.</PS_SetBreakChanceTip>
+  <PS_SetBreakChanceTrans>Шанс прорыва в час после ранга Просветлённого: {0}%</PS_SetBreakChanceTrans>
+  <PS_SetBreakChanceTransTip>Та же проверка для псиоников, перешагнувших ранг Просветлённого. Настройте отдельно от предыдущего параметра, чтобы сделать поздние прорывы более редкими или частыми. 0 отключает их полностью.</PS_SetBreakChanceTransTip>
+  <PS_SetCardRedeal>Разрешить один переброс при первом пробуждении</PS_SetCardRedeal>
   <PS_SetCardRedealTip>лапа</PS_SetCardRedealTip>
-  <PS_SetFogNext>Still show the ones you can pick next</PS_SetFogNext>
-  <PS_SetFogNextTip>Psycasts you already meet the requirements for stay visible, so your next choice is always in front of you. Only what sits deeper up the tree is hidden.</PS_SetFogNextTip>
-  <PS_SetH_Breakthroughs>Breakthroughs</PS_SetH_Breakthroughs>
-  <PS_SetH_Cost>Cost</PS_SetH_Cost>
-  <PS_SetH_EarningLevels>Earning psycaster levels</PS_SetH_EarningLevels>
-  <PS_SetH_GettingTrees>Getting new trees</PS_SetH_GettingTrees>
-  <PS_SetH_LevelCap>Psycaster level cap</PS_SetH_LevelCap>
-  <PS_SetH_Links>Links between psycasts</PS_SetH_Links>
-  <PS_SetH_NoTakeBacks>No taking it back</PS_SetH_NoTakeBacks>
-  <PS_SetH_OtherMods>Other mods</PS_SetH_OtherMods>
-  <PS_SetH_Speed>Speed</PS_SetH_Speed>
-  <PS_SetH_Spending>Spending points</PS_SetH_Spending>
-  <PS_SetH_TooLong>Meditating too long</PS_SetH_TooLong>
-  <PS_SetH_Tree>The psycast tree</PS_SetH_Tree>
-  <PS_SetH_WhatChanges>What levels change</PS_SetH_WhatChanges>
-  <PS_SetH_WhoBecomes>Who becomes a psycaster</PS_SetH_WhoBecomes>
-  <PS_SetLinks>Psycasts feed each other</PS_SetLinks>
-  <PS_SetLinksTip>Psycasts in the same tree are linked. Levelling one adds a little to the ones it feeds, and the skill card shows you which.</PS_SetLinksTip>
-  <PS_SetSafeWindowOff>Safe meditation: all day, meditating is never risky</PS_SetSafeWindowOff>
-  <PS_SetTab_Advanced>Advanced</PS_SetTab_Advanced>
-  <PS_SetTab_Display>Display</PS_SetTab_Display>
-  <PS_SetTab_Levels>Psycast levels</PS_SetTab_Levels>
-  <PS_SetTab_Paths>Paths and points</PS_SetTab_Paths>
-  <PS_StopMeditatingAt>Stop meditating ({0})</PS_StopMeditatingAt>
-  <PS_ThePilgrim>The pilgrim</PS_ThePilgrim>
+  <PS_SetFogNext>Отображать доступные для изучения способности</PS_SetFogNext>
+  <PS_SetFogNextTip>Пси-способности, требования для которых уже выполнены, остаются видимыми, позволяя видеть ближайший выбор. Скрыто лишь то, что находится глубже по древу.</PS_SetFogNextTip>
+  <PS_SetH_Breakthroughs>Прорывы</PS_SetH_Breakthroughs>
+  <PS_SetH_Cost>Стоимость</PS_SetH_Cost>
+  <PS_SetH_EarningLevels>Получение уровней псионика</PS_SetH_EarningLevels>
+  <PS_SetH_GettingTrees>Получение новых путей</PS_SetH_GettingTrees>
+  <PS_SetH_LevelCap>Ограничение уровня псионика</PS_SetH_LevelCap>
+  <PS_SetH_Links>Связи между пси-способностями</PS_SetH_Links>
+  <PS_SetH_NoTakeBacks>Без права на возврат</PS_SetH_NoTakeBacks>
+  <PS_SetH_OtherMods>Другие моды</PS_SetH_OtherMods>
+  <PS_SetH_Speed>Скорость</PS_SetH_Speed>
+  <PS_SetH_Spending>Трата очков</PS_SetH_Spending>
+  <PS_SetH_TooLong>Слишком долгая медитация</PS_SetH_TooLong>
+  <PS_SetH_Tree>Древо пси-способностей</PS_SetH_Tree>
+  <PS_SetH_WhatChanges>Что меняют уровни</PS_SetH_WhatChanges>
+  <PS_SetH_WhoBecomes>Кто становится псиоником</PS_SetH_WhoBecomes>
+  <PS_SetLinks>Взаимное усиление способностей</PS_SetLinks>
+  <PS_SetLinksTip>Пси-способности одного древа взаимосвязаны. Повышение уровня одной способности немного усиливает зависимые способности; карточка навыка подскажет, какие именно.</PS_SetLinksTip>
+  <PS_SetSafeWindowOff>Безопасная медитация: весь день, без какого-либо риска</PS_SetSafeWindowOff>
+  <PS_SetTab_Advanced>Расширенные</PS_SetTab_Advanced>
+  <PS_SetTab_Display>Интерфейс</PS_SetTab_Display>
+  <PS_SetTab_Levels>Уровни способностей</PS_SetTab_Levels>
+  <PS_SetTab_Paths>Пути и очки</PS_SetTab_Paths>
+  <PS_StopMeditatingAt>Прекратить медитацию ({0})</PS_StopMeditatingAt>
+  <PS_ThePilgrim>Паломник</PS_ThePilgrim>
 </LanguageData>

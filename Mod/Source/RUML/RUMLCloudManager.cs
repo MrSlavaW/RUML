@@ -456,6 +456,44 @@ namespace RUML
             });
         }
 
+        public static void UpdateOutdatedOnlyAsync(ModContentPack content, RUMLSettings settings, Action onComplete = null)
+        {
+            if (IsBusy || content == null || settings == null) return;
+
+            if (Items.Count == 0)
+            {
+                StatusMessage = "Загрузка каталога перед обновлением...";
+                FetchManifestAsync(settings.cloudManifestUrl, content, delegate()
+                {
+                    UpdateOutdatedOnlyAsync(content, settings, onComplete);
+                });
+                return;
+            }
+
+            List<CloudTranslationItem> toUpdate = new List<CloudTranslationItem>();
+            for (int i = 0; i < Items.Count; i++)
+            {
+                CloudTranslationItem it = Items[i];
+                if (it.IsInstalled && settings.IsModEnabled(it.ModFolder) && it.HasUpdate)
+                {
+                    string selAuthor = settings.GetSelectedAuthor(it.ModFolder);
+                    if (string.IsNullOrEmpty(selAuthor) || string.Equals(it.AuthorFolder, selAuthor, StringComparison.OrdinalIgnoreCase))
+                    {
+                        toUpdate.Add(it);
+                    }
+                }
+            }
+
+            if (toUpdate.Count == 0)
+            {
+                StatusMessage = "Все активные переводы актуальны (нет доступных обновлений).";
+                Messages.Message("RUML: Все активные переводы уже актуальны! Обновлений не требуется.", MessageTypeDefOf.PositiveEvent, false);
+                return;
+            }
+
+            ExecuteBatchUpdate(toUpdate, content, settings, onComplete);
+        }
+
         public static void UpdateAllActiveAsync(ModContentPack content, RUMLSettings settings, Action onComplete = null)
         {
             if (IsBusy || content == null || settings == null) return;
@@ -491,6 +529,11 @@ namespace RUML
                 return;
             }
 
+            ExecuteBatchUpdate(toUpdate, content, settings, onComplete);
+        }
+
+        private static void ExecuteBatchUpdate(List<CloudTranslationItem> toUpdate, ModContentPack content, RUMLSettings settings, Action onComplete)
+        {
             IsBusy = true;
             DownloadPercent = 0f;
             StatusMessage = "Подготовка к обновлению " + toUpdate.Count + " переводов...";

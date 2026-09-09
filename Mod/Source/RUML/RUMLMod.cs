@@ -336,11 +336,12 @@ namespace RUML
                 }
             }
 
-            // Row 2: Check Updates, Update All Active, Open AppData
+            // Row 2: Check Updates, Update Outdated Only, Reinstall All, Open AppData
             Rect actRow = new Rect(inRect.x, inRect.y + 36f, inRect.width, 30f);
-            float actW1 = 175f;
-            float actW2 = 210f;
-            float actW3 = 190f;
+            float actW1 = 170f;
+            float actW2 = 195f;
+            float actW3 = 165f;
+            float actW4 = 180f;
 
             if (Widgets.ButtonText(new Rect(actRow.x, actRow.y, actW1, 30f), "Проверить обновления"))
             {
@@ -349,13 +350,20 @@ namespace RUML
 
             Color prevBtnCol = GUI.color;
             GUI.color = RUMLUI.ColorButtonGreen;
-            if (Widgets.ButtonText(new Rect(actRow.x + actW1 + 10f, actRow.y, actW2, 30f), "Обновить все активные"))
+            if (Widgets.ButtonText(new Rect(actRow.x + actW1 + 10f, actRow.y, actW2, 30f), "Обновить актуальные"))
+            {
+                RUMLCloudManager.UpdateOutdatedOnlyAsync(Content, Settings);
+            }
+            GUI.color = prevBtnCol;
+            TooltipHandler.TipRegion(new Rect(actRow.x + actW1 + 10f, actRow.y, actW2, 30f), "Скачать обновления ТОЛЬКО для тех активных переводов, для которых вышли новые версии (без повторной загрузки уже актуальных).");
+
+            if (Widgets.ButtonText(new Rect(actRow.x + actW1 + actW2 + 20f, actRow.y, actW3, 30f), "Переустановить все"))
             {
                 RUMLCloudManager.UpdateAllActiveAsync(Content, Settings);
             }
-            GUI.color = prevBtnCol;
+            TooltipHandler.TipRegion(new Rect(actRow.x + actW1 + actW2 + 20f, actRow.y, actW3, 30f), "Принудительно заново перекачать и установить все активные переводы.");
 
-            Rect openDirRect = new Rect(actRow.x + actW1 + actW2 + 20f, actRow.y, actW3, 30f);
+            Rect openDirRect = new Rect(actRow.x + actW1 + actW2 + actW3 + 30f, actRow.y, actW4, 30f);
             if (Widgets.ButtonText(openDirRect, "Открыть папку переводов"))
             {
                 RUMLCloudManager.OpenTranslationsFolderInExplorer();
@@ -366,8 +374,29 @@ namespace RUML
             Rect statusR = new Rect(inRect.x, inRect.y + 70f, inRect.width, 22f);
             RUMLUI.DrawStatusRibbon(statusR);
 
-            // Scrollable List
-            Rect listRect = new Rect(inRect.x, inRect.y + 96f, inRect.width, inRect.height - 172f);
+            // Table Header Bar (Column Labels)
+            Rect tableHeaderRect = new Rect(inRect.x, inRect.y + 96f, inRect.width, 24f);
+            Widgets.DrawBoxSolid(tableHeaderRect, new Color(0.08f, 0.08f, 0.08f, 0.75f));
+
+            float col1W = tableHeaderRect.width - 380f;
+            float col2W = 160f;
+            float col3W = 105f;
+            float col4W = 85f;
+
+            Rect h1 = new Rect(tableHeaderRect.x + 8f, tableHeaderRect.y + 2f, col1W, 20f);
+            Widgets.Label(h1, "<color=#C0C0C0><b>Мод / Локализация</b></color>");
+
+            Rect h2 = new Rect(tableHeaderRect.x + col1W + 10f, tableHeaderRect.y + 2f, col2W, 20f);
+            Widgets.Label(h2, "<color=#C0C0C0><b>Автор перевода</b></color>");
+
+            Rect h3 = new Rect(tableHeaderRect.x + col1W + col2W + 15f, tableHeaderRect.y + 2f, col3W, 20f);
+            Widgets.Label(h3, "<color=#C0C0C0><b>Состояние</b></color>");
+
+            Rect h4 = new Rect(tableHeaderRect.x + col1W + col2W + col3W + 20f, tableHeaderRect.y + 2f, col4W, 20f);
+            Widgets.Label(h4, "<color=#C0C0C0><b>Действие</b></color>");
+
+            // Scrollable List (starts below table header)
+            Rect listRect = new Rect(inRect.x, inRect.y + 122f, inRect.width, inRect.height - 198f);
             List<InstalledModItem> filtered = new List<InstalledModItem>();
             foreach (InstalledModItem m in allMods)
             {
@@ -411,12 +440,11 @@ namespace RUML
                 Widgets.DrawBoxSolid(cardRect, RUMLUI.ColorCardBg);
                 Widgets.DrawHighlightIfMouseover(cardRect);
 
-                // Left: Checkbox + ModName + Update badge
-                string updateBadge = hasUpdate ? " <color=#FFE040>[Обновление!]</color>" : "";
-                float checkW = Math.Max(240f, viewRect.width - (hasUpdate ? 395f : 305f));
-                Rect checkRect = new Rect(cardRect.x + 8f, curY + 4f, checkW, 30f);
+                // Col 1: Fixed Checkbox + ModName
+                float rowCol1W = viewRect.width - 380f;
+                Rect checkRect = new Rect(cardRect.x + 8f, curY + 4f, rowCol1W, 30f);
                 bool newCheck = isEnabled;
-                Widgets.CheckboxLabeled(checkRect, "  " + modFolder + updateBadge, ref newCheck);
+                Widgets.CheckboxLabeled(checkRect, "  " + modFolder, ref newCheck);
                 if (newCheck != isEnabled)
                 {
                     Settings.SetModEnabled(modFolder, newCheck);
@@ -431,8 +459,8 @@ namespace RUML
                     }
                 }
 
-                // Middle: Author Selector Button or Single Author Badge
-                Rect authorRect = new Rect(checkRect.xMax + 10f, curY + 5f, 180f, 28f);
+                // Col 2: Fixed Author Selector Button or Single Author Badge
+                Rect authorRect = new Rect(cardRect.x + rowCol1W + 10f, curY + 5f, 160f, 28f);
                 if (item.Authors.Count > 1)
                 {
                     string authBtnLabel = "<color=#40E0D0>" + activeAuthor + "</color> (" + item.Authors.Count + " авт.) ▼";
@@ -463,25 +491,32 @@ namespace RUML
                 }
                 else if (item.Authors.Count == 1)
                 {
-                    string authorLabel = "<color=#40E0D0>Автор: " + item.Authors[0] + "</color>";
+                    string authorLabel = "<color=#40E0D0>" + item.Authors[0] + "</color>";
                     Widgets.Label(new Rect(authorRect.x, authorRect.y + 4f, authorRect.width, 24f), authorLabel);
                 }
 
-                // Right buttons: Update (if available) + Delete
+                // Col 3: Fixed Status / Update button
+                Rect statusColRect = new Rect(cardRect.x + rowCol1W + 180f, curY + 5f, 105f, 28f);
                 if (hasUpdate)
                 {
-                    Rect updBtnRect = new Rect(viewRect.width - 185f, curY + 5f, 85f, 28f);
                     Color prevUCol = GUI.color;
                     GUI.color = RUMLUI.ColorAccentGold;
-                    if (Widgets.ButtonText(updBtnRect, "Обновить"))
+                    if (Widgets.ButtonText(statusColRect, "Обновить!"))
                     {
                         RUMLCloudManager.DownloadAndInstallAsync(cloudItem, Content, Settings);
                     }
                     GUI.color = prevUCol;
-                    TooltipHandler.TipRegion(updBtnRect, "Обновить перевод от автора " + activeAuthor + " (v" + (cloudItem.LocalVersion ?? "1.0") + " -> v" + cloudItem.Version + ")");
+                    TooltipHandler.TipRegion(statusColRect, "Доступно обновление: v" + (cloudItem.LocalVersion ?? "1.0") + " -> v" + cloudItem.Version);
+                }
+                else
+                {
+                    Text.Anchor = TextAnchor.MiddleCenter;
+                    Widgets.Label(statusColRect, "<color=#50E050>✓ Актуально</color>");
+                    Text.Anchor = TextAnchor.UpperLeft;
                 }
 
-                Rect delBtnRect = new Rect(viewRect.width - 95f, curY + 5f, 90f, 28f);
+                // Col 4: Fixed Delete button
+                Rect delBtnRect = new Rect(cardRect.x + rowCol1W + 295f, curY + 5f, 75f, 28f);
                 Color prevCol = GUI.color;
                 GUI.color = RUMLUI.ColorDestructiveRed;
                 if (Widgets.ButtonText(delBtnRect, "Удалить"))

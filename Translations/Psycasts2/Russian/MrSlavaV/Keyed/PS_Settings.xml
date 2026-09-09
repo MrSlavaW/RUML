@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <PS_MsgBakeFailed>Bake failed: {0}</PS_MsgBakeFailed>
-  <PS_MsgBaked>Baked - ManualBalance.json now holds {0} default override(s).</PS_MsgBaked>
-  <PS_MsgImportFailed>Import failed: {0}</PS_MsgImportFailed>
-  <PS_MsgNoBake>No balance edits to bake.</PS_MsgNoBake>
-  <PS_MsgNoDiscard>No balance edits to discard.</PS_MsgNoDiscard>
-  <PS_MsgNoImportFiles>No balance-edit JSON files found. Drop a shared file (exported with the Share button) into: {0}</PS_MsgNoImportFiles>
-  <PS_MsgNoShare>No balance edits to share yet - tune some numbers in the Balance editor first.</PS_MsgNoShare>
-  <PS_MsgShareFailed>Export failed: {0}</PS_MsgShareFailed>
-  <PS_MsgSynRebuilt>Synergy graph rebuilt from currently-installed psycasts.</PS_MsgSynRebuilt>
+  <PS_MsgBakeFailed>Ошибка внедрения: {0}</PS_MsgBakeFailed>
+  <PS_MsgBaked>Внедрено — ManualBalance.json теперь содержит переопределений по умолчанию: {0}.</PS_MsgBaked>
+  <PS_MsgImportFailed>Ошибка импорта: {0}</PS_MsgImportFailed>
+  <PS_MsgNoBake>Нет правок баланса для внедрения.</PS_MsgNoBake>
+  <PS_MsgNoDiscard>Нет правок баланса для сброса.</PS_MsgNoDiscard>
+  <PS_MsgNoImportFiles>JSON-файлы правок баланса не найдены. Поместите экспортированный файл в: {0}</PS_MsgNoImportFiles>
+  <PS_MsgNoShare>Пока нет правок баланса для экспорта — сначала настройте значения в редакторе баланса.</PS_MsgNoShare>
+  <PS_MsgShareFailed>Ошибка экспорта: {0}</PS_MsgShareFailed>
+  <PS_MsgSynRebuilt>Граф синергий перестроен на основе установленных пси-способностей.</PS_MsgSynRebuilt>
   <PS_Ovr_EnemyTiers>Ступени просветления врагов отключены</PS_Ovr_EnemyTiers>
   <PS_Ovr_ExtPsylink>Внешнее пробуждение пси-связи отключено</PS_Ovr_ExtPsylink>
   <PS_Ovr_MedAwaken>Пробуждение от медитации отключено — прорывы по-прежнему дают уровни псионика</PS_Ovr_MedAwaken>
@@ -16,190 +16,190 @@
   <PS_Ovr_PsylinkGate>Врата пси-связи отключены</PS_Ovr_PsylinkGate>
   <PS_Ovr_RandomSpawns>Случайное появление Пробужденных+ отключено</PS_Ovr_RandomSpawns>
   <PS_Ovr_Transcend>Трансцендентность от медитации отключена</PS_Ovr_Transcend>
-  <PS_SetAltarDaily>Daily meditation cap: {0}h / day  (0 = no cap)</PS_SetAltarDaily>
-  <PS_SetAltarDailyTip>Caps the pilgrim's meditation per day, forcing the pilgrimage to span real elapsed time. Pilgrimage meditation is exempt from coma risk, so a higher cap simply finishes the quest sooner.</PS_SetAltarDailyTip>
-  <PS_SetAltarTotal>Total meditation required: {0}h  (~{1} days at the cap)</PS_SetAltarTotal>
-  <PS_SetAltarTotalTip>Hours of meditation the pilgrim must complete at the altar site to advance a tier.</PS_SetAltarTotalTip>
-  <PS_SetAnimaPerSite>Meditation per site: {0}h</PS_SetAnimaPerSite>
+  <PS_SetAltarDaily>Дневной лимит медитации: {0} ч / день (0 = без лимита)</PS_SetAltarDaily>
+  <PS_SetAltarDailyTip>Ограничивает время медитации паломника в день, растягивая паломничество во времени. Медитация во время паломничества не вызывает риска комы, поэтому более высокий лимит лишь ускоряет завершение задания.</PS_SetAltarDailyTip>
+  <PS_SetAltarTotal>Всего требуется медитации: {0} ч (~{1} дн. при лимите)</PS_SetAltarTotal>
+  <PS_SetAltarTotalTip>Количество часов медитации у алтаря, необходимое паломнику для перехода на следующий ранг.</PS_SetAltarTotalTip>
+  <PS_SetAnimaPerSite>Медитация на место: {0} ч</PS_SetAnimaPerSite>
   <PS_SetAnimaPerSiteTip>атака</PS_SetAnimaPerSiteTip>
-  <PS_SetAnimaT2>Tier II sites: {0}</PS_SetAnimaT2>
-  <PS_SetAnimaT2Tip>Number of anima-tree sites the Tier II journey visits.</PS_SetAnimaT2Tip>
+  <PS_SetAnimaT2>Мест для ранга II: {0}</PS_SetAnimaT2>
+  <PS_SetAnimaT2Tip>Количество древ древа души, которые необходимо посетить во время паломничества II ранга.</PS_SetAnimaT2Tip>
   <PS_SetAnimaT3>лапа</PS_SetAnimaT3>
-  <PS_SetAnimaT3Tip>Number of sites the Tier III journey visits; the final one grows the giant ancient anima tree.</PS_SetAnimaT3Tip>
-  <PS_SetAutoStats>Auto psycaster stats (no manual upgrades; cost unaffected)</PS_SetAutoStats>
-  <PS_SetAutoStatsTip>When on, VPE's neural-heat limit, neural-heat recovery and psychic sensitivity grow AUTOMATICALLY with each psycaster level, you no longer spend points on them, and the psyfocus cost is left unaffected by leveling. Your points stay free for raising skill levels (this mod's own system); the 'Upgrade Psycaster Stats' button is replaced with a note.</PS_SetAutoStatsTip>
-  <PS_SetBake>Bake edits into mod defaults</PS_SetBake>
-  <PS_SetBakeBody>Write your {0} edit(s) into ManualBalance.json as the mod's new default balance, then clear the live overlay? (A Workshop update can overwrite the baked file - re-bake afterwards if needed.)</PS_SetBakeBody>
-  <PS_SetBakeN>Bake {0} edit(s) into mod defaults</PS_SetBakeN>
+  <PS_SetAnimaT3Tip>Количество мест паломничества III ранга; у последнего из них вырастает гигантское древнее древо души.</PS_SetAnimaT3Tip>
+  <PS_SetAutoStats>Авто-характеристики псионика (без ручных улучшений; стоимость не меняется)</PS_SetAutoStats>
+  <PS_SetAutoStatsTip>Если включено, лимит нейроперегрева, скорость его рассеивания и пси-чувствительность из VPE растут АВТОМАТИЧЕСКИ с каждым уровнем псионика. Тратить на них очки больше не нужно, а стоимость пси-фокуса не увеличивается с уровнем. Очки остаются свободными для прокачки самих способностей; кнопка «Улучшить характеристики» заменяется пояснительной плашкой.</PS_SetAutoStatsTip>
+  <PS_SetBake>Внедрить правки в стандарты мода</PS_SetBake>
+  <PS_SetBakeBody>Записать ваши правки ({0}) в ManualBalance.json как новый баланс мода по умолчанию и очистить текущий оверлей? (Обновление в Мастерской может перезаписать файл — при необходимости внедрите повторно.)</PS_SetBakeBody>
+  <PS_SetBakeN>Внедрить {0} правок в стандарты мода</PS_SetBakeN>
   <PS_SetBakeTitle>Применить правки баланса</PS_SetBakeTitle>
-  <PS_SetBalanceInfo>Edits made in the in-game Balance editor (psycast tab, dev mode) are stored in this config and apply on top of the mod's defaults. The mod is in open beta: if you have balancing ideas, tune the numbers in the editor and use the share button below to export them as a JSON file, grouped per psycast tree and addon tree, then send that file to the author.</PS_SetBalanceInfo>
+  <PS_SetBalanceInfo>Правки, сделанные во встроенном редакторе баланса (вкладка псионики, режим разработчика), сохраняются в конфигурации и применяются поверх стандартных настроек. Мод находится в стадии открытой беты: если у вас есть идеи по балансу, настройте значения в редакторе, экспортируйте их кнопкой «Поделиться» в JSON-файл и отправьте автору мода.</PS_SetBalanceInfo>
   <PS_SetBreakChance>Шанс прорыва каждый час: {0}%</PS_SetBreakChance>
   <PS_SetBreakChanceTip>Проверяется раз в час для медитирующего псионика, еще не достигшего статуса «Озаренный». Непрерывная многочасовая медитация увеличивает этот шанс. Установите 0, чтобы прорывы не происходили вовсе.</PS_SetBreakChanceTip>
   <PS_SetBreakChanceTrans>Шанс прорыва каждый час после ранга Озарённый: {0}%</PS_SetBreakChanceTrans>
   <PS_SetBreakChanceTransTip>Шанс проверки, когда псионик поднялся выше ранга Озарённый. Настройте отдельно, чтобы сделать поздние прорывы реже или чаще. 0 полностью отключает их.</PS_SetBreakChanceTransTip>
   <PS_SetBreakSize>Размер прорыва: {0}% уровня</PS_SetBreakSize>
-  <PS_SetBreakSizeTip>How much psycaster XP one breakthrough grants. 1.0 is exactly a full level.</PS_SetBreakSizeTip>
-  <PS_SetBreakthroughs>Enable meditation breakthroughs</PS_SetBreakthroughs>
+  <PS_SetBreakSizeTip>Сколько опыта псионика даёт один прорыв. 1.0 соответствует ровно одному полному уровню.</PS_SetBreakSizeTip>
+  <PS_SetBreakthroughs>Включить прорывы во время медитации</PS_SetBreakthroughs>
   <PS_SetBreakthroughsTip>лапа</PS_SetBreakthroughsTip>
-  <PS_SetCardCount>Cards per tier-up: {0}</PS_SetCardCount>
-  <PS_SetCardCountAuto>auto (3; Tier II deals 5)</PS_SetCardCountAuto>
+  <PS_SetCardCount>Карт при повышении ранга: {0}</PS_SetCardCount>
+  <PS_SetCardCountAuto>авто (3; ранг II сдаёт 5)</PS_SetCardCountAuto>
   <PS_SetCardCountTip>лапа</PS_SetCardCountTip>
   <PS_SetCardRedeal>Разрешить один реролл при первом пробуждении</PS_SetCardRedeal>
   <PS_SetCardRedealTip>Добавляет кнопку реролла в правый верхний угол окна карт, чтобы первое пробуждение пешки не определялось одной неудачной раздачей. Доступно один раз за пробуждение.</PS_SetCardRedealTip>
-  <PS_SetCastXp>Casting XP per skill tier: {0}  (tier-3 cast = {1} XP)</PS_SetCastXp>
-  <PS_SetCastXpTip>Casting is the main XP source. Each cast grants this much XP per the skill's tier, so deeper psycasts level you faster.</PS_SetCastXpTip>
-  <PS_SetChooseLaterInfo>A card pick can always be set aside with its "Choose later" button. The choice is never lost: the cards return while the colonist meditates, and the "Psycast path awaits" alert reopens them with one click.</PS_SetChooseLaterInfo>
+  <PS_SetCastXp>Опыт за применение по рангу способности: {0} (ранг 3 = {1} опыта)</PS_SetCastXp>
+  <PS_SetCastXpTip>Применение способностей — основной источник опыта. Каждое применение даёт указанный опыт, умноженный на ранг способности, поэтому высшая псионика прокачивает быстрее.</PS_SetCastXpTip>
+  <PS_SetChooseLaterInfo>Выбор карты всегда можно отложить кнопкой «Выбрать позже». Выбор не пропадёт: карты снова предстанут во время медитации колониста, а оповещение «Ожидает путь псионики» откроет их в один клик.</PS_SetChooseLaterInfo>
   <PS_SetComaRisk>Риск комы за каждый лишний час: {0}%</PS_SetComaRisk>
   <PS_SetComaRiskTip>Вероятность впасть в кому за каждый час медитации сверх безопасного окна.</PS_SetComaRiskTip>
-  <PS_SetCostPerLevel>Cost increase per level: +{0}% heat and psyfocus</PS_SetCostPerLevel>
-  <PS_SetCostPerLevelTip>How steeply a skill's cost rises for each invested level.</PS_SetCostPerLevelTip>
-  <PS_SetDisableSynergies>Disable synergies and empowers</PS_SetDisableSynergies>
-  <PS_SetDisableSynergiesTip>Turn off the whole cross-ability synergy system. Each psycast still grows with its OWN invested levels, but leveling other psycasts of the same path no longer feeds it, and the skill card and hover no longer show "gains power from" or "empowers" links. Off by default.</PS_SetDisableSynergiesTip>
-  <PS_SetDiscard>Discard my balance edits</PS_SetDiscard>
-  <PS_SetDiscardBody>Discard all {0} of your balance edit(s) and return to the baked defaults?</PS_SetDiscardBody>
-  <PS_SetDiscardTitle>Discard balance edits</PS_SetDiscardTitle>
-  <PS_SetEmpirePsylink>Empire psylink awakens</PS_SetEmpirePsylink>
+  <PS_SetCostPerLevel>Прирост стоимости за уровень: +{0}% к перегреву и пси-фокусу</PS_SetCostPerLevel>
+  <PS_SetCostPerLevelTip>Насколько сильно возрастает стоимость применения способности за каждый вложенный уровень.</PS_SetCostPerLevelTip>
+  <PS_SetDisableSynergies>Отключить синергии и усиления</PS_SetDisableSynergies>
+  <PS_SetDisableSynergiesTip>Полностью отключает систему синергий между способностями. Каждая способность по-прежнему усиливается от СОБСТВЕННЫХ уровней, но прокачка других способностей того же древа больше не влияет на неё, а в карточках не отображаются связи. По умолчанию выключено.</PS_SetDisableSynergiesTip>
+  <PS_SetDiscard>Сбросить мои правки баланса</PS_SetDiscard>
+  <PS_SetDiscardBody>Сбросить все ваши правки ({0}) и вернуться к исходным настройкам?</PS_SetDiscardBody>
+  <PS_SetDiscardTitle>Сброс правок баланса</PS_SetDiscardTitle>
+  <PS_SetEmpirePsylink>Пси-связь Империи пробуждает псионика</PS_SetEmpirePsylink>
   <PS_SetEmpirePsylinkTip>лапа</PS_SetEmpirePsylinkTip>
   <PS_SetEnemyAscension>лапа</PS_SetEnemyAscension>
-  <PS_SetEnemyAscensionTip>Off by default. Gives elite Tier III enemy psycasters a full Apotheosis constellation's power, a serious endgame threat.</PS_SetEnemyAscensionTip>
-  <PS_SetEnemyFreq>   Frequency: {0}% of hostile psycasters</PS_SetEnemyFreq>
-  <PS_SetEnemyFreqTip>The chance that any given hostile psycaster rolls an Enlightenment tier.</PS_SetEnemyFreqTip>
-  <PS_SetEnemyT1>   Allow Tier I</PS_SetEnemyT1>
-  <PS_SetEnemyT1Tip>Permit Tier I (Awakened) hostile psycasters.</PS_SetEnemyT1Tip>
-  <PS_SetEnemyT2>   Allow Tier II</PS_SetEnemyT2>
-  <PS_SetEnemyT2Tip>Permit Tier II (Enlightened) hostile psycasters.</PS_SetEnemyT2Tip>
-  <PS_SetEnemyT3>   Allow Tier III</PS_SetEnemyT3>
-  <PS_SetEnemyT3Tip>Permit Tier III (Illuminated) hostile psycasters, the strongest.</PS_SetEnemyT3Tip>
+  <PS_SetEnemyAscensionTip>По умолчанию выключено. Наделяет элитных вражеских псиоников III ранга всей мощью созвездия Апофеоза, превращая их в смертельную угрозу поздней игры.</PS_SetEnemyAscensionTip>
+  <PS_SetEnemyFreq>   Частота: {0}% вражеских псиоников</PS_SetEnemyFreq>
+  <PS_SetEnemyFreqTip>Шанс того, что вражеский псионик получит ранг Просветления.</PS_SetEnemyFreqTip>
+  <PS_SetEnemyT1>   Разрешить ранг I</PS_SetEnemyT1>
+  <PS_SetEnemyT1Tip>Разрешить вражеских псиоников I ранга (Пробуждённых).</PS_SetEnemyT1Tip>
+  <PS_SetEnemyT2>   Разрешить ранг II</PS_SetEnemyT2>
+  <PS_SetEnemyT2Tip>Разрешить вражеских псиоников II ранга (Просветлённых).</PS_SetEnemyT2Tip>
+  <PS_SetEnemyT3>   Разрешить ранг III</PS_SetEnemyT3>
+  <PS_SetEnemyT3Tip>Разрешить вражеских псиоников III ранга (Озарённых), сильнейших из всех.</PS_SetEnemyT3Tip>
   <PS_SetEnemyTiers>Враги могут обладать ступенями Просветления</PS_SetEnemyTiers>
   <PS_SetEnemyTiersTip>Позволяет сильным рейдерам и боссам появляться со случайными ступенями и прокачанными способностями.</PS_SetEnemyTiersTip>
-  <PS_SetFalloff>Daily-meditation falloff: x{0}</PS_SetFalloff>
-  <PS_SetFalloffTip>Anti-farming. Meditating past the safe window builds saturation that makes a psycaster's breakthroughs rarer. Higher rarefies faster; 0 disables the falloff.</PS_SetFalloffTip>
-  <PS_SetFocus_GrandThrone>Vanilla grand throne (Dignified, royal title)</PS_SetFocus_GrandThrone>
-  <PS_SetFocus_MeditationSpot>Meditation spot (basic, no reliquary)</PS_SetFocus_MeditationSpot>
-  <PS_SetFocus_PilgrimAltar>Pilgrim's altar (obelisk style)</PS_SetFocus_PilgrimAltar>
-  <PS_SetFocus_PilgrimThrone>Meditation throne (default; in reliquary)</PS_SetFocus_PilgrimThrone>
-  <PS_SetFocus_Throne>Vanilla throne (Dignified focus, royal title)</PS_SetFocus_Throne>
+  <PS_SetFalloff>Спад от ежедневной медитации: x{0}</PS_SetFalloff>
+  <PS_SetFalloffTip>Защита от фарма. Медитация дольше безопасного окна накапливает насыщение, снижая частоту прорывов. Чем выше значение, тем быстрее падает шанс; 0 отключает спад.</PS_SetFalloffTip>
+  <PS_SetFocus_GrandThrone>Роскошный трон (Величественный, дворянский титул)</PS_SetFocus_GrandThrone>
+  <PS_SetFocus_MeditationSpot>Место медитации (базовое, без реликвария)</PS_SetFocus_MeditationSpot>
+  <PS_SetFocus_PilgrimAltar>Алтарь паломника (в виде обелиска)</PS_SetFocus_PilgrimAltar>
+  <PS_SetFocus_PilgrimThrone>Трон для медитации (по умолчанию; в реликварии)</PS_SetFocus_PilgrimThrone>
+  <PS_SetFocus_Throne>Обычный трон (Величественный, дворянский титул)</PS_SetFocus_Throne>
   <PS_SetFogNext>Отображать способности, доступные для выбора следующими</PS_SetFogNext>
   <PS_SetFogNextTip>Способности, требованиям которых вы уже соответствуете, остаются видимыми. Скрыты только те, что находятся глубже по древу.</PS_SetFogNextTip>
-  <PS_SetFogOfWar>Fog of war (hide unlearned psycasts)</PS_SetFogOfWar>
-  <PS_SetFogOfWarTip>Hide the identity of every psycast you have not learned yet behind a "?" on the tree, so you discover each skill only when you unlock it. The tree layout stays visible; click a hidden node to learn it and reveal it. Off by default.</PS_SetFogOfWarTip>
-  <PS_SetForgoPoints>Forgo-card specialization points: {0}</PS_SetForgoPoints>
-  <PS_SetForgoPointsTip>At a Transcendent tier-up you may forgo the free psycast-path card for this many bonus specialization points instead (on top of the tier's own +3).</PS_SetForgoPointsTip>
-  <PS_SetGuarantee>Awakening guaranteed after: {0} cumulative meditation hours</PS_SetGuarantee>
-  <PS_SetGuaranteeTip>A non-psycaster's odds of Awakening to Tier I ramp with total meditation and are GUARANTEED once they reach this many cumulative hours. Around 36 is about a week of dedicated 6-hour days.</PS_SetGuaranteeTip>
-  <PS_SetH_Altar>Trial of the Altar (combat, single site)</PS_SetH_Altar>
-  <PS_SetH_AltarFocus>Altar focus building (Tier II)</PS_SetH_AltarFocus>
-  <PS_SetH_Anima>Way of the Anima (pacifist, multi-site)</PS_SetH_Anima>
+  <PS_SetFogOfWar>Туман войны (скрывать неизученные способности)</PS_SetFogOfWar>
+  <PS_SetFogOfWarTip>Скрывает описание ещё не изученных пси-способностей за знаком «?» в древе, открывая их только по мере разблокировки. Структура древа остаётся видимой; кликните на скрытый узел для изучения. По умолчанию выключено.</PS_SetFogOfWarTip>
+  <PS_SetForgoPoints>Очки специализации за отказ от карты: {0}</PS_SetForgoPoints>
+  <PS_SetForgoPointsTip>При повышении Трансцендентного ранга можно отказаться от бесплатной карты пути псионики в пользу указанного количества бонусных очков специализации (вдобавок к стандартным +3).</PS_SetForgoPointsTip>
+  <PS_SetGuarantee>Гарантированное пробуждение после: {0} суммарных часов медитации</PS_SetGuarantee>
+  <PS_SetGuaranteeTip>Шанс пробуждения до I ранга у не-псионика растёт с общим временем медитации и ГАРАНТИРУЕТ пробуждение по достижении указанного числа часов. Около 36 часов — это примерно неделя занятий по 6 часов в день.</PS_SetGuaranteeTip>
+  <PS_SetH_Altar>Испытание алтаря (боевое, одно место)</PS_SetH_Altar>
+  <PS_SetH_AltarFocus>Фокусирующее сооружение алтаря (ранг II)</PS_SetH_AltarFocus>
+  <PS_SetH_Anima>Путь древа души (мирный, несколько мест)</PS_SetH_Anima>
   <PS_SetH_BalanceEdits>Правки баланса (открытая бета)</PS_SetH_BalanceEdits>
   <PS_SetH_Breakthroughs>Прорывы</PS_SetH_Breakthroughs>
-  <PS_SetH_Cards>Awakening and cards</PS_SetH_Cards>
-  <PS_SetH_Comas>Over-meditation and comas</PS_SetH_Comas>
+  <PS_SetH_Cards>Пробуждение и карты</PS_SetH_Cards>
+  <PS_SetH_Comas>Перенапряжение медитацией и комы</PS_SetH_Comas>
   <PS_SetH_Cost>Стоимость</PS_SetH_Cost>
-  <PS_SetH_CostCaps>Cost and caps</PS_SetH_CostCaps>
+  <PS_SetH_CostCaps>Стоимость и ограничения</PS_SetH_CostCaps>
   <PS_SetH_EarningLevels>Получение уровней псионика</PS_SetH_EarningLevels>
   <PS_SetH_Enemies>Вражеские псионики</PS_SetH_Enemies>
-  <PS_SetH_Flow>A flow of ancient knowledge</PS_SetH_Flow>
+  <PS_SetH_Flow>Поток древних знаний</PS_SetH_Flow>
   <PS_SetH_GettingTrees>Получение новых деревьев</PS_SetH_GettingTrees>
   <PS_SetH_LevelCap>Максимальный уровень псионика</PS_SetH_LevelCap>
   <PS_SetH_Links>Связи между пси-способностями</PS_SetH_Links>
   <PS_SetH_NoTakeBacks>Без возврата очков</PS_SetH_NoTakeBacks>
   <PS_SetH_OtherMods>Другие моды</PS_SetH_OtherMods>
-  <PS_SetH_PathAccess>Path access</PS_SetH_PathAccess>
-  <PS_SetH_Performance>Performance</PS_SetH_Performance>
-  <PS_SetH_PsycastXp>Psycast XP</PS_SetH_PsycastXp>
+  <PS_SetH_PathAccess>Доступ к путям</PS_SetH_PathAccess>
+  <PS_SetH_Performance>Производительность</PS_SetH_Performance>
+  <PS_SetH_PsycastXp>Опыт псионики</PS_SetH_PsycastXp>
   <PS_SetH_SkillLeveling>Прокачка способностей</PS_SetH_SkillLeveling>
   <PS_SetH_SpecPoints>Очки специализации</PS_SetH_SpecPoints>
   <PS_SetH_Speed>Скорость</PS_SetH_Speed>
   <PS_SetH_Spending>Трата очков</PS_SetH_Spending>
-  <PS_SetH_SynergyGraph>Synergy graph</PS_SetH_SynergyGraph>
+  <PS_SetH_SynergyGraph>Граф синергий</PS_SetH_SynergyGraph>
   <PS_SetH_TooLong>Слишком долгая медитация</PS_SetH_TooLong>
-  <PS_SetH_Transcendence>Transcendence (beyond Illuminated)</PS_SetH_Transcendence>
+  <PS_SetH_Transcendence>Трансцендентность (выше Озарённого)</PS_SetH_Transcendence>
   <PS_SetH_Tree>Древо пси-способностей</PS_SetH_Tree>
   <PS_SetH_WhatChanges>Что меняют уровни</PS_SetH_WhatChanges>
-  <PS_SetH_WhatScales>What scales</PS_SetH_WhatScales>
+  <PS_SetH_WhatScales>Что масштабируется</PS_SetH_WhatScales>
   <PS_SetH_WhoBecomes>Кто становится псиоником</PS_SetH_WhoBecomes>
-  <PS_SetHidePaths>Hide unlearned paths</PS_SetHidePaths>
+  <PS_SetHidePaths>Скрывать неизученные пути</PS_SetHidePaths>
   <PS_SetHidePathsTip>лапа</PS_SetHidePathsTip>
-  <PS_SetImport>Import balance edits (from JSON)</PS_SetImport>
-  <PS_SetImportBody>Imported {0} balance edit(s) from {1} into your live overlay. They apply on top of the mod's defaults and can be shared, discarded, or (in dev mode) baked like any other edit.</PS_SetImportBody>
-  <PS_SetImportTitle>Balance edits imported</PS_SetImportTitle>
-  <PS_SetIsekai>Suppress ISEKAI RPG psycaster-stat boosts</PS_SetIsekai>
-  <PS_SetIsekaiTip>When ISEKAI RPG Leveling is installed, stop it from raising psychic sensitivity, neural heat limit and recovery, meditation focus and psyfocus, so this mod's own scaling stays authoritative. Takes effect on restart.</PS_SetIsekaiTip>
-  <PS_SetLevelCap>Set psycaster level cap</PS_SetLevelCap>
-  <PS_SetLevelCapTip>Set Vanilla Psycasts Expanded's maximum psycaster level to the value below. Enlightenment tiers do not affect this cap. Off leaves VPE's own setting untouched.</PS_SetLevelCapTip>
-  <PS_SetLevelCapVal>Max psycaster level: {0}</PS_SetLevelCapVal>
-  <PS_SetLevelCapValTip>The flat psycaster level ceiling. Default 400.</PS_SetLevelCapValTip>
+  <PS_SetImport>Импортировать правки баланса (из JSON)</PS_SetImport>
+  <PS_SetImportBody>Импортировано {0} правок баланса из {1} в текущий оверлей. Они применяются поверх стандартных настроек мода и могут быть переданы другим игрокам, сброшены или внедрены в игру.</PS_SetImportBody>
+  <PS_SetImportTitle>Правки баланса импортированы</PS_SetImportTitle>
+  <PS_SetIsekai>Подавлять усиления характеристик псионика от ISEKAI RPG</PS_SetIsekai>
+  <PS_SetIsekaiTip>Если установлен мод ISEKAI RPG Leveling, блокирует повышение им пси-чувствительности, лимита и рассеивания перегрева, а также пси-фокуса, сохраняя приоритет баланса текущего мода. Вступает в силу после перезапуска.</PS_SetIsekaiTip>
+  <PS_SetLevelCap>Ограничить максимальный уровень псионика</PS_SetLevelCap>
+  <PS_SetLevelCapTip>Устанавливает потолок уровней для Vanilla Psycasts Expanded. Ранги просветления не влияют на этот лимит. В выключенном состоянии сохраняет стандартные настройки VPE.</PS_SetLevelCapTip>
+  <PS_SetLevelCapVal>Максимальный уровень псионика: {0}</PS_SetLevelCapVal>
+  <PS_SetLevelCapValTip>Фиксированный потолок уровней псионика. По умолчанию 400.</PS_SetLevelCapValTip>
   <PS_SetLinks>Способности подпитывают друг друга</PS_SetLinks>
   <PS_SetLinksTip>Способности в одном древе связаны. Прокачка одной немного усиливает те, что она подпитывает, а на карточке навыка показано, какие именно.</PS_SetLinksTip>
-  <PS_SetLockPaths>Lock paths to Enlightenment</PS_SetLockPaths>
-  <PS_SetLockPathsTip>Paths unlock ONLY through the awakening cards; the tab's normal Unlock buttons are disabled. Dev mode still bypasses this.</PS_SetLockPathsTip>
+  <PS_SetLockPaths>Привязать разблокировку путей к Просветлению</PS_SetLockPaths>
+  <PS_SetLockPathsTip>Пути открываются ТОЛЬКО через карты пробуждения; стандартные кнопки «Открыть путь» во вкладке отключены. Режим разработчика игнорирует это ограничение.</PS_SetLockPathsTip>
   <PS_SetMaxSkillLevel>Максимальный уровень способности: {0}</PS_SetMaxSkillLevel>
   <PS_SetMaxSkillLevelTip>Жесткий предел уровня для любой отдельной способности. Специализация Конвергенция поднимает его еще на +5.</PS_SetMaxSkillLevelTip>
-  <PS_SetMechTrees>Unlock removed Mech-Mind trees</PS_SetMechTrees>
-  <PS_SetMechTreesTip>Re-enable the Mechanitor Mech-Mind paths the addon ships but locks away as removed content.</PS_SetMechTreesTip>
+  <PS_SetMechTrees>Разблокировать вырезанные древа Меха-разума</PS_SetMechTrees>
+  <PS_SetMechTreesTip>Вновь включает пути меха-разума механитора, которые поставляются аддоном, но по умолчанию заблокированы как неиспользуемый контент.</PS_SetMechTreesTip>
   <PS_SetMedBars>Отображать индикаторы риска комы и опыта</PS_SetMedBars>
   <PS_SetMedBarsTip>Показывать компактные шкалы риска комы, опыта и паломничества во вкладке псионики.</PS_SetMedBarsTip>
-  <PS_SetMedXp>Meditation psycast XP: {0}% of VPE's rate</PS_SetMedXp>
-  <PS_SetMedXpTip>Meditation also trickles psycast XP, scaled to this fraction of VPE's normal rate. A steady background source rather than the main one.</PS_SetMedXpTip>
-  <PS_SetNoDecay>Remove psyfocus decay</PS_SetNoDecay>
-  <PS_SetNoDecayTip>On (default): psyfocus never drains on its own. It only rises from meditation and falls when you spend it casting. Off: vanilla decay, where idle psyfocus slowly bleeds away and must be topped up.</PS_SetNoDecayTip>
-  <PS_SetNoGeneReq>Disable gene requirements</PS_SetNoGeneReq>
-  <PS_SetNoGeneReqTip>Paths that require a specific gene, such as Archon, unlock without needing the gene.</PS_SetNoGeneReqTip>
-  <PS_SetNoSkillReset>Disable skill resets</PS_SetNoSkillReset>
-  <PS_SetNoSkillResetTip>Hide the "Reset skills" button on the psycast tab, so invested skill levels can never be refunded. For hardcore or no-take-backs runs. Off by default.</PS_SetNoSkillResetTip>
-  <PS_SetNoSpecReset>Disable specialization resets</PS_SetNoSpecReset>
-  <PS_SetNoSpecResetTip>Hide the "Reset specializations" refund button in the constellation window, so committed specialization points can never be reclaimed. For hardcore or no-take-backs runs. Off by default.</PS_SetNoSpecResetTip>
+  <PS_SetMedXp>Опыт псионики за медитацию: {0}% от нормы VPE</PS_SetMedXp>
+  <PS_SetMedXpTip>Медитация постепенно приносит опыт псионики в указанном проценте от стандартной скорости VPE. Служит фоновым источником опыта.</PS_SetMedXpTip>
+  <PS_SetNoDecay>Отключить естественное падение пси-фокуса</PS_SetNoDecay>
+  <PS_SetNoDecayTip>Включено (по умолчанию): пси-фокус не убывает сам по себе, накапливаясь от медитации и расходуясь только при касте способностей. Выключено: ванильное постепенное угасание пси-фокуса со временем.</PS_SetNoDecayTip>
+  <PS_SetNoGeneReq>Отключить требования к генам</PS_SetNoGeneReq>
+  <PS_SetNoGeneReqTip>Пути, требующие определённых генов (например, Архонт), становятся доступны без наличия нужных генов.</PS_SetNoGeneReqTip>
+  <PS_SetNoSkillReset>Запретить сброс способностей</PS_SetNoSkillReset>
+  <PS_SetNoSkillResetTip>Скрывает кнопку «Сбросить навыки» на вкладке псионики, делая выбор окончательным. Для хардкорных партий. По умолчанию выключено.</PS_SetNoSkillResetTip>
+  <PS_SetNoSpecReset>Запретить сброс специализаций</PS_SetNoSpecReset>
+  <PS_SetNoSpecResetTip>Скрывает кнопку сброса в окне созвездий, запрещая перераспределение потраченных очков специализации. Для бескомпромиссных прохождений. По умолчанию выключено.</PS_SetNoSpecResetTip>
   <PS_SetNoStartAwakened>лапа</PS_SetNoStartAwakened>
-  <PS_SetNoStartAwakenedTip>On (default): the colonists you begin the game with are exempt from the random Awakened+ roll, so everyone starts the journey with an ordinary, mundane mind and must earn their Awakening. Off: starting colonists roll the same chance as everyone else.</PS_SetNoStartAwakenedTip>
+  <PS_SetNoStartAwakenedTip>Включено (по умолчанию): стартовые колонисты не могут случайно оказаться пробуждёнными, поэтому все начинают с обычным разумом и должны заслужить пробуждение. Выключено: стартовые колонисты проверяются на шанс пробуждения на общих основаниях.</PS_SetNoStartAwakenedTip>
   <PS_SetOverrideNote>⚠ {0} переопределено настройкой: {1}. Эта строка не действует.</PS_SetOverrideNote>
   <PS_SetPerLevel>Бонус за вложенный уровень: +{0}% к силе / радиусу / длительности</PS_SetPerLevel>
   <PS_SetPerLevelTip>Насколько каждое очко, вложенное в способность, повышает ее основную характеристику, радиус и длительность.</PS_SetPerLevelTip>
-  <PS_SetPerfCache>High performance caching</PS_SetPerfCache>
-  <PS_SetPerfCacheTip>Caches synergy and skill math for the current tick and frame, so repeated lookups from ability icons, gizmos, tooltips and AI checks cost almost nothing. Values still refresh instantly when anything changes. Leave this on; turn it off only when hunting a suspected display glitch, which makes every value recompute from scratch on every call.</PS_SetPerfCacheTip>
-  <PS_SetPilgrimPity>Pilgrimage guarantee: {0}h of meditation</PS_SetPilgrimPity>
+  <PS_SetPerfCache>Высокопроизводительное кэширование</PS_SetPerfCache>
+  <PS_SetPerfCacheTip>Кэширует расчёты синергий и навыков для текущего тика и кадра, благодаря чему отрисовка иконок, панелей команд, подсказок и проверка ИИ практически не создают нагрузки. Значения мгновенно обновляются при любых изменениях. Рекомендуется держать включённым.</PS_SetPerfCacheTip>
+  <PS_SetPilgrimPity>Гарантия паломничества: {0} ч медитации</PS_SetPilgrimPity>
   <PS_SetPilgrimPityTip>лапа</PS_SetPilgrimPityTip>
   <PS_SetPsyLevelsPerSkill>Требуется уровней псионика на каждый уровень способности: {0}</PS_SetPsyLevelsPerSkill>
   <PS_SetPsyLevelsPerSkillTip>Ограничение: способность можно прокачать только до предела, поддерживаемого общим уровнем псионика.</PS_SetPsyLevelsPerSkillTip>
-  <PS_SetPsylinkGate>Suppress untiered psylinks at generation</PS_SetPsylinkGate>
+  <PS_SetPsylinkGate>Подавлять пси-связь без ранга при генерации</PS_SetPsylinkGate>
   <PS_SetPsylinkGateTip>лапа</PS_SetPsylinkGateTip>
-  <PS_SetRevealAll>Turn all cards one at a time and re-pick</PS_SetRevealAll>
-  <PS_SetRevealAllTip>On: after turning the first card, the rest of the deal stays face-down and each card is turned BY HAND, one at a time (center it, then click). Any revealed card can be clicked to re-pick before embracing. Off (default): only the card you turn is revealed, and that path is committed.</PS_SetRevealAllTip>
+  <PS_SetRevealAll>Открывать карты по одной с возможностью перевыбора</PS_SetRevealAll>
+  <PS_SetRevealAllTip>Включено: после первой карты остальные остаются рубашкой вверх и открываются вручную по одной (выберите по центру и нажмите). Любую открытую карту можно выбрать до окончательного принятия. Выключено (по умолчанию): открывается только выбранная карта, а путь закрепляется сразу.</PS_SetRevealAllTip>
   <PS_SetSafeWindow>Безопасное окно медитации в день: {0} ч</PS_SetSafeWindow>
   <PS_SetSafeWindowOff>Безопасная медитация: целый день, медитация никогда не опасна</PS_SetSafeWindowOff>
   <PS_SetSafeWindowTip>Количество часов медитации в сутки без риска комы. Превышение этого лимита начинает накапливать риск психической комы.</PS_SetSafeWindowTip>
-  <PS_SetScaleBuff>Scale buff / boon strength</PS_SetScaleBuff>
-  <PS_SetScaleBuffTip>Scale the severity of hediffs a cast applies, both boons and debuffs, with level and synergies.</PS_SetScaleBuffTip>
-  <PS_SetScaleCost>Higher levels cost more (heat and psyfocus)</PS_SetScaleCost>
-  <PS_SetScaleCostTip>Each invested level also raises the skill's psyfocus cost and neural heat. Scales with the skill's OWN level only; synergies never add cost.</PS_SetScaleCostTip>
-  <PS_SetScaleDuration>Scale duration</PS_SetScaleDuration>
-  <PS_SetScaleDurationTip>Scale an ability's effect duration with its level and synergies, for longer buffs and debuffs.</PS_SetScaleDurationTip>
-  <PS_SetScalePower>Scale power / damage</PS_SetScalePower>
-  <PS_SetScalePowerTip>Scale an ability's power, such as melee and explosion damage, with its level and synergies.</PS_SetScalePowerTip>
-  <PS_SetScaleRadius>Scale radius</PS_SetScaleRadius>
-  <PS_SetScaleRadiusTip>Scale an ability's area-of-effect radius with its level and synergies.</PS_SetScaleRadiusTip>
-  <PS_SetScaleSens>Scale sensitivity-derived effects</PS_SetScaleSens>
-  <PS_SetScaleSensTip>Briefly raise the caster's psychic sensitivity during a cast so addon effects hardcoded as a multiple of sensitivity, such as Geomancer's, also scale.</PS_SetScaleSensTip>
-  <PS_SetShare>Share balance edits (export JSON)</PS_SetShare>
-  <PS_SetShareBody>Exported {0} edit(s), grouped per psycast tree, to:
+  <PS_SetScaleBuff>Масштабировать силу баффов и благословений</PS_SetScaleBuff>
+  <PS_SetScaleBuffTip>Масштабирует силу накладываемых состояний (как положительных, так и отрицательных) в зависимости от уровня способности и синергий.</PS_SetScaleBuffTip>
+  <PS_SetScaleCost>Высокие уровни стоят дороже (перегрев и фокус)</PS_SetScaleCost>
+  <PS_SetScaleCostTip>Каждый вложенный уровень увеличивает расход пси-фокуса и выделение нейроперегрева. Зависит ТОЛЬКО от собственного уровня способности; синергии стоимость не повышают.</PS_SetScaleCostTip>
+  <PS_SetScaleDuration>Масштабировать длительность</PS_SetScaleDuration>
+  <PS_SetScaleDurationTip>Масштабирует длительность эффектов от способностей с учётом их уровня и синергий для более продолжительного действия баффов и дебаффов.</PS_SetScaleDurationTip>
+  <PS_SetScalePower>Масштабировать силу и урон</PS_SetScalePower>
+  <PS_SetScalePowerTip>Масштабирует мощь эффектов (урон в ближнем бою, силу взрывов и т.д.) в зависимости от уровня способности и синергий.</PS_SetScalePowerTip>
+  <PS_SetScaleRadius>Масштабировать радиус действия</PS_SetScaleRadius>
+  <PS_SetScaleRadiusTip>Масштабирует радиус действия способностей по площади в зависимости от уровня и синергий.</PS_SetScaleRadiusTip>
+  <PS_SetScaleSens>Масштабировать эффекты от пси-чувствительности</PS_SetScaleSens>
+  <PS_SetScaleSensTip>Кратковременно повышает пси-чувствительность заклинателя во время каста, благодаря чему эффекты из аддонов, привязанные к чувствительности (например, Геоманта), также получают масштабирование.</PS_SetScaleSensTip>
+  <PS_SetShare>Поделиться правками баланса (экспорт в JSON)</PS_SetShare>
+  <PS_SetShareBody>Экспортировано {0} правок, сгруппированных по древам псионики, в:
 
 {1}
 
-The file path was copied to the clipboard. Send this file to the mod author with your balancing ideas - addon trees are included and named.</PS_SetShareBody>
-  <PS_SetShareN>Share {0} balance edit(s) (export JSON)</PS_SetShareN>
-  <PS_SetShareTitle>Balance edits exported</PS_SetShareTitle>
+Путь скопирован в буфер обмена. Отправьте этот файл автору мода со своими предложениями по балансу.</PS_SetShareBody>
+  <PS_SetShareN>Экспортировать {0} правок баланса (в JSON)</PS_SetShareN>
+  <PS_SetShareTitle>Правки баланса экспортированы</PS_SetShareTitle>
   <PS_SetSkillFx>Эффекты и звуки повышения уровня</PS_SetSkillFx>
   <PS_SetSkillFxTip>Воспроизводить визуальные вспышки и звуки при прокачке способностей.</PS_SetSkillFxTip>
   <PS_SetSpawnChance>лапа</PS_SetSpawnChance>
   <PS_SetSpawnChanceTip>лапа</PS_SetSpawnChanceTip>
-  <PS_SetSpecLevels>Psycaster levels per specialization point: {0}</PS_SetSpecLevels>
-  <PS_SetSpecLevelsTip>How many psycaster levels grant one point to spend on the constellation tree. Lower means points flow faster.</PS_SetSpecLevelsTip>
-  <PS_SetSpecXp>Casting XP per specialization point: {0}</PS_SetSpecXp>
-  <PS_SetSpecXpTip>Casting also earns specialization points. This is the XP needed per point; lower makes the Apotheosis tree reachable sooner.</PS_SetSpecXpTip>
-  <PS_SetSynDisabledNote>The synergy and empower system is currently disabled (Skills tab). These settings still edit the stored graph, but it has no effect in-game until you re-enable synergies.</PS_SetSynDisabledNote>
-  <PS_SetSynEditsActive>You have {0} personal edit(s) active.</PS_SetSynEditsActive>
-  <PS_SetSynFrozen>Synergies are frozen the first time they are generated and never change afterward, even if you add psycast addons later.</PS_SetSynFrozen>
-  <PS_SetSynRebuild>Rebuild synergy graph from installed psycasts</PS_SetSynRebuild>
-  <PS_SetSynRetune>To retune skill effects, synergies and empowers, enable dev mode and open the Balance editor from the psycast tab.</PS_SetSynRetune>
+  <PS_SetSpecLevels>Уровней псионика за очко специализации: {0}</PS_SetSpecLevels>
+  <PS_SetSpecLevelsTip>Сколько уровней псионика нужно получить для 1 очка специализации в древе созвездий. Чем ниже значение, тем быстрее открываются очки.</PS_SetSpecLevelsTip>
+  <PS_SetSpecXp>Опыт за касты на очко специализации: {0}</PS_SetSpecXp>
+  <PS_SetSpecXpTip>Применение способностей также приносит очки специализации. Это количество опыта кастов за одно очко; чем меньше, тем быстрее откроется Апофеоз.</PS_SetSpecXpTip>
+  <PS_SetSynDisabledNote>Система синергий и усилений сейчас отключена (вкладка Навыки). Эти настройки изменяют сохранённый граф, но не окажут эффекта в игре, пока синергии не будут включены снова.</PS_SetSynDisabledNote>
+  <PS_SetSynEditsActive>Активно ваших персональных правок: {0}.</PS_SetSynEditsActive>
+  <PS_SetSynFrozen>Синергии фиксируются при первом создании и больше никогда не меняются, даже если позже вы установите новые аддоны на псионику.</PS_SetSynFrozen>
+  <PS_SetSynRebuild>Перестроить граф синергий из установленных пси-способностей</PS_SetSynRebuild>
+  <PS_SetSynRetune>Чтобы перенастроить эффекты способностей, синергии и усиления, включите режим разработчика и откройте редактор баланса во вкладке псионики.</PS_SetSynRetune>
   <PS_SetSynergyPct>Бонус синергии за уровень способностей того же пути: +{0}%</PS_SetSynergyPct>
   <PS_SetSynergyPctTip>Прокачка других способностей того же пути усиливает эту способность через направленные синергии.</PS_SetSynergyPctTip>
   <PS_SetT3Throne>Ранг III всегда использует великий трон.</PS_SetT3Throne>
@@ -212,20 +212,20 @@ The file path was copied to the clipboard. Send this file to the mod author with
   <PS_SetTab_Pilgrimage>Паломничество</PS_SetTab_Pilgrimage>
   <PS_SetTab_Skills>Навыки</PS_SetTab_Skills>
   <PS_SetTab_Specializations>Специализации</PS_SetTab_Specializations>
-  <PS_SetTier2Points>Tier II bonus points: {0}</PS_SetTier2Points>
+  <PS_SetTier2Points>Бонусные очки за ранг II: {0}</PS_SetTier2Points>
   <PS_SetTier2PointsTip>лапа</PS_SetTier2PointsTip>
-  <PS_SetTier3Points>Tier III bonus points: {0}</PS_SetTier3Points>
+  <PS_SetTier3Points>Бонусные очки за ранг III: {0}</PS_SetTier3Points>
   <PS_SetTier3PointsTip>лапа</PS_SetTier3PointsTip>
-  <PS_SetTransBase>First Transcendent tier after: {0} meditation hours</PS_SetTransBase>
-  <PS_SetTransBaseTip>Cumulative post-Illuminated meditation hours to reach Tier IV. Higher makes the endless climb slower.</PS_SetTransBaseTip>
-  <PS_SetTransCurve>Transcendent breakthrough curve: x{0} per tier</PS_SetTransCurve>
-  <PS_SetTransCurveTip>Above Illuminated, each Transcendent tier multiplies a psycaster's hourly breakthrough chance by +this, so deep Transcendents earn free levels faster as leveling slows. The chance stays hard-capped at 60% - it never becomes guaranteed.</PS_SetTransCurveTip>
+  <PS_SetTransBase>Первый Трансцендентный ранг после: {0} ч медитации</PS_SetTransBase>
+  <PS_SetTransBaseTip>Суммарное время медитации после ранга Озарённого для достижения IV ранга. Чем выше значение, тем медленнее прогресс.</PS_SetTransBaseTip>
+  <PS_SetTransCurve>Кривая прорывов трансцендентности: x{0} за ранг</PS_SetTransCurve>
+  <PS_SetTransCurveTip>Выше ранга Озарённого каждый ранг умножает ежечасный шанс прорыва псионика на этот коэффициент, ускоряя получение уровней. Шанс ограничен 60% и никогда не становится гарантированным.</PS_SetTransCurveTip>
   <PS_SetTransGrowth>рост</PS_SetTransGrowth>
-  <PS_SetTransGrowthTip>Each Transcendent tier costs this multiple of the previous tier's meditation (geometric diminishing returns). At x1.6, Tier V costs 1.6x Tier IV, Tier VI 2.56x, and so on.</PS_SetTransGrowthTip>
-  <PS_SetTranscend>Enable Transcendent tiers</PS_SetTranscend>
-  <PS_SetTranscendTip>On: an Illuminated (Tier III) psycaster who keeps meditating climbs into open-ended Transcendent tiers (IV, V, ...). Each tier grants bonus specialization points and an animated psycast-card pick for a free path. Off: Illuminated is the ceiling.</PS_SetTranscendTip>
-  <PS_SetWaveInterval>Ancient Psycaster wave interval: every {0}h</PS_SetWaveInterval>
+  <PS_SetTransGrowthTip>Каждый последующий ранг требует медитации во столько раз больше предыдущего (геометрическая прогрессия). При x1.6 ранг V требует в 1.6 раз больше ранга IV, ранг VI — в 2.56 раз и т.д.</PS_SetTransGrowthTip>
+  <PS_SetTranscend>Включить Трансцендентные ранги</PS_SetTranscend>
+  <PS_SetTranscendTip>Включено: Озарённый (ранг III) псионик при продолжении медитации переходит в бесконечные Трансцендентные ранги (IV, V, ...). Каждый ранг приносит бонусные очки специализации и анимированный выбор бесплатной карты пути. Выключено: Озарённый — предел развития.</PS_SetTranscendTip>
+  <PS_SetWaveInterval>Интервал волн древних псиоников: каждые {0} ч</PS_SetWaveInterval>
   <PS_SetWaveIntervalTip>атака</PS_SetWaveIntervalTip>
-  <PS_SetWaveScale>Wave threat scale: {0}x</PS_SetWaveScale>
-  <PS_SetWaveScaleTip>Multiplier on each wave's combat strength. Higher makes the waves deadlier.</PS_SetWaveScaleTip>
+  <PS_SetWaveScale>Масштаб угрозы волны: {0}x</PS_SetWaveScale>
+  <PS_SetWaveScaleTip>Множитель боевой мощи каждой волны. Высокие значения делают атаки смертоноснее.</PS_SetWaveScaleTip>
 </LanguageData>
