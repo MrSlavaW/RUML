@@ -50,6 +50,12 @@ def validate():
 
     stage_numeric_pattern = re.compile(r"^[^.]+\.stages\.[0-9]+\.(label|description|overrideLabel)$")
 
+    ALLOWED_EXTENSIONS = {".xml", ".json", ".txt", ".md"}
+    DANGEROUS_EXTENSIONS = {
+        ".dll", ".exe", ".so", ".dylib", ".bat", ".cmd", ".ps1", ".vbs",
+        ".sh", ".jar", ".msi", ".com", ".scr", ".pif", ".cpl", ".py", ".pyc"
+    }
+
     for mod_dir in sorted(TRANSLATIONS_DIR.iterdir(), key=lambda d: d.name.lower()):
         if not mod_dir.is_dir() or mod_dir.name.startswith("."):
             continue
@@ -71,11 +77,40 @@ def validate():
 
                 for root, dirs, files in os.walk(author_dir):
                     for f in files:
-                        if not f.endswith(".xml"):
+                        if f.startswith("."):
                             continue
-                        total_files += 1
                         file_path = Path(root) / f
                         rel_path = file_path.relative_to(author_dir)
+                        suffix = file_path.suffix.lower()
+
+                        # Security Check 1: Path Traversal
+                        if ".." in rel_path.parts:
+                            critical_errors.append(f"[{mod_name}] SECURITY VIOLATION: Path traversal detected in filename: {rel_path}")
+                            continue
+
+                        # Security Check 2: Disallow executables and unauthorized file types
+                        if suffix in DANGEROUS_EXTENSIONS:
+                            critical_errors.append(f"[{mod_name}] SECURITY VIOLATION: Dangerous executable/script file detected: {rel_path}")
+                            continue
+                        if suffix not in ALLOWED_EXTENSIONS:
+                            critical_errors.append(f"[{mod_name}] SECURITY VIOLATION: Unauthorized file extension '{suffix}' in {rel_path}. Only XML/JSON/TXT are allowed.")
+                            continue
+
+                        # Skip non-XML files for DefInjection XML analysis
+                        if suffix != ".xml":
+                            continue
+
+                        total_files += 1
+
+                        # Security Check 3: XXE and DTD Injection check
+                        try:
+                            raw_xml = file_path.read_text(encoding="utf-8", errors="replace")
+                            if "<!entity" in raw_xml.lower() or "<!doctype" in raw_xml.lower():
+                                critical_errors.append(f"[{mod_name}] SECURITY VIOLATION: Prohibited DTD / XML entity declaration in {rel_path}")
+                                continue
+                        except Exception as ex:
+                            critical_errors.append(f"[{mod_name}] File read error in {rel_path}: {ex}")
+                            continue
 
                         # Determine category and DefType scope
                         parts = rel_path.parts

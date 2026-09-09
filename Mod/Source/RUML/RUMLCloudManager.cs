@@ -273,14 +273,36 @@ namespace RUML
                     }
                     Directory.CreateDirectory(targetDir);
 
-                    // Robust entry-by-entry extraction ensuring all parent directories exist
+                    // Robust entry-by-entry extraction with Zip Slip and binary payload protection
+                    string canonicalTarget = Path.GetFullPath(targetDir);
+                    if (!canonicalTarget.EndsWith(Path.DirectorySeparatorChar.ToString()))
+                    {
+                        canonicalTarget += Path.DirectorySeparatorChar;
+                    }
+
                     using (ZipArchive archive = ZipFile.OpenRead(tempZip))
                     {
                         for (int e = 0; e < archive.Entries.Count; e++)
                         {
                             ZipArchiveEntry entry = archive.Entries[e];
                             string entryRelPath = entry.FullName.Replace('/', Path.DirectorySeparatorChar).Replace('\\', Path.DirectorySeparatorChar);
-                            string fullDestPath = Path.Combine(targetDir, entryRelPath);
+                            string fullDestPath = Path.GetFullPath(Path.Combine(canonicalTarget, entryRelPath));
+
+                            // Security Check 1: Path Traversal (Zip Slip) Protection
+                            if (!fullDestPath.StartsWith(canonicalTarget, StringComparison.OrdinalIgnoreCase))
+                            {
+                                Log.Error("[RUML Security] Blocked Zip Slip attempt: entry '" + entry.FullName + "' targets outside of target folder!");
+                                continue;
+                            }
+
+                            // Security Check 2: Disallow executable and binary files in translation packs
+                            string ext = Path.GetExtension(fullDestPath).ToLowerInvariant();
+                            if (ext == ".dll" || ext == ".exe" || ext == ".bat" || ext == ".cmd" || ext == ".ps1" ||
+                                ext == ".vbs" || ext == ".so" || ext == ".dylib" || ext == ".msi" || ext == ".com" || ext == ".scr")
+                            {
+                                Log.Error("[RUML Security] Blocked dangerous file in translation pack: '" + entry.FullName + "'");
+                                continue;
+                            }
 
                             if (string.IsNullOrEmpty(entry.Name))
                             {
@@ -567,13 +589,36 @@ namespace RUML
                         }
                         Directory.CreateDirectory(targetDir);
 
+                        // Robust entry-by-entry extraction with Zip Slip and binary payload protection
+                        string canonicalTarget = Path.GetFullPath(targetDir);
+                        if (!canonicalTarget.EndsWith(Path.DirectorySeparatorChar.ToString()))
+                        {
+                            canonicalTarget += Path.DirectorySeparatorChar;
+                        }
+
                         using (ZipArchive archive = ZipFile.OpenRead(tempZip))
                         {
                             for (int e = 0; e < archive.Entries.Count; e++)
                             {
                                 ZipArchiveEntry entry = archive.Entries[e];
                                 string entryRelPath = entry.FullName.Replace('/', Path.DirectorySeparatorChar).Replace('\\', Path.DirectorySeparatorChar);
-                                string fullDestPath = Path.Combine(targetDir, entryRelPath);
+                                string fullDestPath = Path.GetFullPath(Path.Combine(canonicalTarget, entryRelPath));
+
+                                // Security Check 1: Path Traversal (Zip Slip) Protection
+                                if (!fullDestPath.StartsWith(canonicalTarget, StringComparison.OrdinalIgnoreCase))
+                                {
+                                    Log.Error("[RUML Security] Blocked Zip Slip attempt: entry '" + entry.FullName + "' targets outside of target folder!");
+                                    continue;
+                                }
+
+                                // Security Check 2: Disallow executable and binary files in translation packs
+                                string ext = Path.GetExtension(fullDestPath).ToLowerInvariant();
+                                if (ext == ".dll" || ext == ".exe" || ext == ".bat" || ext == ".cmd" || ext == ".ps1" ||
+                                    ext == ".vbs" || ext == ".so" || ext == ".dylib" || ext == ".msi" || ext == ".com" || ext == ".scr")
+                                {
+                                    Log.Error("[RUML Security] Blocked dangerous file in translation pack: '" + entry.FullName + "'");
+                                    continue;
+                                }
 
                                 if (string.IsNullOrEmpty(entry.Name))
                                 {

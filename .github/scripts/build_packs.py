@@ -104,6 +104,10 @@ def build():
                 # Deterministic ZIP creation (fixed timestamp and normalized LF for identical MD5 on Windows and Linux)
                 FIXED_ZIP_TIME = (2026, 1, 1, 0, 0, 0)
                 TEXT_EXTS = {".xml", ".json", ".txt", ".md"}
+                DANGEROUS_EXTS = {
+                    ".dll", ".exe", ".so", ".dylib", ".bat", ".cmd", ".ps1", ".vbs",
+                    ".sh", ".jar", ".msi", ".com", ".scr", ".pif", ".cpl", ".py", ".pyc"
+                }
                 with zipfile.ZipFile(archive_path, "w", zipfile.ZIP_DEFLATED) as zf:
                     for root, dirs, files in os.walk(author_dir):
                         for f in sorted(files):
@@ -111,6 +115,11 @@ def build():
                                 continue
                             file_path = Path(root) / f
                             rel_path = file_path.relative_to(author_dir)
+                            suffix = file_path.suffix.lower()
+
+                            # Security: Block dangerous or non-whitelisted files from being packaged
+                            if suffix in DANGEROUS_EXTS or suffix not in TEXT_EXTS:
+                                raise ValueError(f"Security Violation: Refusing to package unauthorized file '{rel_path}' into {archive_filename}")
 
                             if f == "info.json":
                                 arc_name = "info.json"
@@ -118,6 +127,10 @@ def build():
                                 arc_name = str(rel_path).replace("\\", "/")
                             else:
                                 arc_name = f"Languages/{lang_name}/{str(rel_path).replace(chr(92), '/')}"
+
+                            # Security: Block path traversal in zip entry name
+                            if ".." in arc_name or arc_name.startswith("/") or arc_name.startswith("\\"):
+                                raise ValueError(f"Security Violation: Path traversal in entry '{arc_name}'")
 
                             zinfo = zipfile.ZipInfo(arc_name, date_time=FIXED_ZIP_TIME)
                             zinfo.compress_type = zipfile.ZIP_DEFLATED
