@@ -136,34 +136,46 @@ namespace RUML
         public static int ApplyDirectInjections(LoadedLanguage lang)
         {
             int totalInjected = 0;
-            try
+
+            // 1. Process all in-memory DefInjectionPackages in active language
+            if (lang != null && lang.defInjections != null)
             {
-                // 1. Process all in-memory DefInjectionPackages in active language
-                if (lang != null && lang.defInjections != null)
+                for (int pIdx = 0; pIdx < lang.defInjections.Count; pIdx++)
                 {
-                    for (int pIdx = 0; pIdx < lang.defInjections.Count; pIdx++)
+                    try
                     {
                         DefInjectionPackage pkg = lang.defInjections[pIdx];
                         if (pkg == null || pkg.defType == null || pkg.injections == null) continue;
 
-                        foreach (var kv in pkg.injections)
+                        // Snapshot entries to avoid InvalidOperationException if collections are modified
+                        List<KeyValuePair<string, DefInjectionPackage.DefInjection>> entries =
+                            new List<KeyValuePair<string, DefInjectionPackage.DefInjection>>(pkg.injections);
+
+                        for (int e = 0; e < entries.Count; e++)
                         {
-                            string key = kv.Key;
-                            DefInjectionPackage.DefInjection inj = kv.Value;
+                            string key = entries[e].Key;
+                            DefInjectionPackage.DefInjection inj = entries[e].Value;
                             if (string.IsNullOrEmpty(key) || inj == null || inj.isPlaceholder || string.IsNullOrEmpty(inj.injection) || string.Equals(inj.injection, "TODO", StringComparison.OrdinalIgnoreCase))
                             {
                                 continue;
                             }
 
-                            if (ApplySingleInjection(pkg.defType, key, inj.injection, lang))
+                            if (ApplySingleInjection(pkg.defType, key, inj.injection, lang, false))
                             {
                                 totalInjected++;
                             }
                         }
                     }
+                    catch (Exception pex)
+                    {
+                        Log.Warning("[RUML] Error processing defInjection package: " + pex);
+                    }
                 }
+            }
 
-                // 2. Scan active external RUML translation XML files on disk as an authoritative fallback
+            // 2. Scan active external RUML translation XML files on disk as an authoritative fallback
+            try
+            {
                 string extDir = RUMLFolderManager.GetExternalTranslationsDir();
                 if (Directory.Exists(extDir))
                 {
@@ -211,7 +223,7 @@ namespace RUML
                                         if (string.IsNullOrEmpty(key) || string.IsNullOrEmpty(val) || val.Trim() == "TODO") continue;
 
                                         val = val.Trim();
-                                        if (ApplySingleInjection(defType, key, val, lang))
+                                        if (ApplySingleInjection(defType, key, val, lang, true))
                                         {
                                             totalInjected++;
                                         }
@@ -226,9 +238,9 @@ namespace RUML
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception dex)
             {
-                Log.Warning("[RUML] Error in ApplyDirectInjections: " + ex);
+                Log.Warning("[RUML] Error scanning external translation files: " + dex);
             }
 
             if (totalInjected > 0)
@@ -242,13 +254,32 @@ namespace RUML
         public static Type ResolveDefType(string typeName)
         {
             if (string.IsNullOrEmpty(typeName)) return null;
-            Type t = GenTypes.GetTypeInAnyAssembly(typeName);
-            if (t == null) t = GenTypes.GetTypeInAnyAssembly("Verse." + typeName);
-            if (t == null) t = GenTypes.GetTypeInAnyAssembly("RimWorld." + typeName);
-            return t;
+
+            try
+            {
+                Type t = typeof(Def).Assembly.GetType("Verse." + typeName);
+                if (t != null && typeof(Def).IsAssignableFrom(t)) return t;
+
+                t = typeof(Def).Assembly.GetType("RimWorld." + typeName);
+                if (t != null && typeof(Def).IsAssignableFrom(t)) return t;
+
+                t = GenTypes.GetTypeInAnyAssembly(typeName);
+                if (t != null && typeof(Def).IsAssignableFrom(t)) return t;
+
+                foreach (Type sub in typeof(Def).AllSubclassesNonAbstract())
+                {
+                    if (string.Equals(sub.Name, typeName, StringComparison.OrdinalIgnoreCase))
+                    {
+                        return sub;
+                    }
+                }
+            }
+            catch { }
+
+            return null;
         }
 
-        public static bool ApplySingleInjection(Type defType, string key, string val, LoadedLanguage lang)
+        public static bool ApplySingleInjection(Type defType, string key, string val, LoadedLanguage lang, bool registerInPackage)
         {
             if (defType == null || string.IsNullOrEmpty(key) || string.IsNullOrEmpty(val)) return false;
 
@@ -325,7 +356,10 @@ namespace RUML
                                 }
                             }
 
-                            EnsurePackageRegistration(lang, defType, defName, matchedIndex, matchedStage.untranslatedLabel ?? matchedStage.label, stageField, val);
+                            if (registerInPackage)
+                            {
+                                EnsurePackageRegistration(lang, defType, defName, matchedIndex, matchedStage.untranslatedLabel ?? matchedStage.label, stageField, val);
+                            }
                         }
                     }
 
@@ -391,7 +425,10 @@ namespace RUML
                                 }
                             }
 
-                            EnsurePackageRegistration(lang, defType, defName, matchedIndex, matchedStage.untranslatedLabel ?? matchedStage.label, stageField, val);
+                            if (registerInPackage)
+                            {
+                                EnsurePackageRegistration(lang, defType, defName, matchedIndex, matchedStage.untranslatedLabel ?? matchedStage.label, stageField, val);
+                            }
                         }
                     }
                 }
@@ -418,7 +455,10 @@ namespace RUML
                     applied = SetNestedValue(targetDef, fieldPath.Split('.'), 0, val);
                 }
 
-                EnsurePackageRegistrationDirect(lang, defType, key, val);
+                if (registerInPackage)
+                {
+                    EnsurePackageRegistrationDirect(lang, defType, key, val);
+                }
             }
 
             return applied;
