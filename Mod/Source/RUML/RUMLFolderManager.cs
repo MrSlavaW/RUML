@@ -17,6 +17,7 @@ namespace RUML
     public static class RUMLFolderManager
     {
         private static List<string> originalFolders = null;
+        public static bool hasPendingChanges = false;
 
         public static string GetExternalTranslationsDir()
         {
@@ -295,8 +296,16 @@ namespace RUML
                 }
 
                 ApplyFilter(content, settings);
-                ReloadLanguage();
-                Messages.Message("RUML: Перевод для " + modFolder + " (" + author + ") успешно удалён!", MessageTypeDefOf.PositiveEvent, false);
+                if (settings != null && settings.manualApplyMode)
+                {
+                    hasPendingChanges = true;
+                    Messages.Message("RUML: Перевод для " + modFolder + " (" + author + ") удалён с диска. Нажмите 'Применить настройки' для обновления в игре.", MessageTypeDefOf.NeutralEvent, false);
+                }
+                else
+                {
+                    ReloadLanguage();
+                    Messages.Message("RUML: Перевод для " + modFolder + " (" + author + ") успешно удалён!", MessageTypeDefOf.PositiveEvent, false);
+                }
             }
             catch (Exception ex)
             {
@@ -321,8 +330,16 @@ namespace RUML
 
                 settings.SetModEnabled(modFolder, false);
                 ApplyFilter(content, settings);
-                ReloadLanguage();
-                Messages.Message("RUML: Все переводы для " + modFolder + " успешно удалены!", MessageTypeDefOf.PositiveEvent, false);
+                if (settings != null && settings.manualApplyMode)
+                {
+                    hasPendingChanges = true;
+                    Messages.Message("RUML: Все переводы для " + modFolder + " удалены с диска. Нажмите 'Применить настройки' для обновления в игре.", MessageTypeDefOf.NeutralEvent, false);
+                }
+                else
+                {
+                    ReloadLanguage();
+                    Messages.Message("RUML: Все переводы для " + modFolder + " успешно удалены!", MessageTypeDefOf.PositiveEvent, false);
+                }
             }
             catch (Exception ex)
             {
@@ -390,6 +407,7 @@ namespace RUML
                     // 5. Clear label cache for UI elements, items, and pawns
                     GenLabel.ClearCache();
 
+                    hasPendingChanges = false;
                     Messages.Message("RUML: Переводы успешно применены на лету!", MessageTypeDefOf.PositiveEvent, false);
                 }
             }

@@ -233,13 +233,27 @@ namespace RUML
             {
                 foreach (InstalledModItem m in allMods) Settings.SetModEnabled(m.ModFolder, true);
                 RUMLFolderManager.ApplyFilter(Content, Settings);
-                RUMLFolderManager.ReloadLanguage();
+                if (Settings.manualApplyMode)
+                {
+                    RUMLFolderManager.hasPendingChanges = true;
+                }
+                else
+                {
+                    RUMLFolderManager.ReloadLanguage();
+                }
             }
             if (Widgets.ButtonText(new Rect(searchRect.xMax + btnW + 20f, topRect.y, btnW, 30f), "Отключить все"))
             {
                 foreach (InstalledModItem m in allMods) Settings.SetModEnabled(m.ModFolder, false);
                 RUMLFolderManager.ApplyFilter(Content, Settings);
-                RUMLFolderManager.ReloadLanguage();
+                if (Settings.manualApplyMode)
+                {
+                    RUMLFolderManager.hasPendingChanges = true;
+                }
+                else
+                {
+                    RUMLFolderManager.ReloadLanguage();
+                }
             }
 
             // Row 2: Check Updates, Update All Active, Open AppData
@@ -272,11 +286,13 @@ namespace RUML
             Rect statusR = new Rect(inRect.x, inRect.y + 70f, inRect.width, 22f);
             string sText = RUMLCloudManager.IsBusy
                 ? "<color=yellow>Загрузка: " + RUMLCloudManager.StatusMessage + " (" + RUMLCloudManager.DownloadPercent.ToString("F0") + "%)</color>"
-                : "<color=#80D0FF>" + RUMLCloudManager.StatusMessage + "</color>";
+                : (RUMLFolderManager.hasPendingChanges
+                    ? "<color=#FFD700>• Есть неприменённые изменения! Нажмите 'Применить настройки' внизу.</color>"
+                    : "<color=#80D0FF>" + RUMLCloudManager.StatusMessage + "</color>");
             Widgets.Label(statusR, sText);
 
             // Scrollable List
-            Rect listRect = new Rect(inRect.x, inRect.y + 96f, inRect.width, inRect.height - 144f);
+            Rect listRect = new Rect(inRect.x, inRect.y + 96f, inRect.width, inRect.height - 172f);
             List<InstalledModItem> filtered = new List<InstalledModItem>();
             foreach (InstalledModItem m in allMods)
             {
@@ -329,7 +345,14 @@ namespace RUML
                 {
                     Settings.SetModEnabled(modFolder, newCheck);
                     RUMLFolderManager.ApplyFilter(Content, Settings);
-                    RUMLFolderManager.ReloadLanguage();
+                    if (Settings.manualApplyMode)
+                    {
+                        RUMLFolderManager.hasPendingChanges = true;
+                    }
+                    else
+                    {
+                        RUMLFolderManager.ReloadLanguage();
+                    }
                 }
 
                 // Middle: Author Selector Button or Single Author Badge
@@ -348,7 +371,14 @@ namespace RUML
                             {
                                 Settings.SetSelectedAuthor(modFolder, aName);
                                 RUMLFolderManager.ApplyFilter(Content, Settings);
-                                RUMLFolderManager.ReloadLanguage();
+                                if (Settings.manualApplyMode)
+                                {
+                                    RUMLFolderManager.hasPendingChanges = true;
+                                }
+                                else
+                                {
+                                    RUMLFolderManager.ReloadLanguage();
+                                }
                             }));
                         }
                         Find.WindowStack.Add(new FloatMenu(authOpts));
@@ -390,13 +420,26 @@ namespace RUML
 
             Widgets.EndScrollView();
 
-            // Bottom Apply Button
-            Rect bottomRect = new Rect(inRect.x, inRect.yMax - 40f, inRect.width, 36f);
-            if (Widgets.ButtonText(bottomRect, "Применить настройки и перезагрузить переводы в памяти игры"))
+            // Bottom Controls: Mode Toggle + Apply Button
+            Rect modeRect = new Rect(inRect.x, inRect.yMax - 68f, inRect.width, 26f);
+            Widgets.CheckboxLabeled(modeRect, "Режим «Применить по кнопке» (мгновенные действия без задержек и зависаний)", ref Settings.manualApplyMode);
+            TooltipHandler.TipRegion(modeRect, "В этом режиме скачивание, включение, отключение и удаление переводов выполняются мгновенно без повторной перезагрузки всей базы данных игры. Чтобы применить изменения в игре, нажмите зеленую кнопку ниже.");
+
+            Rect bottomRect = new Rect(inRect.x, inRect.yMax - 38f, inRect.width, 36f);
+            Color prevApplyCol = GUI.color;
+            if (RUMLFolderManager.hasPendingChanges)
+            {
+                GUI.color = new Color(0.2f, 0.95f, 0.45f, 1f);
+            }
+            string btnText = RUMLFolderManager.hasPendingChanges
+                ? "★ Применить настройки и перезагрузить переводы в памяти игры (есть изменения!)"
+                : "Применить настройки и перезагрузить переводы в памяти игры";
+            if (Widgets.ButtonText(bottomRect, btnText))
             {
                 RUMLFolderManager.ApplyFilter(Content, Settings);
                 RUMLFolderManager.ReloadLanguage();
             }
+            GUI.color = prevApplyCol;
         }
 
         // =========================================================================
@@ -840,7 +883,9 @@ namespace RUML
             Rect statusR = new Rect(inRect.x, inRect.y + 34f, inRect.width, 24f);
             string sText = RUMLCloudManager.IsBusy
                 ? "<color=yellow>Загрузка: " + RUMLCloudManager.StatusMessage + " (" + RUMLCloudManager.DownloadPercent.ToString("F0") + "%)</color>"
-                : "<color=#80D0FF>" + RUMLCloudManager.StatusMessage + "</color>";
+                : (RUMLFolderManager.hasPendingChanges
+                    ? "<color=#FFD700>• Есть неприменённые изменения! Нажмите 'Применить настройки' внизу.</color>"
+                    : "<color=#80D0FF>" + RUMLCloudManager.StatusMessage + "</color>");
             Widgets.Label(statusR, sText);
 
             // Row 3: Search filter & Author dropdown
@@ -869,7 +914,7 @@ namespace RUML
             }
 
             // List of Grouped Cloud Translations
-            Rect listRect = new Rect(inRect.x, inRect.y + 96f, inRect.width, inRect.height - 96f);
+            Rect listRect = new Rect(inRect.x, inRect.y + 96f, inRect.width, inRect.height - 172f);
             List<CloudModGroup> groups = RUMLCloudManager.GetGroupedItems(cloudAuthorFilter, cloudSearchFilter);
 
             Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, Math.Max(groups.Count * 84f, listRect.height));
@@ -974,7 +1019,8 @@ namespace RUML
                     Rect dlR = new Rect(card.width - 210f, card.y + 22f, 205f, 34f);
                     Color prevC = GUI.color;
                     GUI.color = new Color(0.2f, 0.9f, 0.4f, 1f);
-                    if (Widgets.ButtonText(dlR, "Скачать и применить"))
+                    string dlLabel = Settings.manualApplyMode ? "Скачать" : "Скачать и применить";
+                    if (Widgets.ButtonText(dlR, dlLabel))
                     {
                         RUMLCloudManager.DownloadAndInstallAsync(item, Content, Settings);
                     }
@@ -985,6 +1031,27 @@ namespace RUML
             }
 
             Widgets.EndScrollView();
+
+            // Bottom Controls: Mode Toggle + Apply Button
+            Rect modeRect = new Rect(inRect.x, inRect.yMax - 68f, inRect.width, 26f);
+            Widgets.CheckboxLabeled(modeRect, "Режим «Применить по кнопке» (мгновенные действия без задержек и зависаний)", ref Settings.manualApplyMode);
+            TooltipHandler.TipRegion(modeRect, "В этом режиме скачивание, включение, отключение и удаление переводов выполняются мгновенно без повторной перезагрузки всей базы данных игры. Чтобы применить изменения в игре, нажмите зеленую кнопку ниже.");
+
+            Rect bottomRect = new Rect(inRect.x, inRect.yMax - 38f, inRect.width, 36f);
+            Color prevApplyCol = GUI.color;
+            if (RUMLFolderManager.hasPendingChanges)
+            {
+                GUI.color = new Color(0.2f, 0.95f, 0.45f, 1f);
+            }
+            string btnText = RUMLFolderManager.hasPendingChanges
+                ? "★ Применить настройки и перезагрузить переводы в памяти игры (есть изменения!)"
+                : "Применить настройки и перезагрузить переводы в памяти игры";
+            if (Widgets.ButtonText(bottomRect, btnText))
+            {
+                RUMLFolderManager.ApplyFilter(Content, Settings);
+                RUMLFolderManager.ReloadLanguage();
+            }
+            GUI.color = prevApplyCol;
         }
     }
 }

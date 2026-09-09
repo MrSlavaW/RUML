@@ -344,13 +344,25 @@ namespace RUML
                     settings.SetModEnabled(item.ModFolder, true);
                     settings.SetSelectedAuthor(item.ModFolder, item.AuthorFolder);
 
-                    LongEventHandler.ExecuteWhenFinished(delegate()
+                    if (settings != null && settings.manualApplyMode)
                     {
-                        RUMLFolderManager.ApplyFilter(content, settings);
-                        RUMLFolderManager.ReloadLanguage();
-                    });
-
-                    StatusMessage = "Перевод " + item.ModName + " от " + item.Author + " успешно сохранён в AppData и активирован!";
+                        LongEventHandler.ExecuteWhenFinished(delegate()
+                        {
+                            RUMLFolderManager.ApplyFilter(content, settings);
+                            RUMLFolderManager.hasPendingChanges = true;
+                            Messages.Message("RUML: Перевод " + item.ModName + " скачан и распакован. Нажмите 'Применить настройки' для активации в игре.", MessageTypeDefOf.NeutralEvent, false);
+                        });
+                        StatusMessage = "Перевод " + item.ModName + " скачан. Нажмите 'Применить настройки' внизу.";
+                    }
+                    else
+                    {
+                        LongEventHandler.ExecuteWhenFinished(delegate()
+                        {
+                            RUMLFolderManager.ApplyFilter(content, settings);
+                            RUMLFolderManager.ReloadLanguage();
+                        });
+                        StatusMessage = "Перевод " + item.ModName + " от " + item.Author + " успешно сохранён в AppData и активирован!";
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -597,9 +609,18 @@ namespace RUML
                 LongEventHandler.ExecuteWhenFinished(delegate()
                 {
                     RUMLFolderManager.ApplyFilter(content, settings);
-                    RUMLFolderManager.ReloadLanguage();
-                    RefreshLocalState(content);
-                    Messages.Message("RUML: Успешно обновлено " + successCount + " активных переводов!", MessageTypeDefOf.PositiveEvent, false);
+                    if (settings != null && settings.manualApplyMode)
+                    {
+                        RUMLFolderManager.hasPendingChanges = true;
+                        RefreshLocalState(content);
+                        Messages.Message("RUML: Обновлено " + successCount + " активных переводов. Нажмите 'Применить настройки' для активации в игре.", MessageTypeDefOf.PositiveEvent, false);
+                    }
+                    else
+                    {
+                        RUMLFolderManager.ReloadLanguage();
+                        RefreshLocalState(content);
+                        Messages.Message("RUML: Успешно обновлено " + successCount + " активных переводов!", MessageTypeDefOf.PositiveEvent, false);
+                    }
                     if (onComplete != null)
                     {
                         onComplete();

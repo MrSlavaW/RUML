@@ -19,6 +19,9 @@ namespace RUML
         // GitHub Cloud Translations configuration
         public string cloudManifestUrl = "https://raw.githubusercontent.com/MrSlavaW/RUML/main/manifest.json";
 
+        // Performance & Workflow: Apply translations on button click to avoid UI freezes
+        public bool manualApplyMode = true;
+
         public string GetSelectedAuthor(string modFolder)
         {
             if (selectedAuthors == null)
@@ -150,6 +153,7 @@ namespace RUML
 
             Scribe_Values.Look(ref auditInitialized, "auditInitialized", false);
             Scribe_Values.Look(ref cloudManifestUrl, "cloudManifestUrl", "https://raw.githubusercontent.com/MrSlavaW/RUML/main/manifest.json");
+            Scribe_Values.Look(ref manualApplyMode, "manualApplyMode", true);
         }
     }
 }
