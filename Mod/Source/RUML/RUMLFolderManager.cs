@@ -157,7 +157,8 @@ namespace RUML
                 string rel = norm.Substring(idx + 6);
                 int slash = rel.IndexOf('/');
                 string name = slash > 0 ? rel.Substring(0, slash) : rel;
-                if (name.Equals("RUML_RimworldUniversalModsLocalization", StringComparison.OrdinalIgnoreCase))
+                if (name.Equals("RUML_RimworldUniversalModsLocalization", StringComparison.OrdinalIgnoreCase) ||
+                    name.Equals("RUML", StringComparison.OrdinalIgnoreCase))
                 {
                     return null;
                 }
