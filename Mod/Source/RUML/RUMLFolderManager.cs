@@ -151,6 +151,36 @@ namespace RUML
                     {
                         string aDir = authorDirs[a];
                         string aName = Path.GetFileName(aDir);
+                        string langDir = Path.Combine(aDir, "Languages");
+
+                        // Auto-heal flat folder structure (e.g. if Keyed/DefInjected were placed directly inside author dir)
+                        if (!Directory.Exists(langDir))
+                        {
+                            if (Directory.Exists(Path.Combine(aDir, "Keyed")) || Directory.Exists(Path.Combine(aDir, "DefInjected")))
+                            {
+                                try
+                                {
+                                    string ruDir = Path.Combine(langDir, "Russian");
+                                    Directory.CreateDirectory(ruDir);
+                                    string[] subDirsToWrap = new string[] { "Keyed", "DefInjected", "Strings" };
+                                    for (int w = 0; w < subDirsToWrap.Length; w++)
+                                    {
+                                        string src = Path.Combine(aDir, subDirsToWrap[w]);
+                                        if (Directory.Exists(src))
+                                        {
+                                            string dst = Path.Combine(ruDir, subDirsToWrap[w]);
+                                            if (Directory.Exists(dst)) Directory.Delete(dst, true);
+                                            Directory.Move(src, dst);
+                                        }
+                                    }
+                                }
+                                catch (Exception wrapEx)
+                                {
+                                    Log.Warning("[RUML] Failed to auto-wrap flat author folder " + aDir + ": " + wrapEx);
+                                }
+                            }
+                        }
+
                         if (Directory.Exists(Path.Combine(aDir, "Languages")))
                         {
                             item.Authors.Add(aName);
