@@ -30,6 +30,7 @@ namespace RUML
         private int auditResultMode = 0; // 0: All, 1: With Missing, 2: 100% Translated
         private string expandedAuditMod = "";
         private int expandedAuditCategoryFilter = 0; // 0: All, 1: Defs, 2: Keyed / Settings
+        private bool autoCheckUpdatesTriggered = false;
 
         public static readonly List<string> KnownMods = new List<string>
         {
@@ -115,7 +116,23 @@ namespace RUML
                    l.Equals("ludeon.rimworld.royalty") ||
                    l.Equals("ludeon.rimworld.ideology") ||
                    l.Equals("ludeon.rimworld.biotech") ||
-                   l.Equals("ludeon.rimworld.anomaly");
+                   l.Equals("ludeon.rimworld.anomaly") ||
+                   l.Equals("ludeon.rimworld.odyssey");
+        }
+
+        public static string GetModDisplayName(ModContentPack mod)
+        {
+            if (mod == null) return "";
+            string pid = mod.PackageIdPlayerFacing ?? "";
+            string l = pid.ToLower();
+            if (l.Equals("ludeon.rimworld")) return "Core";
+            if (l.Equals("ludeon.rimworld.royalty")) return "Royalty";
+            if (l.Equals("ludeon.rimworld.ideology")) return "Ideology";
+            if (l.Equals("ludeon.rimworld.biotech")) return "Biotech";
+            if (l.Equals("ludeon.rimworld.anomaly")) return "Anomaly";
+            if (l.Equals("ludeon.rimworld.odyssey")) return "Odyssey";
+            if (!string.IsNullOrEmpty(mod.Name)) return mod.Name;
+            return pid;
         }
 
         public override string SettingsCategory()
@@ -125,6 +142,15 @@ namespace RUML
 
         public override void DoSettingsWindowContents(Rect inRect)
         {
+            if (!autoCheckUpdatesTriggered)
+            {
+                autoCheckUpdatesTriggered = true;
+                if (RUMLCloudManager.Items.Count == 0 && !RUMLCloudManager.IsBusy)
+                {
+                    RUMLCloudManager.FetchManifestAsync(Settings.cloudManifestUrl, Content);
+                }
+            }
+
             // Main Navigation Header (3 Tabs)
             Rect tabRect = new Rect(inRect.x, inRect.y, inRect.width, 32f);
             float tabWidth = (inRect.width - 20f) / 3f;
@@ -196,9 +222,9 @@ namespace RUML
                 return;
             }
 
-            // Top Controls: Search & Batch Buttons
-            Rect topRect = new Rect(inRect.x, inRect.y, inRect.width, 32f);
-            float btnW = 120f;
+            // Top Controls: Row 1 - Search & Batch Toggle
+            Rect topRect = new Rect(inRect.x, inRect.y, inRect.width, 30f);
+            float btnW = 110f;
 
             Rect searchRect = new Rect(topRect.x, topRect.y, inRect.width - (btnW * 2 + 20f), 30f);
             modsSearchFilter = Widgets.TextField(searchRect, modsSearchFilter);
@@ -216,16 +242,41 @@ namespace RUML
                 RUMLFolderManager.ReloadLanguage();
             }
 
-            // Row 2: Open AppData folder button
-            Rect openDirRect = new Rect(inRect.x, inRect.y + 36f, 240f, 30f);
+            // Row 2: Check Updates, Update All Active, Open AppData
+            Rect actRow = new Rect(inRect.x, inRect.y + 36f, inRect.width, 30f);
+            float actW1 = 175f;
+            float actW2 = 210f;
+            float actW3 = 190f;
+
+            if (Widgets.ButtonText(new Rect(actRow.x, actRow.y, actW1, 30f), "Проверить обновления"))
+            {
+                RUMLCloudManager.CheckUpdatesAsync(Settings.cloudManifestUrl, Content);
+            }
+
+            Color prevBtnCol = GUI.color;
+            GUI.color = new Color(0.2f, 0.9f, 0.5f, 1f);
+            if (Widgets.ButtonText(new Rect(actRow.x + actW1 + 10f, actRow.y, actW2, 30f), "Обновить все активные"))
+            {
+                RUMLCloudManager.UpdateAllActiveAsync(Content, Settings);
+            }
+            GUI.color = prevBtnCol;
+
+            Rect openDirRect = new Rect(actRow.x + actW1 + actW2 + 20f, actRow.y, actW3, 30f);
             if (Widgets.ButtonText(openDirRect, "Открыть папку переводов"))
             {
                 RUMLCloudManager.OpenTranslationsFolderInExplorer();
             }
             TooltipHandler.TipRegion(openDirRect, RUMLFolderManager.GetExternalTranslationsDir());
 
+            // Row 3: Status / Progress message
+            Rect statusR = new Rect(inRect.x, inRect.y + 70f, inRect.width, 22f);
+            string sText = RUMLCloudManager.IsBusy
+                ? "<color=yellow>Загрузка: " + RUMLCloudManager.StatusMessage + " (" + RUMLCloudManager.DownloadPercent.ToString("F0") + "%)</color>"
+                : "<color=#80D0FF>" + RUMLCloudManager.StatusMessage + "</color>";
+            Widgets.Label(statusR, sText);
+
             // Scrollable List
-            Rect listRect = new Rect(inRect.x, inRect.y + 72f, inRect.width, inRect.height - 120f);
+            Rect listRect = new Rect(inRect.x, inRect.y + 96f, inRect.width, inRect.height - 144f);
             List<InstalledModItem> filtered = new List<InstalledModItem>();
             foreach (InstalledModItem m in allMods)
             {
@@ -251,14 +302,29 @@ namespace RUML
                     Settings.SetSelectedAuthor(modFolder, activeAuthor);
                 }
 
+                // Match cloud item for update status
+                CloudTranslationItem cloudItem = null;
+                for (int ci = 0; ci < RUMLCloudManager.Items.Count; ci++)
+                {
+                    CloudTranslationItem cit = RUMLCloudManager.Items[ci];
+                    if (string.Equals(cit.ModFolder, modFolder, StringComparison.OrdinalIgnoreCase) &&
+                        string.Equals(cit.AuthorFolder, activeAuthor, StringComparison.OrdinalIgnoreCase))
+                    {
+                        cloudItem = cit;
+                        break;
+                    }
+                }
+                bool hasUpdate = cloudItem != null && cloudItem.HasUpdate;
+
                 Rect rowRect = new Rect(0f, curY, viewRect.width, 36f);
                 Widgets.DrawHighlightIfMouseover(rowRect);
 
-                // Left: Checkbox + ModName
-                float checkW = Math.Max(260f, viewRect.width - 320f);
+                // Left: Checkbox + ModName + Update badge
+                string updateBadge = hasUpdate ? " <color=#FFE040>[Обновление!]</color>" : "";
+                float checkW = Math.Max(240f, viewRect.width - (hasUpdate ? 390f : 300f));
                 Rect checkRect = new Rect(0f, curY + 2f, checkW, 32f);
                 bool newCheck = isEnabled;
-                Widgets.CheckboxLabeled(checkRect, "  " + modFolder, ref newCheck);
+                Widgets.CheckboxLabeled(checkRect, "  " + modFolder + updateBadge, ref newCheck);
                 if (newCheck != isEnabled)
                 {
                     Settings.SetModEnabled(modFolder, newCheck);
@@ -267,7 +333,7 @@ namespace RUML
                 }
 
                 // Middle: Author Selector Button or Single Author Badge
-                Rect authorRect = new Rect(checkRect.xMax + 10f, curY + 4f, 190f, 28f);
+                Rect authorRect = new Rect(checkRect.xMax + 10f, curY + 4f, 180f, 28f);
                 if (item.Authors.Count > 1)
                 {
                     string authBtnLabel = activeAuthor + " (" + item.Authors.Count + " авт.) ▼";
@@ -295,7 +361,20 @@ namespace RUML
                     Widgets.Label(new Rect(authorRect.x, authorRect.y + 4f, authorRect.width, 24f), authorLabel);
                 }
 
-                // Right: Delete button
+                // Right buttons: Update (if available) + Delete
+                if (hasUpdate)
+                {
+                    Rect updBtnRect = new Rect(viewRect.width - 185f, curY + 4f, 85f, 28f);
+                    Color prevUCol = GUI.color;
+                    GUI.color = new Color(1f, 0.85f, 0.2f, 1f);
+                    if (Widgets.ButtonText(updBtnRect, "Обновить"))
+                    {
+                        RUMLCloudManager.DownloadAndInstallAsync(cloudItem, Content, Settings);
+                    }
+                    GUI.color = prevUCol;
+                    TooltipHandler.TipRegion(updBtnRect, "Обновить перевод от автора " + activeAuthor + " (v" + (cloudItem.LocalVersion ?? "1.0") + " -> v" + cloudItem.Version + ")");
+                }
+
                 Rect delBtnRect = new Rect(viewRect.width - 95f, curY + 4f, 90f, 28f);
                 Color prevCol = GUI.color;
                 GUI.color = new Color(1f, 0.4f, 0.4f, 1f);
@@ -417,8 +496,9 @@ namespace RUML
             List<ModContentPack> filteredMods = new List<ModContentPack>();
             foreach (var m in running)
             {
+                string disp = GetModDisplayName(m);
                 if (string.IsNullOrEmpty(auditSearchFilter) ||
-                    m.Name.IndexOf(auditSearchFilter, StringComparison.OrdinalIgnoreCase) >= 0 ||
+                    disp.IndexOf(auditSearchFilter, StringComparison.OrdinalIgnoreCase) >= 0 ||
                     m.PackageIdPlayerFacing.IndexOf(auditSearchFilter, StringComparison.OrdinalIgnoreCase) >= 0)
                 {
                     filteredMods.Add(m);
@@ -439,8 +519,19 @@ namespace RUML
                 bool isRuml = FolderToPackageId.Values.Any(p => string.Equals(p, pid, StringComparison.OrdinalIgnoreCase));
                 bool isDlc = IsVanillaOrDlc(pid);
 
-                string tag = isRuml ? " <color=#40E0D0>[RUML]</color>" : (isDlc ? " <color=#E0B020>[Vanilla]</color>" : "");
-                string labelText = "  " + mod.Name + tag + " <color=grey>(" + pid + ")</color>";
+                string tag = "";
+                if (isRuml)
+                {
+                    tag = " <color=#40E0D0>[RUML]</color>";
+                }
+                else if (isDlc)
+                {
+                    tag = string.Equals(pid, "ludeon.rimworld", StringComparison.OrdinalIgnoreCase)
+                        ? " <color=#E0B020>[Core]</color>"
+                        : " <color=#E0B020>[DLC]</color>";
+                }
+
+                string labelText = "  " + GetModDisplayName(mod) + tag + " <color=grey>(" + pid + ")</color>";
 
                 bool newCheck = isSelected;
                 Widgets.CheckboxLabeled(rowRect, labelText, ref newCheck);
@@ -595,6 +686,12 @@ namespace RUML
 
                 // Top Line: Mod Name, PackageId, Tag
                 string tag = rep.IsRUMLMod ? " <color=#40E0D0>[RUML]</color>" : "";
+                if (string.IsNullOrEmpty(tag) && IsVanillaOrDlc(rep.PackageId))
+                {
+                    tag = string.Equals(rep.PackageId, "ludeon.rimworld", StringComparison.OrdinalIgnoreCase)
+                        ? " <color=#E0B020>[Core]</color>"
+                        : " <color=#E0B020>[DLC]</color>";
+                }
                 string title = "<b>" + rep.ModName + "</b>" + tag + " <color=grey>(" + rep.PackageId + ")</color>";
                 Widgets.Label(new Rect(row.x + 8f, row.y + 4f, row.width - 150f, 22f), title);
 
@@ -697,10 +794,11 @@ namespace RUML
         {
             // Row 1: Manifest URL & Sync Buttons
             Rect urlRow = new Rect(inRect.x, inRect.y, inRect.width, 28f);
-            float btnW1 = 135f; // Обновить каталог
-            float btnW2 = 180f; // Открыть папку переводов
-            float btnW3 = 135f; // Шаблон manifest
-            float totalBtnsW = btnW1 + btnW2 + btnW3 + 30f;
+            float btnW1 = 125f; // Обновить каталог
+            float btnW4 = 145f; // Обновить все
+            float btnW2 = 175f; // Открыть папку переводов
+            float btnW3 = 125f; // Шаблон manifest
+            float totalBtnsW = btnW1 + btnW4 + btnW2 + btnW3 + 40f;
 
             Rect urlLabelR = new Rect(urlRow.x, urlRow.y, 110f, 28f);
             Widgets.Label(urlLabelR, "GitHub Каталог:");
@@ -714,7 +812,17 @@ namespace RUML
                 RUMLCloudManager.FetchManifestAsync(Settings.cloudManifestUrl, Content);
             }
 
-            Rect b2 = new Rect(b1.xMax + 10f, urlRow.y, btnW2, 28f);
+            Rect b4 = new Rect(b1.xMax + 10f, urlRow.y, btnW4, 28f);
+            Color prevAllCol = GUI.color;
+            GUI.color = new Color(0.2f, 0.9f, 0.5f, 1f);
+            if (Widgets.ButtonText(b4, "Обновить все"))
+            {
+                RUMLCloudManager.UpdateAllActiveAsync(Content, Settings);
+            }
+            GUI.color = prevAllCol;
+            TooltipHandler.TipRegion(b4, "Автоматически скачать и обновить все активные переводы, для которых вышли новые версии");
+
+            Rect b2 = new Rect(b4.xMax + 10f, urlRow.y, btnW2, 28f);
             if (Widgets.ButtonText(b2, "Открыть папку переводов"))
             {
                 RUMLCloudManager.OpenTranslationsFolderInExplorer();
@@ -792,7 +900,8 @@ namespace RUML
                 Widgets.DrawHighlightIfMouseover(card);
 
                 // Line 1: Mod Name, Version, and Author Selector
-                string titlePrefix = "<b>" + item.ModName + "</b>  <color=grey>(v" + item.Version + ")</color>  Автор: ";
+                string upBadge = item.HasUpdate ? " <color=#FFD700>[Доступно обновление]</color>" : "";
+                string titlePrefix = "<b>" + item.ModName + "</b>" + upBadge + "  <color=grey>(v" + item.Version + ")</color>  Автор: ";
                 float prefixW = Text.CalcSize(titlePrefix).x;
                 Rect prefixR = new Rect(card.x + 8f, card.y + 5f, prefixW, 22f);
                 Widgets.Label(prefixR, titlePrefix);
@@ -838,7 +947,7 @@ namespace RUML
                 // Action Buttons (Right)
                 if (item.IsInstalled)
                 {
-                    Rect uninstR = new Rect(card.width - 210f, card.y + 22f, 100f, 34f);
+                    Rect uninstR = new Rect(card.width - 210f, card.y + 22f, 95f, 34f);
                     Color prevCol = GUI.color;
                     GUI.color = new Color(1f, 0.4f, 0.4f, 1f);
                     if (Widgets.ButtonText(uninstR, "Удалить"))
@@ -847,11 +956,18 @@ namespace RUML
                     }
                     GUI.color = prevCol;
 
-                    Rect updateR = new Rect(card.width - 105f, card.y + 22f, 100f, 34f);
-                    if (Widgets.ButtonText(updateR, "Обновить"))
+                    Rect updateR = new Rect(card.width - 110f, card.y + 22f, 105f, 34f);
+                    Color prevUpCol = GUI.color;
+                    if (item.HasUpdate)
+                    {
+                        GUI.color = new Color(1f, 0.85f, 0.2f, 1f);
+                    }
+                    string upLabel = item.HasUpdate ? "Обновить!" : "Обновить";
+                    if (Widgets.ButtonText(updateR, upLabel))
                     {
                         RUMLCloudManager.DownloadAndInstallAsync(item, Content, Settings);
                     }
+                    GUI.color = prevUpCol;
                 }
                 else
                 {

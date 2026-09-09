@@ -18,6 +18,10 @@ namespace RUML
         public string PackageId = "";
         public string Author = "";
         public string Version = "1.0";
+        public string Hash = "";
+        public string LocalVersion = "";
+        public string LocalHash = "";
+        public bool HasUpdate = false;
         public string DownloadUrl = "";
         public string Description = "";
         public string TargetFolder = "";
@@ -123,6 +127,33 @@ namespace RUML
                 CloudTranslationItem item = Items[i];
                 string targetDir = Path.Combine(Path.Combine(extDir, item.ModFolder), item.AuthorFolder);
                 item.IsInstalled = Directory.Exists(targetDir);
+                item.HasUpdate = false;
+                item.LocalVersion = "";
+                item.LocalHash = "";
+
+                if (item.IsInstalled)
+                {
+                    string infoPath = Path.Combine(targetDir, "info.json");
+                    if (File.Exists(infoPath))
+                    {
+                        try
+                        {
+                            string text = File.ReadAllText(infoPath);
+                            item.LocalVersion = ExtractJsonField(text, "version");
+                            item.LocalHash = ExtractJsonField(text, "hash");
+                        }
+                        catch { }
+                    }
+
+                    if (!string.IsNullOrEmpty(item.Hash) && !string.IsNullOrEmpty(item.LocalHash))
+                    {
+                        item.HasUpdate = !string.Equals(item.Hash, item.LocalHash, StringComparison.OrdinalIgnoreCase);
+                    }
+                    else if (!string.IsNullOrEmpty(item.Version) && !string.IsNullOrEmpty(item.LocalVersion))
+                    {
+                        item.HasUpdate = !string.Equals(item.Version, item.LocalVersion, StringComparison.OrdinalIgnoreCase);
+                    }
+                }
 
                 item.IsTargetModActive = false;
                 foreach (ModContentPack running in LoadedModManager.RunningMods)
@@ -133,6 +164,28 @@ namespace RUML
                         break;
                     }
                 }
+            }
+        }
+
+        public static void SaveInstalledMeta(string targetDir, CloudTranslationItem item)
+        {
+            if (string.IsNullOrEmpty(targetDir) || item == null) return;
+            try
+            {
+                string infoPath = Path.Combine(targetDir, "info.json");
+                StringBuilder sb = new StringBuilder();
+                sb.AppendLine("{");
+                sb.AppendLine("  \"packageId\": \"" + (item.PackageId ?? "") + "\",");
+                sb.AppendLine("  \"version\": \"" + (item.Version ?? "1.0.0") + "\",");
+                sb.AppendLine("  \"hash\": \"" + (item.Hash ?? "") + "\",");
+                sb.AppendLine("  \"author\": \"" + (item.Author ?? "") + "\",");
+                sb.AppendLine("  \"description\": \"" + (item.Description ?? "").Replace("\"", "\\\"") + "\"");
+                sb.AppendLine("}");
+                File.WriteAllText(infoPath, sb.ToString(), Encoding.UTF8);
+            }
+            catch (Exception ex)
+            {
+                Log.Warning("[RUML] Failed to save info.json meta: " + ex);
             }
         }
 
@@ -281,15 +334,22 @@ namespace RUML
                     }
                     catch { }
 
+                    SaveInstalledMeta(targetDir, item);
+                    item.IsInstalled = true;
+                    item.LocalVersion = item.Version;
+                    item.LocalHash = item.Hash;
+                    item.HasUpdate = false;
+
                     // Ensure mod folder is enabled in settings and this author is selected
                     settings.SetModEnabled(item.ModFolder, true);
                     settings.SetSelectedAuthor(item.ModFolder, item.AuthorFolder);
 
-                    // Re-apply folder filter and hot-reload language
-                    RUMLFolderManager.ApplyFilter(content, settings);
-                    RUMLFolderManager.ReloadLanguage();
+                    LongEventHandler.ExecuteWhenFinished(delegate()
+                    {
+                        RUMLFolderManager.ApplyFilter(content, settings);
+                        RUMLFolderManager.ReloadLanguage();
+                    });
 
-                    item.IsInstalled = true;
                     StatusMessage = "Перевод " + item.ModName + " от " + item.Author + " успешно сохранён в AppData и активирован!";
                 }
                 catch (Exception ex)
@@ -313,6 +373,238 @@ namespace RUML
                         onComplete();
                     }
                 }
+            });
+        }
+
+        public static void CheckUpdatesAsync(string url, ModContentPack content, Action<int> onComplete = null)
+        {
+            if (IsBusy) return;
+            IsBusy = true;
+            StatusMessage = "Проверка наличия обновлений переводов...";
+
+            ThreadPool.QueueUserWorkItem(delegate(object state)
+            {
+                int updatesCount = 0;
+                try
+                {
+                    ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072 | (SecurityProtocolType)768 | SecurityProtocolType.Tls;
+                    using (WebClient client = new WebClient())
+                    {
+                        client.Encoding = Encoding.UTF8;
+                        string json = client.DownloadString(url);
+                        List<CloudTranslationItem> parsed = ParseManifestJson(json);
+                        if (parsed.Count > 0)
+                        {
+                            Items = parsed;
+                        }
+                    }
+                    RefreshLocalState(content);
+                    for (int i = 0; i < Items.Count; i++)
+                    {
+                        if (Items[i].IsInstalled && Items[i].HasUpdate)
+                        {
+                            updatesCount++;
+                        }
+                    }
+
+                    if (updatesCount > 0)
+                    {
+                        StatusMessage = "Найдено доступных обновлений: " + updatesCount;
+                    }
+                    else
+                    {
+                        StatusMessage = "Все установленные переводы актуальны (обновлений нет).";
+                    }
+                }
+                catch (Exception ex)
+                {
+                    StatusMessage = "Ошибка проверки обновлений: " + ex.Message;
+                    Log.Warning("[RUML] Failed to check updates: " + ex);
+                }
+                finally
+                {
+                    IsBusy = false;
+                    RefreshLocalState(content);
+                    LongEventHandler.ExecuteWhenFinished(delegate()
+                    {
+                        if (updatesCount > 0)
+                        {
+                            Messages.Message("RUML: Найдено доступных обновлений переводов: " + updatesCount, MessageTypeDefOf.NeutralEvent, false);
+                        }
+                        else
+                        {
+                            Messages.Message("RUML: Все установленные переводы актуальны.", MessageTypeDefOf.PositiveEvent, false);
+                        }
+                        if (onComplete != null)
+                        {
+                            onComplete(updatesCount);
+                        }
+                    });
+                }
+            });
+        }
+
+        public static void UpdateAllActiveAsync(ModContentPack content, RUMLSettings settings, Action onComplete = null)
+        {
+            if (IsBusy || content == null || settings == null) return;
+
+            if (Items.Count == 0)
+            {
+                StatusMessage = "Загрузка каталога перед обновлением...";
+                FetchManifestAsync(settings.cloudManifestUrl, content, delegate()
+                {
+                    UpdateAllActiveAsync(content, settings, onComplete);
+                });
+                return;
+            }
+
+            List<CloudTranslationItem> toUpdate = new List<CloudTranslationItem>();
+            for (int i = 0; i < Items.Count; i++)
+            {
+                CloudTranslationItem it = Items[i];
+                if (it.IsInstalled && settings.IsModEnabled(it.ModFolder))
+                {
+                    string selAuthor = settings.GetSelectedAuthor(it.ModFolder);
+                    if (string.IsNullOrEmpty(selAuthor) || string.Equals(it.AuthorFolder, selAuthor, StringComparison.OrdinalIgnoreCase))
+                    {
+                        toUpdate.Add(it);
+                    }
+                }
+            }
+
+            if (toUpdate.Count == 0)
+            {
+                StatusMessage = "Нет активных переводов для обновления.";
+                Messages.Message("RUML: Нет активных переводов для обновления.", MessageTypeDefOf.NeutralEvent, false);
+                return;
+            }
+
+            IsBusy = true;
+            DownloadPercent = 0f;
+            StatusMessage = "Подготовка к обновлению " + toUpdate.Count + " переводов...";
+
+            ThreadPool.QueueUserWorkItem(delegate(object state)
+            {
+                int successCount = 0;
+                string extDir = RUMLFolderManager.GetExternalTranslationsDir();
+
+                for (int i = 0; i < toUpdate.Count; i++)
+                {
+                    CloudTranslationItem item = toUpdate[i];
+                    CurrentActionItem = item.Id;
+                    DownloadPercent = (float)i / toUpdate.Count * 100f;
+                    StatusMessage = "Обновление (" + (i + 1) + "/" + toUpdate.Count + "): " + item.ModName + "...";
+
+                    string safeName = (item.ModFolder + "_" + item.AuthorFolder).Replace("/", "_").Replace("\\", "_");
+                    string tempZip = Path.Combine(Path.GetTempPath(), "RUML_upd_" + safeName + "_" + Guid.NewGuid().ToString("N") + ".zip");
+                    try
+                    {
+                        ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072 | (SecurityProtocolType)768 | SecurityProtocolType.Tls;
+                        using (WebClient client = new WebClient())
+                        {
+                            client.DownloadFile(new Uri(item.DownloadUrl), tempZip);
+                        }
+
+                        string targetDir = Path.Combine(Path.Combine(extDir, item.ModFolder), item.AuthorFolder);
+                        if (Directory.Exists(targetDir))
+                        {
+                            Directory.Delete(targetDir, true);
+                        }
+                        Directory.CreateDirectory(targetDir);
+
+                        using (ZipArchive archive = ZipFile.OpenRead(tempZip))
+                        {
+                            for (int e = 0; e < archive.Entries.Count; e++)
+                            {
+                                ZipArchiveEntry entry = archive.Entries[e];
+                                string entryRelPath = entry.FullName.Replace('/', Path.DirectorySeparatorChar).Replace('\\', Path.DirectorySeparatorChar);
+                                string fullDestPath = Path.Combine(targetDir, entryRelPath);
+
+                                if (string.IsNullOrEmpty(entry.Name))
+                                {
+                                    if (!Directory.Exists(fullDestPath))
+                                    {
+                                        Directory.CreateDirectory(fullDestPath);
+                                    }
+                                    continue;
+                                }
+
+                                string parentDir = Path.GetDirectoryName(fullDestPath);
+                                if (!string.IsNullOrEmpty(parentDir) && !Directory.Exists(parentDir))
+                                {
+                                    Directory.CreateDirectory(parentDir);
+                                }
+
+                                entry.ExtractToFile(fullDestPath, true);
+                            }
+                        }
+
+                        // Auto-flatten if nested
+                        try
+                        {
+                            string directLanguages = Path.Combine(targetDir, "Languages");
+                            if (!Directory.Exists(directLanguages))
+                            {
+                                string[] subDirs = Directory.GetDirectories(targetDir);
+                                if (subDirs.Length == 1)
+                                {
+                                    string nestedLang = Path.Combine(subDirs[0], "Languages");
+                                    if (Directory.Exists(nestedLang))
+                                    {
+                                        string[] nestedFiles = Directory.GetFiles(subDirs[0]);
+                                        for (int f = 0; f < nestedFiles.Length; f++)
+                                        {
+                                            string dest = Path.Combine(targetDir, Path.GetFileName(nestedFiles[f]));
+                                            if (File.Exists(dest)) File.Delete(dest);
+                                            File.Move(nestedFiles[f], dest);
+                                        }
+                                        string[] nestedFolders = Directory.GetDirectories(subDirs[0]);
+                                        for (int d = 0; d < nestedFolders.Length; d++)
+                                        {
+                                            string dest = Path.Combine(targetDir, Path.GetFileName(nestedFolders[d]));
+                                            if (Directory.Exists(dest)) Directory.Delete(dest, true);
+                                            Directory.Move(nestedFolders[d], dest);
+                                        }
+                                        try { Directory.Delete(subDirs[0], true); } catch { }
+                                    }
+                                }
+                            }
+                        }
+                        catch { }
+
+                        SaveInstalledMeta(targetDir, item);
+                        item.IsInstalled = true;
+                        item.LocalVersion = item.Version;
+                        item.LocalHash = item.Hash;
+                        item.HasUpdate = false;
+                        successCount++;
+                    }
+                    catch (Exception ex)
+                    {
+                        Log.Error("[RUML] Failed to update " + item.ModName + ": " + ex);
+                    }
+                    finally
+                    {
+                        try { if (File.Exists(tempZip)) File.Delete(tempZip); } catch { }
+                    }
+                }
+
+                DownloadPercent = 100f;
+                CurrentActionItem = "";
+                IsBusy = false;
+                StatusMessage = "Успешно обновлено переводов: " + successCount + "/" + toUpdate.Count;
+
+                LongEventHandler.ExecuteWhenFinished(delegate()
+                {
+                    RUMLFolderManager.ApplyFilter(content, settings);
+                    RUMLFolderManager.ReloadLanguage();
+                    RefreshLocalState(content);
+                    Messages.Message("RUML: Успешно обновлено " + successCount + " активных переводов!", MessageTypeDefOf.PositiveEvent, false);
+                    if (onComplete != null)
+                    {
+                        onComplete();
+                    }
+                });
             });
         }
 
@@ -375,6 +667,7 @@ namespace RUML
                 item.PackageId = ExtractJsonField(block, "packageId");
                 item.Author = ExtractJsonField(block, "author");
                 item.Version = ExtractJsonField(block, "version");
+                item.Hash = ExtractJsonField(block, "hash");
                 item.DownloadUrl = ExtractJsonField(block, "downloadUrl");
                 item.Description = ExtractJsonField(block, "description");
                 item.TargetFolder = ExtractJsonField(block, "targetFolder");

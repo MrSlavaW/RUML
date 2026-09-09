@@ -90,7 +90,7 @@ namespace RUML
                 }
 
                 ModAuditReport rep = new ModAuditReport();
-                rep.ModName = mod.Name;
+                rep.ModName = RUMLMod.GetModDisplayName(mod);
                 rep.PackageId = pid;
                 rep.IsRUMLMod = isRuml;
 

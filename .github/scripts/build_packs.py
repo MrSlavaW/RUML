@@ -116,6 +116,16 @@ def build():
                             
                             zf.write(file_path, arc_name)
 
+                # Calculate archive MD5 hash
+                import hashlib
+                hasher = hashlib.md5()
+                with open(archive_path, "rb") as zf_in:
+                    while True:
+                        chunk = zf_in.read(65536)
+                        if not chunk: break
+                        hasher.update(chunk)
+                archive_hash = hasher.hexdigest()
+
                 # Add to manifest
                 rel_url = f"packs/{mod_name}/{author_name}/{archive_filename}".replace(" ", "%20")
                 download_url = f"{base_url}/{rel_url}"
@@ -126,6 +136,7 @@ def build():
                     "author": author_name,
                     "language": lang_name,
                     "version": version,
+                    "hash": archive_hash,
                     "downloadUrl": download_url,
                     "description": description,
                     "modFolder": mod_name,
