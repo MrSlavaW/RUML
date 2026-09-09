@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AdaptivePlasmaShield.labelNoun>адаптивный плазменный щит</AdaptivePlasmaShield.labelNoun>
-  <AdvancedPlasmaShieldBattery.labelNoun>улучшенная батарея плазменного щита</AdvancedPlasmaShieldBattery.labelNoun>
+  <AdvancedPlasmaShieldBattery.labelNoun>продвинутая батарея плазменного щита</AdvancedPlasmaShieldBattery.labelNoun>
   <DampeningPlasmaShield.labelNoun>демпфирующий плазменный щит</DampeningPlasmaShield.labelNoun>
-  <HardenedPlasmaShield.labelNoun>упрочненный плазменный щит</HardenedPlasmaShield.labelNoun>
+  <HardenedPlasmaShield.labelNoun>закалённый плазменный щит</HardenedPlasmaShield.labelNoun>
   <PlasmaShieldBattery.labelNoun>батарея плазменного щита</PlasmaShieldBattery.labelNoun>
-  <PlasmaShieldFunctionalityEnhancer.labelNoun>расширитель функций плазменного щита</PlasmaShieldFunctionalityEnhancer.labelNoun>
-  <PlasmaShieldImplant.labelNoun>плазменный щитовой имплант</PlasmaShieldImplant.labelNoun>
+  <PlasmaShieldFunctionalityEnhancer.labelNoun>улучшитель плазменного щита</PlasmaShieldFunctionalityEnhancer.labelNoun>
+  <PlasmaShieldImplant.labelNoun>имплант плазменного щита</PlasmaShieldImplant.labelNoun>
   <PlasmaShieldRegenerator.labelNoun>регенератор плазменного щита</PlasmaShieldRegenerator.labelNoun>
   <PsiShieldBooster.labelNoun>усилитель пси-щита</PsiShieldBooster.labelNoun>
   <PsionicRegenerator.labelNoun>псионический регенератор</PsionicRegenerator.labelNoun>
-  <ResistantPlasmaShield.labelNoun>резистентный плазменный щит</ResistantPlasmaShield.labelNoun>
+  <ResistantPlasmaShield.labelNoun>стойкий плазменный щит</ResistantPlasmaShield.labelNoun>
 </LanguageData>

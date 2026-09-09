@@ -2,6 +2,10 @@
 <LanguageData>
   <ArchotechBrainMelder.description>Это ощущение ни с чем не сравнимо. Как я вообще умудряюсь ясно мыслить?</ArchotechBrainMelder.description>
   <ArchotechBrainMelder.label>Слияние разума</ArchotechBrainMelder.label>
+  <ArchotechBrainMelder.stages.0.description>Это ощущение ни с чем не сравнимо. Как я вообще умудряюсь ясно мыслить?</ArchotechBrainMelder.stages.0.description>
+  <ArchotechBrainMelder.stages.0.label>Соединитель разума</ArchotechBrainMelder.stages.0.label>
   <ArchotechMembrane.description>Мне всегда так комфортно в этой штуке.</ArchotechMembrane.description>
   <ArchotechMembrane.label>Удобная мембрана</ArchotechMembrane.label>
+  <ArchotechMembrane.stages.0.description>Мне всегда невероятно удобно в этой мембране.</ArchotechMembrane.stages.0.description>
+  <ArchotechMembrane.stages.0.label>Комфортная мембрана</ArchotechMembrane.stages.0.label>
 </LanguageData>

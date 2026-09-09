@@ -1,5 +1,6 @@
 {
   "packageId": "sarg.alphaanimals",
-  "version": "1.0.0",
-  "description": "Русская локализация для мода AlphaAnimals."
+  "version": "1.1.0",
+  "description": "Русская локализация для мода AlphaAnimals.",
+  "author": "MrSlavaV"
 }

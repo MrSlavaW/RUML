@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PS_T2AnimaPilgrimage.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;Несколько древ древа анимы по всему миру пробудились в унисон, призывая Пробуждённых. Колонист первого ранга Просветления должен посетить каждое и медитировать под его ветвями, чтобы совершить прорыв на второй ранг.
+
+Это мирное паломничество: враги не будут атаковать святыни. Процесс займёт больше времени, чем испытание у алтаря. Места угаснут через два месяца.</li>
+  </PS_T2AnimaPilgrimage.questDescriptionRules.rulesStrings>
+  <PS_T2AnimaPilgrimage.questNameRules.rulesStrings>
+    <li>questName-&gt;Песнь анимы</li>
+    <li>questName-&gt;Под кронами мировых древ</li>
+    <li>questName-&gt;Паломничество по рощам</li>
+  </PS_T2AnimaPilgrimage.questNameRules.rulesStrings>
+  <PS_T3AnimaPilgrimage.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;Несколько деревьев анимы проявились по всему миру, и на одном из мест покоится первородное древо анимы — древний мировой дух колоссальной мощи. Колонист второго ранга должен посетить каждую святыню для медитации, чтобы достичь третьего уровня — Озарённый.
+
+Это мирное паломничество без атак противников. Это самый длительный путь в ордене. Места угаснут через два месяца.</li>
+  </PS_T3AnimaPilgrimage.questDescriptionRules.rulesStrings>
+  <PS_T3AnimaPilgrimage.questNameRules.rulesStrings>
+    <li>questName-&gt;Древнее древо мира</li>
+    <li>questName-&gt;Паломничество к Первородному</li>
+    <li>questName-&gt;Под сенью мировых духов</li>
+  </PS_T3AnimaPilgrimage.questNameRules.rulesStrings>
+  <PS_TierIIIPilgrimage.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;Проявилось место глубинного психического резонанса. Колонист второго ранга Просветления, добравшийся туда и выдержавший натиск Древнего Ордена Псиоников во время медитации у алтаря, совершит прорыв на третий уровень — Озарённый.
+
+Орден выставит значительно более грозных бойцов. Место исчезнет через месяц.</li>
+  </PS_TierIIIPilgrimage.questDescriptionRules.rulesStrings>
+  <PS_TierIIIPilgrimage.questNameRules.rulesStrings>
+    <li>questName-&gt;Испытание озарения</li>
+    <li>questName-&gt;Путь озарённых</li>
+    <li>questName-&gt;Третье пробуждение</li>
+  </PS_TierIIIPilgrimage.questNameRules.rulesStrings>
+  <PS_TierIIPilgrimage.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;На карте мира проявилось место психического резонанса. Пробуждённый колонист, отправившийся туда и совершивший медитацию у алтаря, совершит прорыв на второй уровень Просветления, выбрав новую школу псионики.
+
+Древний Орден Псиоников пошлёт волны адептов для испытания. Место исчезнет через месяц.</li>
+  </PS_TierIIPilgrimage.questDescriptionRules.rulesStrings>
+  <PS_TierIIPilgrimage.questNameRules.rulesStrings>
+    <li>questName-&gt;Путь паломника</li>
+    <li>questName-&gt;Второе пробуждение</li>
+    <li>questName-&gt;К высшему просветлению</li>
+  </PS_TierIIPilgrimage.questNameRules.rulesStrings>
+</LanguageData>

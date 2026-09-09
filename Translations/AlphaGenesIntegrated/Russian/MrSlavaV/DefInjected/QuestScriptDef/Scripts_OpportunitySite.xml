@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AGI_OpportunitySite_AbandonedBiotechLab_Giver.questDescriptionRules.rulesStrings>
+    <li>questDescription-&gt;[discoveryMethod] древнюю биотехнологическую лабораторию недалеко от [map_definite]. Там могут сохраниться ценные генетические технологии, включая редкие геноинструменты, поэтому исследовать её — хорошая идея.
+
+Следует хорошо подготовиться: активность в лаборатории может привлечь нежелательное внимание.</li>
+  </AGI_OpportunitySite_AbandonedBiotechLab_Giver.questDescriptionRules.rulesStrings>
+  <AGI_OpportunitySite_AbandonedBiotechLab_Giver.questNameRules.rulesStrings>
+    <li>questName-&gt;[complexAdj] [complex] — [finalWord]</li>
+    <li>questName-&gt;[complexAdj] [complex]</li>
+    <li>questName-&gt;[complex] — [finalWord]</li>
+    <li>complexAdj-&gt;заброшенная</li>
+    <li>complexAdj-&gt;затерянная</li>
+    <li>complexAdj-&gt;древняя</li>
+    <li>complexAdj-&gt;старая</li>
+    <li>complexAdj-&gt;тайная</li>
+    <li>complex-&gt;биотех-лаборатория</li>
+    <li>complex-&gt;генетическая лаборатория</li>
+    <li>complex-&gt;ксеногенетическая лаборатория</li>
+    <li>finalWord-&gt;сокровище</li>
+    <li>finalWord-&gt;находка</li>
+    <li>finalWord-&gt;тайник</li>
+    <li>finalWord-&gt;добыча</li>
+    <li>finalWord-&gt;исследования</li>
+  </AGI_OpportunitySite_AbandonedBiotechLab_Giver.questNameRules.rulesStrings>
+  <AGI_OpportunitySite_AbandonedBiotechLab_Giver.questSubjectRules.rulesStrings>
+    <li>subject-&gt;заброшенные лаборатории</li>
+    <li>subject-&gt;древняя генетика</li>
+    <li>subject-&gt;лаборатории ксеногенетики</li>
+    <li>questMapFeature-&gt;чертёж древней лаборатории</li>
+    <li>questMapFeature-&gt;набросок научного оборудования</li>
+    <li>questMapText-&gt;некая лаборатория</li>
+    <li>questMapText-&gt;древние припасы генной инженерии</li>
+    <li>questMapText-&gt;исследования генетики</li>
+  </AGI_OpportunitySite_AbandonedBiotechLab_Giver.questSubjectRules.rulesStrings>
+</LanguageData>

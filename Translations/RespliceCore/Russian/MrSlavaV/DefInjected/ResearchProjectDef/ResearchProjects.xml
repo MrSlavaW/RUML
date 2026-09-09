@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RS_DarkArchiteHarvesting.generalRules.rulesStrings>
+    <li>subject-&gt;жатва тёмных архитов</li>
+    <li>subject-&gt;извлечение осквернённых генов</li>
+    <li>subject_story-&gt;исследовал гены тёмных архитов</li>
+    <li>subject_story-&gt;собирал сказания об осквернённых архитовых генах</li>
+    <li>subject_story-&gt;собирал истории о безумных генетиках</li>
+    <li>subject_story-&gt;курировал хроники пустотного осквернения</li>
+    <li>subject_story-&gt;обобщал легенды о жатве генов</li>
+    <li>subject_gerund-&gt;совершает ритуал жатвы генов</li>
+    <li>subject_gerund-&gt;вырывает гены из плоти</li>
+  </RS_DarkArchiteHarvesting.generalRules.rulesStrings>
+</LanguageData>

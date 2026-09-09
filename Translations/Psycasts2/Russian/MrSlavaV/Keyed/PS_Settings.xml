@@ -31,17 +31,21 @@
   <PS_SetBake>Bake edits into mod defaults</PS_SetBake>
   <PS_SetBakeBody>Write your {0} edit(s) into ManualBalance.json as the mod's new default balance, then clear the live overlay? (A Workshop update can overwrite the baked file - re-bake afterwards if needed.)</PS_SetBakeBody>
   <PS_SetBakeN>Bake {0} edit(s) into mod defaults</PS_SetBakeN>
-  <PS_SetBakeTitle>Bake balance edits</PS_SetBakeTitle>
+  <PS_SetBakeTitle>Применить правки баланса</PS_SetBakeTitle>
   <PS_SetBalanceInfo>Edits made in the in-game Balance editor (psycast tab, dev mode) are stored in this config and apply on top of the mod's defaults. The mod is in open beta: if you have balancing ideas, tune the numbers in the editor and use the share button below to export them as a JSON file, grouped per psycast tree and addon tree, then send that file to the author.</PS_SetBalanceInfo>
   <PS_SetBreakChance>Шанс прорыва каждый час: {0}%</PS_SetBreakChance>
   <PS_SetBreakChanceTip>Проверяется раз в час для медитирующего псионика, еще не достигшего статуса «Озаренный». Непрерывная многочасовая медитация увеличивает этот шанс. Установите 0, чтобы прорывы не происходили вовсе.</PS_SetBreakChanceTip>
-  <PS_SetBreakSize>Breakthrough size: {0}% of a level</PS_SetBreakSize>
+  <PS_SetBreakChanceTrans>Шанс прорыва каждый час после ранга Озарённый: {0}%</PS_SetBreakChanceTrans>
+  <PS_SetBreakChanceTransTip>Шанс проверки, когда псионик поднялся выше ранга Озарённый. Настройте отдельно, чтобы сделать поздние прорывы реже или чаще. 0 полностью отключает их.</PS_SetBreakChanceTransTip>
+  <PS_SetBreakSize>Размер прорыва: {0}% уровня</PS_SetBreakSize>
   <PS_SetBreakSizeTip>How much psycaster XP one breakthrough grants. 1.0 is exactly a full level.</PS_SetBreakSizeTip>
   <PS_SetBreakthroughs>Enable meditation breakthroughs</PS_SetBreakthroughs>
   <PS_SetBreakthroughsTip>лапа</PS_SetBreakthroughsTip>
   <PS_SetCardCount>Cards per tier-up: {0}</PS_SetCardCount>
   <PS_SetCardCountAuto>auto (3; Tier II deals 5)</PS_SetCardCountAuto>
   <PS_SetCardCountTip>лапа</PS_SetCardCountTip>
+  <PS_SetCardRedeal>Разрешить один реролл при первом пробуждении</PS_SetCardRedeal>
+  <PS_SetCardRedealTip>Добавляет кнопку реролла в правый верхний угол окна карт, чтобы первое пробуждение пешки не определялось одной неудачной раздачей. Доступно один раз за пробуждение.</PS_SetCardRedealTip>
   <PS_SetCastXp>Casting XP per skill tier: {0}  (tier-3 cast = {1} XP)</PS_SetCastXp>
   <PS_SetCastXpTip>Casting is the main XP source. Each cast grants this much XP per the skill's tier, so deeper psycasts level you faster.</PS_SetCastXpTip>
   <PS_SetChooseLaterInfo>A card pick can always be set aside with its "Choose later" button. The choice is never lost: the cards return while the colonist meditates, and the "Psycast path awaits" alert reopens them with one click.</PS_SetChooseLaterInfo>
@@ -75,6 +79,8 @@
   <PS_SetFocus_PilgrimAltar>Pilgrim's altar (obelisk style)</PS_SetFocus_PilgrimAltar>
   <PS_SetFocus_PilgrimThrone>Meditation throne (default; in reliquary)</PS_SetFocus_PilgrimThrone>
   <PS_SetFocus_Throne>Vanilla throne (Dignified focus, royal title)</PS_SetFocus_Throne>
+  <PS_SetFogNext>Отображать способности, доступные для выбора следующими</PS_SetFogNext>
+  <PS_SetFogNextTip>Способности, требованиям которых вы уже соответствуете, остаются видимыми. Скрыты только те, что находятся глубже по древу.</PS_SetFogNextTip>
   <PS_SetFogOfWar>Fog of war (hide unlearned psycasts)</PS_SetFogOfWar>
   <PS_SetFogOfWarTip>Hide the identity of every psycast you have not learned yet behind a "?" on the tree, so you discover each skill only when you unlock it. The tree layout stays visible; click a hidden node to learn it and reveal it. Off by default.</PS_SetFogOfWarTip>
   <PS_SetForgoPoints>Forgo-card specialization points: {0}</PS_SetForgoPoints>
@@ -84,7 +90,7 @@
   <PS_SetH_Altar>Trial of the Altar (combat, single site)</PS_SetH_Altar>
   <PS_SetH_AltarFocus>Altar focus building (Tier II)</PS_SetH_AltarFocus>
   <PS_SetH_Anima>Way of the Anima (pacifist, multi-site)</PS_SetH_Anima>
-  <PS_SetH_BalanceEdits>Balance edits (open beta)</PS_SetH_BalanceEdits>
+  <PS_SetH_BalanceEdits>Правки баланса (открытая бета)</PS_SetH_BalanceEdits>
   <PS_SetH_Breakthroughs>Прорывы</PS_SetH_Breakthroughs>
   <PS_SetH_Cards>Awakening and cards</PS_SetH_Cards>
   <PS_SetH_Comas>Over-meditation and comas</PS_SetH_Comas>
@@ -94,17 +100,24 @@
   <PS_SetH_Enemies>Вражеские псионики</PS_SetH_Enemies>
   <PS_SetH_Flow>A flow of ancient knowledge</PS_SetH_Flow>
   <PS_SetH_GettingTrees>Получение новых деревьев</PS_SetH_GettingTrees>
+  <PS_SetH_LevelCap>Максимальный уровень псионика</PS_SetH_LevelCap>
   <PS_SetH_Links>Связи между пси-способностями</PS_SetH_Links>
+  <PS_SetH_NoTakeBacks>Без возврата очков</PS_SetH_NoTakeBacks>
+  <PS_SetH_OtherMods>Другие моды</PS_SetH_OtherMods>
   <PS_SetH_PathAccess>Path access</PS_SetH_PathAccess>
   <PS_SetH_Performance>Performance</PS_SetH_Performance>
   <PS_SetH_PsycastXp>Psycast XP</PS_SetH_PsycastXp>
   <PS_SetH_SkillLeveling>Прокачка способностей</PS_SetH_SkillLeveling>
   <PS_SetH_SpecPoints>Очки специализации</PS_SetH_SpecPoints>
+  <PS_SetH_Speed>Скорость</PS_SetH_Speed>
   <PS_SetH_Spending>Трата очков</PS_SetH_Spending>
   <PS_SetH_SynergyGraph>Synergy graph</PS_SetH_SynergyGraph>
+  <PS_SetH_TooLong>Слишком долгая медитация</PS_SetH_TooLong>
   <PS_SetH_Transcendence>Transcendence (beyond Illuminated)</PS_SetH_Transcendence>
+  <PS_SetH_Tree>Древо пси-способностей</PS_SetH_Tree>
   <PS_SetH_WhatChanges>Что меняют уровни</PS_SetH_WhatChanges>
   <PS_SetH_WhatScales>What scales</PS_SetH_WhatScales>
+  <PS_SetH_WhoBecomes>Кто становится псиоником</PS_SetH_WhoBecomes>
   <PS_SetHidePaths>Hide unlearned paths</PS_SetHidePaths>
   <PS_SetHidePathsTip>лапа</PS_SetHidePathsTip>
   <PS_SetImport>Import balance edits (from JSON)</PS_SetImport>
@@ -152,6 +165,7 @@
   <PS_SetRevealAll>Turn all cards one at a time and re-pick</PS_SetRevealAll>
   <PS_SetRevealAllTip>On: after turning the first card, the rest of the deal stays face-down and each card is turned BY HAND, one at a time (center it, then click). Any revealed card can be clicked to re-pick before embracing. Off (default): only the card you turn is revealed, and that path is committed.</PS_SetRevealAllTip>
   <PS_SetSafeWindow>Безопасное окно медитации в день: {0} ч</PS_SetSafeWindow>
+  <PS_SetSafeWindowOff>Безопасная медитация: целый день, медитация никогда не опасна</PS_SetSafeWindowOff>
   <PS_SetSafeWindowTip>Количество часов медитации в сутки без риска комы. Превышение этого лимита начинает накапливать риск психической комы.</PS_SetSafeWindowTip>
   <PS_SetScaleBuff>Scale buff / boon strength</PS_SetScaleBuff>
   <PS_SetScaleBuffTip>Scale the severity of hediffs a cast applies, both boons and debuffs, with level and synergies.</PS_SetScaleBuffTip>
@@ -188,7 +202,7 @@ The file path was copied to the clipboard. Send this file to the mod author with
   <PS_SetSynRetune>To retune skill effects, synergies and empowers, enable dev mode and open the Balance editor from the psycast tab.</PS_SetSynRetune>
   <PS_SetSynergyPct>Бонус синергии за уровень способностей того же пути: +{0}%</PS_SetSynergyPct>
   <PS_SetSynergyPctTip>Прокачка других способностей того же пути усиливает эту способность через направленные синергии.</PS_SetSynergyPctTip>
-  <PS_SetT3Throne>Tier III always uses the grand throne.</PS_SetT3Throne>
+  <PS_SetT3Throne>Ранг III всегда использует великий трон.</PS_SetT3Throne>
   <PS_SetTab_Advanced>Дополнительно</PS_SetTab_Advanced>
   <PS_SetTab_Display>Отображение</PS_SetTab_Display>
   <PS_SetTab_Enemies>Враги</PS_SetTab_Enemies>

@@ -1,38 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <GS_Alert.description>Носители этого гена предельно внимательны к окружению и способны вовремя замечать и обходить ловушки.</GS_Alert.description>
-  <GS_Alert.label>бдительность</GS_Alert.label>
+  <GS_Alert.description>Носители этого гена чрезвычайно внимательны к окружению и чаще замечают и избегают ловушек.
+
+&lt;i&gt;&lt;color=#66E0E4FF&gt;Kabouter Xenotype&lt;/color&gt;&lt;/i&gt;</GS_Alert.description>
+  <GS_Alert.label>бдительный</GS_Alert.label>
   <GS_Alert.labelShortAdj>бдительный</GS_Alert.labelShortAdj>
-  <GS_DHoarder.description>Настроение носителя напрямую зависит от богатства колонии: чем больше золота и добра на складах, тем они счастливее, а в нищете впадают в депрессию и ярость.</GS_DHoarder.description>
-  <GS_DHoarder.label>драконья сокровищница</GS_DHoarder.label>
-  <GS_DungeonDweller.description>Носители комфортно чувствуют себя в замкнутых пространствах и под землей, не страдая от клаустрофобии.</GS_DungeonDweller.description>
+  <GS_DHoarder.description>Носители этого гена становятся счастливее по мере роста богатства колонии, но впадают в депрессию и ярость в бедности.
+
+&lt;i&gt;&lt;color=#66E0E4FF&gt;Kabouter Xenotype&lt;/color&gt;&lt;/i&gt;</GS_DHoarder.description>
+  <GS_DHoarder.label>сокровищница дракона</GS_DHoarder.label>
+  <GS_DungeonDweller.description>Носители этих генов не страдают от долгого пребывания под землей или в замкнутых помещениях.
+
+&lt;i&gt;&lt;color=#66E0E4FF&gt;Kabouter Xenotype&lt;/color&gt;&lt;/i&gt;</GS_DungeonDweller.description>
   <GS_DungeonDweller.label>обитатель подземелий</GS_DungeonDweller.label>
-  <GS_Fluffy_Eyebrows.description>У носителей этого гена растут неестественно густые и пышные брови.</GS_Fluffy_Eyebrows.description>
-  <GS_Fluffy_Eyebrows.label>кустистые брови</GS_Fluffy_Eyebrows.label>
-  <GS_Fluffy_Eyebrows.symbolPack.prefixSymbols.0.symbol>бровастый</GS_Fluffy_Eyebrows.symbolPack.prefixSymbols.0.symbol>
-  <GS_Fluffy_Eyebrows.symbolPack.suffixSymbols.0.symbol>брови</GS_Fluffy_Eyebrows.symbolPack.suffixSymbols.0.symbol>
-  <GS_GHigh_Pointy.description>Носители этого гена обладают длинными заостренными ушами.</GS_GHigh_Pointy.description>
-  <GS_GHigh_Pointy.label>высокие острые уши</GS_GHigh_Pointy.label>
-  <GS_Greedy.description>Носители этого гена одержимы богатством и материальной наживой.</GS_Greedy.description>
-  <GS_Greedy.label>алчность</GS_Greedy.label>
+  <GS_Fluffy_Eyebrows.description>У носителей этого гена неестественно густые и пышные брови.
+
+&lt;i&gt;&lt;color=#66E0E4FF&gt;Kabouter Xenotype&lt;/color&gt;&lt;/i&gt;</GS_Fluffy_Eyebrows.description>
+  <GS_Fluffy_Eyebrows.label>пушистые брови</GS_Fluffy_Eyebrows.label>
+  <GS_Fluffy_Eyebrows.symbolPack.prefixSymbols.0.symbol>брове</GS_Fluffy_Eyebrows.symbolPack.prefixSymbols.0.symbol>
+  <GS_Fluffy_Eyebrows.symbolPack.suffixSymbols.0.symbol>бровый</GS_Fluffy_Eyebrows.symbolPack.suffixSymbols.0.symbol>
+  <GS_GHigh_Pointy.description>У носителей этого гена вырастают длинные заострённые уши.
+
+&lt;i&gt;&lt;color=#66E0E4FF&gt;Kabouter Xenotype&lt;/color&gt;&lt;/i&gt;</GS_GHigh_Pointy.description>
+  <GS_GHigh_Pointy.label>заострённые уши</GS_GHigh_Pointy.label>
+  <GS_Greedy.description>Носители этого гена жадны до богатств.
+
+&lt;i&gt;&lt;color=#66E0E4FF&gt;Kabouter Xenotype&lt;/color&gt;&lt;/i&gt;</GS_Greedy.description>
+  <GS_Greedy.label>жадный</GS_Greedy.label>
   <GS_Greedy.labelShortAdj>жадный</GS_Greedy.labelShortAdj>
-  <GS_Hoarder.description>Носители проявляют чудеса изобретательности в хранении вещей, находя свободное место там, где другие бы даже не подумали искать.</GS_Hoarder.description>
-  <GS_Hoarder.label>барахольщик</GS_Hoarder.label>
+  <GS_Hoarder.description>Носители этого гена изобретательны в хранении вещей. Они находят место для складирования там, где другие бы и не подумали.
+
+&lt;i&gt;&lt;color=#66E0E4FF&gt;Kabouter Xenotype&lt;/color&gt;&lt;/i&gt;</GS_Hoarder.description>
+  <GS_Hoarder.label>накопитель</GS_Hoarder.label>
   <GS_Hoarder.labelShortAdj>накопитель</GS_Hoarder.labelShortAdj>
-  <GS_MidasLung.description>Легкие носителя невосприимчивы к болезням от курения, таким как астма или карцинома.</GS_MidasLung.description>
-  <GS_MidasLung.label>мидасовы легкие</GS_MidasLung.label>
-  <GS_MiningYield.description>Усердные горняки от природы, способные добывать существенно больше ценных минералов из каждой жилы.</GS_MiningYield.description>
-  <GS_MiningYield.label>прилежный шахтер</GS_MiningYield.label>
+  <GS_MidasLung.description>У носителей этого гена никогда не развиваются заболевания от курения, такие как астма или карцинома лёгких.
+
+&lt;i&gt;&lt;color=#66E0E4FF&gt;Kabouter Xenotype&lt;/color&gt;&lt;/i&gt;</GS_MidasLung.description>
+  <GS_MidasLung.label>лёгкие мидаса</GS_MidasLung.label>
+  <GS_MiningYield.description>Носители этих генов прилежно добывают руду и способны извлекать больше ресурсов при горных работах.
+
+&lt;i&gt;&lt;color=#66E0E4FF&gt;Kabouter Xenotype&lt;/color&gt;&lt;/i&gt;</GS_MiningYield.description>
+  <GS_MiningYield.label>усердный шахтёр</GS_MiningYield.label>
   <GS_MiningYield.labelShortAdj>усердный шахтёр</GS_MiningYield.labelShortAdj>
-  <GS_Mockery.description>Получают садистское удовольствие, намеренно выводя окружающих из душевного равновесия и насмехаясь над их неудачами.</GS_Mockery.description>
-  <GS_Mockery.label>злобный насмешник</GS_Mockery.label>
+  <GS_Mockery.description>Носители этих генов способны намеренно провоцировать окружающих ради собственного удовольствия, питаясь их несчастьем.
+
+&lt;i&gt;&lt;color=#66E0E4FF&gt;Kabouter Xenotype&lt;/color&gt;&lt;/i&gt;</GS_Mockery.description>
+  <GS_Mockery.label>злая насмешка</GS_Mockery.label>
   <GS_Quirky.customEffectDescriptions>Добавляет негативную мысль пешкам без этого гена.</GS_Quirky.customEffectDescriptions>
-  <GS_Quirky.customEffectDescriptions.0>Добавляет негативные мысли пешкам без этого гена.</GS_Quirky.customEffectDescriptions.0>
-  <GS_Quirky.description>Носители этого гена ведут себя эксцентрично: нервно дергаются или говорят взахлеб. Окружающие часто считают их странными.</GS_Quirky.description>
-  <GS_Quirky.label>чудаковатость</GS_Quirky.label>
+  <GS_Quirky.customEffectDescriptions.0>Вызывает негативные мысли у пешек без этого гена.</GS_Quirky.customEffectDescriptions.0>
+  <GS_Quirky.description>Носители этого гена ведут себя необычно: подёргиваются или говорят скороговоркой. Окружающие могут находить их странными.
+
+&lt;i&gt;&lt;color=#66E0E4FF&gt;Kabouter Xenotype&lt;/color&gt;&lt;/i&gt;</GS_Quirky.description>
+  <GS_Quirky.label>причудливый</GS_Quirky.label>
   <GS_Quirky.labelShortAdj>причудливый</GS_Quirky.labelShortAdj>
-  <GS_bulbous_Gnose.description>Носители этого гена обладают характерным округлым носом, напоминающим гоблинский.</GS_bulbous_Gnose.description>
-  <GS_bulbous_Gnose.label>клубневидный нос</GS_bulbous_Gnose.label>
-  <GS_chirpy.description>Носители говорят высоким, стрекочущим голосом, похожим на птичий щебет.</GS_chirpy.description>
-  <GS_chirpy.label>чирикающий голос</GS_chirpy.label>
+  <GS_bulbous_Gnose.description>У носителей этого гена крупный гоблиноподобный нос.
+
+&lt;i&gt;&lt;color=#66E0E4FF&gt;Kabouter Xenotype&lt;/color&gt;&lt;/i&gt;</GS_bulbous_Gnose.description>
+  <GS_bulbous_Gnose.label>шишковидный нос</GS_bulbous_Gnose.label>
+  <GS_chirpy.description>У носителей этого гена высокий щебечущий тембр голоса.
+
+&lt;i&gt;&lt;color=#66E0E4FF&gt;Kabouter Xenotype&lt;/color&gt;&lt;/i&gt;</GS_chirpy.description>
+  <GS_chirpy.label>щебечущий голос</GS_chirpy.label>
 </LanguageData>

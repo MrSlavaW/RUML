@@ -1,21 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <AB_Calcified.label>окаменелый гравий</AB_Calcified.label>
-  <AB_CandySand.label>сахарный песок</AB_CandySand.label>
+  <AB_Calcified.label>окаменевший гравий</AB_Calcified.label>
+  <AB_CandySand.label>песочный сахар</AB_CandySand.label>
+  <AB_CerebrospinalFluidFlood.label>разлив спинномозговой жидкости</AB_CerebrospinalFluidFlood.label>
+  <AB_CerebrospinalFluid_Deep.label>глубокая спинномозговая жидкость</AB_CerebrospinalFluid_Deep.label>
+  <AB_CerebrospinalFluid_MovingChestDeep.label>текучая спинномозговая жидкость</AB_CerebrospinalFluid_MovingChestDeep.label>
+  <AB_CerebrospinalFluid_MovingShallow.label>текучая спинномозговая жидкость</AB_CerebrospinalFluid_MovingShallow.label>
+  <AB_CerebrospinalFluid_Shallow.label>спинномозговая жидкость</AB_CerebrospinalFluid_Shallow.label>
   <AB_CeruleanSoil.label>лазурная почва</AB_CeruleanSoil.label>
+  <AB_CeruleanSoilRich.label>плодородная лазурная почва</AB_CeruleanSoilRich.label>
   <AB_ChocolateSoil.label>шоколадная почва</AB_ChocolateSoil.label>
   <AB_ChocolateSoilRich.label>плодородная шоколадная почва</AB_ChocolateSoilRich.label>
+  <AB_CompactedSand.label>уплотнённый песок</AB_CompactedSand.label>
   <AB_Cream.label>взбитые сливки</AB_Cream.label>
   <AB_Crystallized.label>кристаллизованный гравий</AB_Crystallized.label>
-  <AB_DryFlowerySoil.label>сухая цветочная почва</AB_DryFlowerySoil.label>
+  <AB_DarkGravel.label>тёмный гравий</AB_DarkGravel.label>
+  <AB_DryFlowerySoil.label>сухая цветущая почва</AB_DryFlowerySoil.label>
+  <AB_FertileGrassyFlowerySoil_Oversaturated.label>перенасыщенная цветущая почва</AB_FertileGrassyFlowerySoil_Oversaturated.label>
+  <AB_FertileMarsh.label>плодородное болото</AB_FertileMarsh.label>
   <AB_FinestoneCragstone.description>Изысканная каменная плитка из скальной породы.</AB_FinestoneCragstone.description>
   <AB_FinestoneMudstone.description>Изысканная каменная плитка из аргиллита для демонстрации высокого статуса.</AB_FinestoneMudstone.description>
   <AB_FinestoneObsidian.description>Изысканная плитка из глубокого обсидиана.</AB_FinestoneObsidian.description>
   <AB_FinestoneRoseQuartz.description>Изысканная каменная плитка из розового кварца, изготовленная без компромиссов для демонстрации статуса.</AB_FinestoneRoseQuartz.description>
-  <AB_GauranlenSoil.label>гауранленовая почва</AB_GauranlenSoil.label>
-  <AB_HealingSpringwater.label>целебная вода</AB_HealingSpringwater.label>
-  <AB_MutagenicOcularWater.label>окулярная вода</AB_MutagenicOcularWater.label>
-  <AB_Quicksand.label>зыбучие пески</AB_Quicksand.label>
-  <AB_Strawberry.label>клубничная глазурь</AB_Strawberry.label>
-  <AB_ToxicFlowerySoil.label>токсичная цветочная почва</AB_ToxicFlowerySoil.label>
+  <AB_GauranlenSoil.label>почва гауранлен</AB_GauranlenSoil.label>
+  <AB_GauranlenSoilRich.label>плодородная почва гауранлен</AB_GauranlenSoilRich.label>
+  <AB_HealingSpringwater.label>целебная родниковая вода</AB_HealingSpringwater.label>
+  <AB_LightRedFlood.label>разлив красной воды</AB_LightRedFlood.label>
+  <AB_LightRedWaterDeep.label>глубокая светло-красная вода</AB_LightRedWaterDeep.label>
+  <AB_LightRedWaterMovingChestDeep.label>глубокая текучая красная вода</AB_LightRedWaterMovingChestDeep.label>
+  <AB_LightRedWaterMovingShallow.label>текучая красная вода</AB_LightRedWaterMovingShallow.label>
+  <AB_LightRedWaterOceanDeep.label>глубокий красный океан</AB_LightRedWaterOceanDeep.label>
+  <AB_LightRedWaterOceanShallow.label>мелкий красный океан</AB_LightRedWaterOceanShallow.label>
+  <AB_LightRedWaterShallow.label>светло-красная вода</AB_LightRedWaterShallow.label>
+  <AB_LiquidCreamFlood.label>разлив сливок</AB_LiquidCreamFlood.label>
+  <AB_LiquidCream_Deep.label>глубокие сливки</AB_LiquidCream_Deep.label>
+  <AB_LiquidCream_MovingChestDeep.label>глубокие текучие сливки</AB_LiquidCream_MovingChestDeep.label>
+  <AB_LiquidCream_MovingShallow.label>текучие сливки</AB_LiquidCream_MovingShallow.label>
+  <AB_LiquidCream_Shallow.label>мелкие сливки</AB_LiquidCream_Shallow.label>
+  <AB_LiquidLava.label>жидкая лава</AB_LiquidLava.label>
+  <AB_LiquidSlime.label>жидкая слизь</AB_LiquidSlime.label>
+  <AB_MutagenicOcularWater.label>мутагенная окулярная вода</AB_MutagenicOcularWater.label>
+  <AB_MutagenicOcularWaterFlood.label>мутагенная окулярная вода</AB_MutagenicOcularWaterFlood.label>
+  <AB_PropaneLake.label>пропановое озеро</AB_PropaneLake.label>
+  <AB_Quicksand.label>зыбучий песок</AB_Quicksand.label>
+  <AB_Strawberry.label>клубничная почва</AB_Strawberry.label>
+  <AB_Tar.label>смола</AB_Tar.label>
+  <AB_ToxicFertileGrassyFlowerySoil.label>токсичная плодородная почва</AB_ToxicFertileGrassyFlowerySoil.label>
+  <AB_ToxicFlowerySoil.label>токсичная цветущая почва</AB_ToxicFlowerySoil.label>
+  <AB_VolcanicGravel.label>вулканический гравий</AB_VolcanicGravel.label>
+  <GU_AlienSoftSand.label>инопланетный красный песок</GU_AlienSoftSand.label>
+  <GU_RedWaterDeep.label>глубокая красная вода</GU_RedWaterDeep.label>
+  <GU_RedWaterMovingChestDeep.label>глубокая текучая красная вода</GU_RedWaterMovingChestDeep.label>
+  <GU_RedWaterMovingShallow.label>текучая красная вода</GU_RedWaterMovingShallow.label>
+  <GU_RedWaterOceanDeep.label>глубокий красный океан</GU_RedWaterOceanDeep.label>
+  <GU_RedWaterOceanShallow.label>мелкий красный океан</GU_RedWaterOceanShallow.label>
+  <GU_RedWaterShallow.label>мелкая красная вода</GU_RedWaterShallow.label>
 </LanguageData>

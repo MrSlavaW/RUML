@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <AGI_EnableGenepackChanges>Должны ли альфапаки и смешанные паки выглядеть как обычные генопаки? (требуется перезапуск)</AGI_EnableGenepackChanges>
-  <AGI_EnableGenepackChangesDescription>При отключении альфапаки и смешанные паки будут использовать свои оригинальные названия и графику. Это не повлияет на названия уже существующих паков.
+  <AGI_EnableGenepackChanges>Должны ли альфа-пакеты и смешанные пакеты выглядеть как обычные генопакеты? (требуется перезапуск игры)</AGI_EnableGenepackChanges>
+  <AGI_EnableGenepackChangesDescription>Отключение вернёт оригинальные названия и графику для альфа-пакетов и смешанных пакетов. Также удалит смешанные пакеты из ассортимента торговцев.
 
-Также убирает смешанные паки из инвентаря торговцев.
+Требует перезагрузки игры.</AGI_EnableGenepackChangesDescription>
+  <AGI_EnableStinkyPatch>Не должны ли вонючие пешки раздражать других вонючих пешек? (требуется перезапуск игры)</AGI_EnableStinkyPatch>
+  <AGI_EnableStinkyPatchDescription>Отключение этой опции отменит снятие штрафа -15 к отношениям между пешками с геном неприятного запаха.
 
-Вступает в силу после перезапуска игры.</AGI_EnableGenepackChangesDescription>
-  <AGI_EnableStinkyPatch>Должны ли вонючие пешки нормально относиться к другим вонючим пешкам? (требуется перезапуск)</AGI_EnableStinkyPatch>
-  <AGI_EnableStinkyPatchDescription>При отключении штраф -15 к отношениям между пешками с геном неприятного запаха больше не будет аннулироваться.
+Требует перезагрузки игры.</AGI_EnableStinkyPatchDescription>
+  <AGI_EnableXenotypes>Добавлять гены Alpha Genes в ванильные ксенотипы? (требуется перезапуск игры)</AGI_EnableXenotypes>
+  <AGI_EnableXenotypesDescription>Отключение этой опции заставит вновь создаваемые ксенотипы появляться без изменений из этого мода. Не влияет на уже существующих пешек.
 
-Вступает в силу после перезапуска игры.</AGI_EnableStinkyPatchDescription>
-  <AGI_EnableXenotypes>Добавлять ли гены Alpha Genes в ванильные ксенотипы? (требуется перезапуск)</AGI_EnableXenotypes>
-  <AGI_EnableXenotypesDescription>При отключении вновь создаваемые ксенотипы будут появляться без изменений из этого мода. Это не повлияет на уже существующих пешек.
-
-Вступает в силу после перезапуска игры.</AGI_EnableXenotypesDescription>
+Требует перезагрузки игры.</AGI_EnableXenotypesDescription>
 </LanguageData>

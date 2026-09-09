@@ -1,5 +1,6 @@
 {
   "packageId": "scorpio.voefactory",
-  "version": "1.0.0",
-  "description": "Русская локализация для мода VOE_Factory."
+  "version": "1.1.0",
+  "description": "Русская локализация для мода VOE_Factory.",
+  "author": "MrSlavaV"
 }

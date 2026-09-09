@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PS_ArchotechAscendant.stages.0.label>конвергенция</PS_ArchotechAscendant.stages.0.label>
+  <PS_ArchotechAscendant.stages.1.label>логический движок</PS_ArchotechAscendant.stages.1.label>
+  <PS_ArchotechAscendant.stages.2.label>данные</PS_ArchotechAscendant.stages.2.label>
+  <PS_Chronos.stages.0.label>песочные часы</PS_Chronos.stages.0.label>
+  <PS_Chronos.stages.1.label>дилатация</PS_Chronos.stages.1.label>
+  <PS_Consonance.stages.0.label>резонанс</PS_Consonance.stages.0.label>
+  <PS_Consonance.stages.1.label>аккорд</PS_Consonance.stages.1.label>
+  <PS_Empyrean.stages.0.label>звездочёт</PS_Empyrean.stages.0.label>
+  <PS_Empyrean.stages.1.label>дальновидение</PS_Empyrean.stages.1.label>
+  <PS_Pandemonium.stages.0.label>искра</PS_Pandemonium.stages.0.label>
+  <PS_Pandemonium.stages.1.label>бешенство</PS_Pandemonium.stages.1.label>
+  <PS_PsychicResonance.stages.0.label>настроенный</PS_PsychicResonance.stages.0.label>
+  <PS_TranquilMind.stages.0.label>покой</PS_TranquilMind.stages.0.label>
+  <PS_TranquilMind.stages.1.label>безмятежность</PS_TranquilMind.stages.1.label>
+  <PS_UmbralSovereign.stages.0.label>сумрачный покров</PS_UmbralSovereign.stages.0.label>
+  <PS_UmbralSovereign.stages.1.label>тень</PS_UmbralSovereign.stages.1.label>
+  <PS_UmbralSovereign.stages.2.label>сумерки</PS_UmbralSovereign.stages.2.label>
+  <PS_UmbralSovereign.stages.3.label>затмение</PS_UmbralSovereign.stages.3.label>
+</LanguageData>

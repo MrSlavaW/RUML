@@ -7,8 +7,18 @@
   <AB_ChocolateInEyes.labelNoun>шоколад</AB_ChocolateInEyes.labelNoun>
   <AB_CreamInEyes.battleStateLabel>ослеплен</AB_CreamInEyes.battleStateLabel>
   <AB_CreamInEyes.labelNoun>взбитые сливки</AB_CreamInEyes.labelNoun>
+  <AB_Gangrene.labelNounPretty>{0} в {1}</AB_Gangrene.labelNounPretty>
   <AB_MalevolentEye.label>зловещий глаз</AB_MalevolentEye.label>
+  <AB_MalevolentEye.stages.0.label>слабый</AB_MalevolentEye.stages.0.label>
+  <AB_MalevolentEye.stages.1.label>тяжёлый</AB_MalevolentEye.stages.1.label>
+  <AB_MalevolentEye.stages.2.label>критический</AB_MalevolentEye.stages.2.label>
+  <AB_PsychotropicFungusTolerance.stages.0.label>малая</AB_PsychotropicFungusTolerance.stages.0.label>
+  <AB_PsychotropicFungusTolerance.stages.1.label>высокая</AB_PsychotropicFungusTolerance.stages.1.label>
+  <AB_PsychotropicFungusTolerance.stages.2.label>массивная</AB_PsychotropicFungusTolerance.stages.2.label>
   <AB_SlimeInEyes.battleStateLabel>ослеплен</AB_SlimeInEyes.battleStateLabel>
+  <AB_SporesAllergy_Heightened.stages.0.label>лёгкая</AB_SporesAllergy_Heightened.stages.0.label>
+  <AB_SporesAllergy_Heightened.stages.1.label>тяжёлая</AB_SporesAllergy_Heightened.stages.1.label>
+  <AB_SporesAllergy_Heightened.stages.2.label>критическая</AB_SporesAllergy_Heightened.stages.2.label>
   <AB_StrawberryInEyes.battleStateLabel>ослеплен</AB_StrawberryInEyes.battleStateLabel>
   <AB_StrawberryInEyes.labelNoun>клубника</AB_StrawberryInEyes.labelNoun>
 </LanguageData>

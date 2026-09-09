@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <RS_DeadlifeDust.symbolPack.prefixSymbols.0.symbol>прах</RS_DeadlifeDust.symbolPack.prefixSymbols.0.symbol>
+  <RS_DeadlifeDust.symbolPack.prefixSymbols.1.symbol>мёртв</RS_DeadlifeDust.symbolPack.prefixSymbols.1.symbol>
+  <RS_DeadlifeDust.symbolPack.prefixSymbols.2.symbol>жизн</RS_DeadlifeDust.symbolPack.prefixSymbols.2.symbol>
+  <RS_DeadlifeDust.symbolPack.prefixSymbols.3.symbol>шамблер</RS_DeadlifeDust.symbolPack.prefixSymbols.3.symbol>
+  <RS_DeadlifeDust.symbolPack.suffixSymbols.0.symbol>воскреситель</RS_DeadlifeDust.symbolPack.suffixSymbols.0.symbol>
+  <RS_DeadlifeDust.symbolPack.wholeNameSymbols.0.symbol>воскреситель</RS_DeadlifeDust.symbolPack.wholeNameSymbols.0.symbol>
+  <RS_PsychicSlaughter.symbolPack.prefixSymbols.0.symbol>резн</RS_PsychicSlaughter.symbolPack.prefixSymbols.0.symbol>
+  <RS_PsychicSlaughter.symbolPack.prefixSymbols.1.symbol>мясник</RS_PsychicSlaughter.symbolPack.prefixSymbols.1.symbol>
+  <RS_PsychicSlaughter.symbolPack.prefixSymbols.2.symbol>искажённ</RS_PsychicSlaughter.symbolPack.prefixSymbols.2.symbol>
+  <RS_PsychicSlaughter.symbolPack.prefixSymbols.3.symbol>ужасн</RS_PsychicSlaughter.symbolPack.prefixSymbols.3.symbol>
+  <RS_PsychicSlaughter.symbolPack.suffixSymbols.0.symbol>мясник</RS_PsychicSlaughter.symbolPack.suffixSymbols.0.symbol>
+  <RS_PsychicSlaughter.symbolPack.wholeNameSymbols.0.symbol>мясник</RS_PsychicSlaughter.symbolPack.wholeNameSymbols.0.symbol>
+  <RS_ShapeFlesh.symbolPack.prefixSymbols.0.symbol>трансформ</RS_ShapeFlesh.symbolPack.prefixSymbols.0.symbol>
+  <RS_ShapeFlesh.symbolPack.prefixSymbols.1.symbol>ваятель</RS_ShapeFlesh.symbolPack.prefixSymbols.1.symbol>
+  <RS_ShapeFlesh.symbolPack.prefixSymbols.2.symbol>перестрой</RS_ShapeFlesh.symbolPack.prefixSymbols.2.symbol>
+  <RS_ShapeFlesh.symbolPack.prefixSymbols.3.symbol>ужасн</RS_ShapeFlesh.symbolPack.prefixSymbols.3.symbol>
+  <RS_ShapeFlesh.symbolPack.suffixSymbols.0.symbol>ваятель</RS_ShapeFlesh.symbolPack.suffixSymbols.0.symbol>
+  <RS_ShapeFlesh.symbolPack.wholeNameSymbols.0.symbol>ваятель</RS_ShapeFlesh.symbolPack.wholeNameSymbols.0.symbol>
+  <RS_TransmuteSteel.symbolPack.prefixSymbols.0.symbol>трансмут</RS_TransmuteSteel.symbolPack.prefixSymbols.0.symbol>
+  <RS_TransmuteSteel.symbolPack.prefixSymbols.1.symbol>перестрой</RS_TransmuteSteel.symbolPack.prefixSymbols.1.symbol>
+  <RS_TransmuteSteel.symbolPack.prefixSymbols.2.symbol>атом</RS_TransmuteSteel.symbolPack.prefixSymbols.2.symbol>
+  <RS_TransmuteSteel.symbolPack.prefixSymbols.3.symbol>вещественн</RS_TransmuteSteel.symbolPack.prefixSymbols.3.symbol>
+  <RS_TransmuteSteel.symbolPack.suffixSymbols.0.symbol>преобразователь</RS_TransmuteSteel.symbolPack.suffixSymbols.0.symbol>
+  <RS_TransmuteSteel.symbolPack.wholeNameSymbols.0.symbol>преобразователь</RS_TransmuteSteel.symbolPack.wholeNameSymbols.0.symbol>
+  <RS_UnnaturalHealing.symbolPack.prefixSymbols.0.symbol>неестественн</RS_UnnaturalHealing.symbolPack.prefixSymbols.0.symbol>
+  <RS_UnnaturalHealing.symbolPack.prefixSymbols.1.symbol>исцел</RS_UnnaturalHealing.symbolPack.prefixSymbols.1.symbol>
+  <RS_UnnaturalHealing.symbolPack.prefixSymbols.2.symbol>тёмн</RS_UnnaturalHealing.symbolPack.prefixSymbols.2.symbol>
+  <RS_UnnaturalHealing.symbolPack.prefixSymbols.3.symbol>пси</RS_UnnaturalHealing.symbolPack.prefixSymbols.3.symbol>
+  <RS_UnnaturalHealing.symbolPack.suffixSymbols.0.symbol>целитель</RS_UnnaturalHealing.symbolPack.suffixSymbols.0.symbol>
+  <RS_UnnaturalHealing.symbolPack.wholeNameSymbols.0.symbol>целитель</RS_UnnaturalHealing.symbolPack.wholeNameSymbols.0.symbol>
   <RS_VoidTouched.customEffectDescriptions>Дает состояние касания пустоты!</RS_VoidTouched.customEffectDescriptions>
-  <RS_VoidTouched.labelShortAdj>затронутый пустотой</RS_VoidTouched.labelShortAdj>
+  <RS_VoidTouched.customEffectDescriptions.0>Даёт состояние коснувшегося пустоты!</RS_VoidTouched.customEffectDescriptions.0>
+  <RS_VoidTouched.labelShortAdj>коснувшийся пустоты</RS_VoidTouched.labelShortAdj>
+  <RS_VoidTouched.symbolPack.prefixSymbols.0.symbol>пустот</RS_VoidTouched.symbolPack.prefixSymbols.0.symbol>
+  <RS_VoidTouched.symbolPack.prefixSymbols.1.symbol>касан</RS_VoidTouched.symbolPack.prefixSymbols.1.symbol>
+  <RS_VoidTouched.symbolPack.prefixSymbols.2.symbol>объят</RS_VoidTouched.symbolPack.prefixSymbols.2.symbol>
+  <RS_VoidTouched.symbolPack.prefixSymbols.3.symbol>оскверн</RS_VoidTouched.symbolPack.prefixSymbols.3.symbol>
+  <RS_VoidTouched.symbolPack.suffixSymbols.0.symbol>тёмный</RS_VoidTouched.symbolPack.suffixSymbols.0.symbol>
+  <RS_VoidTouched.symbolPack.suffixSymbols.1.symbol>пустотный</RS_VoidTouched.symbolPack.suffixSymbols.1.symbol>
+  <RS_VoidTouched.symbolPack.suffixSymbols.2.symbol>порченый</RS_VoidTouched.symbolPack.suffixSymbols.2.symbol>
+  <RS_VoidTouched.symbolPack.suffixSymbols.3.symbol>белый</RS_VoidTouched.symbolPack.suffixSymbols.3.symbol>
+  <RS_VoidTouched.symbolPack.wholeNameSymbols.0.symbol>объявший</RS_VoidTouched.symbolPack.wholeNameSymbols.0.symbol>
+  <RS_VoidTouched.symbolPack.wholeNameSymbols.1.symbol>пьющий</RS_VoidTouched.symbolPack.wholeNameSymbols.1.symbol>
 </LanguageData>

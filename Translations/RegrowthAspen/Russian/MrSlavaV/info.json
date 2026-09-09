@@ -1,5 +1,6 @@
 {
   "packageId": "regrowth.botr.aspenforest",
-  "version": "1.0.0",
-  "description": "Русская локализация для мода RegrowthAspen."
+  "version": "1.1.0",
+  "description": "Русская локализация для мода RegrowthAspen.",
+  "author": "MrSlavaV"
 }

@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <VOEFactory_RecyclingInProgress>В настоящее время перерабатывается {0} предметов. Обработка завершится через {1}.</VOEFactory_RecyclingInProgress>
+  <VOEFactory_RecyclingInProgress>В процессе переработки {0} предметов. Завершится через {1}.</VOEFactory_RecyclingInProgress>
 </LanguageData>

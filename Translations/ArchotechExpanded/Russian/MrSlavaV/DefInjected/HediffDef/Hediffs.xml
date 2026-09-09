@@ -3,7 +3,7 @@
   <AdvancedArchotechArm.label>кулак</AdvancedArchotechArm.label>
   <AdvancedArchotechArm.labelNoun>продвинутая архотек-рука</AdvancedArchotechArm.labelNoun>
   <AdvancedArchotechLeg.labelNoun>продвинутая архотек-нога</AdvancedArchotechLeg.labelNoun>
-  <ArchotechBrainMelder.labelNoun>архотек-слиятель разума</ArchotechBrainMelder.labelNoun>
+  <ArchotechBrainMelder.labelNoun>архотек-соединитель разума</ArchotechBrainMelder.labelNoun>
   <ArchotechDeathClaw.label>коготь</ArchotechDeathClaw.label>
   <ArchotechDeathClaw.labelNoun>архотек-коготь смерти</ArchotechDeathClaw.labelNoun>
   <ArchotechDenture.labelNoun>архотек-челюсть</ArchotechDenture.labelNoun>
@@ -11,10 +11,10 @@
   <ArchotechHeart.labelNoun>архотек-сердце</ArchotechHeart.labelNoun>
   <ArchotechKidney.labelNoun>архотек-почка</ArchotechKidney.labelNoun>
   <ArchotechLiver.labelNoun>архотек-печень</ArchotechLiver.labelNoun>
-  <ArchotechLung.labelNoun>архотек-легкое</ArchotechLung.labelNoun>
+  <ArchotechLung.labelNoun>архотек-лёгкое</ArchotechLung.labelNoun>
   <ArchotechMembrane.labelNoun>архотек-мембрана</ArchotechMembrane.labelNoun>
   <ArchotechObliterator.label>кулак</ArchotechObliterator.label>
-  <ArchotechObliterator.labelNoun>архотек-дезинтегратор</ArchotechObliterator.labelNoun>
+  <ArchotechObliterator.labelNoun>архотек-аннигилятор</ArchotechObliterator.labelNoun>
   <ArchotechPelvis.labelNoun>архотек-таз</ArchotechPelvis.labelNoun>
   <ArchotechRegenerationMatrix.labelNoun>архотек-матрица регенерации</ArchotechRegenerationMatrix.labelNoun>
   <ArchotechSpine.labelNoun>архотек-позвоночник</ArchotechSpine.labelNoun>

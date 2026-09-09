@@ -1,5 +1,6 @@
 {
   "packageId": "sarg.alphabiomes",
-  "version": "1.0.0",
-  "description": "Русская локализация для мода AlphaBiomes."
+  "version": "1.1.0",
+  "description": "Русская локализация для мода AlphaBiomes.",
+  "author": "MrSlavaV"
 }

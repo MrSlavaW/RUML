@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <PS_AwakeningSurge.description>Атмосфера наполнена остаточной пси-энергией, ускоряющей накопление пси-фокуса.</PS_AwakeningSurge.description>
-  <PS_AwakeningSurge.endMessage>Всплеск пси-пробуждения миновал.</PS_AwakeningSurge.endMessage>
-  <PS_AwakeningSurge.label>всплеск пси-поля</PS_AwakeningSurge.label>
-  <PS_AwakeningSurge.letterText>Волна псионического резонанса прокатилась по региону. Пока она длится, прорывы в медитации даются намного легче, а медитирующие колонисты могут спонтанно пробудиться как псионики.</PS_AwakeningSurge.letterText>
+  <PS_AwakeningSurge.description>Волна психического резонанса прокатилась по региону. Медитация проникает глубже обычного, и спящие разумы могут пробудиться мгновенно.
+
+&lt;i&gt;&lt;color=#66E0E4FF&gt;Psycasts²&lt;/color&gt;&lt;/i&gt;</PS_AwakeningSurge.description>
+  <PS_AwakeningSurge.endMessage>Всплеск психического пробуждения угас.</PS_AwakeningSurge.endMessage>
+  <PS_AwakeningSurge.label>всплеск психического пробуждения</PS_AwakeningSurge.label>
+  <PS_AwakeningSurge.letterText>Волна психического резонанса омывает регион. Пока она длится, прорывы в медитации даются намного легче, а медитирующие колонисты могут спонтанно пробудиться как псионики.</PS_AwakeningSurge.letterText>
 </LanguageData>

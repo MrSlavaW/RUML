@@ -1,5 +1,6 @@
 {
   "packageId": "resplice.xotr.core",
-  "version": "1.0.0",
-  "description": "Русская локализация для мода RespliceCore."
+  "version": "1.1.0",
+  "description": "Русская локализация для мода RespliceCore.",
+  "author": "MrSlavaV"
 }

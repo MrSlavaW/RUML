@@ -1,5 +1,6 @@
 {
   "packageId": "rebuild.cotr.doorsandcorners",
-  "version": "1.0.0",
-  "description": "Русская локализация для мода RebuildDoorsCorners."
+  "version": "1.1.0",
+  "description": "Русская локализация для мода RebuildDoorsCorners.",
+  "author": "MrSlavaV"
 }

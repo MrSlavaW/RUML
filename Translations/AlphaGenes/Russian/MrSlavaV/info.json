@@ -1,5 +1,6 @@
 {
   "packageId": "sarg.alphagenes",
-  "version": "1.0.0",
-  "description": "Русская локализация для мода AlphaGenes."
+  "version": "1.1.0",
+  "description": "Русская локализация для мода AlphaGenes.",
+  "author": "MrSlavaV"
 }

@@ -1,5 +1,6 @@
 {
   "packageId": "sarg.alpharandom",
-  "version": "1.0.0",
-  "description": "Русская локализация для мода AlphaRandom."
+  "version": "1.1.0",
+  "description": "Русская локализация для мода AlphaRandom.",
+  "author": "MrSlavaV"
 }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AM_BanquetNamer.rulePack.rulesStrings>
+    <li>buildingName-&gt;[descriptor] [category]</li>
+    <li>buildingName-&gt;[category] «[specialDetail]»</li>
+    <li>descriptor-&gt;Пышный</li>
+    <li>descriptor-&gt;Роскошный</li>
+    <li>descriptor-&gt;Экстравагантный</li>
+    <li>descriptor-&gt;Церемониальный</li>
+    <li>descriptor-&gt;Величественный</li>
+    <li>category-&gt;Банкетный зал</li>
+    <li>category-&gt;Обеденный павильон</li>
+    <li>category-&gt;Зал пиров</li>
+    <li>category-&gt;Зал торжеств</li>
+    <li>category-&gt;Праздничный стол</li>
+    <li>specialDetail-&gt;Безграничное изобилие</li>
+    <li>specialDetail-&gt;Вечный праздник</li>
+    <li>specialDetail-&gt;Славное единство</li>
+    <li>specialDetail-&gt;Дары урожая</li>
+    <li>specialDetail-&gt;Бесконечное процветание</li>
+    <li>specialDetail-&gt;Пир эпох</li>
+  </AM_BanquetNamer.rulePack.rulesStrings>
+</LanguageData>

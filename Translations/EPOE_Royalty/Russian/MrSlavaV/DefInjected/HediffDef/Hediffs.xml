@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EPOE_AdvancedDrillArm.label>бур</EPOE_AdvancedDrillArm.label>
+  <EPOE_AdvancedElbowBlade.label>порез</EPOE_AdvancedElbowBlade.label>
+  <EPOE_AdvancedFieldHand.label>кастет</EPOE_AdvancedFieldHand.label>
+  <EPOE_AdvancedHandTalon.label>коготь</EPOE_AdvancedHandTalon.label>
+  <EPOE_AdvancedKneeSpike.label>укол</EPOE_AdvancedKneeSpike.label>
+  <EPOE_ScytherElbowBlade.label>лезвие</EPOE_ScytherElbowBlade.label>
+  <EPOE_ScytherHandTalon.label>коготь</EPOE_ScytherHandTalon.label>
+  <EPOE_ScytherKneeSpike.label>шип</EPOE_ScytherKneeSpike.label>
+</LanguageData>

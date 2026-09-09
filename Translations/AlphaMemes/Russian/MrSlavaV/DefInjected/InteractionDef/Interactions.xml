@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AM_Speech_Baptism.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+  </AM_Speech_Baptism.logRulesInitiator.rulesStrings>
+  <AM_Speech_DirtmoleConversion.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+  </AM_Speech_DirtmoleConversion.logRulesInitiator.rulesStrings>
+  <AM_Speech_Flagellation.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic].</li>
+  </AM_Speech_Flagellation.logRulesInitiator.rulesStrings>
+  <AM_Speech_Flagellation_Flagellant.logRulesInitiator.rulesStrings>
+    <li>r_logentry-&gt;[INITIATOR_nameDef] [spokeof] [speechtopic]. [argh]</li>
+  </AM_Speech_Flagellation_Flagellant.logRulesInitiator.rulesStrings>
+</LanguageData>

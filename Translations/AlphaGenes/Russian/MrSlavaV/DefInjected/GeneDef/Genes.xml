@@ -1,11 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <AG_AcidicDetonation.symbolPack.prefixSymbols.0.symbol>едк</AG_AcidicDetonation.symbolPack.prefixSymbols.0.symbol>
+  <AG_AcidicDetonation.symbolPack.prefixSymbols.1.symbol>кислот</AG_AcidicDetonation.symbolPack.prefixSymbols.1.symbol>
+  <AG_ArmourMajor.symbolPack.prefixSymbols.0.symbol>адамант</AG_ArmourMajor.symbolPack.prefixSymbols.0.symbol>
+  <AG_ArmourMedium.symbolPack.prefixSymbols.0.symbol>желез</AG_ArmourMedium.symbolPack.prefixSymbols.0.symbol>
+  <AG_ArmourMedium.symbolPack.prefixSymbols.1.symbol>металл</AG_ArmourMedium.symbolPack.prefixSymbols.1.symbol>
+  <AG_ArmourMinor.symbolPack.prefixSymbols.0.symbol>кора</AG_ArmourMinor.symbolPack.prefixSymbols.0.symbol>
+  <AG_AsexualFission.symbolPack.prefixSymbols.0.symbol>асекс-</AG_AsexualFission.symbolPack.prefixSymbols.0.symbol>
+  <AG_AsexualFission.symbolPack.prefixSymbols.1.symbol>беспол</AG_AsexualFission.symbolPack.prefixSymbols.1.symbol>
+  <AG_AsexualFission.symbolPack.prefixSymbols.2.symbol>деление</AG_AsexualFission.symbolPack.prefixSymbols.2.symbol>
+  <AG_AveAffinity.symbolPack.prefixSymbols.0.symbol>птиц</AG_AveAffinity.symbolPack.prefixSymbols.0.symbol>
+  <AG_AveAffinity.symbolPack.prefixSymbols.1.symbol>ави</AG_AveAffinity.symbolPack.prefixSymbols.1.symbol>
+  <AG_Beauty_Angelic.symbolPack.prefixSymbols.0.symbol>ангел</AG_Beauty_Angelic.symbolPack.prefixSymbols.0.symbol>
+  <AG_Beauty_Angelic.symbolPack.prefixSymbols.1.symbol>святой</AG_Beauty_Angelic.symbolPack.prefixSymbols.1.symbol>
+  <AG_Beauty_Angelic.symbolPack.prefixSymbols.2.symbol>свет</AG_Beauty_Angelic.symbolPack.prefixSymbols.2.symbol>
+  <AG_Beauty_Angelic.symbolPack.prefixSymbols.3.symbol>звезд</AG_Beauty_Angelic.symbolPack.prefixSymbols.3.symbol>
+  <AG_Beauty_Angelic.symbolPack.prefixSymbols.4.symbol>серафим</AG_Beauty_Angelic.symbolPack.prefixSymbols.4.symbol>
+  <AG_Beauty_Angelic.symbolPack.prefixSymbols.5.symbol>божественн</AG_Beauty_Angelic.symbolPack.prefixSymbols.5.symbol>
+  <AG_Beauty_VeryVeryUgly.symbolPack.prefixSymbols.0.symbol>мрачн</AG_Beauty_VeryVeryUgly.symbolPack.prefixSymbols.0.symbol>
+  <AG_Beauty_VeryVeryUgly.symbolPack.prefixSymbols.1.symbol>жутк</AG_Beauty_VeryVeryUgly.symbolPack.prefixSymbols.1.symbol>
+  <AG_Beauty_VeryVeryUgly.symbolPack.prefixSymbols.2.symbol>урод</AG_Beauty_VeryVeryUgly.symbolPack.prefixSymbols.2.symbol>
+  <AG_Beauty_VeryVeryUgly.symbolPack.prefixSymbols.3.symbol>увечн</AG_Beauty_VeryVeryUgly.symbolPack.prefixSymbols.3.symbol>
+  <AG_Beauty_VeryVeryUgly.symbolPack.prefixSymbols.4.symbol>чудищ</AG_Beauty_VeryVeryUgly.symbolPack.prefixSymbols.4.symbol>
+  <AG_Beauty_VeryVeryUgly.symbolPack.prefixSymbols.5.symbol>мерзк</AG_Beauty_VeryVeryUgly.symbolPack.prefixSymbols.5.symbol>
+  <AG_ColdImmunity.symbolPack.prefixSymbols.0.symbol>холод</AG_ColdImmunity.symbolPack.prefixSymbols.0.symbol>
+  <AG_ColdImmunity.symbolPack.prefixSymbols.1.symbol>прохлад</AG_ColdImmunity.symbolPack.prefixSymbols.1.symbol>
+  <AG_ColdImmunity.symbolPack.prefixSymbols.2.symbol>лёд</AG_ColdImmunity.symbolPack.prefixSymbols.2.symbol>
+  <AG_Detonation.symbolPack.prefixSymbols.0.symbol>бум</AG_Detonation.symbolPack.prefixSymbols.0.symbol>
+  <AG_Detonation.symbolPack.prefixSymbols.1.symbol>взрыв</AG_Detonation.symbolPack.prefixSymbols.1.symbol>
+  <AG_FissionMouseAffinity.symbolPack.prefixSymbols.0.symbol>делен</AG_FissionMouseAffinity.symbolPack.prefixSymbols.0.symbol>
+  <AG_FissionMouseAffinity.symbolPack.prefixSymbols.1.symbol>мышь</AG_FissionMouseAffinity.symbolPack.prefixSymbols.1.symbol>
   <AG_FleshSpitter.customEffectDescriptions.0>-0.4% рассудка в день</AG_FleshSpitter.customEffectDescriptions.0>
+  <AG_FrailSkin.symbolPack.prefixSymbols.0.symbol>хрупк</AG_FrailSkin.symbolPack.prefixSymbols.0.symbol>
+  <AG_FrailSkin.symbolPack.prefixSymbols.1.symbol>тонкокож</AG_FrailSkin.symbolPack.prefixSymbols.1.symbol>
+  <AG_FreezingBreath.symbolPack.prefixSymbols.0.symbol>холод</AG_FreezingBreath.symbolPack.prefixSymbols.0.symbol>
+  <AG_FreezingBreath.symbolPack.prefixSymbols.1.symbol>лёд</AG_FreezingBreath.symbolPack.prefixSymbols.1.symbol>
+  <AG_FreezingBreath.symbolPack.prefixSymbols.2.symbol>крио</AG_FreezingBreath.symbolPack.prefixSymbols.2.symbol>
+  <AG_FreezingBreath.symbolPack.wholeNameSymbols.0.symbol>морозитель</AG_FreezingBreath.symbolPack.wholeNameSymbols.0.symbol>
+  <AG_FungalSkin.symbolPack.prefixSymbols.0.symbol>гриб</AG_FungalSkin.symbolPack.prefixSymbols.0.symbol>
+  <AG_FungalSkin.symbolPack.prefixSymbols.1.symbol>мицел</AG_FungalSkin.symbolPack.prefixSymbols.1.symbol>
+  <AG_FungalSkin.symbolPack.prefixSymbols.2.symbol>споро</AG_FungalSkin.symbolPack.prefixSymbols.2.symbol>
+  <AG_GreaterAcidicVomit.symbolPack.prefixSymbols.0.symbol>кислот</AG_GreaterAcidicVomit.symbolPack.prefixSymbols.0.symbol>
+  <AG_GreaterAcidicVomit.symbolPack.prefixSymbols.1.symbol>едк</AG_GreaterAcidicVomit.symbolPack.prefixSymbols.1.symbol>
+  <AG_GreaterAcidicVomit.symbolPack.prefixSymbols.2.symbol>жгуч</AG_GreaterAcidicVomit.symbolPack.prefixSymbols.2.symbol>
+  <AG_GreaterAcidicVomit.symbolPack.prefixSymbols.3.symbol>оксо</AG_GreaterAcidicVomit.symbolPack.prefixSymbols.3.symbol>
+  <AG_GreaterAcidicVomit.symbolPack.suffixSymbols.0.symbol>распылитель</AG_GreaterAcidicVomit.symbolPack.suffixSymbols.0.symbol>
+  <AG_GreaterAcidicVomit.symbolPack.suffixSymbols.1.symbol>плеватель</AG_GreaterAcidicVomit.symbolPack.suffixSymbols.1.symbol>
+  <AG_GreaterFireSpew.symbolPack.prefixSymbols.0.symbol>огонь</AG_GreaterFireSpew.symbolPack.prefixSymbols.0.symbol>
+  <AG_GreaterFireSpew.symbolPack.prefixSymbols.1.symbol>пламя</AG_GreaterFireSpew.symbolPack.prefixSymbols.1.symbol>
+  <AG_GreaterFireSpew.symbolPack.prefixSymbols.10.symbol>пепел</AG_GreaterFireSpew.symbolPack.prefixSymbols.10.symbol>
+  <AG_GreaterFireSpew.symbolPack.prefixSymbols.2.symbol>костёр</AG_GreaterFireSpew.symbolPack.prefixSymbols.2.symbol>
+  <AG_GreaterFireSpew.symbolPack.prefixSymbols.3.symbol>пиро</AG_GreaterFireSpew.symbolPack.prefixSymbols.3.symbol>
+  <AG_GreaterFireSpew.symbolPack.prefixSymbols.4.symbol>искра</AG_GreaterFireSpew.symbolPack.prefixSymbols.4.symbol>
+  <AG_GreaterFireSpew.symbolPack.prefixSymbols.5.symbol>уголь</AG_GreaterFireSpew.symbolPack.prefixSymbols.5.symbol>
+  <AG_GreaterFireSpew.symbolPack.prefixSymbols.6.symbol>изверг</AG_GreaterFireSpew.symbolPack.prefixSymbols.6.symbol>
+  <AG_GreaterFireSpew.symbolPack.prefixSymbols.7.symbol>ожог</AG_GreaterFireSpew.symbolPack.prefixSymbols.7.symbol>
+  <AG_GreaterFireSpew.symbolPack.prefixSymbols.8.symbol>зажигат</AG_GreaterFireSpew.symbolPack.prefixSymbols.8.symbol>
+  <AG_GreaterFireSpew.symbolPack.prefixSymbols.9.symbol>зола</AG_GreaterFireSpew.symbolPack.prefixSymbols.9.symbol>
+  <AG_GreaterFireSpew.symbolPack.suffixSymbols.0.symbol>свет</AG_GreaterFireSpew.symbolPack.suffixSymbols.0.symbol>
+  <AG_GreaterFireSpew.symbolPack.suffixSymbols.1.symbol>поджигатель</AG_GreaterFireSpew.symbolPack.suffixSymbols.1.symbol>
+  <AG_GreaterFireSpew.symbolPack.suffixSymbols.2.symbol>пиро</AG_GreaterFireSpew.symbolPack.suffixSymbols.2.symbol>
+  <AG_GreaterFireSpew.symbolPack.suffixSymbols.3.symbol>пепел</AG_GreaterFireSpew.symbolPack.suffixSymbols.3.symbol>
+  <AG_GreaterFireSpew.symbolPack.wholeNameSymbols.0.symbol>сжигатель</AG_GreaterFireSpew.symbolPack.wholeNameSymbols.0.symbol>
+  <AG_GreaterFireSpew.symbolPack.wholeNameSymbols.1.symbol>воспламенитель</AG_GreaterFireSpew.symbolPack.wholeNameSymbols.1.symbol>
   <AG_GreaterFleshWhip.customEffectDescriptions.0>-0.4% рассудка в день</AG_GreaterFleshWhip.customEffectDescriptions.0>
   <AG_GreaterToughspikes.customEffectDescriptions.0>-0.4% рассудка в день</AG_GreaterToughspikes.customEffectDescriptions.0>
+  <AG_HeatImmunity.symbolPack.prefixSymbols.0.symbol>жар</AG_HeatImmunity.symbolPack.prefixSymbols.0.symbol>
+  <AG_HeatImmunity.symbolPack.prefixSymbols.1.symbol>зной</AG_HeatImmunity.symbolPack.prefixSymbols.1.symbol>
+  <AG_HeatImmunity.symbolPack.prefixSymbols.2.symbol>солнце</AG_HeatImmunity.symbolPack.prefixSymbols.2.symbol>
+  <AG_HeatImmunity.symbolPack.prefixSymbols.3.symbol>пот</AG_HeatImmunity.symbolPack.prefixSymbols.3.symbol>
+  <AG_HeatImmunity.symbolPack.prefixSymbols.4.symbol>пекло</AG_HeatImmunity.symbolPack.prefixSymbols.4.symbol>
+  <AG_InnatePsylink.symbolPack.prefixSymbols.0.symbol>пси</AG_InnatePsylink.symbolPack.prefixSymbols.0.symbol>
+  <AG_InnatePsylink.symbolPack.prefixSymbols.1.symbol>разум</AG_InnatePsylink.symbolPack.prefixSymbols.1.symbol>
+  <AG_InnatePsylink.symbolPack.suffixSymbols.0.symbol>пси</AG_InnatePsylink.symbolPack.suffixSymbols.0.symbol>
+  <AG_MiningYield_High.symbolPack.prefixSymbols.0.symbol>металл</AG_MiningYield_High.symbolPack.prefixSymbols.0.symbol>
+  <AG_Mood_Unfeeling.symbolPack.prefixSymbols.0.symbol>робот</AG_Mood_Unfeeling.symbolPack.prefixSymbols.0.symbol>
+  <AG_Mood_Unfeeling.symbolPack.prefixSymbols.1.symbol>чёрств</AG_Mood_Unfeeling.symbolPack.prefixSymbols.1.symbol>
+  <AG_Mood_Unfeeling.symbolPack.prefixSymbols.2.symbol>бессердечн</AG_Mood_Unfeeling.symbolPack.prefixSymbols.2.symbol>
+  <AG_NeedlerollAffinity.symbolPack.prefixSymbols.0.symbol>кактус</AG_NeedlerollAffinity.symbolPack.prefixSymbols.0.symbol>
+  <AG_NeedlerollAffinity.symbolPack.prefixSymbols.1.symbol>растение</AG_NeedlerollAffinity.symbolPack.prefixSymbols.1.symbol>
+  <AG_NoxiousBreath.symbolPack.prefixSymbols.0.symbol>токс</AG_NoxiousBreath.symbolPack.prefixSymbols.0.symbol>
+  <AG_NoxiousBreath.symbolPack.prefixSymbols.1.symbol>ядовит</AG_NoxiousBreath.symbolPack.prefixSymbols.1.symbol>
+  <AG_NoxiousBreath.symbolPack.prefixSymbols.2.symbol>отрыг-</AG_NoxiousBreath.symbolPack.prefixSymbols.2.symbol>
+  <AG_NoxiousBreath.symbolPack.wholeNameSymbols.0.symbol>изрыгатель</AG_NoxiousBreath.symbolPack.wholeNameSymbols.0.symbol>
   <AG_OcularAffinity.symbolPack.prefixSymbols.0.symbol>глазо</AG_OcularAffinity.symbolPack.prefixSymbols.0.symbol>
   <AG_OcularAffinity.symbolPack.prefixSymbols.1.symbol>окул</AG_OcularAffinity.symbolPack.prefixSymbols.1.symbol>
+  <AG_OcularJellyAffinity.symbolPack.prefixSymbols.0.symbol>окул</AG_OcularJellyAffinity.symbolPack.prefixSymbols.0.symbol>
+  <AG_PetrifyingGaze.symbolPack.prefixSymbols.0.symbol>окамен</AG_PetrifyingGaze.symbolPack.prefixSymbols.0.symbol>
+  <AG_PetrifyingGaze.symbolPack.prefixSymbols.1.symbol>медуз</AG_PetrifyingGaze.symbolPack.prefixSymbols.1.symbol>
+  <AG_PetrifyingGaze.symbolPack.prefixSymbols.2.symbol>горгон</AG_PetrifyingGaze.symbolPack.prefixSymbols.2.symbol>
+  <AG_PsychicInsanity.symbolPack.prefixSymbols.0.symbol>безум</AG_PsychicInsanity.symbolPack.prefixSymbols.0.symbol>
+  <AG_PsychicInsanity.symbolPack.prefixSymbols.1.symbol>помешан</AG_PsychicInsanity.symbolPack.prefixSymbols.1.symbol>
+  <AG_PsychicInsanity.symbolPack.prefixSymbols.2.symbol>ярост</AG_PsychicInsanity.symbolPack.prefixSymbols.2.symbol>
+  <AG_PsychicSight.symbolPack.prefixSymbols.0.symbol>пси</AG_PsychicSight.symbolPack.prefixSymbols.0.symbol>
+  <AG_PsychicSight.symbolPack.prefixSymbols.1.symbol>слеп</AG_PsychicSight.symbolPack.prefixSymbols.1.symbol>
+  <AG_PsychicSight.symbolPack.suffixSymbols.0.symbol>видящий</AG_PsychicSight.symbolPack.suffixSymbols.0.symbol>
+  <AG_PsychicSight.symbolPack.suffixSymbols.1.symbol>взор</AG_PsychicSight.symbolPack.suffixSymbols.1.symbol>
+  <AG_RedFogger.symbolPack.prefixSymbols.0.symbol>туман</AG_RedFogger.symbolPack.prefixSymbols.0.symbol>
+  <AG_RedFogger.symbolPack.prefixSymbols.1.symbol>мгла</AG_RedFogger.symbolPack.prefixSymbols.1.symbol>
+  <AG_RedFogger.symbolPack.prefixSymbols.2.symbol>сырость</AG_RedFogger.symbolPack.prefixSymbols.2.symbol>
+  <AG_Spinnerets.symbolPack.prefixSymbols.0.symbol>паутин</AG_Spinnerets.symbolPack.prefixSymbols.0.symbol>
+  <AG_Spinnerets.symbolPack.prefixSymbols.1.symbol>прядиль</AG_Spinnerets.symbolPack.prefixSymbols.1.symbol>
+  <AG_Spinnerets.symbolPack.prefixSymbols.2.symbol>паук</AG_Spinnerets.symbolPack.prefixSymbols.2.symbol>
+  <AG_Spinnerets.symbolPack.prefixSymbols.3.symbol>арахн</AG_Spinnerets.symbolPack.prefixSymbols.3.symbol>
+  <AG_UnsettlingAppearance.symbolPack.prefixSymbols.0.symbol>тревожн</AG_UnsettlingAppearance.symbolPack.prefixSymbols.0.symbol>
   <VRE_HairColor_Ocular.description>Носители этого гена имеют особый цвет волос. При наличии нескольких генов цвета волос случайным образом выбирается один из них.</VRE_HairColor_Ocular.description>
   <VRE_SkinColor_OcularBark.symbolPack.prefixSymbols.0.symbol>окул</VRE_SkinColor_OcularBark.symbolPack.prefixSymbols.0.symbol>
   <VRE_SkinColor_OcularBark.symbolPack.prefixSymbols.1.symbol>глазо</VRE_SkinColor_OcularBark.symbolPack.prefixSymbols.1.symbol>
+  <VRE_SkinColor_OcularBark.symbolPack.wholeNameSymbols.0.symbol>окулярокожий</VRE_SkinColor_OcularBark.symbolPack.wholeNameSymbols.0.symbol>
 </LanguageData>

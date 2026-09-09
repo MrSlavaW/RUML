@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AM_AtheismDescription.rules.rulesStrings>
+    <li>r_pattern-&gt;[r_atheismlessonIntro] [r_lesson]. [r_lessonReinforcement] [r_atheismlessonReinforcement]
+
+ — [lessonAttribution]</li>
+  </AM_AtheismDescription.rules.rulesStrings>
+  <AM_CorsairDescription.rules.rulesStrings>
+    <li>r_pattern-&gt;[r_corsairlessonIntro] [r_lesson]. [r_lessonReinforcement]
+
+ — [lessonAttribution]</li>
+  </AM_CorsairDescription.rules.rulesStrings>
+  <AM_CubicDescription.rules.rulesStrings>
+    <li>r_pattern-&gt;"[r_cubicismlessonIntro] [r_lesson]. [r_cubicismlessonReinforcement]"
+
+  — [lessonAttribution]</li>
+    <li>lessonAttribution-&gt;[book] [founder_nameFull] : [concept]</li>
+  </AM_CubicDescription.rules.rulesStrings>
+  <AM_FleshDescription.rules.rulesStrings>
+    <li>r_pattern-&gt;"[r_fleshlessonIntro] [r_lesson]. [r_fleshlessonReinforcement]"
+
+  — [lessonAttribution]</li>
+    <li>lessonAttribution-&gt;[book] [founder_nameFull] : [concept]</li>
+  </AM_FleshDescription.rules.rulesStrings>
+  <AM_HoraxianDescription.rules.rulesStrings>
+    <li>r_pattern-&gt;"[r_horaxianlessonIntro] [r_lesson]. [r_horaxianlessonReinforcement]"
+
+  — [lessonAttribution]</li>
+    <li>lessonAttribution-&gt;[book] [founder_nameFull] : [concept]</li>
+  </AM_HoraxianDescription.rules.rulesStrings>
+  <AM_JainistDescription.rules.rulesStrings>
+    <li>lessonAttribution-&gt;[founder_nameFull], [book], [revision]</li>
+    <li>lessonAttribution-&gt;[founder_nameFull], [book], [revision], [edition]</li>
+  </AM_JainistDescription.rules.rulesStrings>
+  <AM_JewishDescription.rules.rulesStrings>
+    <li>r_pattern-&gt;[r_jewishlessonIntro] [r_lesson]. [r_lessonReinforcement] [r_jewlessonReinforcement]
+
+ — [lessonAttribution]</li>
+    <li>lessonAttribution-&gt;[founder_nameFull], [book], [revision]</li>
+    <li>lessonAttribution-&gt;[founder_nameFull], [book], [revision], [edition]</li>
+  </AM_JewishDescription.rules.rulesStrings>
+  <AM_KemeticDescription.rules.rulesStrings>
+    <li>r_pattern-&gt;[r_kemeticlessonIntro] [r_lesson]. [r_lessonReinforcement] [r_kemeticlessonReinforcement]
+
+ — [lessonAttribution]</li>
+  </AM_KemeticDescription.rules.rulesStrings>
+  <AM_NeolithicDescription.rules.rulesStrings>
+    <li>r_pattern-&gt;[r_neolithiclessonIntro] [r_lesson]. [r_lessonReinforcement]</li>
+  </AM_NeolithicDescription.rules.rulesStrings>
+  <AM_ScavengerDescription.rules.rulesStrings>
+    <li>r_pattern-&gt;[r_scavengerlessonIntro] [r_lesson]. [r_lessonReinforcement]</li>
+  </AM_ScavengerDescription.rules.rulesStrings>
+  <AM_SikhDescription.rules.rulesStrings>
+    <li>r_pattern-&gt;[r_sikhlessonIntro] [r_lesson]. [r_lessonReinforcement] [r_sikhlessonReinforcement]
+
+ — [lessonAttribution]</li>
+    <li>lessonAttribution-&gt;[founder_nameFull], [book], [revision]</li>
+    <li>lessonAttribution-&gt;[founder_nameFull], [book], [revision], [edition]</li>
+  </AM_SikhDescription.rules.rulesStrings>
+  <AM_SteampunkRevivalDescription.rules.rulesStrings>
+    <li>r_pattern-&gt;[r_steampunklessonIntro] [r_lesson]. [r_lessonReinforcement]
+
+ — [lessonAttribution]</li>
+  </AM_SteampunkRevivalDescription.rules.rulesStrings>
+</LanguageData>

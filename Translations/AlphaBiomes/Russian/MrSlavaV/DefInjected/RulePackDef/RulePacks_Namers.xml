@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AB_NamerLandmark_AnimaDesert.rulePack.rulesStrings>
+    <li>r_name(p=0.2)-&gt;[terrain_word] [NamePerson]</li>
+  </AB_NamerLandmark_AnimaDesert.rulePack.rulesStrings>
+  <AB_NamerLandmark_CloverForest.rulePack.rulesStrings>
+    <li>terrain_word(p=4)-&gt;клеверный лес</li>
+    <li>terrain_word-&gt;клеверные заросли</li>
+    <li>terrain_word-&gt;роща трилистника</li>
+    <li>terrain_word-&gt;зелёная чаща</li>
+  </AB_NamerLandmark_CloverForest.rulePack.rulesStrings>
+  <AB_NamerLandmark_CorruptedIntrusion.rulePack.rulesStrings>
+    <li>terrain_word-&gt;осквернённый разлом</li>
+  </AB_NamerLandmark_CorruptedIntrusion.rulePack.rulesStrings>
+  <AB_NamerLandmark_FleshMorass.rulePack.rulesStrings>
+    <li>terrain_word-&gt;топь плоти</li>
+    <li>terrain_word-&gt;мясное болото</li>
+    <li>terrain_word-&gt;мясная трясина</li>
+    <li>terrain_word-&gt;трясина плоти</li>
+  </AB_NamerLandmark_FleshMorass.rulePack.rulesStrings>
+  <AB_NamerLandmark_GauranlenGrove.rulePack.rulesStrings>
+    <li>terrain_word-&gt;роща гауранлен</li>
+  </AB_NamerLandmark_GauranlenGrove.rulePack.rulesStrings>
+  <AB_NamerLandmark_GinkgoForest.rulePack.rulesStrings>
+    <li>terrain_word(p=4)-&gt;лес гинкго</li>
+    <li>terrain_word-&gt;роща гинкго</li>
+    <li>terrain_word-&gt;золотые гинкго</li>
+  </AB_NamerLandmark_GinkgoForest.rulePack.rulesStrings>
+  <AB_NamerLandmark_GnawingSands.rulePack.rulesStrings>
+    <li>terrain_word-&gt;грызущие пески</li>
+  </AB_NamerLandmark_GnawingSands.rulePack.rulesStrings>
+  <AB_NamerLandmark_LivingCrystalBed.rulePack.rulesStrings>
+    <li>terrain_word-&gt;сад живых кристаллов</li>
+    <li>terrain_word-&gt;пульсирующее кристаллическое поле</li>
+    <li>terrain_word-&gt;кристаллическое ложе альционита</li>
+    <li>terrain_word-&gt;дышащая кристаллическая роща</li>
+    <li>terrain_word-&gt;просторы живых кристаллов</li>
+    <li>terrain_word-&gt;кристаллические наросты</li>
+    <li>terrain_word-&gt;сад альционита</li>
+  </AB_NamerLandmark_LivingCrystalBed.rulePack.rulesStrings>
+  <AB_NamerLandmark_MauvebloomFields.rulePack.rulesStrings>
+    <li>terrain_word(p=4)-&gt;поля розовато-лиловых цветов</li>
+    <li>terrain_word-&gt;пурпурные луга</li>
+    <li>terrain_word-&gt;сиреневые равнины</li>
+    <li>terrain_word-&gt;фиолетовые цветущие земли</li>
+  </AB_NamerLandmark_MauvebloomFields.rulePack.rulesStrings>
+  <AB_NamerLandmark_OcularDesert.rulePack.rulesStrings>
+    <li>r_name(p=0.2)-&gt;[terrain_word] [NamePerson]</li>
+  </AB_NamerLandmark_OcularDesert.rulePack.rulesStrings>
+  <AB_NamerLandmark_WarpedStoneForest.rulePack.rulesStrings>
+    <li>terrain_word-&gt;искажённая каменная роща</li>
+    <li>terrain_word-&gt;пространство искривлённых колонн</li>
+    <li>terrain_word-&gt;искажённое скалистое поле</li>
+    <li>terrain_word-&gt;искажённые расколотые монолиты</li>
+    <li>terrain_word-&gt;искажённая каменная чаща</li>
+  </AB_NamerLandmark_WarpedStoneForest.rulePack.rulesStrings>
+  <VEE_NamerLandmark_CalcifiedRemnants.rulePack.rulesStrings>
+    <li>terrain_word-&gt;окаменевшие останки</li>
+  </VEE_NamerLandmark_CalcifiedRemnants.rulePack.rulesStrings>
+  <VEE_NamerLandmark_ObsidianExpanse.rulePack.rulesStrings>
+    <li>terrain_word-&gt;обсидиановые просторы</li>
+  </VEE_NamerLandmark_ObsidianExpanse.rulePack.rulesStrings>
+</LanguageData>

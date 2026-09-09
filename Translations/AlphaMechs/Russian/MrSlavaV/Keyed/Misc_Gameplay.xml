@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <AM_CantUseOnBossMechs>Механоиды-боссы оснащены усиленной системой опознавания «свой-чужой», которую невозможно взломать.</AM_CantUseOnBossMechs>
-  <AM_CantUseOnNonDowned>Нельзя использовать на дееспособных</AM_CantUseOnNonDowned>
+  <AM_CantUseOnNonDowned>Нельзя использовать на дееспособных существах</AM_CantUseOnNonDowned>
   <AM_CantUseOnNonMechs>Эта способность действует только на механоидов.</AM_CantUseOnNonMechs>
   <AM_CantUseVEMechs>Этот механоид дистанционно управляется пилотом-человеком, поэтому его нельзя взломать.</AM_CantUseVEMechs>
   <AM_EjectHemogen>Извлечь пакеты гемогена</AM_EjectHemogen>
-  <AM_EjectHemogenDesc>Извлекает все пакеты гемогена из резервуаров меха.</AM_EjectHemogenDesc>
-  <AM_HemogenStored>Содержится гемогена: {0}</AM_HemogenStored>
+  <AM_EjectHemogenDesc>Извлекает все пакеты гемогена, хранящиеся внутри емкостей механоида</AM_EjectHemogenDesc>
+  <AM_HemogenStored>Хранится пакетов гемогена: {0}</AM_HemogenStored>
   <AM_MealNutrientPaste>Производство питательной пасты</AM_MealNutrientPaste>
-  <AM_MustNotBePlacedCloseToAnother>Узлы связи не должны размещаться вплотную друг к другу.</AM_MustNotBePlacedCloseToAnother>
+  <AM_MustNotBePlacedCloseToAnother>Узлы связи и усилители пропускной способности нельзя размещать слишком близко друг к другу</AM_MustNotBePlacedCloseToAnother>
   <AM_NotEnoughBandwidth>У механитора недостаточно пропускной способности, чтобы применить эту способность к {0}.</AM_NotEnoughBandwidth>
   <AM_OnlyMechanitorCanUse>Только механитор может использовать эту способность.</AM_OnlyMechanitorCanUse>
   <AM_RandomItems>Сборка ресурсов через</AM_RandomItems>
   <AM_Reset>Сброс</AM_Reset>
-  <AM_Tier2BandAmount>Ширина полосы для узлов излучателя</AM_Tier2BandAmount>
-  <AM_Tier2BandAmountDesc>Каждый узел излучателя увеличивает пропускную способность пешки на это значение. Требуется DLC Biotech.</AM_Tier2BandAmountDesc>
-  <AM_Tier3BandAmount>Ширина полосы для узлов пустотной связи</AM_Tier3BandAmount>
-  <AM_Tier3BandAmountDesc>Каждый узел пустотной связи увеличивает пропускную способность пешки на это значение. Требуется DLC Biotech.</AM_Tier3BandAmountDesc>
-  <AM_allowAura>Разрешить ауру</AM_allowAura>
-  <AM_allowDaggersnout>Разрешить кинжалоноса</AM_allowDaggersnout>
-  <AM_allowDemolisher>Разрешить сокрушителя</AM_allowDemolisher>
-  <AM_allowFireworm>Разрешить огнечервя</AM_allowFireworm>
-  <AM_allowGoliath>Разрешить голиафа</AM_allowGoliath>
-  <AM_allowPhalanx>Разрешить фалангу</AM_allowPhalanx>
-  <AM_allowSiegebreaker>Разрешить осадника</AM_allowSiegebreaker>
+  <AM_Tier2BandAmount>Пропускная способность узла связи лучевого излучателя</AM_Tier2BandAmount>
+  <AM_Tier2BandAmountDesc>Каждый узел связи второго уровня увеличивает пропускную способность мехатора на указанное значение. Действует при наличии DLC Biotech.</AM_Tier2BandAmountDesc>
+  <AM_Tier3BandAmount>Пропускная способность узла связи пустотного передатчика</AM_Tier3BandAmount>
+  <AM_Tier3BandAmountDesc>Каждый узел связи третьего уровня увеличивает пропускную способность мехатора на указанное значение. Действует при наличии DLC Biotech.</AM_Tier3BandAmountDesc>
+  <AM_allowAura>Разрешить Ауру</AM_allowAura>
+  <AM_allowDaggersnout>Разрешить Кинжаломорда</AM_allowDaggersnout>
+  <AM_allowDemolisher>Разрешить Разрушителя</AM_allowDemolisher>
+  <AM_allowFireworm>Разрешить Огнечервя</AM_allowFireworm>
+  <AM_allowGoliath>Разрешить Голиафа</AM_allowGoliath>
+  <AM_allowPhalanx>Разрешить Фалангу</AM_allowPhalanx>
+  <AM_allowSiegebreaker>Разрешить Осадокрушителя</AM_allowSiegebreaker>
 </LanguageData>
