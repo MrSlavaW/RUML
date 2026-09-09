@@ -1,0 +1,706 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+using Verse;
+using RimWorld;
+
+namespace RUML
+{
+    public class RUMLMod : Mod
+    {
+        public static RUMLSettings Settings;
+        public static RUMLMod Instance;
+
+        private Vector2 modsScrollPos = Vector2.zero;
+        private Vector2 auditModsScrollPos = Vector2.zero;
+        private Vector2 auditResultsScrollPos = Vector2.zero;
+        private Vector2 cloudScrollPos = Vector2.zero;
+
+        private string modsSearchFilter = "";
+        private string auditSearchFilter = "";
+        private string auditResultSearchFilter = "";
+        private string cloudSearchFilter = "";
+
+        private List<ModAuditReport> lastAuditReports = null;
+        private int currentMainTab = 0; // 0: Built-in Mods, 1: Auditor, 2: GitHub Cloud
+        private int auditSubTab = 0;    // 0: Select Active Mods, 1: Audit Results
+        private int auditResultMode = 0; // 0: All, 1: With Missing, 2: 100% Translated
+        private string expandedAuditMod = "";
+
+        public static readonly List<string> KnownMods = new List<string>
+        {
+            "AlphaAnimals", "AlphaArmoury", "AlphaBiomes", "AlphaGenes", "AlphaGenesIntegrated",
+            "AlphaMechs", "AlphaMemes", "AlphaRandom", "ArchotechExpanded", "CatsBootsAndGloves",
+            "EPOE_ModularCompat", "EPOE_Royalty", "GeneExtractorTiers", "InfoCardPlus", "KabouterXenotype",
+            "MoreGroupedBuildings", "PlasmaShieldImplant", "Psycasts2", "RebuildDoorsCorners",
+            "ReelsStorage", "RegrowthAspen", "RespliceCore", "SbzFridge", "SbzGravshipStorage",
+            "SimpleSidearms", "TooManyMods", "VOE_Factory", "VanometricGenerator"
+        };
+
+        public static readonly Dictionary<string, string> FolderToPackageId = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+        {
+            { "AlphaAnimals", "sarg.alphaanimals" },
+            { "AlphaArmoury", "sarg.alphaarmoury" },
+            { "AlphaBiomes", "sarg.alphabiomes" },
+            { "AlphaGenes", "sarg.alphagenes" },
+            { "AlphaGenesIntegrated", "kupa.alphagenesintegrated" },
+            { "AlphaMechs", "sarg.alphamechs" },
+            { "AlphaMemes", "sarg.alphamemes" },
+            { "AlphaRandom", "sarg.alpharandom" },
+            { "ArchotechExpanded", "teok25.archotechexpanded.prosthetics" },
+            { "CatsBootsAndGloves", "catlover366.bootsandgloves" },
+            { "EPOE_ModularCompat", "asunib.epoeiicompat" },
+            { "EPOE_Royalty", "vat.epoeforkedroyalty" },
+            { "GeneExtractorTiers", "redmattis.geneextractor" },
+            { "InfoCardPlus", "kaamalauppias.infocardplus" },
+            { "KabouterXenotype", "sovereign.chipchipchip" },
+            { "MoreGroupedBuildings", "wsp.groupedbuildings" },
+            { "PlasmaShieldImplant", "virathas.plasmashieldimplant" },
+            { "Psycasts2", "astryl.psycasts" },
+            { "RebuildDoorsCorners", "rebuild.cotr.doorsandcorners" },
+            { "ReelsStorage", "reel.expanded.storage" },
+            { "RegrowthAspen", "regrowth.botr.aspenforest" },
+            { "RespliceCore", "resplice.xotr.core" },
+            { "SbzFridge", "sbz.neatstoragefridge" },
+            { "SbzGravshipStorage", "sbz.gravshipstorage" },
+            { "SimpleSidearms", "petetimessix.simplesidearms" },
+            { "TooManyMods", "wara.toomanymods" },
+            { "VOE_Factory", "scorpio.voefactory" },
+            { "VanometricGenerator", "hlx.vanometricgenerator" }
+        };
+
+        public RUMLMod(ModContentPack content) : base(content)
+        {
+            Instance = this;
+            Settings = GetSettings<RUMLSettings>();
+            RUMLFolderManager.Initialize(content, Settings);
+
+            // Initialize default audit selection on first launch
+            if (!Settings.auditInitialized)
+            {
+                InitDefaultAuditSelection();
+                Settings.auditInitialized = true;
+            }
+
+            // Populate cloud showcase entries if empty
+            if (RUMLCloudManager.Items.Count == 0)
+            {
+                RUMLCloudManager.LoadDefaultShowcaseItems();
+            }
+            RUMLCloudManager.RefreshLocalState(content);
+        }
+
+        private void InitDefaultAuditSelection()
+        {
+            List<string> pids = new List<string>();
+            foreach (ModContentPack m in LoadedModManager.RunningMods)
+            {
+                if (!IsVanillaOrDlc(m.PackageIdPlayerFacing))
+                {
+                    pids.Add(m.PackageIdPlayerFacing);
+                }
+            }
+            Settings.SelectAuditMods(pids);
+        }
+
+        public static bool IsVanillaOrDlc(string pid)
+        {
+            if (string.IsNullOrEmpty(pid)) return false;
+            string l = pid.ToLower();
+            return l.Equals("ludeon.rimworld") ||
+                   l.Equals("ludeon.rimworld.royalty") ||
+                   l.Equals("ludeon.rimworld.ideology") ||
+                   l.Equals("ludeon.rimworld.biotech") ||
+                   l.Equals("ludeon.rimworld.anomaly");
+        }
+
+        public override string SettingsCategory()
+        {
+            return "[RUML] Universal Localization";
+        }
+
+        public override void DoSettingsWindowContents(Rect inRect)
+        {
+            // Main Navigation Header (3 Tabs)
+            Rect tabRect = new Rect(inRect.x, inRect.y, inRect.width, 32f);
+            float tabWidth = (inRect.width - 20f) / 3f;
+
+            if (DrawTabButton(new Rect(tabRect.x, tabRect.y, tabWidth, 32f), "Установленные переводы", currentMainTab == 0))
+            {
+                currentMainTab = 0;
+            }
+            if (DrawTabButton(new Rect(tabRect.x + tabWidth + 10f, tabRect.y, tabWidth, 32f), "Аудитор любых модов", currentMainTab == 1))
+            {
+                currentMainTab = 1;
+            }
+            if (DrawTabButton(new Rect(tabRect.x + (tabWidth + 10f) * 2, tabRect.y, tabWidth, 32f), "Сторонние переводы (GitHub)", currentMainTab == 2))
+            {
+                currentMainTab = 2;
+            }
+
+            Rect contentRect = new Rect(inRect.x, inRect.y + 40f, inRect.width, inRect.height - 40f);
+
+            if (currentMainTab == 0)
+            {
+                DrawModsTab(contentRect);
+            }
+            else if (currentMainTab == 1)
+            {
+                DrawAuditTab(contentRect);
+            }
+            else
+            {
+                DrawCloudTab(contentRect);
+            }
+        }
+
+        private bool DrawTabButton(Rect r, string label, bool active)
+        {
+            Color oldColor = GUI.color;
+            if (active)
+            {
+                GUI.color = new Color(0.3f, 0.8f, 1f, 1f);
+            }
+            bool clicked = Widgets.ButtonText(r, label);
+            GUI.color = oldColor;
+            return clicked;
+        }
+
+        // =========================================================================
+        // TAB 0: BUILT-IN & INSTALLED TRANSLATIONS
+        // =========================================================================
+        private void DrawModsTab(Rect inRect)
+        {
+            List<string> allFolders = RUMLFolderManager.GetAllDiscoveredModFolders(Content);
+            if (allFolders.Count == 0)
+            {
+                Rect infoRect = new Rect(inRect.x + 10f, inRect.y + 20f, inRect.width - 20f, 65f);
+                Widgets.Label(infoRect, "Локализации ещё не установлены в RUML.\nRUML работает как автономное ядро. Вы можете скачать нужные переводы во вкладке «Сторонние переводы (GitHub)».");
+
+                Rect goBtn = new Rect(inRect.x + 10f, infoRect.yMax + 10f, 320f, 34f);
+                if (Widgets.ButtonText(goBtn, "Перейти в каталог переводов (GitHub)"))
+                {
+                    currentMainTab = 2;
+                }
+
+                Rect emptyDirRect = new Rect(inRect.x + 10f, goBtn.yMax + 14f, inRect.width - 20f, 26f);
+                string emptyTitle = "Папка сторонних переводов в AppData: " + RUMLFolderManager.GetExternalTranslationsDir();
+                if (Widgets.ButtonText(emptyDirRect, emptyTitle))
+                {
+                    RUMLCloudManager.OpenTranslationsFolderInExplorer();
+                }
+                return;
+            }
+
+            // Top Controls: Search & Batch Buttons
+            Rect topRect = new Rect(inRect.x, inRect.y, inRect.width, 32f);
+            float btnW = 120f;
+
+            Rect searchRect = new Rect(topRect.x, topRect.y, inRect.width - (btnW * 2 + 20f), 30f);
+            modsSearchFilter = Widgets.TextField(searchRect, modsSearchFilter);
+
+            if (Widgets.ButtonText(new Rect(searchRect.xMax + 10f, topRect.y, btnW, 30f), "Включить все"))
+            {
+                foreach (string m in allFolders) Settings.SetModEnabled(m, true);
+            }
+            if (Widgets.ButtonText(new Rect(searchRect.xMax + btnW + 20f, topRect.y, btnW, 30f), "Отключить все"))
+            {
+                foreach (string m in allFolders) Settings.SetModEnabled(m, false);
+            }
+
+            // Row 2: Open AppData folder button
+            Rect openDirRect = new Rect(inRect.x, inRect.y + 36f, inRect.width, 26f);
+            string appDataTitle = "Папка сторонних переводов в AppData: " + RUMLFolderManager.GetExternalTranslationsDir();
+            if (Widgets.ButtonText(openDirRect, appDataTitle))
+            {
+                RUMLCloudManager.OpenTranslationsFolderInExplorer();
+            }
+
+            // Scrollable Checkbox List
+            Rect listRect = new Rect(inRect.x, inRect.y + 66f, inRect.width, inRect.height - 116f);
+            List<string> filtered = new List<string>();
+            foreach (string folder in allFolders)
+            {
+                if (string.IsNullOrEmpty(modsSearchFilter) || folder.IndexOf(modsSearchFilter, StringComparison.OrdinalIgnoreCase) >= 0)
+                {
+                    filtered.Add(folder);
+                }
+            }
+
+            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, filtered.Count * 36f);
+            Widgets.BeginScrollView(listRect, ref modsScrollPos, viewRect);
+
+            float curY = 0f;
+            foreach (string modFolder in filtered)
+            {
+                bool isEnabled = Settings.IsModEnabled(modFolder);
+                bool isExternal = RUMLFolderManager.IsExternalModFolder(modFolder);
+
+                Rect rowRect = new Rect(0f, curY, viewRect.width, 32f);
+                Widgets.DrawHighlightIfMouseover(rowRect);
+
+                float labelW = isExternal ? (viewRect.width - 100f) : viewRect.width;
+                Rect checkRect = new Rect(0f, curY, labelW, 32f);
+
+                string tag = isExternal ? " <color=#FFA030>[AppData]</color>" : "";
+                bool newCheck = isEnabled;
+                Widgets.CheckboxLabeled(checkRect, "  " + modFolder + tag, ref newCheck);
+                if (newCheck != isEnabled)
+                {
+                    Settings.SetModEnabled(modFolder, newCheck);
+                }
+
+                // Delete button for external translations in AppData
+                if (isExternal)
+                {
+                    Rect delBtnRect = new Rect(viewRect.width - 95f, curY + 2f, 90f, 28f);
+                    Color prevCol = GUI.color;
+                    GUI.color = new Color(1f, 0.4f, 0.4f, 1f);
+                    if (Widgets.ButtonText(delBtnRect, "Удалить"))
+                    {
+                        RUMLFolderManager.DeleteTranslationFolder(modFolder, Content, Settings);
+                    }
+                    GUI.color = prevCol;
+                }
+
+                curY += 36f;
+            }
+
+            Widgets.EndScrollView();
+
+            // Bottom Apply Button
+            Rect bottomRect = new Rect(inRect.x, inRect.yMax - 40f, inRect.width, 36f);
+            if (Widgets.ButtonText(bottomRect, "Применить настройки и перезагрузить переводы в памяти игры"))
+            {
+                RUMLFolderManager.ApplyFilter(Content, Settings);
+                RUMLFolderManager.ReloadLanguage();
+            }
+        }
+
+        // =========================================================================
+        // TAB 1: MODS AUDITOR & MISSING STRINGS DISCOVERY
+        // =========================================================================
+        private void DrawAuditTab(Rect inRect)
+        {
+            // Sub-Tab Navigation Header
+            Rect subHeaderRect = new Rect(inRect.x, inRect.y, inRect.width, 30f);
+            float subW = (inRect.width - 10f) / 2f;
+
+            int selCount = Settings.auditSelectedPackageIds != null ? Settings.auditSelectedPackageIds.Count : 0;
+            int repCount = lastAuditReports != null ? lastAuditReports.Count : 0;
+
+            string sub0Label = "1. Выбор активных модов (" + selCount + " выбрано)";
+            string sub1Label = "2. Результаты анализа (" + repCount + " отчётов)";
+
+            if (DrawTabButton(new Rect(subHeaderRect.x, subHeaderRect.y, subW, 28f), sub0Label, auditSubTab == 0))
+            {
+                auditSubTab = 0;
+            }
+            if (DrawTabButton(new Rect(subHeaderRect.x + subW + 10f, subHeaderRect.y, subW, 28f), sub1Label, auditSubTab == 1))
+            {
+                auditSubTab = 1;
+            }
+
+            Rect bodyRect = new Rect(inRect.x, inRect.y + 36f, inRect.width, inRect.height - 36f);
+
+            if (auditSubTab == 0)
+            {
+                DrawAuditSelectionSubTab(bodyRect);
+            }
+            else
+            {
+                DrawAuditResultsSubTab(bodyRect);
+            }
+        }
+
+        private void DrawAuditSelectionSubTab(Rect inRect)
+        {
+            var running = LoadedModManager.RunningMods.ToList();
+
+            // Row 1: Search and Clear
+            Rect searchRect = new Rect(inRect.x, inRect.y, inRect.width - 110f, 28f);
+            auditSearchFilter = Widgets.TextField(searchRect, auditSearchFilter);
+            if (Widgets.ButtonText(new Rect(searchRect.xMax + 10f, inRect.y, 100f, 28f), "Очистить"))
+            {
+                auditSearchFilter = "";
+            }
+
+            // Row 2: Batch Selection Buttons
+            Rect btnRowRect = new Rect(inRect.x, inRect.y + 34f, inRect.width, 28f);
+            float bW = (inRect.width - 30f) / 4f;
+
+            if (Widgets.ButtonText(new Rect(btnRowRect.x, btnRowRect.y, bW, 28f), "Выбрать все"))
+            {
+                List<string> all = new List<string>();
+                foreach (var m in running) all.Add(m.PackageIdPlayerFacing);
+                Settings.SelectAuditMods(all);
+            }
+            if (Widgets.ButtonText(new Rect(btnRowRect.x + bW + 10f, btnRowRect.y, bW, 28f), "Снять все"))
+            {
+                Settings.DeselectAllAuditMods();
+            }
+            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + 10f) * 2, btnRowRect.y, bW, 28f), "Только RUML"))
+            {
+                List<string> ruml = new List<string>();
+                foreach (var m in running)
+                {
+                    if (FolderToPackageId.Values.Any(p => string.Equals(p, m.PackageIdPlayerFacing, StringComparison.OrdinalIgnoreCase)))
+                    {
+                        ruml.Add(m.PackageIdPlayerFacing);
+                    }
+                }
+                Settings.SelectAuditMods(ruml);
+            }
+            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + 10f) * 3, btnRowRect.y, bW, 28f), "Без Core/DLC"))
+            {
+                List<string> nonVanilla = new List<string>();
+                foreach (var m in running)
+                {
+                    if (!IsVanillaOrDlc(m.PackageIdPlayerFacing))
+                    {
+                        nonVanilla.Add(m.PackageIdPlayerFacing);
+                    }
+                }
+                Settings.SelectAuditMods(nonVanilla);
+            }
+
+            // Row 3: Status count
+            Rect statusRect = new Rect(inRect.x, inRect.y + 68f, inRect.width, 22f);
+            int selectedCount = Settings.auditSelectedPackageIds != null ? Settings.auditSelectedPackageIds.Count : 0;
+            Widgets.Label(statusRect, "Выбрано модов: <color=cyan>" + selectedCount + "</color> из <color=white>" + running.Count + "</color> установленных");
+
+            // Row 4: Scrollable Active Mods Checkbox List
+            Rect listRect = new Rect(inRect.x, inRect.y + 94f, inRect.width, inRect.height - 146f);
+            List<ModContentPack> filteredMods = new List<ModContentPack>();
+            foreach (var m in running)
+            {
+                if (string.IsNullOrEmpty(auditSearchFilter) ||
+                    m.Name.IndexOf(auditSearchFilter, StringComparison.OrdinalIgnoreCase) >= 0 ||
+                    m.PackageIdPlayerFacing.IndexOf(auditSearchFilter, StringComparison.OrdinalIgnoreCase) >= 0)
+                {
+                    filteredMods.Add(m);
+                }
+            }
+
+            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, filteredMods.Count * 34f);
+            Widgets.BeginScrollView(listRect, ref auditModsScrollPos, viewRect);
+
+            float curY = 0f;
+            foreach (var mod in filteredMods)
+            {
+                string pid = mod.PackageIdPlayerFacing;
+                bool isSelected = Settings.IsAuditModSelected(pid);
+                Rect rowRect = new Rect(0f, curY, viewRect.width, 30f);
+                Widgets.DrawHighlightIfMouseover(rowRect);
+
+                bool isRuml = FolderToPackageId.Values.Any(p => string.Equals(p, pid, StringComparison.OrdinalIgnoreCase));
+                bool isDlc = IsVanillaOrDlc(pid);
+
+                string tag = isRuml ? " <color=#40E0D0>[RUML]</color>" : (isDlc ? " <color=#E0B020>[Vanilla]</color>" : "");
+                string labelText = "  " + mod.Name + tag + " <color=grey>(" + pid + ")</color>";
+
+                bool newCheck = isSelected;
+                Widgets.CheckboxLabeled(rowRect, labelText, ref newCheck);
+                if (newCheck != isSelected)
+                {
+                    Settings.SetAuditModSelected(pid, newCheck);
+                }
+
+                curY += 34f;
+            }
+
+            Widgets.EndScrollView();
+
+            // Bottom Action Button: Run Audit on Selected
+            Rect bottomRect = new Rect(inRect.x, inRect.yMax - 44f, inRect.width, 40f);
+            Color oldCol = GUI.color;
+            GUI.color = new Color(0.2f, 0.9f, 0.4f, 1f);
+            string btnText = "Запустить аудит выбранных модов (" + selectedCount + ")";
+            if (Widgets.ButtonText(bottomRect, btnText))
+            {
+                lastAuditReports = RUMLAuditor.RunAudit(Settings.auditSelectedPackageIds, FolderToPackageId);
+                auditSubTab = 1;
+            }
+            GUI.color = oldCol;
+        }
+
+        private void DrawAuditResultsSubTab(Rect inRect)
+        {
+            if (lastAuditReports == null || lastAuditReports.Count == 0)
+            {
+                Rect msgRect = new Rect(inRect.x, inRect.y + 40f, inRect.width, 60f);
+                Widgets.Label(msgRect, "Аудит ещё не запускался или среди выбранных модов ничего не найдено.\nПерейдите во вкладку 'Выбор активных модов', выберите нужные моды и нажмите зеленую кнопку.");
+
+                Rect goBackRect = new Rect(inRect.x, inRect.y + 110f, 240f, 36f);
+                if (Widgets.ButtonText(goBackRect, "Перейти к выбору модов"))
+                {
+                    auditSubTab = 0;
+                }
+                return;
+            }
+
+            // Summary Header Row
+            int totalMods = lastAuditReports.Count;
+            int withMissing = 0;
+            int fullTranslated = 0;
+            int sumTotalDefs = 0;
+            int sumMissingDefs = 0;
+
+            foreach (var r in lastAuditReports)
+            {
+                sumTotalDefs += r.TotalDefs;
+                sumMissingDefs += r.MissingDefs;
+                if (r.MissingDefs > 0) withMissing++;
+                else fullTranslated++;
+            }
+            float avgPercent = sumTotalDefs > 0 ? ((float)(sumTotalDefs - sumMissingDefs) / sumTotalDefs * 100f) : 100f;
+
+            Rect sumRect = new Rect(inRect.x, inRect.y, inRect.width, 24f);
+            string sumText = "Проверено: <b>" + totalMods + "</b> модов | Дефов: <b>" + sumTotalDefs + "</b> | Не переведено: <color=#FF6B6B><b>" + sumMissingDefs + "</b></color> | Покрытие: <b>" + avgPercent.ToString("F1") + "%</b>";
+            Widgets.Label(sumRect, sumText);
+
+            // Action Buttons Row
+            Rect actRow = new Rect(inRect.x, inRect.y + 28f, inRect.width, 30f);
+            float actW = (inRect.width - 20f) / 3f;
+
+            if (Widgets.ButtonText(new Rect(actRow.x, actRow.y, actW, 30f), "Экспорт на Рабочий стол"))
+            {
+                string f = RUMLAuditor.ExportReportToFile(lastAuditReports);
+                Messages.Message("RUML: Отчёт успешно сохранён на Рабочий стол: " + f, MessageTypeDefOf.PositiveEvent, false);
+            }
+            if (Widgets.ButtonText(new Rect(actRow.x + actW + 10f, actRow.y, actW, 30f), "Повторить аудит"))
+            {
+                lastAuditReports = RUMLAuditor.RunAudit(Settings.auditSelectedPackageIds, FolderToPackageId);
+            }
+            if (Widgets.ButtonText(new Rect(actRow.x + (actW + 10f) * 2, actRow.y, actW, 30f), "Изменить выбор модов"))
+            {
+                auditSubTab = 0;
+            }
+
+            // Filter & Search Row
+            Rect filterRow = new Rect(inRect.x, inRect.y + 64f, inRect.width, 28f);
+            float fBtnW = 120f;
+            Rect srchR = new Rect(filterRow.x, filterRow.y, inRect.width - (fBtnW * 3 + 20f), 28f);
+            auditResultSearchFilter = Widgets.TextField(srchR, auditResultSearchFilter);
+
+            if (DrawTabButton(new Rect(srchR.xMax + 10f, filterRow.y, fBtnW, 28f), "Все (" + totalMods + ")", auditResultMode == 0))
+            {
+                auditResultMode = 0;
+            }
+            if (DrawTabButton(new Rect(srchR.xMax + fBtnW + 15f, filterRow.y, fBtnW, 28f), "С пропусками (" + withMissing + ")", auditResultMode == 1))
+            {
+                auditResultMode = 1;
+            }
+            if (DrawTabButton(new Rect(srchR.xMax + (fBtnW * 2) + 20f, filterRow.y, fBtnW, 28f), "100% (" + fullTranslated + ")", auditResultMode == 2))
+            {
+                auditResultMode = 2;
+            }
+
+            // Filtered results list
+            List<ModAuditReport> filtered = new List<ModAuditReport>();
+            foreach (var rep in lastAuditReports)
+            {
+                if (auditResultMode == 1 && rep.MissingDefs == 0) continue;
+                if (auditResultMode == 2 && rep.MissingDefs > 0) continue;
+
+                if (!string.IsNullOrEmpty(auditResultSearchFilter))
+                {
+                    if (rep.ModName.IndexOf(auditResultSearchFilter, StringComparison.OrdinalIgnoreCase) < 0 &&
+                        rep.PackageId.IndexOf(auditResultSearchFilter, StringComparison.OrdinalIgnoreCase) < 0)
+                    {
+                        continue;
+                    }
+                }
+                filtered.Add(rep);
+            }
+
+            // Scrollable Results List
+            Rect listRect = new Rect(inRect.x, inRect.y + 98f, inRect.width, inRect.height - 100f);
+
+            float totalContentH = 0f;
+            foreach (var rep in filtered)
+            {
+                totalContentH += (expandedAuditMod == rep.PackageId) ? (50f + Math.Min(rep.MissingList.Count, 15) * 20f + 25f) : 52f;
+            }
+
+            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, Math.Max(totalContentH, listRect.height));
+            Widgets.BeginScrollView(listRect, ref auditResultsScrollPos, viewRect);
+
+            float y = 0f;
+            foreach (var rep in filtered)
+            {
+                bool isExpanded = (expandedAuditMod == rep.PackageId);
+                float cardH = isExpanded ? (50f + Math.Min(rep.MissingList.Count, 15) * 20f + 25f) : 50f;
+
+                Rect row = new Rect(0f, y, viewRect.width, cardH);
+                Widgets.DrawBoxSolid(row, new Color(0.15f, 0.15f, 0.15f, 0.4f));
+                Widgets.DrawHighlightIfMouseover(row);
+
+                // Top Line: Mod Name, PackageId, Tag
+                string tag = rep.IsRUMLMod ? " <color=#40E0D0>[RUML]</color>" : "";
+                string title = "<b>" + rep.ModName + "</b>" + tag + " <color=grey>(" + rep.PackageId + ")</color>";
+                Widgets.Label(new Rect(row.x + 8f, row.y + 4f, row.width - 150f, 22f), title);
+
+                // Right percentage badge
+                Color pCol = rep.Percent >= 99.9f ? new Color(0.2f, 0.9f, 0.3f) : (rep.Percent >= 50f ? new Color(1f, 0.8f, 0.2f) : new Color(1f, 0.3f, 0.3f));
+                string pText = "<color=#" + ColorUtility.ToHtmlStringRGB(pCol) + "><b>" + rep.Percent.ToString("F1") + "%</b></color>";
+                Widgets.Label(new Rect(row.width - 140f, row.y + 4f, 130f, 22f), pText);
+
+                // Bottom Line: Counts and Status
+                string sub = "Переведено: " + rep.TranslatedDefs + " / " + rep.TotalDefs + "  |  " +
+                             (rep.MissingDefs > 0
+                                 ? "<color=#FF7070>Не переведено: " + rep.MissingDefs + " элементов</color>"
+                                 : "<color=#50E050>100% Переведено (полное покрытие)</color>");
+                Widgets.Label(new Rect(row.x + 8f, row.y + 26f, row.width - 160f, 20f), sub);
+
+                // Expand Missing Details Button
+                if (rep.MissingDefs > 0)
+                {
+                    Rect expBtnRect = new Rect(row.width - 150f, row.y + 24f, 140f, 22f);
+                    string expBtnLabel = isExpanded ? "Скрыть детали ▲" : ("Пропуски (" + rep.MissingList.Count + ") ▼");
+                    if (Widgets.ButtonText(expBtnRect, expBtnLabel))
+                    {
+                        expandedAuditMod = isExpanded ? "" : rep.PackageId;
+                    }
+                }
+
+                // Expanded missing lines preview
+                if (isExpanded)
+                {
+                    float lineY = row.y + 50f;
+                    int showCount = Math.Min(rep.MissingList.Count, 15);
+                    for (int i = 0; i < showCount; i++)
+                    {
+                        Rect lineR = new Rect(row.x + 16f, lineY, row.width - 32f, 18f);
+                        Widgets.Label(lineR, "<color=#FFB0B0>• " + rep.MissingList[i] + "</color>");
+                        lineY += 20f;
+                    }
+                    if (rep.MissingList.Count > showCount)
+                    {
+                        Rect moreR = new Rect(row.x + 16f, lineY, row.width - 32f, 18f);
+                        Widgets.Label(moreR, "<color=grey>... и ещё " + (rep.MissingList.Count - showCount) + " непереведённых строк (полный список доступен в экспорте на Рабочий стол).</color>");
+                    }
+                }
+
+                y += cardH + 4f;
+            }
+
+            Widgets.EndScrollView();
+        }
+
+        // =========================================================================
+        // TAB 2: GITHUB CLOUD THIRD-PARTY TRANSLATIONS
+        // =========================================================================
+        private void DrawCloudTab(Rect inRect)
+        {
+            // Row 1: Manifest URL & Sync Buttons
+            Rect urlRow = new Rect(inRect.x, inRect.y, inRect.width, 28f);
+            float btnW = 140f;
+
+            Rect urlLabelR = new Rect(urlRow.x, urlRow.y, 110f, 28f);
+            Widgets.Label(urlLabelR, "GitHub Каталог:");
+
+            Rect urlFieldR = new Rect(urlLabelR.xMax + 5f, urlRow.y, inRect.width - (urlLabelR.width + btnW * 3 + 35f), 28f);
+            Settings.cloudManifestUrl = Widgets.TextField(urlFieldR, Settings.cloudManifestUrl);
+
+            if (Widgets.ButtonText(new Rect(urlFieldR.xMax + 10f, urlRow.y, btnW, 28f), "Обновить каталог"))
+            {
+                RUMLCloudManager.FetchManifestAsync(Settings.cloudManifestUrl, Content);
+            }
+
+            if (Widgets.ButtonText(new Rect(urlFieldR.xMax + btnW + 20f, urlRow.y, btnW, 28f), "Папка AppData"))
+            {
+                RUMLCloudManager.OpenTranslationsFolderInExplorer();
+            }
+
+            if (Widgets.ButtonText(new Rect(urlFieldR.xMax + (btnW + 10f) * 2 + 10f, urlRow.y, btnW, 28f), "Шаблон manifest"))
+            {
+                string f = RUMLCloudManager.ExportSampleManifest();
+                Messages.Message("RUML: Шаблон manifest.json сохранён на Рабочий стол: " + f, MessageTypeDefOf.PositiveEvent, false);
+            }
+
+            // Row 2: Status Message & Progress
+            Rect statusR = new Rect(inRect.x, inRect.y + 34f, inRect.width, 24f);
+            string sText = RUMLCloudManager.IsBusy
+                ? "<color=yellow>Загрузка: " + RUMLCloudManager.StatusMessage + " (" + RUMLCloudManager.DownloadPercent.ToString("F0") + "%)</color>"
+                : "<color=#80D0FF>" + RUMLCloudManager.StatusMessage + "</color>";
+            Widgets.Label(statusR, sText);
+
+            // Row 3: Search filter
+            Rect searchR = new Rect(inRect.x, inRect.y + 62f, inRect.width, 28f);
+            cloudSearchFilter = Widgets.TextField(searchR, cloudSearchFilter);
+
+            // List of Cloud Translations
+            Rect listRect = new Rect(inRect.x, inRect.y + 96f, inRect.width, inRect.height - 96f);
+            List<CloudTranslationItem> filtered = new List<CloudTranslationItem>();
+            foreach (var item in RUMLCloudManager.Items)
+            {
+                if (string.IsNullOrEmpty(cloudSearchFilter) ||
+                    item.ModName.IndexOf(cloudSearchFilter, StringComparison.OrdinalIgnoreCase) >= 0 ||
+                    item.Author.IndexOf(cloudSearchFilter, StringComparison.OrdinalIgnoreCase) >= 0 ||
+                    item.PackageId.IndexOf(cloudSearchFilter, StringComparison.OrdinalIgnoreCase) >= 0)
+                {
+                    filtered.Add(item);
+                }
+            }
+
+            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, Math.Max(filtered.Count * 68f, listRect.height));
+            Widgets.BeginScrollView(listRect, ref cloudScrollPos, viewRect);
+
+            float curY = 0f;
+            foreach (var item in filtered)
+            {
+                Rect card = new Rect(0f, curY, viewRect.width, 64f);
+                Widgets.DrawBoxSolid(card, new Color(0.12f, 0.12f, 0.12f, 0.5f));
+                Widgets.DrawHighlightIfMouseover(card);
+
+                // Mod info (Left)
+                string title = "<b>" + item.ModName + "</b>  <color=grey>(v" + item.Version + ")</color>  Автор: <color=#40E0D0>" + item.Author + "</color>";
+                Widgets.Label(new Rect(card.x + 8f, card.y + 4f, card.width - 230f, 20f), title);
+
+                string desc = "<color=#C0C0C0>" + item.Description + "</color>";
+                Widgets.Label(new Rect(card.x + 8f, card.y + 24f, card.width - 230f, 18f), desc);
+
+                string modStatus = item.IsTargetModActive
+                    ? "<color=#50E050>• Целевой мод активен в игре (" + item.PackageId + ")</color>"
+                    : "<color=#FFA040>• Мод не обнаружен в списке активных модов (" + item.PackageId + ")</color>";
+                Widgets.Label(new Rect(card.x + 8f, card.y + 42f, card.width - 230f, 18f), modStatus);
+
+                // Action Buttons (Right)
+                if (item.IsInstalled)
+                {
+                    Rect uninstR = new Rect(card.width - 210f, card.y + 16f, 100f, 32f);
+                    Color prevCol = GUI.color;
+                    GUI.color = new Color(1f, 0.4f, 0.4f, 1f);
+                    if (Widgets.ButtonText(uninstR, "Удалить"))
+                    {
+                        RUMLCloudManager.Uninstall(item, Content, Settings);
+                    }
+                    GUI.color = prevCol;
+
+                    Rect updateR = new Rect(card.width - 105f, card.y + 16f, 100f, 32f);
+                    if (Widgets.ButtonText(updateR, "Обновить"))
+                    {
+                        RUMLCloudManager.DownloadAndInstallAsync(item, Content, Settings);
+                    }
+                }
+                else
+                {
+                    Rect dlR = new Rect(card.width - 210f, card.y + 16f, 205f, 32f);
+                    Color prevC = GUI.color;
+                    GUI.color = new Color(0.2f, 0.9f, 0.4f, 1f);
+                    if (Widgets.ButtonText(dlR, "Скачать и применить"))
+                    {
+                        RUMLCloudManager.DownloadAndInstallAsync(item, Content, Settings);
+                    }
+                    GUI.color = prevC;
+                }
+
+                curY += 68f;
+            }
+
+            Widgets.EndScrollView();
+        }
+    }
+}
