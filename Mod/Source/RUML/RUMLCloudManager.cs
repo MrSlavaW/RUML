@@ -220,7 +220,33 @@ namespace RUML
                     }
                     Directory.CreateDirectory(targetDir);
 
-                    ZipFile.ExtractToDirectory(tempZip, targetDir);
+                    // Robust entry-by-entry extraction ensuring all parent directories exist
+                    using (ZipArchive archive = ZipFile.OpenRead(tempZip))
+                    {
+                        for (int e = 0; e < archive.Entries.Count; e++)
+                        {
+                            ZipArchiveEntry entry = archive.Entries[e];
+                            string entryRelPath = entry.FullName.Replace('/', Path.DirectorySeparatorChar).Replace('\\', Path.DirectorySeparatorChar);
+                            string fullDestPath = Path.Combine(targetDir, entryRelPath);
+
+                            if (string.IsNullOrEmpty(entry.Name))
+                            {
+                                if (!Directory.Exists(fullDestPath))
+                                {
+                                    Directory.CreateDirectory(fullDestPath);
+                                }
+                                continue;
+                            }
+
+                            string parentDir = Path.GetDirectoryName(fullDestPath);
+                            if (!string.IsNullOrEmpty(parentDir) && !Directory.Exists(parentDir))
+                            {
+                                Directory.CreateDirectory(parentDir);
+                            }
+
+                            entry.ExtractToFile(fullDestPath, true);
+                        }
+                    }
 
                     // Auto-flatten if archive was packed with a redundant root folder (e.g. CombatExtended/Languages/...)
                     try
