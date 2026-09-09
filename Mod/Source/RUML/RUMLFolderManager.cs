@@ -34,6 +34,23 @@ namespace RUML
             return path;
         }
 
+        public static string GetInstalledVersion(string modFolder, string author)
+        {
+            if (string.IsNullOrEmpty(modFolder) || string.IsNullOrEmpty(author)) return "1.0.0";
+            try
+            {
+                string infoFile = Path.Combine(Path.Combine(GetExternalTranslationsDir(), modFolder), Path.Combine(author, "info.json"));
+                if (File.Exists(infoFile))
+                {
+                    string text = File.ReadAllText(infoFile);
+                    string ver = RUMLCloudManager.ExtractJsonField(text, "version");
+                    if (!string.IsNullOrEmpty(ver)) return ver;
+                }
+            }
+            catch { }
+            return "1.0.0";
+        }
+
         public static bool IsExternalModFolder(string modFolder)
         {
             if (string.IsNullOrEmpty(modFolder)) return false;

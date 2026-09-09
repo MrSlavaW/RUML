@@ -58,9 +58,12 @@ namespace RUML
 
         public static void DrawBottomApplyBar(Rect inRect, ModContentPack content, RUMLSettings settings)
         {
-            Rect modeRect = new Rect(inRect.x, inRect.yMax - 68f, inRect.width, 26f);
-            Widgets.CheckboxLabeled(modeRect, "Режим «Применить по кнопке» (мгновенные действия без задержек и зависаний)", ref settings.manualApplyMode);
-            TooltipHandler.TipRegion(modeRect, "В этом режиме скачивание, включение, отключение и удаление переводов выполняются мгновенно без повторной перезагрузки всей базы данных игры. Чтобы применить изменения в игре, нажмите зелёную кнопку ниже.");
+            Rect chkBoxRect = new Rect(inRect.x + 4f, inRect.yMax - 68f, 24f, 24f);
+            Widgets.Checkbox(chkBoxRect.x, chkBoxRect.y, ref settings.manualApplyMode);
+
+            Rect modeLabelRect = new Rect(inRect.x + 34f, inRect.yMax - 68f, inRect.width - 40f, 26f);
+            Widgets.Label(modeLabelRect, "Режим «Применить по кнопке» (мгновенные действия без задержек и зависаний)");
+            TooltipHandler.TipRegion(new Rect(inRect.x, inRect.yMax - 68f, inRect.width, 26f), "В этом режиме скачивание, включение, отключение и удаление переводов выполняются мгновенно без повторной перезагрузки всей базы данных игры. Чтобы применить изменения в игре, нажмите зелёную кнопку ниже.");
 
             Rect bottomRect = new Rect(inRect.x, inRect.yMax - 38f, inRect.width, 36f);
             Color prevApplyCol = GUI.color;
@@ -378,22 +381,31 @@ namespace RUML
             Rect tableHeaderRect = new Rect(inRect.x, inRect.y + 96f, inRect.width, 24f);
             Widgets.DrawBoxSolid(tableHeaderRect, new Color(0.08f, 0.08f, 0.08f, 0.75f));
 
-            float col1W = tableHeaderRect.width - 380f;
-            float col2W = 160f;
-            float col3W = 105f;
-            float col4W = 85f;
+            float listContentW = inRect.width - 24f;
+            float actionW = 75f;
+            float statusW = 105f;
+            float authorW = 160f;
+            float actionX = listContentW - actionW - 4f;
+            float statusX = actionX - statusW - 10f;
+            float authorX = statusX - authorW - 10f;
+            float nameX = 8f;
+            float nameW = authorX - nameX - 10f;
 
-            Rect h1 = new Rect(tableHeaderRect.x + 8f, tableHeaderRect.y + 2f, col1W, 20f);
+            Rect h1 = new Rect(tableHeaderRect.x + nameX, tableHeaderRect.y + 2f, nameW, 20f);
             Widgets.Label(h1, "<color=#C0C0C0><b>Мод / Локализация</b></color>");
 
-            Rect h2 = new Rect(tableHeaderRect.x + col1W + 10f, tableHeaderRect.y + 2f, col2W, 20f);
+            Rect h2 = new Rect(tableHeaderRect.x + authorX, tableHeaderRect.y + 2f, authorW, 20f);
             Widgets.Label(h2, "<color=#C0C0C0><b>Автор перевода</b></color>");
 
-            Rect h3 = new Rect(tableHeaderRect.x + col1W + col2W + 15f, tableHeaderRect.y + 2f, col3W, 20f);
+            Rect h3 = new Rect(tableHeaderRect.x + statusX, tableHeaderRect.y + 2f, statusW, 20f);
+            Text.Anchor = TextAnchor.MiddleCenter;
             Widgets.Label(h3, "<color=#C0C0C0><b>Состояние</b></color>");
+            Text.Anchor = TextAnchor.UpperLeft;
 
-            Rect h4 = new Rect(tableHeaderRect.x + col1W + col2W + col3W + 20f, tableHeaderRect.y + 2f, col4W, 20f);
+            Rect h4 = new Rect(tableHeaderRect.x + actionX, tableHeaderRect.y + 2f, actionW, 20f);
+            Text.Anchor = TextAnchor.MiddleCenter;
             Widgets.Label(h4, "<color=#C0C0C0><b>Действие</b></color>");
+            Text.Anchor = TextAnchor.UpperLeft;
 
             // Scrollable List (starts below table header)
             Rect listRect = new Rect(inRect.x, inRect.y + 122f, inRect.width, inRect.height - 198f);
@@ -440,11 +452,10 @@ namespace RUML
                 Widgets.DrawBoxSolid(cardRect, RUMLUI.ColorCardBg);
                 Widgets.DrawHighlightIfMouseover(cardRect);
 
-                // Col 1: Fixed Checkbox + ModName
-                float rowCol1W = viewRect.width - 380f;
-                Rect checkRect = new Rect(cardRect.x + 8f, curY + 4f, rowCol1W, 30f);
+                // Col 1: Fixed Checkbox (left) + ModName + [v1.X.X]
+                Rect chkRect = new Rect(nameX, curY + 7f, 24f, 24f);
                 bool newCheck = isEnabled;
-                Widgets.CheckboxLabeled(checkRect, "  " + modFolder, ref newCheck);
+                Widgets.Checkbox(chkRect.x, chkRect.y, ref newCheck);
                 if (newCheck != isEnabled)
                 {
                     Settings.SetModEnabled(modFolder, newCheck);
@@ -459,8 +470,16 @@ namespace RUML
                     }
                 }
 
+                string ver = (cloudItem != null && !string.IsNullOrEmpty(cloudItem.LocalVersion))
+                    ? cloudItem.LocalVersion
+                    : RUMLFolderManager.GetInstalledVersion(modFolder, activeAuthor);
+                string modLabel = "<b>" + modFolder + "</b> <color=#80D0FF>[v" + (string.IsNullOrEmpty(ver) ? "1.0.0" : ver) + "]</color>";
+                Rect nameRect = new Rect(nameX + 32f, curY + 6f, nameW - 32f, 26f);
+                Widgets.Label(nameRect, modLabel);
+                TooltipHandler.TipRegion(new Rect(nameX, curY + 4f, nameW, 30f), (isEnabled ? "Включено: нажмите на флажок, чтобы отключить этот перевод." : "Отключено: нажмите на флажок, чтобы включить этот перевод."));
+
                 // Col 2: Fixed Author Selector Button or Single Author Badge
-                Rect authorRect = new Rect(cardRect.x + rowCol1W + 10f, curY + 5f, 160f, 28f);
+                Rect authorRect = new Rect(authorX, curY + 5f, authorW, 28f);
                 if (item.Authors.Count > 1)
                 {
                     string authBtnLabel = "<color=#40E0D0>" + activeAuthor + "</color> (" + item.Authors.Count + " авт.) ▼";
@@ -496,7 +515,7 @@ namespace RUML
                 }
 
                 // Col 3: Fixed Status / Update button
-                Rect statusColRect = new Rect(cardRect.x + rowCol1W + 180f, curY + 5f, 105f, 28f);
+                Rect statusColRect = new Rect(statusX, curY + 5f, statusW, 28f);
                 if (hasUpdate)
                 {
                     Color prevUCol = GUI.color;
@@ -516,7 +535,7 @@ namespace RUML
                 }
 
                 // Col 4: Fixed Delete button
-                Rect delBtnRect = new Rect(cardRect.x + rowCol1W + 295f, curY + 5f, 75f, 28f);
+                Rect delBtnRect = new Rect(actionX, curY + 5f, actionW, 28f);
                 Color prevCol = GUI.color;
                 GUI.color = RUMLUI.ColorDestructiveRed;
                 if (Widgets.ButtonText(delBtnRect, "Удалить"))

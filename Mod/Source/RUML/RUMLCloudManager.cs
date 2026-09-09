@@ -755,7 +755,7 @@ namespace RUML
             return list;
         }
 
-        private static string ExtractJsonField(string block, string key)
+        public static string ExtractJsonField(string block, string key)
         {
             string pattern = "\"" + key + "\"\\s*:\\s*\"([^\"]*)\"";
             System.Text.RegularExpressions.Match m = System.Text.RegularExpressions.Regex.Match(block, pattern);
