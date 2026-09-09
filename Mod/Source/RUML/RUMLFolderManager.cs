@@ -20,7 +20,8 @@ namespace RUML
 
         public static string GetExternalTranslationsDir()
         {
-            string path = Path.Combine(GenFilePaths.SaveDataFolderPath, "RUML_Translations");
+            string raw = Path.Combine(GenFilePaths.SaveDataFolderPath, "RUML_Translations");
+            string path = Path.GetFullPath(raw);
             if (!Directory.Exists(path))
             {
                 try
@@ -194,7 +195,7 @@ namespace RUML
                 {
                     if (norm.IndexOf(rootNorm + "/Mods/", StringComparison.OrdinalIgnoreCase) < 0)
                     {
-                        filtered.Add(folder);
+                        filtered.Add(Path.GetFullPath(folder));
                     }
                 }
             }
@@ -219,7 +220,7 @@ namespace RUML
 
                     if (!string.IsNullOrEmpty(author))
                     {
-                        string targetPath = Path.Combine(Path.Combine(extDir, item.ModFolder), author);
+                        string targetPath = Path.GetFullPath(Path.Combine(Path.Combine(extDir, item.ModFolder), author));
                         if (Directory.Exists(targetPath))
                         {
                             filtered.Add(targetPath);
