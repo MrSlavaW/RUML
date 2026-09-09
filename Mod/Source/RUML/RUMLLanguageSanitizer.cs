@@ -26,7 +26,10 @@ namespace RUML
                 for (int pIdx = 0; pIdx < lang.defInjections.Count; pIdx++)
                 {
                     DefInjectionPackage pkg = lang.defInjections[pIdx];
-                    if (pkg == null || pkg.defType != typeof(HediffDef) || pkg.injections == null) continue;
+                    if (pkg == null || pkg.injections == null) continue;
+                    bool isHediff = pkg.defType == typeof(HediffDef);
+                    bool isThought = pkg.defType == typeof(ThoughtDef);
+                    if (!isHediff && !isThought) continue;
 
                     List<KeyValuePair<string, DefInjectionPackage.DefInjection>> numericEntries = 
                         new List<KeyValuePair<string, DefInjectionPackage.DefInjection>>();
@@ -50,13 +53,29 @@ namespace RUML
                         if (!int.TryParse(match.Groups[2].Value, out stageIndex)) continue;
                         string fieldName = match.Groups[3].Value;
 
-                        HediffDef hediff = DefDatabase<HediffDef>.GetNamedSilentFail(defName);
-                        if (hediff == null || hediff.stages == null || stageIndex < 0 || stageIndex >= hediff.stages.Count) continue;
+                        string stageLabel = null;
+                        if (isHediff)
+                        {
+                            HediffDef hediff = DefDatabase<HediffDef>.GetNamedSilentFail(defName);
+                            if (hediff != null && hediff.stages != null && stageIndex >= 0 && stageIndex < hediff.stages.Count)
+                            {
+                                HediffStage stage = hediff.stages[stageIndex];
+                                if (stage != null) stageLabel = stage.label;
+                            }
+                        }
+                        else if (isThought)
+                        {
+                            ThoughtDef thought = DefDatabase<ThoughtDef>.GetNamedSilentFail(defName);
+                            if (thought != null && thought.stages != null && stageIndex >= 0 && stageIndex < thought.stages.Count)
+                            {
+                                ThoughtStage stage = thought.stages[stageIndex];
+                                if (stage != null) stageLabel = stage.label;
+                            }
+                        }
 
-                        HediffStage stage = hediff.stages[stageIndex];
-                        if (stage == null || string.IsNullOrEmpty(stage.label)) continue;
+                        if (string.IsNullOrEmpty(stageLabel)) continue;
 
-                        string sanitizedLabel = SanitizeLabel(stage.label);
+                        string sanitizedLabel = SanitizeLabel(stageLabel);
                         if (string.IsNullOrEmpty(sanitizedLabel)) continue;
 
                         string canonicalKey = defName + ".stages." + sanitizedLabel + "." + fieldName;

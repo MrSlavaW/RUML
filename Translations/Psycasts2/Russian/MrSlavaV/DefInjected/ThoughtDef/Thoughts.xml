@@ -4,4 +4,6 @@
   <PS_InsightMemory.label>тронут озарением</PS_InsightMemory.label>
   <PS_InsightMemory.stages.0.description>Момент психической ясности во время медитации наполнил меня безмятежностью и вдохновением.</PS_InsightMemory.stages.0.description>
   <PS_InsightMemory.stages.0.label>прикосновение озарения</PS_InsightMemory.stages.0.label>
+  <PS_InsightMemory.stages.touched_by_insight.description>Момент психической ясности во время медитации наполнил меня безмятежностью и вдохновением.</PS_InsightMemory.stages.touched_by_insight.description>
+  <PS_InsightMemory.stages.touched_by_insight.label>прикосновение озарения</PS_InsightMemory.stages.touched_by_insight.label>
 </LanguageData>

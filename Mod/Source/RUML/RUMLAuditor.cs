@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
+using RimWorld;
 using Verse;
 
 namespace RUML
@@ -70,6 +72,143 @@ namespace RUML
 
     public static class RUMLAuditor
     {
+        private static readonly Regex StageNumericRegex = new Regex(@"^([^.]+)\.stages\.([0-9]+)\.(.+)$", RegexOptions.Compiled);
+        private static readonly Regex StageNamedRegex = new Regex(@"^([^.]+)\.stages\.([a-zA-Z_][a-zA-Z0-9_]*)\.(.+)$", RegexOptions.Compiled);
+
+        private static bool CheckDefInjectionTranslated(Type defType, Def currentDef, string suggestedPath, string normalizedPath)
+        {
+            if (LanguageDatabase.activeLanguage == null || LanguageDatabase.activeLanguage.defInjections == null)
+            {
+                return false;
+            }
+
+            for (int pIdx = 0; pIdx < LanguageDatabase.activeLanguage.defInjections.Count; pIdx++)
+            {
+                var pkg = LanguageDatabase.activeLanguage.defInjections[pIdx];
+                if (pkg == null || pkg.defType != defType || pkg.injections == null)
+                {
+                    continue;
+                }
+
+                DefInjectionPackage.DefInjection inj;
+                if ((suggestedPath != null && pkg.injections.TryGetValue(suggestedPath, out inj)) ||
+                    (!string.IsNullOrEmpty(normalizedPath) && pkg.injections.TryGetValue(normalizedPath, out inj)))
+                {
+                    if (inj != null && !inj.isPlaceholder && !string.Equals(inj.injection, "TODO", StringComparison.OrdinalIgnoreCase))
+                    {
+                        return true;
+                    }
+                }
+
+                if (suggestedPath != null && suggestedPath.Contains(".stages."))
+                {
+                    Match mNum = StageNumericRegex.Match(suggestedPath);
+                    if (mNum.Success)
+                    {
+                        string dName = mNum.Groups[1].Value;
+                        int sIdx;
+                        if (int.TryParse(mNum.Groups[2].Value, out sIdx))
+                        {
+                            string fName = mNum.Groups[3].Value;
+                            HediffDef hd = currentDef as HediffDef;
+                            if (hd != null && hd.stages != null && sIdx >= 0 && sIdx < hd.stages.Count)
+                            {
+                                var st = hd.stages[sIdx];
+                                if (st != null && !string.IsNullOrEmpty(st.label))
+                                {
+                                    string sLabel = RUMLLanguageSanitizer.SanitizeLabel(st.label);
+                                    if (!string.IsNullOrEmpty(sLabel))
+                                    {
+                                        string altKey = dName + ".stages." + sLabel + "." + fName;
+                                        if (pkg.injections.TryGetValue(altKey, out inj))
+                                        {
+                                            if (inj != null && !inj.isPlaceholder && !string.Equals(inj.injection, "TODO", StringComparison.OrdinalIgnoreCase))
+                                            {
+                                                return true;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            ThoughtDef td = currentDef as ThoughtDef;
+                            if (td != null && td.stages != null && sIdx >= 0 && sIdx < td.stages.Count)
+                            {
+                                var st = td.stages[sIdx];
+                                if (st != null && !string.IsNullOrEmpty(st.label))
+                                {
+                                    string sLabel = RUMLLanguageSanitizer.SanitizeLabel(st.label);
+                                    if (!string.IsNullOrEmpty(sLabel))
+                                    {
+                                        string altKey = dName + ".stages." + sLabel + "." + fName;
+                                        if (pkg.injections.TryGetValue(altKey, out inj))
+                                        {
+                                            if (inj != null && !inj.isPlaceholder && !string.Equals(inj.injection, "TODO", StringComparison.OrdinalIgnoreCase))
+                                            {
+                                                return true;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+                        Match mNamed = StageNamedRegex.Match(suggestedPath);
+                        if (mNamed.Success)
+                        {
+                            string dName = mNamed.Groups[1].Value;
+                            string sLabel = mNamed.Groups[2].Value;
+                            string fName = mNamed.Groups[3].Value;
+
+                            HediffDef hd = currentDef as HediffDef;
+                            if (hd != null && hd.stages != null)
+                            {
+                                for (int i = 0; i < hd.stages.Count; i++)
+                                {
+                                    var st = hd.stages[i];
+                                    if (st != null && RUMLLanguageSanitizer.SanitizeLabel(st.label).Equals(sLabel, StringComparison.OrdinalIgnoreCase))
+                                    {
+                                        string altKey = dName + ".stages." + i + "." + fName;
+                                        if (pkg.injections.TryGetValue(altKey, out inj))
+                                        {
+                                            if (inj != null && !inj.isPlaceholder && !string.Equals(inj.injection, "TODO", StringComparison.OrdinalIgnoreCase))
+                                            {
+                                                return true;
+                                            }
+                                        }
+                                        break;
+                                    }
+                                }
+                            }
+                            ThoughtDef td = currentDef as ThoughtDef;
+                            if (td != null && td.stages != null)
+                            {
+                                for (int i = 0; i < td.stages.Count; i++)
+                                {
+                                    var st = td.stages[i];
+                                    if (st != null && RUMLLanguageSanitizer.SanitizeLabel(st.label).Equals(sLabel, StringComparison.OrdinalIgnoreCase))
+                                    {
+                                        string altKey = dName + ".stages." + i + "." + fName;
+                                        if (pkg.injections.TryGetValue(altKey, out inj))
+                                        {
+                                            if (inj != null && !inj.isPlaceholder && !string.Equals(inj.injection, "TODO", StringComparison.OrdinalIgnoreCase))
+                                            {
+                                                return true;
+                                            }
+                                        }
+                                        break;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            return false;
+        }
+
         public static List<ModAuditReport> RunAudit(HashSet<string> targetPackageIds = null, Dictionary<string, string> rumlKnownMods = null)
         {
             List<ModAuditReport> reports = new List<ModAuditReport>();
@@ -172,27 +311,15 @@ namespace RUML
                                 }
 
                                 bool isRu = ContainsCyrillic(cleanVal);
-                                if (!isRu && LanguageDatabase.activeLanguage != null && LanguageDatabase.activeLanguage.defInjections != null)
+                                if (!isRu)
                                 {
-                                    for (int pIdx = 0; pIdx < LanguageDatabase.activeLanguage.defInjections.Count; pIdx++)
-                                    {
-                                        var pkg = LanguageDatabase.activeLanguage.defInjections[pIdx];
-                                        if (pkg != null && pkg.defType == defType && pkg.injections != null)
-                                        {
-                                            DefInjectionPackage.DefInjection inj;
-                                            if (pkg.injections.TryGetValue(suggestedPath, out inj))
-                                            {
-                                                if (inj != null && !inj.isPlaceholder && !string.Equals(inj.injection, "TODO", StringComparison.OrdinalIgnoreCase))
-                                                {
-                                                    isRu = true;
-                                                }
-                                            }
-                                            break;
-                                        }
-                                    }
+                                    isRu = CheckDefInjectionTranslated(defType, currentDef, suggestedPath, normalizedPath);
                                 }
 
-                                if (fieldInfo != null && fieldInfo.Name == "label")
+                                bool isRootLabel = (fieldInfo != null && fieldInfo.Name == "label" && suggestedPath == currentDef.defName + ".label");
+                                bool isRootDesc = (fieldInfo != null && fieldInfo.Name == "description" && suggestedPath == currentDef.defName + ".description");
+
+                                if (isRootLabel)
                                 {
                                     rep.TotalDefLabels++;
                                     if (isRu) rep.TranslatedDefLabels++;
@@ -204,7 +331,7 @@ namespace RUML
                                         rep.DetailedMissingDefs.Add(new MissingDefItem { DefType = defType.Name, SuggestedPath = currentDef.defName + ".label", EnglishValue = cleanVal });
                                     }
                                 }
-                                else if (fieldInfo != null && fieldInfo.Name == "description")
+                                else if (isRootDesc)
                                 {
                                     rep.TotalDefDescriptions++;
                                     if (isRu) rep.TranslatedDefDescriptions++;
@@ -239,6 +366,11 @@ namespace RUML
                                     if (string.IsNullOrEmpty(cleanItem) || cleanItem.Length <= 1) continue;
 
                                     bool isRuItem = ContainsCyrillic(cleanItem);
+                                    if (!isRuItem)
+                                    {
+                                        isRuItem = CheckDefInjectionTranslated(defType, currentDef, suggestedPath, normalizedPath);
+                                    }
+
                                     rep.TotalDefOther++;
                                     if (isRuItem) rep.TranslatedDefOther++;
                                     else
