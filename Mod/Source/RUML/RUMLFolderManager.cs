@@ -256,10 +256,26 @@ namespace RUML
         {
             try
             {
-                if (LanguageDatabase.activeLanguage != null)
+                LoadedLanguage lang = LanguageDatabase.activeLanguage;
+                if (lang != null)
                 {
-                    LanguageDatabase.SelectLanguage(LanguageDatabase.activeLanguage);
-                    Messages.Message("RUML: Переводы успешно перезагружены в памяти игры!", MessageTypeDefOf.PositiveEvent, false);
+                    // 1. Reload translation strings and def-injections from all active mod folders
+                    lang.LoadData();
+
+                    // 2. Inject updated translations into all Def instances in DefDatabase
+                    lang.InjectIntoData_AfterImpliedDefs();
+
+                    // 3. Update legacy backstories if present
+                    try
+                    {
+                        BackstoryTranslationUtility.LoadAndInjectBackstoryData(lang.AllDirectories, new List<string>());
+                    }
+                    catch { }
+
+                    // 4. Clear label cache for UI elements, items, and pawns
+                    GenLabel.ClearCache();
+
+                    Messages.Message("RUML: Переводы успешно применены на лету!", MessageTypeDefOf.PositiveEvent, false);
                 }
             }
             catch (Exception ex)
