@@ -21,10 +21,10 @@
   <PS_SetAltarTotal>Всего требуется медитации: {0} ч (~{1} дн. при лимите)</PS_SetAltarTotal>
   <PS_SetAltarTotalTip>Количество часов медитации у алтаря, необходимое паломнику для перехода на следующий ранг.</PS_SetAltarTotalTip>
   <PS_SetAnimaPerSite>Медитация на место: {0} ч</PS_SetAnimaPerSite>
-  <PS_SetAnimaPerSiteTip>атака</PS_SetAnimaPerSiteTip>
+  <PS_SetAnimaPerSiteTip>Во время этого путешествия никто не атакует, а медитация во время паломничества никогда не вызывает кому.</PS_SetAnimaPerSiteTip>
   <PS_SetAnimaT2>Мест для ранга II: {0}</PS_SetAnimaT2>
   <PS_SetAnimaT2Tip>Количество древ древа души, которые необходимо посетить во время паломничества II ранга.</PS_SetAnimaT2Tip>
-  <PS_SetAnimaT3>лапа</PS_SetAnimaT3>
+  <PS_SetAnimaT3>Мест для ранга III: {0}</PS_SetAnimaT3>
   <PS_SetAnimaT3Tip>Количество мест паломничества III ранга; у последнего из них вырастает гигантское древнее древо души.</PS_SetAnimaT3Tip>
   <PS_SetAutoStats>Авто-характеристики псионика (без ручных улучшений; стоимость не меняется)</PS_SetAutoStats>
   <PS_SetAutoStatsTip>Если включено, лимит нейроперегрева, скорость его рассеивания и пси-чувствительность из VPE растут АВТОМАТИЧЕСКИ с каждым уровнем псионика. Тратить на них очки больше не нужно, а стоимость пси-фокуса не увеличивается с уровнем. Очки остаются свободными для прокачки самих способностей; кнопка «Улучшить характеристики» заменяется пояснительной плашкой.</PS_SetAutoStatsTip>
@@ -40,10 +40,10 @@
   <PS_SetBreakSize>Размер прорыва: {0}% уровня</PS_SetBreakSize>
   <PS_SetBreakSizeTip>Сколько опыта псионика даёт один прорыв. 1.0 соответствует ровно одному полному уровню.</PS_SetBreakSizeTip>
   <PS_SetBreakthroughs>Включить прорывы во время медитации</PS_SetBreakthroughs>
-  <PS_SetBreakthroughsTip>лапа</PS_SetBreakthroughsTip>
+  <PS_SetBreakthroughsTip>Медитирующий колонист может ощутить приток древних знаний. Псионик получает уровень, а любой другой приближается к пробуждению.</PS_SetBreakthroughsTip>
   <PS_SetCardCount>Карт при повышении ранга: {0}</PS_SetCardCount>
   <PS_SetCardCountAuto>авто (3; ранг II сдаёт 5)</PS_SetCardCountAuto>
-  <PS_SetCardCountTip>лапа</PS_SetCardCountTip>
+  <PS_SetCardCountTip>Сколько закрытых карт сдаётся при повышении ранга. Раздача никогда не превышает количество древ, которых ещё нет у поселенца.</PS_SetCardCountTip>
   <PS_SetCardRedeal>Разрешить один реролл при первом пробуждении</PS_SetCardRedeal>
   <PS_SetCardRedealTip>Добавляет кнопку реролла в правый верхний угол окна карт, чтобы первое пробуждение пешки не определялось одной неудачной раздачей. Доступно один раз за пробуждение.</PS_SetCardRedealTip>
   <PS_SetCastXp>Опыт за применение по рангу способности: {0} (ранг 3 = {1} опыта)</PS_SetCastXp>
@@ -59,8 +59,8 @@
   <PS_SetDiscardBody>Сбросить все ваши правки ({0}) и вернуться к исходным настройкам?</PS_SetDiscardBody>
   <PS_SetDiscardTitle>Сброс правок баланса</PS_SetDiscardTitle>
   <PS_SetEmpirePsylink>Пси-связь Империи пробуждает псионика</PS_SetEmpirePsylink>
-  <PS_SetEmpirePsylinkTip>лапа</PS_SetEmpirePsylinkTip>
-  <PS_SetEnemyAscension>лапа</PS_SetEnemyAscension>
+  <PS_SetEmpirePsylinkTip>Церемонии Империи, ритуал ослепления и связь с древом анимы вовлекают колониста в систему мода и сдают ему карту вместо того, чтобы оставлять его псиоником без древа.</PS_SetEmpirePsylinkTip>
+  <PS_SetEnemyAscension>III ранг может содержать полное древо Апофеоза</PS_SetEnemyAscension>
   <PS_SetEnemyAscensionTip>По умолчанию выключено. Наделяет элитных вражеских псиоников III ранга всей мощью созвездия Апофеоза, превращая их в смертельную угрозу поздней игры.</PS_SetEnemyAscensionTip>
   <PS_SetEnemyFreq>   Частота: {0}% вражеских псиоников</PS_SetEnemyFreq>
   <PS_SetEnemyFreqTip>Шанс того, что вражеский псионик получит ранг Просветления.</PS_SetEnemyFreqTip>
@@ -119,7 +119,7 @@
   <PS_SetH_WhatScales>Что масштабируется</PS_SetH_WhatScales>
   <PS_SetH_WhoBecomes>Кто становится псиоником</PS_SetH_WhoBecomes>
   <PS_SetHidePaths>Скрывать неизученные пути</PS_SetHidePaths>
-  <PS_SetHidePathsTip>лапа</PS_SetHidePathsTip>
+  <PS_SetHidePathsTip>В списке древ отображаются только доступные персонажу пути вместо стены тёмных ячеек. Работает, пока новые древа открываются через карты пробуждения. Режим разработчика по-прежнему показывает всё.</PS_SetHidePathsTip>
   <PS_SetImport>Импортировать правки баланса (из JSON)</PS_SetImport>
   <PS_SetImportBody>Импортировано {0} правок баланса из {1} в текущий оверлей. Они применяются поверх стандартных настроек мода и могут быть переданы другим игрокам, сброшены или внедрены в игру.</PS_SetImportBody>
   <PS_SetImportTitle>Правки баланса импортированы</PS_SetImportTitle>
@@ -149,7 +149,7 @@
   <PS_SetNoSkillResetTip>Скрывает кнопку «Сбросить навыки» на вкладке псионики, делая выбор окончательным. Для хардкорных партий. По умолчанию выключено.</PS_SetNoSkillResetTip>
   <PS_SetNoSpecReset>Запретить сброс специализаций</PS_SetNoSpecReset>
   <PS_SetNoSpecResetTip>Скрывает кнопку сброса в окне созвездий, запрещая перераспределение потраченных очков специализации. Для бескомпромиссных прохождений. По умолчанию выключено.</PS_SetNoSpecResetTip>
-  <PS_SetNoStartAwakened>лапа</PS_SetNoStartAwakened>
+  <PS_SetNoStartAwakened>Стартовые колонисты никогда не прибывают пробуждёнными</PS_SetNoStartAwakened>
   <PS_SetNoStartAwakenedTip>Включено (по умолчанию): стартовые колонисты не могут случайно оказаться пробуждёнными, поэтому все начинают с обычным разумом и должны заслужить пробуждение. Выключено: стартовые колонисты проверяются на шанс пробуждения на общих основаниях.</PS_SetNoStartAwakenedTip>
   <PS_SetOverrideNote>⚠ {0} переопределено настройкой: {1}. Эта строка не действует.</PS_SetOverrideNote>
   <PS_SetPerLevel>Бонус за вложенный уровень: +{0}% к силе / радиусу / длительности</PS_SetPerLevel>
@@ -157,11 +157,11 @@
   <PS_SetPerfCache>Высокопроизводительное кэширование</PS_SetPerfCache>
   <PS_SetPerfCacheTip>Кэширует расчёты синергий и навыков для текущего тика и кадра, благодаря чему отрисовка иконок, панелей команд, подсказок и проверка ИИ практически не создают нагрузки. Значения мгновенно обновляются при любых изменениях. Рекомендуется держать включённым.</PS_SetPerfCacheTip>
   <PS_SetPilgrimPity>Гарантия паломничества: {0} ч медитации</PS_SetPilgrimPity>
-  <PS_SetPilgrimPityTip>лапа</PS_SetPilgrimPityTip>
+  <PS_SetPilgrimPityTip>Пробуждённому персонажу предлагается путь повышения ранга, как только время его медитации достигает этого значения. Восхождение к III рангу занимает в полтора раза больше времени. 0 оставляет это полностью на усмотрение рассказчика.</PS_SetPilgrimPityTip>
   <PS_SetPsyLevelsPerSkill>Требуется уровней псионика на каждый уровень способности: {0}</PS_SetPsyLevelsPerSkill>
   <PS_SetPsyLevelsPerSkillTip>Ограничение: способность можно прокачать только до предела, поддерживаемого общим уровнем псионика.</PS_SetPsyLevelsPerSkillTip>
   <PS_SetPsylinkGate>Подавлять пси-связь без ранга при генерации</PS_SetPsylinkGate>
-  <PS_SetPsylinkGateTip>лапа</PS_SetPsylinkGateTip>
+  <PS_SetPsylinkGateTip>Персонаж, сгенерированный с пси-связью, теряет её, если у него нет ранга. Так псиоников приходится заслуживать, а не получать даром. Враги-паломники являются исключением.</PS_SetPsylinkGateTip>
   <PS_SetRevealAll>Открывать карты по одной с возможностью перевыбора</PS_SetRevealAll>
   <PS_SetRevealAllTip>Включено: после первой карты остальные остаются рубашкой вверх и открываются вручную по одной (выберите по центру и нажмите). Любую открытую карту можно выбрать до окончательного принятия. Выключено (по умолчанию): открывается только выбранная карта, а путь закрепляется сразу.</PS_SetRevealAllTip>
   <PS_SetSafeWindow>Безопасное окно медитации в день: {0} ч</PS_SetSafeWindow>
@@ -189,8 +189,8 @@
   <PS_SetShareTitle>Правки баланса экспортированы</PS_SetShareTitle>
   <PS_SetSkillFx>Эффекты и звуки повышения уровня</PS_SetSkillFx>
   <PS_SetSkillFxTip>Воспроизводить визуальные вспышки и звуки при прокачке способностей.</PS_SetSkillFxTip>
-  <PS_SetSpawnChance>лапа</PS_SetSpawnChance>
-  <PS_SetSpawnChanceTip>лапа</PS_SetSpawnChanceTip>
+  <PS_SetSpawnChance>Шанс появления любого персонажа псиоником: {0}%</PS_SetSpawnChance>
+  <PS_SetSpawnChanceTip>Каждый подходящий персонаж старше 13 лет в любой фракции получает этот шанс появиться пробуждённым псиоником с пси-связью, древом и рангом. 0% означает, что никто не появится псиоником.</PS_SetSpawnChanceTip>
   <PS_SetSpecLevels>Уровней псионика за очко специализации: {0}</PS_SetSpecLevels>
   <PS_SetSpecLevelsTip>Сколько уровней псионика нужно получить для 1 очка специализации в древе созвездий. Чем ниже значение, тем быстрее открываются очки.</PS_SetSpecLevelsTip>
   <PS_SetSpecXp>Опыт за касты на очко специализации: {0}</PS_SetSpecXp>
@@ -205,7 +205,7 @@
   <PS_SetT3Throne>Ранг III всегда использует великий трон.</PS_SetT3Throne>
   <PS_SetTab_Advanced>Дополнительно</PS_SetTab_Advanced>
   <PS_SetTab_Display>Отображение</PS_SetTab_Display>
-  <PS_SetTab_Enemies>Враги</PS_SetTab_Enemies>
+  <PS_SetTab_Enemies>Вражеские псионики</PS_SetTab_Enemies>
   <PS_SetTab_Levels>Уровни псионики</PS_SetTab_Levels>
   <PS_SetTab_Meditation>Медитация</PS_SetTab_Meditation>
   <PS_SetTab_Paths>Пути и очки</PS_SetTab_Paths>
@@ -213,19 +213,19 @@
   <PS_SetTab_Skills>Навыки</PS_SetTab_Skills>
   <PS_SetTab_Specializations>Специализации</PS_SetTab_Specializations>
   <PS_SetTier2Points>Бонусные очки за ранг II: {0}</PS_SetTier2Points>
-  <PS_SetTier2PointsTip>лапа</PS_SetTier2PointsTip>
+  <PS_SetTier2PointsTip>Выдаётся в момент, когда персонаж становится Просветлённым (Enlightened).</PS_SetTier2PointsTip>
   <PS_SetTier3Points>Бонусные очки за ранг III: {0}</PS_SetTier3Points>
-  <PS_SetTier3PointsTip>лапа</PS_SetTier3PointsTip>
+  <PS_SetTier3PointsTip>Выдаётся в момент, когда персонаж становится Озарённым (Illuminated).</PS_SetTier3PointsTip>
   <PS_SetTransBase>Первый Трансцендентный ранг после: {0} ч медитации</PS_SetTransBase>
   <PS_SetTransBaseTip>Суммарное время медитации после ранга Озарённого для достижения IV ранга. Чем выше значение, тем медленнее прогресс.</PS_SetTransBaseTip>
   <PS_SetTransCurve>Кривая прорывов трансцендентности: x{0} за ранг</PS_SetTransCurve>
   <PS_SetTransCurveTip>Выше ранга Озарённого каждый ранг умножает ежечасный шанс прорыва псионика на этот коэффициент, ускоряя получение уровней. Шанс ограничен 60% и никогда не становится гарантированным.</PS_SetTransCurveTip>
-  <PS_SetTransGrowth>рост</PS_SetTransGrowth>
+  <PS_SetTransGrowth>Каждый ранг стоит в x{0} раз дороже предыдущего</PS_SetTransGrowth>
   <PS_SetTransGrowthTip>Каждый последующий ранг требует медитации во столько раз больше предыдущего (геометрическая прогрессия). При x1.6 ранг V требует в 1.6 раз больше ранга IV, ранг VI — в 2.56 раз и т.д.</PS_SetTransGrowthTip>
   <PS_SetTranscend>Включить Трансцендентные ранги</PS_SetTranscend>
   <PS_SetTranscendTip>Включено: Озарённый (ранг III) псионик при продолжении медитации переходит в бесконечные Трансцендентные ранги (IV, V, ...). Каждый ранг приносит бонусные очки специализации и анимированный выбор бесплатной карты пути. Выключено: Озарённый — предел развития.</PS_SetTranscendTip>
   <PS_SetWaveInterval>Интервал волн древних псиоников: каждые {0} ч</PS_SetWaveInterval>
-  <PS_SetWaveIntervalTip>атака</PS_SetWaveIntervalTip>
+  <PS_SetWaveIntervalTip>Как часто Орден древних псиоников нападает на алтарь. Нападения происходят только во время этого паломничества.</PS_SetWaveIntervalTip>
   <PS_SetWaveScale>Масштаб угрозы волны: {0}x</PS_SetWaveScale>
   <PS_SetWaveScaleTip>Множитель боевой мощи каждой волны. Высокие значения делают атаки смертоноснее.</PS_SetWaveScaleTip>
 </LanguageData>

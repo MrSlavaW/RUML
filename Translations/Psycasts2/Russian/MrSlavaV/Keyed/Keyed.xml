@@ -7,10 +7,10 @@
   <PS_AnimaHere>· здесь: {0} ч / {1} ч</PS_AnimaHere>
   <PS_AnimaSites>Мест завершено: {0} / {1}</PS_AnimaSites>
   <PS_AnimaToday>· сегодня: {0} ч / {1} ч</PS_AnimaToday>
-  <PS_AscensionCultivated>лапа</PS_AscensionCultivated>
+  <PS_AscensionCultivated>Развито благодаря Psycasts². Указанные бонусы уже применены к пси-способностям этого персонажа.</PS_AscensionCultivated>
   <PS_AscensionSpecs>Специализации:</PS_AscensionSpecs>
   <PS_BarComaOff>Нет</PS_BarComaOff>
-  <PS_BarComaTipOff>лапа</PS_BarComaTipOff>
+  <PS_BarComaTipOff>Пси-кома отключена. Безопасное окно медитации в настройках мода установлено на полный день, поэтому этот персонаж может медитировать сколько угодно без какого-либо риска.</PS_BarComaTipOff>
   <PS_BtnPick>Открыть карты путей</PS_BtnPick>
   <PS_CannotReachSuffix>(недосягаемо)</PS_CannotReachSuffix>
   <PS_CardChooseLater>Выбрать позже</PS_CardChooseLater>
@@ -45,7 +45,7 @@
   <PS_SetBreakChanceTrans>Шанс прорыва в час после ранга Просветлённого: {0}%</PS_SetBreakChanceTrans>
   <PS_SetBreakChanceTransTip>Та же проверка для псиоников, перешагнувших ранг Просветлённого. Настройте отдельно от предыдущего параметра, чтобы сделать поздние прорывы более редкими или частыми. 0 отключает их полностью.</PS_SetBreakChanceTransTip>
   <PS_SetCardRedeal>Разрешить один переброс при первом пробуждении</PS_SetCardRedeal>
-  <PS_SetCardRedealTip>лапа</PS_SetCardRedealTip>
+  <PS_SetCardRedealTip>Добавляет кнопку пересдачи в правый верхний угол окна карт после открытия карты, чтобы первое пробуждение колониста не определялось одной неудачной сдачей. Доступно один раз за пробуждение. На II и III рангах доступна отдельная пересдача за счёт дополнительного раунда медитации.</PS_SetCardRedealTip>
   <PS_SetFogNext>Отображать доступные для изучения способности</PS_SetFogNext>
   <PS_SetFogNextTip>Пси-способности, требования для которых уже выполнены, остаются видимыми, позволяя видеть ближайший выбор. Скрыто лишь то, что находится глубже по древу.</PS_SetFogNextTip>
   <PS_SetH_Breakthroughs>Прорывы</PS_SetH_Breakthroughs>
