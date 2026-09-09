@@ -7,7 +7,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaAnimals_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода AlphaAnimals для сборки Hardcore SK.",
+    "description": "Русская локализация для мода AlphaAnimals.",
     "targetFolder": "AlphaAnimals_Russian_MrSlavaV"
   },
   {
@@ -18,7 +18,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaArmoury_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода AlphaArmoury для сборки Hardcore SK.",
+    "description": "Русская локализация для мода AlphaArmoury.",
     "targetFolder": "AlphaArmoury_Russian_MrSlavaV"
   },
   {
@@ -29,7 +29,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaBiomes_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода AlphaBiomes для сборки Hardcore SK.",
+    "description": "Русская локализация для мода AlphaBiomes.",
     "targetFolder": "AlphaBiomes_Russian_MrSlavaV"
   },
   {
@@ -40,7 +40,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaGenes_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода AlphaGenes для сборки Hardcore SK.",
+    "description": "Русская локализация для мода AlphaGenes.",
     "targetFolder": "AlphaGenes_Russian_MrSlavaV"
   },
   {
@@ -51,7 +51,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaGenesIntegrated_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода AlphaGenesIntegrated для сборки Hardcore SK.",
+    "description": "Русская локализация для мода AlphaGenesIntegrated.",
     "targetFolder": "AlphaGenesIntegrated_Russian_MrSlavaV"
   },
   {
@@ -62,7 +62,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaMechs_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода AlphaMechs для сборки Hardcore SK.",
+    "description": "Русская локализация для мода AlphaMechs.",
     "targetFolder": "AlphaMechs_Russian_MrSlavaV"
   },
   {
@@ -73,7 +73,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaMemes_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода AlphaMemes для сборки Hardcore SK.",
+    "description": "Русская локализация для мода AlphaMemes.",
     "targetFolder": "AlphaMemes_Russian_MrSlavaV"
   },
   {
@@ -84,7 +84,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/AlphaRandom_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода AlphaRandom для сборки Hardcore SK.",
+    "description": "Русская локализация для мода AlphaRandom.",
     "targetFolder": "AlphaRandom_Russian_MrSlavaV"
   },
   {
@@ -95,7 +95,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/ArchotechExpanded_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода ArchotechExpanded для сборки Hardcore SK.",
+    "description": "Русская локализация для мода ArchotechExpanded.",
     "targetFolder": "ArchotechExpanded_Russian_MrSlavaV"
   },
   {
@@ -106,7 +106,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/CatsBootsAndGloves_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода CatsBootsAndGloves для сборки Hardcore SK.",
+    "description": "Русская локализация для мода CatsBootsAndGloves.",
     "targetFolder": "CatsBootsAndGloves_Russian_MrSlavaV"
   },
   {
@@ -117,7 +117,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/EPOE_ModularCompat_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода EPOE_ModularCompat для сборки Hardcore SK.",
+    "description": "Русская локализация для мода EPOE_ModularCompat.",
     "targetFolder": "EPOE_ModularCompat_Russian_MrSlavaV"
   },
   {
@@ -128,7 +128,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/EPOE_Royalty_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода EPOE_Royalty для сборки Hardcore SK.",
+    "description": "Русская локализация для мода EPOE_Royalty.",
     "targetFolder": "EPOE_Royalty_Russian_MrSlavaV"
   },
   {
@@ -139,7 +139,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/GeneExtractorTiers_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода GeneExtractorTiers для сборки Hardcore SK.",
+    "description": "Русская локализация для мода GeneExtractorTiers.",
     "targetFolder": "GeneExtractorTiers_Russian_MrSlavaV"
   },
   {
@@ -150,7 +150,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/InfoCardPlus_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода InfoCardPlus для сборки Hardcore SK.",
+    "description": "Русская локализация для мода InfoCardPlus.",
     "targetFolder": "InfoCardPlus_Russian_MrSlavaV"
   },
   {
@@ -161,7 +161,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/KabouterXenotype_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода KabouterXenotype для сборки Hardcore SK.",
+    "description": "Русская локализация для мода KabouterXenotype.",
     "targetFolder": "KabouterXenotype_Russian_MrSlavaV"
   },
   {
@@ -172,7 +172,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/MoreGroupedBuildings_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода MoreGroupedBuildings для сборки Hardcore SK.",
+    "description": "Русская локализация для мода MoreGroupedBuildings.",
     "targetFolder": "MoreGroupedBuildings_Russian_MrSlavaV"
   },
   {
@@ -183,7 +183,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/PlasmaShieldImplant_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода PlasmaShieldImplant для сборки Hardcore SK.",
+    "description": "Русская локализация для мода PlasmaShieldImplant.",
     "targetFolder": "PlasmaShieldImplant_Russian_MrSlavaV"
   },
   {
@@ -194,7 +194,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/Psycasts2_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода Psycasts2 для сборки Hardcore SK.",
+    "description": "Русская локализация для мода Psycasts2.",
     "targetFolder": "Psycasts2_Russian_MrSlavaV"
   },
   {
@@ -205,7 +205,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/RebuildDoorsCorners_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода RebuildDoorsCorners для сборки Hardcore SK.",
+    "description": "Русская локализация для мода RebuildDoorsCorners.",
     "targetFolder": "RebuildDoorsCorners_Russian_MrSlavaV"
   },
   {
@@ -216,7 +216,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/ReelsStorage_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода ReelsStorage для сборки Hardcore SK.",
+    "description": "Русская локализация для мода ReelsStorage.",
     "targetFolder": "ReelsStorage_Russian_MrSlavaV"
   },
   {
@@ -227,7 +227,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/RegrowthAspen_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода RegrowthAspen для сборки Hardcore SK.",
+    "description": "Русская локализация для мода RegrowthAspen.",
     "targetFolder": "RegrowthAspen_Russian_MrSlavaV"
   },
   {
@@ -238,7 +238,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/RespliceCore_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода RespliceCore для сборки Hardcore SK.",
+    "description": "Русская локализация для мода RespliceCore.",
     "targetFolder": "RespliceCore_Russian_MrSlavaV"
   },
   {
@@ -249,7 +249,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/SbzFridge_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода SbzFridge для сборки Hardcore SK.",
+    "description": "Русская локализация для мода SbzFridge.",
     "targetFolder": "SbzFridge_Russian_MrSlavaV"
   },
   {
@@ -260,7 +260,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/SbzGravshipStorage_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода SbzGravshipStorage для сборки Hardcore SK.",
+    "description": "Русская локализация для мода SbzGravshipStorage.",
     "targetFolder": "SbzGravshipStorage_Russian_MrSlavaV"
   },
   {
@@ -271,7 +271,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/SimpleSidearms_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода SimpleSidearms для сборки Hardcore SK.",
+    "description": "Русская локализация для мода SimpleSidearms.",
     "targetFolder": "SimpleSidearms_Russian_MrSlavaV"
   },
   {
@@ -282,7 +282,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/TooManyMods_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода TooManyMods для сборки Hardcore SK.",
+    "description": "Русская локализация для мода TooManyMods.",
     "targetFolder": "TooManyMods_Russian_MrSlavaV"
   },
   {
@@ -293,7 +293,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/VanometricGenerator_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода VanometricGenerator для сборки Hardcore SK.",
+    "description": "Русская локализация для мода VanometricGenerator.",
     "targetFolder": "VanometricGenerator_Russian_MrSlavaV"
   },
   {
@@ -304,7 +304,7 @@
     "language": "Russian",
     "version": "1.0.0",
     "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/VOE_Factory_Russian_MrSlavaV.zip",
-    "description": "Полная русская локализация мода VOE_Factory для сборки Hardcore SK.",
+    "description": "Русская локализация для мода VOE_Factory.",
     "targetFolder": "VOE_Factory_Russian_MrSlavaV"
   }
 ]

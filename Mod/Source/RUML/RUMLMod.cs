@@ -184,12 +184,12 @@ namespace RUML
                     currentMainTab = 2;
                 }
 
-                Rect emptyDirRect = new Rect(inRect.x + 10f, goBtn.yMax + 14f, inRect.width - 20f, 26f);
-                string emptyTitle = "Папка сторонних переводов в AppData: " + RUMLFolderManager.GetExternalTranslationsDir();
-                if (Widgets.ButtonText(emptyDirRect, emptyTitle))
+                Rect emptyDirRect = new Rect(inRect.x + 10f, goBtn.yMax + 14f, 240f, 32f);
+                if (Widgets.ButtonText(emptyDirRect, "Открыть папку переводов"))
                 {
                     RUMLCloudManager.OpenTranslationsFolderInExplorer();
                 }
+                TooltipHandler.TipRegion(emptyDirRect, RUMLFolderManager.GetExternalTranslationsDir());
                 return;
             }
 
@@ -210,12 +210,12 @@ namespace RUML
             }
 
             // Row 2: Open AppData folder button
-            Rect openDirRect = new Rect(inRect.x, inRect.y + 36f, inRect.width, 26f);
-            string appDataTitle = "Папка сторонних переводов в AppData: " + RUMLFolderManager.GetExternalTranslationsDir();
-            if (Widgets.ButtonText(openDirRect, appDataTitle))
+            Rect openDirRect = new Rect(inRect.x, inRect.y + 36f, 240f, 30f);
+            if (Widgets.ButtonText(openDirRect, "Открыть папку переводов"))
             {
                 RUMLCloudManager.OpenTranslationsFolderInExplorer();
             }
+            TooltipHandler.TipRegion(openDirRect, RUMLFolderManager.GetExternalTranslationsDir());
 
             // Scrollable Checkbox List
             Rect listRect = new Rect(inRect.x, inRect.y + 66f, inRect.width, inRect.height - 116f);
@@ -596,25 +596,32 @@ namespace RUML
         {
             // Row 1: Manifest URL & Sync Buttons
             Rect urlRow = new Rect(inRect.x, inRect.y, inRect.width, 28f);
-            float btnW = 140f;
+            float btnW1 = 135f; // Обновить каталог
+            float btnW2 = 180f; // Открыть папку переводов
+            float btnW3 = 135f; // Шаблон manifest
+            float totalBtnsW = btnW1 + btnW2 + btnW3 + 30f;
 
             Rect urlLabelR = new Rect(urlRow.x, urlRow.y, 110f, 28f);
             Widgets.Label(urlLabelR, "GitHub Каталог:");
 
-            Rect urlFieldR = new Rect(urlLabelR.xMax + 5f, urlRow.y, inRect.width - (urlLabelR.width + btnW * 3 + 35f), 28f);
+            Rect urlFieldR = new Rect(urlLabelR.xMax + 5f, urlRow.y, inRect.width - (urlLabelR.width + totalBtnsW + 15f), 28f);
             Settings.cloudManifestUrl = Widgets.TextField(urlFieldR, Settings.cloudManifestUrl);
 
-            if (Widgets.ButtonText(new Rect(urlFieldR.xMax + 10f, urlRow.y, btnW, 28f), "Обновить каталог"))
+            Rect b1 = new Rect(urlFieldR.xMax + 10f, urlRow.y, btnW1, 28f);
+            if (Widgets.ButtonText(b1, "Обновить каталог"))
             {
                 RUMLCloudManager.FetchManifestAsync(Settings.cloudManifestUrl, Content);
             }
 
-            if (Widgets.ButtonText(new Rect(urlFieldR.xMax + btnW + 20f, urlRow.y, btnW, 28f), "Папка AppData"))
+            Rect b2 = new Rect(b1.xMax + 10f, urlRow.y, btnW2, 28f);
+            if (Widgets.ButtonText(b2, "Открыть папку переводов"))
             {
                 RUMLCloudManager.OpenTranslationsFolderInExplorer();
             }
+            TooltipHandler.TipRegion(b2, RUMLFolderManager.GetExternalTranslationsDir());
 
-            if (Widgets.ButtonText(new Rect(urlFieldR.xMax + (btnW + 10f) * 2 + 10f, urlRow.y, btnW, 28f), "Шаблон manifest"))
+            Rect b3 = new Rect(b2.xMax + 10f, urlRow.y, btnW3, 28f);
+            if (Widgets.ButtonText(b3, "Шаблон manifest"))
             {
                 string f = RUMLCloudManager.ExportSampleManifest();
                 Messages.Message("RUML: Шаблон manifest.json сохранён на Рабочий стол: " + f, MessageTypeDefOf.PositiveEvent, false);
@@ -645,32 +652,32 @@ namespace RUML
                 }
             }
 
-            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, Math.Max(filtered.Count * 68f, listRect.height));
+            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, Math.Max(filtered.Count * 84f, listRect.height));
             Widgets.BeginScrollView(listRect, ref cloudScrollPos, viewRect);
 
             float curY = 0f;
             foreach (var item in filtered)
             {
-                Rect card = new Rect(0f, curY, viewRect.width, 64f);
+                Rect card = new Rect(0f, curY, viewRect.width, 78f);
                 Widgets.DrawBoxSolid(card, new Color(0.12f, 0.12f, 0.12f, 0.5f));
                 Widgets.DrawHighlightIfMouseover(card);
 
                 // Mod info (Left)
                 string title = "<b>" + item.ModName + "</b>  <color=grey>(v" + item.Version + ")</color>  Автор: <color=#40E0D0>" + item.Author + "</color>";
-                Widgets.Label(new Rect(card.x + 8f, card.y + 4f, card.width - 230f, 20f), title);
+                Widgets.Label(new Rect(card.x + 8f, card.y + 5f, card.width - 230f, 22f), title);
 
                 string desc = "<color=#C0C0C0>" + item.Description + "</color>";
-                Widgets.Label(new Rect(card.x + 8f, card.y + 24f, card.width - 230f, 18f), desc);
+                Widgets.Label(new Rect(card.x + 8f, card.y + 28f, card.width - 230f, 22f), desc);
 
                 string modStatus = item.IsTargetModActive
                     ? "<color=#50E050>• Целевой мод активен в игре (" + item.PackageId + ")</color>"
                     : "<color=#FFA040>• Мод не обнаружен в списке активных модов (" + item.PackageId + ")</color>";
-                Widgets.Label(new Rect(card.x + 8f, card.y + 42f, card.width - 230f, 18f), modStatus);
+                Widgets.Label(new Rect(card.x + 8f, card.y + 51f, card.width - 230f, 22f), modStatus);
 
                 // Action Buttons (Right)
                 if (item.IsInstalled)
                 {
-                    Rect uninstR = new Rect(card.width - 210f, card.y + 16f, 100f, 32f);
+                    Rect uninstR = new Rect(card.width - 210f, card.y + 22f, 100f, 34f);
                     Color prevCol = GUI.color;
                     GUI.color = new Color(1f, 0.4f, 0.4f, 1f);
                     if (Widgets.ButtonText(uninstR, "Удалить"))
@@ -679,7 +686,7 @@ namespace RUML
                     }
                     GUI.color = prevCol;
 
-                    Rect updateR = new Rect(card.width - 105f, card.y + 16f, 100f, 32f);
+                    Rect updateR = new Rect(card.width - 105f, card.y + 22f, 100f, 34f);
                     if (Widgets.ButtonText(updateR, "Обновить"))
                     {
                         RUMLCloudManager.DownloadAndInstallAsync(item, Content, Settings);
@@ -687,7 +694,7 @@ namespace RUML
                 }
                 else
                 {
-                    Rect dlR = new Rect(card.width - 210f, card.y + 16f, 205f, 32f);
+                    Rect dlR = new Rect(card.width - 210f, card.y + 22f, 205f, 34f);
                     Color prevC = GUI.color;
                     GUI.color = new Color(0.2f, 0.9f, 0.4f, 1f);
                     if (Widgets.ButtonText(dlR, "Скачать и применить"))
@@ -697,7 +704,7 @@ namespace RUML
                     GUI.color = prevC;
                 }
 
-                curY += 68f;
+                curY += 84f;
             }
 
             Widgets.EndScrollView();
