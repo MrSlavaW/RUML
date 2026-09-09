@@ -101,8 +101,9 @@ def build():
                 # Pack into zip ensuring valid RimWorld Languages structure + info.json
                 has_languages_dir = (author_dir / "Languages").exists()
                 
-                # Deterministic ZIP creation (fixed timestamp for identical MD5 on Windows and Linux)
+                # Deterministic ZIP creation (fixed timestamp and normalized LF for identical MD5 on Windows and Linux)
                 FIXED_ZIP_TIME = (2026, 1, 1, 0, 0, 0)
+                TEXT_EXTS = {".xml", ".json", ".txt", ".md"}
                 with zipfile.ZipFile(archive_path, "w", zipfile.ZIP_DEFLATED) as zf:
                     for root, dirs, files in os.walk(author_dir):
                         for f in sorted(files):
@@ -121,8 +122,19 @@ def build():
                             zinfo = zipfile.ZipInfo(arc_name, date_time=FIXED_ZIP_TIME)
                             zinfo.compress_type = zipfile.ZIP_DEFLATED
                             zinfo.external_attr = 0o644 << 16
-                            with open(file_path, "rb") as f_in:
-                                zf.writestr(zinfo, f_in.read())
+
+                            # Deterministic line endings for text files across Windows (CRLF) and Linux (LF)
+                            if file_path.suffix.lower() in TEXT_EXTS:
+                                try:
+                                    raw_text = file_path.read_text(encoding="utf-8")
+                                    norm_text = raw_text.replace("\r\n", "\n").replace("\r", "\n")
+                                    raw_bytes = norm_text.encode("utf-8")
+                                except Exception:
+                                    raw_bytes = file_path.read_bytes()
+                            else:
+                                raw_bytes = file_path.read_bytes()
+
+                            zf.writestr(zinfo, raw_bytes)
 
                 # Calculate archive MD5 hash
                 import hashlib
