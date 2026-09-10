@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <EPIA_CircadianRefresher.labelNoun>циркадный освежитель</EPIA_CircadianRefresher.labelNoun>
-  <EPOE_AdvancedDrillArm.label>бур</EPOE_AdvancedDrillArm.label>
+  <EPOE_AdvancedDrillArm.label>продвинутая рука-бур</EPOE_AdvancedDrillArm.label>
   <EPOE_AdvancedDrillArm.labelNoun>продвинутая рука-бур</EPOE_AdvancedDrillArm.labelNoun>
-  <EPOE_AdvancedElbowBlade.label>лезвие</EPOE_AdvancedElbowBlade.label>
+  <EPOE_AdvancedDrillArm.comps.HediffComp_VerbGiver.tools.drill.label>бур</EPOE_AdvancedDrillArm.comps.HediffComp_VerbGiver.tools.drill.label>
+  <EPOE_AdvancedDrillArm.comps.0.tools.0.label>бур</EPOE_AdvancedDrillArm.comps.0.tools.0.label>
+  <EPOE_AdvancedElbowBlade.label>продвинутый локтевой клинок</EPOE_AdvancedElbowBlade.label>
   <EPOE_AdvancedElbowBlade.labelNoun>продвинутый локтевой клинок</EPOE_AdvancedElbowBlade.labelNoun>
-  <EPOE_AdvancedFieldHand.label>костяшка</EPOE_AdvancedFieldHand.label>
+  <EPOE_AdvancedElbowBlade.comps.HediffComp_VerbGiver.tools.slice.label>лезвие</EPOE_AdvancedElbowBlade.comps.HediffComp_VerbGiver.tools.slice.label>
+  <EPOE_AdvancedElbowBlade.comps.0.tools.0.label>лезвие</EPOE_AdvancedElbowBlade.comps.0.tools.0.label>
+  <EPOE_AdvancedFieldHand.label>продвинутый агроманипулятор</EPOE_AdvancedFieldHand.label>
   <EPOE_AdvancedFieldHand.labelNoun>продвинутый агроманипулятор</EPOE_AdvancedFieldHand.labelNoun>
-  <EPOE_AdvancedHandTalon.label>коготь</EPOE_AdvancedHandTalon.label>
+  <EPOE_AdvancedFieldHand.comps.HediffComp_VerbGiver.tools.knuckle.label>костяшка</EPOE_AdvancedFieldHand.comps.HediffComp_VerbGiver.tools.knuckle.label>
+  <EPOE_AdvancedFieldHand.comps.0.tools.0.label>костяшка</EPOE_AdvancedFieldHand.comps.0.tools.0.label>
+  <EPOE_AdvancedHandTalon.label>продвинутый кистевой коготь</EPOE_AdvancedHandTalon.label>
   <EPOE_AdvancedHandTalon.labelNoun>продвинутый кистевой коготь</EPOE_AdvancedHandTalon.labelNoun>
-  <EPOE_AdvancedKneeSpike.label>шип</EPOE_AdvancedKneeSpike.label>
+  <EPOE_AdvancedHandTalon.comps.HediffComp_VerbGiver.tools.talon.label>коготь</EPOE_AdvancedHandTalon.comps.HediffComp_VerbGiver.tools.talon.label>
+  <EPOE_AdvancedHandTalon.comps.0.tools.0.label>коготь</EPOE_AdvancedHandTalon.comps.0.tools.0.label>
+  <EPOE_AdvancedKneeSpike.label>продвинутый коленный шип</EPOE_AdvancedKneeSpike.label>
   <EPOE_AdvancedKneeSpike.labelNoun>продвинутый коленный шип</EPOE_AdvancedKneeSpike.labelNoun>
+  <EPOE_AdvancedKneeSpike.comps.HediffComp_VerbGiver.tools.stab.label>шип</EPOE_AdvancedKneeSpike.comps.HediffComp_VerbGiver.tools.stab.label>
+  <EPOE_AdvancedKneeSpike.comps.0.tools.0.label>шип</EPOE_AdvancedKneeSpike.comps.0.tools.0.label>
   <EPOE_DetoxifierEnhancer.labelNoun>детоксикационный усилитель</EPOE_DetoxifierEnhancer.labelNoun>
   <EPOE_DetoxifierSyntheticLiver.labelNoun>синтетическая детокс-печень</EPOE_DetoxifierSyntheticLiver.labelNoun>
   <EPOE_ImmunoenhancerSyntheticKidney.labelNoun>синтетическая иммуноусиленная почка</EPOE_ImmunoenhancerSyntheticKidney.labelNoun>
-  <EPOE_ScytherElbowBlade.label>клинок</EPOE_ScytherElbowBlade.label>
+  <EPOE_ScytherElbowBlade.label>бионический локтевой клинок</EPOE_ScytherElbowBlade.label>
   <EPOE_ScytherElbowBlade.labelNoun>бионический локтевой клинок</EPOE_ScytherElbowBlade.labelNoun>
-  <EPOE_ScytherHandTalon.label>коготь</EPOE_ScytherHandTalon.label>
+  <EPOE_ScytherElbowBlade.comps.HediffComp_VerbGiver.tools.blade.label>клинок</EPOE_ScytherElbowBlade.comps.HediffComp_VerbGiver.tools.blade.label>
+  <EPOE_ScytherElbowBlade.comps.0.tools.0.label>клинок</EPOE_ScytherElbowBlade.comps.0.tools.0.label>
+  <EPOE_ScytherHandTalon.label>бионический кистевой коготь</EPOE_ScytherHandTalon.label>
   <EPOE_ScytherHandTalon.labelNoun>бионический кистевой коготь</EPOE_ScytherHandTalon.labelNoun>
-  <EPOE_ScytherKneeSpike.label>шип</EPOE_ScytherKneeSpike.label>
+  <EPOE_ScytherHandTalon.comps.HediffComp_VerbGiver.tools.talon.label>коготь</EPOE_ScytherHandTalon.comps.HediffComp_VerbGiver.tools.talon.label>
+  <EPOE_ScytherHandTalon.comps.0.tools.0.label>коготь</EPOE_ScytherHandTalon.comps.0.tools.0.label>
+  <EPOE_ScytherKneeSpike.label>бионический коленный шип</EPOE_ScytherKneeSpike.label>
   <EPOE_ScytherKneeSpike.labelNoun>бионический коленный шип</EPOE_ScytherKneeSpike.labelNoun>
+  <EPOE_ScytherKneeSpike.comps.HediffComp_VerbGiver.tools.spike.label>шип</EPOE_ScytherKneeSpike.comps.HediffComp_VerbGiver.tools.spike.label>
+  <EPOE_ScytherKneeSpike.comps.0.tools.0.label>шип</EPOE_ScytherKneeSpike.comps.0.tools.0.label>
 </LanguageData>

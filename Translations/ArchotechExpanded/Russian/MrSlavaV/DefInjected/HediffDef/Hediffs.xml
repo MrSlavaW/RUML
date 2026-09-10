@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <AdvancedArchotechArm.label>кулак</AdvancedArchotechArm.label>
+  <AdvancedArchotechArm.label>продвинутая архотек-рука</AdvancedArchotechArm.label>
   <AdvancedArchotechArm.labelNoun>продвинутая архотек-рука</AdvancedArchotechArm.labelNoun>
+  <AdvancedArchotechArm.comps.HediffComp_VerbGiver.tools.fist.label>кулак</AdvancedArchotechArm.comps.HediffComp_VerbGiver.tools.fist.label>
+  <AdvancedArchotechArm.comps.0.tools.0.label>кулак</AdvancedArchotechArm.comps.0.tools.0.label>
   <AdvancedArchotechLeg.labelNoun>продвинутая архотек-нога</AdvancedArchotechLeg.labelNoun>
   <ArchotechBrainMelder.labelNoun>архотек-соединитель разума</ArchotechBrainMelder.labelNoun>
-  <ArchotechDeathClaw.label>коготь</ArchotechDeathClaw.label>
+  <ArchotechDeathClaw.label>архотек-коготь смерти</ArchotechDeathClaw.label>
   <ArchotechDeathClaw.labelNoun>архотек-коготь смерти</ArchotechDeathClaw.labelNoun>
+  <ArchotechDeathClaw.comps.HediffComp_VerbGiver.tools.claw.label>коготь</ArchotechDeathClaw.comps.HediffComp_VerbGiver.tools.claw.label>
+  <ArchotechDeathClaw.comps.0.tools.0.label>коготь</ArchotechDeathClaw.comps.0.tools.0.label>
   <ArchotechDenture.labelNoun>архотек-челюсть</ArchotechDenture.labelNoun>
   <ArchotechEar.labelNoun>архотек-ухо</ArchotechEar.labelNoun>
   <ArchotechHeart.labelNoun>архотек-сердце</ArchotechHeart.labelNoun>
@@ -13,8 +17,10 @@
   <ArchotechLiver.labelNoun>архотек-печень</ArchotechLiver.labelNoun>
   <ArchotechLung.labelNoun>архотек-лёгкое</ArchotechLung.labelNoun>
   <ArchotechMembrane.labelNoun>архотек-мембрана</ArchotechMembrane.labelNoun>
-  <ArchotechObliterator.label>кулак</ArchotechObliterator.label>
+  <ArchotechObliterator.label>архотек-аннигилятор</ArchotechObliterator.label>
   <ArchotechObliterator.labelNoun>архотек-аннигилятор</ArchotechObliterator.labelNoun>
+  <ArchotechObliterator.comps.HediffComp_VerbGiver.tools.fist.label>кулак</ArchotechObliterator.comps.HediffComp_VerbGiver.tools.fist.label>
+  <ArchotechObliterator.comps.0.tools.0.label>кулак</ArchotechObliterator.comps.0.tools.0.label>
   <ArchotechPelvis.labelNoun>архотек-таз</ArchotechPelvis.labelNoun>
   <ArchotechRegenerationMatrix.labelNoun>архотек-матрица регенерации</ArchotechRegenerationMatrix.labelNoun>
   <ArchotechSpine.labelNoun>архотек-позвоночник</ArchotechSpine.labelNoun>

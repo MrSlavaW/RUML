@@ -10,6 +10,8 @@
 	<AG_DevilsheepHorns.label>Дьявольские рога</AG_DevilsheepHorns.label>
 	<!--                        EN: Carriers of this gene grow two short sheep horns protruding from the forehead. -->
 	<AG_DevilsheepHorns.description>У носителей этого гена вырастают два коротких овечьих рога, выступающих изо лба.</AG_DevilsheepHorns.description>
+	<!--                                 EN: Adds a 16 stab damage, 3 seconds cooldown melee attack -->
+	<AG_DevilsheepHorns.customEffectDescriptions.0>Добавляет атаку ближнего боя с 16 ед. колющего урона и временем восстановления 3 секунды.</AG_DevilsheepHorns.customEffectDescriptions.0>
 	<!--            EN: bull horns -->
 	<AG_BullHorns.label>Бычьи рога</AG_BullHorns.label>
 	<!--                  EN: Carriers of this gene grow two large bull horns protruding from the forehead. These are not purely cosmetic, as they can be used for offensive purposes. -->

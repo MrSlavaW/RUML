@@ -6,4 +6,5 @@
 	<AM_Mech_TurboCleaner.description>По сути, это очиститель, установленный на двух небольших турбинных двигателях с гиростабилизацией. Турбоочиститель парит над местностью, используя вакуумную насадку для всасывания грязи и другого мусора. Абсолютно бесполезен в бою.\n\n&lt;color=#E5E54C&gt;Эффект игрового процесса:&lt;/color&gt; Парит над местностью, игнорируя затраты на перемещение по местности.</AM_Mech_TurboCleaner.description>
 	<!--                            EN: голова -->
 	<AM_Mech_TurboCleaner.tools.0.label>голова</AM_Mech_TurboCleaner.tools.0.label>
+	<AM_Mech_TurboCleaner.tools.head-1.label>голова</AM_Mech_TurboCleaner.tools.head-1.label>
 </LanguageData>

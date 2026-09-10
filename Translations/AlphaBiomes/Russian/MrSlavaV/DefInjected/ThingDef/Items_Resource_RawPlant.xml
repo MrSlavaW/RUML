@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
 <AB_PinkRawFungus.label>розовый гриб</AB_PinkRawFungus.label>
@@ -29,6 +29,8 @@
 <AB_PsychotropicFungus.description>Этот гриб забавен на вкус и вызывает эйфорию. Однако, если есть его слишком часто, то он вызывает умеренную зависимость.</AB_PsychotropicFungus.description>
 <AB_RawRimeNodules.label>ягоды изморозника</AB_RawRimeNodules.label>
 <AB_RawRimeNodules.description>Мешочки очень странного растения, частично неорганического, которое извлекает пропан из окружающей атмосферы и хранит в себе, как источник энергии. Эти мешочки можно употребить, как очень мягкий эйфоретик.</AB_RawRimeNodules.description>
+<AB_RawRimeNodules.ingestible.ingestCommandString>Принять {0}</AB_RawRimeNodules.ingestible.ingestCommandString>
+<AB_RawRimeNodules.ingestible.ingestReportString>Принимает {0}.</AB_RawRimeNodules.ingestible.ingestReportString>
 <AB_GiantSeeds.label>семена гигантского подсолнечника</AB_GiantSeeds.label>
 <AB_GiantSeeds.description>Семена подсолнечника чаще употребляют в качестве закуски, чем как часть основного питания. Их также можно использовать в качестве гарниров или ингредиентов в различных рецептах. Эти семена просто гигантские!</AB_GiantSeeds.description>
 <AB_RawRagadast.label>ягоды радагаста</AB_RawRagadast.label>

@@ -2,12 +2,16 @@
 	<!-- 1.6\Defs\GeneDefs\GeneDefs_Cosmetic_Hair.xml -->
 	<!--               EN: deep red hair -->
 	<AG_Hair_DeepRed.label>Красные волосы</AG_Hair_DeepRed.label>
+	<AG_Hair_DeepRed.description>Носители этого гена имеют особый цвет волос. При наличии нескольких генов цвета волос один выбирается случайным образом.</AG_Hair_DeepRed.description>
 	<!--                                    EN: Just the way General Pain likes it. -->
 	<AG_Hair_DeepRed.customEffectDescriptions.0>Именно так, как нравится.</AG_Hair_DeepRed.customEffectDescriptions.0>
 	<!--                  EN: deep orange hair -->
 	<AG_Hair_DeepOrange.label>Оранжевые волосы</AG_Hair_DeepOrange.label>
+	<AG_Hair_DeepOrange.description>Носители этого гена имеют особый цвет волос. При наличии нескольких генов цвета волос один выбирается случайным образом.</AG_Hair_DeepOrange.description>
 	<!--                 EN: pale green hair -->
 	<AG_Hair_PaleGreen.label>Зеленые волосы</AG_Hair_PaleGreen.label>
+	<AG_Hair_PaleGreen.description>Носители этого гена имеют особый цвет волос. При наличии нескольких генов цвета волос один выбирается случайным образом.</AG_Hair_PaleGreen.description>
 	<!--              EN: golden hair -->
 	<AG_Hair_Golden.label>Золотистые волосы</AG_Hair_Golden.label>
+	<AG_Hair_Golden.description>Носители этого гена имеют особый цвет волос. При наличии нескольких генов цвета волос один выбирается случайным образом.</AG_Hair_Golden.description>
 </LanguageData>

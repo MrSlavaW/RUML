@@ -6,4 +6,5 @@
 	<AM_Mech_Guttersnipe.description>Небольшой развёртываемый боевой механоид, обычно собираемый внутри сверхтяжёлой «Императрицы войны». В отличие от боевых ежей, гаттерснайп — боец ближнего боя, который бросается на цель с помощью смертоносных циркулярных пил. Источник питания у него одноразовый и не подлежит перезарядке.</AM_Mech_Guttersnipe.description>
 	<!--                           EN: голова -->
 	<AM_Mech_Guttersnipe.tools.0.label>голова</AM_Mech_Guttersnipe.tools.0.label>
+	<AM_Mech_Guttersnipe.tools.head-1.label>голова</AM_Mech_Guttersnipe.tools.head-1.label>
 </LanguageData>

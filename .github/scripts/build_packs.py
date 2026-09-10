@@ -123,10 +123,21 @@ def build():
 
                             if f == "info.json":
                                 arc_name = "info.json"
-                            elif has_languages_dir:
-                                arc_name = str(rel_path).replace("\\", "/")
                             else:
-                                arc_name = f"Languages/{lang_name}/{str(rel_path).replace(chr(92), '/')}"
+                                if has_languages_dir:
+                                    rel_str = str(rel_path).replace("\\", "/")
+                                else:
+                                    rel_str = f"Languages/{lang_name}/{str(rel_path).replace(chr(92), '/')}"
+
+                                # Ensure unique relative file paths across all RUML mods to prevent
+                                # RimWorld's tmpAlreadyLoadedFiles[mod] from dropping files with identical names
+                                parts = rel_str.split("/")
+                                fname = parts[-1]
+                                if fname.endswith(".xml") and ("Keyed" in parts or "DefInjected" in parts):
+                                    prefix = f"{mod_name}_"
+                                    if not fname.lower().startswith(prefix.lower()):
+                                        parts[-1] = f"{prefix}{fname}"
+                                arc_name = "/".join(parts)
 
                             # Security: Block path traversal in zip entry name
                             if ".." in arc_name or arc_name.startswith("/") or arc_name.startswith("\\"):

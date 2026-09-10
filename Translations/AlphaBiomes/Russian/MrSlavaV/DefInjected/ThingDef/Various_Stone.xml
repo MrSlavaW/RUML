@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
 
 <GU_RoseQuartz.label>розовый кварц</GU_RoseQuartz.label>
@@ -9,6 +9,7 @@
 <GU_ChunkRoseQuartz.description>Обломок розового кварца. Можно разрезать на блоки, пригодные для строительства.</GU_ChunkRoseQuartz.description>
 <GU_BlocksRoseQuartz.label>Блоки розового кварца</GU_BlocksRoseQuartz.label>
 <GU_BlocksRoseQuartz.description>Блоки твёрдого розового кварца.</GU_BlocksRoseQuartz.description>
+<GU_BlocksRoseQuartz.stuffProps.stuffAdjective>из розового кварца</GU_BlocksRoseQuartz.stuffProps.stuffAdjective>
 
 <AB_Cragstone.label>скальный камень</AB_Cragstone.label>
 <AB_Cragstone.description>Однородная метаморфическая горная порода с тёмным оттенком. Кажется, что эти камни привлекают тьму, их окружающую.</AB_Cragstone.description>
@@ -18,6 +19,7 @@
 <AB_ChunkCragstone.description>Обломок скального камня. Можно разрезать на блоки, пригодные для строительства.</AB_ChunkCragstone.description>
 <AB_BlocksCragstone.label>блоки скального камня</AB_BlocksCragstone.label>
 <AB_BlocksCragstone.description>Блоки твёрдого скального камня</AB_BlocksCragstone.description>
+<AB_BlocksCragstone.stuffProps.stuffAdjective>из скального камня</AB_BlocksCragstone.stuffProps.stuffAdjective>
 
 <AB_Obsidianstone.label>оникс-стекло</AB_Obsidianstone.label>
 <AB_Obsidianstone.description>Оникс-стекло — редкое вулканическое стекло, образующееся при быстром охлаждении лавы с примесями. Обладает глубоким блеском и слоистой структурой. Подобно обсидиану, оно твёрдое, хрупкое и аморфное, раскалывается на исключительно острые кусочки.</AB_Obsidianstone.description>
@@ -27,6 +29,7 @@
 <AB_ChunkObsidian.description>Обломок оникс-стекла. Можно разрезать на блоки, пригодные для строительства.</AB_ChunkObsidian.description>
 <AB_BlocksObsidian.label>блоки оникс-стекла</AB_BlocksObsidian.label>
 <AB_BlocksObsidian.description>Блоки твёрдого оникс-стекла</AB_BlocksObsidian.description>
+<AB_BlocksObsidian.stuffProps.stuffAdjective>из оникс-стекла</AB_BlocksObsidian.stuffProps.stuffAdjective>
 
 <AB_Mudstone.label>аргиллит</AB_Mudstone.label>
 <AB_Mudstone.description>Аргиллит – это вид грязевой породы, мелкозернистой осадочной горной породы, чьи первоначальные составляющие были глиной или грязью. Аргиллит выглядит, как затвердевшая глина и в зависимости от обстоятельств, при которых он формировался, на нём могут быть трещины и расколы, прямо как на запечённых солнцем залежах глины.</AB_Mudstone.description>
@@ -36,6 +39,7 @@
 <AB_ChunkMudstone.description>Обломок аргиллита. Можно разрезать на блоки, пригодные для строительства.</AB_ChunkMudstone.description>
 <AB_BlocksMudstone.label>блоки аргиллита</AB_BlocksMudstone.label>
 <AB_BlocksMudstone.description>Блоки твёрдого аргиллита</AB_BlocksMudstone.description>
+<AB_BlocksMudstone.stuffProps.stuffAdjective>из аргиллита</AB_BlocksMudstone.stuffProps.stuffAdjective>
 
 <AB_SlimeStone.label>слизнекамень</AB_SlimeStone.label>
 <AB_SlimeStone.description>Это залежи слизнекамня. Не очень полезные… Из этой “горной породы” добываются обломки, но их нельзя разрезать на блоки, как другие виды горных пород.</AB_SlimeStone.description>

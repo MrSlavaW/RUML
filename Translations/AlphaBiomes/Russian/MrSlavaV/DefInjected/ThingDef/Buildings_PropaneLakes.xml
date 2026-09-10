@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
 <AB_PropanePump.label>пропановый насос</AB_PropanePump.label>
@@ -29,8 +29,13 @@
 <AB_PropaneTableMachining.description>Рабочая станция для сборки механизмов, таких как оружие и боеприпасы, а также для разборки мёртвых механоидов.</AB_PropaneTableMachining.description>
 <AB_Turret_Propane.label>пропановая турель</AB_Turret_Propane.label>
 <AB_Turret_Propane.description>Переносная огнемётная турель на пропановом топливе. Может взорваться при повреждении. Из-за примитивного ИИ не поддаётся прямому управлению — остерегайтесь дружественного огня.</AB_Turret_Propane.description>
+<AB_Turret_Propane.comps.CompRefuelable.fuelGizmoLabel>Остаток топлива</AB_Turret_Propane.comps.CompRefuelable.fuelGizmoLabel>
+<AB_Turret_Propane.comps.CompRefuelable.fuelLabel>Остаток топлива</AB_Turret_Propane.comps.CompRefuelable.fuelLabel>
+<AB_Turret_Propane.comps.CompRefuelable.outOfFuelMessage>Требуется пропан</AB_Turret_Propane.comps.CompRefuelable.outOfFuelMessage>
 <AB_Turret_Propane_Gun.label>огнемёт для пропановой турели</AB_Turret_Propane_Gun.label>
 <AB_Turret_Propane_Gun.description>Пропановый огнемёт, предназначенный для установки на турель.</AB_Turret_Propane_Gun.description>
+<AB_Turret_Propane_Gun.verbs.Verb_Shoot.label>пропановая турель</AB_Turret_Propane_Gun.verbs.Verb_Shoot.label>
+<AB_Turret_Propane_Gun.verbs.0.label>пропановая турель</AB_Turret_Propane_Gun.verbs.0.label>
 
 </LanguageData>
 

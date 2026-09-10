@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AA_SmallButterfly.corePart.parts.butterfly.customLabel>бабочка</AA_SmallButterfly.corePart.parts.butterfly.customLabel>
+  <AA_ExtraClawedQuadruped.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>передняя левая лапа</AA_ExtraClawedQuadruped.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>
+  <AA_ExtraClawedQuadruped.corePart.parts.front_right_leg.customLabel>передняя правая нога</AA_ExtraClawedQuadruped.corePart.parts.front_right_leg.customLabel>
+  <AA_ExtraClawedQuadruped.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>передняя правая лапа</AA_ExtraClawedQuadruped.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>
+  <AA_ExtraClawedQuadruped.corePart.parts.rear_left_leg.customLabel>задняя левая нога</AA_ExtraClawedQuadruped.corePart.parts.rear_left_leg.customLabel>
+  <AA_ExtraClawedQuadruped.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>задняя левая лапа</AA_ExtraClawedQuadruped.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>
+  <AA_ExtraClawedQuadruped.corePart.parts.rear_right_leg.customLabel>задняя правая нога</AA_ExtraClawedQuadruped.corePart.parts.rear_right_leg.customLabel>
+  <AA_ExtraClawedQuadruped.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>задняя правая лапа</AA_ExtraClawedQuadruped.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
+  <AA_EyeBody.corePart.parts.stomach_pouch.customLabel>желудочный мешок</AA_EyeBody.corePart.parts.stomach_pouch.customLabel>
+  <AA_EyeBody.corePart.parts.gastrovascular_cavity.customLabel>гастроваскулярная полость</AA_EyeBody.corePart.parts.gastrovascular_cavity.customLabel>
+  <AA_EyeBody.corePart.parts.Head.parts.eye.customLabel>глаз</AA_EyeBody.corePart.parts.Head.parts.eye.customLabel>
+  <AA_EyeBody.corePart.parts.first_tentacle.customLabel>первое щупальце</AA_EyeBody.corePart.parts.first_tentacle.customLabel>
+  <AA_EyeBody.corePart.parts.second_tentacle.customLabel>второе щупальце</AA_EyeBody.corePart.parts.second_tentacle.customLabel>
+  <AA_EyeBody.corePart.parts.third_tentacle.customLabel>третье щупальце</AA_EyeBody.corePart.parts.third_tentacle.customLabel>
+  <AA_EyelessQuadruped.corePart.parts.stomach.customLabel>желудок</AA_EyelessQuadruped.corePart.parts.stomach.customLabel>
+  <AA_EyelessQuadruped.corePart.parts.left_lung.customLabel>левое лёгкое</AA_EyelessQuadruped.corePart.parts.left_lung.customLabel>
+  <AA_EyelessQuadruped.corePart.parts.right_lung.customLabel>правое лёгкое</AA_EyelessQuadruped.corePart.parts.right_lung.customLabel>
+  <AA_EyelessQuadruped.corePart.parts.left_kidney.customLabel>левая почка</AA_EyelessQuadruped.corePart.parts.left_kidney.customLabel>
+  <AA_EyelessQuadruped.corePart.parts.right_kidney.customLabel>правая почка</AA_EyelessQuadruped.corePart.parts.right_kidney.customLabel>
+  <AA_EyelessQuadruped.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>левое ухо</AA_EyelessQuadruped.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <AA_EyelessQuadruped.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>правое ухо</AA_EyelessQuadruped.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <AA_EyelessQuadruped.corePart.parts.front_left_leg.customLabel>передняя левая нога</AA_EyelessQuadruped.corePart.parts.front_left_leg.customLabel>
+  <AA_EyelessQuadruped.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>передняя левая лапа</AA_EyelessQuadruped.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>
+  <AA_EyelessQuadruped.corePart.parts.front_right_leg.customLabel>передняя правая нога</AA_EyelessQuadruped.corePart.parts.front_right_leg.customLabel>
+  <AA_EyelessQuadruped.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>передняя правая лапа</AA_EyelessQuadruped.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>
+  <AA_EyelessQuadruped.corePart.parts.rear_left_leg.customLabel>задняя левая нога</AA_EyelessQuadruped.corePart.parts.rear_left_leg.customLabel>
+  <AA_EyelessQuadruped.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>задняя левая лапа</AA_EyelessQuadruped.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>
+  <AA_EyelessQuadruped.corePart.parts.rear_right_leg.customLabel>задняя правая нога</AA_EyelessQuadruped.corePart.parts.rear_right_leg.customLabel>
+  <AA_EyelessQuadruped.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>задняя правая лапа</AA_EyelessQuadruped.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
+  <AA_FlyTrap.corePart.parts.first_tentacle.customLabel>первое щупальце</AA_FlyTrap.corePart.parts.first_tentacle.customLabel>
+  <AA_FlyTrap.corePart.parts.second_tentacle.customLabel>второе щупальце</AA_FlyTrap.corePart.parts.second_tentacle.customLabel>
+  <AA_FlyTrap.corePart.parts.third_tentacle.customLabel>третье щупальце</AA_FlyTrap.corePart.parts.third_tentacle.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.left_lung.customLabel>левое лёгкое</AA_FourEyedQuadruped.corePart.parts.left_lung.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.right_lung.customLabel>правое лёгкое</AA_FourEyedQuadruped.corePart.parts.right_lung.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.left_kidney.customLabel>левая почка</AA_FourEyedQuadruped.corePart.parts.left_kidney.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.right_kidney.customLabel>правая почка</AA_FourEyedQuadruped.corePart.parts.right_kidney.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.Neck.parts.Head.parts.first_left_eye.customLabel>первый левый глаз</AA_FourEyedQuadruped.corePart.parts.Neck.parts.Head.parts.first_left_eye.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.Neck.parts.Head.parts.first_right_eye.customLabel>первый правый глаз</AA_FourEyedQuadruped.corePart.parts.Neck.parts.Head.parts.first_right_eye.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.Neck.parts.Head.parts.second_left_eye.customLabel>второй левый глаз</AA_FourEyedQuadruped.corePart.parts.Neck.parts.Head.parts.second_left_eye.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.Neck.parts.Head.parts.second_right_eye.customLabel>второй правый глаз</AA_FourEyedQuadruped.corePart.parts.Neck.parts.Head.parts.second_right_eye.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>левое ухо</AA_FourEyedQuadruped.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>правое ухо</AA_FourEyedQuadruped.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.front_left_leg.customLabel>передняя левая нога</AA_FourEyedQuadruped.corePart.parts.front_left_leg.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>передняя левая лапа</AA_FourEyedQuadruped.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.front_right_leg.customLabel>передняя правая нога</AA_FourEyedQuadruped.corePart.parts.front_right_leg.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>передняя правая лапа</AA_FourEyedQuadruped.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.rear_left_leg.customLabel>задняя левая нога</AA_FourEyedQuadruped.corePart.parts.rear_left_leg.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>задняя левая лапа</AA_FourEyedQuadruped.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.rear_right_leg.customLabel>задняя правая нога</AA_FourEyedQuadruped.corePart.parts.rear_right_leg.customLabel>
+  <AA_FourEyedQuadruped.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>задняя правая лапа</AA_FourEyedQuadruped.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
+  <AA_GooBody.corePart.parts.nucleus.customLabel>ядро</AA_GooBody.corePart.parts.nucleus.customLabel>
+  <AA_GooBody.corePart.parts.membrane.customLabel>перепонка</AA_GooBody.corePart.parts.membrane.customLabel>
+  <AA_GooBody.corePart.parts.first_tentacle.customLabel>первое щупальце</AA_GooBody.corePart.parts.first_tentacle.customLabel>
+  <AA_GooBody.corePart.parts.second_tentacle.customLabel>второе щупальце</AA_GooBody.corePart.parts.second_tentacle.customLabel>
+  <AA_GooWithTeethBody.corePart.parts.nucleus.customLabel>ядро</AA_GooWithTeethBody.corePart.parts.nucleus.customLabel>
+  <AA_GooWithTeethBody.corePart.parts.membrane.customLabel>перепонка</AA_GooWithTeethBody.corePart.parts.membrane.customLabel>
+  <AA_GooWithTeethBody.corePart.parts.first_tentacle.customLabel>первое щупальце</AA_GooWithTeethBody.corePart.parts.first_tentacle.customLabel>
+  <AA_GooWithTeethBody.corePart.parts.second_tentacle.customLabel>второе щупальце</AA_GooWithTeethBody.corePart.parts.second_tentacle.customLabel>
+  <AA_GooWithTeethBody.corePart.parts.third_tentacle.customLabel>третье щупальце</AA_GooWithTeethBody.corePart.parts.third_tentacle.customLabel>
+  <AA_GooWithTeethBody.corePart.parts.fourth_tentacle.customLabel>четвёртое щупальце</AA_GooWithTeethBody.corePart.parts.fourth_tentacle.customLabel>
+  <AA_Hexapod.corePart.parts.left_spine.customLabel>левый шип</AA_Hexapod.corePart.parts.left_spine.customLabel>
+  <AA_Hexapod.corePart.parts.right_spine.customLabel>правый шип</AA_Hexapod.corePart.parts.right_spine.customLabel>
+  <AA_Hexapod.corePart.parts.left_lung.customLabel>левое лёгкое</AA_Hexapod.corePart.parts.left_lung.customLabel>
+  <AA_Hexapod.corePart.parts.right_lung.customLabel>правое лёгкое</AA_Hexapod.corePart.parts.right_lung.customLabel>
+  <AA_Hexapod.corePart.parts.left_kidney.customLabel>левая почка</AA_Hexapod.corePart.parts.left_kidney.customLabel>
+  <AA_Hexapod.corePart.parts.right_kidney.customLabel>правая почка</AA_Hexapod.corePart.parts.right_kidney.customLabel>
+  <AA_Hexapod.corePart.parts.Neck.parts.Head.parts.left_first_eye.customLabel>левый первый глаз</AA_Hexapod.corePart.parts.Neck.parts.Head.parts.left_first_eye.customLabel>
+  <AA_Hexapod.corePart.parts.Neck.parts.Head.parts.right_first_eye.customLabel>правый первый глаз</AA_Hexapod.corePart.parts.Neck.parts.Head.parts.right_first_eye.customLabel>
+  <AA_Hexapod.corePart.parts.Neck.parts.Head.parts.left_second_eye.customLabel>левый второй глаз</AA_Hexapod.corePart.parts.Neck.parts.Head.parts.left_second_eye.customLabel>
+  <AA_Hexapod.corePart.parts.Neck.parts.Head.parts.right_second_eye.customLabel>правый второй глаз</AA_Hexapod.corePart.parts.Neck.parts.Head.parts.right_second_eye.customLabel>
+  <AA_Hexapod.corePart.parts.Neck.parts.Head.parts.left_third_eye.customLabel>левый третий глаз</AA_Hexapod.corePart.parts.Neck.parts.Head.parts.left_third_eye.customLabel>
+  <AA_Hexapod.corePart.parts.Neck.parts.Head.parts.right_third_eye.customLabel>правый третий глаз</AA_Hexapod.corePart.parts.Neck.parts.Head.parts.right_third_eye.customLabel>
+  <AA_Hexapod.corePart.parts.front_left_leg.customLabel>передняя левая нога</AA_Hexapod.corePart.parts.front_left_leg.customLabel>
+  <AA_Hexapod.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>передняя левая лапа</AA_Hexapod.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>
+  <AA_Hexapod.corePart.parts.front_right_leg.customLabel>передняя правая нога</AA_Hexapod.corePart.parts.front_right_leg.customLabel>
+  <AA_Hexapod.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>передняя правая лапа</AA_Hexapod.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>
+  <AA_Hexapod.corePart.parts.middle_left_leg.customLabel>средняя левая нога</AA_Hexapod.corePart.parts.middle_left_leg.customLabel>
+  <AA_Hexapod.corePart.parts.middle_left_leg.parts.middle_left_paw.customLabel>средняя левая лапа</AA_Hexapod.corePart.parts.middle_left_leg.parts.middle_left_paw.customLabel>
+  <AA_Hexapod.corePart.parts.middle_right_leg.customLabel>средняя правая нога</AA_Hexapod.corePart.parts.middle_right_leg.customLabel>
+  <AA_Hexapod.corePart.parts.middle_right_leg.parts.middle_right_paw.customLabel>средняя правая лапа</AA_Hexapod.corePart.parts.middle_right_leg.parts.middle_right_paw.customLabel>
+  <AA_Hexapod.corePart.parts.rear_left_leg.customLabel>задняя левая нога</AA_Hexapod.corePart.parts.rear_left_leg.customLabel>
+  <AA_Hexapod.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>задняя левая лапа</AA_Hexapod.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>
+  <AA_Hexapod.corePart.parts.rear_right_leg.customLabel>задняя правая нога</AA_Hexapod.corePart.parts.rear_right_leg.customLabel>
+  <AA_Hexapod.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>задняя правая лапа</AA_Hexapod.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
+  <AA_Locusts.corePart.parts.locust.customLabel>саранча</AA_Locusts.corePart.parts.locust.customLabel>
+  <AA_Locusts.corePart.parts.butterfly.customLabel>бабочка</AA_Locusts.corePart.parts.butterfly.customLabel>
+  <FO_Nightcallerbody.corePart.parts.left_lung.customLabel>левое лёгкое</FO_Nightcallerbody.corePart.parts.left_lung.customLabel>
+  <FO_Nightcallerbody.corePart.parts.right_lung.customLabel>правое лёгкое</FO_Nightcallerbody.corePart.parts.right_lung.customLabel>
+  <FO_Nightcallerbody.corePart.parts.left_kidney.customLabel>левая почка</FO_Nightcallerbody.corePart.parts.left_kidney.customLabel>
+  <FO_Nightcallerbody.corePart.parts.right_kidney.customLabel>правая почка</FO_Nightcallerbody.corePart.parts.right_kidney.customLabel>
+  <FO_Nightcallerbody.corePart.parts.Neck.parts.Head.parts.first_left_eye.customLabel>первый левый глаз</FO_Nightcallerbody.corePart.parts.Neck.parts.Head.parts.first_left_eye.customLabel>
+  <FO_Nightcallerbody.corePart.parts.Neck.parts.Head.parts.first_right_eye.customLabel>первый правый глаз</FO_Nightcallerbody.corePart.parts.Neck.parts.Head.parts.first_right_eye.customLabel>
+  <FO_Nightcallerbody.corePart.parts.Neck.parts.Head.parts.second_left_eye.customLabel>второй левый глаз</FO_Nightcallerbody.corePart.parts.Neck.parts.Head.parts.second_left_eye.customLabel>
+  <FO_Nightcallerbody.corePart.parts.Neck.parts.Head.parts.second_right_eye.customLabel>второй правый глаз</FO_Nightcallerbody.corePart.parts.Neck.parts.Head.parts.second_right_eye.customLabel>
+  <FO_Nightcallerbody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>левое ухо</FO_Nightcallerbody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <FO_Nightcallerbody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>правое ухо</FO_Nightcallerbody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <FO_Nightcallerbody.corePart.parts.Neck.parts.Head.parts.AnimalJaw.parts.left_tusk.customLabel>левый бивень</FO_Nightcallerbody.corePart.parts.Neck.parts.Head.parts.AnimalJaw.parts.left_tusk.customLabel>
+  <FO_Nightcallerbody.corePart.parts.Neck.parts.Head.parts.AnimalJaw.parts.right_tusk.customLabel>правый бивень</FO_Nightcallerbody.corePart.parts.Neck.parts.Head.parts.AnimalJaw.parts.right_tusk.customLabel>
+  <FO_Nightcallerbody.corePart.parts.front_left_leg.customLabel>передняя левая нога</FO_Nightcallerbody.corePart.parts.front_left_leg.customLabel>
+  <FO_Nightcallerbody.corePart.parts.front_left_leg.parts.front_left_hoof.customLabel>переднее левое копыто</FO_Nightcallerbody.corePart.parts.front_left_leg.parts.front_left_hoof.customLabel>
+  <FO_Nightcallerbody.corePart.parts.front_right_leg.customLabel>передняя правая нога</FO_Nightcallerbody.corePart.parts.front_right_leg.customLabel>
+  <FO_Nightcallerbody.corePart.parts.front_right_leg.parts.front_right_hoof.customLabel>переднее правое копыто</FO_Nightcallerbody.corePart.parts.front_right_leg.parts.front_right_hoof.customLabel>
+  <FO_Nightcallerbody.corePart.parts.rear_left_leg.customLabel>задняя левая нога</FO_Nightcallerbody.corePart.parts.rear_left_leg.customLabel>
+  <FO_Nightcallerbody.corePart.parts.rear_left_leg.parts.rear_left_hoof.customLabel>заднее левое копыто</FO_Nightcallerbody.corePart.parts.rear_left_leg.parts.rear_left_hoof.customLabel>
+  <FO_Nightcallerbody.corePart.parts.rear_right_leg.customLabel>задняя правая нога</FO_Nightcallerbody.corePart.parts.rear_right_leg.customLabel>
+  <FO_Nightcallerbody.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>заднее правое копыто</FO_Nightcallerbody.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>
+  <AA_NightMuleBody.corePart.parts.left_lung.customLabel>левое лёгкое</AA_NightMuleBody.corePart.parts.left_lung.customLabel>
+  <AA_NightMuleBody.corePart.parts.right_lung.customLabel>правое лёгкое</AA_NightMuleBody.corePart.parts.right_lung.customLabel>
+  <AA_NightMuleBody.corePart.parts.left_kidney.customLabel>левая почка</AA_NightMuleBody.corePart.parts.left_kidney.customLabel>
+  <AA_NightMuleBody.corePart.parts.right_kidney.customLabel>правая почка</AA_NightMuleBody.corePart.parts.right_kidney.customLabel>
+  <AA_NightMuleBody.corePart.parts.Neck.parts.Head.parts.left_horn.customLabel>левый рог</AA_NightMuleBody.corePart.parts.Neck.parts.Head.parts.left_horn.customLabel>
+  <AA_NightMuleBody.corePart.parts.Neck.parts.Head.parts.right_horn.customLabel>правый рог</AA_NightMuleBody.corePart.parts.Neck.parts.Head.parts.right_horn.customLabel>
+  <AA_NightMuleBody.corePart.parts.Neck.parts.Head.parts.first_left_eye.customLabel>первый левый глаз</AA_NightMuleBody.corePart.parts.Neck.parts.Head.parts.first_left_eye.customLabel>
+  <AA_NightMuleBody.corePart.parts.Neck.parts.Head.parts.first_right_eye.customLabel>первый правый глаз</AA_NightMuleBody.corePart.parts.Neck.parts.Head.parts.first_right_eye.customLabel>
+  <AA_NightMuleBody.corePart.parts.Neck.parts.Head.parts.second_left_eye.customLabel>второй левый глаз</AA_NightMuleBody.corePart.parts.Neck.parts.Head.parts.second_left_eye.customLabel>
+  <AA_NightMuleBody.corePart.parts.Neck.parts.Head.parts.second_right_eye.customLabel>второй правый глаз</AA_NightMuleBody.corePart.parts.Neck.parts.Head.parts.second_right_eye.customLabel>
+  <AA_NightMuleBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>левое ухо</AA_NightMuleBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <AA_NightMuleBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>правое ухо</AA_NightMuleBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <AA_NightMuleBody.corePart.parts.front_left_leg.customLabel>передняя левая нога</AA_NightMuleBody.corePart.parts.front_left_leg.customLabel>
+  <AA_NightMuleBody.corePart.parts.front_left_leg.parts.front_left_hoof.customLabel>переднее левое копыто</AA_NightMuleBody.corePart.parts.front_left_leg.parts.front_left_hoof.customLabel>
+  <AA_NightMuleBody.corePart.parts.front_right_leg.customLabel>передняя правая нога</AA_NightMuleBody.corePart.parts.front_right_leg.customLabel>
+  <AA_NightMuleBody.corePart.parts.front_right_leg.parts.front_right_hoof.customLabel>переднее правое копыто</AA_NightMuleBody.corePart.parts.front_right_leg.parts.front_right_hoof.customLabel>
+  <AA_NightMuleBody.corePart.parts.rear_left_leg.customLabel>задняя левая нога</AA_NightMuleBody.corePart.parts.rear_left_leg.customLabel>
+  <AA_NightMuleBody.corePart.parts.rear_left_leg.parts.rear_left_hoof.customLabel>заднее левое копыто</AA_NightMuleBody.corePart.parts.rear_left_leg.parts.rear_left_hoof.customLabel>
+  <AA_NightMuleBody.corePart.parts.rear_right_leg.customLabel>задняя правая нога</AA_NightMuleBody.corePart.parts.rear_right_leg.customLabel>
+  <AA_NightMuleBody.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>заднее правое копыто</AA_NightMuleBody.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>
+  <AA_NightRamBody.corePart.parts.left_lung.customLabel>левое лёгкое</AA_NightRamBody.corePart.parts.left_lung.customLabel>
+  <AA_NightRamBody.corePart.parts.right_lung.customLabel>правое лёгкое</AA_NightRamBody.corePart.parts.right_lung.customLabel>
+  <AA_NightRamBody.corePart.parts.left_kidney.customLabel>левая почка</AA_NightRamBody.corePart.parts.left_kidney.customLabel>
+  <AA_NightRamBody.corePart.parts.right_kidney.customLabel>правая почка</AA_NightRamBody.corePart.parts.right_kidney.customLabel>
+  <AA_NightRamBody.corePart.parts.Neck.parts.Head.parts.first_left_eye.customLabel>первый левый глаз</AA_NightRamBody.corePart.parts.Neck.parts.Head.parts.first_left_eye.customLabel>
+  <AA_NightRamBody.corePart.parts.Neck.parts.Head.parts.first_right_eye.customLabel>первый правый глаз</AA_NightRamBody.corePart.parts.Neck.parts.Head.parts.first_right_eye.customLabel>
+  <AA_NightRamBody.corePart.parts.Neck.parts.Head.parts.second_left_eye.customLabel>второй левый глаз</AA_NightRamBody.corePart.parts.Neck.parts.Head.parts.second_left_eye.customLabel>
+  <AA_NightRamBody.corePart.parts.Neck.parts.Head.parts.second_right_eye.customLabel>второй правый глаз</AA_NightRamBody.corePart.parts.Neck.parts.Head.parts.second_right_eye.customLabel>
+  <AA_NightRamBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>левое ухо</AA_NightRamBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <AA_NightRamBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>правое ухо</AA_NightRamBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <AA_NightRamBody.corePart.parts.front_left_leg.customLabel>передняя левая нога</AA_NightRamBody.corePart.parts.front_left_leg.customLabel>
+  <AA_NightRamBody.corePart.parts.front_left_leg.parts.front_left_hoof.customLabel>переднее левое копыто</AA_NightRamBody.corePart.parts.front_left_leg.parts.front_left_hoof.customLabel>
+  <AA_NightRamBody.corePart.parts.front_right_leg.customLabel>передняя правая нога</AA_NightRamBody.corePart.parts.front_right_leg.customLabel>
+  <AA_NightRamBody.corePart.parts.front_right_leg.parts.front_right_hoof.customLabel>переднее правое копыто</AA_NightRamBody.corePart.parts.front_right_leg.parts.front_right_hoof.customLabel>
+  <AA_NightRamBody.corePart.parts.rear_left_leg.customLabel>задняя левая нога</AA_NightRamBody.corePart.parts.rear_left_leg.customLabel>
+  <AA_NightRamBody.corePart.parts.rear_left_leg.parts.rear_left_hoof.customLabel>заднее левое копыто</AA_NightRamBody.corePart.parts.rear_left_leg.parts.rear_left_hoof.customLabel>
+  <AA_NightRamBody.corePart.parts.rear_right_leg.customLabel>задняя правая нога</AA_NightRamBody.corePart.parts.rear_right_leg.customLabel>
+  <AA_NightRamBody.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>заднее правое копыто</AA_NightRamBody.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>
+  <AA_OcularJellyBody.corePart.parts.Head.parts.fourth_eye_spot.customLabel>четвёртое глазное пятно</AA_OcularJellyBody.corePart.parts.Head.parts.fourth_eye_spot.customLabel>
+  <AA_OcularJellyBody.corePart.parts.Head.parts.fifth_eye_spot.customLabel>пятое глазное пятно</AA_OcularJellyBody.corePart.parts.Head.parts.fifth_eye_spot.customLabel>
+  <AA_RaptorBody.corePart.parts.left_lung.customLabel>левое лёгкое</AA_RaptorBody.corePart.parts.left_lung.customLabel>
+  <AA_RaptorBody.corePart.parts.right_lung.customLabel>правое лёгкое</AA_RaptorBody.corePart.parts.right_lung.customLabel>
+  <AA_RaptorBody.corePart.parts.left_kidney.customLabel>левая почка</AA_RaptorBody.corePart.parts.left_kidney.customLabel>
+  <AA_RaptorBody.corePart.parts.right_kidney.customLabel>правая почка</AA_RaptorBody.corePart.parts.right_kidney.customLabel>
+  <AA_RaptorBody.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>левый глаз</AA_RaptorBody.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  <AA_RaptorBody.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>правый глаз</AA_RaptorBody.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  <AA_RaptorBody.corePart.parts.left_leg.customLabel>левая нога</AA_RaptorBody.corePart.parts.left_leg.customLabel>
+  <AA_RaptorBody.corePart.parts.left_leg.parts.left_foot.customLabel>левая ступня</AA_RaptorBody.corePart.parts.left_leg.parts.left_foot.customLabel>
+  <AA_RaptorBody.corePart.parts.right_leg.customLabel>правая нога</AA_RaptorBody.corePart.parts.right_leg.customLabel>
+  <AA_RaptorBody.corePart.parts.right_leg.parts.right_foot.customLabel>правая ступня</AA_RaptorBody.corePart.parts.right_leg.parts.right_foot.customLabel>
+  <AA_RedSporeBody.corePart.parts.nucleus.customLabel>ядро</AA_RedSporeBody.corePart.parts.nucleus.customLabel>
+  <AA_RedSporeBody.corePart.parts.left_hydrogen_sac.customLabel>левый водородный мешок</AA_RedSporeBody.corePart.parts.left_hydrogen_sac.customLabel>
+  <AA_RedSporeBody.corePart.parts.right_hydrogen_sac.customLabel>правый водородный мешок</AA_RedSporeBody.corePart.parts.right_hydrogen_sac.customLabel>
+  <AA_RedSporeBody.corePart.parts.first_tentacle.customLabel>первое щупальце</AA_RedSporeBody.corePart.parts.first_tentacle.customLabel>
+  <AA_RedSporeBody.corePart.parts.second_tentacle.customLabel>второе щупальце</AA_RedSporeBody.corePart.parts.second_tentacle.customLabel>
+  <AA_RedSporeBody.corePart.parts.third_tentacle.customLabel>третье щупальце</AA_RedSporeBody.corePart.parts.third_tentacle.customLabel>
+  <AA_RedSporeBody.corePart.parts.fourth_tentacle.customLabel>четвёртое щупальце</AA_RedSporeBody.corePart.parts.fourth_tentacle.customLabel>
+  <AA_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_eye.customLabel>левый глаз</AA_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_eye.customLabel>
+  <AA_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_eye.customLabel>правый глаз</AA_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_eye.customLabel>
+  <AA_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_antenna.customLabel>левый усик</AA_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.left_antenna.customLabel>
+  <AA_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_antenna.customLabel>правый усик</AA_ScorpionLike.corePart.parts.Pronotum.parts.InsectHead.parts.right_antenna.customLabel>
+  <AA_ScorpionLike.corePart.parts.front_left_leg.customLabel>передняя левая нога</AA_ScorpionLike.corePart.parts.front_left_leg.customLabel>
+  <AA_ScorpionLike.corePart.parts.front_right_leg.customLabel>передняя правая нога</AA_ScorpionLike.corePart.parts.front_right_leg.customLabel>
+  <AA_ScorpionLike.corePart.parts.middle_left_leg.customLabel>средняя левая нога</AA_ScorpionLike.corePart.parts.middle_left_leg.customLabel>
+  <AA_ScorpionLike.corePart.parts.middle_right_leg.customLabel>средняя правая нога</AA_ScorpionLike.corePart.parts.middle_right_leg.customLabel>
+  <AA_ScorpionLike.corePart.parts.rear_left_leg.customLabel>задняя левая нога</AA_ScorpionLike.corePart.parts.rear_left_leg.customLabel>
+  <AA_ScorpionLike.corePart.parts.rear_right_leg.customLabel>задняя правая нога</AA_ScorpionLike.corePart.parts.rear_right_leg.customLabel>
+  <AA_SentientPlant.corePart.parts.left_lung.customLabel>левое лёгкое</AA_SentientPlant.corePart.parts.left_lung.customLabel>
+  <AA_SentientPlant.corePart.parts.right_lung.customLabel>правое лёгкое</AA_SentientPlant.corePart.parts.right_lung.customLabel>
+  <AA_SentientPlant.corePart.parts.left_kidney.customLabel>левая почка</AA_SentientPlant.corePart.parts.left_kidney.customLabel>
+  <AA_SentientPlant.corePart.parts.right_kidney.customLabel>правая почка</AA_SentientPlant.corePart.parts.right_kidney.customLabel>
+  <AA_SentientPlant.corePart.parts.Neck.parts.AA_SentientPlantHead.parts.left_eye.customLabel>левый глаз</AA_SentientPlant.corePart.parts.Neck.parts.AA_SentientPlantHead.parts.left_eye.customLabel>
+  <AA_SentientPlant.corePart.parts.Neck.parts.AA_SentientPlantHead.parts.right_eye.customLabel>правый глаз</AA_SentientPlant.corePart.parts.Neck.parts.AA_SentientPlantHead.parts.right_eye.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.left_lung.customLabel>левое лёгкое</FO_ShadowChargerBody.corePart.parts.left_lung.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.right_lung.customLabel>правое лёгкое</FO_ShadowChargerBody.corePart.parts.right_lung.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.left_kidney.customLabel>левая почка</FO_ShadowChargerBody.corePart.parts.left_kidney.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.right_kidney.customLabel>правая почка</FO_ShadowChargerBody.corePart.parts.right_kidney.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.Neck.parts.Head.parts.first_left_eye.customLabel>первый левый глаз</FO_ShadowChargerBody.corePart.parts.Neck.parts.Head.parts.first_left_eye.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.Neck.parts.Head.parts.first_right_eye.customLabel>первый правый глаз</FO_ShadowChargerBody.corePart.parts.Neck.parts.Head.parts.first_right_eye.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.Neck.parts.Head.parts.second_left_eye.customLabel>второй левый глаз</FO_ShadowChargerBody.corePart.parts.Neck.parts.Head.parts.second_left_eye.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.Neck.parts.Head.parts.second_right_eye.customLabel>второй правый глаз</FO_ShadowChargerBody.corePart.parts.Neck.parts.Head.parts.second_right_eye.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>левое ухо</FO_ShadowChargerBody.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>правое ухо</FO_ShadowChargerBody.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.front_left_leg.customLabel>передняя левая нога</FO_ShadowChargerBody.corePart.parts.front_left_leg.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.front_left_leg.parts.front_left_hoof.customLabel>переднее левое копыто</FO_ShadowChargerBody.corePart.parts.front_left_leg.parts.front_left_hoof.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.front_right_leg.customLabel>передняя правая нога</FO_ShadowChargerBody.corePart.parts.front_right_leg.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.front_right_leg.parts.front_right_hoof.customLabel>переднее правое копыто</FO_ShadowChargerBody.corePart.parts.front_right_leg.parts.front_right_hoof.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.rear_left_leg.customLabel>задняя левая нога</FO_ShadowChargerBody.corePart.parts.rear_left_leg.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.rear_left_leg.parts.rear_left_hoof.customLabel>заднее левое копыто</FO_ShadowChargerBody.corePart.parts.rear_left_leg.parts.rear_left_hoof.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.rear_right_leg.customLabel>задняя правая нога</FO_ShadowChargerBody.corePart.parts.rear_right_leg.customLabel>
+  <FO_ShadowChargerBody.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>заднее правое копыто</FO_ShadowChargerBody.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>
+  <AA_SixEyedGoat.corePart.parts.left_lung.customLabel>левое лёгкое</AA_SixEyedGoat.corePart.parts.left_lung.customLabel>
+  <AA_SixEyedGoat.corePart.parts.right_lung.customLabel>правое лёгкое</AA_SixEyedGoat.corePart.parts.right_lung.customLabel>
+  <AA_SixEyedGoat.corePart.parts.left_kidney.customLabel>левая почка</AA_SixEyedGoat.corePart.parts.left_kidney.customLabel>
+  <AA_SixEyedGoat.corePart.parts.right_kidney.customLabel>правая почка</AA_SixEyedGoat.corePart.parts.right_kidney.customLabel>
+  <AA_SixEyedGoat.corePart.parts.Neck.parts.Head.parts.first_left_eye.customLabel>первый левый глаз</AA_SixEyedGoat.corePart.parts.Neck.parts.Head.parts.first_left_eye.customLabel>
+  <AA_SixEyedGoat.corePart.parts.Neck.parts.Head.parts.first_right_eye.customLabel>первый правый глаз</AA_SixEyedGoat.corePart.parts.Neck.parts.Head.parts.first_right_eye.customLabel>
+  <AA_SixEyedGoat.corePart.parts.Neck.parts.Head.parts.second_left_eye.customLabel>второй левый глаз</AA_SixEyedGoat.corePart.parts.Neck.parts.Head.parts.second_left_eye.customLabel>
+  <AA_SixEyedGoat.corePart.parts.Neck.parts.Head.parts.second_right_eye.customLabel>второй правый глаз</AA_SixEyedGoat.corePart.parts.Neck.parts.Head.parts.second_right_eye.customLabel>
+  <AA_SixEyedGoat.corePart.parts.Neck.parts.Head.parts.third_left_eye.customLabel>третий левый глаз</AA_SixEyedGoat.corePart.parts.Neck.parts.Head.parts.third_left_eye.customLabel>
+  <AA_SixEyedGoat.corePart.parts.Neck.parts.Head.parts.third_right_eye.customLabel>третий правый глаз</AA_SixEyedGoat.corePart.parts.Neck.parts.Head.parts.third_right_eye.customLabel>
+  <AA_SixEyedGoat.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>левое ухо</AA_SixEyedGoat.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <AA_SixEyedGoat.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>правое ухо</AA_SixEyedGoat.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <AA_SixEyedGoat.corePart.parts.front_left_leg.customLabel>передняя левая нога</AA_SixEyedGoat.corePart.parts.front_left_leg.customLabel>
+  <AA_SixEyedGoat.corePart.parts.front_left_leg.parts.front_left_hoof.customLabel>переднее левое копыто</AA_SixEyedGoat.corePart.parts.front_left_leg.parts.front_left_hoof.customLabel>
+  <AA_SixEyedGoat.corePart.parts.front_right_leg.customLabel>передняя правая нога</AA_SixEyedGoat.corePart.parts.front_right_leg.customLabel>
+  <AA_SixEyedGoat.corePart.parts.front_right_leg.parts.front_right_hoof.customLabel>переднее правое копыто</AA_SixEyedGoat.corePart.parts.front_right_leg.parts.front_right_hoof.customLabel>
+  <AA_SixEyedGoat.corePart.parts.rear_left_leg.customLabel>задняя левая нога</AA_SixEyedGoat.corePart.parts.rear_left_leg.customLabel>
+  <AA_SixEyedGoat.corePart.parts.rear_left_leg.parts.rear_left_hoof.customLabel>заднее левое копыто</AA_SixEyedGoat.corePart.parts.rear_left_leg.parts.rear_left_hoof.customLabel>
+  <AA_SixEyedGoat.corePart.parts.rear_right_leg.customLabel>задняя правая нога</AA_SixEyedGoat.corePart.parts.rear_right_leg.customLabel>
+  <AA_SixEyedGoat.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>заднее правое копыто</AA_SixEyedGoat.corePart.parts.rear_right_leg.parts.rear_right_hoof.customLabel>
+  <AA_Slug.corePart.parts.left_lung.customLabel>левое лёгкое</AA_Slug.corePart.parts.left_lung.customLabel>
+  <AA_Slug.corePart.parts.right_lung.customLabel>правое лёгкое</AA_Slug.corePart.parts.right_lung.customLabel>
+  <AA_Slug.corePart.parts.left_kidney.customLabel>левая почка</AA_Slug.corePart.parts.left_kidney.customLabel>
+  <AA_Slug.corePart.parts.right_kidney.customLabel>правая почка</AA_Slug.corePart.parts.right_kidney.customLabel>
+  <AA_Slug.corePart.parts.Head.parts.left_eye.customLabel>левый глаз</AA_Slug.corePart.parts.Head.parts.left_eye.customLabel>
+  <AA_Slug.corePart.parts.Head.parts.right_eye.customLabel>правый глаз</AA_Slug.corePart.parts.Head.parts.right_eye.customLabel>
+  <AA_SlurrypedeBody.corePart.parts.MechanicalHead.parts.left_sight_sensor.customLabel>левый оптический сенсор</AA_SlurrypedeBody.corePart.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+  <AA_SlurrypedeBody.corePart.parts.MechanicalHead.parts.right_sight_sensor.customLabel>правый оптический сенсор</AA_SlurrypedeBody.corePart.parts.MechanicalHead.parts.right_sight_sensor.customLabel>
+  <AA_SlurrypedeBody.corePart.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>левый слуховой сенсор</AA_SlurrypedeBody.corePart.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+  <AA_SlurrypedeBody.corePart.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>правый слуховой сенсор</AA_SlurrypedeBody.corePart.parts.MechanicalHead.parts.right_hearing_sensor.customLabel>
+  <AA_Snail.corePart.parts.left_lung.customLabel>левое лёгкое</AA_Snail.corePart.parts.left_lung.customLabel>
+  <AA_Snail.corePart.parts.right_lung.customLabel>правое лёгкое</AA_Snail.corePart.parts.right_lung.customLabel>
+  <AA_Snail.corePart.parts.left_kidney.customLabel>левая почка</AA_Snail.corePart.parts.left_kidney.customLabel>
+  <AA_Snail.corePart.parts.right_kidney.customLabel>правая почка</AA_Snail.corePart.parts.right_kidney.customLabel>
+  <AA_Snail.corePart.parts.armoured_snail_carapace.customLabel>бронированный панцирь улитки</AA_Snail.corePart.parts.armoured_snail_carapace.customLabel>
+  <AA_Snail.corePart.parts.Head.parts.first_left_eyestalk.customLabel>первый левый стебельчатый глаз</AA_Snail.corePart.parts.Head.parts.first_left_eyestalk.customLabel>
+  <AA_Snail.corePart.parts.Head.parts.first_right_eyestalk.customLabel>первый правый стебельчатый глаз</AA_Snail.corePart.parts.Head.parts.first_right_eyestalk.customLabel>
+  <AA_Snail.corePart.parts.Head.parts.second_left_eyestalk.customLabel>второй левый стебельчатый глаз</AA_Snail.corePart.parts.Head.parts.second_left_eyestalk.customLabel>
+  <AA_Snail.corePart.parts.Head.parts.second_right_eyestalk.customLabel>второй правый стебельчатый глаз</AA_Snail.corePart.parts.Head.parts.second_right_eyestalk.customLabel>
+  <AA_SnakeWithTwoLimbs.corePart.parts.left_lung.customLabel>левое лёгкое</AA_SnakeWithTwoLimbs.corePart.parts.left_lung.customLabel>
+  <AA_SnakeWithTwoLimbs.corePart.parts.right_lung.customLabel>правое лёгкое</AA_SnakeWithTwoLimbs.corePart.parts.right_lung.customLabel>
+  <AA_SnakeWithTwoLimbs.corePart.parts.left_kidney.customLabel>левая почка</AA_SnakeWithTwoLimbs.corePart.parts.left_kidney.customLabel>
+  <AA_SnakeWithTwoLimbs.corePart.parts.right_kidney.customLabel>правая почка</AA_SnakeWithTwoLimbs.corePart.parts.right_kidney.customLabel>
+  <AA_SnakeWithTwoLimbs.corePart.parts.Neck.parts.SnakeHead.parts.left_eye.customLabel>левый глаз</AA_SnakeWithTwoLimbs.corePart.parts.Neck.parts.SnakeHead.parts.left_eye.customLabel>
+  <AA_SnakeWithTwoLimbs.corePart.parts.Neck.parts.SnakeHead.parts.right_eye.customLabel>правый глаз</AA_SnakeWithTwoLimbs.corePart.parts.Neck.parts.SnakeHead.parts.right_eye.customLabel>
+  <AA_SnakeWithTwoLimbs.corePart.parts.Neck.parts.SnakeHead.parts.left_ear.customLabel>левое ухо</AA_SnakeWithTwoLimbs.corePart.parts.Neck.parts.SnakeHead.parts.left_ear.customLabel>
+  <AA_SnakeWithTwoLimbs.corePart.parts.Neck.parts.SnakeHead.parts.right_ear.customLabel>правое ухо</AA_SnakeWithTwoLimbs.corePart.parts.Neck.parts.SnakeHead.parts.right_ear.customLabel>
+  <AA_Squid.corePart.parts.AA_SquidBody.parts.left_lung.customLabel>левое лёгкое</AA_Squid.corePart.parts.AA_SquidBody.parts.left_lung.customLabel>
+  <AA_Squid.corePart.parts.AA_SquidBody.parts.right_lung.customLabel>правое лёгкое</AA_Squid.corePart.parts.AA_SquidBody.parts.right_lung.customLabel>
+  <AA_Squid.corePart.parts.AA_SquidBody.parts.left_kidney.customLabel>левая почка</AA_Squid.corePart.parts.AA_SquidBody.parts.left_kidney.customLabel>
+  <AA_Squid.corePart.parts.AA_SquidBody.parts.right_kidney.customLabel>правая почка</AA_Squid.corePart.parts.AA_SquidBody.parts.right_kidney.customLabel>
+  <AA_Squid.corePart.parts.conical_shell.customLabel>коническая раковина</AA_Squid.corePart.parts.conical_shell.customLabel>
+  <AA_Squid.corePart.parts.first_tentacle.customLabel>первое щупальце</AA_Squid.corePart.parts.first_tentacle.customLabel>
+  <AA_Squid.corePart.parts.second_tentacle.customLabel>второе щупальце</AA_Squid.corePart.parts.second_tentacle.customLabel>
+  <AA_Squid.corePart.parts.third_tentacle.customLabel>третье щупальце</AA_Squid.corePart.parts.third_tentacle.customLabel>
+  <AA_Squid_NoShell.corePart.parts.AA_SquidBody.parts.first_eye.customLabel>первый глаз</AA_Squid_NoShell.corePart.parts.AA_SquidBody.parts.first_eye.customLabel>
+  <AA_Squid_NoShell.corePart.parts.AA_SquidBody.parts.second_eye.customLabel>второй глаз</AA_Squid_NoShell.corePart.parts.AA_SquidBody.parts.second_eye.customLabel>
+  <AA_Squid_NoShell.corePart.parts.AA_SquidBody.parts.third_eye.customLabel>третий глаз</AA_Squid_NoShell.corePart.parts.AA_SquidBody.parts.third_eye.customLabel>
+  <AA_Squid_NoShell.corePart.parts.AA_SquidBody.parts.fourth_eye.customLabel>четвёртый глаз</AA_Squid_NoShell.corePart.parts.AA_SquidBody.parts.fourth_eye.customLabel>
+  <AA_Squid_NoShell.corePart.parts.AA_SquidBody.parts.left_lung.customLabel>левое лёгкое</AA_Squid_NoShell.corePart.parts.AA_SquidBody.parts.left_lung.customLabel>
+  <AA_Squid_NoShell.corePart.parts.AA_SquidBody.parts.right_lung.customLabel>правое лёгкое</AA_Squid_NoShell.corePart.parts.AA_SquidBody.parts.right_lung.customLabel>
+  <AA_Squid_NoShell.corePart.parts.AA_SquidBody.parts.left_kidney.customLabel>левая почка</AA_Squid_NoShell.corePart.parts.AA_SquidBody.parts.left_kidney.customLabel>
+  <AA_Squid_NoShell.corePart.parts.AA_SquidBody.parts.right_kidney.customLabel>правая почка</AA_Squid_NoShell.corePart.parts.AA_SquidBody.parts.right_kidney.customLabel>
+  <AA_Squid_NoShell.corePart.parts.first_tentacle.customLabel>первое щупальце</AA_Squid_NoShell.corePart.parts.first_tentacle.customLabel>
+  <AA_Squid_NoShell.corePart.parts.second_tentacle.customLabel>второе щупальце</AA_Squid_NoShell.corePart.parts.second_tentacle.customLabel>
+  <AA_Squid_NoShell.corePart.parts.third_tentacle.customLabel>третье щупальце</AA_Squid_NoShell.corePart.parts.third_tentacle.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.left_lung.customLabel>левое лёгкое</AA_TentacledQuadruped.corePart.parts.left_lung.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.right_lung.customLabel>правое лёгкое</AA_TentacledQuadruped.corePart.parts.right_lung.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.left_kidney.customLabel>левая почка</AA_TentacledQuadruped.corePart.parts.left_kidney.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.right_kidney.customLabel>правая почка</AA_TentacledQuadruped.corePart.parts.right_kidney.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.first_left_eye.customLabel>первый левый глаз</AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.first_left_eye.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.first_right_eye.customLabel>первый правый глаз</AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.first_right_eye.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.second_left_eye.customLabel>второй левый глаз</AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.second_left_eye.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.second_right_eye.customLabel>второй правый глаз</AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.second_right_eye.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.third_left_eye.customLabel>третий левый глаз</AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.third_left_eye.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.third_right_eye.customLabel>третий правый глаз</AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.third_right_eye.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>левое ухо</AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>правое ухо</AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.gaping_maw.customLabel>зияющая пасть</AA_TentacledQuadruped.corePart.parts.Neck.parts.Head.parts.gaping_maw.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.first_tentacle.customLabel>первое щупальце</AA_TentacledQuadruped.corePart.parts.first_tentacle.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.second_tentacle.customLabel>второе щупальце</AA_TentacledQuadruped.corePart.parts.second_tentacle.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.third_tentacle.customLabel>третье щупальце</AA_TentacledQuadruped.corePart.parts.third_tentacle.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.fourth_tentacle.customLabel>четвёртое щупальце</AA_TentacledQuadruped.corePart.parts.fourth_tentacle.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.fifth_tentacle.customLabel>пятое щупальце</AA_TentacledQuadruped.corePart.parts.fifth_tentacle.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.sixth_tentacle.customLabel>шестое щупальце</AA_TentacledQuadruped.corePart.parts.sixth_tentacle.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.front_left_leg.customLabel>передняя левая нога</AA_TentacledQuadruped.corePart.parts.front_left_leg.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>передняя левая лапа</AA_TentacledQuadruped.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.front_right_leg.customLabel>передняя правая нога</AA_TentacledQuadruped.corePart.parts.front_right_leg.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>передняя правая лапа</AA_TentacledQuadruped.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.rear_left_leg.customLabel>задняя левая нога</AA_TentacledQuadruped.corePart.parts.rear_left_leg.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>задняя левая лапа</AA_TentacledQuadruped.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.rear_right_leg.customLabel>задняя правая нога</AA_TentacledQuadruped.corePart.parts.rear_right_leg.customLabel>
+  <AA_TentacledQuadruped.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>задняя правая лапа</AA_TentacledQuadruped.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.left_lung.customLabel>левое лёгкое</AA_TentacledQuadrupedEyeless.corePart.parts.left_lung.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.right_lung.customLabel>правое лёгкое</AA_TentacledQuadrupedEyeless.corePart.parts.right_lung.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.left_kidney.customLabel>левая почка</AA_TentacledQuadrupedEyeless.corePart.parts.left_kidney.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.right_kidney.customLabel>правая почка</AA_TentacledQuadrupedEyeless.corePart.parts.right_kidney.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>левое ухо</AA_TentacledQuadrupedEyeless.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>правое ухо</AA_TentacledQuadrupedEyeless.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.Neck.parts.Head.parts.gaping_maw.customLabel>зияющая пасть</AA_TentacledQuadrupedEyeless.corePart.parts.Neck.parts.Head.parts.gaping_maw.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.first_tentacle.customLabel>первое щупальце</AA_TentacledQuadrupedEyeless.corePart.parts.first_tentacle.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.second_tentacle.customLabel>второе щупальце</AA_TentacledQuadrupedEyeless.corePart.parts.second_tentacle.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.third_tentacle.customLabel>третье щупальце</AA_TentacledQuadrupedEyeless.corePart.parts.third_tentacle.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.fourth_tentacle.customLabel>четвёртое щупальце</AA_TentacledQuadrupedEyeless.corePart.parts.fourth_tentacle.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.fifth_tentacle.customLabel>пятое щупальце</AA_TentacledQuadrupedEyeless.corePart.parts.fifth_tentacle.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.sixth_tentacle.customLabel>шестое щупальце</AA_TentacledQuadrupedEyeless.corePart.parts.sixth_tentacle.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.front_left_leg.customLabel>передняя левая нога</AA_TentacledQuadrupedEyeless.corePart.parts.front_left_leg.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>передняя левая лапа</AA_TentacledQuadrupedEyeless.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.front_right_leg.customLabel>передняя правая нога</AA_TentacledQuadrupedEyeless.corePart.parts.front_right_leg.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>передняя правая лапа</AA_TentacledQuadrupedEyeless.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.rear_left_leg.customLabel>задняя левая нога</AA_TentacledQuadrupedEyeless.corePart.parts.rear_left_leg.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>задняя левая лапа</AA_TentacledQuadrupedEyeless.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.rear_right_leg.customLabel>задняя правая нога</AA_TentacledQuadrupedEyeless.corePart.parts.rear_right_leg.customLabel>
+  <AA_TentacledQuadrupedEyeless.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>задняя правая лапа</AA_TentacledQuadrupedEyeless.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
+  <AA_TentacledSlug.corePart.parts.left_lung.customLabel>левое лёгкое</AA_TentacledSlug.corePart.parts.left_lung.customLabel>
+  <AA_TentacledSlug.corePart.parts.right_lung.customLabel>правое лёгкое</AA_TentacledSlug.corePart.parts.right_lung.customLabel>
+  <AA_TentacledSlug.corePart.parts.left_kidney.customLabel>левая почка</AA_TentacledSlug.corePart.parts.left_kidney.customLabel>
+  <AA_TentacledSlug.corePart.parts.right_kidney.customLabel>правая почка</AA_TentacledSlug.corePart.parts.right_kidney.customLabel>
+  <AA_TentacledSlug.corePart.parts.carapace.customLabel>панцирь</AA_TentacledSlug.corePart.parts.carapace.customLabel>
+  <AA_TentacledSlug.corePart.parts.Head.parts.left_eye.customLabel>левый глаз</AA_TentacledSlug.corePart.parts.Head.parts.left_eye.customLabel>
+  <AA_TentacledSlug.corePart.parts.Head.parts.right_eye.customLabel>правый глаз</AA_TentacledSlug.corePart.parts.Head.parts.right_eye.customLabel>
+  <AA_TentacledSlug.corePart.parts.first_tentacle.customLabel>первое щупальце</AA_TentacledSlug.corePart.parts.first_tentacle.customLabel>
+  <AA_TentacledSlug.corePart.parts.second_tentacle.customLabel>второе щупальце</AA_TentacledSlug.corePart.parts.second_tentacle.customLabel>
+  <AA_TentacledSlug.corePart.parts.third_tentacle.customLabel>третье щупальце</AA_TentacledSlug.corePart.parts.third_tentacle.customLabel>
+  <AA_TentacledSlug.corePart.parts.fourth_tentacle.customLabel>четвёртое щупальце</AA_TentacledSlug.corePart.parts.fourth_tentacle.customLabel>
+  <AA_Wasp.corePart.parts.Pronotum.parts.InsectHead.parts.left_first_eye.customLabel>левый первый глаз</AA_Wasp.corePart.parts.Pronotum.parts.InsectHead.parts.left_first_eye.customLabel>
+  <AA_Wasp.corePart.parts.Pronotum.parts.InsectHead.parts.left_second_eye.customLabel>левый второй глаз</AA_Wasp.corePart.parts.Pronotum.parts.InsectHead.parts.left_second_eye.customLabel>
+  <AA_Wasp.corePart.parts.left_first_leg.customLabel>левая первая нога</AA_Wasp.corePart.parts.left_first_leg.customLabel>
+  <AA_Wasp.corePart.parts.right_first_leg.customLabel>правая первая нога</AA_Wasp.corePart.parts.right_first_leg.customLabel>
+  <AA_Wasp.corePart.parts.left_second_leg.customLabel>левая вторая нога</AA_Wasp.corePart.parts.left_second_leg.customLabel>
+  <AA_Wasp.corePart.parts.right_second_leg.customLabel>правая вторая нога</AA_Wasp.corePart.parts.right_second_leg.customLabel>
+  <AA_Wasp.corePart.parts.right_first_wing.customLabel>правое первое крыло</AA_Wasp.corePart.parts.right_first_wing.customLabel>
+  <AA_Wasp.corePart.parts.right_second_wing.customLabel>правое второе крыло</AA_Wasp.corePart.parts.right_second_wing.customLabel>
+  <AA_Wasp.corePart.parts.left_first_wing.customLabel>левое первое крыло</AA_Wasp.corePart.parts.left_first_wing.customLabel>
+  <AA_Wasp.corePart.parts.left_second_wing.customLabel>левое второе крыло</AA_Wasp.corePart.parts.left_second_wing.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.left_lung.customLabel>левое лёгкое</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.left_lung.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.right_lung.customLabel>правое лёгкое</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.right_lung.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.left_kidney.customLabel>левая почка</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.left_kidney.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.right_kidney.customLabel>правая почка</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.right_kidney.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.first_liver.customLabel>первая печень</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.first_liver.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.second_liver.customLabel>вторая печень</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.second_liver.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.third_liver.customLabel>третья печень</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.third_liver.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.fourth_liver.customLabel>четвёртая печень</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.fourth_liver.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>левый глаз</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>правый глаз</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>левое ухо</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>правое ухо</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.left_wing.customLabel>левое крыло</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.left_wing.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.right_wing.customLabel>правое крыло</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.right_wing.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.front_left_leg.customLabel>передняя левая нога</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.front_left_leg.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>передняя левая лапа</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.front_left_leg.parts.front_left_paw.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.front_right_leg.customLabel>передняя правая нога</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.front_right_leg.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>передняя правая лапа</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.front_right_leg.parts.front_right_paw.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.rear_left_leg.customLabel>задняя левая нога</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.rear_left_leg.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>задняя левая лапа</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.rear_left_leg.parts.rear_left_paw.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.rear_right_leg.customLabel>задняя правая нога</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.rear_right_leg.customLabel>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>задняя правая лапа</AA_WingedQuadrupedAnimalWithPawsAndTail.corePart.parts.rear_right_leg.parts.rear_right_paw.customLabel>
+  <AA_WormWithArmor.corePart.parts.AA_SecondWormSegment.parts.left_lung.customLabel>левое лёгкое</AA_WormWithArmor.corePart.parts.AA_SecondWormSegment.parts.left_lung.customLabel>
+  <AA_WormWithArmor.corePart.parts.AA_SecondWormSegment.parts.right_lung.customLabel>правое лёгкое</AA_WormWithArmor.corePart.parts.AA_SecondWormSegment.parts.right_lung.customLabel>
+  <AA_WormWithArmor.corePart.parts.AA_FourthWormSegment.parts.left_kidney.customLabel>левая почка</AA_WormWithArmor.corePart.parts.AA_FourthWormSegment.parts.left_kidney.customLabel>
+  <AA_WormWithArmor.corePart.parts.AA_FourthWormSegment.parts.right_kidney.customLabel>правая почка</AA_WormWithArmor.corePart.parts.AA_FourthWormSegment.parts.right_kidney.customLabel>
+  <AA_WormWithArmor.corePart.parts.SnakeHead.parts.echolocation_organ.customLabel>орган эхолокации</AA_WormWithArmor.corePart.parts.SnakeHead.parts.echolocation_organ.customLabel>
+  <AA_WormWithArmorAndTusks.corePart.parts.AA_SecondWormSegment.parts.left_lung.customLabel>левое лёгкое</AA_WormWithArmorAndTusks.corePart.parts.AA_SecondWormSegment.parts.left_lung.customLabel>
+  <AA_WormWithArmorAndTusks.corePart.parts.AA_SecondWormSegment.parts.right_lung.customLabel>правое лёгкое</AA_WormWithArmorAndTusks.corePart.parts.AA_SecondWormSegment.parts.right_lung.customLabel>
+  <AA_WormWithArmorAndTusks.corePart.parts.AA_FourthWormSegment.parts.left_kidney.customLabel>левая почка</AA_WormWithArmorAndTusks.corePart.parts.AA_FourthWormSegment.parts.left_kidney.customLabel>
+  <AA_WormWithArmorAndTusks.corePart.parts.AA_FourthWormSegment.parts.right_kidney.customLabel>правая почка</AA_WormWithArmorAndTusks.corePart.parts.AA_FourthWormSegment.parts.right_kidney.customLabel>
+  <AA_WormWithArmorAndTusks.corePart.parts.SnakeHead.parts.left_eye.customLabel>левый глаз</AA_WormWithArmorAndTusks.corePart.parts.SnakeHead.parts.left_eye.customLabel>
+  <AA_WormWithArmorAndTusks.corePart.parts.SnakeHead.parts.right_eye.customLabel>правый глаз</AA_WormWithArmorAndTusks.corePart.parts.SnakeHead.parts.right_eye.customLabel>
+  <AA_WormWithArmorAndTusks.corePart.parts.SnakeHead.parts.Jaw.parts.left_tusk.customLabel>левый бивень</AA_WormWithArmorAndTusks.corePart.parts.SnakeHead.parts.Jaw.parts.left_tusk.customLabel>
+  <AA_WormWithArmorAndTusks.corePart.parts.SnakeHead.parts.Jaw.parts.right_tusk.customLabel>правый бивень</AA_WormWithArmorAndTusks.corePart.parts.SnakeHead.parts.Jaw.parts.right_tusk.customLabel>
+</LanguageData>

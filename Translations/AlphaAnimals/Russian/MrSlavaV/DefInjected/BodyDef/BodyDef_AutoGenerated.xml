@@ -8,15 +8,15 @@
   <AA_Assembler.label>парящий механизм</AA_Assembler.label>
   <AA_Atispec.description>Анатомическое строение атиспека.</AA_Atispec.description>
   <AA_Atispec.label>тело атиспека</AA_Atispec.label>
-  <AA_AuraBody.label>тело (aura)</AA_AuraBody.label>
+  <AA_AuraBody.label>тело ауры</AA_AuraBody.label>
   <AA_Butterfly.description>Строение крупной бабочки.</AA_Butterfly.description>
   <AA_Butterfly.label>тело бабочки</AA_Butterfly.label>
   <AA_ClawedSlug.description>Строение слизняка с острыми коготками.</AA_ClawedSlug.description>
   <AA_ClawedSlug.label>тело когтистого слизняка</AA_ClawedSlug.label>
   <AA_Crocodile.description>Анатомическое строение крупного панцирного крокодила.</AA_Crocodile.description>
   <AA_Crocodile.label>тело крокодила</AA_Crocodile.label>
-  <AA_DaggerSnoutBody.label>тело (daggersnout)</AA_DaggerSnoutBody.label>
-  <AA_DemolisherBody.label>тело (demolisher)</AA_DemolisherBody.label>
+  <AA_DaggerSnoutBody.label>тело кинжалорыла</AA_DaggerSnoutBody.label>
+  <AA_DemolisherBody.label>тело разрушителя</AA_DemolisherBody.label>
   <AA_DualJawedQuadruped.description>Строение четвероногого животного с двойными челюстями.</AA_DualJawedQuadruped.description>
   <AA_DualJawedQuadruped.label>двучелюстное четвероногое</AA_DualJawedQuadruped.label>
   <AA_DualTentacledQuadrupedWithJowl.description>Строение четвероногого животного со щупальцами на морде.</AA_DualTentacledQuadrupedWithJowl.description>
@@ -25,44 +25,44 @@
   <AA_ExtraClawedQuadruped.label>многокоготное четвероногое</AA_ExtraClawedQuadruped.label>
   <AA_EyeBody.description>Строение плавающего или ползающего гигантского глазного яблока.</AA_EyeBody.description>
   <AA_EyeBody.label>тело окуляра</AA_EyeBody.label>
-  <AA_EyelessQuadruped.label>тело (eyeless quadruped animal)</AA_EyelessQuadruped.label>
-  <AA_FlyTrap.label>тело (flytrap body)</AA_FlyTrap.label>
-  <AA_FourEyedQuadruped.label>тело (four eyed quadruped animal)</AA_FourEyedQuadruped.label>
-  <AA_GooBody.label>тело (green goo)</AA_GooBody.label>
-  <AA_GooWithTeethBody.label>тело (green goo)</AA_GooWithTeethBody.label>
+  <AA_EyelessQuadruped.label>безглазое четвероногое</AA_EyelessQuadruped.label>
+  <AA_FlyTrap.label>тело мухоловки</AA_FlyTrap.label>
+  <AA_FourEyedQuadruped.label>четырёхглазое четвероногое</AA_FourEyedQuadruped.label>
+  <AA_GooBody.label>тело слизи</AA_GooBody.label>
+  <AA_GooWithTeethBody.label>зубастое тело слизи</AA_GooWithTeethBody.label>
   <AA_Hexapod.description>Строение шестиногого существа.</AA_Hexapod.description>
   <AA_Hexapod.label>тело шестинога</AA_Hexapod.label>
   <AA_JellyfishBoatBody.description>Анатомическое строение крупной медузы-лодки.</AA_JellyfishBoatBody.description>
   <AA_JellyfishBoatBody.label>тело медузы-лодки</AA_JellyfishBoatBody.label>
   <AA_JellyfishBody.description>Анатомическое строение парящей медузы.</AA_JellyfishBody.description>
   <AA_JellyfishBody.label>тело медузы</AA_JellyfishBody.label>
-  <AA_Locusts.label>тело (locusts)</AA_Locusts.label>
+  <AA_Locusts.label>тело саранчи</AA_Locusts.label>
   <AA_NautiloidBody.description>Анатомия парящего наутилоида в раковине.</AA_NautiloidBody.description>
   <AA_NautiloidBody.label>тело наутилоида</AA_NautiloidBody.label>
-  <AA_NightMuleBody.label>тело (night mule)</AA_NightMuleBody.label>
-  <AA_NightRamBody.label>тело (night ram)</AA_NightRamBody.label>
-  <AA_OcularJellyBody.label>тело (ocular jelly)</AA_OcularJellyBody.label>
-  <AA_RaptorBody.label>тело (raptor)</AA_RaptorBody.label>
-  <AA_RedSporeBody.label>тело (red spore)</AA_RedSporeBody.label>
-  <AA_ScorpionLike.label>тело (scorpionlike body)</AA_ScorpionLike.label>
-  <AA_SentientPlant.label>тело (sentientplant body)</AA_SentientPlant.label>
-  <AA_SiegebreakerBody.label>тело (siegebreaker)</AA_SiegebreakerBody.label>
-  <AA_SixEyedGoat.label>тело (six eyed goat)</AA_SixEyedGoat.label>
-  <AA_Slug.label>тело (slug)</AA_Slug.label>
-  <AA_SlurrypedeBody.label>тело (mechanical centipede)</AA_SlurrypedeBody.label>
+  <AA_NightMuleBody.label>тело ночного мула</AA_NightMuleBody.label>
+  <AA_NightRamBody.label>тело ночного барана</AA_NightRamBody.label>
+  <AA_OcularJellyBody.label>тело окулярной медузы</AA_OcularJellyBody.label>
+  <AA_RaptorBody.label>тело раптора</AA_RaptorBody.label>
+  <AA_RedSporeBody.label>тело красной споры</AA_RedSporeBody.label>
+  <AA_ScorpionLike.label>скорпионоподобное тело</AA_ScorpionLike.label>
+  <AA_SentientPlant.label>тело разумного растения</AA_SentientPlant.label>
+  <AA_SiegebreakerBody.label>тело осаждателя</AA_SiegebreakerBody.label>
+  <AA_SixEyedGoat.label>шестиглазая коза</AA_SixEyedGoat.label>
+  <AA_Slug.label>тело слизняка</AA_Slug.label>
+  <AA_SlurrypedeBody.label>механическая многоножка</AA_SlurrypedeBody.label>
   <AA_SmallButterfly.description>Хрупкое тело небольшой бабочки.</AA_SmallButterfly.description>
   <AA_SmallButterfly.label>тело бабочки</AA_SmallButterfly.label>
-  <AA_Snail.label>тело (snail)</AA_Snail.label>
-  <AA_SnakeWithTwoLimbs.label>тело (SnakeWithTwoLimbs)</AA_SnakeWithTwoLimbs.label>
-  <AA_Squid.label>тело (squid)</AA_Squid.label>
-  <AA_Squid_NoShell.label>тело (squid)</AA_Squid_NoShell.label>
-  <AA_TentacledQuadruped.label>тело (tentacled quadruped animal)</AA_TentacledQuadruped.label>
-  <AA_TentacledQuadrupedEyeless.label>тело (eyeless tentacled quadruped animal)</AA_TentacledQuadrupedEyeless.label>
-  <AA_TentacledSlug.label>тело (tentacled slug)</AA_TentacledSlug.label>
-  <AA_Wasp.label>тело (wasp body)</AA_Wasp.label>
-  <AA_WingedQuadrupedAnimalWithPawsAndTail.label>тело (winged quadruped animal)</AA_WingedQuadrupedAnimalWithPawsAndTail.label>
-  <AA_WormWithArmor.label>тело (worm with armor)</AA_WormWithArmor.label>
-  <AA_WormWithArmorAndTusks.label>тело (worm with armor and tusks)</AA_WormWithArmorAndTusks.label>
-  <FO_Nightcallerbody.label>тело (nightcaller)</FO_Nightcallerbody.label>
-  <FO_ShadowChargerBody.label>тело (shadow charger)</FO_ShadowChargerBody.label>
+  <AA_Snail.label>тело улитки</AA_Snail.label>
+  <AA_SnakeWithTwoLimbs.label>двуногая змея</AA_SnakeWithTwoLimbs.label>
+  <AA_Squid.label>тело кальмара</AA_Squid.label>
+  <AA_Squid_NoShell.label>беспанцирный кальмар</AA_Squid_NoShell.label>
+  <AA_TentacledQuadruped.label>щупальцевое четвероногое</AA_TentacledQuadruped.label>
+  <AA_TentacledQuadrupedEyeless.label>безглазое щупальцевое четвероногое</AA_TentacledQuadrupedEyeless.label>
+  <AA_TentacledSlug.label>щупальцевый слизняк</AA_TentacledSlug.label>
+  <AA_Wasp.label>тело осы</AA_Wasp.label>
+  <AA_WingedQuadrupedAnimalWithPawsAndTail.label>крылатое четвероногое</AA_WingedQuadrupedAnimalWithPawsAndTail.label>
+  <AA_WormWithArmor.label>бронированный червь</AA_WormWithArmor.label>
+  <AA_WormWithArmorAndTusks.label>бронированный бивневый червь</AA_WormWithArmorAndTusks.label>
+  <FO_Nightcallerbody.label>тело ночного вестника</FO_Nightcallerbody.label>
+  <FO_ShadowChargerBody.label>тело теневого тарана</FO_ShadowChargerBody.label>
 </LanguageData>

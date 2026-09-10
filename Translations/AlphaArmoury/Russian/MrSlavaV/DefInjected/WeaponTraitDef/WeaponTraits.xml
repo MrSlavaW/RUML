@@ -256,4 +256,86 @@
   <AArmoury_Voltaic.traitAdjectives>
     <li>вольтаическое</li>
   </AArmoury_Voltaic.traitAdjectives>
+
+  <AArmoury_SunburstCore.traitAdjectives>
+    <li>заряженное солнцем</li>
+    <li>выкованное солнцем</li>
+    <li>светочувствительное</li>
+  </AArmoury_SunburstCore.traitAdjectives>
+  <AArmoury_SunburstCore.traitAdjectives.0>заряженное солнцем</AArmoury_SunburstCore.traitAdjectives.0>
+  <AArmoury_SunburstCore.traitAdjectives.1>выкованное солнцем</AArmoury_SunburstCore.traitAdjectives.1>
+  <AArmoury_SunburstCore.traitAdjectives.2>светочувствительное</AArmoury_SunburstCore.traitAdjectives.2>
+
+  <AArmoury_VacuumSealed.traitAdjectives>
+    <li>герметичное</li>
+    <li>закалённое пустотой</li>
+    <li>герметизированное</li>
+  </AArmoury_VacuumSealed.traitAdjectives>
+  <AArmoury_VacuumSealed.traitAdjectives.0>герметичное</AArmoury_VacuumSealed.traitAdjectives.0>
+  <AArmoury_VacuumSealed.traitAdjectives.1>закалённое пустотой</AArmoury_VacuumSealed.traitAdjectives.1>
+  <AArmoury_VacuumSealed.traitAdjectives.2>герметизированное</AArmoury_VacuumSealed.traitAdjectives.2>
+
+  <AArmoury_ToxinTuned.traitAdjectives>
+    <li>изъеденное</li>
+    <li>осквернённое</li>
+    <li>чумное</li>
+  </AArmoury_ToxinTuned.traitAdjectives>
+  <AArmoury_ToxinTuned.traitAdjectives.0>изъеденное</AArmoury_ToxinTuned.traitAdjectives.0>
+  <AArmoury_ToxinTuned.traitAdjectives.1>осквернённое</AArmoury_ToxinTuned.traitAdjectives.1>
+  <AArmoury_ToxinTuned.traitAdjectives.2>чумное</AArmoury_ToxinTuned.traitAdjectives.2>
+
+  <AArmoury_Oversized.traitAdjectives>
+    <li>огромное</li>
+    <li>негабаритное</li>
+    <li>гигантское</li>
+  </AArmoury_Oversized.traitAdjectives>
+  <AArmoury_Oversized.traitAdjectives.0>огромное</AArmoury_Oversized.traitAdjectives.0>
+  <AArmoury_Oversized.traitAdjectives.1>негабаритное</AArmoury_Oversized.traitAdjectives.1>
+  <AArmoury_Oversized.traitAdjectives.2>гигантское</AArmoury_Oversized.traitAdjectives.2>
+
+  <AArmoury_Undersized.traitAdjectives>
+    <li>маленькое</li>
+    <li>компактное</li>
+    <li>крошечное</li>
+  </AArmoury_Undersized.traitAdjectives>
+  <AArmoury_Undersized.traitAdjectives.0>маленькое</AArmoury_Undersized.traitAdjectives.0>
+  <AArmoury_Undersized.traitAdjectives.1>компактное</AArmoury_Undersized.traitAdjectives.1>
+  <AArmoury_Undersized.traitAdjectives.2>крошечное</AArmoury_Undersized.traitAdjectives.2>
+
+  <AArmoury_RevolverScope.traitAdjectives>
+    <li>с прицелом</li>
+    <li>дальнозоркое</li>
+  </AArmoury_RevolverScope.traitAdjectives>
+  <AArmoury_RevolverScope.traitAdjectives.0>с прицелом</AArmoury_RevolverScope.traitAdjectives.0>
+  <AArmoury_RevolverScope.traitAdjectives.1>дальнозоркое</AArmoury_RevolverScope.traitAdjectives.1>
+
+  <AArmoury_DoubleTap.traitAdjectives>
+    <li>двухвыстрельное</li>
+    <li>очередями</li>
+  </AArmoury_DoubleTap.traitAdjectives>
+  <AArmoury_DoubleTap.traitAdjectives.0>двухвыстрельное</AArmoury_DoubleTap.traitAdjectives.0>
+  <AArmoury_DoubleTap.traitAdjectives.1>очередями</AArmoury_DoubleTap.traitAdjectives.1>
+
+  <AArmoury_ReinforcedFrame.traitAdjectives>
+    <li>укреплённое</li>
+  </AArmoury_ReinforcedFrame.traitAdjectives>
+  <AArmoury_ReinforcedFrame.traitAdjectives.0>укреплённое</AArmoury_ReinforcedFrame.traitAdjectives.0>
+
+  <AArmoury_InsectKiller.traitAdjectives>
+    <li>гроза жуков</li>
+    <li>сокрушитель ульев</li>
+    <li>инсектобойное</li>
+  </AArmoury_InsectKiller.traitAdjectives>
+  <AArmoury_InsectKiller.traitAdjectives.0>гроза жуков</AArmoury_InsectKiller.traitAdjectives.0>
+  <AArmoury_InsectKiller.traitAdjectives.1>сокрушитель ульев</AArmoury_InsectKiller.traitAdjectives.1>
+  <AArmoury_InsectKiller.traitAdjectives.2>инсектобойное</AArmoury_InsectKiller.traitAdjectives.2>
+
+  <AArmoury_AnomalyKiller.traitAdjectives>
+    <li>сокрушитель чуждых</li>
+    <li>затронутое пустотой</li>
+    <li>пожиратель аномалий</li>
+  </AArmoury_AnomalyKiller.traitAdjectives>
+  <AArmoury_AnomalyKiller.traitAdjectives.0>сокрушитель чуждых</AArmoury_AnomalyKiller.traitAdjectives.0>
+  <AArmoury_AnomalyKiller.traitAdjectives.1>затронутое пустотой</AArmoury_AnomalyKiller.traitAdjectives.1>
+  <AArmoury_AnomalyKiller.traitAdjectives.2>пожиратель аномалий</AArmoury_AnomalyKiller.traitAdjectives.2>
 </LanguageData>

@@ -194,44 +194,84 @@ namespace RUML
                         }
                         if (string.IsNullOrEmpty(author)) continue;
 
-                        string defInjPath = Path.Combine(Path.Combine(Path.Combine(Path.Combine(extDir, item.ModFolder), author), "Languages"), "Russian");
-                        defInjPath = Path.Combine(defInjPath, "DefInjected");
-                        if (!Directory.Exists(defInjPath)) continue;
+                        string langDir = Path.Combine(Path.Combine(Path.Combine(Path.Combine(extDir, item.ModFolder), author), "Languages"), "Russian");
+                        if (!Directory.Exists(langDir)) continue;
 
-                        string[] typeDirs = Directory.GetDirectories(defInjPath);
-                        for (int t = 0; t < typeDirs.Length; t++)
+                        // 2a. Process DefInjected
+                        string defInjPath = Path.Combine(langDir, "DefInjected");
+                        if (Directory.Exists(defInjPath))
                         {
-                            string typeDir = typeDirs[t];
-                            string typeName = Path.GetFileName(typeDir);
-                            Type defType = ResolveDefType(typeName);
-                            if (defType == null) continue;
+                            string[] typeDirs = Directory.GetDirectories(defInjPath);
+                            for (int t = 0; t < typeDirs.Length; t++)
+                            {
+                                string typeDir = typeDirs[t];
+                                string typeName = Path.GetFileName(typeDir);
+                                Type defType = ResolveDefType(typeName);
+                                if (defType == null) continue;
 
-                            string[] xmlFiles = Directory.GetFiles(typeDir, "*.xml", SearchOption.AllDirectories);
-                            for (int f = 0; f < xmlFiles.Length; f++)
+                                string[] xmlFiles = Directory.GetFiles(typeDir, "*.xml", SearchOption.AllDirectories);
+                                for (int f = 0; f < xmlFiles.Length; f++)
+                                {
+                                    try
+                                    {
+                                        XmlDocument doc = new XmlDocument();
+                                        doc.Load(xmlFiles[f]);
+                                        if (doc.DocumentElement == null) continue;
+
+                                        foreach (XmlNode node in doc.DocumentElement.ChildNodes)
+                                        {
+                                            if (node.NodeType != XmlNodeType.Element) continue;
+                                            string key = node.Name;
+                                            string val = node.InnerText;
+                                            if (string.IsNullOrEmpty(key) || string.IsNullOrEmpty(val) || val.Trim() == "TODO") continue;
+
+                                            val = val.Trim();
+                                            if (ApplySingleInjection(defType, key, val, lang, true))
+                                            {
+                                                totalInjected++;
+                                            }
+                                        }
+                                    }
+                                    catch (Exception fex)
+                                    {
+                                        Log.Warning("[RUML] Error parsing translation XML " + xmlFiles[f] + ": " + fex.Message);
+                                    }
+                                }
+                            }
+                        }
+
+                        // 2b. Process Keyed strings
+                        string keyedDir = Path.Combine(langDir, "Keyed");
+                        if (Directory.Exists(keyedDir) && lang != null && lang.keyedReplacements != null)
+                        {
+                            string[] keyedFiles = Directory.GetFiles(keyedDir, "*.xml", SearchOption.AllDirectories);
+                            for (int f = 0; f < keyedFiles.Length; f++)
                             {
                                 try
                                 {
-                                    XmlDocument doc = new XmlDocument();
-                                    doc.Load(xmlFiles[f]);
-                                    if (doc.DocumentElement == null) continue;
+                                    XmlDocument kDoc = new XmlDocument();
+                                    kDoc.Load(keyedFiles[f]);
+                                    if (kDoc.DocumentElement == null) continue;
 
-                                    foreach (XmlNode node in doc.DocumentElement.ChildNodes)
+                                    foreach (XmlNode node in kDoc.DocumentElement.ChildNodes)
                                     {
                                         if (node.NodeType != XmlNodeType.Element) continue;
-                                        string key = node.Name;
-                                        string val = node.InnerText;
-                                        if (string.IsNullOrEmpty(key) || string.IsNullOrEmpty(val) || val.Trim() == "TODO") continue;
+                                        string kKey = node.Name;
+                                        string kVal = node.InnerText;
+                                        if (string.IsNullOrEmpty(kKey) || string.IsNullOrEmpty(kVal) || kVal.Trim() == "TODO") continue;
 
-                                        val = val.Trim();
-                                        if (ApplySingleInjection(defType, key, val, lang, true))
-                                        {
-                                            totalInjected++;
-                                        }
+                                        LoadedLanguage.KeyedReplacement kr = new LoadedLanguage.KeyedReplacement();
+                                        kr.key = kKey;
+                                        kr.value = kVal.Trim();
+                                        kr.fileSource = Path.GetFileName(keyedFiles[f]);
+                                        kr.fileSourceFullPath = keyedFiles[f];
+                                        kr.isPlaceholder = false;
+                                        lang.keyedReplacements[kKey] = kr;
                                     }
                                 }
-                                catch (Exception fex)
+                                catch (Exception kex)
                                 {
-                                    Log.Warning("[RUML] Error parsing translation XML " + xmlFiles[f] + ": " + fex.Message);
+                                    Log.Warning("[RUML] Error parsing Keyed translation XML " + keyedFiles[f] + ": " + kex.Message);
                                 }
                             }
                         }
@@ -474,22 +514,73 @@ namespace RUML
                 if (fi != null && fi.FieldType == typeof(string))
                 {
                     fi.SetValue(obj, val);
+                    Tool t = obj as Tool;
+                    if (t != null)
+                    {
+                        if (string.IsNullOrEmpty(t.untranslatedLabel))
+                        {
+                            t.untranslatedLabel = t.label;
+                        }
+                        FieldInfo capFi = GetFieldRecursive(typeof(Tool), "cachedLabelCap");
+                        if (capFi != null)
+                        {
+                            capFi.SetValue(t, null);
+                        }
+                    }
                     return true;
                 }
                 return false;
             }
 
-            int listIdx;
-            if (int.TryParse(part, out listIdx))
+            // 1. If obj is IList (e.g. List<HediffCompProperties>, List<Tool>, List<VerbProperties>)
+            System.Collections.IList list = obj as System.Collections.IList;
+            if (list != null)
             {
-                System.Collections.IList list = obj as System.Collections.IList;
-                if (list != null && listIdx >= 0 && listIdx < list.Count)
+                int listIdx;
+                if (int.TryParse(part, out listIdx))
                 {
-                    return SetNestedValue(list[listIdx], parts, index + 1, val);
+                    if (listIdx >= 0 && listIdx < list.Count)
+                    {
+                        return SetNestedValue(list[listIdx], parts, index + 1, val);
+                    }
+                    return false;
+                }
+
+                for (int i = 0; i < list.Count; i++)
+                {
+                    object elem = list[i];
+                    if (elem == null) continue;
+                    Type eType = elem.GetType();
+                    if (string.Equals(eType.Name, part, StringComparison.OrdinalIgnoreCase))
+                    {
+                        if (SetNestedValue(elem, parts, index + 1, val)) return true;
+                    }
+
+                    FieldInfo compClassFi = GetFieldRecursive(eType, "compClass");
+                    if (compClassFi != null)
+                    {
+                        Type cClass = compClassFi.GetValue(elem) as Type;
+                        if (cClass != null && string.Equals(cClass.Name, part, StringComparison.OrdinalIgnoreCase))
+                        {
+                            if (SetNestedValue(elem, parts, index + 1, val)) return true;
+                        }
+                    }
+
+                    Tool tool = elem as Tool;
+                    if (tool != null)
+                    {
+                        if (string.Equals(tool.id, part, StringComparison.OrdinalIgnoreCase) ||
+                            string.Equals(tool.label, part, StringComparison.OrdinalIgnoreCase) ||
+                            string.Equals(tool.untranslatedLabel, part, StringComparison.OrdinalIgnoreCase))
+                        {
+                            if (SetNestedValue(tool, parts, index + 1, val)) return true;
+                        }
+                    }
                 }
                 return false;
             }
 
+            // 2. Direct field on object
             FieldInfo nextFi = GetFieldRecursive(obj.GetType(), part);
             if (nextFi != null)
             {

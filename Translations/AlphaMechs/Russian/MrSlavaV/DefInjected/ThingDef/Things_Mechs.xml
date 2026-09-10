@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <AM_Blitzkrieg.label>голова</AM_Blitzkrieg.label>
+  <AM_Blitzkrieg.label>блицкриг</AM_Blitzkrieg.label>
   <AM_Blitzkrieg.tools.0.label>голова</AM_Blitzkrieg.tools.0.label>
+  <AM_Blitzkrieg.tools.head-1.label>голова</AM_Blitzkrieg.tools.head-1.label>
   <AM_FrostPuff.label>морозный воздух</AM_FrostPuff.label>
   <AM_Gun_TacticalShotgun.tools.0.label>ствол</AM_Gun_TacticalShotgun.tools.0.label>
-  <AM_Mech_Guttersnipe.label>голова</AM_Mech_Guttersnipe.label>
+  <AM_Mech_Guttersnipe.label>гаттерснайп</AM_Mech_Guttersnipe.label>
   <AM_Mech_Guttersnipe.tools.0.label>голова</AM_Mech_Guttersnipe.tools.0.label>
-  <AM_Mech_MasterChef.label>голова</AM_Mech_MasterChef.label>
+  <AM_Mech_Guttersnipe.tools.head-1.label>голова</AM_Mech_Guttersnipe.tools.head-1.label>
+  <AM_Mech_MasterChef.label>шеф-повар</AM_Mech_MasterChef.label>
   <AM_Mech_MasterChef.tools.0.label>голова</AM_Mech_MasterChef.tools.0.label>
   <AM_Mech_Optio.tools.0.label>голова</AM_Mech_Optio.tools.0.label>
+  <AM_Mech_Optio.tools.head.label>голова</AM_Mech_Optio.tools.head.label>
   <AM_Mech_Optio.tools.left_fist.label>левый кулак</AM_Mech_Optio.tools.left_fist.label>
   <AM_Mech_Optio.tools.left_fist.labelNoLocation>кулак</AM_Mech_Optio.tools.left_fist.labelNoLocation>
   <AM_Mech_Optio.tools.right_fist.label>правый кулак</AM_Mech_Optio.tools.right_fist.label>
   <AM_Mech_Optio.tools.right_fist.labelNoLocation>кулак</AM_Mech_Optio.tools.right_fist.labelNoLocation>
   <AM_Mech_Polychoron.tools.0.label>голова</AM_Mech_Polychoron.tools.0.label>
+  <AM_Mech_Polychoron.tools.head.label>голова</AM_Mech_Polychoron.tools.head.label>
   <AM_Mech_Polychoron.tools.left_fist.label>левый кулак</AM_Mech_Polychoron.tools.left_fist.label>
   <AM_Mech_Polychoron.tools.left_fist.labelNoLocation>кулак</AM_Mech_Polychoron.tools.left_fist.labelNoLocation>
   <AM_Mech_Polychoron.tools.right_fist.label>правый кулак</AM_Mech_Polychoron.tools.right_fist.label>
   <AM_Mech_Polychoron.tools.right_fist.labelNoLocation>кулак</AM_Mech_Polychoron.tools.right_fist.labelNoLocation>
-  <AM_Mech_TurboCleaner.label>голова</AM_Mech_TurboCleaner.label>
+  <AM_Mech_TurboCleaner.label>турбоклинер</AM_Mech_TurboCleaner.label>
   <AM_Mech_TurboCleaner.tools.0.label>голова</AM_Mech_TurboCleaner.tools.0.label>
+  <AM_Mech_TurboCleaner.tools.head-1.label>голова</AM_Mech_TurboCleaner.tools.head-1.label>
   <AM_MechanoidGunRotaryNeedle.tools.0.label>ствол</AM_MechanoidGunRotaryNeedle.tools.0.label>
 </LanguageData>

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <CAT_PowerFist.label>силовой кулак</CAT_PowerFist.label>
+  <CAT_PowerFist.description>Тяжёлые латные рукавицы усиливают удары в рукопашном бою.</CAT_PowerFist.description>
+  <CAT_PowerFist.comps.HediffComp_VerbGiver.tools.power_fist.label>силовой кулак</CAT_PowerFist.comps.HediffComp_VerbGiver.tools.power_fist.label>
+  <CAT_PowerFist.comps.0.tools.0.label>силовой кулак</CAT_PowerFist.comps.0.tools.0.label>
 </LanguageData>

@@ -1,21 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <GS_Buff.stages.0.label>насмешка над чужаком</GS_Buff.stages.0.label>
+  <GS_Buff.stages.0.description>Я насмехался над кем-то, и это было приятно.</GS_Buff.stages.0.description>
+  <GS_Buff.stages.mocked_someone.description>Я насмехался над кем-то, и это было приятно.</GS_Buff.stages.mocked_someone.description>
+
   <GS_Debuff.stages.0.label>осмеян</GS_Debuff.stages.0.label>
+  <GS_Debuff.stages.0.description>Меня оскорбило это мелкое отродье.</GS_Debuff.stages.0.description>
+  <GS_Debuff.stages.mocked.description>Меня оскорбило это мелкое отродье.</GS_Debuff.stages.mocked.description>
+
   <GS_DungeonDweller_Thought.stages.0.label>в глубине подземелья</GS_DungeonDweller_Thought.stages.0.label>
+  <GS_DungeonDweller_Thought.stages.0.description>Я слишком долго под землёй. Кажется, будто тяжесть этой горы давит на меня. Мне нужно увидеть небо и почувствовать ветер.</GS_DungeonDweller_Thought.stages.0.description>
+  <GS_DungeonDweller_Thought.stages.entombed_underground.description>Я слишком долго под землёй. Кажется, будто тяжесть этой горы давит на меня. Мне нужно увидеть небо и почувствовать ветер.</GS_DungeonDweller_Thought.stages.entombed_underground.description>
+
   <GS_DungeonDweller_Thought.stages.1.label>заперт под землей</GS_DungeonDweller_Thought.stages.1.label>
+  <GS_DungeonDweller_Thought.stages.1.description>Сколько я уже под землёй? Мне нужно выбраться на свежий воздух и побыть под открытым небом.</GS_DungeonDweller_Thought.stages.1.description>
+  <GS_DungeonDweller_Thought.stages.trapped_underground.description>Сколько я уже под землёй? Мне нужно выбраться на свежий воздух и побыть под открытым небом.</GS_DungeonDweller_Thought.stages.trapped_underground.description>
+
   <GS_DungeonDweller_Thought.stages.2.label>клаустрофобия</GS_DungeonDweller_Thought.stages.2.label>
+  <GS_DungeonDweller_Thought.stages.2.description>Я так долго сижу взаперти, что кажется, будто потолок давит на меня. Мне нужно выйти наружу и увидеть небо.</GS_DungeonDweller_Thought.stages.2.description>
+  <GS_DungeonDweller_Thought.stages.cabin_fever.description>Я так долго сижу взаперти, что кажется, будто потолок давит на меня. Мне нужно выйти наружу и увидеть небо.</GS_DungeonDweller_Thought.stages.cabin_fever.description>
+
   <GS_DungeonDweller_Thought.stages.3.label>заперт в помещении</GS_DungeonDweller_Thought.stages.3.label>
+  <GS_DungeonDweller_Thought.stages.3.description>Прошло слишком много времени с тех пор, как я видел небо.</GS_DungeonDweller_Thought.stages.3.description>
+  <GS_DungeonDweller_Thought.stages.trapped_indoors.description>Прошло слишком много времени с тех пор, как я видел небо.</GS_DungeonDweller_Thought.stages.trapped_indoors.description>
+
   <GS_DungeonDweller_Thought.stages.4.label>вынужден сидеть дома</GS_DungeonDweller_Thought.stages.4.label>
+  <GS_DungeonDweller_Thought.stages.4.description>Хотелось бы выйти наружу и подышать свежим воздухом.</GS_DungeonDweller_Thought.stages.4.description>
+  <GS_DungeonDweller_Thought.stages.stuck_indoors.description>Хотелось бы выйти наружу и подышать свежим воздухом.</GS_DungeonDweller_Thought.stages.stuck_indoors.description>
+
   <GS_Expectations.stages.0.label>колоссальное богатство</GS_Expectations.stages.0.label>
+  <GS_Expectations.stages.0.description>Я очень доволен тем, насколько мы богаты.</GS_Expectations.stages.0.description>
+  <GS_Expectations.stages.extreme_wealth.description>Я очень доволен тем, насколько мы богаты.</GS_Expectations.stages.extreme_wealth.description>
+
   <GS_Expectations.stages.1.label>высокое богатство</GS_Expectations.stages.1.label>
+  <GS_Expectations.stages.1.description>Я доволен нашим богатством.</GS_Expectations.stages.1.description>
+  <GS_Expectations.stages.high_wealth.description>Я доволен нашим богатством.</GS_Expectations.stages.high_wealth.description>
+
   <GS_Expectations.stages.2.label>умеренное богатство</GS_Expectations.stages.2.label>
+  <GS_Expectations.stages.2.description>Я рад, что у нас всё хорошо.</GS_Expectations.stages.2.description>
+  <GS_Expectations.stages.moderate_wealth.description>Я рад, что у нас всё хорошо.</GS_Expectations.stages.moderate_wealth.description>
+
   <GS_Expectations.stages.3.label>низкое богатство</GS_Expectations.stages.3.label>
+  <GS_Expectations.stages.3.description>Я недоволен тем, как мало у нас есть.</GS_Expectations.stages.3.description>
+  <GS_Expectations.stages.low_wealth.description>Я недоволен тем, как мало у нас есть.</GS_Expectations.stages.low_wealth.description>
+
   <GS_Expectations.stages.4.label>очень низкое богатство</GS_Expectations.stages.4.label>
+  <GS_Expectations.stages.4.description>Я зол из-за того, что у нас так мало всего.</GS_Expectations.stages.4.description>
+  <GS_Expectations.stages.very_low_wealth.description>Я зол из-за того, что у нас так мало всего.</GS_Expectations.stages.very_low_wealth.description>
+
   <GS_Expectations.stages.5.label>крайняя нищета</GS_Expectations.stages.5.label>
+  <GS_Expectations.stages.5.description>Терпеть не могу жить в столь нищей колонии.</GS_Expectations.stages.5.description>
+  <GS_Expectations.stages.extreme_poverty.description>Терпеть не могу жить в столь нищей колонии.</GS_Expectations.stages.extreme_poverty.description>
+
   <GS_Expectations.stages.6.label>дворянские ожидания</GS_Expectations.stages.6.label>
+  <GS_Expectations.stages.6.description>Я выше этого простонародья, меня должны ублажать каждую секунду.</GS_Expectations.stages.6.description>
+  <GS_Expectations.stages.noble_expectations.description>Я выше этого простонародья, меня должны ублажать каждую секунду.</GS_Expectations.stages.noble_expectations.description>
+
   <GS_Expectations.stages.7.label>королевские ожидания</GS_Expectations.stages.7.label>
+  <GS_Expectations.stages.7.description>Моё величество... Мне и самому трудно поверить в это. Любой намёк на дискомфорт ниже моего достоинства.</GS_Expectations.stages.7.description>
+  <GS_Expectations.stages.royal_expectations.description>Моё величество... Мне и самому трудно поверить в это. Любой намёк на дискомфорт ниже моего достоинства.</GS_Expectations.stages.royal_expectations.description>
+
   <GS_Expectations.stages.8.label>элитные ожидания</GS_Expectations.stages.8.label>
+  <GS_Expectations.stages.8.description>Я не обязан терпеть неудобства, отвлекающие меня от столь важной роли.</GS_Expectations.stages.8.description>
+  <GS_Expectations.stages.elite_expectations.description>Я не обязан терпеть неудобства, отвлекающие меня от столь важной роли.</GS_Expectations.stages.elite_expectations.description>
+
   <GS_Expectations.stages.9.label>верховные ожидания</GS_Expectations.stages.9.label>
+  <GS_Expectations.stages.9.description>Моя значимость здесь непререкаема, поэтому мой комфорт должен быть наивысшим приоритетом для подданных.</GS_Expectations.stages.9.description>
+  <GS_Expectations.stages.supreme_expectations.description>Моя значимость здесь непререкаема, поэтому мой комфорт должен быть наивысшим приоритетом для подданных.</GS_Expectations.stages.supreme_expectations.description>
+
   <GS_QuirkyThought.stages.0.label>причуда</GS_QuirkyThought.stages.0.label>
 </LanguageData>

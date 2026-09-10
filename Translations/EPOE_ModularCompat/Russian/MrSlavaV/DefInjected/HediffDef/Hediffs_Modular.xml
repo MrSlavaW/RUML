@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <LTS_EPOE_LeftExtraAdvancedBionicHand.label>кулак</LTS_EPOE_LeftExtraAdvancedBionicHand.label>
+  <LTS_EPOE_LeftExtraAdvancedBionicHand.label>экстра-продвинутая бионическая кисть (левая)</LTS_EPOE_LeftExtraAdvancedBionicHand.label>
   <LTS_EPOE_LeftExtraAdvancedBionicHand.labelNoun>экстра-продвинутая бионическая кисть (левая)</LTS_EPOE_LeftExtraAdvancedBionicHand.labelNoun>
-  <LTS_EPOE_LeftExtraAdvancedElbowBlade.label>срез</LTS_EPOE_LeftExtraAdvancedElbowBlade.label>
+  <LTS_EPOE_LeftExtraAdvancedBionicHand.comps.HediffComp_VerbGiver.tools.fist.label>кулак</LTS_EPOE_LeftExtraAdvancedBionicHand.comps.HediffComp_VerbGiver.tools.fist.label>
+  <LTS_EPOE_LeftExtraAdvancedBionicHand.comps.0.tools.0.label>кулак</LTS_EPOE_LeftExtraAdvancedBionicHand.comps.0.tools.0.label>
+  <LTS_EPOE_LeftExtraAdvancedElbowBlade.label>экстра-продвинутый бионический локтевой клинок (левый)</LTS_EPOE_LeftExtraAdvancedElbowBlade.label>
   <LTS_EPOE_LeftExtraAdvancedElbowBlade.labelNoun>экстра-продвинутый бионический локтевой клинок (левый)</LTS_EPOE_LeftExtraAdvancedElbowBlade.labelNoun>
-  <LTS_EPOE_LeftExtraAdvancedHandTalon.label>коготь</LTS_EPOE_LeftExtraAdvancedHandTalon.label>
+  <LTS_EPOE_LeftExtraAdvancedElbowBlade.comps.HediffComp_VerbGiver.tools.slice.label>срез</LTS_EPOE_LeftExtraAdvancedElbowBlade.comps.HediffComp_VerbGiver.tools.slice.label>
+  <LTS_EPOE_LeftExtraAdvancedElbowBlade.comps.0.tools.0.label>срез</LTS_EPOE_LeftExtraAdvancedElbowBlade.comps.0.tools.0.label>
+  <LTS_EPOE_LeftExtraAdvancedHandTalon.label>экстра-продвинутый бионический кистевой коготь (левый)</LTS_EPOE_LeftExtraAdvancedHandTalon.label>
   <LTS_EPOE_LeftExtraAdvancedHandTalon.labelNoun>экстра-продвинутый бионический кистевой коготь (левый)</LTS_EPOE_LeftExtraAdvancedHandTalon.labelNoun>
+  <LTS_EPOE_LeftExtraAdvancedHandTalon.comps.HediffComp_VerbGiver.tools.talon.label>коготь</LTS_EPOE_LeftExtraAdvancedHandTalon.comps.HediffComp_VerbGiver.tools.talon.label>
+  <LTS_EPOE_LeftExtraAdvancedHandTalon.comps.0.tools.0.label>коготь</LTS_EPOE_LeftExtraAdvancedHandTalon.comps.0.tools.0.label>
   <LTS_EPOE_ModularAdvancedBionicArm.comps.HediffComp_Modular.slots.0.slotName>слот модуля руки</LTS_EPOE_ModularAdvancedBionicArm.comps.HediffComp_Modular.slots.0.slotName>
-  <LTS_EPOE_ModularAdvancedBionicArm.label>кулак</LTS_EPOE_ModularAdvancedBionicArm.label>
+  <LTS_EPOE_ModularAdvancedBionicArm.label>модульная продвинутая бионическая рука</LTS_EPOE_ModularAdvancedBionicArm.label>
   <LTS_EPOE_ModularAdvancedBionicArm.labelNoun>модульная продвинутая бионическая рука</LTS_EPOE_ModularAdvancedBionicArm.labelNoun>
+  <LTS_EPOE_ModularAdvancedBionicArm.comps.HediffComp_VerbGiver.tools.fist.label>кулак</LTS_EPOE_ModularAdvancedBionicArm.comps.HediffComp_VerbGiver.tools.fist.label>
+  <LTS_EPOE_ModularAdvancedBionicArm.comps.0.tools.0.label>кулак</LTS_EPOE_ModularAdvancedBionicArm.comps.0.tools.0.label>
   <LTS_EPOE_ModularAdvancedBionicEye.comps.HediffComp_Modular.slots.0.slotName>слот глазного модуля</LTS_EPOE_ModularAdvancedBionicEye.comps.HediffComp_Modular.slots.0.slotName>
   <LTS_EPOE_ModularAdvancedBionicEye.labelNoun>модульный продвинутый бионический глаз</LTS_EPOE_ModularAdvancedBionicEye.labelNoun>
   <LTS_EPOE_ModularAdvancedBionicJaw.comps.HediffComp_Modular.slots.0.slotName>слот модуля челюсти</LTS_EPOE_ModularAdvancedBionicJaw.comps.HediffComp_Modular.slots.0.slotName>
@@ -18,18 +26,30 @@
   <LTS_EPOE_ModularAdvancedBionicSpine.comps.HediffComp_Modular.slots.0.slotName>слот модуля позвоночника</LTS_EPOE_ModularAdvancedBionicSpine.comps.HediffComp_Modular.slots.0.slotName>
   <LTS_EPOE_ModularAdvancedBionicSpine.labelNoun>модульный продвинутый бионический позвоночник</LTS_EPOE_ModularAdvancedBionicSpine.labelNoun>
   <LTS_EPOE_ModularAdvancedDrillArm.comps.HediffComp_Modular.slots.0.slotName>слот модуля руки</LTS_EPOE_ModularAdvancedDrillArm.comps.HediffComp_Modular.slots.0.slotName>
-  <LTS_EPOE_ModularAdvancedDrillArm.label>бур</LTS_EPOE_ModularAdvancedDrillArm.label>
+  <LTS_EPOE_ModularAdvancedDrillArm.label>модульная продвинутая рука-бур</LTS_EPOE_ModularAdvancedDrillArm.label>
   <LTS_EPOE_ModularAdvancedDrillArm.labelNoun>модульная продвинутая рука-бур</LTS_EPOE_ModularAdvancedDrillArm.labelNoun>
+  <LTS_EPOE_ModularAdvancedDrillArm.comps.HediffComp_VerbGiver.tools.drill.label>бур</LTS_EPOE_ModularAdvancedDrillArm.comps.HediffComp_VerbGiver.tools.drill.label>
+  <LTS_EPOE_ModularAdvancedDrillArm.comps.0.tools.0.label>бур</LTS_EPOE_ModularAdvancedDrillArm.comps.0.tools.0.label>
   <LTS_EPOE_ModularAdvancedElbowBlade.comps.HediffComp_Modular.slots.0.slotName>слот модуля руки</LTS_EPOE_ModularAdvancedElbowBlade.comps.HediffComp_Modular.slots.0.slotName>
-  <LTS_EPOE_ModularAdvancedElbowBlade.label>лезвие</LTS_EPOE_ModularAdvancedElbowBlade.label>
+  <LTS_EPOE_ModularAdvancedElbowBlade.label>модульный продвинутый бионический локтевой клинок</LTS_EPOE_ModularAdvancedElbowBlade.label>
   <LTS_EPOE_ModularAdvancedElbowBlade.labelNoun>модульный продвинутый бионический локтевой клинок</LTS_EPOE_ModularAdvancedElbowBlade.labelNoun>
+  <LTS_EPOE_ModularAdvancedElbowBlade.comps.HediffComp_VerbGiver.tools.slice.label>лезвие</LTS_EPOE_ModularAdvancedElbowBlade.comps.HediffComp_VerbGiver.tools.slice.label>
+  <LTS_EPOE_ModularAdvancedElbowBlade.comps.0.tools.0.label>лезвие</LTS_EPOE_ModularAdvancedElbowBlade.comps.0.tools.0.label>
   <LTS_EPOE_ModularAdvancedPowerArm.comps.HediffComp_Modular.slots.0.slotName>слот модуля руки</LTS_EPOE_ModularAdvancedPowerArm.comps.HediffComp_Modular.slots.0.slotName>
-  <LTS_EPOE_ModularAdvancedPowerArm.label>коготь</LTS_EPOE_ModularAdvancedPowerArm.label>
+  <LTS_EPOE_ModularAdvancedPowerArm.label>модульная продвинутая силовая рука</LTS_EPOE_ModularAdvancedPowerArm.label>
   <LTS_EPOE_ModularAdvancedPowerArm.labelNoun>модульная продвинутая силовая рука</LTS_EPOE_ModularAdvancedPowerArm.labelNoun>
-  <LTS_EPOE_RightExtraAdvancedBionicHand.label>кулак</LTS_EPOE_RightExtraAdvancedBionicHand.label>
+  <LTS_EPOE_ModularAdvancedPowerArm.comps.HediffComp_VerbGiver.tools.claw.label>коготь</LTS_EPOE_ModularAdvancedPowerArm.comps.HediffComp_VerbGiver.tools.claw.label>
+  <LTS_EPOE_ModularAdvancedPowerArm.comps.0.tools.0.label>коготь</LTS_EPOE_ModularAdvancedPowerArm.comps.0.tools.0.label>
+  <LTS_EPOE_RightExtraAdvancedBionicHand.label>экстра-продвинутая бионическая кисть (правая)</LTS_EPOE_RightExtraAdvancedBionicHand.label>
   <LTS_EPOE_RightExtraAdvancedBionicHand.labelNoun>экстра-продвинутая бионическая кисть (правая)</LTS_EPOE_RightExtraAdvancedBionicHand.labelNoun>
-  <LTS_EPOE_RightExtraAdvancedElbowBlade.label>срез</LTS_EPOE_RightExtraAdvancedElbowBlade.label>
+  <LTS_EPOE_RightExtraAdvancedBionicHand.comps.HediffComp_VerbGiver.tools.fist.label>кулак</LTS_EPOE_RightExtraAdvancedBionicHand.comps.HediffComp_VerbGiver.tools.fist.label>
+  <LTS_EPOE_RightExtraAdvancedBionicHand.comps.0.tools.0.label>кулак</LTS_EPOE_RightExtraAdvancedBionicHand.comps.0.tools.0.label>
+  <LTS_EPOE_RightExtraAdvancedElbowBlade.label>экстра-продвинутый бионический локтевой клинок (правый)</LTS_EPOE_RightExtraAdvancedElbowBlade.label>
   <LTS_EPOE_RightExtraAdvancedElbowBlade.labelNoun>экстра-продвинутый бионический локтевой клинок (правый)</LTS_EPOE_RightExtraAdvancedElbowBlade.labelNoun>
-  <LTS_EPOE_RightExtraAdvancedHandTalon.label>коготь</LTS_EPOE_RightExtraAdvancedHandTalon.label>
+  <LTS_EPOE_RightExtraAdvancedElbowBlade.comps.HediffComp_VerbGiver.tools.slice.label>срез</LTS_EPOE_RightExtraAdvancedElbowBlade.comps.HediffComp_VerbGiver.tools.slice.label>
+  <LTS_EPOE_RightExtraAdvancedElbowBlade.comps.0.tools.0.label>срез</LTS_EPOE_RightExtraAdvancedElbowBlade.comps.0.tools.0.label>
+  <LTS_EPOE_RightExtraAdvancedHandTalon.label>экстра-продвинутый бионический кистевой коготь (правый)</LTS_EPOE_RightExtraAdvancedHandTalon.label>
   <LTS_EPOE_RightExtraAdvancedHandTalon.labelNoun>экстра-продвинутый бионический кистевой коготь (правый)</LTS_EPOE_RightExtraAdvancedHandTalon.labelNoun>
+  <LTS_EPOE_RightExtraAdvancedHandTalon.comps.HediffComp_VerbGiver.tools.talon.label>коготь</LTS_EPOE_RightExtraAdvancedHandTalon.comps.HediffComp_VerbGiver.tools.talon.label>
+  <LTS_EPOE_RightExtraAdvancedHandTalon.comps.0.tools.0.label>коготь</LTS_EPOE_RightExtraAdvancedHandTalon.comps.0.tools.0.label>
 </LanguageData>

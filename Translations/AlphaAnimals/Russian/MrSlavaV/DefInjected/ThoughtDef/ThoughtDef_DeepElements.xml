@@ -2,14 +2,23 @@
 <LanguageData>
   <AAVPE_SeenBlackQueen.stages.0.label>увидел чёрную королеву</AAVPE_SeenBlackQueen.stages.0.label>
   <AA_AteBlackTruffleIngredient.stages.0.label>съел чёрный трюфель</AA_AteBlackTruffleIngredient.stages.0.label>
+  <AA_AteBlackTruffleIngredient.stages.0.description>Настоящий деликатес.</AA_AteBlackTruffleIngredient.stages.0.description>
   <AA_AteHorribleRot.stages.0.label>съел перебродившую гниль</AA_AteHorribleRot.stages.0.label>
+  <AA_AteHorribleRot.stages.0.description>Мне пришлось собирать перебродившую гниющую растительность, чтобы выжить. Это омерзительно.</AA_AteHorribleRot.stages.0.description>
   <AA_AteSuperAwfulMeal.stages.0.label>съел отвратительнейшую еду</AA_AteSuperAwfulMeal.stages.0.label>
+  <AA_AteSuperAwfulMeal.stages.0.description>Мне пришлось съесть то, что переваривалось в кишках зверя. Это омерзительно.</AA_AteSuperAwfulMeal.stages.0.description>
   <AA_BeenPsionicallyNuzzled.stages.0.label>псионическая ласка</AA_BeenPsionicallyNuzzled.stages.0.label>
+  <AA_BeenPsionicallyNuzzled.stages.0.description>Эта милая лиса точно знает, как заставить почувствовать себя любимым.</AA_BeenPsionicallyNuzzled.stages.0.description>
   <AA_BeenPsionicallyNuzzled.stages.1.label>псионическая ласка</AA_BeenPsionicallyNuzzled.stages.1.label>
+  <AA_BeenPsionicallyNuzzled.stages.1.description>Эта лисичка такая милая, заботливая и любящая... Я чувствую душевное тепло.</AA_BeenPsionicallyNuzzled.stages.1.description>
   <AA_Disgust.stages.0.label>отвратительное существо</AA_Disgust.stages.0.label>
+  <AA_Disgust.stages.0.description>Я стал свидетелем омерзительного гигантского слизня, от которого разит вонью гниющей плоти. Какая гадость.</AA_Disgust.stages.0.description>
   <AA_HorrifyingDread.stages.0.label>ужасающий трепет</AA_HorrifyingDread.stages.0.label>
   <AA_PhotosensitiveExoskeleton.stages.0.label>дезориентирован на солнце</AA_PhotosensitiveExoskeleton.stages.0.label>
   <AA_PsychicHarmonyBad.stages.0.label>психическая гармония (негативная)</AA_PsychicHarmonyBad.stages.0.label>
+  <AA_PsychicHarmonyBad.stages.0.description>Серый муфлон поблизости разозлён или ранен, создавая диссонирующую пси-ауру.</AA_PsychicHarmonyBad.stages.0.description>
   <AA_PsychicHarmonyGood.stages.0.label>психическая гармония (позитивная)</AA_PsychicHarmonyGood.stages.0.label>
+  <AA_PsychicHarmonyGood.stages.0.description>Серый муфлон поблизости сыт и ухожен. Его пси-аура очень успокаивает.</AA_PsychicHarmonyGood.stages.0.description>
   <AA_UncomfortablyHot.stages.0.label>яйцо</AA_UncomfortablyHot.stages.0.label>
+  <AA_UncomfortablyHot.stages.0.description>Я съел пищу с ужасными яйцами ос. Они обожгли мне рот и желудок.</AA_UncomfortablyHot.stages.0.description>
 </LanguageData>
