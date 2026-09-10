@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- EN: butterfly -->
-  <AA_Locusts.corePart.parts.butterfly-1.customLabel>бабочка</AA_Locusts.corePart.parts.butterfly-1.customLabel>
+  <AA_Locusts.corePart.parts.butterfly-1.customLabel>саранча</AA_Locusts.corePart.parts.butterfly-1.customLabel>
 
   <!-- EN: butterfly -->
-  <AA_Locusts.corePart.parts.butterfly-2.customLabel>бабочка</AA_Locusts.corePart.parts.butterfly-2.customLabel>
+  <AA_Locusts.corePart.parts.butterfly-2.customLabel>саранча</AA_Locusts.corePart.parts.butterfly-2.customLabel>
 
   <!-- EN: butterfly -->
-  <AA_Locusts.corePart.parts.butterfly-3.customLabel>бабочка</AA_Locusts.corePart.parts.butterfly-3.customLabel>
+  <AA_Locusts.corePart.parts.butterfly-3.customLabel>саранча</AA_Locusts.corePart.parts.butterfly-3.customLabel>
 
   <!-- EN: left sight sensor -->
   <AA_AuraBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>левый оптический сенсор</AA_AuraBody.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>

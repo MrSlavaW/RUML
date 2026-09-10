@@ -11,30 +11,30 @@
   <AA_AchievementAtispec.label>Самое долгое ожидание</AA_AchievementAtispec.label>
   <AA_AchievementAtispec.description>Nurture an Atispec Larva into a mighty Atispec</AA_AchievementAtispec.description>
   <AA_AchievementBetterNotWaitForIt.label>Лучше не ждать</AA_AchievementBetterNotWaitForIt.label>
-  <AA_AchievementBetterNotWaitForIt.description>лапка</AA_AchievementBetterNotWaitForIt.description>
+  <AA_AchievementBetterNotWaitForIt.description>Приручить ангельскую моль и скормить ей одежду легендарного качества.</AA_AchievementBetterNotWaitForIt.description>
   <AA_AchievementBlackChitin.label>Чёрный — снова в моде</AA_AchievementBlackChitin.label>
   <AA_AchievementBlackHive.label>Это не те механоиды, которых вы ищете</AA_AchievementBlackHive.label>
-  <AA_AchievementBlackHive.description>улей</AA_AchievementBlackHive.description>
+  <AA_AchievementBlackHive.description>Уничтожить 50 инсектоидов Чёрного Улья.</AA_AchievementBlackHive.description>
   <AA_AchievementBlackHiveExterminator.label>Вызов дезинсекторов</AA_AchievementBlackHiveExterminator.label>
-  <AA_AchievementBlackHiveExterminator.description>улей</AA_AchievementBlackHiveExterminator.description>
+  <AA_AchievementBlackHiveExterminator.description>Уничтожить 150 инсектоидов Чёрного Улья. Это проучит их!</AA_AchievementBlackHiveExterminator.description>
   <AA_AchievementBlackHiveJelly.label>Теперь это моя еда</AA_AchievementBlackHiveJelly.label>
-  <AA_AchievementBlackHiveJelly.description>улей</AA_AchievementBlackHiveJelly.description>
+  <AA_AchievementBlackHiveJelly.description>Добыть не менее 250 единиц чёрного желе во время атак Чёрного Улья.</AA_AchievementBlackHiveJelly.description>
   <AA_AchievementBuzzingArmy.label>Жужжащая армия</AA_AchievementBuzzingArmy.label>
   <AA_AchievementBuzzingArmy.description>Tame a Bumbledrone Queen and make her create 20 Bumbledrones.</AA_AchievementBuzzingArmy.description>
   <AA_AchievementDealWithTheDevil.label>Сделка с дьяволом</AA_AchievementDealWithTheDevil.label>
   <AA_AchievementDealWithTheDevil.description>Have a colonist develop a bond with a Devilsheep. Don't expect it to be mutual.</AA_AchievementDealWithTheDevil.description>
   <AA_AchievementDiscoInferno.label>Инферно-диско</AA_AchievementDiscoInferno.label>
-  <AA_AchievementDiscoInferno.description>атака</AA_AchievementDiscoInferno.description>
+  <AA_AchievementDiscoInferno.description>Атаковать любую стручковую особь огнём достаточной силы, чтобы нанести ей неизлечимые ожоги.</AA_AchievementDiscoInferno.description>
   <AA_AchievementExtremeHauteCouture.label>Экстремальное от-кутюр</AA_AchievementExtremeHauteCouture.label>
   <AA_AchievementExtremeHauteCouture.description>Craft any item out of Gallatross Leather.</AA_AchievementExtremeHauteCouture.description>
   <AA_AchievementGallatross.label>Трумбо-Шмумбо</AA_AchievementGallatross.label>
-  <AA_AchievementGallatross.description>лапка</AA_AchievementGallatross.description>
+  <AA_AchievementGallatross.description>Приручить легендарного галлатроса.</AA_AchievementGallatross.description>
   <AA_AchievementGoingVegan.label>Почти веганство</AA_AchievementGoingVegan.label>
   <AA_AchievementGoingVegan.description>Acquire 200 pieces of Plant Meat</AA_AchievementGoingVegan.description>
   <AA_AchievementGoodestBoys.label>Самые лучшие мальчики</AA_AchievementGoodestBoys.label>
   <AA_AchievementGoodestBoys.description>Assemble a strike team of a Ray Hound, a Razorjack and a Ripper Hound</AA_AchievementGoodestBoys.description>
   <AA_AchievementGourmelette.label>Гурмелет</AA_AchievementGourmelette.label>
-  <AA_AchievementGourmelette.description>яйцо</AA_AchievementGourmelette.description>
+  <AA_AchievementGourmelette.description>Использовать драгоценное яйцо ночника для приготовления шикарного блюда.</AA_AchievementGourmelette.description>
   <AA_AchievementGreenestEnergy.label>Зеленейшая энергия</AA_AchievementGreenestEnergy.label>
   <AA_AchievementGreenestEnergy.description>Have a friendly creature (like a tame Tetra slug) recharge your batteries</AA_AchievementGreenestEnergy.description>
   <AA_AchievementGreg.label>Я назову его «Грег»</AA_AchievementGreg.label>
@@ -44,7 +44,7 @@
   <AA_AchievementMinerBoys.label>Шахтёры</AA_AchievementMinerBoys.label>
   <AA_AchievementMinerBoys.description>Tame a troupe of 4 Groundrunners to mine for you</AA_AchievementMinerBoys.description>
   <AA_AchievementMuffaloPlus.label>Муффало++</AA_AchievementMuffaloPlus.label>
-  <AA_AchievementMuffaloPlus.description>лапка</AA_AchievementMuffaloPlus.description>
+  <AA_AchievementMuffaloPlus.description>Заполучить гигантелопу с легендарной грузоподъёмностью.</AA_AchievementMuffaloPlus.description>
   <AA_AchievementMutantHand.label>Оно мне подмигнуло?</AA_AchievementMutantHand.label>
   <AA_AchievementMutantHand.description>Install a mutant arm, acquired from a Teratogenic Originator</AA_AchievementMutantHand.description>
   <AA_AchievementNoChocobo.label>Не чокобо</AA_AchievementNoChocobo.label>
@@ -66,7 +66,7 @@
   <AA_AchievementStalker.label>Прятки</AA_AchievementStalker.label>
   <AA_AchievementStalker.description>Have an Arctic Lion stalk your colonists</AA_AchievementStalker.description>
   <AA_AchievementToxic.label>Токсичность моей колонии</AA_AchievementToxic.label>
-  <AA_AchievementToxic.description>тело</AA_AchievementToxic.description>
+  <AA_AchievementToxic.description>Подвергнуть колониста или животное воздействию токсина, который не вызывает гниения плоти.</AA_AchievementToxic.description>
   <FF_IShallWearMidnight.label>Облачусь в полночь</FF_IShallWearMidnight.label>
   <FF_IShallWearMidnight.description>Craft any item out of Behemoth Scales.</FF_IShallWearMidnight.description>
   <FF_NightCollection.label>Ночной коллекционер</FF_NightCollection.label>

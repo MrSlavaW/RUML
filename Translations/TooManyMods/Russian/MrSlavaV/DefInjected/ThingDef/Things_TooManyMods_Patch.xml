@@ -19,9 +19,9 @@
   <TMM_RandomPotPlant.label>растение в горшке</TMM_RandomPotPlant.label>
   <TMM_RandomSoftDrink.description>Случайная банка газировки.</TMM_RandomSoftDrink.description>
   <TMM_RandomSoftDrink.label>газированный напиток</TMM_RandomSoftDrink.label>
-  <TMM_RandomSushi.description>лапа</TMM_RandomSushi.description>
+  <TMM_RandomSushi.description>Случайный аппетитный набор суши.</TMM_RandomSushi.description>
   <TMM_RandomSushi.label>случайные суши</TMM_RandomSushi.label>
-  <TMM_RandomSushiFish.description>лапа</TMM_RandomSushiFish.description>
+  <TMM_RandomSushiFish.description>Случайная свежая рыба, подготовленная для приготовления суши.</TMM_RandomSushiFish.description>
   <TMM_RandomSushiFish.label>случайная рыба для суши</TMM_RandomSushiFish.label>
   <TMM_RandomTribalCommon.description>Создаёт случайные племенные припасы.</TMM_RandomTribalCommon.description>
   <TMM_RandomTribalCommon.label>обычная добыча племени</TMM_RandomTribalCommon.label>

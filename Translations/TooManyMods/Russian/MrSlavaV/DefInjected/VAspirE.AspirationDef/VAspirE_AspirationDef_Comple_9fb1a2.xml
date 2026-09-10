@@ -26,7 +26,7 @@
   <TMM_InstallGoldenTeethReplacement.label>вставить золотые зубы</TMM_InstallGoldenTeethReplacement.label>
   <TMM_InstallNeuralStack.description>{0} хочет сохранить свой разум в нейростек кортикального типа.</TMM_InstallNeuralStack.description>
   <TMM_InstallNeuralStack.label>сохранить сознание в стек</TMM_InstallNeuralStack.label>
-  <TMM_MakeGunkanmaki.description>орудие</TMM_MakeGunkanmaki.description>
+  <TMM_MakeGunkanmaki.description>{0} хочет приготовить аппетитные гункан-маки.</TMM_MakeGunkanmaki.description>
   <TMM_MakeGunkanmaki.label>приготовить гункан-маки</TMM_MakeGunkanmaki.label>
   <TMM_SavorHauteMeal.description>{0} желает насладиться изысканным блюдом высокой кухни.</TMM_SavorHauteMeal.description>
   <TMM_SavorHauteMeal.label>отведать блюдо высокой кухни</TMM_SavorHauteMeal.label>

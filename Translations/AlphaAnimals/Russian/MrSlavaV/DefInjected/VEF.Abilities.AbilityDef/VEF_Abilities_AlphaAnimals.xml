@@ -30,7 +30,7 @@
   <AAVPE_KO.label>без сознания</AAVPE_KO.label>
   <AAVPE_Laser.description>Psychically redirects sunlight and concentrates it in a brutal laser blast.</AAVPE_Laser.description>
   <AAVPE_Laser.label>сфокусированный свет</AAVPE_Laser.label>
-  <AAVPE_LegSkip.description>лапка</AAVPE_LegSkip.description>
+  <AAVPE_LegSkip.description>Псионический прыжок лапами на короткую дистанцию для внезапной атаки или отступления.</AAVPE_LegSkip.description>
   <AAVPE_LegSkip.label>пространственный скачок ноги</AAVPE_LegSkip.label>
   <AAVPE_LightSustenance.description>Psychically changes the target's skin to be part plant, eliminating almost entirely their need to eat, but requiring them to be constantly exposed to light for sustenance. This change in the target is permanent, and quite traumatic.</AAVPE_LightSustenance.description>
   <AAVPE_LightSustenance.label>легкое насыщение</AAVPE_LightSustenance.label>
@@ -40,11 +40,11 @@
   <AAVPE_Regeneration.label>регенерация</AAVPE_Regeneration.label>
   <AAVPE_Skewer.description>Psychically charges the caster's weapon with an obscene amount of energy, skewering the target straight through the torso and dealing immense damage.\n\nBear in mind this psycast won't work on animals, as they are considered to lack a torso.</AAVPE_Skewer.description>
   <AAVPE_Skewer.label>насаживание</AAVPE_Skewer.label>
-  <AAVPE_Slice.description>тело</AAVPE_Slice.description>
+  <AAVPE_Slice.description>Псионический рассекающий взмах оружием или когтями, наносящий глубокие рваные раны.</AAVPE_Slice.description>
   <AAVPE_Slice.label>дикий пси-разрез</AAVPE_Slice.label>
   <AAVPE_SpinCut.description>The caster skips a short distance and spins their melee weapon around, cutting anyone adjacent to the original target.</AAVPE_SpinCut.description>
   <AAVPE_SpinCut.label>круговой разрез</AAVPE_SpinCut.label>
-  <AAVPE_StrengthenInsect.description>улей</AAVPE_StrengthenInsect.description>
+  <AAVPE_StrengthenInsect.description>Псионически наполняет инсектоида боевой яростью, временно увеличивая силу и скорость.</AAVPE_StrengthenInsect.description>
   <AAVPE_StrengthenInsect.label>усилить насекомое</AAVPE_StrengthenInsect.label>
   <AAVPE_StrikeEyes.description>Psychically causes the vitreous humour inside the target's eyes to heat to a boiling point, destroying them and leaving the poor victim forever blind.</AAVPE_StrikeEyes.description>
   <AAVPE_StrikeEyes.label>ослепляющий удар</AAVPE_StrikeEyes.label>
@@ -60,23 +60,23 @@
   <AAVPE_SummonEyeling.label>призыв eyeling</AAVPE_SummonEyeling.label>
   <AAVPE_SummonEyelingHorde.description>Uses psychic potential to rend a gaping hole between our reality and a trans-dimensional realm of pure madness, skipping several of its inhabitants into our universe. These eyelings will stay around for a day before vanishing, and will be hostile to any enemy from outside the colony.</AAVPE_SummonEyelingHorde.description>
   <AAVPE_SummonEyelingHorde.label>призыв eyeling horde</AAVPE_SummonEyelingHorde.label>
-  <AAVPE_SummonHive.description>улей</AAVPE_SummonHive.description>
+  <AAVPE_SummonHive.description>Пробивает ткань пространства и призывает действующий улей инсектоидов.</AAVPE_SummonHive.description>
   <AAVPE_SummonHive.label>призыв entrance to the hive</AAVPE_SummonHive.label>
   <AAVPE_SummonMammothWorm.description>Psychically skips a mammoth worm to help defend the colony. The mammoth worm will stay around for a day before vanishing, and will be hostile to any enemy from outside the colony.</AAVPE_SummonMammothWorm.description>
   <AAVPE_SummonMammothWorm.label>призыв mammoth worm</AAVPE_SummonMammothWorm.label>
-  <AAVPE_SummonOcularOriginator.description>имплант</AAVPE_SummonOcularOriginator.description>
+  <AAVPE_SummonOcularOriginator.description>Призывает окулярного прародителя из параллельного биома.</AAVPE_SummonOcularOriginator.description>
   <AAVPE_SummonOcularOriginator.label>призыв ocular originator</AAVPE_SummonOcularOriginator.label>
   <AAVPE_VenomSpit.description>Generates a small blob of caustic liquid by linking a microscopic skipgate to an underground reservoir of acid. This blob is then psychically charged and accelerated in the desired direction.</AAVPE_VenomSpit.description>
   <AAVPE_VenomSpit.label>venom плевок</AAVPE_VenomSpit.label>
   <AAVPE_WebSlinging.description>Psychically generates strands of pure mental energy in the form of a glowing psy web. These webs will stun and burn the target.</AAVPE_WebSlinging.description>
   <AAVPE_WebSlinging.label>паутина slinging</AAVPE_WebSlinging.label>
-  <AA_AcidBolt.description>плевок</AA_AcidBolt.description>
+  <AA_AcidBolt.description>Плевок сгустком едкой кислоты, наносящий продолжительные кислотные ожоги.</AA_AcidBolt.description>
   <AA_AcidBolt.label>кислотаic плевок</AA_AcidBolt.label>
   <AA_AcidicVomit.description>Spew a corrosive, acidic bile that melts through armor and flesh, leaving a sizzling trail of destruction.</AA_AcidicVomit.description>
   <AA_AcidicVomit.label>кислотаic vomit</AA_AcidicVomit.label>
   <AA_AcidicWeb.description>Throw a web of sticky silk that can stun its target and cause periodic acid burns.</AA_AcidicWeb.description>
   <AA_AcidicWeb.label>кислотаic 'lisk паутина</AA_AcidicWeb.label>
-  <AA_BarbedQuills.description>иглы</AA_BarbedQuills.description>
+  <AA_BarbedQuills.description>Залп тремя зазубренными иглами, которые намертво впиваются в плоть и отравляют цель.</AA_BarbedQuills.description>
   <AA_BarbedQuills.label>зазубренные иглы</AA_BarbedQuills.label>
   <AA_BlackHiveBolt.description>Снаряд ядовитой слизи Чёрного Улья.</AA_BlackHiveBolt.description>
   <AA_BlackHiveBolt.label>ядовитый плевок</AA_BlackHiveBolt.label>
@@ -86,33 +86,33 @@
   <AA_Bullet_VenomBarb.label>ядовитый шип</AA_Bullet_VenomBarb.label>
   <AA_Bullet_VenomBarb_Minor.description>Launch a venomous barb that pierces flesh and delivers a potent toxin.</AA_Bullet_VenomBarb_Minor.description>
   <AA_Bullet_VenomBarb_Minor.label>малый ядовитый шип</AA_Bullet_VenomBarb_Minor.label>
-  <AA_DarkBolt.description>снаряд</AA_DarkBolt.description>
+  <AA_DarkBolt.description>Выстрел сгустком концентрированной тёмной энергии, испепеляющим материю.</AA_DarkBolt.description>
   <AA_DarkBolt.label>тёмная стрела</AA_DarkBolt.label>
-  <AA_ElectricBolt.description>снаряд</AA_ElectricBolt.description>
+  <AA_ElectricBolt.description>Мощный разряд молнии, обжигающий плоть и оглушающий нервную систему жертвы.</AA_ElectricBolt.description>
   <AA_ElectricBolt.label>электрический разряд</AA_ElectricBolt.label>
-  <AA_FireSpit.description>плевок</AA_FireSpit.description>
+  <AA_FireSpit.description>Плевок самовоспламеняющейся смесью, поджигающей цель и пространство вокруг.</AA_FireSpit.description>
   <AA_FireSpit.label>огонь плевок</AA_FireSpit.label>
   <AA_FireWeb.description>Throw a web of sticky silk that can stun its target and cause burns.</AA_FireWeb.description>
   <AA_FireWeb.label>огонь 'lisk паутина</AA_FireWeb.label>
   <AA_FlameBreathAnimated.description>Exhale a cone of superheated flame that ignites flammable objects and scorches anything caught in its path.</AA_FlameBreathAnimated.description>
   <AA_FlameBreathAnimated.label>дыхание пламенем</AA_FlameBreathAnimated.label>
-  <AA_FrostBolt.description>снаряд</AA_FrostBolt.description>
+  <AA_FrostBolt.description>Выстрел ледяным зарядом, наносящий обморожения и сковывающий движения врага.</AA_FrostBolt.description>
   <AA_FrostBolt.label>морозный разряд</AA_FrostBolt.label>
   <AA_FrostWeb.description>Throw a web of sticky silk that can stun its target and cause frostbite wounds.</AA_FrostWeb.description>
   <AA_FrostWeb.label>frost 'lisk паутина</AA_FrostWeb.label>
   <AA_GazeAttack.description>Emit a melting gaze that causes flesh and armor to blister and liquefy under intense, focused heat.</AA_GazeAttack.description>
   <AA_GazeAttack.label>плавящий взгляд</AA_GazeAttack.label>
-  <AA_GreaterVileSpit.description>плевок</AA_GreaterVileSpit.description>
+  <AA_GreaterVileSpit.description>Струя ядовитой кислоты, смертельной для живых существ и быстро растворяющей пласталь механоидов.</AA_GreaterVileSpit.description>
   <AA_GreaterVileSpit.label>великий ядовитый плевок</AA_GreaterVileSpit.label>
-  <AA_IncendiaryMote.description>плевок</AA_IncendiaryMote.description>
+  <AA_IncendiaryMote.description>Плевок термальным сгустком, прилипающим к поверхности и взрывающимся снопом пламени.</AA_IncendiaryMote.description>
   <AA_IncendiaryMote.label>thermal detonating плевок</AA_IncendiaryMote.label>
   <AA_LaserBullet.description>Fire a concentrated burst of pink laser energy that sears through targets with precision and speed.</AA_LaserBullet.description>
   <AA_LaserBullet.label>laser вспышка</AA_LaserBullet.label>
   <AA_Plasma.description>Fire a volley of ionized plasma projectiles. Mainly used defensively.</AA_Plasma.description>
   <AA_Plasma.label>четверная тесла-пушка</AA_Plasma.label>
-  <AA_PoisonBolt.description>плевок</AA_PoisonBolt.description>
+  <AA_PoisonBolt.description>Выстрел капсулой концентрированного яда, вызывающего быстрое токсичное поражение.</AA_PoisonBolt.description>
   <AA_PoisonBolt.label>venomous плевок</AA_PoisonBolt.label>
-  <AA_Quill.description>иглы</AA_Quill.description>
+  <AA_Quill.description>Одиночный прицельный выстрел острой хитиновой иглой.</AA_Quill.description>
   <AA_Quill.label>зазубренные иглы</AA_Quill.label>
   <AA_RedPoisonBolt.description>Launch a venomous barb that pierces flesh and delivers a potent toxin.</AA_RedPoisonBolt.description>
   <AA_RedPoisonBolt.label>ядовитый шип</AA_RedPoisonBolt.label>

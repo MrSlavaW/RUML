@@ -62,7 +62,7 @@
   <AA_MalevolentEye.stages.minor.label>лёгкое</AA_MalevolentEye.stages.minor.label>
   <AA_MalevolentEye.stages.major.label>сильное</AA_MalevolentEye.stages.major.label>
   <AA_MalevolentEye.stages.extreme.label>критическое</AA_MalevolentEye.stages.extreme.label>
-  <VFEI2_BlackEmpressSpawn.stages.egg.label>яйцо</VFEI2_BlackEmpressSpawn.stages.egg.label>
+  <VFEI2_BlackEmpressSpawn.stages.egg.label>стадия яйца</VFEI2_BlackEmpressSpawn.stages.egg.label>
   <VFEI2_BlackEmpressSpawn.stages.larva.label>личинка</VFEI2_BlackEmpressSpawn.stages.larva.label>
   <VFEI2_BlackEmpressSpawn.stages.pupa.label>куколка</VFEI2_BlackEmpressSpawn.stages.pupa.label>
   <VFEI2_BlackEmpressSpawn.stages.juvenile.label>молодая особь</VFEI2_BlackEmpressSpawn.stages.juvenile.label>

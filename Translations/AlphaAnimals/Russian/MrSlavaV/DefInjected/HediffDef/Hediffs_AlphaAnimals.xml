@@ -3,7 +3,7 @@
   <AAVPE_Electrified.label>наэлектризован</AAVPE_Electrified.label>
   <AAVPE_Electrified.description>This colonist or animal had its blood charged with reverse entropy potential, allowing them to recharge electrical batteries merely by being close to them. This change is permanent, and quite traumatic.</AAVPE_Electrified.description>
   <AAVPE_Exploder.label>химтопливные наросты</AAVPE_Exploder.label>
-  <AAVPE_Exploder.description>имплант</AAVPE_Exploder.description>
+  <AAVPE_Exploder.description>Псионически внедрённые капсулы химтоплива в теле. Существо взорвётся при гибели.</AAVPE_Exploder.description>
   <AAVPE_FungalSkin.label>грибная кожа</AAVPE_FungalSkin.label>
   <AAVPE_FungalSkin.description>Укрепление покровов мицелием.</AAVPE_FungalSkin.description>
   <AAVPE_Hover.label>парение</AAVPE_Hover.label>
@@ -15,23 +15,23 @@
   <AAVPE_Regeneration.label>регенерация</AAVPE_Regeneration.label>
   <AAVPE_Regeneration.description>This colonist or animal has a psychically active field of regeneration, allowing them to heal their wounds much faster than usual.</AAVPE_Regeneration.description>
   <AAVPE_StrengthenBlackHive.label>усиленный инсектоид</AAVPE_StrengthenBlackHive.label>
-  <AAVPE_StrengthenBlackHive.description>улей</AAVPE_StrengthenBlackHive.description>
+  <AAVPE_StrengthenBlackHive.description>Этот инсектоид Чёрного Улья был усилен псионикой и стал значительно эффективнее в бою.</AAVPE_StrengthenBlackHive.description>
   <AA_AcidBuildup_AgainstMechs.label>кислотный ожог</AA_AcidBuildup_AgainstMechs.label>
-  <AA_AcidBuildup_AgainstMechs.description>атака</AA_AcidBuildup_AgainstMechs.description>
+  <AA_AcidBuildup_AgainstMechs.description>Едкий налёт кислоты, продолжающий разъедать плоть и металл долгое время после удара. Воздействует даже на механоидов, обычно неуязвимых к кислоте!</AA_AcidBuildup_AgainstMechs.description>
   <AA_AcidicSpitterImplant.label>кислотный плеватель</AA_AcidicSpitterImplant.label>
-  <AA_AcidicSpitterImplant.description>имплант</AA_AcidicSpitterImplant.description>
+  <AA_AcidicSpitterImplant.description>Кислотный плеватель. Позволяет существу атаковать врагов на расстоянии едкой кислотой с периодическим уроном.</AA_AcidicSpitterImplant.description>
   <AA_AnoleGrown.label>взрывной рост</AA_AnoleGrown.label>
-  <AA_AnoleGrown.description>рост</AA_AnoleGrown.description>
-  <AA_AnoleGrownExhausted.label>рост</AA_AnoleGrownExhausted.label>
-  <AA_AnoleGrownExhausted.description>рост</AA_AnoleGrownExhausted.description>
+  <AA_AnoleGrown.description>Нестабильный коктейль гормонов роста и механитов вызывает лавинообразное деление клеток. Значительно повышает метаболизм, боевую мощь и защиту существа на несколько часов. После этого существо будет истощено.</AA_AnoleGrown.description>
+  <AA_AnoleGrownExhausted.label>взрывной рост (истощение)</AA_AnoleGrownExhausted.label>
+  <AA_AnoleGrownExhausted.description>Существо недавно пережило аномальный гормональный скачок, что вызвало сильное истощение и зверский голод. Повторная активация невозможна, пока этот эффект не спадёт.</AA_AnoleGrownExhausted.description>
   <AA_AteBlackTruffleIngredient.label>съел чёрный трюфель (в блюде)</AA_AteBlackTruffleIngredient.label>
-  <AA_AteBlackTruffleIngredient.description>гриб</AA_AteBlackTruffleIngredient.description>
-  <AA_AteFinestClothes.label>лапка</AA_AteFinestClothes.label>
-  <AA_AteFinestClothes.description>лапка</AA_AteFinestClothes.description>
+  <AA_AteBlackTruffleIngredient.description>Съел чёрный трюфель — восхитительный и ценнейший деликатесный гриб.</AA_AteBlackTruffleIngredient.description>
+  <AA_AteFinestClothes.label>пиршество легендарной тканью</AA_AteFinestClothes.label>
+  <AA_AteFinestClothes.description>Эта ангельская моль недавно полакомилась одеждой легендарного качества.</AA_AteFinestClothes.description>
   <AA_BarbedQuillThrowerImplant.label>шипомётный имплант</AA_BarbedQuillThrowerImplant.label>
-  <AA_BarbedQuillThrowerImplant.description>имплант</AA_BarbedQuillThrowerImplant.description>
+  <AA_BarbedQuillThrowerImplant.description>Метатель зазубренных игл. Наделяет существо токсичной дистанционной атакой.</AA_BarbedQuillThrowerImplant.description>
   <AA_BioelectricOrganImplant.label>биоэлектрический имплант</AA_BioelectricOrganImplant.label>
-  <AA_BioelectricOrganImplant.description>имплант</AA_BioelectricOrganImplant.description>
+  <AA_BioelectricOrganImplant.description>Биоэлектрический орган. Позволяет существу атаковать электрическими разрядами на дистанции, вызывая паралич и остановку сердца.</AA_BioelectricOrganImplant.description>
   <AA_BionicBeak.label>бионический клюв</AA_BionicBeak.label>
   <AA_BionicBeak.description>A bionic beak.</AA_BionicBeak.description>
   <AA_BionicBuoyancyMechanism.label>бионический механизм плавучести</AA_BionicBuoyancyMechanism.label>
@@ -58,7 +58,7 @@
   <AA_CarryWeight5.description>This creature can carry extra weight both while hauling and on caravans.</AA_CarryWeight5.description>
   <AA_CarryWeight6.label>дополнительный вес (шедевр)</AA_CarryWeight6.label>
   <AA_CarryWeight6.description>This creature can carry extra weight both while hauling and on caravans.</AA_CarryWeight6.description>
-  <AA_CarryWeight7.label>лапка</AA_CarryWeight7.label>
+  <AA_CarryWeight7.label>легендарная грузоподъёмность</AA_CarryWeight7.label>
   <AA_CarryWeight7.description>This creature can carry extra weight both while hauling and on caravans.</AA_CarryWeight7.description>
   <AA_CorpseFeast.label>пировал человеческими телами</AA_CorpseFeast.label>
   <AA_CorpseFeast.description>This Helixien slug has recently fed on human corpses. The tastiest meat.</AA_CorpseFeast.description>
@@ -80,16 +80,16 @@
   <AA_GooAcidifier.description>A goo acidifier increases the acidity of a goo's internal organs, making it explode as soon as it is downed. Basically transforms goos into biological suicide bombers.</AA_GooAcidifier.description>
   <AA_HorrifyingDread.label>ужасающий трепет</AA_HorrifyingDread.label>
   <AA_HorrifyingDread.description>A primal sense of fear and terror caused by the presence of a grotesque fangsquid nearby.</AA_HorrifyingDread.description>
-  <AA_HyperAcidicStomachImplant.label>имплант</AA_HyperAcidicStomachImplant.label>
-  <AA_HyperAcidicStomachImplant.description>имплант</AA_HyperAcidicStomachImplant.description>
+  <AA_HyperAcidicStomachImplant.label>сверхацидный желудок</AA_HyperAcidicStomachImplant.label>
+  <AA_HyperAcidicStomachImplant.description>Сверхацидный желудок. Занимает место желудка и позволяет изрыгать концентрированную кислоту.</AA_HyperAcidicStomachImplant.description>
   <AA_InvisibleArcticLion.label>выслеживание</AA_InvisibleArcticLion.label>
   <AA_InvisibleArcticLion.description>This arctic lion is stalking its prey and... Hey, how are you reading this, you cheater??</AA_InvisibleArcticLion.description>
   <AA_JunglePelt.label>шкура джунглей</AA_JunglePelt.label>
   <AA_JunglePelt.description>This animal is sporting a nice jungle pelt, giving it slight resistance against the heat.</AA_JunglePelt.description>
   <AA_Kamikaze.label>внезапная детонация</AA_Kamikaze.label>
-  <AA_Kamikaze.description>Boom.</AA_Kamikaze.description>
-  <AA_LightFocusingLensImplant.label>имплант</AA_LightFocusingLensImplant.label>
-  <AA_LightFocusingLensImplant.description>имплант</AA_LightFocusingLensImplant.description>
+  <AA_Kamikaze.description>Существо сдетонирует при гибели, вызвав мощный взрыв.</AA_Kamikaze.description>
+  <AA_LightFocusingLensImplant.label>фокусирующая линза</AA_LightFocusingLensImplant.label>
+  <AA_LightFocusingLensImplant.description>Фокусирующая линза. Концентрирует солнечную энергию в смертоносный лазерный луч.</AA_LightFocusingLensImplant.description>
   <AA_LockJawDisease.label>тризм челюстей</AA_LockJawDisease.label>
   <AA_LockJawDisease.description>A painful and uncomfortable disease that inflames the jaw, making it very hard to eat or talk. The disease will go away after it has been successfully treated a set number of times.</AA_LockJawDisease.description>
   <AA_LowRest.label>нуждается в минимуме сна</AA_LowRest.label>
@@ -103,19 +103,19 @@
   <AA_LowRest_LowestRank.label>обычная потребность во сне</AA_LowRest_LowestRank.label>
   <AA_LowRest_LowestRank.description>Due to their poor genetics, this creature has the same need to sleep as any other animal.</AA_LowRest_LowestRank.description>
   <AA_MalevolentEye.label>зловещее око</AA_MalevolentEye.label>
-  <AA_MalevolentEye.description>выстрел</AA_MalevolentEye.description>
+  <AA_MalevolentEye.description>Зловещий пульсирующий глаз мутанта, наделяющий владельца псионической аурой ужаса.</AA_MalevolentEye.description>
   <AA_MechDisruption.label>сбой механоидов</AA_MechDisruption.label>
   <AA_MechDisruption.description>This mechanoid's targeting, speed and agility are being dirupted by a nearby bio mechanoid disruptor building.</AA_MechDisruption.description>
-  <AA_MechanoidRendingClaws.label>коготь</AA_MechanoidRendingClaws.label>
-  <AA_MechanoidRendingClaws.description>коготь</AA_MechanoidRendingClaws.description>
+  <AA_MechanoidRendingClaws.label>разрывающие когти механоида</AA_MechanoidRendingClaws.label>
+  <AA_MechanoidRendingClaws.description>Тяжёлые серповидные манипуляторы, способные вспарывать броню и укрепления.</AA_MechanoidRendingClaws.description>
   <AA_MimeHediff.label>маскировка на виду</AA_MimeHediff.label>
   <AA_MimeHediff.description>This colonist may not be a real person after all...</AA_MimeHediff.description>
   <AA_MutantArm.label>мутантная рука</AA_MutantArm.label>
   <AA_MutantArm.description>This arm twitches and bends in strange unnatural ways, as if it had a mind of its own. Something seems... off about it, as if it wasn't a completely natural creation.</AA_MutantArm.description>
   <AA_MutantEye.label>мутантный глаз</AA_MutantEye.label>
   <AA_MutantEye.description>This eye constantly blinks on its own, like a nervous tic, and a second set of vertical eyelids seems to be present behind the normal, human ones. Something seems... off about it, as if it wasn't a completely natural creation.</AA_MutantEye.description>
-  <AA_MutantLeg.label>лапка</AA_MutantLeg.label>
-  <AA_MutantLeg.description>лапка</AA_MutantLeg.description>
+  <AA_MutantLeg.label>мутантная лапа</AA_MutantLeg.label>
+  <AA_MutantLeg.description>Мутантная конечность. Значительно повышает скорость перемещения животного.</AA_MutantLeg.description>
   <AA_NoPain.label>нечувствительность к боли</AA_NoPain.label>
   <AA_NoPain.description>This creature has a reduced pain sensitivity, and it takes longer to be downed due to pain.</AA_NoPain.description>
   <AA_Nocturnal.label>ночное животное</AA_Nocturnal.label>
@@ -136,16 +136,16 @@
   <AA_ProstheticWing.description>Simple prosthetic wing. Should be able to replace any type of wing.</AA_ProstheticWing.description>
   <AA_PsionicallyNuzzled.label>псионическая ласка</AA_PsionicallyNuzzled.label>
   <AA_PsionicallyNuzzled.description>Blessed by an Animus Vox.</AA_PsionicallyNuzzled.description>
-  <AA_QuadTeslaCannonImplant.label>имплант</AA_QuadTeslaCannonImplant.label>
-  <AA_QuadTeslaCannonImplant.description>имплант</AA_QuadTeslaCannonImplant.description>
-  <AA_RangedSpinneretImplant.label>имплант</AA_RangedSpinneretImplant.label>
-  <AA_RangedSpinneretImplant.description>имплант</AA_RangedSpinneretImplant.description>
+  <AA_QuadTeslaCannonImplant.label>четырёхствольная тесла-пушка</AA_QuadTeslaCannonImplant.label>
+  <AA_QuadTeslaCannonImplant.description>Четырёхствольная тесла-пушка. Плазменная турель, вживлённая в тело зверя.</AA_QuadTeslaCannonImplant.description>
+  <AA_RangedSpinneretImplant.label>дистанционная паутина</AA_RangedSpinneretImplant.label>
+  <AA_RangedSpinneretImplant.description>Дистанционная паутина. Позволяет опутать и обездвижить приближающихся врагов.</AA_RangedSpinneretImplant.description>
   <AA_RechargingBatteries.label>перезарядка батарей</AA_RechargingBatteries.label>
   <AA_RechargingBatteries.description>This creature has recently recharged a nearby battery.</AA_RechargingBatteries.description>
   <AA_Resurrection.label>восстань из могилы!</AA_Resurrection.label>
   <AA_Resurrection.description>This animal can survive up to 9 fatal wounds, coming back from the dead.</AA_Resurrection.description>
-  <AA_SwarmlingImplantation.label>имплант</AA_SwarmlingImplantation.label>
-  <AA_SwarmlingImplantation.description>имплант</AA_SwarmlingImplantation.description>
+  <AA_SwarmlingImplantation.label>имплантация роевика</AA_SwarmlingImplantation.label>
+  <AA_SwarmlingImplantation.description>Вживлённые личинки роя, развивающиеся в подкожных тканях.</AA_SwarmlingImplantation.description>
   <AA_TheHeuristicEye.label>эвристический глаз</AA_TheHeuristicEye.label>
   <AA_TheHeuristicEye.description>This eye analyzes its surroundings with carefully planned discipline, missing no details.</AA_TheHeuristicEye.description>
   <AA_TheMeretriciousEye.label>соблазнительный глаз</AA_TheMeretriciousEye.label>
@@ -153,27 +153,27 @@
   <AA_TheNumbingEye.label>ошеломляющий глаз</AA_TheNumbingEye.label>
   <AA_TheNumbingEye.description>This strange mutant eye is covered by dense plates of bone instead of a normal fleshy eyelid, and seems to be almost impervious to pain.</AA_TheNumbingEye.description>
   <AA_TheOmniscientEye.label>всевидящий глаз</AA_TheOmniscientEye.label>
-  <AA_TheOmniscientEye.description>выстрел</AA_TheOmniscientEye.description>
+  <AA_TheOmniscientEye.description>Всевидящее око. Ужасный мутантный орган с треугольным зрачком, наделяющий владельца псионическим зрением.</AA_TheOmniscientEye.description>
   <AA_TheQuiescentEye.label>умиротворяющий глаз</AA_TheQuiescentEye.label>
   <AA_TheQuiescentEye.description>An eye that never blinks, keeping itself moist by unknown means. It pervades its host with a sense of preternatural calmness.</AA_TheQuiescentEye.description>
   <AA_TheRecalcitrantEye.label>строптивый глаз</AA_TheRecalcitrantEye.label>
-  <AA_TheRecalcitrantEye.description>атака</AA_TheRecalcitrantEye.description>
+  <AA_TheRecalcitrantEye.description>Упорствующий глаз. Мутантный полуприкрытый глаз, защищающий носителя от психических воздействий.</AA_TheRecalcitrantEye.description>
   <AA_TheSpasmodicEye.label>судорожный глаз</AA_TheSpasmodicEye.label>
   <AA_TheSpasmodicEye.description>An eye that can't stop blinking uncontrollably. While extremely distracting and disconcerting, it allows its host to cast more psychic powers before exhaustion.</AA_TheSpasmodicEye.description>
   <AA_ToxicBuildup.label>токсичное отравление</AA_ToxicBuildup.label>
   <AA_ToxicBuildup.description>Toxins in the bloodstream. This can come from various sources, including environmental toxins, venomous bites, or poisoned weapons.
 \nAt high doses, toxic buildup is lethal. Even at low doses, it can generate cancers.
 \nContrary to base game toxic buildup, creatures who die with this toxic damage can be eaten.</AA_ToxicBuildup.description>
-  <AA_VenomousSpitterImplant.label>имплант</AA_VenomousSpitterImplant.label>
-  <AA_VenomousSpitterImplant.description>имплант</AA_VenomousSpitterImplant.description>
+  <AA_VenomousSpitterImplant.label>ядовитый плеватель</AA_VenomousSpitterImplant.label>
+  <AA_VenomousSpitterImplant.description>Ядовитый плеватель. Позволяет поражать цели ядовитыми зарядами на расстоянии.</AA_VenomousSpitterImplant.description>
   <AA_VirulentFungalInfection.label>опасная грибковая инфекция</AA_VirulentFungalInfection.label>
   <AA_VirulentFungalInfection.description>Fungal infection in a wound. Without treatment, the infection will advance at an astonishing rate, killing the afflicted in a few hours. Luckily, it is very easy to treat, and it will be kept contained and disappear as long as a medic treats it fast and with a decent treatment quality.</AA_VirulentFungalInfection.description>
   <AA_WinterPelt.label>зимняя шкура</AA_WinterPelt.label>
   <AA_WinterPelt.description>This animal is sporting a nice winter pelt, giving it good resistance against the cold.</AA_WinterPelt.description>
-  <AB_BionicClaw.label>коготь</AB_BionicClaw.label>
-  <AB_BionicClaw.description>коготь</AB_BionicClaw.description>
-  <AB_SimpleProstheticClaw.label>коготь</AB_SimpleProstheticClaw.label>
-  <AB_SimpleProstheticClaw.description>коготь</AB_SimpleProstheticClaw.description>
-  <VFEI2_BlackEmpressSpawn.label>лапа</VFEI2_BlackEmpressSpawn.label>
-  <VFEI2_BlackEmpressSpawn.description>лапа</VFEI2_BlackEmpressSpawn.description>
+  <AB_BionicClaw.label>бионический коготь</AB_BionicClaw.label>
+  <AB_BionicClaw.description>Улучшенный бионический коготь из прочных сплавов для опасных хищников.</AB_BionicClaw.description>
+  <AB_SimpleProstheticClaw.label>простой протез когтя</AB_SimpleProstheticClaw.label>
+  <AB_SimpleProstheticClaw.description>Простой протез когтя для восстановления боеспособности животного.</AB_SimpleProstheticClaw.description>
+  <VFEI2_BlackEmpressSpawn.label>зародыш чёрной императрицы</VFEI2_BlackEmpressSpawn.label>
+  <VFEI2_BlackEmpressSpawn.description>Зародыш императрицы инсектоидов Чёрного Улья.</VFEI2_BlackEmpressSpawn.description>
 </LanguageData>

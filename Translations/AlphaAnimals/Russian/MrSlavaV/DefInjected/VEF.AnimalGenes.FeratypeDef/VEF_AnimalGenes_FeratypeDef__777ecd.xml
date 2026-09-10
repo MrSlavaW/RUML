@@ -13,9 +13,9 @@
   <AA_FrostboundBehemoth.label>морозный бегемот</AA_FrostboundBehemoth.label>
   <AA_FrostboundBehemoth.description>A large arthropod adapted to extreme low temperatures, feeding on half inorganic vegetation. Its slow metabolism makes it a very efficient creature, which allows it to survive in such environments.</AA_FrostboundBehemoth.description>
   <AA_GiantCrownedSilkie.label>венценосный шелкопряд</AA_GiantCrownedSilkie.label>
-  <AA_GiantCrownedSilkie.description>яйцо</AA_GiantCrownedSilkie.description>
+  <AA_GiantCrownedSilkie.description>Венценосная гигантская шёлковая курица с обильной продуктивностью.</AA_GiantCrownedSilkie.description>
   <AA_Gigantelope.label>гигантелопа</AA_Gigantelope.label>
-  <AA_Gigantelope.description>тело</AA_Gigantelope.description>
+  <AA_Gigantelope.description>Идеальные вьючные животные, переносящие больше веса, чем позволяет обычная масса тела, благодаря трубчатым пневматизированным костям.</AA_Gigantelope.description>
   <AA_GreyCoatedMouflon.label>серошёрстный муфлон</AA_GreyCoatedMouflon.label>
   <AA_GreyCoatedMouflon.description>A genetically modified variant of wild sheep that produces a thick grey wool that acts as a great insulator.</AA_GreyCoatedMouflon.description>
   <AA_IronhuskBeetle.label>железнопанцирный жук</AA_IronhuskBeetle.label>
@@ -29,9 +29,9 @@
   <AA_Radyak.label>радиояк</AA_Radyak.label>
   <AA_Radyak.description>Peaceful herbivores bred to thrive in high radiation environments. Their ruminant digestive tract is composed of six bionic stomachs, reinforced with a lead-lined biolattice designed to extract residual radioactive material from grass cells.</AA_Radyak.description>
   <AA_ShadowCharger.label>теневой таран</AA_ShadowCharger.label>
-  <AA_ShadowCharger.description>рог</AA_ShadowCharger.description>
+  <AA_ShadowCharger.description>Генетическая линия теневых таранов, адаптированных к постоянной мгле.</AA_ShadowCharger.description>
   <AA_SpinedGow.label>шипастый гоу</AA_SpinedGow.label>
   <AA_SpinedGow.description>Farm animals with cow and goat characteristics, bred to survive in extreme environments.</AA_SpinedGow.description>
   <AA_Thunderox.label>грозовой бык</AA_Thunderox.label>
-  <AA_Thunderox.description>рог</AA_Thunderox.description>
+  <AA_Thunderox.description>Громовой бык, вырабатывающий мощные биоэлектрические поля.</AA_Thunderox.description>
 </LanguageData>

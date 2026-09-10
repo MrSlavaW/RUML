@@ -29,7 +29,7 @@
   <AAVPE_KO.label>без сознания</AAVPE_KO.label>
   <AAVPE_Laser.description>Psychically redirects sunlight and concentrates it in a brutal laser blast.</AAVPE_Laser.description>
   <AAVPE_Laser.label>сфокусированный свет</AAVPE_Laser.label>
-  <AAVPE_LegSkip.description>лапка</AAVPE_LegSkip.description>
+  <AAVPE_LegSkip.description>Псионический прыжок лапами на короткую дистанцию для внезапной атаки или отступления.</AAVPE_LegSkip.description>
   <AAVPE_LegSkip.label>пространственный скачок ноги</AAVPE_LegSkip.label>
   <AAVPE_LightSustenance.description>Psychically changes the target's skin to be part plant, eliminating almost entirely their need to eat, but requiring them to be constantly exposed to light for sustenance. This change in the target is permanent, and quite traumatic.</AAVPE_LightSustenance.description>
   <AAVPE_LightSustenance.label>легкое насыщение</AAVPE_LightSustenance.label>
@@ -39,11 +39,11 @@
   <AAVPE_Regeneration.label>регенерация</AAVPE_Regeneration.label>
   <AAVPE_Skewer.description>Psychically charges the caster's weapon with an obscene amount of energy, skewering the target straight through the torso and dealing immense damage.\n\nBear in mind this psycast won't work on animals, as they are considered to lack a torso.</AAVPE_Skewer.description>
   <AAVPE_Skewer.label>насаживание</AAVPE_Skewer.label>
-  <AAVPE_Slice.description>тело</AAVPE_Slice.description>
+  <AAVPE_Slice.description>Псионический рассекающий взмах оружием или когтями, наносящий глубокие рваные раны.</AAVPE_Slice.description>
   <AAVPE_Slice.label>дикий пси-разрез</AAVPE_Slice.label>
   <AAVPE_SpinCut.description>The caster skips a short distance and spins their melee weapon around, cutting anyone adjacent to the original target.</AAVPE_SpinCut.description>
   <AAVPE_SpinCut.label>круговой разрез</AAVPE_SpinCut.label>
-  <AAVPE_StrengthenInsect.description>улей</AAVPE_StrengthenInsect.description>
+  <AAVPE_StrengthenInsect.description>Псионически наполняет инсектоида боевой яростью, временно увеличивая силу и скорость.</AAVPE_StrengthenInsect.description>
   <AAVPE_StrikeEyes.description>Psychically causes the vitreous humour inside the target's eyes to heat to a boiling point, destroying them and leaving the poor victim forever blind.</AAVPE_StrikeEyes.description>
   <AAVPE_StrikeEyes.label>ослепляющий удар</AAVPE_StrikeEyes.label>
   <AAVPE_SummonBlackQueen.description>Psychically skips a black queen to help defend the colony. The black queen will stay around for a day before vanishing, and will be hostile to any enemy from outside the colony.</AAVPE_SummonBlackQueen.description>
@@ -52,9 +52,9 @@
   <AAVPE_SummonBlackSpider.description>Psychically skips a black spider to help defend the colony. The black spider will stay around for a day before vanishing, and will be hostile to any enemy from outside the colony.</AAVPE_SummonBlackSpider.description>
   <AAVPE_SummonEyeling.description>Uses psychic potential to rend a gaping hole between our reality and a trans-dimensional realm of pure madness, skipping one of its inhabitants into our universe. This eyeling will stay around for a day before vanishing, and will be hostile to any enemy from outside the colony.</AAVPE_SummonEyeling.description>
   <AAVPE_SummonEyelingHorde.description>Uses psychic potential to rend a gaping hole between our reality and a trans-dimensional realm of pure madness, skipping several of its inhabitants into our universe. These eyelings will stay around for a day before vanishing, and will be hostile to any enemy from outside the colony.</AAVPE_SummonEyelingHorde.description>
-  <AAVPE_SummonHive.description>улей</AAVPE_SummonHive.description>
+  <AAVPE_SummonHive.description>Пробивает ткань пространства и призывает действующий улей инсектоидов.</AAVPE_SummonHive.description>
   <AAVPE_SummonMammothWorm.description>Psychically skips a mammoth worm to help defend the colony. The mammoth worm will stay around for a day before vanishing, and will be hostile to any enemy from outside the colony.</AAVPE_SummonMammothWorm.description>
-  <AAVPE_SummonOcularOriginator.description>имплант</AAVPE_SummonOcularOriginator.description>
+  <AAVPE_SummonOcularOriginator.description>Призывает окулярного прародителя из параллельного биома.</AAVPE_SummonOcularOriginator.description>
   <AAVPE_VenomSpit.description>Generates a small blob of caustic liquid by linking a microscopic skipgate to an underground reservoir of acid. This blob is then psychically charged and accelerated in the desired direction.</AAVPE_VenomSpit.description>
   <AAVPE_WebSlinging.description>Psychically generates strands of pure mental energy in the form of a glowing psy web. These webs will stun and burn the target.</AAVPE_WebSlinging.description>
 </LanguageData>

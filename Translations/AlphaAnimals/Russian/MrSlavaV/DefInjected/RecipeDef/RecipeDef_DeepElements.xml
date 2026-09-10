@@ -37,14 +37,14 @@
   <AA_MakeRangedSpinneretImplant.jobString>Изготавливает ranged spinneret implant.</AA_MakeRangedSpinneretImplant.jobString>
   <AA_MakeVenomousSpitterImplant.jobString>Изготавливает venomous spitter implant.</AA_MakeVenomousSpitterImplant.jobString>
   <AA_Make_HexagelCore.jobString>Crafting hexagel cores.</AA_Make_HexagelCore.jobString>
-  <AA_RemoveAcidicSpitterImplant.jobString>имплант</AA_RemoveAcidicSpitterImplant.jobString>
-  <AA_RemoveBarbedQuillThrowerImplant.jobString>имплант</AA_RemoveBarbedQuillThrowerImplant.jobString>
-  <AA_RemoveBioelectricOrganImplant.jobString>имплант</AA_RemoveBioelectricOrganImplant.jobString>
-  <AA_RemoveHyperAcidicStomachImplant.jobString>имплант</AA_RemoveHyperAcidicStomachImplant.jobString>
-  <AA_RemoveLightFocusingLensImplant.jobString>имплант</AA_RemoveLightFocusingLensImplant.jobString>
-  <AA_RemoveQuadTeslaCannonImplant.jobString>имплант</AA_RemoveQuadTeslaCannonImplant.jobString>
-  <AA_RemoveRangedSpinneretImplant.jobString>имплант</AA_RemoveRangedSpinneretImplant.jobString>
-  <AA_RemoveVenomousSpitterImplant.jobString>имплант</AA_RemoveVenomousSpitterImplant.jobString>
+  <AA_RemoveAcidicSpitterImplant.jobString>Извлекает кислотный плеватель.</AA_RemoveAcidicSpitterImplant.jobString>
+  <AA_RemoveBarbedQuillThrowerImplant.jobString>Извлекает метатель зазубренных игл.</AA_RemoveBarbedQuillThrowerImplant.jobString>
+  <AA_RemoveBioelectricOrganImplant.jobString>Извлекает биоэлектрический орган.</AA_RemoveBioelectricOrganImplant.jobString>
+  <AA_RemoveHyperAcidicStomachImplant.jobString>Извлекает сверхацидный желудок.</AA_RemoveHyperAcidicStomachImplant.jobString>
+  <AA_RemoveLightFocusingLensImplant.jobString>Извлекает фокусирующую линзу.</AA_RemoveLightFocusingLensImplant.jobString>
+  <AA_RemoveQuadTeslaCannonImplant.jobString>Извлекает четырёхствольную тесла-пушку.</AA_RemoveQuadTeslaCannonImplant.jobString>
+  <AA_RemoveRangedSpinneretImplant.jobString>Извлекает дистанционную паутину.</AA_RemoveRangedSpinneretImplant.jobString>
+  <AA_RemoveVenomousSpitterImplant.jobString>Извлекает ядовитый плеватель.</AA_RemoveVenomousSpitterImplant.jobString>
   <AA_ShutDownMechanoid.jobString>Shutting down mechanoid.</AA_ShutDownMechanoid.jobString>
   <AB_InstallBionicTentacle.jobString>Устанавливает bionic tentacle.</AB_InstallBionicTentacle.jobString>
   <AB_InstallSimpleBuoyancy.jobString>Устанавливает simple buoyancy mechanism.</AB_InstallSimpleBuoyancy.jobString>

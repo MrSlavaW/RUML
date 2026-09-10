@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <RS.CancelInfusingDesc>лапа</RS.CancelInfusingDesc>
-  <RS.CannotInfuseAlreadyHasDarkGene>лапа</RS.CannotInfuseAlreadyHasDarkGene>
+  <RS.CancelInfusingDesc>Отменить внедрение этого шипа пустоты в тело {PAWN_nameDef}.</RS.CancelInfusingDesc>
+  <RS.CannotInfuseAlreadyHasDarkGene>Невозможно внедрить {1}: у {PAWN_nameDef} уже есть тёмный ген.</RS.CannotInfuseAlreadyHasDarkGene>
   <RS.FinishedSeparatingDestroyedMessage>Центрифуга генов завершила разделение пакетов!</RS.FinishedSeparatingDestroyedMessage>
   <RS.FinishedSeparatingMessage>Центрифуга генов завершила разделение пакетов!</RS.FinishedSeparatingMessage>
   <RS.FinishedXenogermDuplicationMessage>Центрифуга генов завершила разделение пакетов!</RS.FinishedXenogermDuplicationMessage>
-  <RS.InfuseDarkArchiteWarningDesc>лапа</RS.InfuseDarkArchiteWarningDesc>
-  <RS.InfuseDarkArchiteWarningNewMetabolism>лапа</RS.InfuseDarkArchiteWarningNewMetabolism>
-  <RS.LetterDarkArchiteOrderedInfused>лапа</RS.LetterDarkArchiteOrderedInfused>
-  <RS.OrderInfusionIntoPawn>лапа</RS.OrderInfusionIntoPawn>
+  <RS.InfuseDarkArchiteWarningDesc>Внедрение шипа пустоты введёт {PAWN_nameDef} в кратковременную кому на время интеграции гена шипа. В среднем это длится {COMADURATION}.</RS.InfuseDarkArchiteWarningDesc>
+  <RS.InfuseDarkArchiteWarningNewMetabolism>После инфузии уровень метаболизма {PAWN_nameDef} составит {MET}, а множитель потребления пищи станет равным {CONSUMPTION}.</RS.InfuseDarkArchiteWarningNewMetabolism>
+  <RS.LetterDarkArchiteOrderedInfused>Вы приказали внедрить шип пустоты в тело {PAWN_nameDef}. Для этой операции требуется медицинская кровать.
+
+Вы можете отменить процедуру во вкладке «Здоровье» -> «Операции» колониста {PAWN_nameDef}.</RS.LetterDarkArchiteOrderedInfused>
+  <RS.OrderInfusionIntoPawn>Назначить инфузию для {PAWN_nameDef}</RS.OrderInfusionIntoPawn>
   <RS.SelectGene>Выбрать ген</RS.SelectGene>
   <RS.SelectGeneExplanation>Выбрать ген</RS.SelectGeneExplanation>
   <RS.SeparateGene>Отделить ген</RS.SeparateGene>
   <RS.SeparateGeneDesc>Выберите генный пакет для отделения from which to separate a gene from.</RS.SeparateGeneDesc>
-  <RS.SeparateGeneExplanation>лапа</RS.SeparateGeneExplanation>
+  <RS.SeparateGeneExplanation>После успешного разделения будут созданы два генных пакета: один только с выбранным геном, а второй — с оставшимися. Этот процесс не идеален, существует небольшая вероятность уничтожения одного из генных пакетов.</RS.SeparateGeneExplanation>
   <RS.SeparatingGenes>Отделение генов</RS.SeparatingGenes>
   <RS.SeparatingProgress>Отделение: {0}</RS.SeparatingProgress>
   <RS.StartSeparating>Начать центрифугирование</RS.StartSeparating>

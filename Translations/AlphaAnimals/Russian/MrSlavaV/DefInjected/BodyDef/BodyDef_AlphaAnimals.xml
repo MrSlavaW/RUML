@@ -23,9 +23,9 @@
   <AA_Assembler.corePart.parts.Head.parts.right_hearing_sensor.customLabel>правый акустический сенсор</AA_Assembler.corePart.parts.Head.parts.right_hearing_sensor.customLabel>
   <AA_Assembler.corePart.parts.Head.parts.right_sight_sensor.customLabel>правый оптический сенсор</AA_Assembler.corePart.parts.Head.parts.right_sight_sensor.customLabel>
   <AA_Assembler.label>парящий механизм</AA_Assembler.label>
-  <AA_Atispec.label>тело</AA_Atispec.label>
+  <AA_Atispec.label>тело атиспека</AA_Atispec.label>
   <AA_AuraBody.label>аура</AA_AuraBody.label>
-  <AA_Butterfly.label>тело</AA_Butterfly.label>
+  <AA_Butterfly.label>тело бабочки</AA_Butterfly.label>
   <AA_ClawedSlug.label>слизень</AA_ClawedSlug.label>
   <AA_Crocodile.label>крокодил</AA_Crocodile.label>
   <AA_DaggerSnoutBody.corePart.parts.Head.parts.snout_blade.customLabel>носовой клинок</AA_DaggerSnoutBody.corePart.parts.Head.parts.snout_blade.customLabel>
@@ -39,10 +39,10 @@
   <AA_DemolisherBody.label>разрушитель</AA_DemolisherBody.label>
   <AA_DualJawedQuadruped.label>двучелюстное четвероногое</AA_DualJawedQuadruped.label>
   <AA_DualTentacledQuadrupedWithJowl.label>двущупальцевое четвероногое</AA_DualTentacledQuadrupedWithJowl.label>
-  <AA_ExtraClawedQuadruped.label>коготь</AA_ExtraClawedQuadruped.label>
+  <AA_ExtraClawedQuadruped.label>четвероногое с дополнительными когтями</AA_ExtraClawedQuadruped.label>
   <AA_EyeBody.label>окулярное тело</AA_EyeBody.label>
   <AA_EyelessQuadruped.label>безглазое четвероногое</AA_EyelessQuadruped.label>
-  <AA_FlyTrap.label>тело</AA_FlyTrap.label>
+  <AA_FlyTrap.label>тело мухоловки</AA_FlyTrap.label>
   <AA_FourEyedQuadruped.label>четырёхглазое четвероногое</AA_FourEyedQuadruped.label>
   <AA_GooBody.label>зелёная слизь</AA_GooBody.label>
   <AA_GooWithTeethBody.label>зелёная слизь</AA_GooWithTeethBody.label>
@@ -63,7 +63,7 @@
   <AA_JellyfishBody.corePart.parts.third_tentacle.customLabel>третье щупальце</AA_JellyfishBody.corePart.parts.third_tentacle.customLabel>
   <AA_JellyfishBody.label>медуза</AA_JellyfishBody.label>
   <AA_Locusts.label>саранча</AA_Locusts.label>
-  <AA_NautiloidBody.label>тело</AA_NautiloidBody.label>
+  <AA_NautiloidBody.label>тело наутилоида</AA_NautiloidBody.label>
   <AA_NightMuleBody.label>ночной мул</AA_NightMuleBody.label>
   <AA_NightRamBody.label>ночной баран</AA_NightRamBody.label>
   <AA_OcularJellyBody.corePart.parts.Head.parts.first_eye_spot.customLabel>первое глазное пятно</AA_OcularJellyBody.corePart.parts.Head.parts.first_eye_spot.customLabel>
@@ -78,9 +78,9 @@
   <AA_OcularJellyBody.corePart.parts.third_tentacle.customLabel>третье щупальце</AA_OcularJellyBody.corePart.parts.third_tentacle.customLabel>
   <AA_OcularJellyBody.label>окулярное желе</AA_OcularJellyBody.label>
   <AA_RaptorBody.label>раптор</AA_RaptorBody.label>
-  <AA_RedSporeBody.label>споры</AA_RedSporeBody.label>
-  <AA_ScorpionLike.label>тело</AA_ScorpionLike.label>
-  <AA_SentientPlant.label>тело</AA_SentientPlant.label>
+  <AA_RedSporeBody.label>тело красной споры</AA_RedSporeBody.label>
+  <AA_ScorpionLike.label>тело скорпиона</AA_ScorpionLike.label>
+  <AA_SentientPlant.label>тело разумного растения</AA_SentientPlant.label>
   <AA_SiegebreakerBody.label>сокрушитель осад</AA_SiegebreakerBody.label>
   <AA_SixEyedGoat.corePart.parts.Head.parts.first_left_eye.customLabel>первый левый глаз</AA_SixEyedGoat.corePart.parts.Head.parts.first_left_eye.customLabel>
   <AA_SixEyedGoat.corePart.parts.Head.parts.first_right_eye.customLabel>первый правый глаз</AA_SixEyedGoat.corePart.parts.Head.parts.first_right_eye.customLabel>
@@ -99,7 +99,7 @@
   <AA_TentacledQuadruped.label>щупальцевое четвероногое</AA_TentacledQuadruped.label>
   <AA_TentacledQuadrupedEyeless.label>безглазое щупальцевое животное</AA_TentacledQuadrupedEyeless.label>
   <AA_TentacledSlug.label>щупальцевый слизняк</AA_TentacledSlug.label>
-  <AA_Wasp.label>тело</AA_Wasp.label>
+  <AA_Wasp.label>тело осы</AA_Wasp.label>
   <AA_WingedQuadrupedAnimalWithPawsAndTail.label>крылатое четвероногое</AA_WingedQuadrupedAnimalWithPawsAndTail.label>
   <AA_WormWithArmor.label>бронированный червь</AA_WormWithArmor.label>
   <AA_WormWithArmorAndTusks.label>бивень</AA_WormWithArmorAndTusks.label>

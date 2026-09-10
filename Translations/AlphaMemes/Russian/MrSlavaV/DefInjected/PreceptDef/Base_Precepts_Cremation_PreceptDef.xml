@@ -8,7 +8,7 @@
 	<AM_CremateFuneral.extraTextPawnDeathLetter>{PAWN_nameDef} следует кремировать, а его прах развеять, чтобы друзья и семья {PAWN_possessive} могли двигаться дальше.</AM_CremateFuneral.extraTextPawnDeathLetter>
 	
 	<!--                               EN: A gathering that occurs around a believer's grave after they die and are buried. If the body is destroyed, an empty grave can be used. Slaves don't get funerals. -->
-	<AM_CremateFuneralNoCorpse.description>тело</AM_CremateFuneralNoCorpse.description>
+	<AM_CremateFuneralNoCorpse.description>Траурная церемония кремации в память об ушедшем друге без присутствия тела.</AM_CremateFuneralNoCorpse.description>
 	<!--                         EN: funeral (no corpse) -->
 	<AM_CremateFuneralNoCorpse.label>похороны (без трупа)</AM_CremateFuneralNoCorpse.label>
 </LanguageData>

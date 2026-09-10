@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <VRE_AbundantBeetleEggYield.label>обильная яйценоскость жуков</VRE_AbundantBeetleEggYield.label>
-  <VRE_AbundantBeetleEggYield.description>яйцо</VRE_AbundantBeetleEggYield.description>
+  <VRE_AbundantBeetleEggYield.description>Этот жук откладывает исключительное количество яиц, стремительно увеличивая популяцию при размножении.</VRE_AbundantBeetleEggYield.description>
   <VRE_AbundantEggYield.label>обильная яйценоскость</VRE_AbundantEggYield.label>
-  <VRE_AbundantEggYield.description>яйцо</VRE_AbundantEggYield.description>
+  <VRE_AbundantEggYield.description>Носитель этого гена откладывает колоссальное количество яиц, стремительно наращивая численность выводка.</VRE_AbundantEggYield.description>
   <VRE_AverageBeetleEggYield.label>средняя яйценоскость жуков</VRE_AverageBeetleEggYield.label>
-  <VRE_AverageBeetleEggYield.description>яйцо</VRE_AverageBeetleEggYield.description>
+  <VRE_AverageBeetleEggYield.description>Этот жук откладывает среднее количество яиц.</VRE_AverageBeetleEggYield.description>
   <VRE_AverageCarryingCapacity.label>нормальная вместимость</VRE_AverageCarryingCapacity.label>
   <VRE_AverageCarryingCapacity.description>This creature has an ordinary carrying capacity, suitable for routine caravan travel.</VRE_AverageCarryingCapacity.description>
   <VRE_AverageEggYield.label>средняя яйценоскость</VRE_AverageEggYield.label>
-  <VRE_AverageEggYield.description>яйцо</VRE_AverageEggYield.description>
+  <VRE_AverageEggYield.description>Носитель этого гена откладывает стандартное количество яиц.</VRE_AverageEggYield.description>
   <VRE_AwfulBulkCarry.label>ужасная грузоподъёмность</VRE_AwfulBulkCarry.label>
   <VRE_AwfulBulkCarry.description>Carrier of this gene can carry only a little extra weight, making it a poor hauler and caravan animal.</VRE_AwfulBulkCarry.description>
-  <VRE_BarrenBeetleEggYield.label>яйцо</VRE_BarrenBeetleEggYield.label>
-  <VRE_BarrenBeetleEggYield.description>яйцо</VRE_BarrenBeetleEggYield.description>
-  <VRE_BarrenEggYield.label>яйцо</VRE_BarrenEggYield.label>
-  <VRE_BarrenEggYield.description>яйцо</VRE_BarrenEggYield.description>
+  <VRE_BarrenBeetleEggYield.label>бесплодная кладка жука</VRE_BarrenBeetleEggYield.label>
+  <VRE_BarrenBeetleEggYield.description>Этот жук откладывает яйца крайне редко и мало подходит для продуктивного разведения.</VRE_BarrenBeetleEggYield.description>
+  <VRE_BarrenEggYield.label>бесплодная кладка</VRE_BarrenEggYield.label>
+  <VRE_BarrenEggYield.description>Носитель этого гена откладывает яйца исключительно редко, разведение затруднено.</VRE_BarrenEggYield.description>
   <VRE_ExcellentBulkCarry.label>отличная грузоподъёмность</VRE_ExcellentBulkCarry.label>
   <VRE_ExcellentBulkCarry.description>Carrier of this gene can carry a substantial amount of extra weight, making it an excellent hauler and caravan animal.</VRE_ExcellentBulkCarry.description>
-  <VRE_LegendaryBulkCarry.label>лапка</VRE_LegendaryBulkCarry.label>
+  <VRE_LegendaryBulkCarry.label>легендарная вьючность</VRE_LegendaryBulkCarry.label>
   <VRE_LegendaryBulkCarry.description>Carrier of this gene can carry an enormous amount of extra weight, both while hauling and on caravans, barely slowing under burdens that would overwhelm other creatures.</VRE_LegendaryBulkCarry.description>
   <VRE_Lightbacked.label>легконосный</VRE_Lightbacked.label>
   <VRE_Lightbacked.description>This creature has a limited carrying capacity, restricting how much it can transport.</VRE_Lightbacked.description>
@@ -32,18 +32,18 @@
   <VRE_Packbeast.description>This creature possesses an exceptional carrying capacity, allowing it to haul enormous loads on caravans.</VRE_Packbeast.description>
   <VRE_PoorBulkCarry.label>слабая грузоподъёмность</VRE_PoorBulkCarry.label>
   <VRE_PoorBulkCarry.description>Carrier of this gene can carry a modest amount of extra weight, but is easily burdened by heavy loads.</VRE_PoorBulkCarry.description>
-  <VRE_ProlificBeetleEggYield.label>яйцо</VRE_ProlificBeetleEggYield.label>
-  <VRE_ProlificBeetleEggYield.description>яйцо</VRE_ProlificBeetleEggYield.description>
-  <VRE_ProlificEggYield.label>яйцо</VRE_ProlificEggYield.label>
-  <VRE_ProlificEggYield.description>яйцо</VRE_ProlificEggYield.description>
+  <VRE_ProlificBeetleEggYield.label>плодовитая кладка жука</VRE_ProlificBeetleEggYield.label>
+  <VRE_ProlificBeetleEggYield.description>Этот жук откладывает яйца значительно чаще обычного, формируя кладки через короткие промежутки времени.</VRE_ProlificBeetleEggYield.description>
+  <VRE_ProlificEggYield.label>плодовитая кладка</VRE_ProlificEggYield.label>
+  <VRE_ProlificEggYield.description>Носитель гена откладывает яйца намного чаще обычного с короткими интервалами между кладками.</VRE_ProlificEggYield.description>
   <VRE_ReducedRestRate.label>сниженная потребность во сне</VRE_ReducedRestRate.label>
   <VRE_ReducedRestRate.description>Carrier of this gene requires less sleep than most animals.</VRE_ReducedRestRate.description>
   <VRE_Sleepless.label>бессонный</VRE_Sleepless.label>
   <VRE_Sleepless.description>Carrier of this gene requires considerably less sleep than other animals.</VRE_Sleepless.description>
-  <VRE_SparseBeetleEggYield.label>яйцо</VRE_SparseBeetleEggYield.label>
-  <VRE_SparseBeetleEggYield.description>яйцо</VRE_SparseBeetleEggYield.description>
-  <VRE_SparseEggYield.label>яйцо</VRE_SparseEggYield.label>
-  <VRE_SparseEggYield.description>яйцо</VRE_SparseEggYield.description>
+  <VRE_SparseBeetleEggYield.label>скудная кладка жука</VRE_SparseBeetleEggYield.label>
+  <VRE_SparseBeetleEggYield.description>Этот жук откладывает яйца реже обычного.</VRE_SparseBeetleEggYield.description>
+  <VRE_SparseEggYield.label>скудная кладка</VRE_SparseEggYield.label>
+  <VRE_SparseEggYield.description>Носитель гена производит яйца с пониженной частотой.</VRE_SparseEggYield.description>
   <VRE_Strongbacked.label>сильноспинный</VRE_Strongbacked.label>
   <VRE_Strongbacked.description>This creature can carry a substantial amount of weight, making it highly useful for transporting supplies on caravans.</VRE_Strongbacked.description>
   <VRE_Tireless.label>неутомимый</VRE_Tireless.label>

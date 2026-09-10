@@ -3,17 +3,17 @@
   <AA_BlueGel_To_Hexagel.label>Спрессовать синий гель в гексагель.</AA_BlueGel_To_Hexagel.label>
   <AA_ExtractUranium.label>переработать кристаллы урана</AA_ExtractUranium.label>
   <AA_InstallAcidicSpitterImplant.label>установить кислотный плеватель</AA_InstallAcidicSpitterImplant.label>
-  <AA_InstallAcidicSpitterImplant.description>имплант</AA_InstallAcidicSpitterImplant.description>
+  <AA_InstallAcidicSpitterImplant.description>Устанавливает кислотный плеватель. Этот имплант позволяет существу использовать дальнобойную атаку кислотным плевком, наносящим периодический урон от разъедания.\n\nУстановка на существо, у которого уже есть кислотный плеватель, не даст эффекта. Имплант подходит только животным с ротовым аппаратом (не клювом и не хоботком).</AA_InstallAcidicSpitterImplant.description>
   <AA_InstallBarbedQuillThrowerImplant.label>установить шипомётный имплант</AA_InstallBarbedQuillThrowerImplant.label>
-  <AA_InstallBarbedQuillThrowerImplant.description>имплант</AA_InstallBarbedQuillThrowerImplant.description>
+  <AA_InstallBarbedQuillThrowerImplant.description>Устанавливает метатель зазубренных игл. Этот имплант позволяет существу вести дистанционную стрельбу ядовитыми иглами, вызывающими токсичное поражение.\n\nУстановка на существо, уже имеющее метатель игл, не даст эффекта.</AA_InstallBarbedQuillThrowerImplant.description>
   <AA_InstallBioelectricOrganImplant.label>установить биоэлектрический имплант</AA_InstallBioelectricOrganImplant.label>
-  <AA_InstallBioelectricOrganImplant.description>имплант</AA_InstallBioelectricOrganImplant.description>
+  <AA_InstallBioelectricOrganImplant.description>Устанавливает биоэлектрический орган. Этот имплант наделяет существо мощной дистанционной электрической атакой, способной вызывать паралич и остановку сердца.\n\nУстановка на существо с уже имеющимся биоэлектрическим органом не даст эффекта.</AA_InstallBioelectricOrganImplant.description>
   <AA_InstallBionicBeak.label>установить бионический клюв</AA_InstallBionicBeak.label>
   <AA_InstallBionicBeak.description>Installs bionic beak.</AA_InstallBionicBeak.description>
   <AA_InstallBionicBuoyancy.label>установить бионический механизм плавучести</AA_InstallBionicBuoyancy.label>
   <AA_InstallBionicBuoyancy.description>Installs bionic buoyancy mechanism. Requires a min skill in medicine of 8.</AA_InstallBionicBuoyancy.description>
-  <AA_InstallBionicClaw.label>коготь</AA_InstallBionicClaw.label>
-  <AA_InstallBionicClaw.description>коготь</AA_InstallBionicClaw.description>
+  <AA_InstallBionicClaw.label>установить бионический коготь</AA_InstallBionicClaw.label>
+  <AA_InstallBionicClaw.description>Устанавливает бионический коготь. Требует навыка медицины не менее 8.</AA_InstallBionicClaw.description>
   <AA_InstallBionicMotionDetector.label>установить бионический детектор движения</AA_InstallBionicMotionDetector.label>
   <AA_InstallBionicMotionDetector.description>Installs bionic motion detector. Requires a min skill in medicine of 8.</AA_InstallBionicMotionDetector.description>
   <AA_InstallBionicShell.label>установить бионический панцирь</AA_InstallBionicShell.label>
@@ -24,78 +24,78 @@
   <AA_InstallGooAcidifier.description>Install a goo acidifier.</AA_InstallGooAcidifier.description>
   <AA_InstallHeuristicEye.label>установить эвристический глаз</AA_InstallHeuristicEye.label>
   <AA_InstallHeuristicEye.description>Install a heuristic eye.</AA_InstallHeuristicEye.description>
-  <AA_InstallHyperAcidicStomachImplant.label>имплант</AA_InstallHyperAcidicStomachImplant.label>
-  <AA_InstallHyperAcidicStomachImplant.description>имплант</AA_InstallHyperAcidicStomachImplant.description>
-  <AA_InstallLightFocusingLensImplant.label>имплант</AA_InstallLightFocusingLensImplant.label>
-  <AA_InstallLightFocusingLensImplant.description>имплант</AA_InstallLightFocusingLensImplant.description>
+  <AA_InstallHyperAcidicStomachImplant.label>установить сверхацидный желудок</AA_InstallHyperAcidicStomachImplant.label>
+  <AA_InstallHyperAcidicStomachImplant.description>Устанавливает сверхацидный желудок. Этот имплант позволяет существу атаковать врагов на расстоянии едкой кислотой с периодическим уроном.\n\nУстановка на существо с уже имеющимся сверхацидным желудком не даст эффекта. Занимает слот желудка существа.</AA_InstallHyperAcidicStomachImplant.description>
+  <AA_InstallLightFocusingLensImplant.label>установить фокусирующую линзу</AA_InstallLightFocusingLensImplant.label>
+  <AA_InstallLightFocusingLensImplant.description>Устанавливает фокусирующую линзу. Этот имплант наделяет существо мощным дальнобойным лазерным лучом.\n\nУстановка на существо с уже имеющейся линзой не даст эффекта.</AA_InstallLightFocusingLensImplant.description>
   <AA_InstallMeretriciousEye.label>установить соблазнительный глаз</AA_InstallMeretriciousEye.label>
   <AA_InstallMeretriciousEye.description>Install a meretricious eye.</AA_InstallMeretriciousEye.description>
   <AA_InstallMutantArm.label>установить мутантную руку</AA_InstallMutantArm.label>
   <AA_InstallMutantArm.description>Install a mutant arm.</AA_InstallMutantArm.description>
   <AA_InstallMutantEye.label>установить мутантный глаз</AA_InstallMutantEye.label>
   <AA_InstallMutantEye.description>Install a mutant eye.</AA_InstallMutantEye.description>
-  <AA_InstallMutantLeg.label>лапка</AA_InstallMutantLeg.label>
-  <AA_InstallMutantLeg.description>лапка</AA_InstallMutantLeg.description>
+  <AA_InstallMutantLeg.label>установить мутантную лапу</AA_InstallMutantLeg.label>
+  <AA_InstallMutantLeg.description>Устанавливает мутантную лапу. Заменяет утраченную или повреждённую конечность.</AA_InstallMutantLeg.description>
   <AA_InstallNumbingEye.label>установить ошеломляющий глаз</AA_InstallNumbingEye.label>
   <AA_InstallNumbingEye.description>Install a numbing eye.</AA_InstallNumbingEye.description>
   <AA_InstallOmniscientEye.label>установить всевидящий глаз</AA_InstallOmniscientEye.label>
   <AA_InstallOmniscientEye.description>Install an omniscient eye.</AA_InstallOmniscientEye.description>
-  <AA_InstallQuadTeslaCannonImplant.label>имплант</AA_InstallQuadTeslaCannonImplant.label>
-  <AA_InstallQuadTeslaCannonImplant.description>имплант</AA_InstallQuadTeslaCannonImplant.description>
+  <AA_InstallQuadTeslaCannonImplant.label>установить четырёхствольную тесла-пушку</AA_InstallQuadTeslaCannonImplant.label>
+  <AA_InstallQuadTeslaCannonImplant.description>Устанавливает четырёхствольную тесла-пушку. Этот имплант позволяет животному вести мощный плазменный обстрел на дистанции.\n\nУстановка на существо с уже имеющейся тесла-пушкой не даст эффекта.</AA_InstallQuadTeslaCannonImplant.description>
   <AA_InstallQuiescentEye.label>установить умиротворяющий глаз</AA_InstallQuiescentEye.label>
   <AA_InstallQuiescentEye.description>Install a quiescent eye.</AA_InstallQuiescentEye.description>
-  <AA_InstallRangedSpinneretImplant.label>имплант</AA_InstallRangedSpinneretImplant.label>
-  <AA_InstallRangedSpinneretImplant.description>имплант</AA_InstallRangedSpinneretImplant.description>
+  <AA_InstallRangedSpinneretImplant.label>установить дистанционную паутину</AA_InstallRangedSpinneretImplant.label>
+  <AA_InstallRangedSpinneretImplant.description>Устанавливает дистанционную паутинную железу. Позволяет существу выпускать оглушающие сети из паутины на расстоянии.\n\nУстановка на существо с уже имеющейся паутинной железой не даст эффекта.</AA_InstallRangedSpinneretImplant.description>
   <AA_InstallRecalcitrantEye.label>установить строптивый глаз</AA_InstallRecalcitrantEye.label>
   <AA_InstallRecalcitrantEye.description>Install a recalcitrant eye.</AA_InstallRecalcitrantEye.description>
   <AA_InstallSimpleBeak.label>установить протез клюва</AA_InstallSimpleBeak.label>
   <AA_InstallSimpleBeak.description>Installs simple prosthetic beak.</AA_InstallSimpleBeak.description>
   <AA_InstallSpasmodicEye.label>установить судорожный глаз</AA_InstallSpasmodicEye.label>
   <AA_InstallSpasmodicEye.description>Install an spasmodic eye.</AA_InstallSpasmodicEye.description>
-  <AA_InstallVenomousSpitterImplant.label>имплант</AA_InstallVenomousSpitterImplant.label>
-  <AA_InstallVenomousSpitterImplant.description>имплант</AA_InstallVenomousSpitterImplant.description>
-  <AA_MakeAcidicSpitterImplant.label>имплант</AA_MakeAcidicSpitterImplant.label>
-  <AA_MakeAcidicSpitterImplant.description>имплант</AA_MakeAcidicSpitterImplant.description>
-  <AA_MakeBarbedQuillThrowerImplant.label>имплант</AA_MakeBarbedQuillThrowerImplant.label>
-  <AA_MakeBarbedQuillThrowerImplant.description>имплант</AA_MakeBarbedQuillThrowerImplant.description>
-  <AA_MakeBioelectricOrganImplant.label>имплант</AA_MakeBioelectricOrganImplant.label>
-  <AA_MakeBioelectricOrganImplant.description>имплант</AA_MakeBioelectricOrganImplant.description>
-  <AA_MakeHyperAcidicStomachImplant.label>имплант</AA_MakeHyperAcidicStomachImplant.label>
-  <AA_MakeHyperAcidicStomachImplant.description>имплант</AA_MakeHyperAcidicStomachImplant.description>
-  <AA_MakeLightFocusingLensImplant.label>имплант</AA_MakeLightFocusingLensImplant.label>
-  <AA_MakeLightFocusingLensImplant.description>имплант</AA_MakeLightFocusingLensImplant.description>
-  <AA_MakeQuadTeslaCannonImplant.label>имплант</AA_MakeQuadTeslaCannonImplant.label>
-  <AA_MakeQuadTeslaCannonImplant.description>имплант</AA_MakeQuadTeslaCannonImplant.description>
-  <AA_MakeRangedSpinneretImplant.label>имплант</AA_MakeRangedSpinneretImplant.label>
-  <AA_MakeRangedSpinneretImplant.description>имплант</AA_MakeRangedSpinneretImplant.description>
-  <AA_MakeVenomousSpitterImplant.label>имплант</AA_MakeVenomousSpitterImplant.label>
-  <AA_MakeVenomousSpitterImplant.description>имплант</AA_MakeVenomousSpitterImplant.description>
+  <AA_InstallVenomousSpitterImplant.label>установить ядовитый плеватель</AA_InstallVenomousSpitterImplant.label>
+  <AA_InstallVenomousSpitterImplant.description>Устанавливает ядовитый плеватель. Этот имплант позволяет существу использовать дальнобойную атаку ядовитым плевком.\n\nУстановка на существо с уже имеющимся ядовитым плевателем не даст эффекта. Подходит только животным с ротовым аппаратом.</AA_InstallVenomousSpitterImplant.description>
+  <AA_MakeAcidicSpitterImplant.label>создать имплант кислотного плевателя</AA_MakeAcidicSpitterImplant.label>
+  <AA_MakeAcidicSpitterImplant.description>Создаёт имплант кислотного плевателя.</AA_MakeAcidicSpitterImplant.description>
+  <AA_MakeBarbedQuillThrowerImplant.label>создать имплант метателя зазубренных игл</AA_MakeBarbedQuillThrowerImplant.label>
+  <AA_MakeBarbedQuillThrowerImplant.description>Создаёт имплант метателя зазубренных игл.</AA_MakeBarbedQuillThrowerImplant.description>
+  <AA_MakeBioelectricOrganImplant.label>создать имплант биоэлектрического органа</AA_MakeBioelectricOrganImplant.label>
+  <AA_MakeBioelectricOrganImplant.description>Создаёт имплант биоэлектрического органа.</AA_MakeBioelectricOrganImplant.description>
+  <AA_MakeHyperAcidicStomachImplant.label>создать имплант сверхацидного желудка</AA_MakeHyperAcidicStomachImplant.label>
+  <AA_MakeHyperAcidicStomachImplant.description>Создаёт имплант сверхацидного желудка.</AA_MakeHyperAcidicStomachImplant.description>
+  <AA_MakeLightFocusingLensImplant.label>создать имплант фокусирующей линзы</AA_MakeLightFocusingLensImplant.label>
+  <AA_MakeLightFocusingLensImplant.description>Создаёт имплант фокусирующей линзы.</AA_MakeLightFocusingLensImplant.description>
+  <AA_MakeQuadTeslaCannonImplant.label>создать имплант четырёхствольной тесла-пушки</AA_MakeQuadTeslaCannonImplant.label>
+  <AA_MakeQuadTeslaCannonImplant.description>Создаёт имплант четырёхствольной тесла-пушки.</AA_MakeQuadTeslaCannonImplant.description>
+  <AA_MakeRangedSpinneretImplant.label>создать имплант дистанционной паутины</AA_MakeRangedSpinneretImplant.label>
+  <AA_MakeRangedSpinneretImplant.description>Создаёт имплант дистанционной паутинной железы.</AA_MakeRangedSpinneretImplant.description>
+  <AA_MakeVenomousSpitterImplant.label>создать имплант ядовитого плевателя</AA_MakeVenomousSpitterImplant.label>
+  <AA_MakeVenomousSpitterImplant.description>Создаёт имплант ядовитого плевателя.</AA_MakeVenomousSpitterImplant.description>
   <AA_Make_HexagelCore.label>Создать ядра из гексагеля.</AA_Make_HexagelCore.label>
   <AA_Make_HexagelCore.description>Craft hexagel cores using hexagel and uranium as a stabilizer.</AA_Make_HexagelCore.description>
-  <AA_RemoveAcidicSpitterImplant.label>имплант</AA_RemoveAcidicSpitterImplant.label>
-  <AA_RemoveAcidicSpitterImplant.description>имплант</AA_RemoveAcidicSpitterImplant.description>
-  <AA_RemoveBarbedQuillThrowerImplant.label>имплант</AA_RemoveBarbedQuillThrowerImplant.label>
-  <AA_RemoveBarbedQuillThrowerImplant.description>имплант</AA_RemoveBarbedQuillThrowerImplant.description>
-  <AA_RemoveBioelectricOrganImplant.label>имплант</AA_RemoveBioelectricOrganImplant.label>
-  <AA_RemoveBioelectricOrganImplant.description>имплант</AA_RemoveBioelectricOrganImplant.description>
-  <AA_RemoveHyperAcidicStomachImplant.label>имплант</AA_RemoveHyperAcidicStomachImplant.label>
-  <AA_RemoveHyperAcidicStomachImplant.description>имплант</AA_RemoveHyperAcidicStomachImplant.description>
-  <AA_RemoveLightFocusingLensImplant.label>имплант</AA_RemoveLightFocusingLensImplant.label>
-  <AA_RemoveLightFocusingLensImplant.description>имплант</AA_RemoveLightFocusingLensImplant.description>
-  <AA_RemoveQuadTeslaCannonImplant.label>имплант</AA_RemoveQuadTeslaCannonImplant.label>
-  <AA_RemoveQuadTeslaCannonImplant.description>имплант</AA_RemoveQuadTeslaCannonImplant.description>
-  <AA_RemoveRangedSpinneretImplant.label>имплант</AA_RemoveRangedSpinneretImplant.label>
-  <AA_RemoveRangedSpinneretImplant.description>имплант</AA_RemoveRangedSpinneretImplant.description>
-  <AA_RemoveVenomousSpitterImplant.label>имплант</AA_RemoveVenomousSpitterImplant.label>
-  <AA_RemoveVenomousSpitterImplant.description>имплант</AA_RemoveVenomousSpitterImplant.description>
+  <AA_RemoveAcidicSpitterImplant.label>извлечь кислотный плеватель</AA_RemoveAcidicSpitterImplant.label>
+  <AA_RemoveAcidicSpitterImplant.description>Извлекает имплант кислотного плевателя.</AA_RemoveAcidicSpitterImplant.description>
+  <AA_RemoveBarbedQuillThrowerImplant.label>извлечь метатель зазубренных игл</AA_RemoveBarbedQuillThrowerImplant.label>
+  <AA_RemoveBarbedQuillThrowerImplant.description>Извлекает имплант метателя зазубренных игл.</AA_RemoveBarbedQuillThrowerImplant.description>
+  <AA_RemoveBioelectricOrganImplant.label>извлечь биоэлектрический орган</AA_RemoveBioelectricOrganImplant.label>
+  <AA_RemoveBioelectricOrganImplant.description>Извлекает имплант биоэлектрического органа.</AA_RemoveBioelectricOrganImplant.description>
+  <AA_RemoveHyperAcidicStomachImplant.label>извлечь сверхацидный желудок</AA_RemoveHyperAcidicStomachImplant.label>
+  <AA_RemoveHyperAcidicStomachImplant.description>Извлекает имплант сверхацидного желудка.</AA_RemoveHyperAcidicStomachImplant.description>
+  <AA_RemoveLightFocusingLensImplant.label>извлечь фокусирующую линзу</AA_RemoveLightFocusingLensImplant.label>
+  <AA_RemoveLightFocusingLensImplant.description>Извлекает имплант фокусирующей линзы.</AA_RemoveLightFocusingLensImplant.description>
+  <AA_RemoveQuadTeslaCannonImplant.label>извлечь четырёхствольную тесла-пушку</AA_RemoveQuadTeslaCannonImplant.label>
+  <AA_RemoveQuadTeslaCannonImplant.description>Извлекает имплант четырёхствольной тесла-пушки.</AA_RemoveQuadTeslaCannonImplant.description>
+  <AA_RemoveRangedSpinneretImplant.label>извлечь дистанционную паутину</AA_RemoveRangedSpinneretImplant.label>
+  <AA_RemoveRangedSpinneretImplant.description>Извлекает имплант дистанционной паутины.</AA_RemoveRangedSpinneretImplant.description>
+  <AA_RemoveVenomousSpitterImplant.label>извлечь ядовитый плеватель</AA_RemoveVenomousSpitterImplant.label>
+  <AA_RemoveVenomousSpitterImplant.description>Извлекает имплант ядовитого плевателя.</AA_RemoveVenomousSpitterImplant.description>
   <AA_ShutDownMechanoid.label>отключение</AA_ShutDownMechanoid.label>
   <AA_ShutDownMechanoid.description>Shuts down a mechanoid.</AA_ShutDownMechanoid.description>
   <AB_InstallBionicTentacle.label>установить бионическое щупальце</AB_InstallBionicTentacle.label>
   <AB_InstallBionicTentacle.description>Installs bionic tentacle.</AB_InstallBionicTentacle.description>
   <AB_InstallSimpleBuoyancy.label>установить простой механизм плавучести</AB_InstallSimpleBuoyancy.label>
   <AB_InstallSimpleBuoyancy.description>Installs simple buoyancy mechanism.</AB_InstallSimpleBuoyancy.description>
-  <AB_InstallSimpleClaw.label>коготь</AB_InstallSimpleClaw.label>
-  <AB_InstallSimpleClaw.description>коготь</AB_InstallSimpleClaw.description>
+  <AB_InstallSimpleClaw.label>установить простой протез когтя</AB_InstallSimpleClaw.label>
+  <AB_InstallSimpleClaw.description>Устанавливает простой протез когтя хищному животному.</AB_InstallSimpleClaw.description>
   <AB_InstallSimpleShell.label>установить протез панциря</AB_InstallSimpleShell.label>
   <AB_InstallSimpleShell.description>Installs simple prosthetic shell.</AB_InstallSimpleShell.description>
   <AB_InstallSimpleTentacle.label>установить протез щупальца</AB_InstallSimpleTentacle.label>

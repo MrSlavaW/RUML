@@ -3,40 +3,40 @@
   <AAVPE_JumpingPawn.label>прыгающее существо</AAVPE_JumpingPawn.label>
   <AA_AcidBolt.label>кислотный плевок</AA_AcidBolt.label>
   <AA_AcidicSpitterImplant.label>кислотный плеватель</AA_AcidicSpitterImplant.label>
-  <AA_AcidicSpitterImplant.description>имплант</AA_AcidicSpitterImplant.description>
+  <AA_AcidicSpitterImplant.description>Кислотный плеватель. Позволяет существу атаковать врагов на расстоянии едкой кислотой с периодическим уроном.</AA_AcidicSpitterImplant.description>
   <AA_AcidicWeb.label>кислотная паутина</AA_AcidicWeb.label>
   <AA_AerofleetMeat.label>сырое мясо аэрофлита</AA_AerofleetMeat.label>
   <AA_AerofleetMeat.description>Raw meat from an aerofleet.\n\nChewy, gelatinous and insipid. Similar in texture to a jellyfish.</AA_AerofleetMeat.description>
   <AA_AgariluxRawFungus.label>сырой гриб агарилюкс</AA_AgariluxRawFungus.label>
   <AA_AgariluxRawFungus.description>Raw Agarilux from a living Agaripod, they are very nice to eat, even when raw.</AA_AgariluxRawFungus.description>
   <AA_AgaripawnSpores.label>споровый комок агарипавна (оплод.)</AA_AgaripawnSpores.label>
-  <AA_AgaripawnSpores.description>лапа</AA_AgaripawnSpores.description>
-  <AA_AgaripodSpores.label>споры</AA_AgaripodSpores.label>
-  <AA_AgaripodSpores.description>споры</AA_AgaripodSpores.description>
+  <AA_AgaripawnSpores.description>Оплодотворённые споры агарипешки. Неаппетитная студенистая масса, из которой при надлежащей температуре появится маленький агарипешка.</AA_AgaripawnSpores.description>
+  <AA_AgaripodSpores.label>споры агарипода (оплодотв.)</AA_AgaripodSpores.label>
+  <AA_AgaripodSpores.description>Оплодотворённые споры агарипода. Если всё пройдёт удачно, из них вырастет агарипод.</AA_AgaripodSpores.description>
   <AA_AlienGrass.label>инопланетная трава</AA_AlienGrass.label>
   <AA_AlienGrass.description>This grass is completely alien, probably not even 100% carbon based, and it seems to be decaying quickly from exposure to a terrestrial environment.</AA_AlienGrass.description>
   <AA_AlienTree.label>окулярное дерево</AA_AlienTree.label>
   <AA_AlienTree.description>This tree is completely alien, probably not even 100% carbon based, and it seems to be struggling to grow from exposure to a terrestrial environment. Strange fruits resembling eyeballs hang from the tree, but they are probably not edible. Its wood releases a powerful, sweet scent. Perhaps it can be somehow useful?</AA_AlienTree.description>
   <AA_AngelMothEggFertilized.label>яйцо мотылька-ангела (оплодотворённое)</AA_AngelMothEggFertilized.label>
-  <AA_AngelMothEggFertilized.description>яйцо</AA_AngelMothEggFertilized.description>
+  <AA_AngelMothEggFertilized.description>Оплодотворённое яйцо ангельской моли. При бережном уходе из него вылупится личинка ангельской моли.</AA_AngelMothEggFertilized.description>
   <AA_AnimaliskEggFertilized.label>яйцо анималиска (оплодотворённое)</AA_AnimaliskEggFertilized.label>
-  <AA_AnimaliskEggFertilized.description>яйцо</AA_AnimaliskEggFertilized.description>
+  <AA_AnimaliskEggFertilized.description>Оплодотворённое яйцо анималиска. При должном уходе из него вылупится анималиск.</AA_AnimaliskEggFertilized.description>
   <AA_ArcticLion_Leather.label>кожа полярного льва</AA_ArcticLion_Leather.label>
   <AA_ArcticLion_Leather.description>White thick leather covered in a long, rugged mat of fur. Harvested from an arctic lion. This thick skin insulates and protects really well.</AA_ArcticLion_Leather.description>
   <AA_AtispecEggFertilized.label>яйцо атиспека (оплодотворённое)</AA_AtispecEggFertilized.label>
-  <AA_AtispecEggFertilized.description>яйцо</AA_AtispecEggFertilized.description>
+  <AA_AtispecEggFertilized.description>Оплодотворённое яйцо атиспека. Из него вылупится личинка атиспека.</AA_AtispecEggFertilized.description>
   <AA_AtispecEggUnfertilized.label>яйцо атиспека (неоплодотворённое)</AA_AtispecEggUnfertilized.label>
-  <AA_AtispecEggUnfertilized.description>яйцо</AA_AtispecEggUnfertilized.description>
+  <AA_AtispecEggUnfertilized.description>Неоплодотворённое яйцо атиспека. Пригодно в пищу.</AA_AtispecEggUnfertilized.description>
   <AA_BarbedQuillThrowerImplant.label>шипомётный имплант</AA_BarbedQuillThrowerImplant.label>
-  <AA_BarbedQuillThrowerImplant.description>имплант</AA_BarbedQuillThrowerImplant.description>
+  <AA_BarbedQuillThrowerImplant.description>Метатель зазубренных игл. Наделяет существо токсичной дистанционной атакой.</AA_BarbedQuillThrowerImplant.description>
   <AA_BedBugEggFertilized.label>яйцо постельного клопа (оплодотворённое)</AA_BedBugEggFertilized.label>
-  <AA_BedBugEggFertilized.description>яйцо</AA_BedBugEggFertilized.description>
+  <AA_BedBugEggFertilized.description>Оплодотворённое яйцо постельного клопа. Из него вылупится гигантский постельный клоп.</AA_BedBugEggFertilized.description>
   <AA_BedBugEggUnfertilized.label>яйцо постельного клопа (неоплодотворённое)</AA_BedBugEggUnfertilized.label>
-  <AA_BedBugEggUnfertilized.description>яйцо</AA_BedBugEggUnfertilized.description>
+  <AA_BedBugEggUnfertilized.description>Неоплодотворённое яйцо постельного клопа.</AA_BedBugEggUnfertilized.description>
   <AA_BioMechDisruptor.label>био-деструктор механоидов</AA_BioMechDisruptor.label>
   <AA_BioMechDisruptor.description>Basically a biological version of a mech disruptor. Any mechanoids in its effect radius will have reduced agility, movement and targeting skill.</AA_BioMechDisruptor.description>
   <AA_BioelectricOrganImplant.label>биоэлектрический имплант</AA_BioelectricOrganImplant.label>
-  <AA_BioelectricOrganImplant.description>имплант</AA_BioelectricOrganImplant.description>
+  <AA_BioelectricOrganImplant.description>Биоэлектрический орган. Позволяет существу атаковать электрическими разрядами на дистанции, вызывая паралич и остановку сердца.</AA_BioelectricOrganImplant.description>
   <AA_BionicBeak.label>бионический клюв</AA_BionicBeak.label>
   <AA_BionicBeak.description>Improved bionic beak for animals. Should be able to replace almost any avian-like beak.</AA_BionicBeak.description>
   <AA_BionicBuoyancyMechanism.label>бионический механизм плавучести</AA_BionicBuoyancyMechanism.label>
@@ -50,48 +50,48 @@
   <AA_BionicWing.label>бионическое крыло</AA_BionicWing.label>
   <AA_BionicWing.description>Improved bionic wing for animals. Should be able to replace any type of wing.</AA_BionicWing.description>
   <AA_BlackCocoon.label>чёрный кокон</AA_BlackCocoon.label>
-  <AA_BlackCocoon.description>улей</AA_BlackCocoon.description>
+  <AA_BlackCocoon.description>Кокон с личинкой Чёрного Улья.</AA_BlackCocoon.description>
   <AA_BlackCreeper.label>чёрный ползун</AA_BlackCreeper.label>
-  <AA_BlackCreeper.description>улей</AA_BlackCreeper.description>
+  <AA_BlackCreeper.description>Конструкция Чёрного Улья, созданная гигантскими насекомыми. Преобразует обычную слизь в чёрную слизь улья.</AA_BlackCreeper.description>
   <AA_BlackDefiler.label>чёрный осквернитель</AA_BlackDefiler.label>
-  <AA_BlackDefiler.description>улей</AA_BlackDefiler.description>
+  <AA_BlackDefiler.description>Курган-вход в подземный кластер Чёрного Улья, увенчанный чёрным осквернителем. Изрыгает потоки ядовитой кислоты по приближающимся врагам.</AA_BlackDefiler.description>
   <AA_BlackDefiler_Gun.label>чёрный осквернитель</AA_BlackDefiler_Gun.label>
-  <AA_BlackDefiler_Gun.description>улей</AA_BlackDefiler_Gun.description>
+  <AA_BlackDefiler_Gun.description>Курган-вход в подземный кластер Чёрного Улья, увенчанный чёрным осквернителем. Изрыгает потоки ядовитой кислоты по врагам, нанося токсичный урон живым существам и разъедая броню механоидов.</AA_BlackDefiler_Gun.description>
   <AA_BlackDefiler_Projectile.label>снаряд чёрного осквернителя</AA_BlackDefiler_Projectile.label>
   <AA_BlackHiveBolt.label>мерзкий плевок</AA_BlackHiveBolt.label>
-  <AA_BlackHiveMound.label>улей</AA_BlackHiveMound.label>
-  <AA_BlackHiveMound.description>улей</AA_BlackHiveMound.description>
-  <AA_BlackInsectJelly.label>улей</AA_BlackInsectJelly.label>
+  <AA_BlackHiveMound.label>огромный курган Чёрного Улья</AA_BlackHiveMound.label>
+  <AA_BlackHiveMound.description>Гнездо гигантских инсектоидов Чёрного Улья, прорывшееся сквозь породу на поверхность.</AA_BlackHiveMound.description>
+  <AA_BlackInsectJelly.label>желе Чёрного Улья</AA_BlackInsectJelly.label>
   <AA_BlackInsectJelly.description>Jelly stored and used as food by oversized insects. It is smooth, rich, and fulfills the recreation need of those who consume it. Because of its unique biological properties, it can nourish almost any creature and never rots. This particular insect jelly is pitch black in colour and seems to be more nutritive than usual.</AA_BlackInsectJelly.description>
   <AA_BlackJellyMorpher.label>морфер чёрного желе</AA_BlackJellyMorpher.label>
   <AA_BlackJellyMorpher.description>An exotic, pulsating bioformation that forces attached insect jelly to undergo a chemical process that changes it into black jelly. Produced by giant insects. Needs to be constructed on the creep and requires refueling with insect jelly in order to produce the black variant.</AA_BlackJellyMorpher.description>
   <AA_BlackJellyWall.label>стена из чёрного желе</AA_BlackJellyWall.label>
   <AA_BlackJellyWall.description>An impassable, hard wall made from black jelly, constructed by the worker caste of an insectoid geneline. Capable of holding up a roof. More resistant than a normal insect jelly wall, but still a bit flammable.</AA_BlackJellyWall.description>
   <AA_BlackTruffles.label>чёрные трюфели</AA_BlackTruffles.label>
-  <AA_BlackTruffles.description>гриб</AA_BlackTruffles.description>
+  <AA_BlackTruffles.description>Сырые чёрные трюфели. Восхитительный и исключительно ценный деликатесный гриб.</AA_BlackTruffles.description>
   <AA_BlizzariskEggFertilized.label>яйцо близзариска (оплодотворённое)</AA_BlizzariskEggFertilized.label>
-  <AA_BlizzariskEggFertilized.description>яйцо</AA_BlizzariskEggFertilized.description>
+  <AA_BlizzariskEggFertilized.description>Оплодотворённое яйцо близзариска. Мерзкое паучье яйцо, из которого вылупляется морозный паук.</AA_BlizzariskEggFertilized.description>
   <AA_BlizzariskEggUnfertilized.label>яйцо близзариска (неоплодотворённое)</AA_BlizzariskEggUnfertilized.label>
-  <AA_BlizzariskEggUnfertilized.description>яйцо</AA_BlizzariskEggUnfertilized.description>
+  <AA_BlizzariskEggUnfertilized.description>Неоплодотворённое яйцо близзариска. Пригодно в кулинарии, хотя и выглядит отталкивающе.</AA_BlizzariskEggUnfertilized.description>
   <AA_BlizzariskSuperEggFertilized.label>яйцо близзариска (оплодотворённое)</AA_BlizzariskSuperEggFertilized.label>
-  <AA_BlizzariskSuperEggFertilized.description>яйцо</AA_BlizzariskSuperEggFertilized.description>
+  <AA_BlizzariskSuperEggFertilized.description>Оплодотворённое супер-яйцо близзариска. Развивается с угрожающей скоростью!</AA_BlizzariskSuperEggFertilized.description>
   <AA_BlueGel.label>синий гель</AA_BlueGel.label>
   <AA_BlueGel.description>A syrupy residue extracted from Aerofleets which can be refined into an energy-dense compound. It can be used to build powerful batteries and generators with the appropriate research (Biofuel refining to process it further, and Batteries).</AA_BlueGel.description>
   <AA_BlueGelBattery.label>батарея на синем геле</AA_BlueGelBattery.label>
   <AA_BlueGelBattery.description>Can store more electricity than regular batteries thanks to the energetic make-up of blue gel. As a downside, they are highly flammable. Charged blue gel batteries explode when exposed to rain or fire.</AA_BlueGelBattery.description>
   <AA_BlueMilk.label>синее молоко</AA_BlueMilk.label>
   <AA_BlueMilk.description>"Milk" from a frostbound behemoth. Very nutritive but the colour is more than a little unsettling.</AA_BlueMilk.description>
-  <AA_Bullet_Barb.label>иглы</AA_Bullet_Barb.label>
+  <AA_Bullet_Barb.label>брошенная игла</AA_Bullet_Barb.label>
   <AA_Bullet_Rock.label>пси-заряженный камень</AA_Bullet_Rock.label>
   <AA_Bullet_Shell_Demolisher.label>заряд разрушителя</AA_Bullet_Shell_Demolisher.label>
   <AA_Bullet_Shell_Explosive.label>фугасный снаряд</AA_Bullet_Shell_Explosive.label>
   <AA_Bullet_VenomBarb.label>ядовитый шип</AA_Bullet_VenomBarb.label>
   <AA_BumbledroneQueenEggFertilized.label>яйцо шмеледроида (оплодотворённое)</AA_BumbledroneQueenEggFertilized.label>
-  <AA_BumbledroneQueenEggFertilized.description>яйцо</AA_BumbledroneQueenEggFertilized.description>
-  <AA_ButterflyEggUnfertilized.label>яйцо</AA_ButterflyEggUnfertilized.label>
-  <AA_ButterflyEggUnfertilized.description>яйцо</AA_ButterflyEggUnfertilized.description>
-  <AA_CactipineQuill.label>иглы</AA_CactipineQuill.label>
-  <AA_CactipineQuill.description>иглы</AA_CactipineQuill.description>
+  <AA_BumbledroneQueenEggFertilized.description>Оплодотворённые яйца королевы шмеледроидов. При вылуплении дают выводок шмеледроидов.</AA_BumbledroneQueenEggFertilized.description>
+  <AA_ButterflyEggUnfertilized.label>яйцо бабочки (неоплодотв.)</AA_ButterflyEggUnfertilized.label>
+  <AA_ButterflyEggUnfertilized.description>Неоплодотворённое яйцо гигантской бабочки.</AA_ButterflyEggUnfertilized.description>
+  <AA_CactipineQuill.label>лечебная игла кактупина</AA_CactipineQuill.label>
+  <AA_CactipineQuill.description>Иглы кактупина, покрытые сильным анестетиком. Могут использоваться как экстренная замена травяным медикаментам.</AA_CactipineQuill.description>
   <AA_CactusMeat.label>растительное мясо</AA_CactusMeat.label>
   <AA_CactusMeat.description>This strange meat is part vegetable, part animal. Confusing, to say the least.</AA_CactusMeat.description>
   <AA_ChameleonYakWoolDesert.label>шерсть яка-хамелеона</AA_ChameleonYakWoolDesert.label>
@@ -105,15 +105,15 @@
   <AA_CinderSilk.label>пеплошёлк</AA_CinderSilk.label>
   <AA_CinderSilk.description>This silk is as strong as synthread, but it is also an excellent thermal insulator. It is completely non-flammable.</AA_CinderSilk.description>
   <AA_CinderliskEggFertilized.label>яйцо пепелиска (оплодотворённое)</AA_CinderliskEggFertilized.label>
-  <AA_CinderliskEggFertilized.description>яйцо</AA_CinderliskEggFertilized.description>
+  <AA_CinderliskEggFertilized.description>Оплодотворённое яйцо пепелиска. Огнеопасное паучье яйцо с зародышем пепелиска.</AA_CinderliskEggFertilized.description>
   <AA_CinderliskEggUnfertilized.label>яйцо пепелиска (неоплодотворённое)</AA_CinderliskEggUnfertilized.label>
-  <AA_CinderliskEggUnfertilized.description>яйцо</AA_CinderliskEggUnfertilized.description>
+  <AA_CinderliskEggUnfertilized.description>Неоплодотворённое яйцо пепелиска.</AA_CinderliskEggUnfertilized.description>
   <AA_CrepuscularBeetleEggFertilized.label>яйцо сумеречного жука (оплодотворённое)</AA_CrepuscularBeetleEggFertilized.label>
-  <AA_CrepuscularBeetleEggFertilized.description>яйцо</AA_CrepuscularBeetleEggFertilized.description>
+  <AA_CrepuscularBeetleEggFertilized.description>Оплодотворённое яйцо сумеречного жука. Скоро из него вылупится молодой жук.</AA_CrepuscularBeetleEggFertilized.description>
   <AA_CrepuscularBeetleEggUnfertilized.label>яйцо сумеречного жука (неоплодотворённое)</AA_CrepuscularBeetleEggUnfertilized.label>
-  <AA_CrepuscularBeetleEggUnfertilized.description>яйцо</AA_CrepuscularBeetleEggUnfertilized.description>
+  <AA_CrepuscularBeetleEggUnfertilized.description>Неоплодотворённое яйцо сумеречного жука.</AA_CrepuscularBeetleEggUnfertilized.description>
   <AA_CryoBullet.label>криогенная гранула</AA_CryoBullet.label>
-  <AA_CryogenicGun.label>орудие</AA_CryogenicGun.label>
+  <AA_CryogenicGun.label>криогенное орудие</AA_CryogenicGun.label>
   <AA_DarkBolt.label>тёмная стрела</AA_DarkBolt.label>
   <AA_DarkGlowPod.label>тёмный светящийся кокон</AA_DarkGlowPod.label>
   <AA_DarkGlowPod.description>A darklight pod produced by giant insects. Glows under its own light for a long time, then dies.</AA_DarkGlowPod.description>
@@ -123,66 +123,66 @@
   <AA_DarkLargeGlowPod.description>A large darklight pod produced by giant insects. Glows under its own light and does not perish with time. Needs to be constructed on the creep.</AA_DarkLargeGlowPod.description>
   <AA_DemolisherCharges.label>заряды разрушителя</AA_DemolisherCharges.label>
   <AA_DisgustingMealNutrientPaste.label>отвратительная питательная паста</AA_DisgustingMealNutrientPaste.label>
-  <AA_DisgustingMealNutrientPaste.description>тело</AA_DisgustingMealNutrientPaste.description>
+  <AA_DisgustingMealNutrientPaste.description>Синтетическая смесь протеинов и углеводов. Полностью обеспечивает организм питанием, но обладает омерзительным вкусом.</AA_DisgustingMealNutrientPaste.description>
   <AA_DrainerEggFertilized.label>яйцо дренера (оплодотворённое)</AA_DrainerEggFertilized.label>
-  <AA_DrainerEggFertilized.description>яйцо</AA_DrainerEggFertilized.description>
+  <AA_DrainerEggFertilized.description>Оплодотворённое яйцо осушителя. Из него вылупляется личинка осушителя.</AA_DrainerEggFertilized.description>
   <AA_DunealiskEggFertilized.label>яйцо дюналиска</AA_DunealiskEggFertilized.label>
-  <AA_DunealiskEggFertilized.description>яйцо</AA_DunealiskEggFertilized.description>
+  <AA_DunealiskEggFertilized.description>Оплодотворённое яйцо дюналиска. Несёт в себе зародыш пустынного паука.</AA_DunealiskEggFertilized.description>
   <AA_DunealiskEggUnfertilized.label>яйцо дюналиска (неоплодотворённое)</AA_DunealiskEggUnfertilized.label>
-  <AA_DunealiskEggUnfertilized.description>яйцо</AA_DunealiskEggUnfertilized.description>
+  <AA_DunealiskEggUnfertilized.description>Неоплодотворённое яйцо дюналиска.</AA_DunealiskEggUnfertilized.description>
   <AA_DunealiskSuperEggFertilized.label>яйцо дюналиска</AA_DunealiskSuperEggFertilized.label>
-  <AA_DunealiskSuperEggFertilized.description>яйцо</AA_DunealiskSuperEggFertilized.description>
+  <AA_DunealiskSuperEggFertilized.description>Оплодотворённое супер-яйцо дюналиска с аномально быстрым развитием эмбриона!</AA_DunealiskSuperEggFertilized.description>
   <AA_EggCrescendoAnoleFertilized.label>яйцо анолиса крещендо (оплодотворённое)</AA_EggCrescendoAnoleFertilized.label>
-  <AA_EggCrescendoAnoleFertilized.description>яйцо</AA_EggCrescendoAnoleFertilized.description>
+  <AA_EggCrescendoAnoleFertilized.description>Оплодотворённое яйцо крещендо-анолиса. Вылупляется в молодого крещендо-анолиса.</AA_EggCrescendoAnoleFertilized.description>
   <AA_EggCrescendoAnoleUnfertilized.label>яйцо анолиса крещендо (неоплодотворённое)</AA_EggCrescendoAnoleUnfertilized.label>
-  <AA_EggCrescendoAnoleUnfertilized.description>яйцо</AA_EggCrescendoAnoleUnfertilized.description>
+  <AA_EggCrescendoAnoleUnfertilized.description>Неоплодотворённое яйцо крещендо-анолиса.</AA_EggCrescendoAnoleUnfertilized.description>
   <AA_EggDesertAveFertilized.label>яйцо пустынного аве (оплодотворённое)</AA_EggDesertAveFertilized.label>
-  <AA_EggDesertAveFertilized.description>яйцо</AA_EggDesertAveFertilized.description>
+  <AA_EggDesertAveFertilized.description>Оплодотворённое яйцо пустынного страуса. Из него появится птенец пустынного страуса.</AA_EggDesertAveFertilized.description>
   <AA_EggFlamingoPhoenixFertilized.label>яйцо фламинго-феникса (оплодотворённое)</AA_EggFlamingoPhoenixFertilized.label>
-  <AA_EggFlamingoPhoenixFertilized.description>яйцо</AA_EggFlamingoPhoenixFertilized.description>
+  <AA_EggFlamingoPhoenixFertilized.description>Оплодотворённое яйцо феникс-фламинго. Горячее на ощупь яйцо легендарной огненной птицы.</AA_EggFlamingoPhoenixFertilized.description>
   <AA_EggGiantCrownedSilkieFertilized.label>яйцо венценосного шелкопряда (оплодотворённое)</AA_EggGiantCrownedSilkieFertilized.label>
-  <AA_EggGiantCrownedSilkieFertilized.description>яйцо</AA_EggGiantCrownedSilkieFertilized.description>
+  <AA_EggGiantCrownedSilkieFertilized.description>Оплодотворённое яйцо гигантской венценосной шёлковой курицы.</AA_EggGiantCrownedSilkieFertilized.description>
   <AA_EggGiantCrownedSilkieUnfertilized.label>яйцо венценосного шелкопряда (неоплодотворённое)</AA_EggGiantCrownedSilkieUnfertilized.label>
-  <AA_EggGiantCrownedSilkieUnfertilized.description>яйцо</AA_EggGiantCrownedSilkieUnfertilized.description>
+  <AA_EggGiantCrownedSilkieUnfertilized.description>Неоплодотворённое яйцо гигантской венценосной шёлковой курицы.</AA_EggGiantCrownedSilkieUnfertilized.description>
   <AA_EggMeadowAveFertilized.label>яйцо лугового аве (оплодотворённое)</AA_EggMeadowAveFertilized.label>
-  <AA_EggMeadowAveFertilized.description>яйцо</AA_EggMeadowAveFertilized.description>
+  <AA_EggMeadowAveFertilized.description>Оплодотворённое яйцо лугового страуса. Из него вылупится птенец лугового страуса.</AA_EggMeadowAveFertilized.description>
   <AA_EggMeadowAveUnfertilized.label>яйцо лугового аве (неоплодотворённое)</AA_EggMeadowAveUnfertilized.label>
-  <AA_EggMeadowAveUnfertilized.description>яйцо</AA_EggMeadowAveUnfertilized.description>
+  <AA_EggMeadowAveUnfertilized.description>Неоплодотворённое яйцо лугового страуса.</AA_EggMeadowAveUnfertilized.description>
   <AA_EggNightAveFertilized.label>яйцо ночного аве (оплодотворённое)</AA_EggNightAveFertilized.label>
-  <AA_EggNightAveFertilized.description>яйцо</AA_EggNightAveFertilized.description>
+  <AA_EggNightAveFertilized.description>Оплодотворённое яйцо ночного страуса. Из него вылупится птенец ночного страуса.</AA_EggNightAveFertilized.description>
   <AA_EggNightlingFertilized.label>яйцо найтлинга (оплодотворённое)</AA_EggNightlingFertilized.label>
-  <AA_EggNightlingFertilized.description>яйцо</AA_EggNightlingFertilized.description>
+  <AA_EggNightlingFertilized.description>Оплодотворённое яйцо ночника. Редкое и дорогое яйцо ночного хищника.</AA_EggNightlingFertilized.description>
   <AA_EggNightlingUnfertilized.label>яйцо найтлинга (неоплодотворённое)</AA_EggNightlingUnfertilized.label>
-  <AA_EggNightlingUnfertilized.description>яйцо</AA_EggNightlingUnfertilized.description>
+  <AA_EggNightlingUnfertilized.description>Неоплодотворённое яйцо ночника. Исключительно ценный кулинарный ингредиент.</AA_EggNightlingUnfertilized.description>
   <AA_EggPedigreedRaptorFertilized.label>яйцо породистого раптора (оплодотворённое)</AA_EggPedigreedRaptorFertilized.label>
-  <AA_EggPedigreedRaptorFertilized.description>яйцо</AA_EggPedigreedRaptorFertilized.description>
+  <AA_EggPedigreedRaptorFertilized.description>Оплодотворённое яйцо породистого раптора. Из него вылупится породистый раптор.</AA_EggPedigreedRaptorFertilized.description>
   <AA_EggPedigreedRaptorUnfertilized.label>яйцо породистого раптора (неоплодотворённое)</AA_EggPedigreedRaptorUnfertilized.label>
-  <AA_EggPedigreedRaptorUnfertilized.description>яйцо</AA_EggPedigreedRaptorUnfertilized.description>
+  <AA_EggPedigreedRaptorUnfertilized.description>Неоплодотворённое яйцо породистого раптора.</AA_EggPedigreedRaptorUnfertilized.description>
   <AA_EggRoughPlatedMonitorFertilized.label>яйцо панцирного варана (оплодотворённое)</AA_EggRoughPlatedMonitorFertilized.label>
-  <AA_EggRoughPlatedMonitorFertilized.description>яйцо</AA_EggRoughPlatedMonitorFertilized.description>
+  <AA_EggRoughPlatedMonitorFertilized.description>Оплодотворённое яйцо панцирного варана. ВНИМАНИЕ: яйца панцирного варана взрывоопасны и взрываются при вылуплении!</AA_EggRoughPlatedMonitorFertilized.description>
   <AA_EggRoyalAveFertilized.label>яйцо королевского аве (оплодотворённое)</AA_EggRoyalAveFertilized.label>
-  <AA_EggRoyalAveFertilized.description>яйцо</AA_EggRoyalAveFertilized.description>
+  <AA_EggRoyalAveFertilized.description>Оплодотворённое яйцо королевского страуса. Из него вылупится птенец королевского страуса.</AA_EggRoyalAveFertilized.description>
   <AA_ElderAlienTree.label>древнее окулярное дерево</AA_ElderAlienTree.label>
   <AA_ElderAlienTree.description>This tree is completely alien, probably not even 100% carbon based, and it seems to be struggling to grow from exposure to a terrestrial environment. Strange fruits resembling eyeballs hang from the tree, but they are probably not edible. Its wood releases a powerful, sweet scent. This particular tree seems to be bigger than others, and emanates an aura of confusion and despair. The very fabric of reality seems to be unraveling around it.\n\n&lt;color=#b51509&gt;Warning:&lt;/color&gt; This is a cool but laggy thing, as much as defoliator ship parts in the base game.</AA_ElderAlienTree.description>
   <AA_ElectricBolt.label>электрический разряд</AA_ElectricBolt.label>
   <AA_EmpressButterflyEggFertilized.label>яйцо бабочки-императрицы (оплодотворённое)</AA_EmpressButterflyEggFertilized.label>
-  <AA_EmpressButterflyEggFertilized.description>яйцо</AA_EmpressButterflyEggFertilized.description>
+  <AA_EmpressButterflyEggFertilized.description>Оплодотворённое яйцо бабочки-императрицы. Из него вылупится крупная гусеница бабочки-императрицы.</AA_EmpressButterflyEggFertilized.description>
   <AA_FeraliskEggFertilized.label>яйцо фералиска (оплодотворённое)</AA_FeraliskEggFertilized.label>
-  <AA_FeraliskEggFertilized.description>яйцо</AA_FeraliskEggFertilized.description>
+  <AA_FeraliskEggFertilized.description>Оплодотворённое яйцо фералиска. Паучье яйцо, готовое раскрыться свирепым фералиском.</AA_FeraliskEggFertilized.description>
   <AA_FeraliskEggUnfertilized.label>яйцо фералиска (неоплодотворённое)</AA_FeraliskEggUnfertilized.label>
-  <AA_FeraliskEggUnfertilized.description>яйцо</AA_FeraliskEggUnfertilized.description>
+  <AA_FeraliskEggUnfertilized.description>Неоплодотворённое яйцо фералиска.</AA_FeraliskEggUnfertilized.description>
   <AA_FeraliskSuperEggFertilized.label>яйцо фералиска (оплодотворённое)</AA_FeraliskSuperEggFertilized.label>
-  <AA_FeraliskSuperEggFertilized.description>яйцо</AA_FeraliskSuperEggFertilized.description>
-  <AA_FilthSlimyPuke.label>плевок</AA_FilthSlimyPuke.label>
+  <AA_FeraliskSuperEggFertilized.description>Оплодотворённое супер-яйцо фералиска. Эмбрион внутри развивается с пугающей скоростью!</AA_FeraliskSuperEggFertilized.description>
+  <AA_FilthSlimyPuke.label>остатки едкой слизи</AA_FilthSlimyPuke.label>
   <AA_Filth_BlackJelly.label>пятно чёрного желе</AA_Filth_BlackJelly.label>
   <AA_Filth_BlueBlood.label>голубая кровь</AA_Filth_BlueBlood.label>
   <AA_Filth_RedSlime.label>красная слизь</AA_Filth_RedSlime.label>
   <AA_Filth_Slime.label>слизь</AA_Filth_Slime.label>
-  <AA_FireSpit.label>плевок</AA_FireSpit.label>
+  <AA_FireSpit.label>огненный плевок</AA_FireSpit.label>
   <AA_FireWaspEggFertilized.label>яйцо огненной осы (оплодотворённое)</AA_FireWaspEggFertilized.label>
-  <AA_FireWaspEggFertilized.description>яйцо</AA_FireWaspEggFertilized.description>
+  <AA_FireWaspEggFertilized.description>Оплодотворённое яйцо огненной осы. Излучает колоссальное количество жара и может быть опасно при неправильном хранении.</AA_FireWaspEggFertilized.description>
   <AA_FireWaspEggUnfertilized.label>яйцо огненной осы (неоплодотворённое)</AA_FireWaspEggUnfertilized.label>
-  <AA_FireWaspEggUnfertilized.description>яйцо</AA_FireWaspEggUnfertilized.description>
+  <AA_FireWaspEggUnfertilized.description>Неоплодотворённое яйцо огненной осы. Раскалено на ощупь.</AA_FireWaspEggUnfertilized.description>
   <AA_FireWeb.label>огненная паутина</AA_FireWeb.label>
   <AA_Flamethrower.label>огнемёт</AA_Flamethrower.label>
   <AA_FoamBelcher.label>пеномёт</AA_FoamBelcher.label>
@@ -195,7 +195,7 @@
   <AA_FrostPuff.label>морозный воздух</AA_FrostPuff.label>
   <AA_FrostWeb.label>ледяная паутина</AA_FrostWeb.label>
   <AA_GallatrossHorn.label>рог галлатроса</AA_GallatrossHorn.label>
-  <AA_GallatrossHorn.description>рог</AA_GallatrossHorn.description>
+  <AA_GallatrossHorn.description>Рог галлатроса. Этот несокрушимый рог невероятно ценен на чёрном рынке, учитывая колоссальную опасность охоты на этого зверя.</AA_GallatrossHorn.description>
   <AA_GiantCrownedSilkieSilk.label>шёлк венценосного шелкопряда</AA_GiantCrownedSilkieSilk.label>
   <AA_GiantCrownedSilkieSilk.description>A soft silk produced by the giant crowned silkie. Once woven it has a very similar texture to sheep wool, but softer. Considered a luxury item.</AA_GiantCrownedSilkieSilk.description>
   <AA_GooAcidifier.label>кислотный преобразователь слизи</AA_GooAcidifier.label>
@@ -203,10 +203,10 @@
   <AA_GowMilk.label>молоко гоу</AA_GowMilk.label>
   <AA_GowMilk.description>Milk from a spined gow. Very nutritive but the reddish colour is a little unsettling.</AA_GowMilk.description>
   <AA_GreatDevourerEggFertilized.label>яйцо пожирателя (оплодотворённое)</AA_GreatDevourerEggFertilized.label>
-  <AA_GreatDevourerEggFertilized.description>яйцо</AA_GreatDevourerEggFertilized.description>
+  <AA_GreatDevourerEggFertilized.description>Оплодотворённое яйцо великого пожирателя. Скоро из него вылупится прожорливый бронированный червь.</AA_GreatDevourerEggFertilized.description>
   <AA_GreatDevourerEggUnfertilized.label>яйцо пожирателя (неоплодотворённое)</AA_GreatDevourerEggUnfertilized.label>
-  <AA_GreatDevourerEggUnfertilized.description>яйцо</AA_GreatDevourerEggUnfertilized.description>
-  <AA_GreaterBlackHiveBolt.label>плевок</AA_GreaterBlackHiveBolt.label>
+  <AA_GreatDevourerEggUnfertilized.description>Неоплодотворённое яйцо великого пожирателя.</AA_GreatDevourerEggUnfertilized.description>
+  <AA_GreaterBlackHiveBolt.label>большой едкий плевок</AA_GreaterBlackHiveBolt.label>
   <AA_GreyCoatedMouflonWool.label>шерсть серошёрстного муфлона</AA_GreyCoatedMouflonWool.label>
   <AA_GreyCoatedMouflonWool.description>Grey-coated mouflon wool. It provides good insulation.</AA_GreyCoatedMouflonWool.description>
   <AA_Heat_Ambrosia.label>жаростойкая амброзия</AA_Heat_Ambrosia.label>
@@ -219,45 +219,45 @@
   <AA_HexagelCore.description>A hexagonal shaped energy core composed of -in itself highly unstable- hydrogen-rich blue gel stabilized within a uranium shell.</AA_HexagelCore.description>
   <AA_HexagelCoreReactor.label>реактор на ядрах гексагеля</AA_HexagelCoreReactor.label>
   <AA_HexagelCoreReactor.description>Produces electricity from energy stored inside hexagel cores.</AA_HexagelCoreReactor.description>
-  <AA_HiveEntrance.label>улей</AA_HiveEntrance.label>
-  <AA_HiveEntrance.description>улей</AA_HiveEntrance.description>
+  <AA_HiveEntrance.label>вход в Чёрный Улей</AA_HiveEntrance.label>
+  <AA_HiveEntrance.description>Вход в подземный лабиринт Чёрного Улья. Позволяет насекомым беспрепятственно выходить на поверхность.</AA_HiveEntrance.description>
   <AA_HugeAnimaPearl.label>огромная анима-жемчужина</AA_HugeAnimaPearl.label>
   <AA_HugeAnimaPearl.description>This huge anima pearl seems to be bursting with barely contained living energy. It can be planted and an anima tree will grow from it.</AA_HugeAnimaPearl.description>
-  <AA_HyperAcidicStomachImplant.label>имплант</AA_HyperAcidicStomachImplant.label>
-  <AA_HyperAcidicStomachImplant.description>имплант</AA_HyperAcidicStomachImplant.description>
-  <AA_IncendiaryMote.label>плевок</AA_IncendiaryMote.label>
-  <AA_IronhuskEggFertilized.label>яйцо</AA_IronhuskEggFertilized.label>
-  <AA_IronhuskEggFertilized.description>яйцо</AA_IronhuskEggFertilized.description>
-  <AA_IronhuskEggUnfertilized.label>яйцо</AA_IronhuskEggUnfertilized.label>
-  <AA_IronhuskEggUnfertilized.description>яйцо</AA_IronhuskEggUnfertilized.description>
+  <AA_HyperAcidicStomachImplant.label>сверхацидный желудок</AA_HyperAcidicStomachImplant.label>
+  <AA_HyperAcidicStomachImplant.description>Сверхацидный желудок. Занимает место желудка и позволяет изрыгать концентрированную кислоту.</AA_HyperAcidicStomachImplant.description>
+  <AA_IncendiaryMote.label>детонирующий плевок</AA_IncendiaryMote.label>
+  <AA_IronhuskEggFertilized.label>яйцо жука-железнопанцирника (оплодотв.)</AA_IronhuskEggFertilized.label>
+  <AA_IronhuskEggFertilized.description>Оплодотворённое яйцо жука-железнопанцирника с твёрдой металлической скорлупой.</AA_IronhuskEggFertilized.description>
+  <AA_IronhuskEggUnfertilized.label>яйцо жука-железнопанцирника (неоплодотв.)</AA_IronhuskEggUnfertilized.label>
+  <AA_IronhuskEggUnfertilized.description>Неоплодотворённое яйцо жука-железнопанцирника.</AA_IronhuskEggUnfertilized.description>
   <AA_JungleliskEggFertilized.label>яйцо джунглиска</AA_JungleliskEggFertilized.label>
-  <AA_JungleliskEggFertilized.description>яйцо</AA_JungleliskEggFertilized.description>
+  <AA_JungleliskEggFertilized.description>Оплодотворённое яйцо джунглиска. Несъедобно. Из него вылупится паук-джунглиск.</AA_JungleliskEggFertilized.description>
   <AA_JungleliskEggUnfertilized.label>яйцо джунглиска (неоплодотворённое)</AA_JungleliskEggUnfertilized.label>
-  <AA_JungleliskEggUnfertilized.description>яйцо</AA_JungleliskEggUnfertilized.description>
+  <AA_JungleliskEggUnfertilized.description>Неоплодотворённое яйцо джунглиска.</AA_JungleliskEggUnfertilized.description>
   <AA_Leather_Aerofleet.label>кожа аэрофлита</AA_Leather_Aerofleet.label>
   <AA_Leather_Aerofleet.description>A fuzzy, soft layer of pliable material. Not as tough as other types of leather, but a decent insulator.</AA_Leather_Aerofleet.description>
   <AA_Leather_Behemoth.label>кожа бегемота</AA_Leather_Behemoth.label>
   <AA_Leather_Behemoth.description>Hard overlapping scales of draconic chitin. It is exceptionally durable in combat, but provides little protection from weather.</AA_Leather_Behemoth.description>
-  <AA_LightFocusingLensImplant.label>имплант</AA_LightFocusingLensImplant.label>
-  <AA_LightFocusingLensImplant.description>имплант</AA_LightFocusingLensImplant.description>
+  <AA_LightFocusingLensImplant.label>фокусирующая линза</AA_LightFocusingLensImplant.label>
+  <AA_LightFocusingLensImplant.description>Фокусирующая линза. Концентрирует солнечную энергию в смертоносный лазерный луч.</AA_LightFocusingLensImplant.description>
   <AA_MammothWormEggFertilized.label>яйцо мамонтового червя (оплодотворённое)</AA_MammothWormEggFertilized.label>
-  <AA_MammothWormEggFertilized.description>яйцо</AA_MammothWormEggFertilized.description>
+  <AA_MammothWormEggFertilized.description>Оплодотворённое яйцо мамонтового червя. Из него вылупится гигантский мамонтовый червь.</AA_MammothWormEggFertilized.description>
   <AA_MammothWormEggUnfertilized.label>яйцо мамонтового червя (неоплодотворённое)</AA_MammothWormEggUnfertilized.label>
-  <AA_MammothWormEggUnfertilized.description>яйцо</AA_MammothWormEggUnfertilized.description>
+  <AA_MammothWormEggUnfertilized.description>Неоплодотворённое яйцо мамонтового червя.</AA_MammothWormEggUnfertilized.description>
   <AA_MegalouseEggFertilized.label>яйцо мегавши (оплодотворённое)</AA_MegalouseEggFertilized.label>
-  <AA_MegalouseEggFertilized.description>яйцо</AA_MegalouseEggFertilized.description>
+  <AA_MegalouseEggFertilized.description>Оплодотворённое яйцо мегавши. Из него вылупится бронированная мегавошь.</AA_MegalouseEggFertilized.description>
   <AA_MegalouseEggUnfertilized.label>яйцо мегавши (неоплодотворённое)</AA_MegalouseEggUnfertilized.label>
-  <AA_MegalouseEggUnfertilized.description>яйцо</AA_MegalouseEggUnfertilized.description>
+  <AA_MegalouseEggUnfertilized.description>Неоплодотворённое яйцо мегавши.</AA_MegalouseEggUnfertilized.description>
   <AA_MothSilk.label>шёлк мотылька</AA_MothSilk.label>
   <AA_MothSilk.description>A very tough silk extracted from Angel moths. Very poor insulator.</AA_MothSilk.description>
   <AA_MutantArm.label>мутантная рука</AA_MutantArm.label>
   <AA_MutantArm.description>This arm twitches and bends in strange unnatural ways, as if it had a mind of its own. Something seems... off about it, as if it wasn't a completely natural creation.</AA_MutantArm.description>
   <AA_MutantEye.label>мутантный глаз</AA_MutantEye.label>
   <AA_MutantEye.description>This eye constantly blinks on its own, like a nervous tic, and a second set of vertical eyelids seems to be present behind the normal, human ones. Something seems... off about it, as if it wasn't a completely natural creation.</AA_MutantEye.description>
-  <AA_MutantLeg.label>лапка</AA_MutantLeg.label>
-  <AA_MutantLeg.description>лапка</AA_MutantLeg.description>
-  <AA_MycoidColossusSpores.label>споры</AA_MycoidColossusSpores.label>
-  <AA_MycoidColossusSpores.description>споры</AA_MycoidColossusSpores.description>
+  <AA_MutantLeg.label>мутантная лапа</AA_MutantLeg.label>
+  <AA_MutantLeg.description>Мутантная конечность. Значительно повышает скорость перемещения животного.</AA_MutantLeg.description>
+  <AA_MycoidColossusSpores.label>споры грибного колосса (оплодотв.)</AA_MycoidColossusSpores.label>
+  <AA_MycoidColossusSpores.description>Оплодотворённые споры грибного колосса. Из них произрастает гигантский колосс.</AA_MycoidColossusSpores.description>
   <AA_NightMilk.label>ночное молоко</AA_NightMilk.label>
   <AA_NightMilk.description>Very nutritive but the colour is more than a little unsettling.</AA_NightMilk.description>
   <AA_NightWool.label>ночная шерсть</AA_NightWool.label>
@@ -270,7 +270,7 @@
   <AA_Plant_PollenTrumpet.label>пыльцевая трубка</AA_Plant_PollenTrumpet.label>
   <AA_Plant_PollenTrumpet.description>A cultivated flower with a tubular structure and bright orange flowers when mature. Pollen trumpets are the favourite food source of empress butterflies.</AA_Plant_PollenTrumpet.description>
   <AA_Plasma.label>плазменный всплеск</AA_Plasma.label>
-  <AA_PoisonBolt.label>плевок</AA_PoisonBolt.label>
+  <AA_PoisonBolt.label>ядовитый плевок</AA_PoisonBolt.label>
   <AA_ProstheticBeak.label>простой протез клюва</AA_ProstheticBeak.label>
   <AA_ProstheticBeak.description>Simple prosthetic beak. Should be able to replace almost any avian-like beak.</AA_ProstheticBeak.description>
   <AA_ProstheticBuoyancyMechanism.label>простой протез плавучести</AA_ProstheticBuoyancyMechanism.label>
@@ -282,29 +282,29 @@
   <AA_ProstheticWing.label>простой протез крыла</AA_ProstheticWing.label>
   <AA_ProstheticWing.description>Simple prosthetic wing. Should be able to replace any type of wing.</AA_ProstheticWing.description>
   <AA_PsyWeb.label>пси-паутина</AA_PsyWeb.label>
-  <AA_QuadTeslaCannonImplant.label>имплант</AA_QuadTeslaCannonImplant.label>
-  <AA_QuadTeslaCannonImplant.description>имплант</AA_QuadTeslaCannonImplant.description>
-  <AA_Quill.label>иглы</AA_Quill.label>
+  <AA_QuadTeslaCannonImplant.label>четырёхствольная тесла-пушка</AA_QuadTeslaCannonImplant.label>
+  <AA_QuadTeslaCannonImplant.description>Четырёхствольная тесла-пушка. Плазменная турель, вживлённая в тело зверя.</AA_QuadTeslaCannonImplant.description>
+  <AA_Quill.label>игла</AA_Quill.label>
   <AA_RandomBricks.label>случайные кирпичи</AA_RandomBricks.label>
   <AA_RandomBricks.description>This should never appear ingame. If it does, it's a bug</AA_RandomBricks.description>
   <AA_RandomStones.label>случайный камень</AA_RandomStones.label>
   <AA_RandomStones.description>This should never appear ingame. If it does, it's a bug</AA_RandomStones.description>
-  <AA_RangedSpinneretImplant.label>имплант</AA_RangedSpinneretImplant.label>
-  <AA_RangedSpinneretImplant.description>имплант</AA_RangedSpinneretImplant.description>
+  <AA_RangedSpinneretImplant.label>дистанционная паутина</AA_RangedSpinneretImplant.label>
+  <AA_RangedSpinneretImplant.description>Дистанционная паутина. Позволяет опутать и обездвижить приближающихся врагов.</AA_RangedSpinneretImplant.description>
   <AA_RedGas.label>красный газ</AA_RedGas.label>
   <AA_RedLeaves.label>инопланетное растение</AA_RedLeaves.label>
   <AA_RedLeaves.description>This grass is completely alien, probably not even 100% carbon based, and it seems to be decaying quickly from exposure to a terrestrial environment.</AA_RedLeaves.description>
   <AA_RedPlantsTall.label>инопланетное растение</AA_RedPlantsTall.label>
   <AA_RedPlantsTall.description>This grass is completely alien, probably not even 100% carbon based, and it seems to be decaying quickly from exposure to a terrestrial environment.</AA_RedPlantsTall.description>
-  <AA_RedPoisonBolt.label>плевок</AA_RedPoisonBolt.label>
+  <AA_RedPoisonBolt.label>красный ядовитый плевок</AA_RedPoisonBolt.label>
   <AA_RottingMound.label>курган перебродившей гнили</AA_RottingMound.label>
-  <AA_RottingMound.description>орудие</AA_RottingMound.description>
+  <AA_RottingMound.description>Куча гниющей органики, источающая резкий запах брожения и гнили.</AA_RottingMound.description>
   <AA_RottingMoundItem.label>курган перебродившей гнили</AA_RottingMoundItem.label>
-  <AA_RottingMoundItem.description>орудие</AA_RottingMoundItem.description>
+  <AA_RottingMoundItem.description>Кусок перебродившей органической массы, пригодный для использования в некоторых биохимических процессах.</AA_RottingMoundItem.description>
   <AA_SandLion_Leather.label>кожа песчаного льва</AA_SandLion_Leather.label>
   <AA_SandLion_Leather.description>Cream coloured thick leather covered in a long, rugged mat of fur. Harvested from a sand lion. This thick skin insulates from heat and protects really well.</AA_SandLion_Leather.description>
   <AA_SandPuff.label>мелкодисперсный песок</AA_SandPuff.label>
-  <AA_SiegeTurret.label>орудие</AA_SiegeTurret.label>
+  <AA_SiegeTurret.label>осадная турель</AA_SiegeTurret.label>
   <AA_SkySteel.label>небесная сталь</AA_SkySteel.label>
   <AA_SkySteel.description>A weird iron based compound found in a fallen asteroid. Stronger than normal steel, but a terrible insulator.</AA_SkySteel.description>
   <AA_SkySteelClumps.label>странный блестящий минерал</AA_SkySteelClumps.label>
@@ -317,30 +317,30 @@
   <AA_TheNumbingEye.label>ошеломляющий глаз</AA_TheNumbingEye.label>
   <AA_TheNumbingEye.description>This strange mutant eye is covered by dense plates of bone instead of a normal fleshy eyelid, and seems to be almost impervious to pain.</AA_TheNumbingEye.description>
   <AA_TheOmniscientEye.label>всевидящий глаз</AA_TheOmniscientEye.label>
-  <AA_TheOmniscientEye.description>выстрел</AA_TheOmniscientEye.description>
+  <AA_TheOmniscientEye.description>Всевидящее око. Ужасный мутантный орган с треугольным зрачком, наделяющий владельца псионическим зрением.</AA_TheOmniscientEye.description>
   <AA_TheQuiescentEye.label>умиротворяющий глаз</AA_TheQuiescentEye.label>
   <AA_TheQuiescentEye.description>An eye that never blinks, keeping itself moist by unknown means. It pervades its host with a sense of preternatural calmness.</AA_TheQuiescentEye.description>
   <AA_TheRecalcitrantEye.label>строптивый глаз</AA_TheRecalcitrantEye.label>
-  <AA_TheRecalcitrantEye.description>атака</AA_TheRecalcitrantEye.description>
+  <AA_TheRecalcitrantEye.description>Упорствующий глаз. Мутантный полуприкрытый глаз, защищающий носителя от психических воздействий.</AA_TheRecalcitrantEye.description>
   <AA_TheSpasmodicEye.label>судорожный глаз</AA_TheSpasmodicEye.label>
   <AA_TheSpasmodicEye.description>An eye that can't stop blinking uncontrollably. While extremely distracting and disconcerting, it allows its host to cast more psychic powers before exhaustion.</AA_TheSpasmodicEye.description>
-  <AA_ToxicInk.label>плевок</AA_ToxicInk.label>
+  <AA_ToxicInk.label>ядовитые чернила</AA_ToxicInk.label>
   <AA_UraniumCrystals.label>неочищенные кристаллы урана</AA_UraniumCrystals.label>
   <AA_UraniumCrystals.description>This crystal can be refined in a chemfuel refinery into uranium.</AA_UraniumCrystals.description>
-  <AA_VenomousSpitterImplant.label>имплант</AA_VenomousSpitterImplant.label>
-  <AA_VenomousSpitterImplant.description>имплант</AA_VenomousSpitterImplant.description>
+  <AA_VenomousSpitterImplant.label>ядовитый плеватель</AA_VenomousSpitterImplant.label>
+  <AA_VenomousSpitterImplant.description>Ядовитый плеватель. Позволяет поражать цели ядовитыми зарядами на расстоянии.</AA_VenomousSpitterImplant.description>
   <AA_Web.label>паутина</AA_Web.label>
-  <AA_WildpawnSpores.label>лапа</AA_WildpawnSpores.label>
-  <AA_WildpawnSpores.description>лапа</AA_WildpawnSpores.description>
-  <AA_WildpodSpores.label>споры</AA_WildpodSpores.label>
-  <AA_WildpodSpores.description>споры</AA_WildpodSpores.description>
+  <AA_WildpawnSpores.label>споры дикопешки (оплодотв.)</AA_WildpawnSpores.label>
+  <AA_WildpawnSpores.description>Оплодотворённые споры дикопешки. Из них вырастет дикопешка.</AA_WildpawnSpores.description>
+  <AA_WildpodSpores.label>споры дикопода (оплодотв.)</AA_WildpodSpores.label>
+  <AA_WildpodSpores.description>Оплодотворённые споры дикопода. Из них вырастет массивный дикопод.</AA_WildpodSpores.description>
   <AA_WindBolt.label>ветряной порыв</AA_WindBolt.label>
-  <AB_BionicClaw.label>коготь</AB_BionicClaw.label>
-  <AB_BionicClaw.description>коготь</AB_BionicClaw.description>
+  <AB_BionicClaw.label>бионический коготь</AB_BionicClaw.label>
+  <AB_BionicClaw.description>Улучшенный бионический коготь из прочных сплавов для опасных хищников.</AB_BionicClaw.description>
   <AB_RawRedSlime.label>сырая красная слизь</AB_RawRedSlime.label>
   <AB_RawRedSlime.description>Raw red slime. This thing is edible. Barely.</AB_RawRedSlime.description>
-  <AB_SimpleProstheticClaw.label>коготь</AB_SimpleProstheticClaw.label>
-  <AB_SimpleProstheticClaw.description>коготь</AB_SimpleProstheticClaw.description>
+  <AB_SimpleProstheticClaw.label>простой протез когтя</AB_SimpleProstheticClaw.label>
+  <AB_SimpleProstheticClaw.description>Простой протез когтя для восстановления боеспособности животного.</AB_SimpleProstheticClaw.description>
   <GU_RedWood.label>красное дерево</GU_RedWood.label>
   <GU_RedWood.description>This red tinged wood is oddly strong, and a sweet scent emanates from it. Less flammable than terrestrial wood, but quite ugly.</GU_RedWood.description>
   <Leather_BlackChitin.label>чёрный хитин инсектоида</Leather_BlackChitin.label>
@@ -358,15 +358,15 @@
   <Leather_RaptorPlates.label>закалённый хитин</Leather_RaptorPlates.label>
   <Leather_RaptorPlates.description>Overlapping plates of hardened chitin. Really durable in combat, but provides little protection from weather.</Leather_RaptorPlates.description>
   <VEF_AdvancedAnimalImplantsTable.label>верстак продвинутого протезирования животных</VEF_AdvancedAnimalImplantsTable.label>
-  <VEF_AdvancedAnimalImplantsTable.description>имплант</VEF_AdvancedAnimalImplantsTable.description>
-  <VFEI2_AA_ArtificialBlackHive.label>улей</VFEI2_AA_ArtificialBlackHive.label>
-  <VFEI2_AA_ArtificialBlackHive.description>лапа</VFEI2_AA_ArtificialBlackHive.description>
+  <VEF_AdvancedAnimalImplantsTable.description>Верстак для извлечения особых способностей животных и их трансплантации другим особям. Позволяет пересаживать дальнобойные атаки между видами.</VEF_AdvancedAnimalImplantsTable.description>
+  <VFEI2_AA_ArtificialBlackHive.label>искусственный Чёрный Улей</VFEI2_AA_ArtificialBlackHive.label>
+  <VFEI2_AA_ArtificialBlackHive.description>Искусственно созданное гнездо гигантских насекомых, способное выводить различные особи генолинии Чёрного Улья.</VFEI2_AA_ArtificialBlackHive.description>
   <VFEI2_AA_BlackHive.label>чёрный улей</VFEI2_AA_BlackHive.label>
-  <VFEI2_AA_BlackHive.description>лапа</VFEI2_AA_BlackHive.description>
+  <VFEI2_AA_BlackHive.description>Природное гнездо инсектоидов Чёрного Улья. При тревоге выпускает агрессивных насекомых-защитников.</VFEI2_AA_BlackHive.description>
   <VFEI2_BlackInsectoidCocoon.label>чёрный кокон инсектоида</VFEI2_BlackInsectoidCocoon.label>
   <VFEI2_BlackInsectoidCocoon.description>These jelly cocoons keep black swarmlings safe from fire, extreme temperatures, and other threats while they undergo a metamorphosis process. After some time has passed, the cocoon will burst, releasing a fully grown insectoid.</VFEI2_BlackInsectoidCocoon.description>
   <VFEI2_PherocoreBlack.label>чёрное фероядро</VFEI2_PherocoreBlack.label>
-  <VFEI2_PherocoreBlack.description>улей</VFEI2_PherocoreBlack.description>
+  <VFEI2_PherocoreBlack.description>Феромонное микроядро Чёрного Улья. Необходимый компонент для постройки специализированных инсектоидных гнезд.</VFEI2_PherocoreBlack.description>
   <VFEI2_Thumper_BlackEmpress.label>колотильщик чёрной императрицы</VFEI2_Thumper_BlackEmpress.label>
-  <VFEI2_Thumper_BlackEmpress.description>атака</VFEI2_Thumper_BlackEmpress.description>
+  <VFEI2_Thumper_BlackEmpress.description>Вибрационный грохот. При активации испускает мощные сейсмические импульсы, привлекающие на поле боя свирепую Чёрную Императрицу.</VFEI2_Thumper_BlackEmpress.description>
 </LanguageData>
