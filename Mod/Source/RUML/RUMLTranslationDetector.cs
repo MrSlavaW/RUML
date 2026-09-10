@@ -167,12 +167,24 @@ namespace RUML
             return translationToTargets.TryGetValue(transPackageId, out targetMods) && targetMods != null && targetMods.Count > 0;
         }
 
-        public static string GetTranslationModSelfBadge(string transPackageId, int maxChars = 24)
+        public static string GetTranslationModSelfBadge(string transPackageId, string transModName = null, int maxChars = 20)
         {
             List<TargetModInfo> targets;
             if (!IsTranslationMod(transPackageId, out targets))
             {
                 return "";
+            }
+
+            // If the translation mod's own name already contains the target mod's name,
+            // a concise [Мод-перевод] badge is clean, readable, and prevents line overflow.
+            if (!string.IsNullOrEmpty(transModName) && targets.Count == 1)
+            {
+                string cleanTrans = CleanModNameForMatching(transModName);
+                string cleanTarget = CleanModNameForMatching(targets[0].TargetName);
+                if (!string.IsNullOrEmpty(cleanTarget) && cleanTrans.Contains(cleanTarget))
+                {
+                    return " <color=#40E0D0>[Мод-перевод]</color>";
+                }
             }
 
             if (targets.Count == 1)
@@ -182,13 +194,13 @@ namespace RUML
                 {
                     tName = tName.Substring(0, maxChars - 2) + "..";
                 }
-                return " <color=#40E0D0>[Перевод для: " + tName + "]</color>";
+                return " <color=#40E0D0>[Перевод: " + tName + "]</color>";
             }
 
             if (targets.Count > 1)
             {
                 string first = targets[0].TargetName;
-                if (first.Length > 16) first = first.Substring(0, 14) + "..";
+                if (first.Length > 14) first = first.Substring(0, 12) + "..";
                 return " <color=#40E0D0>[Перевод: " + first + " (+" + (targets.Count - 1) + ")]</color>";
             }
 

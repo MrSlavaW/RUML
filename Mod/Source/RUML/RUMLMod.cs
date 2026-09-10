@@ -674,7 +674,9 @@ namespace RUML
                 }
             }
 
-            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, filteredMods.Count * 36f);
+            float rowHeight = 38f;
+            float rowStep = 42f;
+            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, filteredMods.Count * rowStep);
             Widgets.BeginScrollView(listRect, ref auditModsScrollPos, viewRect);
 
             float curY = 0f;
@@ -682,7 +684,7 @@ namespace RUML
             {
                 string pid = mod.PackageIdPlayerFacing;
                 bool isSelected = Settings.IsAuditModSelected(pid);
-                Rect rowRect = new Rect(0f, curY, viewRect.width, 32f);
+                Rect rowRect = new Rect(0f, curY, viewRect.width, rowHeight);
                 Widgets.DrawBoxSolid(rowRect, RUMLUI.ColorCardBg);
                 Widgets.DrawHighlightIfMouseover(rowRect);
 
@@ -708,7 +710,7 @@ namespace RUML
                 if (RUMLTranslationDetector.IsTranslationMod(mod.PackageId, out targetMods) ||
                     RUMLTranslationDetector.IsTranslationMod(pid, out targetMods))
                 {
-                    transBadge = RUMLTranslationDetector.GetTranslationModSelfBadge(mod.PackageId);
+                    transBadge = RUMLTranslationDetector.GetTranslationModSelfBadge(mod.PackageId, mod.Name);
                     transTip = RUMLTranslationDetector.GetTranslationModSelfTooltip(mod.PackageId);
                 }
                 else
@@ -722,22 +724,51 @@ namespace RUML
                     }
                 }
 
-                string labelText = "  " + GetModDisplayName(mod) + tag + transBadge + " <color=grey>(" + pid + ")</color>";
+                // Col 1 & 2 Text: 2 lines
+                float chkSize = 24f;
+                float textX = rowRect.x + 8f;
+                float textW = rowRect.width - chkSize - 20f;
 
+                // Line 1: Mod Name + Badges
+                Rect titleRect = new Rect(textX, curY + 2f, textW, 20f);
+                string titleText = GetModDisplayName(mod) + tag + transBadge;
+                bool prevWrap = Text.WordWrap;
+                Text.WordWrap = false;
+                Text.Font = GameFont.Small;
+                Widgets.Label(titleRect, titleText);
+
+                // Line 2: PackageId in tiny font
+                Rect pidRect = new Rect(textX, curY + 20f, textW, 16f);
+                Text.Font = GameFont.Tiny;
+                Widgets.Label(pidRect, "<color=#888888>(" + pid + ")</color>");
+                Text.Font = GameFont.Small;
+                Text.WordWrap = prevWrap;
+
+                // Checkbox on the right
+                Rect checkR = new Rect(rowRect.width - chkSize - 8f, curY + 7f, chkSize, chkSize);
                 bool newCheck = isSelected;
-                Rect checkR = new Rect(rowRect.x + 4f, curY + 1f, rowRect.width - 8f, 30f);
-                Widgets.CheckboxLabeled(checkR, labelText, ref newCheck);
+                Widgets.Checkbox(checkR.x, checkR.y, ref newCheck);
+
+                // Clicking anywhere on the row card also toggles the checkbox
+                Rect clickRowRect = new Rect(rowRect.x, rowRect.y, rowRect.width - chkSize - 12f, rowRect.height);
+                if (Widgets.ButtonInvisible(clickRowRect))
+                {
+                    newCheck = !isSelected;
+                }
+
                 if (newCheck != isSelected)
                 {
                     Settings.SetAuditModSelected(pid, newCheck);
                 }
 
+                string fullTip = GetModDisplayName(mod) + "\n(" + pid + ")";
                 if (!string.IsNullOrEmpty(transTip))
                 {
-                    TooltipHandler.TipRegion(rowRect, transTip);
+                    fullTip += "\n\n" + transTip;
                 }
+                TooltipHandler.TipRegion(rowRect, fullTip);
 
-                curY += 36f;
+                curY += rowStep;
             }
 
             Widgets.EndScrollView();
@@ -903,7 +934,7 @@ namespace RUML
                 List<TargetModInfo> repTargetMods;
                 if (RUMLTranslationDetector.IsTranslationMod(rep.PackageId, out repTargetMods))
                 {
-                    transBadge = RUMLTranslationDetector.GetTranslationModSelfBadge(rep.PackageId);
+                    transBadge = RUMLTranslationDetector.GetTranslationModSelfBadge(rep.PackageId, rep.ModName);
                     transTip = RUMLTranslationDetector.GetTranslationModSelfTooltip(rep.PackageId);
                 }
                 else
