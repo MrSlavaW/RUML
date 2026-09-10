@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Insect jelly -->
+  <AA_BlackDefiler.comps.CompRefuelable.fuelGizmoLabel>Желе насекомых</AA_BlackDefiler.comps.CompRefuelable.fuelGizmoLabel>
+
+  <!-- EN: Insect jelly -->
+  <AA_BlackDefiler.comps.CompRefuelable.fuelLabel>Желе насекомых</AA_BlackDefiler.comps.CompRefuelable.fuelLabel>
+
+  <!-- EN: black defiler -->
+  <AA_BlackDefiler_Gun.verbs.Verb_Shoot.label>чёрный осквернитель</AA_BlackDefiler_Gun.verbs.Verb_Shoot.label>
+
+  <!-- EN: Insect jelly -->
+  <AA_FoamBelcher.comps.CompRefuelable.fuelGizmoLabel>Желе насекомых</AA_FoamBelcher.comps.CompRefuelable.fuelGizmoLabel>
+
+  <!-- EN: Insect jelly -->
+  <AA_FoamBelcher.comps.CompRefuelable.fuelLabel>Желе насекомых</AA_FoamBelcher.comps.CompRefuelable.fuelLabel>
+
+  <!-- EN: No insect jelly -->
+  <AA_FoamBelcher.comps.CompRefuelable.outOfFuelMessage>Нет желе насекомых</AA_FoamBelcher.comps.CompRefuelable.outOfFuelMessage>
+
+  <!-- EN: foam belcher -->
+  <AA_FoamBelcher_Gun.verbs.Verb_ArcSprayProjectile.label>пеномёт</AA_FoamBelcher_Gun.verbs.Verb_ArcSprayProjectile.label>
+
+  <!-- EN: Activate thumper -->
+  <VFEI2_Thumper_BlackEmpress.comps.CompUsable.useLabel>Активировать колотушку</VFEI2_Thumper_BlackEmpress.comps.CompUsable.useLabel>
+
+  <!-- EN: Use {0_labelShort} to increase the size of the hive -->
+  <VFEI2_PherocoreBlack.comps.CompUsable.useLabel>Использовать {0_labelShort} для увеличения размера улья</VFEI2_PherocoreBlack.comps.CompUsable.useLabel>
+
+  <!-- EN: Plant huge anima pearl -->
+  <AA_HugeAnimaPearl.comps.CompUsable.useLabel>Посадить огромную жемчужину анимы</AA_HugeAnimaPearl.comps.CompUsable.useLabel>
+
+  <!-- EN: Asexual fission in: -->
+  <AA_Aerofleet.comps.CompAsexualReproduction.customString>Бесполое деление через:</AA_Aerofleet.comps.CompAsexualReproduction.customString>
+
+  <!-- EN: Asexual fission in: -->
+  <AA_ColossalAerofleet.comps.CompAsexualReproduction.customString>Бесполое деление через:</AA_ColossalAerofleet.comps.CompAsexualReproduction.customString>
+
+  <!-- EN: Dispersing spores in: -->
+  <AA_Agaripawn.comps.CompAsexualReproduction.customString>Рассеивание спор через:</AA_Agaripawn.comps.CompAsexualReproduction.customString>
+
+  <!-- EN: Dispersing spores in: -->
+  <AA_Agaripod.comps.CompAsexualReproduction.customString>Рассеивание спор через:</AA_Agaripod.comps.CompAsexualReproduction.customString>
+
+  <!-- EN: lion meat -->
+  <AA_ArcticLion.race.meatLabel>львиное мясо</AA_ArcticLion.race.meatLabel>
+
+  <!-- EN: Absorbing sunlight -->
+  <AA_AuroraSylph.comps.CompAutoNutrition.consumingFoodReportString>Поглощение солнечного света</AA_AuroraSylph.comps.CompAutoNutrition.consumingFoodReportString>
+
+  <!-- EN: crab meat -->
+  <AA_BoulderMit.race.meatLabel>крабовое мясо</AA_BoulderMit.race.meatLabel>
+
+  <!-- EN: Cloning in: -->
+  <AA_GreenGoo.comps.CompAsexualReproduction.customString>Клонирование через:</AA_GreenGoo.comps.CompAsexualReproduction.customString>
+
+  <!-- EN: slug meat -->
+  <AA_Helixien.race.meatLabel>мясо слизня</AA_Helixien.race.meatLabel>
+
+  <!-- EN: Asexual fission in: -->
+  <AA_InfectedAerofleet.comps.CompAsexualReproduction.customString>Бесполое деление через:</AA_InfectedAerofleet.comps.CompAsexualReproduction.customString>
+
+  <!-- EN: meadow ave meat -->
+  <AA_MeadowAve.race.meatLabel>мясо луговой авы</AA_MeadowAve.race.meatLabel>
+
+  <!-- EN: Dispersing spores in: -->
+  <AA_MycoidColossus.comps.CompAsexualReproduction.customString>Рассеивание спор через:</AA_MycoidColossus.comps.CompAsexualReproduction.customString>
+
+  <!-- EN: dark marbled steak -->
+  <AA_NightMule.race.meatLabel>тёмный мраморный стейк</AA_NightMule.race.meatLabel>
+
+  <!-- EN: Asexual fission in: -->
+  <AA_OcularJelly.comps.CompAsexualReproduction.customString>Бесполое деление через:</AA_OcularJelly.comps.CompAsexualReproduction.customString>
+
+  <!-- EN: raptor shrimp flesh -->
+  <AA_RaptorShrimp.race.meatLabel>мясо раптора-креветки</AA_RaptorShrimp.race.meatLabel>
+
+  <!-- EN: Cloning in: -->
+  <AA_RedGoo.comps.CompAsexualReproduction.customString>Клонирование через:</AA_RedGoo.comps.CompAsexualReproduction.customString>
+
+  <!-- EN: lizard meat -->
+  <AA_RoughPlatedMonitor.race.meatLabel>мясо ящерицы</AA_RoughPlatedMonitor.race.meatLabel>
+
+  <!-- EN: squid meat -->
+  <AA_SandSquid.race.meatLabel>мясо кальмара</AA_SandSquid.race.meatLabel>
+
+  <!-- EN: Cloning in: -->
+  <AA_TeratogenicOriginator.comps.CompAsexualReproduction.customString>Клонирование через:</AA_TeratogenicOriginator.comps.CompAsexualReproduction.customString>
+
+  <!-- EN: Dispersing spores in: -->
+  <AA_Wildpawn.comps.CompAsexualReproduction.customString>Рассеивание спор через:</AA_Wildpawn.comps.CompAsexualReproduction.customString>
+
+  <!-- EN: Dispersing spores in: -->
+  <AA_Wildpod.comps.CompAsexualReproduction.customString>Рассеивание спор через:</AA_Wildpod.comps.CompAsexualReproduction.customString>
+
+</LanguageData>

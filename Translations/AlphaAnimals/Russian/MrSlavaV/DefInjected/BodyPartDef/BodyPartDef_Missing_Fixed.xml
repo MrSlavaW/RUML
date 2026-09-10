@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: chassis -->
+  <AA_TankPlateFirst.labelShort>шасси</AA_TankPlateFirst.labelShort>
+
+  <!-- EN: chassis -->
+  <AA_TankPlateSecond.labelShort>шасси</AA_TankPlateSecond.labelShort>
+
+  <!-- EN: chassis -->
+  <AA_TankPlateThird.labelShort>шасси</AA_TankPlateThird.labelShort>
+
+  <!-- EN: chassis -->
+  <AA_TankPlateFourth.labelShort>шасси</AA_TankPlateFourth.labelShort>
+
+  <!-- EN: chassis -->
+  <AA_TankPlateFifth.labelShort>шасси</AA_TankPlateFifth.labelShort>
+
+  <!-- EN: chassis -->
+  <AA_TankPlateSixth.labelShort>шасси</AA_TankPlateSixth.labelShort>
+
+</LanguageData>

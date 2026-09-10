@@ -4,17 +4,22 @@
   <RS.CancelGeneSeparatingDesc>Отменить процесс разделения генов.</RS.CancelGeneSeparatingDesc>
   <RS.CancelInfusingDesc>Отменить имплантацию этого пустотного шипа {PAWN_nameDef}.</RS.CancelInfusingDesc>
   <RS.CancelInfusion>Отменить операцию</RS.CancelInfusion>
+  <RS.CancelSeparating>Отменить разделение</RS.CancelSeparating>
   <RS.CancelXenogermDuplication>Отменить дублирование ксеногерма</RS.CancelXenogermDuplication>
   <RS.CancelXenogermDuplicationDesc>Отменить дублирование ксеногерма.</RS.CancelXenogermDuplicationDesc>
   <RS.CannotInfuseAlreadyHasDarkGene>Невозможно имплантировать {1}, у {PAWN_nameDef} уже есть этот темный ген.</RS.CannotInfuseAlreadyHasDarkGene>
   <RS.CentrigureWorking>Центрифуга генов работает.</RS.CentrigureWorking>
   <RS.ContainsGenepack>Содержит: {0}</RS.ContainsGenepack>
   <RS.ContainsXenogerm>Содержит: {0}</RS.ContainsXenogerm>
+  <RS.DuplicateXenogerm>Дублировать ксеногерм</RS.DuplicateXenogerm>
   <RS.DuplicateXenogermDesc>Выберите ксеногерм для дублирования. Для ксеногермов с архотек-генами требуется загрузка капсул с архоитами.</RS.DuplicateXenogermDesc>
+  <RS.DuplicatingXenogerm>Идет синтез дубликата</RS.DuplicatingXenogerm>
   <RS.DuplicationProgress>Дублирование: {0}</RS.DuplicationProgress>
   <RS.DuplicatorWorking>Дубликатор ксеногермов работает</RS.DuplicatorWorking>
   <RS.EjectArchites>Извлечь капсулы с архоитами</RS.EjectArchites>
   <RS.EjectArchitesDesc>Выгрузить все загруженные капсулы с архоитами на землю.</RS.EjectArchitesDesc>
+  <RS.FinishedSeparatingDestroyedMessage>Генная центрифуга завершила разделение. Образец {0} был безвозвратно поврежден в ходе реакции.</RS.FinishedSeparatingDestroyedMessage>
+  <RS.FinishedSeparatingMessage>Генная центрифуга успешно разделила пакет генов!</RS.FinishedSeparatingMessage>
   <RS.FinishedXenogermDuplicationMessage>Дубликатор ксеногермов завершил дублирование ксеногерма!</RS.FinishedXenogermDuplicationMessage>
   <RS.InfuseDarkArchite>Имплантировать пустотный шип</RS.InfuseDarkArchite>
   <RS.InfuseDarkArchiteDesc>Имплантировать этот шип существу, чтобы внедрить темный архотек-ген в его генетический код.
@@ -24,12 +29,20 @@
   <RS.InfuseDarkArchiteWarningNewMetabolism>После процедуры значение метаболизма {PAWN_nameDef} составит {MET}, а множитель потребления пищи — {CONSUMPTION}.</RS.InfuseDarkArchiteWarningNewMetabolism>
   <RS.LetterDarkArchiteOrderedInfused>Вы назначили операцию по имплантации пустотного шипа {PAWN_nameDef}. Для этой процедуры требуется медицинская кровать.
 
-Вы можете отменить операцию во вкладке «Здоровье» -&gt; «Операции».</RS.LetterDarkArchiteOrderedInfused>
+Вы можете отменить операцию во вкладке «Здоровье» -> «Операции».</RS.LetterDarkArchiteOrderedInfused>
   <RS.LetterLabelDarkArchiteOrderedInfused>Назначена имплантация пустотного шипа</RS.LetterLabelDarkArchiteOrderedInfused>
   <RS.MessageCannotInfuseInTempFactionMembers>Нельзя проводить имплантацию временным членам фракции.</RS.MessageCannotInfuseInTempFactionMembers>
   <RS.NotEnoughArchiteCapsulesLoaded>Вы действительно хотите дублировать этот ксеногерм? Загружено недостаточно капсул с архоитами для дублирования всех архотек-генов внутри него.</RS.NotEnoughArchiteCapsulesLoaded>
   <RS.OrderInfusionIntoPawn>Назначить имплантацию {PAWN_nameDef}</RS.OrderInfusionIntoPawn>
   <RS.SelectAGeneToSeparate>Выберите ген для разделения.</RS.SelectAGeneToSeparate>
+  <RS.SelectGene>Выберите целевой ген</RS.SelectGene>
+  <RS.SelectGeneExplanation>Выбранный ген будет отделен от остального генпака.</RS.SelectGeneExplanation>
+  <RS.SeparateGene>Выделить ген</RS.SeparateGene>
+  <RS.SeparateGeneDesc>Выбрать генпак, из которого необходимо изолировать отдельный ген.</RS.SeparateGeneDesc>
+  <RS.SeparateGeneExplanation>После успешного завершения процесса центрифуга создаст два генпака: один с выбранным изолированным геном, а второй — со всеми оставшимися. Процесс сопряжен с риском повреждения образца.</RS.SeparateGeneExplanation>
+  <RS.SeparatingGenes>Идет разделение генов</RS.SeparatingGenes>
+  <RS.SeparatingProgress>Прогресс разделения: {0}</RS.SeparatingProgress>
+  <RS.StartSeparating>Начать процесс разделения</RS.StartSeparating>
   <RS.TargetArchiteCapsuleLevel>Целевое количество капсул с архоитами: {0}</RS.TargetArchiteCapsuleLevel>
   <RS.TargetMustHaveAtLeastOneDarkGene>Цель должна обладать хотя бы одним темным архотек-геном.</RS.TargetMustHaveAtLeastOneDarkGene>
 </LanguageData>

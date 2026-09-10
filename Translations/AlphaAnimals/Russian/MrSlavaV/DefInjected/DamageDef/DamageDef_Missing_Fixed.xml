@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: {0} has been bitten to death. -->
+  <AAVPE_InfectedMandibles.deathMessage>{0} был насмерть закусан.</AAVPE_InfectedMandibles.deathMessage>
+
+  <!-- EN: {0} has been corroded to death. -->
+  <AA_OverpoweringSecondaryAcidBurn.deathMessage>{0} был насмерть разъеден кислотой.</AA_OverpoweringSecondaryAcidBurn.deathMessage>
+
+  <!-- EN: {0} has been stung to death. -->
+  <AA_ToxicSting.deathMessage>{0} был насмерть ужален.</AA_ToxicSting.deathMessage>
+
+  <!-- EN: {0} has been bitten to death. -->
+  <AA_ToxicBite.deathMessage>{0} был насмерть закусан.</AA_ToxicBite.deathMessage>
+
+  <!-- EN: {0} has been cut to death. -->
+  <AA_InfectedClaws.deathMessage>{0} был насмерть изрезан.</AA_InfectedClaws.deathMessage>
+
+  <!-- EN: {0} has been cut to death. -->
+  <AA_ExtraDamageInsectoidsClaws.deathMessage>{0} был насмерть изрезан.</AA_ExtraDamageInsectoidsClaws.deathMessage>
+
+  <!-- EN: {0} has been bitten to death. -->
+  <AA_ExtraDamageMechanoidsClaws.deathMessage>{0} был насмерть закусан.</AA_ExtraDamageMechanoidsClaws.deathMessage>
+
+  <!-- EN: {0} has been bitten to death. -->
+  <AA_ExtraDamageMechanoidsTusk.deathMessage>{0} был насмерть закусан.</AA_ExtraDamageMechanoidsTusk.deathMessage>
+
+  <!-- EN: {0} has been cut to death. -->
+  <AA_ExtraDamageMechanoidsBite.deathMessage>{0} был насмерть изрезан.</AA_ExtraDamageMechanoidsBite.deathMessage>
+
+  <!-- EN: {0} has been poisoned to death. -->
+  <AA_BlackHiveBolt.deathMessage>{0} был насмерть отравлен.</AA_BlackHiveBolt.deathMessage>
+
+  <!-- EN: {0} has been beaten to death. -->
+  <AA_EMPBlunt.deathMessage>{0} был насмерть забит.</AA_EMPBlunt.deathMessage>
+
+  <!-- EN: {0} has been cut to death. -->
+  <AA_EMPSlash.deathMessage>{0} был насмерть изрезан.</AA_EMPSlash.deathMessage>
+
+  <!-- EN: {0} has been stung to death. -->
+  <AA_ToxicBolt.deathMessage>{0} был насмерть ужален.</AA_ToxicBolt.deathMessage>
+
+  <!-- EN: {0} has been corroded to death. -->
+  <AA_AcidSpit.deathMessage>{0} был насмерть разъеден кислотой.</AA_AcidSpit.deathMessage>
+
+  <!-- EN: {0} has been overdosed to death. -->
+  <AA_LuciferiumExplosion.deathMessage>{0} умер от передозировки.</AA_LuciferiumExplosion.deathMessage>
+
+  <!-- EN: {0} has been corroded to death. -->
+  <AA_AcidRainDamage.deathMessage>{0} был насмерть разъеден кислотой.</AA_AcidRainDamage.deathMessage>
+
+  <!-- EN: {0} has been stung to death. -->
+  <AA_VeryToxicSting.deathMessage>{0} был насмерть ужален.</AA_VeryToxicSting.deathMessage>
+
+  <!-- EN: {0} has been bitten to death. -->
+  <AA_ParalysingBite.deathMessage>{0} был насмерть закусан.</AA_ParalysingBite.deathMessage>
+
+  <!-- EN: {0} has been electrocuted to death. -->
+  <AA_Electric.deathMessage>{0} погиб от удара током.</AA_Electric.deathMessage>
+
+  <!-- EN: {0} has been frozen to death. -->
+  <AA_FrostBomb.deathMessage>{0} насмерть замёрз.</AA_FrostBomb.deathMessage>
+
+  <!-- EN: {0} has been crushed to death. -->
+  <AA_SiegeBlunt.deathMessage>{0} был насмерть раздавлен.</AA_SiegeBlunt.deathMessage>
+
+  <!-- EN: {0} has been killed by burning. -->
+  <AA_PermanentBurn.deathMessage>{0} погиб от ожогов.</AA_PermanentBurn.deathMessage>
+
+  <!-- EN: {0} has been killed by crushing. -->
+  <AA_BoulderScratch.deathMessage>{0} погиб под завалом.</AA_BoulderScratch.deathMessage>
+
+  <!-- EN: {0} has been bitten to death. -->
+  <AA_LockJawDamage.deathMessage>{0} был насмерть закусан.</AA_LockJawDamage.deathMessage>
+
+  <!-- EN: {0} has been gored to death. -->
+  <AA_Pierce.deathMessage>{0} был насмерть забодан.</AA_Pierce.deathMessage>
+
+  <!-- EN: {0} has been bitten to death. -->
+  <AA_BurningBite.deathMessage>{0} был насмерть закусан.</AA_BurningBite.deathMessage>
+
+  <!-- EN: {0} has been frozen to death. -->
+  <AA_FrostClaws.deathMessage>{0} насмерть замёрз.</AA_FrostClaws.deathMessage>
+
+  <!-- EN: {0} has been frozen to death. -->
+  <AA_FrostBite.deathMessage>{0} насмерть замёрз.</AA_FrostBite.deathMessage>
+
+  <!-- EN: {0} has been burned and gored to death. -->
+  <AA_BurningAndFeedingBite.deathMessage>{0} был сожжён и насмерть забодан.</AA_BurningAndFeedingBite.deathMessage>
+
+  <!-- EN: {0} has been gored to death. -->
+  <AA_RegenerativePierce.deathMessage>{0} был насмерть забодан.</AA_RegenerativePierce.deathMessage>
+
+  <!-- EN: {0} has been bitten to death. -->
+  <AA_SwallowWhole.deathMessage>{0} был насмерть закусан.</AA_SwallowWhole.deathMessage>
+
+  <!-- EN: {0} has been crushed to death. -->
+  <BodyCrush.deathMessage>{0} был насмерть раздавлен.</BodyCrush.deathMessage>
+
+  <!-- EN: {0} has been cut to death. -->
+  <AA_SwarmlingClaws.deathMessage>{0} был насмерть изрезан.</AA_SwarmlingClaws.deathMessage>
+
+  <!-- EN: {0} has been cut to death. -->
+  <AA_FungalClaws.deathMessage>{0} был насмерть изрезан.</AA_FungalClaws.deathMessage>
+
+  <!-- EN: {0} has been bitten to death. -->
+  <FO_PlaguedBite.deathMessage>{0} был насмерть закусан.</FO_PlaguedBite.deathMessage>
+
+</LanguageData>

@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: animus vox puppy -->
+  <AA_AnimusVox.lifeStages.animus_vox_puppy.label>щенок анимус-вокса</AA_AnimusVox.lifeStages.animus_vox_puppy.label>
+
+  <!-- EN: animus vox puppies -->
+  <AA_AnimusVox.lifeStages.animus_vox_puppy.labelPlural>щенки анимус-вокса</AA_AnimusVox.lifeStages.animus_vox_puppy.labelPlural>
+
+  <!-- EN: arctic lion cub -->
+  <AA_ArcticLion.lifeStages.arctic_lion_cub.label>львёнок полярного льва</AA_ArcticLion.lifeStages.arctic_lion_cub.label>
+
+  <!-- EN: arctic lion juvenile -->
+  <AA_ArcticLion.lifeStages.arctic_lion_juvenile.label>молодой полярный лев</AA_ArcticLion.lifeStages.arctic_lion_juvenile.label>
+
+  <!-- EN: bedbug -->
+  <AA_BedBug.lifeStages.bedbug-0.label>клоп</AA_BedBug.lifeStages.bedbug-0.label>
+
+  <!-- EN: bedbug -->
+  <AA_BedBug.lifeStages.bedbug-1.label>клоп</AA_BedBug.lifeStages.bedbug-1.label>
+
+  <!-- EN: bobeene calf -->
+  <AA_Bobeene.lifeStages.bobeene_calf.label>телёнок бобина</AA_Bobeene.lifeStages.bobeene_calf.label>
+
+  <!-- EN: bobeene calves -->
+  <AA_Bobeene.lifeStages.bobeene_calf.labelPlural>телята бобина</AA_Bobeene.lifeStages.bobeene_calf.labelPlural>
+
+  <!-- EN: bouldermit -->
+  <AA_BoulderMit.lifeStages.bouldermit-0.label>каменный клещ</AA_BoulderMit.lifeStages.bouldermit-0.label>
+
+  <!-- EN: bouldermit -->
+  <AA_BoulderMit.lifeStages.bouldermit-1.label>каменный клещ</AA_BoulderMit.lifeStages.bouldermit-1.label>
+
+  <!-- EN: summit crab -->
+  <AA_SummitCrab.lifeStages.summit_crab-0.label>вершинный краб</AA_SummitCrab.lifeStages.summit_crab-0.label>
+
+  <!-- EN: summit crab -->
+  <AA_SummitCrab.lifeStages.summit_crab-1.label>вершинный краб</AA_SummitCrab.lifeStages.summit_crab-1.label>
+
+  <!-- EN: cactipine -->
+  <AA_Cactipine.lifeStages.cactipine-0.label>кактусокол</AA_Cactipine.lifeStages.cactipine-0.label>
+
+  <!-- EN: cactipine -->
+  <AA_Cactipine.lifeStages.cactipine-1.label>кактусокол</AA_Cactipine.lifeStages.cactipine-1.label>
+
+  <!-- EN: chameleon yak calf -->
+  <AA_ChameleonYak.lifeStages.chameleon_yak_calf.label>телёнок яка-хамелеона</AA_ChameleonYak.lifeStages.chameleon_yak_calf.label>
+
+  <!-- EN: chameleon yak calves -->
+  <AA_ChameleonYak.lifeStages.chameleon_yak_calf.labelPlural>телята яка-хамелеона</AA_ChameleonYak.lifeStages.chameleon_yak_calf.labelPlural>
+
+  <!-- EN: crystalline caracal cub -->
+  <AA_CrystallineCaracal.lifeStages.crystalline_caracal_cub.label>котёнок кристаллического каракала</AA_CrystallineCaracal.lifeStages.crystalline_caracal_cub.label>
+
+  <!-- EN: crystalline caracal juvenile -->
+  <AA_CrystallineCaracal.lifeStages.crystalline_caracal_juvenile.label>молодой кристаллический каракал</AA_CrystallineCaracal.lifeStages.crystalline_caracal_juvenile.label>
+
+  <!-- EN: desert ave chick -->
+  <AA_DesertAve.lifeStages.desert_ave_chick.label>птенец пустынной авы</AA_DesertAve.lifeStages.desert_ave_chick.label>
+
+  <!-- EN: devilsheep lamb -->
+  <AA_DevilSheep.lifeStages.devilsheep_lamb.label>ягнёнок дьявольской овцы</AA_DevilSheep.lifeStages.devilsheep_lamb.label>
+
+  <!-- EN: dusk prowler puppy -->
+  <AA_DuskProwler.lifeStages.dusk_prowler_puppy.label>щенок сумрачного крадуна</AA_DuskProwler.lifeStages.dusk_prowler_puppy.label>
+
+  <!-- EN: dusk prowler puppies -->
+  <AA_DuskProwler.lifeStages.dusk_prowler_puppy.labelPlural>щенки сумрачного крадуна</AA_DuskProwler.lifeStages.dusk_prowler_puppy.labelPlural>
+
+  <!-- EN: flamingo phoenix chick -->
+  <AA_FlamingoPhoenix.lifeStages.flamingo_phoenix_chick.label>птенец фламинго-феникса</AA_FlamingoPhoenix.lifeStages.flamingo_phoenix_chick.label>
+
+  <!-- EN: frost ave chick -->
+  <AA_FrostAve.lifeStages.frost_ave_chick.label>птенец морозной авы</AA_FrostAve.lifeStages.frost_ave_chick.label>
+
+  <!-- EN: frostling cub -->
+  <AA_Frostling.lifeStages.frostling_cub.label>детёныш морозника</AA_Frostling.lifeStages.frostling_cub.label>
+
+  <!-- EN: frostling puppies -->
+  <AA_Frostling.lifeStages.frostling_cub.labelPlural>детёныши морозника</AA_Frostling.lifeStages.frostling_cub.labelPlural>
+
+  <!-- EN: frost lynx kitten -->
+  <AA_FrostLynx.lifeStages.frost_lynx_kitten.label>котёнок морозной рыси</AA_FrostLynx.lifeStages.frost_lynx_kitten.label>
+
+  <!-- EN: frost lynx juvenile -->
+  <AA_FrostLynx.lifeStages.frost_lynx_juvenile.label>молодая морозная рысь</AA_FrostLynx.lifeStages.frost_lynx_juvenile.label>
+
+  <!-- EN: gallatross -->
+  <AA_Gallatross.lifeStages.gallatross-0.label>галлатрос</AA_Gallatross.lifeStages.gallatross-0.label>
+
+  <!-- EN: gallatross -->
+  <AA_Gallatross.lifeStages.gallatross-1.label>галлатрос</AA_Gallatross.lifeStages.gallatross-1.label>
+
+  <!-- EN: genix kitten -->
+  <AA_Genix.lifeStages.genix_kitten.label>котёнок геникса</AA_Genix.lifeStages.genix_kitten.label>
+
+  <!-- EN: genix juvenile -->
+  <AA_Genix.lifeStages.genix_juvenile.label>молодой геникс</AA_Genix.lifeStages.genix_juvenile.label>
+
+  <!-- EN: giant crowned silkie chick -->
+  <AA_GiantCrownedSilkie.lifeStages.giant_crowned_silkie_chick.label>цыплёнок гигантской шелковистой курицы</AA_GiantCrownedSilkie.lifeStages.giant_crowned_silkie_chick.label>
+
+  <!-- EN: gigantelope calf -->
+  <AA_Gigantelope.lifeStages.gigantelope_calf.label>телёнок гигантелопы</AA_Gigantelope.lifeStages.gigantelope_calf.label>
+
+  <!-- EN: gigantelope calves -->
+  <AA_Gigantelope.lifeStages.gigantelope_calf.labelPlural>телята гигантелопы</AA_Gigantelope.lifeStages.gigantelope_calf.labelPlural>
+
+  <!-- EN: grey-coated mouflon lamb -->
+  <AA_GreyCoatedMouflon.lifeStages.greycoated_mouflon_lamb.label>grey-coated mouflon lamb</AA_GreyCoatedMouflon.lifeStages.greycoated_mouflon_lamb.label>
+
+  <!-- EN: meadow ave chick -->
+  <AA_MeadowAve.lifeStages.meadow_ave_chick.label>птенец луговой авы</AA_MeadowAve.lifeStages.meadow_ave_chick.label>
+
+  <!-- EN: nightmule calf -->
+  <AA_NightMule.lifeStages.nightmule_calf.label>жеребёнок ночного мула</AA_NightMule.lifeStages.nightmule_calf.label>
+
+  <!-- EN: nightmule calves -->
+  <AA_NightMule.lifeStages.nightmule_calf.labelPlural>жеребята ночного мула</AA_NightMule.lifeStages.nightmule_calf.labelPlural>
+
+  <!-- EN: night ave chick -->
+  <AA_NightAve.lifeStages.night_ave_chick.label>птенец ночной авы</AA_NightAve.lifeStages.night_ave_chick.label>
+
+  <!-- EN: nightling cub -->
+  <AA_Nightling.lifeStages.nightling_cub.label>детёныш найтлинга</AA_Nightling.lifeStages.nightling_cub.label>
+
+  <!-- EN: nightling puppies -->
+  <AA_Nightling.lifeStages.nightling_cub.labelPlural>детёныши найтлинга</AA_Nightling.lifeStages.nightling_cub.labelPlural>
+
+  <!-- EN: nightram calf -->
+  <AA_NightRam.lifeStages.nightram_calf.label>ягнёнок ночного барана</AA_NightRam.lifeStages.nightram_calf.label>
+
+  <!-- EN: nightram calves -->
+  <AA_NightRam.lifeStages.nightram_calf.labelPlural>ягнята ночного барана</AA_NightRam.lifeStages.nightram_calf.labelPlural>
+
+  <!-- EN: ocular nightling cub -->
+  <AA_OcularNightling.lifeStages.ocular_nightling_cub.label>детёныш окулярного найтлинга</AA_OcularNightling.lifeStages.ocular_nightling_cub.label>
+
+  <!-- EN: ocular nightling puppies -->
+  <AA_OcularNightling.lifeStages.ocular_nightling_cub.labelPlural>детёныши окулярного найтлинга</AA_OcularNightling.lifeStages.ocular_nightling_cub.labelPlural>
+
+  <!-- EN: pebblemit -->
+  <AA_PebbleMit.lifeStages.pebblemit-0.label>галечный клещ</AA_PebbleMit.lifeStages.pebblemit-0.label>
+
+  <!-- EN: pebblemit -->
+  <AA_PebbleMit.lifeStages.pebblemit-1.label>галечный клещ</AA_PebbleMit.lifeStages.pebblemit-1.label>
+
+  <!-- EN: phoenix owlcat kitten -->
+  <AA_PhoenixOwlcat.lifeStages.phoenix_owlcat_kitten.label>котёнок совокота-феникса</AA_PhoenixOwlcat.lifeStages.phoenix_owlcat_kitten.label>
+
+  <!-- EN: radyak calf -->
+  <AA_Radyak.lifeStages.radyak_calf.label>телёнок радиака</AA_Radyak.lifeStages.radyak_calf.label>
+
+  <!-- EN: radyak calves -->
+  <AA_Radyak.lifeStages.radyak_calf.labelPlural>телята радиака</AA_Radyak.lifeStages.radyak_calf.labelPlural>
+
+  <!-- EN: ray-hound lizardling -->
+  <AA_RayHound.lifeStages.rayhound_lizardling.label>детёныш рейхаунда</AA_RayHound.lifeStages.rayhound_lizardling.label>
+
+  <!-- EN: ripper hound cub -->
+  <AA_RipperHound.lifeStages.ripper_hound_cub.label>щенок рипперхаунда</AA_RipperHound.lifeStages.ripper_hound_cub.label>
+
+  <!-- EN: ripper hound puppies -->
+  <AA_RipperHound.lifeStages.ripper_hound_cub.labelPlural>щенки рипперхаунда</AA_RipperHound.lifeStages.ripper_hound_cub.labelPlural>
+
+  <!-- EN: royal ave chick -->
+  <AA_RoyalAve.lifeStages.royal_ave_chick.label>птенец королевской авы</AA_RoyalAve.lifeStages.royal_ave_chick.label>
+
+  <!-- EN: sand lion cub -->
+  <AA_SandLion.lifeStages.sand_lion_cub.label>львёнок песчаного льва</AA_SandLion.lifeStages.sand_lion_cub.label>
+
+  <!-- EN: sand lion juvenile -->
+  <AA_SandLion.lifeStages.sand_lion_juvenile.label>молодой песчаный лев</AA_SandLion.lifeStages.sand_lion_juvenile.label>
+
+  <!-- EN: sand prowler cub -->
+  <AA_SandProwler.lifeStages.sand_prowler_cub.label>детёныш песчаного крадуна</AA_SandProwler.lifeStages.sand_prowler_cub.label>
+
+  <!-- EN: sand prowler juvenile -->
+  <AA_SandProwler.lifeStages.sand_prowler_juvenile.label>молодой песчаный крадун</AA_SandProwler.lifeStages.sand_prowler_juvenile.label>
+
+  <!-- EN: sand tadpole -->
+  <AA_SandSquid.lifeStages.sand_tadpole.label>песчаный головастик</AA_SandSquid.lifeStages.sand_tadpole.label>
+
+  <!-- EN: sand squid -->
+  <AA_SandSquid.lifeStages.sand_squid.label>песчаный кальмар</AA_SandSquid.lifeStages.sand_squid.label>
+
+  <!-- EN: shadow charger calf -->
+  <AA_ShadowCharger.lifeStages.shadow_charger_calf.label>телёнок теневого крушителя</AA_ShadowCharger.lifeStages.shadow_charger_calf.label>
+
+  <!-- EN: shadow charger calves -->
+  <AA_ShadowCharger.lifeStages.shadow_charger_calf.labelPlural>телята теневого крушителя</AA_ShadowCharger.lifeStages.shadow_charger_calf.labelPlural>
+
+  <!-- EN: shock goat lamb -->
+  <AA_ShockGoat.lifeStages.shock_goat_lamb.label>козлёнок шок-козы</AA_ShockGoat.lifeStages.shock_goat_lamb.label>
+
+  <!-- EN: skiphound puppy -->
+  <AA_Skiphound.lifeStages.skiphound_puppy.label>щенок скипхаунда</AA_Skiphound.lifeStages.skiphound_puppy.label>
+
+  <!-- EN: spined gow calf -->
+  <AA_SpinedGow.lifeStages.spined_gow_calf.label>телёнок шипастого гоу</AA_SpinedGow.lifeStages.spined_gow_calf.label>
+
+  <!-- EN: spined gow calves -->
+  <AA_SpinedGow.lifeStages.spined_gow_calf.labelPlural>телята шипастого гоу</AA_SpinedGow.lifeStages.spined_gow_calf.labelPlural>
+
+  <!-- EN: tetra slug -->
+  <AA_TetraSlug.lifeStages.tetra_slug-0.label>тетраслизень</AA_TetraSlug.lifeStages.tetra_slug-0.label>
+
+  <!-- EN: tetra slug -->
+  <AA_TetraSlug.lifeStages.tetra_slug-1.label>тетраслизень</AA_TetraSlug.lifeStages.tetra_slug-1.label>
+
+  <!-- EN: thunderox calf -->
+  <AA_Thunderox.lifeStages.thunderox_calf.label>телёнок громобыка</AA_Thunderox.lifeStages.thunderox_calf.label>
+
+  <!-- EN: thunderox calves -->
+  <AA_Thunderox.lifeStages.thunderox_calf.labelPlural>телята громобыка</AA_Thunderox.lifeStages.thunderox_calf.labelPlural>
+
+</LanguageData>

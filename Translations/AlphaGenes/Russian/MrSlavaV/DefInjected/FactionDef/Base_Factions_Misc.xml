@@ -6,6 +6,8 @@
 	<AG_OutlanderCivilUnion.description>Свободный союз поселков, созданный генетически модифицированными людьми всех видов. Эта группа, как правило, дружелюбна по отношению к посторонним.</AG_OutlanderCivilUnion.description>
 	<!--                             EN: участник -->
 	<AG_OutlanderCivilUnion.pawnSingular>иностранец</AG_OutlanderCivilUnion.pawnSingular>
+	<AG_OutlanderCivilUnion.pawnsPlural>чужаки</AG_OutlanderCivilUnion.pawnsPlural>
+	<AG_OutlanderCivilUnion.messageDefendersAttacking>{0} из {1} атакуют ваше {2}.</AG_OutlanderCivilUnion.messageDefendersAttacking>
 	<!--                            EN: лидер -->
 	<AG_OutlanderCivilUnion.leaderTitle>первый советник</AG_OutlanderCivilUnion.leaderTitle>
 	<!--                   EN: xenohuman pirate gang -->
@@ -14,6 +16,8 @@
 	<AG_XenohumanPirates.description>Свободная конфедерация пиратских банд, созданная генетически модифицированными людьми всех видов.\n\nОни мало интересуются строительством или сельским хозяйством, предпочитая отнимать средства к существованию у других, используя насилие.\n\nИх технологический уровень зависит главным образом от того, у кого им удалось недавно украсть. В основном они носят пороховое оружие, хотя некоторые предпочитают наносить удары с близкого расстояния.</AG_XenohumanPirates.description>
 	<!--                          EN: участник -->
 	<AG_XenohumanPirates.pawnSingular>пират</AG_XenohumanPirates.pawnSingular>
+	<AG_XenohumanPirates.pawnsPlural>пираты</AG_XenohumanPirates.pawnsPlural>
+	<AG_XenohumanPirates.messageDefendersAttacking>{0} из {1} атакуют ваше {2}.</AG_XenohumanPirates.messageDefendersAttacking>
 	<!--                         EN: лидер -->
 	<AG_XenohumanPirates.leaderTitle>Босс</AG_XenohumanPirates.leaderTitle>
 </LanguageData>

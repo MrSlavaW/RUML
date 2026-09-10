@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: psionically nuzzling TargetA. -->
+  <AA_PsionicNuzzle.reportString>псионически ластится к TargetA.</AA_PsionicNuzzle.reportString>
+
+  <!-- EN: planting anima tree. -->
+  <AA_PlantAnimaTreeJob.reportString>сажает древо анимы.</AA_PlantAnimaTreeJob.reportString>
+
+</LanguageData>

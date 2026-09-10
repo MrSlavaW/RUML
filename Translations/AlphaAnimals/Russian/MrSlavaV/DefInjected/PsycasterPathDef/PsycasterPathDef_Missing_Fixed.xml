@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Alpha Animals -->
+  <AAVPE_HeraldOfTheBlackHive.tab>Альфа Животные</AAVPE_HeraldOfTheBlackHive.tab>
+
+  <!-- EN: The Black Hive was created as the ultimate mechanoid killers. A hive of highly intelligent and specialized insectoids with an intense hatred for mechanical creations. A herald of the Black Hive venerates these insects and has honed his psychic skills to acquire some of their power for his own. -->
+  <AAVPE_HeraldOfTheBlackHive.tooltip>Чёрный Улей был создан как абсолютное оружие против механидов. Это рой высокоинтеллектуальных специализированных инсектоидов с лютой ненавистью к механическим созданиям. Вестник Чёрного Улья почитает этих насекомых и развивает свои пси-способности, перенимая часть их мощи.</AAVPE_HeraldOfTheBlackHive.tooltip>
+
+  <!-- EN: Alpha Animals -->
+  <AAVPE_Oculist.tab>Альфа Животные</AAVPE_Oculist.tab>
+
+  <!-- EN: A blasphemous, hellish darkness made of equal parts madness and iniquity awaits us beyond the veil. By tapping into this obscene extradimensional power oculists acquire powers beyond imagining. -->
+  <AAVPE_Oculist.tooltip>Богохульная адская тьма, сотканная из безумия и греха, поджидает за завесой реальности. Черпая эту нечестивую внепространственную мощь, окулисты обретают силу за гранью воображения.</AAVPE_Oculist.tooltip>
+
+  <!-- EN: Alpha Animals -->
+  <AAVPE_Xenoseer.tab>Альфа Животные</AAVPE_Xenoseer.tab>
+
+  <!-- EN: Equal parts psycaster and scientist, the xeno-seer dedicates their entire willpower to meditating and studying the intricate survival abilities developed and engineered on the strange creatures that populate the Rim. -->
+  <AAVPE_Xenoseer.tooltip>В равной степени псионик и учёный, ксеновидец посвящает всю свою волю медитации и изучению сложнейших навыков выживания, развитых и созданных у странных существ, населяющих Пограничье.</AAVPE_Xenoseer.tooltip>
+
+  <!-- EN: Alpha Animals -->
+  <AAVPE_Ravager.tab>Альфа Животные</AAVPE_Ravager.tab>
+
+  <!-- EN: Warriors of great strength, ravager user their psychic abilities to attune themselves to animal spirits, acquiring their power to fight in a trance-like fury where they leave their humanity behind. -->
+  <AAVPE_Ravager.tooltip>Воины великой силы, опустошители используют свои пси-способности для настройки на духов зверей, впадая в боевую ярость и отбрасывая человеческую сущность.</AAVPE_Ravager.tooltip>
+
+</LanguageData>

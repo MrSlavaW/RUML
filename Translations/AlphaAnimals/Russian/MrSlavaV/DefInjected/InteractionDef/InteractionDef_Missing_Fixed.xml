@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: r_logentry(p=2)-&gt;[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef]. -->
+  <AA_PsionicNuzzleInteraction.logRulesInitiator.rulesStrings>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</AA_PsionicNuzzleInteraction.logRulesInitiator.rulesStrings>
+
+</LanguageData>

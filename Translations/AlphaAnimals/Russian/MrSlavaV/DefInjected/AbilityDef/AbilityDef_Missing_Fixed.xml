@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_VenomSpit.jobReportString>Применение способности: {0}</AAVPE_VenomSpit.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_SummonBlackScarab.jobReportString>Применение способности: {0}</AAVPE_SummonBlackScarab.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_SummonBlackSpelopede.jobReportString>Применение способности: {0}</AAVPE_SummonBlackSpelopede.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_StrengthenInsect.jobReportString>Применение способности: {0}</AAVPE_StrengthenInsect.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_SummonBlackSpider.jobReportString>Применение способности: {0}</AAVPE_SummonBlackSpider.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_SummonMammothWorm.jobReportString>Применение способности: {0}</AAVPE_SummonMammothWorm.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_SummonBlackQueen.jobReportString>Применение способности: {0}</AAVPE_SummonBlackQueen.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_SummonHive.jobReportString>Применение способности: {0}</AAVPE_SummonHive.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_SummonEyeling.jobReportString>Применение способности: {0}</AAVPE_SummonEyeling.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_OcularSprout.jobReportString>Применение способности: {0}</AAVPE_OcularSprout.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_StrikeEyes.jobReportString>Применение способности: {0}</AAVPE_StrikeEyes.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_EyeEruption.jobReportString>Применение способности: {0}</AAVPE_EyeEruption.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_SummonOcularOriginator.jobReportString>Применение способности: {0}</AAVPE_SummonOcularOriginator.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_SummonEyelingHorde.jobReportString>Применение способности: {0}</AAVPE_SummonEyelingHorde.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_GreaterOcularSprout.jobReportString>Применение способности: {0}</AAVPE_GreaterOcularSprout.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_Slice.jobReportString>Применение способности: {0}</AAVPE_Slice.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_ClawFrenzy.jobReportString>Применение способности: {0}</AAVPE_ClawFrenzy.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_DisablingStrike.jobReportString>Применение способности: {0}</AAVPE_DisablingStrike.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_Skewer.jobReportString>Применение способности: {0}</AAVPE_Skewer.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_Charge.jobReportString>Применение способности: {0}</AAVPE_Charge.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_ChargeAndSkewer.jobReportString>Применение способности: {0}</AAVPE_ChargeAndSkewer.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_EmpBlow.jobReportString>Применение способности: {0}</AAVPE_EmpBlow.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_SpinCut.jobReportString>Применение способности: {0}</AAVPE_SpinCut.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_LegSkip.jobReportString>Применение способности: {0}</AAVPE_LegSkip.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_KO.jobReportString>Применение способности: {0}</AAVPE_KO.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_FatalBlow.jobReportString>Применение способности: {0}</AAVPE_FatalBlow.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_ChemfuelNodules.jobReportString>Применение способности: {0}</AAVPE_ChemfuelNodules.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_Hover.jobReportString>Применение способности: {0}</AAVPE_Hover.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_FungalSkin.jobReportString>Применение способности: {0}</AAVPE_FungalSkin.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_WebSlinging.jobReportString>Применение способности: {0}</AAVPE_WebSlinging.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_LightSustenance.jobReportString>Применение способности: {0}</AAVPE_LightSustenance.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_AcidSpit.jobReportString>Применение способности: {0}</AAVPE_AcidSpit.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_Laser.jobReportString>Применение способности: {0}</AAVPE_Laser.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_Electrify.jobReportString>Применение способности: {0}</AAVPE_Electrify.jobReportString>
+
+  <!-- EN: Using ability: {0} -->
+  <AAVPE_Regeneration.jobReportString>Применение способности: {0}</AAVPE_Regeneration.jobReportString>
+
+</LanguageData>

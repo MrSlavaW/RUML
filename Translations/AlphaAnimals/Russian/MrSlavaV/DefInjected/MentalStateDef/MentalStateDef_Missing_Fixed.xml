@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Mental state: Disoriented in sunlight -->
+  <AA_PhotosensitiveExoskeleton.baseInspectLine>Психическое состояние: Дезориентация на солнце</AA_PhotosensitiveExoskeleton.baseInspectLine>
+
+  <!-- EN: {0} is disoriented in sunlight. -->
+  <AA_PhotosensitiveExoskeleton.beginLetter>{0} дезориентирован(а) на ярком солнце.</AA_PhotosensitiveExoskeleton.beginLetter>
+
+  <!-- EN: {0} is no longer disoriented in sunlight. -->
+  <AA_PhotosensitiveExoskeleton.recoveryMessage>{0} больше не испытывает дезориентации на солнце.</AA_PhotosensitiveExoskeleton.recoveryMessage>
+
+  <!-- EN: Raging -->
+  <AAVPE_Manhunter.baseInspectLine>Ярость</AAVPE_Manhunter.baseInspectLine>
+
+</LanguageData>

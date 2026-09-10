@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
   <ActiveTab_option_Allowances>Ограничения</ActiveTab_option_Allowances>
   <ActiveTab_option_Automation>Триггеры</ActiveTab_option_Automation>
   <ActiveTab_option_Folded>&lt;</ActiveTab_option_Folded>
   <ActiveTab_option_Misc>Разное</ActiveTab_option_Misc>
   <ActiveTab_option_Presets>Предустановки</ActiveTab_option_Presets>
-  <ActiveTab_option_Spawning>лапа</ActiveTab_option_Spawning>
+  <ActiveTab_option_Spawning>Спавн</ActiveTab_option_Spawning>
   <ActiveTab_title>Вкладки настроек</ActiveTab_title>
   <Alert_MissingPrimary_desc>Эти колонисты потеряли своё основное оружие:
 
@@ -27,7 +27,7 @@
   <CQCFistSwitch_title>Автопереключение на кулачный бой</CQCFistSwitch_title>
   <CQCTargetOnly_desc>Реагировать переключением только на удары текущей назначенной цели?</CQCTargetOnly_desc>
   <CQCTargetOnly_title>Переключаться только на цель</CQCTargetOnly_title>
-  <ColonistDefaultWeaponMode_desc>лапа</ColonistDefaultWeaponMode_desc>
+  <ColonistDefaultWeaponMode_desc>Режим предпочтения оружия по умолчанию для поселенцев игрока.</ColonistDefaultWeaponMode_desc>
   <ColonistDefaultWeaponMode_title>Режим оружия поселенцев</ColonistDefaultWeaponMode_title>
   <ConsideredSidearms>Доп. оружие</ConsideredSidearms>
   <DrawSidearm_blocked>Оружие непригодно</DrawSidearm_blocked>
@@ -97,18 +97,18 @@
   <LimitModeSingle_option_Selection>Выбранное оружие</LimitModeSingle_option_Selection>
   <LimitModeSingle_title>Режим лимита единичного оружия</LimitModeSingle_title>
   <LockedWeaponSwitch>Автопереключение заблокировано (дальний бой)</LockedWeaponSwitch>
-  <MaximumMassAmountAbsolute_desc>лапа</MaximumMassAmountAbsolute_desc>
+  <MaximumMassAmountAbsolute_desc>Максимальная общая масса запасного оружия, которую может нести пешка.</MaximumMassAmountAbsolute_desc>
   <MaximumMassAmountAbsolute_title>Макс. вес оружия (абсолютный)</MaximumMassAmountAbsolute_title>
-  <MaximumMassAmountRelative_desc>лапа</MaximumMassAmountRelative_desc>
+  <MaximumMassAmountRelative_desc>Максимальный процент от грузоподъёмности для общей массы запасного оружия.</MaximumMassAmountRelative_desc>
   <MaximumMassAmountRelative_hint>Расчет основан на стандартной грузоподъемности в 35 кг.</MaximumMassAmountRelative_hint>
   <MaximumMassAmountRelative_title>Макс. вес оружия (от грузоподъемности)</MaximumMassAmountRelative_title>
-  <MaximumMassSingleAbsolute_desc>лапа</MaximumMassSingleAbsolute_desc>
+  <MaximumMassSingleAbsolute_desc>Максимальная масса одного дополнительного оружия, которое может нести пешка.</MaximumMassSingleAbsolute_desc>
   <MaximumMassSingleAbsolute_title>Макс. вес одного оружия (абсолютный)</MaximumMassSingleAbsolute_title>
-  <MaximumMassSingleRelative_desc>лапа</MaximumMassSingleRelative_desc>
+  <MaximumMassSingleRelative_desc>Максимальный процент от грузоподъёмности для одного дополнительного оружия.</MaximumMassSingleRelative_desc>
   <MaximumMassSingleRelative_title>Макс. вес одного оружия (от грузоподъемности)</MaximumMassSingleRelative_title>
-  <MaximumSlots_desc>лапа</MaximumSlots_desc>
+  <MaximumSlots_desc>Количество ячеек запасного оружия, которое может нести пешка.</MaximumSlots_desc>
   <MaximumSlots_title>Слоты</MaximumSlots_title>
-  <NPCDefaultWeaponMode_desc>лапа</NPCDefaultWeaponMode_desc>
+  <NPCDefaultWeaponMode_desc>Режим предпочтения оружия по умолчанию для НПС.</NPCDefaultWeaponMode_desc>
   <NPCDefaultWeaponMode_title>Режим оружия NPC</NPCDefaultWeaponMode_title>
   <NonTribalWeapons>Не племенное</NonTribalWeapons>
   <NotConsideredSidearms>Не доп. оружие</NotConsideredSidearms>
@@ -125,10 +125,10 @@
   <Preset1half_desc>Разрешает только одно лёгкое дополнительное оружие.</Preset1half_desc>
   <Preset1half_label>Нет</Preset1half_label>
   <Preset1half_title>Облегчённый</Preset1half_title>
-  <Preset2_desc>лапа</Preset2_desc>
+  <Preset2_desc>Простая настройка. Пешки могут носить лёгкое оружие и применять его в подходящих ситуациях.</Preset2_desc>
   <Preset2_label>Предустановка 3 (Тяжёлая)</Preset2_label>
   <Preset2_title>Базовый</Preset2_title>
-  <Preset3_desc>лапа</Preset3_desc>
+  <Preset3_desc>Пешки более гибко выбирают оружие, но в рамках реалистичного выживания на опасном фронтире.</Preset3_desc>
   <Preset3_label>Предустановка 4 (Снайпер)</Preset3_label>
   <Preset3_title>Продвинутый</Preset3_title>
   <Preset4_desc>орудие</Preset4_desc>
@@ -158,7 +158,7 @@
   <PrimaryWeaponMode_option_BySkill>По навыку</PrimaryWeaponMode_option_BySkill>
   <PrimaryWeaponMode_option_Melee>Ближний бой</PrimaryWeaponMode_option_Melee>
   <PrimaryWeaponMode_option_Ranged>Дальний бой</PrimaryWeaponMode_option_Ranged>
-  <RangedCombatAutoSwitchMaxWarmup_desc>лапа</RangedCombatAutoSwitchMaxWarmup_desc>
+  <RangedCombatAutoSwitchMaxWarmup_desc>Порог прицеливания, после которого пешка откажется прерывать выстрел ради смены оружия.</RangedCombatAutoSwitchMaxWarmup_desc>
   <RangedCombatAutoSwitchMaxWarmup_title>Максимальный прогресс прицеливания</RangedCombatAutoSwitchMaxWarmup_title>
   <RangedCombatAutoSwitch_desc>Автоматически переключаться на оружие дальнего боя при назначении цели на дистанции?</RangedCombatAutoSwitch_desc>
   <RangedCombatAutoSwitch_title>Автопереключение на дистанции</RangedCombatAutoSwitch_title>
@@ -179,7 +179,7 @@
   <SeparateModes_title>Раздельные ограничения</SeparateModes_title>
   <ShowAlertsMissingSidearm_desc>Показывать оповещения о колонистах, потерявших дополнительное оружие, для которого пока нет замены.</ShowAlertsMissingSidearm_desc>
   <ShowAlertsMissingSidearm_title>Оповещения об утраченном оружии</ShowAlertsMissingSidearm_title>
-  <ShowBrainscope_desc>лапа</ShowBrainscope_desc>
+  <ShowBrainscope_desc>Отображать кнопку отладки, показывающую внутреннее состояние пешки.</ShowBrainscope_desc>
   <ShowBrainscope_title>Отображать Brainscope</ShowBrainscope_title>
   <SidearmBudgetDropoff_desc>Снижение бюджета на каждое последующее оружие.</SidearmBudgetDropoff_desc>
   <SidearmBudgetDropoff_title>Снижение бюджета доп. оружия</SidearmBudgetDropoff_title>
@@ -207,26 +207,26 @@
   <SidearmPreference_Skill>Выбирать по лучшему навыку или интересу.</SidearmPreference_Skill>
   <SidearmSelection_desc>Настройки выбора дополнительного оружия.</SidearmSelection_desc>
   <SidearmSelection_title>Выбор дополнительного оружия</SidearmSelection_title>
-  <SidearmSpawnChanceDropoff_desc>лапа</SidearmSpawnChanceDropoff_desc>
-  <SidearmSpawnChanceDropoff_title>лапа</SidearmSpawnChanceDropoff_title>
-  <SidearmSpawnChance_desc>лапа</SidearmSpawnChance_desc>
-  <SidearmSpawnChance_title>лапа</SidearmSpawnChance_title>
+  <SidearmSpawnChanceDropoff_desc>Величина, на которую уменьшается шанс появления каждого следующего дополнительного оружия.</SidearmSpawnChanceDropoff_desc>
+  <SidearmSpawnChanceDropoff_title>Снижение шанса доп. оружия</SidearmSpawnChanceDropoff_title>
+  <SidearmSpawnChance_desc>Шанс, что появившаяся с оружием пешка также получит дополнительное оружие.</SidearmSpawnChance_desc>
+  <SidearmSpawnChance_title>Шанс доп. оружия</SidearmSpawnChance_title>
   <SidearmsEnableNeolithicExtension_desc>Разрешить дикарям носить больше видов оружия в качестве дополнительного.</SidearmsEnableNeolithicExtension_desc>
   <SidearmsEnableNeolithicExtension_title>Расширить оружие дикарей</SidearmsEnableNeolithicExtension_title>
   <SidearmsNeolithicExtension_desc>Разрешить использование неолитического оружия в качестве вспомогательного.</SidearmsNeolithicExtension_desc>
   <SidearmsNeolithicExtension_title>Неолитическое оружие</SidearmsNeolithicExtension_title>
   <SidearmsPlaySounds_desc>Воспроизводить звуки при смене оружия.</SidearmsPlaySounds_desc>
   <SidearmsPlaySounds_title>Звуки смены оружия</SidearmsPlaySounds_title>
-  <SimpleSidearms_ModTitle>Simple Sidearms</SimpleSidearms_ModTitle>
-  <SingleshotAutoSwitch_desc>лапа</SingleshotAutoSwitch_desc>
-  <SingleshotAutoSwitch_title>выстрел</SingleshotAutoSwitch_title>
+  <SimpleSidearms_ModTitle>Simple Sidearms (Запасное оружие)</SimpleSidearms_ModTitle>
+  <SingleshotAutoSwitch_desc>Должны ли пешки переключаться на запасное оружие после использования одноразового оружия.</SingleshotAutoSwitch_desc>
+  <SingleshotAutoSwitch_title>Автосмена одноразового</SingleshotAutoSwitch_title>
   <SkipDangerousWeapons_desc>Запретить автоэкипировку опасного оружия (коктейли Молотова, осколочные гранаты, ракетницы и т.д.).</SkipDangerousWeapons_desc>
   <SkipDangerousWeapons_title>Пропускать опасное оружие</SkipDangerousWeapons_title>
-  <SkipEMPWeapons_desc>лапа</SkipEMPWeapons_desc>
+  <SkipEMPWeapons_desc>Запретить автоэкипировку ЭМИ-оружия (пешки будут брать его только против механоидов).</SkipEMPWeapons_desc>
   <SkipEMPWeapons_title>Пропускать ЭМИ-оружие</SkipEMPWeapons_title>
-  <SpeedSelectionBiasMelee_desc>лапа</SpeedSelectionBiasMelee_desc>
+  <SpeedSelectionBiasMelee_desc>Склонность пешки выбирать оружие ближнего боя с более высокой скоростью атаки.</SpeedSelectionBiasMelee_desc>
   <SpeedSelectionBiasMelee_title>Приоритет скорости (ближний бой)</SpeedSelectionBiasMelee_title>
-  <SpeedSelectionBiasRanged_desc>лапа</SpeedSelectionBiasRanged_desc>
+  <SpeedSelectionBiasRanged_desc>Склонность пешки выбирать оружие дальнего боя с более быстрой подготовкой к выстрелу.</SpeedSelectionBiasRanged_desc>
   <SpeedSelectionBiasRanged_title>Приоритет скорости (дальний бой)</SpeedSelectionBiasRanged_title>
   <ToolAutoSwitch_desc>Должны ли поселенцы автоматически переключаться на инструменты и оружие с бонусами к текущей работе (например, топоры при рубке леса или скальпели при операциях)?</ToolAutoSwitch_desc>
   <ToolAutoSwitch_title>Автопереключение на инструменты</ToolAutoSwitch_title>

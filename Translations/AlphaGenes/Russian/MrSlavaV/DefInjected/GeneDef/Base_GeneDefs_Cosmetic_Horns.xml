@@ -81,10 +81,12 @@
 	<!--                                          EN: Fresh, Rotting -->
 	<AG_TerrorMask.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_TerrorMask.renderNodeProperties.0.rotDrawMode>
 	<!--                  EN: drakonori horns -->
-	<AG_Drakonori_Horns.label>рога драконори</AG_Drakonori_Horns.label>
-	<!--                        EN: Carriers of this gene grow two short draconic horns protruding from the forehead. -->
-	<AG_Drakonori_Horns.description>У носителей этого гена вырастают два коротких драконьих рога, торчащих изо лба.</AG_Drakonori_Horns.description>
-	<!--                                               EN: Fresh, Rotting -->
+	<AG_Drakonori_Horns.label>Драконьи рога</AG_Drakonori_Horns.label>
+	<!--                          EN: Carriers of this gene grow two short drakonori horns protruding from the forehead. -->
+	<AG_Drakonori_Horns.description>У носителей этого гена вырастают два коротких драконьих рога, выступающих изо лба.</AG_Drakonori_Horns.description>
+	<!--                                 EN: Adds a 16 stab damage, 3 seconds cooldown melee attack -->
+	<AG_Drakonori_Horns.customEffectDescriptions.0>Добавляет атаку ближнего боя с 16 ед. колющего урона и временем восстановления 3 секунды.</AG_Drakonori_Horns.customEffectDescriptions.0>
+	<!--                                                 EN: Fresh, Rotting -->
 	<AG_Drakonori_Horns.renderNodeProperties.0.rotDrawMode>Fresh, Rotting</AG_Drakonori_Horns.renderNodeProperties.0.rotDrawMode>
 	<!--                 EN: nereid glow lure -->
 	<AG_NereidGlowlure.label>Иллиций</AG_NereidGlowlure.label>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: mechanoid rending claws -->
+  <AA_MechanoidRendingClaws.comps.HediffComp_VerbGiver.tools.mechanoid_rending_claws.label>раздирающие когти механида</AA_MechanoidRendingClaws.comps.HediffComp_VerbGiver.tools.mechanoid_rending_claws.label>
+
+  <!-- EN: a malevolent eye -->
+  <AA_MalevolentEye.labelNoun>зловещий глаз</AA_MalevolentEye.labelNoun>
+
+  <!-- EN: knocked out -->
+  <AAVPE_KO.labelNoun>нокаут</AAVPE_KO.labelNoun>
+
+  <!-- EN: permanent burn -->
+  <AA_PermanentBurn.comps.HediffComp_GetsPermanent.permanentLabel>незаживающий ожог</AA_PermanentBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+
+  <!-- EN: Burned off -->
+  <AA_PermanentBurn.injuryProps.destroyedLabel>Сгорело</AA_PermanentBurn.injuryProps.destroyedLabel>
+
+  <!-- EN: Burned out -->
+  <AA_PermanentBurn.injuryProps.destroyedOutLabel>Выгорело</AA_PermanentBurn.injuryProps.destroyedOutLabel>
+
+  <!-- EN: a permanent burn -->
+  <AA_PermanentBurn.labelNoun>незаживающий ожог</AA_PermanentBurn.labelNoun>
+
+  <!-- EN: {0} in the {1} -->
+  <AA_PermanentBurn.labelNounPretty>{0} ({1})</AA_PermanentBurn.labelNounPretty>
+
+  <!-- EN: a virulent fungal infection -->
+  <AA_VirulentFungalInfection.labelNoun>вирулентная грибковая инфекция</AA_VirulentFungalInfection.labelNoun>
+
+  <!-- EN: claws -->
+  <AA_AnoleGrown.comps.HediffComp_VerbGiver.tools.claws.label>когти</AA_AnoleGrown.comps.HediffComp_VerbGiver.tools.claws.label>
+
+  <!-- EN: a mutant leg -->
+  <AA_MutantLeg.labelNoun>мутировавшая нога</AA_MutantLeg.labelNoun>
+
+  <!-- EN: fist -->
+  <AA_MutantArm.comps.HediffComp_VerbGiver.tools.fist.label>кулак</AA_MutantArm.comps.HediffComp_VerbGiver.tools.fist.label>
+
+  <!-- EN: a mutant arm -->
+  <AA_MutantArm.labelNoun>мутировавшая рука</AA_MutantArm.labelNoun>
+
+  <!-- EN: a mutant eye -->
+  <AA_MutantEye.labelNoun>мутировавший глаз</AA_MutantEye.labelNoun>
+
+  <!-- EN: an omniscient eye -->
+  <AA_TheOmniscientEye.labelNoun>всевидящий глаз</AA_TheOmniscientEye.labelNoun>
+
+  <!-- EN: a recalcitrant eye -->
+  <AA_TheRecalcitrantEye.labelNoun>непокорный глаз</AA_TheRecalcitrantEye.labelNoun>
+
+  <!-- EN: a quiescent eye -->
+  <AA_TheQuiescentEye.labelNoun>дремлющий глаз</AA_TheQuiescentEye.labelNoun>
+
+  <!-- EN: a numbing eye -->
+  <AA_TheNumbingEye.labelNoun>одурманивающий глаз</AA_TheNumbingEye.labelNoun>
+
+  <!-- EN: an spasmodic eye -->
+  <AA_TheSpasmodicEye.labelNoun>судорожный глаз</AA_TheSpasmodicEye.labelNoun>
+
+  <!-- EN: a meretricious eye -->
+  <AA_TheMeretriciousEye.labelNoun>обманчивый глаз</AA_TheMeretriciousEye.labelNoun>
+
+  <!-- EN: a heuristic eye -->
+  <AA_TheHeuristicEye.labelNoun>эвристический глаз</AA_TheHeuristicEye.labelNoun>
+
+</LanguageData>

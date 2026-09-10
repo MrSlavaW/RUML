@@ -53,26 +53,26 @@
   <AA_EMPBlowFailed>ЭМИ-удар не удался</AA_EMPBlowFailed>
   <AA_EMPShockTroop>ЭМИ ударный отряд</AA_EMPShockTroop>
   <AA_EMPShockTroopDesc>Животные класса «Ударный отряд» специализируются на высокой скорости и дестабилизации противников. Это существо атакует электрическими или электромагнитными импульсами, оглушая механику и щиты.</AA_EMPShockTroopDesc>
-  <AA_EcholocativeFeedbackReason>The catatonic state was caused by an echolocative feedback. The sudden overwhelming sound proved too much to endure.</AA_EcholocativeFeedbackReason>
+  <AA_EcholocativeFeedbackReason>Состояние кататонии было вызвано эхолокационной обратной связью. Внезапный оглушительный звук оказался невыносим.</AA_EcholocativeFeedbackReason>
   <AA_ElectricShockTroop>Электрический ударный отряд</AA_ElectricShockTroop>
   <AA_ElectricShockTroopDesc>Животное атакует мощными электроразрядами в ближнем бою.</AA_ElectricShockTroopDesc>
-  <AA_Farm>Farm Animal</AA_Farm>
+  <AA_Farm>Сельскохозяйственное животное</AA_Farm>
   <AA_FarmAnimals>Сельскохозяйственные животные</AA_FarmAnimals>
-  <AA_FarmBloodDesc>This is a farm animal that produces hemogen packs.</AA_FarmBloodDesc>
-  <AA_FarmBuildingAndMilkDesc>This is a farm animal that produces building materials and milk.</AA_FarmBuildingAndMilkDesc>
-  <AA_FarmBuildingDesc>This is a farm animal that produces building materials.</AA_FarmBuildingDesc>
+  <AA_FarmBloodDesc>Это сельскохозяйственное животное, производящее пакеты гемогена.</AA_FarmBloodDesc>
+  <AA_FarmBuildingAndMilkDesc>Это сельскохозяйственное животное, производящее строительные материалы и молоко.</AA_FarmBuildingAndMilkDesc>
+  <AA_FarmBuildingDesc>Это сельскохозяйственное животное, производящее строительные материалы.</AA_FarmBuildingDesc>
   <AA_FarmChemfuelDesc>Это фермерское животное, производящее химтопливо.</AA_FarmChemfuelDesc>
   <AA_FarmDesc>Это домашнее животное, приносящее пользу ресурсами или продуктами.</AA_FarmDesc>
-  <AA_FarmDrugsDesc>This is a farm animal that produces drugs.</AA_FarmDrugsDesc>
-  <AA_FarmFoodDesc>This is a farm animal that produces food items.</AA_FarmFoodDesc>
+  <AA_FarmDrugsDesc>Это сельскохозяйственное животное, производящее наркотики.</AA_FarmDrugsDesc>
+  <AA_FarmFoodDesc>Это сельскохозяйственное животное, производящее продукты питания.</AA_FarmFoodDesc>
   <AA_FarmImplantsDesc>имплант</AA_FarmImplantsDesc>
   <AA_FarmMeatDesc>Это сельскохозяйственное животное, выращиваемое ради мяса.</AA_FarmMeatDesc>
-  <AA_FarmMedicineDesc>This is a farm animal that produces medicines.</AA_FarmMedicineDesc>
-  <AA_FarmMilkDesc>This is a farm animal that produces milk.</AA_FarmMilkDesc>
+  <AA_FarmMedicineDesc>Это сельскохозяйственное животное, производящее медикаменты.</AA_FarmMedicineDesc>
+  <AA_FarmMilkDesc>Это сельскохозяйственное животное, производящее молоко.</AA_FarmMilkDesc>
   <AA_FarmMiscDesc>Это фермерское животное, производящее полезные ресурсы.</AA_FarmMiscDesc>
-  <AA_FarmRandomDesc>This is a farm animal that produces random things.</AA_FarmRandomDesc>
+  <AA_FarmRandomDesc>Это сельскохозяйственное животное, производящее случайные предметы.</AA_FarmRandomDesc>
   <AA_FarmWoolAndEggsDesc>яйцо</AA_FarmWoolAndEggsDesc>
-  <AA_FarmWoolAndMilkDesc>This is a farm animal that produces wool / textiles and milk.</AA_FarmWoolAndMilkDesc>
+  <AA_FarmWoolAndMilkDesc>Это сельскохозяйственное животное, производящее шерсть / ткани и молоко.</AA_FarmWoolAndMilkDesc>
   <AA_FarmWoolDesc>Это фермерское животное, дающее шерсть и текстиль.</AA_FarmWoolDesc>
   <AA_FireyShockTroop>Огненный ударный отряд</AA_FireyShockTroop>
   <AA_FireyShockTroopDesc>атака</AA_FireyShockTroopDesc>
