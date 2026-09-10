@@ -474,26 +474,10 @@ namespace RUML
                     ? cloudItem.LocalVersion
                     : RUMLFolderManager.GetInstalledVersion(modFolder, activeAuthor);
 
-                string targetPid = null;
-                FolderToPackageId.TryGetValue(modFolder, out targetPid);
-                string standaloneBadge = "";
-                string transName;
-                if (!string.IsNullOrEmpty(targetPid) && RUMLTranslationDetector.HasTranslationMod(targetPid, out transName))
-                {
-                    standaloneBadge = " <color=#E0A020>[Сторонний мод]</color>";
-                }
-
-                string modLabel = "<b>" + modFolder + "</b> <color=#80D0FF>[v" + (string.IsNullOrEmpty(ver) ? "1.0.0" : ver) + "]</color>" + standaloneBadge;
+                string modLabel = "<b>" + modFolder + "</b> <color=#80D0FF>[v" + (string.IsNullOrEmpty(ver) ? "1.0.0" : ver) + "]</color>";
                 Rect nameRect = new Rect(nameX + 32f, curY + 6f, nameW - 32f, 26f);
                 Widgets.Label(nameRect, modLabel);
-
-                string tip = (isEnabled ? "Включено: нажмите на флажок, чтобы отключить этот перевод." : "Отключено: нажмите на флажок, чтобы включить этот перевод.");
-                string tName;
-                if (!string.IsNullOrEmpty(targetPid) && RUMLTranslationDetector.HasTranslationMod(targetPid, out tName))
-                {
-                    tip += "\n\n" + RUMLTranslationDetector.GetTranslationTooltip(targetPid);
-                }
-                TooltipHandler.TipRegion(new Rect(nameX, curY + 4f, nameW, 30f), tip);
+                TooltipHandler.TipRegion(new Rect(nameX, curY + 4f, nameW, 30f), (isEnabled ? "Включено: нажмите на флажок, чтобы отключить этот перевод." : "Отключено: нажмите на флажок, чтобы включить этот перевод."));
 
                 // Col 2: Fixed Author Selector Button or Single Author Badge
                 Rect authorRect = new Rect(authorX, curY + 5f, authorW, 28f);
@@ -644,10 +628,12 @@ namespace RUML
             if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + 10f) * 3, btnRowRect.y, bW, 28f), "С переводом"))
             {
                 var targets = RUMLTranslationDetector.GetAllTargetPackageIds();
+                var transMods = RUMLTranslationDetector.GetAllTranslationPackageIds();
                 List<string> withTrans = new List<string>();
                 foreach (var m in running)
                 {
-                    if (targets.Contains(m.PackageId) || targets.Contains(m.PackageIdPlayerFacing))
+                    if (targets.Contains(m.PackageId) || targets.Contains(m.PackageIdPlayerFacing) ||
+                        transMods.Contains(m.PackageId) || transMods.Contains(m.PackageIdPlayerFacing))
                     {
                         withTrans.Add(m.PackageIdPlayerFacing);
                     }
@@ -671,7 +657,8 @@ namespace RUML
             Rect statusRect = new Rect(inRect.x, inRect.y + 68f, inRect.width, 22f);
             int selectedCount = Settings.auditSelectedPackageIds != null ? Settings.auditSelectedPackageIds.Count : 0;
             int withTransCount = RUMLTranslationDetector.TotalTargetsCount;
-            Widgets.Label(statusRect, "Выбрано: <color=cyan>" + selectedCount + "</color> из <color=white>" + running.Count + "</color> активных | Со сторонними модами-переводами: <color=#78D070>" + withTransCount + "</color>");
+            int transModsCount = RUMLTranslationDetector.TotalTranslationModsCount;
+            Widgets.Label(statusRect, "Выбрано: <color=cyan>" + selectedCount + "</color> из <color=white>" + running.Count + "</color> активных | Переведено модами: <color=#78D070>" + withTransCount + "</color> | Языковых пакетов: <color=#40E0D0>" + transModsCount + "</color>");
 
             // Row 4: Scrollable Active Mods Checkbox List
             Rect listRect = new Rect(inRect.x, inRect.y + 94f, inRect.width, inRect.height - 146f);
@@ -714,10 +701,25 @@ namespace RUML
                         : " <color=#E0B020>[DLC]</color>";
                 }
 
-                string transBadge = RUMLTranslationDetector.GetTranslationBadge(mod.PackageId) ?? "";
-                if (string.IsNullOrEmpty(transBadge) && !string.Equals(mod.PackageId, pid, StringComparison.OrdinalIgnoreCase))
+                string transBadge = "";
+                string transTip = null;
+
+                List<TargetModInfo> targetMods;
+                if (RUMLTranslationDetector.IsTranslationMod(mod.PackageId, out targetMods) ||
+                    RUMLTranslationDetector.IsTranslationMod(pid, out targetMods))
                 {
-                    transBadge = RUMLTranslationDetector.GetTranslationBadge(pid) ?? "";
+                    transBadge = RUMLTranslationDetector.GetTranslationModSelfBadge(mod.PackageId);
+                    transTip = RUMLTranslationDetector.GetTranslationModSelfTooltip(mod.PackageId);
+                }
+                else
+                {
+                    List<ActiveTranslationModInfo> activeTrans;
+                    if (RUMLTranslationDetector.HasActiveTranslation(mod.PackageId, out activeTrans) ||
+                        RUMLTranslationDetector.HasActiveTranslation(pid, out activeTrans))
+                    {
+                        transBadge = RUMLTranslationDetector.GetTargetModBadge(mod.PackageId);
+                        transTip = RUMLTranslationDetector.GetTargetModTooltip(mod.PackageId);
+                    }
                 }
 
                 string labelText = "  " + GetModDisplayName(mod) + tag + transBadge + " <color=grey>(" + pid + ")</color>";
@@ -730,7 +732,6 @@ namespace RUML
                     Settings.SetAuditModSelected(pid, newCheck);
                 }
 
-                string transTip = RUMLTranslationDetector.GetTranslationTooltip(mod.PackageId) ?? RUMLTranslationDetector.GetTranslationTooltip(pid);
                 if (!string.IsNullOrEmpty(transTip))
                 {
                     TooltipHandler.TipRegion(rowRect, transTip);
@@ -896,11 +897,28 @@ namespace RUML
                         ? " <color=#E0B020>[Core]</color>"
                         : " <color=#E0B020>[DLC]</color>";
                 }
-                string transBadge = RUMLTranslationDetector.GetTranslationBadge(rep.PackageId) ?? "";
+                string transBadge = "";
+                string transTip = null;
+
+                List<TargetModInfo> repTargetMods;
+                if (RUMLTranslationDetector.IsTranslationMod(rep.PackageId, out repTargetMods))
+                {
+                    transBadge = RUMLTranslationDetector.GetTranslationModSelfBadge(rep.PackageId);
+                    transTip = RUMLTranslationDetector.GetTranslationModSelfTooltip(rep.PackageId);
+                }
+                else
+                {
+                    List<ActiveTranslationModInfo> repActiveTrans;
+                    if (RUMLTranslationDetector.HasActiveTranslation(rep.PackageId, out repActiveTrans))
+                    {
+                        transBadge = RUMLTranslationDetector.GetTargetModBadge(rep.PackageId);
+                        transTip = RUMLTranslationDetector.GetTargetModTooltip(rep.PackageId);
+                    }
+                }
+
                 string title = "<b>" + rep.ModName + "</b>" + tag + transBadge + " <color=grey>(" + rep.PackageId + ")</color>";
                 Widgets.Label(new Rect(row.x + 8f, row.y + 4f, row.width - 150f, 22f), title);
 
-                string transTip = RUMLTranslationDetector.GetTranslationTooltip(rep.PackageId);
                 if (!string.IsNullOrEmpty(transTip))
                 {
                     TooltipHandler.TipRegion(row, transTip);
@@ -1151,18 +1169,17 @@ namespace RUML
                     ? "<color=#50E050>• Целевой мод активен в игре (" + item.PackageId + ")</color>"
                     : "<color=#FFA040>• Мод не обнаружен в списке активных модов (" + item.PackageId + ")</color>";
 
-                string cloudTransBadge = RUMLTranslationDetector.GetTranslationBadge(item.PackageId, 28);
-                if (!string.IsNullOrEmpty(cloudTransBadge))
+                List<ActiveTranslationModInfo> cloudTransList;
+                if (RUMLTranslationDetector.HasActiveTranslation(item.PackageId, out cloudTransList))
                 {
-                    modStatus += "  |" + cloudTransBadge;
+                    modStatus += "  |<color=#E0A020>[В игре уже есть перевод]</color>";
+                    string cloudTransTip = RUMLTranslationDetector.GetTargetModTooltip(item.PackageId);
+                    if (!string.IsNullOrEmpty(cloudTransTip))
+                    {
+                        TooltipHandler.TipRegion(card, cloudTransTip);
+                    }
                 }
                 Widgets.Label(new Rect(card.x + 8f, card.y + 51f, card.width - 230f, 22f), modStatus);
-
-                string cloudTransTip = RUMLTranslationDetector.GetTranslationTooltip(item.PackageId);
-                if (!string.IsNullOrEmpty(cloudTransTip))
-                {
-                    TooltipHandler.TipRegion(card, cloudTransTip);
-                }
 
                 // Action Buttons (Right)
                 if (item.IsInstalled)
