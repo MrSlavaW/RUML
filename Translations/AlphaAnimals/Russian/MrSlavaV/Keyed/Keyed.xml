@@ -65,30 +65,34 @@
   <AA_FarmDesc>Это домашнее животное, приносящее пользу ресурсами или продуктами.</AA_FarmDesc>
   <AA_FarmDrugsDesc>Это сельскохозяйственное животное, производящее наркотики.</AA_FarmDrugsDesc>
   <AA_FarmFoodDesc>Это сельскохозяйственное животное, производящее продукты питания.</AA_FarmFoodDesc>
-  <AA_FarmImplantsDesc>имплант</AA_FarmImplantsDesc>
+  <AA_FarmImplantsDesc>Это сельскохозяйственное животное, производящее импланты.</AA_FarmImplantsDesc>
   <AA_FarmMeatDesc>Это сельскохозяйственное животное, выращиваемое ради мяса.</AA_FarmMeatDesc>
   <AA_FarmMedicineDesc>Это сельскохозяйственное животное, производящее медикаменты.</AA_FarmMedicineDesc>
   <AA_FarmMilkDesc>Это сельскохозяйственное животное, производящее молоко.</AA_FarmMilkDesc>
   <AA_FarmMiscDesc>Это фермерское животное, производящее полезные ресурсы.</AA_FarmMiscDesc>
   <AA_FarmRandomDesc>Это сельскохозяйственное животное, производящее случайные предметы.</AA_FarmRandomDesc>
-  <AA_FarmWoolAndEggsDesc>яйцо</AA_FarmWoolAndEggsDesc>
+  <AA_FarmWoolAndEggsDesc>Это сельскохозяйственное животное, производящее шерсть / текстиль и яйца.</AA_FarmWoolAndEggsDesc>
   <AA_FarmWoolAndMilkDesc>Это сельскохозяйственное животное, производящее шерсть / ткани и молоко.</AA_FarmWoolAndMilkDesc>
   <AA_FarmWoolDesc>Это фермерское животное, дающее шерсть и текстиль.</AA_FarmWoolDesc>
   <AA_FireyShockTroop>Огненный ударный отряд</AA_FireyShockTroop>
-  <AA_FireyShockTroopDesc>атака</AA_FireyShockTroopDesc>
+  <AA_FireyShockTroopDesc>Животные класса «Ударный отряд» специализируются на высокой скорости и тактических способностях в ближнем бою. Они могут быть не слишком живучими, но при грамотном использовании сокрушительны.
+
+Атаки этого существа поджигают врагов.</AA_FireyShockTroopDesc>
   <AA_GallatrossNotTameable>Умирающий галлатрос не поддаётся приручению и стремится уйти в дикую природу, ожидая смерти.</AA_GallatrossNotTameable>
   <AA_HemogenPackDesc>Пакет гемогена через</AA_HemogenPackDesc>
-  <AA_HiveInvalidPosition>улей</AA_HiveInvalidPosition>
+  <AA_HiveInvalidPosition>Здесь нельзя построить вход в улей</AA_HiveInvalidPosition>
   <AA_HuskNotTameable>Грибная оболочка существует лишь для распространения спор и не может быть приручена.</AA_HuskNotTameable>
   <AA_InfectiousShockTroop>Заражающий ударный отряд</AA_InfectiousShockTroop>
-  <AA_InfectiousShockTroopDesc>атака</AA_InfectiousShockTroopDesc>
+  <AA_InfectiousShockTroopDesc>Животные класса «Ударный отряд» специализируются на высокой скорости и тактических способностях в ближнем бою. Они могут быть не слишком живучими, но при грамотном использовании сокрушительны.
+
+Раны, нанесённые этим животным, воспаляются и заражаются инфекцией намного чаще обычного.</AA_InfectiousShockTroopDesc>
   <AA_KO>Нокаут!</AA_KO>
   <AA_KOFailed>Нокаут не удался</AA_KOFailed>
   <AA_Larva>Личинка</AA_Larva>
   <AA_LarvaDesc>Это животное находится в личиночной стадии и не приспособлено к бою. Защищайте его, пока оно не разовьётся во взрослую особь.</AA_LarvaDesc>
-  <AA_LarvaeTimeSpawn>лапа</AA_LarvaeTimeSpawn>
-  <AA_LegSkip>лапка</AA_LegSkip>
-  <AA_LegSkipFailed>лапка</AA_LegSkipFailed>
+  <AA_LarvaeTimeSpawn>Время до появления новых чёрных личинок: {0}</AA_LarvaeTimeSpawn>
+  <AA_LegSkip>Прыжок лапами!</AA_LegSkip>
+  <AA_LegSkipFailed>Прыжок лапами не удался</AA_LegSkipFailed>
   <AA_LetterAnimaliskEnters>Огромное паукообразное существо с таинственными рунами на панцире бродит по территории.
 
 Это анималиск — гигантское растительноядное насекомое, пожирающее траву и деревья души.</AA_LetterAnimaliskEnters>
@@ -97,7 +101,9 @@
 Эти исполинские существа обладают ненасытным аппетитом и смертоносным огненным дыханием, способным испепелить целый лес.
 
 Они часто используются в качестве вьючных животных грозной расой Забытых.</AA_LetterBehemothPasses>
-  <AA_LetterFungalHusk>гриб</AA_LetterFungalHusk>
+  <AA_LetterFungalHusk>Раздутые, ковыляющие трупы, оживлённые страшным боевым грибком, вторглись на эту территорию!
+
+Не позволяйте им атаковать ваших поселенцев, иначе они заразятся быстротечной грибковой инфекцией, которая без лечения стремительно ведёт к смерти.</AA_LetterFungalHusk>
   <AA_LetterLabelAlphaCargoPodCrash>Alpha Animals (Альфа-Животные)</AA_LetterLabelAlphaCargoPodCrash>
   <AA_LetterLabelAnimaliskEnters>Замечен анималиск</AA_LetterLabelAnimaliskEnters>
   <AA_LetterLabelBehemothPasses>Редкие бегемоты</AA_LetterLabelBehemothPasses>
@@ -106,54 +112,64 @@
   <AA_LetterLabelMechanoidSappers>Механоиды-сапёры</AA_LetterLabelMechanoidSappers>
   <AA_LetterLabelMime>Мим разоблачён</AA_LetterLabelMime>
   <AA_LetterMatureFleshbeast>Гротескная тварь проглотила целиком {0}! Если действовать быстро, ещё есть шанс спасти {0_objective}.</AA_LetterMatureFleshbeast>
-  <AA_LetterMechanoidSappers>атака</AA_LetterMechanoidSappers>
-  <AA_LetterMime>атака</AA_LetterMime>
+  <AA_LetterMechanoidSappers>Ранее скрытый древний сборщик механоидов внезапно материализовался неподалёку.
+
+Рой механоидов вырывается наружу, быстро готовясь к нападению.
+
+Один из этих механоидов — опасный разрушитель, так что они направятся прямо к вашим стенам!</AA_LetterMechanoidSappers>
+  <AA_LetterMime>{0} всё это время был мимом! Невыносимый голод сломил {0_objective}, и теперь {0_pronoun} нападает на остальных поселенцев в безумной попытке насытиться.</AA_LetterMime>
   <AA_Luciferium>Производство люциферия</AA_Luciferium>
   <AA_MealNutrientPaste>Производство питательной пасты</AA_MealNutrientPaste>
   <AA_MeleeWeaponNeeded>Применитель должен быть экипирован оружием ближнего боя</AA_MeleeWeaponNeeded>
   <AA_MimeNotTameable>Мим не поддаётся приручению.</AA_MimeNotTameable>
   <AA_MothSilkDesc>Производство шёлка моли</AA_MothSilkDesc>
   <AA_MountArmoured>Бронированное ездовое животное</AA_MountArmoured>
-  <AA_MountArmouredDesc>атака</AA_MountArmouredDesc>
+  <AA_MountArmouredDesc>Колонисты могут ездить верхом на этом животном, получая высокую защиту благодаря естественной броне зверя и сражаясь в ближнем бою вместе со своим ездовым питомцем. Обратите внимание: механика верховой езды доступна только при установленном моде Giddy-up! Если у вас его ещё нет — самое время попробовать!</AA_MountArmouredDesc>
   <AA_MountFast>Быстрое ездовое животное</AA_MountFast>
   <AA_MountFastArmoured>Бронированное и быстрое верховое животное</AA_MountFastArmoured>
-  <AA_MountFastArmouredDesc>атака</AA_MountFastArmouredDesc>
-  <AA_MountFastDesc>атака</AA_MountFastDesc>
-  <AA_MutantImplantsDesc>имплант</AA_MutantImplantsDesc>
+  <AA_MountFastArmouredDesc>Колонисты могут ездить верхом на этом животном, получая ощутимую прибавку к скорости, высокую броневую защиту и возможность сражаться в ближнем бою вместе с ездовым зверем. Обратите внимание: механика верховой езды доступна только при установленном моде Giddy-up! Если у вас его ещё нет — самое время попробовать!</AA_MountFastArmouredDesc>
+  <AA_MountFastDesc>Колонисты могут ездить верхом на этом животном, получая ощутимую прибавку к скорости и сражаясь в ближнем бою вместе со своим ездовым питомцем. Обратите внимание: механика верховой езды доступна только при установленном моде Giddy-up! Если у вас его ещё нет — самое время попробовать!</AA_MountFastDesc>
+  <AA_MutantImplantsDesc>Время до извлечения импланта</AA_MutantImplantsDesc>
   <AA_No>Нет</AA_No>
-  <AA_NoMoreLarvaeAllowed>лапа</AA_NoMoreLarvaeAllowed>
-  <AA_NoRanged>атака</AA_NoRanged>
+  <AA_NoMoreLarvaeAllowed>Личинки больше не могут появляться, так как в колонии уже есть 4 или более инсектоида Чёрного Улья.</AA_NoMoreLarvaeAllowed>
+  <AA_NoRanged>Это животное не имеет дальних атак. Чтобы отдавать ему боевые приказы, его нужно обучить навыкам «Охрана» и «Атака», а затем назначить следовать за хозяином. Кнопка «Фас» на панели команд хозяина прикажет животному атаковать врагов в ближнем бою.</AA_NoRanged>
   <AA_NotTameable>Это существо невозможно приручить.</AA_NotTameable>
-  <AA_OnlyBlackHive>улей</AA_OnlyBlackHive>
+  <AA_OnlyBlackHive>Эта способность должна быть нацелена на инсектоида Чёрного Улья</AA_OnlyBlackHive>
   <AA_OnlyNumberAllowed>Разрешено не более {0} на карте</AA_OnlyNumberAllowed>
-  <AA_OnlyOneHivePerMap>улей</AA_OnlyOneHivePerMap>
+  <AA_OnlyOneHivePerMap>Можно построить только один вход в улей на карте</AA_OnlyOneHivePerMap>
   <AA_PackAnimal>Вьючное животное</AA_PackAnimal>
   <AA_PackAnimalDesc>Это вьючное животное, способное нести в караванах больше веса, чем обычно.</AA_PackAnimalDesc>
   <AA_ParalizingRanged>Парализующий дальний бой</AA_ParalizingRanged>
-  <AA_ParalyzingRangedDesc>атака</AA_ParalyzingRangedDesc>
+  <AA_ParalyzingRangedDesc>Животные класса «Парализующий дальний бой» обездвиживают противников на расстоянии. Использовать их в рукопашной схватке крайне не рекомендуется.</AA_ParalyzingRangedDesc>
   <AA_ParalyzingShockTroop>Парализующий ударный отряд</AA_ParalyzingShockTroop>
-  <AA_ParalyzingShockTroopDesc>атака</AA_ParalyzingShockTroopDesc>
+  <AA_ParalyzingShockTroopDesc>Животные класса «Ударный отряд» специализируются на высокой скорости и тактических способностях в ближнем бою. Они могут быть не слишком живучими, но при грамотном использовании сокрушительны.
+
+Это существо способно парализовать и обездвиживать нападающих.</AA_ParalyzingShockTroopDesc>
   <AA_Pest>Вредитель</AA_Pest>
   <AA_PestDesc>Это животное считается вредителем и обычно бесполезно для колонии. Его повадки либо вредоносны, либо требуют слишком больших затрат. Тем не менее, вы можете найти для него узкое применение!</AA_PestDesc>
   <AA_Pet>Питомец</AA_Pet>
   <AA_PetDesc>Это домашний любимец. Разве он не милашка?</AA_PetDesc>
   <AA_PlantConversionRadius>Радиус обращения растений</AA_PlantConversionRadius>
   <AA_PoisonShockTroop>Ядовитый ударный отряд</AA_PoisonShockTroop>
-  <AA_PoisonShockTroopDesc>атака</AA_PoisonShockTroopDesc>
+  <AA_PoisonShockTroopDesc>Животные класса «Ударный отряд» специализируются на высокой скорости и тактических способностях в ближнем бою. Они могут быть не слишком живучими, но при грамотном использовании сокрушительны.
+
+Удары этого животного вызывают токсичное поражение.</AA_PoisonShockTroopDesc>
   <AA_PrimaryRole>Основная роль</AA_PrimaryRole>
   <AA_PsychicSlice>Психоклинок!</AA_PsychicSlice>
   <AA_PsychicSliceFailed>Психоклинок не удался</AA_PsychicSliceFailed>
   <AA_RadiusExpandRate>Скорость расширения</AA_RadiusExpandRate>
   <AA_RandomItems>Сборка ресурсов через</AA_RandomItems>
-  <AA_Ranged>атака</AA_Ranged>
-  <AA_RangedAttacks>атака</AA_RangedAttacks>
+  <AA_Ranged>Это животное использует дистанционные атаки и переходит в ближний бой, только если враг подбирается вплотную. Для управления им в бою обучите животное навыкам «Охрана» и «Атака» и назначьте следовать за хозяином. Кнопка «Фас» прикажет животному занять подходящее укрытие и стрелять по целям.</AA_Ranged>
+  <AA_RangedAttacks>Использует дальний бой</AA_RangedAttacks>
   <AA_RegeneratingShockTroop>Регенерирующий ударный отряд</AA_RegeneratingShockTroop>
   <AA_RegeneratingShockTroopDesc>Животные класса «Ударный отряд» специализируются на высокой скорости и боевых способностях. Это существо быстро восстанавливает здоровье, что делает его крайне стойким.</AA_RegeneratingShockTroopDesc>
   <AA_Reset>Сбросить множитель</AA_Reset>
   <AA_SeasonalWoolDesc>Производство шерсти хамелеона</AA_SeasonalWoolDesc>
   <AA_SecondaryRole>Вторичная роль</AA_SecondaryRole>
   <AA_ShockTroop>Ударный отряд</AA_ShockTroop>
-  <AA_ShockTroopDOTDesc>атака</AA_ShockTroopDOTDesc>
+  <AA_ShockTroopDOTDesc>Животные класса «Ударный отряд» специализируются на высокой скорости и тактических способностях в ближнем бою. Они могут быть не слишком живучими, но при грамотном использовании сокрушительны.
+
+Это животное наносит удары с периодическим уроном.</AA_ShockTroopDOTDesc>
   <AA_ShockTroopDesc>Животные класса «Ударный отряд» специализируются на высокой скорости и способностях, полезных в ближнем бою.</AA_ShockTroopDesc>
   <AA_Skewer>Пронзание!</AA_Skewer>
   <AA_SkewerFailed>Пронзание не удалось</AA_SkewerFailed>
@@ -173,18 +189,28 @@
   <AA_UtilityTemperatureDesc>Это животное помогает регулировать температуру и обогревать либо охлаждать помещения.</AA_UtilityTemperatureDesc>
   <AA_UtilityWorkerDesc>Это животное помогает колонистам в работе (добыча руды, сбор урожая, уборка), существенно снижая трудозатраты.</AA_UtilityWorkerDesc>
   <AA_VFEI_CreatingCocoon>Кокон будет создан через {0}</AA_VFEI_CreatingCocoon>
-  <AA_VenomousTankDesc>атака</AA_VenomousTankDesc>
+  <AA_VenomousTankDesc>Животные класса «Танк» специализируются на ближнем бою. Они обладают высоким уроном, отличной защитой, большим запасом здоровья или другими способностями, позволяющими выживать на передовой.
+
+Это животное также наносит ядовитые удары.</AA_VenomousTankDesc>
   <AA_Wood>Время до срезки древесины</AA_Wood>
   <AA_Yes>Да</AA_Yes>
-  <BlizzariskClutchMother>яйцо</BlizzariskClutchMother>
+  <BlizzariskClutchMother>Огромное паукообразное существо, известное как близзариск и приспособленное к ледяному климату, бродит по окрестностям.
+
+Этот близзариск значительно крупнее обычных особей и несёт на спине кладку яиц. Это верный рецепт катастрофы, если быстро с ним не разобраться.</BlizzariskClutchMother>
   <BoomthreadDesc>Производство бумнити</BoomthreadDesc>
   <CactipineDropPod>Воздух сотрясает безошибочно узнаваемый гул десантной капсулы при входе в атмосферу. Сенсоры фиксируют признаки жизни внутри, но показания крайне необычны — словно смесь животного и растения.</CactipineDropPod>
   <ChunkSlagSteelDesc>Выделение стальных обломков через</ChunkSlagSteelDesc>
   <DevilstrandDesc>Производство дьявлоткани</DevilstrandDesc>
-  <DunealiskClutchMother>яйцо</DunealiskClutchMother>
-  <FeraliskClutchMother>яйцо</FeraliskClutchMother>
+  <DunealiskClutchMother>Огромное паукообразное существо, известное как дюналиск и приспособленное к знойному климату, бродит по окрестностям.
+
+Этот дюналиск значительно крупнее обычных особей и несёт на спине кладку яиц. Это верный рецепт катастрофы, если быстро с ним не разобраться.</DunealiskClutchMother>
+  <FeraliskClutchMother>Огромное паукообразное существо, известное как фералиск, бродит по окрестностям.
+
+Этот фералиск значительно крупнее обычных особей и несёт на спине кладку яиц. Это верный рецепт катастрофы, если быстро с ним не разобраться.</FeraliskClutchMother>
   <HyperweaveDesc>Производство гиперткани</HyperweaveDesc>
-  <LetterBlackHiveAttack>улей</LetterBlackHiveAttack>
+  <LetterBlackHiveAttack>Инсектоиды в Пограничье — это генетически модифицированные организмы, изначально созданные для борьбы со вторжениями механоидов. Чёрный Улей был элитой среди них: они отличаются повышенной агрессивностью и способны брать штурмом неприступные крепости механоидов. Существующие виды были усовершенствованы, а также выведено несколько новых смертоносных подвидов.
+
+Группа инсектоидов Чёрного Улья прорыла туннель в этот сектор и немедленно атакует ваше поселение.</LetterBlackHiveAttack>
   <LetterBumbledroneMigration>Небольшая группа шмеледронов во главе с маткой вошла на эту территорию.
 
 Шмеледроны не агрессивны, если их не провоцировать.
@@ -195,7 +221,7 @@
 Небольшой рой мелких особей следует за ним на короткой дистанции.
 
 Они в основном безвредны и, скорее всего, покинут эти края, как только насытятся.</LetterColossalAerofleetPasses>
-  <LetterGallatrossPasses>лапка</LetterGallatrossPasses>
+  <LetterGallatrossPasses>Легенды повествуют о существе настолько громадном и могущественном, что целые племена обращались в бегство при одном его виде. Источником этих историй послужил галлатрос — колоссальное создание с ненасытным аппетитом. Возможно, он как-то связан с таинственным трумбо? Вряд ли кому-то удастся найти ответ на этот вопрос.</LetterGallatrossPasses>
   <LetterLabelBlackHiveAttack>нападение Чёрного Улья</LetterLabelBlackHiveAttack>
   <LetterLabelBlizzariskClutchMother>мать выводка близарисков</LetterLabelBlizzariskClutchMother>
   <LetterLabelBumbledroneMigration>Миграция шмеледронов</LetterLabelBumbledroneMigration>
@@ -208,19 +234,25 @@
   <LetterLabelSkyAsteroid>Странный астероид</LetterLabelSkyAsteroid>
   <LetterLabelSummitCrab>краб вершин</LetterLabelSummitCrab>
   <LetterSkyAsteroid>Небольшой необычный астероид вошёл в атмосферу планеты. Падение неизбежно.</LetterSkyAsteroid>
-  <ManhuntingArcticLion>атака</ManhuntingArcticLion>
-  <MedicinalQuillDesc>иглы</MedicinalQuillDesc>
-  <NocturnalAnimals.BodyClock>тело</NocturnalAnimals.BodyClock>
+  <ManhuntingArcticLion>Полярный лев выслеживает одного из ваших поселенцев из тени.
+
+Он будет практически невидим, пока не решит напасть и не получит урон от поселенцев. Призванные к оружию и настороже колонисты, а также автоматические турели смогут его обнаружить, так что подготовьтесь как можно скорее!
+
+Полярные львы — грозные генетически модифицированные хищники, выведенные для схваток в условиях ледяного холода.</ManhuntingArcticLion>
+  <MedicinalQuillDesc>Рост лечебных игл</MedicinalQuillDesc>
+  <NocturnalAnimals.BodyClock>Биологические часы</NocturnalAnimals.BodyClock>
   <NocturnalAnimals.BodyClock_Crepuscular>Сумеречный</NocturnalAnimals.BodyClock_Crepuscular>
   <NocturnalAnimals.BodyClock_Description>Определяет режим сна и бодрствования животного.
 
 Дневные животные спят ночью и активны днём, а ночные спят днём и активны ночью. Сумеречные животные наиболее активны в предрассветные и вечерние часы.</NocturnalAnimals.BodyClock_Description>
   <NocturnalAnimals.BodyClock_Diurnal>Дневной</NocturnalAnimals.BodyClock_Diurnal>
   <NocturnalAnimals.BodyClock_Nocturnal>Ночной</NocturnalAnimals.BodyClock_Nocturnal>
-  <RawMushrooms>рост</RawMushrooms>
+  <RawMushrooms>Рост сырых грибов</RawMushrooms>
   <StoneBlockDesc>Дробление каменных блоков через</StoneBlockDesc>
   <StoneChunkDesc>Добыча каменных глыб через</StoneChunkDesc>
-  <SummitCrab>орудие</SummitCrab>
+  <SummitCrab>Земля содрогается: колоссальный краб-отшельник, обитающий внутри огромного валуна, медленно ползёт через эти земли.
+
+Этот гигантский вершинный краб не проявляет враждебности, однако он практически неуязвим для пуль и сотрёт в порошок всё на своём пути, если его не остановить.</SummitCrab>
   <SynthreadDesc>Производство синтоткани</SynthreadDesc>
   <VFEI2_BlackInsectJelly>Заполненность чёрным желе:</VFEI2_BlackInsectJelly>
   <allowAerofleet>Разрешить миграцию колоссальных аэрофлотов</allowAerofleet>
@@ -228,20 +260,20 @@
   <allowAnimalisk>Разрешить анималисков (требуется Royalty)</allowAnimalisk>
   <allowAsteroids>Разрешить падение арктуранских метеоритов</allowAsteroids>
   <allowBehemoth>Разрешить появление бродячих бегемотов</allowBehemoth>
-  <allowBlackHive>улей</allowBlackHive>
+  <allowBlackHive>Разрешить рейды Чёрного Улья</allowBlackHive>
   <allowBumbledrones>Разрешить миграции королев шмеледронов</allowBumbledrones>
   <allowCactipineDroppods>Разрешить падение капсул с кактусинами</allowCactipineDroppods>
   <allowFrostmiteCorpses>Разрешить морозным клещам выкапывать трупы</allowFrostmiteCorpses>
-  <allowFungalHusk>атака</allowFungalHusk>
+  <allowFungalHusk>Разрешить нападения грибных оболочек</allowFungalHusk>
   <allowGallatross>Разрешить миграции галлатросов</allowGallatross>
   <allowHelixienCorpseEffect>Разрешить эффект геликсиена (отключите при конфликтах с другими модами)</allowHelixienCorpseEffect>
   <allowMechanoidSappers>Разрешить событие «Механоиды-сапёры»</allowMechanoidSappers>
   <allowMime>Разрешить событие присоединения мима-странника</allowMime>
-  <allowSpiderClutchMothers>мать выводка</allowSpiderClutchMothers>
-  <allowStalkingLions>атака</allowStalkingLions>
+  <allowSpiderClutchMothers>Разрешить событие матерей паучьего выводка</allowSpiderClutchMothers>
+  <allowStalkingLions>Разрешить нападения крадущихся полярных львов</allowStalkingLions>
   <allowSummitCrab>Разрешить событие появления верхового краба</allowSummitCrab>
-  <allowVanillaAnimals>лапа</allowVanillaAnimals>
+  <allowVanillaAnimals>Разрешить базовых животных игры (влияет только на диких животных)</allowVanillaAnimals>
   <alternatePokemonGraphics>Использовать милые альтернативные текстуры от Roidgy</alternatePokemonGraphics>
-  <alternatePokemonGraphics_Desc>лапа</alternatePokemonGraphics_Desc>
+  <alternatePokemonGraphics_Desc>Если опция включена, выбранные животные будут использовать приятные альтернативные текстуры от Roidgy. Ретекстур доступен для: агарипешка, агарипод, полярный лев, дракон разложения, пустынный страус, галлатрос, гигантелопа, земляной бегун, мамонтовый червь, мегавошь, грибной колосс, заросший колосс, радьяк, песчаный лев и термодон.</alternatePokemonGraphics_Desc>
   <removeAnimalParticles>Отключить частицы эффектов у животных</removeAnimalParticles>
 </LanguageData>
