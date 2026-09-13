@@ -108,16 +108,6 @@ namespace RUML
         private int expandedAuditCategoryFilter = 0; // 0: All, 1: Defs, 2: Keyed / Settings
         private bool autoCheckUpdatesTriggered = false;
 
-        public static readonly List<string> KnownMods = new List<string>
-        {
-            "AlphaAnimals", "AlphaArmoury", "AlphaBiomes", "AlphaGenes", "AlphaGenesIntegrated",
-            "AlphaMechs", "AlphaMemes", "AlphaRandom", "ArchotechExpanded", "CatsBootsAndGloves",
-            "EPOE_ModularCompat", "EPOE_Royalty", "GeneExtractorTiers", "InfoCardPlus", "KabouterXenotype",
-            "MoreGroupedBuildings", "PlasmaShieldImplant", "Psycasts2", "RebuildDoorsCorners",
-            "ReelsStorage", "RegrowthAspen", "RespliceCore", "SbzFridge", "SbzGravshipStorage",
-            "SimpleSidearms", "TooManyMods", "VOE_Factory", "VanometricGenerator"
-        };
-
         public static readonly Dictionary<string, string> FolderToPackageId = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
         {
             { "AlphaAnimals", "sarg.alphaanimals" },
@@ -134,7 +124,7 @@ namespace RUML
             { "EPOE_Royalty", "vat.epoeforkedroyalty" },
             { "GeneExtractorTiers", "redmattis.geneextractor" },
             { "InfoCardPlus", "kaamalauppias.infocardplus" },
-            { "KabouterXenotype", "sovereign.chipchipchip" },
+            { "KabouterXenotype", "soovereign.chipchipchip" },
             { "MoreGroupedBuildings", "wsp.groupedbuildings" },
             { "PlasmaShieldImplant", "virathas.plasmashieldimplant" },
             { "Psycasts2", "astryl.psycasts" },
@@ -174,11 +164,14 @@ namespace RUML
         private void InitDefaultAuditSelection()
         {
             List<string> pids = new List<string>();
-            foreach (ModContentPack m in LoadedModManager.RunningMods)
+            if (LoadedModManager.RunningMods != null)
             {
-                if (!IsVanillaOrDlc(m.PackageIdPlayerFacing))
+                foreach (ModContentPack m in LoadedModManager.RunningMods)
                 {
-                    pids.Add(m.PackageIdPlayerFacing);
+                    if (m != null && !IsVanillaOrDlc(m.PackageIdPlayerFacing))
+                    {
+                        pids.Add(m.PackageIdPlayerFacing);
+                    }
                 }
             }
             Settings.SelectAuditMods(pids);

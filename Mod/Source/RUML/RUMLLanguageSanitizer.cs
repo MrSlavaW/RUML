@@ -1,4 +1,4 @@
-// MC Version: 1.5 | Loader: RimWorld | Mappings: Official
+// RimWorld Version: 1.6 | .NET Framework: 4.7.2/4.8
 using System;
 using System.Collections.Generic;
 using System.IO;
