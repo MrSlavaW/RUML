@@ -103,6 +103,7 @@ namespace RUML
         private List<ModAuditReport> lastAuditReports = null;
         private int currentMainTab = 0; // 0: Built-in Mods, 1: Auditor, 2: GitHub Cloud
         private int auditSubTab = 0;    // 0: Select Active Mods, 1: Audit Results
+        private int auditCategoryFilter = 0; // 0: All, 1: None, 2: Built-in, 3: External Mod, 4: RUML, 5: Translation Packs
         private int auditResultMode = 0; // 0: All, 1: With Missing, 2: 100% Translated
         private string expandedAuditMod = "";
         private int expandedAuditCategoryFilter = 0; // 0: All, 1: Defs, 2: Keyed / Settings
@@ -587,86 +588,150 @@ namespace RUML
         private void DrawAuditSelectionSubTab(Rect inRect)
         {
             var running = LoadedModManager.RunningMods.ToList();
+            if (running == null || running.Count == 0) return;
 
             // Row 1: Search and Clear
-            Rect searchRect = new Rect(inRect.x, inRect.y, inRect.width, 28f);
+            Rect searchRect = new Rect(inRect.x, inRect.y, inRect.width, 26f);
             RUMLUI.DrawSearchBar(searchRect, ref auditSearchFilter);
 
-            // Row 2: Batch Selection Buttons
-            Rect btnRowRect = new Rect(inRect.x, inRect.y + 34f, inRect.width, 28f);
-            float bW = (inRect.width - 40f) / 5f;
+            // Pre-calculate counts for each category
+            int countAll = running.Count;
+            int countNoTrans = 0;
+            int countBuiltIn = 0;
+            int countExternal = 0;
+            int countRuml = 0;
+            int countTransMods = 0;
 
-            if (Widgets.ButtonText(new Rect(btnRowRect.x, btnRowRect.y, bW, 28f), "Выбрать все"))
+            for (int i = 0; i < running.Count; i++)
+            {
+                var m = running[i];
+                string pid = m.PackageIdPlayerFacing;
+                bool isRuml = FolderToPackageId.Values.Any(p => string.Equals(p, pid, StringComparison.OrdinalIgnoreCase)) ||
+                              (RUMLCloudManager.Items != null && RUMLCloudManager.Items.Any(ci => ci.IsInstalled && string.Equals(ci.PackageId, pid, StringComparison.OrdinalIgnoreCase)));
+                List<TargetModInfo> dummyTargets;
+                bool isTransMod = RUMLTranslationDetector.IsTranslationMod(m.PackageId, out dummyTargets) || RUMLTranslationDetector.IsTranslationMod(pid, out dummyTargets);
+                List<ActiveTranslationModInfo> dummyAct;
+                bool hasExternal = RUMLTranslationDetector.HasActiveTranslation(m.PackageId, out dummyAct) || RUMLTranslationDetector.HasActiveTranslation(pid, out dummyAct);
+                bool hasBuiltIn = RUMLTranslationDetector.HasBuiltInRussianTranslation(m.PackageId) || RUMLTranslationDetector.HasBuiltInRussianTranslation(pid);
+                bool isVanilla = IsVanillaOrDlc(pid);
+
+                if (isTransMod) countTransMods++;
+                if (hasBuiltIn) countBuiltIn++;
+                if (hasExternal) countExternal++;
+                if (isRuml) countRuml++;
+                if (!isVanilla && !isTransMod && !hasBuiltIn && !hasExternal && !isRuml) countNoTrans++;
+            }
+
+            // Row 2: Category Filter Bar
+            string[] catLabels = new string[]
+            {
+                "Все (" + countAll + ")",
+                "Без перевода (" + countNoTrans + ")",
+                "Встроенный (" + countBuiltIn + ")",
+                "Внешний мод (" + countExternal + ")",
+                "RUML (" + countRuml + ")",
+                "Пакеты (" + countTransMods + ")"
+            };
+            float catGap = 5f;
+            float catBtnW = (inRect.width - catGap * 5f) / 6f;
+            for (int c = 0; c < 6; c++)
+            {
+                Rect catRect = new Rect(inRect.x + c * (catBtnW + catGap), inRect.y + 30f, catBtnW, 26f);
+                Color prevCol = GUI.color;
+                if (auditCategoryFilter == c)
+                {
+                    GUI.color = RUMLUI.ColorActiveTab;
+                }
+                if (Widgets.ButtonText(catRect, catLabels[c]))
+                {
+                    auditCategoryFilter = c;
+                }
+                GUI.color = prevCol;
+            }
+
+            // Build filtered list based on selected category and text search
+            List<ModContentPack> filteredMods = new List<ModContentPack>();
+            for (int i = 0; i < running.Count; i++)
+            {
+                var m = running[i];
+                string pid = m.PackageIdPlayerFacing;
+                bool isRuml = FolderToPackageId.Values.Any(p => string.Equals(p, pid, StringComparison.OrdinalIgnoreCase)) ||
+                              (RUMLCloudManager.Items != null && RUMLCloudManager.Items.Any(ci => ci.IsInstalled && string.Equals(ci.PackageId, pid, StringComparison.OrdinalIgnoreCase)));
+                List<TargetModInfo> dummyTargets;
+                bool isTransMod = RUMLTranslationDetector.IsTranslationMod(m.PackageId, out dummyTargets) || RUMLTranslationDetector.IsTranslationMod(pid, out dummyTargets);
+                List<ActiveTranslationModInfo> dummyAct;
+                bool hasExternal = RUMLTranslationDetector.HasActiveTranslation(m.PackageId, out dummyAct) || RUMLTranslationDetector.HasActiveTranslation(pid, out dummyAct);
+                bool hasBuiltIn = RUMLTranslationDetector.HasBuiltInRussianTranslation(m.PackageId) || RUMLTranslationDetector.HasBuiltInRussianTranslation(pid);
+                bool isVanilla = IsVanillaOrDlc(pid);
+
+                // Category filter check
+                if (auditCategoryFilter == 1 && (isVanilla || isTransMod || hasBuiltIn || hasExternal || isRuml)) continue;
+                if (auditCategoryFilter == 2 && !hasBuiltIn) continue;
+                if (auditCategoryFilter == 3 && !hasExternal) continue;
+                if (auditCategoryFilter == 4 && !isRuml) continue;
+                if (auditCategoryFilter == 5 && !isTransMod) continue;
+
+                // Search query check
+                string disp = GetModDisplayName(m);
+                if (!string.IsNullOrEmpty(auditSearchFilter) &&
+                    disp.IndexOf(auditSearchFilter, StringComparison.OrdinalIgnoreCase) < 0 &&
+                    pid.IndexOf(auditSearchFilter, StringComparison.OrdinalIgnoreCase) < 0)
+                {
+                    continue;
+                }
+
+                filteredMods.Add(m);
+            }
+
+            // Row 3: Action Buttons (Batch selection)
+            Rect btnRowRect = new Rect(inRect.x, inRect.y + 60f, inRect.width, 26f);
+            float bGap = 6f;
+            float bW = (inRect.width - bGap * 4f) / 5f;
+
+            if (Widgets.ButtonText(new Rect(btnRowRect.x, btnRowRect.y, bW, 26f), "Выбрать в фильтре"))
+            {
+                for (int i = 0; i < filteredMods.Count; i++)
+                {
+                    Settings.SetAuditModSelected(filteredMods[i].PackageIdPlayerFacing, true);
+                }
+            }
+            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + bGap), btnRowRect.y, bW, 26f), "Снять в фильтре"))
+            {
+                for (int i = 0; i < filteredMods.Count; i++)
+                {
+                    Settings.SetAuditModSelected(filteredMods[i].PackageIdPlayerFacing, false);
+                }
+            }
+            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + bGap) * 2, btnRowRect.y, bW, 26f), "Выбрать ВСЕ"))
             {
                 List<string> all = new List<string>();
-                foreach (var m in running) all.Add(m.PackageIdPlayerFacing);
+                for (int i = 0; i < running.Count; i++) all.Add(running[i].PackageIdPlayerFacing);
                 Settings.SelectAuditMods(all);
             }
-            if (Widgets.ButtonText(new Rect(btnRowRect.x + bW + 10f, btnRowRect.y, bW, 28f), "Снять все"))
+            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + bGap) * 3, btnRowRect.y, bW, 26f), "Снять ВСЕ"))
             {
                 Settings.DeselectAllAuditMods();
             }
-            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + 10f) * 2, btnRowRect.y, bW, 28f), "Только RUML"))
-            {
-                List<string> ruml = new List<string>();
-                foreach (var m in running)
-                {
-                    if (FolderToPackageId.Values.Any(p => string.Equals(p, m.PackageIdPlayerFacing, StringComparison.OrdinalIgnoreCase)))
-                    {
-                        ruml.Add(m.PackageIdPlayerFacing);
-                    }
-                }
-                Settings.SelectAuditMods(ruml);
-            }
-            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + 10f) * 3, btnRowRect.y, bW, 28f), "С переводом"))
-            {
-                var targets = RUMLTranslationDetector.GetAllTargetPackageIds();
-                var transMods = RUMLTranslationDetector.GetAllTranslationPackageIds();
-                List<string> withTrans = new List<string>();
-                foreach (var m in running)
-                {
-                    if (targets.Contains(m.PackageId) || targets.Contains(m.PackageIdPlayerFacing) ||
-                        transMods.Contains(m.PackageId) || transMods.Contains(m.PackageIdPlayerFacing))
-                    {
-                        withTrans.Add(m.PackageIdPlayerFacing);
-                    }
-                }
-                Settings.SelectAuditMods(withTrans);
-            }
-            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + 10f) * 4, btnRowRect.y, bW, 28f), "Без Core/DLC"))
+            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + bGap) * 4, btnRowRect.y, bW, 26f), "Без Core/DLC"))
             {
                 List<string> nonVanilla = new List<string>();
-                foreach (var m in running)
+                for (int i = 0; i < running.Count; i++)
                 {
-                    if (!IsVanillaOrDlc(m.PackageIdPlayerFacing))
+                    if (!IsVanillaOrDlc(running[i].PackageIdPlayerFacing))
                     {
-                        nonVanilla.Add(m.PackageIdPlayerFacing);
+                        nonVanilla.Add(running[i].PackageIdPlayerFacing);
                     }
                 }
                 Settings.SelectAuditMods(nonVanilla);
             }
 
-            // Row 3: Status count
-            Rect statusRect = new Rect(inRect.x, inRect.y + 68f, inRect.width, 22f);
+            // Row 4: Status count
+            Rect statusRect = new Rect(inRect.x, inRect.y + 90f, inRect.width, 20f);
             int selectedCount = Settings.auditSelectedPackageIds != null ? Settings.auditSelectedPackageIds.Count : 0;
-            int withTransCount = RUMLTranslationDetector.TotalTargetsCount;
-            int transModsCount = RUMLTranslationDetector.TotalTranslationModsCount;
-            Widgets.Label(statusRect, "Выбрано: <color=cyan>" + selectedCount + "</color> из <color=white>" + running.Count + "</color> активных | Переведено модами: <color=#78D070>" + withTransCount + "</color> | Языковых пакетов: <color=#40E0D0>" + transModsCount + "</color>");
+            Widgets.Label(statusRect, "Выбрано для аудита: <color=cyan>" + selectedCount + "</color> из <color=white>" + running.Count + "</color> | Показано в фильтре: <color=#80D0FF>" + filteredMods.Count + "</color>");
 
-            // Row 4: Scrollable Active Mods Checkbox List
-            Rect listRect = new Rect(inRect.x, inRect.y + 94f, inRect.width, inRect.height - 146f);
-            List<ModContentPack> filteredMods = new List<ModContentPack>();
-            foreach (var m in running)
-            {
-                string disp = GetModDisplayName(m);
-                if (string.IsNullOrEmpty(auditSearchFilter) ||
-                    disp.IndexOf(auditSearchFilter, StringComparison.OrdinalIgnoreCase) >= 0 ||
-                    m.PackageIdPlayerFacing.IndexOf(auditSearchFilter, StringComparison.OrdinalIgnoreCase) >= 0)
-                {
-                    filteredMods.Add(m);
-                }
-            }
-
+            // Row 5: Scrollable Active Mods Checkbox List
+            Rect listRect = new Rect(inRect.x, inRect.y + 114f, inRect.width, inRect.height - 164f);
             float rowHeight = 38f;
             float rowStep = 42f;
             Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, filteredMods.Count * rowStep);
@@ -681,13 +746,14 @@ namespace RUML
                 Widgets.DrawBoxSolid(rowRect, RUMLUI.ColorCardBg);
                 Widgets.DrawHighlightIfMouseover(rowRect);
 
-                bool isRuml = FolderToPackageId.Values.Any(p => string.Equals(p, pid, StringComparison.OrdinalIgnoreCase));
+                bool isRuml = FolderToPackageId.Values.Any(p => string.Equals(p, pid, StringComparison.OrdinalIgnoreCase)) ||
+                              (RUMLCloudManager.Items != null && RUMLCloudManager.Items.Any(ci => ci.IsInstalled && string.Equals(ci.PackageId, pid, StringComparison.OrdinalIgnoreCase)));
                 bool isDlc = IsVanillaOrDlc(pid);
 
                 string tag = "";
                 if (isRuml)
                 {
-                    tag = " <color=#40E0D0>[RUML]</color>";
+                    tag = " <color=#FFD700>[RUML]</color>";
                 }
                 else if (isDlc)
                 {
@@ -695,6 +761,9 @@ namespace RUML
                         ? " <color=#E0B020>[Core]</color>"
                         : " <color=#E0B020>[DLC]</color>";
                 }
+
+                string builtInBadge = RUMLTranslationDetector.GetBuiltInModBadge(mod.PackageId);
+                string builtInTip = RUMLTranslationDetector.GetBuiltInModTooltip(mod.PackageId);
 
                 string transBadge = "";
                 string transTip = null;
@@ -724,7 +793,7 @@ namespace RUML
 
                 // Line 1: Mod Name + Badges
                 Rect titleRect = new Rect(textX, curY + 2f, textW, 20f);
-                string titleText = GetModDisplayName(mod) + tag + transBadge;
+                string titleText = GetModDisplayName(mod) + tag + builtInBadge + transBadge;
                 bool prevWrap = Text.WordWrap;
                 Text.WordWrap = false;
                 Text.Font = GameFont.Small;
@@ -755,9 +824,17 @@ namespace RUML
                 }
 
                 string fullTip = GetModDisplayName(mod) + "\n(" + pid + ")";
+                if (!string.IsNullOrEmpty(builtInTip))
+                {
+                    fullTip += "\n\n" + builtInTip;
+                }
                 if (!string.IsNullOrEmpty(transTip))
                 {
                     fullTip += "\n\n" + transTip;
+                }
+                if (isRuml)
+                {
+                    fullTip += "\n\nДля этого мода активен перевод из системы RUML.";
                 }
                 TooltipHandler.TipRegion(rowRect, fullTip);
 
@@ -914,13 +991,15 @@ namespace RUML
                 Widgets.DrawHighlightIfMouseover(row);
 
                 // Top Line: Mod Name, PackageId, Tag
-                string tag = rep.IsRUMLMod ? " <color=#40E0D0>[RUML]</color>" : "";
+                string tag = rep.IsRUMLMod ? " <color=#FFD700>[RUML]</color>" : "";
                 if (string.IsNullOrEmpty(tag) && IsVanillaOrDlc(rep.PackageId))
                 {
                     tag = string.Equals(rep.PackageId, "ludeon.rimworld", StringComparison.OrdinalIgnoreCase)
                         ? " <color=#E0B020>[Core]</color>"
                         : " <color=#E0B020>[DLC]</color>";
                 }
+                string builtInBadge = RUMLTranslationDetector.GetBuiltInModBadge(rep.PackageId);
+                string builtInTip = RUMLTranslationDetector.GetBuiltInModTooltip(rep.PackageId);
                 string transBadge = "";
                 string transTip = null;
 
@@ -940,12 +1019,16 @@ namespace RUML
                     }
                 }
 
-                string title = "<b>" + rep.ModName + "</b>" + tag + transBadge + " <color=grey>(" + rep.PackageId + ")</color>";
+                string title = "<b>" + rep.ModName + "</b>" + tag + builtInBadge + transBadge + " <color=grey>(" + rep.PackageId + ")</color>";
                 Widgets.Label(new Rect(row.x + 8f, row.y + 4f, row.width - 150f, 22f), title);
 
-                if (!string.IsNullOrEmpty(transTip))
+                string resTip = "";
+                if (!string.IsNullOrEmpty(builtInTip)) resTip += builtInTip;
+                if (!string.IsNullOrEmpty(transTip)) resTip += (string.IsNullOrEmpty(resTip) ? "" : "\n\n") + transTip;
+                if (rep.IsRUMLMod) resTip += (string.IsNullOrEmpty(resTip) ? "" : "\n\n") + "Для этого мода активен перевод из системы RUML.";
+                if (!string.IsNullOrEmpty(resTip))
                 {
-                    TooltipHandler.TipRegion(row, transTip);
+                    TooltipHandler.TipRegion(row, resTip);
                 }
 
                 // Right percentage badge

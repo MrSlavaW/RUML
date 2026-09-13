@@ -47,6 +47,10 @@ namespace RUML
         private static readonly Dictionary<string, List<TargetModInfo>> translationToTargets =
             new Dictionary<string, List<TargetModInfo>>(StringComparer.OrdinalIgnoreCase);
 
+        // PackageIds of content mods that contain their own built-in Russian translation
+        private static readonly HashSet<string> builtInRussianMods =
+            new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
         private static readonly HashSet<string> IgnoredPackageIds = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
         {
             "ludeon.rimworld",
@@ -89,6 +93,15 @@ namespace RUML
             }
         }
 
+        public static int TotalBuiltInCount
+        {
+            get
+            {
+                EnsureInitialized();
+                return builtInRussianMods.Count;
+            }
+        }
+
         public static HashSet<string> GetAllTargetPackageIds()
         {
             EnsureInitialized();
@@ -99,6 +112,41 @@ namespace RUML
         {
             EnsureInitialized();
             return new HashSet<string>(translationToTargets.Keys, StringComparer.OrdinalIgnoreCase);
+        }
+
+        public static HashSet<string> GetAllBuiltInPackageIds()
+        {
+            EnsureInitialized();
+            return new HashSet<string>(builtInRussianMods, StringComparer.OrdinalIgnoreCase);
+        }
+
+        // =========================================================================
+        // BUILT-IN RUSSIAN TRANSLATION QUERIES
+        // =========================================================================
+
+        public static bool HasBuiltInRussianTranslation(string packageId)
+        {
+            EnsureInitialized();
+            if (string.IsNullOrEmpty(packageId)) return false;
+            return builtInRussianMods.Contains(packageId);
+        }
+
+        public static string GetBuiltInModBadge(string packageId)
+        {
+            if (!HasBuiltInRussianTranslation(packageId))
+            {
+                return "";
+            }
+            return " <color=#64B5F6>[Встроенный перевод]</color>";
+        }
+
+        public static string GetBuiltInModTooltip(string packageId)
+        {
+            if (!HasBuiltInRussianTranslation(packageId))
+            {
+                return null;
+            }
+            return "Этот мод содержит встроенную русскую локализацию от автора (папка Languages/Russian).";
         }
 
         // =========================================================================
@@ -126,9 +174,9 @@ namespace RUML
 
             if (list.Count > 1)
             {
-                return " <color=#78D070>[Есть перевод (+" + (list.Count - 1) + ")]</color>";
+                return " <color=#78D070>[Переведено внешним модом (+" + (list.Count - 1) + ")]</color>";
             }
-            return " <color=#78D070>[Есть перевод]</color>";
+            return " <color=#78D070>[Переведено внешним модом]</color>";
         }
 
         public static string GetTargetModTooltip(string targetPackageId)
@@ -141,10 +189,10 @@ namespace RUML
 
             if (list.Count == 1)
             {
-                return "Для этого мода в игре включен отдельный мод перевода:\n• " + list[0].ModName + " (" + list[0].PackageIdPlayerFacing + ")";
+                return "Для этого мода в игре включен отдельный внешний мод перевода:\n• " + list[0].ModName + " (" + list[0].PackageIdPlayerFacing + ")";
             }
 
-            string text = "Для этого мода в игре включено несколько модов перевода (" + list.Count + "):\n";
+            string text = "Для этого мода в игре включено несколько внешних модов перевода (" + list.Count + "):\n";
             for (int i = 0; i < list.Count; i++)
             {
                 text += "• " + list[i].ModName + " (" + list[i].PackageIdPlayerFacing + ")\n";
@@ -236,6 +284,7 @@ namespace RUML
         {
             targetToTranslations.Clear();
             translationToTargets.Clear();
+            builtInRussianMods.Clear();
 
             var running = LoadedModManager.RunningMods.ToList();
             if (running == null || running.Count == 0)
@@ -258,7 +307,7 @@ namespace RUML
                 }
             }
 
-            // Pass 1: Find all translation mods
+            // Pass 1: Find all translation mods and mods with built-in translations
             var detectedTransMods = new List<ModContentPack>();
             for (int i = 0; i < running.Count; i++)
             {
@@ -269,6 +318,14 @@ namespace RUML
                 if (IsEligibleTranslationMod(mod))
                 {
                     detectedTransMods.Add(mod);
+                }
+                else if (HasRussianLanguageFolder(mod))
+                {
+                    builtInRussianMods.Add(mod.PackageId);
+                    if (!string.IsNullOrEmpty(mod.PackageIdPlayerFacing))
+                    {
+                        builtInRussianMods.Add(mod.PackageIdPlayerFacing);
+                    }
                 }
             }
 
