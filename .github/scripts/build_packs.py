@@ -83,6 +83,7 @@ def build():
                 package_id = info.get("packageId", f"{clean_id(mod_name)}.{clean_id(author_name)}")
                 version = info.get("version", "1.0.0")
                 description = info.get("description", f"Перевод {mod_name} ({lang_name}) от {author_name}")
+                display_name = info.get("modName", info.get("displayName", mod_name.replace("_", " ")))
                 
                 # Unique identifier and archive filename
                 entry_id = f"{clean_id(mod_name)}_{clean_id(lang_name)}_{clean_id(author_name)}"
@@ -175,7 +176,7 @@ def build():
                 download_url = f"{base_url}/{rel_url}"
                 manifest.append({
                     "id": entry_id,
-                    "modName": mod_name,
+                    "modName": display_name,
                     "packageId": package_id,
                     "author": author_name,
                     "language": lang_name,

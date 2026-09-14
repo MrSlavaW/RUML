@@ -117,7 +117,13 @@ namespace RUML
 
                 if (!string.IsNullOrEmpty(searchFilter))
                 {
+                    string cleanSearch = searchFilter.Replace("_", " ").Trim();
+                    string modNameClean = (item.ModName ?? "").Replace("_", " ");
+                    string modFolderClean = (item.ModFolder ?? "").Replace("_", " ");
+
                     bool match = (item.ModName != null && item.ModName.IndexOf(searchFilter, StringComparison.OrdinalIgnoreCase) >= 0) ||
+                                 (modNameClean.IndexOf(cleanSearch, StringComparison.OrdinalIgnoreCase) >= 0) ||
+                                 (modFolderClean.IndexOf(cleanSearch, StringComparison.OrdinalIgnoreCase) >= 0) ||
                                  (item.Author != null && item.Author.IndexOf(searchFilter, StringComparison.OrdinalIgnoreCase) >= 0) ||
                                  (item.PackageId != null && item.PackageId.IndexOf(searchFilter, StringComparison.OrdinalIgnoreCase) >= 0);
                     if (!match) continue;
@@ -308,7 +314,15 @@ namespace RUML
                     using (WebClient client = new WebClient())
                     {
                         client.Encoding = Encoding.UTF8;
-                        string json = client.DownloadString(url);
+                        string fetchUrl = url;
+                        if (!string.IsNullOrEmpty(fetchUrl))
+                        {
+                            string sep = fetchUrl.Contains("?") ? "&" : "?";
+                            fetchUrl += sep + "_t=" + DateTime.UtcNow.Ticks;
+                        }
+                        client.Headers[HttpRequestHeader.CacheControl] = "no-cache";
+                        client.Headers[HttpRequestHeader.Pragma] = "no-cache";
+                        string json = client.DownloadString(fetchUrl);
                         List<CloudTranslationItem> parsed = ParseManifestJson(json);
                         if (parsed.Count > 0)
                         {
@@ -533,7 +547,15 @@ namespace RUML
                     using (WebClient client = new WebClient())
                     {
                         client.Encoding = Encoding.UTF8;
-                        string json = client.DownloadString(url);
+                        string fetchUrl = url;
+                        if (!string.IsNullOrEmpty(fetchUrl))
+                        {
+                            string sep = fetchUrl.Contains("?") ? "&" : "?";
+                            fetchUrl += sep + "_t=" + DateTime.UtcNow.Ticks;
+                        }
+                        client.Headers[HttpRequestHeader.CacheControl] = "no-cache";
+                        client.Headers[HttpRequestHeader.Pragma] = "no-cache";
+                        string json = client.DownloadString(fetchUrl);
                         List<CloudTranslationItem> parsed = ParseManifestJson(json);
                         if (parsed.Count > 0)
                         {
