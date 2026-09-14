@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Warplatform -->
+  <VGE_Warplatform.label>Военплатформа</VGE_Warplatform.label>
+
+  <!-- EN: An orbital bombardment platform has detected your gravship signature and will engage shortly.  Time until arrival: {0}  Move away before it locks in to avoid it, or prepare to fight it.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Warplatform.description>Обнаружила ваша сигнатура гравилёта, скоро будет вести огонь платформа орбитальной бомбардировки.\n\nВремя до прибытия: {0}.\n\nУйдите до захвата цели, чтобы избежать столкновения, или приготовьтесь к бою.</VGE_Warplatform.description>
+
+  <!-- EN: An enemy warplatform has targeted {0}. It will continuously bombard the gravship until it is destroyed. Destroy or hack the internal warcomputer, or try and escape. -->
+  <VGE_Warplatform.alertExplanation>Вражеская боевая платформа взяла на прицел {0}. Она будет непрерывно обстреливать гравикорабль, пока не будет уничтожена. Уничтожьте или взломайте центральный боевой компьютер, либо попытайтесь уйти из зоны поражения.</VGE_Warplatform.alertExplanation>
+
+  <!-- EN: An orbital bombardment warplatform has arrived and is actively engaging your gravship. Your vessel will be under continuous fire from the platform's weapons. To survive, you must neutralize the platform either by destroying all gauss bombards, or destroying or hacking the central warcomputer.  You can fight back using your gravship's artillery, shield generators, and point defenses to withstand the bombardment. Alternatively, send a shuttle or drop pods to the enemy location to board the platform and destroy its sensitive internal warcomputer directly. If you cannot stop the bombardment, you must attempt to escape its range immediately. -->
+  <VGE_Warplatform.arrivalLetterDesc>Орбитальная платформа бомбардировки вышла на позицию и открыла огонь по вашему гравикораблю! Ваше судно находится под непрерывным шквалом тяжёлых орудий. Чтобы выжить, необходимо нейтрализовать платформу: уничтожить все гаусс-бомбарды либо взломать/разрушить центральный боевой суперкомпьютер.
+
+Вы можете защищаться артиллерией корабля, генераторами щита и системами ПРО, либо отправить десантную группу на челноке или капсулах для абордажа и прямого уничтожения компьютера. Если остановить бомбардировку не удаётся, немедленно покиньте сектор.</VGE_Warplatform.arrivalLetterDesc>
+
+  <!-- EN: Warplatform defeated -->
+  <VGE_Warplatform.defeatLetter>Боевая платформа уничтожена</VGE_Warplatform.defeatLetter>
+
+  <!-- EN: Warplatform threat has been defeated, but the area still offers valuable loot. You can salvage the wreck of the warplatform to gain some valuable resources.  Warplatform will destabilize and collapse within {0}. -->
+  <VGE_Warplatform.defeatLetterDesc>Угроза со стороны боевой платформы устранена, а её обломки представляют огромную ценность. Вы можете разобрать остатки платформы и получить редкие ресурсы. Платформа потеряет устойчивость и рухнет через {0}.</VGE_Warplatform.defeatLetterDesc>
+
+  <!-- EN: Warplatform disengages -->
+  <VGE_Warplatform.disengagesLetter>Боевая платформа прекратила атаку</VGE_Warplatform.disengagesLetter>
+
+  <!-- EN: Warplatform has achieved all pre-programmed goals and has effectively destroyed your gravship. It has now disengaged.  Consider this a valuable lesson. -->
+  <VGE_Warplatform.disengagesLetterDesc>Боевая платформа выполнила заложенный протокол и полностью вывела из строя ваш гравикорабль. Она прекратила обстрел. Пусть это послужит горьким уроком.</VGE_Warplatform.disengagesLetterDesc>
+
+  <!-- EN: You have moved out of range of the warplatform before it could engage. It will not pursue you further. -->
+  <VGE_Warplatform.earlyEscapeMessage>Вам удалось выйти из зоны поражения боевой платформы до того, как она навела орудия. Преследовать вас она не станет.</VGE_Warplatform.earlyEscapeMessage>
+
+  <!-- EN: You are now out of reach of the enemy warplatform. -->
+  <VGE_Warplatform.escapedMessage>Вы успешно вышли из зоны досягаемости вражеской боевой платформы.</VGE_Warplatform.escapedMessage>
+
+  <!-- EN: Incoming warplatform -->
+  <VGE_Warplatform.incomingLabel>Приближающаяся военплатформа</VGE_Warplatform.incomingLabel>
+
+  <!-- EN: An orbital bombardment platform has been activated by your gravship's energy signature. It is currently running target scans and will engage shortly. The orbital platform houses a sensitive warcomputer; destroying this component will disable the platform entirely.  The platform will continue to fire on your gravship until you move out of range or it is destroyed. Be aware that it takes time to fully engage; if you move away quickly enough, you may be able to escape its detection.  Point defense turrets, gravarmor, and shield generators can be used to protect against the bombardment. Gravship artillery can be used to attack the enemy over long distances. You can also send a shuttle or drop pods to the enemy location to handle it personally. -->
+  <VGE_Warplatform.letterDesc>Орбитальная платформа бомбардировки активировалась, зафиксировав энергетический след вашего гравикорабля. Она ведёт сканирование целей и вскоре откроет ураганный огонь. В комплексе платформы расположен чувствительный боевой компьютер — его уничтожение полностью обесточит станцию.
+
+Платформа продолжит стрельбу, пока вы не уйдёте за пределы досягаемости или не уничтожите её. На захват цели ей требуется время: если стартовать немедленно, вы сможете ускользнуть от обнаружения.
+
+Используйте турели ПРО, гравиброню и генераторы щита для защиты, а корабельную артиллерию — для нанесения дальних ударов. Либо отправьте абордажную команду на челноке или капсулах.</VGE_Warplatform.letterDesc>
+
+  <!-- EN: Incoming warplatform -->
+  <VGE_Warplatform.letterLabel>Приближается военплатформа</VGE_Warplatform.letterLabel>
+
+  <!-- EN: Salvager station -->
+  <VGE_SalvagerStation.label>Станция-гравексплорер (станция-утилизатор)</VGE_SalvagerStation.label>
+
+  <!-- EN: A salvager orbital station is demanding tribute of {0} silver or it will open fire.  Time until tribute needs to be paid: {1}  You can ask them to postpone the payment, but the grav engine will be locked remotely until the tribute is paid or the station is defeated. You can also pay the fee immediately, if you have the funds. Running away will likely have the salvagers send a search party after you.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_SalvagerStation.description>Орбитальная станция-утилизатор требует дань в размере {0} серебра, иначе откроет огонь.\n\nВремя до уплаты дани: {1}.\n\nВы можете попросить их отложить платёж, но гравитационный двигатель будет заблокирован удалённо до тех пор, пока не будет уплачена дань или пока станция не будет побеждена. Вы также можете заплатить сбор немедленно, если у вас есть средства. Попытка сбежать, скорее всего, приведёт к тому, что утилизаторы отправят за вами поисковый отряд.</VGE_SalvagerStation.description>
+
+  <!-- EN: A salvager orbital station has targeted {0}. It will continuously bombard the gravship until it is destroyed. You can destroy the enemy gravship artillery pieces and the gravlock tether, or try and escape. If you escape, salvagers will likely send a search party. -->
+  <VGE_SalvagerStation.alertExplanation>Орбитальная станция утилизаторов взяла на прицел {0}. Она будет вести непрерывный огонь, пока не будет уничтожена. Вы можете уничтожить орудия станции и гравизахват, либо попытаться спастись бегством. В случае побега утилизаторы могут выслать погоню.</VGE_SalvagerStation.alertExplanation>
+
+  <!-- EN: A salvager orbital station has locked in and is engaging your gravship. Your vessel will be under continuous fire from the numerous artillery pieces and missile launchers. To survive, you must destroy enemy gravship artillery pieces and the gravlock tether.  You can fight back using your gravship's artillery, shield generators, and point defenses to withstand the bombardment. Alternatively, send a shuttle or drop pods to the enemy location to board the orbital platform and destroy the gravlock tether and gravship artillery pieces. If you cannot stop the bombardment, you must attempt to escape its range immediately. -->
+  <VGE_SalvagerStation.arrivalLetterDesc>Орбитальная станция утилизаторов взяла ваш гравикорабль в прицел и начала атаку. Судно находится под непрерывным огнём многочисленных артиллерийских орудий и ракетных установок. Чтобы выжить, вы должны уничтожить артиллерию врага и гравизахват.
+
+Держите оборону при помощи корабельной артиллерии, щитов и систем ПРО, либо высадите штурмовой десант для подрыва гравизахвата изнутри. Если подавить огонь невозможно — спасайтесь бегством.</VGE_SalvagerStation.arrivalLetterDesc>
+
+  <!-- EN: Salvager station -->
+  <VGE_SalvagerStation.arrivalLetterLabel>Станция-гравексплорер (станция-утилизатор)</VGE_SalvagerStation.arrivalLetterLabel>
+
+  <!-- EN: Salvager station defeated -->
+  <VGE_SalvagerStation.defeatLetter>Станция утилизаторов разгромлена</VGE_SalvagerStation.defeatLetter>
+
+  <!-- EN: Salvager orbital platform threat has been defeated, but the area still offers valuable loot. You can salvage the wreck of the orbital warplatform to gain some valuable resources. Be careful, as platform defenses, as well as remaining salvagers will still pose a threat.  Orbital platform will destabilize and collapse within {0}. -->
+  <VGE_SalvagerStation.defeatLetterDesc>Орбитальная станция утилизаторов разбита, однако обломки богаты ценнейшей добычей. Вы можете исследовать и разобрать остов платформы. Остерегайтесь уцелевших автоматических систем обороны и остатков банды утилизаторов. Платформа сойдёт с орбиты через {0}.</VGE_SalvagerStation.defeatLetterDesc>
+
+  <!-- EN: Salvager station disengages -->
+  <VGE_SalvagerStation.disengagesLetter>Станция утилизаторов прекратила атаку</VGE_SalvagerStation.disengagesLetter>
+
+  <!-- EN: Salvager station has destroyed your grav engine. They are celebrating. You should have paid the tribute.  Consider this a valuable lesson. -->
+  <VGE_SalvagerStation.disengagesLetterDesc>Станция утилизаторов разнесла ваш гравидвигатель. Бандиты празднуют победу. Следовало заплатить дань. Пусть это послужит уроком.</VGE_SalvagerStation.disengagesLetterDesc>
+
+  <!-- EN: You are now out of reach of the salvager orbital station. -->
+  <VGE_SalvagerStation.earlyEscapeMessage>Вы вышли из зоны поражения станции утилизаторов.</VGE_SalvagerStation.earlyEscapeMessage>
+
+  <!-- EN: You are now out of reach of the salvager orbital station. -->
+  <VGE_SalvagerStation.escapedMessage>Вы находитесь вне досягаемости орбитальной станции утилизаторов.</VGE_SalvagerStation.escapedMessage>
+
+  <!-- EN: Tribute demand -->
+  <VGE_SalvagerStation.incomingLabel>Требование дани</VGE_SalvagerStation.incomingLabel>
+
+  <!-- EN: An incoming transmission has been intercepted from a nearby salvager station, {0}. Its leader, {1}, has issued a demand for tribute.  The station has locked its weapons on {2} and will open fire unless you pay a tribute of {3} silver. You are being given time to deliberate, but you must choose quickly: you can pay the full amount to secure your safety, or request to postpone the payment by {4} days. Be warned that choosing to delay will force a remote lock on your gravship's engine, preventing you from departing. If you refuse to pay, the station will initiate an immediate attack.  If it attacks, the salvager station will continue to fire on your gravship until you move out of range or it is destroyed.  Point defense turrets, gravarmor, and shield generators can be used to protect against the bombardment. Gravship artillery can be used to attack the enemy over long distances. You can also send a shuttle or drop pods to the enemy location to handle it personally. -->
+  <VGE_SalvagerStation.letterDesc>Перехвачен входящий сеанс связи от близлежащей станции утилизаторов «{0}». Их предводитель {1} требует выплаты дани.
+
+Орудия станции наведены на {2} и откроют огонь, если вы не выплатите дань в размере {3} серебра. Вам дано время на размышление, но решать нужно быстро: заплатить требуемую сумму или запросить отсрочку на {4} дн. Учтите: отсрочка приведёт к дистанционной блокировке вашего гравидвигателя, не позволяя взлететь. При отказе платить станция немедленно начнёт штурм.
+
+В случае атаки станция будет вести огонь до уничтожения корабля или выхода из сектора. Защищайтесь турелями ПРО, бронёй и щитами, бейте из корабельных орудий либо отправьте десант.</VGE_SalvagerStation.letterDesc>
+
+  <!-- EN: Tribute demand -->
+  <VGE_SalvagerStation.letterLabel>Требование дани</VGE_SalvagerStation.letterLabel>
+
+  <!-- EN: Enemy gravjumper -->
+  <VGE_EnemyGravjumper.label>Враг-гравиджампер</VGE_EnemyGravjumper.label>
+
+  <!-- EN: An enemy gravjumper is locking in and will engage shortly.  Time until arrival: {0}  Move away before it arrives to avoid it, or prepare to fight it.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGravjumper.description>Враг-гравиджампер готовится к атаке и скоро вступит в бой.\n\nВремя до прибытия: {0}.\n\nУйдите до его прибытия, чтобы избежать столкновения, или приготовьтесь к бою.</VGE_EnemyGravjumper.description>
+
+  <!-- EN: An enemy gravjumper has targeted {0}. It will continuously bombard the gravship until it is destroyed. Destroy the enemy gravjumper engine to permanently disable their ship. -->
+  <VGE_EnemyGravjumper.alertExplanation>Вражеский гравипрыгун нацелился на {0}. Он будет непрерывно обстреливать гравикорабль до полного уничтожения. Уничтожьте двигатель вражеского гравипрыгуна, чтобы навсегда лишить его подвижности.</VGE_EnemyGravjumper.alertExplanation>
+
+  <!-- EN: An enemy gravjumper has arrived in orbit and begins the attack on your gravship. Your vessel will be under continuous fire from the gravjumper’s weapons. To survive, you must destroy the enemy gravjumper engine, as well as eliminate all of the gravjumper’s artillery turrets.  You can fight back using your gravship's artillery, shield generators, and point defenses to withstand the bombardment. Alternatively, send a shuttle or drop pods to the enemy location to board the gravjumper and destroy it from the inside. If you cannot defend yourself, you must attempt to escape its range immediately. -->
+  <VGE_EnemyGravjumper.arrivalLetterDesc>Вражеский гравипрыгун прибыл на орбиту и открыл огонь по вашему кораблю! Судно находится под постоянным обстрелом. Для выживания необходимо уничтожить двигатель прыгуна, а также подавить все его артиллерийские турели.
+
+Используйте орудия гравикорабля, щиты и противоракетную оборону, либо отправьте челнок с абордажной командой для штурма прыгуна изнутри. Если отбиться не получается, спешите покинуть зону обстрела.</VGE_EnemyGravjumper.arrivalLetterDesc>
+
+  <!-- EN: Gravjumper attacks -->
+  <VGE_EnemyGravjumper.arrivalLetterLabel>Гравиджампер атакует</VGE_EnemyGravjumper.arrivalLetterLabel>
+
+  <!-- EN: Gravjumper defeated -->
+  <VGE_EnemyGravjumper.defeatLetter>Гравипрыгун уничтожен</VGE_EnemyGravjumper.defeatLetter>
+
+  <!-- EN: Enemy gravjumper threat has been defeated, but the area still offers valuable loot. You can salvage the wreck of the gravjumper to gain some valuable resources.  Gravjumper will destabilize and collapse within {0}. -->
+  <VGE_EnemyGravjumper.defeatLetterDesc>Вражеский гравипрыгун разбит, но обломки представляют немалую ценность. Вы можете разобрать останки судна для получения ресурсов. Остов разрушится через {0}.</VGE_EnemyGravjumper.defeatLetterDesc>
+
+  <!-- EN: Gravjumper disengages -->
+  <VGE_EnemyGravjumper.disengagesLetter>Гравипрыгун прекратил атаку</VGE_EnemyGravjumper.disengagesLetter>
+
+  <!-- EN: {0} has effectively destroyed your gravship. It has now disengaged.  Consider this a valuable lesson. -->
+  <VGE_EnemyGravjumper.disengagesLetterDesc>Корабль {0} вывел из строя ваш гравикорабль и лёг на обратный курс. Пусть это станет ценным уроком.</VGE_EnemyGravjumper.disengagesLetterDesc>
+
+  <!-- EN: You have escaped the enemy gravjumper. -->
+  <VGE_EnemyGravjumper.earlyEscapeMessage>Вам удалось ускользнуть от вражеского гравипрыгуна.</VGE_EnemyGravjumper.earlyEscapeMessage>
+
+  <!-- EN: You have escaped the enemy gravjumper. -->
+  <VGE_EnemyGravjumper.escapedMessage>Вы успешно оторвались от вражеского гравипрыгуна.</VGE_EnemyGravjumper.escapedMessage>
+
+  <!-- EN: Incoming gravjumper -->
+  <VGE_EnemyGravjumper.incomingLabel>Приближающийся гравиджампер</VGE_EnemyGravjumper.incomingLabel>
+
+  <!-- EN: An enemy gravjumper called {0} has intercepted your landing coordinates and prepares to intercept. It is currently running final scans to determine the best assault approach. Gravjumper is a compact, short-range gravship that relies on the gravjumper engine and a pilot cockpit to operate. Offers minimal substructure support and footprint, making it ideal for scouting and exploration. Destroying the gravjumper engine will disable it permanently.  The gravjumper will continuously fire at your location until you move out of range or destroy it. It may decide to move in, in which case it will land on your local area and engage you up close. You can avoid that by destroying the thrusters, the fuel tanks or the pilot’s cockpit. If you move away now, you may be able to shake it off.  Point defense turrets, gravarmor, and shield generators can be used to protect against the bombardment. Gravship artillery can be used to attack the enemy over long distances. You can also send a shuttle or drop pods to the enemy location to handle it personally. -->
+  <VGE_EnemyGravjumper.letterDesc>Вражеский гравипрыгун «{0}» вычислил ваши координаты посадки и готовится к перехвату. В данный момент он проводит финальное сканирование для выбора наилучшего угла атаки. Гравипрыгун — это компактное маневренное судно малой дальности, оснащённое прыжковым гравидвигателем и кабиной пилота. Оно требует минимум пространства и идеально для разведки. Уничтожение его двигателя полностью парализует корабль.
+
+Прыгун будет непрерывно вести огонь, а может и вовсе совершить посадку рядом с вами, чтобы навязать ближний бой. Предотвратить это можно, разбив его маневровые сопла, топливные баки или кокпит. Если взлететь прямо сейчас, есть шанс оторваться.
+
+Применяйте ПРО, броню и щиты, ведите огонь из корабельных орудий либо высаживайте штурмовиков на челноке.</VGE_EnemyGravjumper.letterDesc>
+
+  <!-- EN: Enemy gravjumper -->
+  <VGE_EnemyGravjumper.letterLabel>Враг-гравиджампер</VGE_EnemyGravjumper.letterLabel>
+
+  <!-- EN: Orbital cluster -->
+  <VGE_OrbitalCluster.label>Орбитальный кластер</VGE_OrbitalCluster.label>
+
+  <!-- EN: A mechanoid orbital combat cluster has locked in on your position and will attack soon.  Time until arrival: {0}  Moving away will likely delay the attack, but sooner or later an orbital cluster will need to be defeated to stop the threat.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_OrbitalCluster.description>Механический орбитальный боевой кластер зафиксировал вашу позицию и скоро нападёт.\n\nВремя до прибытия: {0}.\n\nПопытка уйти, скорее всего, отсрочит атаку, но в любом случае необходимо победить орбитальный кластер, чтобы устранить угрозу.</VGE_OrbitalCluster.description>
+
+  <!-- EN: A mechanoid orbital combat cluster has targeted {0}. It will continuously bombard the gravship until it is destroyed. Destroy the mechanoid grav engine, as well as all enemy artillery pieces, or try and escape, but bear in mind that another cluster will likely attack you when you do. -->
+  <VGE_OrbitalCluster.alertExplanation>Орбитальный боевой кластер механоидов нацелился на {0}. Он будет вести непрерывный обстрел до уничтожения корабля. Уничтожьте гравидвигатель механоидов и все артиллерийские орудия, либо спасайтесь бегством — но помните, что вскоре вас может атаковать следующий кластер.</VGE_OrbitalCluster.alertExplanation>
+
+  <!-- EN: A mechanoid orbital cluster has arrived and is actively engaging your gravship. Your vessel will be under continuous fire from the cluster's weapons. To survive, you must neutralize the cluster by destroying the mechanoid grav engine, as well as all enemy artillery.  You can fight back using your gravship's artillery, shield generators, and point defenses to withstand the bombardment. Alternatively, send a shuttle or drop pods to the enemy location to board the cluster and destroy the mechanoid grav engine directly. If you cannot stop the bombardment, you must attempt to escape its range immediately, but be warned that another orbital cluster will likely engage you again. -->
+  <VGE_OrbitalCluster.arrivalLetterDesc>Орбитальный кластер механоидов вышел на дистанцию и атакует ваш гравикорабль! Ваше судно под непрерывным шквалом тяжёлых орудий. Чтобы выжить, необходимо ликвидировать кластер: уничтожить гравидвигатель механоидов и всю артиллерию врага.
+
+Ведите ответный огонь, держите щиты и задействуйте ПРО. Вы также можете отправить десантную группу на челноке или капсулах для подрыва ядра кластера изнутри. Если остановить атаку невозможно, немедленно спасайтесь бегством, но будьте готовы к встрече с новым кластером.</VGE_OrbitalCluster.arrivalLetterDesc>
+
+  <!-- EN: Orbital cluster -->
+  <VGE_OrbitalCluster.arrivalLetterLabel>Орбитальный кластер</VGE_OrbitalCluster.arrivalLetterLabel>
+
+  <!-- EN: Orbital cluster defeated -->
+  <VGE_OrbitalCluster.defeatLetter>Орбитальный кластер уничтожен</VGE_OrbitalCluster.defeatLetter>
+
+  <!-- EN: Orbital cluster threat has been defeated, but the area still offers valuable loot. You can salvage the wreck of the cluster to gain some valuable resources - but be careful, as the defending mechanoids will still put up a fight.  Orbital cluster will destabilize and collapse within {0}. -->
+  <VGE_OrbitalCluster.defeatLetterDesc>Угроза кластера механоидов ликвидирована, а на месте боя остались ценнейшие трофеи. Вы можете разобрать обломки кластера, но будьте предельно осторожны: уцелевшие механоиды всё ещё смертельно опасны. Остов дестабилизируется через {0}.</VGE_OrbitalCluster.defeatLetterDesc>
+
+  <!-- EN: Orbital cluster disengages -->
+  <VGE_OrbitalCluster.disengagesLetter>Кластер механоидов прекратил атаку</VGE_OrbitalCluster.disengagesLetter>
+
+  <!-- EN: Orbital cluster no longer perceives you as a threat and has effectively destroyed your gravship. It has now disengaged.  Consider this a valuable lesson. -->
+  <VGE_OrbitalCluster.disengagesLetterDesc>Орбитальный кластер больше не воспринимает вас как угрозу — ваш гравикорабль полностью разбит. Механоиды свернули атаку. Пусть это послужит уроком.</VGE_OrbitalCluster.disengagesLetterDesc>
+
+  <!-- EN: You have managed to shake off the mechanoid orbital cluster. -->
+  <VGE_OrbitalCluster.earlyEscapeMessage>Вам удалось оторваться от орбитального кластера механоидов.</VGE_OrbitalCluster.earlyEscapeMessage>
+
+  <!-- EN: You have managed to escape the mechanoid orbital cluster. -->
+  <VGE_OrbitalCluster.escapedMessage>Вам удалось уйти от орбитального кластера механоидов.</VGE_OrbitalCluster.escapedMessage>
+
+  <!-- EN: Incoming orbital cluster -->
+  <VGE_OrbitalCluster.incomingLabel>Приближающийся орбитальный кластер</VGE_OrbitalCluster.incomingLabel>
+
+  <!-- EN: A mechanoid orbital cluster has locked onto your gravship's coordinates and is slowly moving into position to engage. This massive structure houses a mechanoid grav engine; destroying this core will yield a gravcore. The cluster is heavily armed with a vast number of mechanoid gravship artillery units and is defended by a significant force of mechanoids - all of which have to be destroyed to defeat the cluster.  Be warned: this cluster is part of an extensive orbital network. It will relentlessly track your signature: attempting to flee will only cause another orbital cluster to move into range to engage. You must prepare to neutralize this threat or face the consequences.  Point defense turrets, gravarmor, and shield generators can be used to protect against the bombardment. Gravship artillery can be used to attack the enemy over long distances. You can also send a shuttle or drop pods to the enemy location to handle it personally. -->
+  <VGE_OrbitalCluster.letterDesc>Орбитальный кластер механоидов захватил сигнатуру гравикорабля и неспешно выходит на огневую позицию. Это циклопическое сооружение питается от гравидвигателя механоидов — уничтожение ядра позволит добыть ценное гравитационное ядро. Кластер до зубов вооружён артиллерией и охраняется крупными силами механоидов. Для победы необходимо ликвидировать все узлы обороны.
+
+Внимание: кластер подключён к глобальной орбитальной сети. Он неотрывно ведёт ваш корабль — при попытке бегства в бой тут же вступит следующий кластер. Готовьтесь дать бой.
+
+Используйте ПРО, броню и щиты, орудия дальнего боя либо отправьте абордажную команду.</VGE_OrbitalCluster.letterDesc>
+
+  <!-- EN: Incoming orbital cluster -->
+  <VGE_OrbitalCluster.letterLabel>Поступающий орбитальный кластер</VGE_OrbitalCluster.letterLabel>
+
+  <!-- EN: Enemy gravship -->
+  <VGE_EnemyGravship.label>Враждебный гравитационный корабль</VGE_EnemyGravship.label>
+
+  <!-- EN: An enemy gravship is preparing the bombardment and will engage shortly.  Time until arrival: {0}  Move away before it arrives to avoid it, or prepare to fight it.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGravship.description>Враждебный гравитационный корабль готовится к бомбардировке и скоро вступит в бой.\n\nВремя до прибытия: {0}.\n\nУйдите до его прибытия, чтобы избежать столкновения, или приготовьтесь к бою.</VGE_EnemyGravship.description>
+
+  <!-- EN: An enemy gravship has targeted {0}. It will continuously bombard the gravship until it is destroyed. Destroy the enemy gravship engine and any artillery they have to permanently disable their ship. -->
+  <VGE_EnemyGravship.alertExplanation>Вражеский гравикорабль нацелился на {0}. Он будет вести непрерывную бомбардировку, пока не будет уничтожен. Разбейте двигатель вражеского гравикорабля и его артиллерию, чтобы навсегда нейтрализовать угрозу.</VGE_EnemyGravship.alertExplanation>
+
+  <!-- EN: An enemy gravship has arrived in orbit and begins the attack on your gravship. Your vessel will be under continuous fire from the gravship’s weapons. To survive, you must destroy the enemy gravship engine, as well as eliminate all of the gravship’s artillery turrets.  You can fight back using your gravship's artillery, shield generators, and point defenses to withstand the bombardment. Alternatively, send a shuttle or drop pods to the enemy location to board the gravjumper and destroy it from the inside. If you cannot defend yourself, you must attempt to escape its range immediately. -->
+  <VGE_EnemyGravship.arrivalLetterDesc>Вражеский гравикорабль вышел на орбиту и начинает массированную атаку! Ваше судно находится под непрерывным огнём корабельных орудий врага. Для спасения вы должны разбить двигатель гравикорабля и подавить все его артиллерийские турели.
+
+Задействуйте свои орудия, энергетические щиты и системы ПРО, либо высадите штурмовиков на челноке или капсулах для абордажа и подрыва корабля изнутри. Если ресурсов для обороны нет, немедленно совершите экстренный взлёт.</VGE_EnemyGravship.arrivalLetterDesc>
+
+  <!-- EN: Gravship attacks -->
+  <VGE_EnemyGravship.arrivalLetterLabel>Гравитационный корабль атакует</VGE_EnemyGravship.arrivalLetterLabel>
+
+  <!-- EN: Gravship defeated -->
+  <VGE_EnemyGravship.defeatLetter>Гравикорабль повержен</VGE_EnemyGravship.defeatLetter>
+
+  <!-- EN: Enemy gravship threat has been defeated, but the area still offers valuable loot. You can salvage the wreck of the gravship to gain some valuable resources.  Gravship will destabilize and collapse within {0}. -->
+  <VGE_EnemyGravship.defeatLetterDesc>Вражеский гравикорабль разбит, оставив после себя массу ценной добычи. Вы можете исследовать обломки судна и собрать ресурсы. Остов разрушится через {0}.</VGE_EnemyGravship.defeatLetterDesc>
+
+  <!-- EN: Gravship disengages -->
+  <VGE_EnemyGravship.disengagesLetter>Гравикорабль прекратил атаку</VGE_EnemyGravship.disengagesLetter>
+
+  <!-- EN: {0} has effectively destroyed your gravship. It has now disengaged.  Consider this a valuable lesson. -->
+  <VGE_EnemyGravship.disengagesLetterDesc>Корабль {0} превратил ваш гравикорабль в пылающие руины и покинул сектор. Пусть это станет ценным уроком.</VGE_EnemyGravship.disengagesLetterDesc>
+
+  <!-- EN: You have escaped the enemy gravship. -->
+  <VGE_EnemyGravship.earlyEscapeMessage>Вам удалось уйти от вражеского гравикорабля.</VGE_EnemyGravship.earlyEscapeMessage>
+
+  <!-- EN: You have escaped the enemy gravship. -->
+  <VGE_EnemyGravship.escapedMessage>Вы успешно оторвались от вражеского гравикорабля.</VGE_EnemyGravship.escapedMessage>
+
+  <!-- EN: Incoming gravship -->
+  <VGE_EnemyGravship.incomingLabel>Приближающийся гравитационный корабль</VGE_EnemyGravship.incomingLabel>
+
+  <!-- EN: An enemy gravship called {0} has successfully triangulated your landing coordinates and is moving into a high-orbit position to begin orbital bombardment. It is currently locking targeting sensors onto your position. Gravship is a versatile mid-sized vessel powered by a standard gravship engine and launched via a pilot console. Balanced in size and support, it can serve as a mobile base with sufficient upgrades. Suitable for long-term travel and projecting power. Destroying the gravship engine will disable it permanently.  The gravship will continuously fire at your location until you move out of range or destroy it. If you move away now, you may be able to shake it off.  Point defense turrets, gravarmor, and shield generators can be used to protect against the bombardment. Gravship artillery can be used to attack the enemy over long distances. You can also send a shuttle or drop pods to the enemy location to handle it personally. -->
+  <VGE_EnemyGravship.letterDesc>Вражеский гравикорабль «{0}» триангулировал координаты вашей посадки и выходит на высокую орбиту для начала бомбардировки. Системы наведения противника берут ваше судно на прицел. Гравикорабль — универсальное судно среднего класса со стандартным гравидвигателем и консолью пилота. Обладая сбалансированными характеристиками, при должной модернизации он служит полноценной мобильной базой. Уничтожение его двигателя полностью парализует судно.
+
+Корабль будет непрерывно обстреливать вас до разрушения или выхода из зоны. Если взлететь прямо сейчас, есть шанс оторваться.
+
+Применяйте ПРО, броню и генераторы щита, бейте корабельной артиллерией либо отправьте абордажный десант.</VGE_EnemyGravship.letterDesc>
+
+  <!-- EN: Enemy gravship -->
+  <VGE_EnemyGravship.letterLabel>Враждебный гравитационный корабль</VGE_EnemyGravship.letterLabel>
+
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: A group of {0} from {1} have arrived in a tactical attack! A salvager dropship bombarded the landing zone with rocketswarm missile pods, deployed the strike team, and immediately departed. -->
+  <VGE_SalvagerDropshipRaid.textEnemy>Группа {0} из фракции {1} прибыла для проведения тактического удара! Десантный корабль утилизаторов подверг зону высадки ракетной бомбардировке, высадил штурмовой отряд и немедленно скрылся.</VGE_SalvagerDropshipRaid.textEnemy>
+
+  <!-- EN: A group of friendly {0} from {1} have arrived for a tactical assault! Their salvager dropship bombarded the landing zone with rocketswarm missile pods to clear the area, dropped off the team, and departed. -->
+  <VGE_SalvagerDropshipRaid.textFriendly>Группа союзников {0} из фракции {1} прибыла для оказания тактической поддержки! Их десантный корабль нанёс ракетный удар по зоне высадки для зачистки сектора, высадил бойцов и покинул орбиту.</VGE_SalvagerDropshipRaid.textFriendly>
+
+  <!-- EN: A group of {0} from {1} will arrive shortly for a tactical attack. A salvager dropship will bombard the landing zone with rocketswarm missile pods, drop off the team, and then depart. -->
+  <VGE_SalvagerDropshipRaid.textWillArrive>Группа {0} из фракции {1} вскоре прибудет для тактической атаки. Десантный корабль утилизаторов нанесёт ракетный удар по зоне высадки, произведёт десантирование штурмовой группы и покинет зону.</VGE_SalvagerDropshipRaid.textWillArrive>
+
+</LanguageData>

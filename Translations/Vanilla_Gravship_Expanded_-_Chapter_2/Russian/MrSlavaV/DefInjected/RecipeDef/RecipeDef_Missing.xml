@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: administer exo pherocore -->
+  <VFEI2_AdministerExoPherocore.label>ввести Экзоферокоре</VFEI2_AdministerExoPherocore.label>
+
+  <!-- EN: Administer Exo pherocore to convert this person into a Nullipede.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VFEI2_AdministerExoPherocore.description>Введите Экзоферокоре, чтобы превратить этого человека в Нуллипеда.</VFEI2_AdministerExoPherocore.description>
+
+  <!-- EN: Administering Exo pherocore to convert this person into a Nullipede. -->
+  <VFEI2_AdministerExoPherocore.jobString>Введение экзо-фероядра для превращения подопытного в нуллипеда.</VFEI2_AdministerExoPherocore.jobString>
+
+</LanguageData>

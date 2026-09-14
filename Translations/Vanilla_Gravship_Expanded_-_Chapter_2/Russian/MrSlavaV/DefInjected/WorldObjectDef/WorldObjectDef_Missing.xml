@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: infested asteroid -->
+  <VGE_InfestedAsteroid.label>заражённый астероид</VGE_InfestedAsteroid.label>
+
+  <!-- EN: A vacstone asteroid that has been infested by insectoids. Inside, the creatures have collected debris and salvage from orbital wrecks. The infestation is strong, and any attempt to clear the asteroid will mean heavy resistance.  This location can be reached using transport pods, shuttles, or a gravship.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_InfestedAsteroid.description>Вакустоунный астероид, заражённый инсектоидами. Внутри существа собрали обломки и спасенные материалы с орбитальных крушений. Заражение сильное, и любая попытка очистить астероид будет означать ожесточённое сопротивление.\n\nДо этого места можно добраться на транспортных капсулах, шаттлах или гравилёте.</VGE_InfestedAsteroid.description>
+
+  <!-- EN: empty space -->
+  <VGE_EmptySpace.label>пустое пространство</VGE_EmptySpace.label>
+
+  <!-- EN: An empty space.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EmptySpace.description>Пустое пространство.</VGE_EmptySpace.description>
+
+  <!-- EN: warpod -->
+  <VGE_TravellingWarpod.label>варпод</VGE_TravellingWarpod.label>
+
+  <!-- EN: A warpod in flight.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_TravellingWarpod.description>Варпод в полёте.</VGE_TravellingWarpod.description>
+
+  <!-- EN: active warplatform -->
+  <VGE_ActiveWarplatform.label>активная боевая платформа</VGE_ActiveWarplatform.label>
+
+  <!-- EN: An ancient, autonomous orbital platform currently bombarding your gravship. The platform is controlled by a hostile warcomputer that must be neutralized to stop the bombardment.  This location can be reached using transport pods, shuttles, or a gravship.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_ActiveWarplatform.description>Древняя автономная орбитальная платформа в настоящее время обстреливает ваш гравилёт. Платформа управляется враждебным военным компьютером, который необходимо нейтрализовать, чтобы остановить бомбардировку. \n\nДо этого места можно добраться на транспортных капсулах, шаттлах или гравилёте.</VGE_ActiveWarplatform.description>
+
+  <!-- EN: gravship husk -->
+  <VGE_GravshipHusk.label>гравитационный корпус (остов гравилёта)</VGE_GravshipHusk.label>
+
+  <!-- EN: A derelict gravship husk, severely ravaged by countless years adrift in space. Its skeletal frame is all that remains, but its tough structure still holds fragments of twisted metals and components that can be salvaged.  This location can be reached using transport pods, shuttles, or a gravship.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GravshipHusk.description>Остов гравилёта, заброшенный и сильно повреждённый за бесчисленные годы дрейфа в космосе. От него остался только скелетный каркас, но его прочная конструкция всё ещё содержит фрагменты погнутого металла и компоненты, которые можно спасти.
+
+Это место можно достичь с помощью транспортных капсул, шаттлов или гравилёта.</VGE_GravshipHusk.description>
+
+  <!-- EN: dormant warplatform -->
+  <VGE_DormantWarplatform.label>дремлющая военная платформа</VGE_DormantWarplatform.label>
+
+  <!-- EN: A dormant, heavily armed satellite platform floating in orbit. Long-range scans detect an array of gauss bombards controlled by a central warcomputer. The defenses will activate and immediately engage any incoming ships upon arrival.  Breaching the installation will require fighting through automated turrets and sentry drones, but destroying or hacking the warcomputer will disable the anti-ship bombards.  This location can be reached using transport pods, shuttles, or a gravship.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DormantWarplatform.description>Дремлющая, хорошо вооружённая спутниковая платформа, находящаяся на орбите. Сканирование дальнего радиуса действия обнаруживает комплекс гаусс-бомбард, управляемых центральным военным компьютером. Защитные системы активируются и немедленно атакуют любые приближающиеся корабли по прибытии.\n\nДля проникновения в установку потребуется прорваться через автоматические турели и сторожевые дроны, но уничтожение или взлом военного компьютера выведет из строя противокорабельные бомбарды.\n\nДо этого места можно добраться на транспортных капсулах, шаттлах или гравилёте.</VGE_DormantWarplatform.description>
+
+  <!-- EN: derelict gravship -->
+  <VGE_DerelictGravship.label>заброшенный гравитационный корабль</VGE_DerelictGravship.label>
+
+  <!-- EN: An immense, derelict gravship drifting silently in the void. Its machinery is broken, and its hull is vented to vacuum, but the sheer size of the wreck means valuable salvage is everywhere.  This location can be reached using transport pods, shuttles, or a gravship.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DerelictGravship.description>Огромный заброшенный гравитационный корабль, бесшумно дрейфующий в пустоте. Его механизмы сломаны, а корпус разгерметизирован, но из-за огромных размеров корабля повсюду можно найти ценные обломки для утилизации.\n\nДо этого места можно добраться на транспортных капсулах, шаттлах или гравитационном корабле.</VGE_DerelictGravship.description>
+
+  <!-- EN: active salvager station -->
+  <VGE_ActiveSalvagerStation.label>активная станция мародёров</VGE_ActiveSalvagerStation.label>
+
+  <!-- EN: A heavily armed, salvager-owned orbital station currently bombarding your gravship. The station is equipped with numerous pieces of gravship artillery that need to be destroyed to stop the bombardment.  This location can be reached using transport pods, shuttles, or a gravship.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_ActiveSalvagerStation.description>Вооружённая до зубов орбитальная станция мародёров в настоящее время обстреливает ваш гравилёт. Чтобы остановить бомбардировку, необходимо уничтожить многочисленные артиллерийские орудия, установленные на станции.\n\nДо этого места можно добраться на транспортных капсулах, шаттлах или гравилёте.</VGE_ActiveSalvagerStation.description>
+
+  <!-- EN: Enemy gravjumper -->
+  <VGE_ActiveEnemyGravjumper.label>Враг-гравиджемпер</VGE_ActiveEnemyGravjumper.label>
+
+  <!-- EN: An enemy gravjumper, which is a compact, short-range gravship that relies on the gravjumper engine and a pilot cockpit to operate. Offers minimal substructure support and footprint, making it ideal for scouting and exploration.  This location can be reached using transport pods, shuttles, or a gravship.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_ActiveEnemyGravjumper.description>Враг-гравиджемпер — это компактный гравилёт ближнего действия, который для работы использует двигатель гравиджемпера и кабину пилота. Обладает минимальной поддержкой подсистем и небольшими габаритами, что делает его идеальным для разведки и исследования.
+
+Это место можно достичь с помощью транспортных капсул, шаттлов или гравилёта.</VGE_ActiveEnemyGravjumper.description>
+
+  <!-- EN: active orbital cluster -->
+  <VGE_ActiveOrbitalCluster.label>активный орбитальный кластер</VGE_ActiveOrbitalCluster.label>
+
+  <!-- EN: A heavily armed mechanoid orbital combat cluster currently bombarding your gravship. The station is equipped with a mechanoid grav engine and numerous artillery pieces that must be destroyed to stop the bombardment.  This location can be reached using transport pods, shuttles, or a gravship.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_ActiveOrbitalCluster.description>Тяжеловооружённый орбитальный боевой кластер механоидов в настоящее время обстреливает ваш гравилёт. Станция оснащена механиоидным гравидвигателем и многочисленными артиллерийскими орудиями, которые необходимо уничтожить, чтобы остановить бомбардировку.\n\nДо этого места можно добраться на транспортных капсулах, шаттлах или гравилёте.</VGE_ActiveOrbitalCluster.description>
+
+  <!-- EN: Enemy gravship -->
+  <VGE_ActiveEnemyGravship.label>Враждебный гравитационный корабль</VGE_ActiveEnemyGravship.label>
+
+  <!-- EN: An enemy gravship, which is a versatile mid-sized vessel powered by a standard gravship engine and launched via a pilot console. Balanced in size and support, it can serve as a mobile base with sufficient upgrades. Suitable for long-term travel and projecting power.  This location can be reached using transport pods, shuttles, or a gravship.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_ActiveEnemyGravship.description>Враждебный гравитационный корабль — это универсальное судно среднего размера, оснащённое стандартным двигателем для гравилёта и запускаемое с помощью пилотской консоли. Сбалансированный по размерам и поддержке, он может служить мобильной базой при наличии соответствующих улучшений. Подходит для длительных путешествий и проецирования силы.
+
+Это место можно достичь с помощью транспортных капсул, шаттлов или гравилёта.</VGE_ActiveEnemyGravship.description>
+
+</LanguageData>

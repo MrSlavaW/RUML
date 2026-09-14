@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: r_name(p=0.01)-&gt;The Crimson Eclipse -->
+  <VGE_NamerEnemyGravship.rulePack.rulesStrings>r_name(p=0.01)->Багровое затмение</VGE_NamerEnemyGravship.rulePack.rulesStrings>
+
+  <!-- EN: r_name(p=2)-&gt;The [station_adjective] [station_noun] -->
+  <VGE_NamerPirateOrbitalStation.rulePack.rulesStrings>r_name(p=2)->[station_adjective] [station_noun]</VGE_NamerPirateOrbitalStation.rulePack.rulesStrings>
+
+  <!-- EN: r_name-&gt;[prefix_adj] [prefix_noun] -->
+  <VGE_NamerWorldObject_GravshipHusk.rulePack.rulesStrings>r_name->[prefix_adj] [prefix_noun]</VGE_NamerWorldObject_GravshipHusk.rulePack.rulesStrings>
+
+</LanguageData>

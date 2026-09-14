@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: questDescription-&gt; [discoveryMethod] the location of an asteroid infested with insectoids. The creatures have carved tunnels into the rock, filling them with debris and salvage from passing wrecks.  The asteroid could hold great value, but the infestation will not be easy to dislodge. You detect clear signs of insectoid activity.  You can reach the asteroid with transport pods, shuttles, or a gravship. Equip your colonists with sufficient orbital apparel before departing. -->
+  <VGE_OpportunitySite_InfestedAsteroid.questDescriptionRules.rulesStrings>questDescription->[discoveryMethod] координаты астероида, заражённого инсектоидами. Твари прорыли в скале целую сеть туннелей, заполнив их обломками и трофеями с пролетавших мимо кораблей.
+
+Астероид может скрывать ценнейшие ресурсы, однако зачистить заражение будет непросто — сканеры фиксируют высокую активность роя.
+
+Добраться до астероида можно на транспортных капсулах, челноках или гравикорабле. Перед отправкой убедитесь, что колонисты экипированы скафандрами.</VGE_OpportunitySite_InfestedAsteroid.questDescriptionRules.rulesStrings>
+
+  <!-- EN: questName-&gt;Infested Asteroid -->
+  <VGE_OpportunitySite_InfestedAsteroid.questNameRules.rulesStrings>questName->Заражённый астероид</VGE_OpportunitySite_InfestedAsteroid.questNameRules.rulesStrings>
+
+  <!-- EN: You have discovered -->
+  <VGE_OpportunitySite_InfestedAsteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Вы обнаружили</VGE_OpportunitySite_InfestedAsteroid.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+
+  <!-- EN: questDescription-&gt;[discoveryMethod] the location of a dormant, automated warplatform. This hostile satellite is filled with anti-air defenses and gauss bombards that will open fire the moment you land.  The platform is heavily defended by security turrets, roaming sentry drones, and hidden mechanical traps. At the center of the installation sits a warcomputer coordinating the network. If your colonists can survive the landing and push through to hack or destroy the warcomputer, the gauss bombards will be permanently disabled, leaving the platform's high-tech salvage for the taking.  You can reach the warplatform with transport pods, shuttles, or a gravship. Equip your colonists with sufficient orbital apparel before departing. -->
+  <VGE_OpportunitySite_DormantWarplatform.questDescriptionRules.rulesStrings>questDescription->[discoveryMethod] координаты законсервированной автоматической боевой платформы. Этот враждебный спутник напичкан противовоздушными системами и гаусс-бомбардами, которые откроют огонь в ту же секунду, когда вы совершите посадку.
+
+Платформу яростно защищают охранные турели, патрульные дроны и скрытые механические ловушки. В самом центре комплекса расположен суперкомпьютер, координирующий всю боевую сеть. Если колонисты выдержат приземление и смогут взломать либо уничтожить боевой компьютер, гаусс-бомбарды будут отключены навсегда, оставив вам передовые технологии платформы.
+
+Добраться до боевой платформы можно на транспортных капсулах, челноках или гравикорабле. Перед отправкой экипируйте колонистов скафандрами.</VGE_OpportunitySite_DormantWarplatform.questDescriptionRules.rulesStrings>
+
+  <!-- EN: questName-&gt;Warplatform -->
+  <VGE_OpportunitySite_DormantWarplatform.questNameRules.rulesStrings>questName->Боевая платформа</VGE_OpportunitySite_DormantWarplatform.questNameRules.rulesStrings>
+
+  <!-- EN: You have discovered -->
+  <VGE_OpportunitySite_DormantWarplatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Вы обнаружили</VGE_OpportunitySite_DormantWarplatform.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+
+  <!-- EN: questDescription-&gt;A large meteorite has struck ground nearby. It has left behind a lump of vacstone. Vacstone is required for construction of the more advanced gravship technology. You can send a mining party to retrieve it, but chances are if you wait long enough, someone else will lay claim to it. -->
+  <VGE_OpportunitySite_VacstoneMeteor.questDescriptionRules.rulesStrings>questDescription->Крупный метеорит упал неподалёку от поселения. На месте падения обнаружены залежи ваккамня. Ваккамень жизненно необходим для строительства передовых систем гравикораблей. Вы можете отправить бригаду шахтёров для его добычи, но помните: если медлить слишком долго, его заберёт кто-то другой.</VGE_OpportunitySite_VacstoneMeteor.questDescriptionRules.rulesStrings>
+
+  <!-- EN: questName-&gt;Vacstone Meteor -->
+  <VGE_OpportunitySite_VacstoneMeteor.questNameRules.rulesStrings>questName->Ваккаменный метеорит</VGE_OpportunitySite_VacstoneMeteor.questNameRules.rulesStrings>
+
+  <!-- EN: Quest expired: [resolvedQuestName] -->
+  <VGE_OpportunitySite_VacstoneMeteor.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>Задание провалено: [resolvedQuestName]</VGE_OpportunitySite_VacstoneMeteor.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+
+  <!-- EN: Others have mined the Vacstone meteor. The quest [resolvedQuestName] has expired. -->
+  <VGE_OpportunitySite_VacstoneMeteor.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>Другие добытчики опередили вас и выработали ваккаменный метеорит. Задание «[resolvedQuestName]» истекло.</VGE_OpportunitySite_VacstoneMeteor.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+
+  <!-- EN: questDescription-&gt;[discoveryMethod] the location of a derelict gravship. This ancient hulk, ruined by countless years in orbit, is a trove of salvage, including rare gravlite and advanced components.  The wreck is currently [threatDescription], making any attempt at recovery a dangerous venture. You can reach the location with transport pods, shuttles, or a gravship. Equip your colonists with sufficient orbital apparel before departing. -->
+  <VGE_OpportunitySite_DerelictGravship.questDescriptionRules.rulesStrings>questDescription->[discoveryMethod] местоположение покинутого гравикорабля. Этот древний остов, проведший бесчисленные годы на орбите, является настоящей сокровищницей ценных материалов, включая редкий гравилит и передовые компоненты.
+
+Обломки в настоящий момент [threatDescription], что делает любую спасательную операцию смертельно опасной. Добраться до места можно на транспортных капсулах, челноках или гравикорабле. Перед стартом снабдите колонистов скафандрами.</VGE_OpportunitySite_DerelictGravship.questDescriptionRules.rulesStrings>
+
+  <!-- EN: questName-&gt;Derelict gravship -->
+  <VGE_OpportunitySite_DerelictGravship.questNameRules.rulesStrings>questName->Покинутый гравикорабль</VGE_OpportunitySite_DerelictGravship.questNameRules.rulesStrings>
+
+  <!-- EN: You have discovered -->
+  <VGE_OpportunitySite_DerelictGravship.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>Вы обнаружили</VGE_OpportunitySite_DerelictGravship.root.nodes.IsSet.elseNode.nodes.Set.value.slateRef>
+
+  <!-- EN: Gravcore detected: Gravship graveyard -->
+  <VGE_GravshipGraveyard.questAvailableLetterLabel>Обнаружено гравитационное ядро: кладбище гравикораблей</VGE_GravshipGraveyard.questAvailableLetterLabel>
+
+  <!-- EN: questDescription-&gt;You have detected the distinct energy signature of a gravcore emanating from a massive field of debris: a gravship graveyard. You know that when you arrive, your navigation systems will be locked. An ancient signal jammer is active within the debris field, preventing your gravship from initiating the launch. You must navigate through the field of unstable ancient gravmines, locate the source of the jamming, and neutralize it to escape.  Be careful, orbital locations are extremely dangerous. Equip your colonists with vacsuits. Plan your return trip, as living in orbit for long periods is very difficult. -->
+  <VGE_GravshipGraveyard.questDescriptionRules.rulesStrings>questDescription->Вы зафиксировали отчётливую энергетическую сигнатуру гравитационного ядра, исходящую из гигантского поля обломков — кладбища гравикораблей. Имейте в виду: по прибытии навигационные системы будут заблокированы. В поле обломков работает древний глушитель сигналов, не позволяющий запустить двигатели для взлёта. Вы должны пройти сквозь поле нестабильных древних гравимин, найти источник глушения и нейтрализовать его для спасения.
+
+Будьте предельно осторожны: орбитальные зоны смертельно опасны. Экипируйте колонистов скафандрами и тщательно спланируйте обратный путь, поскольку выжить на орбите долгое время крайне тяжело.</VGE_GravshipGraveyard.questDescriptionRules.rulesStrings>
+
+  <!-- EN: questName-&gt;gravship graveyard -->
+  <VGE_GravshipGraveyard.questNameRules.rulesStrings>questName->кладбище гравикораблей</VGE_GravshipGraveyard.questNameRules.rulesStrings>
+
+  <!-- EN: Gravcore detected: Infested installation -->
+  <VGE_InfestedInstallation.questAvailableLetterLabel>Обнаружено гравитационное ядро: заражённый комплекс</VGE_InfestedInstallation.questAvailableLetterLabel>
+
+  <!-- EN: questDescription-&gt;You have detected the energy signature of a gravcore. The signal is coming from an abandoned orbital station infested with exoinsectoids. Scans reveal numerous hives on board. You must navigate the infested ruins, defeat the exoinsectoid defenders, and destroy the infested gravlock tether which will continue spawning new exoinsectoids throughout the platform. Once destroyed, you will be able to obtain the gravcore.  Be careful, orbital locations are extremely dangerous. Equip your colonists with vacsuits. Plan your return trip, as living in orbit for long periods is very difficult. -->
+  <VGE_InfestedInstallation.questDescriptionRules.rulesStrings>questDescription->Вы зафиксировали энергетическую сигнатуру гравитационного ядра. Сигнал исходит от заброшенной орбитальной станции, кишащей экзоинсектоидами. Сканирование показывает множество активных ульев. Вам предстоит проникнуть в заражённые руины, одолеть защитников роя и уничтожить заражённый гравизахват, порождающий всё новых тварей по всей платформе. После его разрушения вы сможете забрать ценное гравитационное ядро.
+
+Будьте осторожны: орбитальные локации не прощают ошибок. Снабдите колонистов скафандрами и спланируйте возвращение.</VGE_InfestedInstallation.questDescriptionRules.rulesStrings>
+
+  <!-- EN: questName-&gt;Infested installation -->
+  <VGE_InfestedInstallation.questNameRules.rulesStrings>questName->Заражённый комплекс</VGE_InfestedInstallation.questNameRules.rulesStrings>
+
+  <!-- EN: Gravcore detected: Salvager stronghold -->
+  <VGE_SalvagerStronghold.questAvailableLetterLabel>Обнаружено гравитационное ядро: цитадель утилизаторов</VGE_SalvagerStronghold.questAvailableLetterLabel>
+
+  <!-- EN: questDescription-&gt;You have detected the distinct energy signature of a gravcore emanating from a large asteroid. Scans reveal that a well-armed faction of salvagers has claimed the rock, building a heavily defended stronghold upon it. An active enemy signal jammer within the facility prevents your gravship from landing in close proximity, forcing you to touch down on the dangerous outskirts of the asteroid.  You must assault the base, navigate their defenses, and destroy the gravlock tether located in the center of the compound to obtain the gravcore.  Be careful, orbital locations are extremely dangerous. Equip your colonists with vacsuits. Plan your return trip, as living in orbit for long periods is very difficult. -->
+  <VGE_SalvagerStronghold.questDescriptionRules.rulesStrings>questDescription->Вы уловили чёткую энергетическую сигнатуру гравитационного ядра, исходящую от крупного астероида. Сканирование показало, что хорошо вооружённая банда утилизаторов захватила этот астероид и возвела на нём мощную крепость. Работающий вражеский глушитель сигналов не позволяет приземлиться прямо на базу, вынуждая высаживаться на опасной окраине астероида.
+
+Вам необходимо штурмовать базу, преодолеть укрепления и уничтожить гравизахват в центре комплекса, чтобы завладеть гравитационным ядром.
+
+Будьте предельно бдительны: орбитальные секторы крайне опасны. Наденьте на бойцов скафандры и подготовьте план возвращения.</VGE_SalvagerStronghold.questDescriptionRules.rulesStrings>
+
+  <!-- EN: questName-&gt;Salvager stronghold -->
+  <VGE_SalvagerStronghold.questNameRules.rulesStrings>questName->Цитадель утилизаторов</VGE_SalvagerStronghold.questNameRules.rulesStrings>
+
+</LanguageData>

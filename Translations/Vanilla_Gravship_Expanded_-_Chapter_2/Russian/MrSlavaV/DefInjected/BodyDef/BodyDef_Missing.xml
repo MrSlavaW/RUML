@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: worm with armor -->
+  <VGE_WormWithArmor.label>червь в броне</VGE_WormWithArmor.label>
+
+  <!-- EN: left lung -->
+  <VGE_WormWithArmor.corePart.parts.VGE_SecondWormSegment.parts.left_lung.customLabel>левое лёгкое</VGE_WormWithArmor.corePart.parts.VGE_SecondWormSegment.parts.left_lung.customLabel>
+
+  <!-- EN: right lung -->
+  <VGE_WormWithArmor.corePart.parts.VGE_SecondWormSegment.parts.right_lung.customLabel>правое лёгкое</VGE_WormWithArmor.corePart.parts.VGE_SecondWormSegment.parts.right_lung.customLabel>
+
+  <!-- EN: left kidney -->
+  <VGE_WormWithArmor.corePart.parts.VGE_FourthWormSegment.parts.left_kidney.customLabel>левая почка</VGE_WormWithArmor.corePart.parts.VGE_FourthWormSegment.parts.left_kidney.customLabel>
+
+  <!-- EN: right kidney -->
+  <VGE_WormWithArmor.corePart.parts.VGE_FourthWormSegment.parts.right_kidney.customLabel>правая почка</VGE_WormWithArmor.corePart.parts.VGE_FourthWormSegment.parts.right_kidney.customLabel>
+
+  <!-- EN: echolocation organ -->
+  <VGE_WormWithArmor.corePart.parts.SnakeHead.parts.echolocation_organ.customLabel>орган эхолокации</VGE_WormWithArmor.corePart.parts.SnakeHead.parts.echolocation_organ.customLabel>
+
+  <!-- EN: worm with armor and head claw -->
+  <VGE_WormWithArmorAndHeadClaw.label>червь с доспехами и головным когтем</VGE_WormWithArmorAndHeadClaw.label>
+
+  <!-- EN: left lung -->
+  <VGE_WormWithArmorAndHeadClaw.corePart.parts.VGE_SecondWormSegment.parts.left_lung.customLabel>левое лёгкое</VGE_WormWithArmorAndHeadClaw.corePart.parts.VGE_SecondWormSegment.parts.left_lung.customLabel>
+
+  <!-- EN: right lung -->
+  <VGE_WormWithArmorAndHeadClaw.corePart.parts.VGE_SecondWormSegment.parts.right_lung.customLabel>правое лёгкое</VGE_WormWithArmorAndHeadClaw.corePart.parts.VGE_SecondWormSegment.parts.right_lung.customLabel>
+
+  <!-- EN: left kidney -->
+  <VGE_WormWithArmorAndHeadClaw.corePart.parts.VGE_FourthWormSegment.parts.left_kidney.customLabel>левая почка</VGE_WormWithArmorAndHeadClaw.corePart.parts.VGE_FourthWormSegment.parts.left_kidney.customLabel>
+
+  <!-- EN: right kidney -->
+  <VGE_WormWithArmorAndHeadClaw.corePart.parts.VGE_FourthWormSegment.parts.right_kidney.customLabel>правая почка</VGE_WormWithArmorAndHeadClaw.corePart.parts.VGE_FourthWormSegment.parts.right_kidney.customLabel>
+
+  <!-- EN: echolocation organ -->
+  <VGE_WormWithArmorAndHeadClaw.corePart.parts.SnakeHead.parts.echolocation_organ.customLabel>орган эхолокации</VGE_WormWithArmorAndHeadClaw.corePart.parts.SnakeHead.parts.echolocation_organ.customLabel>
+
+  <!-- EN: worm knot -->
+  <VGE_WormKnot.label>узел червя</VGE_WormKnot.label>
+
+  <!-- EN: worm -->
+  <VGE_WormKnot.corePart.parts.worm-0.customLabel>червь</VGE_WormKnot.corePart.parts.worm-0.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormKnot.corePart.parts.worm-1.customLabel>червь</VGE_WormKnot.corePart.parts.worm-1.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormKnot.corePart.parts.worm-2.customLabel>червь</VGE_WormKnot.corePart.parts.worm-2.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormKnot.corePart.parts.worm-3.customLabel>червь</VGE_WormKnot.corePart.parts.worm-3.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormKnot.corePart.parts.worm-4.customLabel>червь</VGE_WormKnot.corePart.parts.worm-4.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormKnot.corePart.parts.worm-5.customLabel>червь</VGE_WormKnot.corePart.parts.worm-5.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormKnot.corePart.parts.worm-6.customLabel>червь</VGE_WormKnot.corePart.parts.worm-6.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormKnot.corePart.parts.worm-7.customLabel>червь</VGE_WormKnot.corePart.parts.worm-7.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormKnot.corePart.parts.worm-8.customLabel>червь</VGE_WormKnot.corePart.parts.worm-8.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormKnot.corePart.parts.worm-9.customLabel>червь</VGE_WormKnot.corePart.parts.worm-9.customLabel>
+
+  <!-- EN: worm hive -->
+  <VGE_WormHive.label>улей червей</VGE_WormHive.label>
+
+  <!-- EN: worm -->
+  <VGE_WormHive.corePart.parts.worm-0.customLabel>червь</VGE_WormHive.corePart.parts.worm-0.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormHive.corePart.parts.worm-1.customLabel>червь</VGE_WormHive.corePart.parts.worm-1.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormHive.corePart.parts.worm-2.customLabel>червь</VGE_WormHive.corePart.parts.worm-2.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormHive.corePart.parts.worm-3.customLabel>червь</VGE_WormHive.corePart.parts.worm-3.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormHive.corePart.parts.worm-4.customLabel>червь</VGE_WormHive.corePart.parts.worm-4.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormHive.corePart.parts.worm-5.customLabel>червь</VGE_WormHive.corePart.parts.worm-5.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormHive.corePart.parts.worm-6.customLabel>червь</VGE_WormHive.corePart.parts.worm-6.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormHive.corePart.parts.worm-7.customLabel>червь</VGE_WormHive.corePart.parts.worm-7.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormHive.corePart.parts.worm-8.customLabel>червь</VGE_WormHive.corePart.parts.worm-8.customLabel>
+
+  <!-- EN: worm -->
+  <VGE_WormHive.corePart.parts.worm-9.customLabel>червь</VGE_WormHive.corePart.parts.worm-9.customLabel>
+
+  <!-- EN: worm with armor, head claw and tail -->
+  <VGE_WormWithArmorHeadClawAndTail.label>червь с бронёй, головой-клешнёй и хвостом</VGE_WormWithArmorHeadClawAndTail.label>
+
+  <!-- EN: left lung -->
+  <VGE_WormWithArmorHeadClawAndTail.corePart.parts.VGE_SecondWormSegment.parts.left_lung.customLabel>левое лёгкое</VGE_WormWithArmorHeadClawAndTail.corePart.parts.VGE_SecondWormSegment.parts.left_lung.customLabel>
+
+  <!-- EN: right lung -->
+  <VGE_WormWithArmorHeadClawAndTail.corePart.parts.VGE_SecondWormSegment.parts.right_lung.customLabel>правое лёгкое</VGE_WormWithArmorHeadClawAndTail.corePart.parts.VGE_SecondWormSegment.parts.right_lung.customLabel>
+
+  <!-- EN: left kidney -->
+  <VGE_WormWithArmorHeadClawAndTail.corePart.parts.VGE_FourthWormSegment.parts.left_kidney.customLabel>левая почка</VGE_WormWithArmorHeadClawAndTail.corePart.parts.VGE_FourthWormSegment.parts.left_kidney.customLabel>
+
+  <!-- EN: right kidney -->
+  <VGE_WormWithArmorHeadClawAndTail.corePart.parts.VGE_FourthWormSegment.parts.right_kidney.customLabel>правая почка</VGE_WormWithArmorHeadClawAndTail.corePart.parts.VGE_FourthWormSegment.parts.right_kidney.customLabel>
+
+  <!-- EN: echolocation organ -->
+  <VGE_WormWithArmorHeadClawAndTail.corePart.parts.SnakeHead.parts.echolocation_organ.customLabel>орган эхолокации</VGE_WormWithArmorHeadClawAndTail.corePart.parts.SnakeHead.parts.echolocation_organ.customLabel>
+
+</LanguageData>

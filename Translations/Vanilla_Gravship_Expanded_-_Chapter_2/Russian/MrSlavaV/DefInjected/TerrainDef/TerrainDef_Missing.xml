@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: subcreep -->
+  <VGE_PlayerSubcreep.label>субкрик</VGE_PlayerSubcreep.label>
+
+  <!-- EN: An insectoid-made lightweight sponge-goop structure with creep on top that forms the surface of an exohive. Only things on top of this substructure can be lifted by the grav engine's levitation field. This floor must be constructed within range of a grav engine. Supports insectoid structures and significantly hinders non-insectoid movement.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_PlayerSubcreep.description>Это лёгкая структура из губчатой массы, созданная насекомыми, с ползучим покрытием сверху, которая образует поверхность экзоулья. Только объекты, расположенные на этой подложке, могут быть подняты левитационным полем гравидвигателя. Этот пол должен быть построен в зоне действия гравидвигателя. Поддерживает конструкции насекомых и существенно затрудняет перемещение неинсектоидам.</VGE_PlayerSubcreep.description>
+
+  <!-- EN: gravship subarmor -->
+  <VGE_GravshipSubarmor.label>гравитационный корабль подброня</VGE_GravshipSubarmor.label>
+
+  <!-- EN: A reinforced structural layer with flooring on top that forms the deck of a gravship. Built from dense grav-hardened alloys, this subarmor is completely indestructible, shielding the vessel from artillery impact and crash landing damage. Only things on top of this substructure can be lifted by the grav engine's levitation field. This floor must be constructed within range of a grav engine.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GravshipSubarmor.description>Укреплённый конструктивный слой с настилом сверху, который образует палубу гравилёта. Изготовленный из плотных гравиупрочнённых сплавов, этот подбронюшник абсолютно неразрушим, защищая судно от артиллерийских ударов и повреждений при аварийной посадке. Только объекты, расположенные поверх этой конструкции, могут быть подняты левитационным полем гравидвигателя. Этот пол должен быть построен в зоне действия гравидвигателя.</VGE_GravshipSubarmor.description>
+
+  <!-- EN: ancient substructure -->
+  <VGE_AncientSubstructure.label>древнее строение</VGE_AncientSubstructure.label>
+
+  <!-- EN: A foundation of an orbital vessel, now twisted and warped. Doesn't seem to offer anything of value.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_AncientSubstructure.description>Основание орбитального судна, ныне искривлённое и деформированное. Не представляет ценности.</VGE_AncientSubstructure.description>
+
+  <!-- EN: subcreep -->
+  <VGE_Subcreep.label>подслизень</VGE_Subcreep.label>
+
+  <!-- EN: An insectoid-made lightweight sponge-goop structure with creep on top that forms the surface of an exohive. Only things on top of this substructure can be lifted by the grav engine's levitation field. This floor must be constructed within range of a grav engine. Supports insectoid structures and significantly hinders non-insectoid movement.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Subcreep.description>Это легкая структура из губчатой массы, созданная инсектоидами, с ползучей массой сверху, которая образует поверхность экзоулья. Только объекты, расположенные на этой основе, могут быть подняты левитационным полем гравидвигателя. Этот пол должен быть построен в зоне действия гравидвигателя. Поддерживает конструкции инсектоидов и существенно затрудняет передвижение неинсектоидам.</VGE_Subcreep.description>
+
+  <!-- EN: enemy substructure -->
+  <VGE_EnemySubstructure.label>вражеская постройка</VGE_EnemySubstructure.label>
+
+  <!-- EN: A lightweight truss structure with flooring on top that forms the deck of an enemy gravship. Cannot be claimed or used by anyone but the enemy crew. Can be deconstructed to yield some resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemySubstructure.description>Лёгкая ферменная конструкция с настилом сверху, образующая палубу вражеского гравилёта. Не может быть захвачена или использована никем, кроме экипажа противника. Может быть разобрана для получения ресурсов.</VGE_EnemySubstructure.description>
+
+  <!-- EN: damaged enemy substructure -->
+  <VGE_EnemyDamagedSubstructure.label>повреждённая вражеская конструкция</VGE_EnemyDamagedSubstructure.label>
+
+  <!-- EN: A damaged lightweight truss structure with flooring on top that forms the deck of an enemy gravship. Cannot be claimed or used by anyone but the enemy crew. Can be deconstructed to yield some resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyDamagedSubstructure.description>Повреждённая лёгкая ферменная конструкция с настилом сверху, которая образует палубу гравилёта врага. Не может быть захвачена или использована никем, кроме экипажа противника. Может быть разобрана для получения некоторых ресурсов.</VGE_EnemyDamagedSubstructure.description>
+
+  <!-- EN: enemy gravship subarmor -->
+  <VGE_EnemySubarmor.label>вражеская гравитационная подброня корабля</VGE_EnemySubarmor.label>
+
+  <!-- EN: A reinforced structural layer with flooring on top that forms the deck of an enemy gravship. Built from dense grav-hardened alloys, this subarmor is completely indestructible, shielding the vessel from artillery impact. Cannot be claimed or used by anyone but the enemy crew. Can be deconstructed to yield some resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemySubarmor.description>Укреплённый конструкционный слой с настилом сверху, который образует палубу вражеского гравилёта. Изготовлен из плотных гравиупрочнённых сплавов, эта подброня абсолютно неразрушима, защищая судно от артиллерийских ударов. Не может быть захвачен или использован никем, кроме экипажа противника. Может быть демонтирован для получения некоторых ресурсов.</VGE_EnemySubarmor.description>
+
+</LanguageData>

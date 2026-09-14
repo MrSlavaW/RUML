@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: exoworm infestation -->
+  <VGE_ExowormInfestation.label>экзочервяная инвазия</VGE_ExowormInfestation.label>
+
+  <!-- EN: {0} has been bitten to death. -->
+  <VGE_ExowormInfestation.deathMessage>{0} погиб от укусов экзочервей.</VGE_ExowormInfestation.deathMessage>
+
+</LanguageData>

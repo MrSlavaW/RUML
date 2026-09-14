@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: blazing re-entry -->
+  <VGE_BlazingReentry.letterLabel>блестящее возвращение</VGE_BlazingReentry.letterLabel>
+
+  <!-- EN: A calibration error in the thruster dampeners caused to vent excess energy during {GRAVSHIP}’s descent. It has streaked across the sky like a brilliant, roaring meteor, making its approach and exact landing coordinates impossible for anyone on the ground to miss. -->
+  <VGE_BlazingReentry.letterText>Ошибка калибровки гасителей тяги привела к выбросу колоссального объёма энергии при снижении корабля {GRAVSHIP}. Он пронёсся по небосводу подобно ослепительному грохочущему болиду, сделав траекторию своего захода и точные координаты посадки очевидными для всех в радиусе сотен километров.</VGE_BlazingReentry.letterText>
+
+</LanguageData>

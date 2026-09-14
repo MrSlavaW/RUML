@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: sealed exoskeleton -->
+  <VGE_Gene_SealedExoskeleton.label>герметичный экзоскелет</VGE_Gene_SealedExoskeleton.label>
+
+  <!-- EN: Carriers of this gene develop a hermetically sealed exoskeleton capable of internalizing atmospheric pressure and regulating core body heat. This adaptation grants them complete immunity to the vacuum of space and allows them to endure extreme freezing environments without discomfort.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Gene_SealedExoskeleton.description>Носители этого гена развивают герметичный экзоскелет, способный усваивать атмосферное давление и регулировать внутреннюю температуру тела. Эта адаптация даёт им полный иммунитет к космическому вакууму и позволяет переносить экстремально низкие температуры без дискомфорта.</VGE_Gene_SealedExoskeleton.description>
+
+  <!-- EN: void -->
+  <VGE_Gene_SealedExoskeleton.symbolPack.prefixSymbols.0.symbol>вакуум</VGE_Gene_SealedExoskeleton.symbolPack.prefixSymbols.0.symbol>
+
+  <!-- EN: exo -->
+  <VGE_Gene_SealedExoskeleton.symbolPack.prefixSymbols.1.symbol>экзо</VGE_Gene_SealedExoskeleton.symbolPack.prefixSymbols.1.symbol>
+
+  <!-- EN: astro -->
+  <VGE_Gene_SealedExoskeleton.symbolPack.prefixSymbols.2.symbol>астро</VGE_Gene_SealedExoskeleton.symbolPack.prefixSymbols.2.symbol>
+
+  <!-- EN: space -->
+  <VGE_Gene_SealedExoskeleton.symbolPack.prefixSymbols.3.symbol>космо</VGE_Gene_SealedExoskeleton.symbolPack.prefixSymbols.3.symbol>
+
+  <!-- EN: cold -->
+  <VGE_Gene_SealedExoskeleton.symbolPack.prefixSymbols.4.symbol>хладо</VGE_Gene_SealedExoskeleton.symbolPack.prefixSymbols.4.symbol>
+
+  <!-- EN: microgravity adapted -->
+  <VGE_Gene_MicrogravityAdapted.label>адаптированные к микрогравитации</VGE_Gene_MicrogravityAdapted.label>
+
+  <!-- EN: Carriers of this gene possess musculature and spatial awareness uniquely adapted for zero-gravity environments. While in space, they move with enhanced agility, work with greater efficiency, and effortlessly glide across the vacuum of space.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Gene_MicrogravityAdapted.description>Носители этого гена обладают мускулатурой и пространственным восприятием, уникально адаптированными для условий микрогравитации. В космосе они передвигаются с повышенной ловкостью, работают более эффективно и легко скользят в космическом вакууме.</VGE_Gene_MicrogravityAdapted.description>
+
+  <!-- EN: grav -->
+  <VGE_Gene_MicrogravityAdapted.symbolPack.prefixSymbols.0.symbol>грав</VGE_Gene_MicrogravityAdapted.symbolPack.prefixSymbols.0.symbol>
+
+  <!-- EN: zero -->
+  <VGE_Gene_MicrogravityAdapted.symbolPack.prefixSymbols.1.symbol>ноль</VGE_Gene_MicrogravityAdapted.symbolPack.prefixSymbols.1.symbol>
+
+  <!-- EN: float -->
+  <VGE_Gene_MicrogravityAdapted.symbolPack.prefixSymbols.2.symbol>паро</VGE_Gene_MicrogravityAdapted.symbolPack.prefixSymbols.2.symbol>
+
+  <!-- EN: astro -->
+  <VGE_Gene_MicrogravityAdapted.symbolPack.prefixSymbols.3.symbol>астро</VGE_Gene_MicrogravityAdapted.symbolPack.prefixSymbols.3.symbol>
+
+  <!-- EN: astrofuel sacks -->
+  <VGE_Gene_AstrofuelSacks.label>мешки с астротопливом</VGE_Gene_AstrofuelSacks.label>
+
+  <!-- EN: Carriers of this gene develop volatile astrofuel sacks resembling a tail, drastically increasing their susceptibility to flame damage. If engulfed in large enough flames or upon death, they erupt in a devastating astrofire explosion. Additionally, these sacks can be "milked" periodically to yield valuable astrofuel.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Gene_AstrofuelSacks.description>Носители этого гена развивают мешки с астротопливом, напоминающие хвост, что резко повышает их восприимчивость к огненному урону. Если они окажутся в большом огне или погибнут, они взрываются, вызывая разрушительный взрыв астроогня. Кроме того, эти мешки можно периодически «доить» для получения ценного астротоплива.</VGE_Gene_AstrofuelSacks.description>
+
+  <!-- EN: fuel -->
+  <VGE_Gene_AstrofuelSacks.symbolPack.prefixSymbols.0.symbol>топливо</VGE_Gene_AstrofuelSacks.symbolPack.prefixSymbols.0.symbol>
+
+  <!-- EN: void -->
+  <VGE_Gene_AstrofuelSacks.symbolPack.prefixSymbols.1.symbol>вакуум</VGE_Gene_AstrofuelSacks.symbolPack.prefixSymbols.1.symbol>
+
+  <!-- EN: astro -->
+  <VGE_Gene_AstrofuelSacks.symbolPack.prefixSymbols.2.symbol>астро</VGE_Gene_AstrofuelSacks.symbolPack.prefixSymbols.2.symbol>
+
+  <!-- EN: floating organs -->
+  <VGE_Gene_FloatingOrgans.label>плавающие органы</VGE_Gene_FloatingOrgans.label>
+
+  <!-- EN: Carriers of this gene lack the internal connective tissues that normally hold organs in place under planetary gravity. Subjecting them to standard gravity causes their internal organs to shift and sag painfully, resulting in chronic nausea and persistent lethargy.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Gene_FloatingOrgans.description>Носители этого гена лишены внутренних соединительных тканей, которые обычно удерживают органы на месте под действием планетарной гравитации. Воздействие на них стандартной гравитации приводит к тому, что их внутренние органы смещаются и обвисают, вызывая хроническую тошноту и постоянную вялость.</VGE_Gene_FloatingOrgans.description>
+
+  <!-- EN: grav -->
+  <VGE_Gene_FloatingOrgans.symbolPack.prefixSymbols.0.symbol>грав</VGE_Gene_FloatingOrgans.symbolPack.prefixSymbols.0.symbol>
+
+  <!-- EN: frail -->
+  <VGE_Gene_FloatingOrgans.symbolPack.prefixSymbols.1.symbol>хрупко</VGE_Gene_FloatingOrgans.symbolPack.prefixSymbols.1.symbol>
+
+  <!-- EN: pale -->
+  <VGE_Gene_FloatingOrgans.symbolPack.prefixSymbols.2.symbol>бледно</VGE_Gene_FloatingOrgans.symbolPack.prefixSymbols.2.symbol>
+
+  <!-- EN: sick -->
+  <VGE_Gene_FloatingOrgans.symbolPack.prefixSymbols.3.symbol>болезне</VGE_Gene_FloatingOrgans.symbolPack.prefixSymbols.3.symbol>
+
+</LanguageData>

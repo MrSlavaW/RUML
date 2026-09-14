@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: advanced gravship weaponry -->
+  <VGE_AdvancedGravshipWeaponry.label>продвинутое вооружение гравитационных кораблей</VGE_AdvancedGravshipWeaponry.label>
+
+  <!-- EN: Construct advanced gravship weaponry, warpods and targeting consoles, as well as gravship bombardment targeters.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_AdvancedGravshipWeaponry.description>Создайте продвинутое вооружение гравитационных кораблей, военные модули и прицельные консоли, а также целеуказатели для бомбардировок с гравитационных кораблей.</VGE_AdvancedGravshipWeaponry.description>
+
+  <!-- EN: gravship defenses -->
+  <VGE_GravshipDefenses.label>оборона гравилёта</VGE_GravshipDefenses.label>
+
+  <!-- EN: Reinforce the gravship by constructing gravship armor and subarmor, new compact turrets and gravmines, as well as gravship shield generators, making it much more resistant to enemy fire.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GravshipDefenses.description>Укрепить гравилёт, установив на него броню и подброню для гравилёта, новые компактные турели и гравимины, а также генераторы щитов для гравилёта, чтобы значительно повысить его устойчивость к вражескому огню.</VGE_GravshipDefenses.description>
+
+  <!-- EN: advanced orbital tech -->
+  <VGE_AdvancedOrbitalTech.label>продвинутые орбитальные технологии</VGE_AdvancedOrbitalTech.label>
+
+  <!-- EN: Construct various buildings and apparel that improve the comfort and security of living in harsh vacuum of space.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_AdvancedOrbitalTech.description>Строить различные здания и одежду, которые повышают комфорт и безопасность жизни в суровых условиях космического вакуума.</VGE_AdvancedOrbitalTech.description>
+
+</LanguageData>

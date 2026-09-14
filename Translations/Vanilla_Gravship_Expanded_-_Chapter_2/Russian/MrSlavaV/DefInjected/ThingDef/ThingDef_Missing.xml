@@ -1,0 +1,1573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: artificial exo hive -->
+  <VFEI2_VGE_ArtificialExoHive.label>искусственный экзоулей</VFEI2_VGE_ArtificialExoHive.label>
+
+  <!-- EN: An artificially constructed hive of giant insects. It is capable of spawning various exoinsectoids over time, as well as some amount of insect jelly. It requires regular maintenance, and constructing too many hives near each other will increase the maintenance required.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VFEI2_VGE_ArtificialExoHive.description>Искусственно созданный улей гигантских насекомых. Способен со временем порождать различных экзонасекоидов, а также некоторое количество желеобразных субстанций насекомых. Требует регулярного обслуживания, и строительство слишком большого количества ульев рядом друг с другом увеличит необходимое обслуживание.</VFEI2_VGE_ArtificialExoHive.description>
+
+  <!-- EN: subcreeper -->
+  <VFEI2_VGE_Subcreeper.label>подкрипер</VFEI2_VGE_Subcreeper.label>
+
+  <!-- EN: A specialized hive-like structure typically associated with exoinsectoid hives. It acts as an anchor point for subcreep, allowing worker insectoids to cultivate and expand the hive’s influence across gravflight capable vessels. By stabilizing the gravity field's interaction with the subcreep, this structure enables the construction of extensive insectoid platforms that would otherwise collapse in orbit and during launch.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VFEI2_VGE_Subcreeper.description>Специализированная структура, похожая на улей, обычно связанная с ульями эксоинсектоидов. Она служит опорной точкой для подкрипера, позволяя рабочим инсектоидам культивировать и расширять влияние улья на корабли с гравиполем. Стабилизируя взаимодействие гравитационного поля с подкрипером, эта структура позволяет строить обширные платформы инсектоидов, которые в противном случае разрушились бы на орбите и во время запуска.</VFEI2_VGE_Subcreeper.description>
+
+  <!-- EN: siegeworm -->
+  <VFEI2_Siegeworm.label>сигечервь</VFEI2_Siegeworm.label>
+
+  <!-- EN: A massive, heavily muscled worm anchored deep within a fortified mound of reinforced creep, acting as living siege artillery. The siegeworm regurgitates and forcefully ejects dense, boulder-sized chunks of hardened insectoid biomass and rock. It possesses the necessary strength to launch these projectiles across extreme distances, capable of bombarding adjacent map tiles and even targeting orbiting enemy gravships, provided it’s regularly fed with insect jelly. If starved, the mound will gradually deteriorate. Once completely deteriorated, the siegeworm will retreat back into the deephive tunnels.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VFEI2_Siegeworm.description>Массивный мускулистый червь, закреплённый глубоко в укреплённом кургане из усиленного ползучего растения и выполняющий роль живой осадной артиллерии. Сигечервь извергает и с силой выбрасывает плотные куски затвердевшей биомассы насекомых размером с валун. Он обладает необходимой силой для запуска этих снарядов на огромные расстояния, способен бомбардировать соседние участки карты и даже атаковать орбитальные корабли противника, при условии регулярного кормления желе из насекомых. Если лишить его пищи, курган будет постепенно разрушаться. Как только он полностью разрушится, сигечервь отступит обратно в туннели глубокого улья.</VFEI2_Siegeworm.description>
+
+  <!-- EN: Insect jelly -->
+  <VFEI2_Siegeworm.comps.CompRefuelable.fuelGizmoLabel>Желе инсектоидов</VFEI2_Siegeworm.comps.CompRefuelable.fuelGizmoLabel>
+
+  <!-- EN: Insect jelly -->
+  <VFEI2_Siegeworm.comps.CompRefuelable.fuelLabel>Желе инсектоидов</VFEI2_Siegeworm.comps.CompRefuelable.fuelLabel>
+
+  <!-- EN: siegeworm -->
+  <VFEI2_Siegeworm_Gun.label>сигечервь</VFEI2_Siegeworm_Gun.label>
+
+  <!-- EN: A massive, heavily muscled worm anchored deep within a fortified mound of reinforced creep, acting as living siege artillery. The siegeworm regurgitates and forcefully ejects dense, boulder-sized chunks of hardened insectoid biomass and rock. It possesses the necessary strength to launch these projectiles across extreme distances, capable of bombarding adjacent map tiles and even targeting orbiting enemy gravships, provided it’s regularly fed with insect jelly. If starved, the mound will gradually deteriorate. Once completely deteriorated, the siegeworm will retreat back into the deephive tunnels.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VFEI2_Siegeworm_Gun.description>Массивный мускулистый червь, закреплённый глубоко в укреплённом кургане из усиленного ползучего растения, выполняющий роль живой осадной артиллерии. Сигечервь извергает и с силой выбрасывает плотные куски затвердевшей биомассы насекомых размером с валун. Он обладает достаточной силой, чтобы запускать эти снаряды на огромные расстояния, способные бомбардировать соседние участки карты и даже поражать орбитальные корабли противника, при условии регулярного кормления желе из насекомых. Если лишить его пищи, курган будет постепенно разрушаться. Как только он полностью разрушится, сигечервь отступит обратно в туннели глубокого улья.</VFEI2_Siegeworm_Gun.description>
+
+  <!-- EN: siegeworm -->
+  <VFEI2_Siegeworm_Gun.verbs.Verb_ShootWithWorldTargeting.label>осадный червь</VFEI2_Siegeworm_Gun.verbs.Verb_ShootWithWorldTargeting.label>
+
+  <!-- EN: nullipede thumper -->
+  <VFEI2_Thumper_Nullipede.label>нуллипеди-тампер</VFEI2_Thumper_Nullipede.label>
+
+  <!-- EN: A vibration-producing thumper device. When activated, it starts emitting powerful thump pulses, which will attract an exoinsectoid nullipede meteor attack with its escorts. If you can defeat it, you can collect a special pherocore from its corpse. The thumps destabilise the thumper, so this building can only be used once. Since it attracts an exoinsectoid attack, it can only be used in orbit.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VFEI2_Thumper_Nullipede.description>Виброустройство «тампер». При активации начинает излучать мощные импульсы ударов, которые привлекут метеоритную атаку эксоинсектоидной нуллипеды с сопровождающими её существами. Если вы победите, то сможете собрать специальный ферокорь из её трупа. Удары дестабилизируют тампер, поэтому это устройство можно использовать только один раз. Поскольку оно привлекает атаку эксоинсектоидов, его можно применять только на орбите.</VFEI2_Thumper_Nullipede.description>
+
+  <!-- EN: Activate thumper -->
+  <VFEI2_Thumper_Nullipede.comps.CompUsable.useLabel>Активировать грохоталку</VFEI2_Thumper_Nullipede.comps.CompUsable.useLabel>
+
+  <!-- EN: exo pherocore -->
+  <VFEI2_PherocoreExo.label>экзоферохром</VFEI2_PherocoreExo.label>
+
+  <!-- EN: A pheromone controlling micro-organ. It is necessary to construct certain types of insectoid hives. Pherocores have been embedded deep into the brains of geneline leaders which allowed ancient civilizations to control the hives.  This pherocore belongs to the exoinsectoid geneline that evolved in the vacuum of space, known for their vacuum resistance and endurance.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VFEI2_PherocoreExo.description>Феромонный управляющий микроорганизм. Необходим для постройки некоторых типов ульев инсектоидов. Ферохромные ядра были встроены глубоко в мозг лидеров генетических линий, что позволяло древним цивилизациям контролировать ульи.\n\nЭтот ферохром принадлежит к линии экзоинсектоидов, эволюционировавших в космическом вакууме и известных своей устойчивостью к нему и выносливостью.</VFEI2_PherocoreExo.description>
+
+  <!-- EN: Use {0_labelShort} to increase the size of the hive -->
+  <VFEI2_PherocoreExo.comps.CompUsable.useLabel>Использовать {0_labelShort} для расширения улья</VFEI2_PherocoreExo.comps.CompUsable.useLabel>
+
+  <!-- EN: auxiliary astrofuel tank -->
+  <VGE_AuxiliaryAstrofuelTank.label>вспомогательный астротопливный бак</VGE_AuxiliaryAstrofuelTank.label>
+
+  <!-- EN: A compact, low-volume astrofuel storage tank that supplies fuel for thrusters on a gravship.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_AuxiliaryAstrofuelTank.description>Это компактный астротопливный бак малого объёма, который обеспечивает подачу топлива для двигателей на гравилёте.</VGE_AuxiliaryAstrofuelTank.description>
+
+  <!-- EN: auxiliary oxygen tank -->
+  <VGE_AuxiliaryOxygenTank.label>вспомогательный кислородный бак</VGE_AuxiliaryOxygenTank.label>
+
+  <!-- EN: A compact, low-volume oxygen tank that supplies oxygen to pumps throughout the gravship.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_AuxiliaryOxygenTank.description>Компактный кислородный бак небольшого объёма, который подаёт кислород на насосы по всему гравитационному кораблю.</VGE_AuxiliaryOxygenTank.description>
+
+  <!-- EN: airlock door (1x1) -->
+  <VGE_AirlockDoor.label>шлюзовая дверь (1х1)</VGE_AirlockDoor.label>
+
+  <!-- EN: A specialized, heavily reinforced door that functions as a physical security barrier and an automated atmospheric seal. When powered, it ensures a rapid, safe transition between pressurized and vacuum areas by maintaining an atmospheric seal and managing pressure during operation. Colonists will not cross it without required vacuum resistance.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_AirlockDoor.description>Специализированная, усиленная дверь, которая функционирует как физический барьер безопасности и автоматическая герметическая заслонка. При подаче питания она обеспечивает быстрый и безопасный переход между зонами с разным давлением за счёт поддержания герметичности и управления давлением во время работы. Колонисты не смогут пройти через неё без необходимого сопротивления вакууму.</VGE_AirlockDoor.description>
+
+  <!-- EN: airlock door (2x1) -->
+  <VGE_Airlock2x1Door.label>шлюзовая дверь (2х1)</VGE_Airlock2x1Door.label>
+
+  <!-- EN: A specialized, heavily reinforced door that functions as a physical security barrier and an automated atmospheric seal. When powered, it ensures a rapid, safe transition between pressurized and vacuum areas by maintaining an atmospheric seal and managing pressure during operation. Colonists will not cross it without required vacuum resistance.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Airlock2x1Door.description>Специализированная, усиленная дверь, которая функционирует как физическое защитное препятствие и автоматизированное уплотнение атмосферы. При подаче питания она обеспечивает быстрый и безопасный переход между зонами с разным давлением за счёт поддержания герметичности и контроля давления во время работы. Колонисты не смогут пройти через неё без необходимого уровня защиты от вакуума.</VGE_Airlock2x1Door.description>
+
+  <!-- EN: airlock door (3x1) -->
+  <VGE_Airlock3x1Door.label>шлюзовая дверь (3х1)</VGE_Airlock3x1Door.label>
+
+  <!-- EN: A specialized, heavily reinforced door that functions as a physical security barrier and an automated atmospheric seal. When powered, it ensures a rapid, safe transition between pressurized and vacuum areas by maintaining an atmospheric seal and managing pressure during operation. Colonists will not cross it without required vacuum resistance.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Airlock3x1Door.description>Специализированная, усиленная дверь, которая функционирует как физическое средство защиты и автоматическая герметическая заглушка. При наличии питания она обеспечивает быстрый и безопасный переход между областями с разным давлением путём поддержания герметичности и управления давлением во время работы. Колонисты не смогут пройти через неё без необходимого сопротивления вакууму.</VGE_Airlock3x1Door.description>
+
+  <!-- EN: airlock door (5x1) -->
+  <VGE_Airlock5x1Door.label>герметичная дверь (5х1)</VGE_Airlock5x1Door.label>
+
+  <!-- EN: A specialized, heavily reinforced door that functions as a physical security barrier and an automated atmospheric seal. When powered, it ensures a rapid, safe transition between pressurized and vacuum areas by maintaining an atmospheric seal and managing pressure during operation. Colonists will not cross it without required vacuum resistance.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Airlock5x1Door.description>Специализированная, усиленная дверь, которая функционирует как физический барьер безопасности и автоматическое уплотнение атмосферы. При подаче питания она обеспечивает быстрый и безопасный переход между областями с разным давлением за счёт поддержания герметичности уплотнения и управления давлением во время работы. Колонисты не смогут пройти через неё без необходимого уровня защиты от вакуума.</VGE_Airlock5x1Door.description>
+
+  <!-- EN: targeting console -->
+  <VGE_TargetingConsole.label>целевая консоль</VGE_TargetingConsole.label>
+
+  <!-- EN: A large targeting console capable of managing up to three gravship artillery pieces. Requires a crew member to manually aim and fire the weapons. It draws power directly from the grav engine.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_TargetingConsole.description>Большая целевая консоль, способная управлять до трёх гравитационных артиллерийских орудий. Требуется член экипажа для ручного наведения и стрельбы из оружия. Питание осуществляется напрямую от гравидвигателя.</VGE_TargetingConsole.description>
+
+  <!-- EN: gravship minigun turret -->
+  <VGE_GravshipMinigunTurret.label>гравипушка турельная (гравитационная турель)</VGE_GravshipMinigunTurret.label>
+
+  <!-- EN: A compact gravship-mounted heavy automatic turret. Its multi-barrel mechanism unleashes sustained fire at high speed, shredding lightly armored targets at mid-range. It may explode when damaged.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GravshipMinigunTurret.description>Компактная тяжёлая автоматическая турель для гравилёта. Её многоствольный механизм ведёт непрерывный огонь на высокой скорости, уничтожая цели со слабой бронёй на средней дистанции. При повреждении может взорваться.</VGE_GravshipMinigunTurret.description>
+
+  <!-- EN: Steel -->
+  <VGE_GravshipMinigunTurret.comps.CompRefuelable.fuelGizmoLabel>Сталь</VGE_GravshipMinigunTurret.comps.CompRefuelable.fuelGizmoLabel>
+
+  <!-- EN: Steel -->
+  <VGE_GravshipMinigunTurret.comps.CompRefuelable.fuelLabel>Сталь</VGE_GravshipMinigunTurret.comps.CompRefuelable.fuelLabel>
+
+  <!-- EN: gravship minigun -->
+  <VGE_Gun_GravshipMinigun.label>гравитационный корабль миниган</VGE_Gun_GravshipMinigun.label>
+
+  <!-- EN: gravship minigun -->
+  <VGE_Gun_GravshipMinigun.verbs.Verb_Shoot.label>корабельный миниган</VGE_Gun_GravshipMinigun.verbs.Verb_Shoot.label>
+
+  <!-- EN: gravship autocannon turret -->
+  <VGE_GravshipAutocannonTurret.label>гравипушка-турель для гравкора</VGE_GravshipAutocannonTurret.label>
+
+  <!-- EN: A compact gravship-mounted automatic turret. Its large-caliber shells do heavy damage over significant ranges, but despite its efficiency, the barrel must be refurbished after heavy use. It cannot fire at close-up targets, and may explode when damaged. Needs to be constructed on substructure.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GravshipAutocannonTurret.description>Компактная автоматическая турель для гравкора. Её снаряды большого калибра наносят большой урон на значительные дистанции, но, несмотря на эффективность, ствол необходимо восстанавливать после интенсивного использования. Она не может стрелять по целям в непосредственной близости и может взорваться при повреждении. Требуется установка на подструктуру.</VGE_GravshipAutocannonTurret.description>
+
+  <!-- EN: Steel -->
+  <VGE_GravshipAutocannonTurret.comps.CompRefuelable.fuelGizmoLabel>Сталь</VGE_GravshipAutocannonTurret.comps.CompRefuelable.fuelGizmoLabel>
+
+  <!-- EN: Steel -->
+  <VGE_GravshipAutocannonTurret.comps.CompRefuelable.fuelLabel>Сталь</VGE_GravshipAutocannonTurret.comps.CompRefuelable.fuelLabel>
+
+  <!-- EN: gravship autocannon -->
+  <VGE_Gun_GravshipAutocannon.label>гравипушка автоган корабля</VGE_Gun_GravshipAutocannon.label>
+
+  <!-- EN: gravship autocannon -->
+  <VGE_Gun_GravshipAutocannon.verbs.Verb_Shoot.label>корабельная автопушка</VGE_Gun_GravshipAutocannon.verbs.Verb_Shoot.label>
+
+  <!-- EN: gravship uranium slug turret -->
+  <VGE_GravshipUraniumSlugTurret.label>уран-слитковая турель гравикорабля</VGE_GravshipUraniumSlugTurret.label>
+
+  <!-- EN: A compact gravship-mounted armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor, but it requires new uranium slugs to be loaded after use. More efficient than its ground version, it consumes fewer slugs per shot. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged. Needs to be constructed on substructure.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GravshipUraniumSlugTurret.description>Компактная турельная установка для гравикорабля, предназначенная для пробития брони. Её сверхплотные урановые снаряды способны пробить тяжёлую броню, но после использования требуется загрузка новых урановых слитков. Более эффективна по сравнению с наземной версией, расходует меньше снарядов на выстрел. Обладает более высокой точностью на больших дистанциях и не может стрелять в упор. Может взорваться при повреждении. Требуется установка на подструктуре.</VGE_GravshipUraniumSlugTurret.description>
+
+  <!-- EN: Uranium -->
+  <VGE_GravshipUraniumSlugTurret.comps.CompRefuelable.fuelGizmoLabel>Уран</VGE_GravshipUraniumSlugTurret.comps.CompRefuelable.fuelGizmoLabel>
+
+  <!-- EN: Uranium -->
+  <VGE_GravshipUraniumSlugTurret.comps.CompRefuelable.fuelLabel>Уран</VGE_GravshipUraniumSlugTurret.comps.CompRefuelable.fuelLabel>
+
+  <!-- EN: gravship uranium slug gun -->
+  <VGE_Gun_GravshipUraniumSlug.label>гравитационный корабль, урановый снаряд для орудия</VGE_Gun_GravshipUraniumSlug.label>
+
+  <!-- EN: gravship uranium slug gun -->
+  <VGE_Gun_GravshipUraniumSlug.verbs.Verb_Shoot.label>корабельная урановая пушка</VGE_Gun_GravshipUraniumSlug.verbs.Verb_Shoot.label>
+
+  <!-- EN: gauss howitzer -->
+  <VGE_GaussHowitzer.label>гауссовка</VGE_GaussHowitzer.label>
+
+  <!-- EN: A triple-barrel electromagnetic artillery piece that fires dense uranium slugs at high velocity. Designed for both local bombardments and long-range engagements, it can also target other gravships in orbit. Requires a linked targeting terminal with an operator to function. It draws power directly from the grav engine.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GaussHowitzer.description>Это трёхствольная электромагнитная артиллерийская установка, стреляющая плотными урановыми снарядами на высокой скорости. Предназначена как для локальных бомбардировок, так и для ведения огня на дальние дистанции, также может поражать гравитационные корабли на орбите. Для работы требуется подключённый прицельный терминал с оператором. Питание получает напрямую от гравидвигателя.</VGE_GaussHowitzer.description>
+
+  <!-- EN: Uranium slugs -->
+  <VGE_GaussHowitzer.comps.CompRefuelable.fuelGizmoLabel>Урановые снаряды</VGE_GaussHowitzer.comps.CompRefuelable.fuelGizmoLabel>
+
+  <!-- EN: Uranium slugs -->
+  <VGE_GaussHowitzer.comps.CompRefuelable.fuelLabel>Урановые снаряды</VGE_GaussHowitzer.comps.CompRefuelable.fuelLabel>
+
+  <!-- EN: gauss howitzer -->
+  <VGE_Gun_GaussHowitzer.label>гауссовка</VGE_Gun_GaussHowitzer.label>
+
+  <!-- EN: A triple-barrel electromagnetic artillery piece.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Gun_GaussHowitzer.description>Электромагнитная артиллерийская установка с тремя стволами.</VGE_Gun_GaussHowitzer.description>
+
+  <!-- EN: gauss howitzer -->
+  <VGE_Gun_GaussHowitzer.verbs.Verb_ShootWithSmoke.label>гаусс-гаубица</VGE_Gun_GaussHowitzer.verbs.Verb_ShootWithSmoke.label>
+
+  <!-- EN: javelin launcher -->
+  <VGE_JavelinLauncher.label>пусковая установка «Джавелинов»</VGE_JavelinLauncher.label>
+
+  <!-- EN: A heavy multi-tube missile platform that fires a spread of 12 long-range guided astrofuel-propelled javelins. Designed for saturation strikes against surface targets and rival gravships in orbit. Requires a linked targeting terminal with an operator to function. It draws power directly from the grav engine.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_JavelinLauncher.description>Это тяжёлая ракетная платформа с несколькими трубами, которая выпускает 12 управляемых ракет «Джавелинов» дальнего действия на астротопливе. Предназначена для нанесения ударов по наземным целям и гравитационным кораблям противника на орбите. Для функционирования требуется подключённый терминал управления с оператором. Питание осуществляется напрямую от гравидвигателя.</VGE_JavelinLauncher.description>
+
+  <!-- EN: Astrofuel -->
+  <VGE_JavelinLauncher.comps.CompRefuelable.fuelGizmoLabel>Астротопливо</VGE_JavelinLauncher.comps.CompRefuelable.fuelGizmoLabel>
+
+  <!-- EN: Astrofuel -->
+  <VGE_JavelinLauncher.comps.CompRefuelable.fuelLabel>Астротопливо</VGE_JavelinLauncher.comps.CompRefuelable.fuelLabel>
+
+  <!-- EN: Missing rockets -->
+  <VGE_JavelinLauncher.comps.CompRefuelable.outOfFuelMessage>Нет ракет</VGE_JavelinLauncher.comps.CompRefuelable.outOfFuelMessage>
+
+  <!-- EN: javelin launcher -->
+  <VGE_Gun_JavelinLauncher.label>пусковая установка «Джавелин»</VGE_Gun_JavelinLauncher.label>
+
+  <!-- EN: A multi-tube javelin launcher for gravship use. Requires a linked, manned targeting terminal to operate.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Gun_JavelinLauncher.description>Пусковая установка «Джавелин» для использования на гравитационном корабле. Для работы требуется связанный пилотируемый терминал управления.</VGE_Gun_JavelinLauncher.description>
+
+  <!-- EN: javelin launcher -->
+  <VGE_Gun_JavelinLauncher.verbs.Verb_ShootWithWorldTargeting.label>установка «Дротик»</VGE_Gun_JavelinLauncher.verbs.Verb_ShootWithWorldTargeting.label>
+
+  <!-- EN: anticraft emitter -->
+  <VGE_AnticraftEmitter.label>противокорабельный излучатель</VGE_AnticraftEmitter.label>
+
+  <!-- EN: A large, gravship-mounted energy weapon that projects a concentrated cutting beam capable of slicing through armor and hull plating. Designed to counter enemy gravships in orbit, it unleashes devastating continuous fire. Requires a linked targeting terminal with an operator to function. Uses a lot of power to fire.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_AnticraftEmitter.description>Это большое энергетическое оружие, устанавливаемое на гравитационном корабле, которое испускает концентрированный режущий луч, способный прорезать броню и обшивку корпуса. Предназначено для борьбы с вражескими гравитационными кораблями на орбите, ведёт разрушительный непрерывный огонь. Для функционирования требуется подключённый терминал управления с оператором. Требует много энергии для стрельбы.</VGE_AnticraftEmitter.description>
+
+  <!-- EN: anticraft emitter -->
+  <VGE_Gun_AnticraftEmitter.label>противоракетный излучатель</VGE_Gun_AnticraftEmitter.label>
+
+  <!-- EN: A large energy weapon that projects a cutting beam.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Gun_AnticraftEmitter.description>Это большое энергетическое оружие, которое выпускает режущий луч.</VGE_Gun_AnticraftEmitter.description>
+
+  <!-- EN: anticraft emitter -->
+  <VGE_Gun_AnticraftEmitter.verbs.Verb_ShootWithWorldTargeting.label>противокорабельный излучатель</VGE_Gun_AnticraftEmitter.verbs.Verb_ShootWithWorldTargeting.label>
+
+  <!-- EN: gravmine -->
+  <VGE_Gravmine.label>гравимина</VGE_Gravmine.label>
+
+  <!-- EN: A high-explosive device designed for space-based combat. It features a large detection radius that triggers a powerful blast detonation upon the approach of any target, including enemy gravships. It can only be constructed in space.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Gravmine.description>Противогравитационное взрывное устройство, предназначенное для ведения боя в космосе. Оно имеет большой радиус обнаружения, который запускает мощную детонацию при приближении любой цели, включая гравитационные корабли противника. Может быть построено только в космосе.</VGE_Gravmine.description>
+
+  <!-- EN: large gravship shield generator -->
+  <VGE_LargeGravshipShieldGenerator.label>генератор щита для гравилёта</VGE_LargeGravshipShieldGenerator.label>
+
+  <!-- EN: A large-scale shielding device that can protect a gravship. It modulates the grav field to create a short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. Those inside can still shoot out. It must be charged before use. Active shields generate structural heat which if not absorbed by heatsinks, will be vented into the gravship. One gravship can support two large gravship shield generators.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_LargeGravshipShieldGenerator.description>Это крупномасштабное защитное устройство, которое может защитить гравилёт. Оно модулирует гравитационное поле для создания кратковременной поверхности с импульсным отталкиванием, которая блокирует снаряды. Работает против обычных выстрелов и миномётных снарядов. Те, кто находится внутри, всё ещё могут стрелять. Перед использованием его необходимо зарядить. Активные щиты генерируют тепловую нагрузку, которая, если не будет поглощена теплоотводами, будет отведена в гравилёт. Один гравилёт может поддерживать работу двух генераторов щита для гравилёта.</VGE_LargeGravshipShieldGenerator.description>
+
+  <!-- EN: activate -->
+  <VGE_LargeGravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>активировать</VGE_LargeGravshipShieldGenerator.comps.CompInteractable_GravshipShieldGenerator.jobString>
+
+  <!-- EN: destroyed large oxygen tank -->
+  <VGE_DestroyedLargeOxygenTank.label>разрушенный большой кислородный бак</VGE_DestroyedLargeOxygenTank.label>
+
+  <!-- EN: This massive tank once held the gravship's life support, but it is now ruptured and useless. Its immense structure can still yield a good amount of scrap metal.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedLargeOxygenTank.description>Этот массивный бак когда-то поддерживал жизнеобеспечение гравилёта, но теперь он повреждён и бесполезен. Его огромная конструкция всё ещё может дать большое количество металлолома.</VGE_DestroyedLargeOxygenTank.description>
+
+  <!-- EN: destroyed algae oxygenator -->
+  <VGE_DestroyedLifeSupportSystem.label>разрушенный оксигенератор водорослей</VGE_DestroyedLifeSupportSystem.label>
+
+  <!-- EN: A destroyed device that once processed harvested oxyalgae into breathable oxygen. The conversion components are ruptured, and it no longer supplies gas to the oxygen network.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedLifeSupportSystem.description>Разрушенное устройство, которое когда-то перерабатывало собранные водоросли в пригодный для дыхания кислород. Компоненты преобразования повреждены, и оно больше не подает газ в кислородную сеть.</VGE_DestroyedLifeSupportSystem.description>
+
+  <!-- EN: destroyed large astrofuel tank -->
+  <VGE_DestroyedLargeChemfuelTank.label>разрушенный большой бак астротоплива</VGE_DestroyedLargeChemfuelTank.label>
+
+  <!-- EN: The shattered remains of a massive astrofuel storage tank, once used to supply fuel for the thrusters on a gravship. Its frame still holds recoverable materials.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedLargeChemfuelTank.description>Разрушенные остатки массивного бака для астротоплива, который когда-то использовался для снабжения топливом двигателей гравилёта. Его каркас всё ещё содержит материалы, пригодные для извлечения.</VGE_DestroyedLargeChemfuelTank.description>
+
+  <!-- EN: destroyed giant astrofuel tank -->
+  <VGE_DestroyedGiantAstrofuelTank.label>разрушенный гигантский астротопливный бак</VGE_DestroyedGiantAstrofuelTank.label>
+
+  <!-- EN: The shattered remains of a monumental astrofuel storage tank, once used to supply fuel for the thrusters on a gravship. Its frame still holds recoverable materials.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedGiantAstrofuelTank.description>Разрушенные остатки гигантского астротопливного бака, который когда-то использовался для снабжения топливом двигателей гравилёта. Его каркас всё ещё содержит материалы, пригодные для извлечения.</VGE_DestroyedGiantAstrofuelTank.description>
+
+  <!-- EN: destroyed astrofuel synthesizer -->
+  <VGE_DestroyedAstrofuelSynthesizer.label>разрушенный синтезатор астротоплива</VGE_DestroyedAstrofuelSynthesizer.label>
+
+  <!-- EN: The ruined remains of a specialized structure that once refined chemfuel into high-grade astrofuel. It is no longer connected to the astrofuel pipe network or any astrofuel tanks and cannot operate.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedAstrofuelSynthesizer.description>Разрушенные остатки специализированной конструкции, которая когда-то перерабатывала химтопливо в высококачественное астротопливо. В настоящее время она не подключена к сети трубопроводов для астротоплива и ни к каким резервуарам с астротопливом и не может функционировать.</VGE_DestroyedAstrofuelSynthesizer.description>
+
+  <!-- EN: destroyed astrofuel generator -->
+  <VGE_DestroyedAstrofuelGenerator.label>разрушенный астротопливный генератор</VGE_DestroyedAstrofuelGenerator.label>
+
+  <!-- EN: Destroyed astrofuel generator, which was once capable of converting astrofuel into power.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedAstrofuelGenerator.description>Разрушенный астротопливный генератор, который когда-то был способен преобразовывать астротопливо в энергию.</VGE_DestroyedAstrofuelGenerator.description>
+
+  <!-- EN: destroyed industrial astrofuel generator -->
+  <VGE_DestroyedIndustrialAstrofuelGenerator.label>разрушенный промышленный астротопливный генератор</VGE_DestroyedIndustrialAstrofuelGenerator.label>
+
+  <!-- EN: An industrial-sized, destroyed astrofuel generator, which was once capable of converting astrofuel into power.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedIndustrialAstrofuelGenerator.description>Разрушенный промышленный астротопливный генератор промышленного размера, который когда-то был способен преобразовывать астротопливо в энергию.</VGE_DestroyedIndustrialAstrofuelGenerator.description>
+
+  <!-- EN: destroyed astropurifier -->
+  <VGE_DestroyedAstropurifier.label>разрушенный астроочиститель</VGE_DestroyedAstropurifier.label>
+
+  <!-- EN: A gravtech unit that enhanced the precision and stability of astrofuel refinement. Broken down beyond repair now.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedAstropurifier.description>Это гравитехническое устройство, которое повышало точность и стабильность очистки астротоплива. Сейчас оно сломано и не подлежит ремонту.</VGE_DestroyedAstropurifier.description>
+
+  <!-- EN: destroyed astrofuel optimizer -->
+  <VGE_DestroyedFuelOptimizer.label>разрушенный астротопливный оптимизатор</VGE_DestroyedFuelOptimizer.label>
+
+  <!-- EN: A destroyed gravtech unit that once allowed grav engine lift to coordinate more efficiently with traditional thrusters. Nothing but scrap now.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedFuelOptimizer.description>Разрушенный гравитационный модуль, который когда-то позволял более эффективно координировать подъём с помощью гравидвигателя и традиционных двигателей тяги. Теперь это просто лом.</VGE_DestroyedFuelOptimizer.description>
+
+  <!-- EN: destroyed oxygen reclaimer -->
+  <VGE_DestroyedOxygenReclaimer.label>уничтоженный кислородный регенератор</VGE_DestroyedOxygenReclaimer.label>
+
+  <!-- EN: A broken down unit that extracted traces of oxygen from surrounding gases. Wrecked beyond repair now, can be salvaged for scrap.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedOxygenReclaimer.description>Это сломанное устройство, которое извлекало следы кислорода из окружающих газов. Сейчас оно не подлежит ремонту, можно разобрать на металлолом.</VGE_DestroyedOxygenReclaimer.description>
+
+  <!-- EN: destroyed large heatsink -->
+  <VGE_DestroyedLargeHeatsink.label>разрушенный большой радиатор охлаждения</VGE_DestroyedLargeHeatsink.label>
+
+  <!-- EN: This large heatsink once cooled the gravship’s systems, but it has burned out. Some steel can still be recovered from the wreck.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedLargeHeatsink.description>Этот большой радиатор охлаждения когда-то охлаждал системы гравилёта, но он сгорел. Из обломков всё ещё можно извлечь некоторую сталь.</VGE_DestroyedLargeHeatsink.description>
+
+  <!-- EN: destroyed gravheat absorber -->
+  <VGE_DestroyedGravheatAbsorber.label>уничтоженный поглотитель гравитационного тепла</VGE_DestroyedGravheatAbsorber.label>
+
+  <!-- EN: A warped, scorched, and inoperable specialized thermal sink, originally used to instantly cool a grav engine, is now useless for its primary function due to melted internal systems and cracked shielding. However, its dense, exotic metal casing and components can still be salvaged.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedGravheatAbsorber.description>Искажённый, обожжённый и неработоспособный специализированный теплопоглотитель, изначально использовавшийся для мгновенного охлаждения гравитационного двигателя, теперь бесполезен для своей основной функции из-за расплавленных внутренних систем и треснувшего защитного покрытия. Однако его корпус и компоненты из плотного экзотического металла всё ещё можно использовать повторно.</VGE_DestroyedGravheatAbsorber.description>
+
+  <!-- EN: destroyed giant thruster -->
+  <VGE_DestroyedGiantThruster.label>разрушенный гигантский двигатель</VGE_DestroyedGiantThruster.label>
+
+  <!-- EN: This colossal thruster once propelled massive gravships across the orbit, but is now a wreck of twisted metal. Its sheer size means a substantial haul of salvageable materials remains.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedGiantThruster.description>Этот колоссальный двигатель когда-то приводил в движение массивные гравитационные корабли на орбите, но теперь представляет собой груду искорёженного металла. Его внушительные размеры означают наличие значительного количества пригодных для утилизации материалов.</VGE_DestroyedGiantThruster.description>
+
+  <!-- EN: destroyed pilot cockpit -->
+  <VGE_DestroyedPilotCockpit.label>разрушенная кабина пилота</VGE_DestroyedPilotCockpit.label>
+
+  <!-- EN: The remains of a gravjumper's control interface, shattered and useless for piloting, but still containing salvageable scrap metal.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedPilotCockpit.description>Остатки интерфейса управления гравипрыгуна, разбитый и бесполезный для пилотирования, но всё ещё содержащий пригодный для переработки металлолом.</VGE_DestroyedPilotCockpit.description>
+
+  <!-- EN: destroyed pilot console -->
+  <VGE_DestroyedPilotConsole.label>разрушенная пилотская консоль</VGE_DestroyedPilotConsole.label>
+
+  <!-- EN: The remains of a gravship's control interface, shattered and useless for piloting, but still containing salvageable scrap metal.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedPilotConsole.description>Остатки интерфейса управления гравициклом, разрушенные и бесполезные для пилотирования, но всё ещё содержащие пригодный для переработки металлолом.</VGE_DestroyedPilotConsole.description>
+
+  <!-- EN: destroyed pilot bridge -->
+  <VGE_DestroyedPilotBridge.label>разрушенный пилотский мост</VGE_DestroyedPilotBridge.label>
+
+  <!-- EN: The remains of a gravhulk's control interface, shattered and useless for piloting, but still containing salvageable scrap metal.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedPilotBridge.description>Остатки интерфейса управления гравихалка, разбитый и бесполезный для пилотирования, но всё ещё содержащий пригодный для переработки металлолом.</VGE_DestroyedPilotBridge.description>
+
+  <!-- EN: destroyed co-pilot console -->
+  <VGE_DestroyedCopilotConsole.label>уничтоженная консоль второго пилота</VGE_DestroyedCopilotConsole.label>
+
+  <!-- EN: A broken control panel that once supported the pilot console, now reduced to scrap.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedCopilotConsole.description>Уничтоженная панель управления, которая когда-то поддерживала консоль пилота, теперь превратилась в лом.</VGE_DestroyedCopilotConsole.description>
+
+  <!-- EN: destroyed targeting terminal -->
+  <VGE_DestroyedTargetingTerminal.label>разрушенный терминал наведения</VGE_DestroyedTargetingTerminal.label>
+
+  <!-- EN: The shattered remains of a targeting terminal. Its screens are cracked and dark, and its sensitive aiming mechanisms are twisted and inoperable. It is nothing more than salvage now.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedTargetingTerminal.description>Разрушенные остатки терминала наведения. Его экраны треснули и потемнели, а чувствительные механизмы прицеливания деформированы и не работают. Теперь это просто лом.</VGE_DestroyedTargetingTerminal.description>
+
+  <!-- EN: destroyed gunner subpersona core -->
+  <VGE_DestroyedGunnerSubpersonaCore.label>разрушенное ядро субперсоны стрелка</VGE_DestroyedGunnerSubpersonaCore.label>
+
+  <!-- EN: A shattered and inert gravship gunnery core. The advanced processing unit that once housed a specialized combat subpersona is cracked, and the core's connection ports are twisted and useless. It can be salvaged for some complex components.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedGunnerSubpersonaCore.description>Разрушенное и инертное ядро орудийной системы гравилёта. Передовой процессорный блок, в котором когда-то размещалась специализированная боевая субперсона, треснут, а порты подключения ядра деформированы и бесполезны. Его можно использовать для извлечения некоторых сложных компонентов.</VGE_DestroyedGunnerSubpersonaCore.description>
+
+  <!-- EN: destroyed gravtech console -->
+  <VGE_DestroyedGravtechConsole.label>разрушенная гравитехническая консоль</VGE_DestroyedGravtechConsole.label>
+
+  <!-- EN: An interface used to analyze gravdata, now shattered and useless. The screens are dark and cracked, and the delicate gravdata analysis components are twisted and inoperable. It is nothing more than salvage now.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedGravtechConsole.description>Интерфейс, используемый для анализа гравиданных, теперь разрушен и бесполезен. Экраны тёмные и треснувшие, а хрупкие компоненты для анализа гравиданных деформированы и неисправны. Сейчас это не более чем лом.</VGE_DestroyedGravtechConsole.description>
+
+  <!-- EN: destroyed flight computer -->
+  <VGE_DestroyedFlightComputer.label>разрушенный бортовой компьютер</VGE_DestroyedFlightComputer.label>
+
+  <!-- EN: A completely destroyed computational unit that used to optimize gravdata collection. Can be disassembled to yield whatever components it has left.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedFlightComputer.description>Это полностью разрушенный вычислительный блок, который использовался для оптимизации сбора гравиданных. Его можно разобрать, чтобы получить оставшиеся компоненты.</VGE_DestroyedFlightComputer.description>
+
+  <!-- EN: destroyed grav field amplifier -->
+  <VGE_DestroyedGravFieldAmplifier.label>разрушенный усилитель гравитационного поля</VGE_DestroyedGravFieldAmplifier.label>
+
+  <!-- EN: The shattered remains of an advanced ultratech device that once dramatically increased a gravship's size and build area. The core systems are utterly destroyed, but a specialized gravcore may still be salvaged from the wreckage.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedGravFieldAmplifier.description>Разрушенные остатки высокотехнологичного устройства ультратеха, которое когда-то значительно увеличивало размер и площадь постройки гравилёта. Основные системы полностью уничтожены, но из обломков всё ещё можно извлечь специализированный гравитационный сердечник.</VGE_DestroyedGravFieldAmplifier.description>
+
+  <!-- EN: destroyed maintenance hub -->
+  <VGE_DestroyedMaintenanceHub.label>разрушенный сервисный центр</VGE_DestroyedMaintenanceHub.label>
+
+  <!-- EN: A completely destroyed system that used to optimize and automate routines across the gravship. Can be salvaged for some resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedMaintenanceHub.description>Полностью разрушенная система, которая использовалась для оптимизации и автоматизации рутинных процессов на гравилёте. Может быть разобрана для получения некоторых ресурсов.</VGE_DestroyedMaintenanceHub.description>
+
+  <!-- EN: destroyed capacitor harmonizer -->
+  <VGE_DestroyedCapacitorHarmonizer.label>разрушенный гармонизатор конденсатора</VGE_DestroyedCapacitorHarmonizer.label>
+
+  <!-- EN: A blown up device that balanced and synchronized energy flow between capacitors. Can be deconstructed to yield some resources back.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedCapacitorHarmonizer.description>Разрушенное устройство, которое балансировало и синхронизировало поток энергии между конденсаторами. Можно разобрать, чтобы вернуть часть ресурсов.</VGE_DestroyedCapacitorHarmonizer.description>
+
+  <!-- EN: destroyed gravlift -->
+  <VGE_DestroyedGravlift.label>разрушенный гравилифт</VGE_DestroyedGravlift.label>
+
+  <!-- EN: A mangled wreck of a complex stabilization device. The core thrusters are fused and the gravitic dampeners shattered, rendering it useless for flight or stability, however, its mass of exotic metals and components can be deconstructed for a valuable resource yield.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedGravlift.description>Искалеченная развалина сложного стабилизирующего устройства. Основные двигатели расплавлены, а гравитационные демпферы разрушены, что делает его непригодным для полёта или обеспечения стабильности, однако масса экзотических металлов и компонентов может быть разобрана для получения ценных ресурсов.</VGE_DestroyedGravlift.description>
+
+  <!-- EN: destroyed engineering console -->
+  <VGE_DestroyedEngineeringConsole.label>разрушенная инженерная консоль</VGE_DestroyedEngineeringConsole.label>
+
+  <!-- EN: A shattered interface that was used to monitor the maintenance status of all gravship components. Can be salvaged for some scrap.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedEngineeringConsole.description>Разрушенный интерфейс, который использовался для мониторинга состояния обслуживания всех компонентов гравитационного корабля. Можно использовать как лом.</VGE_DestroyedEngineeringConsole.description>
+
+  <!-- EN: destroyed gravcore power cell -->
+  <VGE_DestroyedGravcorePowerCell.label>разрушенная ячейка питания с гравиядром</VGE_DestroyedGravcorePowerCell.label>
+
+  <!-- EN: A destroyed power generator, once capable of passively harvesting gravitational wave energy and amplifying adjacent power cells. Some resources may still be salvaged from it.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedGravcorePowerCell.description>Разрушенный генератор энергии, который когда-то мог пассивно собирать энергию гравитационных волн и усиливать соседние ячейки питания. Из него всё ещё можно извлечь некоторые ресурсы.</VGE_DestroyedGravcorePowerCell.description>
+
+  <!-- EN: destroyed gravcore power coil -->
+  <VGE_DestroyedGravcorePowerCoil.label>разрушенный силовой катушку гравиядра</VGE_DestroyedGravcorePowerCoil.label>
+
+  <!-- EN: A massive gravtech reactor, now utterly destroyed, with its reinforced coils twisted and inert, can be salvaged for its valuable components.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedGravcorePowerCoil.description>Массивный гравитационный реактор, ныне полностью разрушенный, с деформированными и инертными усиленными катушками, может быть разобран на ценные компоненты.</VGE_DestroyedGravcorePowerCoil.description>
+
+  <!-- EN: destroyed gravjumper engine -->
+  <VGE_DestroyedGravjumperEngine.label>разрушенный двигатель гравипрыгающего аппарата</VGE_DestroyedGravjumperEngine.label>
+
+  <!-- EN: The mangled remains of a gravjumper engine, now useless for short-range jumps. It seems the gravity field collapse did not result in any detonation, so it can still be salvaged for a valuable gravcore.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedGravjumperEngine.description>Искалеченные останки двигателя гравипрыгающего аппарата, теперь бесполезные для коротких прыжков. Похоже, что коллапс гравитационного поля не привёл к детонации, поэтому их всё ещё можно использовать для извлечения ценного гравиядра.</VGE_DestroyedGravjumperEngine.description>
+
+  <!-- EN: Contains: Gravcore -->
+  <VGE_DestroyedGravjumperEngine.comps.CompInspectString.inspectString>Содержит: гравитационное ядро</VGE_DestroyedGravjumperEngine.comps.CompInspectString.inspectString>
+
+  <!-- EN: destroyed gravship engine -->
+  <VGE_DestroyedGravEngine.label>разрушенный гравитационный двигатель корабля</VGE_DestroyedGravEngine.label>
+
+  <!-- EN: The collapsed remains of a gravship engine, no longer capable of lifting the vessel. It seems the gravity field collapse did not result in any detonation, so it can still be salvaged for a valuable gravcore.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedGravEngine.description>Разрушенные остатки гравитационного двигателя корабля, которые больше не способны поднять судно. Похоже, что коллапс гравитационного поля не привёл к детонации, поэтому их всё ещё можно использовать для извлечения ценного гравиядра.</VGE_DestroyedGravEngine.description>
+
+  <!-- EN: Contains: Gravcore -->
+  <VGE_DestroyedGravEngine.comps.CompInspectString.inspectString>Содержит: гравитационное ядро</VGE_DestroyedGravEngine.comps.CompInspectString.inspectString>
+
+  <!-- EN: destroyed gravhulk engine -->
+  <VGE_DestroyedGravhulkEngine.label>разрушенный двигатель гравхалка</VGE_DestroyedGravhulkEngine.label>
+
+  <!-- EN: The huge, destroyed wreck of a gravhulk engine, no longer operational. It seems the gravity field collapse did not result in any detonation, so it can still be salvaged for a valuable gravcore.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedGravhulkEngine.description>Огромная разрушенная туша двигателя гравхалка, больше не работает. Похоже, что коллапс гравитационного поля не привёл к детонации, поэтому его всё ещё можно использовать для извлечения ценного гравиядра.</VGE_DestroyedGravhulkEngine.description>
+
+  <!-- EN: Contains: Gravcore -->
+  <VGE_DestroyedGravhulkEngine.comps.CompInspectString.inspectString>Содержит: гравитационное ядро</VGE_DestroyedGravhulkEngine.comps.CompInspectString.inspectString>
+
+  <!-- EN: destroyed small weapon platform -->
+  <VGE_DestroyedSmallWeaponPlatform.label>разрушенная малая оружейная платформа</VGE_DestroyedSmallWeaponPlatform.label>
+
+  <!-- EN: The remains of a small gravship artillery platform, twisted and wrecked after the destruction of the weapon it once held. Now only serves as salvage.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedSmallWeaponPlatform.description>Остатки небольшой артиллерийской платформы гравилёта, скрученные и разрушенные после уничтожения оружия, которое она когда-то несла. Теперь служит только в качестве металлолома.</VGE_DestroyedSmallWeaponPlatform.description>
+
+  <!-- EN: destroyed medium weapon platform -->
+  <VGE_DestroyedMediumWeaponPlatform.label>разрушенная средняя оружейная платформа</VGE_DestroyedMediumWeaponPlatform.label>
+
+  <!-- EN: The remains of a medium gravship artillery platform, twisted and wrecked after the destruction of the weapon it once held. Now only serves as salvage.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedMediumWeaponPlatform.description>Остатки артиллерийской платформы среднего гравилёта, искажённые и разрушенные после уничтожения оружия, которое она когда-то несла. Теперь используются только в качестве металлолома.</VGE_DestroyedMediumWeaponPlatform.description>
+
+  <!-- EN: destroyed large weapon platform -->
+  <VGE_DestroyedLargeWeaponPlatform.label>разрушенная большая оружейная платформа</VGE_DestroyedLargeWeaponPlatform.label>
+
+  <!-- EN: The remains of a large gravship artillery platform, twisted and wrecked after the destruction of the weapon it once held. Now only serves as salvage.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedLargeWeaponPlatform.description>Остатки большой артиллерийской платформы гравилёта, искалеченные и разрушенные после уничтожения оружия, которое она когда-то несла. Теперь служит только в качестве лома.</VGE_DestroyedLargeWeaponPlatform.description>
+
+  <!-- EN: destroyed giant weapon platform -->
+  <VGE_DestroyedGiantWeaponPlatform.label>разрушенная гигантская оружейная платформа</VGE_DestroyedGiantWeaponPlatform.label>
+
+  <!-- EN: The remains of a giant orbital station artillery platform, twisted and wrecked after the destruction of the weapon it once held. Now only serves as salvage.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedGiantWeaponPlatform.description>Остатки гигантской артиллерийской платформы орбитальной станции, искажённые и разрушенные после уничтожения оружия, которое она когда-то несла. Теперь используются только как лом.</VGE_DestroyedGiantWeaponPlatform.description>
+
+  <!-- EN: destroyed targeting console -->
+  <VGE_DestroyedTargetingConsole.label>уничтоженная консоль наведения</VGE_DestroyedTargetingConsole.label>
+
+  <!-- EN: The shattered remains of a large targeting console. Its screens are cracked and dark, and its sensitive aiming mechanisms are twisted and inoperable. It is nothing more than salvage now.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedTargetingConsole.description>Уничтоженные остатки большой консоли наведения. Её экраны треснувшие и тёмные, а чувствительные механизмы прицеливания деформированы и не функционируют. Теперь это просто лом.</VGE_DestroyedTargetingConsole.description>
+
+  <!-- EN: destroyed warcomputer -->
+  <VGE_DestroyedWarComputer.label>разрушенный военный компьютер</VGE_DestroyedWarComputer.label>
+
+  <!-- EN: The shattered remains of a warcomputer. Its advanced tactical processing systems are offline and completely unresponsive. While the unit is beyond repair, the core housing contains a valuable, intact gravcore that can still be salvaged.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedWarComputer.description>Разрушенные остатки военного компьютера. Его продвинутые системы тактической обработки отключены и полностью не функционируют. Хотя устройство неремонтопригодно, в корпусе ядра находится ценный неповреждённый гравитационный сердечник, который всё ещё можно извлечь.</VGE_DestroyedWarComputer.description>
+
+  <!-- EN: Contains: Gravcore -->
+  <VGE_DestroyedWarComputer.comps.CompInspectString.inspectString>Содержит: гравитационное ядро</VGE_DestroyedWarComputer.comps.CompInspectString.inspectString>
+
+  <!-- EN: destroyed gravlock tether -->
+  <VGE_DestroyedGravlockTether.label>разрушенный гравизамок-трос</VGE_DestroyedGravlockTether.label>
+
+  <!-- EN: The ruined remains of a gravlock tether that once anchored an orbital station in place. The core stabilization systems are completely shattered, but its bulky frame can still be deconstructed to yield valuable salvage, including a gravcore.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedGravlockTether.description>Разрушенные остатки гравизамок-троса, который когда-то закреплял орбитальную станцию на месте. Основные системы стабилизации полностью разрушены, но его громоздкую раму всё ещё можно разобрать для получения ценных материалов для утилизации, включая гравиядро.</VGE_DestroyedGravlockTether.description>
+
+  <!-- EN: Contains: Gravcore -->
+  <VGE_DestroyedGravlockTether.comps.CompInspectString.inspectString>Содержит: гравитационное ядро</VGE_DestroyedGravlockTether.comps.CompInspectString.inspectString>
+
+  <!-- EN: destroyed gravlaunch cloaker -->
+  <VGE_DestroyedGravlunchCloaker.label>разрушенный гравитационный маскировщик запуска</VGE_DestroyedGravlunchCloaker.label>
+
+  <!-- EN: The shattered remains of a gravlaunch cloaker that once masked a gravship's energy signature. While it can no longer hide launch signatures, its frame and components can still be salvaged for valuable components.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedGravlunchCloaker.description>Разрушенные остатки гравитационного маскировщика запуска, который когда-то скрывал энергетическую сигнатуру гравилёта. Хотя он больше не может скрывать сигнатуры запусков, его каркас и компоненты всё ещё можно использовать для извлечения ценных деталей.</VGE_DestroyedGravlunchCloaker.description>
+
+  <!-- EN: destroyed small electric thruster -->
+  <VGE_DestroyedSmallElectricThruster.label>разрушенный малый электрический двигатель</VGE_DestroyedSmallElectricThruster.label>
+
+  <!-- EN: This thruster once powered the gravship, but it is now wrecked beyond use. Scraps of metal and components can still be taken.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedSmallElectricThruster.description>Этот двигатель когда-то приводил в движение гравитационный корабль, но теперь он разрушен и непригоден к использованию. Можно всё ещё извлечь металлические обломки и компоненты.</VGE_DestroyedSmallElectricThruster.description>
+
+  <!-- EN: destroyed large electric thruster -->
+  <VGE_DestroyedLargeElectricThruster.label>разрушенный большой электрический двигатель</VGE_DestroyedLargeElectricThruster.label>
+
+  <!-- EN: This powerful thruster once pushed gravships across space, but now it lies broken. Even ruined, it holds some useful salvage.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedLargeElectricThruster.description>Этот мощный двигатель когда-то продвигал гравитационные корабли в космосе, но теперь он сломан. Даже будучи разрушенным, он содержит некоторое количество полезных материалов для утилизации.</VGE_DestroyedLargeElectricThruster.description>
+
+  <!-- EN: destroyed giant electric thruster -->
+  <VGE_DestroyedGiantElectricThruster.label>разрушенный гигантский электрический двигатель</VGE_DestroyedGiantElectricThruster.label>
+
+  <!-- EN: This colossal thruster once propelled massive gravships across the orbit, but is now a wreck of twisted metal. Its sheer size means a substantial haul of salvageable materials remains.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedGiantElectricThruster.description>Этот колоссальный двигатель когда-то приводил в движение массивные гравитационные корабли на орбите, но теперь он представляет собой груду искорёженного металла. Его внушительные размеры означают, что остаётся значительный объём пригодных для утилизации материалов.</VGE_DestroyedGiantElectricThruster.description>
+
+  <!-- EN: destroyed auxiliary oxygen tank -->
+  <VGE_DestroyedAuxiliaryOxygenTank.label>разрушенный вспомогательный кислородный бак</VGE_DestroyedAuxiliaryOxygenTank.label>
+
+  <!-- EN: This compact tank once supplied oxygen to the gravship, but it’s now broken and useless. Some steel can still be salvaged from it.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedAuxiliaryOxygenTank.description>Этот компактный бак когда-то снабжал гравилёт кислородом, но теперь он сломан и бесполезен. Из него всё ещё можно извлечь некоторую сталь.</VGE_DestroyedAuxiliaryOxygenTank.description>
+
+  <!-- EN: destroyed auxiliary astrofuel tank -->
+  <VGE_DestroyedAuxiliaryAstrofuelTank.label>разрушенный вспомогательный астротопливный бак</VGE_DestroyedAuxiliaryAstrofuelTank.label>
+
+  <!-- EN: This compact tank once stored astrofuel for thrusters, but it has been destroyed. Its frame still holds recoverable materials.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_DestroyedAuxiliaryAstrofuelTank.description>Этот компактный бак когда-то хранил астротопливо для двигателей, но он был разрушен. Его каркас всё ещё содержит материалы, пригодные для извлечения.</VGE_DestroyedAuxiliaryAstrofuelTank.description>
+
+  <!-- EN: grav junk -->
+  <VGE_GravJunk.label>гравитационный мусор</VGE_GravJunk.label>
+
+  <!-- EN: A twisted chunk of a grav engine. Doesn't contain anything of value.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GravJunk.description>Искривлённый кусок гравитационного двигателя. Не содержит ничего ценного.</VGE_GravJunk.description>
+
+  <!-- EN: hostile warcomputer -->
+  <VGE_HostileWarcomputer.label>враждебный военный компьютер</VGE_HostileWarcomputer.label>
+
+  <!-- EN: The tactical core of an orbital warplatform. This advanced supercomputer maintains active target locks and manages the platform's long-range artillery systems. It can be accessed and hacked to download a payload of gravdata, scaling based on progress on the currently selected gravtech research project. Destroying or hacking the warcomputer will disable the platform entirely.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_HostileWarcomputer.description>Тактическое ядро орбитальной военной платформы. Этот передовой суперкомпьютер поддерживает активные целеуказания и управляет артиллерийскими системами дальнего боя платформы. К нему можно получить доступ и взломать, чтобы загрузить полезную нагрузку гравиданных, масштабируемую в зависимости от прогресса по текущему выбранному проекту исследования гравитехнологий. Уничтожение или взлом военного компьютера полностью выведет платформу из строя.</VGE_HostileWarcomputer.description>
+
+  <!-- EN: Contains: Gravcore -->
+  <VGE_HostileWarcomputer.comps.CompInspectString.inspectString>Содержит: гравитационное ядро</VGE_HostileWarcomputer.comps.CompInspectString.inspectString>
+
+  <!-- EN: Warcomputer -->
+  <VGE_HostileWarcomputer.comps.CompLetterOnRevealed.label>Боевой компьютер</VGE_HostileWarcomputer.comps.CompLetterOnRevealed.label>
+
+  <!-- EN: You've discovered a hostile warcomputer running an orbital warplatform. Destroy it to disable all platform weaponry and obtain a gravcore. -->
+  <VGE_HostileWarcomputer.comps.CompLetterOnRevealed.text>Вы обнаружили вражеский боевой суперкомпьютер, управляющий орбитальной платформой. Уничтожьте его, чтобы обесточить все орудийные системы платформы и заполучить гравитационное ядро.</VGE_HostileWarcomputer.comps.CompLetterOnRevealed.text>
+
+  <!-- EN: enemy gravjumper engine -->
+  <VGE_EnemyGravjumperEngine.label>двигатель гравиджампера врага</VGE_EnemyGravjumperEngine.label>
+
+  <!-- EN: A compact gravtech engine designed for short-range jumps within a planet's atmosphere. The gravjumper engine creates a brief, localized distortion in gravitational flow, allowing rapid vertical lift, but does not produce forward thrust. It can't function far from a large gravity well like a planet, so it is useless for interplanetary travel.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources, including a gravcore.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGravjumperEngine.description>Компактный гравитационный двигатель, предназначенный для коротких прыжков в атмосфере планеты. Двигатель гравиджампера создаёт кратковременное локальное искажение гравитационного потока, обеспечивая быстрый вертикальный подъём, но не создаёт поступательной тяги. Он не может работать далеко от сильного гравитационного поля, такого как планета, поэтому бесполезен для межпланетных путешествий.\n\nЭто устройство принадлежит врагу и не может быть расшифровано или разблокировано. Его всё ещё можно разобрать, чтобы получить ценные ресурсы, включая гравиядро.</VGE_EnemyGravjumperEngine.description>
+
+  <!-- EN: Contains: Gravcore -->
+  <VGE_EnemyGravjumperEngine.comps.CompInspectString.inspectString>Содержит: гравитационное ядро</VGE_EnemyGravjumperEngine.comps.CompInspectString.inspectString>
+
+  <!-- EN: Gravjumper engine -->
+  <VGE_EnemyGravjumperEngine.comps.CompLetterOnRevealed.label>Двигатель гравипрыгуна</VGE_EnemyGravjumperEngine.comps.CompLetterOnRevealed.label>
+
+  <!-- EN: You've discovered an enemy gravjumper engine. Destroy it to obtain a gravcore and permanently disable the vessel's ability to move. -->
+  <VGE_EnemyGravjumperEngine.comps.CompLetterOnRevealed.text>Вы обнаружили двигатель вражеского гравипрыгуна. Уничтожьте его, чтобы заполучить гравитационное ядро и навсегда лишить корабль возможности передвигаться.</VGE_EnemyGravjumperEngine.comps.CompLetterOnRevealed.text>
+
+  <!-- EN: enemy gravship engine -->
+  <VGE_EnemyGravEngine.label>двигатель гравилёта-врага</VGE_EnemyGravEngine.label>
+
+  <!-- EN: The ultratech heart of a gravship. The grav engine generates lift by inverting and intensifying the effect of gravity in a field around itself. This engine can lift upwards, but does not produce forward thrust.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources, including a gravcore.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGravEngine.description>Ультратехнологичное сердце гравилёта. Гравитационный двигатель создаёт подъёмную силу, инвертируя и усиливая эффект гравитации в окружающем его поле. Этот двигатель может поднимать вверх, но не производит поступательной тяги.\n\nЭто устройство принадлежит врагу, его нельзя расшифровать или разблокировать. Его всё ещё можно разобрать, чтобы получить ценные ресурсы, включая гравиядро.</VGE_EnemyGravEngine.description>
+
+  <!-- EN: Contains: Gravcore -->
+  <VGE_EnemyGravEngine.comps.CompInspectString.inspectString>Содержит: гравитационное ядро</VGE_EnemyGravEngine.comps.CompInspectString.inspectString>
+
+  <!-- EN: Gravship engine -->
+  <VGE_EnemyGravEngine.comps.CompLetterOnRevealed.label>Двигатель гравикорабля</VGE_EnemyGravEngine.comps.CompLetterOnRevealed.label>
+
+  <!-- EN: You've discovered an enemy gravship engine. Destroy it to obtain a gravcore and permanently disable the ship's ability to move. -->
+  <VGE_EnemyGravEngine.comps.CompLetterOnRevealed.text>Вы обнаружили двигатель вражеского гравикорабля. Уничтожьте его, чтобы забрать гравитационное ядро и навсегда лишить судно подвижности.</VGE_EnemyGravEngine.comps.CompLetterOnRevealed.text>
+
+  <!-- EN: enemy gravhulk engine -->
+  <VGE_EnemyGravhulkEngine.label>двигатель гравихалка (врага)</VGE_EnemyGravhulkEngine.label>
+
+  <!-- EN: The gravhulk is a colossal class of gravship, engineered to transport entire megacolonies, orbital platforms, or mobile city-cores across the skies of a planet. The grav engine generates lift by inverting and intensifying the effect of gravity in a field around itself. This engine can lift upwards, but does not produce forward thrust. It can't function far from a large gravity well like a planet, so it is useless for interplanetary travel.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources, including a gravcore.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGravhulkEngine.description>Гравхалк — это колоссальный класс гравилёта, созданный для перевозки целых мегаколоний, орбитальных платформ или мобильных городских ядер по небесам планеты. Гравитационный двигатель создаёт подъёмную силу, инвертируя и усиливая эффект гравитации в окружающем его поле. Этот двигатель может поднимать вверх, но не создаёт поступательной тяги. Он не может функционировать вдали от сильного гравитационного поля, такого как планета, поэтому бесполезен для межпланетных путешествий.\n\nЭто устройство принадлежит врагу, его нельзя расшифровать или разблокировать. Однако его можно разобрать, чтобы получить ценные ресурсы, включая гравиядро.</VGE_EnemyGravhulkEngine.description>
+
+  <!-- EN: Contains: Gravcore -->
+  <VGE_EnemyGravhulkEngine.comps.CompInspectString.inspectString>Содержит: гравитационное ядро</VGE_EnemyGravhulkEngine.comps.CompInspectString.inspectString>
+
+  <!-- EN: Gravhulk engine -->
+  <VGE_EnemyGravhulkEngine.comps.CompLetterOnRevealed.label>Двигатель гравихалка</VGE_EnemyGravhulkEngine.comps.CompLetterOnRevealed.label>
+
+  <!-- EN: You've discovered an enemy gravhulk engine. Destroy it to obtain a gravcore and permanently cripple this massive vessel's mobility. -->
+  <VGE_EnemyGravhulkEngine.comps.CompLetterOnRevealed.text>Вы обнаружили двигатель вражеского гравихалка. Разрушьте его, чтобы получить гравитационное ядро и навсегда обездвижить это колоссальное судно.</VGE_EnemyGravhulkEngine.comps.CompLetterOnRevealed.text>
+
+  <!-- EN: enemy gravlock tether -->
+  <VGE_EnemyGravlockTether.label>гравилок-стяжка врага</VGE_EnemyGravlockTether.label>
+
+  <!-- EN: The gravlock tether is the core stabilization unit of an orbital station, anchoring it in a fixed position. A specialized conversion of the gravhulk engine, this device generates a stabilized gravitational field to maintain the station's orbital trajectory.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources, including a gravcore.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGravlockTether.description>Гравилок-стяжка — это основной блок стабилизации орбитальной станции, закрепляющий её в фиксированном положении. Это специализированная модификация двигателя гравихалка, устройство генерирует стабилизированное гравитационное поле для поддержания орбитальной траектории станции.\n\nЭто устройство принадлежит врагу и не может быть расшифровано или разблокировано. Его всё ещё можно разобрать, чтобы получить ценные ресурсы, включая гравиядро.</VGE_EnemyGravlockTether.description>
+
+  <!-- EN: Contains: Gravcore -->
+  <VGE_EnemyGravlockTether.comps.CompInspectString.inspectString>Содержит: гравитационное ядро</VGE_EnemyGravlockTether.comps.CompInspectString.inspectString>
+
+  <!-- EN: Gravlock tether -->
+  <VGE_EnemyGravlockTether.comps.CompLetterOnRevealed.label>Гравизахват</VGE_EnemyGravlockTether.comps.CompLetterOnRevealed.label>
+
+  <!-- EN: You've discovered an enemy gravlock tether, anchoring an orbital base in place. Destroy it to obtain a gravcore. -->
+  <VGE_EnemyGravlockTether.comps.CompLetterOnRevealed.text>Вы обнаружили вражеский гравизахват, удерживающий орбитальную базу на позиции. Уничтожьте его, чтобы забрать гравитационное ядро.</VGE_EnemyGravlockTether.comps.CompLetterOnRevealed.text>
+
+  <!-- EN: enemy pilot cockpit -->
+  <VGE_EnemyPilotCockpit.label>кабина пилота врага</VGE_EnemyPilotCockpit.label>
+
+  <!-- EN: An interface that allows launching and piloting a gravjumper. It draws power directly from the grav engine.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyPilotCockpit.description>Интерфейс, который позволяет запускать гравитационный прыгун и управлять им. Питание поступает напрямую от гравидвигателя.\n\nЭто устройство принадлежит врагу, его нельзя расшифровать или разблокировать. Однако его можно разобрать для получения ценных ресурсов.</VGE_EnemyPilotCockpit.description>
+
+  <!-- EN: enemy pilot console -->
+  <VGE_EnemyPilotConsole.label>консоль пилота-врага</VGE_EnemyPilotConsole.label>
+
+  <!-- EN: An interface that allows launching and piloting a gravship. It draws power directly from the grav engine.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyPilotConsole.description>Интерфейс, который позволяет запускать и пилотировать гравитационный корабль. Питание поступает напрямую от гравидвигателя.\n\nЭто устройство принадлежит врагу, его нельзя расшифровать или разблокировать. Однако его можно разобрать для получения ценных ресурсов.</VGE_EnemyPilotConsole.description>
+
+  <!-- EN: enemy pilot bridge -->
+  <VGE_EnemyPilotBridge.label>вражеский пилотский мостик</VGE_EnemyPilotBridge.label>
+
+  <!-- EN: An interface that allows launching and piloting a gravhulk. It draws power directly from the grav engine.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyPilotBridge.description>Интерфейс, который позволяет запускать и пилотировать гравхулк. Питание поступает прямо от гравитационного двигателя.\n\nЭто устройство принадлежит врагу, его нельзя расшифровать или разблокировать. Однако его можно разобрать, чтобы получить ценные ресурсы.</VGE_EnemyPilotBridge.description>
+
+  <!-- EN: enemy targeting terminal -->
+  <VGE_EnemyTargetingTerminal.label>терминал наведения на врага</VGE_EnemyTargetingTerminal.label>
+
+  <!-- EN: An enemy control terminal responsible for calibrating the nearby gravship artillery turrets.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyTargetingTerminal.description>Терминал управления врагом, отвечающий за калибровку артиллерийских турелей гравилёта поблизости.\n\nЭто устройство принадлежит врагу, его нельзя расшифровать или разблокировать. Однако его можно разобрать, чтобы получить ценные ресурсы.</VGE_EnemyTargetingTerminal.description>
+
+  <!-- EN: enemy targeting console -->
+  <VGE_EnemyTargetingConsole.label>консоль наведения на врага</VGE_EnemyTargetingConsole.label>
+
+  <!-- EN: A large, enemy targeting console responsible for calibrating the reload sequence of nearby gravship artillery pieces.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyTargetingConsole.description>Это большая консоль наведения на врага, отвечающая за калибровку последовательности перезарядки близлежащих артиллерийских орудий гравилёта.\n\nЭто устройство принадлежит врагу, его нельзя расшифровать или разблокировать. Однако его можно разобрать, чтобы получить ценные ресурсы.</VGE_EnemyTargetingConsole.description>
+
+  <!-- EN: enemy algae oxygenator -->
+  <VGE_EnemyAlgaeOxygenator.label>кислородный генератор для водорослей-врагов</VGE_EnemyAlgaeOxygenator.label>
+
+  <!-- EN: A vital device that processes harvested oxyalgae into breathable oxygen. Converts biomass into gas and pumps it into the oxygen network to supply pressurized rooms and equipment.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyAlgaeOxygenator.description>Жизненно важное устройство, которое перерабатывает собранную окси-водоросль в пригодный для дыхания кислород. Превращает биомассу в газ и закачивает его в кислородную сеть для снабжения герметичных помещений и оборудования.\n\nЭто устройство принадлежит врагу, его нельзя расшифровать или разблокировать. Однако его можно разобрать, чтобы получить ценные ресурсы.</VGE_EnemyAlgaeOxygenator.description>
+
+  <!-- EN: enemy astrofuel synthesizer -->
+  <VGE_EnemyAstrofuelSynthesizer.label>вражеский синтезатор астротоплива</VGE_EnemyAstrofuelSynthesizer.label>
+
+  <!-- EN: A specialized structure that refines chemfuel into high-grade astrofuel.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyAstrofuelSynthesizer.description>Специализированная структура, которая перерабатывает химтопливо в высококачественное астротопливо.\n\nЭто устройство принадлежит врагу и не может быть расшифровано или разблокировано. Его всё ещё можно разобрать для получения ценных ресурсов.</VGE_EnemyAstrofuelSynthesizer.description>
+
+  <!-- EN: enemy gauss bombard -->
+  <VGE_EnemyGaussBombard.label>вражеская гауссовка (гаусс-бомбарда)</VGE_EnemyGaussBombard.label>
+
+  <!-- EN: A heavy, slow-firing electromagnetic launcher that discharges bursts of two kinetic impactors. Designed to bombard locations designated by an orbital bombardment targeter.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGaussBombard.description>Тяжёлая электромагнитная пусковая установка с низкой скорострельностью, которая выпускает залпы из двух кинетических ударников. Предназначена для бомбардировки объектов, обозначенных системой орбитальной бомбардировки.\n\nЭто устройство принадлежит врагу и не может быть расшифровано или разблокировано. Его всё ещё можно разобрать, чтобы получить ценные ресурсы.</VGE_EnemyGaussBombard.description>
+
+  <!-- EN: enemy gauss bombard -->
+  <VGE_Gun_EnemyGaussBombard.label>вражеская гаусс-бомбарда</VGE_Gun_EnemyGaussBombard.label>
+
+  <!-- EN: A heavy, slow-firing electromagnetic launcher.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Gun_EnemyGaussBombard.description>Тяжёлая электромагнитная пусковая установка с медленным темпом стрельбы.</VGE_Gun_EnemyGaussBombard.description>
+
+  <!-- EN: enemy gauss bombard -->
+  <VGE_Gun_EnemyGaussBombard.verbs.Verb_ShootWithSmoke.label>вражеская гаусс-бомбарда</VGE_Gun_EnemyGaussBombard.verbs.Verb_ShootWithSmoke.label>
+
+  <!-- EN: enemy gauss gun -->
+  <VGE_EnemyGaussGun.label>вражеская гауссовка</VGE_EnemyGaussGun.label>
+
+  <!-- EN: A small, single-barrel electromagnetic cannon that launches dense uranium slugs at extreme velocities. Designed for both local bombardments and medium-range engagements, it can also target other gravships in orbit. It draws power directly from the grav engine and does not require a linked terminal to function.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGaussGun.description>Это небольшая одноствольная электромагнитная пушка, которая запускает плотные урановые снаряды на экстремальных скоростях. Предназначена как для локальных бомбардировок, так и для сражений на средних дистанциях, также может поражать другие гравитационные корабли на орбите. Получает питание напрямую от гравидвигателя и не требует подключённого терминала для работы.\n\nЭто устройство принадлежит врагу, его нельзя расшифровать или разблокировать. Его всё ещё можно разобрать, чтобы получить ценные ресурсы.</VGE_EnemyGaussGun.description>
+
+  <!-- EN: enemy gauss gun -->
+  <VGE_Gun_EnemyGaussGun.label>вражеская гаусс-пушка</VGE_Gun_EnemyGaussGun.label>
+
+  <!-- EN: enemy gauss gun -->
+  <VGE_Gun_EnemyGaussGun.verbs.Verb_ShootWithSmoke.label>вражеская гаусс-пушка</VGE_Gun_EnemyGaussGun.verbs.Verb_ShootWithSmoke.label>
+
+  <!-- EN: enemy javelin pod -->
+  <VGE_EnemyJavelinPod.label>вражеский контейнер с дротиками</VGE_EnemyJavelinPod.label>
+
+  <!-- EN: A compact multi-tube missile platform that launches a volley of six guided astrofuel javelins. Meant for fast, hard-hitting strikes against exposed gravships and unarmored surface forces. It draws power directly from the grav engine and does not require a linked terminal to function.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyJavelinPod.description>Это компактная многоствольная ракетная платформа, запускающая залп из шести управляемых дротиков на астротопливе. Предназначена для быстрых и мощных ударов по незащищённым гравитационным кораблям и небронированным наземным силам. Питание получает напрямую от гравидвигателя и не требует подключённого терминала для работы.\n\nЭто устройство принадлежит врагу, его нельзя расшифровать или разблокировать. Его всё ещё можно разобрать, чтобы получить ценные ресурсы.</VGE_EnemyJavelinPod.description>
+
+  <!-- EN: enemy javelin pod -->
+  <VGE_Gun_EnemyJavelinPod.label>вражеский дротик-модуль</VGE_Gun_EnemyJavelinPod.label>
+
+  <!-- EN: enemy javelin pod -->
+  <VGE_Gun_EnemyJavelinPod.verbs.Verb_ShootWithWorldTargeting.label>вражеская ракетная установка «Дротик»</VGE_Gun_EnemyJavelinPod.verbs.Verb_ShootWithWorldTargeting.label>
+
+  <!-- EN: enemy anticraft caster -->
+  <VGE_EnemyAnticraftCaster.label>вражеский противокорабельный излучатель</VGE_EnemyAnticraftCaster.label>
+
+  <!-- EN: A medium gravship-mounted energy weapon that fires short, razor-sharp bursts of cutting beam with surgical precision. Built to punch holes through critical systems, the caster trades sustained suppression for rapid, accurate strikes. It draws power directly from the grav engine and does not require a linked terminal to function.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyAnticraftCaster.description>Это энергетическое оружие средней мощности, устанавливаемое на гравитационном корабле, которое выпускает короткие и резкие очереди режущего луча с хирургической точностью. Разработано для пробивания отверстий в критически важных системах — оно жертвует продолжительным подавлением ради быстрых и точных ударов. Получает питание напрямую от гравидвигателя и не требует подключённого терминала для работы.\n\nЭто устройство принадлежит врагу, его нельзя расшифровать или разблокировать. Его всё ещё можно разобрать, чтобы получить ценные ресурсы.</VGE_EnemyAnticraftCaster.description>
+
+  <!-- EN: enemy anticraft caster -->
+  <VGE_Gun_EnemyAnticraftCaster.label>вражеский противовоздушной установки</VGE_Gun_EnemyAnticraftCaster.label>
+
+  <!-- EN: enemy anticraft caster -->
+  <VGE_Gun_EnemyAnticraftCaster.verbs.Verb_ShootWithWorldTargeting.label>вражеский противокорабельный излучатель</VGE_Gun_EnemyAnticraftCaster.verbs.Verb_ShootWithWorldTargeting.label>
+
+  <!-- EN: enemy anticraft beam -->
+  <VGE_EnemyAnticraftBeam.label>вражеский противокорабельный луч</VGE_EnemyAnticraftBeam.label>
+
+  <!-- EN: A massive anti-ship beam weapon intended to destroy flying craft, but also capable of firing onto the surface from space. Ships using ultratech signal jammers can delay the targeting of these weapons.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be destroyed to yield some valuable resources, including a gravcore.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyAnticraftBeam.description>Это массивное противокорабельное лучевое оружие, предназначенное для уничтожения летательных аппаратов, но также способное вести огонь по поверхности из космоса. Корабли, использующие ультратехнологичные глушилки сигналов, могут задержать наведение этих орудий.
+
+Это конкретное устройство принадлежит врагу и не может быть расшифровано или разблокировано. Его всё ещё можно уничтожить, чтобы получить ценные ресурсы, включая гравиядро.</VGE_EnemyAnticraftBeam.description>
+
+  <!-- EN: Contains: Gravcore -->
+  <VGE_EnemyAnticraftBeam.comps.CompInspectString.inspectString>Содержит: гравитационное ядро</VGE_EnemyAnticraftBeam.comps.CompInspectString.inspectString>
+
+  <!-- EN: Beam emitter -->
+  <VGE_EnemyAnticraftBeam.comps.CompLetterOnRevealed.label>Лучевой излучатель</VGE_EnemyAnticraftBeam.comps.CompLetterOnRevealed.label>
+
+  <!-- EN: You've discovered an anticraft beam. This powerful orbital weapon can annihilate any gravship that challenges it. Destroy it to secure the airspace and obtain a gravcore. -->
+  <VGE_EnemyAnticraftBeam.comps.CompLetterOnRevealed.text>Вы обнаружили противокорабельный лучевой излучатель. Это сокрушительное орбитальное орудие способно распылить любой гравикорабль. Уничтожьте его, чтобы обезопасить воздушное пространство и завладеть гравитационным ядром.</VGE_EnemyAnticraftBeam.comps.CompLetterOnRevealed.text>
+
+  <!-- EN: enemy anticraft beam -->
+  <VGE_Gun_EnemyAnticraftBeam.label>противовоздушная вражеская пушка</VGE_Gun_EnemyAnticraftBeam.label>
+
+  <!-- EN: enemy anticraft beam -->
+  <VGE_Gun_EnemyAnticraftBeam.verbs.Verb_AnticraftBeam.label>вражеский противокорабельный луч</VGE_Gun_EnemyAnticraftBeam.verbs.Verb_AnticraftBeam.label>
+
+  <!-- EN: enemy point defense turret -->
+  <VGE_EnemyPointDefenseTurret.label>турельная оборонительная установка для защиты точки</VGE_EnemyPointDefenseTurret.label>
+
+  <!-- EN: A specialized defensive turret built exclusively for gravships. It intercepts explosive projectiles and incoming drop pods within its protective radius, but cannot engage ground targets. Interception chance scales with the target’s velocity.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyPointDefenseTurret.description>Специализированная оборонительная турель, созданная исключительно для гравитационных кораблей. Она перехватывает взрывные снаряды и входящие десантные капсулы в пределах своего защитного радиуса, но не может поражать наземные цели. Вероятность перехвата зависит от скорости цели.\n\nЭто устройство принадлежит врагу и не может быть расшифровано или разблокировано. Его всё ещё можно разобрать, чтобы получить ценные ресурсы.</VGE_EnemyPointDefenseTurret.description>
+
+  <!-- EN: point defense gun -->
+  <VGE_Gun_EnemyPointDefense.label>противотанковое орудие</VGE_Gun_EnemyPointDefense.label>
+
+  <!-- EN: A rapid-fire gun for point-defense applications.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Gun_EnemyPointDefense.description>Скорострельное орудие для применения в точечной обороне.</VGE_Gun_EnemyPointDefense.description>
+
+  <!-- EN: point defense gun -->
+  <VGE_Gun_EnemyPointDefense.verbs.Verb_Shoot.label>турель ПРО</VGE_Gun_EnemyPointDefense.verbs.Verb_Shoot.label>
+
+  <!-- EN: enemy shield generator -->
+  <VGE_EnemyShieldGenerator.label>генератор вражеского щита</VGE_EnemyShieldGenerator.label>
+
+  <!-- EN: A shielding device that can protect a gravship. It modulates the grav field to create a short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. Those inside can still shoot out. It must be charged before use.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyShieldGenerator.description>Это защитное устройство, которое может защитить гравилёт. Оно модулирует гравитационное поле для создания кратковременной отталкивающей поверхности, блокирующей снаряды. Работает против обычных выстрелов и миномётных снарядов. Те, кто находится внутри, всё ещё могут стрелять наружу. Перед использованием его необходимо зарядить.\n\nЭто конкретное устройство принадлежит врагу и не может быть расшифровано или разблокировано. Его всё равно можно разобрать, чтобы получить ценные ресурсы.</VGE_EnemyShieldGenerator.description>
+
+  <!-- EN: large enemy shield generator -->
+  <VGE_EnemyLargeShieldGenerator.label>большой генератор вражеского щита</VGE_EnemyLargeShieldGenerator.label>
+
+  <!-- EN: A large-scale shielding device that can protect a gravship. It modulates the grav field to create a short-lived momentum repulsor surface that blocks projectiles. It works against normal shots and mortars. Those inside can still shoot out. It must be charged before use.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyLargeShieldGenerator.description>Это крупномасштабное защитное устройство, которое может защитить гравилёт. Оно модулирует гравитационное поле для создания кратковременной поверхности с импульсным отталкивателем, блокирующей снаряды. Работает против обычных выстрелов и миномётных снарядов. Те, кто находится внутри, всё ещё могут стрелять наружу. Перед использованием необходимо зарядить.\n\nЭто устройство принадлежит врагу, его нельзя расшифровать или разблокировать. Его можно разобрать, чтобы получить ценные ресурсы.</VGE_EnemyLargeShieldGenerator.description>
+
+  <!-- EN: enemy signal jammer -->
+  <VGE_EnemySignalJammer.label>глушитель вражеских сигналов</VGE_EnemySignalJammer.label>
+
+  <!-- EN: An advanced jamming array that disrupts local guidance signals, preventing the deployment of gravships and drop pods in its immediate vicinity. This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemySignalJammer.description>Это усовершенствованный комплекс постановки помех, который нарушает работу сигналов наведения, предотвращая развёртывание гравитационных кораблей и десантных капсул в непосредственной близости. Данное устройство принадлежит врагу и не может быть расшифровано или разблокировано. Его всё равно можно разобрать для получения ценных ресурсов.</VGE_EnemySignalJammer.description>
+
+  <!-- EN: ancient gravmine -->
+  <VGE_AncientGravmine.label>древняя гравимина</VGE_AncientGravmine.label>
+
+  <!-- EN: An ancient and incredibly unstable high-explosive device designed for space-based combat. It features a large detection radius that triggers a powerful blast detonation upon the approach.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_AncientGravmine.description>Древнее и невероятно нестабильное взрывное устройство, предназначенное для космических боёв. Оно имеет большой радиус обнаружения, который активирует мощный взрыв при приближении.</VGE_AncientGravmine.description>
+
+  <!-- EN: enemy small thruster -->
+  <VGE_EnemySmallThruster.label>малый двигатель врага</VGE_EnemySmallThruster.label>
+
+  <!-- EN: An astrofuel thruster that increases the range and maximum size of the gravship.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemySmallThruster.description>Это астротопливный двигатель, который увеличивает дальность действия и максимальный размер гравилёта.\n\nЭто устройство принадлежит врагу и не может быть расшифровано или разблокировано. Его всё ещё можно разобрать для получения ценных ресурсов.</VGE_EnemySmallThruster.description>
+
+  <!-- EN: enemy large thruster -->
+  <VGE_EnemyLargeThruster.label>большой вражеский двигатель тяги</VGE_EnemyLargeThruster.label>
+
+  <!-- EN: An advanced astrofuel thruster with a heat-resistant vacstone liner. It greatly increases the range and maximum size of the gravship.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyLargeThruster.description>Передовой астротопливный двигатель с термостойким вакстоуновым вкладышем. Он значительно увеличивает дальность действия и максимальный размер гравилёта.\n\nЭто устройство принадлежит врагу, его нельзя расшифровать или разблокировать. Его всё ещё можно разобрать для получения ценных ресурсов.</VGE_EnemyLargeThruster.description>
+
+  <!-- EN: enemy giant thruster -->
+  <VGE_EnemyGiantThruster.label>вражеский гигантский двигатель тяги</VGE_EnemyGiantThruster.label>
+
+  <!-- EN: A massive, reinforced astrofuel thruster built with advanced alloys and ultra-dense vacstone plating. It massively increases the range and maximum size of the gravship  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGiantThruster.description>Массивный усиленный астротопливный двигатель, изготовленный из продвинутых сплавов и сверхплотной обшивки из вакстоуна. Он значительно увеличивает дальность действия и максимальный размер гравилёта.\n\nЭто устройство принадлежит врагу, его нельзя расшифровать или разблокировать. Однако его можно разобрать для получения ценных ресурсов.</VGE_EnemyGiantThruster.description>
+
+  <!-- EN: enemy grav field extender -->
+  <VGE_EnemyGravFieldExtender.label>расширитель гравитационного поля врага</VGE_EnemyGravFieldExtender.label>
+
+  <!-- EN: An ultratech device used to increase the size of a gravship. It extends the area in which substructure can be built, and increases the amount of substructure that a gravship can support.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGravFieldExtender.description>Ультратехнологичное устройство, используемое для увеличения размера гравитационного корабля. Оно расширяет область, в которой можно построить вспомогательную структуру, и увеличивает количество поддерживаемой кораблём вспомогательной структуры.\n\nЭто устройство принадлежит врагу и не может быть расшифровано или разблокировано. Его всё ещё можно разобрать, чтобы получить ценные ресурсы.</VGE_EnemyGravFieldExtender.description>
+
+  <!-- EN: enemy grav field amplifier -->
+  <VGE_EnemyGravFieldAmplifier.label>усилитель гравитационного поля врага</VGE_EnemyGravFieldAmplifier.label>
+
+  <!-- EN: An advanced ultratech device that dramatically increases the size of a gravship.  It extends the area in which substructure can be built, and increases the amount of substructure that a gravship can support.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGravFieldAmplifier.description>Это передовое ультратехнологичное устройство, которое значительно увеличивает размер гравкорабля. Оно расширяет область, в которой можно построить подчинённую структуру, и увеличивает количество подчинённых структур, которые может поддерживать гравкорабль.\n\nЭто устройство принадлежит врагу, его нельзя расшифровать или разблокировать. Однако его всё равно можно разобрать для получения ценных ресурсов.</VGE_EnemyGravFieldAmplifier.description>
+
+  <!-- EN: ancient signal jammer -->
+  <VGE_AncientSignalJammer.label>древний глушитель сигналов</VGE_AncientSignalJammer.label>
+
+  <!-- EN: An archaic broadcasting array emitting a high-frequency interference field that cripples long-range communications and disrupts gravship navigational locks. As long as it’s active, gravship or shuttle launches from this area will not be possible, and comms consoles will not be able to be used. It contains a valuable gravcore.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_AncientSignalJammer.description>Архаичная радиовещательная установка, излучающая высокочастотное поле помех, которое выводит из строя средства дальней связи и нарушает работу навигационных замков гравитационных кораблей. Пока она активна, запуск гравитационных кораблей или шаттлов из этой области невозможен, а использовать коммуникационные консоли нельзя. В ней содержится ценное гравиядро.</VGE_AncientSignalJammer.description>
+
+  <!-- EN: Signal jammer -->
+  <VGE_AncientSignalJammer.comps.CompLetterOnRevealed.label>Глушитель сигналов</VGE_AncientSignalJammer.comps.CompLetterOnRevealed.label>
+
+  <!-- EN: You've discovered an ancient signal jammer actively preventing vessels from leaving the area. Destroy it to lift the lockdown and obtain a gravcore. -->
+  <VGE_AncientSignalJammer.comps.CompLetterOnRevealed.text>Вы обнаружили древний глушитель сигналов, блокирующий взлёт любых кораблей в этом секторе. Уничтожьте его, чтобы снять блокировку и заполучить гравитационное ядро.</VGE_AncientSignalJammer.comps.CompLetterOnRevealed.text>
+
+  <!-- EN: Contains: Gravcore -->
+  <VGE_AncientSignalJammer.comps.CompInspectString.inspectString>Содержит: гравитационное ядро</VGE_AncientSignalJammer.comps.CompInspectString.inspectString>
+
+  <!-- EN: enemy gauss cannon -->
+  <VGE_EnemyGaussCannon.label>вражеская гауссовка</VGE_EnemyGaussCannon.label>
+
+  <!-- EN: A massive, single-barrel anti-ship cannon that uses powerful electromagnets to launch large metallic darts at extreme velocities. While formidable, ships equipped with ultratech signal jammers can temporarily paralyze its targeting systems, rendering it unable to fire during the disruption.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be destroyed to yield some valuable resources, including a gravcore.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGaussCannon.description>Это массивная одноствольная противокорабельная пушка, которая использует мощные электромагниты для запуска больших металлических дротиков на экстремальных скоростях. Несмотря на свою мощь, корабли, оснащённые ультрасовременными глушилками сигналов, могут временно парализовать её системы прицеливания, делая их неспособными к стрельбе во время сбоя.
+
+Это устройство принадлежит врагу и не может быть расшифровано или разблокировано. Его всё ещё можно уничтожить, чтобы получить ценные ресурсы, включая гравиядро.</VGE_EnemyGaussCannon.description>
+
+  <!-- EN: Contains: Gravcore -->
+  <VGE_EnemyGaussCannon.comps.CompInspectString.inspectString>Содержит: гравитационное ядро</VGE_EnemyGaussCannon.comps.CompInspectString.inspectString>
+
+  <!-- EN: Gauss cannon -->
+  <VGE_EnemyGaussCannon.comps.CompLetterOnRevealed.label>Гаусс-пушка</VGE_EnemyGaussCannon.comps.CompLetterOnRevealed.label>
+
+  <!-- EN: You've discovered a gauss cannon, a devastating piece of orbital artillery. Destroy it to eliminate the threat and obtain a gravcore. -->
+  <VGE_EnemyGaussCannon.comps.CompLetterOnRevealed.text>Вы обнаружили гаусс-пушку — сокрушительное орудие орбитальной артиллерии. Уничтожьте её, чтобы устранить угрозу и получить гравитационное ядро.</VGE_EnemyGaussCannon.comps.CompLetterOnRevealed.text>
+
+  <!-- EN: enemy gauss cannon -->
+  <VGE_Gun_EnemyGaussCannon.label>вражеская гауссовка</VGE_Gun_EnemyGaussCannon.label>
+
+  <!-- EN: An incredibly powerful anti-ship gauss artillery mounted on an orbital station.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Gun_EnemyGaussCannon.description>Это невероятно мощная гауссовка для борьбы с кораблями, установленная на орбитальной станции.</VGE_Gun_EnemyGaussCannon.description>
+
+  <!-- EN: enemy gauss cannon -->
+  <VGE_Gun_EnemyGaussCannon.verbs.Verb_ShootWithSmoke.label>вражеская гаусс-пушка</VGE_Gun_EnemyGaussCannon.verbs.Verb_ShootWithSmoke.label>
+
+  <!-- EN: defender turret -->
+  <VGE_Turret_DefenderTurret.label>турельная установка защиты (защитное орудие)</VGE_Turret_DefenderTurret.label>
+
+  <!-- EN: An armored security turret containing containing a built-in power source.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Turret_DefenderTurret.description>Бронированная защитная турель, содержащая встроенный источник питания.</VGE_Turret_DefenderTurret.description>
+
+  <!-- EN: defender turret gun -->
+  <VGE_Gun_DefenderTurret.label>оборонительная турель (оружие)</VGE_Gun_DefenderTurret.label>
+
+  <!-- EN: A simple automatic gun made to be mounted on a turret.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Gun_DefenderTurret.description>Простое автоматическое орудие, предназначенное для установки на турель.</VGE_Gun_DefenderTurret.description>
+
+  <!-- EN: defender turret gun -->
+  <VGE_Gun_DefenderTurret.verbs.Verb_Shoot.label>турель «Защитник»</VGE_Gun_DefenderTurret.verbs.Verb_Shoot.label>
+
+  <!-- EN: enemy gravship minigun turret -->
+  <VGE_EnemyGravshipMinigunTurret.label>вражеская гравитационная корабельная миниган-турель</VGE_EnemyGravshipMinigunTurret.label>
+
+  <!-- EN: A compact gravship-mounted heavy automatic turret. Its multi-barrel mechanism unleashes sustained fire at high speed, shredding lightly armored targets at mid-range. It may explode when damaged.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGravshipMinigunTurret.description>Это компактная тяжёлая автоматическая турель, устанавливаемая на гравитационный корабль. Её многоствольный механизм ведёт непрерывный огонь на высокой скорости, уничтожая слабо бронированные цели на средней дистанции. При повреждении может взорваться.\n\nЭто устройство принадлежит врагу и не может быть расшифровано или разблокировано. Его всё равно можно разобрать для получения ценных ресурсов.</VGE_EnemyGravshipMinigunTurret.description>
+
+  <!-- EN: gravship minigun -->
+  <VGE_Gun_EnemyGravshipMinigun.label>гравитационный корабль миниган</VGE_Gun_EnemyGravshipMinigun.label>
+
+  <!-- EN: gravship minigun -->
+  <VGE_Gun_EnemyGravshipMinigun.verbs.Verb_Shoot.label>корабельный миниган</VGE_Gun_EnemyGravshipMinigun.verbs.Verb_Shoot.label>
+
+  <!-- EN: enemy gravship autocannon turret -->
+  <VGE_EnemyGravshipAutocannonTurret.label>вражеская гравитационная корабельная автоматическая турель</VGE_EnemyGravshipAutocannonTurret.label>
+
+  <!-- EN: A compact gravship-mounted automatic turret. Its large-caliber shells do heavy damage over significant ranges, but despite its efficiency, the barrel must be refurbished after heavy use. It cannot fire at close-up targets, and may explode when damaged.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGravshipAutocannonTurret.description>Компактная автоматическая турель, устанавливаемая на гравитационный корабль. Снаряды большого калибра наносят большой урон на значительные дистанции, но, несмотря на эффективность, ствол необходимо восстанавливать после интенсивного использования. Она не может стрелять по целям в непосредственной близости и может взорваться при повреждении.\n\nЭто устройство принадлежит врагу и не может быть расшифровано или разблокировано. Его всё ещё можно разобрать для получения ценных ресурсов.</VGE_EnemyGravshipAutocannonTurret.description>
+
+  <!-- EN: gravship autocannon -->
+  <VGE_Gun_EnemyGravshipAutocannon.label>гравипушка (автопушка гравикорабля)</VGE_Gun_EnemyGravshipAutocannon.label>
+
+  <!-- EN: gravship autocannon -->
+  <VGE_Gun_EnemyGravshipAutocannon.verbs.Verb_Shoot.label>корабельная автопушка</VGE_Gun_EnemyGravshipAutocannon.verbs.Verb_Shoot.label>
+
+  <!-- EN: enemy gravship uranium slug turret -->
+  <VGE_EnemyGravshipUraniumSlugTurret.label>вражеская гравитационная туре ль с урановыми снарядами</VGE_EnemyGravshipUraniumSlugTurret.label>
+
+  <!-- EN: A compact gravship-mounted armor-piercing turret. Its ultra-dense uranium shells can punch through heavy armor, but it requires new uranium slugs to be loaded after use. More efficient than its ground version, it consumes fewer slugs per shot. It's more accurate at longer ranges, and can't fire at all close up. May explode when damaged.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGravshipUraniumSlugTurret.description>Это компактная турельная установка для гравилёта, предназначенная для пробития брони. Её сверхплотные урановые снаряды способны пробить тяжёлую броню, но после использования требуется загрузка новых урановых снарядов. Более эффективна по сравнению с наземной версией, расходует меньше снарядов на выстрел. Обладает более высокой точностью на больших дистанциях и не может стрелять в упор. Может взорваться при повреждении.\n\nЭто устройство принадлежит врагу и не может быть расшифровано или разблокировано. Его всё равно можно разобрать для получения ценных ресурсов.</VGE_EnemyGravshipUraniumSlugTurret.description>
+
+  <!-- EN: gravship uranium slug gun -->
+  <VGE_Gun_EnemyGravshipUraniumSlug.label>гравитационный корабль урановый снаряд пушка</VGE_Gun_EnemyGravshipUraniumSlug.label>
+
+  <!-- EN: gravship uranium slug gun -->
+  <VGE_Gun_EnemyGravshipUraniumSlug.verbs.Verb_Shoot.label>корабельная урановая пушка</VGE_Gun_EnemyGravshipUraniumSlug.verbs.Verb_Shoot.label>
+
+  <!-- EN: enemy oxygen pump -->
+  <VGE_EnemyOxygenPump.label>вражеский кислородный насос</VGE_EnemyOxygenPump.label>
+
+  <!-- EN: A unit connected to the gravship’s life support network. It keeps rooms heated and pressurized.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyOxygenPump.description>Устройство, подключённое к сети жизнеобеспечения гравилёта. Оно поддерживает в помещениях тепло и давление.</VGE_EnemyOxygenPump.description>
+
+  <!-- EN: enemy gravship light -->
+  <VGE_EnemyGravshipLight_red.label>вражеский гравитационный корабль (свет)</VGE_EnemyGravshipLight_red.label>
+
+  <!-- EN: An ancient light containing a long-lasting battery.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGravshipLight_red.description>Древний светильник с долговечным аккумулятором.</VGE_EnemyGravshipLight_red.description>
+
+  <!-- EN: enemy gauss howitzer -->
+  <VGE_EnemyGaussHowitzer.label>гауссовка врага</VGE_EnemyGaussHowitzer.label>
+
+  <!-- EN: A triple-barrel electromagnetic artillery piece that fires dense uranium slugs at high velocity. Designed for both local bombardments and long-range engagements, it can also target other gravships in orbit. It draws power directly from the grav engine and does not require a linked terminal to function.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyGaussHowitzer.description>Это трёхствольное электромагнитное артиллерийское орудие, стреляющее плотными урановыми снарядами на высокой скорости. Предназначено как для локальных бомбардировок, так и для ведения огня на дальние дистанции, может также поражать гравитационные корабли на орбите. Питание получает напрямую от гравидвигателя и не требует подключённого терминала для функционирования.\n\nЭто устройство принадлежит врагу и не может быть расшифровано или разблокировано. Его всё ещё можно разобрать для получения ценных ресурсов.</VGE_EnemyGaussHowitzer.description>
+
+  <!-- EN: enemy gauss howitzer -->
+  <VGE_Gun_EnemyGaussHowitzer.label>гауссовка врага</VGE_Gun_EnemyGaussHowitzer.label>
+
+  <!-- EN: enemy gauss howitzer -->
+  <VGE_Gun_EnemyGaussHowitzer.verbs.Verb_ShootWithSmoke.label>вражеская гаусс-гаубица</VGE_Gun_EnemyGaussHowitzer.verbs.Verb_ShootWithSmoke.label>
+
+  <!-- EN: enemy javelin launcher -->
+  <VGE_EnemyJavelinLauncher.label>пусковая установка «вражеских дротиков»</VGE_EnemyJavelinLauncher.label>
+
+  <!-- EN: A heavy multi-tube missile platform that fires a spread of 12 long-range guided astrofuel-propelled javelins. Designed for saturation strikes against surface targets and rival gravships in orbit. It draws power directly from the grav engine and does not require a linked terminal to function.  This particular device is owned by the enemy and can't be decrypted or unlocked. It can still be deconstructed to yield some valuable resources.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EnemyJavelinLauncher.description>Это тяжёлая многоствольная ракетная платформа, которая выпускает 12 управляемых дротиков на астротопливе дальнего действия. Предназначена для нанесения массированных ударов по наземным целям и гравитационным кораблям на орбите. Получает питание непосредственно от гравидвигателя и не требует подключённого терминала для работы.\n\nЭто устройство принадлежит врагу, его нельзя расшифровать или разблокировать. Однако его можно разобрать, чтобы получить ценные ресурсы.</VGE_EnemyJavelinLauncher.description>
+
+  <!-- EN: enemy javelin launcher -->
+  <VGE_Gun_EnemyJavelinLauncher.label>пусковая установка противотанковых дротиков (вражеская)</VGE_Gun_EnemyJavelinLauncher.label>
+
+  <!-- EN: enemy javelin launcher -->
+  <VGE_Gun_EnemyJavelinLauncher.verbs.Verb_ShootWithWorldTargeting.label>вражеская ракетная установка «Дротик»</VGE_Gun_EnemyJavelinLauncher.verbs.Verb_ShootWithWorldTargeting.label>
+
+  <!-- EN: exoworm -->
+  <VGE_GiantWormspitter_Releaser.label>экзочервь</VGE_GiantWormspitter_Releaser.label>
+
+  <!-- EN: An incoming exoworm.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GiantWormspitter_Releaser.description>На подходе экзочервь.</VGE_GiantWormspitter_Releaser.description>
+
+  <!-- EN: charge battery -->
+  <VGE_MechanoidChargeBattery.label>заряд батареи</VGE_MechanoidChargeBattery.label>
+
+  <!-- EN: A massive, pulse-charged artillery battery for indiscriminate, wide-area saturation. It’s capable of firing long, inaccurate bursts of fast-moving explosive projectiles. The weapon is fully autonomous, operated by a machine brain that requires no crew. Commonly seen on orbital bombardment platforms.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidChargeBattery.description>Массивная импульсная артиллерийская батарея для неизбирательной бомбардировки больших площадей. Она способна вести длительные неточные залпы быстро движущихся разрывных снарядов. Оружие полностью автономно, управляется машинным мозгом и не требует экипажа. Часто встречается на платформах орбитальной бомбардировки.</VGE_MechanoidChargeBattery.description>
+
+  <!-- EN: charge battery -->
+  <VGE_Gun_MechanoidChargeBattery.label>заряд батареи</VGE_Gun_MechanoidChargeBattery.label>
+
+  <!-- EN: A massive, pulse-charged artillery battery.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Gun_MechanoidChargeBattery.description>Массивная импульсная артиллерийская батарея.</VGE_Gun_MechanoidChargeBattery.description>
+
+  <!-- EN: charge battery -->
+  <VGE_Gun_MechanoidChargeBattery.verbs.Verb_ShootWithSmoke.label>батарея плазменных орудий</VGE_Gun_MechanoidChargeBattery.verbs.Verb_ShootWithSmoke.label>
+
+  <!-- EN: inferno artillery -->
+  <VGE_MechanoidInfernoArtillery.label>адская артиллерия</VGE_MechanoidInfernoArtillery.label>
+
+  <!-- EN: A massive, long-range bombardment cannon built by mechanoids. It launches superheated astrofuel rods that detonate upon impact, unleashing a conflagration of astrofire capable of burning in the vacuum of space. The weapon is fully autonomous, operated by a machine brain that requires no crew. Commonly seen on orbital bombardment platforms.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidInfernoArtillery.description>Массивная дальнобойная бомбардировочная пушка, созданная механоидами. Она запускает раскалённые стержни астротоплива, которые взрываются при ударе, вызывая огненный шторм астроогня, способный гореть в вакууме космоса. Оружие полностью автономно, управляется машинным мозгом и не требует экипажа. Часто встречается на орбитальных платформах для бомбардировок.</VGE_MechanoidInfernoArtillery.description>
+
+  <!-- EN: inferno artillery -->
+  <VGE_Gun_MechanoidInfernoArtillery.label>адская артиллерия</VGE_Gun_MechanoidInfernoArtillery.label>
+
+  <!-- EN: A massive, long-range bombardment cannon built by mechanoids.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Gun_MechanoidInfernoArtillery.description>Это массивная дальнобойная бомбардировочная пушка, построенная механоидами.</VGE_Gun_MechanoidInfernoArtillery.description>
+
+  <!-- EN: inferno artillery -->
+  <VGE_Gun_MechanoidInfernoArtillery.verbs.Verb_ShootWithSmoke.label>инферно-артиллерия</VGE_Gun_MechanoidInfernoArtillery.verbs.Verb_ShootWithSmoke.label>
+
+  <!-- EN: mechanoid grav tether -->
+  <VGE_MechanoidGravTether.label>механиоидный гравитационный трос</VGE_MechanoidGravTether.label>
+
+  <!-- EN: A vast, artificial core of colossal mechanoid orbital platforms. Unlike human-built grav engines, these are constructed by the mechanoid core itself, optimized for ruthless efficiency and unending operation. They generate monumental lift and stabilization fields that allow entire, sprawling space stations to remain suspended in orbit, forming the backbone of mechanoid dominance in space. While largely incompatible with human systems, they can be destroyed to yield a gravcore, a rare and valuable prize for any who dare to challenge them.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidGravTether.description>Огромное искусственное ядро колоссальных орбитальных платформ механоидов. В отличие от гравидвигателей, созданных человеком, эти построены самим ядром механоида и оптимизированы для безжалостной эффективности и непрерывной работы. Они создают грандиозные подъёмные и стабилизирующие поля, которые позволяют целым обширным космическим станциям оставаться на орбите, формируя основу доминирования механоидов в космосе. Хотя они в значительной степени несовместимы с человеческими системами, их можно уничтожить, чтобы получить гравиядро — редкий и ценный приз для тех, кто осмелится бросить им вызов.</VGE_MechanoidGravTether.description>
+
+  <!-- EN: mechanoid hull platform -->
+  <VGE_MechanoidHullPlatform.label>платформа корпуса механоида</VGE_MechanoidHullPlatform.label>
+
+  <!-- EN: A dense, structural building block used to form mechanoid orbital platforms. Due to the special gravlite alloys used to create them, they are impervious to damage. They are a constant fixture on mechanoid orbital platforms.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidHullPlatform.description>Плотный конструкционный строительный блок, используемый для формирования орбитальных платформ механоидов. Благодаря специальным сплавам гравлита, из которых они изготовлены, они неуязвимы для повреждений. Они являются постоянной составляющей орбитальных платформ механоидов.</VGE_MechanoidHullPlatform.description>
+
+  <!-- EN: mechanoid stabilizer -->
+  <VGE_MechanoidStabilizer.label>стабилизатор механоида</VGE_MechanoidStabilizer.label>
+
+  <!-- EN: A compact astrofuel thruster built by the mechanoid core to propel their orbital platforms. Its construction mirrors human design but is reinforced with mechanical precision, lined with thick vacstone plating that shrugs off extreme heat and stress. These smaller thrusters assist platforms with fine-tuned maneuvering and position-holding in orbit. While unusable for human gravships, destroying one will yield a tiny supply of precious vacstone blocks.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidStabilizer.description>Компактный астротопливный двигатель, созданный ядром механиоида для приведения в движение их орбитальных платформ. Его конструкция повторяет человеческий дизайн, но усилена с механической точностью и облицована толстым слоем вакстоуна, который выдерживает экстремальные температуры и нагрузки. Эти небольшие двигатели помогают платформам точно маневрировать и удерживать позицию на орбите. Хотя они непригодны для использования в человеческих гравилетах, после их уничтожения можно получить небольшое количество ценных блоков вакстоуна.</VGE_MechanoidStabilizer.description>
+
+  <!-- EN: mechanoid heatsink -->
+  <VGE_MechanoidHeatsink.label>радиатор охлаждения механоида</VGE_MechanoidHeatsink.label>
+
+  <!-- EN: A long, skeletal thermal regulator strut, built into the structure of mechanoid platforms to ensure total thermal stability. It absorbs waste heat from active mechanoid systems and converts a fraction of it into operational power, thus preventing core overheating and maintaining maximum efficiency.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidHeatsink.description>Длинная опора-регулятор теплового режима в виде каркаса, встроенная в конструкцию платформ механоидов для обеспечения общей термостабильности. Она поглощает отработанное тепло от активных систем механоида и преобразует часть его в рабочую энергию, предотвращая перегрев ядра и поддерживая максимальную эффективность.</VGE_MechanoidHeatsink.description>
+
+  <!-- EN: mechanoid solar panel -->
+  <VGE_MechanoidSolarPanel.label>механиоидная солнечная панель</VGE_MechanoidSolarPanel.label>
+
+  <!-- EN: A dense array of hexagonal gravlite solar panels, arranged in a tight grid across mechanoid platforms. They efficiently convert solar radiation into power, maintaining the endless operational cycle of mechanoid systems.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidSolarPanel.description>Плотный массив шестиугольных гравилитовых солнечных панелей, расположенных в плотной сетке на платформах механоидов. Они эффективно преобразуют солнечную радиацию в энергию, поддерживая непрерывный рабочий цикл систем механоидов.</VGE_MechanoidSolarPanel.description>
+
+  <!-- EN: mechanoid targeting relay -->
+  <VGE_MechanoidTargetingRelay.label>ретранслятор наведения механоида</VGE_MechanoidTargetingRelay.label>
+
+  <!-- EN: A specialized relay that transmits precise targeting parameters to all nearby mechanoid artillery pieces. The constant stream of data dramatically improves their accuracy, ensuring devastatingly precise bombardment.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidTargetingRelay.description>Специализированное реле, которое передаёт точные параметры наведения всем артиллерийским установкам механоидов поблизости. Постоянный поток данных значительно повышает их точность, обеспечивая сокрушительно точную бомбардировку.</VGE_MechanoidTargetingRelay.description>
+
+  <!-- EN: mechanoid artillery loader -->
+  <VGE_MechanoidArtilleryLoader.label>механистический артиллерийский погрузчик</VGE_MechanoidArtilleryLoader.label>
+
+  <!-- EN: A specialized, heavily-reinforced conveyor system designed to rapidly feed slugs into mechanoid mass drivers. It dramatically decreases the reload time of linked gravship artillery.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidArtilleryLoader.description>Специализированная, усиленная конвейерная система, предназначенная для быстрой подачи снарядов в артиллерийские орудия механоидов. Она значительно сокращает время перезарядки связанной гравитационной корабельной артиллерии.</VGE_MechanoidArtilleryLoader.description>
+
+  <!-- EN: mechanoid gravcapacitor -->
+  <VGE_MechanoidGravcapacitor.label>механоидный гравикондесатор</VGE_MechanoidGravcapacitor.label>
+
+  <!-- EN: A dense, complex energy reservoir used to store power for essential mechanoid systems. Its volatile charge is contained by powerful magnetic fields. If severely damaged, the released energy will detonate as a powerful EMP blast.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidGravcapacitor.description>Это плотный и сложный резервуар энергии, используемый для хранения питания систем механоидов. Его нестабильный заряд удерживается мощными магнитными полями. При серьёзном повреждении высвобождаемая энергия взорвётся мощным электромагнитным импульсом.</VGE_MechanoidGravcapacitor.description>
+
+  <!-- EN: mechanoid overshield -->
+  <VGE_MechanoidOvershieldGenerator.label>механизированный щит</VGE_MechanoidOvershieldGenerator.label>
+
+  <!-- EN: A colossal defensive structure that projects a powerful, static energy shield with a huge radius. This barrier intercepts all incoming projectiles but permits fire from within. Once its substantial energy is depleted, the shield collapses, and the generator must endure a lengthy 15-day recharge cycle before the overshield can be redeployed.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidOvershieldGenerator.description>Это колоссальная защитная структура, которая создаёт мощный стационарный энергетический щит с огромным радиусом действия. Этот барьер перехватывает все приближающиеся снаряды, но позволяет вести огонь изнутри. После исчерпания значительной части энергии щит разрушается, и генератору требуется 15 дней для подзарядки, прежде чем можно будет повторно активировать overshield.</VGE_MechanoidOvershieldGenerator.description>
+
+  <!-- EN: mechanoid signal jammer -->
+  <VGE_MechanoidSignalJammer.label>глушилка сигналов механоидов</VGE_MechanoidSignalJammer.label>
+
+  <!-- EN: A sophisticated array of sensors and emitters that broadcast localized interference across the immediate vicinity. By saturating the area with conflicting gravimetric signals, it prevents the approach of any gravship or drop pod, creating an impenetrable exclusion zone around the installation.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidSignalJammer.description>Это сложная система датчиков и излучателей, которая создаёт локализованные помехи в непосредственной близости. Насыщая территорию конфликтующими гравиметрическими сигналами, она предотвращает приближение любых гравилётов или десантных капсул, создавая непроницаемую зону отчуждения вокруг установки.</VGE_MechanoidSignalJammer.description>
+
+  <!-- EN: mechanoid processor -->
+  <VGE_MechanoidAuxiliaryProcessor.label>процессор механоида</VGE_MechanoidAuxiliaryProcessor.label>
+
+  <!-- EN: An auxiliary mechanoid computer.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidAuxiliaryProcessor.description>Вспомогательный компьютер механоида.</VGE_MechanoidAuxiliaryProcessor.description>
+
+  <!-- EN: mechanoid gravfield amplifier -->
+  <VGE_MechanoidGravfieldAmplifier.label>усилитель гравитационного поля механоида</VGE_MechanoidGravfieldAmplifier.label>
+
+  <!-- EN: A complex array of gravimetric resonators designed to stabilize and enhance the output of mechanoid grav engines. This amplifier allows orbital platforms to expand to colossal dimensions while maintaining structural integrity in space.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidGravfieldAmplifier.description>Комплекс гравиметрических резонаторов, предназначенный для стабилизации и усиления работы гравидвигателей механоидов. Этот усилитель позволяет орбитальным платформам достигать колоссальных размеров, сохраняя при этом структурную целостность в космосе.</VGE_MechanoidGravfieldAmplifier.description>
+
+  <!-- EN: mechanoid gravfield extender -->
+  <VGE_MechanoidGravfieldExtender.label>механиод-расширитель гравитационного поля</VGE_MechanoidGravfieldExtender.label>
+
+  <!-- EN: A support structure that stabilizes the localized gravity field of a mechanoid platform. By connecting to the primary grav engines, it extends the reach of the field, enabling more complex platform configurations and better structural integrity.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidGravfieldExtender.description>Опорная конструкция, стабилизирующая локализованное гравитационное поле механиоидной платформы. Соединяясь с основными гравидвигателями, она расширяет зону действия поля, позволяя создавать более сложные конфигурации платформ и повышая их структурную целостность.</VGE_MechanoidGravfieldExtender.description>
+
+  <!-- EN: mechanoid information spire -->
+  <VGE_MechanoidInformationSpire.label>механистический информационный шпиль</VGE_MechanoidInformationSpire.label>
+
+  <!-- EN: A support structure that stabilizes the localized gravity field of a mechanoid platform. By connecting to the primary grav engines, it extends the reach of the field, enabling more complex platform configurations and better structural integrity.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidInformationSpire.description>Опорная конструкция, стабилизирующая локализованное гравитационное поле механистической платформы. Соединяясь с основными гравидвигателями, она расширяет зону действия поля, позволяя создавать более сложные конфигурации платформ и повышая структурную целостность.</VGE_MechanoidInformationSpire.description>
+
+  <!-- EN: mechanoid resource crate -->
+  <VGE_MechanoidResourceCrate.label>контейнер ресурсов механоида</VGE_MechanoidResourceCrate.label>
+
+  <!-- EN: A mechanoid resource container. It appears impossible to open, and nobody knows what could be stored inside.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidResourceCrate.description>Контейнер ресурсов механоида. Кажется, его невозможно открыть, и никто не знает, что может храниться внутри.</VGE_MechanoidResourceCrate.description>
+
+  <!-- EN: mechanoid sensor node -->
+  <VGE_MechanoidSensorNode.label>узел датчика механоида</VGE_MechanoidSensorNode.label>
+
+  <!-- EN: A sophisticated sensor array utilizing advanced optics and gravimetric scanners to monitor orbital activity, feeding real-time data and faction movements back to the mechanoid swarm.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_MechanoidSensorNode.description>Это сложная сенсорная система, использующая передовую оптику и гравиметрические сканеры для мониторинга орбитальной активности, передачи данных в реальном времени и отслеживания перемещений фракций обратно к рою механоидов.</VGE_MechanoidSensorNode.description>
+
+  <!-- EN: mech nav beacon -->
+  <VGE2_MechNavBeacon.label>механический навигационный маяк</VGE2_MechNavBeacon.label>
+
+  <!-- EN: A specialized beacon used by mechanoid orbital platforms to broadcast precise docking vectors and formation coordinates.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_MechNavBeacon.description>Специализированный маяк, используемый механическими орбитальными платформами для трансляции точных векторов стыковки и координат строя.</VGE2_MechNavBeacon.description>
+
+  <!-- EN: mech vertex -->
+  <VGE2_MechVertex.label>механовершина</VGE2_MechVertex.label>
+
+  <!-- EN: A mysterious, autonomous mechanoid node with unknown purpose. While these nodes are rich in extractable resources, they are exceptionally delicate, and any significant damage will trigger a catastrophic failure in their micro power cells.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_MechVertex.description>Таинственный автономный узел-механоид с неизвестной целью. Хотя в этих узлах много извлекаемых ресурсов, они исключительно хрупкие, и любое серьёзное повреждение приведёт к катастрофическому сбою микробатарей.</VGE2_MechVertex.description>
+
+  <!-- EN: exohive -->
+  <VGE_ExoHive_Building.label>экзоулей</VGE_ExoHive_Building.label>
+
+  <!-- EN: A hive of giant insects of an exo-geneline. If activated, it will spawn additional insects and hives over time, as well as valuable insect jelly. It may occasionally move and fight when threatened.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_ExoHive_Building.description>Улей гигантских насекомых экзогенной линии. При активации со временем будет порождать дополнительных насекомых и ульи, а также ценное насекомое желе. Может иногда перемещаться и сражаться при угрозе.</VGE_ExoHive_Building.description>
+
+  <!-- EN: giant wormspitter -->
+  <VGE_GiantWormspitter.label>гигантский выплевыватель червей</VGE_GiantWormspitter.label>
+
+  <!-- EN: A massive megaworm partially buried within an asteroid, with only its spitting apparatus exposed. This creature is adept at launching specialized pods over considerable distances that rupture on impact, releasing aggressive exoworms. It serves as a long-range defense for the infested asteroids and exohives.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GiantWormspitter.description>Массивный мегачервь, частично зарытый в астероиде, с обнаженным только его метательным аппаратом. Это существо умеет запускать специальные капсулы на значительные расстояния, которые разрываются при ударе, выпуская агрессивных экзочервей. Оно служит для защиты зараженных астероидов и экзоульев на дальних дистанциях.</VGE_GiantWormspitter.description>
+
+  <!-- EN: giant wormspitter -->
+  <VGE_GiantWormspitter_Gun.label>гигантский выплевыватель червей</VGE_GiantWormspitter_Gun.label>
+
+  <!-- EN: A massive megaworm partially buried within an asteroid, with only its spitting apparatus exposed. This creature is adept at launching specialized pods over considerable distances that rupture on impact, releasing aggressive exoworms. It serves as a long-range defense for the infested asteroids and exohives.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GiantWormspitter_Gun.description>Это массивный мегачервь, частично погребённый внутри астероида, с обнажённым только его выплевывающим аппаратом. Это существо умеет запускать специализированные капсулы на значительные расстояния, которые разрываются при ударе, высвобождая агрессивных экзочервей. Оно служит защитой дальнего радиуса действия для заражённых астероидов и экзоульев.</VGE_GiantWormspitter_Gun.description>
+
+  <!-- EN: giant wormspitter -->
+  <VGE_GiantWormspitter_Gun.verbs.Verb_Shoot.label>гигантский червемёт</VGE_GiantWormspitter_Gun.verbs.Verb_Shoot.label>
+
+  <!-- EN: exoworm egg sac -->
+  <VGE_EggSac.label>яйцевой мешок экзочервя</VGE_EggSac.label>
+
+  <!-- EN: A slimy sac containing an exoworm. The larval gestation process generates a faint bioluminescent glow.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EggSac.description>Это слизистый мешок, в котором находится экзочервь. Процесс вынашивания личинки создаёт слабое биолюминесцентное свечение.</VGE_EggSac.description>
+
+  <!-- EN: exoworm cocoon -->
+  <VGE_ExowormCocoon.label>экзочервячий кокон</VGE_ExowormCocoon.label>
+
+  <!-- EN: A stasis cocoon containing an exoworm.  When conditions are inhospitable, insects sometimes form stasis cocoons and burrow underground. These cocoons keep insects safe from fire, extreme temperatures, and other threats for years.  Pollutants can stimulate cocoons and cause them to resurface, and strong pollutants can attract cocoons from great distances.  Cocoons do nothing if they are not disturbed. If a cocoon is disturbed or destroyed, the insect within will awaken and attack, triggering other nearby cocoons in the process.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_ExowormCocoon.description>Стазисный кокон, содержащий экзочервя.\n\nВ неблагоприятных условиях насекомые иногда формируют стазисные коконы и зарываются под землёй. Такие коконы защищают насекомых от огня, экстремальных температур и других угроз на протяжении многих лет.\n\nЗагрязняющие вещества могут стимулировать коконы и заставить их всплыть на поверхность, а сильные загрязнители могут привлечь коконы с больших расстояний.\n\nЕсли кокон не потревожить, он ничего не делает. Если же кокон потревожить или разрушить, насекомое внутри проснётся и нападёт, активировав при этом другие ближайшие коконы.</VGE_ExowormCocoon.description>
+
+  <!-- EN: astrofuel pod launcher -->
+  <VGE_AstrofuelPodLauncher.label>пусковая установка астротопливных капсул</VGE_AstrofuelPodLauncher.label>
+
+  <!-- EN: A compact fueling port for launching one transport pod. Utilizing highly efficient astrofuel, this launcher is significantly smaller than traditional designs. Pod launchers can launch as a group - but the launchers must be placed adjacent to each other.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_AstrofuelPodLauncher.description>Компактный заправочный порт для запуска одной транспортной капсулы. Используя высокоэффективное астротопливо, эта пусковая установка значительно меньше традиционных конструкций. Пусковые установки могут запускать капсулы группами, но они должны быть расположены рядом друг с другом.</VGE_AstrofuelPodLauncher.description>
+
+  <!-- EN: escape pod -->
+  <VGE_EscapePod.label>спасательная капсула</VGE_EscapePod.label>
+
+  <!-- EN: A floor-mounted, pre-fueled single use escape pod designed to quickly evacuate a single colonist with whatever gear they happened to carry at the time. The escape pod launches immediately upon the crewmember entering it, and will launch directly down to surface. Needs to be placed on gravship substructure. Only works in orbit.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EscapePod.description>Спасательная капсула, устанавливаемая на полу, предварительно заправленная топливом для однократного использования, предназначенная для быстрой эвакуации одного колониста вместе с тем снаряжением, которое у него оказалось при себе в тот момент. Капсула запускается немедленно после того, как член экипажа входит в неё, и спускается прямо к поверхности. Должна быть размещена на гравикорабельной конструкции. Работает только на орбите.</VGE_EscapePod.description>
+
+  <!-- EN: vacuum warning light -->
+  <VGE_VacuumWarningLight.label>лампа предупреждения о вакууме</VGE_VacuumWarningLight.label>
+
+  <!-- EN: An electrical warning lamp that emits flashing orange light if the vacuum in the room reaches dangerous levels. Undrafted crewmembers will make their way out of the room when the warning light turns on. Draws power directly from the grav engine.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_VacuumWarningLight.description>Электрическая предупреждающая лампа, которая излучает мигающий оранжевый свет, если уровень вакуума в помещении достигает опасных значений. Непризванные члены экипажа покидают помещение, когда загорается предупреждающая лампа. Питается напрямую от гравидвигателя.</VGE_VacuumWarningLight.description>
+
+  <!-- EN: astrofuel barrel -->
+  <VGE2_AstrofuelBarrel.label>бочка астротоплива</VGE2_AstrofuelBarrel.label>
+
+  <!-- EN: A barrel of volatile astrofuel. It will explode if damaged.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_AstrofuelBarrel.description>Бочка с летучим астротопливом. Она взорвётся при повреждении.</VGE2_AstrofuelBarrel.description>
+
+  <!-- EN: astrofuel pipe segment -->
+  <VGE2_AstrofuelPipeSegment.label>сегмент астротопливопровода</VGE2_AstrofuelPipeSegment.label>
+
+  <!-- EN: A long segment of an overground astrofuel pipe. It will explode if damaged, and will leak astrofuel when damaged.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_AstrofuelPipeSegment.description>Длинный отрезок наземного астротопливопровода. При повреждении взрывается и протекает астротопливо.</VGE2_AstrofuelPipeSegment.description>
+
+  <!-- EN: explosives crate -->
+  <VGE2_ExplosivesCrate.label>ящик со взрывчаткой</VGE2_ExplosivesCrate.label>
+
+  <!-- EN: A container of mining charges. It will explode if damaged.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_ExplosivesCrate.description>Контейнер с горными зарядами. Взорвётся при повреждении.</VGE2_ExplosivesCrate.description>
+
+  <!-- EN: floor oxygen vent -->
+  <VGE2_FloorOxygenVent.label>вентиляционное отверстие для подачи кислорода в полу</VGE2_FloorOxygenVent.label>
+
+  <!-- EN: An oxygen vent leading to a deeper oxygen installation, continuously pushing oxygen into the room.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_FloorOxygenVent.description>Вентиляционное отверстие для подачи кислорода в полу, ведущее к более глубокой кислородной установке, непрерывно нагнетающее кислород в помещение.</VGE2_FloorOxygenVent.description>
+
+  <!-- EN: locked shuttle -->
+  <VGE2_LockedShuttle.label>запертый шаттл</VGE2_LockedShuttle.label>
+
+  <!-- EN: A chemfuel-powered shuttle designed for long-distance travel, typically utilized by the trading guild. Heavy magnetic clamps prevent it from being operated without authorization, but it can still be deconstructed to obtain the shuttle engine.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_LockedShuttle.description>Шаттл на химическом топливе, предназначенный для путешествий на дальние расстояния, обычно используемый торговой гильдией. Тяжёлые магнитные зажимы не позволяют управлять им без разрешения, но его всё равно можно разобрать, чтобы получить двигатель шаттла.</VGE2_LockedShuttle.description>
+
+  <!-- EN: nav beacon -->
+  <VGE2_NavBeacon.label>навигационный маяк</VGE2_NavBeacon.label>
+
+  <!-- EN: A ship navigation beacon. Used to help shuttles and larger vessels with docking procedures.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_NavBeacon.description>Навигационный маяк для корабля. Используется, чтобы помочь шаттлам и более крупным судам при стыковке.</VGE2_NavBeacon.description>
+
+  <!-- EN: orbital light -->
+  <VGE2_OrbitalLight.label>орбитальный светильник</VGE2_OrbitalLight.label>
+
+  <!-- EN: An internally powered standing lamp that lights an area. People need light to move and work at full speed. In case of loss of pressure, the light will turn red.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_OrbitalLight.description>Это настольная лампа с внутренним источником питания, которая освещает территорию. Людям нужен свет, чтобы двигаться и работать на полной скорости. В случае потери давления свет станет красным.</VGE2_OrbitalLight.description>
+
+  <!-- EN: oxyfarm -->
+  <VGE2_Oxyfarm.label>оксифарм</VGE2_Oxyfarm.label>
+
+  <!-- EN: A small, self-contained tank filled with engineered oxyalgae, capable of producing oxygen in small, steady quantities.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_Oxyfarm.description>Небольшой автономный резервуар, наполненный модифицированными оксиводорослями, способный производить кислород в небольших постоянных количествах.</VGE2_Oxyfarm.description>
+
+  <!-- EN: power socket -->
+  <VGE2_PowerSocket.label>розетка электропитания</VGE2_PowerSocket.label>
+
+  <!-- EN: A medium-sized power socket emerging from a deeper capacitor bank under the floor. Constantly generates a steady supply of power.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_PowerSocket.description>Розетка электропитания среднего размера, выходящая из более глубокого блока конденсаторов под полом. Постоянно генерирует стабильное электропитание.</VGE2_PowerSocket.description>
+
+  <!-- EN: spacer crate -->
+  <VGE2_SpacerCrate.label>космический контейнер</VGE2_SpacerCrate.label>
+
+  <!-- EN: A spacer, futuristic crate with nothing of value in it.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_SpacerCrate.description>Космический контейнер, футуристическая упаковка, в которой нет ничего ценного.</VGE2_SpacerCrate.description>
+
+  <!-- EN: station antenna -->
+  <VGE2_StationAntenna.label>станция антенна</VGE2_StationAntenna.label>
+
+  <!-- EN: A precise but fragile antenna used to transmit communications between the orbital stations.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_StationAntenna.description>Это точная, но хрупкая антенна, используемая для передачи сигналов между орбитальными станциями.</VGE2_StationAntenna.description>
+
+  <!-- EN: station equipment block -->
+  <VGE2_StationEquipmentBlock.label>блок станционного оборудования</VGE2_StationEquipmentBlock.label>
+
+  <!-- EN: A modular array of station equipment blocks, kept in perfect working order. These units handle critical station logistics and system maintenance.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_StationEquipmentBlock.description>Модульный массив блоков станционного оборудования, поддерживаемый в идеальном рабочем состоянии. Эти блоки отвечают за критически важную логистику станции и обслуживание систем.</VGE2_StationEquipmentBlock.description>
+
+  <!-- EN: station console -->
+  <VGE2_StationConsole.label>консоль станции</VGE2_StationConsole.label>
+
+  <!-- EN: A special console used to monitor and control various subsystems of the orbital station.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_StationConsole.description>Специальная консоль, используемая для мониторинга и управления различными подсистемами орбитальной станции.</VGE2_StationConsole.description>
+
+  <!-- EN: small station console -->
+  <VGE2_SmallStationConsole.label>консоль малой станции</VGE2_SmallStationConsole.label>
+
+  <!-- EN: A special console used to monitor and control various subsystems of the orbital station.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_SmallStationConsole.description>Специальная консоль, используемая для мониторинга и управления различными подсистемами орбитальной станции.</VGE2_SmallStationConsole.description>
+
+  <!-- EN: station filing cabinet -->
+  <VGE2_StationFilingCabinet.label>шкаф для хранения документов</VGE2_StationFilingCabinet.label>
+
+  <!-- EN: A filing cabinet containing some documents, critical and not, related to the orbital station.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_StationFilingCabinet.description>Шкаф для хранения документов, содержащий некоторые документы, важные и не очень, связанные с орбитальной станцией.</VGE2_StationFilingCabinet.description>
+
+  <!-- EN: station locker bank -->
+  <VGE2_StationLockerBank.label>шкафчик-хранилище на станции</VGE2_StationLockerBank.label>
+
+  <!-- EN: A bank of lockers. Used on orbital stations to hold personal belongings of crewmembers.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_StationLockerBank.description>Шкафчик-хранилище на станции. Используется на орбитальных станциях для хранения личных вещей членов экипажа.</VGE2_StationLockerBank.description>
+
+  <!-- EN: station system rack -->
+  <VGE2_StationSystemRack.label>стойка для станционных систем</VGE2_StationSystemRack.label>
+
+  <!-- EN: A rack unit packed with unidentifiable devices. Nothing on it seems particularly valuable.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_StationSystemRack.description>Стойка с неразличимыми устройствами внутри. На первый взгляд, на ней нет ничего особенно ценного.</VGE2_StationSystemRack.description>
+
+  <!-- EN: trading container -->
+  <VGE2_TradingContainer.label>торговый контейнер</VGE2_TradingContainer.label>
+
+  <!-- EN: A large sealed container belonging to some sort of orbital trader’s stockpile. It may contain valuable supplies, but needs to be destroyed to release them.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_TradingContainer.description>Это большой герметичный контейнер, принадлежащий какому-то орбитальному торговцу. В нём могут быть ценные припасы, но для их получения нужно уничтожить контейнер.</VGE2_TradingContainer.description>
+
+  <!-- EN: spacer medicine pallet -->
+  <VGE_SpacerPallet_Medicine.label>космический медицинский паллет</VGE_SpacerPallet_Medicine.label>
+
+  <!-- EN: A pallet containing medical supplies. Can be looted to yield medicine.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_SpacerPallet_Medicine.description>Паллет, содержащий медицинские принадлежности. Можно разграбить для получения медикаментов.</VGE_SpacerPallet_Medicine.description>
+
+  <!-- EN: spacer rations pallet -->
+  <VGE_SpacerPallet_SurvivalMeals.label>паллет с космическими пайками</VGE_SpacerPallet_SurvivalMeals.label>
+
+  <!-- EN: A pallet containing stacked rations. Can be looted to yield survival meals.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_SpacerPallet_SurvivalMeals.description>Это паллет, содержащий уложенные в стопки пайки. Его можно разграбить, чтобы получить еду для выживания.</VGE_SpacerPallet_SurvivalMeals.description>
+
+  <!-- EN: spacer component box -->
+  <VGE_SpacerBox_ComponentIndustrial.label>контейнер-проставка с компонентами</VGE_SpacerBox_ComponentIndustrial.label>
+
+  <!-- EN: A spacer logistical box filled with valuable components. They’re intact and very usable.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_SpacerBox_ComponentIndustrial.description>Контейнер-проставка с компонентами, заполненный ценными комплектующими. Они в сохранности и пригодны к использованию.</VGE_SpacerBox_ComponentIndustrial.description>
+
+  <!-- EN: spacer electronics box -->
+  <VGE_SpacerBox_ComponentSpacer.label>контейнер-проставка с электроникой</VGE_SpacerBox_ComponentSpacer.label>
+
+  <!-- EN: A spacer logistical box filled with electronics and advanced components. Everything seems to work fine.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_SpacerBox_ComponentSpacer.description>Контейнер-проставка с электроникой, заполненный логистическими материалами и передовыми компонентами. Кажется, всё работает нормально.</VGE_SpacerBox_ComponentSpacer.description>
+
+  <!-- EN: spacer steel box -->
+  <VGE_SpacerBox_Steel.label>стальная коробка-проставка</VGE_SpacerBox_Steel.label>
+
+  <!-- EN: A spacer logistical box filled with steel scrap. It's heavy but might contain some recoverable metal.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_SpacerBox_Steel.description>Стальная коробка-проставка, заполненная стальным ломом. Она тяжёлая, но может содержать поддающийся восстановлению металл.</VGE_SpacerBox_Steel.description>
+
+  <!-- EN: spacer gravlite box -->
+  <VGE_SpacerBox_Gravlite.label>гравилитовая коробка-проставка</VGE_SpacerBox_Gravlite.label>
+
+  <!-- EN: A spacer logistical box filled with gravlite panel chunks. While most of it seems like gravlite waste, some chunks appear intact.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_SpacerBox_Gravlite.description>Это логистическая коробка-проставка, наполненная фрагментами гравилитовых панелей. Хотя большая часть выглядит как отходы гравилита, некоторые фрагменты кажутся неповреждёнными.</VGE_SpacerBox_Gravlite.description>
+
+  <!-- EN: station light -->
+  <VGE_StationLight_Blue.label>станция света</VGE_StationLight_Blue.label>
+
+  <!-- EN: A special light panel wired to the station's main power source.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_StationLight_Blue.description>Специальная световая панель, подключённая к основному источнику питания станции.</VGE_StationLight_Blue.description>
+
+  <!-- EN: station light -->
+  <VGE_StationLight.label>станция света</VGE_StationLight.label>
+
+  <!-- EN: A special light panel wired to the station's main power source.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_StationLight.description>Это специальная световая панель, подключённая к основному источнику питания станции.</VGE_StationLight.description>
+
+  <!-- EN: pos beacon -->
+  <VGE2_PosBeacon_Green.label>позиционный маяк</VGE2_PosBeacon_Green.label>
+
+  <!-- EN: An orbital station positioning beacon. Used to ensure the orbital station does not drift off-orbit.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_PosBeacon_Green.description>Позиционный маяк орбитальной станции. Используется для того, чтобы орбитальная станция не выходила из орбиты.</VGE2_PosBeacon_Green.description>
+
+  <!-- EN: pos beacon -->
+  <VGE2_PosBeacon_Red.label>позиционный маяк</VGE2_PosBeacon_Red.label>
+
+  <!-- EN: An orbital station positioning beacon. Used to ensure the orbital station does not drift off-orbit.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE2_PosBeacon_Red.description>Позиционный маяк орбитальной станции. Используется для того, чтобы орбитальная станция не выходила из орбиты.</VGE2_PosBeacon_Red.description>
+
+  <!-- EN: ancient warning light -->
+  <VGE_AncientEmergencyLight_Orange.label>древний аварийный сигнал</VGE_AncientEmergencyLight_Orange.label>
+
+  <!-- EN: An ancient light containing a long-lasting battery.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_AncientEmergencyLight_Orange.description>Древний аварийный светильник с долговечным аккумулятором.</VGE_AncientEmergencyLight_Orange.description>
+
+  <!-- EN: infested gravlock tether -->
+  <VGE_InfestedGravlockTether.label>заражённый гравизамок-трос</VGE_InfestedGravlockTether.label>
+
+  <!-- EN: A corrupted gravlock tether that has been hollowed out and repurposed into a gigantic exoinsectoid hive. Integrated directly into the station's ventilation system, this pulsing structure continuously pumps larvae through the vents, spawning new insectoids that spread throughout the station.  Destroy the infested gravlock tether to obtain a gravcore.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_InfestedGravlockTether.description>Заражённый гравизамок-трос, который был выпотрошен и переоборудован в гигантский улей эксоинсектоидов. Встроен непосредственно в систему вентиляции станции, эта пульсирующая структура непрерывно перекачивает личинки по вентиляционным каналам, порождая новых инсектоидов, которые распространяются по всей станции.\n\nУничтожьте заражённый гравизамок-трос, чтобы получить гравиядро.</VGE_InfestedGravlockTether.description>
+
+  <!-- EN: Contains: Gravcore -->
+  <VGE_InfestedGravlockTether.comps.CompInspectString.inspectString>Содержит: гравитационное ядро</VGE_InfestedGravlockTether.comps.CompInspectString.inspectString>
+
+  <!-- EN: Infested gravlock tether -->
+  <VGE_InfestedGravlockTether.comps.CompLetterOnRevealed.label>Заражённый гравизахват</VGE_InfestedGravlockTether.comps.CompLetterOnRevealed.label>
+
+  <!-- EN: You detect the heavy signs of the exoinsectoid mega-hive nearby. The infested gravlock tether must be destroyed to yield valuable gravcore and stop the ongoing infestation. -->
+  <VGE_InfestedGravlockTether.comps.CompLetterOnRevealed.text>Сканеры фиксируют явные признаки мега-улья экзоинсектоидов поблизости. Заражённый гравизахват должен быть разрушен, чтобы остановить распространение роя и получить ценное гравитационное ядро.</VGE_InfestedGravlockTether.comps.CompLetterOnRevealed.text>
+
+  <!-- EN: infested vent -->
+  <VGE_InfestedVent.label>заражённый вентиляционный канал</VGE_InfestedVent.label>
+
+  <!-- EN: A broken down vent leading deeper into the orbital station installation. Chittering and movement can be heard down below.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_InfestedVent.description>Заражённый вентиляционный канал, ведущий вглубь орбитальной станции. Снизу доносятся стрекот и звуки движения.</VGE_InfestedVent.description>
+
+  <!-- EN: fortified wall -->
+  <VGE_OrbitalPirateFortifiedWall.label>укреплённая стена</VGE_OrbitalPirateFortifiedWall.label>
+
+  <!-- EN: A reinforced wall made of an ultratech polymer and patched up with whatever salvagers found.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_OrbitalPirateFortifiedWall.description>Укреплённая стена из ультрасовременного полимера, отремонтированная с использованием найденных спасателями материалов.</VGE_OrbitalPirateFortifiedWall.description>
+
+  <!-- EN: salvager dropship -->
+  <VGE_SalvagerDropship.label>спасательный десантный корабль (dropship)</VGE_SalvagerDropship.label>
+
+  <!-- EN: A chemfuel-powered heavily armored dropship equipped with rocketswarm launchers. Designed for carpet bombing and incursions into enemy territory. This particular dropship seems to belong to salvagers.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_SalvagerDropship.description>Тяжёлый бронированный десантный корабль на химическом топливе, оснащённый пусковыми установками для ракетных роев. Предназначен для ковровой бомбардировки и вторжения на территорию противника. Этот конкретный десантный корабль, похоже, принадлежит спасателям-утилизаторам.</VGE_SalvagerDropship.description>
+
+  <!-- EN: glowstick pile -->
+  <VGE_GlowstickPile_Green.label>связка светящихся палочек</VGE_GlowstickPile_Green.label>
+
+  <!-- EN: A jumbled heap of glowsticks still spilling a soft, ethereal luminescence across the floor.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GlowstickPile_Green.description>Беспорядочная куча светящихся палочек, всё ещё источающих мягкое, призрачное свечение по всему полу.</VGE_GlowstickPile_Green.description>
+
+  <!-- EN: glowstick pile -->
+  <VGE_GlowstickPile_Orange.label>связка светящихся палочек</VGE_GlowstickPile_Orange.label>
+
+  <!-- EN: A jumbled heap of glowsticks still spilling a soft, ethereal luminescence across the floor.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GlowstickPile_Orange.description>Беспорядочная куча светящихся палочек, всё ещё излучающих мягкое, призрачное свечение по всему полу.</VGE_GlowstickPile_Orange.description>
+
+  <!-- EN: glowstick pile -->
+  <VGE_GlowstickPile_Blue.label>связка светящихся палочек</VGE_GlowstickPile_Blue.label>
+
+  <!-- EN: A jumbled heap of glowsticks still spilling a soft, ethereal luminescence across the floor.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GlowstickPile_Blue.description>Беспорядочная куча светящихся палочек, всё ещё распространяющих мягкое, призрачное свечение по полу.</VGE_GlowstickPile_Blue.description>
+
+  <!-- EN: emergency gravship generator -->
+  <VGE_EmergencyGenerator.label>аварийный гравитационный генератор корабля</VGE_EmergencyGenerator.label>
+
+  <!-- EN: An emergency power source capable of fully powering a gravship by adjusting its output to match demand. It is designed to be kept for emergencies, as it will always cause a critical breakdown and an EMP detonation when it produces all the power it’s able to generate. It is capable of producing up to 50,000 W/d before it breaks down.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_EmergencyGenerator.description>Аварийный источник питания, способный полностью обеспечить энергией гравитационный корабль путём регулировки выходной мощности в соответствии со спросом. Он предназначен для использования в чрезвычайных ситуациях, поскольку при достижении максимальной мощности всегда вызывает критическую поломку и детонацию электромагнитного импульса. Способен выдавать до 50 000 Вт/д до поломки.</VGE_EmergencyGenerator.description>
+
+  <!-- EN: activate emergency gravship generator -->
+  <VGE_EmergencyGenerator.comps.CompInteractable_EmergencyGravshipGenerator.jobString>запустить аварийный генератор гравикорабля</VGE_EmergencyGenerator.comps.CompInteractable_EmergencyGravshipGenerator.jobString>
+
+  <!-- EN: unstable -->
+  <VGE_EmergencyGenerator.comps.CompInteractable_EmergencyGravshipGenerator.onCooldownString>нестабилен</VGE_EmergencyGenerator.comps.CompInteractable_EmergencyGravshipGenerator.onCooldownString>
+
+  <!-- EN: astrofire launcher -->
+  <VGE_AstrofireLauncher.label>астрофаерная пусковая установка</VGE_AstrofireLauncher.label>
+
+  <!-- EN: A compact multi-tube missile platform that shoots a volley of four rapid missiles that explode and carry a payload of astrofuel, setting the area hit on astrofire. Meant for fast, hard-hitting strikes against exposed gravships and unarmored surface forces. Requires a linked targeting terminal with an operator to function. It draws power directly from the grav engine.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_AstrofireLauncher.description>Компактная многоствольная ракетная платформа, которая выпускает залп из четырёх скоростных ракет, которые взрываются и несут боевую часть с астротопливом, поджигая поражённую территорию астра-огнём. Предназначена для быстрых и мощных ударов по незащищённым гравитационным кораблям и небронированным наземным силам. Для работы требуется подключённый терминал наведения с оператором. Питание осуществляется напрямую от гравидвигателя.</VGE_AstrofireLauncher.description>
+
+  <!-- EN: Astrofuel -->
+  <VGE_AstrofireLauncher.comps.CompRefuelable.fuelGizmoLabel>Астротопливо</VGE_AstrofireLauncher.comps.CompRefuelable.fuelGizmoLabel>
+
+  <!-- EN: Astrofuel -->
+  <VGE_AstrofireLauncher.comps.CompRefuelable.fuelLabel>Астротопливо</VGE_AstrofireLauncher.comps.CompRefuelable.fuelLabel>
+
+  <!-- EN: Missing rockets -->
+  <VGE_AstrofireLauncher.comps.CompRefuelable.outOfFuelMessage>Нет ракет</VGE_AstrofireLauncher.comps.CompRefuelable.outOfFuelMessage>
+
+  <!-- EN: astrofire launcher -->
+  <VGE_Gun_AstrofireLauncher.label>астрофаерная пусковая установка</VGE_Gun_AstrofireLauncher.label>
+
+  <!-- EN: A compact multi-tube missile platform capable of launching astrofire missiles.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Gun_AstrofireLauncher.description>Это компактная многоствольная ракетная платформа, способная запускать астрофайерные ракеты.</VGE_Gun_AstrofireLauncher.description>
+
+  <!-- EN: astrofire launcher -->
+  <VGE_Gun_AstrofireLauncher.verbs.Verb_ShootWithWorldTargeting.label>огнемётная установка «Астроогонь»</VGE_Gun_AstrofireLauncher.verbs.Verb_ShootWithWorldTargeting.label>
+
+  <!-- EN: gravlaunch cloaker -->
+  <VGE_GravlaunchCloaker.label>маскировщик гравизапуска</VGE_GravlaunchCloaker.label>
+
+  <!-- EN: A specialized device that masks the energy signature of a gravship launch, reducing the impact the gravship launch has on other inhabitants of the planet, making it less likely that the gravship will be detected.  A gravship can support two gravlaunch cloakers.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GravlaunchCloaker.description>Специализированное устройство, маскирующее энергетическую сигнатуру запуска гравкорабля, что снижает влияние запуска на других обитателей планеты и уменьшает вероятность обнаружения гравкорабля.\nГравкорабль может поддерживать работу двух маскировщиков гравизапуска.</VGE_GravlaunchCloaker.description>
+
+  <!-- EN: warcomputer -->
+  <VGE_Warcomputer.label>военный компьютер</VGE_Warcomputer.label>
+
+  <!-- EN: The tactical supercomputer core of a gravship. It enhances the weapons and defenses of the gravship: it makes gauss artillery more accurate, javelin missiles fire faster, anticraft beam weaponry fire longer bursts, and point defense turrets intercept projectiles at greater distances. It draws power directly from the grav engine.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Warcomputer.description>Тактический суперкомпьютер гравилёта. Он усиливает вооружение и защиту гравилёта: делает гаусс-артиллерию более точной, ускоряет стрельбу дротиками-копьями, увеличивает продолжительность очередей лучевого противокорабельного оружия и позволяет турелям точечной обороны перехватывать снаряды на больших расстояниях. Питание поступает напрямую от гравидвигателя.</VGE_Warcomputer.description>
+
+  <!-- EN: grav field dilutor -->
+  <VGE_GravFieldDilutor.label>разбавитель гравитационного поля</VGE_GravFieldDilutor.label>
+
+  <!-- EN: An advanced ultratech device that dramatically increases the size of a gravship but makes the gravity field slightly weaker, resulting in a decrease to the amount of substructure that can be built. Must be built near a grav engine.  A gravship can support only one grav field dilutor.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GravFieldDilutor.description>Передовое ультратехнологичное устройство, которое значительно увеличивает размер гравилёта, но делает гравитационное поле немного слабее, что приводит к уменьшению количества поддерживаемой подструктуры.\nНеобходимо устанавливать рядом с гравидвигателем.\nГравлёт может поддерживать только один разбавитель гравитационного поля.</VGE_GravFieldDilutor.description>
+
+  <!-- EN: twisted steel -->
+  <VGE_TwistedSteel.label>искажённая сталь</VGE_TwistedSteel.label>
+
+  <!-- EN: The collapsed remains of an ancient orbital vessel, bent and fused by countless years in the harsh vacuum. Rich in steel.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_TwistedSteel.description>Обрушенные остатки древнего орбитального корабля, изогнутые и сплавленные бесчисленными годами в суровом вакууме. Богаты сталью.</VGE_TwistedSteel.description>
+
+  <!-- EN: twisted machinery -->
+  <VGE_TwistedMachinery.label>искажённая техника</VGE_TwistedMachinery.label>
+
+  <!-- EN: Ancient machinery, compacted and twisted by centuries of impacts and extreme temperatures in orbit. Can be mined for useful components.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_TwistedMachinery.description>Древняя техника, сжатая и искажённая веками ударов и экстремальными температурами на орбите. Можно добывать полезные компоненты.</VGE_TwistedMachinery.description>
+
+  <!-- EN: twisted electronics -->
+  <VGE_TwistedElectronics.label>скрученная электроника</VGE_TwistedElectronics.label>
+
+  <!-- EN: The fused remains of high-tech wiring and circuit boards, warped and damaged by orbital debris and temperature extremes. It can be salvaged for advanced components.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_TwistedElectronics.description>Скрученные остатки высокотехнологичных проводов и печатных плат, деформированные и повреждённые космическим мусором и перепадами температур. Их можно использовать для получения продвинутых компонентов.</VGE_TwistedElectronics.description>
+
+  <!-- EN: twisted gravlite -->
+  <VGE_TwistedGravlite.label>искажённый гравлит</VGE_TwistedGravlite.label>
+
+  <!-- EN: A section of warped and shattered gravlite paneling, barely recognizable after enduring intense orbital conditions. Can be salvaged for gravlite panels.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_TwistedGravlite.description>Отрезок деформированной и разбитой обшивки из гравлита, едва узнаваемой после пребывания в экстремальных условиях на орбите. Можно использовать для переработки в панели из гравлита.</VGE_TwistedGravlite.description>
+
+  <!-- EN: gravship armor -->
+  <VGE_GravshipArmor.label>гравитационный корабль броня</VGE_GravshipArmor.label>
+
+  <!-- EN: A heavily reinforced airtight wall designed to withstand extreme impacts and hostile fire in the vacuum of space. The wall connects directly into the underlying substructure, meaning it can only be built on a gravship.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GravshipArmor.description>Это усиленная герметичная стена, предназначенная для выдерживания экстремальных ударов и враждебного огня в космическом вакууме. Стена соединяется напрямую с основной конструкцией, что позволяет устанавливать её только на гравитационный корабль.</VGE_GravshipArmor.description>
+
+  <!-- EN: small electric thruster -->
+  <VGE_SmallElectricThruster.label>малый электрический двигатель ориентации</VGE_SmallElectricThruster.label>
+
+  <!-- EN: An electric thruster that increases the range of the gravship. Needs to be fully charged in order to be used. Unlike astrofuel thrusters, electric thrusters do not increase maximum substructure size, but the low energy footprint lowers the chances of the gravship being detected during travel. Thrusters require an unobstructed area free of large buildings and gravship substructure. A gravship can support up to ten small thrusters.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_SmallElectricThruster.description>Электрический двигатель ориентации, который увеличивает дальность действия гравилёта. Для использования необходимо полностью зарядить. В отличие от двигателей на астротопливе, электрические двигатели не увеличивают максимальный размер подструктуры, но малая энергетическая сигнатура снижает вероятность обнаружения гравилёта во время путешествия. Двигателям требуется свободная зона без больших построек и подструктур гравилёта. Гравилёт может поддерживать до десяти малых двигателей ориентации.</VGE_SmallElectricThruster.description>
+
+  <!-- EN: large electric thruster -->
+  <VGE_LargeElectricThruster.label>большой электрический двигатель (маршевый)</VGE_LargeElectricThruster.label>
+
+  <!-- EN: An advanced electric thruster with a heat-resistant vacstone liner. Needs to be fully charged in order to be used. Unlike astrofuel thrusters, electric thrusters do not increase maximum substructure size, but the low energy footprint lowers the chances of the gravship being detected during travel. Thrusters require an unobstructed area free of large buildings and gravship substructure.  Requires vacstone blocks, which can be obtained from orbital asteroids.  A gravship can support up to six large thrusters.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_LargeElectricThruster.description>Передовой электрический двигатель с термостойким вакстоуновым вкладышем. Для использования необходимо полностью зарядить. В отличие от двигателей на астротопливе, электрические двигатели не увеличивают максимальный размер подструктуры, но малая энергоёмкость снижает вероятность обнаружения гравилёта во время путешествия. Двигателям требуется свободное пространство без крупных построек и элементов подструктуры гравилёта.
+
+Для работы требуются вакстоуновые блоки, которые можно получить из орбитальных астероидов.
+Гравилёт может поддерживать до шести больших двигателей.</VGE_LargeElectricThruster.description>
+
+  <!-- EN: giant electric thruster -->
+  <VGE_GiantElectricThruster.label>гигантский электрический двигатель</VGE_GiantElectricThruster.label>
+
+  <!-- EN: A massive, reinforced electric thruster built with advanced alloys and ultra-dense vacstone plating. Needs to be fully charged in order to be used. Unlike astrofuel thrusters, electric thrusters do not increase maximum substructure size, but the low energy footprint lowers the chances of the gravship being detected during travel. Thrusters require an unobstructed area free of large buildings and gravship substructure.  Requires vacstone blocks, which can be obtained from orbital asteroids.  A gravship can support up to four giant thrusters.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GiantElectricThruster.description>Массивный усиленный электрический двигатель, созданный с использованием продвинутых сплавов и покрытия из сверхплотного вакстоуна. Для использования необходимо полная зарядка. В отличие от двигателей на астротопливе, электрические двигатели не увеличивают максимальный размер подструктуры, но малое энергопотребление снижает вероятность обнаружения гравилёта во время путешествия. Двигателям требуется свободное пространство без крупных зданий и элементов подструктуры гравилёта.\n\nДля работы требуются блоки вакстоуна, которые можно получить из орбитальных астероидов.\n\nГравилёт может поддерживать до четырёх гигантских двигателей.</VGE_GiantElectricThruster.description>
+
+  <!-- EN: high-explosive warpod -->
+  <VGE_Warpod_HighExplosive.label>высоко explosive варпод</VGE_Warpod_HighExplosive.label>
+
+  <!-- EN: A launchable sub-orbital missile pod designed to deliver a high-explosive payload at extreme speed. Its velocity ensures it won't be intercepted by point defense systems, allowing it to penetrate and detonate within enemy gravships and orbital stations. Explodes when damaged.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Warpod_HighExplosive.description>Запускаемый суборбитальный ракетный контейнер, предназначенный для доставки боевой части с высокой взрывчаткой на экстремальной скорости. Его скорость гарантирует, что он не будет перехвачен системами точечной обороны, позволяя ему проникнуть и взорваться внутри гравитационных кораблей и орбитальных станций противника. Взрывается при повреждении.</VGE_Warpod_HighExplosive.description>
+
+  <!-- EN: EMP warpod -->
+  <VGE_Warpod_EMP.label>ЭМ-войпод</VGE_Warpod_EMP.label>
+
+  <!-- EN: A launchable sub-orbital missile pod designed to deliver a powerful electromagnetic pulse device at extreme speed. Its velocity ensures it won't be intercepted by point defense systems, allowing it to penetrate and detonate within enemy gravships and orbital stations, temporarily disabling electronics. Explodes when damaged.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Warpod_EMP.description>Экраноплан-ракета, предназначенная для запуска с суборбитальной траектории и доставки мощного электромагнитного импульсного устройства на экстремальной скорости. Его скорость гарантирует, что он не будет перехвачен системами точечной обороны, позволяя ему проникать в гравитационные корабли и орбитальные станции противника и взрываться внутри них, временно выводя из строя электронику. Взрывается при получении повреждений.</VGE_Warpod_EMP.description>
+
+  <!-- EN: incendiary warpod -->
+  <VGE_Warpod_Incendiary.label>зажигательный варпод</VGE_Warpod_Incendiary.label>
+
+  <!-- EN: A launchable sub-orbital missile pod designed to deliver a massive astrofuel payload at extreme speed. Its velocity ensures it won't be intercepted by point defense systems, allowing it to penetrate and detonate within enemy gravships and orbital stations, unleashing a large astrofuel explosion. Explodes when damaged.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Warpod_Incendiary.description>Запускаемый суборбитальный ракетный контейнер, предназначенный для доставки массивной астротопливной нагрузки на экстремальной скорости. Его скорость гарантирует, что он не будет перехвачен системами точечной обороны, позволяя ему проникнуть и взорваться внутри гравитационных кораблей и орбитальных станций, вызывая большой взрыв астротоплива. Взрывается при повреждении.</VGE_Warpod_Incendiary.description>
+
+  <!-- EN: antigrain warpod -->
+  <VGE_Warpod_Antigrain.label>антивоенный модуль «antigrain warpod»</VGE_Warpod_Antigrain.label>
+
+  <!-- EN: A launchable sub-orbital missile pod designed to deliver a devastating antimatter payload at extreme speed. Its velocity ensures it won't be intercepted by point defense systems, allowing it to penetrate and detonate within enemy gravships and orbital stations, completely obliterating the target area. Explodes when damaged.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Warpod_Antigrain.description>Запускаемый суборбитальный ракетный модуль, предназначенный для доставки разрушительной антивещественной боевой части на экстремальной скорости. Его скорость гарантирует, что он не будет перехвачен системами точечной обороны, позволяя ему проникнуть и взорваться внутри гравитационных кораблей и орбитальных станций противника, полностью уничтожая целевую территорию. Взрывается при повреждении.</VGE_Warpod_Antigrain.description>
+
+  <!-- EN: hellpod -->
+  <VGE_Warpod_Hellpod.label>адский модуль</VGE_Warpod_Hellpod.label>
+
+  <!-- EN: A launchable sub-orbital combat pod designed to carry people, items, or animals. Traveling at extreme speed, it avoids interception by point defense systems, but detonates on impact before immediately ejecting its cargo. It is ideal for surprise attacks, reinforcing battles, or transporting critical supplies and personnel to a specific location.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Warpod_Hellpod.description>Запускаемый суборбитальный боевой модуль, предназначенный для перевозки людей, предметов или животных. Развивая экстремальную скорость, он избегает перехвата системами точечной обороны, но детонирует при столкновении, прежде чем немедленно выбросить свой груз. Он идеально подходит для внезапных атак, усиления сражений или транспортировки критически важных грузов и персонала в определённое место.</VGE_Warpod_Hellpod.description>
+
+  <!-- EN: gravship bombardment targeter -->
+  <VGE_GravshipBombardmentTargeter.label>целеуказатель для гравитационной бомбардировки корабля</VGE_GravshipBombardmentTargeter.label>
+
+  <!-- EN: A compact targeting apparatus tuned to interface with gravship artillery systems. When activated, it designates a ground position and transmits firing coordinates to a linked gravship turret within range. The turret will automatically fire on the marked location. After a short cooldown, the targeter can be used again.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_GravshipBombardmentTargeter.description>Компактный прицельный аппарат, настроенный для взаимодействия с артиллерийскими системами гравилёта. При активации он обозначает наземную позицию и передаёт координаты стрельбы связанной с ним башне гравилёта в пределах досягаемости. Башня автоматически производит огонь по обозначенной точке. После короткого времени охлаждения целеуказатель можно использовать снова.</VGE_GravshipBombardmentTargeter.description>
+
+  <!-- EN: gravship bombardment targeter -->
+  <VGE_GravshipBombardmentTargeter.verbs.Verb_BombardmentTargeter.label>наводчик корабельной бомбардировки</VGE_GravshipBombardmentTargeter.verbs.Verb_BombardmentTargeter.label>
+
+  <!-- EN: combat vacsuit -->
+  <VGE_Apparel_CombatVacsuit.label>боевой вакуумный скафандр</VGE_Apparel_CombatVacsuit.label>
+
+  <!-- EN: A heavy-duty suit of powered armor designed for combat in the vacuum of space. The multi-layered, reinforced plating offers superior protection against ballistic attacks compared to standard vacsuits. While neuro-memetic assistors partially mitigate the bulk, the suit still imposes a penalty on movement speed and manipulation, though less severe than the standard model.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Apparel_CombatVacsuit.description>Это сверхпрочный боевой скафандр, предназначенный для ведения боя в космическом вакууме. Многослойная усиленная обшивка обеспечивает превосходную защиту от баллистических атак по сравнению со стандартными вакуумными скафандрами. Хотя нейро-меметические ассистенты частично уменьшают объём и массу, этот костюм всё равно снижает скорость передвижения и манипулирования, хотя и менее значительно, чем стандартная модель.</VGE_Apparel_CombatVacsuit.description>
+
+  <!-- EN: combat vacsuit helmet -->
+  <VGE_Apparel_CombatVacsuitHelmet.label>боевой вакуумный шлем</VGE_Apparel_CombatVacsuitHelmet.label>
+
+  <!-- EN: A heavy-duty, reinforced helmet for the combat vacsuit. It features layered plasteel-weave armor, a built-in status computer, and superior protection. Efficiently recycling oxygen, it permits extended vacuum operation, though periodic repressurization is required.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Apparel_CombatVacsuitHelmet.description>Это прочный усиленный шлем для боевого вакуумного скафандра. Он оснащён многослойной бронёй из пластали, встроенным компьютером состояния и превосходной защитой. Эффективно перерабатывает кислород, что позволяет работать в вакууме продолжительное время, хотя требуется периодическая повторная герметизация.</VGE_Apparel_CombatVacsuitHelmet.description>
+
+  <!-- EN: astrorig -->
+  <VGE_Apparel_Astrorig.label>астрориг</VGE_Apparel_Astrorig.label>
+
+  <!-- EN: A specialized personal movement pack designed for rapid traversal in zero-gravity environments. Utilizing a contained oxygen supply for controlled thrust, it allows for long-distance, high-speed jumps in space. The pack's design eliminates movement penalties on space terrain, though the amount of long range jumps is limited by the oxygen supply.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Apparel_Astrorig.description>Специализированный персональный ранцевый двигатель, разработанный для быстрого перемещения в условиях невесомости. Используя автономный запас кислорода для контролируемой тяги, он позволяет совершать прыжки на большие расстояния с высокой скоростью в космосе. Конструкция ранца устраняет штрафы за передвижение по космическому рельефу, хотя количество прыжков на большое расстояние ограничено запасом кислорода.</VGE_Apparel_Astrorig.description>
+
+  <!-- EN: oxygen u³ -->
+  <VGE_Apparel_Astrorig.comps.CompApparelOxygenProvider.chargeNoun>ед.³ кислорода</VGE_Apparel_Astrorig.comps.CompApparelOxygenProvider.chargeNoun>
+
+  <!-- EN: jump -->
+  <VGE_Apparel_Astrorig.comps.CompApparelVerbOwner_Oxygen.chargeNoun>прыжок</VGE_Apparel_Astrorig.comps.CompApparelVerbOwner_Oxygen.chargeNoun>
+
+  <!-- EN: jump -->
+  <VGE_Apparel_Astrorig.verbs.jump.label>прыжок</VGE_Apparel_Astrorig.verbs.jump.label>
+
+  <!-- EN: disposable oxygen pack -->
+  <VGE_Apparel_DisposableOxygenPack.label>одноразовый кислородный баллон</VGE_Apparel_DisposableOxygenPack.label>
+
+  <!-- EN: A single-use utility pack containing a supply of compressed oxygen. When worn with vacuum-sealed apparel, it provides full immunity to vacuum by supplying breathable air until depleted. Once spent or unequipped, the seal is compromised and the pack is destroyed.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Apparel_DisposableOxygenPack.description>Одноразовый утилитарный пакет, содержащий запас сжатого кислорода. При использовании с одеждой с вакуумной герметизацией обеспечивает полную защиту от вакуума, подавая пригодный для дыхания воздух до исчерпания запасов. После использования или снятия упаковка повреждается, и баллон разрушается.</VGE_Apparel_DisposableOxygenPack.description>
+
+  <!-- EN: oxygen u³ -->
+  <VGE_Apparel_DisposableOxygenPack.comps.CompApparelOxygenProvider.chargeNoun>ед.³ кислорода</VGE_Apparel_DisposableOxygenPack.comps.CompApparelOxygenProvider.chargeNoun>
+
+  <!-- EN: moving exohive -->
+  <VGE_Exohive.label>движущийся экзоулей</VGE_Exohive.label>
+
+  <!-- EN: A massive, mobile hive of giant exo-geneline insects, propelled by the coordinated effort of numerous emerging exoworms. When sufficiently threatened, the entire structure animates to actively defend itself, attacking nearby foes.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Exohive.description>Это массивный мобильный улей гигантских насекомых экзогенолинии, движимый согласованными усилиями многочисленных эксирмов. При достаточной угрозе вся структура оживает, чтобы активно защищаться, атакуя ближайших врагов.</VGE_Exohive.description>
+
+  <!-- EN: mouths -->
+  <VGE_Exohive.tools.mouths.label>пасти</VGE_Exohive.tools.mouths.label>
+
+  <!-- EN: shell -->
+  <VGE_Exohive.tools.shell.label>панцирь</VGE_Exohive.tools.shell.label>
+
+  <!-- EN: exoleech -->
+  <VGE_Exoleech.label>экзопиявка</VGE_Exoleech.label>
+
+  <!-- EN: Not actually a leech, an exoleech is a bioengineered insectoid roughly the size of a bear, adapted to survive the frigid vacuum of space. It possesses an incredibly sharp mouth capable of dealing substantial damage in combat. While heavily protected by thick chitinous armor and deadly at close quarters, It is quite slow in open terrain.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Exoleech.description>Экзопиявка — это биоинженерное инсектоидное существо размером примерно с медведя, адаптированное к выживанию в ледяном вакууме космоса. У неё невероятно острый рот, способный наносить значительный урон в бою. Несмотря на то что она хорошо защищена толстым хитиновым панцирем и смертоносна в ближнем бою, на открытой местности она довольно медлительна.</VGE_Exoleech.description>
+
+  <!-- EN: bitejaw -->
+  <VGE_Exoleech.tools.bitejaw.label>челюсти</VGE_Exoleech.tools.bitejaw.label>
+
+  <!-- EN: head -->
+  <VGE_Exoleech.tools.head.label>голова</VGE_Exoleech.tools.head.label>
+
+  <!-- EN: exopede -->
+  <VGE_Exopede.label>экзопед</VGE_Exopede.label>
+
+  <!-- EN: A large bioengineered insectoid roughly the size of a deer. The exopede is heavily armored and adapted to survive the frigid vacuum of space, and functions as a middle-caste hive worker, performing most tasks and defending the hive with its powerful appendages. While heavily protected and dangerous in combat, its movement is relatively slow on open ground.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Exopede.description>Большое биоинженерное инсектоидное существо размером примерно с оленя. Экзопед имеет тяжёлую броню и приспособлен для выживания в ледяном вакууме космоса, выполняет функции рабочего средней касты в улье, выполняя большинство задач и защищая улей своими мощными конечностями. Несмотря на мощную защиту и опасность в бою, его передвижение относительно медленное на открытой местности.</VGE_Exopede.description>
+
+  <!-- EN: head claw -->
+  <VGE_Exopede.tools.head_claw.label>головная клешня</VGE_Exopede.tools.head_claw.label>
+
+  <!-- EN: head -->
+  <VGE_Exopede.tools.head.label>голова</VGE_Exopede.tools.head.label>
+
+  <!-- EN: exoworm -->
+  <VGE_Exoworm.label>экзочервь</VGE_Exoworm.label>
+
+  <!-- EN: A large, genetically-engineered worm-like insectoid, adapted to survive in the vacuum of space. Once the worker caste of an artificial ecosystem designed to fight mechanoid invasions, it is now often encountered without its deadlier insectoid cousins. Still, its size and rapidly regenerating body makes it a durable and dangerous foe in combat. A eusocial creature, it cannot reproduce individually.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_Exoworm.description>Большой генетически модифицированный червеобразный инсектоид, приспособленный к выживанию в космическом вакууме. Когда-то он был рабочей кастой искусственной экосистемы, созданной для борьбы с нашествиями механироидов, но теперь его часто можно встретить без своих более смертоносных собратьев-инсектоидов. Тем не менее, благодаря своему размеру и способности быстро регенерировать тело, он остаётся выносливым и опасным противником в бою. Это эусоциальное существо, оно не может размножаться индивидуально.</VGE_Exoworm.description>
+
+  <!-- EN: mandibles -->
+  <VGE_Exoworm.tools.mandibles.label>жвалы</VGE_Exoworm.tools.mandibles.label>
+
+  <!-- EN: head -->
+  <VGE_Exoworm.tools.head.label>голова</VGE_Exoworm.tools.head.label>
+
+  <!-- EN: exoworm knot -->
+  <VGE_ExowormKnot.label>экзочервячий узел</VGE_ExowormKnot.label>
+
+  <!-- EN: A massive, writhing knot of bioengineered exoworms, tangled together in a singular, terrifying entity. Its formidable size and complex, interwoven bodies grant it extreme durability, but damage causes individual exoworms to violently rupture from the mass and continue the fight. Its bite carries a risk of implanting parasitic exoworm larvae, which gestate slowly within the host.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_ExowormKnot.description>Массивный клубок биоинженерных экзочервей, сплетённых вместе в единое ужасающее существо. Его внушительные размеры и сложное переплетение тел придают ему чрезвычайную прочность, но при повреждении отдельные экзочерви с силой вырываются из массы и продолжают бой. Укус несёт риск внедрения личинок паразитических экзочервей, которые медленно развиваются внутри хозяина.</VGE_ExowormKnot.description>
+
+  <!-- EN: mouths -->
+  <VGE_ExowormKnot.tools.mouths.label>пасти</VGE_ExowormKnot.tools.mouths.label>
+
+  <!-- EN: head -->
+  <VGE_ExowormKnot.tools.head.label>голова</VGE_ExowormKnot.tools.head.label>
+
+  <!-- EN: nullipede -->
+  <VFEI2_Nullipede.label>нуллипеда</VFEI2_Nullipede.label>
+
+  <!-- EN: An incredibly rare and monstrously large insectoid of the Exo geneline, the nullipede is an insect leviathan perfectly adapted to the frigid vacuum of space. It possesses extreme cellular regeneration, allowing it to knit together grievous wounds and heal damage almost instantly. Direct exposure to fire completely shuts down its biological repair systems. Its sheer resilience makes it a dreaded, virtually indestructible horror among the stars, and the main reason many adventurers prefer to stay planet-side. Upon death, it’s possible to extract an Exo pherocore from its body.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VFEI2_Nullipede.description>Невероятно редкое и чудовищно крупное инсектоидное существо из экзогенной линии, нуллипеда — это левиафан насекомых, идеально приспособленный к ледяному вакууму космоса. Оно обладает чрезвычайной клеточной регенерацией, позволяющей ему заживлять тяжёлые раны и повреждения почти мгновенно. Прямое воздействие огня полностью отключает его системы биологического восстановления. Его невероятная живучесть делает его ужасным, практически неуязвимым кошмаром среди звёзд, из-за чего многие искатели приключений предпочитают оставаться на планете.</VFEI2_Nullipede.description>
+
+  <!-- EN: mandible -->
+  <VFEI2_Nullipede.tools.mandible.label>жвалы</VFEI2_Nullipede.tools.mandible.label>
+
+  <!-- EN: tail -->
+  <VFEI2_Nullipede.tools.tail.label>хвост</VFEI2_Nullipede.tools.tail.label>
+
+  <!-- EN: pincers -->
+  <VFEI2_Nullipede.tools.pincers.label>клешни</VFEI2_Nullipede.tools.pincers.label>
+
+</LanguageData>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: Default -->
+  <VGE_StartingGravship_Default.label>По умолчанию</VGE_StartingGravship_Default.label>
+
+  <!-- EN: The default starting gravship from Vanilla Gravships Expanded - Chapter 2.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_StartingGravship_Default.description>Это стартовый гравитационный корабль по умолчанию из дополнения «Расширенные гравитационные корабли» — Глава 2.</VGE_StartingGravship_Default.description>
+
+  <!-- EN: Explorer -->
+  <VGE_StartingGravship_Explorer.label>Исследователь</VGE_StartingGravship_Explorer.label>
+
+  <!-- EN: A well-rounded exploration vessel with crew quarters and defenses.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_StartingGravship_Explorer.description>Это всесторонне оснащённое исследовательское судно с каютами для экипажа и средствами защиты.</VGE_StartingGravship_Explorer.description>
+
+  <!-- EN: Freighter -->
+  <VGE_StartingGravship_Freighter.label>Грузовое судно</VGE_StartingGravship_Freighter.label>
+
+  <!-- EN: A large freighter with large cargo space and a shield generator.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_StartingGravship_Freighter.description>Это большое грузовое судно с большим грузовым отсеком и генератором щита.</VGE_StartingGravship_Freighter.description>
+
+  <!-- EN: Battlecruiser -->
+  <VGE_StartingGravship_Battlecruiser.label>Битэнтер</VGE_StartingGravship_Battlecruiser.label>
+
+  <!-- EN: A heavily armored battle cruiser with lacking living space.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_StartingGravship_Battlecruiser.description>Тяжеловооружённый боевой крейсер с ограниченным жилым пространством.</VGE_StartingGravship_Battlecruiser.description>
+
+  <!-- EN: Stealth ship -->
+  <VGE_StartingGravjumper_StealthShip.label>Стелс-корабль</VGE_StartingGravjumper_StealthShip.label>
+
+  <!-- EN: A small, camouflaged gravjumper with electric thrusters.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_StartingGravjumper_StealthShip.description>Небольшой замаскированный гравиджампер с электрическими двигателями.</VGE_StartingGravjumper_StealthShip.description>
+
+  <!-- EN: Travel craft -->
+  <VGE_StartingGravjumper_TravelCraft.label>Путешествующее судно</VGE_StartingGravjumper_TravelCraft.label>
+
+  <!-- EN: A compact, luxurious travel craft with arrays of solar panels.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_StartingGravjumper_TravelCraft.description>Компактное роскошное путешествующее судно с массивами солнечных панелей.</VGE_StartingGravjumper_TravelCraft.description>
+
+  <!-- EN: Damaged gunship -->
+  <VGE_StartingGravjumper_DamagedGunship.label>Повреждённый боевой корабль</VGE_StartingGravjumper_DamagedGunship.label>
+
+  <!-- EN: A battered gunship with compact gravship turrets and armored gravjumper engine.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_StartingGravjumper_DamagedGunship.description>Повреждённый боевой корабль с компактными гравитационными турелями и бронированным двигателем градвинжа.</VGE_StartingGravjumper_DamagedGunship.description>
+
+</LanguageData>

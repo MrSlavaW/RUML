@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: The Gravship -->
+  <VGE_TheGravship.label>Гравилёт</VGE_TheGravship.label>
+
+  <!-- EN: Your gravship's engine is burning out. You managed to drift into an empty patch of orbit to bleed off the heat, but the cooldown cycle is excruciatingly slow. You know your pursuers are right behind you. It's only a matter of hours before their gravship drops into your local space and the boarding action begins. You must fortify your ship, patch up your crew, and prepare to repel boarders. If you survive, the space is yours.  Note: This is a difficult scenario and is not recommended for new players.  &lt;i&gt;&lt;color=#66E0E4FF&gt;Vanilla Gravship Expanded - Chapter 2&lt;/color&gt;&lt;/i&gt; -->
+  <VGE_TheGravship.description>Ваш гравилёт теряет двигатель. Вам удалось дрейфовать в пустой участок орбиты, чтобы сбросить тепло, но цикл охлаждения мучительно медленный. Вы знаете, что ваши преследователи прямо за вами. Всего несколько часов до того, как их гравилёт войдёт в ваше локальное пространство и начнётся абордаж. Вы должны укрепить свой корабль, подлечить экипаж и подготовиться к отражению абордажа. Если выживете — космос будет ваш.\n\nПримечание: это сложный сценарий, не рекомендуется для новых игроков.</VGE_TheGravship.description>
+
+  <!-- EN: Your gravship's engine is burning out. You managed to drift into an empty patch of orbit to bleed off the heat, but the cooldown cycle is excruciatingly slow. You know your pursuers are right behind you. It's only a matter of hours before their gravship drops into your local space and the boarding action begins. You must fortify your ship, patch up your crew, and prepare to repel boarders. If you survive, the space is yours.  Note: This is a difficult scenario and is not recommended for new players. -->
+  <VGE_TheGravship.scenario.description>Двигатель вашего гравикорабля выгорает. Вам удалось сойти на пустой сектор орбиты, чтобы сбросить тепло, но цикл охлаждения протекает мучительно медленно. Вы знаете, что преследователи идут по пятам. Пройдут считанные часы, прежде чем их гравикорабль войдёт в ваш сектор и начнётся абордаж. Вы должны укрепить корабль, подлатать команду и приготовиться к отражению штурма. Если выживете — космос ваш.
+
+Примечание: этот сценарий отличается высокой сложностью и не рекомендуется новичкам.</VGE_TheGravship.scenario.description>
+
+  <!-- EN: The Gravship -->
+  <VGE_TheGravship.scenario.name>Гравикорабль</VGE_TheGravship.scenario.name>
+
+  <!-- EN: Your gravship engine is completely overheated from the chase. You managed to drop into this empty pocket of orbit to bleed off the heat, but the emergency cooldown cycle will take hours.  You are not safe here. Your pursuers are tracking your signature, and their gravship will drop into your local space soon. They will not hesitate to breach your hull.  Use this time to patch up your crew, fortify your ship, and prepare to repel boarders. Once the engine cooldown finishes, select the pilot console to initiate a launch and escape.  Alternatively, if you are feeling bold, you can stand your ground, wipe out the boarding party, and strip their gravship for valuable parts before leaving. -->
+  <VGE_TheGravship.scenario.parts.GameStartDialog.text>Двигатель вашего гравикорабля раскалился до предела в ходе долгой погони. Вам удалось выскользнуть в этот пустой карман орбиты для сброса температуры, однако цикл аварийного охлаждения займёт несколько часов.
+
+Здесь вы не в безопасности. Преследователи неотрывно отслеживают вашу сигнатуру, и их гравикорабль вскоре появится в этом секторе. Они пойдут на прорыв обшивки без малейших колебаний.
+
+Используйте это время, чтобы подлечить экипаж, укрепить отсеки и приготовиться отбивать абордаж. Как только охлаждение завершится, активируйте консоль пилота для запуска корабля и побега.
+
+Либо, если вы уверены в своих силах, вы можете принять бой, уничтожить абордажную команду и разобрать вражеский гравикорабль на ценные детали перед отлётом.</VGE_TheGravship.scenario.parts.GameStartDialog.text>
+
+  <!-- EN: A crew stranded in orbit, bracing for an imminent enemy boarding action. -->
+  <VGE_TheGravship.scenario.summary>Экипаж застрял на орбите, готовясь к неизбежной атаке противника.</VGE_TheGravship.scenario.summary>
+
+</LanguageData>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- EN: moving exohive -->
+  <VGE_Exohive.label>движущийся экзоулей</VGE_Exohive.label>
+
+  <!-- EN: exoleech -->
+  <VGE_Exoleech.label>экзопиявка</VGE_Exoleech.label>
+
+  <!-- EN: exopede -->
+  <VGE_Exopede.label>экзопед</VGE_Exopede.label>
+
+  <!-- EN: exoworm -->
+  <VGE_Exoworm.label>экзочервь</VGE_Exoworm.label>
+
+  <!-- EN: exoworm knot -->
+  <VGE_ExowormKnot.label>экзочервячий узел</VGE_ExowormKnot.label>
+
+  <!-- EN: nullipede -->
+  <VFEI2_Nullipede.label>нуллипеда</VFEI2_Nullipede.label>
+
+</LanguageData>
