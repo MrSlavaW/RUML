@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Main Tabs -->
+  <RUML_TabInstalled>1. Installed ({0})</RUML_TabInstalled>
+  <RUML_TabAuditor>2. Mod Auditor</RUML_TabAuditor>
+  <RUML_TabCatalog>3. Cloud Catalog</RUML_TabCatalog>
+  <RUML_TabCatalogCount>3. Cloud Catalog ({0})</RUML_TabCatalogCount>
+  <RUML_TabSettings>4. Settings</RUML_TabSettings>
+
+  <!-- Navigation & Search -->
+  <RUML_ClearSearchTooltip>Clear search query</RUML_ClearSearchTooltip>
+  <RUML_TargetLanguage>Target Language: {0}</RUML_TargetLanguage>
+  <RUML_LanguageAuto>Auto ({0})</RUML_LanguageAuto>
+  <RUML_LanguageAll>All Languages</RUML_LanguageAll>
+  <RUML_AllAuthors>All Authors ({0})</RUML_AllAuthors>
+  <RUML_AuthorFilter>Author: {0}</RUML_AuthorFilter>
+  <RUML_LangFilter>Language: {0}</RUML_LangFilter>
+
+  <!-- Bottom Apply Bar -->
+  <RUML_ManualApplyMode>Manual Apply Mode (instant actions without freezes)</RUML_ManualApplyMode>
+  <RUML_ManualApplyModeTooltip>In this mode, downloading, toggling, and deleting translations take effect instantly without freezing the game UI. To apply changes to the running game database, click the apply button below.</RUML_ManualApplyModeTooltip>
+  <RUML_ApplyPending>★ Apply settings and reload translations (changes pending!)</RUML_ApplyPending>
+  <RUML_Apply>Apply settings and reload translations</RUML_Apply>
+
+  <!-- Tab 0: Installed Translations -->
+  <RUML_NoInstalledTranslations>No translations installed in RUML yet.\nRUML operates as a standalone manager. You can discover and download community translations in the 'Cloud Catalog' tab.</RUML_NoInstalledTranslations>
+  <RUML_GoToCatalog>Go to Cloud Catalog</RUML_GoToCatalog>
+  <RUML_OpenTranslationsFolder>Open Translations Folder</RUML_OpenTranslationsFolder>
+  <RUML_EnableAll>Enable All</RUML_EnableAll>
+  <RUML_DisableAll>Disable All</RUML_DisableAll>
+  <RUML_CheckUpdates>Check Updates</RUML_CheckUpdates>
+  <RUML_UpdateOutdated>Update Outdated</RUML_UpdateOutdated>
+  <RUML_UpdateAllActive>Update All Active</RUML_UpdateAllActive>
+  <RUML_StatusUpToDate>✓ Up to date</RUML_StatusUpToDate>
+  <RUML_StatusUpdateAvailable>Update!</RUML_StatusUpdateAvailable>
+  <RUML_Update>Update</RUML_Update>
+  <RUML_Reinstall>Reinstall</RUML_Reinstall>
+  <RUML_Uninstall>Uninstall</RUML_Uninstall>
+
+  <!-- Tab 1: Auditor Sub-Tabs -->
+  <RUML_AuditSubTabSelection>1. Active Mods Selection ({0} selected)</RUML_AuditSubTabSelection>
+  <RUML_AuditSubTabResults>2. Audit Results ({0} reports)</RUML_AuditSubTabResults>
+
+  <!-- Auditor Category Filters -->
+  <RUML_FilterAll>All ({0})</RUML_FilterAll>
+  <RUML_FilterUntranslated>Untranslated ({0})</RUML_FilterUntranslated>
+  <RUML_FilterBuiltIn>Built-in ({0})</RUML_FilterBuiltIn>
+  <RUML_FilterExternal>External Mod ({0})</RUML_FilterExternal>
+  <RUML_FilterRUML>RUML ({0})</RUML_FilterRUML>
+  <RUML_FilterPacks>Packs ({0})</RUML_FilterPacks>
+
+  <!-- Auditor Action Buttons -->
+  <RUML_SelectInFilter>Select in Filter</RUML_SelectInFilter>
+  <RUML_DeselectInFilter>Deselect in Filter</RUML_DeselectInFilter>
+  <RUML_SelectAll>Select All</RUML_SelectAll>
+  <RUML_DeselectAll>Deselect All</RUML_DeselectAll>
+  <RUML_ExcludeVanilla>Exclude Core/DLC</RUML_ExcludeVanilla>
+  <RUML_RunAudit>Run Translation Audit ({0})</RUML_RunAudit>
+  <RUML_ExportReport>Export Report</RUML_ExportReport>
+  <RUML_ExportTemplates>Export XML Templates</RUML_ExportTemplates>
+
+  <!-- Auditor Results Filter -->
+  <RUML_AuditResultAll>All ({0})</RUML_AuditResultAll>
+  <RUML_AuditResultMissing>With Missing ({0})</RUML_AuditResultMissing>
+  <RUML_AuditResultComplete>100% Translated ({0})</RUML_AuditResultComplete>
+  <RUML_HideDetails>Hide Details ▲</RUML_HideDetails>
+  <RUML_ShowMissing>Missing ({0}) ▼</RUML_ShowMissing>
+  <RUML_CategoryDefs>Defs ({0})</RUML_CategoryDefs>
+  <RUML_CategoryKeyed>Keyed / Settings ({0})</RUML_CategoryKeyed>
+  <RUML_AllStringsTranslatedInCat>All strings in this category are fully translated.</RUML_AllStringsTranslatedInCat>
+
+  <!-- Tab 2: Cloud Catalog -->
+  <RUML_CatalogUrl>GitHub Catalog:</RUML_CatalogUrl>
+  <RUML_UpdateCatalog>Refresh Catalog</RUML_UpdateCatalog>
+  <RUML_CatalogSettings>URL Settings »</RUML_CatalogSettings>
+  <RUML_ExportManifestTemplate>Export manifest.json</RUML_ExportManifestTemplate>
+  <RUML_DownloadAndApply>Download &amp; Apply</RUML_DownloadAndApply>
+  <RUML_UpdateAvailable>[Update Available]</RUML_UpdateAvailable>
+  <RUML_Installed>Installed</RUML_Installed>
+  <RUML_StatusFilterAll>All Translations</RUML_StatusFilterAll>
+  <RUML_StatusFilterInstalled>Installed</RUML_StatusFilterInstalled>
+  <RUML_StatusFilterNotInstalled>Not Installed</RUML_StatusFilterNotInstalled>
+  <RUML_StatusFilterUpdates>With Updates</RUML_StatusFilterUpdates>
+  <RUML_FilterAllCount>All ({0})</RUML_FilterAllCount>
+  <RUML_FilterInstalledCount>Installed ({0})</RUML_FilterInstalledCount>
+  <RUML_FilterNotInstalledCount>Not Installed ({0})</RUML_FilterNotInstalledCount>
+  <RUML_FilterUpdatesCount>Has Updates ({0})</RUML_FilterUpdatesCount>
+
+  <!-- Badges -->
+  <RUML_BadgeBuiltIn>[Built-in translation]</RUML_BadgeBuiltIn>
+  <RUML_BadgeExternal>[Translated by external mod]</RUML_BadgeExternal>
+  <RUML_BadgeRUML>[RUML]</RUML_BadgeRUML>
+  <RUML_BadgeTranslationMod>[Translation pack]</RUML_BadgeTranslationMod>
+  <RUML_BadgeTranslationFor>Translation: </RUML_BadgeTranslationFor>
+
+  <!-- Tooltips -->
+  <RUML_TipBuiltIn>This mod contains a built-in translation from the mod author (Languages/{0} folder).</RUML_TipBuiltIn>
+  <RUML_TipTargetSingle>This mod has a separate translation mod enabled in-game:\n</RUML_TipTargetSingle>
+  <RUML_TipTargetMulti>This mod has multiple translation mods enabled in-game ({0}):\n</RUML_TipTargetMulti>
+  <RUML_TipTransModSingle>This mod is a community translation for:\n</RUML_TipTransModSingle>
+  <RUML_TipTransModMulti>This language pack translates the following mods ({0}):\n</RUML_TipTransModMulti>
+
+  <!-- Additional UI & Table Keys -->
+  <RUML_TableColMod>Mod / Translation</RUML_TableColMod>
+  <RUML_TableColAuthor>Author</RUML_TableColAuthor>
+  <RUML_TableColStatus>Status</RUML_TableColStatus>
+  <RUML_TableColAction>Action</RUML_TableColAction>
+  <RUML_Download>Download</RUML_Download>
+  <RUML_RepeatAudit>Repeat Audit</RUML_RepeatAudit>
+  <RUML_BackToMods>Mod Selection</RUML_BackToMods>
+  <RUML_ModActiveInGame>• Target mod active in game ({0})</RUML_ModActiveInGame>
+  <RUML_ModInactiveInGame>• Mod not found in active mods list ({0})</RUML_ModInactiveInGame>
+  <RUML_ModAlreadyTranslatedInGame>Mod already translated in game</RUML_ModAlreadyTranslatedInGame>
+  <RUML_AuditNoReportsYet>Audit has not been run yet or no items found in selected mods.\nGo to 'Active Mods Selection' tab, select target mods, and click Run Audit.</RUML_AuditNoReportsYet>
+  <RUML_AuditStatusSelected>Selected for audit: {0} of {1} | Shown in filter: {2}</RUML_AuditStatusSelected>
+  <RUML_AuditSummary>Audited: {0} mods | Items: {1} (Defs: {2}, Keyed: {3}) | Untranslated: {4} | Coverage: {5}%</RUML_AuditSummary>
+  <RUML_AuditRowTranslated>Translated: {0} / {1} (Defs: {2}/{3}, Keyed: {4}/{5})  |  </RUML_AuditRowTranslated>
+  <RUML_AuditRowMissing>Untranslated: {0} items</RUML_AuditRowMissing>
+  <RUML_AuditRowComplete>100% Translated (full coverage)</RUML_AuditRowComplete>
+  <RUML_AuditMoreLines>... and {0} more untranslated strings (full list available in desktop export).</RUML_AuditMoreLines>
+  <RUML_TipRumlActive>A translation from RUML is active for this mod.</RUML_TipRumlActive>
+
+  <!-- Tab 3: Settings -->
+  <RUML_SettingsLangHeader>Target Language Settings</RUML_SettingsLangHeader>
+  <RUML_SettingsLangDesc>Determines which language folder translations are loaded into and which language the Mod Auditor evaluates.</RUML_SettingsLangDesc>
+  <RUML_SettingsCurrentLang>Current Target Language:</RUML_SettingsCurrentLang>
+  <RUML_SettingsActiveGameFolder>Active language folder in game: Languages/{0}</RUML_SettingsActiveGameFolder>
+  <RUML_SettingsApplyHeader>Application Mode</RUML_SettingsApplyHeader>
+  <RUML_SettingsCloudHeader>Cloud Translation Catalog</RUML_SettingsCloudHeader>
+  <RUML_SettingsManifestUrl>Manifest URL (GitHub raw JSON):</RUML_SettingsManifestUrl>
+  <RUML_SettingsResetUrl>Reset URL</RUML_SettingsResetUrl>
+  <RUML_SettingsUtilsHeader>Utilities &amp; Maintenance</RUML_SettingsUtilsHeader>
+  <RUML_SettingsReloadLanguage>Reload Language Database Now</RUML_SettingsReloadLanguage>
+  <RUML_SettingsResetAudit>Reset Mod Auditor Selection</RUML_SettingsResetAudit>
+  <RUML_SettingsAbout>RUML (RimWorld Universal Mods Localization) | Standalone localization manager for RimWorld</RUML_SettingsAbout>
+
+  <!-- In-game messages -->
+  <RUML_MsgTranslationDeleted>RUML: Translation for {0} ({1}) removed from disk.</RUML_MsgTranslationDeleted>
+  <RUML_MsgTranslationsApplied>RUML: Translations successfully reloaded and applied!</RUML_MsgTranslationsApplied>
+</LanguageData>

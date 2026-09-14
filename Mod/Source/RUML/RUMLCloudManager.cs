@@ -27,6 +27,7 @@ namespace RUML
         public string TargetFolder = "";
         public string ModFolder = "";
         public string AuthorFolder = "";
+        public string Language = "Russian";
         public bool IsInstalled = false;
         public bool IsTargetModActive = false;
     }
@@ -46,8 +47,37 @@ namespace RUML
         public static float DownloadPercent = 0f;
         public static string CurrentActionItem = "";
 
+        private static List<string> cachedAvailableLanguages = null;
+        private static Dictionary<string, int> cachedAuthorCounts = null;
+
+        public static void InvalidateCache()
+        {
+            cachedAvailableLanguages = null;
+            cachedAuthorCounts = null;
+            RUMLMod.InvalidateAuditCache();
+        }
+
+        public static List<string> GetAvailableLanguages()
+        {
+            if (cachedAvailableLanguages != null) return cachedAvailableLanguages;
+            HashSet<string> set = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+            for (int i = 0; i < Items.Count; i++)
+            {
+                string lang = RUMLFolderManager.NormalizeLanguageName(Items[i].Language);
+                if (!string.IsNullOrEmpty(lang))
+                {
+                    set.Add(lang);
+                }
+            }
+            List<string> list = new List<string>(set);
+            list.Sort(StringComparer.OrdinalIgnoreCase);
+            cachedAvailableLanguages = list;
+            return cachedAvailableLanguages;
+        }
+
         public static Dictionary<string, int> GetAuthorCounts()
         {
+            if (cachedAuthorCounts != null) return cachedAuthorCounts;
             Dictionary<string, int> counts = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
             for (int i = 0; i < Items.Count; i++)
             {
@@ -59,10 +89,11 @@ namespace RUML
                 }
                 counts[a]++;
             }
-            return counts;
+            cachedAuthorCounts = counts;
+            return cachedAuthorCounts;
         }
 
-        public static List<CloudModGroup> GetGroupedItems(string authorFilter = "", string searchFilter = "")
+        public static List<CloudModGroup> GetGroupedItems(string authorFilter = "", string searchFilter = "", string languageFilter = "", int statusFilter = 0)
         {
             Dictionary<string, CloudModGroup> map = new Dictionary<string, CloudModGroup>(StringComparer.OrdinalIgnoreCase);
             List<CloudModGroup> result = new List<CloudModGroup>();
@@ -70,6 +101,14 @@ namespace RUML
             for (int i = 0; i < Items.Count; i++)
             {
                 CloudTranslationItem item = Items[i];
+
+                if (!string.IsNullOrEmpty(languageFilter) && !string.Equals(languageFilter, "all", StringComparison.OrdinalIgnoreCase))
+                {
+                    if (!RUMLFolderManager.LanguagesMatch(item.Language, languageFilter))
+                    {
+                        continue;
+                    }
+                }
 
                 if (!string.IsNullOrEmpty(authorFilter) && !string.Equals(item.Author, authorFilter, StringComparison.OrdinalIgnoreCase))
                 {
@@ -99,7 +138,70 @@ namespace RUML
                 grp.Versions.Add(item);
             }
 
+            if (statusFilter > 0)
+            {
+                List<CloudModGroup> filtered = new List<CloudModGroup>();
+                for (int g = 0; g < result.Count; g++)
+                {
+                    CloudModGroup grp = result[g];
+                    bool hasInstalled = false;
+                    bool hasUpdate = false;
+                    for (int v = 0; v < grp.Versions.Count; v++)
+                    {
+                        if (grp.Versions[v].IsInstalled)
+                        {
+                            hasInstalled = true;
+                            if (grp.Versions[v].HasUpdate)
+                            {
+                                hasUpdate = true;
+                            }
+                        }
+                    }
+
+                    if (statusFilter == 1 && hasInstalled)
+                    {
+                        filtered.Add(grp);
+                    }
+                    else if (statusFilter == 2 && !hasInstalled)
+                    {
+                        filtered.Add(grp);
+                    }
+                    else if (statusFilter == 3 && hasUpdate)
+                    {
+                        filtered.Add(grp);
+                    }
+                }
+                return filtered;
+            }
+
             return result;
+        }
+
+        public static void GetStatusCounts(string authorFilter, string searchFilter, string languageFilter, out int countAll, out int countInstalled, out int countNotInstalled, out int countUpdates)
+        {
+            List<CloudModGroup> all = GetGroupedItems(authorFilter, searchFilter, languageFilter, 0);
+            countAll = all.Count;
+            countInstalled = 0;
+            countNotInstalled = 0;
+            countUpdates = 0;
+
+            for (int i = 0; i < all.Count; i++)
+            {
+                CloudModGroup grp = all[i];
+                bool hasInst = false;
+                bool hasUpd = false;
+                for (int v = 0; v < grp.Versions.Count; v++)
+                {
+                    if (grp.Versions[v].IsInstalled)
+                    {
+                        hasInst = true;
+                        if (grp.Versions[v].HasUpdate) hasUpd = true;
+                    }
+                }
+                if (hasInst) countInstalled++;
+                else countNotInstalled++;
+                if (hasUpd) countUpdates++;
+            }
         }
 
         public static void OpenTranslationsFolderInExplorer()
@@ -141,6 +243,8 @@ namespace RUML
                             string text = File.ReadAllText(infoPath);
                             item.LocalVersion = ExtractJsonField(text, "version");
                             item.LocalHash = ExtractJsonField(text, "hash");
+                            string locLang = ExtractJsonField(text, "language");
+                            if (!string.IsNullOrEmpty(locLang)) item.Language = locLang;
                         }
                         catch { }
                     }
@@ -179,6 +283,7 @@ namespace RUML
                 sb.AppendLine("  \"version\": \"" + (item.Version ?? "1.0.0") + "\",");
                 sb.AppendLine("  \"hash\": \"" + (item.Hash ?? "") + "\",");
                 sb.AppendLine("  \"author\": \"" + (item.Author ?? "") + "\",");
+                sb.AppendLine("  \"language\": \"" + (item.Language ?? "Russian") + "\",");
                 sb.AppendLine("  \"description\": \"" + (item.Description ?? "").Replace("\"", "\\\"") + "\"");
                 sb.AppendLine("}");
                 File.WriteAllText(infoPath, sb.ToString(), Encoding.UTF8);
@@ -208,6 +313,7 @@ namespace RUML
                         if (parsed.Count > 0)
                         {
                             Items = parsed;
+                            InvalidateCache();
                             StatusMessage = "Успешно загружено " + Items.Count + " переводов из каталога GitHub.";
                         }
                         else
@@ -225,6 +331,7 @@ namespace RUML
                     if (Items.Count == 0)
                     {
                         LoadDefaultShowcaseItems();
+                        InvalidateCache();
                     }
                 }
                 finally
@@ -357,6 +464,7 @@ namespace RUML
                     catch { }
 
                     SaveInstalledMeta(targetDir, item);
+                    RUMLFolderManager.InvalidateCache();
                     item.IsInstalled = true;
                     item.LocalVersion = item.Version;
                     item.LocalHash = item.Hash;
@@ -693,6 +801,7 @@ namespace RUML
                 CurrentActionItem = "";
                 IsBusy = false;
                 StatusMessage = "Успешно обновлено переводов: " + successCount + "/" + toUpdate.Count;
+                RUMLFolderManager.InvalidateCache();
 
                 LongEventHandler.ExecuteWhenFinished(delegate()
                 {
@@ -743,6 +852,7 @@ namespace RUML
             sb.AppendLine("    \"modName\": \"Название Мода\",");
             sb.AppendLine("    \"packageId\": \"author.modpackageid\",");
             sb.AppendLine("    \"author\": \"Ваш Nickname\",");
+            sb.AppendLine("    \"language\": \"Russian\",");
             sb.AppendLine("    \"version\": \"1.0.0\",");
             sb.AppendLine("    \"downloadUrl\": \"https://raw.githubusercontent.com/USER/REPO/main/packs/ModName/Author/ModName.zip\",");
             sb.AppendLine("    \"description\": \"Описание перевода, версия мода и примечания\",");
@@ -775,6 +885,8 @@ namespace RUML
                 item.ModName = ExtractJsonField(block, "modName");
                 item.PackageId = ExtractJsonField(block, "packageId");
                 item.Author = ExtractJsonField(block, "author");
+                item.Language = RUMLFolderManager.NormalizeLanguageName(ExtractJsonField(block, "language"));
+                if (string.IsNullOrEmpty(item.Language)) item.Language = "Russian";
                 item.Version = ExtractJsonField(block, "version");
                 item.Hash = ExtractJsonField(block, "hash");
                 item.DownloadUrl = ExtractJsonField(block, "downloadUrl");

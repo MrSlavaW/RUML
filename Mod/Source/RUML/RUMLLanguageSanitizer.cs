@@ -194,7 +194,8 @@ namespace RUML
                         }
                         if (string.IsNullOrEmpty(author)) continue;
 
-                        string langDir = Path.Combine(Path.Combine(Path.Combine(Path.Combine(extDir, item.ModFolder), author), "Languages"), "Russian");
+                        string targetLang = RUMLFolderManager.GetTargetLanguageFolder();
+                        string langDir = Path.Combine(Path.Combine(Path.Combine(Path.Combine(extDir, item.ModFolder), author), "Languages"), targetLang);
                         if (!Directory.Exists(langDir)) continue;
 
                         // 2a. Process DefInjected

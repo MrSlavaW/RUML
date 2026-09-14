@@ -12,12 +12,106 @@ namespace RUML
     {
         public string ModFolder;
         public List<string> Authors = new List<string>();
+        public Dictionary<string, string> AuthorVersions = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+
+        public string GetVersion(string author)
+        {
+            string ver;
+            if (!string.IsNullOrEmpty(author) && AuthorVersions.TryGetValue(author, out ver))
+            {
+                return ver;
+            }
+            return "1.0.0";
+        }
     }
 
     public static class RUMLFolderManager
     {
         private static List<string> originalFolders = null;
         public static bool hasPendingChanges = false;
+        private static List<InstalledModItem> cachedInstalledMods = null;
+
+        public static void InvalidateCache()
+        {
+            cachedInstalledMods = null;
+            RUMLMod.InvalidateAuditCache();
+        }
+
+        public static string NormalizeLanguageName(string lang)
+        {
+            if (string.IsNullOrEmpty(lang)) return "";
+            string s = lang.Trim();
+            int pIdx = s.IndexOf('(');
+            if (pIdx > 0)
+            {
+                s = s.Substring(0, pIdx).Trim();
+            }
+            return s;
+        }
+
+        public static bool LanguagesMatch(string a, string b)
+        {
+            if (string.IsNullOrEmpty(a) || string.IsNullOrEmpty(b)) return false;
+            if (string.Equals(a, "all", StringComparison.OrdinalIgnoreCase) || string.Equals(b, "all", StringComparison.OrdinalIgnoreCase)) return true;
+            if (string.Equals(a, b, StringComparison.OrdinalIgnoreCase)) return true;
+            return string.Equals(NormalizeLanguageName(a), NormalizeLanguageName(b), StringComparison.OrdinalIgnoreCase);
+        }
+
+        public static string GetLanguageFriendlyName(string langFolder)
+        {
+            if (string.IsNullOrEmpty(langFolder)) return "";
+            string norm = NormalizeLanguageName(langFolder);
+
+            try
+            {
+                if (LanguageDatabase.AllLoadedLanguages != null)
+                {
+                    foreach (LoadedLanguage l in LanguageDatabase.AllLoadedLanguages)
+                    {
+                        if (l != null && !string.IsNullOrEmpty(l.folderName))
+                        {
+                            if (LanguagesMatch(l.folderName, norm))
+                            {
+                                if (!string.IsNullOrEmpty(l.FriendlyNameNative))
+                                {
+                                    return l.FriendlyNameNative;
+                                }
+                                if (!string.IsNullOrEmpty(l.FriendlyNameEnglish))
+                                {
+                                    return l.FriendlyNameEnglish;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            catch { }
+
+            return norm;
+        }
+
+        public static string GetTargetLanguageFolder()
+        {
+            try
+            {
+                if (LoadedModManager.GetMod<RUMLMod>() != null)
+                {
+                    RUMLSettings settings = LoadedModManager.GetMod<RUMLMod>().GetSettings<RUMLSettings>();
+                    if (settings != null && !string.IsNullOrEmpty(settings.targetLanguage) && !settings.targetLanguage.Equals("auto", StringComparison.OrdinalIgnoreCase))
+                    {
+                        return NormalizeLanguageName(settings.targetLanguage);
+                    }
+                }
+            }
+            catch { }
+
+            if (LanguageDatabase.activeLanguage != null && !string.IsNullOrEmpty(LanguageDatabase.activeLanguage.folderName))
+            {
+                return NormalizeLanguageName(LanguageDatabase.activeLanguage.folderName);
+            }
+
+            return "Russian";
+        }
 
         public static string GetExternalTranslationsDir()
         {
@@ -37,17 +131,14 @@ namespace RUML
         public static string GetInstalledVersion(string modFolder, string author)
         {
             if (string.IsNullOrEmpty(modFolder) || string.IsNullOrEmpty(author)) return "1.0.0";
-            try
+            List<InstalledModItem> list = GetAllInstalledMods();
+            for (int i = 0; i < list.Count; i++)
             {
-                string infoFile = Path.Combine(Path.Combine(GetExternalTranslationsDir(), modFolder), Path.Combine(author, "info.json"));
-                if (File.Exists(infoFile))
+                if (string.Equals(list[i].ModFolder, modFolder, StringComparison.OrdinalIgnoreCase))
                 {
-                    string text = File.ReadAllText(infoFile);
-                    string ver = RUMLCloudManager.ExtractJsonField(text, "version");
-                    if (!string.IsNullOrEmpty(ver)) return ver;
+                    return list[i].GetVersion(author);
                 }
             }
-            catch { }
             return "1.0.0";
         }
 
@@ -86,11 +177,20 @@ namespace RUML
 
         public static List<InstalledModItem> GetAllInstalledMods()
         {
+            if (cachedInstalledMods != null)
+            {
+                return cachedInstalledMods;
+            }
+
             List<InstalledModItem> list = new List<InstalledModItem>();
             try
             {
                 string extDir = GetExternalTranslationsDir();
-                if (!Directory.Exists(extDir)) return list;
+                if (!Directory.Exists(extDir))
+                {
+                    cachedInstalledMods = list;
+                    return list;
+                }
 
                 string[] modDirs = Directory.GetDirectories(extDir);
                 for (int i = 0; i < modDirs.Length; i++)
@@ -160,15 +260,16 @@ namespace RUML
                             {
                                 try
                                 {
-                                    string ruDir = Path.Combine(langDir, "Russian");
-                                    Directory.CreateDirectory(ruDir);
+                                    string targetLang = GetTargetLanguageFolder();
+                                    string targetLangDir = Path.Combine(langDir, targetLang);
+                                    Directory.CreateDirectory(targetLangDir);
                                     string[] subDirsToWrap = new string[] { "Keyed", "DefInjected", "Strings" };
                                     for (int w = 0; w < subDirsToWrap.Length; w++)
                                     {
                                         string src = Path.Combine(aDir, subDirsToWrap[w]);
                                         if (Directory.Exists(src))
                                         {
-                                            string dst = Path.Combine(ruDir, subDirsToWrap[w]);
+                                            string dst = Path.Combine(targetLangDir, subDirsToWrap[w]);
                                             if (Directory.Exists(dst)) Directory.Delete(dst, true);
                                             Directory.Move(src, dst);
                                         }
@@ -184,6 +285,19 @@ namespace RUML
                         if (Directory.Exists(Path.Combine(aDir, "Languages")))
                         {
                             item.Authors.Add(aName);
+                            string infoFile = Path.Combine(aDir, "info.json");
+                            string ver = "1.0.0";
+                            if (File.Exists(infoFile))
+                            {
+                                try
+                                {
+                                    string text = File.ReadAllText(infoFile);
+                                    string v = RUMLCloudManager.ExtractJsonField(text, "version");
+                                    if (!string.IsNullOrEmpty(v)) ver = v;
+                                }
+                                catch { }
+                            }
+                            item.AuthorVersions[aName] = ver;
                         }
                     }
 
@@ -203,6 +317,7 @@ namespace RUML
             {
                 return string.Compare(a.ModFolder, b.ModFolder, StringComparison.OrdinalIgnoreCase);
             });
+            cachedInstalledMods = list;
             return list;
         }
 

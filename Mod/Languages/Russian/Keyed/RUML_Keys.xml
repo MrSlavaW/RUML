@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Main Tabs -->
+  <RUML_TabInstalled>1. Установленные ({0})</RUML_TabInstalled>
+  <RUML_TabAuditor>2. Аудитор модов</RUML_TabAuditor>
+  <RUML_TabCatalog>3. Каталог переводов</RUML_TabCatalog>
+  <RUML_TabCatalogCount>3. Каталог переводов ({0})</RUML_TabCatalogCount>
+  <RUML_TabSettings>4. Настройки</RUML_TabSettings>
+
+  <!-- Navigation & Search -->
+  <RUML_ClearSearchTooltip>Очистить строку поиска</RUML_ClearSearchTooltip>
+  <RUML_TargetLanguage>Целевой язык: {0}</RUML_TargetLanguage>
+  <RUML_LanguageAuto>Авто ({0})</RUML_LanguageAuto>
+  <RUML_LanguageAll>Все языки</RUML_LanguageAll>
+  <RUML_AllAuthors>Все авторы ({0})</RUML_AllAuthors>
+  <RUML_AuthorFilter>Автор: {0}</RUML_AuthorFilter>
+  <RUML_LangFilter>Язык: {0}</RUML_LangFilter>
+
+  <!-- Bottom Apply Bar -->
+  <RUML_ManualApplyMode>Режим «Применить по кнопке» (мгновенные действия без задержек и зависаний)</RUML_ManualApplyMode>
+  <RUML_ManualApplyModeTooltip>В этом режиме скачивание, включение, отключение и удаление переводов выполняются мгновенно без повторной перезагрузки всей базы данных игры. Чтобы применить изменения в игре, нажмите зелёную кнопку ниже.</RUML_ManualApplyModeTooltip>
+  <RUML_ApplyPending>★ Применить настройки и перезагрузить переводы в памяти игры (есть изменения!)</RUML_ApplyPending>
+  <RUML_Apply>Применить настройки и перезагрузить переводы в памяти игры</RUML_Apply>
+
+  <!-- Tab 0: Installed Translations -->
+  <RUML_NoInstalledTranslations>Локализации ещё не установлены в RUML.\nRUML работает как автономное ядро. Вы можете скачать нужные переводы во вкладке «Каталог переводов».</RUML_NoInstalledTranslations>
+  <RUML_GoToCatalog>Перейти в каталог переводов</RUML_GoToCatalog>
+  <RUML_OpenTranslationsFolder>Открыть папку переводов</RUML_OpenTranslationsFolder>
+  <RUML_EnableAll>Включить все</RUML_EnableAll>
+  <RUML_DisableAll>Отключить все</RUML_DisableAll>
+  <RUML_CheckUpdates>Проверить обновления</RUML_CheckUpdates>
+  <RUML_UpdateOutdated>Обновить устаревшие</RUML_UpdateOutdated>
+  <RUML_UpdateAllActive>Обновить все активные</RUML_UpdateAllActive>
+  <RUML_StatusUpToDate>✓ Актуально</RUML_StatusUpToDate>
+  <RUML_StatusUpdateAvailable>Обновить!</RUML_StatusUpdateAvailable>
+  <RUML_Update>Обновить</RUML_Update>
+  <RUML_Reinstall>Переустановить</RUML_Reinstall>
+  <RUML_Uninstall>Удалить</RUML_Uninstall>
+
+  <!-- Tab 1: Auditor Sub-Tabs -->
+  <RUML_AuditSubTabSelection>1. Выбор активных модов ({0} выбрано)</RUML_AuditSubTabSelection>
+  <RUML_AuditSubTabResults>2. Результаты анализа ({0} отчётов)</RUML_AuditSubTabResults>
+
+  <!-- Auditor Category Filters -->
+  <RUML_FilterAll>Все ({0})</RUML_FilterAll>
+  <RUML_FilterUntranslated>Без перевода ({0})</RUML_FilterUntranslated>
+  <RUML_FilterBuiltIn>Встроенный ({0})</RUML_FilterBuiltIn>
+  <RUML_FilterExternal>Внешний мод ({0})</RUML_FilterExternal>
+  <RUML_FilterRUML>RUML ({0})</RUML_FilterRUML>
+  <RUML_FilterPacks>Пакеты ({0})</RUML_FilterPacks>
+
+  <!-- Auditor Action Buttons -->
+  <RUML_SelectInFilter>Выбрать в фильтре</RUML_SelectInFilter>
+  <RUML_DeselectInFilter>Снять в фильтре</RUML_DeselectInFilter>
+  <RUML_SelectAll>Выбрать ВСЕ</RUML_SelectAll>
+  <RUML_DeselectAll>Снять ВСЕ</RUML_DeselectAll>
+  <RUML_ExcludeVanilla>Без Core/DLC</RUML_ExcludeVanilla>
+  <RUML_RunAudit>Запустить аудит ({0})</RUML_RunAudit>
+  <RUML_ExportReport>Экспорт отчёта</RUML_ExportReport>
+  <RUML_ExportTemplates>Экспорт XML-шаблонов</RUML_ExportTemplates>
+
+  <!-- Auditor Results Filter -->
+  <RUML_AuditResultAll>Все ({0})</RUML_AuditResultAll>
+  <RUML_AuditResultMissing>С пропусками ({0})</RUML_AuditResultMissing>
+  <RUML_AuditResultComplete>100% Переведено ({0})</RUML_AuditResultComplete>
+  <RUML_HideDetails>Скрыть детали ▲</RUML_HideDetails>
+  <RUML_ShowMissing>Пропуски ({0}) ▼</RUML_ShowMissing>
+  <RUML_CategoryDefs>Дефы ({0})</RUML_CategoryDefs>
+  <RUML_CategoryKeyed>Keyed / Настройки ({0})</RUML_CategoryKeyed>
+  <RUML_AllStringsTranslatedInCat>В данной категории все строки переведены.</RUML_AllStringsTranslatedInCat>
+
+  <!-- Tab 2: Cloud Catalog -->
+  <RUML_CatalogUrl>GitHub Каталог:</RUML_CatalogUrl>
+  <RUML_UpdateCatalog>Обновить каталог</RUML_UpdateCatalog>
+  <RUML_CatalogSettings>Настройки URL »</RUML_CatalogSettings>
+  <RUML_ExportManifestTemplate>Экспорт manifest.json</RUML_ExportManifestTemplate>
+  <RUML_DownloadAndApply>Скачать и применить</RUML_DownloadAndApply>
+  <RUML_UpdateAvailable>[Доступно обновление]</RUML_UpdateAvailable>
+  <RUML_Installed>Установлено</RUML_Installed>
+  <RUML_StatusFilterAll>Все переводы</RUML_StatusFilterAll>
+  <RUML_StatusFilterInstalled>Установленные</RUML_StatusFilterInstalled>
+  <RUML_StatusFilterNotInstalled>Не установленные</RUML_StatusFilterNotInstalled>
+  <RUML_StatusFilterUpdates>С обновлениями</RUML_StatusFilterUpdates>
+  <RUML_FilterAllCount>Все ({0})</RUML_FilterAllCount>
+  <RUML_FilterInstalledCount>Установленные ({0})</RUML_FilterInstalledCount>
+  <RUML_FilterNotInstalledCount>Не установленные ({0})</RUML_FilterNotInstalledCount>
+  <RUML_FilterUpdatesCount>Есть обновления ({0})</RUML_FilterUpdatesCount>
+
+  <!-- Badges -->
+  <RUML_BadgeBuiltIn>[Встроенный перевод]</RUML_BadgeBuiltIn>
+  <RUML_BadgeExternal>[Переведено внешним модом]</RUML_BadgeExternal>
+  <RUML_BadgeRUML>[RUML]</RUML_BadgeRUML>
+  <RUML_BadgeTranslationMod>[Мод-перевод]</RUML_BadgeTranslationMod>
+  <RUML_BadgeTranslationFor>Перевод: </RUML_BadgeTranslationFor>
+
+  <!-- Tooltips -->
+  <RUML_TipBuiltIn>Этот мод содержит встроенную локализацию от автора (папка Languages/{0}).</RUML_TipBuiltIn>
+  <RUML_TipTargetSingle>Для этого мода в игре включен отдельный внешний мод перевода:\n</RUML_TipTargetSingle>
+  <RUML_TipTargetMulti>Для этого мода в игре включено несколько внешних модов перевода ({0}):\n</RUML_TipTargetMulti>
+  <RUML_TipTransModSingle>Этот мод является сторонней локализацией для:\n</RUML_TipTransModSingle>
+  <RUML_TipTransModMulti>Этот языковой пакет переводит следующие моды ({0}):\n</RUML_TipTransModMulti>
+
+  <!-- Additional UI & Table Keys -->
+  <RUML_TableColMod>Мод / Локализация</RUML_TableColMod>
+  <RUML_TableColAuthor>Автор перевода</RUML_TableColAuthor>
+  <RUML_TableColStatus>Состояние</RUML_TableColStatus>
+  <RUML_TableColAction>Действие</RUML_TableColAction>
+  <RUML_Download>Скачать</RUML_Download>
+  <RUML_RepeatAudit>Повторить аудит</RUML_RepeatAudit>
+  <RUML_BackToMods>Выбор модов</RUML_BackToMods>
+  <RUML_ModActiveInGame>• Целевой мод активен в игре ({0})</RUML_ModActiveInGame>
+  <RUML_ModInactiveInGame>• Мод не обнаружен в списке активных модов ({0})</RUML_ModInactiveInGame>
+  <RUML_ModAlreadyTranslatedInGame>В игре уже есть перевод</RUML_ModAlreadyTranslatedInGame>
+  <RUML_AuditNoReportsYet>Аудит ещё не запускался или среди выбранных модов ничего не найдено.\nПерейдите во вкладку 'Выбор активных модов', выберите нужные моды и нажмите зеленую кнопку.</RUML_AuditNoReportsYet>
+  <RUML_AuditStatusSelected>Выбрано для аудита: {0} из {1} | Показано в фильтре: {2}</RUML_AuditStatusSelected>
+  <RUML_AuditSummary>Проверено: {0} модов | Элементов: {1} (Дефов: {2}, Keyed: {3}) | Не переведено: {4} | Покрытие: {5}%</RUML_AuditSummary>
+  <RUML_AuditRowTranslated>Переведено: {0} / {1} (Дефы: {2}/{3}, Keyed: {4}/{5})  |  </RUML_AuditRowTranslated>
+  <RUML_AuditRowMissing>Не переведено: {0} элементов</RUML_AuditRowMissing>
+  <RUML_AuditRowComplete>100% Переведено (полное покрытие)</RUML_AuditRowComplete>
+  <RUML_AuditMoreLines>... и ещё {0} непереведённых строк (полный список доступен в экспорте на Рабочий стол).</RUML_AuditMoreLines>
+  <RUML_TipRumlActive>Для этого мода активен перевод из системы RUML.</RUML_TipRumlActive>
+
+  <!-- Tab 3: Settings -->
+  <RUML_SettingsLangHeader>Параметры целевого языка</RUML_SettingsLangHeader>
+  <RUML_SettingsLangDesc>Определяет, в какую языковую папку загружаются и монтируются переводы, а также какой язык анализируется Аудитором.</RUML_SettingsLangDesc>
+  <RUML_SettingsCurrentLang>Текущий целевой язык:</RUML_SettingsCurrentLang>
+  <RUML_SettingsActiveGameFolder>Активная языковая папка в игре: Languages/{0}</RUML_SettingsActiveGameFolder>
+  <RUML_SettingsApplyHeader>Режим применения изменений</RUML_SettingsApplyHeader>
+  <RUML_SettingsCloudHeader>Облачный каталог переводов</RUML_SettingsCloudHeader>
+  <RUML_SettingsManifestUrl>URL манифеста переводов (GitHub raw JSON):</RUML_SettingsManifestUrl>
+  <RUML_SettingsResetUrl>Сбросить URL</RUML_SettingsResetUrl>
+  <RUML_SettingsUtilsHeader>Служебные действия</RUML_SettingsUtilsHeader>
+  <RUML_SettingsReloadLanguage>Перезагрузить переводы в памяти игры сейчас</RUML_SettingsReloadLanguage>
+  <RUML_SettingsResetAudit>Сбросить выбор аудитора модов</RUML_SettingsResetAudit>
+  <RUML_SettingsAbout>RUML (RimWorld Universal Mods Localization) | Автономный менеджер локализаций для RimWorld</RUML_SettingsAbout>
+
+  <!-- In-game messages -->
+  <RUML_MsgTranslationDeleted>RUML: Перевод для {0} ({1}) удалён с диска.</RUML_MsgTranslationDeleted>
+  <RUML_MsgTranslationsApplied>RUML: Переводы успешно перезагружены и применены!</RUML_MsgTranslationsApplied>
+</LanguageData>

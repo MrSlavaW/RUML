@@ -435,7 +435,14 @@ namespace RUML
                             if (LanguageDatabase.activeLanguage.TryGetTextFromKey(kr.key, out ts))
                             {
                                 string transStr = ts.RawText != null ? ts.RawText.Trim() : "";
-                                if (ContainsCyrillic(transStr))
+                                string targetLang = RUMLFolderManager.GetTargetLanguageFolder();
+                                bool isRussian = targetLang.Equals("Russian", StringComparison.OrdinalIgnoreCase);
+
+                                if (isRussian && ContainsCyrillic(transStr))
+                                {
+                                    isTranslated = true;
+                                }
+                                else if (!string.IsNullOrEmpty(transStr) && !string.Equals(transStr, engVal, StringComparison.Ordinal))
                                 {
                                     isTranslated = true;
                                 }
@@ -450,13 +457,10 @@ namespace RUML
                                         {
                                             string fPath = activeRep.fileSourceFullPath;
                                             if (!string.IsNullOrEmpty(fPath) &&
-                                                (fPath.IndexOf("Russian", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                                                (fPath.IndexOf(targetLang, StringComparison.OrdinalIgnoreCase) >= 0 ||
                                                  fPath.IndexOf("RUML", StringComparison.OrdinalIgnoreCase) >= 0))
                                             {
-                                                if (!string.Equals(transStr, engVal, StringComparison.Ordinal) || engVal.Length < 4)
-                                                {
-                                                    isTranslated = true;
-                                                }
+                                                isTranslated = true;
                                             }
                                         }
                                     }
@@ -559,8 +563,10 @@ namespace RUML
             string file = Path.Combine(desk, "RUML_Translation_Audit_Report.txt");
 
             StringBuilder sb = new StringBuilder();
+            string targetLang = RUMLFolderManager.GetTargetLanguageFolder();
             sb.AppendLine("================================================================================");
             sb.AppendLine("ОТЧЁТ ПОКРЫТИЯ ПЕРЕВОДОВ RUML (АВТОМАТИЧЕСКИЙ АУДИТ ДВИЖКА RIMWORLD)");
+            sb.AppendLine("Целевой язык / Target Language: " + targetLang);
             sb.AppendLine("Дата создания: " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
             sb.AppendLine("Всего проверено модов: " + reports.Count);
             sb.AppendLine("================================================================================");
@@ -579,15 +585,10 @@ namespace RUML
 
                 if (r.MissingList.Count > 0)
                 {
-                    sb.AppendLine("  Примеры отсутствующих строк (" + r.MissingList.Count + "):");
-                    int maxExamples = Math.Min(r.MissingList.Count, 100);
-                    for (int i = 0; i < maxExamples; i++)
+                    sb.AppendLine("  Список отсутствующих строк (" + r.MissingList.Count + "):");
+                    for (int i = 0; i < r.MissingList.Count; i++)
                     {
                         sb.AppendLine("    * " + r.MissingList[i]);
-                    }
-                    if (r.MissingList.Count > maxExamples)
-                    {
-                        sb.AppendLine("    ... и ещё " + (r.MissingList.Count - maxExamples) + " непереведённых строк.");
                     }
                 }
                 sb.AppendLine();
@@ -608,6 +609,7 @@ namespace RUML
                 Directory.CreateDirectory(baseDir);
             }
 
+            string targetLang = RUMLFolderManager.GetTargetLanguageFolder();
             int exportedModsCount = 0;
 
             for (int rIdx = 0; rIdx < reports.Count; rIdx++)
@@ -616,7 +618,7 @@ namespace RUML
                 if (r == null || r.MissingItems == 0) continue;
 
                 string safeModName = System.Text.RegularExpressions.Regex.Replace(r.ModName ?? "UnknownMod", @"[^a-zA-Z0-9_\-]", "_");
-                string modFolder = Path.Combine(baseDir, safeModName);
+                string modFolder = Path.Combine(baseDir, Path.Combine(safeModName, Path.Combine("Languages", targetLang)));
 
                 // 1. Export DefInjected templates
                 if (r.DetailedMissingDefs != null && r.DetailedMissingDefs.Count > 0)

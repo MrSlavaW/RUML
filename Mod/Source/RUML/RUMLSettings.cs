@@ -16,8 +16,12 @@ namespace RUML
         public HashSet<string> auditSelectedPackageIds = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         public bool auditInitialized = false;
 
+        // Target language for translations: "auto" (follows game language) or specific language folder name (e.g. "Russian", "German")
+        public string targetLanguage = "auto";
+
         // GitHub Cloud Translations configuration
-        public string cloudManifestUrl = "https://raw.githubusercontent.com/MrSlavaW/RUML/main/manifest.json";
+        public const string DefaultManifestUrl = "https://raw.githubusercontent.com/MrSlavaW/RUML/main/manifest.json";
+        public string cloudManifestUrl = DefaultManifestUrl;
 
         // Performance & Workflow: Apply translations on button click to avoid UI freezes
         public bool manualApplyMode = true;
@@ -152,6 +156,11 @@ namespace RUML
             }
 
             Scribe_Values.Look(ref auditInitialized, "auditInitialized", false);
+            Scribe_Values.Look(ref targetLanguage, "targetLanguage", "auto");
+            if (string.IsNullOrEmpty(targetLanguage))
+            {
+                targetLanguage = "auto";
+            }
             Scribe_Values.Look(ref cloudManifestUrl, "cloudManifestUrl", "https://raw.githubusercontent.com/MrSlavaW/RUML/main/manifest.json");
             Scribe_Values.Look(ref manualApplyMode, "manualApplyMode", true);
         }

@@ -47,8 +47,8 @@ namespace RUML
         private static readonly Dictionary<string, List<TargetModInfo>> translationToTargets =
             new Dictionary<string, List<TargetModInfo>>(StringComparer.OrdinalIgnoreCase);
 
-        // PackageIds of content mods that contain their own built-in Russian translation
-        private static readonly HashSet<string> builtInRussianMods =
+        // PackageIds of content mods that contain their own built-in translation for active/target language
+        private static readonly HashSet<string> builtInTranslationMods =
             new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 
         private static readonly HashSet<string> IgnoredPackageIds = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
@@ -62,6 +62,21 @@ namespace RUML
             "brrainz.harmony",
             "unlimitedhugs.hugslib",
             "ruml.rimworlduniversalmodslocalization"
+        };
+
+        private static readonly Dictionary<string, string[]> LanguageTokens = new Dictionary<string, string[]>(StringComparer.OrdinalIgnoreCase)
+        {
+            { "English", new string[] { "[en]", "(en)", "[eng]", "(eng)", "english", ".en", "_en", ".eng", "_eng" } },
+            { "Russian", new string[] { "[ru]", "(ru)", "[rus]", "(rus)", "russian", "русский", "перевод", ".ru", "_ru", ".rus", "_rus" } },
+            { "ChineseSimplified", new string[] { "[zh]", "(zh)", "[cn]", "(cn)", "chinese", "simplified", "中文", "汉化", "简体", ".zh", ".cn" } },
+            { "ChineseTraditional", new string[] { "[zh]", "(zh)", "[cht]", "(cht)", "traditional", "繁體", "繁体", "中文", "漢化", ".zh", ".cht" } },
+            { "German", new string[] { "[de]", "(de)", "[ger]", "(ger)", "german", "deutsch", ".de" } },
+            { "French", new string[] { "[fr]", "(fr)", "[fra]", "(fra)", "french", "français", "francais", ".fr" } },
+            { "Spanish", new string[] { "[es]", "(es)", "[esp]", "(esp)", "spanish", "español", "espanol", ".es" } },
+            { "Korean", new string[] { "[ko]", "(ko)", "[kor]", "(kor)", "korean", "한국어", "한글", ".ko" } },
+            { "Japanese", new string[] { "[ja]", "(ja)", "[jpn]", "(jpn)", "japanese", "日本語", ".ja" } },
+            { "Polish", new string[] { "[pl]", "(pl)", "[pol]", "(pol)", "polish", "polski", ".pl" } },
+            { "Ukrainian", new string[] { "[uk]", "(uk)", "[ua]", "(ua)", "ukrainian", "українська", "украинский", ".uk", ".ua" } }
         };
 
         public static void EnsureInitialized()
@@ -98,7 +113,7 @@ namespace RUML
             get
             {
                 EnsureInitialized();
-                return builtInRussianMods.Count;
+                return builtInTranslationMods.Count;
             }
         }
 
@@ -117,36 +132,47 @@ namespace RUML
         public static HashSet<string> GetAllBuiltInPackageIds()
         {
             EnsureInitialized();
-            return new HashSet<string>(builtInRussianMods, StringComparer.OrdinalIgnoreCase);
+            return new HashSet<string>(builtInTranslationMods, StringComparer.OrdinalIgnoreCase);
         }
 
         // =========================================================================
-        // BUILT-IN RUSSIAN TRANSLATION QUERIES
+        // BUILT-IN TRANSLATION QUERIES
         // =========================================================================
 
-        public static bool HasBuiltInRussianTranslation(string packageId)
+        public static bool HasBuiltInTranslation(string packageId)
         {
             EnsureInitialized();
             if (string.IsNullOrEmpty(packageId)) return false;
-            return builtInRussianMods.Contains(packageId);
+            return builtInTranslationMods.Contains(packageId);
+        }
+
+        public static bool HasBuiltInRussianTranslation(string packageId)
+        {
+            return HasBuiltInTranslation(packageId);
         }
 
         public static string GetBuiltInModBadge(string packageId)
         {
-            if (!HasBuiltInRussianTranslation(packageId))
+            if (!HasBuiltInTranslation(packageId))
             {
                 return "";
             }
-            return " <color=#64B5F6>[Встроенный перевод]</color>";
+            string badgeText = "RUML_BadgeBuiltIn".CanTranslate() ? (string)"RUML_BadgeBuiltIn".Translate() : "[Встроенный перевод]";
+            return " <color=#64B5F6>" + badgeText + "</color>";
         }
 
         public static string GetBuiltInModTooltip(string packageId)
         {
-            if (!HasBuiltInRussianTranslation(packageId))
+            if (!HasBuiltInTranslation(packageId))
             {
                 return null;
             }
-            return "Этот мод содержит встроенную русскую локализацию от автора (папка Languages/Russian).";
+            string targetLang = RUMLFolderManager.GetTargetLanguageFolder();
+            if ("RUML_TipBuiltIn".CanTranslate())
+            {
+                return "RUML_TipBuiltIn".Translate(targetLang);
+            }
+            return "Этот мод содержит встроенную локализацию от автора (папка Languages/" + targetLang + ").";
         }
 
         // =========================================================================
@@ -172,11 +198,12 @@ namespace RUML
                 return "";
             }
 
+            string badgeText = "RUML_BadgeExternal".CanTranslate() ? (string)"RUML_BadgeExternal".Translate() : "[Переведено внешним модом]";
             if (list.Count > 1)
             {
-                return " <color=#78D070>[Переведено внешним модом (+" + (list.Count - 1) + ")]</color>";
+                return " <color=#78D070>" + badgeText.TrimEnd(']') + " (+" + (list.Count - 1) + ")]</color>";
             }
-            return " <color=#78D070>[Переведено внешним модом]</color>";
+            return " <color=#78D070>" + badgeText + "</color>";
         }
 
         public static string GetTargetModTooltip(string targetPackageId)
@@ -189,15 +216,20 @@ namespace RUML
 
             if (list.Count == 1)
             {
-                return "Для этого мода в игре включен отдельный внешний мод перевода:\n• " + list[0].ModName + " (" + list[0].PackageIdPlayerFacing + ")";
+                string tSingle = "RUML_TipTargetSingle".CanTranslate() 
+                    ? (string)"RUML_TipTargetSingle".Translate() 
+                    : "Для этого мода в игре включен отдельный внешний мод перевода:\n";
+                return tSingle + "• " + list[0].ModName + " (" + list[0].PackageIdPlayerFacing + ")";
             }
 
-            string text = "Для этого мода в игре включено несколько внешних модов перевода (" + list.Count + "):\n";
+            string tMulti = "RUML_TipTargetMulti".CanTranslate()
+                ? (string)"RUML_TipTargetMulti".Translate(list.Count)
+                : ("Для этого мода в игре включено несколько внешних модов перевода (" + list.Count + "):\n");
             for (int i = 0; i < list.Count; i++)
             {
-                text += "• " + list[i].ModName + " (" + list[i].PackageIdPlayerFacing + ")\n";
+                tMulti += "• " + list[i].ModName + " (" + list[i].PackageIdPlayerFacing + ")\n";
             }
-            return text.TrimEnd();
+            return tMulti.TrimEnd();
         }
 
         // =========================================================================
@@ -223,6 +255,9 @@ namespace RUML
                 return "";
             }
 
+            string packBadge = "RUML_BadgeTranslationMod".CanTranslate() ? (string)"RUML_BadgeTranslationMod".Translate() : "[Мод-перевод]";
+            string transPrefix = "RUML_BadgeTranslationFor".CanTranslate() ? (string)"RUML_BadgeTranslationFor".Translate() : "Перевод: ";
+
             // If the translation mod's own name already contains the target mod's name,
             // a concise [Мод-перевод] badge is clean, readable, and prevents line overflow.
             if (!string.IsNullOrEmpty(transModName) && targets.Count == 1)
@@ -231,7 +266,7 @@ namespace RUML
                 string cleanTarget = CleanModNameForMatching(targets[0].TargetName);
                 if (!string.IsNullOrEmpty(cleanTarget) && cleanTrans.Contains(cleanTarget))
                 {
-                    return " <color=#40E0D0>[Мод-перевод]</color>";
+                    return " <color=#40E0D0>" + packBadge + "</color>";
                 }
             }
 
@@ -242,17 +277,17 @@ namespace RUML
                 {
                     tName = tName.Substring(0, maxChars - 2) + "..";
                 }
-                return " <color=#40E0D0>[Перевод: " + tName + "]</color>";
+                return " <color=#40E0D0>[" + transPrefix + tName + "]</color>";
             }
 
             if (targets.Count > 1)
             {
                 string first = targets[0].TargetName;
                 if (first.Length > 14) first = first.Substring(0, 12) + "..";
-                return " <color=#40E0D0>[Перевод: " + first + " (+" + (targets.Count - 1) + ")]</color>";
+                return " <color=#40E0D0>[" + transPrefix + first + " (+" + (targets.Count - 1) + ")]</color>";
             }
 
-            return " <color=#40E0D0>[Мод-перевод]</color>";
+            return " <color=#40E0D0>" + packBadge + "</color>";
         }
 
         public static string GetTranslationModSelfTooltip(string transPackageId)
@@ -265,10 +300,15 @@ namespace RUML
 
             if (targets.Count == 1)
             {
-                return "Этот мод является сторонней локализацией для:\n• " + targets[0].TargetName + " (" + targets[0].PackageId + ")";
+                string tSingle = "RUML_TipTransModSingle".CanTranslate()
+                    ? (string)"RUML_TipTransModSingle".Translate()
+                    : "Этот мод является сторонней локализацией для:\n";
+                return tSingle + "• " + targets[0].TargetName + " (" + targets[0].PackageId + ")";
             }
 
-            string text = "Этот языковой пакет переводит следующие моды (" + targets.Count + "):\n";
+            string text = "RUML_TipTransModMulti".CanTranslate()
+                ? (string)"RUML_TipTransModMulti".Translate(targets.Count)
+                : ("Этот языковой пакет переводит следующие моды (" + targets.Count + "):\n");
             for (int i = 0; i < targets.Count; i++)
             {
                 text += "• " + targets[i].TargetName + " (" + targets[i].PackageId + ")\n";
@@ -280,11 +320,11 @@ namespace RUML
         // INTERNAL SCANNING & SMART MATCHING
         // =========================================================================
 
-        private static void ScanRunningMods()
+        public static void ScanRunningMods()
         {
             targetToTranslations.Clear();
             translationToTargets.Clear();
-            builtInRussianMods.Clear();
+            builtInTranslationMods.Clear();
 
             var running = LoadedModManager.RunningMods.ToList();
             if (running == null || running.Count == 0)
@@ -292,6 +332,8 @@ namespace RUML
                 isInitialized = true;
                 return;
             }
+
+            string targetLang = RUMLFolderManager.GetTargetLanguageFolder();
 
             var runningPidMap = new Dictionary<string, ModContentPack>(StringComparer.OrdinalIgnoreCase);
             for (int i = 0; i < running.Count; i++)
@@ -307,7 +349,7 @@ namespace RUML
                 }
             }
 
-            // Pass 1: Find all translation mods and mods with built-in translations
+            // Pass 1: Find all translation mods and mods with built-in translations for target language
             var detectedTransMods = new List<ModContentPack>();
             for (int i = 0; i < running.Count; i++)
             {
@@ -315,16 +357,16 @@ namespace RUML
                 if (mod == null || string.IsNullOrEmpty(mod.PackageId)) continue;
                 if (IgnoredPackageIds.Contains(mod.PackageId)) continue;
 
-                if (IsEligibleTranslationMod(mod))
+                if (IsEligibleTranslationMod(mod, targetLang))
                 {
                     detectedTransMods.Add(mod);
                 }
-                else if (HasRussianLanguageFolder(mod))
+                else if (HasLanguageFolder(mod, targetLang))
                 {
-                    builtInRussianMods.Add(mod.PackageId);
+                    builtInTranslationMods.Add(mod.PackageId);
                     if (!string.IsNullOrEmpty(mod.PackageIdPlayerFacing))
                     {
-                        builtInRussianMods.Add(mod.PackageIdPlayerFacing);
+                        builtInTranslationMods.Add(mod.PackageIdPlayerFacing);
                     }
                 }
             }
@@ -378,36 +420,42 @@ namespace RUML
             isInitialized = true;
         }
 
-        private static bool IsEligibleTranslationMod(ModContentPack mod)
+        private static bool IsEligibleTranslationMod(ModContentPack mod, string targetLang)
         {
             if (mod == null) return false;
             string pid = mod.PackageId;
             if (string.IsNullOrEmpty(pid) || IgnoredPackageIds.Contains(pid)) return false;
 
-            if (!HasRussianLanguageFolder(mod)) return false;
+            if (!HasLanguageFolder(mod, targetLang)) return false;
 
             string nameLower = (mod.Name ?? "").ToLowerInvariant();
             string pidLower = pid.ToLowerInvariant();
 
-            bool hasTransName = nameLower.Contains("russian") ||
-                                nameLower.Contains("[ru]") ||
-                                nameLower.Contains("(ru)") ||
-                                nameLower.Contains("[rus]") ||
-                                nameLower.Contains("(rus)") ||
-                                nameLower.Contains("русский") ||
-                                nameLower.Contains("перевод") ||
-                                nameLower.Contains("language pack");
+            bool hasLangToken = false;
+            string[] tokens;
+            if (LanguageTokens.TryGetValue(targetLang, out tokens) && tokens != null)
+            {
+                for (int i = 0; i < tokens.Length; i++)
+                {
+                    if (nameLower.Contains(tokens[i]) || pidLower.Contains(tokens[i]))
+                    {
+                        hasLangToken = true;
+                        break;
+                    }
+                }
+            }
 
-            bool hasTransPid = pidLower.Contains(".ru") ||
-                               pidLower.Contains("_ru") ||
-                               pidLower.Contains("translation") ||
-                               pidLower.Contains(".rus") ||
-                               pidLower.Contains("_rus");
+            bool hasGenericTransName = nameLower.Contains("translation") ||
+                                       nameLower.Contains("language pack") ||
+                                       nameLower.Contains("localization");
+
+            bool hasGenericTransPid = pidLower.Contains("translation") ||
+                                      pidLower.Contains("localization");
 
             bool isPureTranslation = (mod.assemblies == null || mod.assemblies.loadedAssemblies.Count == 0) &&
                                      (mod.AllDefs == null || !mod.AllDefs.Any());
 
-            return hasTransName || hasTransPid || isPureTranslation;
+            return hasLangToken || hasGenericTransName || hasGenericTransPid || isPureTranslation;
         }
 
         private static List<string> ResolveBestTargetMods(ModContentPack transMod, List<ModContentPack> allRunning)
@@ -529,15 +577,16 @@ namespace RUML
         private static string CleanModNameForMatching(string name)
         {
             if (string.IsNullOrEmpty(name)) return "";
-            string n = Regex.Replace(name, @"(?i)\b(russian|language|pack|translation|rus|ru|перевод|русский|язык)\b", "");
+            string n = Regex.Replace(name, @"(?i)\b(russian|english|chinese|german|french|spanish|korean|japanese|polish|ukrainian|language|pack|translation|patch|rus|ru|en|zh|cn|de|fr|es|ko|ja|pl|uk|ua|перевод|русский|язык|中文|汉化|日本語|한국어)\b", "");
             n = Regex.Replace(n, @"[\[\]\(\)\-_:—]", " ");
             string[] parts = n.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             return string.Join(" ", parts).ToLowerInvariant();
         }
 
-        private static bool HasRussianLanguageFolder(ModContentPack mod)
+        public static bool HasLanguageFolder(ModContentPack mod, string langFolder)
         {
-            if (mod == null) return false;
+            if (mod == null || string.IsNullOrEmpty(langFolder)) return false;
+            string norm = RUMLFolderManager.NormalizeLanguageName(langFolder);
             try
             {
                 if (mod.foldersToLoadDescendingOrder != null)
@@ -547,26 +596,39 @@ namespace RUML
                         string folder = mod.foldersToLoadDescendingOrder[i];
                         if (!string.IsNullOrEmpty(folder))
                         {
-                            string ruDir = Path.Combine(folder, "Languages", "Russian");
-                            if (Directory.Exists(ruDir)) return true;
-                            string ruTar = Path.Combine(folder, "Languages", "Russian.tar");
-                            if (File.Exists(ruTar)) return true;
+                            if (Directory.Exists(Path.Combine(folder, "Languages", langFolder))) return true;
+                            if (File.Exists(Path.Combine(folder, "Languages", langFolder + ".tar"))) return true;
+
+                            if (!string.Equals(norm, langFolder, StringComparison.OrdinalIgnoreCase))
+                            {
+                                if (Directory.Exists(Path.Combine(folder, "Languages", norm))) return true;
+                                if (File.Exists(Path.Combine(folder, "Languages", norm + ".tar"))) return true;
+                            }
                         }
                     }
                 }
 
                 if (!string.IsNullOrEmpty(mod.RootDir))
                 {
-                    string ruDir = Path.Combine(mod.RootDir, "Languages", "Russian");
-                    if (Directory.Exists(ruDir)) return true;
-                    string ruTar = Path.Combine(mod.RootDir, "Languages", "Russian.tar");
-                    if (File.Exists(ruTar)) return true;
+                    if (Directory.Exists(Path.Combine(mod.RootDir, "Languages", langFolder))) return true;
+                    if (File.Exists(Path.Combine(mod.RootDir, "Languages", langFolder + ".tar"))) return true;
+
+                    if (!string.Equals(norm, langFolder, StringComparison.OrdinalIgnoreCase))
+                    {
+                        if (Directory.Exists(Path.Combine(mod.RootDir, "Languages", norm))) return true;
+                        if (File.Exists(Path.Combine(mod.RootDir, "Languages", norm + ".tar"))) return true;
+                    }
                 }
             }
             catch
             {
             }
             return false;
+        }
+
+        public static bool HasRussianLanguageFolder(ModContentPack mod)
+        {
+            return HasLanguageFolder(mod, "Russian");
         }
     }
 }

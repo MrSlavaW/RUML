@@ -34,7 +34,8 @@ namespace RUML
                     query = "";
                 }
                 GUI.color = prevCol;
-                TooltipHandler.TipRegion(clearRect, "Очистить строку поиска");
+                string tip = "RUML_ClearSearchTooltip".CanTranslate() ? (string)"RUML_ClearSearchTooltip".Translate() : "Очистить строку поиска";
+                TooltipHandler.TipRegion(clearRect, tip);
             }
         }
 
@@ -43,11 +44,11 @@ namespace RUML
             string sText;
             if (RUMLCloudManager.IsBusy)
             {
-                sText = "<color=yellow>Загрузка: " + RUMLCloudManager.StatusMessage + " (" + RUMLCloudManager.DownloadPercent.ToString("F0") + "%)</color>";
+                sText = "<color=yellow>" + RUMLCloudManager.StatusMessage + " (" + RUMLCloudManager.DownloadPercent.ToString("F0") + "%)</color>";
             }
             else if (RUMLFolderManager.hasPendingChanges)
             {
-                sText = "<color=#FFD700>• Есть неприменённые изменения! Нажмите «Применить настройки» внизу окна.</color>";
+                sText = "<color=#FFD700>• " + ("RUML_ApplyPending".CanTranslate() ? (string)"RUML_ApplyPending".Translate() : "Есть неприменённые изменения! Нажмите «Применить настройки» внизу окна.") + "</color>";
             }
             else
             {
@@ -58,22 +59,15 @@ namespace RUML
 
         public static void DrawBottomApplyBar(Rect inRect, ModContentPack content, RUMLSettings settings)
         {
-            Rect chkBoxRect = new Rect(inRect.x + 4f, inRect.yMax - 68f, 24f, 24f);
-            Widgets.Checkbox(chkBoxRect.x, chkBoxRect.y, ref settings.manualApplyMode);
-
-            Rect modeLabelRect = new Rect(inRect.x + 34f, inRect.yMax - 68f, inRect.width - 40f, 26f);
-            Widgets.Label(modeLabelRect, "Режим «Применить по кнопке» (мгновенные действия без задержек и зависаний)");
-            TooltipHandler.TipRegion(new Rect(inRect.x, inRect.yMax - 68f, inRect.width, 26f), "В этом режиме скачивание, включение, отключение и удаление переводов выполняются мгновенно без повторной перезагрузки всей базы данных игры. Чтобы применить изменения в игре, нажмите зелёную кнопку ниже.");
-
-            Rect bottomRect = new Rect(inRect.x, inRect.yMax - 38f, inRect.width, 36f);
+            Rect bottomRect = new Rect(inRect.x, inRect.yMax - 36f, inRect.width, 34f);
             Color prevApplyCol = GUI.color;
             if (RUMLFolderManager.hasPendingChanges)
             {
                 GUI.color = ColorAccentGreen;
             }
             string btnText = RUMLFolderManager.hasPendingChanges
-                ? "★ Применить настройки и перезагрузить переводы в памяти игры (есть изменения!)"
-                : "Применить настройки и перезагрузить переводы в памяти игры";
+                ? ("RUML_ApplyPending".CanTranslate() ? (string)"RUML_ApplyPending".Translate() : "[!] Применить настройки и перезагрузить переводы в памяти игры (есть изменения!)")
+                : ("RUML_Apply".CanTranslate() ? (string)"RUML_Apply".Translate() : "Применить настройки и перезагрузить переводы в памяти игры");
             if (Widgets.ButtonText(bottomRect, btnText))
             {
                 RUMLFolderManager.ApplyFilter(content, settings);
@@ -92,12 +86,15 @@ namespace RUML
         private Vector2 auditModsScrollPos = Vector2.zero;
         private Vector2 auditResultsScrollPos = Vector2.zero;
         private Vector2 cloudScrollPos = Vector2.zero;
+        private Vector2 settingsScrollPos = Vector2.zero;
 
         private string modsSearchFilter = "";
         private string auditSearchFilter = "";
         private string auditResultSearchFilter = "";
         private string cloudSearchFilter = "";
         private string cloudAuthorFilter = "";
+        private string cloudLanguageFilter = "auto";
+        private int cloudStatusFilter = 0; // 0: All, 1: Installed, 2: Not Installed, 3: Updates
         private Dictionary<string, int> selectedAuthorIndexByMod = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
 
         private List<ModAuditReport> lastAuditReports = null;
@@ -108,6 +105,52 @@ namespace RUML
         private string expandedAuditMod = "";
         private int expandedAuditCategoryFilter = 0; // 0: All, 1: Defs, 2: Keyed / Settings
         private bool autoCheckUpdatesTriggered = false;
+
+        // Caching structures for UI optimization
+        private class AuditSelectionModRow
+        {
+            public ModContentPack mod;
+            public string pid;
+            public string displayName;
+            public bool isRuml;
+            public bool isVanilla;
+            public bool isTransMod;
+            public bool hasExternal;
+            public bool hasBuiltIn;
+            public string tag;
+            public string builtInBadge;
+            public string transBadge;
+            public string fullTip;
+        }
+
+        private static List<AuditSelectionModRow> cachedAuditSelectionRows = null;
+        private static int cachedAuditCountAll = 0;
+        private static int cachedAuditCountNoTrans = 0;
+        private static int cachedAuditCountBuiltIn = 0;
+        private static int cachedAuditCountExternal = 0;
+        private static int cachedAuditCountRuml = 0;
+        private static int cachedAuditCountTransMods = 0;
+
+        private static string lastAuditSearchFilter = null;
+        private static int lastAuditCategoryFilter = -1;
+        private static List<AuditSelectionModRow> cachedAuditFilteredRows = null;
+
+        private static string lastCloudAuthorFilter = null;
+        private static string lastCloudSearchFilter = null;
+        private static string lastCloudLangFilter = null;
+        private static int lastCloudStatusFilter = -1;
+        private static int lastCloudItemsCount = -1;
+        private static List<CloudModGroup> cachedCloudGroups = null;
+
+        public static void InvalidateAuditCache()
+        {
+            cachedAuditSelectionRows = null;
+            cachedAuditFilteredRows = null;
+            lastAuditSearchFilter = null;
+            lastAuditCategoryFilter = -1;
+            cachedCloudGroups = null;
+            lastCloudStatusFilter = -1;
+        }
 
         public static readonly Dictionary<string, string> FolderToPackageId = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
         {
@@ -221,16 +264,19 @@ namespace RUML
                 }
             }
 
-            // Main Navigation Header (3 Tabs)
+            // Main Navigation Header (4 Tabs)
             int installedCount = RUMLFolderManager.GetAllInstalledMods().Count;
             int cloudCount = RUMLCloudManager.Items != null ? RUMLCloudManager.Items.Count : 0;
 
-            string tab0Title = "1. Установленные (" + installedCount + ")";
-            string tab1Title = "2. Аудитор модов";
-            string tab2Title = cloudCount > 0 ? ("3. Каталог переводов (" + cloudCount + ")") : "3. Каталог переводов";
+            string tab0Title = "RUML_TabInstalled".CanTranslate() ? (string)"RUML_TabInstalled".Translate(installedCount) : ("1. Установленные (" + installedCount + ")");
+            string tab1Title = "RUML_TabAuditor".CanTranslate() ? (string)"RUML_TabAuditor".Translate() : "2. Аудитор модов";
+            string tab2Title = cloudCount > 0
+                ? ("RUML_TabCatalogCount".CanTranslate() ? (string)"RUML_TabCatalogCount".Translate(cloudCount) : ("3. Каталог переводов (" + cloudCount + ")"))
+                : ("RUML_TabCatalog".CanTranslate() ? (string)"RUML_TabCatalog".Translate() : "3. Каталог переводов");
+            string tab3Title = "RUML_TabSettings".CanTranslate() ? (string)"RUML_TabSettings".Translate() : "4. Настройки";
 
             Rect tabRect = new Rect(inRect.x, inRect.y, inRect.width, 32f);
-            float tabWidth = (inRect.width - 20f) / 3f;
+            float tabWidth = (inRect.width - 30f) / 4f;
 
             if (DrawTabButton(new Rect(tabRect.x, tabRect.y, tabWidth, 32f), tab0Title, currentMainTab == 0))
             {
@@ -244,6 +290,10 @@ namespace RUML
             {
                 currentMainTab = 2;
             }
+            if (DrawTabButton(new Rect(tabRect.x + (tabWidth + 10f) * 3, tabRect.y, tabWidth, 32f), tab3Title, currentMainTab == 3))
+            {
+                currentMainTab = 3;
+            }
 
             Rect contentRect = new Rect(inRect.x, inRect.y + 40f, inRect.width, inRect.height - 40f);
 
@@ -255,9 +305,13 @@ namespace RUML
             {
                 DrawAuditTab(contentRect);
             }
-            else
+            else if (currentMainTab == 2)
             {
                 DrawCloudTab(contentRect);
+            }
+            else
+            {
+                DrawSettingsTab(contentRect);
             }
         }
 
@@ -282,16 +336,19 @@ namespace RUML
             if (allMods.Count == 0)
             {
                 Rect infoRect = new Rect(inRect.x + 10f, inRect.y + 20f, inRect.width - 20f, 65f);
-                Widgets.Label(infoRect, "Локализации ещё не установлены в RUML.\nRUML работает как автономное ядро. Вы можете скачать нужные переводы во вкладке «Сторонние переводы (GitHub)».");
+                string noModsText = "RUML_NoInstalledTranslations".CanTranslate() ? (string)"RUML_NoInstalledTranslations".Translate() : "Локализации ещё не установлены в RUML.\nRUML работает как автономное ядро. Вы можете скачать нужные переводы во вкладке «Каталог переводов».";
+                Widgets.Label(infoRect, noModsText);
 
                 Rect goBtn = new Rect(inRect.x + 10f, infoRect.yMax + 10f, 320f, 34f);
-                if (Widgets.ButtonText(goBtn, "Перейти в каталог переводов (GitHub)"))
+                string goBtnText = "RUML_GoToCatalog".CanTranslate() ? (string)"RUML_GoToCatalog".Translate() : "Перейти в каталог переводов";
+                if (Widgets.ButtonText(goBtn, goBtnText))
                 {
                     currentMainTab = 2;
                 }
 
                 Rect emptyDirRect = new Rect(inRect.x + 10f, goBtn.yMax + 14f, 240f, 32f);
-                if (Widgets.ButtonText(emptyDirRect, "Открыть папку переводов"))
+                string openDirText = "RUML_OpenTranslationsFolder".CanTranslate() ? (string)"RUML_OpenTranslationsFolder".Translate() : "Открыть папку переводов";
+                if (Widgets.ButtonText(emptyDirRect, openDirText))
                 {
                     RUMLCloudManager.OpenTranslationsFolderInExplorer();
                 }
@@ -301,12 +358,13 @@ namespace RUML
 
             // Top Controls: Row 1 - Search & Batch Toggle
             Rect topRect = new Rect(inRect.x, inRect.y, inRect.width, 30f);
-            float btnW = 115f;
+            float btnW = 125f;
 
             Rect searchRect = new Rect(topRect.x, topRect.y, inRect.width - (btnW * 2 + 20f), 30f);
             RUMLUI.DrawSearchBar(searchRect, ref modsSearchFilter);
 
-            if (Widgets.ButtonText(new Rect(searchRect.xMax + 10f, topRect.y, btnW, 30f), "Включить все"))
+            string enableAllText = "RUML_EnableAll".CanTranslate() ? (string)"RUML_EnableAll".Translate() : "Включить все";
+            if (Widgets.ButtonText(new Rect(searchRect.xMax + 10f, topRect.y, btnW, 30f), enableAllText))
             {
                 foreach (InstalledModItem m in allMods) Settings.SetModEnabled(m.ModFolder, true);
                 RUMLFolderManager.ApplyFilter(Content, Settings);
@@ -319,7 +377,9 @@ namespace RUML
                     RUMLFolderManager.ReloadLanguage();
                 }
             }
-            if (Widgets.ButtonText(new Rect(searchRect.xMax + btnW + 20f, topRect.y, btnW, 30f), "Отключить все"))
+
+            string disableAllText = "RUML_DisableAll".CanTranslate() ? (string)"RUML_DisableAll".Translate() : "Отключить все";
+            if (Widgets.ButtonText(new Rect(searchRect.xMax + btnW + 20f, topRect.y, btnW, 30f), disableAllText))
             {
                 foreach (InstalledModItem m in allMods) Settings.SetModEnabled(m.ModFolder, false);
                 RUMLFolderManager.ApplyFilter(Content, Settings);
@@ -340,28 +400,32 @@ namespace RUML
             float actW3 = 165f;
             float actW4 = 180f;
 
-            if (Widgets.ButtonText(new Rect(actRow.x, actRow.y, actW1, 30f), "Проверить обновления"))
+            string chkUpdText = "RUML_CheckUpdates".CanTranslate() ? (string)"RUML_CheckUpdates".Translate() : "Проверить обновления";
+            if (Widgets.ButtonText(new Rect(actRow.x, actRow.y, actW1, 30f), chkUpdText))
             {
                 RUMLCloudManager.CheckUpdatesAsync(Settings.cloudManifestUrl, Content);
             }
 
             Color prevBtnCol = GUI.color;
             GUI.color = RUMLUI.ColorButtonGreen;
-            if (Widgets.ButtonText(new Rect(actRow.x + actW1 + 10f, actRow.y, actW2, 30f), "Обновить актуальные"))
+            string updOutdatedText = "RUML_UpdateOutdated".CanTranslate() ? (string)"RUML_UpdateOutdated".Translate() : "Обновить актуальные";
+            if (Widgets.ButtonText(new Rect(actRow.x + actW1 + 10f, actRow.y, actW2, 30f), updOutdatedText))
             {
                 RUMLCloudManager.UpdateOutdatedOnlyAsync(Content, Settings);
             }
             GUI.color = prevBtnCol;
             TooltipHandler.TipRegion(new Rect(actRow.x + actW1 + 10f, actRow.y, actW2, 30f), "Скачать обновления ТОЛЬКО для тех активных переводов, для которых вышли новые версии (без повторной загрузки уже актуальных).");
 
-            if (Widgets.ButtonText(new Rect(actRow.x + actW1 + actW2 + 20f, actRow.y, actW3, 30f), "Переустановить все"))
+            string updAllText = "RUML_UpdateAllActive".CanTranslate() ? (string)"RUML_UpdateAllActive".Translate() : "Переустановить все";
+            if (Widgets.ButtonText(new Rect(actRow.x + actW1 + actW2 + 20f, actRow.y, actW3, 30f), updAllText))
             {
                 RUMLCloudManager.UpdateAllActiveAsync(Content, Settings);
             }
             TooltipHandler.TipRegion(new Rect(actRow.x + actW1 + actW2 + 20f, actRow.y, actW3, 30f), "Принудительно заново перекачать и установить все активные переводы.");
 
             Rect openDirRect = new Rect(actRow.x + actW1 + actW2 + actW3 + 30f, actRow.y, actW4, 30f);
-            if (Widgets.ButtonText(openDirRect, "Открыть папку переводов"))
+            string openDirText2 = "RUML_OpenTranslationsFolder".CanTranslate() ? (string)"RUML_OpenTranslationsFolder".Translate() : "Открыть папку переводов";
+            if (Widgets.ButtonText(openDirRect, openDirText2))
             {
                 RUMLCloudManager.OpenTranslationsFolderInExplorer();
             }
@@ -386,23 +450,27 @@ namespace RUML
             float nameW = authorX - nameX - 10f;
 
             Rect h1 = new Rect(tableHeaderRect.x + nameX, tableHeaderRect.y + 2f, nameW, 20f);
-            Widgets.Label(h1, "<color=#C0C0C0><b>Мод / Локализация</b></color>");
+            string colMod = "RUML_TableColMod".CanTranslate() ? (string)"RUML_TableColMod".Translate() : "Мод / Локализация";
+            Widgets.Label(h1, "<color=#C0C0C0><b>" + colMod + "</b></color>");
 
             Rect h2 = new Rect(tableHeaderRect.x + authorX, tableHeaderRect.y + 2f, authorW, 20f);
-            Widgets.Label(h2, "<color=#C0C0C0><b>Автор перевода</b></color>");
+            string colAuthor = "RUML_TableColAuthor".CanTranslate() ? (string)"RUML_TableColAuthor".Translate() : "Автор перевода";
+            Widgets.Label(h2, "<color=#C0C0C0><b>" + colAuthor + "</b></color>");
 
             Rect h3 = new Rect(tableHeaderRect.x + statusX, tableHeaderRect.y + 2f, statusW, 20f);
             Text.Anchor = TextAnchor.MiddleCenter;
-            Widgets.Label(h3, "<color=#C0C0C0><b>Состояние</b></color>");
+            string colStatus = "RUML_TableColStatus".CanTranslate() ? (string)"RUML_TableColStatus".Translate() : "Состояние";
+            Widgets.Label(h3, "<color=#C0C0C0><b>" + colStatus + "</b></color>");
             Text.Anchor = TextAnchor.UpperLeft;
 
             Rect h4 = new Rect(tableHeaderRect.x + actionX, tableHeaderRect.y + 2f, actionW, 20f);
             Text.Anchor = TextAnchor.MiddleCenter;
-            Widgets.Label(h4, "<color=#C0C0C0><b>Действие</b></color>");
+            string colAction = "RUML_TableColAction".CanTranslate() ? (string)"RUML_TableColAction".Translate() : "Действие";
+            Widgets.Label(h4, "<color=#C0C0C0><b>" + colAction + "</b></color>");
             Text.Anchor = TextAnchor.UpperLeft;
 
             // Scrollable List (starts below table header)
-            Rect listRect = new Rect(inRect.x, inRect.y + 122f, inRect.width, inRect.height - 198f);
+            Rect listRect = new Rect(inRect.x, inRect.y + 122f, inRect.width, inRect.height - 164f);
             List<InstalledModItem> filtered = new List<InstalledModItem>();
             foreach (InstalledModItem m in allMods)
             {
@@ -418,6 +486,12 @@ namespace RUML
             float curY = 0f;
             foreach (InstalledModItem item in filtered)
             {
+                if (curY + 44f < modsScrollPos.y - 10f || curY > modsScrollPos.y + listRect.height + 10f)
+                {
+                    curY += 44f;
+                    continue;
+                }
+
                 string modFolder = item.ModFolder;
                 bool isEnabled = Settings.IsModEnabled(modFolder);
 
@@ -515,17 +589,19 @@ namespace RUML
                 {
                     Color prevUCol = GUI.color;
                     GUI.color = RUMLUI.ColorAccentGold;
-                    if (Widgets.ButtonText(statusColRect, "Обновить!"))
+                    string updLabel = "RUML_StatusUpdateAvailable".CanTranslate() ? (string)"RUML_StatusUpdateAvailable".Translate() : "Обновить!";
+                    if (Widgets.ButtonText(statusColRect, updLabel))
                     {
                         RUMLCloudManager.DownloadAndInstallAsync(cloudItem, Content, Settings);
                     }
                     GUI.color = prevUCol;
-                    TooltipHandler.TipRegion(statusColRect, "Доступно обновление: v" + (cloudItem.LocalVersion ?? "1.0") + " -> v" + cloudItem.Version);
+                    TooltipHandler.TipRegion(statusColRect, "v" + (cloudItem.LocalVersion ?? "1.0") + " -> v" + cloudItem.Version);
                 }
                 else
                 {
                     Text.Anchor = TextAnchor.MiddleCenter;
-                    Widgets.Label(statusColRect, "<color=#50E050>✓ Актуально</color>");
+                    string upToDateText = "RUML_StatusUpToDate".CanTranslate() ? (string)"RUML_StatusUpToDate".Translate() : "✓ Актуально";
+                    Widgets.Label(statusColRect, "<color=#50E050>" + upToDateText + "</color>");
                     Text.Anchor = TextAnchor.UpperLeft;
                 }
 
@@ -533,12 +609,13 @@ namespace RUML
                 Rect delBtnRect = new Rect(actionX, curY + 5f, actionW, 28f);
                 Color prevCol = GUI.color;
                 GUI.color = RUMLUI.ColorDestructiveRed;
-                if (Widgets.ButtonText(delBtnRect, "Удалить"))
+                string delLabel = "RUML_Uninstall".CanTranslate() ? (string)"RUML_Uninstall".Translate() : "Удалить";
+                if (Widgets.ButtonText(delBtnRect, delLabel))
                 {
                     RUMLFolderManager.DeleteAuthorTranslation(modFolder, activeAuthor, Content, Settings);
                 }
                 GUI.color = prevCol;
-                TooltipHandler.TipRegion(delBtnRect, "Удалить установленный перевод от автора " + activeAuthor);
+                TooltipHandler.TipRegion(delBtnRect, activeAuthor);
 
                 curY += 44f;
             }
@@ -561,8 +638,12 @@ namespace RUML
             int selCount = Settings.auditSelectedPackageIds != null ? Settings.auditSelectedPackageIds.Count : 0;
             int repCount = lastAuditReports != null ? lastAuditReports.Count : 0;
 
-            string sub0Label = "1. Выбор активных модов (" + selCount + " выбрано)";
-            string sub1Label = "2. Результаты анализа (" + repCount + " отчётов)";
+            string sub0Label = "RUML_AuditSubTabSelection".CanTranslate() 
+                ? (string)"RUML_AuditSubTabSelection".Translate(selCount) 
+                : ("1. Выбор активных модов (" + selCount + " выбрано)");
+            string sub1Label = "RUML_AuditSubTabResults".CanTranslate() 
+                ? (string)"RUML_AuditSubTabResults".Translate(repCount) 
+                : ("2. Результаты анализа (" + repCount + " отчётов)");
 
             if (DrawTabButton(new Rect(subHeaderRect.x, subHeaderRect.y, subW, 28f), sub0Label, auditSubTab == 0))
             {
@@ -594,43 +675,126 @@ namespace RUML
             Rect searchRect = new Rect(inRect.x, inRect.y, inRect.width, 26f);
             RUMLUI.DrawSearchBar(searchRect, ref auditSearchFilter);
 
-            // Pre-calculate counts for each category
-            int countAll = running.Count;
-            int countNoTrans = 0;
-            int countBuiltIn = 0;
-            int countExternal = 0;
-            int countRuml = 0;
-            int countTransMods = 0;
-
-            for (int i = 0; i < running.Count; i++)
+            // Rebuild rows cache if null or running mods count changed
+            if (cachedAuditSelectionRows == null || cachedAuditSelectionRows.Count != running.Count)
             {
-                var m = running[i];
-                string pid = m.PackageIdPlayerFacing;
-                bool isRuml = FolderToPackageId.Values.Any(p => string.Equals(p, pid, StringComparison.OrdinalIgnoreCase)) ||
-                              (RUMLCloudManager.Items != null && RUMLCloudManager.Items.Any(ci => ci.IsInstalled && string.Equals(ci.PackageId, pid, StringComparison.OrdinalIgnoreCase)));
-                List<TargetModInfo> dummyTargets;
-                bool isTransMod = RUMLTranslationDetector.IsTranslationMod(m.PackageId, out dummyTargets) || RUMLTranslationDetector.IsTranslationMod(pid, out dummyTargets);
-                List<ActiveTranslationModInfo> dummyAct;
-                bool hasExternal = RUMLTranslationDetector.HasActiveTranslation(m.PackageId, out dummyAct) || RUMLTranslationDetector.HasActiveTranslation(pid, out dummyAct);
-                bool hasBuiltIn = RUMLTranslationDetector.HasBuiltInRussianTranslation(m.PackageId) || RUMLTranslationDetector.HasBuiltInRussianTranslation(pid);
-                bool isVanilla = IsVanillaOrDlc(pid);
+                cachedAuditSelectionRows = new List<AuditSelectionModRow>(running.Count);
+                cachedAuditCountAll = running.Count;
+                cachedAuditCountNoTrans = 0;
+                cachedAuditCountBuiltIn = 0;
+                cachedAuditCountExternal = 0;
+                cachedAuditCountRuml = 0;
+                cachedAuditCountTransMods = 0;
 
-                if (isTransMod) countTransMods++;
-                if (hasBuiltIn) countBuiltIn++;
-                if (hasExternal) countExternal++;
-                if (isRuml) countRuml++;
-                if (!isVanilla && !isTransMod && !hasBuiltIn && !hasExternal && !isRuml) countNoTrans++;
+                HashSet<string> rumlPackageIds = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+                foreach (string p in FolderToPackageId.Values)
+                {
+                    if (!string.IsNullOrEmpty(p)) rumlPackageIds.Add(p);
+                }
+                if (RUMLCloudManager.Items != null)
+                {
+                    for (int ci = 0; ci < RUMLCloudManager.Items.Count; ci++)
+                    {
+                        var it = RUMLCloudManager.Items[ci];
+                        if (it.IsInstalled && !string.IsNullOrEmpty(it.PackageId))
+                        {
+                            rumlPackageIds.Add(it.PackageId);
+                        }
+                    }
+                }
+
+                for (int i = 0; i < running.Count; i++)
+                {
+                    var m = running[i];
+                    string pid = m.PackageIdPlayerFacing;
+                    bool isRuml = rumlPackageIds.Contains(pid);
+                    List<TargetModInfo> dummyTargets;
+                    bool isTransMod = RUMLTranslationDetector.IsTranslationMod(m.PackageId, out dummyTargets) || RUMLTranslationDetector.IsTranslationMod(pid, out dummyTargets);
+                    List<ActiveTranslationModInfo> dummyAct;
+                    bool hasExternal = RUMLTranslationDetector.HasActiveTranslation(m.PackageId, out dummyAct) || RUMLTranslationDetector.HasActiveTranslation(pid, out dummyAct);
+                    bool hasBuiltIn = RUMLTranslationDetector.HasBuiltInTranslation(m.PackageId) || RUMLTranslationDetector.HasBuiltInTranslation(pid);
+                    bool isVanilla = IsVanillaOrDlc(pid);
+
+                    if (isTransMod) cachedAuditCountTransMods++;
+                    if (hasBuiltIn) cachedAuditCountBuiltIn++;
+                    if (hasExternal) cachedAuditCountExternal++;
+                    if (isRuml) cachedAuditCountRuml++;
+                    if (!isVanilla && !isTransMod && !hasBuiltIn && !hasExternal && !isRuml) cachedAuditCountNoTrans++;
+
+                    string tag = "";
+                    if (isRuml)
+                    {
+                        tag = " <color=#FFD700>[RUML]</color>";
+                    }
+                    else if (isVanilla)
+                    {
+                        tag = string.Equals(pid, "ludeon.rimworld", StringComparison.OrdinalIgnoreCase)
+                            ? " <color=#E0B020>[Core]</color>"
+                            : " <color=#E0B020>[DLC]</color>";
+                    }
+
+                    string builtInBadge = RUMLTranslationDetector.GetBuiltInModBadge(m.PackageId);
+                    string builtInTip = RUMLTranslationDetector.GetBuiltInModTooltip(m.PackageId);
+
+                    string transBadge = "";
+                    string transTip = null;
+                    if (isTransMod)
+                    {
+                        transBadge = RUMLTranslationDetector.GetTranslationModSelfBadge(m.PackageId, m.Name);
+                        transTip = RUMLTranslationDetector.GetTranslationModSelfTooltip(m.PackageId);
+                    }
+                    else if (hasExternal)
+                    {
+                        transBadge = RUMLTranslationDetector.GetTargetModBadge(m.PackageId);
+                        transTip = RUMLTranslationDetector.GetTargetModTooltip(m.PackageId);
+                    }
+
+                    string dispName = GetModDisplayName(m);
+                    string fullTip = dispName + "\n(" + pid + ")";
+                    if (!string.IsNullOrEmpty(builtInTip)) fullTip += "\n\n" + builtInTip;
+                    if (!string.IsNullOrEmpty(transTip)) fullTip += "\n\n" + transTip;
+                    if (isRuml)
+                    {
+                        string rumlTip = "RUML_TipRumlActive".CanTranslate() ? (string)"RUML_TipRumlActive".Translate() : "Для этого мода активен перевод из системы RUML.";
+                        fullTip += "\n\n" + rumlTip;
+                    }
+
+                    AuditSelectionModRow row = new AuditSelectionModRow
+                    {
+                        mod = m,
+                        pid = pid,
+                        displayName = dispName,
+                        isRuml = isRuml,
+                        isVanilla = isVanilla,
+                        isTransMod = isTransMod,
+                        hasExternal = hasExternal,
+                        hasBuiltIn = hasBuiltIn,
+                        tag = tag,
+                        builtInBadge = builtInBadge,
+                        transBadge = transBadge,
+                        fullTip = fullTip
+                    };
+                    cachedAuditSelectionRows.Add(row);
+                }
+                cachedAuditFilteredRows = null;
             }
+
+            int countAll = cachedAuditCountAll;
+            int countNoTrans = cachedAuditCountNoTrans;
+            int countBuiltIn = cachedAuditCountBuiltIn;
+            int countExternal = cachedAuditCountExternal;
+            int countRuml = cachedAuditCountRuml;
+            int countTransMods = cachedAuditCountTransMods;
 
             // Row 2: Category Filter Bar
             string[] catLabels = new string[]
             {
-                "Все (" + countAll + ")",
-                "Без перевода (" + countNoTrans + ")",
-                "Встроенный (" + countBuiltIn + ")",
-                "Внешний мод (" + countExternal + ")",
-                "RUML (" + countRuml + ")",
-                "Пакеты (" + countTransMods + ")"
+                "RUML_FilterAll".CanTranslate() ? (string)"RUML_FilterAll".Translate(countAll) : ("Все (" + countAll + ")"),
+                "RUML_FilterUntranslated".CanTranslate() ? (string)"RUML_FilterUntranslated".Translate(countNoTrans) : ("Без перевода (" + countNoTrans + ")"),
+                "RUML_FilterBuiltIn".CanTranslate() ? (string)"RUML_FilterBuiltIn".Translate(countBuiltIn) : ("Встроенный (" + countBuiltIn + ")"),
+                "RUML_FilterExternal".CanTranslate() ? (string)"RUML_FilterExternal".Translate(countExternal) : ("Внешний мод (" + countExternal + ")"),
+                "RUML_FilterRUML".CanTranslate() ? (string)"RUML_FilterRUML".Translate(countRuml) : ("RUML (" + countRuml + ")"),
+                "RUML_FilterPacks".CanTranslate() ? (string)"RUML_FilterPacks".Translate(countTransMods) : ("Пакеты (" + countTransMods + ")")
             };
             float catGap = 5f;
             float catBtnW = (inRect.width - catGap * 5f) / 6f;
@@ -649,38 +813,30 @@ namespace RUML
                 GUI.color = prevCol;
             }
 
-            // Build filtered list based on selected category and text search
-            List<ModContentPack> filteredMods = new List<ModContentPack>();
-            for (int i = 0; i < running.Count; i++)
+            // Fast filtered list
+            if (cachedAuditFilteredRows == null || lastAuditSearchFilter != auditSearchFilter || lastAuditCategoryFilter != auditCategoryFilter)
             {
-                var m = running[i];
-                string pid = m.PackageIdPlayerFacing;
-                bool isRuml = FolderToPackageId.Values.Any(p => string.Equals(p, pid, StringComparison.OrdinalIgnoreCase)) ||
-                              (RUMLCloudManager.Items != null && RUMLCloudManager.Items.Any(ci => ci.IsInstalled && string.Equals(ci.PackageId, pid, StringComparison.OrdinalIgnoreCase)));
-                List<TargetModInfo> dummyTargets;
-                bool isTransMod = RUMLTranslationDetector.IsTranslationMod(m.PackageId, out dummyTargets) || RUMLTranslationDetector.IsTranslationMod(pid, out dummyTargets);
-                List<ActiveTranslationModInfo> dummyAct;
-                bool hasExternal = RUMLTranslationDetector.HasActiveTranslation(m.PackageId, out dummyAct) || RUMLTranslationDetector.HasActiveTranslation(pid, out dummyAct);
-                bool hasBuiltIn = RUMLTranslationDetector.HasBuiltInRussianTranslation(m.PackageId) || RUMLTranslationDetector.HasBuiltInRussianTranslation(pid);
-                bool isVanilla = IsVanillaOrDlc(pid);
+                lastAuditSearchFilter = auditSearchFilter;
+                lastAuditCategoryFilter = auditCategoryFilter;
+                cachedAuditFilteredRows = new List<AuditSelectionModRow>();
 
-                // Category filter check
-                if (auditCategoryFilter == 1 && (isVanilla || isTransMod || hasBuiltIn || hasExternal || isRuml)) continue;
-                if (auditCategoryFilter == 2 && !hasBuiltIn) continue;
-                if (auditCategoryFilter == 3 && !hasExternal) continue;
-                if (auditCategoryFilter == 4 && !isRuml) continue;
-                if (auditCategoryFilter == 5 && !isTransMod) continue;
-
-                // Search query check
-                string disp = GetModDisplayName(m);
-                if (!string.IsNullOrEmpty(auditSearchFilter) &&
-                    disp.IndexOf(auditSearchFilter, StringComparison.OrdinalIgnoreCase) < 0 &&
-                    pid.IndexOf(auditSearchFilter, StringComparison.OrdinalIgnoreCase) < 0)
+                for (int i = 0; i < cachedAuditSelectionRows.Count; i++)
                 {
-                    continue;
-                }
+                    AuditSelectionModRow r = cachedAuditSelectionRows[i];
+                    if (auditCategoryFilter == 1 && (r.isVanilla || r.isTransMod || r.hasBuiltIn || r.hasExternal || r.isRuml)) continue;
+                    if (auditCategoryFilter == 2 && !r.hasBuiltIn) continue;
+                    if (auditCategoryFilter == 3 && !r.hasExternal) continue;
+                    if (auditCategoryFilter == 4 && !r.isRuml) continue;
+                    if (auditCategoryFilter == 5 && !r.isTransMod) continue;
 
-                filteredMods.Add(m);
+                    if (!string.IsNullOrEmpty(auditSearchFilter) &&
+                        r.displayName.IndexOf(auditSearchFilter, StringComparison.OrdinalIgnoreCase) < 0 &&
+                        r.pid.IndexOf(auditSearchFilter, StringComparison.OrdinalIgnoreCase) < 0)
+                    {
+                        continue;
+                    }
+                    cachedAuditFilteredRows.Add(r);
+                }
             }
 
             // Row 3: Action Buttons (Batch selection)
@@ -688,38 +844,43 @@ namespace RUML
             float bGap = 6f;
             float bW = (inRect.width - bGap * 4f) / 5f;
 
-            if (Widgets.ButtonText(new Rect(btnRowRect.x, btnRowRect.y, bW, 26f), "Выбрать в фильтре"))
+            string selInFilterText = "RUML_SelectInFilter".CanTranslate() ? (string)"RUML_SelectInFilter".Translate() : "Выбрать в фильтре";
+            if (Widgets.ButtonText(new Rect(btnRowRect.x, btnRowRect.y, bW, 26f), selInFilterText))
             {
-                for (int i = 0; i < filteredMods.Count; i++)
+                for (int i = 0; i < cachedAuditFilteredRows.Count; i++)
                 {
-                    Settings.SetAuditModSelected(filteredMods[i].PackageIdPlayerFacing, true);
+                    Settings.SetAuditModSelected(cachedAuditFilteredRows[i].pid, true);
                 }
             }
-            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + bGap), btnRowRect.y, bW, 26f), "Снять в фильтре"))
+            string deselInFilterText = "RUML_DeselectInFilter".CanTranslate() ? (string)"RUML_DeselectInFilter".Translate() : "Снять в фильтре";
+            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + bGap), btnRowRect.y, bW, 26f), deselInFilterText))
             {
-                for (int i = 0; i < filteredMods.Count; i++)
+                for (int i = 0; i < cachedAuditFilteredRows.Count; i++)
                 {
-                    Settings.SetAuditModSelected(filteredMods[i].PackageIdPlayerFacing, false);
+                    Settings.SetAuditModSelected(cachedAuditFilteredRows[i].pid, false);
                 }
             }
-            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + bGap) * 2, btnRowRect.y, bW, 26f), "Выбрать ВСЕ"))
+            string selAllText = "RUML_SelectAll".CanTranslate() ? (string)"RUML_SelectAll".Translate() : "Выбрать ВСЕ";
+            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + bGap) * 2, btnRowRect.y, bW, 26f), selAllText))
             {
-                List<string> all = new List<string>();
-                for (int i = 0; i < running.Count; i++) all.Add(running[i].PackageIdPlayerFacing);
+                List<string> all = new List<string>(cachedAuditSelectionRows.Count);
+                for (int i = 0; i < cachedAuditSelectionRows.Count; i++) all.Add(cachedAuditSelectionRows[i].pid);
                 Settings.SelectAuditMods(all);
             }
-            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + bGap) * 3, btnRowRect.y, bW, 26f), "Снять ВСЕ"))
+            string deselAllText = "RUML_DeselectAll".CanTranslate() ? (string)"RUML_DeselectAll".Translate() : "Снять ВСЕ";
+            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + bGap) * 3, btnRowRect.y, bW, 26f), deselAllText))
             {
                 Settings.DeselectAllAuditMods();
             }
-            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + bGap) * 4, btnRowRect.y, bW, 26f), "Без Core/DLC"))
+            string exVanillaText = "RUML_ExcludeVanilla".CanTranslate() ? (string)"RUML_ExcludeVanilla".Translate() : "Без Core/DLC";
+            if (Widgets.ButtonText(new Rect(btnRowRect.x + (bW + bGap) * 4, btnRowRect.y, bW, 26f), exVanillaText))
             {
                 List<string> nonVanilla = new List<string>();
-                for (int i = 0; i < running.Count; i++)
+                for (int i = 0; i < cachedAuditSelectionRows.Count; i++)
                 {
-                    if (!IsVanillaOrDlc(running[i].PackageIdPlayerFacing))
+                    if (!cachedAuditSelectionRows[i].isVanilla)
                     {
-                        nonVanilla.Add(running[i].PackageIdPlayerFacing);
+                        nonVanilla.Add(cachedAuditSelectionRows[i].pid);
                     }
                 }
                 Settings.SelectAuditMods(nonVanilla);
@@ -728,72 +889,41 @@ namespace RUML
             // Row 4: Status count
             Rect statusRect = new Rect(inRect.x, inRect.y + 90f, inRect.width, 20f);
             int selectedCount = Settings.auditSelectedPackageIds != null ? Settings.auditSelectedPackageIds.Count : 0;
-            Widgets.Label(statusRect, "Выбрано для аудита: <color=cyan>" + selectedCount + "</color> из <color=white>" + running.Count + "</color> | Показано в фильтре: <color=#80D0FF>" + filteredMods.Count + "</color>");
+            string statusSelectedText = "RUML_AuditStatusSelected".CanTranslate()
+                ? (string)"RUML_AuditStatusSelected".Translate("<color=cyan>" + selectedCount + "</color>", "<color=white>" + running.Count + "</color>", "<color=#80D0FF>" + cachedAuditFilteredRows.Count + "</color>")
+                : ("Выбрано для аудита: <color=cyan>" + selectedCount + "</color> из <color=white>" + running.Count + "</color> | Показано в фильтре: <color=#80D0FF>" + cachedAuditFilteredRows.Count + "</color>");
+            Widgets.Label(statusRect, statusSelectedText);
 
             // Row 5: Scrollable Active Mods Checkbox List
             Rect listRect = new Rect(inRect.x, inRect.y + 114f, inRect.width, inRect.height - 164f);
             float rowHeight = 38f;
             float rowStep = 42f;
-            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, filteredMods.Count * rowStep);
+            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, cachedAuditFilteredRows.Count * rowStep);
             Widgets.BeginScrollView(listRect, ref auditModsScrollPos, viewRect);
 
             float curY = 0f;
-            foreach (var mod in filteredMods)
+            for (int i = 0; i < cachedAuditFilteredRows.Count; i++)
             {
-                string pid = mod.PackageIdPlayerFacing;
+                if (curY + rowStep < auditModsScrollPos.y - 10f || curY > auditModsScrollPos.y + listRect.height + 10f)
+                {
+                    curY += rowStep;
+                    continue;
+                }
+
+                AuditSelectionModRow r = cachedAuditFilteredRows[i];
+                string pid = r.pid;
                 bool isSelected = Settings.IsAuditModSelected(pid);
                 Rect rowRect = new Rect(0f, curY, viewRect.width, rowHeight);
                 Widgets.DrawBoxSolid(rowRect, RUMLUI.ColorCardBg);
                 Widgets.DrawHighlightIfMouseover(rowRect);
 
-                bool isRuml = FolderToPackageId.Values.Any(p => string.Equals(p, pid, StringComparison.OrdinalIgnoreCase)) ||
-                              (RUMLCloudManager.Items != null && RUMLCloudManager.Items.Any(ci => ci.IsInstalled && string.Equals(ci.PackageId, pid, StringComparison.OrdinalIgnoreCase)));
-                bool isDlc = IsVanillaOrDlc(pid);
-
-                string tag = "";
-                if (isRuml)
-                {
-                    tag = " <color=#FFD700>[RUML]</color>";
-                }
-                else if (isDlc)
-                {
-                    tag = string.Equals(pid, "ludeon.rimworld", StringComparison.OrdinalIgnoreCase)
-                        ? " <color=#E0B020>[Core]</color>"
-                        : " <color=#E0B020>[DLC]</color>";
-                }
-
-                string builtInBadge = RUMLTranslationDetector.GetBuiltInModBadge(mod.PackageId);
-                string builtInTip = RUMLTranslationDetector.GetBuiltInModTooltip(mod.PackageId);
-
-                string transBadge = "";
-                string transTip = null;
-
-                List<TargetModInfo> targetMods;
-                if (RUMLTranslationDetector.IsTranslationMod(mod.PackageId, out targetMods) ||
-                    RUMLTranslationDetector.IsTranslationMod(pid, out targetMods))
-                {
-                    transBadge = RUMLTranslationDetector.GetTranslationModSelfBadge(mod.PackageId, mod.Name);
-                    transTip = RUMLTranslationDetector.GetTranslationModSelfTooltip(mod.PackageId);
-                }
-                else
-                {
-                    List<ActiveTranslationModInfo> activeTrans;
-                    if (RUMLTranslationDetector.HasActiveTranslation(mod.PackageId, out activeTrans) ||
-                        RUMLTranslationDetector.HasActiveTranslation(pid, out activeTrans))
-                    {
-                        transBadge = RUMLTranslationDetector.GetTargetModBadge(mod.PackageId);
-                        transTip = RUMLTranslationDetector.GetTargetModTooltip(mod.PackageId);
-                    }
-                }
-
-                // Col 1 & 2 Text: 2 lines
                 float chkSize = 24f;
                 float textX = rowRect.x + 8f;
                 float textW = rowRect.width - chkSize - 20f;
 
                 // Line 1: Mod Name + Badges
                 Rect titleRect = new Rect(textX, curY + 2f, textW, 20f);
-                string titleText = GetModDisplayName(mod) + tag + builtInBadge + transBadge;
+                string titleText = r.displayName + r.tag + r.builtInBadge + r.transBadge;
                 bool prevWrap = Text.WordWrap;
                 Text.WordWrap = false;
                 Text.Font = GameFont.Small;
@@ -823,20 +953,10 @@ namespace RUML
                     Settings.SetAuditModSelected(pid, newCheck);
                 }
 
-                string fullTip = GetModDisplayName(mod) + "\n(" + pid + ")";
-                if (!string.IsNullOrEmpty(builtInTip))
+                if (!string.IsNullOrEmpty(r.fullTip))
                 {
-                    fullTip += "\n\n" + builtInTip;
+                    TooltipHandler.TipRegion(rowRect, r.fullTip);
                 }
-                if (!string.IsNullOrEmpty(transTip))
-                {
-                    fullTip += "\n\n" + transTip;
-                }
-                if (isRuml)
-                {
-                    fullTip += "\n\nДля этого мода активен перевод из системы RUML.";
-                }
-                TooltipHandler.TipRegion(rowRect, fullTip);
 
                 curY += rowStep;
             }
@@ -847,7 +967,9 @@ namespace RUML
             Rect bottomRect = new Rect(inRect.x, inRect.yMax - 44f, inRect.width, 40f);
             Color oldCol = GUI.color;
             GUI.color = RUMLUI.ColorAccentGreen;
-            string btnText = "Запустить аудит выбранных модов (" + selectedCount + ")";
+            string btnText = "RUML_RunAudit".CanTranslate()
+                ? (string)"RUML_RunAudit".Translate(selectedCount)
+                : ("Запустить аудит выбранных модов (" + selectedCount + ")");
             if (Widgets.ButtonText(bottomRect, btnText))
             {
                 lastAuditReports = RUMLAuditor.RunAudit(Settings.auditSelectedPackageIds, FolderToPackageId);
@@ -861,10 +983,14 @@ namespace RUML
             if (lastAuditReports == null || lastAuditReports.Count == 0)
             {
                 Rect msgRect = new Rect(inRect.x, inRect.y + 40f, inRect.width, 60f);
-                Widgets.Label(msgRect, "Аудит ещё не запускался или среди выбранных модов ничего не найдено.\nПерейдите во вкладку 'Выбор активных модов', выберите нужные моды и нажмите зеленую кнопку.");
+                string noRepText = "RUML_AuditNoReportsYet".CanTranslate()
+                    ? (string)"RUML_AuditNoReportsYet".Translate()
+                    : "Аудит ещё не запускался или среди выбранных модов ничего не найдено.\nПерейдите во вкладку 'Выбор активных модов', выберите нужные моды и нажмите зеленую кнопку.";
+                Widgets.Label(msgRect, noRepText);
 
                 Rect goBackRect = new Rect(inRect.x, inRect.y + 110f, 240f, 36f);
-                if (Widgets.ButtonText(goBackRect, "Перейти к выбору модов"))
+                string goBackText = "RUML_BackToMods".CanTranslate() ? (string)"RUML_BackToMods".Translate() : "Перейти к выбору модов";
+                if (Widgets.ButtonText(goBackRect, goBackText))
                 {
                     auditSubTab = 0;
                 }
@@ -892,19 +1018,29 @@ namespace RUML
             float avgPercent = sumTotalItems > 0 ? ((float)(sumTotalItems - sumMissingItems) / sumTotalItems * 100f) : 100f;
 
             Rect sumRect = new Rect(inRect.x, inRect.y, inRect.width, 24f);
-            string sumText = "Проверено: <b>" + totalMods + "</b> модов | Элементов: <b>" + sumTotalItems + "</b> (Дефов: " + sumTotalDefs + ", Keyed: " + sumTotalKeyed + ") | Не переведено: <color=#FF6B6B><b>" + sumMissingItems + "</b></color> | Покрытие: <b>" + avgPercent.ToString("F1") + "%</b>";
+            string sumText = "RUML_AuditSummary".CanTranslate()
+                ? (string)"RUML_AuditSummary".Translate(
+                    "<b>" + totalMods + "</b>",
+                    "<b>" + sumTotalItems + "</b>",
+                    sumTotalDefs,
+                    sumTotalKeyed,
+                    "<color=#FF6B6B><b>" + sumMissingItems + "</b></color>",
+                    "<b>" + avgPercent.ToString("F1") + "</b>")
+                : ("Проверено: <b>" + totalMods + "</b> модов | Элементов: <b>" + sumTotalItems + "</b> (Дефов: " + sumTotalDefs + ", Keyed: " + sumTotalKeyed + ") | Не переведено: <color=#FF6B6B><b>" + sumMissingItems + "</b></color> | Покрытие: <b>" + avgPercent.ToString("F1") + "%</b>");
             Widgets.Label(sumRect, sumText);
 
             // Action Buttons Row
             Rect actRow = new Rect(inRect.x, inRect.y + 28f, inRect.width, 30f);
             float actW = (inRect.width - 30f) / 4f;
 
-            if (Widgets.ButtonText(new Rect(actRow.x, actRow.y, actW, 30f), "Экспорт отчёта"))
+            string expRepText = "RUML_ExportReport".CanTranslate() ? (string)"RUML_ExportReport".Translate() : "Экспорт отчёта";
+            if (Widgets.ButtonText(new Rect(actRow.x, actRow.y, actW, 30f), expRepText))
             {
                 string f = RUMLAuditor.ExportReportToFile(lastAuditReports);
                 Messages.Message("RUML: Отчёт успешно сохранён на Рабочий стол: " + f, MessageTypeDefOf.PositiveEvent, false);
             }
-            if (Widgets.ButtonText(new Rect(actRow.x + actW + 10f, actRow.y, actW, 30f), "Экспорт XML-шаблонов"))
+            string expTplText = "RUML_ExportTemplates".CanTranslate() ? (string)"RUML_ExportTemplates".Translate() : "Экспорт XML-шаблонов";
+            if (Widgets.ButtonText(new Rect(actRow.x + actW + 10f, actRow.y, actW, 30f), expTplText))
             {
                 string dir = RUMLAuditor.ExportMissingTemplates(lastAuditReports);
                 if (!string.IsNullOrEmpty(dir))
@@ -912,11 +1048,13 @@ namespace RUML
                     Messages.Message("RUML: Шаблоны XML сохранены: " + dir, MessageTypeDefOf.PositiveEvent, false);
                 }
             }
-            if (Widgets.ButtonText(new Rect(actRow.x + (actW + 10f) * 2, actRow.y, actW, 30f), "Повторить аудит"))
+            string repAuditText = "RUML_RepeatAudit".CanTranslate() ? (string)"RUML_RepeatAudit".Translate() : "Повторить аудит";
+            if (Widgets.ButtonText(new Rect(actRow.x + (actW + 10f) * 2, actRow.y, actW, 30f), repAuditText))
             {
                 lastAuditReports = RUMLAuditor.RunAudit(Settings.auditSelectedPackageIds, FolderToPackageId);
             }
-            if (Widgets.ButtonText(new Rect(actRow.x + (actW + 10f) * 3, actRow.y, actW, 30f), "Выбор модов"))
+            string backModsText = "RUML_BackToMods".CanTranslate() ? (string)"RUML_BackToMods".Translate() : "Выбор модов";
+            if (Widgets.ButtonText(new Rect(actRow.x + (actW + 10f) * 3, actRow.y, actW, 30f), backModsText))
             {
                 auditSubTab = 0;
             }
@@ -927,15 +1065,19 @@ namespace RUML
             Rect srchR = new Rect(filterRow.x, filterRow.y, inRect.width - (fBtnW * 3 + 20f), 28f);
             RUMLUI.DrawSearchBar(srchR, ref auditResultSearchFilter);
 
-            if (DrawTabButton(new Rect(srchR.xMax + 10f, filterRow.y, fBtnW, 28f), "Все (" + totalMods + ")", auditResultMode == 0))
+            string mode0Text = "RUML_AuditResultAll".CanTranslate() ? (string)"RUML_AuditResultAll".Translate(totalMods) : ("Все (" + totalMods + ")");
+            string mode1Text = "RUML_AuditResultMissing".CanTranslate() ? (string)"RUML_AuditResultMissing".Translate(withMissing) : ("С пропусками (" + withMissing + ")");
+            string mode2Text = "RUML_AuditResultComplete".CanTranslate() ? (string)"RUML_AuditResultComplete".Translate(fullTranslated) : ("100% (" + fullTranslated + ")");
+
+            if (DrawTabButton(new Rect(srchR.xMax + 10f, filterRow.y, fBtnW, 28f), mode0Text, auditResultMode == 0))
             {
                 auditResultMode = 0;
             }
-            if (DrawTabButton(new Rect(srchR.xMax + fBtnW + 15f, filterRow.y, fBtnW, 28f), "С пропусками (" + withMissing + ")", auditResultMode == 1))
+            if (DrawTabButton(new Rect(srchR.xMax + fBtnW + 15f, filterRow.y, fBtnW, 28f), mode1Text, auditResultMode == 1))
             {
                 auditResultMode = 1;
             }
-            if (DrawTabButton(new Rect(srchR.xMax + (fBtnW * 2) + 20f, filterRow.y, fBtnW, 28f), "100% (" + fullTranslated + ")", auditResultMode == 2))
+            if (DrawTabButton(new Rect(srchR.xMax + (fBtnW * 2) + 20f, filterRow.y, fBtnW, 28f), mode2Text, auditResultMode == 2))
             {
                 auditResultMode = 2;
             }
@@ -986,6 +1128,12 @@ namespace RUML
                 List<string> targetMissing = isExpanded ? GetFilteredMissingList(rep, expandedAuditCategoryFilter) : null;
                 float cardH = isExpanded ? (56f + 30f + Math.Min(targetMissing.Count, 15) * 22f + 30f) : 52f;
 
+                if (y + cardH < auditResultsScrollPos.y - 10f || y > auditResultsScrollPos.y + listRect.height + 10f)
+                {
+                    y += cardH + 4f;
+                    continue;
+                }
+
                 Rect row = new Rect(0f, y, viewRect.width, cardH);
                 Widgets.DrawBoxSolid(row, RUMLUI.ColorCardBgAlt);
                 Widgets.DrawHighlightIfMouseover(row);
@@ -1025,7 +1173,11 @@ namespace RUML
                 string resTip = "";
                 if (!string.IsNullOrEmpty(builtInTip)) resTip += builtInTip;
                 if (!string.IsNullOrEmpty(transTip)) resTip += (string.IsNullOrEmpty(resTip) ? "" : "\n\n") + transTip;
-                if (rep.IsRUMLMod) resTip += (string.IsNullOrEmpty(resTip) ? "" : "\n\n") + "Для этого мода активен перевод из системы RUML.";
+                if (rep.IsRUMLMod)
+                {
+                    string rumlTip = "RUML_TipRumlActive".CanTranslate() ? (string)"RUML_TipRumlActive".Translate() : "Для этого мода активен перевод из системы RUML.";
+                    resTip += (string.IsNullOrEmpty(resTip) ? "" : "\n\n") + rumlTip;
+                }
                 if (!string.IsNullOrEmpty(resTip))
                 {
                     TooltipHandler.TipRegion(row, resTip);
@@ -1037,18 +1189,23 @@ namespace RUML
                 Widgets.Label(new Rect(row.width - 140f, row.y + 4f, 130f, 22f), pText);
 
                 // Bottom Line: Counts and Status
-                string sub = "Переведено: " + rep.TranslatedItems + " / " + rep.TotalItems +
-                             " (Дефы: " + rep.TranslatedDefs + "/" + rep.TotalDefs + ", Keyed: " + rep.TranslatedKeyed + "/" + rep.TotalKeyed + ")  |  " +
-                             (rep.MissingItems > 0
-                                 ? "<color=#FF7070>Не переведено: " + rep.MissingItems + " элементов</color>"
-                                 : "<color=#50E050>100% Переведено (полное покрытие)</color>");
-                Widgets.Label(new Rect(row.x + 8f, row.y + 26f, row.width - 160f, 20f), sub);
+                string transSub = "RUML_AuditRowTranslated".CanTranslate()
+                    ? (string)"RUML_AuditRowTranslated".Translate(rep.TranslatedItems, rep.TotalItems, rep.TranslatedDefs, rep.TotalDefs, rep.TranslatedKeyed, rep.TotalKeyed)
+                    : ("Переведено: " + rep.TranslatedItems + " / " + rep.TotalItems + " (Дефы: " + rep.TranslatedDefs + "/" + rep.TotalDefs + ", Keyed: " + rep.TranslatedKeyed + "/" + rep.TotalKeyed + ")  |  ");
+
+                string missSub = rep.MissingItems > 0
+                    ? ("<color=#FF7070>" + ("RUML_AuditRowMissing".CanTranslate() ? (string)"RUML_AuditRowMissing".Translate(rep.MissingItems) : ("Не переведено: " + rep.MissingItems + " элементов")) + "</color>")
+                    : ("<color=#50E050>" + ("RUML_AuditRowComplete".CanTranslate() ? (string)"RUML_AuditRowComplete".Translate() : "100% Переведено (полное покрытие)") + "</color>");
+
+                Widgets.Label(new Rect(row.x + 8f, row.y + 26f, row.width - 160f, 20f), transSub + missSub);
 
                 // Expand Missing Details Button
                 if (rep.MissingItems > 0)
                 {
                     Rect expBtnRect = new Rect(row.width - 150f, row.y + 24f, 140f, 22f);
-                    string expBtnLabel = isExpanded ? "Скрыть детали ▲" : ("Пропуски (" + rep.MissingItems + ") ▼");
+                    string expBtnLabel = isExpanded
+                        ? ("RUML_HideDetails".CanTranslate() ? (string)"RUML_HideDetails".Translate() : "Скрыть детали ▲")
+                        : ("RUML_ShowMissing".CanTranslate() ? (string)"RUML_ShowMissing".Translate(rep.MissingItems) : ("Пропуски (" + rep.MissingItems + ") ▼"));
                     if (Widgets.ButtonText(expBtnRect, expBtnLabel))
                     {
                         expandedAuditMod = isExpanded ? "" : rep.PackageId;
@@ -1064,15 +1221,19 @@ namespace RUML
                     int defMissing = rep.MissingDefs;
                     int keyedMissing = rep.MissingKeyed;
 
-                    if (DrawTabButton(new Rect(catRow.x, catRow.y, catBtnW, 24f), "Все (" + rep.MissingItems + ")", expandedAuditCategoryFilter == 0))
+                    string cat0Label = "RUML_FilterAll".CanTranslate() ? (string)"RUML_FilterAll".Translate(rep.MissingItems) : ("Все (" + rep.MissingItems + ")");
+                    string cat1Label = "RUML_CategoryDefs".CanTranslate() ? (string)"RUML_CategoryDefs".Translate(defMissing) : ("Дефы (" + defMissing + ")");
+                    string cat2Label = "RUML_CategoryKeyed".CanTranslate() ? (string)"RUML_CategoryKeyed".Translate(keyedMissing) : ("Keyed / Настройки (" + keyedMissing + ")");
+
+                    if (DrawTabButton(new Rect(catRow.x, catRow.y, catBtnW, 24f), cat0Label, expandedAuditCategoryFilter == 0))
                     {
                         expandedAuditCategoryFilter = 0;
                     }
-                    if (DrawTabButton(new Rect(catRow.x + catBtnW + 8f, catRow.y, catBtnW, 24f), "Дефы (" + defMissing + ")", expandedAuditCategoryFilter == 1))
+                    if (DrawTabButton(new Rect(catRow.x + catBtnW + 8f, catRow.y, catBtnW, 24f), cat1Label, expandedAuditCategoryFilter == 1))
                     {
                         expandedAuditCategoryFilter = 1;
                     }
-                    if (DrawTabButton(new Rect(catRow.x + (catBtnW + 8f) * 2, catRow.y, catBtnW + 35f, 24f), "Keyed / Настройки (" + keyedMissing + ")", expandedAuditCategoryFilter == 2))
+                    if (DrawTabButton(new Rect(catRow.x + (catBtnW + 8f) * 2, catRow.y, catBtnW + 35f, 24f), cat2Label, expandedAuditCategoryFilter == 2))
                     {
                         expandedAuditCategoryFilter = 2;
                     }
@@ -1089,12 +1250,18 @@ namespace RUML
                     if (targetMissing.Count > showCount)
                     {
                         Rect moreR = new Rect(row.x + 16f, lineY, row.width - 32f, 20f);
-                        Widgets.Label(moreR, "<color=grey>... и ещё " + (targetMissing.Count - showCount) + " непереведённых строк (полный список доступен в экспорте на Рабочий стол).</color>");
+                        string moreText = "RUML_AuditMoreLines".CanTranslate()
+                            ? (string)"RUML_AuditMoreLines".Translate(targetMissing.Count - showCount)
+                            : ("... и ещё " + (targetMissing.Count - showCount) + " непереведённых строк (полный список доступен в экспорте на Рабочий стол).");
+                        Widgets.Label(moreR, "<color=grey>" + moreText + "</color>");
                     }
                     else if (targetMissing.Count == 0)
                     {
                         Rect emptyR = new Rect(row.x + 16f, lineY, row.width - 32f, 20f);
-                        Widgets.Label(emptyR, "<color=#50E050>В данной категории все строки переведены.</color>");
+                        string emptyCatText = "RUML_AllStringsTranslatedInCat".CanTranslate()
+                            ? (string)"RUML_AllStringsTranslatedInCat".Translate()
+                            : "В данной категории все строки переведены.";
+                        Widgets.Label(emptyR, "<color=#50E050>" + emptyCatText + "</color>");
                     }
                     Text.Font = GameFont.Small;
                 }
@@ -1128,64 +1295,174 @@ namespace RUML
         // =========================================================================
         private void DrawCloudTab(Rect inRect)
         {
-            // Row 1: Manifest URL & Sync Buttons
-            Rect urlRow = new Rect(inRect.x, inRect.y, inRect.width, 28f);
-            float btnW1 = 125f; // Обновить каталог
-            float btnW4 = 145f; // Обновить все
-            float btnW2 = 175f; // Открыть папку переводов
-            float btnW3 = 125f; // Шаблон manifest
-            float totalBtnsW = btnW1 + btnW4 + btnW2 + btnW3 + 40f;
+            // Row 1: Catalog Sync & Management Actions
+            float btnH = 28f;
+            float b1W = 160f; // Обновить каталог
+            float b2W = 210f; // Обновить все активные
+            float b3W = 210f; // Открыть папку переводов
 
-            Rect urlLabelR = new Rect(urlRow.x, urlRow.y, 110f, 28f);
-            Widgets.Label(urlLabelR, "GitHub Каталог:");
-
-            Rect urlFieldR = new Rect(urlLabelR.xMax + 5f, urlRow.y, inRect.width - (urlLabelR.width + totalBtnsW + 15f), 28f);
-            Settings.cloudManifestUrl = Widgets.TextField(urlFieldR, Settings.cloudManifestUrl);
-
-            Rect b1 = new Rect(urlFieldR.xMax + 10f, urlRow.y, btnW1, 28f);
-            if (Widgets.ButtonText(b1, "Обновить каталог"))
+            Rect b1 = new Rect(inRect.x, inRect.y, b1W, btnH);
+            string updCatText = "RUML_UpdateCatalog".CanTranslate() ? (string)"RUML_UpdateCatalog".Translate() : "Обновить каталог";
+            if (Widgets.ButtonText(b1, updCatText))
             {
                 RUMLCloudManager.FetchManifestAsync(Settings.cloudManifestUrl, Content);
             }
+            TooltipHandler.TipRegion(b1, "Загрузить свежий список доступных переводов из GitHub-каталога.");
 
-            Rect b4 = new Rect(b1.xMax + 10f, urlRow.y, btnW4, 28f);
+            Rect b4 = new Rect(b1.xMax + 10f, inRect.y, b2W, btnH);
             Color prevAllCol = GUI.color;
             GUI.color = RUMLUI.ColorButtonGreen;
-            if (Widgets.ButtonText(b4, "Обновить все"))
+            string updAllText = "RUML_UpdateAllActive".CanTranslate() ? (string)"RUML_UpdateAllActive".Translate() : "Обновить все активные";
+            if (Widgets.ButtonText(b4, updAllText))
             {
                 RUMLCloudManager.UpdateAllActiveAsync(Content, Settings);
             }
             GUI.color = prevAllCol;
-            TooltipHandler.TipRegion(b4, "Автоматически скачать и обновить все активные переводы, для которых вышли новые версии");
+            TooltipHandler.TipRegion(b4, "Автоматически скачать и обновить все активные переводы, для которых вышли новые версии.");
 
-            Rect b2 = new Rect(b4.xMax + 10f, urlRow.y, btnW2, 28f);
-            if (Widgets.ButtonText(b2, "Открыть папку переводов"))
+            Rect b2 = new Rect(b4.xMax + 10f, inRect.y, b3W, btnH);
+            string openTransDir = "RUML_OpenTranslationsFolder".CanTranslate() ? (string)"RUML_OpenTranslationsFolder".Translate() : "Открыть папку переводов";
+            if (Widgets.ButtonText(b2, openTransDir))
             {
                 RUMLCloudManager.OpenTranslationsFolderInExplorer();
             }
             TooltipHandler.TipRegion(b2, RUMLFolderManager.GetExternalTranslationsDir());
 
-            Rect b3 = new Rect(b2.xMax + 10f, urlRow.y, btnW3, 28f);
-            if (Widgets.ButtonText(b3, "Шаблон manifest"))
+            Rect bSettings = new Rect(inRect.xMax - 150f, inRect.y, 150f, btnH);
+            string settingsBtnText = "RUML_CatalogSettings".CanTranslate() ? (string)"RUML_CatalogSettings".Translate() : "Настройки URL »";
+            if (Widgets.ButtonText(bSettings, settingsBtnText))
             {
-                string f = RUMLCloudManager.ExportSampleManifest();
-                Messages.Message("RUML: Шаблон manifest.json сохранён на Рабочий стол: " + f, MessageTypeDefOf.PositiveEvent, false);
+                currentMainTab = 3;
             }
+            TooltipHandler.TipRegion(bSettings, "Перейти во вкладку настроек (выбор источника manifest.json, экспорт шаблона и др.)");
 
             // Row 2: Status Message & Progress
             Rect statusR = new Rect(inRect.x, inRect.y + 34f, inRect.width, 24f);
             RUMLUI.DrawStatusRibbon(statusR);
 
-            // Row 3: Search filter & Author dropdown
-            Rect searchR = new Rect(inRect.x, inRect.y + 62f, inRect.width - 210f, 28f);
+            // Row 3: Search filter, Status filter, Language filter & Author dropdown
+            float statusBtnW = 160f;
+            float langBtnW = 180f;
+            float authBtnW = 160f;
+            float totalFilterBtnsW = statusBtnW + langBtnW + authBtnW + 30f;
+            Rect searchR = new Rect(inRect.x, inRect.y + 62f, inRect.width - totalFilterBtnsW, 28f);
             RUMLUI.DrawSearchBar(searchR, ref cloudSearchFilter);
 
-            Rect authorBtnR = new Rect(searchR.xMax + 10f, inRect.y + 62f, 200f, 28f);
-            string authBtnLabel = string.IsNullOrEmpty(cloudAuthorFilter) ? "Все авторы ▼" : ("Автор: " + cloudAuthorFilter + " ▼");
+            string effLang = RUMLFolderManager.GetTargetLanguageFolder();
+            string effFriendly = RUMLFolderManager.GetLanguageFriendlyName(effLang);
+
+            // Status Filter Button (Все / Установленные / Не установленные / С обновлениями)
+            Rect statusBtnR = new Rect(searchR.xMax + 10f, inRect.y + 62f, statusBtnW, 28f);
+            string statusBtnLabel;
+            if (cloudStatusFilter == 1)
+            {
+                statusBtnLabel = "RUML_StatusFilterInstalled".CanTranslate() ? (string)"RUML_StatusFilterInstalled".Translate() : "Установленные";
+            }
+            else if (cloudStatusFilter == 2)
+            {
+                statusBtnLabel = "RUML_StatusFilterNotInstalled".CanTranslate() ? (string)"RUML_StatusFilterNotInstalled".Translate() : "Не установленные";
+            }
+            else if (cloudStatusFilter == 3)
+            {
+                statusBtnLabel = "RUML_StatusFilterUpdates".CanTranslate() ? (string)"RUML_StatusFilterUpdates".Translate() : "С обновлениями";
+            }
+            else
+            {
+                statusBtnLabel = "RUML_StatusFilterAll".CanTranslate() ? (string)"RUML_StatusFilterAll".Translate() : "Все переводы";
+            }
+            statusBtnLabel += " ▼";
+
+            if (Widgets.ButtonText(statusBtnR, statusBtnLabel))
+            {
+                int cAll, cInst, cNotInst, cUpd;
+                RUMLCloudManager.GetStatusCounts(cloudAuthorFilter, cloudSearchFilter, (cloudLanguageFilter == "auto") ? effLang : cloudLanguageFilter, out cAll, out cInst, out cNotInst, out cUpd);
+
+                List<FloatMenuOption> sOpts = new List<FloatMenuOption>();
+                string optAll = "RUML_FilterAllCount".CanTranslate() ? (string)"RUML_FilterAllCount".Translate(cAll) : ("Все (" + cAll + ")");
+                sOpts.Add(new FloatMenuOption(optAll, delegate()
+                {
+                    cloudStatusFilter = 0;
+                }));
+
+                string optInst = "RUML_FilterInstalledCount".CanTranslate() ? (string)"RUML_FilterInstalledCount".Translate(cInst) : ("Установленные (" + cInst + ")");
+                sOpts.Add(new FloatMenuOption(optInst, delegate()
+                {
+                    cloudStatusFilter = 1;
+                }));
+
+                string optNotInst = "RUML_FilterNotInstalledCount".CanTranslate() ? (string)"RUML_FilterNotInstalledCount".Translate(cNotInst) : ("Не установленные (" + cNotInst + ")");
+                sOpts.Add(new FloatMenuOption(optNotInst, delegate()
+                {
+                    cloudStatusFilter = 2;
+                }));
+
+                string optUpd = "RUML_FilterUpdatesCount".CanTranslate() ? (string)"RUML_FilterUpdatesCount".Translate(cUpd) : ("Есть обновления (" + cUpd + ")");
+                sOpts.Add(new FloatMenuOption(optUpd, delegate()
+                {
+                    cloudStatusFilter = 3;
+                }));
+
+                Find.WindowStack.Add(new FloatMenu(sOpts));
+            }
+
+            // Language Filter Button
+            Rect langBtnR = new Rect(statusBtnR.xMax + 10f, inRect.y + 62f, langBtnW, 28f);
+            string langBtnLabel;
+            if (cloudLanguageFilter == "auto")
+            {
+                langBtnLabel = "RUML_LanguageAuto".CanTranslate() ? (string)"RUML_LanguageAuto".Translate(effFriendly) : ("Авто (" + effFriendly + ")");
+            }
+            else if (string.IsNullOrEmpty(cloudLanguageFilter) || cloudLanguageFilter == "all")
+            {
+                langBtnLabel = "RUML_LanguageAll".CanTranslate() ? (string)"RUML_LanguageAll".Translate() : "Все языки";
+            }
+            else
+            {
+                string curFriendly = RUMLFolderManager.GetLanguageFriendlyName(cloudLanguageFilter);
+                langBtnLabel = "RUML_LangFilter".CanTranslate() ? (string)"RUML_LangFilter".Translate(curFriendly) : ("Язык: " + curFriendly);
+            }
+            langBtnLabel += " ▼";
+
+            if (Widgets.ButtonText(langBtnR, langBtnLabel))
+            {
+                List<FloatMenuOption> langOpts = new List<FloatMenuOption>();
+                string autoText = "RUML_LanguageAuto".CanTranslate() ? (string)"RUML_LanguageAuto".Translate(effFriendly) : ("Авто (" + effFriendly + ")");
+                langOpts.Add(new FloatMenuOption(autoText, delegate()
+                {
+                    cloudLanguageFilter = "auto";
+                }));
+                string allText = "RUML_LanguageAll".CanTranslate() ? (string)"RUML_LanguageAll".Translate() : "Все языки";
+                langOpts.Add(new FloatMenuOption(allText, delegate()
+                {
+                    cloudLanguageFilter = "all";
+                }));
+
+                List<string> availLangs = RUMLCloudManager.GetAvailableLanguages();
+                for (int li = 0; li < availLangs.Count; li++)
+                {
+                    string lName = availLangs[li];
+                    string dispName = RUMLFolderManager.GetLanguageFriendlyName(lName);
+                    string optLabel = string.Equals(dispName, lName, StringComparison.OrdinalIgnoreCase) ? lName : (dispName + " (" + lName + ")");
+                    langOpts.Add(new FloatMenuOption(optLabel, delegate()
+                    {
+                        cloudLanguageFilter = lName;
+                    }));
+                }
+                Find.WindowStack.Add(new FloatMenu(langOpts));
+            }
+
+            // Author Filter Button
+            Rect authorBtnR = new Rect(langBtnR.xMax + 10f, inRect.y + 62f, authBtnW, 28f);
+            string authBtnLabel = string.IsNullOrEmpty(cloudAuthorFilter)
+                ? ("RUML_AllAuthors".CanTranslate() ? (string)"RUML_AllAuthors".Translate(RUMLCloudManager.Items.Count) : "Все авторы ▼")
+                : ("RUML_AuthorFilter".CanTranslate() ? (string)"RUML_AuthorFilter".Translate(cloudAuthorFilter) : ("Автор: " + cloudAuthorFilter + " ▼"));
+            if (!authBtnLabel.EndsWith("▼")) authBtnLabel += " ▼";
+
             if (Widgets.ButtonText(authorBtnR, authBtnLabel))
             {
                 List<FloatMenuOption> opts = new List<FloatMenuOption>();
-                opts.Add(new FloatMenuOption("Все авторы (" + RUMLCloudManager.Items.Count + ")", delegate()
+                string allAuthText = "RUML_AllAuthors".CanTranslate() ? (string)"RUML_AllAuthors".Translate(RUMLCloudManager.Items.Count) : ("Все авторы (" + RUMLCloudManager.Items.Count + ")");
+                opts.Add(new FloatMenuOption(allAuthText, delegate()
                 {
                     cloudAuthorFilter = "";
                 }));
@@ -1202,15 +1479,37 @@ namespace RUML
             }
 
             // List of Grouped Cloud Translations
-            Rect listRect = new Rect(inRect.x, inRect.y + 96f, inRect.width, inRect.height - 172f);
-            List<CloudModGroup> groups = RUMLCloudManager.GetGroupedItems(cloudAuthorFilter, cloudSearchFilter);
+            Rect listRect = new Rect(inRect.x, inRect.y + 96f, inRect.width, inRect.height - 138f);
+            string effectiveFilterLang = (cloudLanguageFilter == "auto") ? effLang : cloudLanguageFilter;
+            int curCloudCount = RUMLCloudManager.Items != null ? RUMLCloudManager.Items.Count : 0;
+            if (cachedCloudGroups == null ||
+                lastCloudAuthorFilter != cloudAuthorFilter ||
+                lastCloudSearchFilter != cloudSearchFilter ||
+                lastCloudLangFilter != effectiveFilterLang ||
+                lastCloudStatusFilter != cloudStatusFilter ||
+                lastCloudItemsCount != curCloudCount)
+            {
+                lastCloudAuthorFilter = cloudAuthorFilter;
+                lastCloudSearchFilter = cloudSearchFilter;
+                lastCloudLangFilter = effectiveFilterLang;
+                lastCloudStatusFilter = cloudStatusFilter;
+                lastCloudItemsCount = curCloudCount;
+                cachedCloudGroups = RUMLCloudManager.GetGroupedItems(cloudAuthorFilter, cloudSearchFilter, effectiveFilterLang, cloudStatusFilter);
+            }
 
-            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, Math.Max(groups.Count * 84f, listRect.height));
+            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, Math.Max(cachedCloudGroups.Count * 84f, listRect.height));
             Widgets.BeginScrollView(listRect, ref cloudScrollPos, viewRect);
 
             float curY = 0f;
-            foreach (var grp in groups)
+            for (int gi = 0; gi < cachedCloudGroups.Count; gi++)
             {
+                if (curY + 84f < cloudScrollPos.y - 10f || curY > cloudScrollPos.y + listRect.height + 10f)
+                {
+                    curY += 84f;
+                    continue;
+                }
+
+                var grp = cachedCloudGroups[gi];
                 string modKey = string.IsNullOrEmpty(grp.PackageId) ? grp.ModName : grp.PackageId;
                 int selIdx = 0;
                 if (!selectedAuthorIndexByMod.TryGetValue(modKey, out selIdx))
@@ -1233,17 +1532,21 @@ namespace RUML
                 Widgets.DrawHighlightIfMouseover(card);
 
                 // Line 1: Mod Name, Version, and Author Selector
-                string upBadge = item.HasUpdate ? " <color=#FFD700>[Доступно обновление]</color>" : "";
-                string titlePrefix = "<b>" + item.ModName + "</b>" + upBadge + "  <color=grey>(v" + item.Version + ")</color>  Автор: ";
-                float prefixW = Text.CalcSize(titlePrefix).x;
-                Rect prefixR = new Rect(card.x + 8f, card.y + 5f, prefixW, 22f);
-                Widgets.Label(prefixR, titlePrefix);
+                string upBadge = item.HasUpdate 
+                    ? (" <color=#FFD700>" + ("RUML_UpdateAvailable".CanTranslate() ? (string)"RUML_UpdateAvailable".Translate() : "[Доступно обновление]") + "</color>") 
+                    : "";
+                string authorPrefix = "RUML_TableColAuthor".CanTranslate() ? (string)"RUML_TableColAuthor".Translate() : "Автор";
 
                 if (grp.Versions.Count > 1)
                 {
+                    string prefix = "<b>" + item.ModName + "</b>" + upBadge + "  <color=grey>(v" + item.Version + ")</color>  " + authorPrefix + ": ";
+                    float prefixW = Text.CalcSize(prefix.StripTags()).x;
+                    Rect prefixR = new Rect(card.x + 8f, card.y + 5f, prefixW + 4f, 22f);
+                    Widgets.Label(prefixR, prefix);
+
                     string selAuthText = "<color=#40E0D0>" + item.Author + "</color> (" + grp.Versions.Count + " авт.) ▼";
-                    float authBtnW = Math.Max(Text.CalcSize(selAuthText).x + 16f, 130f);
-                    Rect authBtnR = new Rect(prefixR.xMax + 2f, card.y + 3f, authBtnW, 24f);
+                    float rowAuthBtnW = Math.Max(Text.CalcSize(selAuthText.StripTags()).x + 20f, 120f);
+                    Rect authBtnR = new Rect(prefixR.xMax + 4f, card.y + 3f, rowAuthBtnW, 24f);
                     if (Widgets.ButtonText(authBtnR, selAuthText))
                     {
                         List<FloatMenuOption> authOpts = new List<FloatMenuOption>();
@@ -1262,9 +1565,9 @@ namespace RUML
                 }
                 else
                 {
-                    string authorLabel = "<color=#40E0D0>" + item.Author + "</color>";
-                    Rect authorLabelR = new Rect(prefixR.xMax + 2f, card.y + 5f, card.width - (prefixR.width + 230f), 22f);
-                    Widgets.Label(authorLabelR, authorLabel);
+                    string fullTitle = "<b>" + item.ModName + "</b>" + upBadge + "  <color=grey>(v" + item.Version + ")</color>  " + authorPrefix + ": <color=#40E0D0>" + item.Author + "</color>";
+                    Rect fullTitleR = new Rect(card.x + 8f, card.y + 5f, card.width - 230f, 22f);
+                    Widgets.Label(fullTitleR, fullTitle);
                 }
 
                 // Line 2: Description
@@ -1273,13 +1576,14 @@ namespace RUML
 
                 // Line 3: Mod active status
                 string modStatus = item.IsTargetModActive
-                    ? "<color=#50E050>• Целевой мод активен в игре (" + item.PackageId + ")</color>"
-                    : "<color=#FFA040>• Мод не обнаружен в списке активных модов (" + item.PackageId + ")</color>";
+                    ? ("<color=#50E050>" + ("RUML_ModActiveInGame".CanTranslate() ? (string)"RUML_ModActiveInGame".Translate(item.PackageId) : ("• Целевой мод активен в игре (" + item.PackageId + ")")) + "</color>")
+                    : ("<color=#FFA040>" + ("RUML_ModInactiveInGame".CanTranslate() ? (string)"RUML_ModInactiveInGame".Translate(item.PackageId) : ("• Мод не обнаружен в списке активных модов (" + item.PackageId + ")")) + "</color>");
 
                 List<ActiveTranslationModInfo> cloudTransList;
                 if (RUMLTranslationDetector.HasActiveTranslation(item.PackageId, out cloudTransList))
                 {
-                    modStatus += "  |<color=#E0A020>[В игре уже есть перевод]</color>";
+                    string alrTrans = "RUML_ModAlreadyTranslatedInGame".CanTranslate() ? (string)"RUML_ModAlreadyTranslatedInGame".Translate() : "В игре уже есть перевод";
+                    modStatus += "  |<color=#E0A020>[" + alrTrans + "]</color>";
                     string cloudTransTip = RUMLTranslationDetector.GetTargetModTooltip(item.PackageId);
                     if (!string.IsNullOrEmpty(cloudTransTip))
                     {
@@ -1291,22 +1595,25 @@ namespace RUML
                 // Action Buttons (Right)
                 if (item.IsInstalled)
                 {
-                    Rect uninstR = new Rect(card.width - 210f, card.y + 22f, 95f, 34f);
+                    Rect uninstR = new Rect(card.width - 215f, card.y + 22f, 95f, 34f);
                     Color prevCol = GUI.color;
                     GUI.color = RUMLUI.ColorDestructiveRed;
-                    if (Widgets.ButtonText(uninstR, "Удалить"))
+                    string uninstText = "RUML_Uninstall".CanTranslate() ? (string)"RUML_Uninstall".Translate() : "Удалить";
+                    if (Widgets.ButtonText(uninstR, uninstText))
                     {
                         RUMLCloudManager.Uninstall(item, Content, Settings);
                     }
                     GUI.color = prevCol;
 
-                    Rect updateR = new Rect(card.width - 110f, card.y + 22f, 105f, 34f);
+                    Rect updateR = new Rect(card.width - 115f, card.y + 22f, 110f, 34f);
                     Color prevUpCol = GUI.color;
                     if (item.HasUpdate)
                     {
                         GUI.color = RUMLUI.ColorAccentGold;
                     }
-                    string upLabel = item.HasUpdate ? "Обновить!" : "Обновить";
+                    string upLabel = item.HasUpdate
+                        ? ("RUML_StatusUpdateAvailable".CanTranslate() ? (string)"RUML_StatusUpdateAvailable".Translate() : "Обновить!")
+                        : ("RUML_Update".CanTranslate() ? (string)"RUML_Update".Translate() : "Обновить");
                     if (Widgets.ButtonText(updateR, upLabel))
                     {
                         RUMLCloudManager.DownloadAndInstallAsync(item, Content, Settings);
@@ -1315,10 +1622,12 @@ namespace RUML
                 }
                 else
                 {
-                    Rect dlR = new Rect(card.width - 210f, card.y + 22f, 205f, 34f);
+                    Rect dlR = new Rect(card.width - 215f, card.y + 22f, 210f, 34f);
                     Color prevC = GUI.color;
                     GUI.color = RUMLUI.ColorButtonGreen;
-                    string dlLabel = Settings.manualApplyMode ? "Скачать" : "Скачать и применить";
+                    string dlLabel = Settings.manualApplyMode
+                        ? ("RUML_Download".CanTranslate() ? (string)"RUML_Download".Translate() : "Скачать")
+                        : ("RUML_DownloadAndApply".CanTranslate() ? (string)"RUML_DownloadAndApply".Translate() : "Скачать и применить");
                     if (Widgets.ButtonText(dlR, dlLabel))
                     {
                         RUMLCloudManager.DownloadAndInstallAsync(item, Content, Settings);
@@ -1333,6 +1642,197 @@ namespace RUML
 
             // Bottom Controls: Unified Apply Bar
             RUMLUI.DrawBottomApplyBar(inRect, Content, Settings);
+        }
+
+        // =========================================================================
+        // TAB 3: MOD SETTINGS & CONFIGURATION
+        // =========================================================================
+        private void DrawSettingsTab(Rect inRect)
+        {
+            Rect listRect = new Rect(inRect.x, inRect.y, inRect.width, inRect.height);
+            float curY = 10f;
+            float contentW = inRect.width - 44f;
+            float leftX = 10f;
+
+            // Compute dynamic view height
+            float viewHeight = 560f;
+            Rect viewRect = new Rect(0f, 0f, listRect.width - 24f, viewHeight);
+
+            Widgets.BeginScrollView(listRect, ref settingsScrollPos, viewRect);
+
+            // =========================================================================
+            // 1. TARGET LANGUAGE SETTINGS CARD
+            // =========================================================================
+            Rect cardLang = new Rect(leftX, curY, contentW, 125f);
+            Widgets.DrawBoxSolid(cardLang, RUMLUI.ColorCardBg);
+            Widgets.DrawHighlightIfMouseover(cardLang);
+
+            string h1 = "RUML_SettingsLangHeader".CanTranslate() ? (string)"RUML_SettingsLangHeader".Translate() : "Параметры целевого языка";
+            Widgets.Label(new Rect(cardLang.x + 10f, cardLang.y + 8f, cardLang.width - 20f, 24f), "<color=#80D0FF><b>" + h1 + "</b></color>");
+
+            string d1 = "RUML_SettingsLangDesc".CanTranslate() ? (string)"RUML_SettingsLangDesc".Translate() : "Определяет, в какую языковую папку загружаются и монтируются переводы, а также какой язык анализируется Аудитором.";
+            Text.Font = GameFont.Tiny;
+            Widgets.Label(new Rect(cardLang.x + 10f, cardLang.y + 32f, cardLang.width - 20f, 22f), "<color=#A0A0A0>" + d1 + "</color>");
+            Text.Font = GameFont.Small;
+
+            string effLang = RUMLFolderManager.GetTargetLanguageFolder();
+            string effFriendly = RUMLFolderManager.GetLanguageFriendlyName(effLang);
+            string curLangLabel = "RUML_SettingsCurrentLang".CanTranslate() ? (string)"RUML_SettingsCurrentLang".Translate() : "Текущий целевой язык:";
+            Widgets.Label(new Rect(cardLang.x + 10f, cardLang.y + 58f, 200f, 30f), curLangLabel);
+
+            string tLangDisplay;
+            if (Settings.targetLanguage == "auto" || string.IsNullOrEmpty(Settings.targetLanguage))
+            {
+                tLangDisplay = "RUML_LanguageAuto".CanTranslate() ? (string)"RUML_LanguageAuto".Translate(effFriendly) : ("Авто (" + effFriendly + ")");
+            }
+            else
+            {
+                string setFriendly = RUMLFolderManager.GetLanguageFriendlyName(Settings.targetLanguage);
+                tLangDisplay = string.Equals(setFriendly, Settings.targetLanguage, StringComparison.OrdinalIgnoreCase) ? Settings.targetLanguage : (setFriendly + " (" + Settings.targetLanguage + ")");
+            }
+            string tLangBtnText = tLangDisplay + " ▼";
+
+            Rect tLangBtnRect = new Rect(cardLang.x + 215f, cardLang.y + 54f, 280f, 30f);
+            if (Widgets.ButtonText(tLangBtnRect, tLangBtnText))
+            {
+                List<FloatMenuOption> lOpts = new List<FloatMenuOption>();
+                string autoOptText = "RUML_LanguageAuto".CanTranslate() ? (string)"RUML_LanguageAuto".Translate(effFriendly) : ("Авто (" + effFriendly + ")");
+                lOpts.Add(new FloatMenuOption(autoOptText, delegate()
+                {
+                    Settings.targetLanguage = "auto";
+                    RUMLTranslationDetector.ScanRunningMods();
+                }));
+
+                if (LanguageDatabase.AllLoadedLanguages != null)
+                {
+                    foreach (LoadedLanguage l in LanguageDatabase.AllLoadedLanguages)
+                    {
+                        if (l != null && !string.IsNullOrEmpty(l.folderName))
+                        {
+                            string fName = RUMLFolderManager.NormalizeLanguageName(l.folderName);
+                            string disp = string.IsNullOrEmpty(l.FriendlyNameNative) ? fName : (l.FriendlyNameNative + " (" + fName + ")");
+                            lOpts.Add(new FloatMenuOption(disp, delegate()
+                            {
+                                Settings.targetLanguage = fName;
+                                RUMLTranslationDetector.ScanRunningMods();
+                            }));
+                        }
+                    }
+                }
+                Find.WindowStack.Add(new FloatMenu(lOpts));
+            }
+
+            string activeDirText = "RUML_SettingsActiveGameFolder".CanTranslate() ? (string)"RUML_SettingsActiveGameFolder".Translate(effLang) : ("Активная языковая папка в игре: Languages/" + effLang);
+            Widgets.Label(new Rect(cardLang.x + 10f, cardLang.y + 92f, cardLang.width - 20f, 24f), "<color=#50E050>" + activeDirText + "</color>");
+
+            curY += 137f;
+
+            // =========================================================================
+            // 2. APPLICATION MODE CARD
+            // =========================================================================
+            Rect cardApply = new Rect(leftX, curY, contentW, 105f);
+            Widgets.DrawBoxSolid(cardApply, RUMLUI.ColorCardBg);
+            Widgets.DrawHighlightIfMouseover(cardApply);
+
+            string h2 = "RUML_SettingsApplyHeader".CanTranslate() ? (string)"RUML_SettingsApplyHeader".Translate() : "Режим применения изменений";
+            Widgets.Label(new Rect(cardApply.x + 10f, cardApply.y + 8f, cardApply.width - 20f, 24f), "<color=#80D0FF><b>" + h2 + "</b></color>");
+
+            Rect chkBoxRect = new Rect(cardApply.x + 10f, cardApply.y + 36f, 24f, 24f);
+            Widgets.Checkbox(chkBoxRect.x, chkBoxRect.y, ref Settings.manualApplyMode);
+
+            string modeLabel = "RUML_ManualApplyMode".CanTranslate() ? (string)"RUML_ManualApplyMode".Translate() : "Режим «Применить по кнопке» (мгновенные действия без задержек и зависаний)";
+            Rect modeLabelRect = new Rect(cardApply.x + 42f, cardApply.y + 36f, cardApply.width - 52f, 26f);
+            Widgets.Label(modeLabelRect, modeLabel);
+
+            string modeTip = "RUML_ManualApplyModeTooltip".CanTranslate() ? (string)"RUML_ManualApplyModeTooltip".Translate() : "В этом режиме скачивание, включение, отключение и удаление переводов выполняются мгновенно без повторной перезагрузки всей базы данных игры. Чтобы применить изменения в игре, нажмите кнопку применения внизу вкладки установленных переводов.";
+            Text.Font = GameFont.Tiny;
+            Widgets.Label(new Rect(cardApply.x + 42f, cardApply.y + 62f, cardApply.width - 52f, 36f), "<color=#A0A0A0>" + modeTip + "</color>");
+            Text.Font = GameFont.Small;
+
+            curY += 117f;
+
+            // =========================================================================
+            // 3. CLOUD CATALOG CONFIGURATION CARD
+            // =========================================================================
+            Rect cardCloud = new Rect(leftX, curY, contentW, 135f);
+            Widgets.DrawBoxSolid(cardCloud, RUMLUI.ColorCardBg);
+            Widgets.DrawHighlightIfMouseover(cardCloud);
+
+            string h3 = "RUML_SettingsCloudHeader".CanTranslate() ? (string)"RUML_SettingsCloudHeader".Translate() : "Облачный каталог переводов";
+            Widgets.Label(new Rect(cardCloud.x + 10f, cardCloud.y + 8f, cardCloud.width - 20f, 24f), "<color=#80D0FF><b>" + h3 + "</b></color>");
+
+            string urlLabel = "RUML_SettingsManifestUrl".CanTranslate() ? (string)"RUML_SettingsManifestUrl".Translate() : "URL манифеста переводов (GitHub raw JSON):";
+            Widgets.Label(new Rect(cardCloud.x + 10f, cardCloud.y + 34f, cardCloud.width - 20f, 22f), urlLabel);
+
+            Rect urlFieldR = new Rect(cardCloud.x + 10f, cardCloud.y + 58f, cardCloud.width - 20f, 28f);
+            Settings.cloudManifestUrl = Widgets.TextField(urlFieldR, Settings.cloudManifestUrl);
+
+            // Row with 3 action buttons evenly spaced
+            float btnSpacing = 10f;
+            float btnW = (cardCloud.width - 20f - (btnSpacing * 2f)) / 3f;
+
+            Rect resetUrlR = new Rect(cardCloud.x + 10f, cardCloud.y + 94f, btnW, 28f);
+            string resetText = "RUML_SettingsResetUrl".CanTranslate() ? (string)"RUML_SettingsResetUrl".Translate() : "Сбросить URL";
+            if (Widgets.ButtonText(resetUrlR, resetText))
+            {
+                Settings.cloudManifestUrl = RUMLSettings.DefaultManifestUrl;
+            }
+            TooltipHandler.TipRegion(resetUrlR, "Восстановить исходный официальный адрес каталога переводов: " + RUMLSettings.DefaultManifestUrl);
+
+            Rect expMfR = new Rect(resetUrlR.xMax + btnSpacing, cardCloud.y + 94f, btnW, 28f);
+            string expMfText = "RUML_ExportManifestTemplate".CanTranslate() ? (string)"RUML_ExportManifestTemplate".Translate() : "Экспорт manifest.json";
+            if (Widgets.ButtonText(expMfR, expMfText))
+            {
+                string f = RUMLCloudManager.ExportSampleManifest();
+                Messages.Message("RUML: Шаблон manifest.json сохранён на Рабочий стол: " + f, MessageTypeDefOf.PositiveEvent, false);
+            }
+            TooltipHandler.TipRegion(expMfR, "Создать пример файла manifest.json на рабочем столе для создания собственного репозитория переводов.");
+
+            Rect openDirR = new Rect(expMfR.xMax + btnSpacing, cardCloud.y + 94f, btnW, 28f);
+            string openTransDir = "RUML_OpenTranslationsFolder".CanTranslate() ? (string)"RUML_OpenTranslationsFolder".Translate() : "Открыть папку переводов";
+            if (Widgets.ButtonText(openDirR, openTransDir))
+            {
+                RUMLCloudManager.OpenTranslationsFolderInExplorer();
+            }
+            TooltipHandler.TipRegion(openDirR, RUMLFolderManager.GetExternalTranslationsDir());
+
+            curY += 147f;
+
+            // =========================================================================
+            // 4. UTILITIES & MAINTENANCE CARD
+            // =========================================================================
+            Rect cardUtils = new Rect(leftX, curY, contentW, 110f);
+            Widgets.DrawBoxSolid(cardUtils, RUMLUI.ColorCardBg);
+            Widgets.DrawHighlightIfMouseover(cardUtils);
+
+            string h4 = "RUML_SettingsUtilsHeader".CanTranslate() ? (string)"RUML_SettingsUtilsHeader".Translate() : "Служебные действия";
+            Widgets.Label(new Rect(cardUtils.x + 10f, cardUtils.y + 8f, cardUtils.width - 20f, 24f), "<color=#80D0FF><b>" + h4 + "</b></color>");
+
+            Rect reloadBtnR = new Rect(cardUtils.x + 10f, cardUtils.y + 36f, 320f, 30f);
+            Color prevRelCol = GUI.color;
+            GUI.color = RUMLUI.ColorAccentGreen;
+            string relText = "RUML_SettingsReloadLanguage".CanTranslate() ? (string)"RUML_SettingsReloadLanguage".Translate() : "Перезагрузить переводы в памяти игры сейчас";
+            if (Widgets.ButtonText(reloadBtnR, relText))
+            {
+                RUMLFolderManager.ApplyFilter(Content, Settings);
+                RUMLFolderManager.ReloadLanguage();
+            }
+            GUI.color = prevRelCol;
+
+            Rect resetAuditR = new Rect(reloadBtnR.xMax + 10f, cardUtils.y + 36f, 280f, 30f);
+            string resetAuditText = "RUML_SettingsResetAudit".CanTranslate() ? (string)"RUML_SettingsResetAudit".Translate() : "Сбросить выбор аудитора модов";
+            if (Widgets.ButtonText(resetAuditR, resetAuditText))
+            {
+                InitDefaultAuditSelection();
+                Messages.Message("RUML: Выбор аудитора сброшен к активным модам.", MessageTypeDefOf.PositiveEvent, false);
+            }
+
+            string aboutText = "RUML_SettingsAbout".CanTranslate() ? (string)"RUML_SettingsAbout".Translate() : "RUML (RimWorld Universal Mods Localization) | Автономный менеджер локализаций для RimWorld";
+            Text.Font = GameFont.Tiny;
+            Widgets.Label(new Rect(cardUtils.x + 10f, cardUtils.y + 76f, cardUtils.width - 20f, 24f), "<color=#707070>" + aboutText + "</color>");
+            Text.Font = GameFont.Small;
+
+            Widgets.EndScrollView();
         }
     }
 }
