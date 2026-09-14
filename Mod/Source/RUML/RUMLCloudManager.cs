@@ -440,6 +440,19 @@ namespace RUML
                                 Directory.CreateDirectory(parentDir);
                             }
 
+                            // Defense-in-depth: Windows MAX_PATH (260 chars) guard for RimWorld 32-bit/64-bit non-longpath runtime
+                            if (fullDestPath.Length >= 250 && !string.IsNullOrEmpty(parentDir))
+                            {
+                                string fnameOnly = Path.GetFileNameWithoutExtension(fullDestPath);
+                                string extOnly = Path.GetExtension(fullDestPath);
+                                int maxBaseLen = Math.Max(8, 245 - parentDir.Length - 1 - extOnly.Length);
+                                if (fnameOnly.Length > maxBaseLen)
+                                {
+                                    fnameOnly = fnameOnly.Substring(0, maxBaseLen);
+                                    fullDestPath = Path.Combine(parentDir, fnameOnly + extOnly);
+                                }
+                            }
+
                             entry.ExtractToFile(fullDestPath, true);
                         }
                     }

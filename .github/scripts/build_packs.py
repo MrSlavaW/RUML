@@ -131,13 +131,22 @@ def build():
                                     rel_str = f"Languages/{lang_name}/{str(rel_path).replace(chr(92), '/')}"
 
                                 # Ensure unique relative file paths across all RUML mods to prevent
-                                # RimWorld's tmpAlreadyLoadedFiles[mod] from dropping files with identical names
+                                # RimWorld's tmpAlreadyLoadedFiles[mod] from dropping files with identical names.
+                                # Use compact slug prefix and strip _Missing to strictly respect Windows MAX_PATH (260 chars).
                                 parts = rel_str.split("/")
                                 fname = parts[-1]
                                 if fname.endswith(".xml") and ("Keyed" in parts or "DefInjected" in parts):
-                                    prefix = f"{mod_name}_"
-                                    if not fname.lower().startswith(prefix.lower()):
-                                        parts[-1] = f"{prefix}{fname}"
+                                    words = [w for w in re.split(r"[_\-\s]+", mod_name) if w]
+                                    slug = "".join(w[0] for w in words).lower()
+                                    if len(slug) < 3:
+                                        slug = clean_id(mod_name)[:6]
+                                    prefix = f"{slug[:6]}_"
+                                    clean_fname = re.sub(r"^" + re.escape(mod_name) + r"_", "", fname, flags=re.IGNORECASE)
+                                    clean_fname = clean_fname.replace("_Missing.xml", ".xml")
+                                    if not clean_fname.lower().startswith(prefix.lower()):
+                                        parts[-1] = f"{prefix}{clean_fname}"
+                                    else:
+                                        parts[-1] = clean_fname
                                 arc_name = "/".join(parts)
 
                             # Security: Block path traversal in zip entry name
