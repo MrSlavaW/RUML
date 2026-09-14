@@ -26,6 +26,9 @@
   <RUML_NoInstalledTranslations>Локализации ещё не установлены в RUML.\nRUML работает как автономное ядро. Вы можете скачать нужные переводы во вкладке «Каталог переводов».</RUML_NoInstalledTranslations>
   <RUML_GoToCatalog>Перейти в каталог переводов</RUML_GoToCatalog>
   <RUML_OpenTranslationsFolder>Открыть папку переводов</RUML_OpenTranslationsFolder>
+  <RUML_RefreshList>Обновить список</RUML_RefreshList>
+  <RUML_RefreshListTooltip>Пересканировать директорию RUML_Translations и обновить список установленных модификаций без перезапуска игры.</RUML_RefreshListTooltip>
+  <RUML_ListRefreshedCount>Список установленных переводов обновлен ({0}).</RUML_ListRefreshedCount>
   <RUML_EnableAll>Включить все</RUML_EnableAll>
   <RUML_DisableAll>Отключить все</RUML_DisableAll>
   <RUML_CheckUpdates>Проверить обновления</RUML_CheckUpdates>

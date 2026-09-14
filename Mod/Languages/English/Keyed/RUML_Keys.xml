@@ -26,6 +26,9 @@
   <RUML_NoInstalledTranslations>No translations installed in RUML yet.\nRUML operates as a standalone manager. You can discover and download community translations in the 'Cloud Catalog' tab.</RUML_NoInstalledTranslations>
   <RUML_GoToCatalog>Go to Cloud Catalog</RUML_GoToCatalog>
   <RUML_OpenTranslationsFolder>Open Translations Folder</RUML_OpenTranslationsFolder>
+  <RUML_RefreshList>Refresh List</RUML_RefreshList>
+  <RUML_RefreshListTooltip>Rescan the RUML_Translations directory and update the list of installed modifications without restarting the game.</RUML_RefreshListTooltip>
+  <RUML_ListRefreshedCount>Installed translations list refreshed ({0}).</RUML_ListRefreshedCount>
   <RUML_EnableAll>Enable All</RUML_EnableAll>
   <RUML_DisableAll>Disable All</RUML_DisableAll>
   <RUML_CheckUpdates>Check Updates</RUML_CheckUpdates>

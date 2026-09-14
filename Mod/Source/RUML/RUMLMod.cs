@@ -346,7 +346,21 @@ namespace RUML
                     currentMainTab = 2;
                 }
 
-                Rect emptyDirRect = new Rect(inRect.x + 10f, goBtn.yMax + 14f, 240f, 32f);
+                Rect refBtnEmpty = new Rect(inRect.x + 10f, goBtn.yMax + 14f, 200f, 32f);
+                string refTextEmpty = "RUML_RefreshList".CanTranslate() ? (string)"RUML_RefreshList".Translate() : "Обновить список";
+                if (Widgets.ButtonText(refBtnEmpty, refTextEmpty))
+                {
+                    RUMLFolderManager.InvalidateCache();
+                    allMods = RUMLFolderManager.GetAllInstalledMods();
+                    RUMLFolderManager.ApplyFilter(Content, Settings);
+                    RUMLCloudManager.RefreshLocalState(Content);
+                    string msg = "RUML_ListRefreshedCount".CanTranslate() ? (string)"RUML_ListRefreshedCount".Translate(allMods.Count) : ("Список установленных переводов обновлен (" + allMods.Count + ").");
+                    RUMLCloudManager.StatusMessage = msg;
+                    Messages.Message(msg, MessageTypeDefOf.TaskCompletion, false);
+                }
+                TooltipHandler.TipRegion(refBtnEmpty, "RUML_RefreshListTooltip".CanTranslate() ? (string)"RUML_RefreshListTooltip".Translate() : "Пересканировать директорию RUML_Translations и обновить список установленных модификаций без перезапуска игры.");
+
+                Rect emptyDirRect = new Rect(refBtnEmpty.xMax + 10f, goBtn.yMax + 14f, 240f, 32f);
                 string openDirText = "RUML_OpenTranslationsFolder".CanTranslate() ? (string)"RUML_OpenTranslationsFolder".Translate() : "Открыть папку переводов";
                 if (Widgets.ButtonText(emptyDirRect, openDirText))
                 {
@@ -356,15 +370,31 @@ namespace RUML
                 return;
             }
 
-            // Top Controls: Row 1 - Search & Batch Toggle
+            // Top Controls: Row 1 - Search, Refresh List & Batch Toggle
             Rect topRect = new Rect(inRect.x, inRect.y, inRect.width, 30f);
-            float btnW = 125f;
+            float refW = 145f;
+            float btnW = 115f;
 
-            Rect searchRect = new Rect(topRect.x, topRect.y, inRect.width - (btnW * 2 + 20f), 30f);
+            Rect searchRect = new Rect(topRect.x, topRect.y, inRect.width - (refW + btnW * 2 + 30f), 30f);
             RUMLUI.DrawSearchBar(searchRect, ref modsSearchFilter);
 
+            string refreshListText = "RUML_RefreshList".CanTranslate() ? (string)"RUML_RefreshList".Translate() : "Обновить список";
+            Rect refBtnRect = new Rect(searchRect.xMax + 10f, topRect.y, refW, 30f);
+            if (Widgets.ButtonText(refBtnRect, refreshListText))
+            {
+                RUMLFolderManager.InvalidateCache();
+                allMods = RUMLFolderManager.GetAllInstalledMods();
+                RUMLFolderManager.ApplyFilter(Content, Settings);
+                RUMLCloudManager.RefreshLocalState(Content);
+                string msg = "RUML_ListRefreshedCount".CanTranslate() ? (string)"RUML_ListRefreshedCount".Translate(allMods.Count) : ("Список установленных переводов обновлен (" + allMods.Count + ").");
+                RUMLCloudManager.StatusMessage = msg;
+                Messages.Message(msg, MessageTypeDefOf.TaskCompletion, false);
+            }
+            TooltipHandler.TipRegion(refBtnRect, "RUML_RefreshListTooltip".CanTranslate() ? (string)"RUML_RefreshListTooltip".Translate() : "Пересканировать директорию RUML_Translations и обновить список установленных модификаций без перезапуска игры.");
+
             string enableAllText = "RUML_EnableAll".CanTranslate() ? (string)"RUML_EnableAll".Translate() : "Включить все";
-            if (Widgets.ButtonText(new Rect(searchRect.xMax + 10f, topRect.y, btnW, 30f), enableAllText))
+            Rect enableBtnRect = new Rect(refBtnRect.xMax + 10f, topRect.y, btnW, 30f);
+            if (Widgets.ButtonText(enableBtnRect, enableAllText))
             {
                 foreach (InstalledModItem m in allMods) Settings.SetModEnabled(m.ModFolder, true);
                 RUMLFolderManager.ApplyFilter(Content, Settings);
@@ -379,7 +409,8 @@ namespace RUML
             }
 
             string disableAllText = "RUML_DisableAll".CanTranslate() ? (string)"RUML_DisableAll".Translate() : "Отключить все";
-            if (Widgets.ButtonText(new Rect(searchRect.xMax + btnW + 20f, topRect.y, btnW, 30f), disableAllText))
+            Rect disableBtnRect = new Rect(enableBtnRect.xMax + 10f, topRect.y, btnW, 30f);
+            if (Widgets.ButtonText(disableBtnRect, disableAllText))
             {
                 foreach (InstalledModItem m in allMods) Settings.SetModEnabled(m.ModFolder, false);
                 RUMLFolderManager.ApplyFilter(Content, Settings);
