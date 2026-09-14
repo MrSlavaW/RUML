@@ -364,6 +364,20 @@
     "targetFolder": "TooManyMods/MrSlavaV"
   },
   {
+    "id": "vanilla_gravship_expanded___chapter_2_russian_mrslavav",
+    "modName": "Vanilla_Gravship_Expanded_-_Chapter_2",
+    "packageId": "vanillaexpanded.gravship2",
+    "author": "MrSlavaV",
+    "language": "Russian",
+    "version": "1.0.0",
+    "hash": "17714919671b6661ed6635e93618fba5",
+    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/Vanilla_Gravship_Expanded_-_Chapter_2/MrSlavaV/Vanilla_Gravship_Expanded_-_Chapter_2.zip",
+    "description": "Русская локализация для мода Vanilla Gravship Expanded - Chapter 2.",
+    "modFolder": "Vanilla_Gravship_Expanded_-_Chapter_2",
+    "authorFolder": "MrSlavaV",
+    "targetFolder": "Vanilla_Gravship_Expanded_-_Chapter_2/MrSlavaV"
+  },
+  {
     "id": "vanometricgenerator_russian_mrslavav",
     "modName": "VanometricGenerator",
     "packageId": "hlx.vanometricgenerator",
@@ -390,19 +404,5 @@
     "modFolder": "VOE_Factory",
     "authorFolder": "MrSlavaV",
     "targetFolder": "VOE_Factory/MrSlavaV"
-  },
-  {
-    "id": "vanillagravshipexpandedchapter2_russian_mrslavav",
-    "modName": "Vanilla Gravship Expanded - Chapter 2",
-    "packageId": "vanillaexpanded.gravship2",
-    "author": "MrSlavaV",
-    "language": "Russian",
-    "version": "1.0.0",
-    "hash": "132b6bffa4f003bd87cac5525cbc9e4d",
-    "downloadUrl": "https://raw.githubusercontent.com/MrSlavaW/RUML/main/packs/Vanilla_Gravship_Expanded_-_Chapter_2/MrSlavaV/Vanilla_Gravship_Expanded_-_Chapter_2.zip",
-    "description": "Русская локализация для мода Vanilla Gravship Expanded - Chapter 2.",
-    "modFolder": "Vanilla_Gravship_Expanded_-_Chapter_2",
-    "authorFolder": "MrSlavaV",
-    "targetFolder": "Vanilla_Gravship_Expanded_-_Chapter_2/MrSlavaV"
   }
 ]
